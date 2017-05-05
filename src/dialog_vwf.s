@@ -3,13 +3,13 @@ read_base_address=assets_vwf_bin
 write_base_address_low=0xE280 + 0x20
 
 *=0xDA3B2E
-nop
-nop
-nop
+    nop
+    nop
+    nop
 
 ; copy__char_counter
 *=0xDA3E9F
-jmp.w copy_counter
+    jmp.w copy_counter
 
 *=0xDA3CC5
     pla
