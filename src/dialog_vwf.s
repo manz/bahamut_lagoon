@@ -11,10 +11,6 @@ nop
 *=0xDA3E9F
 jmp.w copy_counter
 
-; indent lines
-*=0xDA3E3F
-    jsr.w operation_seduction
-
 *=0xDA3CC5
     pla
     jmp.l vwf_char
