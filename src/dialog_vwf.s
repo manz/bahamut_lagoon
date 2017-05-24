@@ -14,7 +14,7 @@ write_base_address_low=0xE280 + 0x20
 *=0xDA3CC5
     pla
     jmp.l vwf_char
-    return_from_vwf_char:
+return_from_vwf_char:
     rts
 
 copy_counter:
@@ -69,7 +69,7 @@ shift_copy:
     phx
     lda #0x10
     {
-shift_copy_loop:
+    shift_copy_loop:
         pha
         lda.l read_base_address, x
         sta.l 0x004203
@@ -87,7 +87,7 @@ shift_copy_loop:
 
         ora.w write_base_address_low, y
         sta.w write_base_address_low, y
-        lsr
+       ; lsr
 ;        sta.w write_base_address_low + 1, y
 
         rep #0x20
@@ -114,7 +114,7 @@ raw_copy:
     phx
     lda #0x10
     {
-raw_copy_loop:
+    raw_copy_loop:
         pha
         lda.l read_base_address, x
         ora.w write_base_address_low, y
