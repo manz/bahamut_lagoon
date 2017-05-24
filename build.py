@@ -1,17 +1,15 @@
 #!/usr/bin/env python3
 import struct
-from a816.cpu.cpu_65c816 import RomType
+
+import os
+from a816.cpu.cpu_65c816 import RomType, snes_to_rom
 from a816.program import Program
-from a816.writers import SFCWriter, IPSWriter
-from io import BytesIO
+from a816.writers import IPSWriter
 
-from utils.dump_rooms import build_text_patch
-from utils.lz import lz_compress, lz_decompress
+from script import Table
 
-predefined_symbols = {
-    'DEBUG': 0,
-    'DATA': 0
-}
+from utils.dump_battle_rooms import build_battle_text_patch
+from utils.inline_strings import insert_dragon_feed_inline_strings, insert_battle_commands_strings
 
 
 def build_assembly(input, output, writer):
@@ -41,12 +39,25 @@ def build_assembly(input, output, writer):
 #         fd.write(compressed)
 
 if __name__ == '__main__':
+    lang = 'mz'
+    table_path = os.path.join(os.path.dirname(__file__), 'text/table')
+    table = Table(os.path.join(table_path, f'{lang}.tbl'))
     with open('bl.ips', 'wb') as f:
-        writer = IPSWriter(f)
+        writer = IPSWriter(f, check_for_overlap=True)
         writer.begin()
 
         with open('bl.sfc', 'rb') as rom:
-            build_text_patch(rom, writer, '_mz')
-        build_assembly('bl.s', 'bl.ips', writer)
+            #     # build_text_patch(rom, table, writer)
+            build_battle_text_patch(rom, table, writer)
+
+        with open('src_assets/8x8_battle.dat', 'rb') as battle_font:
+            writer.write_block(battle_font.read(), 0x261B40)
+
+        with open('src_assets/8x8_font.dat', 'rb') as small_font:
+            writer.write_block(small_font.read(), 0x8A000)
+
+        insert_dragon_feed_inline_strings(writer, snes_to_rom(0xFC0000))
+        insert_battle_commands_strings(writer, snes_to_rom(0xFD0000))
+        build_assembly('bl.s', './bl.ips', writer)
 
         writer.end()
