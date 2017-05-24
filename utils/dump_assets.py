@@ -13,7 +13,6 @@ def byte_to_bit_array(c):
     for i in range(0, 16):
         v = ((c & (1 << (k - i))) >> (k - i)) & 0xFF
         retval.append(v)
-    # print(retval)
     return retval
 
 
@@ -67,7 +66,7 @@ def extract_font_char_for_ocr(data):
     return np.array(font)
 
 
-def get_font_as_image(data):
+def dump_vwf(data):
     font = None
     for i in range(0, 64):
         line = None
@@ -127,6 +126,12 @@ def read_tesseract_results():
         out.write('</html>')
 
 
+def put_tesseract_results_in_firebase():
+    for k in range(1024):
+        with open(f'./text/ocr/scaled/{k:04d}.txt', 'rt', encoding='utf-8') as t:
+            value = t.read().strip()
+
+
 def build_table():
     with open('./text/table_jp.tbl', 'w', encoding='utf-8') as output:
         for k in range(1024):
@@ -147,32 +152,39 @@ def batch_rename():
         os.rename(f'/tmp/jap_text/{k:04x}.png', f'/tmp/jap_text/{k:04d}.png')
 
 
-def dump_asset(rom, address, size, output_file):
+asset_processor = {
+    'vwf': dump_vwf,
+    'raw': lambda data: data
+}
+
+
+def dump_asset(asset_type, rom, address, size, output_file):
     with open(output_file, 'wb') as output:
         rom.seek(address)
         data = rom.read(size)
         # extract_font(data)
         # print(extract_font(data))
-        image_data = get_font_as_image(data)
-        extract_font_char_for_ocr(data)
+        image_data = asset_processor[asset_type](data)
+        # extract_font_char_for_ocr(data)
         output.write(image_data)
 
 
 def process_asset_list(rom, assets):
     for asset in assets:
-        args = (rom,) + asset
-        dump_asset(*args)
+        args = (rom,) + asset[1:]
+        dump_asset(asset[0], *args)
 
 
 if __name__ == '__main__':
     # batch_rename()
-    read_tesseract_results()
-    build_table()
-    exit(1)
+    # read_tesseract_results()
+    # build_table()
+    # exit(1)
     # build_table()
     assets_to_dump = [
-        (0x2D0000, 0x6000, 'src_assets/vwf.png'),
-        # (0x8A000, 0xD00, 'src_assets/8x8_font.dat'),
+        ('vwf', 0x2D0000, 0x6000, 'src_assets/vwf.png'),
+        ('raw', 0x8A000, 0xD00, 'src_assets/8x8_font.dat'),
+        ('raw', 0x261B40, 0x264940 - 0x261B40, 'src_assets/8x8_battle.dat'),
         # (0x28CD55, 0x400, 'src_assets/intro_font.dat')
     ]
 
