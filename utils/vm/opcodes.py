@@ -22,11 +22,11 @@ def get_string_from_room(room, address, table):
             pos = len(room_data)
             break
         if room_data[pos] in (0xFF, 0xFD):
-            pos += 1
+            pos += 2
             break
         pos += 1
 
-    if room.suffix == '_jp':
+    if room.lang == 'jp':
         text_data = bl_prefix_lookup_chars(bytes(room_data[address:pos]))
     else:
         text_data = bytes(room_data[address:pos])

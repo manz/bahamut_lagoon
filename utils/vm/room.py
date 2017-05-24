@@ -1,8 +1,6 @@
 import os
 import struct
 
-from script import Table
-
 from utils.vm import AlreadyVisitedError
 from .program import Program
 
@@ -10,6 +8,7 @@ import xml.etree.ElementTree as ET
 from xml.dom import minidom
 
 text_path = os.path.join(os.path.dirname(__file__), '../../text')
+
 
 def prettify(elem):
     """Return a pretty-printed XML string for the Element.
@@ -20,11 +19,10 @@ def prettify(elem):
 
 
 class Room(object):
-    def __init__(self, room, opcode_table, opcode_names, suffix):
-
-        self.table = Table(os.path.join(text_path, f'table{suffix}.tbl'))
-        self.room = room #+ b'\xff' * 255
-        self.suffix = suffix
+    def __init__(self, room, opcode_table, opcode_names, table, lang=None):
+        self.table = table
+        self.room = room + b'\xff' * 5
+        self.lang = lang
         self.pc = 0
         self.texts = {}
         self.references = {}
@@ -87,14 +85,14 @@ class Room(object):
         data = self.room[self.pc + delta: self.pc + size]
         return data
 
-    def dump_text(self):
+    def dump_text(self, override_strings=None):
         text_program = self.program.filter(lambda _, e: e[0][0] == 'text')
         sorted_program_keys = sorted(text_program.keys())
         if len(sorted_program_keys) > 0:
             root = ET.Element('texts')
             root.set('room_id', str(self.id))
             root.set('base', hex(sorted_program_keys[0]))
-
+            index = 0
             for key in sorted_program_keys:
                 text = ET.SubElement(root, 'text')
 
@@ -107,12 +105,13 @@ class Room(object):
                     ref.text = hex(pointer)
 
                 data = ET.SubElement(text, 'data')
-                # if self.suffix == '_jp':
-                #     data.text = bl_lookup_prefixed_chars(bytes(text_program[key][0][1]), self.table).replace('\\s', ' ')
-                # else:
-                data.text = self.table.to_text(bytes(text_program[key][0][1])).replace('\\s', ' ')
+                if override_strings:
+                    data.text = override_strings[index]
+                else:
+                    data.text = self.table.to_text(bytes(text_program[key][0][1])).replace('\\s', ' ')
+                index += 1
 
-            return prettify(root)
+            return root
         return None
 
     def _apply_patches(self, base, patches, text_data):
@@ -124,8 +123,7 @@ class Room(object):
 
         return patched_room
 
-    def update_text(self, text_file):
-        tree = ET.parse(text_file)
+    def update_text(self, tree):
         texts = tree.getroot()
 
         base = int(texts.get('base'), 16)
@@ -140,7 +138,18 @@ class Room(object):
 
             data = text.find('data')
             encoded_text = self.table.to_bytes(data.text.replace(' ', r'\s'))
-            # print('encoded', self.table.to_text(encoded_text).replace(r'\s', ' '))
+            hexdump(encoded_text)
             text_data += encoded_text
 
+        # hexdump(text_data)
+
         return self._apply_patches(base, patches, text_data)
+
+
+def hexdump(data):
+    pos = 0
+    line = data[:0x10]
+    while line != b'':
+        print(f'{pos*0x10:#06x}: ' + ' '.join([f'{d:#04x}' for d in line]))
+        pos += 1
+        line = data[pos * 0x10: (pos + 1) * 0x10]
