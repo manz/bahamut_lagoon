@@ -81,7 +81,7 @@ def check_04(room):
     room.restore_pc()
 
 
-def disassemble(room):
+def disassemble(room, display_program=False):
     header_length = room.get_word()
     if header_length > 2:
         room.program.put_reference(2, room.get_word(2), comment='room 2')
@@ -127,58 +127,34 @@ def disassemble(room):
             except NoMoreEventsForPlayer:
                 break
 
-    room.program.display_program()
-    # room.program.compile('/tmp/out.bin')
-    # with open('/tmp/{}.txt'.format(room.id), 'w', encoding='utf-8') as output:
-    #     room.program.display_program(output)
-    #     room.program.check_for_gaps()
-    #     room.program.opcode_frequency()
-    #     room.display_gathered_texts()
+    if display_program:
+        room.program.display_program()
 
 
-def live_disasm(room_id, data, suffix=''):
-    room = Room(data, opcode_table, opcode_names, suffix)
+def live_disasm(room_id, data, table, lang=None, display_program=False):
+    room = Room(data, opcode_table, opcode_names, table, lang=lang)
     room.id = room_id
-    disassemble(room)
+    disassemble(room, display_program=display_program)
     return room
 
 
-def disasm_room(room_id, suffix=''):
-    with open(f'../rooms{suffix}/{room_id:04d}.bin', 'rb') as un:
-        room_data = un.read()
-        if len(room_data) > 1:
-            print('disasm', room_id)
-            room = Room(room_data, opcode_table, opcode_names, suffix)
-            room.id = room_id
-            disassemble(room)
+# def disasm_room(room_id, table, lang=None):
+#     with open(f'../rooms_{lang}/{room_id:04d}.bin', 'rb') as un:
+#         room_data = un.read()
+#         if len(room_data) > 1:
+#             print('disasm', room_id)
+#             room = Room(room_data, opcode_table, opcode_names, table, lang=lang)
+#             room.id = room_id
+#             disassemble(room)
+#
+#
+# def disasm_rooms(table, lang=None):
+#     # Nothing prevents uncompressed rooms to cross jump into another but the jump addresses cannot be the same across
+#     # rooms it might point to an error in disasm.
+#     for room_id in range(0, 0xFE):
+#         disasm_room(room_id, table, lang=lang)
 
 
-def disasm_rooms(suffix=''):
-    # Nothing prevents uncompressed rooms to cross jump into another but the jump addresses cannot be the same across
-    # rooms it might point to an error in disasm.
-    forbidden_rooms = [
-        79,
-        81,  # actor table problem ?
-        100,  # jump outside
-        129,  # jump outside
-        130,  # jump outside
-        131,  # jump outside
-        132,  # jump outside
-        134,  # jump outside
-        135,  # jump outside
-        135,  # jump outside
-        136,  # jump outside
-        137,  # jump outside
-        138,  # jump outside
-        139,  # jump outside
-        140,  # jump outside
-
-    ]
-    for room_id in range(0, 0xFE):
-        if room_id not in forbidden_rooms:
-            disasm_room(room_id, suffix=suffix)
-
-
-if __name__ == '__main__':
-    # disasm_rooms(suffix='_en')
-    disasm_room(0, suffix='_fr')
+# if __name__ == '__main__':
+#     # disasm_rooms(suffix='_en')
+#     disasm_room(0, lang='fr')
