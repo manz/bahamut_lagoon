@@ -9,6 +9,7 @@ from a816.writers import IPSWriter
 from script import Table
 
 from utils.dump_battle_rooms import build_battle_text_patch
+from utils.dump_rooms import build_text_patch
 from utils.inline_strings import insert_dragon_feed_inline_strings, insert_battle_commands_strings
 
 
@@ -47,7 +48,7 @@ if __name__ == '__main__':
         writer.begin()
 
         with open('bl.sfc', 'rb') as rom:
-            #     # build_text_patch(rom, table, writer)
+            build_text_patch(rom, table, writer)
             build_battle_text_patch(rom, table, writer)
 
         with open('src_assets/8x8_battle.dat', 'rb') as battle_font:
