@@ -34,6 +34,7 @@ class Room(object):
         self.opcode_table = opcode_table
         self.opcode_names = opcode_names
         self.id = 0
+        self.debug_outside_jump_protection = False
 
     def save_pc(self):
         self._pc.append(self.pc)
@@ -50,6 +51,15 @@ class Room(object):
     def jump_to(self, address):
         if address in self.jump_addresses:
             raise AlreadyVisitedError()
+
+        if self.debug_outside_jump_protection:
+            skip = False
+            if address > len(self.room):
+                print(f'Outside jump to {address:02x}')
+
+                raise AlreadyVisitedError()
+
+        print(f'Jump to {address:02x}')
         self.pc = address
         self.jump_addresses.append(address)
         self.program.put_label(address)
@@ -141,7 +151,6 @@ class Room(object):
             hexdump(encoded_text)
             text_data += encoded_text
 
-        # hexdump(text_data)
 
         return self._apply_patches(base, patches, text_data)
 
