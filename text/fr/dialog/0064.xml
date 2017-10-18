@@ -1,0 +1,607 @@
+<?xml version="1.0" ?>
+<texts base="0x8b6" room_id="64">
+    <text>
+        <refs>
+            <ref>0x4e2</ref>
+        </refs>
+        <data>MARCHAND ENVOYE AU CHAMP DE
+BATAILLE:
+Tu cherches quelque chose?
+Je prends de nouvelles choses dans
+mes stocks,ainsi la prochaine fois,
+j'aurai de nouveaux objets à vendre![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5f8</ref>
+            <ref>0x613</ref>
+        </refs>
+        <data>Il y a une lettre...[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5fc</ref>
+        </refs>
+        <data> La lire...
+ Ne pas la lire![end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x60a</ref>
+        </refs>
+        <data>Avant que tu ne l'oublies,tu es un
+marchand envoyé au champ de bataille.
+ 
+Ainsi,comme tu l'aimes,tu pourras
+voyager.
+ 
+Occasionnellement,tu pourras revenir au
+magasin.
+ 
+J'espère qu'on se reverra.
+Je t'enverrai de temps à autre un
+peu d'alcool.
+Tu seras seul!
+C'est bien pour toi...[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7f5</ref>
+        </refs>
+        <data>Connais-tu l'Escadron Dragon de
+Campbell?
+ 
+ Oui
+ Non[end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x806</ref>
+        </refs>
+        <data>Oh ciel! C'est rare![end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x812</ref>
+        </refs>
+        <data>Oh ce n'est pas grave...[end]U</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x81c</ref>
+        </refs>
+        <data>Un membre de cet escadron est ici au
+second étage.
+Il est seul et misérable!
+Ses compagnons ont totalement été
+disséminés par l'Empire.[end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4fb</ref>
+        </refs>
+        <data>Est-ce possible?!
+Tu es LE [character][0x1]?
+ 
+Je suis si contente!
+Je cherche à te rencontrer depuis si
+longtemps![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x211</ref>
+        </refs>
+        <data>SENDACK:
+Veux-tu que je te dise quelque chose?
+ 
+ M'en informer.
+ Ignorer.[end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x23a</ref>
+        </refs>
+        <data>SENDACK:
+Hum hum...
+Oui...[end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x226</ref>
+        </refs>
+        <data>Je pensais à quelque chose de très
+important!
+ 
+Le Dragon Sacré,dans le corps de la
+Princesse,m'a beaucoup surpris.
+ 
+Il dérange énormément la Princesse
+et il ne prête pas attention à ses
+sentiments.
+Tu sais,une fille de l'âge de la
+Princesse a tout de même besoin de
+tendresse![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x22f</ref>
+        </refs>
+        <data>SENDACK:
+Oh,pardonne-moi [character][0x1]!
+Je ne sais plus ce que je dis!
+J'ai trop bu...[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x75f</ref>
+        </refs>
+        <data>ZORA:
+[character][0x1]!
+Parle-lui![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x299</ref>
+            <ref>0x28c</ref>
+        </refs>
+        <data>Humm,encore [0xb4] minutes...[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x26a</ref>
+        </refs>
+        <data>Humm,encore [0xb2] minutes...[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x26e</ref>
+        </refs>
+        <data> Le laisser dormir.
+ Le réveiller brutalement.
+ Le réveiller doucement.[end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x280</ref>
+        </refs>
+        <data>Huuummm... plus tard...
+Merci...[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3c5</ref>
+            <ref>0x2aa</ref>
+            <ref>0x25d</ref>
+            <ref>0x327</ref>
+        </refs>
+        <data>Hé![end]Q</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2ca</ref>
+        </refs>
+        <data>Qui est là?!
+Pourquoi m'as-tu réveillé?[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2e1</ref>
+        </refs>
+        <data>Héhé!
+Tu es un membre de l'Escadron Dragon
+de Kana?
+Dans ce cas-là,Nettoyage![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x307</ref>
+        </refs>
+        <data>C'est plus propre![end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x31b</ref>
+        </refs>
+        <data>ZORA:
+Ce n'est pas étonnant de te trouver
+dans un tel lieu![end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x336</ref>
+        </refs>
+        <data>ZORA:
+[character][0x1]!
+Cet enfant,ici,est mon fils.
+Il est resté au pays lorsque je suis
+partie![end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x367</ref>
+        </refs>
+        <data>ZORA:
+Tu as des explications à me donner![end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x37b</ref>
+        </refs>
+        <data>Ou... oui!
+ 
+ 
+Tout comme ceux de Kana,les soldats
+de l'Escadron Dragon de Campbell ont
+été vaincus.
+Et alors,il ne restait plus qu'une
+personne résistante pour aider Campbell:
+Moi![end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x387</ref>
+        </refs>
+        <data>ZORA:
+Capitaine de l'Escadron de Campbell?![end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x393</ref>
+        </refs>
+        <data>Est-ce là ton seul dragon?[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x39f</ref>
+        </refs>
+        <data>ZORA:
+Est-ce ce que tu es devenu?!
+Tu es pitoyable!
+Tu es si faible...[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3ab</ref>
+        </refs>
+        <data>ZORA:
+Tu as changé de dragon!
+Comment se nomme-t-il?[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3b7</ref>
+        </refs>
+        <data>Il est repoussant...[end]V</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3de</ref>
+        </refs>
+        <data>Viens!
+[0xa8]S'il te plaît...[0xa9][end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x400</ref>
+        </refs>
+        <data>ZORA:
+Tu n'as pas assez d'expérience pour
+diriger ce dragon.
+C'est honteux![end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x40c</ref>
+        </refs>
+        <data>ZORA:
+[character][0x1],donne-lui juste un ordre.[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x410</ref>
+            <ref>0x424</ref>
+        </refs>
+        <data> Viens!
+ Stop![end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x420</ref>
+        </refs>
+        <data>ZORA:
+Qu'essaies-tu de faire?
+Recommence,[character][0x1]![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x44e</ref>
+        </refs>
+        <data>Im... impressionnant!
+Ce dragon têtu lui obéit!
+ 
+Tu es bien le chef de l'Escadron
+de Kana![end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x45f</ref>
+        </refs>
+        <data>ZORA:
+Très bien,nous avons justement besoin
+d'un tel dragon![end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x46d</ref>
+        </refs>
+        <data>ZORA:
+Ecoute [character][0x1]!
+ 
+Est-ce que mon fils et ce dragon
+pourraient avoir une place sur le
+bateau?
+ Ils seront les bienvenus!
+ Seul le dragon peut venir...[end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x479</ref>
+        </refs>
+        <data>Impossible![end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x489</ref>
+        </refs>
+        <data>Je t'en remercie,[character][0x1]![end]F</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x47d</ref>
+            <ref>0x48d</ref>
+        </refs>
+        <data>Fils!
+Là-bas,il y a un grand corridor à
+laver!
+Tu seras occupé comme ça!
+Ensuite tu auras beaucoup de choses à
+apprendre.[end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4b4</ref>
+        </refs>
+        <data>Allez!
+Viens ici![end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4a6</ref>
+        </refs>
+        <data>A FARENHEIT,
+tu sauras de très nombreuses choses.[end]V</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x536</ref>
+        </refs>
+        <data>Veuillez nommer ce dragon.[end]F</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x579</ref>
+        </refs>
+        <data>FILS DE ZORA:
+Très bien!
+ 
+Le dragon a maintenant un nom!
+Je t'en remercie vraiment![end]F</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x250</ref>
+            <ref>0x585</ref>
+        </refs>
+        <data>FILS DE ZORA:
+Au... au fait,je... je suis...
+Mon job,c'est Lancier!
+La propreté,c'est mon atout!
+Je vaux aussi mieux que ça,
+ne t'inquiète pas![end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5aa</ref>
+        </refs>
+        <data>BIKKEBAKKE:
+[character][0x1]!
+ 
+Si je tourne [0xb0][0xaf][0xaf][0xaf] fois pour surveiller
+le portefeuille,ce grand-père me
+donnera de l'argent![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x510</ref>
+            <ref>0x51f</ref>
+        </refs>
+        <data>Hihi,hihihi!
+Ca me fait bien rire!
+Hihihi,hihi![end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5b3</ref>
+        </refs>
+        <data>BIKKEBAKKE:
+Qu'est-ce qu'il y a?
+ 
+ Continue à monter la garde.
+ Tu me déçois...[end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5c0</ref>
+        </refs>
+        <data>Frère,tout va bien!
+Il n'y a aucun problème![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5da</ref>
+        </refs>
+        <data>Très bien!
+Je continue à surveiller ce portefeuille![end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5cf</ref>
+        </refs>
+        <data>Je le savais![end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5e1</ref>
+        </refs>
+        <data>BIKKEBAKKE:
+Frère...
+ 
+Je ne crois pas qu'il me mente!
+Il va tenir parole.[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x76a</ref>
+        </refs>
+        <data>Les hommes sont derrière et essaient
+des armures.
+ 
+Avant que l'Empire n'arrive,
+j'étais la femme d'un noble homme.[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x77e</ref>
+        </refs>
+        <data>BARECK:
+C'est pitoyable...[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7d7</ref>
+        </refs>
+        <data>COMMANDANT:
+[character][0x1] coopère avec nous![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x774</ref>
+        </refs>
+        <data>MATELIGHT:
+Nous sommes les Héros de la Libération
+de Campbell!
+Mon nom sera gravé sur les armures!
+[character][0x1],achète-en![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x636</ref>
+        </refs>
+        <data>C'est cher...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x502</ref>
+        </refs>
+        <data>Il faudrait un peu de bon sens.[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4e9</ref>
+        </refs>
+        <data>Capitaine [character][0x1]!
+Bienvenue chez moi!
+Ha ha!
+C'est moi!
+Je suis le marchand envoyé au champ
+de bataille![end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x627</ref>
+        </refs>
+        <data> Obtenu [0xaa]Lettre[0xab].[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x617</ref>
+        </refs>
+        <data> Réveler...
+ Faire attention![end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8b1</ref>
+        </refs>
+        <data>MARCHAND ENVOYE AU CHAMP DE
+BATAILLE:
+[character][0x1],voici du [0xaa]VIN DOUX[0xab]
+pour service rendu![end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x832</ref>
+        </refs>
+        <data>Obtenu [0xaa]LIVRE PORNO[0xab].[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x843</ref>
+        </refs>
+        <data>Obtenu [0xaa]COOKIE[0xab].[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x854</ref>
+        </refs>
+        <data>Obtenu [0xaa]REMEDE[0xab].[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x865</ref>
+        </refs>
+        <data>Obtenu [0xaa]CHOSE SUR L'ETAGERE[0xab].[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x876</ref>
+        </refs>
+        <data>Obtenu [0xaa]LIVRE[0xab].[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x887</ref>
+        </refs>
+        <data>Obtenu [0xaa]PRODIGE[0xab].[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x898</ref>
+        </refs>
+        <data>Obtenu [0xaa]MEMOIRE DOUCE[0xab].[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8a9</ref>
+        </refs>
+        <data>Obtenu [0xaa]VIN DOUX[0xab].[end][0x0]</data>
+    </text>
+</texts>

@@ -1,0 +1,640 @@
+<?xml version="1.0" ?>
+<texts base="0x17bb" room_id="210">
+    <text>
+        <refs>
+            <ref>0x7a2</ref>
+            <ref>0x7c3</ref>
+            <ref>0x64b</ref>
+            <ref>0x6ad</ref>
+            <ref>0x730</ref>
+            <ref>0x897</ref>
+            <ref>0x83b</ref>
+        </refs>
+        <data> Oui
+ Non[end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x72c</ref>
+            <ref>0x647</ref>
+            <ref>0x837</ref>
+        </refs>
+        <data>Vous voulez acheter?[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x58d</ref>
+        </refs>
+        <data>Hé hé!
+Va les nourrir![end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x595</ref>
+        </refs>
+        <data>Alors![end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6cb</ref>
+        </refs>
+        <data>Bienvenue!
+C'est le magasin d'armes![end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6cf</ref>
+        </refs>
+        <data> Acheter.
+ Parler de secrets militaires.[end1]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6dc</ref>
+        </refs>
+        <data>Très bien,je vais pouvoir vous les
+apprendre car de toute manière je ne
+fais dans la vie que du commerce,
+et ça m'ennuie un peu!
+Commençons par des choses
+spéciales...
+La magie noire a différents attributs
+tels que le Feu,l'Eau ou encore la
+Foudre!
+Et si vous jetez l'un de ces attributs
+sur un ennemi,il sera à sa mort changé
+en armes ou objets.
+Si vous le tuez avec une magie de feu,
+l'objet ou l'arme aura pour attribut
+feu.
+Si vous le tuez avec une magie d'eau,
+l'objet ou l'arme aura pour attribut
+l'eau.
+Ainsi vous économisez de l'argent et
+vous pouvez nourrir plus souvent vos
+dragons.
+C'est un bon plan,non?[end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7d9</ref>
+            <ref>0x7eb</ref>
+        </refs>
+        <data>Approchez!
+Bienvenue!
+Vous voulez des objets?![end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8a3</ref>
+            <ref>0x8b5</ref>
+        </refs>
+        <data>Je vends des armures!
+Regardez,je vous en prie...[end]m</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8fc</ref>
+        </refs>
+        <data>monyo[0xd8]
+[0xa8]nous apprenons tout
+ exactement et rapidement[0xd8][0xa9][end]m</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x93d</ref>
+        </refs>
+        <data>manyo[0xd8]
+[0xa8]nous,les petits démons,nous
+ adorons danser[0xd8][0xa9][end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5ec</ref>
+        </refs>
+        <data>DOCTEUR DRAGON:
+Tu as une réunion![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5f3</ref>
+        </refs>
+        <data>DOCTEUR DRAGON:
+Les Dragons t'attendent!
+Hahaha! Par ici![end]N</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8b9</ref>
+        </refs>
+        <data>Non... Ne... ne...
+n'enlevez pas vos habits...
+Voyons...
+C... c'est...
+un magasin d'équipement...
+Nous sommes respectables![end]m</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8f5</ref>
+        </refs>
+        <data>monyo[0xd8]
+[0xa8]les petits démons ont eu
+ peur de la foudre[0xd8][0xa9][end]m</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x936</ref>
+        </refs>
+        <data>manyo[0xd8]
+[0xa8]nous n'avons pas eu peur...[0xa9][end]m</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x965</ref>
+        </refs>
+        <data>munyo[0xd8]
+[0xa8]les petits démons n'ont pas
+ peur du noir[0xd8][0xa9][end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x987</ref>
+        </refs>
+        <data>WAGAHAI:
+[0xa8]les petits démons vivent et
+ combattent dans l'ombre.[0xa9][end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5dc</ref>
+        </refs>
+        <data>DOCTEUR DRAGON:
+Veux-tu sortir?
+ 
+[character][0x1] est très heureux car nous
+avons vu beaucoup d'éclairs![end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6c2</ref>
+            <ref>0x7e2</ref>
+            <ref>0x8ac</ref>
+        </refs>
+        <data>Les magasins de FARENHEIT sont
+toujours ouverts même s'il pleut ou
+que le temps est très mauvais![end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6b9</ref>
+        </refs>
+        <data>P... peu... peu...
+que... que...
+[0xa8]Besoin de quelque chose...[0xa9][end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x997</ref>
+        </refs>
+        <data>MATELOT:
+Il y a longtemps,tu m'as sauvé...
+Et je t'en remercie!
+Maintenant je peux de nouveau avoir
+des rêves!
+ 
+Chaque jour,je peux m'occuper des
+dragons.
+ 
+J'ai promis à [character][0x1] que tout
+allait très bien se passer.[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x99e</ref>
+        </refs>
+        <data>MATELOT:
+Je vais aider mes associés...
+Je vais y aller!
+Parfois,ce type repart en dragon!
+Tout le monde l'a vu![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x580</ref>
+        </refs>
+        <data>Ho ho![end]m</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8eb</ref>
+        </refs>
+        <data>monyo[0xd8]
+[0xa8][character][0x1] est une si grande
+ femme être-humain[0xd8][0xa9][end]m</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x92c</ref>
+        </refs>
+        <data>manyo manyo...
+[0xa8]nous semons le désordre près
+ des magasins.[0xa9][end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5ce</ref>
+        </refs>
+        <data>DOCTEUR DRAGON:
+Les dragons sont bruyants et plein
+d'éclat!
+La Princesse est revenue,c'est pour
+cette raison qu'ils sont heureux.
+Va les nourrir![end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6a9</ref>
+            <ref>0x893</ref>
+            <ref>0x79e</ref>
+        </refs>
+        <data>La Princesse [character][0x1] est revenue et
+j'ai de nouveaux articles!
+Qu'aimeriez-vous?[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5b8</ref>
+        </refs>
+        <data>DOCTEUR DRAGON:
+[character][0x1] et un matelot sont partis
+en reconnaissance.
+Heureusement qu'il y a un rayon de
+soleil!
+ 
+Veux-tu aller nourrir les autres
+dragons?![end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x871</ref>
+        </refs>
+        <data>Aimeriez-vous plusieurs sortes
+d'armures?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x875</ref>
+        </refs>
+        <data> Vous voulez en voir plein?!
+ Vous voulez de belles armures?!
+ Vous voulez acheter?![end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x88a</ref>
+        </refs>
+        <data>Ce n'est pas original?
+Je m'en doutais...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x882</ref>
+        </refs>
+        <data>Merci,M.le Client...[end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6a0</ref>
+        </refs>
+        <data>Ah! Ces Petits Démons...[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x795</ref>
+        </refs>
+        <data>Les Petits Démons sont trop bruyants!
+Ah,bienvenue![end]m</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8e1</ref>
+        </refs>
+        <data>monyo monyo[0xd8]
+[0xa8]hola hola[0xd8][0xa9][end]m</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x922</ref>
+        </refs>
+        <data>manyo manyo[0xd8]
+ [0xa8]frappez frappez[0xd8][0xa9][end]m</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x95b</ref>
+        </refs>
+        <data>munyo[0xd8]
+[0xa8]nous imitons les enfants[0xd8][0xa9][end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5c0</ref>
+        </refs>
+        <data>DOCTEUR DRAGON:
+Rush est parti avec SALAMANDO,
+il y a un instant!
+Sais-tu où il va?
+[character][0x1],lui,est parti en
+reconnaissance![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x868</ref>
+        </refs>
+        <data>Matelight est venu tout à l'heure pour
+me parler de mon magasin.
+ 
+Il semblerait que je ne vende que des
+objets inutiles!
+ 
+C'est facile à dire pour lui!
+Il me faut de l'argent afin de
+renouveler mes stocks.
+Matelight pourrait le faire rapidement
+car il est plus élevé que moi dans la
+société et a donc plus de ressources.[end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x697</ref>
+        </refs>
+        <data>J'ai beaucoup de travail et de
+relations...
+Ne l'oubliez pas![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x78c</ref>
+        </refs>
+        <data>Tout va bien!
+Sans les Petits Démons,
+c'est si paisible.[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5ab</ref>
+        </refs>
+        <data>DOCTEUR DRAGON:
+Il y a un charmant bébé!
+Viens vite![end]V</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x66f</ref>
+        </refs>
+        <data>Veux-tu voir le Fort impérial,
+Trafalgar?[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x67e</ref>
+        </refs>
+        <data>Ce fort est terrible...
+Mais bon,achetez...[end]V</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x85f</ref>
+        </refs>
+        <data>Voici le magasin d'armes.
+C'est la manie du commerce de la
+Guerre.[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x783</ref>
+        </refs>
+        <data>Les Petits Démons s'entraînent avec le
+feu...
+Tout cela est dangereux![end]m</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8d7</ref>
+        </refs>
+        <data>monyo monyo...
+[0xa8]est-ce que tu as nourri tes
+ dragons...?[0xa9][end]m</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x918</ref>
+        </refs>
+        <data>manyo[0xd8]
+[0xa8]ici,enfants petits démons,
+ mais nous gagnerons[0xd8][0xa9][end]m</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x951</ref>
+        </refs>
+        <data>munyo[0xd8]
+[0xa8]nous avons mangé des
+ champignons[0xd8][0xa9][end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x980</ref>
+        </refs>
+        <data>WAGAHAI:
+[0xa8]les petits démons sont devenus
+ de vrais démons depuis leur
+ révolution.
+ il leur faudrait une bonne
+ correction![0xa9][end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x673</ref>
+        </refs>
+        <data> Oui,s'il vous plaît!
+ Je préfère faire des achats![end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x979</ref>
+        </refs>
+        <data>WAGAHAI:
+[0xa8]ils essaient de voler des
+ objets...
+ les petits démons ambitionnent
+ de créer un empire en agissant
+ ainsi...[0xa9][end]N</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x856</ref>
+        </refs>
+        <data>Nous voulons vivre en paix.
+Nous voulons la paix pour le monde
+entier,pour Orelus![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x666</ref>
+        </refs>
+        <data>Hihi Hihi Hihi[0xd8]
+Vous voulez des armures?![end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x77a</ref>
+        </refs>
+        <data>Je m'en souviendrai,de ça...
+Je dois surveiller le magasin![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7b2</ref>
+        </refs>
+        <data>Mes amis du commerce m'ont remis une
+lettre,la voici...[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7b8</ref>
+        </refs>
+        <data>Obtenu [0xaa]LETTRE[0xab].
+ 
+  
+Veux-tu la lire?[end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7d2</ref>
+        </refs>
+        <data>J'avais presque oublié [character][0x1] et sa
+guerre!
+ 
+C'est soudain pour nous,
+toutes ces préparations pour le
+mariage.
+Mais après cela,nous serons enfin
+ensemble,comme un vrai couple!
+-Femme du Marchand envoyé au champs
+ de bataille-[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9bf</ref>
+        </refs>
+        <data>SAJIN:
+Je crois que j'ai besoin d'un peu
+d'entraînement...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9c5</ref>
+        </refs>
+        <data>SAJIN:
+Je suis seul comme toujours...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9b9</ref>
+        </refs>
+        <data>SAJIN:
+C'est bruyant ici!
+C'est à cause de qui?[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9cb</ref>
+        </refs>
+        <data>SAJIN:
+La vie n'est qu'un chemin dont l'issue
+reste secrète...
+Tout ne peut être pardonné...[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9e3</ref>
+        </refs>
+        <data>ZEROSHIN:
+Ce bateau est propre mais je n'y ai
+pas beaucoup d'amis.
+Je crois que je vais aller m'entraîner.[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9e9</ref>
+        </refs>
+        <data>ZEROSHIN:
+Pourquoi n'ai-je toujours pas d'amis?
+Je vais m'entraîner à sourire![end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9ef</ref>
+        </refs>
+        <data>ZEROSHIN:
+Ils sont tous si vaniteux?!
+Je suis toujours seul et Saijin n'est
+pas très causant.
+Je suis solitaire...
+Je me sens seul...[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9f5</ref>
+        </refs>
+        <data>ZEROSHIN:
+J'aimerais repartir...
+Je n'ai toujours pas d'amis!
+Je savais que vivre ici ne m'aurait
+pas éloigné de la guerre.[end]V</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x771</ref>
+        </refs>
+        <data>Venez ici,approchez...
+C'est mon magasin...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x84b</ref>
+        </refs>
+        <data>Même en temps de guerre,
+notre magasin ouvre toujours.
+ 
+Bientôt,nous allons vendre des livres
+car nous allons en écrire un.
+ 
+Il racontera votre histoire et celle
+des autres et de ce que vous avez
+fait pour Orelus.[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x754</ref>
+        </refs>
+        <data>C'est un message des Petits Démons.
+ 
+monyo! manyo! munyo!
+[0xa8]nous sommes des petis démons
+ qui font face à la mort![0xa9][end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x65d</ref>
+        </refs>
+        <data>Huh Huh...
+Des Armures...
+Hé hé hé...[end][0x0]</data>
+    </text>
+</texts>

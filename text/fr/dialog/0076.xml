@@ -1,0 +1,1949 @@
+<?xml version="1.0" ?>
+<texts base="0x1f59" room_id="76">
+    <text>
+        <refs>
+            <ref>0x79</ref>
+        </refs>
+        <data>
+           Chapitre [0xb1][0xb0]
+    -Le Dragon Sacré Bahamut-[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x92</ref>
+        </refs>
+        <data>HORNET:
+Sauzer se trouve sur notre bateau.[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9f</ref>
+        </refs>
+        <data>HORNET:
+Allons-nous enfin comprendre de
+nombreuses choses?[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7a3</ref>
+        </refs>
+        <data>SENDACK:
+L'Empereur Sauzer est malade car il a
+utilisé la magie pour connaître le
+coeur des Dragons Sacrés.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7c1</ref>
+        </refs>
+        <data>SAUZER:
+Je le connais...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7d6</ref>
+        </refs>
+        <data>SAUZER:
+Auparavant,je n'avais pas le pouvoir
+de comprendre le coeur des Dragons
+Sacrés![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7e3</ref>
+        </refs>
+        <data>SAUZER:
+J'ai donc conclu un marché avec les
+gardiens d'Hypérion.
+Grâce à eux,j'ai connu son coeur...[end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7f5</ref>
+        </refs>
+        <data>Je devrais plutôt dire que j'ai vu les
+rêves et la mémoire d'Hypérion...
+Mais je ne comprends rien![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x802</ref>
+        </refs>
+        <data>[character][0x1]:
+Quel est leur problème?
+ 
+Les Dragons Sacrés sont emplis de
+fureur envers Bahamut.
+Je ne les comprends pas![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x812</ref>
+        </refs>
+        <data>[character][0x1]:
+Je suis certaine qu'ils ne nous disent
+pas tout!
+Ils nous cachent des choses!
+Ils cachent leurs souvenirs![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x824</ref>
+        </refs>
+        <data>SAUZER:
+Ce qu'ils cherchent à nous cacher
+concerne la Grande Guerre qui eut lieu
+entre eux!
+J'en suis persuadé...
+ 
+Peut-être est-ce là que se trouve la
+source de toute la vérité?![end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x831</ref>
+        </refs>
+        <data>Le Dragon Sacré Hypérion...
+Il n'y a dans ses souvenirs que
+haine,blessure,et trahison!
+Rien d'autre![end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x84b</ref>
+        </refs>
+        <data>La blessure des Dragons...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x858</ref>
+        </refs>
+        <data>Ils sont tous pareils!
+Ils se ha[0x25]ssent...
+Ils sont blessés...[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x865</ref>
+        </refs>
+        <data>Ce fut la Guerre parmi les Dragons
+Sacrés...[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x86e</ref>
+        </refs>
+        <data>Le champ de bataille ne fut autre
+qu'Orelus![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x882</ref>
+        </refs>
+        <data>Ils brûlèrent les plantes de Campbell...
+Ils empoisonnèrent les lacs de Mahal...
+Les lagons d'Orelus furent pillés...
+Ils étaient devenus l'enfer![end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x895</ref>
+        </refs>
+        <data>Pourquoi les Dragons Sacrés ne
+cessent-ils pas de combattre?[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8a2</ref>
+        </refs>
+        <data>L'origine de tout cela est Bahamut!
+Bahamut le gardien de Kana est ha[0x25]
+par tous ses semblables![end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8af</ref>
+        </refs>
+        <data>Bahamut était le traître...
+Bahamut ruina leurs lois...
+Et ils veulent tuer Bahamut...[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8c1</ref>
+        </refs>
+        <data>Ce que je vous révèle provient de la
+mémoire d'Hypérion.[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8d4</ref>
+        </refs>
+        <data>Cependant je ne connais pas l'origine
+de la Guerre.[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8e5</ref>
+        </refs>
+        <data>Leurs souvenirs anciens...
+Leur objectif actuel...
+Je ne comprends pas...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8f4</ref>
+        </refs>
+        <data>[character][0x1]:
+Vous et moi ne comprenons peut-être
+pas leur Guerre mais nous en
+connaissons la cause![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x904</ref>
+        </refs>
+        <data>SAUZER:
+Oui,cependant leur haine reste très
+vivace...[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x912</ref>
+        </refs>
+        <data>Ces souvenirs sont ancrés dans leur
+coeur...
+ 
+La bataille du passé va certainement
+continuer dans le futur...
+ 
+Ce sera seulement une fois Bahamut
+vaincu que leur colère se consumera
+pour toujours...
+Est-ce...
+Est-ce cela...
+le sens de la Nouvelle Ere?[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x936</ref>
+        </refs>
+        <data>Si tel est le cas...
+L'autre côté de la Porte est en
+lui-même la Nouvelle Ere...
+Cette Nouvelle Ere est-elle pour
+nous?
+Ou est-elle simplement pour eux?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x14b7</ref>
+        </refs>
+        <data>[character][0x1]:
+Palpaleos...
+
+Vous pouvez utiliser le balcon de
+cette chambre![end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1451</ref>
+        </refs>
+        <data>PALPALEOS:
+Sauzer admire le ciel...
+ 
+Il aimerait ne pas être...
+dérangé...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9a9</ref>
+        </refs>
+        <data>TAURUS:
+Je ne comprends pas!
+ 
+Les corps des Dragons Sacrés ne sont
+pas là!
+ 
+Ils vivent tous dans le coeur de la
+Princesse!
+ 
+Donc pourquoi Orelus serait-il détruit
+par la guerre s'ils se combattent en
+elle?[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc91</ref>
+        </refs>
+        <data>RUSH:
+Comment pourrais-je être heureux avec
+l'Empereur ici?[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xcc2</ref>
+        </refs>
+        <data>TAURUS:
+L'Empereur semble si faible![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x961</ref>
+        </refs>
+        <data>SENDACK:
+Tout le monde ne pense qu'à
+l'Empereur Sauzer![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6aa</ref>
+        </refs>
+        <data>MATELIGHT:
+[character][0x1] se porte-t-elle bien?[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xcc9</ref>
+        </refs>
+        <data>TAURUS:
+J'écoute Sendack qui parle de
+Sauzer...[end]F</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1424</ref>
+        </refs>
+        <data>FILS DE ZORA:
+L'air est un peu lourd ici![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6b4</ref>
+        </refs>
+        <data>MATELIGHT:
+Princesse!
+Tenez bon![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa7a</ref>
+        </refs>
+        <data>SENDACK:
+Princesse...[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc98</ref>
+        </refs>
+        <data>RUSH:
+C'est terrible![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xcd0</ref>
+        </refs>
+        <data>TAURUS:
+C'est impensable!
+La Princesse doit supporter beaucoup
+trop de choses![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x742</ref>
+        </refs>
+        <data>COMMANDANT:
+Elle est soudainement tombée![end]F</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x142b</ref>
+        </refs>
+        <data>FILS DE ZORA:
+Il faut nettoyer!
+ 
+Interdit de passer par là![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1177</ref>
+        </refs>
+        <data>MATELIGHT:
+Amenons-la à la cabine![end][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x96e</ref>
+        </refs>
+        <data>SENDACK:
+Tout les Dragons Sacrés sont furieux
+contre le Dragon protecteur de Kana,
+Bahamut.
+ 
+  
+Et si nous ouvrons la Porte de la
+Nouvelle Ere,n'y aura-t-il pas de
+nouveau une guerre entre eux?[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x983</ref>
+        </refs>
+        <data>MATELIGHT:
+Il se pourrait que les Dragons Sacrés
+fassent la guerre à Bahamut...
+Mais alors Orelus serait totalement
+détruit par les batailles...[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x990</ref>
+        </refs>
+        <data>RUSH:
+J'ai une confiance aveugle en
+Bahamut![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x99d</ref>
+        </refs>
+        <data>TAURUS:
+Vous ne pensez pas à tout!
+ 
+Nous devrions nous arrêter un moment![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9d7</ref>
+        </refs>
+        <data>SENDACK:
+C'est terrible!
+ 
+Le conflit entre les Dragons Sacrés
+recommencera dans son coeur si
+Bahamut se réveille.
+Le coeur de la Princesse devra faire
+face à tant de colère...[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa2e</ref>
+        </refs>
+        <data>COMMANDANT:
+C'est terrible![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9e3</ref>
+        </refs>
+        <data>RUSH:
+Rien que le déchaînement de la colère
+d'Hypérion pourrait causer sa mort![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9f3</ref>
+        </refs>
+        <data>TAURUS:
+Elle supporte déjà leur fureur et leur
+haine!
+Nous devons faire quelque chose...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x11e6</ref>
+        </refs>
+        <data>[character][0x1]:
+Les Dragons Sacrés coopèrent entre
+eux! C'est fantastique...[end]N</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x11fc</ref>
+        </refs>
+        <data>Nous venons d'Altair...
+Nous voulons retourner à Altair...[end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1202</ref>
+        </refs>
+        <data>Altair est notre patrie...
+Emmène-nous là-bas et libère-nous,
+fille...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x120f</ref>
+        </refs>
+        <data>MATELIGHT:
+Altair!
+Mais où est-ce?![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x121c</ref>
+        </refs>
+        <data>SENDACK:
+Est-ce le trou noir?!
+La Porte au-delà de notre monde?[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1228</ref>
+        </refs>
+        <data>MATELIGHT:
+Le Passage du Ciel?!
+ 
+Alors à travers ce trou noir au dessus
+de Kana se trouve Altair?!
+ 
+Vous,les Dragons Sacrés,ne pouvez pas
+y aller seuls?![end]N</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1248</ref>
+        </refs>
+        <data>Nous sommes d'Altair...
+NOUS SOMMES d'ALTAIR...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x125c</ref>
+        </refs>
+        <data>[character][0x1]:
+Altair se trouve sûrement au delà du
+Passage du Ciel mais les Dragons
+Sacrés ne peuvent y aller par
+eux-même!
+Ils sont donc tristes...
+C'est pour cela qu'ils sont aussi si
+furieux![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1268</ref>
+        </refs>
+        <data>[character][0x1]:
+Nous devons aller à Altair![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1271</ref>
+        </refs>
+        <data>[character][0x1]:
+Dépêchons-nous avant que le passage
+ne se referme!
+Combien de temps Orelus résistera-t-il
+au trou noir?
+Nous devons aller à Altair![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1290</ref>
+        </refs>
+        <data>MATELIGHT:
+[character][0x1]...
+Vous êtes si forte...
+Je vous soutiendrai![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6be</ref>
+        </refs>
+        <data>MATELIGHT:
+[character][0x1],prépare-toi!
+L'ambiance qui règne ici est austère.[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x129f</ref>
+        </refs>
+        <data>[character][0x1]:
+Nous devons partir combattre pour
+Orelus!
+C'est pour cette raison que j'ai repris
+des forces...
+Pour les souvenirs d'Orelus...[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf29</ref>
+        </refs>
+        <data>[character][0x1]:
+Palpaleos...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x145c</ref>
+            <ref>0x146e</ref>
+        </refs>
+        <data>PALPALEOS:
+... ... ... ... ...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6ef</ref>
+        </refs>
+        <data>MATELIGHT:
+[character][0x1] est si forte!
+Mais elle semble parfois si seule...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1477</ref>
+        </refs>
+        <data>PALPALEOS:
+Lorsque nous avons attaquer Kana,
+nous avons tiré beaucoup de profits
+des combats.
+Nos soldats ont cependant vendu une
+très grande part de ce butin.
+C'était au Roi de Kana...
+Prends-les!
+Il aurait accepté...[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1489</ref>
+        </refs>
+        <data>Obtenu [0xaa]IMPERATRICE KANA[0xab]
+et [0xaa]TOGE ROYALE[0xab].[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf42</ref>
+        </refs>
+        <data>[character][0x1]:
+L'Empereur Sauzer semble mal en
+point.[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1306</ref>
+            <ref>0x114e</ref>
+            <ref>0xf37</ref>
+        </refs>
+        <data>[character][0x1]:
+J'espère que tout va bien...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x12db</ref>
+        </refs>
+        <data>[character][0x1]:
+Durant quelques instants,j'ai vraiment
+eu très peur.
+Mais c'est étrange...
+La colère des Dragons Sacrés était
+terrible mais ils ont l'air apaisé
+depuis que nous allons les aider.
+Je sens aussi que la colère de leur
+esprit s'est affaiblie.
+Au fait,[character][0x1],penses-tu que je sois
+assez puissante?
+ 
+ Tu l'es...
+ Je ne crois pas...[end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x12e7</ref>
+        </refs>
+        <data>[character][0x1]:
+Merci [character][0x1]!
+Je ne te décevrai pas![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x12f1</ref>
+        </refs>
+        <data>[character][0x1]:
+[character][0x1]!
+ 
+Je crois que si tu faisais un peu
+attention à moi,tu aurais remarqué
+quelque chose![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xced</ref>
+        </refs>
+        <data>TAURUS:
+Il n'y a rien de difficile à
+comprendre.
+[character][0x1] et Rush sont beaucoup trop
+différents socialement et lui pense
+beaucoup plus à la guerre.
+Comment voudrais-tu qu'il y ait
+quelque chose entre eux?[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xdca</ref>
+            <ref>0xd2c</ref>
+        </refs>
+        <data>Tu es le Capitaine Adjoint?[end]N</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xdd0</ref>
+        </refs>
+        <data>Nous te faisons confiance![end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xee9</ref>
+        </refs>
+        <data>ZORA:
+Je crois que l'Empereur de Granbelos
+doit être soigné...[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xef0</ref>
+        </refs>
+        <data>ZORA:
+Il faut les laisser seuls.[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xef7</ref>
+        </refs>
+        <data>ZORA:
+Tu devrais peut-être lui dire quelques
+mots réconfortants...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1180</ref>
+        </refs>
+        <data>[character][0x1]:
+Je vais bien...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1189</ref>
+        </refs>
+        <data>[character][0x1]:
+Ce sont tous les Dragons Sacrés en
+moi qui me gênent un peu.[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x11bf</ref>
+        </refs>
+        <data>[character][0x1]:
+Nous allons partir!
+Les Dragons Sacrés commencent à
+s'accoutumer à mon corps.[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd1b</ref>
+        </refs>
+        <data>HORNET:
+Nous en saurons plus demain,
+n'est-ce pas?[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x69c</ref>
+        </refs>
+        <data>MATELIGHT:
+Ca m'inquiète que Palpaleos ait amené
+l'Empereur Sauzer à FARENHEIT!
+Je suis sûr que la Princesse se pose
+aussi des questions![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x734</ref>
+        </refs>
+        <data>COMMANDANT:
+L'Empereur Sauzer est ici,
+j'ai une drôle de sensation...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf30</ref>
+        </refs>
+        <data>[character][0x1]:
+Sauzer va bientôt nous parler des
+Dragons Sacrés![end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x144a</ref>
+        </refs>
+        <data>PALPALEOS:
+C'est impossible...
+Pauvre Sauzer...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x14f4</ref>
+        </refs>
+        <data>SAUZER:
+Je n'ai besoin d'aucune aide![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x149b</ref>
+        </refs>
+        <data>SAUZER:
+J'ai demandé Palpaleos...
+Ce sera mieux pour tous...[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x73b</ref>
+        </refs>
+        <data>COMMANDANT:
+Les beaux lagons d'Orelus sont à feu
+à sang...
+Nous devons tous nous engager dans
+le même combat...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6a3</ref>
+        </refs>
+        <data>MATELIGHT:
+Je crois que cet homme est résigné
+à mourir...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x95a</ref>
+        </refs>
+        <data>SENDACK:
+Les Dragons Sacrés...
+La Porte de la Nouvelle Ere...
+Mon esprit est confus...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x14a5</ref>
+        </refs>
+        <data>SAUZER:
+Je veux voir le ciel...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf99</ref>
+        </refs>
+        <data>SAUZER:
+Il devrait être à moi...
+Le ciel devait m'appartenir...
+Orelus devait être à moi...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xfaf</ref>
+        </refs>
+        <data>SAUZER:
+Palpaleos...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xfbc</ref>
+        </refs>
+        <data>SAUZER:
+Mais j'ai été vaincu...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xfcd</ref>
+        </refs>
+        <data>SAUZER:
+La Légende...
+Ce ciel infini...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xfdb</ref>
+        </refs>
+        <data>SAUZER:
+Mon rêve ne se réalisera pas.
+
+Même si la Nouvelle Ere n'est pas pour
+moi,j'aurais aimé la voir.[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xfe7</ref>
+        </refs>
+        <data>PALPALEOS:
+Sauzer...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xff2</ref>
+        </refs>
+        <data>SAUZER:
+Je ne suis rien d'autre qu'un être
+humain...
+C'est la triste vérité![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1002</ref>
+        </refs>
+        <data>SAUZER:
+Fais-moi une faveur...
+ 
+Pas à l'Empereur mais au véritable
+Sauzer,l'humain...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1014</ref>
+        </refs>
+        <data>SAUZER:
+Si je venais à mourir,j'aimerais être
+à jamais dans le ciel d'Orelus...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1026</ref>
+        </refs>
+        <data>SAUZER:
+Laisse-moi flotter dans cet océan de
+nuages...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1032</ref>
+        </refs>
+        <data>SAUZER:
+Encore et encore...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x103b</ref>
+        </refs>
+        <data>SAUZER:
+Et si mon corps atteint un jour un
+lagon inconnu,alors...
+Nomme ce lagon de mon nom...
+Le Lagon Sauzer...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x104a</ref>
+        </refs>
+        <data>SAUZER:
+Je ne peux plus recommencer à partir
+du commencement...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1056</ref>
+        </refs>
+        <data>PALPALEOS:
+Le commencement?[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1064</ref>
+        </refs>
+        <data>SAUZER:
+Le ciel m'appelle enfin![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1072</ref>
+        </refs>
+        <data>SAUZER:
+L'heure est-elle venue?[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1083</ref>
+        </refs>
+        <data>PALPALEOS:
+Arrêtez!
+Vous perdez l'esprit!
+SAUZER!
+Calmez-vous![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x108c</ref>
+        </refs>
+        <data>SAUZER:
+Il est en moi...
+Le mépris est en moi...
+Je me méprise!
+J'aurais aimé la repentance...
+J'ai eu peur de mon coeur faible...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1095</ref>
+        </refs>
+        <data>SAUZER:
+Je suis si cynique!
+ 
+En réalité,la force de mon coeur a été
+ouverte puis envahie par la faiblesse.[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x10a1</ref>
+        </refs>
+        <data>PALPALEOS:
+Arrêtez de parler! Revenez à vous!
+Je vais appeler le capitaine![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x10ae</ref>
+        </refs>
+        <data>SAUZER:
+Ne fais pas cela![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x10c6</ref>
+        </refs>
+        <data>SAUZER:
+C'est le dernier ordre que te donne
+l'Empereur de Granbelos![end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1100</ref>
+            <ref>0x10e5</ref>
+        </refs>
+        <data>PALPALEOS:
+Sauzer![end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x10f2</ref>
+        </refs>
+        <data>PALPALEOS:
+Que veux-tu dire?
+Le dernier ordre?![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1110</ref>
+        </refs>
+        <data>SAUZER:
+Ne pleure... pas... mon...
+fidèle... ami...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x11d6</ref>
+        </refs>
+        <data>[character][0x1]:
+Je ne crains plus les Dragons Sacrés
+tant ils me fascinent!
+Ils ont besoin de moi...
+Ils me protègent...
+ 
+Il est souvent difficile de comprendre
+ce dont ils ont réellement besoin.[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x127a</ref>
+        </refs>
+        <data>[character][0x1]:
+Nous devons aider les Dragons Sacrés
+à retrouver leur patrie.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa81</ref>
+        </refs>
+        <data>SENDACK:
+La colère des Dragons Sacrés semble
+s'être apaisée.
+La princesse doit sûrement avoir un
+puissant esprit pour pouvoir les
+contrôler.[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x72d</ref>
+            <ref>0x74d</ref>
+        </refs>
+        <data>COMMANDANT:
+Capitaine de l'Escadron Dragon d'Orelus
+et Capitaine Adjoint de FARENHEIT,
+faites de votre mieux![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd22</ref>
+        </refs>
+        <data>HORNET:
+Est-ce que tu es prêt?
+ 
+ Attends encore un peu!
+ Allons combattre![end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd32</ref>
+        </refs>
+        <data>Mais où allons-nous?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd42</ref>
+        </refs>
+        <data>[character][0x1]:
+J'ai discuté avec Bahamut![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd5f</ref>
+        </refs>
+        <data>MATELIGHT:
+Bahamut est réveillé?[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd6c</ref>
+        </refs>
+        <data>SENDACK:
+Je crois que c'est parce que tous les
+Dragons Sacrés sont dans l'esprit de
+la princesse!
+En tout cas,moi,je n'ai rien ressenti![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd7c</ref>
+        </refs>
+        <data>[character][0x1]:
+Ne t'inquiète pas,Sendack!
+ 
+Cela vient probablement du Roi de
+Kana!
+ 
+Bahamut est le Protecteur de Kana et
+nous allons vérifier cela![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xda5</ref>
+        </refs>
+        <data>[character][0x1]:
+Emmenez-nous au Château de Kana,
+Hornet![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xdc4</ref>
+            <ref>0xdb4</ref>
+        </refs>
+        <data>HORNET:
+J'essaierai de faire vite![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd10</ref>
+        </refs>
+        <data>HORNET:
+Es-tu prêt,[character][0x1]?
+ 
+ Attendre un peu!
+ Allons combattre[0xd8][end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x695</ref>
+        </refs>
+        <data>MATELIGHT:
+Une prière silencieuse pour Sauzer?!
+Etait-il si différent?
+Il voulait aussi une Nouvelle Ere![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x78b</ref>
+            <ref>0xa9f</ref>
+        </refs>
+        <data>SENDACK:
+Je tremble comme un vieil homme!
+Suis-je un lâche?[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xee2</ref>
+        </refs>
+        <data>ZORA:
+Viens [character][0x1]!
+ 
+Palpaleos et la Princesse ont à se
+parler...
+ 
+Ne t'inquiète pas pour eux!
+Partons combattre![end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1d8</ref>
+        </refs>
+        <data> 
+           Chapitre [0xb1][0xb1]
+  -La Bataille Finale Décisive-[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x11d</ref>
+        </refs>
+        <data>[character][0x1]:
+Palpaleos...
+La Porte est... ouverte...
+Les Dragons Sacrés...
+La Porte...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x12c</ref>
+        </refs>
+        <data>MATELIGHT:
+La Porte?!
+La Porte est ouverte?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x138</ref>
+        </refs>
+        <data>[character][0x1]:
+Palpaleos...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x142</ref>
+        </refs>
+        <data>PALPALEOS:
+[character][0x1]!
+Tout va bien?![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x218</ref>
+        </refs>
+        <data>MATELIGHT:
+La Porte est ouverte!
+La Porte de la Nouvelle Ere![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1318</ref>
+        </refs>
+        <data>[character][0x1]:
+[character][0x1]...
+Qu'est-ce qui ne va pas?[end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x132b</ref>
+        </refs>
+        <data>La Porte de la Nouvelle Ere...
+Attends,[character][0x1][0xd8]
+ 
+Le coeur des Dragons Sacrés va me la
+montrer...
+ 
+Nous allons déterminer son emplacement![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1372</ref>
+        </refs>
+        <data>[character][0x1]:
+Dragons Sacrés!
+Joignez vos forces...
+C'est maintenant certain...
+La Porte est ouverte...
+Elle se trouve à...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x138c</ref>
+        </refs>
+        <data>[character][0x1]:
+Elle se situe au dessus de Granbelos![end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1397</ref>
+        </refs>
+        <data>PALPALEOS:
+L'Empire Granbelos...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x13a8</ref>
+        </refs>
+        <data>PALPALEOS:
+[character][0x1]...
+ 
+Si tu rencontres le Général Gudruff,
+ne reviens à FARENHEIT que si tu l'as
+tué.
+Je t'en prie...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x13b9</ref>
+        </refs>
+        <data>PALPALEOS:
+N'hésite pas à le tuer...
+L'Empire doit être libéré de sa
+tyrannie.[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x13c3</ref>
+        </refs>
+        <data>PALPALEOS:
+La Nouvelle Ere approche et le peuple
+de Granbelos doit aussi en profiter.[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x13d2</ref>
+        </refs>
+        <data>PALPALEOS:
+Une Nouvelle Ere où le peuple de
+Granbelos serait en paix,
+libre de toutes guerres...[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x131c</ref>
+        </refs>
+        <data> Où se situe la Porte?
+ Je dois secourir le monde!
+ Je suis le Capitaine Adjoint.[end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe4a</ref>
+            <ref>0xe43</ref>
+        </refs>
+        <data>HORNET:
+Veux-tu que nous partions?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe4e</ref>
+        </refs>
+        <data> Attendre!
+ Allons à Granbelos![end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe5a</ref>
+        </refs>
+        <data>Et Granbelos?
+Je te laisse un moment!
+Va vite te préparer...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x140e</ref>
+        </refs>
+        <data>[character][0x1]:
+Selon Palpaleos,
+tout se passera bien!
+Il suffira d'être énergique et de faire
+certains choix.[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe72</ref>
+        </refs>
+        <data>HORNET:
+Kana est loin de Granbelos![end][end1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2a9</ref>
+        </refs>
+        <data>[character][0x1]:
+[character][0x1],je dois te parler![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2c9</ref>
+        </refs>
+        <data>RUSH:
+Je n'en ai rien à faire...
+ 
+Quoi qu'ils disent,nous serons bientôt
+au combat et je ne pense qu'à ça![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2d6</ref>
+        </refs>
+        <data>TAURUS:
+Es-tu sûr,Rush?
+ 
+N'est-ce pas parce que tu ne veux
+pas voir certaines personnes ensemble?[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2e5</ref>
+        </refs>
+        <data>RUSH:
+Tu parles trop![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xabe</ref>
+        </refs>
+        <data>SENDACK:
+[character][0x1],vous avez donc parlé avec
+Bahamut.[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xace</ref>
+        </refs>
+        <data>[character][0x1]:
+Les Dragons Sacrés n'ont jamais été si
+confus...
+Afin d'ouvrir la Porte il est nécessaire
+pour eux de joindre leurs pouvoirs...
+ 
+Ils doivent coopérer et partager leur
+expérience![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xadb</ref>
+        </refs>
+        <data>[character][0x1]:
+Leur force est gigantesque mais ils ne
+savent pas comment l'utiliser ensemble![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xaee</ref>
+        </refs>
+        <data>Ils étaient réjouis de montrer cet
+incroyable pouvoir au peuple d'Orelus.[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xafc</ref>
+        </refs>
+        <data>Bahamut tenta de les arrêter et alors
+un conflit surgit...
+Longtemps continua la Grande Guerre.
+Ils sont tous très jeunes à l'exception
+de Bahamut.
+ 
+C'est pour cela qu'ils ne savent pas
+contrôler leur pouvoir.[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb08</ref>
+        </refs>
+        <data>C'est cela qui engendra la Guerre des
+Dragons Sacrés...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb15</ref>
+        </refs>
+        <data>TAURUS:
+Ils sont beaucoup trop forts!
+Cela explique leur guerre?!
+De nombreux peuples y ont été mêlés
+et sont morts...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb21</ref>
+        </refs>
+        <data>PALPALEOS:
+Toutes les guerres commencent par un
+prétexte mais à chaque fois elles
+sont inutiles...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb31</ref>
+        </refs>
+        <data>TAURUS:
+Palpaleos!
+ 
+C'est votre Empire qui a commencé la
+guerre![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb41</ref>
+        </refs>
+        <data>TAURUS:
+Pouvez-vous nous en donner les
+raisons?![end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb51</ref>
+        </refs>
+        <data>PALPALEOS:
+Pour réaliser un rêve...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb5d</ref>
+        </refs>
+        <data>TAURUS:
+C'est vraiment absurde![end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb6a</ref>
+        </refs>
+        <data>PALPALEOS:
+Probablement...
+ 
+Et j'ai une grande part de
+responsabilité...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb78</ref>
+        </refs>
+        <data>TAURUS:
+Responsabilité...
+Vraiment?!
+Je ne vous comprends pas![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb86</ref>
+        </refs>
+        <data>TAURUS:
+Je suis un membre de l'armée de
+libération d'Orelus.
+ 
+Mon rôle est de combattre et de
+survivre![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb93</ref>
+        </refs>
+        <data>TAURUS:
+Nous devons nous battre sans penser
+aux gens qui veulent réaliser un rêve!
+Je vais rejoindre Rush![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xbb9</ref>
+        </refs>
+        <data>SENDACK:
+[character][0x1],
+j'ai encore une question![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xbc6</ref>
+        </refs>
+        <data>SENDACK:
+Comment la Guerre des Dragons Sacrés
+a-t-elle pris fin?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xbd2</ref>
+        </refs>
+        <data>[character][0x1]:
+Le ciel s'est refermé...
+La Porte s'est refermée...[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xbde</ref>
+        </refs>
+        <data>La Porte ayant été fermée,les Dragons
+Sacrés ne purent rentrer à Altair![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xbea</ref>
+        </refs>
+        <data>D'où leur hostilité envers notre
+protecteur Bahamut...
+Ils combattirent chaque jour!
+N'ayant aucune possibilité de rejoindre
+leur pays,ils furent tristes,désespérés
+et furieux contre lui...[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xbfa</ref>
+        </refs>
+        <data>Chaque jour de nombreux humains
+furent entraînés dans la guerre et
+durent supporter cette colère.[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc0d</ref>
+        </refs>
+        <data>Bahamut fut alors très triste car les
+humains avaient été mêlés à la guerre.
+Il se sentit responsable de tout.[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc27</ref>
+        </refs>
+        <data>Bahamut décida alors...
+de briser sa destinée...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc55</ref>
+        </refs>
+        <data>SENDACK:
+C'est parce qu'il se sentait responsable
+qu'il brisa sa destinée?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc61</ref>
+        </refs>
+        <data>[character][0x1]:
+Désolée Sendack!
+Je vais revenir![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc6f</ref>
+        </refs>
+        <data>[character][0x1]:
+Palpaleos,attends![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe79</ref>
+        </refs>
+        <data>HORNET:
+Nous devons approcher très lentement
+car les conditions sont terribles![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x383</ref>
+        </refs>
+        <data>MATELIGHT:
+Nous y sommes enfin![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x390</ref>
+        </refs>
+        <data>HORNET:
+Préparons-nous à l'offensive!
+Au dessus? En dessous? Où?[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3b6</ref>
+        </refs>
+        <data>COMMANDANT:
+Choisis et attaquons!
+Nous voilà Granbelos![end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3cb</ref>
+        </refs>
+        <data>PALPALEOS:
+Gudruff...
+Ta fin est proche...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3e3</ref>
+        </refs>
+        <data>MATELIGHT:
+Granbelos!
+Nous voilà![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3f2</ref>
+            <ref>0x6cd</ref>
+        </refs>
+        <data>MATELIGHT:
+Génial!
+[character][0x1],prépare-toi![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe01</ref>
+        </refs>
+        <data>HORNET:
+Es-tu prêt?
+ 
+ Je me prépare!
+ Allons-y![end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe15</ref>
+        </refs>
+        <data>COMMANDANT:
+Général Palpaleos!
+ 
+Qu'est-ce qui vous amène à attaquer
+tel ou tel pays?[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe26</ref>
+        </refs>
+        <data>PALPALEOS:
+Je n'en sais rien...[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x754</ref>
+        </refs>
+        <data>COMMANDANT:
+Matelight se porte bien!
+ 
+Mais le fait que [character][0x1] ait choisi un
+autre général le rend mécontent![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc9f</ref>
+        </refs>
+        <data>RUSH:
+Ah![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xce6</ref>
+        </refs>
+        <data>TAURUS:
+Je ne dors pas!
+Je réfléchis...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xaa9</ref>
+        </refs>
+        <data>SENDACK:
+Depuis quand Matelight s'entend-t-il
+bien avec Palpaleos?
+Je ne sais plus quoi penser![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6d4</ref>
+        </refs>
+        <data>MATELIGHT:
+[character][0x1] tient beaucoup à Palpaleos.
+Je respecte cette décision.
+Bientôt,tout sera fini!
+C'est bien la première fois que je
+parle de [character][0x1] sans être jaloux!
+Son père et sa mère...
+Je me souviens de tant de choses!
+ 
+ Tu as commandé l'Escadron?
+ De bons souvenirs?[end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6e0</ref>
+        </refs>
+        <data>Je me réjouis des ces si beaux
+souvenirs![end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6e8</ref>
+        </refs>
+        <data>Je suis heureux...[end]F</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1432</ref>
+        </refs>
+        <data>FILS DE ZORA:
+Fais de ton mieux![end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1463</ref>
+        </refs>
+        <data>PALPALEOS:
+[character][0x1] va très bien![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1311</ref>
+            <ref>0x1407</ref>
+        </refs>
+        <data>[character][0x1]:
+Merci pour tout ce que tu fais![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x13ff</ref>
+        </refs>
+        <data>[character][0x1]:
+Il faut satisfaire Matelight![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xcdf</ref>
+        </refs>
+        <data>TAURUS:
+Je ne réfléchis à rien...[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x48f</ref>
+        </refs>
+        <data>HORNET:
+Nous y sommes enfin malgré quelques
+pertes de contrôle!
+Nous avons dû subir quelques dégâts
+avec toute cette fumée gâchant la
+visibilité![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4fc</ref>
+        </refs>
+        <data>HORNET:
+Regardez ce lagon...[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xecb</ref>
+        </refs>
+        <data>HORNET:
+C'est si paisible...
+Beaucoup trop paisible...
+Y aurait-il de la magie noire à
+l'oeuvre?[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe9e</ref>
+        </refs>
+        <data>HORNET:
+Que veux-tu faire?
+ 
+ Je me prépare!
+ Atterissons![end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xcf4</ref>
+        </refs>
+        <data>TAURUS:
+Nous voici à Altair...
+ 
+Le combat est bientôt fini mais il
+semble que nous ne reverrons jamais
+notre patrie!
+Je ne sais vraiment pas de quoi
+demain sera fait![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xca6</ref>
+        </refs>
+        <data>RUSH:
+Taurus est toujours en train de
+penser!
+Qu'allons-nous bien pouvoir combattre?
+Je n'arrête pas de penser à ça.[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x75e</ref>
+        </refs>
+        <data>Céline! Je suis si loin de toi.
+Je crois que c'est ici que s'achève
+notre combat...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa8a</ref>
+        </refs>
+        <data>SENDACK:
+Il paraît qu'il y a à Altair un Peuple
+Dragon qui est nécessaire à la
+résurrection des Dragons Sacrés.
+Toutefois la Princesse et moi ne
+savons pas encore tout.[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xefe</ref>
+        </refs>
+        <data>ZORA:
+La princesse arrive à la fin de la
+Légende...
+Je ne sais pas pourquoi mais il y a
+longtemps,la Porte fut fermée aux
+Dragons Sacrés.
+Il y a beaucoup de choses
+incompréhensibles![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6f6</ref>
+        </refs>
+        <data>MATELIGHT:
+[character][0x1] a besoin d'un homme qui veille
+sur elle...
+De quelqu'un qui l'écoute...[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x703</ref>
+        </refs>
+        <data>ZORA:
+Ne dis pas de telles choses...
+Ils forment un beau couple![end]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x463</ref>
+        </refs>
+        <data>
+           Chapitre [0xb1][0xb3]
+        -Vers la Patrie-[end][end]</data>
+    </text>
+</texts>

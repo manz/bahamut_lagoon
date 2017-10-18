@@ -1,0 +1,153 @@
+<?xml version="1.0" ?>
+<texts base="0x297" room_id="208">
+    <text>
+        <refs>
+            <ref>0x1fa</ref>
+        </refs>
+        <data>REEVE:
+Cette lance est différente de la
+mienne mais elle est aussi comme
+la mienne.
+Il est à plaindre!
+Je m'en souviendrai![end]F</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x242</ref>
+        </refs>
+        <data>FILS DE ZORA:
+C'est propre!
+Tout est propre![end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x166</ref>
+        </refs>
+        <data>BARECK:
+Bienvenue!
+Je suis un magasin d'armures![end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x16a</ref>
+        </refs>
+        <data> Faire du shopping.
+ Parler un peu.[end1]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x179</ref>
+        </refs>
+        <data>BARECK:
+Passons à la minute pratique!
+Mais ça ne concerne pas les combats!
+Euh... c'est sur... euuh...
+Dès que tu vois une charmante femme,
+ne bats pas en retraite trop vite![end]F</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x225</ref>
+        </refs>
+        <data>FRUNZE:
+Il me semble que Reeve a perdu
+quelque chose!
+Quelque chose de splendide!
+Lan Lan Lan... Hahaha![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1da</ref>
+        </refs>
+        <data>REEVE:
+Ce n'est pas intelligent!
+Pourquoi?
+Je n'avais jamais changé de lance!
+Je regrette le mienne...[end]F</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x217</ref>
+        </refs>
+        <data>FRUNZE:
+LAN LAN LAN[0xd8]
+LANCE LANCE[0xd8]
+Reeve a secrètement échangé nos
+lances.
+ 
+J'ai le sentiment qu'il a trahi notre
+amitié.[end]F</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x238</ref>
+        </refs>
+        <data>FILS DE ZORA:
+Ah,[character][0x1][0xd8]
+Merci beaucoup[0xd8]
+Au moins,ici,je sens que je suis
+respecté comme un vrai Lancier!
+Je crois que je suis devenu un vrai
+homme.[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x15c</ref>
+        </refs>
+        <data>BARECK:
+Je le dis encore:
+les sorcières sont très vaniteuses[0xd8]
+Elles considèrent que les guerriers
+sont des humains inutiles.
+C'est si mesquin...
+Si tout continue encore comme ça,
+il faudra que tu en parles à Matelight.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1a3</ref>
+        </refs>
+        <data>SERGENT:
+[0xa8]Grognement[0xa9]
+J'aimerais retourner à Mahal...
+Mais il y a encore beaucoup de choses
+à faire.
+[0xa8]Grognement[0xa9]
+Et tout d'abord,il nous faut penser au
+renouvellement des armures.
+[0xa8]Grognement[0xa9]
+Elles peuvent facilement rendre un
+homme nouveau.
+[0xa8]Grognement[0xa9][end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x249</ref>
+        </refs>
+        <data>Super![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1ad</ref>
+        </refs>
+        <data>SERGENT:
+La restauration de Mahal...
+[0xa8]Grognement[0xa9]
+Je vais me plonger dans le sujet...
+[0xa8]Grognement[0xa9]
+ 
+En aucun cas quelque chose ne doit
+être oublié...
+[0xa8]Grognement[0xa9]
+Commandant est originaire de
+[0xa8]Grognement[0xa9]Mahal et va aider
+à la restauration.
+Il faut vivre,vivre,vivre...[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1c7</ref>
+        </refs>
+        <data>Obtenu [0xaa]SERGENT???[0xab].[end][end]</data>
+    </text>
+</texts>

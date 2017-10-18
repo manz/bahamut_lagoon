@@ -1,0 +1,351 @@
+<?xml version="1.0" ?>
+<texts base="0x9b0" room_id="78">
+    <text>
+        <refs>
+            <ref>0x95</ref>
+        </refs>
+        <data>MATELIGHT:
+Hé! Le Peuple Dragon!
+Nous allons entrer[0xd8]
+Nous venons défendre Orelus!
+Vous serez bientôt libérés!
+Mais patientez encore![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa1</ref>
+        </refs>
+        <data>MATELIGHT:
+Tu as entendu![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x80b</ref>
+            <ref>0xae</ref>
+        </refs>
+        <data>COMMANDANT:
+Je crois qu'Alexandre nous a entendu![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4cc</ref>
+        </refs>
+        <data>MATELIGHT:
+Allons-y [character][0x1]!
+Ce sera sûrement la Dernière Bataille!
+Tout est en ordre!
+Est-ce que tu es prêt?
+ 
+ Asseyons-nous un moment!
+ Allons-y Matelight![end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4db</ref>
+        </refs>
+        <data>Tu veux rire [character][0x1]?![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4ee</ref>
+        </refs>
+        <data>MATELIGHT:
+Très bien!
+Encore un instant...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x51f</ref>
+        </refs>
+        <data>MATELIGHT:
+Je suis désolé pour tout,Palpaleos.[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x52c</ref>
+        </refs>
+        <data>MATELIGHT:
+Vivez ce qui vous reste à vivre avant
+la dernière bataille.
+Que devra-t-on dire lorsqu'on
+attaquera?[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x58a</ref>
+        </refs>
+        <data>MATELIGHT:
+[character][0x1],
+choisit le meilleur cri de guerre!
+ Combattons avec courage!
+ Je m'en remets au destin![end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x840</ref>
+        </refs>
+        <data>SENDACK:
+La... la paix va bientôt revenir à
+Orelus...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x598</ref>
+        </refs>
+        <data>MATELIGHT:
+[character][0x1]...
+C'est tout toi ça,pas moi...[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x617</ref>
+        </refs>
+        <data>COMMANDANT:
+Il y a de nombreux démons![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x629</ref>
+        </refs>
+        <data>MATELIGHT:
+Zut!
+Entrons-y de force![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x637</ref>
+        </refs>
+        <data>MATELIGHT:
+Viens,c'est la Dernière Bataille![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x869</ref>
+        </refs>
+        <data>RUSH:
+Ne gâchons pas de temps en futilités![end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x86d</ref>
+            <ref>0x87e</ref>
+        </refs>
+        <data> Des armes?
+ Des armures?
+ Des objets?[end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8d7</ref>
+        </refs>
+        <data>BIKKEBAKKE:
+C'est la fin de la fin,frère![end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8db</ref>
+        </refs>
+        <data> Acheter des champignons!
+ J'aimerais des livres.
+ De bonnes choses...[end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xbc</ref>
+        </refs>
+        <data>MATELIGHT:
+Tout va se finir ici![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8c2</ref>
+        </refs>
+        <data>TAURUS:
+Selon ma petite enquête...
+ 
+Matelight dégage de la lumière par
+lui-même en certaines occasions.
+ 
+Avec cette force,il est évident que ni
+nous ni un ennemi ne doit se frotter à
+lui en pareilles occasions!
+Capitaine [character][0x1]!
+Préparez-vous vite![end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x75</ref>
+        </refs>
+        <data>               Chapitre [0xb1][0xb5]
+ -Alexandre,le Roi des Dragons Sacrés-[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x46c</ref>
+        </refs>
+        <data>[character][0x1]:
+Les Dragons Sacrés ont appris une
+leçon.
+Les démons qui sont venus à Orelus
+étaient autrefois des êtres-dragons.
+ 
+Cependant,les êtres-dragons les ont
+sûrement pardonnés car ils aiment la
+manière dont Valitra et les autres se
+sont alliés pour protéger et permettre
+la Résurrection de Bahamut.
+ 
+Tout comme Bahamut,ils aiment malgré
+tout le Peuple Dragon.
+ 
+Un jour,le ciel chantera leur retour
+vers leur Patrie.[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x495</ref>
+        </refs>
+        <data>PALPALEOS:
+Notre but est proche...[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x218</ref>
+        </refs>
+        <data>                Epilogue
+      -Nous Verrons Le Lendemain-[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x261</ref>
+        </refs>
+        <data>MATELIGHT:
+Alexandre doit sûrement être ressuscité!
+Soyons tous prêt![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x84a</ref>
+        </refs>
+        <data>SENDACK:
+[character][0x1],est-ce utile... de vaincre...
+Alexandre ressuscité?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x484</ref>
+        </refs>
+        <data>[character][0x1]:
+[character][0x1]...
+Nous avons vaincu Alexandre une fois!
+Je suis sûre que nous y parviendrons
+encore.
+Je suis sûre que tout ira bien.[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x815</ref>
+        </refs>
+        <data>COMMANDANT:
+[character][0x1],reste calme!
+ 
+ Ce n'est pas possible!
+ Tout est bientôt fini...[end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x824</ref>
+        </refs>
+        <data>Splendide![end]V</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x82f</ref>
+        </refs>
+        <data>Vraiment?
+Je sens que bientôt toutes nos
+blessures vont s'apaiser.[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x65c</ref>
+        </refs>
+        <data>MATELIGHT:
+Tu es prêt?!
+ 
+ Ne sois pas impatient!
+ Allons combattre Matelight![end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x674</ref>
+        </refs>
+        <data>MATELIGHT:
+Dépêche-toi![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x688</ref>
+        </refs>
+        <data>MATELIGHT:
+Allons sauver notre monde,Orelus!
+ 
+Dès notre victoire,
+nous rentrerons chez nous![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8cc</ref>
+        </refs>
+        <data>TAURUS:
+Capitaine [character][0x1]!
+Assurez-vous de n'avoir rien oublié!
+N'oubliez pas de vous occuper des
+dragons.[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x49f</ref>
+        </refs>
+        <data>PALPALEOS:
+[character][0x1] est en train de penser à
+l'attaque à employer...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4ad</ref>
+        </refs>
+        <data>[character][0x1]:
+Mais je l'ai déjà fait![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x87a</ref>
+        </refs>
+        <data>RUSH:
+Dépêche-toi [character][0x1]![end][end1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8e8</ref>
+        </refs>
+        <data>BIKKEBAKKE:
+Nous allons bientôt rentrer chez
+nous![end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8ec</ref>
+        </refs>
+        <data> Je veux des champignons!
+ Vais-je prendre des livres?
+ De bonnes choses...[end1]
+</data>
+    </text>
+</texts>

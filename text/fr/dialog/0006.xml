@@ -1,0 +1,1217 @@
+<?xml version="1.0" ?>
+<texts base="0x15d3" room_id="6">
+    <text>
+        <refs>
+            <ref>0x5f</ref>
+        </refs>
+        <data>          Chapitre [0xb5]
+  -Ce n'est pas un rêve...-[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x131</ref>
+        </refs>
+        <data>[character][0x1] est enfin revenue!
+Le rêve de la restauration de Kana
+est proche!
+J'ai de plus en plus envie de
+commander durant les combats afin que
+la victoire soit plus rapide![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2b2</ref>
+        </refs>
+        <data>COMMANDANT:
+Trouves-tu que ma moustache fait
+ringard?[end]F</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2cc</ref>
+        </refs>
+        <data>Fantastique!
+ 
+  
+C'est merveilleux pour moi de
+rencontrer la Princesse [character][0x1]![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2c3</ref>
+        </refs>
+        <data>[character][0x1],il faut toujours faire attention
+à son apparence extérieur!
+ 
+Je me sers souvent de la bave de
+dragon pour faire tenir ma moustache.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2d8</ref>
+        </refs>
+        <data>Très bien!
+La moustache est un élément important
+chez les chevaliers.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x357</ref>
+        </refs>
+        <data>Sauzer et les Dragons Sacrés...
+La Princesse et les Dragons Sacrés...
+ 
+La Légende des Dragons Sacrés,
+la Princesse,et Sauzer...
+Oh! Quel mal de tête![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x468</ref>
+        </refs>
+        <data>RUSH:
+[character][0x1] est vraiment ravissante![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x485</ref>
+        </refs>
+        <data>TAURUS:
+[character][0x1] semble faire des cauchemars...[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x49d</ref>
+        </refs>
+        <data>BIKKEBAKKE:
+Courage,courage![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4b8</ref>
+        </refs>
+        <data>HORNET:
+Veux-tu essayer de contrôler le
+bateau?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4bc</ref>
+            <ref>0x505</ref>
+            <ref>0x2b6</ref>
+        </refs>
+        <data> Oui
+ Non[end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xbb2</ref>
+        </refs>
+        <data>Tu es trop jeune [character][0x1]![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4c4</ref>
+            <ref>0x50d</ref>
+        </refs>
+        <data>Tant pis...[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x501</ref>
+        </refs>
+        <data>HORNET:
+As-tu déjà essayé de le contrôler?[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4fa</ref>
+        </refs>
+        <data>D'accord,vas-y![end]N</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x513</ref>
+        </refs>
+        <data>Non,pas question!
+Tu n'es qu'un amateur,tu as encore
+beaucoup de progrès à faire![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x56a</ref>
+        </refs>
+        <data>MELODIA:
+[character][0x1] n'est pas une chose et pourtant
+Hornet dit que c'est sa femme!
+Souriez![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x577</ref>
+        </refs>
+        <data>HORNET:
+Mélodia,va dans ta chambre![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x59d</ref>
+        </refs>
+        <data>MELODIA:
+[0xa8]Intense sourire moqueur[0xa9][end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xdda</ref>
+            <ref>0xdca</ref>
+            <ref>0xdb4</ref>
+        </refs>
+        <data>ZORA:
+La Princesse est réveillée![end]Q</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2a8</ref>
+        </refs>
+        <data>Quelle délicieuse odeur![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x46f</ref>
+        </refs>
+        <data>RUSH:
+Mon coeur bat très fort![end][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x48c</ref>
+        </refs>
+        <data>TAURUS:
+Comme je le pensais,[character][0x1] a fait une
+fois de plus un cauchemar.[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x159</ref>
+        </refs>
+        <data> Je suis content!
+ Je ne vois pas pourquoi...[end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5af</ref>
+        </refs>
+        <data>ZORA:
+Je te confies la princesse![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x147</ref>
+        </refs>
+        <data>Son visage est luisant...
+Son armure est brillante...
+ 
+Hein?
+Ce n'est pas [character][0x1]!
+C'est...
+Commandant[0xd8]
+Il a choisi la meilleure place!
+Il me gâche la vue![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x155</ref>
+        </refs>
+        <data>MATELIGHT:
+Alors,tu es content?[end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x16f</ref>
+        </refs>
+        <data>Je le savais.
+La JOIE se lit sur ton visage![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x182</ref>
+        </refs>
+        <data>Minute!
+Tu devrais l'être,
+elle est ici tout de même![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x34d</ref>
+            <ref>0x317</ref>
+        </refs>
+        <data>SENDACK:
+[character][0x1],la Princesse est réveillée![end][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x11af</ref>
+        </refs>
+        <data>RUSH:
+Viens ici [character][0x1]![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5df</ref>
+        </refs>
+        <data>Hum... hum...[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x610</ref>
+        </refs>
+        <data>Cet endroit...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x62b</ref>
+        </refs>
+        <data>[character][0x1],est-ce toi?![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x639</ref>
+        </refs>
+        <data>Sendack![end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x647</ref>
+        </refs>
+        <data>Oh! Matelight![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x655</ref>
+        </refs>
+        <data>Mais,où sommes-nous?[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x665</ref>
+        </refs>
+        <data>SENDACK:
+Vous êtes à FARENHEIT!
+ 
+Vous êtes dans votre chambre,
+Princesse...[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x671</ref>
+        </refs>
+        <data>RUSH:
+Bienvenue chez vous,
+Princesse [character][0x1]![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x680</ref>
+        </refs>
+        <data>TAURUS:
+C'est mieux qu'une cellule de prison![end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x68c</ref>
+        </refs>
+        <data>BIKKEBAKKE:
+J'ai cru comprendre que vous vous
+sentiez mieux?[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6b0</ref>
+        </refs>
+        <data>MATELIGHT:
+[character][0x1]![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6c1</ref>
+        </refs>
+        <data>MATELIGHT:
+Princesse...
+C'est moi Matelight![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6d7</ref>
+        </refs>
+        <data>COMMANDANT:
+Et je suis Commandant,
+Capitaine de la Cavalerie de Mahal![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6eb</ref>
+        </refs>
+        <data>[character][0x1]:
+Ce n'est pas... un rêve?[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6fb</ref>
+        </refs>
+        <data>SENDACK:
+Regardez Princesse...
+C'est la réalité,ici![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x70e</ref>
+        </refs>
+        <data>MATELIGHT:
+Mademoiselle [character][0x1]!
+ 
+Vous avez simplement dû cauchemarder!
+Qu'avez-vous vu dans vos rêves?
+Ce n'était pas effrayant au moins?![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x71a</ref>
+        </refs>
+        <data>[character][0x1]:
+Un mauvais rêve...?
+Non,pas exactement![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x728</ref>
+        </refs>
+        <data>SENDACK:
+Mais alors,
+qu'y avait-il dans votre rêve?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x731</ref>
+        </refs>
+        <data>[character][0x1]:
+C'est flou...
+ 
+Il ne m'en reste que de brefs
+souvenirs.[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x741</ref>
+        </refs>
+        <data>ZORA:
+Hé,tout le monde!
+La Princesse doit être très fatiguée.
+Aussi,pourquoi n'iriez-vous pas
+une petite pause?[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x77d</ref>
+        </refs>
+        <data>RUSH:
+Allons-y!
+ 
+De toute manière,
+c'est toujours comme ça pour nous![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7f5</ref>
+            <ref>0x35e</ref>
+        </refs>
+        <data>SENDACK:
+[character][0x1]!
+Allons-y,sortons![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf11</ref>
+        </refs>
+        <data>[character][0x1]:
+Attendez![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf2d</ref>
+        </refs>
+        <data>[character][0x1]:
+Je vais vous raconter ce qu'il y
+avait dans mon rêve![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf39</ref>
+        </refs>
+        <data>MATELIGHT:
+Et qu'y avait-il?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf4b</ref>
+        </refs>
+        <data>[character][0x1]:
+J'ai entendu quelques mots dans ce
+rêve...
+Cependant,je ne comprends pas le
+sens de tout les mots que j'y ai
+entendu.
+Pouvez-vous m'aider?[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf58</ref>
+        </refs>
+        <data>MATELIGHT:
+Princesse,la plus belle chose que je
+puisse faire est de vous écouter![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf66</ref>
+        </refs>
+        <data>[character][0x1]:
+J'ai entendu parler le Dragon Sacré...
+Oui,le Dragon Sacré Valitra![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf73</ref>
+        </refs>
+        <data>SENDACK:
+Quoi!
+Le Dragon Sacré![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf7e</ref>
+        </refs>
+        <data>[character][0x1]:
+Oui,le Dragon Sacré Valitra m'a
+prévenu...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf89</ref>
+        </refs>
+        <data>[character][0x1]:
+Il m'a expliqué que si je réunissais
+le pouvoir des Dragons Sacrés,
+je deviendrais une Dragoon.[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf9d</ref>
+        </refs>
+        <data>MATELIGHT:
+Une Dragoon?!
+[character][0x1] peut devenir une Dragoon?![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xfaa</ref>
+        </refs>
+        <data>COMMANDANT:
+Qu'est-ce qu'être une Dragoon?[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xfbe</ref>
+        </refs>
+        <data>MATELIGHT:
+Le coeur d'une Dragoon est lié à ceux
+des Dragons Sacrés!
+Une Dragoon peut librement utiliser le
+pouvoir de ces Dragons.
+ 
+Autrefois,notre feu Roi de Kana
+possédait ce pouvoir...
+Cet extraordinaire pouvoir![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xfcc</ref>
+        </refs>
+        <data>COMMANDANT:
+Impressionnant![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xfe4</ref>
+        </refs>
+        <data>MATELIGHT:
+Les Dragons Sacrés sont maintenant à
+nos côtés!
+Valitra nous aidera peut-être à vaincre
+l'Empereur Sauzer!
+ 
+Granbelos n'est maintenant plus qu'un
+insecte!
+ 
+Après l'avoir vaincu,Kana renaîtra!
+L'empire n'a qu'à bien se tenir![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xff0</ref>
+        </refs>
+        <data>MATELIGHT:
+Oui!
+Allons prévenir tout le monde!
+Viens,Commandant![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1011</ref>
+        </refs>
+        <data>[character][0x1]:
+Attendez!
+C'était simplement un rêve![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x101e</ref>
+        </refs>
+        <data>SENDACK:
+Princesse...
+ 
+J'ai bien peur que ce ne soit pas un
+rêve!
+ 
+Vous avez réellement parlé au Dragon
+Sacré Valitra![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x102d</ref>
+        </refs>
+        <data>SENDACK:
+Il n'y a aucune différence si vous lui
+avez parlé dans vos rêves plutôt
+qu'en réalité!
+Notre défunt Roi de Kana m'avait déjà
+parlé de cela...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1039</ref>
+        </refs>
+        <data>[character][0x1]:
+Par conséquent...
+ 
+J'ai vraiment parlé à Valitra...
+Peut-être que je ne suis pas
+entièrement réveillée...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1044</ref>
+        </refs>
+        <data>[character][0x1]
+... ... ...
+ 
+S'il te plaît,laisse-moi un peu seule![end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x107a</ref>
+        </refs>
+        <data>ZORA:
+Princesse!
+ 
+J'ai entendu tout ce que vous avez
+dit,il y a un instant,et vous finirez
+seule comme ça!
+Je tiens à vous dire que je hais
+énormément une telle attitude![end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1086</ref>
+        </refs>
+        <data>ZORA:
+Avez-vous au moins remarqué les
+dangers qu'ils ont tous bravés pour
+vous sauver de l'Empire?[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1093</ref>
+        </refs>
+        <data>ZORA:
+Et nous avons fait tout notre possible
+pour vous!
+Après cela,nous espérions tout de
+même mieux de votre part![end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x10a0</ref>
+        </refs>
+        <data>ZORA:
+Peur de votre rêve?
+Peur du Dragon Sacré?
+Peur de la réalité?
+Voyons Princesse,levez-vous,
+et soyez forte!
+Une fois que votre coeur aura cessé
+d'avoir peur,venez nous rejoindre et
+nous serons tous à vos côtés!
+Voilà Princesse!
+J'espère bientôt vous voir debout![end][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5a8</ref>
+        </refs>
+        <data>ZORA:
+Il fallait le dire...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x305</ref>
+            <ref>0x10ee</ref>
+        </refs>
+        <data>SENDACK:
+[character][0x1]...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x80d</ref>
+        </refs>
+        <data>[character][0x1]:
+Je suis désolée pour tout à l'heure...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x81d</ref>
+        </refs>
+        <data>[character][0x1]:
+Hornet,j'ai une requête!
+ 
+Pourrais-tu voler en direction du ciel
+de Campbell?
+ 
+Je veux savoir ce qui se passe sur ce
+lagon![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x829</ref>
+        </refs>
+        <data>HORNET:
+D... d'accord Princesse![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x86a</ref>
+        </refs>
+        <data>[character][0x1]:
+[character][0x1],je dois te voir!
+ 
+Viens me rejoindre dans la Cabine du
+Capitaine![end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x87e</ref>
+        </refs>
+        <data>Princesse!
+[character][0x1] est le Capitaine de l'Escadron!
+Il est très occupé!
+Il a beaucoup trop de choses à faire.
+Mais moi,je suis libre!
+ 
+Une vieille personne est toujours moins
+occupée...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x891</ref>
+        </refs>
+        <data>[character][0x1]:
+Sendack,tu ne changeras donc jamais!
+Viens aussi dans la cabine.[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8a2</ref>
+        </refs>
+        <data>MATELIGHT:
+Princesse [character][0x1],et moi?
+Que dois-je faire?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8b0</ref>
+        </refs>
+        <data>[character][0x1]:
+Matelight,il faudrait que tu regardes
+ce qui se passe à Campbell.
+Pendant ce temps,j'aurai l'esprit
+tranquille grâce à toi![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8be</ref>
+        </refs>
+        <data>MATELIGHT:
+Ha ha ha...
+Je le ferai![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x588</ref>
+        </refs>
+        <data>MELODIA:
+Hornet est nerveux![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x803</ref>
+            <ref>0x5d3</ref>
+        </refs>
+        <data>[character][0x1]:
+Désolée...[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x51a</ref>
+        </refs>
+        <data>HORNET:
+Le lagon Campbell...
+Quand y va-t-on?[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x493</ref>
+        </refs>
+        <data>TAURUS:
+N'aurais-tu rien remarqué d'étrange
+à propos de Bikkebakke?![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x18b</ref>
+        </refs>
+        <data>MATELIGHT:
+La Princesse [character][0x1] prend maintenant
+la place de notre roi au combat.
+Je peux sentir l'arrivée d'une
+nouvelle époque![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x29e</ref>
+        </refs>
+        <data>COMMANDANT:
+La Princesse [character][0x1] est très belle!
+ 
+J'avais un pressentiment qu'elle le
+serait![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x365</ref>
+        </refs>
+        <data>SENDACK:
+[0xa8]Chuchotement...[0xa9]
+[0xa8]Chuchotement...[0xa9]
+[0xa8]La Princesse est déjà plus
+ énergique.[0xa9][end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8ed</ref>
+        </refs>
+        <data>[character][0x1]:
+Tout à l'heure...
+j'étais effrayée!
+Mais maintenant,il faut que je
+commence à me battre...[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x927</ref>
+        </refs>
+        <data>Zora a bien parlé![end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x932</ref>
+        </refs>
+        <data>Je n'ai pensé qu'à moi-même alors
+que vous avez tous pensé à moi!
+Vous êtes tous venus me sauver...[end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x93b</ref>
+        </refs>
+        <data>Je suis maintenant sauve...
+Tout le monde a vraiment fait de son
+mieux![end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x97e</ref>
+        </refs>
+        <data>Je suis malgré tout effrayée...
+Je ne comprends pas pourquoi je dois
+devenir une Dragoon...[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x98e</ref>
+        </refs>
+        <data>Le Dragon Sacré Valitra m'a parlé...[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x999</ref>
+        </refs>
+        <data>Réunis le pouvoir des Dragons Sacrés
+et tu deviendras alors une Dragoon.
+ 
+Je ne crois pas être la personne
+appropriée pour devenir une Dragoon...[end]V</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9a8</ref>
+        </refs>
+        <data>Vraiment...
+Je ne le pense pas...[end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9b6</ref>
+        </refs>
+        <data>Je suis désolée [character][0x1]!
+Je crois vraiment que je gâche ton
+temps à te parler.[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa1d</ref>
+        </refs>
+        <data>Pourrais-tu me faire une imitation?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa21</ref>
+        </refs>
+        <data> Bien sûr!
+ Evidemment Commandant!
+ monyo! [0xa8]détestable![0xa9][end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa43</ref>
+        </refs>
+        <data>Matelight!
+On dirait vraiment lui![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa6f</ref>
+        </refs>
+        <data>Tu imites Commandant!
+Tu le fais très bien![end]U</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xaa3</ref>
+        </refs>
+        <data>Un Petit Démon!
+Mais,où as-tu appris ça?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xab5</ref>
+        </refs>
+        <data>[character][0x1]:
+Merci [character][0x1]![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x36c</ref>
+        </refs>
+        <data>[character][0x1] et la princesse ensemble?!
+Elle ne peut pas tomber amoureuse en
+pleine période de guerre![end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3a9</ref>
+        </refs>
+        <data>Je suis le Capitaine de ce Vaisseau et
+je dois donc empêcher cela!
+ 
+Mais si je fais ça...
+Ah non de non!
+ 
+Tout le monde va penser...
+va penser que je suis un vieil homme
+sénile et arriéré...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3c0</ref>
+        </refs>
+        <data>SENDACK:
+Ah,princesse![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3cd</ref>
+        </refs>
+        <data>SENDACK:
+L'équipe de reconnaissance est
+revenue de Campbell...
+Il semble n'y avoir rien d'étrange sur
+ce Lagon![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3db</ref>
+        </refs>
+        <data>[character][0x1]:
+Ah! Rien?![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3e4</ref>
+        </refs>
+        <data>[character][0x1]:
+Je veux connaître la Légende!
+ 
+La Légende des Dragons Sacrés de
+Kana!
+ 
+Sauzer m'en avait parlé mais comment
+se faisait-il qu'il la connaisse?[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3f0</ref>
+        </refs>
+        <data>SENDACK:
+La Légende de Kana?
+Campbell la connait aussi![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3f9</ref>
+        </refs>
+        <data>[character][0x1]:
+J'aimerais en savoir plus...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x40b</ref>
+        </refs>
+        <data>SENDACK:
+Je vois!
+ 
+N'as-tu jamais rencontré l'Empératrice
+de Campbell?![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x435</ref>
+        </refs>
+        <data>SENDACK:
+L'Impératrice de Campbell est la soeur
+du Roi de Kana!
+Elle est aussi originaire de notre lagon
+et connaît donc la Légende![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x443</ref>
+        </refs>
+        <data>SENDACK:
+Vous comprenez mieux pourquoi Sauzer
+la connaît déjà!
+Tout le monde se la transmet![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x192</ref>
+            <ref>0x127</ref>
+        </refs>
+        <data>MATELIGHT:
+L'Impératrice de Campbell!
+Il nous faut aller la voir![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1a4</ref>
+        </refs>
+        <data>MATELIGHT:
+Très bien!
+ 
+Nous devons libérer Campbell du joug
+de l'Empire Granbelos!
+Le peuple de ce lagon semble pourtant
+si peu pressé d'une libération...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1d1</ref>
+        </refs>
+        <data>[character][0x1]:
+Quel est l'état des lieux sur le lagon
+Campbell?[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1dc</ref>
+        </refs>
+        <data>MATELIGHT:
+Et bien... Princesse [character][0x1]...
+ 
+Il y a là-bas de nombreuses troupes
+impériales![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1e9</ref>
+            <ref>0x52e</ref>
+        </refs>
+        <data>HORNET:
+De plus,l'Empire commence à surveiller
+nos faits et gestes!
+Bientôt,nous devrons aller combattre![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1f6</ref>
+        </refs>
+        <data>SENDACK:
+Que devrions-nous faire?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x206</ref>
+        </refs>
+        <data>[character][0x1]
+Nous sommes depuis trop longtemps
+séparés de notre pays.
+Nous nous battrons contre ces troupes
+de toutes nos forces.
+ 
+De plus,elles-mêmes sont éloignées de
+leurs renforts et seront donc moins
+offensives![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x220</ref>
+        </refs>
+        <data>MATELIGHT:
+[character][0x1]...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x22f</ref>
+        </refs>
+        <data>[character][0x1]:
+Ce ne sont là que les bases de la
+stratégie...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x23d</ref>
+        </refs>
+        <data>MATELIGHT:
+Mais bien sûr,Princesse [character][0x1]!
+ 
+Très bien [character][0x1]!
+Prépare-toi à combattre![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x269</ref>
+        </refs>
+        <data>MATELIGHT:
+Cependant,où avez-vous appris de
+telles choses sur la stratégie?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa13</ref>
+            <ref>0x9f7</ref>
+        </refs>
+        <data>[character][0x1]:
+... ... ... ...[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x521</ref>
+        </refs>
+        <data>HORNET:
+Es-tu prêt [character][0x1]?
+ 
+ Attendons encore...
+ Allons combattre![end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc67</ref>
+        </refs>
+        <data>[character][0x1]:
+Allons-y [character][0x1]![end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1173</ref>
+        </refs>
+        <data>Obtenu [0xaa]PRINCESSE???[0xab].[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x11f6</ref>
+        </refs>
+        <data>Obtenu [0xaa]CAKE RATE[0xab].[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1207</ref>
+        </refs>
+        <data>Obtenu [0xaa]CHOSE SUR L'ETAGERE[0xab].[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1218</ref>
+        </refs>
+        <data>Obtenu [0xaa]UNIUNJI[0xab].[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2fe</ref>
+        </refs>
+        <data>SENDACK:
+Je ressens une étrange force en moi.
+ 
+Serait-ce possible que ce soit celle du
+Dragon Sacré?[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x476</ref>
+        </refs>
+        <data>RUSH:
+Le sourire de [character][0x1]...
+Je le verrai dans les combats![end][0x0]</data>
+    </text>
+</texts>

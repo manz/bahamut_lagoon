@@ -1,0 +1,216 @@
+<?xml version="1.0" ?>
+<texts base="0x72c" room_id="67">
+    <text>
+        <refs>
+            <ref>0x144</ref>
+        </refs>
+        <data>FREDERIKA:
+Je me demande si [character][0x1] arrive.[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x152</ref>
+        </refs>
+        <data>HORNET:
+Désolé de vous avoir fait attendre!
+Notre chef va bientôt arriver!
+Il accompagne Sendack,le Capitaine de
+ce vaisseau,qui est assez vieux![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x15d</ref>
+        </refs>
+        <data>DIANA:
+[character][0x1] arrive![end]F</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x315</ref>
+        </refs>
+        <data>FREDERIKA:
+Bienvenue [character][0x1]![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x327</ref>
+        </refs>
+        <data>DIANA:
+Tu es en retard!
+Nous nous inquiétions![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x33d</ref>
+        </refs>
+        <data>HORNET:
+Parlez un peu du passé ensemble!
+ 
+Après cela,le voyage vers le combat
+commence![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x34a</ref>
+        </refs>
+        <data>HORNET:
+Capitaine du vaisseau,Sendack!
+Donnez-nous le signal![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x363</ref>
+        </refs>
+        <data>HORNET:
+En route!
+Nous n'avons rien oublié?!
+Le nouveau nom du bateau a été
+choisi?[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3c0</ref>
+        </refs>
+        <data>MATELIGHT:
+Comment osent-ils nous bloquer?![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3f5</ref>
+        </refs>
+        <data>COMMANDANT:
+Matelight!
+Arrêtez![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x375</ref>
+        </refs>
+        <data>SENDACK:
+Le nom du bateau est...[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x403</ref>
+        </refs>
+        <data>HORNET:
+Oh!
+ 
+Vous êtes dans mon vaisseau,
+alors soyez calme![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x41d</ref>
+        </refs>
+        <data>MATELIGHT:
+Comment osent-ils?!
+Je suis Matelight tout de même![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4b5</ref>
+        </refs>
+        <data>HORNET:
+Allez-y,Sendack!
+Annoncez le nom de ce bateau![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4c7</ref>
+        </refs>
+        <data>SENDACK:
+Hum hum!
+Soyez attentifs...[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4fa</ref>
+        </refs>
+        <data>La fierté de Kana se nommera
+FARENHEIT![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x553</ref>
+        </refs>
+        <data>COMMANDANT:
+La fierté de Kana?!
+C'est cela![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x578</ref>
+        </refs>
+        <data>MATELIGHT:
+Co... Commandant...
+ 
+Je... je te le demande...[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x581</ref>
+        </refs>
+        <data>COMMANDANT:
+Tu veux que je fasse ça,
+Matelight![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x587</ref>
+        </refs>
+        <data>COMMANDANT:
+Matelight,c'est à toi de le faire!
+Ce sont tes souvenirs!
+D'accord,je vais le faire![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6ce</ref>
+        </refs>
+        <data>COMMANDANT:
+Matelight!
+Regardez![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6e5</ref>
+        </refs>
+        <data>Hoho!
+Le Drapeau National de Kana![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x717</ref>
+        </refs>
+        <data>MATELIGHT:
+Notre Patrie Kana...
+La Princesse [character][0x1]...
+Sendack,ce vieux magicien!
+[character][0x1]!
+ 
+Lorsque la paix sera de retour,
+de nombreux autres drapeaux pourront
+s'élever!
+COMMANDANT!
+ 
+  
+Ta contrée,ton lagon Mahal,va bientôt
+pouvoir brandir de nouveau son
+drapeau!
+Patiente encore le temps de quelques
+batailles!
+ 
+Celle pour ta patrie arrivera bien
+assez tôt!
+ 
+Je suis le puissant Matelight![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5f9</ref>
+        </refs>
+        <data>COMMANDANT:
+Allons-y![end][0x0]</data>
+    </text>
+</texts>

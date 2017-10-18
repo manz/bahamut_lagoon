@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<texts base="0x826" room_id="48">
+    <text>
+        <refs>
+            <ref>0xeb</ref>
+        </refs>
+        <data>MATELIGHT:
+Princesse [character][0x1][0xd8][end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x11d</ref>
+        </refs>
+        <data>COMMANDANT:
+Matelight!
+Reste ici!
+Pour une fois,écoute-moi et viens...[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x142</ref>
+        </refs>
+        <data>RUSH:
+... ... ... ...
+ 
+Très bien,partons![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x680</ref>
+        </refs>
+        <data>SENDACK:
+[character][0x1],la force mène à tout.[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x684</ref>
+        </refs>
+        <data> Tu crois que tout est fini!
+ Tu es un vieil homme...[end1][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x68e</ref>
+        </refs>
+        <data>[character][0x1],la Princesse a choisi quelqu'un
+d'autre que toi...[end]...</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x696</ref>
+        </refs>
+        <data>... ... ... ...
+Au revoir,[character][0x1]![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5cf</ref>
+            <ref>0x607</ref>
+        </refs>
+        <data>[character][0x1]:
+[character][0x1],j'aurai une requête...
+Prends soin de lui...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5a6</ref>
+        </refs>
+        <data>PALPALEOS:
+[character][0x1],j'aimerais te parler!
+C'est très important...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x624</ref>
+        </refs>
+        <data>PALPALEOS:
+[character][0x1],s'il te plaît,puis-je m'appuyer
+sur ton épaule...?[end][character][0x1]</data>
+    </text>
+</texts>

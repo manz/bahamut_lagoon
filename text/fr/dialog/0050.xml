@@ -1,0 +1,292 @@
+<?xml version="1.0" ?>
+<texts base="0x601" room_id="50">
+    <text>
+        <refs>
+            <ref>0x566</ref>
+        </refs>
+        <data>         Tout est fermé[0xd8]
+ 
+      Gudruff,Empereur du mal,
+    Nouvel Empereur de l'Empire.[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x332</ref>
+        </refs>
+        <data>BIKKEBAKKE:
+Des champignons?![end]...</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x21f</ref>
+        </refs>
+        <data>... ... ... ...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x30c</ref>
+        </refs>
+        <data>SENDACK:
+Excuse-moi... excuse-moi...
+Je feins la maladie mais...
+Je crains le Dragon Sacré...
+Je crains le combat...
+Je ne suis qu'un homme faible.[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x31d</ref>
+        </refs>
+        <data>RUSH:
+Cette intense puissance serait la
+colère du Dragon Sacré?![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x327</ref>
+        </refs>
+        <data>TAURUS:
+Capitaine [character][0x1],
+je me sens si lourd...
+Le Dragon Sacré est dans une telle
+furie![end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x587</ref>
+        </refs>
+        <data>PALPALEOS:
+Gudruff!
+Quel est ce lieu?
+Et l'Empereur Sauzer?[end]G</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x59e</ref>
+        </refs>
+        <data>GUDRUFF:
+L'Empereur Sauzer...?
+Il est terriblement déçu...[end]G</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5ad</ref>
+        </refs>
+        <data>Gufufufufu[0xd8]
+En effet,il doit supporter la dure
+trahison de Palpaleos!
+Avant que je ne le contrôle,
+ses derniers mots furent...
+ 
+[0xaa]Ne pardonne pas à Palpaleos sa
+ trahison![0xab]
+Assumez Général...
+Gufufufufu[0xd8][end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5bc</ref>
+        </refs>
+        <data>PALPALEOS:
+C'est ridicule[0xd8]
+Pourquoi... Sauzer...?[end]G</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5d7</ref>
+        </refs>
+        <data>GUDRUFF:
+Pourquoi...?
+Tu devrais le lui demander...
+Je vois aussi que vous êtes tous là!
+Alors vous mourrez tous!
+ 
+Gufufu,vous tomberez dans le ciel avec
+ce Dragon Sacré cauchemardesque!
+Adieu![end]V</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x249</ref>
+        </refs>
+        <data>Valitra...
+ 
+  
+Léviathan...
+ 
+  
+Garuda...
+ 
+  
+Jormungand...
+ 
+  
+Vous êtes tous là!
+Ainsi,l'heure de la revanche est
+arrivée.[end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x27c</ref>
+        </refs>
+        <data>Je suis le Dragon Sacré Hypérion...
+Tu dois être la fille au coeur faible...
+Viens seule...
+Tu es la seule à pouvoir apaiser notre
+colère...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x37a</ref>
+        </refs>
+        <data>Palpaleos,
+je ne pourrais peut-être plus être
+avec toi mais tu as des personnes
+comme Matelight et Commmandant à tes
+côtés.
+ 
+Sendack,
+ne fais pas l'impossible!
+Ne va pas trop vite!
+Prends un peu de repos!
+Tout le monde t'aime.
+ 
+[character][0x1],
+n'oublie pas de nourrir les dragons.[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2ce</ref>
+        </refs>
+        <data>MATELIGHT:
+Qu'il revienne[0xd8]
+Il paiera[0xd8][end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2e3</ref>
+        </refs>
+        <data>COMMANDANT:
+Tout est fermé[0xd8][end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2ed</ref>
+        </refs>
+        <data>COMMANDANT:
+Ma moustache me le dit[0xd8]
+Est-ce ça la colère des Dragons
+Sacrés?
+C'est si pénible[0xd8][end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2d8</ref>
+        </refs>
+        <data>MATELIGHT:
+[character][0x1],que se passe-t-il?
+Toi,tu peux...
+Oh,ma tête![end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2b6</ref>
+        </refs>
+        <data>PALPALEOS:
+Je ne le crois pas...
+ 
+Rien n'est vrai...
+Moi... un lâche...?!
+ 
+Ce serait plutôt à moi de lui dire ça.[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2c3</ref>
+        </refs>
+        <data>PALPALEOS:
+[character][0x1]...[end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x41d</ref>
+        </refs>
+        <data>Je crois avoir compris.
+Je suis la fille au coeur faible.
+ 
+Je ne parviens pas à résister aux
+sentiments et souvenirs des Dragons
+Sacrés.[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4d6</ref>
+        </refs>
+        <data>La fille au coeur faible,
+tu connais le vrai sens de la Légende.
+  
+Amène les Dragons Sacrés vers une Ere
+de paix.
+ 
+La Dragoon...
+la personne qui contrôle les Dragons
+Sacrés...
+La Nouvelle Ere t'attend...
+Fais revivre la mémoire du ciel,
+l'Ere des Dragons Sacrés.
+Cette Ere arrivera bientôt.[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x441</ref>
+        </refs>
+        <data>Princesse [character][0x1]!
+Je ne peux aller plus loin.
+ 
+Vous n'êtes pas la seule personne au
+coeur faible.
+J'ai le coeur craintif...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x46d</ref>
+        </refs>
+        <data>SAUZER:
+Venez par ici,je vous en prie.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x48d</ref>
+        </refs>
+        <data>SAUZER:
+Je connais la colère et la peine des
+Dragons Sacrés.
+Je vais vous donner le coeur et la
+mémoire d'Hypérion!
+ 
+Princesse [character][0x1],
+sauvez le Ciel d'Orelus.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x537</ref>
+        </refs>
+        <data>SAUZER:
+Palpaleos,j'aimerais que...
+tu m'amènes voir le ciel...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x531</ref>
+        </refs>
+        <data>PALPALEOS:
+Sauzer[0xd8][end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x540</ref>
+        </refs>
+        <data>PALPALEOS:
+Je vous emmène à FARENHEIT...[end][0x0]</data>
+    </text>
+</texts>

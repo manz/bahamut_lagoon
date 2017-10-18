@@ -1,0 +1,409 @@
+<?xml version="1.0" ?>
+<texts base="0x6b0" room_id="65">
+    <text>
+        <refs>
+            <ref>0x15e</ref>
+        </refs>
+        <data>Grrrrr...[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x31e</ref>
+        </refs>
+        <data>L'Empire a été chassé mais cela
+n'était pas nécessaire![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2fa</ref>
+        </refs>
+        <data>Haha...
+Et après cela,Campbell redeviendra
+pareille?[end]V</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x30c</ref>
+        </refs>
+        <data>Vous nous avez libérés mais tout n'est
+pas aussi simple.[end]U</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x165</ref>
+        </refs>
+        <data>Une fois de plus,Campbell s'en sort
+face à l'Empire Granbelos,
+n'est-ce pas?
+ Oui...
+ Hum...[end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x172</ref>
+        </refs>
+        <data>Je le savais!
+Mais pour combien de temps encore,
+en supposant que rien ne change![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x17b</ref>
+        </refs>
+        <data>Cela me console.[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x186</ref>
+        </refs>
+        <data>La plupart des adultes avaient été
+enfermés par les soldats de l'Empire.[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x150</ref>
+        </refs>
+        <data>L'Impératrice de Campbell,pour nous
+protéger,a accepté de rester enfermée
+dans une cellule de prison,mais la ville
+s'est aussi montrée résistante face à
+Sauzer.[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x157</ref>
+        </refs>
+        <data>La nouvelle de la libération de Campbell
+parviendra bientôt à l'Empereur.
+Il sera furieux!
+Qu'adviendra-t-il de nous?[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x589</ref>
+        </refs>
+        <data>MATELIGHT:
+Vous êtes faible!
+Même si vous êtes la soeur de notre
+défunt Roi de Kana et l'Impératrice
+de Campbell,je ne pourrai pas vous
+vous pardonner![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x59f</ref>
+        </refs>
+        <data>IMPERATRICE DE CAMPBELL:
+Matelight,je ne changerai pas d'avis.[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5bb</ref>
+        </refs>
+        <data>MATELIGHT:
+Oh!
+Vous,Impératrice,vous préférez mourir
+dans l'ombre,comme nourriture à
+à dragon,plutôt que de faire face à
+l'ennemi![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5cd</ref>
+        </refs>
+        <data>COMMANDANT:
+Matelight!
+Calme-toi![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5da</ref>
+        </refs>
+        <data>MATELIGHT:
+Comment pourrais-je me calmer?[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5e6</ref>
+        </refs>
+        <data>MATELIGHT:
+L'Impératrice ne veut pas que nous
+libérions Campbell!
+Elle est persuadée que rester aux
+mains de Granbelos est meilleur pour
+son peuple![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5f3</ref>
+        </refs>
+        <data>COMMANDANT:
+Je suis d'accord avec toi!
+ 
+Ce n'est peut-être pas le meilleur
+plan à suivre.
+ 
+Pensons à la manière dont il faudra
+agir pour lui faire changer d'avis.[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x601</ref>
+        </refs>
+        <data>MATELIGHT:
+Tu as raison!
+ 
+Peut-être que nous ne devrions pas
+rester ici![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x635</ref>
+        </refs>
+        <data>COMMANDANT:
+Tu peux te calmer?![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x643</ref>
+        </refs>
+        <data>MATELIGHT:
+Encore![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x104</ref>
+        </refs>
+        <data>COMMANDANT:
+L'Impératrice nous a tenu un étrange
+discours.
+Essaie de la faire changer d'avis...
+Si tu y parviens![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xfa</ref>
+        </refs>
+        <data>MATELIGHT:
+Convaincs-la![end]N</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2d6</ref>
+        </refs>
+        <data>NELBO:
+Tu es [character][0x1],membre de l'Escadron
+Dragon de Kana?![end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2e8</ref>
+        </refs>
+        <data>JOY:
+Tu peux entrer sans clé!
+Je t'en prie,vas-y...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1a2</ref>
+        </refs>
+        <data>IMPERATRICE DE CAMPBELL:
+Tu es [character][0x1],n'est-ce pas?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1d8</ref>
+        </refs>
+        <data>IMPERATRICE DE CAMPBELL:
+Ainsi,c'est vous qui avez commencé
+une nouvelle guerre?
+Unir le ciel est l'ambition de Sauzer.
+C'est pour cette raison qu'il guerroie
+sans cesse.[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1e4</ref>
+        </refs>
+        <data>IMPERATRICE DE CAMPBELL:
+Lorsque son ambition sera achevée,
+la paix viendra!
+Ce sera la liberté pour mon humble
+peuple si nous ne résistons pas.[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x20f</ref>
+        </refs>
+        <data>IMPERATRICE DE CAMPBELL:
+Mais la réalité de cette paix n'est pas
+encore palpable.
+Et si nous résistions?
+Non... tu serais incapable de nous
+secourir,n'est-ce pas?![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x21c</ref>
+        </refs>
+        <data>IMPERATRICE DE CAMPBELL:
+L'Empire reprendrait de suite Campbell!
+Serais-tu capable de nous défendre?
+Pourrais-tu le garantir?[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x260</ref>
+        </refs>
+        <data>IMPERATRICE DE CAMPBELL:
+Réponds! Je t'en prie!
+Pourquoi ne parles-tu pas?
+Dorénavant,réfléchis mieux et prends
+en considération ce que je viens de
+te dire.[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x27b</ref>
+        </refs>
+        <data>[character][0x1]:
+Tante![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x198</ref>
+            <ref>0x287</ref>
+        </refs>
+        <data>IMPERATRICE DE CAMPBELL:
+Je n'ai rien à te dire![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x294</ref>
+        </refs>
+        <data>[character][0x1]:
+[character][0x1]!
+ 
+Va rejoindre ton bataillon,
+s'il te plaît!
+ 
+Je veux rester seule avec ma tante...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2a0</ref>
+        </refs>
+        <data>SENDACK:
+Princesse... la Légende...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2ac</ref>
+        </refs>
+        <data>[character][0x1]:
+Je sais,Sendack![end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x11e</ref>
+        </refs>
+        <data>Je comprends tes soucis.
+Ne t'inquiète pas!
+Nous sommes du bon côté!
+Nous ne devrions pas nous
+inquiéter...
+[character][0x1],nous devrions nous reposer.
+Oui! A une telle heure,c'est
+nécessaire![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x111</ref>
+        </refs>
+        <data>[character][0x1]:
+Désolé [character][0x1]!
+Seulement deux personnes.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x12b</ref>
+        </refs>
+        <data>SENDACK:
+[character][0x1]!
+ 
+Allons au bar,en ville,pour boire un
+peu de vin.
+Un pause me fera du bien![end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2ef</ref>
+        </refs>
+        <data>JOY:
+Elles sont déjà deux dans la cellule...[end]N</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2dd</ref>
+        </refs>
+        <data>NELBO:
+Laisse-les...
+Fais-le pour moi...[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x18d</ref>
+        </refs>
+        <data>Bienvenue![end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x301</ref>
+        </refs>
+        <data>Le Peuple de Campbell a fait erreur![end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x313</ref>
+        </refs>
+        <data>L'Empire,ici à Campbell,nous avait
+permis de prospérer.[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x325</ref>
+        </refs>
+        <data>Hein?
+ 
+  
+ Pourquoi ne sortez-vous pas?
+ Rien d'important...[end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x332</ref>
+        </refs>
+        <data>Je veux rester enfermée à clef encore
+quelques temps...
+ 
+C'est une forme de résistance créée
+par l'Impératrice.
+ 
+C'est une personne respectable et je
+ne veux pas la tromper!
+ 
+Avec toutes vos questions,vous allez
+ennuyer l'Impératrice mais sachez que
+que tout est plus compliqué que vous
+n'avez l'air de le penser.[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x33b</ref>
+        </refs>
+        <data>Les ennuis ne sont pas finis,
+ils deviennent plus grands![end][0x0]</data>
+    </text>
+</texts>

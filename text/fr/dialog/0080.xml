@@ -1,0 +1,524 @@
+<?xml version="1.0" ?>
+<texts base="0xaf8" room_id="80">
+    <text>
+        <refs>
+            <ref>0x4d</ref>
+        </refs>
+        <data>MATELIGHT:
+[character][0x1]...
+Je... nous... avons gagné...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5a</ref>
+        </refs>
+        <data>MATELIGHT:
+Princesse [character][0x1]!
+Nous l'avons tué![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x82</ref>
+        </refs>
+        <data>COMMANDANT:
+Et le Peuple Dragon?[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x15e</ref>
+        </refs>
+        <data>SENDACK:
+C'est impossible!
+ 
+Les êtres-dragons d'Alexandre sont
+encore là![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x16a</ref>
+        </refs>
+        <data>SENDACK:
+Cela signifie que son esprit flotte dans
+les airs![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x17b</ref>
+        </refs>
+        <data>SENDACK:
+Par conséquent,Alexandre va bientôt
+ressusciter![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1e2</ref>
+        </refs>
+        <data>MATELIGHT:
+Noooon!
+R... regardez ça![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x20e</ref>
+        </refs>
+        <data>MATELIGHT:
+Nous n'avons plus beaucoup de temps![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2c9</ref>
+        </refs>
+        <data>SENDACK:
+La résurrection d'Alexandre est pire
+qu'une menace,c'est une calamité![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2d8</ref>
+        </refs>
+        <data>[character][0x1]:
+Tout va bien!
+Nous l'avons vaincu![end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2e4</ref>
+        </refs>
+        <data>PALPALEOS:
+[character][0x1]![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2fe</ref>
+        </refs>
+        <data>[character][0x1]:
+Palpaleos![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x317</ref>
+        </refs>
+        <data>[character][0x1]:
+Matelight! Sendack![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x336</ref>
+        </refs>
+        <data>[character][0x1]:
+Nous sommes les Compagnons d'Orelus!
+ 
+  
+Grâce à la volonté de tout le monde
+et avec ma volonté nous pouvons en
+finir...
+Je vous en prie donnez-moi votre
+force![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x34d</ref>
+        </refs>
+        <data>[character][0x1]:
+[character][0x1],s'il te plaît...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x35d</ref>
+        </refs>
+        <data>[character][0x1]:
+Certaines choses doivent disparaître...
+Je dois faire cela pour Orelus...
+Nous ne serons pas séparés,
+je te le promets...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x36f</ref>
+        </refs>
+        <data>[character][0x1]:
+[character][0x1]...
+ 
+Tu es pour moi une personne très
+importante.[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x37a</ref>
+        </refs>
+        <data>[character][0x1]:
+Tu dois rester et je dois partir...
+J'ai tant de choses à apprendre...
+La Voix du Ciel me transmet tout ses
+sentiments...
+Elle est la réalité de toutes choses...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x38c</ref>
+        </refs>
+        <data>[character][0x1]:
+Je dois le faire maintenant!
+Donnez-moi... votre force!
+Le temps est venu![end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xaeb</ref>
+        </refs>
+        <data> [character][0x1]...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa6f</ref>
+        </refs>
+        <data>[character][0x1]:
+Merci... [character][0x1]![end][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xabf</ref>
+        </refs>
+        <data>[character][0x1]:
+Viens Alexandre,
+Roi des Dragons Sacrés!
+Je suis venue avec mes amis d'Orelus,
+ne nous crains pas!
+Nous sommes venus ensemble!
+Tous m'ont donné leur force!
+Viens Alexandre!
+Je te l'ordonne![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa7a</ref>
+        </refs>
+        <data>[character][0x1]:
+[character][0x1]...
+Est-ce que tu vas m'aider?
+ Très bien!
+ Je ne sais pas...[end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa97</ref>
+        </refs>
+        <data>[character][0x1]:
+Aide-moi maintenant...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4b0</ref>
+        </refs>
+        <data>MATELIGHT:
+Que se passe-t-il?![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4bf</ref>
+        </refs>
+        <data>SENDACK:
+Alexandre est-il à l'intérieur de la
+Princesse?![end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4d8</ref>
+        </refs>
+        <data>PALPALEOS:
+Si c'est le cas...
+ 
+Les Dragons Sacrés dans le corps de
+[character][0x1] doivent sûrement se livrer
+bataille?![end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4e4</ref>
+        </refs>
+        <data>PALPALEOS:
+Pourquoi de telles actions?![end][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4f0</ref>
+        </refs>
+        <data>MATELIGHT:
+[character][0x1]! [character][0x1]![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x511</ref>
+        </refs>
+        <data>MATELIGHT:
+Vieil homme! Etre dragon!
+ 
+D'une manière ou d'une autre,
+reprenez-les![end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x525</ref>
+        </refs>
+        <data>ETRE DRAGON:
+Les forces de la Princesse résistent
+très bien...
+Elle se porte à merveille...[end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x53a</ref>
+        </refs>
+        <data>ETRE DRAGON:
+Viens Valitra![end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5d8</ref>
+        </refs>
+        <data>ETRE DRAGON:
+Garuda...[end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x590</ref>
+        </refs>
+        <data>ETRE DRAGON:
+Léviathan![end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x622</ref>
+        </refs>
+        <data>ETRE DRAGON:
+Jormungand,viens à moi![end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x66c</ref>
+        </refs>
+        <data>ETRE DRAGON:
+Viens ici,Hypérion![end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6b4</ref>
+        </refs>
+        <data>ETRE DRAGON:
+Bahamut!
+Ta Résurrection est enfin arrivée![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x73e</ref>
+        </refs>
+        <data>SENDACK:
+Et Alexandre?[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x74b</ref>
+        </refs>
+        <data>BAHAMUT:
+Il ne vit plus dans un être dragon
+à présent.
+Alexandre est dans le corps de la
+Princesse.
+Et,il a été vaincu...
+Alexandre est certainement furieux et
+peut-être déçu comme nous le fûmes.[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x758</ref>
+        </refs>
+        <data>PALPALEOS:
+Mais... et [character][0x1]?![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x761</ref>
+        </refs>
+        <data>[character][0x1]:
+Ne vous inquiétez pas...
+Je... vais bien...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x782</ref>
+        </refs>
+        <data>[character][0x1]:
+Oui,tout va bien![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x793</ref>
+        </refs>
+        <data>[character][0x1]:
+Parce que maintenant je ne suis plus
+une Princesse au coeur faible.[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7a4</ref>
+        </refs>
+        <data>[character][0x1]:
+Je suis la Princesse de Kana!
+Et je suis une Dragoon!
+Le coeur d'Alexandre s'est facilement
+lié au mien![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7b9</ref>
+        </refs>
+        <data>MATELIGHT:
+Quelle différence![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7c9</ref>
+        </refs>
+        <data>[character][0x1]:
+Bahamut...
+Bahamut,le gardien de Kana...
+Que vas-tu faire maintenant?![end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7e0</ref>
+        </refs>
+        <data>BAHAMUT:
+Va...
+ 
+L'heure de ma résurrection est venue.
+Vous verrez le lendemain...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7ec</ref>
+        </refs>
+        <data>[character][0x1]:
+Qu'as-tu dit?[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7f8</ref>
+        </refs>
+        <data>BAHAMUT:
+Lorsque nous étions en toi,
+ton esprit nous comprenait...
+Nous étions furieux...
+Nous avions peur...
+Nous étions mélancolique...
+Et longtemps,par notre faute,ta joie
+a disparu...
+Tu avais l'air si déçue...
+Va Dragoon...
+Pars avec tes amis,Dragoon!
+ 
+Orelus vous attend...
+Rentrez chez vous!
+Le monde est à vous![end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x872</ref>
+        </refs>
+        <data>BAHAMUT:
+[character][0x1]...
+ 
+Nous étions à l'intérieur de l'esprit
+de [character][0x1] et je sais que tu lui es
+très important.[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x87e</ref>
+        </refs>
+        <data>BAHAMUT:
+Mais ce sont simplement des souvenirs
+de toi...
+Quelquefois,lorsque les années passent,
+ces souvenirs tendent à disparaître...[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x88a</ref>
+        </refs>
+        <data>BAHAMUT:
+La Nouvelle Ere est venue...
+ 
+Elle va inévitablement remplacer l'Ere
+qui a précédé...
+ 
+Tout le monde essaie de gagner du
+temps sur le temps...
+ 
+Va [character][0x1]...
+avant qu'il ne soit cette fois
+trop tard...
+Va de l'avant et fais dans ta vie
+tout ce que tu aimes...
+Il est maintenant l'heure...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8cd</ref>
+        </refs>
+        <data>MATELIGHT:
+Viens... [character][0x1]!
+Nous rentrons chez nous![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8db</ref>
+        </refs>
+        <data>MATELIGHT:
+Comme auparavant...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8e9</ref>
+        </refs>
+        <data>MATELIGHT:
+Je sais qu'il y a des choses que tu
+ne peux pas me dire...
+Et je ne veux pas les savoir![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8f2</ref>
+        </refs>
+        <data>MATELIGHT:
+Merci pour tout... [character][0x1]![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x908</ref>
+        </refs>
+        <data>MATELIGHT:
+Ca faisait très longtemps que je
+voulais faire ce petit discours![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x916</ref>
+        </refs>
+        <data>MATELIGHT:
+Hé,[character][0x1]...
+ 
+En repartant,tu veux faire face à
+tout le monde comment?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x91a</ref>
+        </refs>
+        <data> En souriant!
+ En position de combat!
+ Une pause normale![end1]
+</data>
+    </text>
+</texts>

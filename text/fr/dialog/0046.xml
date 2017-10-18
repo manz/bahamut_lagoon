@@ -1,0 +1,170 @@
+<?xml version="1.0" ?>
+<texts base="0x59f" room_id="46">
+    <text>
+        <refs>
+            <ref>0xa1</ref>
+        </refs>
+        <data>[character][0x1]...
+ 
+  
+La dénommée Dragoon...
+ 
+  
+Tu es enfin venue...
+ 
+  
+N'hésite pas...
+Ouvre cette porte et viens à moi...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xbe</ref>
+        </refs>
+        <data>[character][0x1]:
+[character][0x1]...
+Matelight...
+Il est dangereux de me suivre.
+Les Dragons Sacrés sont emplis de
+haine.
+Je ne sais pas si je pourrai la
+stopper.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xce</ref>
+        </refs>
+        <data>S'il te plaît,Jormungand,
+ouvre cette porte!
+Tu as besoin de moi,n'est-ce pas?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2ae</ref>
+        </refs>
+        <data>[character][0x1]:
+Ne tente rien [character][0x1]!
+A partir d'ici,je dois y aller seule.[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x28f</ref>
+        </refs>
+        <data>MATELIGHT:
+Princesse [character][0x1],
+attendez-nous!
+Je vais vous escorter![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2a3</ref>
+        </refs>
+        <data>COMMANDANT:
+[character][0x1] semble bien se porter!
+ 
+[character][0x1],je t'en prie,va tout de même la
+rejoindre![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x299</ref>
+        </refs>
+        <data>SENDACK:
+[character][0x1]...
+je... ne peux plus...
+Va la soutenir...
+Va...
+Va l'aider...
+Va voir la Princesse...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2ce</ref>
+        </refs>
+        <data>[character][0x1]:
+[character][0x1],je suis désolée!
+Protège-moi jusqu'au dernier instant.[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x49b</ref>
+        </refs>
+        <data>[character][0x1]:
+Jormungand,je suis prête, maintenant!
+Dis-moi ce que tu as à dire...
+Je t'écouterai![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3c0</ref>
+            <ref>0x4b4</ref>
+        </refs>
+        <data>[character][0x1]...
+ 
+  
+[character][0x1]...[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3c6</ref>
+        </refs>
+        <data>La Dragoon...
+ 
+  
+Tes compagnons te protègent et te
+soutiennent.
+ 
+Ils ne te trahiraient pas et ils n'ont
+aucune haine.
+ 
+Ils pourraient nous surpasser,nous,
+les Dragons Sacrés...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4c4</ref>
+        </refs>
+        <data>Il est bon pour toi d'écouter cette
+histoire...
+ 
+Le commencement de toute chose est
+loin... très loin...
+ 
+La peine des Dragons Sacrés...
+Leur colère...
+Leur haine...
+Ces souvenirs...
+Nous ne pouvons les oublier.
+ 
+Ce fut la Guerre parmi les Dragons
+Sacrés!
+Ce fut la Grande Guerre![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4d6</ref>
+        </refs>
+        <data>Il est utile que les humains sachent
+cette histoire et comprennent nos
+sentiments.
+Il y a très longtemps,
+nous nous combattîmes!
+ 
+Nous nous ha[0x25]ssions.
+Nous nous querellions.
+Nous nous maudissions.
+Nous nous invoquions les uns et les
+autres puis il n'y eut plus rien.
+ 
+Nous perdîmes tout...
+La seule chose qui nous resta fut nos
+souvenirs.
+Les souvenirs des Dragons Sacrés...
+ 
+  
+La porte de la Nouvelle Ere...
+Nous détestons en entendre parler!
+ 
+Cependant,il sera un jour où la
+Nouvelle Ere surgira.[end][0x0]</data>
+    </text>
+</texts>

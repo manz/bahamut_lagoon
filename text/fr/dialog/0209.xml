@@ -1,0 +1,283 @@
+<?xml version="1.0" ?>
+<texts base="0x390" room_id="209">
+    <text>
+        <refs>
+            <ref>0x1f7</ref>
+        </refs>
+        <data>EKATERINA:
+Est-ce que quelqu'un pourrait me
+servir un Vin Doux?
+Hihihi...
+Je vois une fille comme moi dans le
+miroir...[end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x20c</ref>
+        </refs>
+        <data>EKATERINA:
+Hé là,quelqu'un peut me faire un
+coktail spécial Uniuji?
+Hihihi...
+Je vois une fille comme moi dans le
+miroir...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x210</ref>
+            <ref>0x1fb</ref>
+        </refs>
+        <data>Mais...
+Donne-moi mon verre...
+ 
+Pourquoi veux-tu... Hic...
+me le reprendre...?[end]F</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x272</ref>
+        </refs>
+        <data>FREDERIKA:
+Tout le monde sait que [character][0x1] est la
+fille au coeur faible.
+Je suis légèrement fatiguée...
+Tu pourrais me faire un petit massage,
+[character][0x1]?[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2c8</ref>
+        </refs>
+        <data>DIANA:
+Est-ce que tu le sais?!
+Tu le sais?![end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2cc</ref>
+        </refs>
+        <data> Quoi?
+ Désolé... je suis occupé![end1]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2dc</ref>
+        </refs>
+        <data>Dans la chambre de la princesse,j'ai
+entendu de tristes voix.
+ 
+Je suis persuadé que c'étaient les
+Dragons Sacrés qui étaient en train
+de parler.[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x34b</ref>
+        </refs>
+        <data>OHOHOHO...
+Ils sont tous si marrants...
+ 
+Moi et Don Juan?!
+O-HOHOHOHOHO[0xd8]
+Je vais mourir de rire![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x355</ref>
+        </refs>
+        <data>Des Excréments!
+J'espère qu'il n'y en a plus dans ce
+bateau.
+O-HOHOHOHOHO...!
+Il faut que je me lève![end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x221</ref>
+        </refs>
+        <data>EKATERINA:
+Le ciel est un monde infini!
+Hihihihi... Hihi...
+Pas comme les gens du bateau!
+Hihihihi...[end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1db</ref>
+        </refs>
+        <data>ANASTASIA:
+[character][0x1],l'as-tu appris?
+ 
+Bareck a dit que le Général Arbain
+a en sa possesion une épée nommée
+Excalibur.
+Savais-tu que cette Epée était selon
+une légende celle d'un très grand
+chevalier?
+Bareck,lui,aurait plus besoin d'une
+bonne hache.[end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x318</ref>
+        </refs>
+        <data>JEANNE:
+Haha... resservez-moi...
+resservez-moi...
+Do..n Ju...an!
+Ressers-moi![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x323</ref>
+        </refs>
+        <data>DON JUAN:
+Jeanne...
+Tu es si belle...[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x25c</ref>
+            <ref>0x2be</ref>
+        </refs>
+        <data>DON JUAN:
+Qu'est-ce que ces manières?[end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2b0</ref>
+        </refs>
+        <data>JOY:
+Je suis certaine que Don Juan aurait
+grand besoin d'une herbe gel pour
+calmer ses ardeurs.[end]N</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x24e</ref>
+        </refs>
+        <data>NELBO:
+Si Don Juan ose faire un geste déplacé,
+il se mange un coup bien placé![end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2e1</ref>
+        </refs>
+        <data>As-tu entendu parler de l'armure
+dernier cri?
+ 
+Elle se porte facilement et elle est
+très élégante.
+ 
+Que sera la prochaine mode?
+Je ne le sais pas encore,
+la mode change si vite!
+J'aimerais tant la connaître à
+l'avance.
+ 
+Au fait,est-ce que tu connais la
+dernière mode des robes?
+ 
+D'après l'expression sur ton visage,
+ça ne t'intéresse pas!
+ 
+Ce n'est pas ton passe-temps?!
+Très bien,gentleman[0xd8][end]F</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x289</ref>
+        </refs>
+        <data>FREDERIKA:
+Vas-y...
+Vas-y...
+Haha... [character][0x1]...
+J'en ai des frissons...
+Haha...
+Haha... c'est très bien[0xd8][end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2ea</ref>
+        </refs>
+        <data>Très bien.
+Va!
+Tu peux partir.[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x241</ref>
+        </refs>
+        <data>DON JUAN:
+Une Sorcière ne ferait jamais cela![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2a3</ref>
+        </refs>
+        <data>DON JUAN:
+Une Prêtresse ne ferait jamais cela![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x308</ref>
+        </refs>
+        <data>DON JUAN:
+Je vis la vie à [0xb0][0xaf][0xaf] à l'heure![end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1d4</ref>
+        </refs>
+        <data>ANASTASIA:
+[character][0x1],sais-tu ça?
+ 
+Avec une bonne croissance,un dragon
+peut devenir un Dragon Maître.
+ 
+De toute manière,il semble que ce soit
+leur croissance maximum.
+Je crois que Bareck aime ça![end]N</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x236</ref>
+        </refs>
+        <data>NELBO:
+On devrait faire taire ce Don Juan,
+l'ennemi des femmes!
+Ce serait si bien...[end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x298</ref>
+        </refs>
+        <data>JOY:
+Avec Nelbo,
+nous le surveillons constamment.
+Il est bientôt l'heure de partir au
+combat.[end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2fd</ref>
+        </refs>
+        <data>JEANNE:
+Don Juan est misérable!
+ 
+Il y a quelque chose qui ne tourne pas
+rond chez lui.
+ 
+Et,c'est un vrai malade!
+J'ai découvert qu'il était un voyeur!
+Quel pervers![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x333</ref>
+        </refs>
+        <data>MIST:
+J'ai rejoint vos idéaux![end][0x0]</data>
+    </text>
+</texts>

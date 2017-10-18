@@ -1,0 +1,535 @@
+<?xml version="1.0" ?>
+<texts base="0x90d" room_id="37">
+    <text>
+        <refs>
+            <ref>0xac</ref>
+        </refs>
+        <data>MATELIGHT:
+Je suis le commandant des chevaliers
+de l'armée de Kana!
+Moi,Garde Palais,je déclare Campbell
+libre!
+ 
+Venez,peuple de Campbell!
+Votre cité est libérée du joug de
+l'Empire![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xca</ref>
+        </refs>
+        <data>MATELIGHT:
+Hein...?[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd3</ref>
+        </refs>
+        <data>MATELIGHT:
+Quelque chose ne va pas?!
+Peuple de Campbell![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe6</ref>
+        </refs>
+        <data>COMMANDANT:
+Matelight!
+ 
+Je crois que nous devrions tout
+d'abord aller saluer l'Impératrice.[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf2</ref>
+        </refs>
+        <data>MATELIGHT:
+Je t'accompagne!
+Allons au château![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6b9</ref>
+        </refs>
+        <data>SENDACK:
+La Princesse ne se porte pas bien!
+Trouvons vite l'Impératrice.[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3c0</ref>
+            <ref>0x3b9</ref>
+        </refs>
+        <data>[character][0x1]:
+Oh... je vais bien...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3ce</ref>
+        </refs>
+        <data>[character][0x1]:
+Le Dragon Sacré Valitra est simplement
+en colère.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3dc</ref>
+        </refs>
+        <data>SENDACK:
+Princesse,je vous comprends...
+Moi aussi,je le ressens...[end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6c7</ref>
+        </refs>
+        <data>Je vous remercie!
+Campbell retrouve enfin son apparence
+d'antan.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6c0</ref>
+        </refs>
+        <data>Tu as vaincu Zonbeld!
+Tu dois être le Capitaine de l'Escadron
+Dragon mais tu as l'air si jeune.[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6ce</ref>
+        </refs>
+        <data>C'est ici que les Généraux de l'Empire
+et leurs soldats ont fait une halte.[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6d5</ref>
+        </refs>
+        <data>Le Général Palpaleos est une gentille
+personne.
+ 
+Le Général m'a dit:
+[0xaa]Tu seras un homme puissant[0xab],
+et il a raison!
+Héhéhé![end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6dc</ref>
+        </refs>
+        <data>Avant que vous n'arriviez,les soldats
+s'étaient installés partout en ville![end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6e3</ref>
+        </refs>
+        <data>LE NOBLE BAHAMUT:
+Salut,je suis le traducteur!
+J'espère que vous vous amusez bien!
+L'histoire est cool,n'est-ce pas?
+ 
+  
+NEO MITHRANDIL:
+Salut à tous!
+J'ai fait la correction du script.
+Tapez-moi sur les doigts si vous voyez
+une faute!
+ 
+COPERNIC:[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5aa</ref>
+        </refs>
+        <data>SENDACK:
+Mais aussi de les comprendre!
+ 
+C'est pour cette raison que Sauzer
+voulait impérativement la Princesse.
+Alors pourquoi l'a-t-il laissée partir?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3e5</ref>
+        </refs>
+        <data>[character][0x1]:
+Tante,je ne comprends pas la Légende
+des Dragons Sacrés.[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x794</ref>
+        </refs>
+        <data>[character][0x1]:
+Je vous demande pardon...
+ 
+A mon grand regret,
+Campbell reste sur ses positions.[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5b7</ref>
+        </refs>
+        <data>MATELIGHT:
+[character][0x1] est effrayée par l'immense
+pouvoir des Dragons Sacrés!
+Arrêtez d'en parler![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5c3</ref>
+        </refs>
+        <data>IMPERATRICE DE CAMPBELL:
+Sauzer n'est pas ce genre d'homme.
+Il n'abandonnera jamais!
+Il a peut-être déjà trouvé un autre
+moyen![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5e4</ref>
+        </refs>
+        <data>[character][0x1]:
+[character][0x1],allons-nous en!
+Je... veux partir...
+C'est cela... partons...
+ensemble...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3fe</ref>
+        </refs>
+        <data>[character][0x1]:
+Viens,retournons à FARENHEIT![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5f0</ref>
+        </refs>
+        <data>IMPERATRICE DE CAMPBELL:
+Au contraire [character][0x1],
+il est inutile de fuir!
+Tu ne peux pas échapper au destin de
+notre famille!
+C'est inévitable...
+Il est temps que tu montres ton
+véritable pouvoir.
+ 
+Tu peux voir que tout cela n'est pas
+un rêve...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x64b</ref>
+        </refs>
+        <data>Joy,Nelbo!
+Accompagnez ces personnes.
+Protégez autant que possible ma nièce.
+Ne me dites pas que vous ne voulez
+pas y aller![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5d5</ref>
+        </refs>
+        <data>[character][0x1]:
+Cessez!
+Je n'en sais rien![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x707</ref>
+        </refs>
+        <data>TAURUS:
+Nous allons rester ici pour voir s'il y
+a encore des troupes de l'Empire.
+C'est une idée de Rush![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x711</ref>
+        </refs>
+        <data>RUSH:
+Arrête,tu m'embarrasses![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6f1</ref>
+        </refs>
+        <data>RUSH:
+Tout cela donne l'impression que
+l'Empire a fait fuir tout le monde![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x71c</ref>
+        </refs>
+        <data>TAURUS:
+Capitaine [character][0x1]!
+Est-il temps de retourner à FARENHEIT?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x720</ref>
+            <ref>0x73a</ref>
+        </refs>
+        <data> Continuons à faire pression!
+ Retournons à FARENHEIT...[end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x736</ref>
+        </refs>
+        <data>Je crains que nous ne soyons venus
+pour rien à Campbell.
+Pourquoi ont-ils si peur?[end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x72e</ref>
+            <ref>0x747</ref>
+        </refs>
+        <data>Est-ce que vous comprenez,
+Capitaine [character][0x1]?[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x75a</ref>
+        </refs>
+        <data>Regardez moi ça...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x781</ref>
+        </refs>
+        <data>MATELIGHT:
+Hé,nous repartons?[end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x659</ref>
+        </refs>
+        <data>JOY:
+C'est naturel!
+Nous vous comprenons,Impératrice.[end]N</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x66e</ref>
+        </refs>
+        <data>NELBO:
+Impératrice...
+Soyez forte,résistez![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x681</ref>
+        </refs>
+        <data>IMPERATRICE DE CAMPBELL:
+Joy... Nelbo...
+Merci...
+Je suis peinée mais rejoignez Sendack
+et aidez-le autant que possible.
+ 
+Cherchez maintenant le Dragon Sacré de
+la Capitale de l'eau,Mahal.[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x40b</ref>
+        </refs>
+        <data>IMPERATRICE DE CAMPBELL:
+Attendez![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x422</ref>
+        </refs>
+        <data>IMPERATRICE DE CAMPBELL:
+J'ai décidé de vous parler...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x451</ref>
+        </refs>
+        <data>IMPERATRICE DE CAMPBELL:
+Je vais vous dire ce qu'est vraiment
+la légende...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x438</ref>
+        </refs>
+        <data>MATELIGHT:
+Et alors?
+Parlez...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x45d</ref>
+        </refs>
+        <data>IMPERATRICE DE CAMPBELL:
+Pour commencer,il vous faut savoir que
+c'est à vous de comprendre la
+Légende des Dragons Sacrés.[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x47f</ref>
+        </refs>
+        <data>La personne qui connaît le coeur des
+Dragons Sacrés ouvrira la Porte vers
+une Ere Nouvelle.
+Cependant,il y a une suite très peu
+connue...
+C'est celle-ci...
+Néanmoins,une personne au coeur faible
+n'amènera que désastre dans le ciel.[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x57c</ref>
+        </refs>
+        <data>MATELIGHT:
+La personne qui connaît le coeur des
+Dragons Sacrés...
+Ouvrira la Porte vers...
+Une Ere Nouvelle...
+Quoi?!
+Alors ce serait [character][0x1]![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x586</ref>
+        </refs>
+        <data>SENDACK:
+Une personne au coeur faible?
+N'amènera que désastre dans le ciel?[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x593</ref>
+        </refs>
+        <data>MATELIGHT:
+Sendack!
+ 
+Pourquoi est-ce que tu vois toujours
+le mauvais côté des choses?![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5a1</ref>
+        </refs>
+        <data>SENDACK:
+J'ai encore un mauvais pressentiment!
+ 
+Sauzer veut ce monde et il veut aussi
+connaître la Légende.
+ 
+S'il la connaît,il aura les moyens
+d'unifier les cieux sous son pouvoir!
+Ainsi,le pouvoir que le Roi de Kana a
+transmis à la Princesse lui permettra
+de connaître les sentiments du coeur
+des Dragons Sacrés.[end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x699</ref>
+        </refs>
+        <data>Je n'aurais peut-être pas dû parler
+de la personne au coeur faible.
+ 
+Si Sauzer apprends que je leur ai
+divulgué la légende,il sera inutile
+de secourir Campbell!
+Non,je peux penser à gagner son
+indulgence...
+ 
+Kana a déjà perdu quelqu'un
+d'important...
+ 
+Mon frère,le Roi de Kana,est mort...
+Cela attriste [character][0x1],ainsi que moi...
+J'espère qu'elle ne s'affaiblira pas.[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4ed</ref>
+        </refs>
+        <data>La personne qui connaît le coeur des
+Dragons Sacrés ouvrira la porte vers
+une Ere nouvelle.[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4f8</ref>
+        </refs>
+        <data>La Princesse au coeur faible,
+celle qui connaît la Légende,
+c'est vous,Princesse...[end]V</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x503</ref>
+        </refs>
+        <data>Valitra...
+Je ne peux pas...
+Tu dois changer...[end]N</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x50e</ref>
+        </refs>
+        <data>Nous devons changer...
+Il est temps de venir...
+Tu souffres... Tu as peur...[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6f8</ref>
+        </refs>
+        <data>RUSH:
+[character][0x1]...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7c2</ref>
+        </refs>
+        <data>TAURUS:
+Capitaine...[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8c3</ref>
+        </refs>
+        <data>Obtenu [0xaa]HERBE VIE[0xab].[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8d4</ref>
+        </refs>
+        <data>Obtenu [0xaa]MIEL DOUX[0xab].[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8e5</ref>
+        </refs>
+        <data>Obtenu [0xaa]CHAMPIGNON VENENEUX[0xab].[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8f6</ref>
+        </refs>
+        <data>Obtenu [0xaa]UNIUJI[0xab].[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x907</ref>
+        </refs>
+        <data>Obtenu [0xaa]REMEDE[0xab].[end][0x0]</data>
+    </text>
+</texts>

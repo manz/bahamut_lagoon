@@ -1,0 +1,136 @@
+<?xml version="1.0" ?>
+<texts base="0x69b" room_id="30">
+    <text>
+        <refs>
+            <ref>0x3eb</ref>
+        </refs>
+        <data>TAURUS:
+Les forces de Granbelos sont trop
+puissantes!
+Nous devrions battre en retraite...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3f8</ref>
+        </refs>
+        <data>MIST:
+[character][0x1],arrête Matelight...[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3db</ref>
+        </refs>
+        <data>RUSH:
+Les Commandants de l'Empire sont si
+forts...
+Je... n'avais jamais... eu si peur![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3cb</ref>
+        </refs>
+        <data>SENDACK:
+La Princesse [character][0x1]![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5d6</ref>
+        </refs>
+        <data>SAUZER:
+La Princesse de Kana...
+Une Dragoon!
+Aurait-elle des pouvoirs plus puissants
+que ceux du Dragon Sacré Bahamut?!
+ 
+Ou est-ce simplement une légende,
+Roi de Kana?[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x53f</ref>
+        </refs>
+        <data>SAUZER:
+Nous allons prendre la Princesse de
+Kana avec nous![end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x553</ref>
+        </refs>
+        <data>                   [character][0x1]!
+                   Matelight![end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5b3</ref>
+        </refs>
+        <data>PALPALEOS:
+...?!
+ 
+[character][0x1],le Chef de l'Escadron Dragon
+de Kana?![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5e8</ref>
+        </refs>
+        <data>ROI DE KANA:
+La Légende!
+ 
+Comment se fait-il que tu la
+connaisses?[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5f2</ref>
+        </refs>
+        <data>SAUZER:
+Sachez,Roi de Kana,que seules les
+époques choisissent la personne qui
+les dirigera!
+J'ai été moi-même choisi et je suis
+l'élu![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x604</ref>
+        </refs>
+        <data>ROI DE KANA:
+Tu sembles te surestimer Sauzer![end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x612</ref>
+        </refs>
+        <data>Le Dragon Sacré ne se réveillera pas!
+Et nous ne te laisserons pas avoir son
+pouvoir![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x61f</ref>
+        </refs>
+        <data>SAUZER:
+Ainsi Bahamut ne s'est pas réveillé,
+n'est-ce pas?
+Je suppose qu'il n'est simplement pas
+encore l'heure!
+ 
+Cependant,d'ici là,le monde entier
+sera à moi!
+ 
+Dès aujourd'hui,une nouvelle ère
+commence![end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x685</ref>
+        </refs>
+        <data>   Ce fut suite à cette bataille
+          que Kana tomba.
+ 
+       Ainsi prit fin une ère...
+    Et une nouvelle période de
+         l'Histoire commença...[end][0x0]</data>
+    </text>
+</texts>

@@ -1,0 +1,214 @@
+<?xml version="1.0" ?>
+<texts base="0x4f3" room_id="5">
+    <text>
+        <refs>
+            <ref>0xd3</ref>
+        </refs>
+        <data>SENDACK:
+Souvenez-vous![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xdf</ref>
+        </refs>
+        <data>SENDACK:
+Il y a dans cette forêt un Dragon
+Sacré.
+Il est ici et je le sens tout comme
+je sentais la présence de Bahamut à
+Kana.[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x114</ref>
+        </refs>
+        <data>MATELIGHT:
+C'était facile à voir![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x123</ref>
+        </refs>
+        <data>MATELIGHT:
+Il nous faut intervenir pour sauver
+[character][0x1].[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x12f</ref>
+        </refs>
+        <data>MATELIGHT:
+Il faudrait pouvoir l'atteindre avant
+L'Empire afin que nous puissions
+échanger ce Dragon contre [character][0x1]![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x142</ref>
+        </refs>
+        <data>MATELIGHT:
+Venez![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x157</ref>
+        </refs>
+        <data>COMMANDANT:
+Allons-y![end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2ea</ref>
+        </refs>
+        <data>BIKKEBAKKE:
+Courage,courage...
+ 
+Je n'ai aucun champignons sur moi
+puisque je les ai laissé à FARENHEIT.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x29b</ref>
+        </refs>
+        <data>SENDACK:
+Je suis inquiet pour le Dragon Sacré
+et la princesse![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x44a</ref>
+        </refs>
+        <data>Courage,courage...
+Les dragons sont là![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2a9</ref>
+        </refs>
+        <data>MARCHAND ENVOYE AU CHAMP DE
+BATAILLE:
+Chaque nouvelle bataille est plus
+terrible que la précédente!
+Tu veux m'acheter quelque chose?[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x42d</ref>
+        </refs>
+        <data>COMMANDANT:
+Hâtez-vous!
+L'ennemi semble être très puissant.[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2a2</ref>
+        </refs>
+        <data>LUKIA:
+Maintenant,il ne fait aucun doute que
+princesse soit ici.
+Elle doit être en danger![end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2f4</ref>
+        </refs>
+        <data>BIKKEBAKKE:
+Nous allons combattre?[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3bb</ref>
+        </refs>
+        <data>BIKKEBAKKE:
+A... allons-y![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x40d</ref>
+        </refs>
+        <data>MATELIGHT:
+Humph![end]Q</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xac</ref>
+        </refs>
+        <data>Quelque soit le danger,il faut y aller!
+Qu'en penses-tu?
+ 
+ Effectivement!
+ Désolé...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc4</ref>
+        </refs>
+        <data>SENDACK:
+Hum...[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x302</ref>
+        </refs>
+        <data>BIKKEBAKKE:
+Huum... vraiment...
+Je vais pouvoir trouver
+différents champignons.[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x30</ref>
+        </refs>
+        <data>          Chapitre [0xb4]
+     -L'Empereur Sauzer-[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6d</ref>
+        </refs>
+        <data>MATELIGHT:
+Sauzer!
+ 
+Comment avez-vous pû emmener la
+princesse dans cette horrible forêt?[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x79</ref>
+        </refs>
+        <data>COMMANDANT:
+Il y a beaucoup d'ennemis![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x87</ref>
+        </refs>
+        <data>Ce ne sont pas des humains!
+Ca sent la magie![end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2af</ref>
+        </refs>
+        <data> Armes.
+ Armures.
+ Objets.[end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2f8</ref>
+        </refs>
+        <data> Attendre.
+ Appeler les Dragons.
+ Prêt à combattre![end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x94</ref>
+        </refs>
+        <data>LUKIA:
+C'est un endroit dangereux,ici...[end][0x0]</data>
+    </text>
+</texts>

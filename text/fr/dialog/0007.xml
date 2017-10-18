@@ -1,0 +1,446 @@
+<?xml version="1.0" ?>
+<texts base="0x9aa" room_id="7">
+    <text>
+        <refs>
+            <ref>0x63</ref>
+        </refs>
+        <data>          Chapitre [0xb6]
+   -La Légende des Dragons-[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x283</ref>
+        </refs>
+        <data>ZORA:
+Le ciel de Campbell est si beau...
+Je suis originaire de cette ville...
+C'est pour cette raison que ce lagon
+m'est si cher...
+ 
+La Princesse ira-t-elle au château?
+En tout cas,j'irai m'y promener![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x28f</ref>
+        </refs>
+        <data>Tout ira pour le mieux...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2a1</ref>
+        </refs>
+        <data>MATELIGHT:
+Tu as l'air très optimiste!
+ 
+Avant même de pouvoir y aller,
+il faudra chasser de Campbell l'Empire
+Granbelos![end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2af</ref>
+        </refs>
+        <data>ZORA:
+Je comprends![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2c4</ref>
+        </refs>
+        <data>MATELIGHT:
+Au fait,Zora!
+ 
+J'ai entendu dire que tu avais dit des
+choses inappropriées à la Princesse.
+Est-ce vrai?[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2e0</ref>
+        </refs>
+        <data>ZORA:
+C'est vrai!
+Qui t'en a parlé?[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2fd</ref>
+        </refs>
+        <data>MATELIGHT:
+Quoi?!
+Ce n'est pas possible!
+Tu n'en as pas le droit!
+C'est absolument incroyable![end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x317</ref>
+        </refs>
+        <data>ZORA:
+N'es-tu pas en train de faire la même
+chose avec moi?
+Alors?
+Que vas-tu me faire maintenant?
+Dis-le Matelight!
+J'en ai assez entendu![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x328</ref>
+        </refs>
+        <data>MATELIGHT:
+Mince...[end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x33d</ref>
+        </refs>
+        <data>J'ai été humilié!
+ 
+  
+La prochaine fois,j'irai passer ma
+colère sur Commandant![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1d3</ref>
+        </refs>
+        <data>COMMANDANT:
+Ce sera bientôt la libération de
+Campbell!
+J'espère que le service des magasins
+n'y est pas négligeant autrement je
+les détruirez tous![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x233</ref>
+        </refs>
+        <data>RUSH:
+Récemment Bikkebakke a énormément
+changé...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x23a</ref>
+        </refs>
+        <data>TAURUS:
+Quel secret Bikkebakke cache-t-il?[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4db</ref>
+        </refs>
+        <data>LUKIA:
+Toutes ces personnes ici ont perdu
+quelque chose dans la guerre...[end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4d0</ref>
+        </refs>
+        <data>EKATERINA:
+[character][0x1]...
+Err...[end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x43c</ref>
+        </refs>
+        <data>ANASTASIA:
+Pourrais-tu demander à Hornet ce
+qu'il aime le plus?
+ Va lui demander toi-même!
+ Oui,je peux...[end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x449</ref>
+        </refs>
+        <data>Je m'en souviendrai,sois-en sûr![end][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x452</ref>
+        </refs>
+        <data>Je t'en supplie,[character][0x1]![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x255</ref>
+        </refs>
+        <data>HORNET:
+...? Quoi?
+ 
+ Me dire ce que tu aimes!
+ Me dire ce que tu hais![end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x262</ref>
+        </refs>
+        <data>Ce que j'aime?
+J'aime le [0xaa]Vin Doux[0xab]![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x26d</ref>
+        </refs>
+        <data>Ce que je n'aime pas?
+Hoho,je crois que c'est le [0xaa]Uniuji[0xab].
+Ca me donne plein de boutons![end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x45b</ref>
+        </refs>
+        <data>ANASTASIA:
+Alors! alors!
+Qu'aime-t-il?
+ [0xaa]Vin Doux[0xab]
+ [0xaa]Uniuji[0xab][end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x47c</ref>
+        </refs>
+        <data>Je vois![end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x486</ref>
+        </refs>
+        <data>ANASTASIA:
+Je te l'avais dit,Ekaterina!
+Viens,allons-y![end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4b4</ref>
+        </refs>
+        <data>EKATERINA:
+[character][0x1]...
+Merci d'avoir dit la vérité![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x24e</ref>
+        </refs>
+        <data>HORNET:
+Le bateau s'approche de plus en plus
+du Lagon Campbell.
+Dès que tu es prêt,va parler au
+Docteur Dragon pour aller combattre.[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4e2</ref>
+        </refs>
+        <data>LUKIA:
+Est-ce que nous allons à Campbell pour
+la Légende des Dragons Sacrés?
+J'espère que la chance tournera à
+notre avantage avec la Légende.[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1e5</ref>
+        </refs>
+        <data>SENDACK:
+Le cri de Valitra ressemble à celui de
+quelqu'un qui se fait tué.
+Sache aussi que lorsque je suis proche
+de la Princesse,je peux aussi utiliser
+le puissant pouvoir du Dragon Sacré.[end]N</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1fa</ref>
+        </refs>
+        <data>N'essaie pas de comprendre comment
+un vieil homme comme moi aies pu
+acquérir tant de puissance.
+Tu t'y perdrais...
+Haha!
+Je dis encore des balivernes.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x20b</ref>
+            <ref>0x1de</ref>
+        </refs>
+        <data>SENDACK:
+Persévère en ce que tu crois être
+bon![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x220</ref>
+        </refs>
+        <data>MATELIGHT:
+Sendack peut résister à trois
+personnes![end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1cc</ref>
+        </refs>
+        <data>A l'aube de la libération de Campbell,
+je commanderai les troupes car étant
+supérieur,j'ai droit à un traitement
+de faveur...
+Selon mon expérience,ce plan sera
+parfait...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x416</ref>
+        </refs>
+        <data>[character][0x1]:
+Je... vais bien!
+ 
+Tous ensemble,nous irons à Campbell.[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3f8</ref>
+        </refs>
+        <data> La fille au coeur faible...
+ [character][0x1]...
+ 
+ La Légende n'est pas une
+ nécessité...
+ 
+ Ne pense à rien...
+ Vide ton coeur...
+ 
+ Libère le pouvoir des Dragons
+ Sacrés...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x40d</ref>
+        </refs>
+        <data>[character][0x1]:
+[character][0x1]...
+ 
+Il me semble que les Dragons Sacrés
+n'aient pas l'air de vouloir que je
+connaisse la Légende...
+Mais nous irons sur ce lagon...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x428</ref>
+        </refs>
+        <data>[character][0x1]:
+[character][0x1]!
+ 
+Garde cela secret!
+Ne t'inquiète pas pour moi...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x398</ref>
+        </refs>
+        <data>[character][0x1]:
+[character][0x1]!
+ 
+Mon... corps... est lourd!
+Trop lourd pour que je puisse
+bouger...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3a3</ref>
+        </refs>
+        <data>[character][0x1],je n'arrive pas à voir ce...
+qui se passe ici![end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3b2</ref>
+        </refs>
+        <data>Le Dragon Sacré en moi...
+Valitra...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3bd</ref>
+        </refs>
+        <data>[character][0x1]...
+Aide-moi...
+Tends-moi... la main...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x389</ref>
+        </refs>
+        <data>[character][0x1]:
+[character][0x1]...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4ed</ref>
+        </refs>
+        <data>MANYO:
+manyo!
+[0xa8]mélodia est venue![0xa9][end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4f7</ref>
+        </refs>
+        <data>MUNYO:
+munyo!
+[0xa8]nous dansons tous ensemble![0xa9][end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x501</ref>
+        </refs>
+        <data>MELODIA:
+Je suis comme un Petit Démon!
+Je le suis de plus en plus!
+ C'est vrai,c'est bien...
+ Tu ennuies les commerçants![end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x50e</ref>
+        </refs>
+        <data>Ha ha!
+Allez! Tout le monde danse!
+Allez [character][0x1]![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x517</ref>
+        </refs>
+        <data>Tout va bien!
+Mélodia a prévenu tout le monde![end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x76a</ref>
+        </refs>
+        <data>Obtenu [0xaa]VIN CUIT[0xab].[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x794</ref>
+        </refs>
+        <data>Obtenu [0xaa]MEMOIRE[0xab].[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x77b</ref>
+        </refs>
+        <data>Obtenu [0xaa]CARNET DE BORD[0xab].[end][0x0]</data>
+    </text>
+</texts>

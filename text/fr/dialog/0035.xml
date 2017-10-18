@@ -1,0 +1,434 @@
+<?xml version="1.0" ?>
+<texts base="0x803" room_id="35">
+    <text>
+        <refs>
+            <ref>0x540</ref>
+        </refs>
+        <data>SAUZER:
+Je crains que ce ne soit pas la bonne
+méthode.
+Nous sommes vraiment du même monde...
+Aussi persévérants les uns que les
+autres.[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa4</ref>
+        </refs>
+        <data>MATELIGHT:
+[character][0x1]...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb2</ref>
+        </refs>
+        <data>SENDACK:
+Comme je vous l'avais dit,il y a un
+Dragon Sacré,ici...[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xce</ref>
+        </refs>
+        <data>RUSH:
+L'autre type est sûrement Palpaleos![end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x124</ref>
+        </refs>
+        <data>LUKIA:
+Comment pourrions-nous gagner?[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x148</ref>
+        </refs>
+        <data>MATELIGHT:
+Quoi! Abandonner?![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x154</ref>
+        </refs>
+        <data>MATELIGHT:
+Tu peux répéter?!
+ 
+Même si je perds la vie,[character][0x1] sera
+délivrée...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6e3</ref>
+        </refs>
+        <data>LUKIA:
+[character][0x1],hâte-toi![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6a6</ref>
+        </refs>
+        <data>[character][0x1],laisse-moi y aller!
+Courage,courage![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x239</ref>
+        </refs>
+        <data>C'est terrible...
+Pourquoi?[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x397</ref>
+        </refs>
+        <data>MATELIGHT:
+Humpf humpf...
+ 
+Notre pauvre [character][0x1]...
+Ils ne veulent que son don![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3bc</ref>
+        </refs>
+        <data>SAUZER:
+Qui avons-nous là?
+Seraient-ce les Rebelles?!
+Mon dieu,vous osez me faire l'honneur
+de votre présence?!
+J'en suis honoré! Hahahahaha!
+Le pouvoir de votre Princesse vous
+intéresse également?[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3e1</ref>
+        </refs>
+        <data>SAUZER:
+La Princesse [character][0x1] est très importante
+à mes yeux...
+Surtout son pouvoir![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3ed</ref>
+        </refs>
+        <data>SAUZER:
+Reste où tu es,misérable!
+ 
+C'est impoli de bouger quand une
+personne telle que moi daigne vous
+parler!
+J'ai beaucoup entendu parler de toi et
+de tes compagnons ces derniers temps.
+Vous m'exaspérez![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3f9</ref>
+        </refs>
+        <data>SAUZER:
+Je vous en prie,par ici,
+Princesse [character][0x1]![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x47f</ref>
+        </refs>
+        <data>SAUZER:
+Approchez!
+ 
+Votre père,le Roi de Kana,vous a
+transmis le pouvoir de votre Légende.
+ 
+Ainsi,vous êtes l'héritière du pouvoir
+étrange permettant de contrôler les
+Dragons Sacrés![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x492</ref>
+        </refs>
+        <data>[character][0x1]:
+Toutefois,je ne comprends pas le sens
+de la Légende!
+Elle est si ancienne...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x49e</ref>
+        </refs>
+        <data>PALPALEOS:
+Princesse [character][0x1],n'ayez crainte!
+Je vous le promets!
+Nous connaîtrons le coeur des Dragons
+Sacrés.[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4ad</ref>
+        </refs>
+        <data>[character][0x1]:
+Général Palpaleos...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4d1</ref>
+        </refs>
+        <data>MATELIGHT:
+[character][0x1],fuyez!
+ 
+Le Roi de Kana vous a légué un
+pouvoir trop important![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x510</ref>
+        </refs>
+        <data>[character][0x1]:
+Matelight...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x51c</ref>
+        </refs>
+        <data>[character][0x1]:
+C'est inutile,Empereur Sauzer!
+Je n'y parviens pas...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x52a</ref>
+        </refs>
+        <data>SAUZER:
+Je vois,en effet...
+Inutile de me le dire...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x54c</ref>
+        </refs>
+        <data>SAUZER:
+Sachez toutefois,Princesse,que c'est
+aujourd'hui que je deviendrai l'homme
+légendaire même sans votre pouvoir![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x559</ref>
+        </refs>
+        <data>SAUZER:
+Soyez heureuse!
+ 
+Rejoignez vos amis,cette bande de
+rebelles![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5a7</ref>
+        </refs>
+        <data>SAUZER:
+J'ouvrirai moi-même la Porte de la
+Nouvelle Ere!
+C'est regrettable pour vous![end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5b5</ref>
+        </refs>
+        <data>PALPALEOS:
+Arrêtez![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7ff</ref>
+        </refs>
+        <data>MATELIGHT:
+[character][0x1],tiens bon![end][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x63d</ref>
+        </refs>
+        <data>SENDACK:
+La Princesse...[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x79f</ref>
+        </refs>
+        <data>LUKIA:
+Quel machiavélisme![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xbe</ref>
+        </refs>
+        <data>COMMANDANT:
+Cet Empereur Sauzer...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x168</ref>
+        </refs>
+        <data>MATELIGHT:
+Attendez une minute![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x177</ref>
+        </refs>
+        <data>MATELIGHT:
+Sendack,quelque chose ne va pas?[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x185</ref>
+        </refs>
+        <data>SENDACK:
+Je n'en sais rien...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x196</ref>
+        </refs>
+        <data>SENDACK:
+Je réfléchissais...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1a7</ref>
+        </refs>
+        <data>SENDACK:
+Autrefois,avant la Chute de Kana,
+Sauzer avait emmené la Princesse!
+Mais à quelle fin?
+Il l'a maintenant emmenée devant le
+Dragon Sacré...
+Essaierait-il de le réveiller?[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1b3</ref>
+        </refs>
+        <data>TAURUS:
+Je comprends ce que tu veux dire...
+[character][0x1] est la fille du Roi de Kana et
+elle a donc les mêmes pouvoirs que
+père.[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1c6</ref>
+        </refs>
+        <data>RUSH:
+[character][0x1] est capable de parler au Dragon
+Sacré![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1d4</ref>
+        </refs>
+        <data>SENDACK:
+Quel désastre![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1e1</ref>
+        </refs>
+        <data>SENDACK:
+Et si Sauzer avait la force de parvenir
+à ses fins...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1f3</ref>
+        </refs>
+        <data>MATELIGHT:
+Ne vous inquiétez pas!
+Tout ira pour le mieux![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x201</ref>
+        </refs>
+        <data>MATELIGHT:
+Sendack,ne t'inquiète plus!
+[character][0x1] nous reviendra bientôt!
+Sauzer n'a pas tout planifié car la
+Rebellion arrive![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x20d</ref>
+        </refs>
+        <data>MATELIGHT:
+Allons combattre!
+ 
+Maintenant,je n'écoute plus les
+inepties de Sendack.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2b5</ref>
+        </refs>
+        <data>SENDACK:
+[character][0x1]...[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x25c</ref>
+        </refs>
+        <data>RUSH:
+Allons droit au but![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x277</ref>
+        </refs>
+        <data>TAURUS:
+Une personne est à délivrer,
+hâtons-nous![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x64b</ref>
+        </refs>
+        <data>SENDACK:
+Tout le monde a compris![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x656</ref>
+        </refs>
+        <data>SENDACK:
+Nous savons maintenant ce que veut
+l'Empereur Sauzer.
+Il essaie d'avoir la force du Dragon
+Sacré grâce au pouvoir de la Princesse.
+Mais quel est son but?
+Sauzer... l'Empereur de Granbelos!
+Sauzer... l'Empereur qui contrôle
+Orelus!
+Jusqu'où veut-il aller?[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x66e</ref>
+        </refs>
+        <data>MATELIGHT:
+Sendack,ne t'éternise pas!
+ 
+Même si tu n'es plus très jeune,tu
+peux te dépêcher quand même![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6b2</ref>
+        </refs>
+        <data>COMMANDANT:
+Matelight!
+Frappe![end][end]</data>
+    </text>
+</texts>

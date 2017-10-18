@@ -1,0 +1,445 @@
+<?xml version="1.0" ?>
+<texts base="0xdc5" room_id="211">
+    <text>
+        <refs>
+            <ref>0xd5b</ref>
+            <ref>0xb6c</ref>
+            <ref>0x60f</ref>
+        </refs>
+        <data> Oui
+ Non[end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5ae</ref>
+        </refs>
+        <data>Ouf...
+C'est la saison des amours...
+C'est éprouvant...[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x681</ref>
+        </refs>
+        <data>RUSH:
+SALAMANDO va secrètement approcher
+du balcon!
+Est-ce que tu veux monter?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x685</ref>
+        </refs>
+        <data> Allons-y!
+ Je dois nourrir les dragons.
+ Je ne viens pas.[end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x68f</ref>
+        </refs>
+        <data>Prenons ce chemin!
+La Princesse [character][0x1] ne doit pas
+s'inquiéter![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x60b</ref>
+        </refs>
+        <data>DOCTEUR DRAGON:
+Veux-tu rentrer?[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5bd</ref>
+        </refs>
+        <data>DOCTEUR DRAGON:
+Ecoute le vent...
+Tends bien l'oreille [character][0x1]!
+Entends les voix apportées par le
+vent...[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5c5</ref>
+        </refs>
+        <data>Campbell n'attend qu'une seule
+personne et elle n'est autre que toi,
+le Capitaine de l'Escadron Dragon.[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5ce</ref>
+        </refs>
+        <data>Hornet m'a demandé de le prévenir
+dès que tu veux partir.
+Es-tu prêt à aller combattre?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5d2</ref>
+        </refs>
+        <data> Rester là!
+ Aller combattre![end1]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x582</ref>
+        </refs>
+        <data>Hornet ne pense qu'à une chose et il
+ne prête plus attention au bateau!
+Il veut devenir Papa...[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x586</ref>
+        </refs>
+        <data> Papa...?
+ Excrément...[end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x591</ref>
+            <ref>0xab2</ref>
+        </refs>
+        <data>En ayant vu la progéniture des Dragons,
+il a décidé de devenir père d'un être
+humain!
+Tu devrais faire attention au père du
+bébé dragon...
+ 
+Sache également que je suis devenu le
+grand-père de ce bébé dragon.[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xad6</ref>
+        </refs>
+        <data>Il faut le nommer maintenant.[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x98f</ref>
+        </refs>
+        <data>DOCTEUR DRAGON:
+C'est dangereux,dangereux!
+Tu les a effrayés...[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9a1</ref>
+        </refs>
+        <data>Hola hola!
+Ils vous aiment bien...
+ 
+C'est ça!
+Il regrette![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9ba</ref>
+        </refs>
+        <data>Tout va bien,tout va bien!
+Il vous aime...
+[character][0x1] est sympathique...[end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x59c</ref>
+        </refs>
+        <data>Je me souviens de SALAMANDO quand il
+était jeune.
+ 
+J'étais un vrai père pour lui!
+j'étais pourtant enfant et SALAMANDO
+était si grand.
+C'est à partir de cet instant que je
+décidai de devenir un Docteur Dragon.
+ 
+Je crois que [character][0x1] t'aime
+beaucoup.[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa11</ref>
+        </refs>
+        <data>DOCTEUR DRAGON:
+Essaie de commander le bébé,
+[character][0x1]![end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa15</ref>
+        </refs>
+        <data> Venir.
+ Aller.
+ Attendre.[end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xab6</ref>
+        </refs>
+        <data>C'est très bien...
+Il semble t'aimer![end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xcf6</ref>
+        </refs>
+        <data>J'ai ici [0xb1] messages!
+A toi d'en choisir un!
+ 
+[0xb0] [0xaa]PRESENT de HORNET[0xab].
+[0xb0] [0xaa]PRESENT des MATELOTS[0xab].
+ 
+Lequel vas-tu choisir?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xcfa</ref>
+        </refs>
+        <data> [0xaa]PRESENT de HORNET[0xab].
+ [0xaa]PRESENT des MATELOTS[0xab].[end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd20</ref>
+            <ref>0xd04</ref>
+        </refs>
+        <data>Tu as donc pris [0xb0] présent venu du
+ciel.[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd0c</ref>
+        </refs>
+        <data>MESSAGE de HORNET:
+Félicitations pour la Restauration de
+Kana!
+[character][0x1],protège sans cesse le ciel
+d'Orelus!
+ 
+Post-Scriptum:
+C'est un présent de ma part et de
+celle des matelots![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd28</ref>
+        </refs>
+        <data>MESSAGE des MATELOTS:
+Félicitations pour la Restauration de
+Kana!
+Nous,les matelots,voulons la paix pour
+Orelus.
+ 
+Tu es notre sauveur![end][0xaa]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd12</ref>
+        </refs>
+        <data>[0xaa]SHARUN[0xab]
+[0xa8]Rend plus fort un Chevalier-Croix[0xa9]
+ 
+Obtenu
+[0xaa]EFFROI[0xab]
+[0xaa]DELINGER[0xab].[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd2e</ref>
+        </refs>
+        <data>Obtenu [0xaa]ERADIK[0xab]
+[0xaa]TSARINE [0xa8][0xb1][0xa9][0xab]
+[0xaa]MARSHALL [0xa8][0xb1][0xa9][0xab]
+[0xaa]PRINCE EUGEN[0xab]
+[0xaa]LIVRE SUPER-PORNO[0xab].[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xafd</ref>
+        </refs>
+        <data>Trouvé [0xaa]Excrément de Dragon[0xab].[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb5d</ref>
+        </refs>
+        <data>La Légende de l'Excrément de Dragon...
+ 
+  
+La personne qui mangera un excrément
+ouvrira la Porte des Souvenirs du
+Futur.[end]V</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb68</ref>
+        </refs>
+        <data>Veux-tu le faire?[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xbea</ref>
+        </refs>
+        <data>DOCTEUR DRAGON:
+Les Souvenirs du Futur...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc04</ref>
+        </refs>
+        <data>[character][0x1]...[end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc2c</ref>
+        </refs>
+        <data>Je suis le Dragon Sacré Bahamut...
+ 
+  
+[character][0x1]...
+Tu vas pouvoir regarder les souvenirs
+du futur...[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc61</ref>
+        </refs>
+        <data>Le futur du ciel d'Orelus...
+ 
+  
+Tout les Lagons ont disparu...
+ 
+  
+L'ère des êtres humains est finie...[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc67</ref>
+        </refs>
+        <data>Les souvenirs...
+ 
+  
+Volons...
+ 
+  
+Surveille les Lagons d'Orelus!
+Surveille les êtres humains...
+  
+[character][0x1]...
+Tu peux changer...
+Le ciel d'Orelus...[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x573</ref>
+        </refs>
+        <data>DOCTEUR DRAGON:
+Entends-tu les appels du ciel?
+ 
+Le ciel est puissant.
+Il bouge constamment.
+Croyons en lui![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x566</ref>
+        </refs>
+        <data>DOCTEUR DRAGON:
+Le ciel d'Orelus ne cessera jamais
+d'être un océan de nuages.
+Il est si grand!
+Tu dois le surveiller pour sa
+sauvegarde...
+Le Monde entier le regarde...
+La Guerre des Dragons Sacrés,
+les pleurs du ciel...
+Le monde d'Orelus n'en est pas à sa
+première crise mais il l'est encore.
+ 
+L'Océan de Nuages...
+Il est le rêve de Tous!
+Il est la force de Tous!
+[character][0x1]...
+J'entends la voix et les souvenirs du
+Ciel...
+Je sens qu'il est en peine...
+Viens-lui en aide![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x537</ref>
+        </refs>
+        <data>DOCTEUR DRAGON:
+Altair,
+la Patrie des Dragons Sacrés...
+Le lieu de retour des dragons!
+Cette terre a toujours été pour eux
+la plus belle!
+C'est la terre de leurs souvenirs...[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd53</ref>
+        </refs>
+        <data>Lieu de Rêve de Bikkebakke pour
+cultiver des Champignons!
+ 
+Ne touchez à rien!
+-Bikkebakke-[end]V</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd57</ref>
+        </refs>
+        <data>Voler les champignons tant espérés de
+Bikkebakke?[end][0xaa]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd75</ref>
+        </refs>
+        <data>[0xaa]CHAMPIGNON VENENEUX[0xab].[end][0xaa]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd8a</ref>
+        </refs>
+        <data>[0xaa]CHAMPIGON GUROGURO[0xab].[end][0xaa]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd9f</ref>
+        </refs>
+        <data>[0xaa]CHAMPIGON CRIARD[0xab].[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xdaf</ref>
+        </refs>
+        <data>[character][0x1],tu ne pourras plus regarder
+Bikkebakke en face.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xdb8</ref>
+        </refs>
+        <data>Tu n'as même pas pensé que
+Bikkebakke les adorait et qu'il se
+sentirait très seul.[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xdc1</ref>
+        </refs>
+        <data>[character][0x1],tu n'as même pas pensé à
+l'innocent Bikkebakke.[end][0x0]</data>
+    </text>
+</texts>

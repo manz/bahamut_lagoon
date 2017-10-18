@@ -1,0 +1,402 @@
+<?xml version="1.0" ?>
+<texts base="0x580" room_id="62">
+    <text>
+        <refs>
+            <ref>0x562</ref>
+            <ref>0x52e</ref>
+        </refs>
+        <data> Oui
+ Non[end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x25a</ref>
+        </refs>
+        <data>Grand-mère,demain,j'irai au Harem.
+J'en suis enchanté...[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x261</ref>
+        </refs>
+        <data>Ce n'est pas bien,grand-père![end]G</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x253</ref>
+        </refs>
+        <data>Grrrrr...
+[0xa8]Il vaut mieux le laisser ou
+ il va faire une crise.[0xa9][end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x276</ref>
+        </refs>
+        <data>Les enfants sont seuls...
+Partez,leur mère n'est pas là...[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x268</ref>
+        </refs>
+        <data>Les troupes de l'Empereur sont parties
+mais ils ont reformé le Harem du Roi.
+Maman est au Harem!
+Si tu veux,tu peux prendre son
+porte-bonheur dans l'armoire.[end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x26f</ref>
+        </refs>
+        <data>A Dafira,la mode est d'imiter le Roi de
+Kana!
+ 
+Lorsque je porte une fausse moustache
+et un manteau royal,je lui ressemble
+beaucoup.[end]U</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x44b</ref>
+        </refs>
+        <data>Une véritable révolution ne peut avoir
+lieu qu'avec l'union du peuple.[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x454</ref>
+        </refs>
+        <data>Peu de succès,pas de succès!
+Pourquoi n'ai-je aucun succès?
+C'est la vie,jeune homme![end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x45d</ref>
+        </refs>
+        <data>Je ne sais pas très bien ce que c'est
+mais je veux y participer.
+C'est comme ça,jeune homme![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x466</ref>
+        </refs>
+        <data>Si nous ne réussissons pas cette
+révolution,nous n'aurons pas de
+lendemain à Dafira.
+Et sans jeunes filles,pas de lendemain
+non plus![end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x286</ref>
+        </refs>
+        <data>LIBERO:
+C'est embarrassant...
+Vraiment...[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x28a</ref>
+        </refs>
+        <data> Lui parler...
+ Se joindre à eux![end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2a4</ref>
+        </refs>
+        <data>Si je n'avais pas quitté cette armée
+impériale,notre mission serait anéantie.
+Nous avons déjà choisi le nom et
+l'équipe qui formera le groupe de
+Révolutionnaires pour la Liberté.
+Mais nous n'avons pas de chef.
+Mon plus haut grade est No [0xb1].
+Que veux-tu faire... toi?
+Qui pourrait être le leader de cette
+armée?
+Ca te dirait de devenir notre
+leader?[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x297</ref>
+        </refs>
+        <data>Le Roi se dit protégé par le Dragon
+Sacré Jormungand mais la révolution
+prouvera le contraire.[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2a8</ref>
+        </refs>
+        <data> Pourquoi aurais-je confiance?
+ Je vous rejoins![end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2b7</ref>
+        </refs>
+        <data>D'accord,je crois que ça vaut le coup
+de t'embaucher!
+ 
+Je sens que tu ne sais pas comment
+t'y prendre.
+Mais,tout ira bien!
+Quels sont les buts de notre Révolution?
+ 
+  
+Cette Révolution a pour but l'avènement
+d'une nouvelle ère pour les hommes et
+les femmes de Dafira.[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2c7</ref>
+        </refs>
+        <data>LIBERO:
+As-tu pris une résolution?[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2d3</ref>
+            <ref>0x2bb</ref>
+        </refs>
+        <data>Il t'appartient de savoir si tu veux
+devenir une Superstar en ramenant ici
+la liberté!
+Nous mettrons notre plan à éxécution,
+ce soir!
+ 
+Cette nuit se sera l'avènement de la
+Renaissance de Dafira.[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2cb</ref>
+        </refs>
+        <data> Errer un peu en ville.
+ Attendre la nuit.[end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x46f</ref>
+        </refs>
+        <data>Je ne me fais aucun souci,les assassins
+seront ce soir au rendez-vous.
+Mais où sont-ils,ces deux-là?[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x333</ref>
+        </refs>
+        <data>Hé! Partenaire!
+Tu m'as trouvé![end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x382</ref>
+        </refs>
+        <data>ZEROSHIN:
+Le Leader des Rebelles!
+Voudrais-tu nous embaucher?
+Tu peux nous payer en différé.
+En [0xb0][0xb4] fois grand maximum,ok?[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x437</ref>
+        </refs>
+        <data>ZEROSHIN:
+Maman,excuse-moi pour tout les soucis
+que je te cause.
+Dès que mon travail sera fini,je crois
+que je n'aurai plus rien à faire.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x325</ref>
+        </refs>
+        <data>SAJIN:
+Personne n'est encore venu me
+chercher.
+Je suis venu tout seul et c'est ici
+que je m'entraîne.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x391</ref>
+        </refs>
+        <data>SAJIN:
+Le travail d'un assassin est de tuer
+des gens rapidement.
+C'est justement cette rapidité qu'on
+nous reproche souvent.
+ 
+A la base,tu peux disposer de nos
+services au niveau [0xb1] ou nous engager
+avec l'Option tant de Po par tête.[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x39a</ref>
+        </refs>
+        <data>Les employer?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x39e</ref>
+        </refs>
+        <data> En différé.
+ Option [0xa8][0xb2][0xaf][0xaf][0xaf] Po par tête[0xa9].[end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3ac</ref>
+        </refs>
+        <data>Tu pourras choisir cette option en bas
+de ton menu.[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3b0</ref>
+        </refs>
+        <data> Sombre Meutre de Matelight.
+ Meurtre de [character][0x1].
+ Meurtre d'un matelot.[end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3d7</ref>
+        </refs>
+        <data>Merci,tu en bénéficieras.[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x442</ref>
+        </refs>
+        <data>ZEROSHIN:
+Je suis occupé,tu me permets d'avoir
+un peu d'intimité?![end]U</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3a6</ref>
+        </refs>
+        <data>Un meurtre![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x424</ref>
+        </refs>
+        <data>SAJIN:
+Un peu d'entraînement pourra
+t'encourager!
+Mais maintenant,où se cacher?![end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x303</ref>
+        </refs>
+        <data>          Vint alors la nuit...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x214</ref>
+        </refs>
+        <data>Terrine,j'ai pour toi des présents.
+Ainsi,je tiens ma promesse et je vais
+donc te remplir.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x22d</ref>
+        </refs>
+        <data>Terrine,j'ai le sentiment que les
+militaires ont oublié quelque chose
+lorsqu'ils partirent!
+Terrine...
+O Terrine...
+Quelle tristessssssse![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1dd</ref>
+            <ref>0x206</ref>
+        </refs>
+        <data>Terrine...[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x24a</ref>
+        </refs>
+        <data>C'est la maison de mon fils.
+Il faisait croire qu'il était un Rebelle.
+Il a sauvé de très nombreuses choses
+dans ses jarres.[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4b5</ref>
+        </refs>
+        <data>Obtenu [0xaa]CHOSE SUR L'ETAGERE[0xab].
+Il y a en [0xb0][0xb0].[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x52a</ref>
+            <ref>0x55e</ref>
+        </refs>
+        <data>Il y a [0xb2][0xaf][0xaf][0xaf] Po dans le pot.
+Vas-tu les voler?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x540</ref>
+        </refs>
+        <data> Les prendre la nuit puis s'enfuir...[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x54a</ref>
+        </refs>
+        <data> Laissons faire le hasard...[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x517</ref>
+        </refs>
+        <data>Obtenu [0xaa]CALAMITE[0xab].[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4ca</ref>
+        </refs>
+        <data>Obtenu [0xb4] [0xaa]HI-DROGUE[0xab].[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4e5</ref>
+        </refs>
+        <data>Obtenu [0xb4] [0xaa]SUPER VODKA[0xab].[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x500</ref>
+        </refs>
+        <data>Obtenu [0xaa]LIVRE DIFFICILE[0xab]
+[0xaa]LIVRE DE STRATEGIE[0xab]
+[0xaa]NOTE DE GENIE[0xab]
+[0xaa]LIVRE SUPER PORNO[0xab].[end][0x0]</data>
+    </text>
+</texts>

@@ -1,0 +1,129 @@
+<?xml version="1.0" ?>
+<texts base="0x830" room_id="212">
+    <text>
+        <refs>
+            <ref>0x7c6</ref>
+        </refs>
+        <data> Oui
+ Non[end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x69b</ref>
+        </refs>
+        <data>Bienvenue!
+Tu tombes bien![end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x68e</ref>
+            <ref>0x69f</ref>
+        </refs>
+        <data> Armes.
+ Armures.
+ Objets.[end1]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6e2</ref>
+        </refs>
+        <data>Je fais des ventes spéciales![end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6e6</ref>
+        </refs>
+        <data> De bonnes choses.
+ Des champignons.
+ Des livres.[end1]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x68a</ref>
+        </refs>
+        <data>Bienvenue!
+J'ai tout abandonné![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x755</ref>
+        </refs>
+        <data>SENDACK:
+[character][0x1]...
+Veux-tu revenir?[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x745</ref>
+        </refs>
+        <data>SENDACK:
+[character][0x1]...
+Fais de ton mieux![end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x749</ref>
+            <ref>0x759</ref>
+        </refs>
+        <data> Rester!
+ Aller combattre![end1]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7be</ref>
+        </refs>
+        <data>Lieu de Rêve de Bikkebakke pour
+cultiver des Champignons!
+ 
+Ne touchez à rien!
+-Bikkebakke-[end]V</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7c2</ref>
+        </refs>
+        <data>Voler les champignons tant espérés de
+Bikkebakke?[end][0xaa]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7e0</ref>
+        </refs>
+        <data>[0xaa]CHAMPIGNON VENENEUX[0xab].[end][0xaa]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7f5</ref>
+        </refs>
+        <data>[0xaa]CHAMPIGNON GUROGURO[0xab].[end][0xaa]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x80a</ref>
+        </refs>
+        <data>[0xaa]CHAMPIGNON CRIARD[0xab].[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x81a</ref>
+        </refs>
+        <data>Tu ne pourras plus regarder Bikkebakke
+en face...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x823</ref>
+        </refs>
+        <data>Tu n'as même pas pensé que Bikkebakke
+les adorait et qu'il se sentirait très
+seul.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x82c</ref>
+        </refs>
+        <data>Tu n'as même pas pensé à l'innocent
+Bikkebakke.[end][0x0]</data>
+    </text>
+</texts>

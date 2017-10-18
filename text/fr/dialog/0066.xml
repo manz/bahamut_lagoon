@@ -1,0 +1,380 @@
+<?xml version="1.0" ?>
+<texts base="0xcde" room_id="66">
+    <text>
+        <refs>
+            <ref>0xc1c</ref>
+        </refs>
+        <data>Dépêche-toi si tu veux que ton
+histoire avec [character][0x1] continue!
+ 
+Vite! Vite!
+C'est difficile[0xd8][end]V</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc02</ref>
+        </refs>
+        <data>Vite,fais le pour moi!
+Tu es vraiment à envier...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc48</ref>
+            <ref>0xa7d</ref>
+        </refs>
+        <data>MATELIGHT:
+[character][0x1]!
+...![0xfc][0x1][end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc4</ref>
+            <ref>0x16f</ref>
+        </refs>
+        <data>MATELIGHT:
+Princesse [character][0x1]!
+S'il vous plaît,obéissez[0xd8][end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xba</ref>
+            <ref>0x14d</ref>
+        </refs>
+        <data>[character][0x1]:
+[character][0x1]...
+Vite... par ici![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2aa</ref>
+        </refs>
+        <data>[character][0x1]:
+SALAMANDO...
+Vite[0xd8][0xfc][0x1][end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x380</ref>
+        </refs>
+        <data>[character][0x1]:
+Viens,[character][0x1]...
+Que fais-tu? Tu vas bien?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x390</ref>
+        </refs>
+        <data> Très bien!
+ Je suis un peu mal à l'aise.[end1]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3a6</ref>
+        </refs>
+        <data>Hum hum!
+Nous sommes un peu serrés,non?[end]N</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x39a</ref>
+        </refs>
+        <data>Nous sommes bientôt arrivés...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3c7</ref>
+        </refs>
+        <data>[character][0x1],
+je me demande souvent jusqu'où
+continue le ciel...
+Traverser le ciel...
+Quel étrange sentiment,n'est-ce pas?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xaa1</ref>
+        </refs>
+        <data>[character][0x1]:
+C'est ici,[character][0x1]!
+C'est cette église...
+Je vais te parler de ses souvenirs.
+Sais-tu pourquoi elle est si connues?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xab1</ref>
+        </refs>
+        <data> Pourquoi?!
+ Je le sais...[end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xaca</ref>
+        </refs>
+        <data>Fantastique!
+ 
+  
+Sache que nombreux couples furent
+encore plus amoureux après avoir
+visité cette église.
+Leur futur est sans doute lié à
+jamais.[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xae1</ref>
+        </refs>
+        <data>Il y a une formidable légende à propos
+de cette église.
+ 
+Chaque couple se mariant dans cette
+église s'aimera à jamais et aura un
+futur parfait.[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xaf1</ref>
+        </refs>
+        <data>M'y emmèneras-tu un jour?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb11</ref>
+        </refs>
+        <data> Probablement...
+ Non![end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb3c</ref>
+        </refs>
+        <data>Humhum... mensonge!
+Nous devrions nous dépêcher...
+ 
+Matelight ne doit sûrement pas
+apprécier notre escapade![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x514</ref>
+            <ref>0xcc6</ref>
+        </refs>
+        <data>[character][0x1]:
+C'est sans espoir...[end]N</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb22</ref>
+        </refs>
+        <data>Nous ne pourrons probablement jamais
+nous marier...
+ 
+Le mariage...
+Le Roi de Kana protestera!
+ 
+Peut-être qu'un jour...
+Qui sait ce que nous réserve
+l'avenir?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb57</ref>
+        </refs>
+        <data>[character][0x1],peut-être que lorsque nous
+serons adultes,nous aurons les mêmes
+sentiments.
+Me promets-tu qu'un jour nous ferons
+partie des souvenirs de cette église?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb7a</ref>
+        </refs>
+        <data> Je le promets!
+ Seul le futur le dira...[end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb9a</ref>
+        </refs>
+        <data>Il faut néabmoins que les deux
+personnes se le promettent...
+ 
+Matelight risque d'aller voir mon père
+pour lui raconter notre escapade
+secrète.[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb8b</ref>
+        </refs>
+        <data>Le futur peut tout changer...
+Un couple peut un jour ou l'autre se
+séparer.
+Allons-y,[character][0x1]...
+Je n'aime pas cette idée,
+cette promesse...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5a0</ref>
+        </refs>
+        <data>PALPALEOS:
+L'Empereur Sauzer m'a donné la
+permission de voler.
+Venez,Princesse [character][0x1]!
+Je vous en prie,venez...
+ 
+Mon dragon nous attend dehors![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5b4</ref>
+        </refs>
+        <data>[character][0x1]:
+Pouvez-vous attendre un peu,
+jusqu'à ce qu'il fasse nuit?[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5fe</ref>
+        </refs>
+        <data>[character][0x1]:
+Est-il vrai que vous pouvez m'emmener
+n'importe où?[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x612</ref>
+        </refs>
+        <data>PALPALEOS:
+Dans chaque lieu que vous désirerez![end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6d3</ref>
+        </refs>
+        <data>PALPALEOS:
+Il est sûrement plus rapide que les
+dragons de Kana![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6d9</ref>
+        </refs>
+        <data>[character][0x1]:
+Huuum...
+SALAMANDO l'est beaucoup plus![end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6e9</ref>
+        </refs>
+        <data>PALPALEOS:
+SALAMANDO...
+Tiens donc...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x72f</ref>
+        </refs>
+        <data>PALPALEOS:
+Princesse [character][0x1],
+vous êtes si combattive...[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x750</ref>
+        </refs>
+        <data>      Ils volèrent beaucoup et ne
+      réalisèrent pas que le ciel
+           s'assombrissait...[end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x735</ref>
+        </refs>
+        <data>Je ne désire qu'une chose:
+parler avec vous,Princesse...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x862</ref>
+        </refs>
+        <data>PALPALEOS:
+Est-ce un lieu de mémoire?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x86d</ref>
+        </refs>
+        <data>[character][0x1]:
+Oui,c'est un lieu chargé de souvenirs!
+ 
+L'endroit où tout a commencé entre
+nous![end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x881</ref>
+        </refs>
+        <data>PALPALEOS:
+C'est ici que tout avait commencé...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x89a</ref>
+        </refs>
+        <data>[character][0x1]:
+Il y a une très belle histoire à propos
+de cette église...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8af</ref>
+        </refs>
+        <data>PALPALEOS:
+Pourriez-vous me la conter?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8c8</ref>
+        </refs>
+        <data>[character][0x1]:
+C'est une fantastique anecdote.
+Mais peu de personnes la connaissent.
+Autrefois,de nombreux amoureux vinrent
+à cette église pour se marier et être
+heureux.
+C'est pour cela qu'elle est aujourd'hui
+appelée l'Eglise des Souvenirs![end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8d3</ref>
+        </refs>
+        <data>PALPALEOS:
+Il était une fois un couple...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8e7</ref>
+        </refs>
+        <data>[character][0x1]:
+Je crains que nous n'ayons pas plus
+de temps...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8f4</ref>
+        </refs>
+        <data>Si j'avais un souhait...
+J'aimerais...
+Que le temps s'arrête maintenant...[end][0x0]</data>
+    </text>
+</texts>

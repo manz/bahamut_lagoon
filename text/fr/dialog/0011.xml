@@ -1,0 +1,400 @@
+<?xml version="1.0" ?>
+<texts base="0xc4a" room_id="11">
+    <text>
+        <refs>
+            <ref>0x6b9</ref>
+        </refs>
+        <data>SENDACK:
+Excellent!
+Ecoute ce que j'ai appris...
+La Princesse a fait un rêve dans lequel
+se trouvait le Dragon Sacré Léviathan!
+ 
+Il serait dans une ville voisine...
+Un endroit rempli de lacs!
+ 
+Matelight et Commandant sont partis en
+avance pour tenter de trouver ce lieu.
+ 
+Commandant y est allé pour se changer
+les idées car il ne voulait plus penser
+aux évènements tragiques de Mahal.
+Quant à Matelight,il disait aller signer
+des autographes mais en fait il voulait
+être avec la Princesse.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7d5</ref>
+        </refs>
+        <data>SENDACK:
+Va-t-on bientôt partir combattre dans
+ce lieu rempli de lacs?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6bd</ref>
+        </refs>
+        <data> Je me prépare,Sendack.
+ Allons combattre,Sendack![end1]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x868</ref>
+        </refs>
+        <data>MARCHAND ENVOYE AU CHAMP DE
+BATAILLE:
+Pourquoi est-ce que je regarde le
+paysage?!
+C'est ma passion...[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x86c</ref>
+        </refs>
+        <data> J'aimerais des armes.
+ J'aimerais des armures.
+ J'aimerais des objets.[end1]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7e9</ref>
+        </refs>
+        <data>BIKKEBAKKE:
+Elle a un champignon sur le dos!
+Cette pieuvre en a un sur le dos!
+[character][0x1],veux-tu l'attraper?[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x64e</ref>
+        </refs>
+        <data>SERGENT:
+[0xa8]Grognement[0xa9]J'avais oublié les
+sensations d'un lit bien de chez soi...
+Mais il va falloir bientôt retourner à
+FARENHEIT.
+[0xa8]Grognement[0xa9][end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x858</ref>
+        </refs>
+        <data>LUKIA:
+Don Juan...[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x816</ref>
+        </refs>
+        <data>Oh,ce matin,je n'ai déjà pas trouvé
+beaucoup de champignons toxiques!
+Alors,s'il te plaît... attrape-la![end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x250</ref>
+        </refs>
+        <data>BIKKEBAKKE:
+Ah!
+Je vais t'attraper!
+Prends ma main![end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x29d</ref>
+        </refs>
+        <data>LUKIA:
+Don Juan!
+ 
+Que faisais-tu dans ma chambre,
+ce matin?!
+ 
+Et qu'as-tu été raconter à la
+Princesse?![end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x348</ref>
+        </refs>
+        <data>LUKIA:
+Don Juan,tu as voulu faire boire du
+[0xaa]VIN DOUX[0xab] à [character][0x1]...
+J'espère que tu avais vu ton reflet
+dans les lacs de Mahal,cette nuit.
+ 
+Don Juan,le Na[0x25]f,le Misérable,tu lui as
+parlé d'un Dragon Sacré dans un
+rempli de lacs!
+Tu voulais certainement dire...
+les Ruines![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x33c</ref>
+        </refs>
+        <data>DON JUAN:
+Ah! Bonjour Lukia!
+Moi?! Ce matin?!
+Qui? Dans ta chambre?
+Ah,tu as sûrement dû sentir la chaleur
+des rayons du soleil.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x371</ref>
+        </refs>
+        <data>Tu es splendide Lukia!
+Mais tu es trop jalouse...
+ 
+Personne ne te remplacera dans mon si
+grand coeur![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x384</ref>
+        </refs>
+        <data>DON JUAN:
+Lukia,tes sentiments dépassent souvent
+ta pensée.[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x399</ref>
+        </refs>
+        <data>Don Juan est tombé amoureux de la
+beauté de la Princesse [character][0x1].
+ 
+Et je crois que seul le destin décide
+soudainement de l'amour entre homme
+et femme.[end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3b6</ref>
+        </refs>
+        <data>Je suis tombé amoureux à cause du
+destin.
+ 
+L'amour n'est véritable et possible
+qu'avec [0xb1] personnes s'aimant vraiment.
+Don Juan et [character][0x1]...
+Où pourrions-nous être,un jour,un
+couple heureux?[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3e0</ref>
+        </refs>
+        <data>Lukia,ne dis rien...
+je comprends ta profonde tristesse.
+ 
+Tes sentiments ne sont autres que
+ceux envoyés par le destin.
+ 
+Et euh... Bikkebakke pourrait me
+remplacer?
+Il ne te plaît pas?!
+Ou bien,il y a aussi [character][0x1]?![end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x661</ref>
+            <ref>0xab6</ref>
+        </refs>
+        <data>Obtenu [0xaa]SERGENT???[0xab].[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x830</ref>
+        </refs>
+        <data>BIKKEBAKKE:
+[character][0x1],vieux frère!
+Tu veux des champignons?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x834</ref>
+        </refs>
+        <data> J'aimerais en avoir.
+ Je n'en ai pas besoin![end1] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x54</ref>
+        </refs>
+        <data>         Chapitre [0xb0][0xb0]
+ -Le Dragon Sacré Léviathan-[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9b</ref>
+        </refs>
+        <data> Qui...[end1] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa9</ref>
+        </refs>
+        <data> Qui est là?[end1] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xba</ref>
+        </refs>
+        <data> Un dragon?![end1] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc6</ref>
+        </refs>
+        <data> Quel est ce lieu?[end1] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd0</ref>
+        </refs>
+        <data> De l'eau?[end1] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd6</ref>
+        </refs>
+        <data> Pourquoi l'eau?!
+ Pourquoi venir à toi?![end1] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x809</ref>
+        </refs>
+        <data> Le faire!
+ Refuser...[end1]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb0c</ref>
+        </refs>
+        <data>BIKKEBAKKE:
+Je vais t'expliquer comment tu dois
+t'y prendre:
+Pour réussir à faire avancer la
+pieuvre,appuie sur Gauche,Bas puis
+Droite.
+Dès qu'elle est près de toi,appuie sur
+le bouton A![end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xbeb</ref>
+        </refs>
+        <data>Appuie sur le bouton A![end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb34</ref>
+        </refs>
+        <data>BIKKEBAKKE:
+Tu l'as ratée!
+La pieuvre s'est enfuie![end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc19</ref>
+        </refs>
+        <data>On a eu la pieu... pieuvre![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc32</ref>
+        </refs>
+        <data>Il faut la forcer à revenir.
+Nous sommes très puissants![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x240</ref>
+        </refs>
+        <data>DON JUAN:
+Au secours!
+A l'aide!
+Je vais me noyer![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x28a</ref>
+        </refs>
+        <data>DON JUAN:
+Ouf Ouf...
+Tu m'as sauvé! Merci![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x314</ref>
+        </refs>
+        <data>Il faut... vite partir!
+IL faut... TRES VITE partir!
+Don Juan a de gros ennuis![end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xac7</ref>
+        </refs>
+        <data>Obtenu [0xaa]ROBE NIMBUS[0xab].[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xad8</ref>
+        </refs>
+        <data>Obtenu [0xaa]MAIN GAUCHE[0xab].[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xae9</ref>
+        </refs>
+        <data>Obtenu [0xb5] [0xaa]HERBE TERRE[0xab].[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x672</ref>
+        </refs>
+        <data>Obtenu par la pieuvre:
+[0xaa]BATARDE[0xab]
+[0xaa]AURORA[0xab].[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xafe</ref>
+        </refs>
+        <data>Obtenu [0xb4] [0xaa]VIN DOUX[0xab].[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa2c</ref>
+        </refs>
+        <data>Obtenu de Lukia:
+[0xb2] [0xaa]CHOSE SUR L'ETAGERE[0xab].[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa41</ref>
+        </refs>
+        <data>Obtenu de Sergent:
+[0xb5] [0xaa]CHOSE SUR L'ETAGERE[0xab].[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa11</ref>
+        </refs>
+        <data>Obtenu de Lukia:
+[0xb2] [0xaa]VIN CUIT[0xab]
+[0xb1] [0xaa]VODKA[0xab].[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9fa</ref>
+        </refs>
+        <data>Obtenu de Sergent:
+[0xb1] [0xaa]LIVRE DE STRATEGIE[0xab]
+[0xb0] [0xaa]NOTE DE PRODIGE[0xab].[end][0x0]</data>
+    </text>
+</texts>

@@ -1,0 +1,432 @@
+<?xml version="1.0" ?>
+<texts base="0x8be" room_id="4">
+    <text>
+        <refs>
+            <ref>0x436</ref>
+            <ref>0x76</ref>
+        </refs>
+        <data>MATELIGHT:
+Mademoiselle [character][0x1]![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x94</ref>
+        </refs>
+        <data>MATELIGHT:
+Je suis le Chevalier de votre contrée!
+Je suis enfin arrivé à vous![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xab</ref>
+        </refs>
+        <data>COMMANDANT:
+Je suis Commandant,Capitaine de
+Mahal,je suis venu avec Matelight![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x586</ref>
+        </refs>
+        <data>RUSH:
+Granbelos le paiera!
+ 
+On n'emmène pas la Princesse dans un
+tel lieu![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x26a</ref>
+        </refs>
+        <data>SENDACK:
+Ouf... Ouf...
+Arrêtons-nous ici...[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2b8</ref>
+        </refs>
+        <data>LUKIA:
+Ne le fais pas trop parler!
+ 
+Sendack doit se reposer un instant,
+et il sera bientôt de nouveau plein
+vigueur![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x599</ref>
+        </refs>
+        <data>RUSH:
+Ce passage est suspect!
+Que veux-tu faire?
+ Je te suis.
+ Je passe en premier![end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5d8</ref>
+        </refs>
+        <data>RUSH:
+Minute![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5a7</ref>
+        </refs>
+        <data>RUSH:
+J'ai découvert ta pensée!
+ 
+Tu veux que j'aille secourir seul la
+princesse puis tu me rejoindras!
+C'est ça ton idée,n'est-ce pas?
+Et bien,ça ne marche pas avec moi!
+Nous entrerons l'un après l'autre![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5b4</ref>
+        </refs>
+        <data>RUSH:
+Pas si vite![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5cd</ref>
+        </refs>
+        <data>RUSH:
+J'entrerai en premier!
+Tu veux être le seul héros?
+Et bien,ça ne marche pas avec moi!
+Tu passeras après moi!
+ 
+J'irai secourir la princesse et tu
+suivras au cas où il se passerait
+quelque chose.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x76c</ref>
+        </refs>
+        <data>Tu pourrais au moins me remercier!
+ 
+  
+Tiens!
+Qu'avons-nous ici?![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x60b</ref>
+        </refs>
+        <data>RUSH:
+[character][0x1] n'est pas ici...[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x346</ref>
+        </refs>
+        <data>Héhéhéhéhé!
+Hohihi!
+Hihihihihi![end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x359</ref>
+            <ref>0x3df</ref>
+        </refs>
+        <data>LEGION:
+Aaaaaah![end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x369</ref>
+        </refs>
+        <data>LEGION:
+Chef Zonbeld!
+Je n'aurais pas dû m'endormir![end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x375</ref>
+        </refs>
+        <data>LEGION:
+Hé,vous là?![end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3a0</ref>
+        </refs>
+        <data>LEGION:
+Vous êtes des rebelles?!
+Lai... laissez-moi en vie![end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3bf</ref>
+        </refs>
+        <data>LEGION:
+Je... je pourrais être utile!
+Quoi?!
+Peut... peut-être la torture?!
+Vous voulez vraiment faire cela?!
+ 
+ Le torturer!
+ Je le pourrais![end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3e8</ref>
+        </refs>
+        <data>... ... ... ...
+ 
+  
+C'est un plan pour me piéger![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x213</ref>
+        </refs>
+        <data>MATELIGHT:
+Ca avance lentement mais sûrement...
+Dépêchons-nous!
+Trouve vite un passage![end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x239</ref>
+        </refs>
+        <data>Je sens une odeur...[end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4de</ref>
+            <ref>0x40f</ref>
+        </refs>
+        <data>Aaah!
+Nonnnnnn!
+C'est douloureux![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x454</ref>
+        </refs>
+        <data>MATELIGHT:
+Qu'est-ce que nous avons là!
+Où est la Princesse [character][0x1]?[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x460</ref>
+        </refs>
+        <data>RUSH:
+La Princesse n'est pas ici!
+ 
+[character][0x1] va utiliser la torture pour que
+ce soldat nous dise où elle se trouve![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x46d</ref>
+        </refs>
+        <data>COMMANDANT:
+Très bonne idée![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x47d</ref>
+            <ref>0x21d</ref>
+        </refs>
+        <data>MATELIGHT:
+Vas-y [character][0x1]!
+Et ne lésine pas sur les coups![end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x498</ref>
+        </refs>
+        <data>LEGION:
+Arrêtez...
+Je vais parler... Je vais parler!
+L'Empereur Sauzer a emmené la
+Princesse [character][0x1] avec lui![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4b3</ref>
+        </refs>
+        <data>MATELIGHT:
+Où l'a-t-il EMMENEE?![end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4bc</ref>
+        </refs>
+        <data>LEGION:
+Dans une forêt au Nord!
+ 
+D'ici,vous pouvez apercevoir la cime
+des arbres.[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4c8</ref>
+        </refs>
+        <data>MATELIGHT:
+Nous pouvons apercevoir la cime des
+arbres?!
+Nous devons y aller![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4d5</ref>
+        </refs>
+        <data>MATELIGHT:
+Très bien!
+ 
+Utilise la force et montre-lui ce qu'est
+une vraie scéance de torture![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x53b</ref>
+        </refs>
+        <data>RUSH:
+C'est dangereux!
+ 
+Je vais aller voir si ce type n'a pas
+des amis qui traînent![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x201</ref>
+        </refs>
+        <data>[character][0x1]...
+Votre coeur est empli de chagrin!
+Nous ferons tout ce qui est en notre
+pouvoir pour vous libérer.[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x22f</ref>
+        </refs>
+        <data>[character][0x1]...
+Aurait-elle été torturé?
+ 
+Mon esprit me joue des tours![end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2bf</ref>
+        </refs>
+        <data>LUKIA:
+Rush est parti à la poursuite du soldat
+impérial![end]Q</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x260</ref>
+        </refs>
+        <data>Quoi [character][0x1]!
+Des tortures...[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2d2</ref>
+            <ref>0x57f</ref>
+        </refs>
+        <data>RUSH:
+C'est fini!
+Il a réussi à s'enfuir pour de bon...[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2df</ref>
+        </refs>
+        <data>RUSH:
+Mais une autre personne arrive![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2f1</ref>
+            <ref>0x301</ref>
+        </refs>
+        <data>MARCHAND ENVOYE AU CHAMP DE
+BATAILLE:
+Besoin de quelque chose?![end][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x307</ref>
+        </refs>
+        <data> Armes.
+ Armures.
+ Objets.[end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x27c</ref>
+        </refs>
+        <data>LUKIA:
+Es-tu prêt à aller au combat?
+ 
+ Attendre.
+ A l'attaque![end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x29f</ref>
+        </refs>
+        <data>MATELIGHT:
+Vous avez entendu?!
+J'entends des cris qui approchent![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x612</ref>
+        </refs>
+        <data>RUSH:
+Tu comprends ce que dit ce type?[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x248</ref>
+        </refs>
+        <data>COMMANDANT:
+Vite,[character][0x1] est peut-être blessée![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x252</ref>
+        </refs>
+        <data>COMMANDANT:
+Il y a plusieurs manières pour faire ce
+genre de choses![end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x32</ref>
+        </refs>
+        <data>          Chapitre [0xb3]
+ -Il y a beaucoup de regrets-[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7f3</ref>
+        </refs>
+        <data>RUSH:
+[character][0x1]!
+Où vas-tu?![end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6a5</ref>
+        </refs>
+        <data>BIKKEBAKKE:
+Les dragons doivent tous être nourris.
+Ne l'oublie pas![end][0x0]</data>
+    </text>
+</texts>

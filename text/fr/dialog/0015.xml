@@ -1,0 +1,360 @@
+<?xml version="1.0" ?>
+<texts base="0xa59" room_id="15">
+    <text>
+        <refs>
+            <ref>0x7da</ref>
+        </refs>
+        <data> Livres.
+ Champignons.[end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9e</ref>
+        </refs>
+        <data>             Chapitre [0xb0][0xb4]
+-Combat décisif dans les Sables Chauds-[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc0</ref>
+        </refs>
+        <data>HORNET:
+FARENHEIT est en train de passer à
+travers l'orage et se dirige
+maintenant vers Dafira.
+C'est un lagon désert,chaud et
+sablonneux comme tous les déserts.
+C'est un lagon où règnent la chaleur
+et l'ardeur.[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc8</ref>
+        </refs>
+        <data>C'est le lieu où autrefois j'aimais
+vivre.[end]N</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xcc</ref>
+        </refs>
+        <data>Nous voyageons maintenant dans ce
+ciel bleu pour combattre l'Empire et
+rechercher les Dragons Sacrés.[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf5</ref>
+        </refs>
+        <data>La colère,les blessures et l'amertume
+des Dragons Sacrés ont rendu la
+Princesse malade.[end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf9</ref>
+        </refs>
+        <data>Elle est souffrante à cause de...
+cette colère.[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x104</ref>
+        </refs>
+        <data>La colère des Dragons Sacrés et la
+Princesse...
+Pour l'amour de [character][0x1]...
+Dragons Sacrés dites-moi pourquoi
+vous êtes si furieux?
+Pourquoi vous ha[0x25]ssez-vous?
+Quelle est votre souffrance?
+Est-ce à cause du jour où la guerre
+a éclaté à Orelus?
+J'ai l'impression que cette époque est
+lointaine...
+Je le crois même...[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x115</ref>
+        </refs>
+        <data>Les Rebelles,je veux dire Matelight et
+les autres,m'ont sauvé de l'Empire!
+Ils sont formidables...
+Ils ne font que des actions droites et
+justifiables!
+Je les ai rejoints...
+Je suis redevenu un homme et j'ai
+retrouvé mon sens de l'humour...[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x139</ref>
+        </refs>
+        <data>Oui Sauzer!
+Ils ne sont pas comme toi!
+Cette lettre que tu m'as envoyé...[end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x146</ref>
+        </refs>
+        <data>Je l'ai conservée:
+Le Dragon Sacré Jormungand se trouve
+près de la ville de Dafira.
+Je vous y attendrai avec les Rebelles.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x157</ref>
+        </refs>
+        <data>Soyez-y présents!
+ 
+  
+Je vois que depuis notre rencontre à
+à ce bar,tu n'as toujours pas changé.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x198</ref>
+        </refs>
+        <data>SAUZER:
+Buvons au pouvoir!
+ 
+Aide-moi Hornet![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1a4</ref>
+        </refs>
+        <data>Tu as la force d'un Chevalier Croix!
+Brandis ton épée pour moi!
+ 
+J'ai besoin de toi pour conquérir le
+ciel d'Orelus.[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1af</ref>
+        </refs>
+        <data>HORNET:
+Tu veux conquérir le...
+ciel?[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1b9</ref>
+        </refs>
+        <data>Mais le ciel n'appartient à personne.
+Nous y flottons seulement,laissant de
+côté nos ennuis et nous nous en
+réjouissons!
+Par conséquent,je ne brandirai pas
+mon épée à ton service.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1c4</ref>
+        </refs>
+        <data>SAUZER:
+Craindrais-tu la Guerre?[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1cf</ref>
+        </refs>
+        <data>HORNET:
+Peur?
+Peut-être que oui!
+Sauzer,au cours de ta vie,ne blesse
+personne pour de futiles raisons.
+ 
+Si j'étais toi,je prendrais cette brave
+et sage décision.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1db</ref>
+        </refs>
+        <data>SAUZER:
+Ton rêve est d'être le capitaine d'un
+grand vaisseau et de voler à la
+conquête du ciel.
+Si tu veux un jour ce bateau,
+rejoins-moi!
+Je t'attendrai jusqu'à ce jour![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x768</ref>
+        </refs>
+        <data>MATELIGHT:
+[character][0x1],je jure qu'il ne vous arrivera
+rien avec moi.[end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7cd</ref>
+        </refs>
+        <data>J'aurais aimé annoncer quelque chose
+à mon chef,Hornet.
+ 
+Homme du ciel,je crois que je vais
+bientôt mettre un terme à ma carrière
+de matelot car j'ai montré la plupart
+de mes faiblesses lorsque nous avons
+aveuglément traversé la tempête.[end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7d6</ref>
+        </refs>
+        <data>J'ai beaucoup de splendides choses à
+te vendre.[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x29e</ref>
+        </refs>
+        <data>ZORA:
+Réunissons-nous et attendons![end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2d0</ref>
+        </refs>
+        <data>ZORA:
+Comme vous le savez déjà...
+ 
+[character][0x1] n'est plus maintenant en grande
+forme.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2fe</ref>
+        </refs>
+        <data>Toutefois,même si l'Empereur Sauzer
+reviendra,tôt ou tard,nous devons
+aller nous battre à Dafira pendant
+qu'il est encore convalescent.
+J'ai maintenant une chose importante
+à vous annoncer...
+[character][0x1] va bientôt devenir une Dragoon
+mais elle souffre de maux dûs aux
+Dragons Sacrés.
+Mais pour elle,je ferai tout ce qui est
+en mon pouvoir pour vaincre l'Empire.[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x309</ref>
+        </refs>
+        <data>Bien!
+Soyez tous prêts![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x344</ref>
+        </refs>
+        <data>HORNET:
+Préparez-vous tous,nous allons bientôt
+passer les nuages!
+Et derrière eux se trouve le lagon
+désertique Dafira et son incroyable
+température.[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x811</ref>
+        </refs>
+        <data>RUSH:
+Nous allons combattre dans les sables
+chauds!
+C'est un terrain approprié contre
+Sauzer.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x81e</ref>
+        </refs>
+        <data>TAURUS:
+Tu ne penses pas que [character][0x1] ne
+devrait pas combattre?
+Si Sauzer était en ce moment même
+devant moi,je n'hésiterais pas à le
+tuer malgré sa maladie.[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x82c</ref>
+        </refs>
+        <data>BIKKEBAKKE:
+Dans la chambre de [character][0x1],les hommes
+n'ont pas le droit d'entrer.
+Mais je crois que je vais pouvoir
+regarder par cette serrure.
+ 
+Au fait,frère,je vais bientôt avoir une
+file d'attente dans mon magasin de
+Champignons.
+Et plus tard,je l'agrandirai,
+puis j'aurai un gros salaire.[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x783</ref>
+        </refs>
+        <data>HORNET:
+Nous combattons toujours plus mais il
+faut rester ferme.
+Allons-nous atterrir?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x787</ref>
+        </refs>
+        <data> Se préparer.
+ Atterrir.[end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x76f</ref>
+        </refs>
+        <data>SENDACK:
+L'Empereur Sauzer connaît le coeur
+des Dragons Sacrés.
+Je crois qu'ils n'en sont pas fiers,
+donc nous devons nous battre pour
+éviter le pire.[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x779</ref>
+        </refs>
+        <data>COMMANDANT:
+Nous tiendrons bon jusqu'au bout![end]F</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3a0</ref>
+        </refs>
+        <data>RUSH:
+Nous allons enfin sortir de ces nuages.
+Compte à rebours!
+[0xb2]... ...
+ 
+  
+[0xb1]... ...
+ 
+  
+[0xb0]... ...
+ 
+  
+[0xaf]... ...
+ 
+  
+[0xd8][0xd8][0xd8][0xd8][end][0x0]</data>
+    </text>
+</texts>

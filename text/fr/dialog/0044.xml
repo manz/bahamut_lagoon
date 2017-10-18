@@ -1,0 +1,139 @@
+<?xml version="1.0" ?>
+<texts base="0x369" room_id="44">
+    <text>
+        <refs>
+            <ref>0x6d</ref>
+        </refs>
+        <data>[character][0x1]:
+... ... ... ...[0xd8][end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x76</ref>
+        </refs>
+        <data>SENDACK:
+Princesse?
+Comment faire?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x82</ref>
+        </refs>
+        <data>[character][0x1]:
+Valitra!
+Quelque chose ne va pas?![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8e</ref>
+        </refs>
+        <data>MATELIGHT:
+Quoi?
+Quelle est notre faiblesse?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x94</ref>
+        </refs>
+        <data>[character][0x1]:
+Je ne comprends pas...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa1</ref>
+        </refs>
+        <data>SENDACK:
+Tout va bien?
+Princesse?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xae</ref>
+        </refs>
+        <data>[character][0x1]:
+Oui,Sendack,tout va bien![end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xba</ref>
+        </refs>
+        <data>Je vais y aller...[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf6</ref>
+        </refs>
+        <data>Dragon Sacré Garuda...
+je suis ici...
+Pour toi...
+Valitra et Léviathan sont là,en moi...[end]K</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x142</ref>
+        </refs>
+        <data>Kyaaa[0xd8][end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x17e</ref>
+        </refs>
+        <data>SENDACK:
+Princesse!
+Tenez bon![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x208</ref>
+            <ref>0x1a4</ref>
+        </refs>
+        <data>MATELIGHT:
+Princesse [character][0x1]![end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1ad</ref>
+        </refs>
+        <data>[character][0x1]:
+Garuda...
+Mais... que veut-il?![end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1cb</ref>
+        </refs>
+        <data>Pourquoi est-il si furieux...?
+Qui hait-il?
+Quelle haine![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1d4</ref>
+        </refs>
+        <data>[character][0x1]:
+Aaaaah![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1fb</ref>
+        </refs>
+        <data>SENDACK:
+Princesse!
+Tenez bon[0xd8][end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x211</ref>
+        </refs>
+        <data>MATELIGHT:
+Ramenons-la immédiatement à
+FARENHEIT![end]m</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x26e</ref>
+        </refs>
+        <data>manyo!
+[0xa8]... ...![0xa9][end][0x0]</data>
+    </text>
+</texts>

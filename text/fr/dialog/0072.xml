@@ -1,0 +1,93 @@
+<?xml version="1.0" ?>
+<texts base="0x1bd" room_id="72">
+    <text>
+        <refs>
+            <ref>0x104</ref>
+        </refs>
+        <data> Je te le promets,Sendack...
+ Je te demande pardon?![end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xbb</ref>
+        </refs>
+        <data>SENDACK:
+[character][0x1]...[end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd8</ref>
+        </refs>
+        <data>Je dois avouer ne pas avoir le sens
+de l'orientation.
+Où dois-je nous emmener?!
+[character][0x1],j'aurais une requête...
+Pourrais-tu donner à ma place le lieu
+de destination à Hornet?[end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x142</ref>
+        </refs>
+        <data>Je t'en prie,je suis certain que tu en
+es capable car tu es le meilleur.[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x126</ref>
+        </refs>
+        <data>Haha!
+Tu t'en charges,alors?!
+Tu verras,c'est TRES simple![end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x15e</ref>
+        </refs>
+        <data>Je crois qu'un matelot doit faire des
+choix dans la vie.
+ 
+Je sais que tôt ou tard,je devrai
+tenir ma promesse et ainsi commander
+ce bateau.
+Lorsque ce jour viendra,ce ne sera un
+secret pour personne.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x195</ref>
+        </refs>
+        <data>SENDACK:
+En route![end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe1</ref>
+        </refs>
+        <data>Je suis un vieux sorcier,comment
+pourrait-on me faire confiance?[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x114</ref>
+        </refs>
+        <data>C'est la chance de ma vie![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x133</ref>
+        </refs>
+        <data>Il n'aurait rien compris?!
+Il doit sûrement mentir.
+ 
+On dit souvent que je suis très
+vieux mais Sendack est encore vivant
+et a plus d'une corde à son arc!
+Il faut le convaincre mais je sais que
+ce sera difficile.
+ 
+Quelle calamité!
+Bon,tentons la flatterie![end][0x0]</data>
+    </text>
+</texts>

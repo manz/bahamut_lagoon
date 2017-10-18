@@ -1,0 +1,249 @@
+<?xml version="1.0" ?>
+<texts base="0x71b" room_id="31">
+    <text>
+        <refs>
+            <ref>0x90</ref>
+        </refs>
+        <data>MATELIGHT:
+Il y a quelqu'un?!
+Je suis Matelight![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa9</ref>
+        </refs>
+        <data>COMMANDANT:
+Je suis Commandant!
+ 
+Tout va bien,nous sommes enfin
+arrivés![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb3</ref>
+        </refs>
+        <data>MATELIGHT:
+Personne pour nous féliciter?!
+C'est impoli!
+Commandant,allons voir ce qui se passe
+ici![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4a3</ref>
+        </refs>
+        <data>MATELIGHT:
+C'est ici,Commandant![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4ac</ref>
+        </refs>
+        <data>COMMANDANT:
+C'est petit,Matelight![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x284</ref>
+        </refs>
+        <data>HORNET:
+Je t'attendais impatiemment!
+Ainsi,tu dois être [character][0x1],le chef de la
+Résistance.
+Je suis Hornet,le capitaine de ce
+vaisseau!
+Viens sur le pont avec tes amis![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5e0</ref>
+            <ref>0x2a0</ref>
+            <ref>0x4d0</ref>
+        </refs>
+        <data>HORNET:
+Venez![end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x271</ref>
+        </refs>
+        <data>Je suis un membre de cet équipage!
+Je ne suis pas un ennemi![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2ed</ref>
+        </refs>
+        <data>DOCTEUR DRAGON:
+J'aide et soigne les dragons.
+Je suis le Docteur Dragon!
+Mais,je ne suis pas habilité à soigner
+les maux d'estomac![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x24f</ref>
+        </refs>
+        <data>RUSH:
+La Forteresse du Ciel!
+Vite,sur le pont![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x259</ref>
+        </refs>
+        <data>TAURUS:
+J'estime que nous aurions dû être les
+premiers à entrer dans la Forteresse
+du Ciel car nous y avons encore de
+très nombreux souvenirs jusqu'à ce
+que,malheureusement,le danger y soit
+venu![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf6</ref>
+        </refs>
+        <data>SENDACK:
+Nous avons enfin récupéré le Flambeau
+de Kana.
+J'ai encore tant d'affection pour ce
+bateau![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x240</ref>
+        </refs>
+        <data>SENDACK:
+Le capitaine du bateau doit être ici!
+Te souviens-tu de lui?[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x266</ref>
+        </refs>
+        <data>BIKKEBAKKE:
+Nous sommes revenus à la maison...
+J'en frémis de joie![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2f4</ref>
+        </refs>
+        <data>Tu es le Chef,n'est-ce pas?!
+Nous apprécions beaucoup tout ce que
+tu as fait pour nous!
+Tu n'as pas l'air d'un type douteux.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2fb</ref>
+        </refs>
+        <data>Tu es le Chef,n'est-ce pas?!
+Nous apprécions beaucoup tout ce que
+tu as fait pour nous!
+Tu n'as pas l'air d'un type ennuyeux.[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x69d</ref>
+        </refs>
+        <data>MATELIGHT:
+Ah,[character][0x1]!
+ 
+Nous avons bientôt terminé l'inspection
+du bateau![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3de</ref>
+        </refs>
+        <data>SENDACK:
+[character][0x1],attends un instant!
+J'aimerais te parler...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x403</ref>
+        </refs>
+        <data>SENDACK:
+Il nous faut un nom pour ce vaisseau
+mais je n'en trouve pas...
+Tu dois sûrement avoir un très beau
+nom à proposer.
+ 
+Il faudrait un nom qui marque notre
+grand retour![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x556</ref>
+            <ref>0x247</ref>
+        </refs>
+        <data>SENDACK:
+FARENHEIT?!
+[character][0x1],je dois dire que ce nom est
+Fan-Tas-Ti-Que![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5a3</ref>
+        </refs>
+        <data>MATELIGHT:
+Hahahahaha!
+FARENHEIT?![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5ae</ref>
+        </refs>
+        <data>MATELIGHT:
+Tout compte fait,FARENHEIT,
+c'est assez cool![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x302</ref>
+        </refs>
+        <data>MARCHAND:
+Je vous en prie,vous pouvez regarder
+la marchandise![end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2d8</ref>
+        </refs>
+        <data>Le capitaine de ce vaisseau,Sendack,
+doit être resté très jeune,non?![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2e3</ref>
+        </refs>
+        <data>Ici se trouve une entrée vers le pont!
+Passe par l'une d'entre elles pour y
+accéder.[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x309</ref>
+        </refs>
+        <data>M... mince!
+Je suis de l'équipage!
+ 
+C'est juste un déguisement que
+j'utilisais pour ne pas être capturé
+par l'empire.[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x278</ref>
+        </refs>
+        <data>Comme je le pensais la chambre de la
+princesse [character][0x1] sera encore vide...
+ 
+J'appartiens à l'équipage et j'ai
+l'intention de vous aider de toutes
+mes forces.[end][0x0]</data>
+    </text>
+</texts>
