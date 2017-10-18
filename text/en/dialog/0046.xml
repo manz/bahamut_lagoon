@@ -1,0 +1,154 @@
+<?xml version="1.0" ?>
+<texts base="0x59f" room_id="46">
+    <text>
+        <refs>
+            <ref>0xa1</ref>
+        </refs>
+        <data>                  [character][0x1]...
+
+
+                 Dragnar.
+
+
+ You have done well to come this far.
+
+
+               Hesitate not.
+
+
+           Now... Open the door,
+             and come to me.[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xbe</ref>
+        </refs>
+        <data>[character][0x1]: [character][0x1]... Matelite...
+From here on it will be dangerous...
+The Holy Dragon is full of hatred.
+I don't know whether I will be able
+to stop it or not...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xce</ref>
+        </refs>
+        <data>Please... Jormungand. Close the door...
+It is me that you want... Forgive
+[character][0x1] and the others...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x28f</ref>
+        </refs>
+        <data>Matelite: [character][0x1]... This won't do!
+Please wait for me![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x299</ref>
+        </refs>
+        <data>Sendak: [character][0x1]... I... the truth is...
+I would like it if you could carry
+me...
+I would appreciate it if you could
+rub my legs... I want you to help
+me...
+But, the princess...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2a3</ref>
+        </refs>
+        <data>Taicho: [character][0x1]... She is acting
+differently than her usual self!
+
+[character][0x1]... You must do something![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2ae</ref>
+        </refs>
+        <data>[character][0x1]: Stop... [character][0x1].
+I will go ahead alone...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2ce</ref>
+        </refs>
+        <data>[character][0x1]: [character][0x1]... please.
+Until the very end, please watch over
+me...[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3c0</ref>
+            <ref>0x4b4</ref>
+        </refs>
+        <data>             [character][0x1]... Dragnar.[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3c6</ref>
+        </refs>
+        <data>             Your friends...
+        They watch out for you
+         and they support you...
+        They do not betray you...
+      Nor do they suffer your pain...
+
+                Long ago...
+          We Holy Dragons too
+         were once as you are.[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x49b</ref>
+        </refs>
+        <data>[character][0x1]: Jormungand... I am ready.
+Whatever you have to say...
+
+I am prepared to accept you.[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4c4</ref>
+        </refs>
+        <data>              Listen well...
+
+
+         The beginning of it all
+       was a very long time ago...
+
+              Our hatred...
+        Our sadness... Our anger...
+           Our every thought...
+         Our irreversible past...
+     The War of the Holy Dragons...[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4d6</ref>
+        </refs>
+        <data>                  Human...
+                  Listen...
+
+              Very long ago...
+         we Holy Dragons fought.
+
+             We felt hatred...
+            we were twisted...
+            we were cursed...
+ All of the emptiness there was lost...
+   All that remained was our minds...
+   The minds of we Holy Dragons...
+
+        The door to the new era...
+             When it is opened...
+
+         We shall be despised.
+
+
+      That time is soon at hand...[end][end]</data>
+    </text>
+</texts>

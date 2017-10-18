@@ -1,0 +1,323 @@
+<?xml version="1.0" ?>
+<texts base="0xa59" room_id="213">
+    <text>
+        <refs>
+            <ref>0xcc</ref>
+        </refs>
+        <data>Queen Campbell: There is nothing for
+you. You've captured Campbell... And
+someday you'll rule the world...
+But you'll never be satisfied...[end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xde</ref>
+        </refs>
+        <data>Even if you knew the legend of the
+Holy Dragons, what could you do?
+
+The one who will bring about a new
+era...
+
+That person is not you!![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1a1</ref>
+        </refs>
+        <data>Sauzer: Where am I... What happened?[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1af</ref>
+        </refs>
+        <data>Palpaleos: Sauzer... This is your room.
+Don't you remember? The Holy Dragon
+awoke.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1bf</ref>
+        </refs>
+        <data>Sauzer: The Holy Dragon's power...
+It knocked me unconscious...?
+
+So Princess [character][0x1] was able to
+control it after all... Is she all right?[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1cb</ref>
+        </refs>
+        <data>Palpaleos: She has returned to the
+Resistance...
+
+But she's not the only one. Campbell
+has already fallen as well.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x209</ref>
+        </refs>
+        <data>Sauzer: I've done something terrible...
+
+
+Palpaleos. Where did the Resistance go?
+Are they heading for the Holy
+Dragons?[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x225</ref>
+        </refs>
+        <data>Palpaleos: Sauzer, you still need to
+rest... We shall protect Granbelos for
+you.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x25d</ref>
+        </refs>
+        <data>Sauzer: The one who reads the minds
+of the Holy Dragons shall open the
+door to a new era...
+Just what did Valitora say to Princess
+[character][0x1]?[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x261</ref>
+        </refs>
+        <data>I, Sauzer, will be the one to bring
+about the new era!
+
+Listen, Palpaleos. We must not allow the
+Resistance to continue!!
+
+The way to read the minds of the Holy
+Dragons... Very soon... The legendary
+Holy Dragons... The new era...
+They shall be mine.[end]F</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2c8</ref>
+        </refs>
+        <data>Forgive me, Palpaleos...[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2e6</ref>
+        </refs>
+        <data>Reading the Holy Dragons' minds...
+Doing so means I will no longer be
+myself.
+When I change, Palpaleos...
+Take charge of the Granbelos Empire...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3ce</ref>
+        </refs>
+        <data>This human is the one we will choose?[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3ff</ref>
+        </refs>
+        <data>The suitable human we will entrust with
+the doorway to the new era...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x42e</ref>
+        </refs>
+        <data>The one who will bring peace...
+To our confused minds...
+With his power...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x503</ref>
+        </refs>
+        <data>Sauzer: Monsters...
+
+
+No, guardians of the Holy Dragons...
+
+
+First, allow me to express my
+gratitude for your choosing me...
+
+However, let me ask you one thing.
+Why... did you choose me?[end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x514</ref>
+        </refs>
+        <data>Emperor Sauzer of the Granbelos
+Empire...
+
+Great Conqueror of the Human
+World...
+
+But you know of the emptiness of
+those titles.[end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x549</ref>
+        </refs>
+        <data>And you know the pain of fighting...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x578</ref>
+        </refs>
+        <data>The doorway to the new era cannot be
+opened by a weak-minded human.
+Nor by we monsters...
+Read the minds of the Holy Dragons,
+and open the doorway for us...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x624</ref>
+        </refs>
+        <data>Sauzer: Monsters...[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x634</ref>
+        </refs>
+        <data>Let it begin.[end].</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6b4</ref>
+        </refs>
+        <data>......[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6e3</ref>
+        </refs>
+        <data>The minds of the Holy Dragons...
+So these are their thoughts...[end]U</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x70d</ref>
+        </refs>
+        <data>Unnngh!![end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x801</ref>
+        </refs>
+        <data>Palpaleos: The disaster in the sky
+seems to have subsided... Do you know
+what's happening up there, Sauzer?[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x80c</ref>
+        </refs>
+        <data>Sauzer: Palpaleos... The sky... I want to
+look at it with you when the end
+comes...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x81c</ref>
+        </refs>
+        <data>Palpaleos: When the end comes?[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x871</ref>
+        </refs>
+        <data>Sauzer: How dazzling... The sky is...
+always glittering... Dreams... legends...
+Everything is in this sky...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x915</ref>
+            <ref>0x87b</ref>
+            <ref>0x89d</ref>
+        </refs>
+        <data>Palpaleos: Sauzer...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x88c</ref>
+        </refs>
+        <data>Sauzer: Am I... human...?
+The emperor of the human world...?[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8af</ref>
+        </refs>
+        <data>There were children who looked up to
+me... [0x24]If it's for the Emperor we'll risk
+our lives and fight...[0x22][end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8c1</ref>
+        </refs>
+        <data>This empire that I created... The
+children born there will wage war...
+
+They will follow the same path as I
+have...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8e3</ref>
+        </refs>
+        <data>This is all mine...
+
+
+What I have been wanting...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8f3</ref>
+        </refs>
+        <data>Palpaleos... There is someone you must
+protect... As Emperor of the Granbelos
+Empire I order you...[end]G</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x901</ref>
+        </refs>
+        <data>General Palpaleos!! Go to Kahna!!
+Protect the skies of Orelus with the
+Resistance!![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x928</ref>
+        </refs>
+        <data>That is the order of the Emperor...
+Do not disobey, Palpaleos...
+
+Protect the one most important to
+you...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x994</ref>
+        </refs>
+        <data>The sky... The light of the sky...
+Do you know the depths of darkness...
+
+I am in darkness...
+The very deepest darkness...[end][end]</data>
+    </text>
+</texts>

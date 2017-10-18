@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<texts base="0x1cf" room_id="7">
+    <text>
+        <refs>
+            <ref>0x2e</ref>
+        </refs>
+        <data>Zomberd: Campbell belongs to me![0xfc][0x1]
+I ain't handing it over to the likes of
+you![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3b</ref>
+        </refs>
+        <data>“Condition for Victory:”[0xfc][0x1]
+“Defeat of Zomberd”[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4f</ref>
+        </refs>
+        <data>Standing in front of a cannon is just
+asking for trouble![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x56</ref>
+        </refs>
+        <data>Destroy the cannons using thunder
+techs![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x174</ref>
+        </refs>
+        <data/>
+    </text>
+</texts>

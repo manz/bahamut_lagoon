@@ -1,0 +1,255 @@
+<?xml version="1.0" ?>
+<texts base="0x390" room_id="209">
+    <text>
+        <refs>
+            <ref>0x1d4</ref>
+        </refs>
+        <data>Anastasia: Did you know, [character][0x1]?
+
+
+They say that when dragons mature
+they can become Master Dragons.
+
+I heard that if you raise them until
+they become adults they'll become
+Master Dragons.
+I heard so from Barclay.[end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1db</ref>
+        </refs>
+        <data>Anastasia: Hey, [character][0x1], did you
+know?
+
+I heard this from Barclay, he said that
+General Irvine of the Empire has
+Excalibur.
+Isn't that the legendary sword that
+every knight wants?
+
+But Barclay only has axes...[end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1f7</ref>
+        </refs>
+        <data>Ectarina: The Sweet Wine that he
+drank... Hee hee... This glass is mine...[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x210</ref>
+            <ref>0x1fb</ref>
+        </refs>
+        <data>But... That letter... Who...
+From somebody here...?[end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x20c</ref>
+        </refs>
+        <data>Ectarina: The cocktail spiked with
+special Uniuji that he drank...
+Hee hee... This glass is mine...[end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x221</ref>
+        </refs>
+        <data>Ectarina: The rip in the sky is the end
+of the world...
+
+Hee hee... I'm on the same ship as
+him... Hee hee.[end]N</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x236</ref>
+        </refs>
+        <data>Nelbo: Oh, [character][0x1].
+Donfan, the enemy of women, wound
+up being trapped in here.
+Good idea, don't you think?[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x241</ref>
+        </refs>
+        <data>Donfan: Important lesson!!
+Stay away from wizards![end]N</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x24e</ref>
+        </refs>
+        <data>Nelbo: Donfan...
+Here, have a Bad Cookie.[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x25c</ref>
+            <ref>0x2be</ref>
+        </refs>
+        <data>Donfan: Which should I choose...
+I'm so confused...[end]F</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x272</ref>
+        </refs>
+        <data>Frederica: Everybody is worried only
+about [character][0x1].
+
+You're the only person to come see
+me, [character][0x1].
+
+But that's okay... I have my medicine...[end]F</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x289</ref>
+        </refs>
+        <data>Frederica: Why...
+
+
+Why...
+
+
+Oh... [character][0x1]...
+I can't stop shaking.
+
+Oh...
+
+
+M-medicine...[end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x298</ref>
+        </refs>
+        <data>Joy: Nelbo and I are keeping watch.
+Only when we're about to go into
+battle do we let him out.[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2a3</ref>
+        </refs>
+        <data>Donfan: Important lesson!!
+Stay away from priests![end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2b0</ref>
+        </refs>
+        <data>Joy: Donfan... Here, have some Ice
+Grass.[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2c8</ref>
+        </refs>
+        <data>Diana: Hey, have you heard!?
+Have you!?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2cc</ref>
+        </refs>
+        <data>  What is it?
+  Sorry, I'm busy right now.[end1]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2dc</ref>
+        </refs>
+        <data>Recently, there have been
+painful-sounding voices coming from
+[character][0x1]'s room.
+I wonder what it is... Could she be...
+I wonder if she's talking with the
+Holy Dragons...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2e1</ref>
+        </refs>
+        <data>The other day, Matelite came by and
+asked what armor was currently
+popular.
+When I answered him, he then asked
+me what staffs were popular. There
+aren't any popular staffs, I told him!
+Then he asked what dresses were
+popular. His face was bright red.
+
+Does he have strange hobbies or
+something, I wonder? What a weird
+man![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2ea</ref>
+        </refs>
+        <data>Hmm. I see...[end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2fd</ref>
+        </refs>
+        <data>Jeanne: Donfan is pitiful. He does have
+a few good points, though.
+
+But if I catch him looking at me...[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x308</ref>
+        </refs>
+        <data>Donfan: Oh no, what should I do...
+What shall I do... This is the biggest
+crisis of my life![end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x318</ref>
+        </refs>
+        <data>Jeanne: Ah... alcohol...
+Donfan!! Bring some more drinks![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x323</ref>
+        </refs>
+        <data>Donfan: Jeanne... 'Tis not good for
+you...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x333</ref>
+        </refs>
+        <data>Mist: I'm still not at full strength... Let
+me rest when we're not fighting...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x34b</ref>
+        </refs>
+        <data>Tee hee hee... I'll sleep a lot to
+preserve my beautiful skin. It will help
+increase the number of my fans.[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x355</ref>
+        </refs>
+        <data>Hmph! There are no good men on this
+ship.
+
+Tee hee hee...!
+
+
+I don't feel like getting up witter[end][end]</data>
+    </text>
+</texts>

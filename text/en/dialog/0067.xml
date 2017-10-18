@@ -1,0 +1,175 @@
+<?xml version="1.0" ?>
+<texts base="0x72c" room_id="67">
+    <text>
+        <refs>
+            <ref>0x144</ref>
+        </refs>
+        <data>Frederica: Hey. Aren't [character][0x1] and
+the others back yet?[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x152</ref>
+        </refs>
+        <data>Hornet: Sorry to make you wait!
+We brought your leader back.
+Captain Sendak is with us too.[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x15d</ref>
+        </refs>
+        <data>Diana: [character][0x1]'s here!![end]F</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x315</ref>
+        </refs>
+        <data>Frederica: [character][0x1]!!
+We've been waiting for you![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x327</ref>
+        </refs>
+        <data>Diana: We were getting worried since
+you were late.[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x33d</ref>
+        </refs>
+        <data>Hornet: There will be time to chat
+later! Now our struggle begins.[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x34a</ref>
+        </refs>
+        <data>Hornet: Okay, Captain Sendak!
+Give the order for departure![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x363</ref>
+        </refs>
+        <data>Hornet: That's right! I forgot!
+You decided on a name for the ship,
+didn't you?[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x375</ref>
+        </refs>
+        <data>Sendak: The name of the ship is...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3c0</ref>
+        </refs>
+        <data>Matelite: Wait! You're forgetting about
+me! What is the meaning of this?![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3f5</ref>
+        </refs>
+        <data>Taicho: Matelite! Wait![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x403</ref>
+        </refs>
+        <data>Hornet: Hey! Be quiet inside the ship![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x41d</ref>
+        </refs>
+        <data>Matelite: Just who do you think I am?!
+You're talking to me, Matelite![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4b5</ref>
+        </refs>
+        <data>Hornet: Okay, Captain Sendak.
+Now for the ship's name.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4c7</ref>
+        </refs>
+        <data>Sendak: Ahem! Okay, get ready now...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4fa</ref>
+        </refs>
+        <data>[character][0x1], the flagship of Kahna!![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x553</ref>
+        </refs>
+        <data>Taicho: The flagship of Kahna!?
+But something seems missing![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x578</ref>
+        </refs>
+        <data>Matelite: Taicho... You know what to
+do...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x581</ref>
+        </refs>
+        <data>Taicho: T-this is...!
+Sir Matelite!![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x587</ref>
+        </refs>
+        <data>Taicho: As you wish, Sir Matelite!
+Here I go![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5f9</ref>
+        </refs>
+        <data>Taicho: Here I go!![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6ce</ref>
+        </refs>
+        <data>Taicho: Sir Matelite!! Look!![end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6e5</ref>
+        </refs>
+        <data>Oh!! Kahna's flag![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x717</ref>
+        </refs>
+        <data>Matelite: Our kingdom of Kahna...
+[character][0x1]... Master Sendak!
+[character][0x1]!!
+Someday... We will hang many more
+flags up here!!
+
+Taicho!! The day when we hang the
+flag of your kingdom of Mahal will
+come without fail!
+We are fighting for that day!
+The battle has just begun!
+
+I am Matelite![end][end]</data>
+    </text>
+</texts>

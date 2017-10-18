@@ -1,0 +1,391 @@
+<?xml version="1.0" ?>
+<texts base="0x9aa" room_id="7">
+    <text>
+        <refs>
+            <ref>0x63</ref>
+        </refs>
+        <data>               Chapter 7
+    The Legend of the Holy Dragons[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1cc</ref>
+        </refs>
+        <data>When Campbell is liberated, I, as
+commander of the freedom force, will
+be called a hero...
+And then my plan will be complete...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1d3</ref>
+        </refs>
+        <data>Taicho: The liberation of Campbell!
+At long last!
+
+Even though they have destroyed the
+weapons munitions, surprise is the key!
+Let us be well prepared![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x20b</ref>
+            <ref>0x1de</ref>
+        </refs>
+        <data>Sendak: [character][0x1]! Good luck![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1e5</ref>
+        </refs>
+        <data>Sendak: [character][0x1], have I told you?
+I have become able to summon the
+Holy Dragon Valitora.
+When the princess is nearby, my power
+swells up almost as if I have become a
+Holy Dragon myself...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1fa</ref>
+        </refs>
+        <data>This is no good... I'm too ecstatic... This
+old man is this happy because he can
+become strong by borrowing power.
+Oh! I'm being absentminded again.
+I need to stop doing that.[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x220</ref>
+        </refs>
+        <data>Matelite: That's right! Sendak works
+harder than three people combined![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x233</ref>
+        </refs>
+        <data>Rush: Bikkebakke has been acting
+weird lately.[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x28f</ref>
+        </refs>
+        <data>I wonder how he's doing...[end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x23a</ref>
+        </refs>
+        <data>Truce: Bikkebakke is hiding something,
+isn't he?[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x24e</ref>
+        </refs>
+        <data>Hornet: The ship is circling the Campbell
+Lagoon area, so we can go at any
+time.
+This time you should take off from the
+Dragonkeeper's place.[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x255</ref>
+        </refs>
+        <data>Hornet: ...? What?
+
+
+  Tell me what you like.
+  Tell me what you hate.[end1]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x262</ref>
+        </refs>
+        <data>What I like, huh? I really like Sweet
+Wine.[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x26d</ref>
+        </refs>
+        <data>What I hate? Hmm, I get goose bumps
+at just the thought of Uniuji.[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2af</ref>
+        </refs>
+        <data>Zora: I know that![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x328</ref>
+        </refs>
+        <data>Matelite: ...No thanks.[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x389</ref>
+        </refs>
+        <data>[character][0x1]: [character][0x1]......[end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x283</ref>
+        </refs>
+        <data>Zora: Campbell looks nice from the sky.
+I'm from Campbell, you see. This really
+brings back memories.
+Are you going with the princess to the
+castle? While you're doing that I'll be
+walking around town.[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2a1</ref>
+        </refs>
+        <data>Matelite: Hey! What are you talking so
+heedlessly about?!
+
+We have to kick the Granbelos Empire
+out of Campbell before that![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2c4</ref>
+        </refs>
+        <data>Matelite: By the way, Zora. I heard you
+hit [character][0x1]. Is that true?[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2e0</ref>
+        </refs>
+        <data>Zora: It's true. Who did you hear that
+from?[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2fd</ref>
+        </refs>
+        <data>Matelite: What?! You really hit her?!
+Unforgivable![end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x317</ref>
+        </refs>
+        <data>Zora: What are you going to do about
+it, huh? What are you going to do with
+me? Well, Matelite! What do you say?
+Do you want me to hit you too?![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x33d</ref>
+        </refs>
+        <data>Regrettable... I'll go tell Taicho later...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x398</ref>
+        </refs>
+        <data>[character][0x1]: [character][0x1]... My body...
+something's wrong. It won't move...
+like I want it to...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3a3</ref>
+        </refs>
+        <data>I don't want you to see me like this,
+[character][0x1]...[end]V</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3b2</ref>
+        </refs>
+        <data>Valitora... the Holy Dragon inside me...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3bd</ref>
+        </refs>
+        <data>[character][0x1]... Help me... Give me... your
+hand...[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3f8</ref>
+        </refs>
+        <data>Weak-minded girl... [character][0x1]...
+There is no need for legends...
+
+Do not think... empty your mind...
+And release my power...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x40d</ref>
+        </refs>
+        <data>[character][0x1]: ......
+
+
+[character][0x1]... It appears the Holy
+Dragons don't want us to know about
+the legend...
+But... we must keep going...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x416</ref>
+        </refs>
+        <data>[character][0x1]: I'll be okay now. I'm going
+with you all to Campbell.[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x428</ref>
+        </refs>
+        <data>[character][0x1]: [character][0x1]... keep this a
+secret from the others... It will only
+worry them...[end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x43c</ref>
+        </refs>
+        <data>Anastasia: Can you ask Hornet what
+his favorite food is for me?
+
+  Ask him yourself.
+  Alright.[end1]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x449</ref>
+        </refs>
+        <data>You should be able to at least do
+something as simple as that![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x452</ref>
+        </refs>
+        <data>Thanks, [character][0x1]![end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x45b</ref>
+        </refs>
+        <data>Anastasia: Well, how'd it go? What did
+he say he likes?
+
+  Sweet Wine
+  Uniuji[end1]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x47c</ref>
+        </refs>
+        <data>Ah, I see![end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x486</ref>
+        </refs>
+        <data>Anastasia: Did you hear that, Ectarina?
+Okay, let's go.[end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4b4</ref>
+        </refs>
+        <data>Ectarina: U-um... [character][0x1].
+Thank you very much.[end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4d0</ref>
+        </refs>
+        <data>Ectarina: [character][0x1]... um... uh...[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4db</ref>
+        </refs>
+        <data>Lukia: Those boys, they've forgotten
+that we're in the middle of a war...[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4e2</ref>
+        </refs>
+        <data>Lukia: You're going to Campbell to ask
+about the legend of the Holy Dragons,
+right?
+I hope it's a good legend where
+everybody lives happily ever after.[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4ed</ref>
+        </refs>
+        <data>Manyo: Manyoooo!
+[0x28]Melodia is a good girl![0x29][end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4f7</ref>
+        </refs>
+        <data>Manyo: Manyoooo!
+[0x28]She's pretty tough to be able to
+dance with us![0x29][end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x501</ref>
+        </refs>
+        <data>Melodia: I like Mini-Devils! There should
+be more of them!
+
+  Yep, I agree.
+  They get in the way of shop people.[end1]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x50e</ref>
+        </refs>
+        <data>Ah! Then let's all dance together! You
+too, [character][0x1]![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x517</ref>
+        </refs>
+        <data>It's okay! Melodia will tell you how![end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x76a</ref>
+        </refs>
+        <data>You got some Bitter Wine.[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x77b</ref>
+        </refs>
+        <data>You got a Ship's Log.[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x794</ref>
+        </refs>
+        <data>You got a Bitter Memory.[end][end]</data>
+    </text>
+</texts>

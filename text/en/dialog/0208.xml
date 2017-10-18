@@ -1,0 +1,138 @@
+<?xml version="1.0" ?>
+<texts base="0x297" room_id="208">
+    <text>
+        <refs>
+            <ref>0x15c</ref>
+        </refs>
+        <data>Barclay: That impertinent wizard! She
+said, [0x24]That you would even think about
+the armor shop lady is low.[0x22]
+Now I don't want to anymore.
+Please don't tell Matelite.[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x166</ref>
+        </refs>
+        <data>Barclay: Hello! This is the armor shop!![end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x16a</ref>
+        </refs>
+        <data>  Go shopping
+  Chat[end1]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x179</ref>
+        </refs>
+        <data>Barclay: Hiyaah! I'm just doing a little
+practice.. I won't be able to fight
+forever, you know.
+Well... um... I want to find a cute wife
+right away and then retire![end]G</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1a3</ref>
+        </refs>
+        <data>Gunso: [0x2a]scratch[0x2a] There are some...
+There are some, he said.
+
+I want to return to Mahal very soon...
+There are a lot of things I will do.
+
+[0x2a]scratch[0x2a] The first thing I'll do is take
+off this armor [0x2a]scratch[0x2a] and have a
+nice bath... [0x2a]scratch[0x2a]
+I will feel completely refreshed.
+[0x2a]scratch[0x2a][end]G</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1ad</ref>
+        </refs>
+        <data>Gunso: Mahal has been revived,
+[0x2a]scratch[0x2a] and now I must make sure I
+don't die.
+[0x2a]scratch[0x2a] No, no... I'm not neglecting it.
+
+
+[0x2a]scratch[0x2a] I must help Taicho return
+Mahal to its former glory. [0x2a]scratch[0x2a]
+That's why I must live...[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1c7</ref>
+        </refs>
+        <data>You got a Gunso's ???.[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1da</ref>
+        </refs>
+        <data>Reeve: I can't continue with it...
+
+
+Why? It's not the same as it used to
+be...
+
+My arms... they're so heavy...[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1fa</ref>
+        </refs>
+        <data>Reeve: No!! Not like that!!
+You do it like this!! Remember?![end]F</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x217</ref>
+        </refs>
+        <data>Frenze: Lan-lan-lancer!
+Stab-stab!
+
+I secretly switched Reeve's spear with
+an especially heavy one.
+
+It feels good, he deserves it for
+betraying our friendship.[end]F</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x225</ref>
+        </refs>
+        <data>Frenze: Reeve's forgotten about me...
+I'm going to make him regret it...
+
+...Lan-lan-lancer...[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x238</ref>
+        </refs>
+        <data>Zora's Son: Oh!! [character][0x1]!!
+Keep up the good work!!
+
+I guess I'm better suited at this than
+being a Lancer.
+
+I'll probably be a cleaning boy like this
+for a very long time.[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x242</ref>
+        </refs>
+        <data>Zora's Son: I can't! I told you, I can't![end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x249</ref>
+        </refs>
+        <data>Perveat![end][end]</data>
+    </text>
+</texts>

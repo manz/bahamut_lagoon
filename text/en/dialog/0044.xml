@@ -1,0 +1,121 @@
+<?xml version="1.0" ?>
+<texts base="0x369" room_id="44">
+    <text>
+        <refs>
+            <ref>0x6d</ref>
+        </refs>
+        <data>[character][0x1]: ...!![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x76</ref>
+        </refs>
+        <data>Sendak: Princess? What is wrong?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x82</ref>
+        </refs>
+        <data>[character][0x1]: Valitora and the other
+Holy Dragons... They're excited...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8e</ref>
+        </refs>
+        <data>Matelite: Well? Are they happy that our
+party is bigger now?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x94</ref>
+        </refs>
+        <data>[character][0x1]: I don't know...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa1</ref>
+        </refs>
+        <data>Sendak: Are you all right, Princess?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xae</ref>
+        </refs>
+        <data>[character][0x1]: Yes... I'm okay...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xba</ref>
+        </refs>
+        <data>I have come...[end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x142</ref>
+        </refs>
+        <data>Eek!![end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf6</ref>
+        </refs>
+        <data>Garuda... I have come...
+Valitora and Leviathan are here too...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x17e</ref>
+        </refs>
+        <data>Sendak: Princess!! Get up!![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x208</ref>
+            <ref>0x1a4</ref>
+        </refs>
+        <data>Matelite: [character][0x1]!![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1ad</ref>
+        </refs>
+        <data>[character][0x1]: Garuda...
+
+
+Why are you...[end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1cb</ref>
+        </refs>
+        <data>Are you angry...?
+Is it hatred?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1d4</ref>
+        </refs>
+        <data>[character][0x1]: Ugh!![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1fb</ref>
+        </refs>
+        <data>Sendak: Princess! Get up!![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x211</ref>
+        </refs>
+        <data>Matelite: We must hurry back to
+[character][0x1]!![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x26e</ref>
+        </refs>
+        <data>Manyoo!!
+[0x28]...!!![0x29][end][end]</data>
+    </text>
+</texts>

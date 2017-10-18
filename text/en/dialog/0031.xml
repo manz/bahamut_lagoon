@@ -1,0 +1,213 @@
+<?xml version="1.0" ?>
+<texts base="0x71b" room_id="31">
+    <text>
+        <refs>
+            <ref>0x90</ref>
+        </refs>
+        <data>Matelite: Is anybody here?!
+It's me! Matelite![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa9</ref>
+        </refs>
+        <data>Taicho: It is I, Taicho!
+We have just arrived![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb3</ref>
+        </refs>
+        <data>Matelite: How rude! Nobody's here to
+greet us! Taicho, follow me![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf6</ref>
+        </refs>
+        <data>Sendak: Ah, the good old Kahna
+flagship... It still seems to be doing
+just fine...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x240</ref>
+        </refs>
+        <data>Sendak: I was your captain at one
+time. Do you remember?[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x556</ref>
+            <ref>0x247</ref>
+        </refs>
+        <data>Sendak: [character][0x1]... hmm...
+Not bad, [character][0x1]![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x24f</ref>
+        </refs>
+        <data>Rush: This is our castle in the sky!
+Let's go to the bridge![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x259</ref>
+        </refs>
+        <data>Truce: The others that joined up
+earlier are waiting.
+
+If my memory is correct, there were
+two girls and two dangerous lancers.[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x266</ref>
+        </refs>
+        <data>Bikkebakke: So this is our new house...
+It sure does sway back and forth a
+lot...[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x271</ref>
+        </refs>
+        <data>We're the ship's crew. Follow our boss.
+Don't go anywhere you shouldn't.[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x278</ref>
+        </refs>
+        <data>It's so lonely without Princess [character][0x1]
+here...
+
+I think we, the crew, will also be
+useful to you...[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x284</ref>
+        </refs>
+        <data>Hornet: It's about time!
+So you're the leader of the Resistance.
+I'm this ship's new pilot, Hornet!
+Your friends are waiting on the bridge![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5e0</ref>
+            <ref>0x2a0</ref>
+            <ref>0x4d0</ref>
+        </refs>
+        <data>Hornet: Come with me![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2d8</ref>
+        </refs>
+        <data>Captain Sendak hasn't changed a bit
+from when he was young![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2e3</ref>
+        </refs>
+        <data>This entrance is currently being
+inspected. Please enter from over
+there.[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2ed</ref>
+        </refs>
+        <data>Dragonkeeper: I am the Dragonkeeper.
+I take care of the dragons.
+They're really hungry right now.[end]G</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2f4</ref>
+        </refs>
+        <data>Good work, [character][0x1]!
+We have a suspicious character locked
+up in here.[end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2fb</ref>
+        </refs>
+        <data>Excellent work, [character][0x1]!
+We have some really rowdy guy locked
+up in here.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x302</ref>
+        </refs>
+        <data>Shopkeeper: We're here to help as
+much as we can.[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x309</ref>
+        </refs>
+        <data>Oh no!
+
+
+I'm a friend! I'm part of the crew!
+I changed into a disguise and was
+hiding, that's all.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3de</ref>
+        </refs>
+        <data>Sendak: Hey... [character][0x1].
+Wait a minute. There's something I
+want to talk to you about.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x403</ref>
+        </refs>
+        <data>Sendak: The truth is... we need to think
+of a new name for the ship. But... I'm
+not very good at that kind of thing...
+I'm sure you can come up with a good
+one. Please, choose a really hip name![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4a3</ref>
+        </refs>
+        <data>Matelite: Taicho, where are you!?[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4ac</ref>
+        </refs>
+        <data>Taicho: Matelite! I am stuck in here![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5a3</ref>
+        </refs>
+        <data>Matelite: Hmph! [character][0x1]!![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5ae</ref>
+        </refs>
+        <data>[character][0x1]! Let's go![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x69d</ref>
+        </refs>
+        <data>Matelite: Hmph! [character][0x1]!
+I can't believe you'd go on ahead and
+leave us here! Can't you wait?![end][end]</data>
+    </text>
+</texts>

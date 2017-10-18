@@ -1,0 +1,1768 @@
+<?xml version="1.0" ?>
+<texts base="0x1f59" room_id="76">
+    <text>
+        <refs>
+            <ref>0x79</ref>
+        </refs>
+        <data>               Chapter 21
+       The Holy Dragon Bahamut[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x92</ref>
+        </refs>
+        <data>Hornet: That we would be letting
+Sauzer aboard...[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9f</ref>
+        </refs>
+        <data>Hornet: We can't see into tomorrow...
+Can we?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x11d</ref>
+        </refs>
+        <data>[character][0x1]: Oh, Palpaleos...
+The door will open... The Holy
+Dragons will open the door...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x12c</ref>
+        </refs>
+        <data>Matelite: [character][0x1]! The door!?
+Where will it open?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x138</ref>
+        </refs>
+        <data>[character][0x1]: ...Palpaleos.[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x142</ref>
+        </refs>
+        <data>Palpaleos: [character][0x1]! Are you okay!?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1d8</ref>
+        </refs>
+        <data>              Chapter 22
+            The Final Battle[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x218</ref>
+        </refs>
+        <data>Matelite: Seems the door in the sky to
+the new era has opened..
+
+[character][0x1], take care of the rest.
+I'm...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2a9</ref>
+        </refs>
+        <data>[character][0x1]: I have something to say.[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2c9</ref>
+        </refs>
+        <data>Rush: I don't wanna hear... I dunno
+what she's gonna say, but when I fight
+I wanna do it without having to think.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2d6</ref>
+        </refs>
+        <data>Truce: What're you saying, Rush?
+Don't you wanna see those two
+together?[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2e5</ref>
+        </refs>
+        <data>Rush: Shut up![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x383</ref>
+        </refs>
+        <data>Matelite: What the?! What was that?![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x390</ref>
+        </refs>
+        <data>Hornet: It seems we're under attack...
+But from above or below?[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3b6</ref>
+        </refs>
+        <data>Taicho: It was from below!
+It is the Granbelos Empire![end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3cb</ref>
+        </refs>
+        <data>Palpaleos: It's Gudolf.[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3e3</ref>
+        </refs>
+        <data>Matelite: Granbelos! What're you doing
+at a time like this?![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3f2</ref>
+            <ref>0x6cd</ref>
+        </refs>
+        <data>Matelite: Hmph! [character][0x1], finish
+getting ready![end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x463</ref>
+        </refs>
+        <data>              Chapter 24
+           To the Homeland...[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x48f</ref>
+        </refs>
+        <data>Hornet: Sorry, [character][0x1]! I can't
+control it! We're being sucked in![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4fc</ref>
+        </refs>
+        <data>Hornet: There's something that looks
+like a lagoon...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x695</ref>
+        </refs>
+        <data>Matelite: A moment of silence.
+For Sauzer? No, not for him.
+
+An era has just ended! A moment
+of silence for the old Orelus![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x69c</ref>
+        </refs>
+        <data>Matelite: [character][0x1]. I'm not
+relieved one bit.
+
+Same goes for Palpaleos, but why'd we
+bring Sauzer on board?
+
+I don't understand [character][0x1]'s
+thinking at all, lately...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6a3</ref>
+        </refs>
+        <data>Matelite: [character][0x1]. Those are the
+eyes of a man prepared to die...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6aa</ref>
+        </refs>
+        <data>Matelite: Is [character][0x1] okay?[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6b4</ref>
+        </refs>
+        <data>Matelite: [character][0x1]! Wake up![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6be</ref>
+        </refs>
+        <data>Matelite: [character][0x1]. Continue with
+our preparations. Calmly and dignified...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6d4</ref>
+        </refs>
+        <data>Matelite: [character][0x1]'s very close to
+Palpaleos. She won't even bother with
+me...
+When she was little, she'd follow me
+around and call me Uncle Matty.
+
+[character][0x1]. Do you know the first
+word she learned?
+
+It was [0x24]Matty[0x22]. Not [0x24]Daddy[0x22] or
+[0x24]Mommy[0x22]... [0x24]Matty[0x22]. Me!
+
+  She probably meant [0x24]fatty[0x22].
+  Things sure were nice back then...[end1]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6e0</ref>
+        </refs>
+        <data>Oh...[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6e8</ref>
+        </refs>
+        <data>What do you think of my memory?[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6ef</ref>
+        </refs>
+        <data>Matelite: [character][0x1] has grown
+strong. I'm glad, but now I'm lonely.[end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6f6</ref>
+        </refs>
+        <data>Matelite: [character][0x1] is always in the
+attendance of that weeping
+man.
+Her important stories are also
+hearsay...[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x703</ref>
+        </refs>
+        <data>Zora: Come on. The two love each
+other... let them be.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x72d</ref>
+            <ref>0x74d</ref>
+        </refs>
+        <data>Taicho: Captain of the Orelus Dragon
+Squad. Acting Captain of [character][0x1].
+Continue your hard work![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x734</ref>
+        </refs>
+        <data>Taicho: Emperor Sauzer is here...
+Yet I feel no strangeness or hatred...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x73b</ref>
+        </refs>
+        <data>Taicho: The beautiful lagoons of Orelus,
+engulfed in the flames of destruction...
+
+Our battles are one and the same...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x742</ref>
+        </refs>
+        <data>Taicho: She suddenly fainted![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x754</ref>
+        </refs>
+        <data>Taicho: It would be best to stay away
+from Matelite. He is irritated about
+[character][0x1] and Palpaleos.[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x75e</ref>
+        </refs>
+        <data>Celine...
+I have come this far...
+But even here, battles await me...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x78b</ref>
+            <ref>0xa9f</ref>
+        </refs>
+        <data>Sendak: I am... a shivering old man.
+Does that make me... a cowardly old
+man?[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7a3</ref>
+        </refs>
+        <data>Sendak: [character][0x1]...
+
+
+Emperor Sauzer made an agreement
+with some monsters and was shown the
+mind of a Holy Dragon.
+Such an agreement would be far too
+frightening for me to make...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7c1</ref>
+        </refs>
+        <data>Sauzer: ...That is correct.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7d6</ref>
+        </refs>
+        <data>Sauzer: But... as I did not have the
+power to read the Holy Dragons' minds,
+it was a magnificent deal for me...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7e3</ref>
+        </refs>
+        <data>Sauzer: Thanks to them I was able to
+read the mind of the Holy Dragon
+Hyperion...[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7f5</ref>
+        </refs>
+        <data>Were they Hyperion's dreams...
+Or his memories...
+I'm not certain...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x824</ref>
+        </refs>
+        <data>Sauzer: The feelings the Holy Dragons
+are hiding... They may perhaps be the
+truth...[end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x802</ref>
+        </refs>
+        <data>[character][0x1]: What does it mean?
+The fact that the Holy Dragons' minds
+are filled with anger...
+The fact that their anger is directed
+toward Bahamut...
+
+Even I can tell that.[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x812</ref>
+        </refs>
+        <data>[character][0x1]: But, they're hiding it.
+So that I won't know...
+
+They're hiding the reason behind their
+anger and hatred...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x831</ref>
+        </refs>
+        <data>The Holy Dragon Hyperion...
+Inside his mind was a battle... a war.[end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x84b</ref>
+        </refs>
+        <data>A war between the Holy Dragons...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x858</ref>
+        </refs>
+        <data>The Holy Dragons wounded each other...
+And shed each other's blood...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x865</ref>
+        </refs>
+        <data>Their minds taken by anger and
+hatred, they can no longer think...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x86e</ref>
+        </refs>
+        <data>That battlefield was our world, Orelus...[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x882</ref>
+        </refs>
+        <data>Campbell's greenery set ablaze,
+the lake of Mahal turned to poison...
+
+Orelus' beautiful lagoons engulfed by
+the flames of destruction...[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x895</ref>
+        </refs>
+        <data>Why must the Holy Dragons fight?[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8a2</ref>
+        </refs>
+        <data>Yes... Because Bahamut was there.
+
+
+Bahamut, the guardian dragon of
+Kahna, is despised by the other Holy
+Dragons.[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8af</ref>
+        </refs>
+        <data>Bahamut betrayed us...
+Bahamut disturbed the order...
+Kill Bahamut...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8c1</ref>
+        </refs>
+        <data>These were...
+Hyperion's thoughts...[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8d4</ref>
+        </refs>
+        <data>However, I don't understand the
+Holy Dragons' fighting...[end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8e5</ref>
+        </refs>
+        <data>Are they memories of ancient times...
+Or dreams of the future...
+I cannot tell...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8f4</ref>
+        </refs>
+        <data>[character][0x1]: In our forgotten past
+there was a war between Holy
+Dragons. That, I know.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x904</ref>
+        </refs>
+        <data>Sauzer: I see...
+
+
+Yet, the burning anger and hatred like
+that of long ago...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x936</ref>
+        </refs>
+        <data>So that's how it is...
+
+
+The new era lying beyond the door...
+
+
+It isn't for us...
+It's for the Holy Dragons...[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc9f</ref>
+        </refs>
+        <data>Rush: Okay...[end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x95a</ref>
+        </refs>
+        <data>Sendak: The new era is for the Holy
+Dragons...? I... am confused...[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x990</ref>
+        </refs>
+        <data>Rush: Then let's just not wake him up![end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x912</ref>
+        </refs>
+        <data>If those thoughts are still deep within
+the minds of the Holy Dragons... If
+things remain unchanged...
+The war in the past will continue into
+the future... They will defeat Bahamut...
+And the era of hatred will end...
+Is that... the new era...?[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x961</ref>
+        </refs>
+        <data>Sendak: Everyone is thinking about
+what Emperor Sauzer said.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x96e</ref>
+        </refs>
+        <data>Sendak: Bahamut, the guardian dragon
+of Kahna, is despised by all the other
+Holy Dragons...
+And the new era is to be after the
+Holy Dragons' war...?[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x983</ref>
+        </refs>
+        <data>Matelite: If we wake up Bahamut, the
+Holy Dragons'll go to war again...
+
+If that happens, Orelus'll be
+destroyed...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x99d</ref>
+        </refs>
+        <data>Truce: Is that really a good idea?
+We started it all. We have to end it...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9a9</ref>
+        </refs>
+        <data>Truce: And, there's something I don't
+understand. The Holy Dragons don't
+have bodies.
+They're just living inside [character][0x1]'s
+mind. Maybe it isn't the kind of war
+that could destroy the world?[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9d7</ref>
+        </refs>
+        <data>Sendak: Oh no! If Bahamut awakens,
+then the Holy Dragons' battle will begin
+inside the princess's mind!
+Her mind will contain all that anger and
+hatred... We must prevent that from
+happening...[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9e3</ref>
+        </refs>
+        <data>Rush: I felt like I was gonna die just
+from Hyperion's anger.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9f3</ref>
+        </refs>
+        <data>Truce: All of the Holy Dragons' anger
+and hatred inside her mind...
+
+How painful could that be...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa2e</ref>
+        </refs>
+        <data>Taicho: It is terrible! [character][0x1] is in
+trouble![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa7a</ref>
+        </refs>
+        <data>Sendak: Princess...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa81</ref>
+        </refs>
+        <data>Sendak: I can hardly sense the minds
+of the Holy Dragons...
+
+The princess surely is strong of mind
+now...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa8a</ref>
+        </refs>
+        <data>Sendak: It is said that Dragonites live
+in Altair. If they are here, then the
+Holy Dragons can be revived...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xaa9</ref>
+        </refs>
+        <data>Sendak: Someday Matelite will quarrel
+with General Palpaleos. I am certain of
+it.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xabe</ref>
+        </refs>
+        <data>Sendak: They said [character][0x1] spoke
+with Bahamut.[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xace</ref>
+        </refs>
+        <data>[character][0x1]: The Holy Dragons are
+confused right now...
+
+It was necessary to gather the
+strength of all the Holy Dragons to
+open the door.
+Gathering their strength... Apparently
+this was the first experience the Holy
+Dragons had working together.[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xadb</ref>
+        </refs>
+        <data>[character][0x1]: The strength of the Holy
+Dragons is very powerful. But, it seems
+they didn't know how to use it.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xaee</ref>
+        </refs>
+        <data>They savored watching the people of
+Orelus trembling in fear of their
+strength.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb08</ref>
+        </refs>
+        <data>This was the start of the Holy
+Dragons' war long ago.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb31</ref>
+        </refs>
+        <data>Truce: General Palpaleos! You!
+What about the war you started!?[end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xafc</ref>
+        </refs>
+        <data>Then the battle with Bahamut, who
+tried to stop them, began. Then it
+escalated into a great war...
+Actually, other than Bahamut, the
+others are all very young.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb15</ref>
+        </refs>
+        <data>Truce: They didn't know how to control
+their power... Because of that, a war
+started...
+Countless people were killed in it...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb21</ref>
+        </refs>
+        <data>Palpaleos: The reason for starting a
+war is always something trivial...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb41</ref>
+        </refs>
+        <data>Truce: Are you saying that was
+because of some trivial reason?![end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb51</ref>
+        </refs>
+        <data>Palpaleos: ......
+
+
+It was to realize a dream...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb5d</ref>
+        </refs>
+        <data>Truce: That's trivial! Very trivial![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xbb9</ref>
+        </refs>
+        <data>Sendak: One more thing, [character][0x1]![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc6f</ref>
+        </refs>
+        <data>[character][0x1]: Palpaleos! Wait![end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb6a</ref>
+        </refs>
+        <data>Palpaleos: ...That may be so. However...
+I am prepared to take responsibility
+for it.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb78</ref>
+        </refs>
+        <data>Truce: Responsibility? Just how will you
+do that? I don't understand...[end][end1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb86</ref>
+        </refs>
+        <data>Truce: Enough of this! I'm a member
+of Orelus' army. So I'm gonna fight!
+I'm gonna risk my life and fight![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb93</ref>
+        </refs>
+        <data>Truce: But, I won't think anymore...
+If I think, I can't fight. It's just like
+Rush said![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xbc6</ref>
+        </refs>
+        <data>Sendak: How did the Holy Dragons' war
+end?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xbd2</ref>
+        </refs>
+        <data>[character][0x1]: Because the sky...
+The door... closed.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xbde</ref>
+        </refs>
+        <data>The Holy Dragons couldn't return to
+Altair since the door was closed.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xbea</ref>
+        </refs>
+        <data>So the Holy Dragons hostile toward
+Bahamut were left here...
+
+Once again, the days of fighting have
+returned.
+
+The sadness of not being able to
+return to their homeland, despair,
+anger...
+All directed toward Bahamut...[end]F</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xbfa</ref>
+        </refs>
+        <data>For humans too, times have been trying
+ever since then...[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc0d</ref>
+        </refs>
+        <data>Bahamut was also sad. Sad for the
+people who were engulfed by the war.
+Because he felt responsible.[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc27</ref>
+        </refs>
+        <data>Bahamut decided to risk his own life...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc55</ref>
+        </refs>
+        <data>Sendak: Bahamut felt responsible,
+decided to risk his own life... then
+what?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc61</ref>
+        </refs>
+        <data>[character][0x1]: I'm sorry, Sendak. I'll tell
+you later.[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc91</ref>
+        </refs>
+        <data>Rush: I don't like this...[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc98</ref>
+        </refs>
+        <data>Rush: [character][0x1]! What do we do?![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xca6</ref>
+        </refs>
+        <data>Rush: Truce's thinking too much, as
+usual! No matter what happens, we're
+gonna fight!
+Uh... well I guess I'll think a little bit
+too...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xcc2</ref>
+        </refs>
+        <data>Truce: Emperor Sauzer's become very
+weak...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xcc9</ref>
+        </refs>
+        <data>Truce: I heard what Sauzer said from
+Sendak...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xcd0</ref>
+        </refs>
+        <data>Truce: Might we be cursed with the
+impossible?[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xcdf</ref>
+        </refs>
+        <data>Truce: I won't think...
+I won't think about anything...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xce6</ref>
+        </refs>
+        <data>Truce: Oops, sorry.
+I was thinking out loud.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xced</ref>
+        </refs>
+        <data>Truce: If he thought about for even
+just a minute, he'd see it. [character][0x1]
+and Rush.
+Their social positions are completely
+different. He should think more before
+acting...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xcf4</ref>
+        </refs>
+        <data>Truce: Altair at last...
+
+
+There're rumors going around that our
+fighting's gonna end soon.
+
+Even though we have no idea what's
+gonna happen...[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd10</ref>
+        </refs>
+        <data>Hornet: What will we do, [character][0x1]?
+
+
+  Wait!
+  Let's go!![end1]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd1b</ref>
+        </refs>
+        <data>Hornet: We don't know what will happen
+tomorrow...[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd22</ref>
+        </refs>
+        <data>Hornet: [character][0x1]. Are we all ready?
+
+
+  Wait!
+  Let's go![end1]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xdca</ref>
+            <ref>0xd2c</ref>
+        </refs>
+        <data>Being the acting captain must be hard
+work.[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd32</ref>
+        </refs>
+        <data>But where are we going?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd42</ref>
+        </refs>
+        <data>[character][0x1]: I'm going to go talk with
+Bahamut.[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd5f</ref>
+        </refs>
+        <data>Matelite: [character][0x1]! You're going to
+wake up Bahamut?[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd6c</ref>
+        </refs>
+        <data>Sendak: If you do that, the Holy
+Dragons inside your mind will..!!
+
+If something terrible were to happen
+we would be unable to help you![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd7c</ref>
+        </refs>
+        <data>[character][0x1]: I'm fine. I may be a little
+unreliable, but I'm the Queen of Kahna.
+
+Bahamut, guardian dragon of Kahna...
+I am sure he has concealed his power
+for the moment.[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xda5</ref>
+        </refs>
+        <data>[character][0x1]: Hornet, please take us to
+Kahna![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xdc4</ref>
+            <ref>0xdb4</ref>
+        </refs>
+        <data>Hornet: I can't right now. I can't
+move the ship just yet.
+Have a look outside the window...[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xdd0</ref>
+        </refs>
+        <data>Okay... leave it to me![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe01</ref>
+        </refs>
+        <data>Hornet: Well, [character][0x1]?
+
+
+  Not ready!
+  Take off![end1]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe15</ref>
+        </refs>
+        <data>Taicho: General Palpaleos. Can you fight
+against the kingdom you were born
+and raised in?[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe26</ref>
+        </refs>
+        <data>Palpaleos: If I don't think about it.
+If I don't think about anything...[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe4a</ref>
+            <ref>0xe43</ref>
+        </refs>
+        <data>Hornet: [character][0x1]. Where should I fly
+to?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe4e</ref>
+        </refs>
+        <data>  Wait!
+  To the Granbelos Empire![end1]G</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe5a</ref>
+        </refs>
+        <data>Granbelos, huh... It'll take a little
+while. Go and make sure we're ready.[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe72</ref>
+        </refs>
+        <data>Hornet: We're about halfway there.[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe79</ref>
+        </refs>
+        <data>Hornet: We'll arrive soon, but things
+have take a turn for the worse.[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe9e</ref>
+        </refs>
+        <data>Hornet: What will you do, [character][0x1]?
+
+
+  I'll get ready!
+  Take off![end1]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xecb</ref>
+        </refs>
+        <data>Hornet: It's quiet... But there are
+probably lots of monsters, don't you
+think?[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xee2</ref>
+        </refs>
+        <data>Zora: [character][0x1]. Leave Palpaleos to
+the princess. Don't worry, they'll be
+coming with us too.[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xee9</ref>
+        </refs>
+        <data>Zora: I never once thought I'd be
+taking care of the Emperor...[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xef0</ref>
+        </refs>
+        <data>Zora: Let them be alone...[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xef7</ref>
+        </refs>
+        <data>Zora: I can't find the words to comfort
+him...[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xefe</ref>
+        </refs>
+        <data>Zora: The queen told me to tell you
+this.
+
+[0x24]Not even the Holy Dragons understand
+the reason why the door was closed
+long ago.
+They don't know what those monsters
+are, either.[0x22]
+
+I wouldn't know anything about either,
+myself.[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf29</ref>
+        </refs>
+        <data>[character][0x1]: Palpaleos...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf30</ref>
+        </refs>
+        <data>[character][0x1]: I hear Sauzer is going tell
+us about his talk with the Holy Dragon.[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1306</ref>
+            <ref>0x114e</ref>
+            <ref>0xf37</ref>
+        </refs>
+        <data>[character][0x1]: He's okay, I'm sure of it...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf42</ref>
+        </refs>
+        <data>[character][0x1]: [character][0x1]... I wonder if
+Emperor Sauzer is going to get better...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf99</ref>
+        </refs>
+        <data>Sauzer: This sky... was to be mine...
+This entire world of Orelus...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xfaf</ref>
+        </refs>
+        <data>Sauzer: Palpaleos.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xfbc</ref>
+        </refs>
+        <data>Sauzer: But... I lost.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xfcd</ref>
+        </refs>
+        <data>Sauzer: To the legend...
+To this never-ending sky...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xfdb</ref>
+        </refs>
+        <data>Sauzer: Without realizing my dream...
+
+
+The new era...
+No matter what kind it was, I too
+would have liked to see it...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xfe7</ref>
+        </refs>
+        <data>Palpaleos: Sauzer...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xff2</ref>
+        </refs>
+        <data>Sauzer: There were people who told
+me that I had nothing...
+
+Heh...
+
+
+They were right.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1002</ref>
+        </refs>
+        <data>Sauzer: I have a request.
+Not as your emperor...
+A request as Sauzer, the person...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1014</ref>
+        </refs>
+        <data>Sauzer: If I die, release me...
+Release me into the skies of Orelus.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1026</ref>
+        </refs>
+        <data>Sauzer: Embraced by the infinite skies,
+I shall float among the white clouds...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1032</ref>
+        </refs>
+        <data>Sauzer: I shall float every which way...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x103b</ref>
+        </refs>
+        <data>Sauzer: And then a lone lagoon will
+take me in... A lagoon no one knows
+of. Floating silently...
+And then I shall give that lagoon a
+name...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x104a</ref>
+        </refs>
+        <data>Sauzer: There... I will start over from
+the beginning.[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1056</ref>
+        </refs>
+        <data>Palpaleos: Start what over from the
+beginning?[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1064</ref>
+        </refs>
+        <data>Sauzer: Yes...
+
+
+I will make the entire sky mine!![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1072</ref>
+        </refs>
+        <data>Sauzer: The time... has come...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1083</ref>
+        </refs>
+        <data>Palpaleos: Stop it!
+This weakness...
+
+Sauzer! This isn't like you![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x108c</ref>
+        </refs>
+        <data>Sauzer: ...This is the new me.
+Inside me... Are all the things I
+scorned.
+There's uncertainty... Regret... Fear...
+And a weak mind...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1095</ref>
+        </refs>
+        <data>Sauzer: Ironic, isn't it. I lack only the
+true strength needed to overcome
+those weaknesses...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x10a1</ref>
+        </refs>
+        <data>Palpaleos: Stop! Don't speak!
+I'll call somebody![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x10ae</ref>
+        </refs>
+        <data>Stay calm... Palpaleos...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x10c6</ref>
+        </refs>
+        <data>Sauzer: As Emperor of the Granbelos
+Empire, that is my final order![end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1100</ref>
+            <ref>0x10e5</ref>
+        </refs>
+        <data>Palpaleos: Sauzer!![end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x10f2</ref>
+        </refs>
+        <data>Palpaleos: Sauzer! Say something!
+Give me an order![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1110</ref>
+        </refs>
+        <data>Sauzer: ......Don't cry...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1177</ref>
+        </refs>
+        <data>Matelite: [character][0x1]! Take her to her
+room![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1180</ref>
+        </refs>
+        <data>[character][0x1]: I'm... fine...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1189</ref>
+        </refs>
+        <data>[character][0x1]: The Holy Dragons inside
+me, they're...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x11bf</ref>
+        </refs>
+        <data>[character][0x1]: Okay, Holy Dragons!
+Use my body...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x11d6</ref>
+        </refs>
+        <data>[character][0x1]: I... I'm not afraid anymore.
+There are people who will protect me...
+People I must protect...
+I'm not... afraid anymore.[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x11e6</ref>
+        </refs>
+        <data>[character][0x1]: The Holy Dragons...
+They want you all to hear this...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x11fc</ref>
+        </refs>
+        <data>Take us...
+Take us to Altair...[end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1202</ref>
+        </refs>
+        <data>Altair, our homeland...
+Once there, we shall leave this girl...
+There we shall free this girl...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x120f</ref>
+        </refs>
+        <data>Matelite: Altair?! Where's that?![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x121c</ref>
+        </refs>
+        <data>Sendak: Do you mean that hole in the
+sky?! The world on the other side of
+the door?[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1228</ref>
+        </refs>
+        <data>Matelite: The hole in the sky!? So the
+monsters that came out of there and
+attacked Kahna came from Altair?!
+Were they your allies?![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1248</ref>
+        </refs>
+        <data>Take us to Altair...
+Take us to Altair...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x125c</ref>
+        </refs>
+        <data>[character][0x1]: Everyone...
+
+
+Altair is on the other side of the hole
+in the sky. They don't know what those
+monsters were either.
+So the Holy Dragons are confused too.
+This is the first time I've sensed
+confusion from them.[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1268</ref>
+        </refs>
+        <data>[character][0x1]: Everyone!
+Let's go to Altair![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1271</ref>
+        </refs>
+        <data>[character][0x1]: At this rate, the hole in
+the sky won't close. Monsters can come
+through to Orelus at any time.
+We'll have to go to Altair and defeat
+them!
+
+And...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x127a</ref>
+        </refs>
+        <data>[character][0x1]: And... If possible, I want
+to take the Holy Dragons back to their
+homeland...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1290</ref>
+        </refs>
+        <data>Matelite: [character][0x1]... You've grown
+strong... I'm so happy![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x129f</ref>
+        </refs>
+        <data>[character][0x1]: This battle is to protect
+Orelus. That is what my powers are
+for...
+That's what I think...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x12db</ref>
+        </refs>
+        <data>[character][0x1]: [character][0x1]...
+I... guess I'm a little scared after all.
+
+But, it's strange... The Holy Dragons'
+anger isn't as strong as before.
+
+It must be because they're worried
+and confused just like we are...
+
+It's not just anger, I also know it's
+because I have a weak mind...
+
+Or, [character][0x1], maybe it's because
+I'm a little stronger now?
+
+  Probably because of them.
+  I dunno.[end1][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x12e7</ref>
+        </refs>
+        <data>[character][0x1]: Thank you, [character][0x1].
+That makes me feel better.[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x12f1</ref>
+        </refs>
+        <data>[character][0x1]: Yeah, [character][0x1].
+It isn't something that simple.[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1311</ref>
+            <ref>0x1407</ref>
+        </refs>
+        <data>[character][0x1]: [character][0x1], thanks for
+all your hard work.[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1318</ref>
+        </refs>
+        <data>[character][0x1]: [character][0x1]... What's the
+matter?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x131c</ref>
+        </refs>
+        <data>  Where's the doorway?
+  About rules and regulations...
+  It's tough being the acting captain.[end1]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x132b</ref>
+        </refs>
+        <data>Where is the door to the new era...?
+Hold on, [character][0x1]. I'll look into the
+minds of the Holy Dragons.
+The relationship between me and the
+Holy Dragons is different than before.[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1372</ref>
+        </refs>
+        <data>[character][0x1]: The Holy Dragons are
+gathering their power... The door won't
+completely open otherwise...
+The door is open. The location is...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x138c</ref>
+        </refs>
+        <data>[character][0x1]: ...The skies above
+Granbelos.[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1397</ref>
+        </refs>
+        <data>Palpaleos: The Granbelos Empire...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x13a8</ref>
+        </refs>
+        <data>Palpaleos: [character][0x1]. General Gudolf
+is still in Granbelos. He'll attack us for
+certain if we take [character][0x1] there.[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x13b9</ref>
+        </refs>
+        <data>Palpaleos: When the time comes,
+[character][0x1]... Don't hold back.
+
+Crush Gudolf and the Granbelos Empire.[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x13c3</ref>
+        </refs>
+        <data>Palpaleos: This is for the people living
+in the new era that will finally dawn
+upon the Granbelos Empire...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x13d2</ref>
+        </refs>
+        <data>Palpaleos: Peace will return to the
+people of the Empire, who know of
+nothing but war...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x13ff</ref>
+        </refs>
+        <data>[character][0x1]: Just like Matelite![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x140e</ref>
+        </refs>
+        <data>[character][0x1]: When I'm not fighting, I
+want to be with Palpaleos.
+He cheers me up.
+Just like you used to, [character][0x1]...[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1424</ref>
+        </refs>
+        <data>Zora's Son: Oh, hey, [character][0x1].
+The ship sure seems gloomy.[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x142b</ref>
+        </refs>
+        <data>Zora's Son: No entrance for a while!
+My mom said so![end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1432</ref>
+        </refs>
+        <data>Zora's Son: Oh, good work![end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x144a</ref>
+        </refs>
+        <data>Palpaleos: Sorry for making you come
+listen.[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1451</ref>
+        </refs>
+        <data>Palpaleos: Sauzer... is looking at the
+sky. Please let him be alone a little
+longer.[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x145c</ref>
+            <ref>0x146e</ref>
+        </refs>
+        <data>Palpaleos: ......[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1463</ref>
+        </refs>
+        <data>Palpaleos: If you're worried about
+[character][0x1], she's fine.[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1477</ref>
+        </refs>
+        <data>Palpaleos: [character][0x1]. When we
+conquered Kahna we took many
+things as the spoils of war...
+Most of the soldiers disposed of them,
+and this was all that was left.
+
+I brought it from Granbelos Castle, but
+[character][0x1] said I should let you have
+it, [character][0x1].
+It belonged to the king of Kahna...
+Take it.[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1489</ref>
+        </refs>
+        <data>You got an Empress Kahna and a Royal
+Gown.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x149b</ref>
+        </refs>
+        <data>Sauzer: [character][0x1], was it?
+Take care of Palpaleos...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x14a5</ref>
+        </refs>
+        <data>Sauzer: I want to look at the sky...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x14b7</ref>
+        </refs>
+        <data>[character][0x1]: General Palpaleos. Use the
+terrace upstairs...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x14f4</ref>
+        </refs>
+        <data>Sauzer: Sorry to trouble you...[end][end]</data>
+    </text>
+</texts>

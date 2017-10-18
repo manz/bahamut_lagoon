@@ -1,0 +1,166 @@
+<?xml version="1.0" ?>
+<texts base="0x604" room_id="3">
+    <text>
+        <refs>
+            <ref>0x2d</ref>
+        </refs>
+        <data>               Chapter 3
+    The Green Continent of Campbell[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x66</ref>
+        </refs>
+        <data>Matelite: That fortress far off in the
+distance...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x121</ref>
+        </refs>
+        <data>Matelite: Is that where [character][0x1] is?[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x152</ref>
+        </refs>
+        <data>Matelite: [character][0x1]! Hold on just a
+little longer![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x15e</ref>
+        </refs>
+        <data>Matelite: Okay, you guys!! Follow me![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x183</ref>
+        </refs>
+        <data>Rush: [0x24]You guys?[0x22] Is he talking to us?![end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1a1</ref>
+        </refs>
+        <data>Lukia: Calm down, don't get upset.
+Okay, let's go![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x307</ref>
+        </refs>
+        <data>Sendak: What will you do, [character][0x1]?
+
+
+  I'm not ready yet!
+  Let's go![end1]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x313</ref>
+        </refs>
+        <data>You must show the princess a fine
+dragon.[end]G</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x31b</ref>
+        </refs>
+        <data>Give it your all! The princess is waiting![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x35e</ref>
+        </refs>
+        <data>Sendak: What will you do, [character][0x1]?
+
+
+  Call the dragons
+  Take a rest[end1]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x36a</ref>
+        </refs>
+        <data>I see. You must be tired from all that
+equipping and changing of group
+members.[end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x372</ref>
+        </refs>
+        <data>Ah, you are going to feed them![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x380</ref>
+        </refs>
+        <data>Sendak: Over here, over here![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4df</ref>
+        </refs>
+        <data>Sendak: Cool, [character][0x1]![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5ce</ref>
+        </refs>
+        <data>I see.[end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x534</ref>
+        </refs>
+        <data>  Show me your weapons.
+  Show me your armor.
+  Show me your items.[end1]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x562</ref>
+        </refs>
+        <data>Hello, I'm a salesman who works on the
+battlefield. Nice to meet you![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5c2</ref>
+        </refs>
+        <data>Dragonkeeper: Shall I explain about
+feeding dragons?
+
+  No, I already know.
+  Yes, tell me.[end1]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5d6</ref>
+        </refs>
+        <data>This is about food that relates to the
+personality of each dragon.
+
+Eating weapons will make them become
+attack-oriented. They'll attack enemies
+like wild beasts.
+Eating armor will make them timid. They
+will stay away from the enemy and
+attack from afar.
+Dragons like sweet things. But if you
+give them too many they'll become
+spoiled.
+When that happens, give them bitter
+things that they really hate.
+
+It's hard for spoiled dragons to leave
+the presence of humans.
+
+Generally, books will make them
+smarter. When they're smart, their
+magic will be much stronger.
+These are the bsicrs.[end][end]</data>
+    </text>
+</texts>

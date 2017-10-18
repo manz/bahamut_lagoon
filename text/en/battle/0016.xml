@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<texts base="0x9e" room_id="16">
+    <text>
+        <refs>
+            <ref>0x2c</ref>
+        </refs>
+        <data>Matelite: This is the desert temple!![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x37</ref>
+        </refs>
+        <data>Sendak: Princess... [0xfc][0x1]I too can sense it.[0xfc][0x1]
+The Holy Dragon Jormungand is calling.[end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x68</ref>
+        </refs>
+        <data>[character][0x1]: Jormungand...[0xfc][0x1] is calling
+for me.[end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x47</ref>
+        </refs>
+        <data>“Condition for Victory:”[0xfc][0x1]
+“Defeat of Soul Cage”[end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6c</ref>
+        </refs>
+        <data>Everyone, stay here...[end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7e</ref>
+        </refs>
+        <data>Matelite: Princess [character][0x1]...[0xfc][0x1]
+I won't leave your side![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x89</ref>
+        </refs>
+        <data>Rush: We're in this together!![end1][end]</data>
+    </text>
+</texts>

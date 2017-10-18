@@ -1,0 +1,121 @@
+<?xml version="1.0" ?>
+<texts base="0x69b" room_id="30">
+    <text>
+        <refs>
+            <ref>0x3cb</ref>
+        </refs>
+        <data>Sendak: [character][0x1]...
+Sire...[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3db</ref>
+        </refs>
+        <data>Rush: The Imperial Generals, they're so
+strong...
+
+This feeling...
+It's a first for me...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3eb</ref>
+        </refs>
+        <data>Truce: It's the Granbelos army!
+We must withdraw![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3f8</ref>
+        </refs>
+        <data>Mist: [character][0x1]...
+Stop Matelite...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x53f</ref>
+        </refs>
+        <data>Sauzer: Take Princess [character][0x1].[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x553</ref>
+        </refs>
+        <data>            [character][0x1]!!
+            Matelite![end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5b3</ref>
+        </refs>
+        <data>Palpaleos: [character][0x1], the captain of
+Kahna's Dragon Squad...!![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5d6</ref>
+        </refs>
+        <data>Sauzer: King Kahna...
+The power of a Dragnar...
+
+So this is the extent of Bahamut's
+power? It's hardly worthy of a
+legend.[end]K</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5e8</ref>
+        </refs>
+        <data>King Kahna: !!!!
+
+
+The legend!!! How do you know of it?![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5f2</ref>
+        </refs>
+        <data>Sauzer: Your Majesty...
+
+
+History will always choose a single
+person. And then that person will be
+known as a hero.[end]K</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x604</ref>
+        </refs>
+        <data>King Kahna: What are you scheming?
+Sauzer![end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x612</ref>
+        </refs>
+        <data>The Holy Dragons shall not awaken!
+I will not hand over their power to
+you!![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x61f</ref>
+        </refs>
+        <data>Sauzer: The dragons won't wake up?
+That's merely because their time of
+awakening has not come yet!
+The moment I conquer this world, their
+time shall begin! And that time begins
+now![end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x685</ref>
+        </refs>
+        <data>         Kahna was destroyed
+          following the battle.
+
+              One era ends
+         and a now One begin.[end][end]</data>
+    </text>
+</texts>

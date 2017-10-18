@@ -1,0 +1,732 @@
+<?xml version="1.0" ?>
+<texts base="0xe9d" room_id="49">
+    <text>
+        <refs>
+            <ref>0x77</ref>
+        </refs>
+        <data>         The night grows late...
+
+
+  All alone, they continue their dance...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa3</ref>
+        </refs>
+        <data>Matelite: [character][0x1]...
+Was she stunning...?[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xba</ref>
+        </refs>
+        <data>Taicho: She was indeed...
+She has grown strong...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd1</ref>
+        </refs>
+        <data>Matelite: [character][0x1]...
+Was she beautiful...?[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe8</ref>
+        </refs>
+        <data>Taicho: She was indeed...
+Sir Matelite's dress... looked very
+well on her...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xff</ref>
+        </refs>
+        <data>Matelite: [character][0x1]...
+Did she seem happy...?[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x116</ref>
+        </refs>
+        <data>Taicho: She appeared to be sad that
+you were not present...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x128</ref>
+        </refs>
+        <data>Matelite: ......
+
+
+[character][0x1]...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x13a</ref>
+        </refs>
+        <data>Taicho: Come now...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1b7</ref>
+        </refs>
+        <data>Sir Matelite! Where are you going with
+such a serious look on your face?!
+Kahna Castle is not in that direction!
+......
+
+
+Okay then! I shall be the first one
+inside![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1ee</ref>
+        </refs>
+        <data>Taicho: Oh! Kahna Castle at long last!
+It is completely different than the
+moldy palace of Mahal![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x219</ref>
+        </refs>
+        <data>Taicho: The dragon statues are quite
+stylish! They appear brand new!![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x313</ref>
+        </refs>
+        <data>Taicho: Come, [character][0x1]!
+[character][0x1], you line up too![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x434</ref>
+        </refs>
+        <data>[character][0x1]: What has happened to
+Matelite...?[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x441</ref>
+        </refs>
+        <data>Taicho: Sir Matelite's whereabouts are
+unknown!! That is fine!
+
+He will not be here for this important
+occasion, the night of the revival of
+Kahna...
+Leave him be![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x44e</ref>
+        </refs>
+        <data>[character][0x1]: ......
+
+
+Where are you, Matelite...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x461</ref>
+        </refs>
+        <data>[character][0x1]...
+Sendak...
+Please listen, everyone.
+Right now, right here...
+Before our beloved Kahna Castle...
+I declare the revival of Kahna.
+Yes...
+
+
+I... shall become the queen of Kahna.[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x46a</ref>
+        </refs>
+        <data>But... I...
+
+
+I don't think I'm yet suited for the
+throne.[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x46e</ref>
+        </refs>
+        <data>I've been thinking about a lot today...
+About us from now on...
+
+About Kahna's revival force...
+No... about Orelus's freedom force.[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x47e</ref>
+        </refs>
+        <data>I discussed it with General Palpaleos,
+who has come from the Granbelos
+Empire...
+And then I decided.[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x492</ref>
+        </refs>
+        <data>We must continue the battle.[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x49b</ref>
+        </refs>
+        <data>We've revived Kahna, and liberated
+many lagoons from the rule of the
+Granbelos Empire.
+But... it isn't over yet.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4a4</ref>
+        </refs>
+        <data>True peace...
+This is something won through
+fighting...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4c6</ref>
+        </refs>
+        <data>Taicho: Indeed it is!
+
+
+I wish Matelite could also have heard
+that![end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4ad</ref>
+        </refs>
+        <data>An era we can call a true peace in the
+world of Orelus... in these skies...
+
+Until that time comes, all we can do is
+fight.
+
+Isn't that right... Sir Taicho, captain of
+the knights of Mahal.[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4d9</ref>
+        </refs>
+        <data>I'm sure Matelite thinks the same way.
+
+
+Will you be alright... Sendak?
+
+
+The Holy Dragons are our allies.
+Even if it's painful, do you think you
+can continue to fight?[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x536</ref>
+        </refs>
+        <data>Rush: I will!![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x550</ref>
+        </refs>
+        <data>Truce: [character][0x1]! Let's fight together![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x585</ref>
+        </refs>
+        <data>[character][0x1]... you too.[end][0xef]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x616</ref>
+        </refs>
+        <data>Manyoo!
+[0x28]Catering service!![0x29][end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4f7</ref>
+        </refs>
+        <data>Sendak: I.. I am a strong old geezer...!!
+I will not ramble on any longer...
+
+I think, anyway...[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x51c</ref>
+        </refs>
+        <data>Listen......
+Rush, Truce...
+...everyone.
+Will you fight with me?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x589</ref>
+        </refs>
+        <data>  Let's fight... for a new era!
+  Oh man... how should I answer...[end1]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x595</ref>
+        </refs>
+        <data>To be unsure...
+To be worried...
+To overcome that...
+That is what it means to fight...
+
+
+That is what it means to become
+strong...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x599</ref>
+        </refs>
+        <data>[character][0x1]... You've cheered me up so
+many times...
+
+From now on... please lead us to
+victory.[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5a9</ref>
+        </refs>
+        <data>I still haven't properly introduced him
+to everyone...
+
+This is General Palpaleos...
+
+
+He left the Empire and Sauzer to
+become a new member of our group...[end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5b9</ref>
+        </refs>
+        <data>Emperor Sauzer read the mind of a
+Holy Dragon and fell seriously ill...
+
+Then, he let General Palpaleos go.
+
+
+It was all to protect the skies of
+Orelus. To protect them from the
+beasts of the other world...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5c6</ref>
+        </refs>
+        <data>Palpaleos: General Gudolf has taken
+authority over the Empire...
+
+If it's to win... No, if it's to rule the
+people by force, he will use any means
+necessary...[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5d9</ref>
+        </refs>
+        <data>We must change the flow of the era
+that has begun to take shape...
+
+If we do it now we'll make it in time!
+
+
+The legend of the Holy Dragons...
+We'll be the ones to write the
+conclusion to it![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5e9</ref>
+        </refs>
+        <data>[character][0x1]: I hereby declare the
+revival of Kahna!!
+
+And... the beginning of a new battle![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x629</ref>
+        </refs>
+        <data>Manyooo!
+[0x28]We've received payment![0x29][end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x63c</ref>
+        </refs>
+        <data>Munyoo!
+[0x28]We can't tell you who paid![0x29][end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x64f</ref>
+        </refs>
+        <data>Melomelo!!
+[0x28]The Mini-Devils' friend is tired...[0x29][end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x65e</ref>
+        </refs>
+        <data>Monyomonyo!!
+[0x28]Deluxe edition of the Mini-Devil
+Dance![0x29][end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x66d</ref>
+        </refs>
+        <data>Manyomanyo!!
+[0x28]Devil Dance begin!![0x29][end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x67c</ref>
+        </refs>
+        <data>Munyomunyomunyo!!
+[0x28]Let's keep dancing tonight!![0x29][end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x68b</ref>
+        </refs>
+        <data>Melomelo!!
+[0x28]It looks like the Mini-Devils are happy
+with lots of tips!![0x29][end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6de</ref>
+        </refs>
+        <data>[character][0x1]: Tonight is the night of
+Kahna's revival!! Let's all have fun!!
+
+Hey... [character][0x1]. What are you going to
+do tonight?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6e2</ref>
+        </refs>
+        <data>  I'm going to sleep when it's bedtime.
+  I'm gonna be free and easy!![end1]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6f1</ref>
+        </refs>
+        <data>I see... Tonight let's enjoy a quiet
+dance.[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6fe</ref>
+        </refs>
+        <data>I see... Let's dance 'til we drop, all
+night long!![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x738</ref>
+        </refs>
+        <data>Monyomonyo...
+[0x28]They haven't spoken much tonight...
+Humans who have many dreams...[0x29][end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x748</ref>
+        </refs>
+        <data>Manyomanyo...
+[0x28]True peace... an eternal illusion.[0x29][end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x758</ref>
+        </refs>
+        <data>Munyomunyo...
+[0x28]It's pretty dangerous... If it happens
+we devils won't be able to live...[0x29][end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x767</ref>
+        </refs>
+        <data>Monyo!!
+[0x28]But holding onto hopes isn't that bad...
+That's what it means to be human...[0x29][end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x776</ref>
+        </refs>
+        <data>Manyoo!!
+[0x28]Humans who must love...Like we devils,
+you too will not perish...[0x29][end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x785</ref>
+        </refs>
+        <data>Munyoo!!
+[0x28]Keep dancing! Don't think, humans!
+Dance!![0x29][end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9ea</ref>
+        </refs>
+        <data>Matelite: [character][0x1]!! It's me, Matelite!!
+It's the revival of Kahna!!
+
+If it will make [character][0x1] happy...
+
+
+I'll dance in the sky too!
+
+
+I can make even flowers bloom in the
+night sky!!
+
+But, it still wouldn't be enough...
+
+
+[character][0x1]...
+If only I were stronger...
+
+......
+
+
+Never mind.
+
+
+Watch my Matelite-brand fireworks!!
+
+
+Everyone!
+Thank you![end]F</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd85</ref>
+        </refs>
+        <data>Frenze and Reeve: [0x2a]sniff[0x2a]
+Lan-lan-lancer!! Stab-stab... [0x2a]sniff[0x2a][end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd89</ref>
+        </refs>
+        <data>  What are you sniffling for?
+  Leave him alone[end1]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd99</ref>
+        </refs>
+        <data>He said we'd be friends when we were
+back in our hometown of Kahna!
+But... the friendship was fake.
+We just pretended to be friends...
+
+
+[0x2a]sniff[0x2a] Achoooo!![end]F</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xda6</ref>
+        </refs>
+        <data>Frederica: All of the girl wizards made
+promises to their boyfriends.
+How nice...
+Everybody has somebody waiting for
+them... But don't you think it's strange?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xdaa</ref>
+        </refs>
+        <data>  Is there something worrying you?
+  Don't worry about it.[end1]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xdb8</ref>
+        </refs>
+        <data>Anastasia... Lately she's been real
+friendly with that Barclay. He must be
+an old flame![end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xdbe</ref>
+        </refs>
+        <data>Ectarina doesn't have a boyfriend!
+
+
+She's always being rejected.
+I wonder whose fault it is...?[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xdc6</ref>
+        </refs>
+        <data>Taicho: Sir Matelite? He is not as full
+of vigor as usual...
+
+It is unfortunate, with tonight being
+the night of Kahna's revival...[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xdd0</ref>
+        </refs>
+        <data>He certainly must have been hurt
+by your words, [character][0x1]![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xdd9</ref>
+        </refs>
+        <data>Hey there!
+
+
+It's me, the Dragonkeeper!
+
+
+The famous royal throne of Kahna is
+unbelievably comfortable to sit in.[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xdff</ref>
+        </refs>
+        <data>Congratulations on the revival of
+Kahna!
+
+Outside is a big present from me!
+
+
+Come! This way!![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe28</ref>
+        </refs>
+        <data>Sendak: I am a strong old man!
+[0x28]whisper whisper...[0x29]
+
+The Holy Dragons are speaking in
+frightening voices...
+
+[0x24]This is not the end... The new era is
+not yet upon us...[0x22]
+
+Or something. But why did they have to
+tell me...[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe3c</ref>
+        </refs>
+        <data>Barclay: Matelite... You don't think that
+he...[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe40</ref>
+        </refs>
+        <data>  What do you mean?
+  Yeah, I think so.[end1]F</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe4a</ref>
+        </refs>
+        <data>First of all, he started selling
+autographed armor and axes.
+For what reason do you think?
+The truth is... it was to rebuild Kahna
+Castle, which was supposed to be in
+ruins, with his own money.
+But, when he came and saw it, this was
+how it was. Perfectly intact, like it was
+brand new...
+He's really depressed...[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe53</ref>
+        </refs>
+        <data>Barclay: I heard it was General
+Palpaleos who repaired Kahna Castle...
+And once again Matelite is poor...[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe5a</ref>
+        </refs>
+        <data>Rush: Now we just hafta wait for
+[character][0x1], who's gonna be the queen
+of Kahna!
+But you know, [character][0x1]... Are you
+really that happy?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe5e</ref>
+        </refs>
+        <data>  Yes, I'm happy.
+  I might feel the same as you...[end1]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe68</ref>
+        </refs>
+        <data>Yeah... It's the revival of Kahna, after
+all...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe6e</ref>
+        </refs>
+        <data>[character][0x1]... It's like she's gone
+beyond our reach now...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe78</ref>
+        </refs>
+        <data>Truce: Bikkebakke had a bunch of
+mushrooms and went off somewhere...
+
+Lately he's been eating a lot less and
+has even lost weight... Could something
+be bothering him?[end][end]</data>
+    </text>
+</texts>

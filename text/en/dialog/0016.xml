@@ -1,0 +1,252 @@
+<?xml version="1.0" ?>
+<texts base="0x63e" room_id="16">
+    <text>
+        <refs>
+            <ref>0x6a</ref>
+            <ref>0x76</ref>
+            <ref>0x5e</ref>
+        </refs>
+        <data>                 [character][0x1]...[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x81</ref>
+        </refs>
+        <data>                Wake up...[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa6</ref>
+        </refs>
+        <data>                  [character][0x1]...
+            Dragnar. Wake up...
+            The time has come.[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc8</ref>
+        </refs>
+        <data>          Now, open the gate,
+            and come to me...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x219</ref>
+        </refs>
+        <data>[character][0x1]: Ungh...[end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x224</ref>
+        </refs>
+        <data>Everybody...[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x231</ref>
+        </refs>
+        <data>Zora: Princess... Are you alright?[end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc2</ref>
+        </refs>
+        <data>   I am the Holy Dragon Jormungand.
+    Inside the desert temple I await.
+           Now, I shall tell you...
+            We Holy Dragons...
+              ...need you.[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x268</ref>
+        </refs>
+        <data>[character][0x1]: The Holy Dragon
+Jormungand... is calling me. I must go...[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x279</ref>
+        </refs>
+        <data>Zora: Don't overdo it. We're the only
+ones who can fight.[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x29d</ref>
+        </refs>
+        <data>[character][0x1]: I must go... Jormungand...
+wants to tell me something.[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2c7</ref>
+        </refs>
+        <data>Matelite: Oh yeah, [character][0x1]!
+I have good news!
+
+We defeated Sauzer!!
+The revival of Kahna is very soon![end].</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x302</ref>
+        </refs>
+        <data>...!!![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x31c</ref>
+        </refs>
+        <data>[character][0x1]!![end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2dc</ref>
+        </refs>
+        <data>Taicho: We defeated General Palpaleos
+as well...
+
+On the battlefield one must be
+heartless...
+
+[character][0x1]... I am relieved that you
+are better![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x369</ref>
+        </refs>
+        <data>[character][0x1]... Don't worry... I'm here.[end]G</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x37f</ref>
+        </refs>
+        <data>General... Palpaleos...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3a1</ref>
+        </refs>
+        <data>Palpaleos: [character][0x1]... I lost...
+
+
+Your friends...
+The Resistance has become powerful.[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3ad</ref>
+        </refs>
+        <data>[character][0x1]... Matelite... Taicho...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3b9</ref>
+        </refs>
+        <data>[character][0x1]... I don't mind them being
+by your side...[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3c5</ref>
+        </refs>
+        <data>Who will you choose now, [character][0x1]...[end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3d1</ref>
+        </refs>
+        <data>A new era... If it comes, I will come to
+you...[end]G</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x40d</ref>
+        </refs>
+        <data>Garuda: Girl... Dragnar...
+Is this what you desire...
+It is nothing but a feeble dream...[end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x41b</ref>
+        </refs>
+        <data>A feeble dream... Even so, it's one I
+can't make come true...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x447</ref>
+        </refs>
+        <data>The other one... Emperor Sauzer...
+Right now, he's...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x471</ref>
+        </refs>
+        <data>I want the courage to believe that...[end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x426</ref>
+        </refs>
+        <data>Garuda: Girl who holds onto feeble
+dreams...
+
+Why do you think so...
+With our power, this world would be
+yours.
+You would have everything you ever
+wanted.[end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x433</ref>
+        </refs>
+        <data>Even if this world became mine...
+There are things that can't change...
+
+From the feelings of people far away
+from home, to the human heart...
+These can never be changed...[end]G</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x43d</ref>
+        </refs>
+        <data>Garuda: Do not grieve, Princess...
+You have read the minds of we Holy
+Dragons thus far...
+You have come to control us.
+You are faring better than the other
+who can speak with the Holy Dragons...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x451</ref>
+        </refs>
+        <data>I sense faint signs of life...
+The man of your dreams is also safe...
+Do not worry...
+That is not the sort of thing you
+should desire to know...[end]G</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x461</ref>
+        </refs>
+        <data>Garuda... If everything I have
+wished for will really come true, there
+is something I want...[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x534</ref>
+        </refs>
+        <data>               Chapter 1.
+      The Holy Drago. Jormungan[end][end]</data>
+    </text>
+</texts>

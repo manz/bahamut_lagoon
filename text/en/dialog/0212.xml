@@ -1,0 +1,121 @@
+<?xml version="1.0" ?>
+<texts base="0x830" room_id="212">
+    <text>
+        <refs>
+            <ref>0x68a</ref>
+        </refs>
+        <data>Welcome!! You mustn't give up!![end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x68e</ref>
+            <ref>0x69f</ref>
+        </refs>
+        <data>  Weapon shop
+  Armor shop
+  Item shop[end1]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x69b</ref>
+        </refs>
+        <data>Welcome!! Make sure to try some of
+the other side quests![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6e2</ref>
+        </refs>
+        <data>I'm selling these on special!![end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6e6</ref>
+        </refs>
+        <data>  Matelite-brand merchandise shop
+  Mushroom shop
+  Book shop[end1]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x745</ref>
+        </refs>
+        <data>Sendak: [character][0x1]...
+Do your best next time!![end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x749</ref>
+            <ref>0x759</ref>
+        </refs>
+        <data>  Wait!!
+  Let's go!![end1]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x755</ref>
+        </refs>
+        <data>Sendak: [character][0x1]...
+Are we returning already?[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7be</ref>
+        </refs>
+        <data>Bikkebakke's dream mushroom patch.
+No picking!
+                          Bikkebakke[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7c2</ref>
+        </refs>
+        <data>Steal one of Bikkebakke's mushrooms?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7c6</ref>
+        </refs>
+        <data>  Yes
+  No[end1]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7e0</ref>
+        </refs>
+        <data>You got a Poisonous Mushroom.[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7f5</ref>
+        </refs>
+        <data>You got a Gross Mushroom.[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x80a</ref>
+        </refs>
+        <data>You got a Horrible Mushroom.[end][0x28]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x81a</ref>
+        </refs>
+        <data>[0x28]Bikkebakke's serious look came to
+[character][0x1]'s mind...[0x29][end][0x28]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x823</ref>
+        </refs>
+        <data>[0x28]Bikkebakke's lonely look came to
+[character][0x1]'s mind...[0x29][end][0x28]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x82c</ref>
+        </refs>
+        <data>[0x28]Bikkebakke's innocent face came to
+[character][0x1]'s mind...[0x29][end][end]</data>
+    </text>
+</texts>

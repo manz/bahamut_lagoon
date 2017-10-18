@@ -1,0 +1,475 @@
+<?xml version="1.0" ?>
+<texts base="0x900" room_id="214">
+    <text>
+        <refs>
+            <ref>0x59a</ref>
+        </refs>
+        <data>Rush: [character][0x1]!! Nobody will listen
+to me!
+
+They say to let them do whatever
+they want because they'll fight when
+it's time to attack.
+I just wanted to tell the Orelus
+Freedom Force some news![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5a5</ref>
+        </refs>
+        <data>Rush: I'm fighting because I want to
+see [character][0x1] smile. I want to hear
+her say, [0x24]Good work, Rush.[0x22]
+But, ever since Palpaleos came on
+board my dreams and wishes have all
+vanished...
+  Cheer up!
+  That's too bad...[end1]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5b1</ref>
+        </refs>
+        <data>Yeah... Oh, here, I'll give you this.
+It's a special good luck charm.
+I don't need it anymore.[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5bb</ref>
+        </refs>
+        <data>You got a Princess's ???.[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5c4</ref>
+        </refs>
+        <data>Rush: Yeah...[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5d9</ref>
+            <ref>0x60c</ref>
+        </refs>
+        <data>Bikkebakke: [character][0x1]... Please help
+me!
+
+  Let me help you out.
+  Let me hear your story.[end1]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x605</ref>
+        </refs>
+        <data>Bikkebakke: I don't need to be doing
+this, it's embarrassing.[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6b1</ref>
+            <ref>0x875</ref>
+        </refs>
+        <data>Oh...[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7d2</ref>
+        </refs>
+        <data>You got a Gunso's ???.[end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6cd</ref>
+        </refs>
+        <data>Oh, I see... Uh, never mind then...[end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x628</ref>
+        </refs>
+        <data>Heh heh... if I bought a house...
+In Truce's room I would put up a big
+bookshelf for him.
+For Rush, I would... Huh? I wonder
+what Rush would want?
+
+In my room... well you already know,
+[character][0x1].[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x62f</ref>
+        </refs>
+        <data>Bikkebakke: I don't have enough
+money... I don't think I can do it...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x70f</ref>
+        </refs>
+        <data>I guess so after all. It's just like you
+said, [character][0x1]!![end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x72d</ref>
+        </refs>
+        <data>Thank you. But keep this a secret from
+Matelite.[end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5f9</ref>
+        </refs>
+        <data>Bikkebakke: ...... [character][0x1] is back.
+From now on we'll work hard and
+return to Kahna someday.
+When that time comes I want a house.
+But, for that, I need money...
+
+Me and Rush and the others were
+failures of Kahna until you asked us
+for our help.
+We slept like stray dogs beneath
+bridges or in the corner of the castle
+grounds. I don't like that...
+This ship is fun, but... I want a house
+that I can live in with Rush and Truce.
+That's why I want your help.
+Also... keep this a secret from Rush
+and the others...[end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x633</ref>
+        </refs>
+        <data>  Mushrooms [0x28]low profits[0x29]
+  Matelite goods [0x28]I get 10[0x25][0x29]
+  Used books [0x28]Got 'em from the crew[0x29][end1]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x69c</ref>
+        </refs>
+        <data>Barclay: There's something bugging me,
+will you hear me out?
+
+  Go ahead!
+  I'm busy right now...[end1]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6df</ref>
+        </refs>
+        <data>Ah... [character][0x1] must have been
+rejected... So he must be trying to get
+in the way of people's happiness now...[end]G</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x759</ref>
+            <ref>0x74b</ref>
+        </refs>
+        <data>Gunso: Ugh! This is itchy. [0x2a]scratch[0x2a]
+This armor is stuffy.[end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x789</ref>
+        </refs>
+        <data>Listen to Gunso's tune?
+
+
+  Listen
+  Don't listen[end1][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6b8</ref>
+        </refs>
+        <data>Barclay: [character][0x1], remember this.
+In this world, you must not give up
+even if you lose.
+The items, money, and experience you
+earned will remain.
+
+If you continue without giving up, both
+we and the dragons grow stronger.[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7fb</ref>
+        </refs>
+        <data>Reeve: Frenze is still depressed!
+Hey, [character][0x1]! I want a new lancer![end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x718</ref>
+        </refs>
+        <data>Really?! I got that feeling too.
+Heheh... Do it like that...
+Heehee... Do it like this...
+Next time, I'll try a direct assault.[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x807</ref>
+        </refs>
+        <data>Reeve: Ack! [0x28]Oops...[0x29]
+Don't talk to me...[end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7b8</ref>
+        </refs>
+        <data>Gunso: [character][0x1]! I want to return
+to Orelus alive! [0x2a]scratch[0x2a] There are
+lots of things I will do![end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7f1</ref>
+        </refs>
+        <data>Reeve: Frenze is depressed! Without
+him, I can't do our lan-lan-lancing!
+But I really want to![end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6a9</ref>
+        </refs>
+        <data>Let's see, what was the name of that
+stuck-up wizard? Oh yeah, Anastasia.
+She yelled at me to move faster.
+I want to, but my armor is too heavy.
+Anyway, using magic to attack from far
+away is cowardly!
+It's best to attack head on into intense
+battles! Fighting face-to-face is better
+than fighting from far away.
+What's better, you ask?
+
+
+The spoils of victory, money of course![end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6bf</ref>
+        </refs>
+        <data>Barclay: I think you might know a lot
+about this, [character][0x1].
+
+A man and woman who are constantly
+bickering... Love suddenly sprouts
+between them one day...
+Does this sort of thing ever happen?
+
+
+  It happens all the time!
+  It never happens![end1]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6e9</ref>
+        </refs>
+        <data>Barclay: I think you might know a lot
+about this, [character][0x1].
+
+A stuck-up wizard and a simple Heavy
+Armor Knight. If they started to like
+each other, would things work out?
+  It wouldn't work out at all.
+  It'd work out pretty well, wouldn't it?[end1]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x700</ref>
+        </refs>
+        <data>Ah... [character][0x1] must be trying to get
+in the way of people's happiness.
+No, no, it's just that he's so busy...
+All the thinking, preparing, and what
+have you are left up to him. We simple
+soldiers don't think about anything.
+If I can help take even a little stress
+off of him, I'll do it.[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x71f</ref>
+        </refs>
+        <data>Barclay: Oh, [character][0x1]. I'll let you
+know for the time being.
+
+That stuck-up wizard... Anastasia,
+right? We talked earlier.
+
+If we live through this, we're going to
+get married and argue who's the
+strongest for the rest of our lives.
+  Congratulations!
+  I'm jealous![end1]G</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x763</ref>
+        </refs>
+        <data>Gunso: This is just for your ears only...
+What do you think of Taicho,
+[character][0x1]?
+  Not much...
+  Not a whole lot...[end1]F</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x837</ref>
+        </refs>
+        <data>Frenze: [0x2a]sniff[0x2a] I wanna see my mom...[end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x771</ref>
+        </refs>
+        <data>Taicho wasn't like that a long time ago.
+[0x2a]scratch[0x2a]
+
+As captain of the knights of Mahal he
+was admired by everybody. However...
+[0x2a]scratch[0x2a]
+Hahah, it's a long story. Someday the
+chance for me to tell you will come...
+[0x2a]scratch[0x2a][end]G</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x780</ref>
+        </refs>
+        <data>Gunso: It might be too noisy to do
+inside the ship, [0x2a]scratch[0x2a] but it's
+always like that. Shall I hum a tune?[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x79c</ref>
+        </refs>
+        <data>Mahaaal [0x2a]scratch[0x2a] with all your lakes,
+From Rainbow Briiidge [0x2a]scratch[0x2a]
+
+Looking down on the water gate that
+doesn't open [0x2a]scratch[0x2a]
+
+The people fishing for octopi [0x2a]scratch[0x2a]
+
+
+Oh, Mahaaal [0x2a]scratch[0x2a]
+Your old palace towers in the sky!
+[0x2a]scratch[0x2a][end]G</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7ae</ref>
+        </refs>
+        <data>Gunso: However, even with the revival
+of Mahal and Kahna, [0x2a]scratch[0x2a] some
+things never change. [0x2a]scratch[0x2a]
+My life has been nothing but
+scratching. [0x2a]scratch[0x2a] It will probably
+continue to be that way.
+[0x2a]scratch[0x2a]
+[0x2a]scratch[0x2a]
+
+No, giving up means failure [0x2a]scratch[0x2a]
+I'll try my best...[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x811</ref>
+        </refs>
+        <data>Reeve: [0x2a]sniff[0x2a] It's strange...
+The girls won't listen to me...
+[0x2a]sniff[0x2a] I didn't do anything...[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x81b</ref>
+        </refs>
+        <data>Reeve: Frenze said we can be
+lan-lan-lancers when we arrive at
+Altair! I'm so happy![end]F</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x83e</ref>
+        </refs>
+        <data>Frenze: Did you hear what Reeve said?
+If he can stab-stab, then he can have
+whoever he wants.
+Our friendship, it's...[end]F</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x845</ref>
+        </refs>
+        <data>Frenze: ...... I put a Gunso's ??? and
+some Uniuji into Reeve's food.
+Right about now his stomach's...
+That's what he gets for betraying
+our friendship...
+
+The things we're doing are gradually
+becoming treacherous... I'm... scared...[end]F</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x84c</ref>
+        </refs>
+        <data>Frenze: I'm awful... As a person, I'm
+terrible. But it was a real thrill...[end]F</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x853</ref>
+        </refs>
+        <data>Frenze: ......
+
+
+[0x24]We are lancers! Lan-lan-lancers!
+Even from far away we stab-stab![0x22]
+It's the first time we'll do it in Altair.
+I can't win against that temptation...
+But, I'm terrible... I'll pray with Lukia...
+Maybe I'll be forgiven then...[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x85b</ref>
+        </refs>
+        <data>Zora's son: Do you want to know my
+name?
+
+  Tell me!!
+  I don't really want to know.[end1]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x869</ref>
+        </refs>
+        <data>Zora's son: My name is... Orelus.
+The same name as the name of our
+world.
+It's the name of my parents' dreams.
+But, I still don't live up to it...
+
+Someday, I want to be able to shout
+my name loudly without being
+embarrassed. I'm trying hard![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x87f</ref>
+        </refs>
+        <data>Crew member: I have this, [character][0x1].
+How about it?[end][end]</data>
+    </text>
+</texts>

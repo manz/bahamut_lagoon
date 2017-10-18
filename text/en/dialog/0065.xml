@@ -1,0 +1,346 @@
+<?xml version="1.0" ?>
+<texts base="0x6b0" room_id="65">
+    <text>
+        <refs>
+            <ref>0xfa</ref>
+        </refs>
+        <data>Matelite: Bah...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x104</ref>
+        </refs>
+        <data>Taicho: [character][0x1], do not get angry
+when you hear what the queen has to
+say.[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x111</ref>
+        </refs>
+        <data>[character][0x1]: Sorry, [character][0x1].
+Let us be alone for now.[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x11e</ref>
+        </refs>
+        <data>I know that what we did was not a
+mistake... [character][0x1]... Don't be
+disappointed...
+That's it! At a time like this we need
+some recreation![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x12b</ref>
+        </refs>
+        <data>Sendak: [character][0x1]! There is a place
+in town where we can have a drink. I
+shall be waiting for you there![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x150</ref>
+        </refs>
+        <data>The queen went into the underground
+prison in order to protect Campbell.
+
+She did so to show that she does not
+resist Sauzer.[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x157</ref>
+        </refs>
+        <data>Campbell didn't want to be liberated...
+Now Emperor Sauzer will be angry...[end]G</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x15e</ref>
+        </refs>
+        <data>Grrrr...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x165</ref>
+        </refs>
+        <data>Might the Granbelos Empire come back
+to Campbell?
+
+  I think so.
+  No, they won't.[end1]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x172</ref>
+        </refs>
+        <data>Of course! They'll come back in much
+greater numbers![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x17b</ref>
+        </refs>
+        <data>That's good to hear.[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x186</ref>
+        </refs>
+        <data>If we were obedient the Imperial
+soldiers were actually nice guys...[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x18d</ref>
+        </refs>
+        <data>We welcome you![end]Q</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x198</ref>
+            <ref>0x287</ref>
+        </refs>
+        <data>Queen Campbell: I have nothing more to
+say to you![end]Q</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1a2</ref>
+        </refs>
+        <data>Queen Campbell: You... you're
+[character][0x1], aren't you?[end]Q</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x260</ref>
+        </refs>
+        <data>Queen Campbell: Please... Don't watch
+out for us.[end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1d8</ref>
+        </refs>
+        <data>Queen Campbell: Do you still intend to
+start wars? All the wars ended when
+Sauzer took control of the world...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x27b</ref>
+        </refs>
+        <data>[character][0x1]: Aunt...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2a0</ref>
+        </refs>
+        <data>Sendak: Princess... about the legend...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2ac</ref>
+        </refs>
+        <data>[character][0x1]: I know, Sendak.[end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1e4</ref>
+        </refs>
+        <data>Queen Campbell: Sauzer's desire is to
+unite the world. He has done that. That
+is why we cannot resist him...
+If we obey him we are still free.[end]Q</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x20f</ref>
+        </refs>
+        <data>Queen Campbell: You certainly can't call
+it true peace. But, I...
+
+No, what can you do about it?[end]Q</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x21c</ref>
+        </refs>
+        <data>Queen Campbell: The Empire might come
+back to retake control of Campbell.
+
+If that happens, will you protect
+Campbell? Can you do that?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x294</ref>
+        </refs>
+        <data>[character][0x1]: [character][0x1]... I heard most of
+it from the people upstairs.
+
+[character][0x1], please. Please let us be
+alone...[end]N</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2d6</ref>
+        </refs>
+        <data>Nelbo: You're [character][0x1] of Kahna's
+Dragon Squad, right?[end]N</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2dd</ref>
+        </refs>
+        <data>Nelbo: Please let them be alone.[end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2e8</ref>
+        </refs>
+        <data>Joy: The door is open. Please go on in.[end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2ef</ref>
+        </refs>
+        <data>Joy: They have asked to be alone for
+now...[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2fa</ref>
+        </refs>
+        <data>What will happen to Campbell now?[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x301</ref>
+        </refs>
+        <data>Don't misunderstand the citizens of
+Campbell! We're not all slovenly people![end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x30c</ref>
+        </refs>
+        <data>People of the freedom force... We
+have complicated feelings...[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x313</ref>
+        </refs>
+        <data>We opposed the Empire so we were put
+in here.[end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x31e</ref>
+        </refs>
+        <data>You did an unnecessary thing in driving
+the Empire away![end].</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x325</ref>
+        </refs>
+        <data>...Huh?
+
+
+  Why don't you leave?
+  Nothing really.[end1]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x332</ref>
+        </refs>
+        <data>The door isn't locked so I can leave
+anytime I want... But I was against
+the queen's ideas.
+I truly respect the queen, so I don't
+want to bother her. It's complicated...[end]G</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x33b</ref>
+        </refs>
+        <data>Good! I thought you were going to ask
+me something hard to explain![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x589</ref>
+        </refs>
+        <data>Matelite: What? I don't care if you ARE
+King Kahna's sister, I still won't forgive
+you![end]Q</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x59f</ref>
+        </refs>
+        <data>Queen Campbell: Matelite... You haven't
+changed.[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5bb</ref>
+        </refs>
+        <data>Matelite: Oh! If I had to change as
+much as you did I'd be much happier
+feeding dragons![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5cd</ref>
+        </refs>
+        <data>Taicho: Matelite! Calm down![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5da</ref>
+        </refs>
+        <data>Matelite: How can I calm down when I
+hear something like this?![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5e6</ref>
+        </refs>
+        <data>Matelite: You pitiful queen of Campbell!
+That you are much happier being ruled
+by the Empire...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5f3</ref>
+        </refs>
+        <data>Taicho: Excellent work! Now let us
+prepare to bring our plan to its
+fruition.[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x601</ref>
+        </refs>
+        <data>Matelite: Yeah... the plan! I wanna get
+the hell out of this place, but I can't
+leave just yet![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x635</ref>
+        </refs>
+        <data>Taicho: Have you calmed down.[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x643</ref>
+        </refs>
+        <data>Matelite:h.. Not ye.[end][end]</data>
+    </text>
+</texts>

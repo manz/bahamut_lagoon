@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<texts base="0x9c" room_id="3">
+    <text>
+        <refs>
+            <ref>0x28</ref>
+        </refs>
+        <data>Daikon![0xfc][0x1]
+Daikon![0xfc][0x1]
+I wanna chop me up some Daikon!![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2c</ref>
+        </refs>
+        <data>Huh?! The Resistance is approaching!![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x35</ref>
+        </refs>
+        <data>“Condition for Victory:”[0xfc][0x1]
+“Defeat of Groyer”[end][end]</data>
+    </text>
+</texts>

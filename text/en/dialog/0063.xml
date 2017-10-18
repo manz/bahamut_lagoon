@@ -1,0 +1,227 @@
+<?xml version="1.0" ?>
+<texts base="0x83b" room_id="63">
+    <text>
+        <refs>
+            <ref>0x2dd</ref>
+        </refs>
+        <data>Sajin: So these are dragons...
+They're all slimy and gross.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2e5</ref>
+        </refs>
+        <data>Sendak: The princess... she was
+muttering in her sleep...
+
+She was saying, [0x24][character][0x1]...[0x22]
+
+
+It also appears that the Holy Dragon
+Jormungand appeared in her dreams...
+
+She says Jormungand is trying to tell
+us something...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2f0</ref>
+        </refs>
+        <data>[character][0x1]: ...[character][0x1]. There
+were lots of things in my dream.
+
+I felt... I felt you were very close by.
+I'm sorry for making you worry...[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2f7</ref>
+        </refs>
+        <data>But... I... I'm okay now.[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x306</ref>
+        </refs>
+        <data>Rush: I couldn't sleep for some reason
+yesterday. I wonder why... Man, I'm
+nervous.
+It's hard to explain, but...
+I get the feeling we're doing
+something really big.[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x314</ref>
+        </refs>
+        <data>Rush: This kingdom'll change...
+Maybe even this world too...[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3b8</ref>
+        </refs>
+        <data>Rush: Here they come...[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3c3</ref>
+        </refs>
+        <data>Rush: Matelite's always so rash...
+I can't believe that guy...
+
+We're not just fighting, you know.
+I don't really know how to explain it...
+I'm confused...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3d2</ref>
+        </refs>
+        <data>Truce: A freedom revolution...
+The overthrow of the royal family...
+
+In Kahna, that would have been
+Matelite and [character][0x1]...
+That's pretty hard to imagine.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3dc</ref>
+        </refs>
+        <data>Truce: It hurts... my heart hurts.
+I'm just a soldier, so I can only follow
+orders, right?
+I can't stop it... If I had to explain
+how I'm feeling right now, I would be a
+miserable sight.[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3e7</ref>
+        </refs>
+        <data>Bikkebakke: Dafila's houses are made
+of stone... They've begun to save
+their money... It'll be soon...[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4c2</ref>
+        </refs>
+        <data>Lady: Will you go shopping?[end][0xaa]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3f4</ref>
+        </refs>
+        <data>Bikkebakke: [character][0x1]... Will we go?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3f8</ref>
+        </refs>
+        <data>  I like the wind of freedom. [0x28]wait[0x29]
+  I'll buy some mushrooms!
+  Let's go![end1]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x473</ref>
+        </refs>
+        <data>Libero: [character][0x1]... You can feel
+it too, right? The wind of freedom has
+begun to blow through Dafila...
+From now on things will be difficult.
+Don't you give up either, [character][0x1]![end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x480</ref>
+        </refs>
+        <data>Battlefield Salesman: Yesterday I
+was caught in an embarrasing
+situation...
+Ever since then I've been trying to
+get along with her again...
+
+Okay, time for shopping![end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x484</ref>
+        </refs>
+        <data>  I want weapons.
+  I want armor.[end1]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4b9</ref>
+        </refs>
+        <data>Battlefield Salesman: She's a nice
+lady, don't you think?
+
+Okay! Time for shopping![end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4c6</ref>
+        </refs>
+        <data>  I want to see some items.
+  I wanna see some porno mags.[end1]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4ff</ref>
+        </refs>
+        <data>Zeroshin: Mom... This time it looks
+like I'll make a lot of friends.[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6ac</ref>
+        </refs>
+        <data>Battlefield Salesman: Keep up the
+good work! Please put in a good word
+for me to my wife too![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x774</ref>
+        </refs>
+        <data>Matelite: What are you goofing around
+for?! Let's get going! Because of our
+help, [character][0x1] feels better now!
+So where is the Holy Dragon's temple?![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x783</ref>
+        </refs>
+        <data>Truce: Matelite, please listen.
+Dafila has become a free kingdom.
+Last night... a freedom revolution...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7a7</ref>
+        </refs>
+        <data>Matelite: What're you talking about?
+Freedom and revolutions...!! They have
+nothing to do with us!
+Where is the Holy Dragon!?[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7c3</ref>
+        </refs>
+        <data>Truce: ... It's in the temple at the
+very southern end of the desert...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7d7</ref>
+        </refs>
+        <data>Matelite: Did you hear that, Taicho?
+Lead the way![end][end]</data>
+    </text>
+</texts>

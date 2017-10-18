@@ -1,0 +1,483 @@
+<?xml version="1.0" ?>
+<texts base="0xc37" room_id="45">
+    <text>
+        <refs>
+            <ref>0x1f5</ref>
+        </refs>
+        <data>[character][0x1]!! Come here![end]N</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7fa</ref>
+        </refs>
+        <data>Nope![end][0xef]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa5</ref>
+        </refs>
+        <data>        The Desert Land of Dafila[end1]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1b7</ref>
+        </refs>
+        <data>Matelite: [character][0x1] will feel a lot
+better when she hears we defeated
+Sauzer's men!![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1c4</ref>
+        </refs>
+        <data>Taicho: We have defeated General
+Palpaleos...
+
+So this is what war is like...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1dc</ref>
+        </refs>
+        <data>Matelite: [character][0x1]... You take care
+of the info about the Holy Dragons!
+We're going back to [character][0x1]!![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5d1</ref>
+            <ref>0x83b</ref>
+            <ref>0x755</ref>
+            <ref>0xabd</ref>
+        </refs>
+        <data>Capture the king! You can take care of
+it, the responsibility is yours![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x737</ref>
+        </refs>
+        <data>Suspicious Man: Are you popular...?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x73b</ref>
+        </refs>
+        <data>  Yeah, I am.
+  I dunno, lately...[end1]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x745</ref>
+        </refs>
+        <data>I see... you sure don't look like it.[end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x74b</ref>
+        </refs>
+        <data>Even you can become popular
+overnight! We're searching for members
+for the Freedom Revolutionaries!
+The password is...
+
+
+[0x24]Starting today, I will be cool!![0x22][end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x763</ref>
+        </refs>
+        <data>Rush: Oh... I wonder if [character][0x1] is
+feeling well...
+
+It would probably be better if we
+were by her side instead of Matelite.[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x76a</ref>
+        </refs>
+        <data>Rush: A revolution for freedom! This is
+great![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x779</ref>
+        </refs>
+        <data>Truce: I haven't heard any real
+information about Dafila. Nobody in the
+Resistance is from here...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x780</ref>
+        </refs>
+        <data>Truce: I got a map of the Holy
+Dragon's temple from the palace of
+Dafila.
+It seems the temple of Jormungand is
+at the very southern end of the
+desert.
+But never mind that, get the King!![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x78a</ref>
+        </refs>
+        <data>Truce: A revolution... I'm worried.[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x791</ref>
+        </refs>
+        <data>Bikkebakke: Sweets of the desert...
+
+
+I bet they're desserts, huh?![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7a3</ref>
+        </refs>
+        <data>I lost something very important... Even
+if I looked for it I wouldn't find it...
+
+You wouldn't understand...[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7c0</ref>
+        </refs>
+        <data>Wait, [character][0x1]!!
+
+
+Donfan: Hello, miss! O, beautiful girl of
+the desert! I shall fill this desert with
+your lovely tears![end]U</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7cd</ref>
+        </refs>
+        <data>Ugh... I wonder if he's a member of
+some exploration party?[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7d7</ref>
+        </refs>
+        <data>Battlefield Salesman: Oh we married too
+soon... My wife... going from someone
+like that to someone like this...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7ec</ref>
+        </refs>
+        <data>Ssshh!! What's the password?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7f0</ref>
+        </refs>
+        <data>  The revolution's the wind of change.
+  Starting today, I'll be really cool too![end1]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x81f</ref>
+        </refs>
+        <data>Okay! Enter![end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x834</ref>
+        </refs>
+        <data>Your orders are to capture the king in
+the square! This is an important
+responsibility![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x861</ref>
+            <ref>0x849</ref>
+        </refs>
+        <data>Drat![end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x858</ref>
+        </refs>
+        <data>Libero: King! Be prepared! Tomorrow
+Dafila shall be ours! The Freedom
+Revolution will be realized!
+The leader shall be... [character][0x1]!
+
+
+I hereby declare Dafila a free
+kingdom! A new era begins![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x87e</ref>
+        </refs>
+        <data>I must flee...
+
+
+Farewell, my citizens...[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x94d</ref>
+        </refs>
+        <data>            The desert night
+             how deep it is...
+    The endless banquet continues...[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x953</ref>
+        </refs>
+        <data>Rush became an adult![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x959</ref>
+        </refs>
+        <data>Truce became an adult![end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x95f</ref>
+        </refs>
+        <data>Bikkebakke was already an adult!![end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x965</ref>
+        </refs>
+        <data>As for [character][0x1]...[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x99e</ref>
+        </refs>
+        <data>Leave at once![end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9b0</ref>
+        </refs>
+        <data>            The King cometh![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9ca</ref>
+        </refs>
+        <data>Stand aside! You bar my path![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9f3</ref>
+        </refs>
+        <data>Many thanks! I shall now partake in
+sleep![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9fd</ref>
+        </refs>
+        <data>Completely ecstatic am I! With so
+numerous a lady in my palace!
+
+Doing such and so...
+Whew, so busy am I...[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa33</ref>
+        </refs>
+        <data>Donfan: 'Tis I, Donfan! Member of the
+Resistance! I would like to ask you to
+take a short break tonight...[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa74</ref>
+        </refs>
+        <data>  Read
+  Don't read[end1]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa8f</ref>
+        </refs>
+        <data>Dragon Squad Captain [character][0x1]!!
+Married to Princess [character][0x1]!!
+
+Or not?[end][0xef]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa52</ref>
+        </refs>
+        <data>Donfan: Such is the way of the world...
+
+
+You have lost something. That's how
+these things are. I do not know what,
+however, I wish to.
+Your heart is dry like this desert...
+But look, a mirage. The oasis of
+Donfan awaits you.
+Well, I, Donfan, leader of the
+Resistance, shall escort you home.
+Where do you live?[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa61</ref>
+        </refs>
+        <data>Donfan: Well? I would also like you
+to let me in... How does this much
+sound?
+Such is the way of the world...
+
+
+[character][0x1] has my wallet. How about
+giving the bill to him?[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa70</ref>
+        </refs>
+        <data>Man! It's so hot today! How about
+reading some news about the
+Resistance? 100 Piro per copy![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa96</ref>
+        </refs>
+        <data>[character][0x1] Crew Member Steals
+Bikkebakke's Mushrooms and Wallet,
+Escapes![end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xaa1</ref>
+        </refs>
+        <data>Ectarina Rejected Again!! Is it the
+Uniuji She Keeps Sending?![end]G</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xaa8</ref>
+        </refs>
+        <data>Gunso's Scratching Disease Worsens!
+Does [character][0x1] Have It Too?!
+Oh, the horror![end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xab1</ref>
+        </refs>
+        <data>All sold out! The popular Taicho novels
+have sold out too![end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xacb</ref>
+        </refs>
+        <data>Zeroshin: Mom... It looks like I'll
+finish this job just fine...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xadc</ref>
+        </refs>
+        <data>Sajin: The king is fast! Are you
+watching closely?[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb39</ref>
+        </refs>
+        <data>You got 20 Uniujis.[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb4e</ref>
+        </refs>
+        <data>You got a Mach Vest.[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb5f</ref>
+        </refs>
+        <data>You found 5 High Magic Gins.[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb74</ref>
+        </refs>
+        <data>You got a Dark Force.
+
+
+There was also a note inside!
+
+
+Dark Force: F[0x2a][0x26][0x23] you, Square!!!![end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb85</ref>
+        </refs>
+        <data>You got a Master Rod.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xbd1</ref>
+        </refs>
+        <data>The civilization of this land was
+cultivated through a very lengthy
+history... [0x2a]blah blah[0x2a]
+Do you not know of our historical
+traditions?! Ignorant fools such as you
+may not enter![end][0x2a]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xbe2</ref>
+        </refs>
+        <data>[0x2a]wheeze[0x2a] Oh mercy... I am busier than
+three people put together...[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc08</ref>
+        </refs>
+        <data>Having you come in is not something
+I would quite appreciate.
+
+At any rate, congratulations on the
+liberation of Dafila...
+
+Oh yes, here is a present for freeing
+us...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc1a</ref>
+        </refs>
+        <data>Inside you found... 10 Long Swords!![end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc29</ref>
+        </refs>
+        <data>Oh no!! I have no more!
+Please forgive me![end][end]</data>
+    </text>
+</texts>

@@ -1,0 +1,462 @@
+<?xml version="1.0" ?>
+<texts base="0x90d" room_id="37">
+    <text>
+        <refs>
+            <ref>0xac</ref>
+        </refs>
+        <data>Matelite: As captain of the knights of
+Kahna and commander of the Kahna
+Revival Unit...
+I, Royal Guard Matelite, hereby
+declare Campbell free!
+
+Citizens of Campbell! From now on
+Campbell belongs to you![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xca</ref>
+        </refs>
+        <data>Matelite: Huh...?[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd3</ref>
+        </refs>
+        <data>Matelite: What's wrong, citizens of
+Campbell?![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe6</ref>
+        </refs>
+        <data>Taicho: Matelite... that proclamation is
+for the queen to give.[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf2</ref>
+        </refs>
+        <data>Matelite: That's right! Let's go to the
+castle![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3c0</ref>
+            <ref>0x3b9</ref>
+        </refs>
+        <data>[character][0x1]: I am... fine.[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3ce</ref>
+        </refs>
+        <data>[character][0x1]: The Holy Dragon Valitora
+is angry...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3dc</ref>
+        </refs>
+        <data>Sendak: Princess... I understand... I can
+sense it a little as well.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3e5</ref>
+        </refs>
+        <data>Sendak: Princess... I understand... I can
+sense it a little as well.[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3fe</ref>
+        </refs>
+        <data>[character][0x1]: Okay, let's return to
+[character][0x1].[end]Q</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x40b</ref>
+        </refs>
+        <data>Queen Campbell: [character][0x1]! Everyone!
+Please wait![end]Q</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x422</ref>
+        </refs>
+        <data>Queen Campbell: I'll tell you after all...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x438</ref>
+        </refs>
+        <data>Matelite: What is it? We're kind of
+busy now.[end]Q</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x451</ref>
+        </refs>
+        <data>Queen Campbell: If I don't tell you, I
+will...[end]Q</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x45d</ref>
+        </refs>
+        <data>Queen Campbell: I... knew about the
+legend of the Holy Dragons from the
+start...[end][0x24]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x47f</ref>
+        </refs>
+        <data>[0x24]The one who reads the minds of the
+Holy Dragons shall open the door to a
+new era.[0x22]
+And then of course there is something
+added to it...
+
+[0x24]A weak-minded person shall summon
+forth a disaster from the heavens.[0x22][end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6f8</ref>
+        </refs>
+        <data>Rush: [character][0x1]...[end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4ed</ref>
+        </refs>
+        <data>The one who speaks with the Holy
+Dragons shall open the door to a new
+era.[end]U</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x72e</ref>
+            <ref>0x747</ref>
+        </refs>
+        <data>Understood, Captain [character][0x1].[end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4f8</ref>
+        </refs>
+        <data>Weak-minded daughter of the king...
+Girl who knows of the legend...
+It all lies in your hands...[end]V</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x503</ref>
+        </refs>
+        <data>Valitora...
+Please... leave...
+Please... let me go...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x50e</ref>
+        </refs>
+        <data>I will not leave...
+Time will not come back...
+Be frightened... and suffer...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x57c</ref>
+        </refs>
+        <data>Matelite: The one who reads the minds
+of the Holy Dragons... A door to a new
+era...
+What?! So then that means [character][0x1]
+is...![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x586</ref>
+        </refs>
+        <data>Sendak: A weak-minded person?
+A disaster from the heavens?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5d5</ref>
+        </refs>
+        <data>[character][0x1]: Stop! I don't want to
+know anything![end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x593</ref>
+        </refs>
+        <data>Matelite: Sendak! Why're you always
+thinking so pessimistically![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5a1</ref>
+        </refs>
+        <data>Sendak: I think I understand...
+Sauzer has taken over the world.
+But he knows about the legend.
+He knows that even by taking over the
+world, that isn't all there is. So that is
+why he wants the princess's power...
+No, he wants the power of the Kahna
+family line so he can use it to talk
+with the Holy Dragons...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5aa</ref>
+        </refs>
+        <data>Sendak: But... it does not make sense.
+Why did Sauzer let her go?[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5b7</ref>
+        </refs>
+        <data>Matelite: He was scared of the power
+of [character][0x1] and the Holy Dragons!
+He gave up![end]Q</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5c3</ref>
+        </refs>
+        <data>Queen Campbell: Sauzer is not the kind
+of person to give up on anything...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5e4</ref>
+        </refs>
+        <data>[character][0x1]: ...[character][0x1]. Take me
+with you. I want to go back. It was
+nice together... I want to go back...[end]Q</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5f0</ref>
+        </refs>
+        <data>Queen Campbell: [character][0x1]...
+You can't go back. If it were possible,
+I would want to go back in time, too...
+Back to when I knew nothing...
+Back to when I was a strong girl...
+
+But that is a dream that will never
+come true...[end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x64b</ref>
+        </refs>
+        <data>Joy, Nelbo... Go with those people.
+Help them as much as you possibly can.
+Will you do that for me?[end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x659</ref>
+        </refs>
+        <data>Joy: Of course, if that is Her Majesty's
+wish.[end]N</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x66e</ref>
+        </refs>
+        <data>Nelbo: Your Highness...
+Please take care.[end]Q</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x681</ref>
+        </refs>
+        <data>Queen Campbell: Joy, Nelbo.
+Thank you...
+
+And... oh yes, please tell Sendak that if
+he is looking for the Holy Dragons, he
+should go to the water city of Mahal.[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x699</ref>
+        </refs>
+        <data>I couldn't say it, after all... I'm... the
+weak-minded person... I was the one
+who told Sauzer about the legend...
+I had to in order to save Campbell..
+No, I won't think that I can be
+forgiven...
+The destruction of Kahna... The death
+of King Kahna... And [character][0x1]'s
+pain...
+Oh, what will happen to us now...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6b9</ref>
+        </refs>
+        <data>Sendak: [character][0x1]... The princess
+does not look well. Hurry and see the
+queen.[end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6c0</ref>
+        </refs>
+        <data>Ah... so you're the dragon squad who
+defeated General Zomberd...
+Well done for someone so young.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6c7</ref>
+        </refs>
+        <data>Thank you. Campbell has now returned
+to its former self.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6ce</ref>
+        </refs>
+        <data>The generals and soldiers of the
+Granbelos Empire stayed here.
+Even Emperor Sauzer came.[end]G</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6d5</ref>
+        </refs>
+        <data>General Palpaleos was nice.
+He told me to become a strong man!
+Heheh![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6dc</ref>
+        </refs>
+        <data>I saw Emperor Sauzer before!
+He was cool![end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6e3</ref>
+        </refs>
+        <data>We got used to having Imperial soldiers
+walking around, so now it seems a little
+strange.[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6f1</ref>
+        </refs>
+        <data>Rush: None of those Empire jerks are
+here![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x707</ref>
+        </refs>
+        <data>Truce: We're keeping watch to make
+sure the Imperial Army doesn't come
+back. This was Rush's idea.
+He too has become an excellent soldier.[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x711</ref>
+        </refs>
+        <data>Rush: Stop! You're embarrassing me![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x71c</ref>
+        </refs>
+        <data>Truce: Captain [character][0x1]. Please tell
+me when you want to return to
+[character][0x1].[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x720</ref>
+            <ref>0x73a</ref>
+        </refs>
+        <data>  Stay a little longer
+  Go to [character][0x1][end1]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x736</ref>
+        </refs>
+        <data>I don't think we've ever been to
+Campbell before. Is there anything that
+interests you?[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x75a</ref>
+        </refs>
+        <data>Let's see, the ones still here are...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x781</ref>
+        </refs>
+        <data>Matelite: Huh? Are we going back?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x794</ref>
+        </refs>
+        <data>[character][0x1]: I'm sorry... We came all
+the way to Campbell for nothing...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7c2</ref>
+        </refs>
+        <data>Truce: Captain...[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8c3</ref>
+        </refs>
+        <data>You got a Life Grass.[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8d4</ref>
+        </refs>
+        <data>You got a Sweet Honey.[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8e5</ref>
+        </refs>
+        <data>You got a Poison Mushroom.[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8f6</ref>
+        </refs>
+        <data>You got some Uniuji.[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x907</ref>
+        </refs>
+        <data>You got a HialSP.[end][end]</data>
+    </text>
+</texts>

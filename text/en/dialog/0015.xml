@@ -1,0 +1,372 @@
+<?xml version="1.0" ?>
+<texts base="0xa59" room_id="15">
+    <text>
+        <refs>
+            <ref>0x9e</ref>
+        </refs>
+        <data>              Chapter 15
+    Showdown in the Burning Sands[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc0</ref>
+        </refs>
+        <data>Hornet: [character][0x1] is taking a route
+through a thunderhead and is heading
+for the desert land of Dafila.
+The desert land of Dafila...
+It's hot.. suffocatingly hot...
+A lagoon of sand...[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc8</ref>
+        </refs>
+        <data>We are currently right here on the
+map...[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xcc</ref>
+        </refs>
+        <data>Our journey up to now...
+
+
+While searching for the Holy Dragons
+we've drifted about in the seas of the
+sky...[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf5</ref>
+        </refs>
+        <data>We've made Princess [character][0x1]
+suffer the anger and the sadness of
+the Holy Dragons...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf9</ref>
+        </refs>
+        <data>Tonight, at [character][0x1]'s bar I'm going
+to drink all night while praying...[end]F</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x104</ref>
+        </refs>
+        <data>For Princess [character][0x1]'s sake...
+
+
+She fainted from the anger of the Holy
+Dragons...
+
+Princess [character][0x1]...
+Holy Dragons, why do you suffer?
+What do you find difficult...?
+Is it all... This world of Orelus, with its
+endless days of fighting...
+
+Is it all madness?
+
+
+Is it the same as how I feel...
+The only thing I can have faith in is
+this sky...[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x115</ref>
+        </refs>
+        <data>However...
+I have been saved...
+
+Matelite and the others...
+They're so kind to the point where I
+can't stand it...
+Can their way of living work for me...
+
+
+Since they're here with me...
+I've started to smile...
+
+Don't you think, Sauzer...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x139</ref>
+        </refs>
+        <data>It's just like you...
+This letter...
+
+The sender was you, Emperor Sauzer...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x146</ref>
+        </refs>
+        <data>The contents go like this...
+
+
+The Holy Dragon Jormungand sleeps
+in the deserts of Dafila.
+
+I shall be waiting for you there.
+Come if you dare, Resistance.[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x157</ref>
+        </refs>
+        <data>You don't understand what happened
+then, do you...
+
+At that time too...
+It was like time had stopped...
+It was such a lonely bar...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x198</ref>
+        </refs>
+        <data>Sauzer: I will ask only once more...
+
+
+Take up the sword for me...[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1a4</ref>
+        </refs>
+        <data>Your strength as a Cross Knight is
+needed...
+
+To dominate the world of Orelus...
+
+
+To dominate over the entire sky...[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1af</ref>
+        </refs>
+        <data>Hornet: The entire sky...
+And then what will happen?[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1b9</ref>
+        </refs>
+        <data>The sky will not become anyone's
+possession...
+
+We are embraced by the sky, floating
+aimlessly, with no place to go...
+
+I will never again hold a sword...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1c4</ref>
+        </refs>
+        <data>Sauzer: So you're afraid of fighting,
+huh.[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1cf</ref>
+        </refs>
+        <data>Hornet: Afraid... perhaps.
+
+
+However, Sauzer.
+Putting down swords...
+People living without being hurt...
+To me, that is the most courageous
+decision of all...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1db</ref>
+        </refs>
+        <data>Sauzer: Hornet.
+
+
+Your dream to have a big ship floating
+in the sky...
+
+Let me ride on it someday.
+
+
+And let me fly around my sky...
+
+
+Until that day...
+
+
+...stay alive.[end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x29e</ref>
+        </refs>
+        <data>Zora: Everyone, come here![end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2d0</ref>
+        </refs>
+        <data>Zora: Are you all here?
+
+
+Listen, [character][0x1] doesn't seem to be
+doing very well...[end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2fe</ref>
+        </refs>
+        <data>Even if we go into battle against
+Emperor Sauzer on Dafila, we must let
+her rest!
+Now is an important time...
+
+
+[character][0x1] is enduring the pain of
+a Dragnar. We have to endure too.[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x309</ref>
+        </refs>
+        <data>Okay! Take care of the rest![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x344</ref>
+        </refs>
+        <data>Hornet: Cheer up! We're almost out of
+the thunderhead! Dafila is a desert
+lagoon... It's going to be hot!![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3a0</ref>
+        </refs>
+        <data>Rush: We're leaving the clouds!
+Countdown!
+
+3...
+
+
+2...
+
+
+1...
+
+
+0...
+
+
+!!![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x768</ref>
+        </refs>
+        <data>Matelite: [character][0x1]...
+I couldn't do anything...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x76f</ref>
+        </refs>
+        <data>Sendak: Emperor Sauzer has read the
+mind of a Holy Dragon... So he knows
+where the Holy Dragons reside...
+We will not be able to avoid a battle...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x779</ref>
+        </refs>
+        <data>Taicho: I must clear my head!![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x783</ref>
+        </refs>
+        <data>Hornet: A showdown at last...
+Try your hardest!
+
+Are you going to take off?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x787</ref>
+        </refs>
+        <data>  Not ready
+  Take off![end1]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7cd</ref>
+        </refs>
+        <data>There was something Hornet's boss
+said...
+
+A man of the sky...
+Although he's just a small speck, there
+are times when he can feel it...
+He says when he doesn't want to show
+such weakness he heads for a
+thunderhead...
+At those times... We, the crew, grab a
+book and get some shut-eye...[end]U</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7d6</ref>
+        </refs>
+        <data>Uh, well... It's pretty good pay...
+I sell a lot![end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7da</ref>
+        </refs>
+        <data>  Book Shop
+  Mushroom Shop[end1]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x811</ref>
+        </refs>
+        <data>Rush: A battle in the burning sands!
+It's perfect for a standoff against
+Sauzer![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x81e</ref>
+        </refs>
+        <data>Truce: Can we fight without
+[character][0x1]?
+
+As we are now, we should be prepared
+enough to fight Sauzer, but...[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x82c</ref>
+        </refs>
+        <data>Bikkebakke: [character][0x1]'s room says
+it's off limits to men...
+
+Actually, [character][0x1]... I hired an
+employee for my mushroom shop.
+
+If I don't expand my store I won't
+make much money.[end][end]</data>
+    </text>
+</texts>

@@ -1,0 +1,589 @@
+<?xml version="1.0" ?>
+<texts base="0xaa7" room_id="210">
+    <text>
+        <refs>
+            <ref>0x580</ref>
+        </refs>
+        <data>Come on!![end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x58d</ref>
+        </refs>
+        <data>Okay!! Here's some food!![end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x595</ref>
+        </refs>
+        <data>Okay, okay!![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5ab</ref>
+        </refs>
+        <data>Dragonkeeper: A cute baby was born!!
+Look!![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5b8</ref>
+        </refs>
+        <data>Dragonkeeper: [character][0x1] is scouting
+the skies along with the crew!!
+
+He's following the ball of light that
+came out of the sky.
+
+When he gets back, feed him some
+daggers as a reward![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5c0</ref>
+        </refs>
+        <data>Dragonkeeper: Rush got on [character][0x1]
+and is waiting for you!! Are you going
+for a flight?
+Scouting the sky is [character][0x1]'s duty.[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5ce</ref>
+        </refs>
+        <data>Dragonkeeper: The dragons... they seem
+to have hit puberty! They keep
+growling!!
+It looks like they're excited that
+Princess [character][0x1] has returned!!
+
+Okay!! Food!![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5dc</ref>
+        </refs>
+        <data>Dragonkeeper: Well then, will you go?
+[character][0x1] really loved basking in the
+thunder.[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5ec</ref>
+        </refs>
+        <data>Dragonkeeper: ...... Just be a little more
+patient!![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5f3</ref>
+        </refs>
+        <data>Dragonkeeper: I've been waiting for
+you!! And so have all the dragons!!
+Hurry!! This way![end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x72c</ref>
+            <ref>0x647</ref>
+            <ref>0x837</ref>
+        </refs>
+        <data>Will you buy something?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7a2</ref>
+            <ref>0x7c3</ref>
+            <ref>0x64b</ref>
+            <ref>0x6ad</ref>
+            <ref>0x730</ref>
+            <ref>0x897</ref>
+            <ref>0x83b</ref>
+        </refs>
+        <data>  Yes
+  No[end1]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x65d</ref>
+        </refs>
+        <data>Heehee... I accepted the engagement
+dentures the armor saleslady gave
+me... Hee hee hee...[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x666</ref>
+        </refs>
+        <data>Hee hee hee... Armor saleslady...
+Oh...!! [character][0x1]!![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x66f</ref>
+        </refs>
+        <data>Do you know about the enemy's
+floating fortress, Trafalgar?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x673</ref>
+        </refs>
+        <data>  Please tell me about it.
+  Go shopping[end1]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x67e</ref>
+        </refs>
+        <data>It's terrifying... This is what it looks
+like...[end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x697</ref>
+        </refs>
+        <data>Armor saleslady... Our relationship is
+strictly a professional one...
+I left that out...[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6a0</ref>
+        </refs>
+        <data>Does my face look like a cucumber?
+That's what the Mini-Devils told me...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6a9</ref>
+            <ref>0x893</ref>
+            <ref>0x79e</ref>
+        </refs>
+        <data>In celebration of Princess
+[character][0x1]'s return, I've stocked up
+on some new items!!
+Would you like to see them?[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6b9</ref>
+        </refs>
+        <data>Mmah... dunchus... aah...
+[0x28]My dentures are...[0x29][end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6c2</ref>
+            <ref>0x7e2</ref>
+            <ref>0x8ac</ref>
+        </refs>
+        <data>[character][0x1]'s shop is open every day
+of the year!! Even during rain and
+heavy wind, come by any time![end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6cb</ref>
+        </refs>
+        <data>Welcome!! I'm the weapon salesman!![end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6cf</ref>
+        </refs>
+        <data>  Go shopping
+  I wanna hear classified secrets.[end1]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6dc</ref>
+        </refs>
+        <data>Heehee... I really don't want to tell you
+any, so it's gonna cost you. I'll let you
+have this one for free, though!!
+Please listen well!! You already know
+there are elements in magic, like fire,
+water and thunder.
+But, well... based on the element you
+use to defeat the enemy, the items
+and weapons you receive will change.
+If you use fire, you will win fire
+elemental items...
+
+If you use water, you will win water
+elemental items...
+
+If you use this knowledge well you can
+save a lot of money! And you can also
+gather food for the dragons quicker!
+Anyway, that's useful information for
+you to keep in mind.[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x754</ref>
+        </refs>
+        <data>It's a message from the Mini-Devils.
+
+
+Monyoo! Manyoo! Munyooo!
+[0x28]We're Mini-Devils!! When we die we'll
+die together!![0x29][end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x771</ref>
+        </refs>
+        <data>I was kicked out, even though it's my
+own shop...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x77a</ref>
+        </refs>
+        <data>I feel so ashamed...
+Even at the best of times it's such a
+small store...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x783</ref>
+        </refs>
+        <data>The Mini-Devils were practicing
+breathing fire... I have a bad feeling
+about this...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x78c</ref>
+        </refs>
+        <data>It sure is nice and quiet when the
+Mini-Devils aren't around.[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x795</ref>
+        </refs>
+        <data>Be quiet, Mini-Devils...
+Ah, welcome!![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7b2</ref>
+        </refs>
+        <data>I have a letter from my salesmen
+colleague for you, [character][0x1].[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7b8</ref>
+        </refs>
+        <data>You got a Letter. Will you read it?[end][0x28]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7d2</ref>
+        </refs>
+        <data>[0x28]Abbreviated...[0x29] To [character][0x1],
+It's all very sudden, but we got
+married.
+From now on we will work very hard
+together.
+      Wife of the battlefield salesman[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7d9</ref>
+            <ref>0x7eb</ref>
+        </refs>
+        <data>Welcome to the item shop!![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x84b</ref>
+        </refs>
+        <data>If the war ends we're going to open
+up a small shop. Maybe a book shop
+would be nice...
+I can have him write books or
+something. I want to let the people of
+Orelus know about you, [character][0x1].[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x856</ref>
+        </refs>
+        <data>We're going to support each other.
+Okay, do shopping for the peace of
+Orelus!![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x85f</ref>
+        </refs>
+        <data>The weapon shop man... I don't like
+him. The nature of his business is
+military affairs.[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x868</ref>
+        </refs>
+        <data>Recently Matelite has been coming by
+to ask things about business.
+Could he be in love with me...?
+But... he's a knight and I'm just a
+shopkeeper...[end]U</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x871</ref>
+        </refs>
+        <data>Umm... about my armor...
+What do you think of it?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x875</ref>
+        </refs>
+        <data>  It's not bad.
+  It breaks all the time!!
+  Go shopping[end1]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x882</ref>
+        </refs>
+        <data>You're very flattering!![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x88a</ref>
+        </refs>
+        <data>I see... I guess so...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8a3</ref>
+            <ref>0x8b5</ref>
+        </refs>
+        <data>This is the armor shop!!
+Please buy something...[end]U</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8b9</ref>
+        </refs>
+        <data>Uh... No matter where you go, you
+can't run around naked. So, uh... please
+buy equipment from my shop.[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8d7</ref>
+        </refs>
+        <data>Monyo monyo...
+[0x28]If I eat a dragon will it taste
+good...?[0x29][end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8e1</ref>
+        </refs>
+        <data>Monyo monyo!!
+[0x28]Yay!![0x29][end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8eb</ref>
+        </refs>
+        <data>Monyoo!!
+[0x28]For a human, [character][0x1] is okay!![0x29][end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8f5</ref>
+        </refs>
+        <data>Monyoo!!
+[0x28]Mini-Devils aren't afraid of thunder!![0x29][end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8fc</ref>
+        </refs>
+        <data>Monyoo!!
+[0x28]Study hard and hurry and become
+like us!![0x29][end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x918</ref>
+        </refs>
+        <data>Manyoo!!
+[0x28]Even Mini-Devils could win against that
+girl!![0x29][end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x922</ref>
+        </refs>
+        <data>Manyomanyo!!
+[0x28]Kick kick!![0x29][end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x92c</ref>
+        </refs>
+        <data>Manyomanyo...
+[0x28]She's quite above average if I
+do say so myself...[0x29][end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x936</ref>
+        </refs>
+        <data>Manyoo!!
+[0x28]I want to do this all day...[0x29][end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x93d</ref>
+        </refs>
+        <data>Manyoo!!
+[0x28]Mini-Devils dance, so we don't need
+weapons or armor!![0x29][end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x951</ref>
+        </refs>
+        <data>Munyoo!!
+[0x28]If you make them eat Gross
+Mushrooms they'll act weird!![0x29][end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x95b</ref>
+        </refs>
+        <data>Munyoo!!
+[0x28]Don't pretend to be a kid!![0x29][end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x965</ref>
+        </refs>
+        <data>Munyoo!!
+[0x28]I'm a Mini-Devil, so I'm not gloomy at
+all!![0x29][end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x979</ref>
+        </refs>
+        <data>Wagahai: It's okay that they're thieves,
+but now they can't get out...
+
+Oh, the ambitions of the Mini-Devil
+Empire...[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x980</ref>
+        </refs>
+        <data>Wagahai: Ever since the Mini-Devil
+Revolution these ones have been a real
+nightmare.
+No, no, I'm glad I'm being kicked.[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x987</ref>
+        </refs>
+        <data>Wagahai: What pitiful figures the
+Mini-Devil soldiers who live in darkness
+are...[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x997</ref>
+        </refs>
+        <data>Crew member: Thanks for earlier. As a
+reward, I will tell you about my dream.
+Someday, I want to become a dragon.
+I promised [character][0x1] I would, but
+will the day when it comes true ever
+come...?[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x99e</ref>
+        </refs>
+        <data>Crew member: It seems you've helped
+one of my friends... Hmph!! Go quickly!!
+
+Someday he will become a dragon and
+return... I get that feeling!![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9b9</ref>
+        </refs>
+        <data>Sajin: This is comfortable.
+And nobody will find me here...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9bf</ref>
+        </refs>
+        <data>Sajin: Leave that job to me...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9c5</ref>
+        </refs>
+        <data>Sajin: You hired us for one person...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9cb</ref>
+        </refs>
+        <data>Sajin: This profession is dirty... 
+I wash my hands of it... I quit...[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9e3</ref>
+        </refs>
+        <data>Zeroshin: Mom... I'm on a ship now.
+I can't make any friends... First I must
+practice my warm greetings.[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9e9</ref>
+        </refs>
+        <data>Zeroshin: Mom... How are you?
+I can't make any friends...
+Today I'm practicing smiling by myself.[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9ef</ref>
+        </refs>
+        <data>Zeroshin: Mom... How are you?
+I'm all alone... I don't talk to Sajin
+about anything but work.
+It's so lonely all by myself...[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9f5</ref>
+        </refs>
+        <data>Zeroshin: Mom... I'm coming home soon.
+I couldn't make any friends...
+
+When the war ends I think I'll just
+stay in my room even more.[end][end]</data>
+    </text>
+</texts>

@@ -1,0 +1,120 @@
+<?xml version="1.0" ?>
+<texts base="0x17b" room_id="243">
+    <text>
+        <refs>
+            <ref>0x9e</ref>
+        </refs>
+        <data>[character][0x1]! Are you really giving this
+house to us?[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xaa</ref>
+        </refs>
+        <data>Matelite told us about it...
+Is it true?[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb6</ref>
+        </refs>
+        <data>This sure brings back memories...
+When you think about it, this house
+was at the beginning of it all.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc4</ref>
+        </refs>
+        <data>Taicho, Zora... Lots of people escaped
+the war and gathered here...[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xcd</ref>
+        </refs>
+        <data>We... Until we met you, [character][0x1], we
+were like stray dogs...
+
+But...[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd7</ref>
+        </refs>
+        <data>What do you mean, [0x24]but[0x22]?[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe5</ref>
+        </refs>
+        <data>It's nothing...[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xef</ref>
+        </refs>
+        <data>Bikkebakke...[end]N</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xfd</ref>
+        </refs>
+        <data>N-nothing, it's just... I was just
+wondering if we've become adults...
+
+Then I remembered the fun times...
+And the difficult times...[end].</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x107</ref>
+        </refs>
+        <data>...A lot happened, didn't it?[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x111</ref>
+        </refs>
+        <data>Stop it... Don't say things like that!
+You're gonna start crying...[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x11b</ref>
+        </refs>
+        <data>But, I...[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x124</ref>
+        </refs>
+        <data>But I've been holding back my tears all
+this time...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x141</ref>
+        </refs>
+        <data>[character][0x1]...
+Thank you...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x153</ref>
+        </refs>
+        <data>[character][0x1]![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x165</ref>
+        </refs>
+        <data>Captain [character][0x1]!![end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x177</ref>
+        </refs>
+        <data>        [character][0x1]... I'm gldl we meu...[end][end]</data>
+    </text>
+</texts>

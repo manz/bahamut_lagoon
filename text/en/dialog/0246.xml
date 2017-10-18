@@ -1,0 +1,166 @@
+<?xml version="1.0" ?>
+<texts base="0x356" room_id="246">
+    <text>
+        <refs>
+            <ref>0x159</ref>
+        </refs>
+        <data>                Donfan![end1]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1ab</ref>
+        </refs>
+        <data>Donfan: What is it, Lukia?[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1b7</ref>
+        </refs>
+        <data>Lukia: It's finally been decided...![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1d0</ref>
+        </refs>
+        <data>Donfan: Decided?[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1ea</ref>
+        </refs>
+        <data>Do you perchance mean the new king
+of Mahal has been decided!?[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1f4</ref>
+        </refs>
+        <data>Lukia: Yeah! Listen! Don't be surprised
+now![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x255</ref>
+        </refs>
+        <data>Donfan: Really!?[end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1fa</ref>
+        </refs>
+        <data>Donfan: Who...?
+You don't mean...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x20a</ref>
+        </refs>
+        <data>I, the pure-hearted and serious
+Donfan!?[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x237</ref>
+        </refs>
+        <data>Lukia: No! It's Taicho!
+Taicho's the king![end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x264</ref>
+        </refs>
+        <data>Lukia: Yeah! It looks like he finally
+gave in to Gunso's persuasion![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x26e</ref>
+        </refs>
+        <data>Donfan: Ah ha ha! 'Tis just like Taicho
+to be unable to say no to a person's
+request![end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x27f</ref>
+        </refs>
+        <data>Lukia: Okay, let's go to Mahal Palace!
+Jeanne is waiting too![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x28d</ref>
+        </refs>
+        <data>Donfan: Oh![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2c2</ref>
+        </refs>
+        <data>Taicho: Gunso... why do you want me to
+be king?[end]G</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2cc</ref>
+        </refs>
+        <data>Gunso: Because you are the only one I
+can think of as being the new king,
+Taicho![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2d2</ref>
+        </refs>
+        <data>Taicho: I am the man who could not
+protect Mahal long ago...
+
+I am not certain if everyone will agree
+or not...[end]G</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2e4</ref>
+        </refs>
+        <data>Gunso: What are you talking about?
+Taicho! You will always be our leader![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2f1</ref>
+        </refs>
+        <data>Taicho: ......!![end]G</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2fa</ref>
+        </refs>
+        <data>Gunso: ...I am truly glad I have
+followed you this far...[end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x32e</ref>
+        </refs>
+        <data>Jeanne: I think so too![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x33a</ref>
+        </refs>
+        <data>Donfan: The pure-hearted and serious
+Donfan also thinks so![end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x346</ref>
+        </refs>
+        <data>Lukia: Me too![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x352</ref>
+        </refs>
+        <data>Taicho: Everyone...[end][end]</data>
+    </text>
+</texts>

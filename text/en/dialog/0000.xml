@@ -1,0 +1,308 @@
+<?xml version="1.0" ?>
+<texts base="0xc0b" room_id="0">
+    <text>
+        <refs>
+            <ref>0x7e</ref>
+        </refs>
+        <data>                Prologue
+     The Downfall of Kahna Castle[end]K</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x95</ref>
+        </refs>
+        <data>King Kahna: Bahamut... Is this how
+things are to be?
+
+I am unable to awaken you... Does the
+fate of Kahna lie in destruction?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x160</ref>
+        </refs>
+        <data>          Kahna Dragon Squad
+              Sky Fortress[end1]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x184</ref>
+        </refs>
+        <data>Rush: Let's go!![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x191</ref>
+        </refs>
+        <data>Truce: Captain! Give the order to
+attack![end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1ae</ref>
+        </refs>
+        <data>    The dragon-loving Cross Knight
+ and captain of Kahna's Dragon Squad[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3fa</ref>
+        </refs>
+        <data>Truce: If we, Kahna's Dragon Squad,
+don't stop the Empire...
+
+Emperor Sauzer's world domination
+will be realized. We must not lose![end]K</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x558</ref>
+        </refs>
+        <data>King Kahna: Daughter...
+Can you sense Bahamut?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x571</ref>
+        </refs>
+        <data>         The princess of Kahna,
+   who speaks with the Holy Dragons
+   and holds the power of a Dragnar[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5c4</ref>
+        </refs>
+        <data>[character][0x1]: Father...[end]K</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5d3</ref>
+        </refs>
+        <data>King Kahna: [character][0x1]... Can you...
+sense Bahamut's thoughts?[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x604</ref>
+        </refs>
+        <data>We must return to the castle!!![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x640</ref>
+        </refs>
+        <data>[character][0x1]: Bahamut...
+Protect Kahna...
+
+Protect [character][0x1]...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6ec</ref>
+        </refs>
+        <data>Mist: The Empire is attacking![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6fa</ref>
+        </refs>
+        <data>Matelite: What is that Dragon Squad
+doing?![end]K</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x71b</ref>
+            <ref>0x703</ref>
+        </refs>
+        <data>King Kahna: .........[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x712</ref>
+        </refs>
+        <data>Mist: Sire! What happened with Bahamut,
+Kahna's guardian dragon?[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x72f</ref>
+        </refs>
+        <data>Sendak: The Holy Dragons must
+awaken. Without Bahamut we are lost...[end]K</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x740</ref>
+        </refs>
+        <data>King Kahna: That is not so. We still
+have [character][0x1] and his Dragon
+Squad...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x74f</ref>
+        </refs>
+        <data>[character][0x1]...[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x982</ref>
+            <ref>0x76b</ref>
+        </refs>
+        <data>Rush: We're late!![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x957</ref>
+        </refs>
+        <data>Rush: We have to protect Kahna Castle!
+Before we attack, choose a name for
+the dragons![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x975</ref>
+        </refs>
+        <data>Rush: Okay! Let's go![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x990</ref>
+        </refs>
+        <data>Truce: We can't lose this final battle
+with the Granbelos Empire!
+
+Captain [character][0x1]!! Shouldn't you go
+over the details once more before we
+attack?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x998</ref>
+        </refs>
+        <data>  About commanding dragons
+  About the stained sky
+  No need.[end1] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9a3</ref>
+        </refs>
+        <data>  About commanding dragons
+  No need.[end1]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9ad</ref>
+        </refs>
+        <data>Truce: That day, when the Granbelos
+Empire invaded...[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9c8</ref>
+        </refs>
+        <data>Dragons move according to three
+commands.
+
+[0x24]Go[0x22] will direct them to attack an
+enemy.
+
+[0x24]Come[0x22] will make them return to you
+and attack nearby enemies.
+
+[0x24]Wait[0x22] will make them return to you
+and heal you or rest.[end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9ce</ref>
+        </refs>
+        <data>An advance party has already headed
+to the enemy's sky fortress to hold
+them off.
+We must hurry to Kahna Castle.
+Captain [character][0x1], please get on
+your dragon.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9ec</ref>
+        </refs>
+        <data>Truce: Hurry, report to the king![end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9f7</ref>
+        </refs>
+        <data>Bikkebakke: Wanna hear some popular
+names?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9fb</ref>
+        </refs>
+        <data>  Yes
+  No[end1]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa03</ref>
+        </refs>
+        <data>P-please don't make fun of my name.
+I'm Bikkebakke.[end]N</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa11</ref>
+        </refs>
+        <data>No. 1...Salamander
+No. 2...Spot
+No. 3...Dave
+No. 4...The name of a girl you like[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa1e</ref>
+        </refs>
+        <data>Bikkebakke: There're tons of enemies
+outside!! Hurry up!![end]G</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb46</ref>
+            <ref>0xafe</ref>
+            <ref>0xa2e</ref>
+        </refs>
+        <data>Give this dragon a name.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb18</ref>
+        </refs>
+        <data>Truce: I'm nervous...[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb60</ref>
+        </refs>
+        <data>Rush: Ready to go at any time![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xbc7</ref>
+        </refs>
+        <data>Truce: The enemy's sky fortress was
+just a decoy. And we fell for it. We
+should've known...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xbde</ref>
+        </refs>
+        <data>Matelite: We don't need any of your
+excuses!! Follow me! We'll hold the
+enemy at the gates![end][end]</data>
+    </text>
+</texts>

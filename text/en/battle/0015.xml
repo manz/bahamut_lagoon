@@ -1,0 +1,148 @@
+<?xml version="1.0" ?>
+<texts base="0x133" room_id="15">
+    <text>
+        <refs>
+            <ref>0x2c</ref>
+        </refs>
+        <data>Matelite: Sauzer!![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x39</ref>
+        </refs>
+        <data>Taicho: Look! It is Palpaleos!![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4a</ref>
+        </refs>
+        <data>Matelite: Everyone, listen up!
+No faltering!![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4e</ref>
+        </refs>
+        <data>Things aren't like they used to be...[end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x59</ref>
+        </refs>
+        <data>Taicho: We will bring this to a
+conclusion,[0xfc][0x1] right here![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x64</ref>
+        </refs>
+        <data>Matelite: Princess [character][0x1]...[0xfc][0x1]
+Please watch over us...[end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6b</ref>
+        </refs>
+        <data>Sauzer: Members of the Resistance,[0xfc][0x1]
+this has indeed been a lengthy war...[end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6f</ref>
+        </refs>
+        <data>But it will carry on no longer.
+It ends right here![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x73</ref>
+        </refs>
+        <data>This I swear, upon my sword.[end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x77</ref>
+        </refs>
+        <data>I must stop you.[0xfc][0x1] For I am the one who
+will fulfill the legend!![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7e</ref>
+        </refs>
+        <data>Palpaleos: ...She isn't here?[0xfc][0x1]
+[character][0x1]......[end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x84</ref>
+        </refs>
+        <data>Sauzer: ...Princess [character][0x1]...[0xfc][0x1]
+How ironic...[end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x88</ref>
+        </refs>
+        <data>...That we both fell ill to the same
+sickness...[end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8c</ref>
+        </refs>
+        <data>Yet I am the only one able to conquer
+the menacing thoughts of the Holy
+Dragons...[end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x97</ref>
+        </refs>
+        <data>Matelite: Prepare to attack!![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa2</ref>
+        </refs>
+        <data>Sendak: Occasionally there will be
+sandstorms,[0xfc][0x1] thus it is imperative that
+we keep watch for them.[end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa6</ref>
+        </refs>
+        <data>And we must watch out for Sauzer and
+Palpaleos, too, of course.[end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb0</ref>
+        </refs>
+        <data>“Condition for Victory:”[0xfc][0x1]
+“Defeat of Sauzer”[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x116</ref>
+        </refs>
+        <data>Matelite: We've defeated Sauzer...[0xfc][0x1][end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x121</ref>
+        </refs>
+        <data>Taicho: Sir Matelite!![0xfc][0x1]
+We are victorious!![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x129</ref>
+        </refs>
+        <data>Alright, let's head for that town.[0xfc][0x1]
+We need to find the Holy Dragon for
+Princess [character][0x1].[end1][end]</data>
+    </text>
+</texts>

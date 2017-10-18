@@ -1,0 +1,332 @@
+<?xml version="1.0" ?>
+<texts base="0xdea" room_id="47">
+    <text>
+        <refs>
+            <ref>0x5d</ref>
+        </refs>
+        <data>Rush: [character][0x1]... wake up!
+You felt it at Dafila, didn't you?
+From now on this is our time.[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6f</ref>
+        </refs>
+        <data>We can't leave it up to all the adults
+like Matelite... You know?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x73</ref>
+        </refs>
+        <data>  That's right...
+  I dunno...[end1]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8c</ref>
+        </refs>
+        <data>Do you really understand... Our time...
+We have to make it change...
+
+Even [character][0x1] would think that's
+the best way.[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa5</ref>
+        </refs>
+        <data>Looks like you still don't get it...
+I thought about it hard in my own way.
+Doing this is for the best.
+Our time... We're going to change it.
+Even [character][0x1] understands...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xfd</ref>
+        </refs>
+        <data>Manyooo!
+[0x28]We told him![0x29][end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x109</ref>
+        </refs>
+        <data>Manyooo!
+[0x28]I won't say that I want a tip or
+anything![0x29][end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x115</ref>
+        </refs>
+        <data>Munyoo!!
+[0x28]Matelite and the others are scared
+out of their wits![0x29][end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x127</ref>
+        </refs>
+        <data>Monyoo!
+[0x28]Okay! We'll have our own Mini-Devil
+Revolution now![0x29][end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x13d</ref>
+        </refs>
+        <data>Manyoo!
+[0x28]No being jealous and acting like
+us!![0x29][end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x189</ref>
+        </refs>
+        <data>Munyooo!
+[0x28]Even Mini-Devils have ideas too![0x29][end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1b4</ref>
+        </refs>
+        <data>[character][0x1]... You're gonna be
+accompanying us for a little while![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1f3</ref>
+        </refs>
+        <data>Matelite: Hey, you! What do you think
+you're doing! Open this door up now![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x204</ref>
+            <ref>0x246</ref>
+        </refs>
+        <data>Rush: You think we're gonna open it?
+Hah![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x235</ref>
+        </refs>
+        <data>Matelite: Do you guys know what
+happens when someone insults me!![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x27e</ref>
+        </refs>
+        <data>Rush: Okay, we're done shopping...
+I guess we should let him in...
+Don't you think so too, Truce?[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x291</ref>
+        </refs>
+        <data>Truce: ......[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x34a</ref>
+        </refs>
+        <data>Rush: Listen up! I'm gonna be the one
+feeding you! Get in line![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3ba</ref>
+        </refs>
+        <data>Rush: Gimme some advice here,
+[character][0x1]![end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x574</ref>
+            <ref>0x486</ref>
+        </refs>
+        <data>All done![end]N</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4ae</ref>
+            <ref>0x526</ref>
+        </refs>
+        <data>Next, please![end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4d6</ref>
+        </refs>
+        <data>Okay![end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc18</ref>
+            <ref>0xbe2</ref>
+            <ref>0x4fe</ref>
+        </refs>
+        <data>Okay, on to the next one![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x580</ref>
+        </refs>
+        <data>This way I'll have no regrets...
+
+
+Okay! Let's go talk to Matelite![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x85d</ref>
+        </refs>
+        <data>Taicho: [character][0x1] is...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x88b</ref>
+        </refs>
+        <data>[character][0x1]...!![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8a2</ref>
+        </refs>
+        <data>[character][0x1]: The door will open...
+
+
+The Holy Dragons are trying to
+open the door to a new era...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8b8</ref>
+        </refs>
+        <data>Truce: The door to a new era...?!
+What in the world is happening?[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8ff</ref>
+        </refs>
+        <data>Matelite: [character][0x1]... we can talk
+later. For now we must protect
+[character][0x1]!![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x917</ref>
+        </refs>
+        <data>Here we go! [character][0x1]!! Rush!!
+Follow me![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x92d</ref>
+        </refs>
+        <data>Rush: Matelite... I...[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb8a</ref>
+        </refs>
+        <data>Rush: Hey! Come here![end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xba1</ref>
+        </refs>
+        <data>Oh yeah... I've always wanted to do
+this at least once![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xbba</ref>
+        </refs>
+        <data>Shopping!! [character][0x1]... I'll let you
+choose the goods. This might be your
+last time to buy anything!
+I might become the leader, you see...
+So don't hold back on your spending![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc37</ref>
+        </refs>
+        <data>Matelite: I... I've only been thinking
+about [character][0x1] when fighting...
+
+I can't help it if you guys have bad
+things to say...
+
+But right now, [character][0x1]'s...[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc5b</ref>
+        </refs>
+        <data>Rush: Do you really think I'll open it
+up for you?! Okay, time for shopping...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc64</ref>
+        </refs>
+        <data>Matelite: I can't do a thing...
+Even though [character][0x1] is suffering...
+
+Come on, [character][0x1]... Rush...
+At least let me be by your side...[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc9d</ref>
+        </refs>
+        <data>Rush: No... wait... Matelite might be
+trying to trick us by pretending to cry!
+
+A new era...!! I've decided I'm going
+to live full of vigor!
+
+I still have to take care of one more
+thing...[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xcc7</ref>
+        </refs>
+        <data>Rush: Feeding the dragons to their
+hearts' content...!![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xdd3</ref>
+        </refs>
+        <data>Truce: I don't think this method is very
+good...
+
+Please try to put up with it, Captain
+[character][0x1]...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xdda</ref>
+        </refs>
+        <data>Truce: [character][0x1]... For [character][0x1]'s
+sake we're...[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xde1</ref>
+        </refs>
+        <data>Bikkebakke: That's out of the
+question. I can't trust anybody
+anymore...[end][end]</data>
+    </text>
+</texts>

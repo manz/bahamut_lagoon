@@ -1,0 +1,153 @@
+<?xml version="1.0" ?>
+<texts base="0x5f4" room_id="13">
+    <text>
+        <refs>
+            <ref>0x7c</ref>
+        </refs>
+        <data>Matelite: Hmm... It seems we've made it
+to Mahal.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x90</ref>
+        </refs>
+        <data>Taicho: Let us hurry and take off![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb1</ref>
+        </refs>
+        <data>Sendak: Taicho seems quite anxious...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc7</ref>
+        </refs>
+        <data>Matelite: I can't blame him...
+Mahal was also destroyed by the
+Empire...
+And Taicho was known as the finest
+soldier there...
+
+Kahna's best soldier...
+Hey, then he's the same as me!
+His pain is the same as mine![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd3</ref>
+        </refs>
+        <data>Sendak: Yes, yes... When the Empire
+attacked Mahal they fought dirty...
+
+What should we do, [character][0x1]...?
+We might have to fight dirty too...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xdc</ref>
+        </refs>
+        <data>Matelite: What are you saying, Master
+Sendak!![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xfb</ref>
+        </refs>
+        <data>I'm getting on a dragon now![end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xed</ref>
+        </refs>
+        <data>Even if they fight dirty, we must fight
+fairly! That is what it is to be a knight![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x10d</ref>
+        </refs>
+        <data>Sendak: [character][0x1]...
+
+
+We do not know how to fight dirty...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x243</ref>
+        </refs>
+        <data>Truce: Captain [character][0x1]!! I've come
+up with a plan for Mahal. Would you
+like to hear it?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x247</ref>
+        </refs>
+        <data>  Listen
+  Don't listen[end1]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x251</ref>
+        </refs>
+        <data>I... I see... Even though I stayed up all
+night working on it...[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x259</ref>
+        </refs>
+        <data>Let's take a look at a map of Mahal.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x270</ref>
+        </refs>
+        <data>Truce: An excellent plan don't you
+think?! A piece of cake, right?![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x28e</ref>
+        </refs>
+        <data>Sendak: Well, [character][0x1]. Shall we go?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x292</ref>
+        </refs>
+        <data>  Wait
+  Let's go![end1]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3be</ref>
+        </refs>
+        <data>Since you're about to take off, will you
+buy something?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x549</ref>
+            <ref>0x3c2</ref>
+        </refs>
+        <data>  Weapons
+  Armor
+  Items[end1]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x59c</ref>
+            <ref>0x42c</ref>
+        </refs>
+        <data>Thank you.[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x545</ref>
+        </refs>
+        <data>It seems everyone else is already on a
+dragon now. Will you buy something?[end][end]</data>
+    </text>
+</texts>

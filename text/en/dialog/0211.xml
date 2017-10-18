@@ -1,0 +1,383 @@
+<?xml version="1.0" ?>
+<texts base="0xdc5" room_id="211">
+    <text>
+        <refs>
+            <ref>0x537</ref>
+        </refs>
+        <data>Dragonkeeper: Altair, the homeland of
+the Holy Dragons... Where the dragons
+will return to... Always warm...
+They will go kindly...
+The land of unchanging memories...[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x566</ref>
+        </refs>
+        <data>Dragonkeeper: [character][0x1]... The skies
+of Orelus... Beneath the clouds,
+continuing forever, lies another world.
+Protecting you... The world of people
+constantly watching over you...
+
+The hole in the sky... The war of the
+Holy Dragons... It isn't a threat to only
+the world of Orelus...
+Beneath the clouds... The dreams of all
+living things... The strength of their
+hearts...
+[character][0x1]... The feeling of reaching
+beyond the sky... I can feel it
+throughout my entire body...[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x573</ref>
+        </refs>
+        <data>Dragonkeeper: The sky speaks to you...
+[character][0x1]... Be strong... Don't be
+worried. Keep believing...[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x582</ref>
+        </refs>
+        <data>Hornet let me go to the stern of the
+ship since a baby was born!! It's
+because he's the father...[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x586</ref>
+        </refs>
+        <data>  Father...?
+  Hmmm...[end1]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x591</ref>
+            <ref>0xab2</ref>
+        </refs>
+        <data>The first person a dragon baby sees
+becomes its human father!!
+
+Of course, I had thought you would be
+the father, [character][0x1]...
+
+But since you're the second person,
+that makes you the mother...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x59c</ref>
+        </refs>
+        <data>I remember when [character][0x1] was just
+a dragon pup... I was his father...
+
+As I didn't have any children of my
+own, I took special care of
+[character][0x1].
+Everybody has been calling me the
+Dragonkeeper ever since...[end][0x2a]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5ae</ref>
+        </refs>
+        <data>[0x2a]sigh[0x2a] Soon it will be the season for
+love... It's going to be tough...[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5bd</ref>
+        </refs>
+        <data>Dragonkeeper: It's a message from the
+wind... Listen closely, [character][0x1].
+Listen to the voice of the wind...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5c5</ref>
+        </refs>
+        <data>It says that in Campbell a captain of
+a dragon squad is waiting for you...[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5d2</ref>
+        </refs>
+        <data>  Wait!!
+  Let's go!![end1] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd5b</ref>
+            <ref>0xb6c</ref>
+            <ref>0x60f</ref>
+        </refs>
+        <data>  Yes
+  No[end1][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5ce</ref>
+        </refs>
+        <data>That's right... Hornet jumped down a
+bit earlier and told me. Are you going
+to take off from here?[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x60b</ref>
+        </refs>
+        <data>Dragonkeeper: Are you going back
+inside?[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x681</ref>
+        </refs>
+        <data>Rush: Let's sneak onto the terrace with
+[character][0x1]!! Well, you gonna get on?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x685</ref>
+        </refs>
+        <data>  Get on
+  Feed
+  Pass[end1]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x68f</ref>
+        </refs>
+        <data>This is the only way!! Aren't you
+worried about [character][0x1]?![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x98f</ref>
+        </refs>
+        <data>Dragonkeeper: That's dangerous...
+Don't startle them like that...[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9a1</ref>
+        </refs>
+        <data>Look!! He's not scary... Ouch...!! He bit
+me...!![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9ba</ref>
+        </refs>
+        <data>Don't worry!! He's not scary...
+[character][0x1]'s nice...[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa11</ref>
+        </refs>
+        <data>Dragonkeeper: Okay, [character][0x1]. Try
+calling to him!![end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa15</ref>
+        </refs>
+        <data>  Go!
+  Come!
+  Wait![end1]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xab6</ref>
+        </refs>
+        <data>Okay then. Be nice to it!![end]G</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xad6</ref>
+        </refs>
+        <data>Give this child a name.[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xafd</ref>
+        </refs>
+        <data>You found some Dragon Dung.[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb5d</ref>
+        </refs>
+        <data>   The Legend of the Dragon Dung...
+The one who eats the dung shall open
+ the door to memories of the future...[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb68</ref>
+        </refs>
+        <data>Will you taste some?[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xbea</ref>
+        </refs>
+        <data>You became a Dragonkeeper.[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc04</ref>
+        </refs>
+        <data>                [character][0x1]...[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc2c</ref>
+        </refs>
+        <data>             I am Bahamut...
+
+
+                 [character][0x1]...
+            I shall show you
+        memories of the future...[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc61</ref>
+        </refs>
+        <data>         The skies of Orelus...
+    All the lagoons have been lost...
+ The era of humans comes to an end...[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc67</ref>
+        </refs>
+        <data>     The future... I desire to fly...
+While protecting the lagoons of Orelus...
+     While protecting the humans...
+                [character][0x1]...
+ I shall take you through these skies...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xcf6</ref>
+        </refs>
+        <data>Two presents are hanging from the
+end of the statue. They look like
+they're about to fall.
+One present is from Hornet, the other
+is from the crew. Which one will you
+choose?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xcfa</ref>
+        </refs>
+        <data>  Hornet's present
+  The crew's present[end1]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd20</ref>
+            <ref>0xd04</ref>
+        </refs>
+        <data>The other present disappeared into the
+sky...[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd0c</ref>
+        </refs>
+        <data>Hornet's message: Congratulations on
+the revival of Kahna!! [character][0x1],
+protect the skies of Orelus!!
+P.S. Don't tell the crew that I gave you
+a present![end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd12</ref>
+        </refs>
+        <data>You got a Scharnhorst [0x28]Ultimate Cross
+Knight sword[0x29], a Dreadnaught, and a
+Dillinger.[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd28</ref>
+        </refs>
+        <data>Message from the crew:
+Congratulations on the revival of
+Kahna.
+We, the crew are also praying for
+peace in Orelus. We spent up all of
+our money. [character][0x1], keep at it!![end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd2e</ref>
+        </refs>
+        <data>You got a Destroyer, 2 Kaiser Blades,
+2 Martial Nays, a Prinzeugen, and an
+XXX Porno Mag.[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd53</ref>
+        </refs>
+        <data>Bikkebakke's dream mushroom patch.
+No picking!
+                          Bikkebakke[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd57</ref>
+        </refs>
+        <data>Steal one of Bikkebakke's mushrooms?[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd75</ref>
+        </refs>
+        <data>You got a Poisonous Mushroom.[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd8a</ref>
+        </refs>
+        <data>You got a Gross Mushroom.[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd9f</ref>
+        </refs>
+        <data>You got a Horrible Mushroom.[end][0x28]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xdaf</ref>
+        </refs>
+        <data>[0x28]Bikkebakke's serious look came to
+[character][0x1]'s mind...[0x29][end][0x28]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xdb8</ref>
+        </refs>
+        <data>[0x28]Bikkebakke's lonely look came to
+[character][0x1]'s mind...[0x29][end][0x28]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xdc1</ref>
+        </refs>
+        <data>[0x28]Bikkebakke's innocent eace came to
+[character][0x1]'s mind...[0x29][end][end]</data>
+    </text>
+</texts>

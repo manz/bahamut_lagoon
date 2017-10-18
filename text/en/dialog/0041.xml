@@ -1,0 +1,286 @@
+<?xml version="1.0" ?>
+<texts base="0x6d8" room_id="41">
+    <text>
+        <refs>
+            <ref>0x83</ref>
+        </refs>
+        <data>Matelite: What's with this fancy door?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9f</ref>
+        </refs>
+        <data>[character][0x1]: Oh![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xac</ref>
+        </refs>
+        <data>Sendak: Are you all right, Princess?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb9</ref>
+        </refs>
+        <data>[character][0x1]: There is... a Holy Dragon...
+Ahead, on the other side of the door...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xcb</ref>
+        </refs>
+        <data>Matelite: Okay! Now it's our turn!
+Let's go, Taicho![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd4</ref>
+        </refs>
+        <data>Taicho: Affirmative![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf8</ref>
+        </refs>
+        <data>Taicho: It is too hard! We cannot even
+scratch it![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x108</ref>
+        </refs>
+        <data>Matelite: Hmmm... If this gets out, the
+title of Royal Guard will become
+obsolete.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x111</ref>
+        </refs>
+        <data>Sendak: It is no use with brute
+strength alone...
+
+If indeed this is a doorway to a Holy
+Dragon, there is no way we can pry
+our way inside![end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x122</ref>
+        </refs>
+        <data>Only the one with the power of a
+Dragnar can open it...
+
+Okay, Princess...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x128</ref>
+        </refs>
+        <data>[character][0x1]: Okay. Let me try.[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1ea</ref>
+        </refs>
+        <data>Matelite: What? What's going on?![end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x15e</ref>
+        </refs>
+        <data>Matelite: Oh! It wouldn't even budge
+when we tried, but now it's...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x16a</ref>
+        </refs>
+        <data>Taicho: Is there truly a Holy Dragon
+inside?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x179</ref>
+        </refs>
+        <data>[character][0x1]: The Holy Dragon is...
+calling me...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x182</ref>
+        </refs>
+        <data>Sendak: Ahead is the Holy Dragon's
+sanctum... I am not sure we can enter...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x19c</ref>
+        </refs>
+        <data>Matelite: We can't put [character][0x1] in
+danger! [character][0x1]!! You go ahead
+and check it out![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x22c</ref>
+        </refs>
+        <data>[character][0x1]: Aah![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x235</ref>
+        </refs>
+        <data>Sendak: Princess![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x24f</ref>
+        </refs>
+        <data>T-this is...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x298</ref>
+        </refs>
+        <data>Matelite: Unngh... What is this?! Even if
+it costs me my life, I shall protect
+[character][0x1]![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2a5</ref>
+        </refs>
+        <data>[character][0x1]!![end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x30e</ref>
+        </refs>
+        <data>Leviathan: Girl... The one who heals our
+wounds...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x31a</ref>
+        </refs>
+        <data>[character][0x1]: M-me? Heal your wounds?[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x331</ref>
+        </refs>
+        <data>Leviathan: Our sadness... Our anger...
+
+
+Come... Listen closely to our call...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x346</ref>
+        </refs>
+        <data>[character][0x1]: Please, wait![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3ee</ref>
+        </refs>
+        <data>Sendak: Princess! Say something![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3fd</ref>
+        </refs>
+        <data>[character][0x1]: [character][0x1]...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x428</ref>
+        </refs>
+        <data>[character][0x1]: Leviathan...
+
+
+Anger...? Sadness...?[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x431</ref>
+        </refs>
+        <data>The Holy Dragons... They seem to be
+angry... And sad...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x446</ref>
+        </refs>
+        <data>Sendak: Anger...? Sadness...? Just what
+does it mean...? I do not understand...
+I am sad...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x456</ref>
+        </refs>
+        <data>Matelite: Well how about that?! The
+Holy Dragons are just like us![end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x467</ref>
+        </refs>
+        <data>Our hearts are always full of anger
+and sadness!!
+
+When I think about the day Kahna was
+destroyed... I...[end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x473</ref>
+        </refs>
+        <data>Everybody in the Resistance must have
+wounds in their hearts... Secret
+thoughts they can tell no one...
+Wounds in their hearts...[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x482</ref>
+        </refs>
+        <data>Our thoughts are with the Holy
+Dragons! We fight together![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4b3</ref>
+        </refs>
+        <data>Matelite: Let's hurry and get out of
+here![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x680</ref>
+        </refs>
+        <data>[character][0x1]: The Holy Dragon is... very
+powerful...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x68c</ref>
+        </refs>
+        <data>Sendak: [character][0x1], are you all right?
+I have a bad feeling about this...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x695</ref>
+        </refs>
+        <data>Matelite: Take care of it, [character][0x1]![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x69e</ref>
+        </refs>
+        <data>Taicho: [character][0x1], ho![end][end]</data>
+    </text>
+</texts>

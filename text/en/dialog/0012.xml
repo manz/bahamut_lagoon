@@ -1,0 +1,791 @@
+<?xml version="1.0" ?>
+<texts base="0x16a8" room_id="12">
+    <text>
+        <refs>
+            <ref>0x14f</ref>
+        </refs>
+        <data>Matelite: I brought some![end].</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x24d</ref>
+        </refs>
+        <data>......[end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa4</ref>
+        </refs>
+        <data>               Chapter 12
+           The Spy Operation[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xce</ref>
+        </refs>
+        <data>Matelite: Hey, Taicho! I think we need
+to keep watch over the Empire's
+movements![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xda</ref>
+        </refs>
+        <data>Taicho: Agreed! I want as much
+information as possible![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe8</ref>
+        </refs>
+        <data>Matelite: Right! Let's send a spy into
+the Empire![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xfd</ref>
+        </refs>
+        <data>Hold on a moment!
+
+
+I'll bring back some good spies who
+won't mind dying![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x194</ref>
+        </refs>
+        <data>Donfan: Donfan, at your service!
+If it's information about girls you need,
+leave it to me![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1a4</ref>
+        </refs>
+        <data>I'm just an ordinary crew member...
+I'm scared.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1cb</ref>
+        </refs>
+        <data>Sendak: ...Me?[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1e8</ref>
+        </refs>
+        <data>Matelite: This will be a perilous and
+possibly fatal mission!
+
+So you get to choose, [character][0x1]![end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1f6</ref>
+        </refs>
+        <data>Ladies and gentleman, you're our spy
+candidates!! If you're going to feel
+bitter, do so to [character][0x1]![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x299</ref>
+        </refs>
+        <data>Matelite: !!!
+
+
+What?![end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x14e4</ref>
+        </refs>
+        <data>Wait...!![end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x208</ref>
+        </refs>
+        <data>  Ask Donfan
+  Ask crew member
+  Ask somebody else [0x28]to next page[0x29][end1] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x212</ref>
+        </refs>
+        <data>  Ask Sendak
+  Matelite, you go!
+  Previous people [0x28]to previous page[0x29][end1]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x22e</ref>
+        </refs>
+        <data>Donfan: Well... such is the way of the
+world...
+
+I, Donfan, shall steal the hearts of
+100 girls of the Empire.
+
+Such is the way of the world...
+I shall return.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x26f</ref>
+        </refs>
+        <data>Sendak: You chose me, [character][0x1]...
+Should I be happy?
+Should I be sad?
+I am not really sure...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2b1</ref>
+        </refs>
+        <data>Matelite: Bwahaha!![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2c8</ref>
+        </refs>
+        <data>I can't go, I'm too famous!
+Taicho, you can be the spy![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2d9</ref>
+        </refs>
+        <data>Taicho: !!![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3c7</ref>
+        </refs>
+        <data>The perilous mission was a complete
+success.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3e4</ref>
+        </refs>
+        <data>The mission ended in failure and the
+crew member returned...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x883</ref>
+            <ref>0x82e</ref>
+            <ref>0xa11</ref>
+            <ref>0x4f1</ref>
+            <ref>0x6fc</ref>
+        </refs>
+        <data>Matelite: Report![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4ff</ref>
+        </refs>
+        <data>The end of the crew member...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x540</ref>
+        </refs>
+        <data>Matelite: Understood! If we can put all
+the spy information together...
+
+Sendak, please repeat the story![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x54d</ref>
+        </refs>
+        <data>There is still something I do not
+understand...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x752</ref>
+            <ref>0x555</ref>
+        </refs>
+        <data>Sendak: Emperor Sauzer read the Holy
+Dragon's mind... But, how? How could he
+do that?
+Afterwards, Emperor Sauzer became
+ill and unable to move...
+
+But, once he becomes better, he will
+definitely seek out the Holy Dragons![end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x561</ref>
+            <ref>0x76d</ref>
+        </refs>
+        <data>We must search for the Holy Dragons
+quickly!![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x595</ref>
+            <ref>0x95f</ref>
+        </refs>
+        <data>Matelite: Yes! In one word... please![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc21</ref>
+        </refs>
+        <data>That night...[end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x77f</ref>
+        </refs>
+        <data>But, wait... there's more.[end][0xef]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7c8</ref>
+            <ref>0x576</ref>
+        </refs>
+        <data>The battles from now on will be much
+more difficult than anything so far.
+
+The Empire is in chaos. But if you look
+at it the other way, we too are
+suffering.
+But we have made it this far! We must
+not give up now![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5a9</ref>
+            <ref>0x8f2</ref>
+            <ref>0x973</ref>
+        </refs>
+        <data>Taicho: Sauzer somehow found a way
+to read the minds of the Holy Dragons!
+Something is going on...
+That is all I know!![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5d4</ref>
+            <ref>0x99e</ref>
+        </refs>
+        <data>Matelite: We're going to find the Holy
+Dragons before Sauzer and revive
+Kahna![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x670</ref>
+        </refs>
+        <data>It looks like [character][0x1] has arrived...
+Granbelos Empire's secret weapon...
+There's a sky monster here![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6af</ref>
+        </refs>
+        <data>[character][0x1]!! Jump down! It's not that
+far. From that distance you could
+probably even feed the dragons...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x713</ref>
+        </refs>
+        <data>Sendak: Apparently Granbelos Castle is
+in chaos. First I listened to the speech.
+
+At the speech podium was General
+Palpaleos... Emperor Sauzer was not to
+be found.[end]G</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x73b</ref>
+        </refs>
+        <data>General Palpaleos seemed to speak
+without confidence... The other
+generals seemed strange too...
+But...!! If General Palpaleos's speech
+is true, we're in trouble...!![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x788</ref>
+        </refs>
+        <data>I was scared at the time...
+My mind was screaming...
+
+It said, [0x24][character][0x1]... I'm sorry...
+Please forgive me for dying unhappily
+before you...[0x22][end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x799</ref>
+        </refs>
+        <data>Sendak: The generals don't seem to be
+getting along... Is it because of our
+resistance...?
+Is it because Sauzer fell ill...?
+Is it all because of the power of the
+Holy Dragons...?[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7b6</ref>
+        </refs>
+        <data>That is all that I saw... But now it is
+clear that we must search for the Holy
+Dragons before Sauzer recovers!
+Right, [character][0x1]?![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7e4</ref>
+            <ref>0x944</ref>
+        </refs>
+        <data>Matelite: Okay, I got it... Let's go over
+it one more time! Sendak, please repeat
+the story![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x815</ref>
+        </refs>
+        <data>Taicho: Matelite!! I have returned![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x840</ref>
+        </refs>
+        <data>Taicho: Here is a present! It should be
+useful for work on your autographed
+armor!![end]N</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x88e</ref>
+        </refs>
+        <data>No [0x24]welcome back[0x22]...
+No [0x24]thank you[0x22]...
+Nothing at all...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x89c</ref>
+        </refs>
+        <data>Taicho: ......
+
+
+The Empire was in complete disarray![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8b0</ref>
+        </refs>
+        <data>I slipped in to hear the speech, and
+no one noticed!
+
+The citizens of the Empire were
+worried about Emperor Sauzer's
+illness and gathered there!
+However... there was one among the
+Granbelos generals who was delighted
+that Sauzer was sick!
+The general on the right named Gudolf
+was very strange! Gudolf is Lestat's
+superior officer...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8d2</ref>
+        </refs>
+        <data>Taicho: Sauzer read the minds of a
+Holy Dragon! Just as [character][0x1] did!
+Do you remember what Sauzer said?
+It was like this...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa47</ref>
+        </refs>
+        <data>Such was my mission...
+My first girl was...[end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8e1</ref>
+        </refs>
+        <data>Sauzer: I can become the man of
+legend without borrowing the princess's
+power![end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8fe</ref>
+        </refs>
+        <data>Afterwards, I continued my spying!
+I snuck into Granbelos Castle and
+searched for Lestat![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x914</ref>
+        </refs>
+        <data>It was difficult... No weapons, four
+generals... All I could do was hide.
+I will get even on the battlefield!
+I want to get back at them, together
+with you, Matelite![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x920</ref>
+        </refs>
+        <data>That is all! That is the end of my
+report!!
+
+......[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9f8</ref>
+        </refs>
+        <data>Donfan: I, Donfan, the spectacular spy,
+have returned unharmed![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa29</ref>
+        </refs>
+        <data>Donfan: The Empire's female soldiers
+were quite strong.
+
+But when a female soldier is separated,
+she becomes a single girl...
+
+I used my kind words to bring you this
+information.[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa3b</ref>
+        </refs>
+        <data>Of course... not just information.
+
+
+Yes... Short-lived loves with this
+fabulous spy...[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa5c</ref>
+            <ref>0xa7e</ref>
+        </refs>
+        <data>Donfan: Heh... a good girl...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa68</ref>
+        </refs>
+        <data>Then I infiltrated Granbelos Castle.
+
+
+Heh, a spy's dangerous activities must
+go smoothly... they must go delicately...
+Like how one must treat a girl.
+It was a simple task for a fellow such
+as myself...[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa91</ref>
+        </refs>
+        <data>What are they thinking about right
+now?
+
+Are they thinking about Donfan, the
+dreamy spy?
+
+Oh... I didn't even tell you my name.
+But I stole excellent information from
+you...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa99</ref>
+        </refs>
+        <data>If you must know why, it is because
+love is top secret![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xab1</ref>
+        </refs>
+        <data>Such is the way of the world...!!
+
+
+I must be going now![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc2c</ref>
+        </refs>
+        <data>Taicho: I am excited... [character][0x1]...
+You go ahead...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf06</ref>
+        </refs>
+        <data>Taicho: Actually... there still is some
+information I am hiding... It is not
+something I can say to everybody.
+But I cannot say it alone either...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf0a</ref>
+        </refs>
+        <data>Tonight... I want you to come with me
+to [character][0x1]'s room.
+
+It is a secret mission. Come alone.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf20</ref>
+        </refs>
+        <data>Taicho: Please wake [character][0x1] up...
+Do it softly and gently...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf2b</ref>
+        </refs>
+        <data>Taicho: The life of a spy is very
+difficult...[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf44</ref>
+        </refs>
+        <data>Don't leave me alone...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf61</ref>
+            <ref>0xf7c</ref>
+        </refs>
+        <data>[character][0x1]: Eek! [character][0x1]!![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf9b</ref>
+        </refs>
+        <data>I'm sorry, but... at this time of night...[end]N</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xfb2</ref>
+        </refs>
+        <data>No!! Get out![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xfc9</ref>
+        </refs>
+        <data>Hornet told me... He said that this is
+the closest spot in [character][0x1] to
+the sky...
+Look, the sky is almost within arm's
+reach...[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xfef</ref>
+        </refs>
+        <data>Hey... [character][0x1]...
+Do you ever remember things when
+you look at the night sky?
+A bunch of things...
+When... I'm lonely...
+I always look at the sky...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1005</ref>
+        </refs>
+        <data>The truth is... I wish we could see it
+from closer up...[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1021</ref>
+        </refs>
+        <data>Hey, [character][0x1]. What will happen to
+us? From now on...[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1031</ref>
+        </refs>
+        <data>Will it work out...
+
+
+Fighting... Worrying...
+
+
+Like back then when we didn't
+know anything...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x105c</ref>
+        </refs>
+        <data>It smells nice...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1066</ref>
+        </refs>
+        <data>[character][0x1]: [character][0x1]. Come stand
+next to me...[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x106d</ref>
+        </refs>
+        <data>Hornet: Go quickly! I'll look the other
+way just this time.[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1074</ref>
+        </refs>
+        <data>Dragonkeeper: The Empire's secret
+weapon is amazing!
+
+You can only get inside using a dragon
+to attack.[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1078</ref>
+        </refs>
+        <data>Do you want to go back inside?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x107c</ref>
+        </refs>
+        <data>  Yep.
+  Nah, I changed my mind.[end1]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1084</ref>
+        </refs>
+        <data>I need to give the dragons a good
+bath afterwards...
+
+They're really starting to get ripe...[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x10aa</ref>
+        </refs>
+        <data>We're going to break into the enemy's
+secret weapon on our dragons. It
+might be a little dangerous.
+Should we go now?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x10bb</ref>
+            <ref>0x10ae</ref>
+        </refs>
+        <data>  Feed
+  Let's go!!
+  Wait[end1]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x12ea</ref>
+        </refs>
+        <data>You got a [0x24]Princess's ???[0x22]!![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1337</ref>
+        </refs>
+        <data>Taicho: Her eyes... so soft...
+Did you not see them?[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x134a</ref>
+        </refs>
+        <data>Taicho: Please refrain from telling
+anyone... I will leave.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1354</ref>
+        </refs>
+        <data>Taicho: How was it? Please go next...[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1437</ref>
+        </refs>
+        <data>Wait...
+
+
+[character][0x1]...
+If we can see the sky...
+Let's go to the terrace.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x14f4</ref>
+        </refs>
+        <data>Taicho: [character][0x1]... I am very sorry
+to disturb you, but... I have something
+to tell you!
+I made a man-to-man promise at
+Granbelos Castle...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x153e</ref>
+        </refs>
+        <data>I was hiding some... information for
+[character][0x1]...
+
+I will let you hear it, [character][0x1]...[end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x154a</ref>
+        </refs>
+        <data>After I left General Gudolf's room, I
+went even further into the castle...
+There was a small room there...
+In the room, was...
+
+
+General Palpaleos...[end][end]</data>
+    </text>
+</texts>

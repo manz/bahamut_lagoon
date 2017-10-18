@@ -1,0 +1,323 @@
+<?xml version="1.0" ?>
+<texts base="0xcdd" room_id="66">
+    <text>
+        <refs>
+            <ref>0xba</ref>
+            <ref>0x14d</ref>
+        </refs>
+        <data>[character][0x1]: [character][0x1]...
+Hurry, this way![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc4</ref>
+            <ref>0x16f</ref>
+        </refs>
+        <data>Matelite: [character][0x1]! Stop![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2aa</ref>
+        </refs>
+        <data>[character][0x1]: [character][0x1] is so fast![0xfc][0x1][end1][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x380</ref>
+        </refs>
+        <data>[character][0x1]: Hey, [character][0x1]...
+Do you mind if I hold on tighter?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x390</ref>
+        </refs>
+        <data>  Sure!
+  It's kind of awkward, so don't...[end1]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x39a</ref>
+        </refs>
+        <data>But... oops! Too late...[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3a6</ref>
+        </refs>
+        <data>Okay... I'll hold on really tight.[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3c7</ref>
+        </refs>
+        <data>Hey, [character][0x1]...
+I wonder how far the sky goes...
+
+Reaching beyond the sky... I wonder if
+there's a feeling to express that?[end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x514</ref>
+            <ref>0xcc6</ref>
+        </refs>
+        <data>[character][0x1]: No... don't go in...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5a0</ref>
+        </refs>
+        <data>Palpaleos: I have received permission
+to take off from Sauzer.
+
+Okay... Princess [character][0x1]...
+Let's go. My dragon is waiting outside.[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5b4</ref>
+        </refs>
+        <data>[character][0x1]: Just once...
+Several hours until night comes...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5fe</ref>
+        </refs>
+        <data>[character][0x1]: Will you really fly me
+anywhere?[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x612</ref>
+        </refs>
+        <data>Palpaleos: Anywhere you wish...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6d3</ref>
+        </refs>
+        <data>Palpaleos: It might not be as good as
+one of Kahna's dragons.[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6d9</ref>
+        </refs>
+        <data>[character][0x1]: No... It's a lot faster than
+[character][0x1]!![end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6e9</ref>
+        </refs>
+        <data>Palpaleos: [character][0x1]...
+He can really burn things...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x72f</ref>
+        </refs>
+        <data>Palpaleos: Princess [character][0x1]...
+You don't need to hold on so tightly...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x735</ref>
+        </refs>
+        <data>Please... Stop calling me a princess...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x750</ref>
+        </refs>
+        <data>I want to fly...
+To the ends of the sky...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x862</ref>
+        </refs>
+        <data>Palpaleos: Is this is the place of
+your memories, [character][0x1]...?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x86d</ref>
+        </refs>
+        <data>[character][0x1]: No... It's not a place of
+memories. You see... we...
+We've just started.[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x881</ref>
+        </refs>
+        <data>Palpaleos: We've just started...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x89a</ref>
+        </refs>
+        <data>[character][0x1]: There's an old legend
+about this church...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8af</ref>
+        </refs>
+        <data>Palpaleos: Legend...?[end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8c8</ref>
+        </refs>
+        <data>[character][0x1]: It's a dreamy story...
+But... I won't make you listen to it now.
+Someday... just the two of us...
+This church... When that time comes it
+will become a church of memories.[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8d3</ref>
+        </refs>
+        <data>Palpaleos: Someday just the two of
+us...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8e7</ref>
+        </refs>
+        <data>[character][0x1]: We don't have time now,
+so...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8f4</ref>
+        </refs>
+        <data>Please... Freeze time just like the way
+it is now...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc48</ref>
+            <ref>0xa7d</ref>
+        </refs>
+        <data>Matelite: [character][0x1]!! Wait!![0xfc][0x1][end1][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xaa1</ref>
+        </refs>
+        <data>[character][0x1]: Hey, [character][0x1].
+This is called the Church of Memories.
+Do you know why?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xab1</ref>
+        </refs>
+        <data>  Why is it called that? Tell me.
+  I know that, but I wonder why?[end1]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xaca</ref>
+        </refs>
+        <data>Dreamy, isn't it... When two people who
+love each other come to this church...
+They will always be together, forever...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xae1</ref>
+        </refs>
+        <data>This church has a lovely legend.
+When two people who love each other
+come to this church...
+They will always be together, forever...[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xaf1</ref>
+        </refs>
+        <data>Do you want to go in with me?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb11</ref>
+        </refs>
+        <data>  Yeah, let's try going in.
+  No way![end1]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb22</ref>
+        </refs>
+        <data>That's right... If you married me...
+You would become the king of Kahna.
+You don't want that, do you?
+But...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb3c</ref>
+        </refs>
+        <data>Tee hee... I'm just kidding...
+It's still... too early for us...
+We should have brought Matelite too.[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb57</ref>
+        </refs>
+        <data>Hey... [character][0x1].
+When we're a little older...
+When I feel the same way...
+If I ask you to come to the Church of
+Memories, will you?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb7a</ref>
+        </refs>
+        <data>  I promise.
+  I can't see into the future.[end1]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb8b</ref>
+        </refs>
+        <data>That's right... We can't see into the
+future... Will we be far away from each
+other I wonder...
+Right now... [character][0x1]...
+Even if it's a lie...
+Promise me...[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb9a</ref>
+        </refs>
+        <data>Okay... A promise just between the
+two of us... Let's keep this a secret
+from Matelite and my father.[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc02</ref>
+        </refs>
+        <data>Hurry, please go.
+I envy you...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc1c</ref>
+        </refs>
+        <data>It's an order from [character][0x1] so I
+can't disobey. But it's really wars non
+t![end][end]</data>
+    </text>
+</texts>

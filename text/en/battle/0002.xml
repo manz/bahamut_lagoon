@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<texts base="0x9a" room_id="2">
+    <text>
+        <refs>
+            <ref>0x2c</ref>
+        </refs>
+        <data>Matelite: Princess [character][0x1] is in the
+fortress up ahead!![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x30</ref>
+        </refs>
+        <data>Right!![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3d</ref>
+        </refs>
+        <data>Princess [character][0x1]!![0xfc][0x1]
+Matelite is on his way!![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x48</ref>
+        </refs>
+        <data>Let's go, everybody!![0xfc][0x1]
+This time we'll show them what we're
+made of!![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4f</ref>
+        </refs>
+        <data>Matelite: If we defeat an enemy with
+an indirect attack, we only get half the
+money!![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5a</ref>
+        </refs>
+        <data>Taicho: We are poor! We need money!![0xfc][0x1]
+Money, money, money!![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x65</ref>
+        </refs>
+        <data>Matelite: Crush them in head-on
+attacks!![0xfc][0x1] And take no prisoners!![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x74</ref>
+        </refs>
+        <data>Sendak: The green continent of
+Campbell...[0xfc][0x1] Something is in the air...[0xfc][0x1][end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7f</ref>
+        </refs>
+        <data>“Condition for Victory:”[0xfc][0x1]
+“Defeat of the boss”[end][end]</data>
+    </text>
+</texts>

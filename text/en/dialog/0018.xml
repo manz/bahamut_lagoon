@@ -1,0 +1,807 @@
+<?xml version="1.0" ?>
+<texts base="0x1536" room_id="18">
+    <text>
+        <refs>
+            <ref>0xe7</ref>
+        </refs>
+        <data>Leviathan: Where is this...?[end]G</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x102</ref>
+        </refs>
+        <data>Garuda: What is happening...?[end]V</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x11d</ref>
+        </refs>
+        <data>Valitora: The door to the new era...
+Has it opened?[end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x138</ref>
+        </refs>
+        <data>Jormungand: We can go no further...[end]G</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x153</ref>
+        </refs>
+        <data>Garuda: Can you not see it...?
+It is our...[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x16c</ref>
+        </refs>
+        <data>Leviathan: Him...? What is arising...?[end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x187</ref>
+        </refs>
+        <data>Jormungand: Bahamut. It is him again...[end]V</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1a2</ref>
+        </refs>
+        <data>Valitora: But why...? If things are to
+continue at this rate...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x345</ref>
+        </refs>
+        <data>[character][0x1]: But... [character][0x1] and
+the others aren't...[end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x20a</ref>
+        </refs>
+        <data>[character][0x1]: Holy Dragons, wait.
+
+
+Is it my fault? Because I can't become
+a Dragnar?
+
+Because I'm weak-minded?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2b1</ref>
+        </refs>
+        <data>               Chapter 18
+           The Promised Land[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x32d</ref>
+        </refs>
+        <data>Matelite: [character][0x1], tell us!
+What's happening in the sky?[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x35c</ref>
+        </refs>
+        <data>Hah! Forget about them!! Those who
+oppose me shouldn't get to hear what
+you have to say, [character][0x1]!![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x373</ref>
+        </refs>
+        <data>Don't worry about them... I'm almost
+certain they're watching or listening![end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x382</ref>
+        </refs>
+        <data>Well? [character][0x1], speak up!
+Tell us what the Holy Dragons are
+saying!![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3a4</ref>
+        </refs>
+        <data>[character][0x1]: Matelite, do you remember
+how the legend of the Holy Dragons
+goes?[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3c2</ref>
+        </refs>
+        <data>Matelite: Of course, [character][0x1]!
+In my own words, it goes something
+like...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3ce</ref>
+        </refs>
+        <data>The Holy Dragons defeat the Granbelos
+Empire and the new era of Kahna is
+ushered in!!
+I think there was more after that,
+but... Well, anyway, that's how it goes.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3e4</ref>
+        </refs>
+        <data>The legend of the Holy Dragons...
+
+
+The one who can speak with the Holy
+Dragons shall open the door to a new
+era...
+Yes... The door has now been opened...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3fc</ref>
+        </refs>
+        <data>That door in the sky is the door to a
+new era... The Holy Dragons opened it.
+No, that is, they tried to open it...[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x400</ref>
+        </refs>
+        <data>But.. they couldn't...
+But then... I...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x41d</ref>
+        </refs>
+        <data>Matelite: !!! I remember it now,
+[character][0x1]!! The rest of the legend...
+
+         A weak minded person...
+            From the heavens
+            a disaster will fall...[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x43d</ref>
+        </refs>
+        <data>Hmmm... Door, door, door.
+Where was there a door...
+
+Hey! Taicho! Prepare for departure![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x44e</ref>
+        </refs>
+        <data>Taicho: Matelite... You do not seem to
+understand... Shall I explain it to you?[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x45d</ref>
+        </refs>
+        <data>Taicho: [character][0x1]! Might the door be
+that hole in the sky?[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x478</ref>
+        </refs>
+        <data>Matelite: Quiet! Taicho! Stop your
+complaining and leave at once!
+Everybody, leave![end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x573</ref>
+        </refs>
+        <data>Zora: Out of the way! What is it?![end1].</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x594</ref>
+        </refs>
+        <data>...What was that about?![end1]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5e9</ref>
+        </refs>
+        <data>Rush: Yes... That's how!
+Later, [character][0x1]!![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x669</ref>
+        </refs>
+        <data>Rush: Oh no!!! [character][0x1]!! Wait![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x698</ref>
+        </refs>
+        <data>Matelite: What's wrong, [character][0x1]?
+You're acting strange!![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6a1</ref>
+        </refs>
+        <data>[character][0x1]: ......[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6b5</ref>
+        </refs>
+        <data>Matelite: The door to the new era...
+It still might not open, right?[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6ca</ref>
+        </refs>
+        <data>Have you forgotten about our Holy
+Dragon?[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6df</ref>
+        </refs>
+        <data>Bahamut, the guardian dragon of
+Kahna!!
+
+Until Bahamut wakes up the legend
+won't be fulfilled![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6fc</ref>
+        </refs>
+        <data>[character][0x1]... Believe!! You mustn't
+think of yourself as a weak-minded
+person![end].</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x724</ref>
+        </refs>
+        <data>...Thank you.[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x740</ref>
+        </refs>
+        <data>But... Matelite... It appears that
+Bahamut is despised by the other
+Holy Dragons...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x76d</ref>
+        </refs>
+        <data>Matelite the Hero![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x782</ref>
+        </refs>
+        <data>Matelite the Famous![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7d7</ref>
+        </refs>
+        <data>Taicho is...[end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x709</ref>
+        </refs>
+        <data>You're not alone, [character][0x1]! We'll
+always be together!
+
+If monsters from that other world
+show up through the door in the sky,
+we'll protect you from them!
+That is the way I live! I will never
+change that![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x752</ref>
+        </refs>
+        <data>Matelite: Bwahaha... I wouldn't be
+surprised! Take a look at me![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x792</ref>
+        </refs>
+        <data>Matelite the Knight of Kahna![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7a1</ref>
+        </refs>
+        <data>Strong people have many enemies...
+I'm hated by everybody...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7ad</ref>
+        </refs>
+        <data>I'm the Bahamut of the human world!
+And Taicho is...[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7c0</ref>
+        </refs>
+        <data>Leviathan? Or maybe Jormungand?[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7e7</ref>
+        </refs>
+        <data>Bahamut's tail!![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x82c</ref>
+        </refs>
+        <data>[character][0x1]... I know... I am an old,
+fussy man... I talk too much, and am
+easily flattered...
+As a knight... as a soldier... I might
+not be qualified...[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x83e</ref>
+        </refs>
+        <data>But! I can't leave now! I can't leave it
+all up to them...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x84a</ref>
+        </refs>
+        <data>[character][0x1] and Rush... The Freedom
+Revolutionaries...
+
+They care only of appearances...
+Only cheap words...
+
+They're right up there with...
+the Mini-Devils...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x857</ref>
+        </refs>
+        <data>[character][0x1]... I have a dream...[end]K</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x863</ref>
+        </refs>
+        <data>Kahna is revived, and you become the
+queen... And I am always at your side
+to serve you![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x873</ref>
+        </refs>
+        <data>However... Even I... will become old
+someday...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x87f</ref>
+        </refs>
+        <data>I'll become an old man like Sendak...
+If I started rambling all the time, I'd
+think of retiring too...
+If they'll take my place for me when
+that happens...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x892</ref>
+        </refs>
+        <data>If they become excellent knights who
+will serve you, [character][0x1]...
+I would be happy...[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8a8</ref>
+        </refs>
+        <data>But, even when that time comes...
+Even when they become my age...
+If they want to make Kahna free...
+I will let them...
+You will too, certainly...[end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8c1</ref>
+        </refs>
+        <data>And then, I'll retire... By then Sendak
+will probably be gone...[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8dc</ref>
+        </refs>
+        <data>When that happens, [character][0x1]...
+I might want to start rambling about
+when you were a kid...
+About the king of Kahna... about this
+war... Rumors about [character][0x1] and
+the others...
+I would like it if you could come and
+visit me some time, so we can talk...[end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8f2</ref>
+        </refs>
+        <data>And then, I'll ask you to rub my back...
+To give me a massage... My body will
+be stiff, you see...
+My bones will rattle as I walk...
+
+
+When that times comes, wearing my
+shining armor, I will say farewell![end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x906</ref>
+        </refs>
+        <data>Oh, no... I'm already rambling... I'm
+going to be an old man soon too...[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x927</ref>
+        </refs>
+        <data>Okay...! Time to go make fun of Taicho
+or somebody![end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x93d</ref>
+        </refs>
+        <data>Oh yes, [character][0x1]. One last thing...
+After I retire... I want you to come to
+my house alone!
+Especially, don't bring the new king of
+Kahna over! Whenever I think of you
+married to someone, it pains me!!
+The only one I will ever serve is you,
+[character][0x1]!![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x104b</ref>
+            <ref>0xa2b</ref>
+            <ref>0xa5c</ref>
+        </refs>
+        <data>I've changed a lot since then, haven't
+I?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf30</ref>
+        </refs>
+        <data>         Upon listening closely...
+
+
+   You can hear Matelite's laughter...
+
+
+               Bwahahaha...![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf51</ref>
+        </refs>
+        <data>[character][0x1]: I... We've both worried all
+the others.
+
+Matelite... [character][0x1]... All the
+members of the Resistance...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf70</ref>
+        </refs>
+        <data>[character][0x1]. I couldn't say this to
+Matelite, but I have a dream.
+A small, feeble dream...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf79</ref>
+        </refs>
+        <data>My dream is...[end]N</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xfa6</ref>
+        </refs>
+        <data>No, I can't say it.
+
+
+You see... If I put it into words...
+
+
+It's like they would melt away into
+the sky.[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xfb5</ref>
+        </refs>
+        <data>Let's go... Matelite's waiting for us on
+the bridge.[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xffd</ref>
+        </refs>
+        <data>[character][0x1]: [character][0x1]... Please...
+Protect the church...
+
+The memories of the people of Kahna
+and lovers rest there... Unforgotten by
+time...
+Memories that must not be lost...
+
+
+Ours too... Do you still remember our
+promise...?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1001</ref>
+        </refs>
+        <data>  It was embarrassing, so I forgot it...
+  I remember![end1][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x103d</ref>
+        </refs>
+        <data>[character][0x1]: I'm sorry... I want
+to look at the sky a little more. When
+I look at the sky... I feel better...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x105e</ref>
+        </refs>
+        <data>Sendak: The Holy Dragons are angry...
+Very intensely, very deeply angry...
+
+Am I shaking?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1065</ref>
+        </refs>
+        <data>  Ha ha! You're a shaking old geezer!
+  Don't worry about it, Sendak.[end1][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1070</ref>
+        </refs>
+        <data>[character][0x1], I am frightened. The Holy
+Dragons are this angry because I
+prayed for such odd things...[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x107f</ref>
+        </refs>
+        <data>Yet, it does not end... This is the
+first time I have had this strong of a
+feeling...
+The Holy Dragons are in despair...
+The anger of despair... Anger toward
+what...?
+If it is I they are angry at... I...
+thought only of bad things, that is
+why...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1093</ref>
+        </refs>
+        <data>Taicho: Sir Matelite... Someday I shall
+make you weep![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x109a</ref>
+        </refs>
+        <data>Taicho: Sir Matelite is being silent...
+All he said was, [0x24]You're the tail...[0x22]
+He must be planning something...[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x10a5</ref>
+        </refs>
+        <data>Hornet: The sky is angry...
+I hope nothing bad happens.[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x10ac</ref>
+        </refs>
+        <data>Hornet: I heard the news from
+[character][0x1]. Kahna at last!
+
+Make sure your preparations are
+complete! The final battle is near![end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x10b0</ref>
+        </refs>
+        <data>  Wait!!
+  Let's go!![end1]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x10dc</ref>
+        </refs>
+        <data>Rush: He makes me so mad![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x10fc</ref>
+        </refs>
+        <data>Rush: I don't need your consolation or
+your excuses. [character][0x1] is... important
+to me too...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1107</ref>
+        </refs>
+        <data>Truce: [character][0x1]'s about to start...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1111</ref>
+        </refs>
+        <data>Truce: The door to a new era... Did it
+really open? If it did, then what about
+those monsters from the other world?[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x111b</ref>
+        </refs>
+        <data>Bikkebakke: Hey, [character][0x1]... I'm
+having to do something nasty... Do you
+hate me for it?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x111f</ref>
+        </refs>
+        <data>  What's wrong?
+  Nah, it just means you're an adult.[end1]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1129</ref>
+        </refs>
+        <data>Thanks, [character][0x1]...[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1130</ref>
+        </refs>
+        <data>We're returning to Kahna soon and...
+
+
+But I just don't have enough... I know
+it's not something I should be doing...
+But this is all I CAN do now.
+I can't help it, that's just the way it
+is...[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1137</ref>
+        </refs>
+        <data>  Matelite-brand merchandise
+  Book store
+  Mushroom shop[end1]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1183</ref>
+        </refs>
+        <data>Zora: Come on! If somebody is going to
+cheer [character][0x1] up, we're better at
+it than he is![end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x118a</ref>
+        </refs>
+        <data>Lukia: You know, I'll always have faith
+in [character][0x1]...
+And in you too, [character][0x1].[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1199</ref>
+        </refs>
+        <data>Melodia: They left us out, huh?!
+I hate that Matelite!
+
+But that's okay! I get to be with you
+and Hornet!![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x11c8</ref>
+        </refs>
+        <data>Melodia: Hey... What's wrong?
+Tell me!![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x11e1</ref>
+        </refs>
+        <data>Melodia: It's so weird... Matelite
+isn't saying anything![end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x11ff</ref>
+        </refs>
+        <data>         The results of the
+         sky reconnaissance:
+
+   It has been discovered that in the
+ vicinity of the Church of Memories in
+  Kahna, the monsters from the other
+ world that appeared from the hole in
+         the sky are malevolent.
+
+   Presently, in order to protect the
+  Church of Memories, the Granbelos
+   Imperial Army is in a state of war...
+   Furthermore, the whereabouts of
+ the crew member who had gathered
+      this information is unknown.[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1288</ref>
+        </refs>
+        <data>You got a Princest's???.[end][end]</data>
+    </text>
+</texts>

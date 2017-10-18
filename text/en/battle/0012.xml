@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<texts base="0x127" room_id="12">
+    <text>
+        <refs>
+            <ref>0x28</ref>
+        </refs>
+        <data>Persona: I will not allow trash aboard
+my ship![0xfc][0x1] How dare you filthy it up, you
+dirty scum![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x33</ref>
+        </refs>
+        <data>“Condition for Victory:”[0xfc][0x1]
+“Defeat of Persona”[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x11b</ref>
+        </refs>
+        <data>Persona: D... Damn it, no!!![0xfc][0x1]
+I haven't even finished paying off the
+loan yet!![end1][end]</data>
+    </text>
+</texts>

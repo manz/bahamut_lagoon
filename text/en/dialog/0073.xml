@@ -1,0 +1,262 @@
+<?xml version="1.0" ?>
+<texts base="0x923" room_id="73">
+    <text>
+        <refs>
+            <ref>0x2e6</ref>
+        </refs>
+        <data>Dragonkeeper: Okay! Shall I teach you
+about how to take care of the
+dragons?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2ea</ref>
+        </refs>
+        <data>  Please tell me.
+  No thanks.[end1]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x327</ref>
+        </refs>
+        <data>Dragonkeeper: Okay! Here you go!!
+This is a present from me!
+He's very shy, so take good care of it.[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x360</ref>
+            <ref>0x605</ref>
+        </refs>
+        <data>Come here!![end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3a0</ref>
+        </refs>
+        <data>Look closely at the dragons.
+Their faces are saying they're hungry.
+Dragons can get hungry at anytime.
+If you feed them a lot they'll calm
+down.[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3b5</ref>
+        </refs>
+        <data>Hey! Here's some food!![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3d2</ref>
+        </refs>
+        <data>Come here!![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x403</ref>
+        </refs>
+        <data>Dragons will eat anything.
+Swords, medicine, anything!![end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x434</ref>
+            <ref>0x47d</ref>
+        </refs>
+        <data>But! Depending on what they eat they'll
+develop quickly or slowly. How much of
+something you feed them is the key!!
+If you don't think about their
+nutritional balance, they won't become
+excellent dragons!![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4dc</ref>
+            <ref>0x444</ref>
+        </refs>
+        <data>Do you understand so far?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4e0</ref>
+            <ref>0x448</ref>
+            <ref>0x8eb</ref>
+            <ref>0x54e</ref>
+            <ref>0x65d</ref>
+        </refs>
+        <data>  Yes
+  No[end1]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x479</ref>
+        </refs>
+        <data>Okay, one more time then!
+You ready?
+
+Dragons can get hungry at
+anytime. They'll eat anything, whether
+they like it or not.[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x49e</ref>
+        </refs>
+        <data>Oh! It looks like they calmed down.
+I'll continue while I still can... Don't
+startle them.[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4ce</ref>
+        </refs>
+        <data>I'll tell you something important. It's
+about the strength of everybody's
+skills, like yours and Matelite's.
+The strength of everyone's skills and
+their types level up alongside their
+dragons' strength![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4d4</ref>
+        </refs>
+        <data>The stronger the dragons become the
+stronger everyone will be. But you
+must be careful when using Formation.[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4e8</ref>
+        </refs>
+        <data>Okay! One more time![end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4f4</ref>
+        </refs>
+        <data>And then... I'll tell you a secret over
+there!![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x502</ref>
+        </refs>
+        <data>Stay!![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x54a</ref>
+        </refs>
+        <data>[character][0x1]...
+Is there somebody you like?[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x556</ref>
+        </refs>
+        <data>I see... well... I think you'll understand
+this feeling soon enough...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x55e</ref>
+        </refs>
+        <data>Then you might understand how the
+dragons feel too...[end]G</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x881</ref>
+            <ref>0x687</ref>
+        </refs>
+        <data>Give this dragon a name.[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6d0</ref>
+        </refs>
+        <data>Oh...[end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x56c</ref>
+        </refs>
+        <data>The dragons might get jealous if you
+pay too much attention to just one...
+
+And if you don't show enough affection
+to one of them, it might become timid...
+Be careful.[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x57c</ref>
+        </refs>
+        <data>Yep!! The more you think about the
+dragons the more you'll become
+emotionally attached to them.
+You'll definitely become able to express
+your feelings much more easily.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5a4</ref>
+        </refs>
+        <data>This is all that I can teach you.
+Okay, [character][0x1]?[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5b2</ref>
+        </refs>
+        <data>Dragons have hearts, just like you,
+[character][0x1].
+
+They laugh, and they get angry.
+They can also be sad, and they can
+also love.
+To make matters worse... they also
+overeat, and they catch colds too...
+Make sure to take good care of them.[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5d3</ref>
+        </refs>
+        <data>[character][0x1], you might be able to
+become a legendary dragonkeeper like
+me too...[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5e2</ref>
+        </refs>
+        <data>Don't give up!
+Here's a present from me!
+He's shy, so take care of him.[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x64c</ref>
+        </refs>
+        <data>Okay then! You can do whatever you
+want now![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x659</ref>
+        </refs>
+        <data>Dragonkeeper: Are you going back
+inside?[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8e7</ref>
+        </refs>
+        <data>Dragonkeeper: Are you going back
+inside for a while?[end][end]</data>
+    </text>
+</texts>

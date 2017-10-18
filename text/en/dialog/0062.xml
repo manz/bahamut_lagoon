@@ -1,0 +1,383 @@
+<?xml version="1.0" ?>
+<texts base="0x580" room_id="62">
+    <text>
+        <refs>
+            <ref>0x1dd</ref>
+            <ref>0x206</ref>
+        </refs>
+        <data>Teline...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x214</ref>
+        </refs>
+        <data>Teline... Today... My promise to you...
+was fulfilled.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x22d</ref>
+        </refs>
+        <data>Teline...
+
+
+[0x24]Ifs[0x22] are not allowed for warriors,
+But just this once, I do not want to be
+a warrior! Teline...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x24a</ref>
+        </refs>
+        <data>My son... At a good age, without work,
+pretending he's with this Resistance...
+
+And our savings in the jars are about
+to run out too...[end][0x2a]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x253</ref>
+        </refs>
+        <data>[0x2a]woof[0x2a] [0x2a]whimper[0x2a]
+[0x28]Master... our family is having a
+crisis...[0x29][end]G</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x25a</ref>
+        </refs>
+        <data>Grandma... Tomorrow I will be going to
+the harem... You seem happy for some
+reason...[end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x261</ref>
+        </refs>
+        <data>Eww, stay away from me, you old man!![end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x268</ref>
+        </refs>
+        <data>When the Imperial Army returned, the
+King's harem was revived!
+
+Mommy... went to the harem. She took
+a Drawer Thing with her.  She said it
+was for good luck![end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x26f</ref>
+        </refs>
+        <data>Pretending to be King Kahna is really
+popular among Dafila's royal family!!
+
+Even though it's hot with a fake
+mustache and a king's cloak they
+put up with it!![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x276</ref>
+        </refs>
+        <data>I can't say it to the kids...
+Honey... come home...[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x286</ref>
+        </refs>
+        <data>Libero: Oh... I'm worried...[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x28a</ref>
+        </refs>
+        <data>  Start a discussion
+  It's none of my business.[end1]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x297</ref>
+        </refs>
+        <data>Oh... There's a map of the temple of
+the Holy Dragon in the royal palace...
+
+You could get it while helping out with
+the revolution, but...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2a4</ref>
+        </refs>
+        <data>There have been no victories for the
+Freedom Revolutionaries ever since
+the Imperial Army showed up.
+However... Even though we chose the
+name [0x24]Freedom Revolutionaries[0x22], we
+don't have a leader...
+I'm at best Number 2... How about it...
+You're the leader of the Resistance,
+aren't you?
+Won't you be our leader too?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2a8</ref>
+        </refs>
+        <data>  Sure thing, leave it to me!!
+  It doesn't concern me.[end1]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2b7</ref>
+        </refs>
+        <data>Okay! Seems you want to help after all!
+You don't seem like a popular kind of
+guy. But, that's okay!
+Being in the revolution is cool, don't
+you think? No girl will ever leave you
+alone![end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2d3</ref>
+            <ref>0x2bb</ref>
+        </refs>
+        <data>When you've decided you want
+popularity and freedom, come back and
+see me!
+It will begin tonight! Tonight we shall
+be reborn![end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2c7</ref>
+        </refs>
+        <data>Libero: Are you ready?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2cb</ref>
+        </refs>
+        <data>  Wander around town
+  Wait for nightfall[end1] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x303</ref>
+        </refs>
+        <data>              That night...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x325</ref>
+        </refs>
+        <data>Sajin: Oh, nobody will ever find me...
+Patience, patience...
+This is part of my training too.
+Oh!!!![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x333</ref>
+        </refs>
+        <data>Hey buddy! I've been spotted![end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x382</ref>
+        </refs>
+        <data>Zeroshin: Excellent work, leader of the
+Resistance!
+
+By the way, won't you hire us? We'll
+accept payment afterwards...
+
+That's right... We'll accept up to 15
+installments.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x391</ref>
+        </refs>
+        <data>Sajin: We are special assassins
+who perform with no mistakes!!
+
+Right now, for a basic fee, we will give
+you Level 2 ninjutsu for free.
+
+For the optional package, we'll need a
+down payment.[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x39a</ref>
+        </refs>
+        <data>Will you hire us?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x39e</ref>
+        </refs>
+        <data>  Basic fee [0x28]pay later[0x29]
+  Optional [0x28]3000 Piro down payment[0x29][end1]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3a6</ref>
+        </refs>
+        <data>Why, I ought to kill you!![end]F</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3ac</ref>
+        </refs>
+        <data>For the optional package, please select
+from the following menu.[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3b0</ref>
+        </refs>
+        <data>  Assassination of Matelite
+  Assassination of Princess [character][0x1]
+  Assassination of crew member[end1]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3d7</ref>
+        </refs>
+        <data>Thank you. We are glad to do business
+with you.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x424</ref>
+        </refs>
+        <data>Sajin: I'll use this to work hard on my
+training... Where will I hide this time...[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x437</ref>
+        </refs>
+        <data>Zeroshin: Mom, sorry for worrying you.
+After this job ends... It looks like I'll
+be out of work again...[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x442</ref>
+        </refs>
+        <data>Zeroshin: Mom... I found a job. It
+doesn't pay much but I think I can do
+it...[end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x44b</ref>
+        </refs>
+        <data>A revolution needs the uniform support
+of the people...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x454</ref>
+        </refs>
+        <data>I'm not popular... I'm not popular...
+Why?! Guys, why aren't I popular?[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x45d</ref>
+        </refs>
+        <data>I don't really know. But I wanna
+participate in the revolution!
+Don't you?[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x466</ref>
+        </refs>
+        <data>Without a revolution for freedom,
+Dafila has no future!
+
+Without women, we have no future![end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x46f</ref>
+        </refs>
+        <data>We've brought in special
+assassins-for-hire for the revolution
+tonight, so don't worry.
+Huh?! Now where did those two go?[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4b5</ref>
+        </refs>
+        <data>You got a box of Drawer Things.
+There were 11 inside.[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4ca</ref>
+        </refs>
+        <data>You got 5 High Drugs.[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4e5</ref>
+        </refs>
+        <data>You got 5 Super Vodkas.[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x500</ref>
+        </refs>
+        <data>You got a Difficult Book, a Strategy
+Book, a Genius Notebook, and an XXX
+Porno Mag.[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x517</ref>
+        </refs>
+        <data>You got a Calamitias.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x52a</ref>
+            <ref>0x55e</ref>
+        </refs>
+        <data>There is 3000 Piro in the jar.
+Will you steal it?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x562</ref>
+            <ref>0x52e</ref>
+        </refs>
+        <data>  Yes
+  No[end1]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x540</ref>
+        </refs>
+        <data>This family will probably leave town
+suddenly during the night...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x54a</ref>
+        </refs>
+        <data>This family will probably go drown
+itselt...[end][end]</data>
+    </text>
+</texts>

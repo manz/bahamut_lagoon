@@ -1,0 +1,715 @@
+<?xml version="1.0" ?>
+<texts base="0xd22" room_id="9">
+    <text>
+        <refs>
+            <ref>0x47</ref>
+        </refs>
+        <data>               Chapter 9
+    Mahal, the Continent of Miracles[end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x85</ref>
+        </refs>
+        <data>At long last, I have returned to Mahal...
+Is everybody all right?[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8f</ref>
+        </refs>
+        <data>I can never forget what happened on
+that fateful day...[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf5</ref>
+        </refs>
+        <data>Lestat: Heeheehee!![end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9b</ref>
+        </refs>
+        <data>The day I fled from Mahal...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xfe</ref>
+        </refs>
+        <data>This is what awaits Mahal at the hands
+of I, Lestat![end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x107</ref>
+        </refs>
+        <data>What's wrong? Come out, Mahal army!
+Come out, Captain Taicho!
+Heeheehee![end]G</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x17b</ref>
+        </refs>
+        <data>Gunso: Captain! It is now only a matter
+of time until Mahal is destroyed![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x188</ref>
+        </refs>
+        <data>If we don't do something, Mahal will be
+laid to waste![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x195</ref>
+        </refs>
+        <data>Captain! Please give us our orders![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1a1</ref>
+        </refs>
+        <data>Taicho: Hmm...
+
+
+Very well, I shall challenge Lestat
+myself! You all stay behind and cover
+me![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1ad</ref>
+        </refs>
+        <data>Don't be reckless! You'd only be headed
+for a quick death![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1b9</ref>
+        </refs>
+        <data>Captain, please wait. We will cut in and
+attack the vanguard. That will be your
+chance to attack Lestat...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1de</ref>
+        </refs>
+        <data>Taicho: Quiet! Who is giving the orders
+here?![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1ec</ref>
+        </refs>
+        <data>I am Taicho, captain of the army of
+Mahal![end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1fa</ref>
+        </refs>
+        <data>But...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x20a</ref>
+        </refs>
+        <data>Taicho: I said quiet! I am a warrior...
+The most important thing to me is
+the people of Mahal!
+I have no regrets in giving up my life
+to protect them![end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x218</ref>
+        </refs>
+        <data>But...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x226</ref>
+        </refs>
+        <data>Taicho: I said be quiet![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x22e</ref>
+        </refs>
+        <data>Celine: Darling![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x242</ref>
+        </refs>
+        <data>Taicho: Celine...[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x24c</ref>
+        </refs>
+        <data>Celine: I agree with them.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x263</ref>
+        </refs>
+        <data>Taicho: What are you saying?! If I do
+not spare my life to protect Mahal,
+just who will?![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x26d</ref>
+        </refs>
+        <data>Celine: I'm only saying that you're not
+strong enough...[end]G</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x279</ref>
+        </refs>
+        <data>Gunso: Lady Celine! What are you
+saying?![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x28e</ref>
+        </refs>
+        <data>Taicho: H-how rude![end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x297</ref>
+        </refs>
+        <data>Are you saying there is someone in
+Mahal stronger than I?[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x29d</ref>
+        </refs>
+        <data>I am the finest warrior in Mahal! If I
+must forfeit that honor, I may as
+well forfeit my life![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2cc</ref>
+        </refs>
+        <data>Sleep![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x324</ref>
+        </refs>
+        <data>Celine: Forgive me, my love.[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x32d</ref>
+        </refs>
+        <data>Mahal will certainly lose this war.
+But, even if we lose today... the day
+will come when we destroy the Empire...[end]U</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x336</ref>
+        </refs>
+        <data>Until that time comes... please stay
+alive...
+
+For now...[end].</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x343</ref>
+        </refs>
+        <data>...we will defend Mahal!![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x349</ref>
+        </refs>
+        <data>Celine: Let's go![end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x363</ref>
+        </refs>
+        <data>Yes, ma'am!![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x36c</ref>
+        </refs>
+        <data>Celine: Gunso, please stay behind.
+Take care of my husband![end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x378</ref>
+        </refs>
+        <data>Yes ma'am![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3f0</ref>
+        </refs>
+        <data>Celine: Here I come, Lestat![end]F</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3fb</ref>
+        </refs>
+        <data>Flame Gaze![end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x440</ref>
+        </refs>
+        <data>Lestat: Heeheehee! That won't work on
+me![end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x455</ref>
+        </refs>
+        <data>What has happened to Taicho?!
+
+
+Where's Taicho, the best warrior in
+Mahal?[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x499</ref>
+        </refs>
+        <data>Waaaa![end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4c1</ref>
+        </refs>
+        <data>Lestat: Heeheehee!
+
+
+Taicho! Did you get scared of me and
+run away? Did the best soldier in
+Mahal chicken out?
+Heeheeheehee![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4d1</ref>
+        </refs>
+        <data>Celine: No! He's... he's not like that![end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4de</ref>
+        </refs>
+        <data>Lestat: Heeheehee! Oh, but he is.
+
+
+Heeheehee![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4e7</ref>
+        </refs>
+        <data>Die![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x570</ref>
+        </refs>
+        <data>Celine: Ahhhh!![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5ce</ref>
+        </refs>
+        <data>I... I could not protect them...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5d5</ref>
+        </refs>
+        <data>My home town, Mahal... Mahal Palace...
+My subjects...[end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5dc</ref>
+        </refs>
+        <data>And... my beloved wife...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5e0</ref>
+        </refs>
+        <data>I could not protect them...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5eb</ref>
+        </refs>
+        <data>I could not protect a single thing...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x601</ref>
+        </refs>
+        <data>I am sad!!!!![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6f8</ref>
+        </refs>
+        <data>Truce: This is a map of Mahal.[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x742</ref>
+        </refs>
+        <data>We know that this is a large floodgate
+that's currently not in use.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x767</ref>
+        </refs>
+        <data>So, we gather the enemy down in the
+flood basin below the gate...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x787</ref>
+        </refs>
+        <data>Then we open it up, and let the
+torrent take care of them for us!![end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9d6</ref>
+        </refs>
+        <data>Was I talking too much? Sorry...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9e8</ref>
+        </refs>
+        <data>[character][0x1]...
+
+
+Uh, never mind...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa11</ref>
+        </refs>
+        <data>[character][0x1]... Is there somebody you
+love? Is there somebody you have
+to protect?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa1d</ref>
+        </refs>
+        <data>  Yes
+  No[end1]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa27</ref>
+        </refs>
+        <data>Even if you don't say so, I know.
+Princess [character][0x1], right?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa31</ref>
+        </refs>
+        <data>[character][0x1]... you are a man of
+happiness.[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa3a</ref>
+        </refs>
+        <data>Having somebody you love is the
+happiest thing in this world. Take good
+care of her.[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa43</ref>
+        </refs>
+        <data>If you were to lose her... that would
+be the worst thing in the world...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa55</ref>
+        </refs>
+        <data>If that happens... you too might
+become a coward of a man like me...[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xacd</ref>
+        </refs>
+        <data>               Chapter 13
+       The Magic City of Godland[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xad1</ref>
+        </refs>
+        <data>       The Magic City of Godland...[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xad5</ref>
+        </refs>
+        <data>    A lagoon whose independence is
+   acknowledged even by the Empire,
+ due to its advanced magic civilization...[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb1a</ref>
+        </refs>
+        <data>Hornet: Godland, coming up.[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb31</ref>
+        </refs>
+        <data>Melodia: Wow! Wow! It's Godland!![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb3f</ref>
+        </refs>
+        <data>The Mini-Devils are excited too!!
+More Mini-Devils are gonna join!!
+Right?![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb51</ref>
+        </refs>
+        <data>Manyooo!!
+[0x28]Go! Go! Godland is a good place! Go![0x29][end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb61</ref>
+        </refs>
+        <data>Hornet: Hey! Don't be bringing
+Mini-Devils onto the bridge![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb77</ref>
+        </refs>
+        <data>Melodia: Hmph! You're a meanie, Hornet!!
+Get him, Mini-Devils![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb8e</ref>
+        </refs>
+        <data>Monyooo!!
+[0x28]Go! Go! Godland!! It has good things!![0x29][end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xba7</ref>
+        </refs>
+        <data>Hornet: Hey! Knock it off![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc0c</ref>
+        </refs>
+        <data>Rush: Hey.[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc15</ref>
+        </refs>
+        <data>Hey, Truce... Are you awake?[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc1e</ref>
+        </refs>
+        <data>Truce: Y-yeah, I'm awake. Just a little
+tired... Why?[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc27</ref>
+        </refs>
+        <data>Rush: I can't sleep either... It's weird...[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc30</ref>
+        </refs>
+        <data>Bikkebakke! How about you?[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd0a</ref>
+            <ref>0xc3e</ref>
+        </refs>
+        <data>Bikkebakke: Zzzz...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc47</ref>
+        </refs>
+        <data>Truce: Looks like he's asleep. I guess
+we shouldn't wake him up.[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc50</ref>
+        </refs>
+        <data>Rush: Oh...[end]U</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc5c</ref>
+        </refs>
+        <data>Um, Truce...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc65</ref>
+        </refs>
+        <data>Truce: What?[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc6e</ref>
+        </refs>
+        <data>Rush: I don't know how to explain it,
+but... The people of Mahal...
+I sense something about them...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc77</ref>
+        </refs>
+        <data>Truce: ?![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc83</ref>
+        </refs>
+        <data>Rush: I don't know how to...
+Um.. How should I put it...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc8c</ref>
+        </refs>
+        <data>Truce: I think I know what you're
+trying to say, Rush.[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc9a</ref>
+        </refs>
+        <data>Rush: Then you can feel it too, Truce?![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xca3</ref>
+        </refs>
+        <data>Truce: Huh?! Oh, yeah.[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xcb1</ref>
+        </refs>
+        <data>I get the feeling they're different than
+the people from Kahna somehow...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xcb7</ref>
+        </refs>
+        <data>Taicho, who fights for his late wife...[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xcbd</ref>
+        </refs>
+        <data>Lukia, who's really strong and
+beautiful...[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xcc6</ref>
+        </refs>
+        <data>Donfan, who fights so he can meet
+girls...[end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xccc</ref>
+        </refs>
+        <data>Jeanne, who's a little masculine but still
+cool.[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xcd5</ref>
+        </refs>
+        <data>Rush: They're different from us, you
+know...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xcde</ref>
+        </refs>
+        <data>Truce: From a young age I was raised
+only as a soldier.[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xce7</ref>
+        </refs>
+        <data>Rush: Freedom...[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xced</ref>
+        </refs>
+        <data>Do I want freedom...? I don't really
+know... damn it![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xcf9</ref>
+        </refs>
+        <data>Truce: I don't really know either...[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd17</ref>
+        </refs>
+        <data>Bikkebakke! You don't know either?![end][end]</data>
+    </text>
+</texts>

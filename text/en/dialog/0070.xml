@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<texts base="0x83a" room_id="70">
+    <text>
+        <refs>
+            <ref>0xda</ref>
+        </refs>
+        <data>             Granbelos Empire[end1] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf0</ref>
+        </refs>
+        <data>              Genius of War
+             Emperor Sauzer[end1]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x125</ref>
+        </refs>
+        <data>His ambition was to achieve domination
+of the skies...[end1] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x13b</ref>
+        </refs>
+        <data>         And then... war erupted.[end1][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3ed</ref>
+        </refs>
+        <data>The fires of war blanketed the sky...
+And countless lagoons fell at the
+hands of the Empire.[0xfc][0x1][end1]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x763</ref>
+        </refs>
+        <data>And thus the sky came to take the
+color of sanless...[end][end]</data>
+    </text>
+</texts>

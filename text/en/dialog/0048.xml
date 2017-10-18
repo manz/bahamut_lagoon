@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<texts base="0x826" room_id="48">
+    <text>
+        <refs>
+            <ref>0xeb</ref>
+        </refs>
+        <data>Matelite: [character][0x1]...!![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x11d</ref>
+        </refs>
+        <data>Taicho: Matelite!! Endure it!
+We had hoped that this day would
+come someday...[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x142</ref>
+        </refs>
+        <data>Rush: ......
+
+
+Let's get going![end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5a6</ref>
+        </refs>
+        <data>Palpaleos: I want to talk with
+[character][0x1]. Can you wait for me
+inside...?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5cf</ref>
+            <ref>0x607</ref>
+        </refs>
+        <data>[character][0x1]: Please, [character][0x1]...
+He's very important to me...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x624</ref>
+        </refs>
+        <data>Palpaleos: [character][0x1]... Sorry...
+Help me up, if you could...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x680</ref>
+        </refs>
+        <data>Sendak: [character][0x1]...
+I am of no use, am I...?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x684</ref>
+        </refs>
+        <data>  Sendak... You're our last hope...
+  You're exactly right, you old fogy...[end1][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x68e</ref>
+        </refs>
+        <data>[character][0x1]... I... I cannot take the
+place of the princess...[end].</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x696</ref>
+        </refs>
+        <data>.........
+
+
+Farewell...
+[character][0x1]...[end][end]</data>
+    </text>
+</texts>

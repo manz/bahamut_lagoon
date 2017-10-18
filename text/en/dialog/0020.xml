@@ -1,0 +1,1241 @@
+<?xml version="1.0" ?>
+<texts base="0x1cc5" room_id="20">
+    <text>
+        <refs>
+            <ref>0x15a6</ref>
+        </refs>
+        <data>Dragonkeeper: Here I am!
+You shouldn't keep the dragons
+starving![end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x91</ref>
+        </refs>
+        <data>               Chapter 2
+     The Legend we Dreamed of...[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9a</ref>
+        </refs>
+        <data>              Chapter 20
+         The Sky of Sadness[end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc3c</ref>
+            <ref>0xce</ref>
+        </refs>
+        <data>Rush: It's the start of a new battle!
+Matelite has some big, important
+announcement.
+Didn't we all have to line up like this
+once before?[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd4</ref>
+        </refs>
+        <data>Rush: Matelite says he's gonna teach us
+the basics of fighting.
+
+He thinks he's such a big shot, yelling
+at us to line up and wait like that...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x149</ref>
+        </refs>
+        <data>Taicho: Quiet down!
+
+
+Be quiet and listen to Matelite's speech![end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x158</ref>
+        </refs>
+        <data>Palpaleos: Matelite has something to
+say. I would like you to listen.[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1bb</ref>
+        </refs>
+        <data>Rush: Matelite's speech is long.
+Will you do the quick version?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1481</ref>
+            <ref>0x1744</ref>
+            <ref>0xe27</ref>
+            <ref>0x1088</ref>
+            <ref>0x10ab</ref>
+            <ref>0x114b</ref>
+            <ref>0xd74</ref>
+            <ref>0x10d5</ref>
+            <ref>0xe37</ref>
+            <ref>0x1bf</ref>
+        </refs>
+        <data>  Yes
+  No[end1]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1ec</ref>
+        </refs>
+        <data>Matelite: Whenever I'm in front of
+everyone I get really nervous...
+This won't do...
+Do it just like I practiced...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1fc</ref>
+        </refs>
+        <data>Matelite: You all are probably very
+exhausted, so... to put it briefly...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x20e</ref>
+        </refs>
+        <data>Matelite: Our fight has only just begun!
+Okay, everybody![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x214</ref>
+        </refs>
+        <data>Matelite: As you know, Sendak has
+fainted. He's not dead yet, but he
+probably doesn't have long to live...[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x22c</ref>
+        </refs>
+        <data>Here is Sendak's will! He hasn't died
+yet, but I'll read it anyway![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2ea</ref>
+        </refs>
+        <data>ME![end][0x2a]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6a0</ref>
+            <ref>0x38d</ref>
+        </refs>
+        <data>[0x2a]gasp[0x2a] [0x2a]gasp[0x2a][end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x226</ref>
+        </refs>
+        <data>We are raising a flag in opposition to
+the Granbelos Empire!
+
+We are the freedom force that will
+save all the lagoons of our world of
+Orelus from the rule of the Empire![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x241</ref>
+        </refs>
+        <data>However... At the beginning, we will be
+called a humble resistance group...
+
+To not forget that, I shall call us the
+Resistance, not the Freedom Force![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x247</ref>
+        </refs>
+        <data>Matelite: It says, [0x24]I hereby make
+[character][0x1] acting captain after I pass
+away...[0x22]!![end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x259</ref>
+        </refs>
+        <data>Okay, everyone!!
+The first thing we need are rules and
+orders for the unit![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x25f</ref>
+        </refs>
+        <data>Since it'll be boring around here after
+he dies...
+
+We will respect Sendak's dying wish and
+make [character][0x1] acting captain![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x278</ref>
+        </refs>
+        <data>However... It seems there are people
+who don't understand![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x281</ref>
+        </refs>
+        <data>[character][0x1]! Do your best as the new
+captain![end]F</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2c2</ref>
+        </refs>
+        <data>First, I will have to show you what
+rules and orders are![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2d9</ref>
+        </refs>
+        <data>The one who will command the
+Resistance is...[end]N</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x365</ref>
+        </refs>
+        <data>No matter what you say...
+I am Matelite of Kahna![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3a6</ref>
+        </refs>
+        <data>I have no equal when it comes to
+fighting![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x41d</ref>
+        </refs>
+        <data>If I'm going to be the one who takes
+command of the battle, then the
+captain of [character][0x1], Kahna's...
+No... the Resistance's flagship will be...[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x423</ref>
+        </refs>
+        <data>But then there's also the possibility
+he's just faking it, that he was
+exhausted in battle!
+We'll have Captain Sendak help out in
+the next battle, so don't worry![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x469</ref>
+        </refs>
+        <data>Master Sendak!![end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x48a</ref>
+        </refs>
+        <data>You handle the controls!
+You, over there![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4a6</ref>
+        </refs>
+        <data>Respond![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4bb</ref>
+        </refs>
+        <data>Hornet: Quiet![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4da</ref>
+        </refs>
+        <data>Hornet: Tell me when to make
+[character][0x1] leave![end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4e9</ref>
+        </refs>
+        <data>And tell me where to go too![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x501</ref>
+        </refs>
+        <data>Matelite: Taicho... What do you want?[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x512</ref>
+        </refs>
+        <data>Taicho: I am Taicho, which makes me
+the squad captain![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x526</ref>
+        </refs>
+        <data>Matelite: Taicho is the squad captain![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x537</ref>
+        </refs>
+        <data>Matelite: Okay, everybody!
+From now on follow the rules![end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x54b</ref>
+        </refs>
+        <data>We're going to practice now!
+Do what I say! Okay, here we go![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x57a</ref>
+            <ref>0x6f5</ref>
+        </refs>
+        <data>Turn right!
+[0xfc][0x1][0x28]Press right![0x29][end1]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5a1</ref>
+        </refs>
+        <data>Okay, General Palpaleos!
+We're counting on you![end][0x2a]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6aa</ref>
+        </refs>
+        <data>[0x2a]wheeze[0x2a][end]F</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6b3</ref>
+        </refs>
+        <data>Face straight!
+[0xfc][0x1][0x28]Press up![0x29][end1]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x736</ref>
+        </refs>
+        <data>Turn left!
+[0xfc][0x1][0x28]Press left![0x29][end1]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xba0</ref>
+        </refs>
+        <data>Palpaleos: So this is the chief member
+of the Resistance...
+
+[0x28]I must blend in quickly...[0x29][end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xbb5</ref>
+        </refs>
+        <data>[character][0x1]... You will soon become an
+excellent knight just like me...
+
+[character][0x1] is now of marriageable
+age... Don't disappoint me...[end].</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xbc2</ref>
+        </refs>
+        <data>......
+
+
+Zzzz...
+Zzzz...
+
+[character][0x1]......
+[0x2a]mumble[0x2a] [0x2a]mumble[0x2a]
+......[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd10</ref>
+            <ref>0xbcf</ref>
+        </refs>
+        <data>Sendak: [character][0x1]... There is
+something I wish to talk to you about...
+Come to the captain's room later...[end]U</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc06</ref>
+        </refs>
+        <data>Uh oh... Formation and dragons...
+I'm not good with either of them...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc0d</ref>
+        </refs>
+        <data>Sir Matelite practiced all night without
+sleeping... Leave him be...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc14</ref>
+        </refs>
+        <data>Taicho: Nobody likes me. Matelite
+demoted me to number three...[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc26</ref>
+        </refs>
+        <data>Rush: Matelite looks like he's mad.
+Is this a foreshadow of things to
+come...?[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc31</ref>
+        </refs>
+        <data>Rush: Don't jump out just because
+the practice didn't go well![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc43</ref>
+        </refs>
+        <data>Rush: Acting captain...
+Way to go, [character][0x1]![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc52</ref>
+        </refs>
+        <data>Truce: We're waiting for Matelite.
+Get in line.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc5c</ref>
+        </refs>
+        <data>Truce: Hmm... balance is an important
+part of Formation...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc66</ref>
+        </refs>
+        <data>Truce: The enemy's floating fortress,
+Trafalgar, is the Empire's ultimate
+weapon!
+Emperor Sauzer must not have allowed
+its use in the previous battles...[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc75</ref>
+        </refs>
+        <data>Bikkebakke: Umm... Are we going to
+start soon or not?[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc7c</ref>
+        </refs>
+        <data>Bikkebakke: Umm... How long are we
+going to be doing this?[end][0x28]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc86</ref>
+        </refs>
+        <data>[0x28]Bikkebakke is absorbed in reading a
+difficult book.[0x29]
+
+[0x28]The cover of the book says,
+[0x24]The Theory of Economics[0x22].[0x29][end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc9c</ref>
+        </refs>
+        <data>Hornet: The ship seems okay...[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xce6</ref>
+        </refs>
+        <data>But it's still a bit rough.[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xcef</ref>
+        </refs>
+        <data>Hornet: You should line up soon.
+He's going to be fussy.[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xcfa</ref>
+        </refs>
+        <data>Hornet: We'll leave shortly, just hold
+on. And stop jumping out![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd2e</ref>
+        </refs>
+        <data>Hornet: Okay! Departure preparations
+complete! How about you?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd32</ref>
+        </refs>
+        <data>  Not ready!
+  Let's go![end1]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd42</ref>
+        </refs>
+        <data>Hornet: Oh, that's right... I haven't
+asked about our destination yet.
+Where is Princess [character][0x1]?[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd70</ref>
+        </refs>
+        <data>Rush: On the green continent of
+Campbell!! Right, [character][0x1]?![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd83</ref>
+        </refs>
+        <data>Truce: Have you forgotten? She's in
+the fortress on Campbell. We must save
+her quickly![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd8e</ref>
+        </refs>
+        <data>Hornet: Okay! We'll go over the details
+later! Let's go! Full speed ahead,
+[character][0x1]![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xdff</ref>
+        </refs>
+        <data>Hornet: [0x2a]grin[0x2a] I'm a father too,
+starting today... How embarrassing...[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe09</ref>
+        </refs>
+        <data>Hornet: I wonder if he's being good...
+[0x28]Hmph...[0x29][end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe12</ref>
+        </refs>
+        <data>Hornet: If we're going, press the
+appropriate button![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe23</ref>
+        </refs>
+        <data>Melodia: [character][0x1]... I can't see!
+Pick me up![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe33</ref>
+        </refs>
+        <data>Melodia: I'm tired, [character][0x1]!!
+Carry me on your back![end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe3f</ref>
+        </refs>
+        <data>You meanie![end][0x2a]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe6a</ref>
+        </refs>
+        <data>[0x2a]smooch[0x2a][end1]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf0d</ref>
+            <ref>0xe8e</ref>
+        </refs>
+        <data>Thanks, [character][0x1]!
+You're my favorite![end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xef1</ref>
+            <ref>0xed2</ref>
+        </refs>
+        <data>Yippee![end1]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf2f</ref>
+        </refs>
+        <data>Lukia: [character][0x1]... Today's definitely
+going to be a rough day.[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf36</ref>
+        </refs>
+        <data>Lukia: Can you do that for me too?
+But I guess I'm too heavy, huh.[end]F</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf50</ref>
+            <ref>0xf7c</ref>
+        </refs>
+        <data>Frenze and Reeve: We are Lancers.
+
+
+We attack from far away!
+
+
+Lan...lan...lancers![end].</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xfd8</ref>
+            <ref>0xf62</ref>
+            <ref>0x1004</ref>
+        </refs>
+        <data>......[end]F</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf8e</ref>
+        </refs>
+        <data>Frederica: They're always trying to
+show off. Geez, that's dangerous...[end]F</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf99</ref>
+        </refs>
+        <data>Frederica: He's always slow and
+sluggish... Oh no, I'm going to faint...[end]F</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xfa7</ref>
+        </refs>
+        <data>Frederica: I feel... faint...
+Ah... [character][0x1]...
+Please don't worry about me...
+I'm always like this...
+But, please...
+Take this medicine...[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xfab</ref>
+        </refs>
+        <data>  Let her drink it
+  Lucky! I'll take it.[end1]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xfb5</ref>
+        </refs>
+        <data>You got 5 Drugs, 5 Heal potions,
+and 5 Litancibles.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xfcf</ref>
+        </refs>
+        <data>Thank you, I've calmed down a little
+bit. I should fall asleep soon...[end]F</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xfe2</ref>
+        </refs>
+        <data>Frederica: The two guys next to me...
+They stopped talking to each other.
+They used to be good friends too...
+Everybody changes...
+Their hearts... their bodies...
+They all decay...[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xff1</ref>
+        </refs>
+        <data>Diana: No way![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xff8</ref>
+        </refs>
+        <data>Diana: Hey, have you heard of the
+Empire's Emperor Sauzer and General
+Palpaleos?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xffc</ref>
+        </refs>
+        <data>  What about them?
+  I'm not interested.[end1]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x100a</ref>
+        </refs>
+        <data>They say that they were best friends
+ever since they were little kids...
+
+While looking at the sky they would
+talk about their dreams and ambitions.
+
+It's a little different than those two
+lancers over there...[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1011</ref>
+        </refs>
+        <data>Diana: Hey, don't you think it's just
+terrible? I do. Selling your magic power
+for money...
+Just because Matelite asks, that
+suddenly makes it okay... That's low.[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x101c</ref>
+        </refs>
+        <data>Zora: The room in the back is the
+captain's room. They're having a
+meeting so you can't go in.[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1023</ref>
+        </refs>
+        <data>Zora: Nobody's allowed to disturb those
+two in the captain's room...
+
+Captain Sendak is very delicate and
+easily hurt so be nice to him![end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1032</ref>
+        </refs>
+        <data>Barclay: Um... This guy Gunso is next to
+me... The next spot over is open
+though.[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1039</ref>
+        </refs>
+        <data>Barclay: Yes... it's often said the Heavy
+Armor soldiers are carefree.[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1040</ref>
+        </refs>
+        <data>Barclay: Even with the revival of Kahna
+the battle continues... Well, that's just
+the way things go, I guess.[end]G</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x104b</ref>
+        </refs>
+        <data>Gunso: [0x2a]scratch[0x2a] [0x2a]scratch[0x2a] I'm Gunso.
+[0x2a]scratch[0x2a] Turning right, press right...
+Turning left, press left...
+Face front, press up... [0x2a]scratch[0x2a]
+Mahal's training practices have really
+helped me out.[end]G</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1060</ref>
+        </refs>
+        <data>Gunso: I strained my back... [0x2a]scratch[0x2a]
+
+
+Yesterday we all had to lift Matelite
+up... [0x2a]scratch[0x2a] Ouch...[end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x107d</ref>
+        </refs>
+        <data>Anastasia: I think he wants us to face
+forward...[end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1084</ref>
+        </refs>
+        <data>Anastasia: Do you want to talk to the
+person next to me?[end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x10a7</ref>
+        </refs>
+        <data>Anastasia: Yesterday's fireworks were
+thanks to the wizards' magic. Wasn't
+it beautiful?
+Do you want to talk to Ectarina too?[end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x10bb</ref>
+        </refs>
+        <data>Ectarina: Oh...
+
+
+Uh...
+
+
+Um...
+
+
+Hello.[end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x10c2</ref>
+        </refs>
+        <data>Ectarina: Uh... um... Has he realized that
+his back is covered with dragon drool
+yet?[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x10d1</ref>
+        </refs>
+        <data>This is Princess [character][0x1]'s room.
+She'll be really angry, but would you
+like to see it for a bit?[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x111e</ref>
+        </refs>
+        <data>Crew member: It's so lonely here
+without Princess [character][0x1]...
+I've prepared these in advance.[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1141</ref>
+        </refs>
+        <data>Heheh... She's not in this room.
+[character][0x1] is taking care of Sendak.
+You're with us too, [character][0x1].
+Me and twelve others...
+[0x24]Let's just be friends...
+I will have good memories of you,[0x22]
+is what she says...
+All the others are in here doing
+cleaning.
+Sort of like, [0x24]Welcome, newlyweds![0x22]
+Heheh...[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1147</ref>
+        </refs>
+        <data>When you've been rejected, why don't
+you try a book or something? Want
+some?[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1156</ref>
+        </refs>
+        <data>Dragonkeeper: You have to be friendly
+with dragons! I'll teach you how to
+take care of them! Let's go![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x119c</ref>
+        </refs>
+        <data>Matelite: Bwahaha! [character][0x1]!
+I'll give you one more chance.
+If you can't do it...
+I'll have to punish you![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x122f</ref>
+        </refs>
+        <data>Heheh... Okay, how about this!
+
+
+Turn around![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1296</ref>
+        </refs>
+        <data>Matelite: Bwahaha! [character][0x1]!
+It looks like you still don't understand
+what rules are![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x12c9</ref>
+        </refs>
+        <data>I don't know if you're just acting like
+a leader or what, but you're now in
+charge of miscellaneous duties!
+Go study up about things like
+Formation![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x12ec</ref>
+        </refs>
+        <data>Matelite: Taicho! I'm tired, you take
+over![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1301</ref>
+        </refs>
+        <data>Taicho: !! You want me... to explain?[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1313</ref>
+        </refs>
+        <data>Taicho: Oh no... I am not very good
+with Formation...
+
+Because you can create strong parties
+with it.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1327</ref>
+        </refs>
+        <data>Taicho: [character][0x1]... You know about
+Formation, do you not?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x132b</ref>
+        </refs>
+        <data>  No, teach me!
+  Yes, I know about it![end1][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1338</ref>
+        </refs>
+        <data>[character][0x1]... With Formation, you can
+compensate for weaknesses in your
+party![end]F</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x136a</ref>
+            <ref>0x13e4</ref>
+        </refs>
+        <data>For example, this kind of party...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x137a</ref>
+        </refs>
+        <data>This party has many Heavy Armor
+knights who have strong defense, but
+it makes moving around a nightmare![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x13be</ref>
+        </refs>
+        <data>So bring Lukia, who is a Light Armor
+knight, with you! That way you can
+move more quickly![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x13e0</ref>
+        </refs>
+        <data>If your Formation consists of people of
+the same job, their magic and ability
+effectiveness will increase![end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1403</ref>
+        </refs>
+        <data>When all members are of a different
+job, their party will have no special
+strengths![end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1415</ref>
+        </refs>
+        <data>On the other hand, though....[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x144b</ref>
+        </refs>
+        <data>With three Wizards, their Black Magic
+level will increase![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x146e</ref>
+        </refs>
+        <data>That is all there is to it!
+I am sure you will figure it out too![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x147d</ref>
+        </refs>
+        <data>Taicho: So, [character][0x1]...
+Do you understand Formation now?[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x149d</ref>
+        </refs>
+        <data>Oh... I am not very good at teaching...
+Let us go over it once more...[end]G</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x14bc</ref>
+        </refs>
+        <data>Good! I get the feeling I have become
+a little wiser too![end]?</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x14e2</ref>
+        </refs>
+        <data>???: Wait, that's not all!
+
+
+There's a very important relationship
+between Formation and dragons![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x15f3</ref>
+        </refs>
+        <data>That's good...
+You should choose a suitable
+Formation...[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1671</ref>
+        </refs>
+        <data>You got a Gunso's ???.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x167e</ref>
+        </refs>
+        <data>There are some buttons lined up.
+Which will you press?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1682</ref>
+        </refs>
+        <data>  Warning!!
+  Take off!
+  Hornet Special![end1]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1740</ref>
+        </refs>
+        <data>Hornet: Aren't you forgetting
+something? You don't mind if I become
+your godfather, do you?[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1779</ref>
+        </refs>
+        <data>Matelite: [character][0x1]! Wait! From now
+on we aren't fighting for the revival
+of Kahna!
+The entire world of Orelus is resting
+on our shoulders now![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1792</ref>
+        </refs>
+        <data>Taicho: Sir Matelite! Wait![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x17a0</ref>
+        </refs>
+        <data>Matelite: Taicho! Give it to General
+Palpaleos...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x17c3</ref>
+        </refs>
+        <data>Taicho: Sir Matelite! Allow me to...![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x180d</ref>
+        </refs>
+        <data>Matelite: You know what to do, General![end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1899</ref>
+        </refs>
+        <data>Oh!! The Orelus Freedom Force flag![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x18b9</ref>
+        </refs>
+        <data>Matelite: It's the battle with the
+Empire's sky fortress! Let's go![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x18e8</ref>
+        </refs>
+        <data>Hornet: Hey! You're... not going to jump
+out are you?![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x18ee</ref>
+        </refs>
+        <data>Hornet: You're going to jump?
+Oh well, go ahead.[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x18f2</ref>
+        </refs>
+        <data>  Jump!
+  Don't jump[end1]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1971</ref>
+        </refs>
+        <data>Will you wait for Matelite to come out?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1975</ref>
+        </refs>
+        <data>  Keep wandering around
+  Sit still and wait for Matelite[end1]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x198c</ref>
+        </refs>
+        <data>You shouldn't wander around too much.[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x19e7</ref>
+        </refs>
+        <data>Resistance Rules Meeting in Progress
+No Entrance!!
+                             Matelite[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x19ec</ref>
+        </refs>
+        <data>Captain Sendak is resting.
+Do Not Enter!!
+                     Zora[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1af7</ref>
+        </refs>
+        <data>Matelite: How long are you going to
+wander around! Get in line, on the
+double![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1b87</ref>
+        </refs>
+        <data>If you make a dragon eat a book or a
+notebook, it will become smarter.
+But, you shouldn't overdo it.
+If that's all you feed them they will
+start to go mad and become violent.
+
+You should be careful yourslf,
+ [character][0x1][end][end]</data>
+    </text>
+</texts>

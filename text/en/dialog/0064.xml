@@ -1,0 +1,533 @@
+<?xml version="1.0" ?>
+<texts base="0x8b6" room_id="64">
+    <text>
+        <refs>
+            <ref>0x211</ref>
+        </refs>
+        <data>Sendak: I want you to listen to what I
+have to say...
+
+  Listen
+  I don't wanna listen.[end1]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x226</ref>
+        </refs>
+        <data>I have been thinking. I too feel the
+struggle of the Holy Dragon within the
+princess...
+Being the only other one who can
+feel it, I wish to console her...
+
+But how should I sympathize with a girl
+at her age?[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x22f</ref>
+        </refs>
+        <data>Sendak: I am sorry, [character][0x1].
+I suppose I shall have to tell you later
+after all.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x23a</ref>
+        </refs>
+        <data>Sendak: My long ramblings are boring,
+are they not?[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x250</ref>
+            <ref>0x585</ref>
+        </refs>
+        <data>Zora's Son: Uh... um.. I...
+
+
+I'm a lancer. Cleaning is my specialty.
+Thanks a lot![end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3c5</ref>
+            <ref>0x2aa</ref>
+            <ref>0x25d</ref>
+            <ref>0x327</ref>
+        </refs>
+        <data>AH![end]N</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x26a</ref>
+        </refs>
+        <data>Nnnggg... Just three more minutes...[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x26e</ref>
+        </refs>
+        <data>  Let him sleep
+  Hit him
+  Wake him up gently[end1]N</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x280</ref>
+        </refs>
+        <data>Nnnggg... Thanks Mom...[end]N</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x299</ref>
+            <ref>0x28c</ref>
+        </refs>
+        <data>Nnnggg... Just five more minutes...[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2ca</ref>
+        </refs>
+        <data>Who are you?! You wake me up just
+like my mom![end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2e1</ref>
+        </refs>
+        <data>Eh?! You're the captain of Kahna's
+Dragon Squad... Which means... my mom
+is with you too![end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x307</ref>
+        </refs>
+        <data>Oh no!![end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x31b</ref>
+        </refs>
+        <data>Zora: Hey! There you are![end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x336</ref>
+        </refs>
+        <data>Zora: [character][0x1]. This boy is my son.
+He left me and came to this kingdom.[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x367</ref>
+        </refs>
+        <data>Zora: He left me because... Hey, you
+tell him yourself![end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x37b</ref>
+        </refs>
+        <data>O-okay! I wanted to start a dragon
+squad in Campbell that would be even
+better than Kahna's.
+So then I left my mom and came to
+Campbell to start on it.[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x387</ref>
+        </refs>
+        <data>Zora: And? Who's in this dragon squad
+of yours?[end]U</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x393</ref>
+        </refs>
+        <data>Uh... umm... Me, and one dragon...[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x39f</ref>
+        </refs>
+        <data>Zora: That's all?! How miserable.
+Well, I had expected as much.[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3ab</ref>
+        </refs>
+        <data>Zora: That's a strange dragon. Try
+calling it.[end]U</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3b7</ref>
+        </refs>
+        <data>Uh... um...[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3de</ref>
+        </refs>
+        <data>Come!
+[0x28]Please come. Please![0x29][end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x400</ref>
+        </refs>
+        <data>Zora: Even dragons mock you...
+How miserable.[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x40c</ref>
+        </refs>
+        <data>Zora: [character][0x1]. You try.[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x410</ref>
+            <ref>0x424</ref>
+        </refs>
+        <data>  Come!
+  Wait![end1]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x420</ref>
+        </refs>
+        <data>Zora: What will making it wait do?
+Come on, [character][0x1].[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x44e</ref>
+        </refs>
+        <data>Whoa!! I can't believe dragons listen to
+what you say! You really are the
+captain of Kahna's Dragon Squad![end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x45f</ref>
+        </refs>
+        <data>Zora: Hmm. So there are dragons like
+this too.[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x46d</ref>
+        </refs>
+        <data>Zora: What do you think, [character][0x1].
+Will you let my son and this dragon
+ride on your ship?
+  I welcome them.
+  Only the dragon.[end1]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x479</ref>
+        </refs>
+        <data>Don't say something like that![end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x47d</ref>
+            <ref>0x48d</ref>
+        </refs>
+        <data>You can have my son clean the
+hallways if you'd like.
+
+He can't do much of anything, so he
+can learn by observation.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x489</ref>
+        </refs>
+        <data>Thanks, [character][0x1].[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4a6</ref>
+        </refs>
+        <data>I'll tell him all about the rules on
+[character][0x1].[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4b4</ref>
+        </refs>
+        <data>Okay, you! Come here![end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4e2</ref>
+        </refs>
+        <data>Battlefield Salesman: Thank you for all
+your help. I'm stocking up on new
+things, so come see me again![end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4e9</ref>
+        </refs>
+        <data>Oh! [character][0x1]! Welcome to my home!
+It's me, the battlefield salesman![end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4fb</ref>
+        </refs>
+        <data>Are you [character][0x1]? Glad to meet
+you. I hear you're always helping out
+people I know...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x502</ref>
+        </refs>
+        <data>I get the feeling they don't know what
+good taste is.[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x510</ref>
+            <ref>0x51f</ref>
+        </refs>
+        <data>Hee hee. He believes me. Hee hee.[end]G</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x536</ref>
+        </refs>
+        <data>Give this dragon a name.[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x579</ref>
+        </refs>
+        <data>Zora's Son: I see! Giving dragons a
+name! I never thought about that![end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5aa</ref>
+        </refs>
+        <data>Bikkebakke: [character][0x1]! This old man
+said if I gave him some money he'd
+give me back 1000 times as much![end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5b3</ref>
+        </refs>
+        <data>Bikkebakke: What should I do...
+
+
+  Try giving him some.
+  He's lying to you.[end1]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5c0</ref>
+        </refs>
+        <data>If you think so, it must be okay![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5cf</ref>
+        </refs>
+        <data>I guess so after all...[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5da</ref>
+        </refs>
+        <data>Okay! I'll give him my wallet!![end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5e1</ref>
+        </refs>
+        <data>Bikkebakke: [character][0x1]... If what the
+old man says is true, what should I
+do?[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5f8</ref>
+            <ref>0x613</ref>
+        </refs>
+        <data>There's a letter lying here...[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5fc</ref>
+        </refs>
+        <data>  Read it
+  Don't bother with it[end1]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x60a</ref>
+        </refs>
+        <data>Hello, battlefield salesman. You're
+always on one journey to the next.
+
+I wish you'd stop by my store when
+you come back to visit. I want to see
+you. But no alcohol.
+I'm lonely... I miss you.[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x617</ref>
+        </refs>
+        <data>  Take it
+  Don't bother with it[end1]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x627</ref>
+        </refs>
+        <data>You got a Letter.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x636</ref>
+        </refs>
+        <data>They're a little expensive...[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x75f</ref>
+        </refs>
+        <data>Zora: [character][0x1]! I have something to
+tell you![end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x76a</ref>
+        </refs>
+        <data>A bunch of men in armor came in and
+asked for a room...
+
+I thought they came here to get
+revenge on the Granbelos Empire?[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x774</ref>
+        </refs>
+        <data>Matelite: Hero of the liberation of
+Campbell! How about some of my
+autographed weapons and armor?
+You buy some too, [character][0x1]![end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x77e</ref>
+        </refs>
+        <data>Barclay: This is pathetic...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7d7</ref>
+        </refs>
+        <data>Taicho: You help out too,
+[character][0x1]![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7f5</ref>
+        </refs>
+        <data>Do you know of the Campbell Dragon
+Squad?
+
+  Yes
+  No[end1]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x806</ref>
+        </refs>
+        <data>Oh! How rare![end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x812</ref>
+        </refs>
+        <data>Oh, I see.[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x81c</ref>
+        </refs>
+        <data>You should meet the captain. He's on
+the 2nd floor. He's a very pathetic
+excuse of a person.
+He's never even been deemed an
+enemy by the Empire![end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x832</ref>
+        </refs>
+        <data>You got a Porno Mag.[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x843</ref>
+        </refs>
+        <data>You got a Handmade Cookie.[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x854</ref>
+        </refs>
+        <data>You got a Heal SP.[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x865</ref>
+        </refs>
+        <data>You got a Drawer Thing.[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x876</ref>
+        </refs>
+        <data>You got a Difficult Book.[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x887</ref>
+        </refs>
+        <data>You got a Prodigy Notebook.[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x898</ref>
+        </refs>
+        <data>You got a Sweet Memory.[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8a9</ref>
+        </refs>
+        <data>You got some Sweet Wine.[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8b1</ref>
+        </refs>
+        <data>Battlefield Salesman: [character][0x1]...
+I'll give you some Sweet Wine for free.[end][end]</data>
+    </text>
+</texts>

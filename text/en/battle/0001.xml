@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<texts base="0xc6" room_id="1">
+    <text>
+        <refs>
+            <ref>0xba</ref>
+        </refs>
+        <data>Everybody get inside!![0xfc][0x1][end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2c</ref>
+        </refs>
+        <data>Matelite: Looks like the Imperial army's
+still around!![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x30</ref>
+        </refs>
+        <data>We're gonna kick the crap out of them[0xfc][0x1]
+and take back Kahna's flagship!![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x37</ref>
+        </refs>
+        <data>Enemy approaching!!
+The Resistance is attacking?![end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x40</ref>
+        </refs>
+        <data>Yo, I'm the boss here!![0xfc][0x1]
+I won the position in the
+javelin-throwing competition!![end]“</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4b</ref>
+        </refs>
+        <data>“Condition for Victory:”[0xfc][0x1]
+“Defeat of the boss”[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x99</ref>
+        </refs>
+        <data>Take good care of your dragons!!
+Use the dragon commands properly...[end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9d</ref>
+        </refs>
+        <data>Don't forget about [0xfc][0x1][0x22]Come[0x22] and [0x22]Wait[0x22]!![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa4</ref>
+        </refs>
+        <data>If our dragons are slain in battle, we
+won't be able to use our magic and
+techs! So be careful!![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb3</ref>
+        </refs>
+        <data>Matelite: OK!![0xfc][0x1] I'm taking charge of the
+ship!![end1][end]</data>
+    </text>
+</texts>

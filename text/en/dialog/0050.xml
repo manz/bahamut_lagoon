@@ -1,0 +1,291 @@
+<?xml version="1.0" ?>
+<texts base="0x601" room_id="50">
+    <text>
+        <refs>
+            <ref>0x21f</ref>
+        </refs>
+        <data>......[end]V</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x249</ref>
+        </refs>
+        <data>Valitora...
+
+
+Leviathan...
+
+
+Garuda...
+
+
+Jormungand...
+
+
+You are all here, I see...
+So the time for vengeance has come...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x27c</ref>
+        </refs>
+        <data>I am the Holy Dragon Hyperion...
+
+
+Weak-minded girl...
+Come alone...
+
+You have the ability to relieve our
+anger...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2b6</ref>
+        </refs>
+        <data>Palpaleos: Everyone will go...
+Everything, perhaps, may be lost...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2c3</ref>
+        </refs>
+        <data>Palpaleos: [character][0x1]...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2ce</ref>
+        </refs>
+        <data>Matelite: It won't open!! What should we
+do?![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2d8</ref>
+        </refs>
+        <data>Matelite: [character][0x1], do something...
+At times like this, my head hurts![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2e3</ref>
+        </refs>
+        <data>Taicho: We are locked in![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2ed</ref>
+        </refs>
+        <data>Taicho: My beard is standing on end!!
+So this is the anger of the Holy
+Dragons...
+It is excruciating!![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x30c</ref>
+        </refs>
+        <data>Sendak: Forgive me... I was merely
+pretending to be ill... I was afraid of
+the Holy Dragons...
+I was scared of the fighting...
+I suppose I really am a weak old man
+after all...[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x31d</ref>
+        </refs>
+        <data>Rush: The Holy Dragons' anger...
+I can feel it too...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x327</ref>
+        </refs>
+        <data>Truce: It's no good, Captain
+[character][0x1]! The Holy Dragon has
+become angry...[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x332</ref>
+        </refs>
+        <data>Bikkebakke: Come on!! Eat, eat!
+Have some of my mushrooms!![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x41d</ref>
+        </refs>
+        <data>I know...
+I know I am weak-minded...
+
+I'm unable to read your thoughts...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x441</ref>
+        </refs>
+        <data>Princess [character][0x1]!!
+No...
+
+You are not the only one who has
+become timid...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x46d</ref>
+        </refs>
+        <data>Sauzer: Please, come this way...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x531</ref>
+        </refs>
+        <data>Palpaleos: Sauzer!![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x537</ref>
+        </refs>
+        <data>Sauzer: Palpaleos...
+Take me up into the sky...[end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x37a</ref>
+        </refs>
+        <data>               Palpaleos...
+ I wanted to be by your side always...
+
+                Matelite...
+   You and Taicho get along so well...
+
+                Sendak...
+        Don't overdo it... Relax...
+
+            Everybody else...
+               Stay well...
+
+                [character][0x1]...
+   Don't forget to feed the dragons...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x48d</ref>
+        </refs>
+        <data>Sauzer: The Holy Dragons' anger...
+
+
+Their anger... I should not have taken
+it into myself...
+
+Take Hyperion's mind from me...
+
+
+Princess [character][0x1]...
+The skies of Orelus are in your hands.[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4d6</ref>
+        </refs>
+        <data>          Weak-minded humans...
+            Humans who know
+         the truth of the legend...
+  Lead the way for we Holy Dragons...
+       To the land of tranquility...
+
+               Dragnar...
+Human who will lead the Holy Dragons...
+
+    There, the new era lies in wait...
+
+
+  The renewed memories of the sky...
+     The era of we Holy Dragons...
+
+        Once more, to that era...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x540</ref>
+        </refs>
+        <data>Palpaleos: Sauzer... I won't leave you
+here... I'll take you to [character][0x1]...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x566</ref>
+        </refs>
+        <data>There's no point in trying to escape!
+
+     Gudolf, the New Emperor of Evil
+Woof! I've taken over the spirit of this
+door to bring you a special message...
+
+WHAT UP WITH BAHUMAT
+
+
+DeJap RULZ
+
+
+Be excellent to each other...
+
+
+AND...
+
+
+PARTY ON DUDES!!!!!!
+
+
+Nasubi for President!
+
+
+SEXY BEAM!
+
+                         Signed, Tomato[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x587</ref>
+        </refs>
+        <data>Palpaleos: Gudolf! Where is Emperor
+Sauzer...?[end]G</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x59e</ref>
+        </refs>
+        <data>Gudolf: Emperor Sauzer?
+It really was quite unfortunate...[end]G</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5ad</ref>
+        </refs>
+        <data>Gwahahaha!! He told me YOU were the
+one who betrayed him! And at the end
+he took my hand and said this...
+[0x24]Never forgive Palpaleos, no matter
+what happens!![0x22]
+
+Gwahaha!![end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5bc</ref>
+        </refs>
+        <data>Palpaleos: What..!! Sauzer... Why...?[end]G</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5d7</ref>
+        </refs>
+        <data>Gudolf: Why? Why don't you ask him
+yourself? You can all ask him together!
+Now you die!!
+Gwahaha... Sink into the sky with the
+nightmarish Holy Dragon!! Farewell!![end][end]</data>
+    </text>
+</texts>

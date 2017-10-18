@@ -1,0 +1,212 @@
+<?xml version="1.0" ?>
+<texts base="0x30a" room_id="51">
+    <text>
+        <refs>
+            <ref>0x45</ref>
+        </refs>
+        <data>[character][0x1]: Great Dragon Bahamut!
+I have come.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4e</ref>
+        </refs>
+        <data>The thing my late father couldn't do...
+Reaching into your mind...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x62</ref>
+        </refs>
+        <data>My strengths...
+My weaknesses...
+Hiding nothing, I have come...[end]N</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x84</ref>
+        </refs>
+        <data>Now, Bahamut![end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x135</ref>
+        </refs>
+        <data>Bahamut: Dragnar [character][0x1]...[end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6b</ref>
+        </refs>
+        <data>O, Holy Dragons inside me!
+Accept Bahamut!
+
+If you cannot yield your anger...
+If your hatred will not end...
+Fight inside me!
+But I will not let you do as you please![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x146</ref>
+        </refs>
+        <data>[character][0x1]: Dragnar? Am I a
+Dragnar?[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x154</ref>
+        </refs>
+        <data>Bahamut: Indeed...[end]V</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x158</ref>
+        </refs>
+        <data>Valitora... Leviathan...
+Garuda... Jormungand...
+And Hyperion...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x15c</ref>
+        </refs>
+        <data>Their anger... their sadness...
+All that is within their minds...[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x160</ref>
+        </refs>
+        <data>Yet, you have not lost your own mind,
+girl...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x170</ref>
+        </refs>
+        <data>[character][0x1]: Me... A Dragnar...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x17f</ref>
+        </refs>
+        <data>[character][0x1]: Please tell me... The true
+meaning of the legend of the Holy
+Dragons...[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x18e</ref>
+        </refs>
+        <data>Bahamut: The one who speaks with the
+Holy Dragons shall open the door to a
+new era...[end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x192</ref>
+        </refs>
+        <data>A new era... The era of the revival of
+we Holy Dragons...[end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x196</ref>
+        </refs>
+        <data>A Dragnar shall be the one who to
+lead us to that era...
+
+It is your destiny...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1a2</ref>
+        </refs>
+        <data>[character][0x1]: If you revive...
+Will you... fight?[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1ab</ref>
+        </refs>
+        <data>Bahamut: The new era...
+Even we cannot see it...
+
+The one who will lead us there...
+Is you...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1b4</ref>
+        </refs>
+        <data>[character][0x1]: But... what should I do?[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1c3</ref>
+        </refs>
+        <data>Bahamut: Combine our minds...
+into one...[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1cf</ref>
+        </refs>
+        <data>Our hatred-filled minds...
+Make them one...
+
+Then... the door shall open completely...
+Dragnar... can you do this?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1e1</ref>
+        </refs>
+        <data>[character][0x1]: I'll try...
+
+
+Okay... Bahamut...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x258</ref>
+        </refs>
+        <data>Matelite: [character][0x1]!![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x265</ref>
+        </refs>
+        <data>Sendak: We must carry the princess to
+the castle quickly![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x26e</ref>
+        </refs>
+        <data>[character][0x1]: No... To [character][0x1]...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x278</ref>
+        </refs>
+        <data>Palpaleos: But [character][0x1]![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2a9</ref>
+        </refs>
+        <data>[character][0x1]: To [character][0x1]...
+
+
+We will... take off soon.
+The door... will open...
+
+The Holy Dragons will open the door...
+Everybody... to Altair...
+
+[character][0x1]...
+Please get repatre[0x9]...[end][end]</data>
+    </text>
+</texts>

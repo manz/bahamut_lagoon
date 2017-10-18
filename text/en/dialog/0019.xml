@@ -1,0 +1,759 @@
+<?xml version="1.0" ?>
+<texts base="0x1454" room_id="19">
+    <text>
+        <refs>
+            <ref>0x8a</ref>
+        </refs>
+        <data>               Chapter 19
+            Farewell, Matelite![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x100</ref>
+        </refs>
+        <data>Matelite: [character][0x1]'s late...
+
+
+Hey, Taicho. Is it really okay for us to
+be doing this?[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x10f</ref>
+        </refs>
+        <data>Taicho: ......
+
+
+We men must endure...
+
+
+[character][0x1] has an even more
+difficult situation than we...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x133</ref>
+        </refs>
+        <data>Matelite: But... Palpaleos is an enemy
+general... He was Sauzer's right-hand
+man! He's a bad guy...
+Not like [character][0x1]![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x147</ref>
+        </refs>
+        <data>Taicho: General Palpaleos is a good
+person! He was chosen by [character][0x1]...
+
+I will believe so, to the very end...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x170</ref>
+        </refs>
+        <data>Taicho: Matelite, have you ever thought
+about it?[end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x180</ref>
+        </refs>
+        <data>About the war...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x18e</ref>
+        </refs>
+        <data>I joined the Resistance to liberate
+Mahal...
+
+And for one other reason... I told you
+about it once before...
+
+I also joined for the sake of my wife,
+Celine...
+
+And to defeat Lestat and liberate
+Mahal...[end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x19f</ref>
+        </refs>
+        <data>And I did that...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1ab</ref>
+        </refs>
+        <data>I was the captain!
+
+
+I broke through and fought the
+vanguard! I wiped out a great many of
+their soldiers, and...[end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1d1</ref>
+        </refs>
+        <data>Even so... I would imagine the faces of
+the soldiers under their steel helmets...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1e3</ref>
+        </refs>
+        <data>I am even weaker than you, Matelite...
+
+
+Their faces would twist and distort...
+They would become twisted as I struck
+them with my battle axe...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x204</ref>
+        </refs>
+        <data>Sometimes I am frightened...
+
+
+I want the war to end soon...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x60f</ref>
+        </refs>
+        <data>Iron Duke, Pax Kahna[end].</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xdb0</ref>
+            <ref>0xd29</ref>
+            <ref>0x850</ref>
+            <ref>0xc4d</ref>
+        </refs>
+        <data>......[end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1f5</ref>
+        </refs>
+        <data>Certainly, the soldiers were fighting
+for the sake of somebody they
+believed in as well...
+For their beloved wives...
+For their respected Emperor...
+Or for something even greater...
+That is the nature of war...[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x231</ref>
+        </refs>
+        <data>Battlefield Salesman: When it comes to
+soldiers, survivors are chosen on the
+battlefield!
+For those who trust Palpaleos, and
+even for those who don't, this final
+battle means everything!
+The castle is already surrounded by
+the Imperial Army![end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x240</ref>
+        </refs>
+        <data>Lady: There must be a real reason for
+them to ignore Sauzer, who is
+extremely sick.
+Listen. Real adults should not ask
+things like that!![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x615</ref>
+        </refs>
+        <data>Really Erotic Book, Princess's ???
+
+
+You were given all of the above.[end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7d8</ref>
+        </refs>
+        <data>Rush: Do you wanna be strong?[end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x609</ref>
+        </refs>
+        <data>Cross Knight Ultimate Equipment 3-Set:
+[0x28]Gneisenau, Imperator, Black Prince[0x29][end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x737</ref>
+        </refs>
+        <data>Rush: Our castle, it was taken over at
+some point.
+
+The only things that haven't changed
+are the wind, the clouds, and the land
+in front of the castle gates...
+Maybe we shouldn't be coming back
+now, you know...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x753</ref>
+        </refs>
+        <data>Truce: Morning, Captain [character][0x1].
+We took back Kahna Castle, right?
+It wasn't just a dream, right?
+I have plenty of nice memories of this
+area... Here in front of the castle
+gates...[end]G</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7ac</ref>
+        </refs>
+        <data>Get outta here! This spot is ours![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7b8</ref>
+        </refs>
+        <data>Rush: These kids... They're still not
+ready... The day'll probably come when
+they'll be fighting to protect Kahna...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7c6</ref>
+        </refs>
+        <data>Truce: We're gonna end the war so
+that day never comes...[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7fc</ref>
+        </refs>
+        <data>We wanna grow up and be soldiers in
+Kahna's Dragon Squad!
+
+We wanna ride the dragons all around
+Orelus's sky someday!
+
+To help make it come true... I named
+this dog after a dragon in the Dragon
+Squad!
+Isn't that right, [character][0x1]!![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x82f</ref>
+        </refs>
+        <data>Truce: But the fighting is still gonna
+keep going, huh. We need to get back
+to [character][0x1]...
+Speaking of which... It seems
+Bikkebakke hasn't come back.
+
+I'm worried. Do you think he hates
+fighting now?[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x839</ref>
+        </refs>
+        <data>Bikkebakke: [character][0x1]... I... I can't
+do it... The real estate man...
+He just laughed at me...
+[0x24]You know... Do you really think you
+can make money off of mushrooms?
+This ain't no dream world![0x22]
+He's right... What was I thinking...[end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x842</ref>
+        </refs>
+        <data>And then... when Palpaleos joined, we
+had one too many knights...
+
+I.. I... [character][0x1]... I keep thinking
+somebody will say to me, [0x24]We don't
+need you.[0x22][end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x846</ref>
+        </refs>
+        <data>  It's not like that...
+  We don't need you!![end1]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x87f</ref>
+        </refs>
+        <data>Rush: Where were you?! We've been
+looking for you this whole time![end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x894</ref>
+        </refs>
+        <data>Bikkebakke: Everyone...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x996</ref>
+        </refs>
+        <data>I'm talking about dragons![end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x88b</ref>
+        </refs>
+        <data>Truce: What would we do without you,
+Bikkebakke...? Okay, let's all return
+together to [character][0x1]!![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8cb</ref>
+        </refs>
+        <data>Matelite: It's terrible!! Sendak's fainted!![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8ee</ref>
+        </refs>
+        <data>Dragonkeeper: It's terrible!
+
+
+The Empire's floating fortress is
+headed for [character][0x1]!![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8fc</ref>
+        </refs>
+        <data>Matelite: Okay!! Hurry! We're gonna
+fight the Granbelos Empire![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x985</ref>
+        </refs>
+        <data>Dragonkeeper: The revival of Kahna!
+Excellent work!!
+
+Umm... ahem...
+
+
+Do you want to know how to have
+children?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x989</ref>
+            <ref>0x99a</ref>
+        </refs>
+        <data>  Sounds interesting, tell me!
+  ...... I'm an adult, you know![end1]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9a9</ref>
+            <ref>0xa7a</ref>
+            <ref>0xa8d</ref>
+        </refs>
+        <data>Okay... Choose a mother and father
+dragon![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9da</ref>
+        </refs>
+        <data>It's the season for dragons to be in
+love. Look, look... They're excited.[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9f2</ref>
+        </refs>
+        <data>Look... If you do this...[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa0a</ref>
+        </refs>
+        <data>Ouch!! It bit me...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa1a</ref>
+        </refs>
+        <data>In other words, they're dangerous.
+In addition, they won't listen to your
+orders.[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa26</ref>
+        </refs>
+        <data>Well then, let's have a couple of
+dragons marry. That way, the others
+will give up and behave peacefully![end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa37</ref>
+        </refs>
+        <data>By the way, how are things with you?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa3b</ref>
+        </refs>
+        <data>  Shut up, old man!
+  Don't be asking me that, old man![end1]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa47</ref>
+        </refs>
+        <data>Then Hornet won... I lost a lot of
+money...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa4f</ref>
+        </refs>
+        <data>The entire crew is talking about you.
+Well, I guess you haven't given up yet!
+I put my money on you, [character][0x1]...[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa76</ref>
+        </refs>
+        <data>Okay... Choose a mother and father
+dragon! Oh, that's right... Do you know
+which ones are girls?
+And, when the time comes, things will
+be difficult, so give them some food to
+keep them quiet![end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xad3</ref>
+        </refs>
+        <data>Will these youngsters be the mother
+and father?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xad7</ref>
+        </refs>
+        <data>  Wait, hold on a minute.
+  Have these two marry.[end1]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xae9</ref>
+        </refs>
+        <data>Okay! Let's pray that they have a
+cute baby!
+
+Okay! We'll be returning to
+[character][0x1], so go and enjoy the
+night of Kahna's revival![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xbf2</ref>
+        </refs>
+        <data>Matelite: [character][0x1]... Would it be best
+if I weren't here?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xbf6</ref>
+        </refs>
+        <data>  Let's fight together from now on!
+  You can go and die![end1]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc71</ref>
+        </refs>
+        <data>Palpaleos: The enemy is a group of
+Granbelos generals...
+
+We will have to divide and conquer!
+If you follow my orders we can win![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc82</ref>
+        </refs>
+        <data>Sauzer... Are you sure about this?
+I'm joining the Resistance!![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xca1</ref>
+        </refs>
+        <data>Taicho: I do not have an answer...
+[character][0x1] will find it himself...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xcb3</ref>
+        </refs>
+        <data>Palpaleos: [character][0x1]... I'm fighting
+alongside you! Should we go?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xcb7</ref>
+        </refs>
+        <data>  Wait, Palpaleos!
+  Let's go, Palpaleos! [0x28]But get out of
+     the way![0x29][end1]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xcef</ref>
+        </refs>
+        <data>Palpaleos: Ah...!![end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xcf8</ref>
+        </refs>
+        <data>  Ah...?!
+  Sorry to bother you [0x28]but get out
+     of the way![0x29][end1][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd13</ref>
+        </refs>
+        <data>[character][0x1], captain of the
+Dragon Squad. Can you see the stars
+in the night sky?
+Until peace visits this sky we'll have to
+fight together...
+
+[0x28]You're all sticky with the dragons'
+love juice, [character][0x1]![0x29][end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd37</ref>
+        </refs>
+        <data>Palpaleos: [0x28]A baby...[0x29]
+
+
+[character][0x1]... I wish to escort
+Princess [character][0x1] to the castle,
+would you like to come too?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd3b</ref>
+            <ref>0xdc5</ref>
+        </refs>
+        <data>  No way!
+  I see... alright.[end1][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd87</ref>
+        </refs>
+        <data>[character][0x1]: Um... wait...
+
+
+Thank you...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xda5</ref>
+        </refs>
+        <data>Sorry, but Princess [character][0x1] will be
+changing into a dress...
+
+Please leave her in my care.[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xdbb</ref>
+        </refs>
+        <data>I see...
+
+
+Princess [character][0x1] will be changing
+into a dress...[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xdc1</ref>
+        </refs>
+        <data>Well then, shall we return to Kahna
+Castle?[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xded</ref>
+        </refs>
+        <data>Sendak: Is it because the princess is
+happy...? The Holy Dragons have come
+to me.
+They say to me, [0x24]Old man... Old man...
+Weak-minded old man...[0x22]
+They're harassing me...[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1040</ref>
+            <ref>0x11a4</ref>
+            <ref>0xe26</ref>
+            <ref>0xf88</ref>
+            <ref>0xed0</ref>
+            <ref>0x10f0</ref>
+        </refs>
+        <data>  I want to feed them.
+  I want to have them marry.[end1] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x104b</ref>
+            <ref>0x10fb</ref>
+            <ref>0x11af</ref>
+            <ref>0xe31</ref>
+            <ref>0xf93</ref>
+            <ref>0xedb</ref>
+        </refs>
+        <data>  I want to feed them.
+  I don't want to have them marry.[end1] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xee6</ref>
+            <ref>0x1106</ref>
+            <ref>0x1056</ref>
+            <ref>0x11ba</ref>
+            <ref>0xe3c</ref>
+            <ref>0xf9e</ref>
+        </refs>
+        <data>  Feed
+  [0x28]Marriage reservations are full[0x29][end1]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1322</ref>
+            <ref>0x13e4</ref>
+            <ref>0x1396</ref>
+            <ref>0x12b7</ref>
+        </refs>
+        <data>Hey! Buy some stuff![end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x12bb</ref>
+        </refs>
+        <data>  Buy weapons
+  Buy armor[end1]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1301</ref>
+        </refs>
+        <data>Battlefield Salesman: Matelite was
+running around like a crab all over the
+place with such a serious face,
+and then he disappeared!
+It was like this...[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x131b</ref>
+        </refs>
+        <data>What happened? He said he didn't need
+them anymore so he gave me his
+Matelite-brand merchandise.[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1326</ref>
+        </refs>
+        <data>  Buy weapons
+  Buy armor
+  Buy Matelite-brand merchandise[end1]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x142b</ref>
+            <ref>0x1365</ref>
+        </refs>
+        <data>Battlefield Salesman: Hello!
+
+
+A lot has happened, but you've done
+very well to come this far!
+
+My getting back together with the
+Misses is also because you bought so
+much from me...[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1434</ref>
+            <ref>0x1375</ref>
+        </refs>
+        <data>Lady: This is in celebration of the
+revival of Kahna! Of course I'll let you
+have it for free![end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x138b</ref>
+        </refs>
+        <data>Come again![end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x139a</ref>
+        </refs>
+        <data>  Buy items
+  Buy books[end1]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x13dd</ref>
+        </refs>
+        <data>Lady: I just had to buy mushrooms
+from Bikkebakke! I couldn't help it, he
+asked me with the cutest eyes!
+I'm weak against that type!
+
+
+Oh yes... Before you return to the
+castle, send him by one more time![end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x13e8</ref>
+        </refs>
+        <data>  Items please
+  Books please
+  Mushrooms please[end][end]</data>
+    </text>
+</texts>

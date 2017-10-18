@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<texts base="0x1c7" room_id="245">
+    <text>
+        <refs>
+            <ref>0xd3</ref>
+        </refs>
+        <data>                Sauzer...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe5</ref>
+        </refs>
+        <data>Palpaleos: It's over... All of it...
+The legend we dreamed of...
+It has all ended...
+But, you're no longer here...
+Sauzer...
+
+What you sought wasn't really war, it
+was peace, wasn't it?
+
+...I get that feeling...
+Sauzer...[end]G</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xeb</ref>
+        </refs>
+        <data>Goodbye, Sauzer...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x129</ref>
+        </refs>
+        <data>Palpaleos: [character][0x1]...
+I will stay by myself in Granbelos.
+
+Even though the war has ended, I
+cannot show my face in Kahna...
+Forgive me...
+However, you have excellent friends...
+You aren't lonely, are you?[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x133</ref>
+        </refs>
+        <data>I envy you...
+[character][0x1]...[end]G</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x143</ref>
+        </refs>
+        <data>Goodbye, [character][0x1]...[end]G</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x14b</ref>
+        </refs>
+        <data>Goodbye, legend of the Holy Dragons...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x179</ref>
+        </refs>
+        <data>Palpaleos![end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x183</ref>
+        </refs>
+        <data>Palpaleos! You're the one who got us
+all into that damn war![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x18d</ref>
+        </refs>
+        <data>So how're you gonna take responsibility
+for it?![end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x193</ref>
+        </refs>
+        <data>Palpaleos: So that you are satisfied...
+Do as you wish...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x199</ref>
+        </refs>
+        <data>Shit! Tryin' to show off, huh?!
+This knife'll take care of that![end][end]</data>
+    </text>
+</texts>

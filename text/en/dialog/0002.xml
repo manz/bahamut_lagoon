@@ -1,0 +1,153 @@
+<?xml version="1.0" ?>
+<texts base="0x36e" room_id="2">
+    <text>
+        <refs>
+            <ref>0x5c</ref>
+        </refs>
+        <data>    The Green Continent of Campbell
+           Granbelos Fortress[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xbe</ref>
+        </refs>
+        <data>Palpaleos: Asleep...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x112</ref>
+        </refs>
+        <data>Sauzer: Palpaleos... There you are.
+You can't sleep either?[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x11f</ref>
+        </refs>
+        <data>Palpaleos: No...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x12c</ref>
+        </refs>
+        <data>Sauzer: Don't worry about it.
+Can you feel it...? The legend we
+dreamed of is here, now.[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x13e</ref>
+        </refs>
+        <data>Palpaleos: On this green continent of
+Campbell?[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x19c</ref>
+        </refs>
+        <data>The legend we dreamed of...[end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x154</ref>
+        </refs>
+        <data>Sauzer: Yes... This girl will fulfill our
+dreams...
+
+She will fulfill the legend.[end]N</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x164</ref>
+        </refs>
+        <data>No, it's rude of me to call her a girl.
+Princess [character][0x1] has become very
+beautiful.[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x171</ref>
+        </refs>
+        <data>Palpaleos... The day we leave is close
+at hand. Please rest.[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x273</ref>
+        </refs>
+        <data>Palpaleos...[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x27d</ref>
+        </refs>
+        <data>Look at the sky...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x298</ref>
+        </refs>
+        <data>The sky is ours. But not all of it.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2a2</ref>
+        </refs>
+        <data>Sauzer...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2ba</ref>
+        </refs>
+        <data>Palpaleos: The legend of the Holy
+Dragons...[end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2b4</ref>
+        </refs>
+        <data>Sauzer: There is a legend...
+One spoken of in Kahna.
+Do you know of it?[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2d2</ref>
+        </refs>
+        <data>Sauzer: Do you think I can do it?[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2e1</ref>
+        </refs>
+        <data>Do you think I can become the man of
+legend?[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2f6</ref>
+        </refs>
+        <data>I am the man who conquered the skies.
+If there are any battles before me, I
+will accept the challenge.[end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x301</ref>
+        </refs>
+        <data>And then I will achieve victory![end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x30c</ref>
+        </refs>
+        <data>Palpaleos: Victory for a new era...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x317</ref>
+        </refs>
+        <data>Sauzer: A new victory together.
+Always be at my side, Palpaleos.[end][end]</data>
+    </text>
+</texts>

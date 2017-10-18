@@ -1,0 +1,250 @@
+<?xml version="1.0" ?>
+<texts base="0x251" room_id="40">
+    <text>
+        <refs>
+            <ref>0xa0</ref>
+        </refs>
+        <data>            The rain ended...[end].</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa4</ref>
+        </refs>
+        <data>....Celine...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa8</ref>
+        </refs>
+        <data>I have defeated Lestat.[end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xac</ref>
+        </refs>
+        <data>And now, you... and the people of
+Mahal...[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb0</ref>
+        </refs>
+        <data>Will you forgive me?[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x139</ref>
+            <ref>0x112</ref>
+            <ref>0x1ab</ref>
+            <ref>0xb4</ref>
+        </refs>
+        <data>Celine...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x101</ref>
+            <ref>0xeb</ref>
+        </refs>
+        <data>My love...[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf8</ref>
+        </refs>
+        <data>C-Celine?![end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x105</ref>
+        </refs>
+        <data>Your promise to me...[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x109</ref>
+        </refs>
+        <data>You kept your word...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x11b</ref>
+        </refs>
+        <data>Thank you, darling.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x11f</ref>
+        </refs>
+        <data>Tee hee, we... Long ago, the two of us
+came here often, didn't we. To come
+see the rainbows.[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x128</ref>
+        </refs>
+        <data>Do you remember?[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x12c</ref>
+        </refs>
+        <data>You were always angry when the
+rainbows wouldn't appear...
+You would say, [0x24]The rainbows will not
+appear! They will not![0x22][end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x130</ref>
+        </refs>
+        <data>But, you made me happy. Our happy
+memory... Hee hee...[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x142</ref>
+        </refs>
+        <data>Right, darling?[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x146</ref>
+        </refs>
+        <data>You've become a spectacular knight...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x14f</ref>
+        </refs>
+        <data>[character][0x1] and Matelite of Kahna are
+also strong, and nice...[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x153</ref>
+        </refs>
+        <data>But to me... you're the best. Hee hee...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x157</ref>
+        </refs>
+        <data>I kept it a secret, but when Mahal was
+attacked...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x15b</ref>
+        </refs>
+        <data>There was a child inside me.[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x15f</ref>
+        </refs>
+        <data>I'm sorry I didn't tell you.[end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x163</ref>
+        </refs>
+        <data>At the time, it seemed like your head
+was full of things about the war with
+the Empire...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x167</ref>
+        </refs>
+        <data>I didn't want to worry you
+unnecessarily.[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x16b</ref>
+        </refs>
+        <data>I really wanted to tell you... I wanted
+you to hear me...[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x16f</ref>
+        </refs>
+        <data>But you were always worrying about
+Mahal...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x173</ref>
+        </refs>
+        <data>That's why I didn't say anything.[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x177</ref>
+        </refs>
+        <data>I had decided on a name. If it was a
+boy, Shogun. If it was a girl, Chiko.[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x190</ref>
+        </refs>
+        <data>Rainbows...?![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x199</ref>
+        </refs>
+        <data>It's the rainbows, darling![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1a2</ref>
+        </refs>
+        <data>How I wanted to see them with you
+when I was still alive... These rainbows...
+
+And then my wish would have been
+granted...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1b4</ref>
+        </refs>
+        <data>The people who see these rainbows...
+
+
+Do you remember the story that
+whoever sees them will have their
+wishes come true?[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1b8</ref>
+        </refs>
+        <data>My wish now is... that the people of
+the world live in peace! In a world
+without battles and wars![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1c1</ref>
+        </refs>
+        <data>I wish for that...[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1de</ref>
+        </refs>
+        <data>Right? Darling...[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1ef</ref>
+        </refs>
+        <data>Celine! Your wish...
+I will make it come true![end][end]</data>
+    </text>
+</texts>

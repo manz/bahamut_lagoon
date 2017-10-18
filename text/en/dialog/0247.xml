@@ -1,0 +1,118 @@
+<?xml version="1.0" ?>
+<texts base="0x3dc" room_id="247">
+    <text>
+        <refs>
+            <ref>0xa0</ref>
+        </refs>
+        <data>The legend of the Holy Dragons...
+     It all began with a single man who
+          rose to challenge it...[end1]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc0</ref>
+        </refs>
+        <data>War...
+   Betrayal...
+      The legend of the Holy Dragons...[end1]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x106</ref>
+        </refs>
+        <data>And then the door to the
+     new era opened...[end1].</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x144</ref>
+        </refs>
+        <data>...What was the new era?
+     ...Freedom perhaps?
+          ...Or maybe peace?[end1]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x182</ref>
+        </refs>
+        <data>We, who cannot see into tomorrow,
+     have no way of knowing...
+          But...[end1]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1da</ref>
+        </refs>
+        <data>But...[end1]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1fa</ref>
+        </refs>
+        <data>If you don't find dreams yourself...
+  if you don't capture your ambitions...
+    happiness won't just come to you.[end1]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x23e</ref>
+        </refs>
+        <data>Heheh... you shouldn't cry so much
+     that you cry even when you get
+          hungry...[end1][0x24]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x25e</ref>
+        </refs>
+        <data>[0x24]Living[0x22] is actually a very difficult
+     thing.[end1]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x27e</ref>
+        </refs>
+        <data>Even if it's just a little bit...
+     I feel I understand that now...[end1]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2c3</ref>
+        </refs>
+        <data>Yes...[end1]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2e3</ref>
+        </refs>
+        <data>The Holy Dragon Bahamut
+     chose not to return to Altair,
+          and remained in Orelus...[end1]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x303</ref>
+        </refs>
+        <data>To ensure that war does not
+     occur again in Orelus...
+          As our guardian dragon...[end1]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x341</ref>
+        </refs>
+        <data>How much time has passed since then...[end1]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x37f</ref>
+        </refs>
+        <data>Since our world came to be called...[end1] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3c4</ref>
+        </refs>
+        <data>           ...Bahamut raggon...[end][end]</data>
+    </text>
+</texts>

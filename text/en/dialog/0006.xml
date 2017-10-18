@@ -1,0 +1,1057 @@
+<?xml version="1.0" ?>
+<texts base="0x15d3" room_id="6">
+    <text>
+        <refs>
+            <ref>0x5f</ref>
+        </refs>
+        <data>               Chapter 6
+        It's Not a Dream, is it...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x192</ref>
+            <ref>0x127</ref>
+        </refs>
+        <data>Matelite: We're going to see the queen
+of Campbell![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x131</ref>
+        </refs>
+        <data>[character][0x1] is back. The revival of
+Kahna is no longer just a dream.
+
+Finally, I get to show her my skills as
+a commander.[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x147</ref>
+        </refs>
+        <data>I've washed my face...
+My armor is sparkling...
+
+Huh?
+That Taicho, taking the best spot.
+Why, that little...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x155</ref>
+        </refs>
+        <data>Matelite: Huh? Oh, [character][0x1]? Aren't
+you happy?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x159</ref>
+        </refs>
+        <data>  I'm happy.
+  It's none of your business.[end1]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x16f</ref>
+        </refs>
+        <data>I thought so. I'm just welling up with
+happiness![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x182</ref>
+        </refs>
+        <data>Hmph! If that's the case, all the
+happiness is mine![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x18b</ref>
+        </refs>
+        <data>Matelite: I will take the place of the
+king and fight alongside [character][0x1].
+I can feel the flow of history![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1d1</ref>
+        </refs>
+        <data>[character][0x1]: What does it look like
+around Campbell Lagoon?[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1f6</ref>
+        </refs>
+        <data>Sendak: What should we do?[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x220</ref>
+        </refs>
+        <data>Matelite: [character][0x1]...[end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1a4</ref>
+        </refs>
+        <data>Matelite: Then it's settled, we're going
+to free Campbell from the Granbelos
+Empire!
+I can just see the delighted faces of
+the people of Campbell, [character][0x1]![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1dc</ref>
+        </refs>
+        <data>Matelite: Well, [character][0x1]... there are
+Imperial soldiers all over the place.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2a8</ref>
+        </refs>
+        <data>She smells nice...[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4bc</ref>
+            <ref>0x505</ref>
+            <ref>0x2b6</ref>
+        </refs>
+        <data>  Yes
+  No[end1]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x305</ref>
+            <ref>0x10ee</ref>
+        </refs>
+        <data>Sendak: [character][0x1]...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x62b</ref>
+        </refs>
+        <data>[character][0x1]?[end][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1e9</ref>
+            <ref>0x52e</ref>
+        </refs>
+        <data>Hornet: The Empire probably knows
+we're here. It looks like it'll be a tough
+fight.[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x206</ref>
+        </refs>
+        <data>[character][0x1]: In order to defeat these
+soldiers, who are a long way from
+home...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x22f</ref>
+        </refs>
+        <data>[character][0x1]: It's basic strategy to first
+set up a perimeter...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x23d</ref>
+        </refs>
+        <data>Matelite: Correct, Princess!
+Okay, [character][0x1]! Make the battle
+preparations![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x269</ref>
+        </refs>
+        <data>Matelite: But [character][0x1], where did
+you learn about battle strategy?[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x29e</ref>
+        </refs>
+        <data>Taicho: [character][0x1] is beautiful, but I
+know somebody even more beautiful.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2b2</ref>
+        </refs>
+        <data>Taicho: Do you think my beard is
+lively?[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2c3</ref>
+        </refs>
+        <data>Taicho: You should take care of your
+appearance too, [character][0x1]. You are
+all sticky with dragon drool.[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2cc</ref>
+        </refs>
+        <data>Oh no! And I am going to finally meet
+[character][0x1] too!![end][0x2a]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2d8</ref>
+        </refs>
+        <data>[0x2a]scratch[0x2a] [0x2a]scratch[0x2a] Having a beard is
+what it means to be a knight![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2fe</ref>
+        </refs>
+        <data>Sendak: I can sense a strange feeling
+inside me... Could this be the summoning
+of a dragon...?[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x34d</ref>
+            <ref>0x317</ref>
+        </refs>
+        <data>Sendak: [character][0x1]... You are happy
+the princess has returned, are you
+not?[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x357</ref>
+        </refs>
+        <data>Sauzer and the Holy Dragons...
+The Holy Dragons and the princess...
+
+Legends and Holy Dragons and the
+princess and Sauzer...
+
+My head hurts...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7f5</ref>
+            <ref>0x35e</ref>
+        </refs>
+        <data>Sendak: Let us go, [character][0x1]...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x365</ref>
+        </refs>
+        <data>Sendak: [0x2a]whisper[0x2a] [0x2a]whisper[0x2a]
+[0x28]The Princess is a bit more energetic,
+don't you think?[0x29][end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x36c</ref>
+        </refs>
+        <data>[character][0x1] and the princess, always
+together by themselves... Love and war
+aren't compatible...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3a9</ref>
+        </refs>
+        <data>That's right... since I'm in the captain's
+room, I'll make some rules...
+
+[0x24]No Love Permitted Aboard[0x22]
+
+
+Oh, that's no good. Everybody will hate
+me. I don't want to be a hated old
+geezer...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3c0</ref>
+        </refs>
+        <data>Sendak: Oh, Princess![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3cd</ref>
+        </refs>
+        <data>Sendak: I ordered the reconnaissance
+of Campbell. Everybody is wondering if
+there's something at Campbell Lagoon...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3db</ref>
+        </refs>
+        <data>[character][0x1]: Oh! I totally forgot
+about that![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3e4</ref>
+        </refs>
+        <data>[character][0x1]: I want to know about the
+legend. The legend about the Holy
+Dragons, told of in Kahna.
+Sauzer knew it, but he wouldn't tell me
+anything about it.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3f0</ref>
+        </refs>
+        <data>Sendak: The legend of the Kahna
+family line? But why Campbell...?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3f9</ref>
+        </refs>
+        <data>[character][0x1]: My aunt might know about
+it...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x40b</ref>
+        </refs>
+        <data>Sendak: Of course! So we are going
+to see the queen of Campbell![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x468</ref>
+        </refs>
+        <data>Rush: [character][0x1]'s pretty now![end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4c4</ref>
+            <ref>0x50d</ref>
+        </refs>
+        <data>I see...[end][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x435</ref>
+        </refs>
+        <data>Sendak: The queen of Campbell is King
+Kahna's sister. Since she's a member of
+the family, she has to know about it![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x443</ref>
+        </refs>
+        <data>Sendak: If we learn about the legend,
+we can stand up to Sauzer. Okay, let's
+go to tell everybody![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x46f</ref>
+        </refs>
+        <data>Rush: I'm excited![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x476</ref>
+        </refs>
+        <data>Rush: [character][0x1]'s smile. I'll fight just
+to see that![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x485</ref>
+        </refs>
+        <data>Truce: I hear [character][0x1] is having a
+nightmare...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x48c</ref>
+        </refs>
+        <data>Truce: It seems she was having a
+nightmare after all.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x493</ref>
+        </refs>
+        <data>Truce: I think you've noticed, but
+Bikkebakke is acting strangely...[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x49d</ref>
+        </refs>
+        <data>Bikkebakke: I need to talk to you
+later...[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4b8</ref>
+        </refs>
+        <data>Hornet: [character][0x1], won't you try
+controlling the ship?[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4fa</ref>
+        </refs>
+        <data>Come on, try it.[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x501</ref>
+        </refs>
+        <data>Hornet: Do you want to take control
+one more time?[end]U</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x513</ref>
+        </refs>
+        <data>Uh, let's call it quits. It's too hard for
+an amateur.[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x51a</ref>
+        </refs>
+        <data>Hornet: Campbell Lagoon... is there still
+something there?[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x521</ref>
+        </refs>
+        <data>Hornet: [character][0x1], are we ready to
+go?
+
+  Not yet.
+  Attack![end1]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x56a</ref>
+        </refs>
+        <data>Melodia: Ugh, I'm sick of it! It's nothing
+but [character][0x1], [character][0x1],
+[character][0x1]!!
+Even Hornet's the same! He's been
+grinning all this time![end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x577</ref>
+        </refs>
+        <data>Hornet: Melodia, go play in your room![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x588</ref>
+        </refs>
+        <data>Melodia: Hornet's nervous![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x59d</ref>
+        </refs>
+        <data>Melodia: Grrrr![end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5a8</ref>
+        </refs>
+        <data>Zora: I said too much, didn't I...?[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5af</ref>
+        </refs>
+        <data>Zora: I'll take care of the princess!
+Leave it to me![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x803</ref>
+            <ref>0x5d3</ref>
+        </refs>
+        <data>[character][0x1]: I'm sorry, I want to sleep
+some more.[end]U</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5df</ref>
+        </refs>
+        <data>U-ungh...[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x610</ref>
+        </refs>
+        <data>Where...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x639</ref>
+        </refs>
+        <data>Sendak![end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x647</ref>
+        </refs>
+        <data>Oh! Matelite!![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x655</ref>
+        </refs>
+        <data>Then, this must be...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x665</ref>
+        </refs>
+        <data>Sendak: This is [character][0x1].
+You are back with us.[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x671</ref>
+        </refs>
+        <data>Rush: Welcome back, [character][0x1]![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x680</ref>
+        </refs>
+        <data>Truce: It's nice to see you again![end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x68c</ref>
+        </refs>
+        <data>Bikkebakke: I gained some weight.
+Can you tell?[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6b0</ref>
+        </refs>
+        <data>Matelite: [character][0x1]!![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6c1</ref>
+        </refs>
+        <data>Matelite: It is I, Matelite![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6d7</ref>
+        </refs>
+        <data>Taicho: I am Taicho, of the former
+knights of Mahal![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6eb</ref>
+        </refs>
+        <data>[character][0x1]: This isn't a dream, is it?[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6fb</ref>
+        </refs>
+        <data>Sendak: No, Princess, this is the real
+world.[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x70e</ref>
+        </refs>
+        <data>Matelite: Speaking of which,
+[character][0x1]! I heard you had a
+nightmare. What was it?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x71a</ref>
+        </refs>
+        <data>[character][0x1]: A nightmare...?
+
+
+No...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x728</ref>
+        </refs>
+        <data>Sendak: But... then, what kind of dream
+was it?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x731</ref>
+        </refs>
+        <data>[character][0x1]: It was nothing. It was
+just an ordinary dream.[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x741</ref>
+        </refs>
+        <data>Zora: Hey, come on you guys!
+The princess is tired. Why don't you
+talk about it later?[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x77d</ref>
+        </refs>
+        <data>Rush: Right. From now on, you'll always
+be with us![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x80d</ref>
+        </refs>
+        <data>[character][0x1]: I'm sorry about that...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x81d</ref>
+        </refs>
+        <data>[character][0x1]: Hornet, I have a request.
+Please fly around the sky of Campbell.
+
+I want to see the situation on
+Campbell Lagoon.[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x829</ref>
+        </refs>
+        <data>Hornet: Please leave it to me,
+[character][0x1].[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x86a</ref>
+        </refs>
+        <data>[character][0x1]: [character][0x1], There's
+something I want to tell you. Let's go
+to the captain's room.[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x87e</ref>
+        </refs>
+        <data>Princess... [character][0x1] is very busy
+with the Dragon Squad. Please do not
+waste his time...
+But I will say no more. I do not want
+to be thought of as a cranky old man...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x891</ref>
+        </refs>
+        <data>[character][0x1]: Oh, Sendak! Let me use
+your room.[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8a2</ref>
+        </refs>
+        <data>Matelite: [character][0x1]... Can I listen
+too?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8b0</ref>
+        </refs>
+        <data>[character][0x1]: Watch Campbell, Matelite.
+I'll feel a lot safer if you watch it for
+me![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8be</ref>
+        </refs>
+        <data>Matelite: Heh heh heh. Leave it to me![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8ed</ref>
+        </refs>
+        <data>[character][0x1]: I was really surprised
+earlier. It was the first time I've ever
+been hit...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x927</ref>
+        </refs>
+        <data>It was just as Zora said.[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x932</ref>
+        </refs>
+        <data>I was only thinking of myself. I didn't
+think about the fact that everybody
+fought for me.
+I didn't even think about what
+everybody else thought.[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x93b</ref>
+        </refs>
+        <data>I will try hard from now on. I will try
+to surpass everyone's expectations.[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x97e</ref>
+        </refs>
+        <data>But, I'm scared... I don't know about
+becoming a Dragnar...[end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x98e</ref>
+        </refs>
+        <data>And Valitora also said this.[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x999</ref>
+        </refs>
+        <data>He said even if I gather the power of
+the Holy Dragons, whether or not I'll
+become a Dragnar is up to me.
+Whether or not I am suited to be a
+Dragnar...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9a8</ref>
+        </refs>
+        <data>If I'm not, what will happen to me...?[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9b6</ref>
+        </refs>
+        <data>I'm sorry, talking like this must be
+awkward for you.[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa13</ref>
+            <ref>0x9f7</ref>
+        </refs>
+        <data>[character][0x1]: .........[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa1d</ref>
+        </refs>
+        <data>Can I talk to you about other things
+from now on?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa21</ref>
+        </refs>
+        <data>  Why of course!
+  Of course you can!
+  Monyoooo! [0x28]No way![0x29][end1]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa43</ref>
+        </refs>
+        <data>Matelite, right? That's pretty good![end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa6f</ref>
+        </refs>
+        <data>Pretending to be Taicho, right? That
+was just like him![end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xaa3</ref>
+        </refs>
+        <data>A Mini-Devil, right? But I wonder what
+you said...?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xab5</ref>
+        </refs>
+        <data>[character][0x1]: Thank you, [character][0x1].[end].</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xbb2</ref>
+        </refs>
+        <data>......
+You sure are young, [character][0x1].[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc67</ref>
+        </refs>
+        <data>[character][0x1]: [character][0x1], don't go![end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xdda</ref>
+            <ref>0xdca</ref>
+            <ref>0xdb4</ref>
+        </refs>
+        <data>Zora: The princess is awake![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf11</ref>
+        </refs>
+        <data>[character][0x1]: Please wait![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf2d</ref>
+        </refs>
+        <data>[character][0x1]: Everybody... please listen.[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf39</ref>
+        </refs>
+        <data>Matelite: What is it?[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf4b</ref>
+        </refs>
+        <data>[character][0x1]: It's about the dream I
+had... Yes, it was just an ordinary
+dream.
+But I get the feeling there is a special
+meaning behind it...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf58</ref>
+        </refs>
+        <data>Matelite: I enjoy [character][0x1]'s stories
+more than anything![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf66</ref>
+        </refs>
+        <data>[character][0x1]: In the dream I had, there
+was a Holy Dragon...
+
+The dream was about the Holy Dragon
+Valitora.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf73</ref>
+        </refs>
+        <data>Sendak: What did you say? A Holy
+Dragon?![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf7e</ref>
+        </refs>
+        <data>[character][0x1]: Valitora spoke to me in
+my dream.[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf89</ref>
+        </refs>
+        <data>[character][0x1]: He said that if I gather
+the power of the Holy Dragons, I can...
+I can become a Dragnar...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf9d</ref>
+        </refs>
+        <data>Matelite: What? A Dragnar?!
+[character][0x1]?![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xfaa</ref>
+        </refs>
+        <data>Taicho: What is a Dragnar?[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xfbe</ref>
+        </refs>
+        <data>Matelite: It's a person whose mind is
+one with the Holy Dragons, and can
+control their awesome power!
+The king was also able to control this
+great power![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xfcc</ref>
+        </refs>
+        <data>Taicho: Wow![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xfe4</ref>
+        </refs>
+        <data>Matelite: ...If so, then the Holy Dragons
+are on our side! Now it's clear why
+Valitora defeated Sauzer!
+Now the Granbelos Empire isn't an
+enemy![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xff0</ref>
+        </refs>
+        <data>Matelite: The revival of Kahna is near!
+Okay, let's tell everybody![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1011</ref>
+        </refs>
+        <data>[character][0x1]: Wait! It was just a dream![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x101e</ref>
+        </refs>
+        <data>Sendak: Princess... Perhaps it was not
+just an ordinary dream. Valitora's mind
+spoke to you.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x102d</ref>
+        </refs>
+        <data>Sendak: It makes no difference if a
+Holy Dragon speaks to you in a dream
+or in the real world.
+...That is what the king said.[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1039</ref>
+        </refs>
+        <data>[character][0x1]: Then... everything that
+Valitora said... from now on, I...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1044</ref>
+        </refs>
+        <data>[character][0x1]: ......... That's why...
+I didn't want to wake up from the
+dream. I wanted to stay in it.
+Please! Let me be by myself![end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x107a</ref>
+        </refs>
+        <data>Zora: Princess! Listen to yourself. You
+say one thing and then the other.
+[0x24]Wait![0x22] then, [0x24]Let me be by myself![0x22]
+I hate wishy-washy people like that![end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1086</ref>
+        </refs>
+        <data>Zora: Don't you understand? Don't
+you realize everybody's struggled
+to save you from the Empire?[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1093</ref>
+        </refs>
+        <data>Zora: And you must have had a hard
+time too. And I'm sure there will be
+hard times ahead as well.[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x10a0</ref>
+        </refs>
+        <data>Zora: Are you afraid of dreams?
+Are you afraid of dragons?
+Are you afraid of reality?
+Princess... get a grip.
+And be strong.
+
+But, when things aren't going right,
+when your heart won't stop trembling,
+we will all be there for you.
+Now you must move ahead, Princess.[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1173</ref>
+        </refs>
+        <data>You got a Princess's ???.[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x11af</ref>
+        </refs>
+        <data>Rush: Where're you going,
+[character][0x1]?![end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x11f6</ref>
+        </refs>
+        <data>You got a Bad Cookie.[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1207</ref>
+        </refs>
+        <data>You got a Drawer Thing.[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1218</ref>
+        </refs>
+        <data>You got some niuji.[end][end]</data>
+    </text>
+</texts>

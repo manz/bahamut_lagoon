@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<texts base="0x9c" room_id="4">
+    <text>
+        <refs>
+            <ref>0x28</ref>
+        </refs>
+        <data>“Condition for Victory:”[0xfc][0x1]
+“Defeat of Zomberd”[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3e</ref>
+        </refs>
+        <data>Palpaleos: I have other matters to
+attend to... Zomberd! I'm leaving you
+in command.[end1][end]</data>
+    </text>
+</texts>

@@ -1,0 +1,668 @@
+<?xml version="1.0" ?>
+<texts base="0x86a" room_id="215">
+    <text>
+        <refs>
+            <ref>0x3db</ref>
+        </refs>
+        <data>Truce: Um... I came in here without
+thinking what I was doing...
+
+I'm really nervous with all these girls
+here...[end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3f9</ref>
+        </refs>
+        <data>Anastasia: When you don't have enough
+money or food for the dragons you
+should go on a side quest.
+You can fight a little bit and build up
+strength before the real thing.
+
+That's what that slow Heavy Armor
+Knight Barclay said. He knows weird
+things like that.[end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x407</ref>
+        </refs>
+        <data>Anastasia: Do you remember the night
+of Kahna's revival? Barclay said he
+danced with Frederica...
+That slow-moving Heavy Armor Knight
+can do whatever he wants, but for
+some reason that makes me mad.
+But why? Why does it make me mad...?[end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x415</ref>
+        </refs>
+        <data>Anastasia: Did Barclay say anything to
+you?
+
+  Congratulations!
+  Not really...[end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x400</ref>
+        </refs>
+        <data>Anastasia: [character][0x1], did you know?
+You can create dragons that use Holy
+skills and ones that use Darkness skills!
+Max out their fire, water, and thunder
+elements, and then their heal or poison
+attribute! And their attack or defense!
+Barclay was saying that's how you do
+it. If you do that, we wizards will
+become even stronger.
+And then Barclay and the others will
+only play a supporting role![end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x40e</ref>
+        </refs>
+        <data>Anastasia: Hey, [character][0x1]. If you
+walk slow like this you'll find all kinds
+of stuff. I like this. Slowly... slowly...[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x421</ref>
+        </refs>
+        <data>Oh, I see. Heh heh.[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x429</ref>
+        </refs>
+        <data>Whaaat?[end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x44b</ref>
+        </refs>
+        <data>Ectarina: I wonder if he's looking at
+the same sky... His back always turned
+to me...[end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x459</ref>
+        </refs>
+        <data>Ectarina: He likes Sweet Wine...
+I'll put my heart into getting some and
+send him some...[end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x460</ref>
+        </refs>
+        <data>Ectarina: He likes Uniuji...
+I'll put my heart into getting some and
+send it to him...[end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x46d</ref>
+        </refs>
+        <data>Ectarina: Oh, his smile... His smile for
+only me... Thanks to the Sweet Wine...
+Heh heh heh...[end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x477</ref>
+        </refs>
+        <data>Ectarina: But I heard he liked Uniuji...
+This is no good... He hates me...
+Why did it turn out this way...?
+But, it's not all bad... I'll remain in his
+memories as the girl who sent him
+Uniuji...
+Heh heh heh...[end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x487</ref>
+        </refs>
+        <data>Ectarina: I wonder what he's thinking
+right now... About the lovely girl who
+sent him Sweet Wine? Heh heh...
+Ah, I'm in his mind now... Heh heh...[end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x491</ref>
+        </refs>
+        <data>Ectarina: I wonder what he's thinking
+right now... About the mean girl who
+sent him some Uniuji?
+Heh heh... Ectarina, the mean girl...
+Should I be even meaner I wonder...
+
+Heh heh... If I do, he'll always think
+about me...[end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4a1</ref>
+        </refs>
+        <data>Ectarina: I'll do it... When all the
+fighting's over I'll reveal my feelings
+for him...
+If it doesn't work out... Then I'll get
+everybody involved... Heh heh heh...
+Boom!![end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4ab</ref>
+        </refs>
+        <data>Ectarina: I remember now... [character][0x1]
+said it... [character][0x1] was the one who
+said he liked Uniuji...
+It's all [character][0x1]'s fault that he hates
+me now... I won't forget this...
+
+When all the fighting is over, I'll get
+even with that [character][0x1]... Heh heh...[end]N</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4c1</ref>
+        </refs>
+        <data>Nelbo: Ah, [character][0x1]. It was decided
+that Donfan, the enemy of women,
+should be held here.
+Good, don't you think?[end][end1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5b9</ref>
+        </refs>
+        <data>[end1][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4cc</ref>
+        </refs>
+        <data>Donfan: Lesson!! Don't touch wizards!![end]N</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4d6</ref>
+        </refs>
+        <data>Nelbo: Playing as a gentlemen...
+This is fun.[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4e1</ref>
+            <ref>0x67d</ref>
+        </refs>
+        <data>Donfan: This is miserable! This is the
+most humiliating thing in my life!![end]N</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4eb</ref>
+        </refs>
+        <data>Nelbo: I wonder if I'll make Donfan be
+naked next time...[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x692</ref>
+            <ref>0x4f6</ref>
+        </refs>
+        <data>Donfan: Look at me! You two can be
+my captives!![end]N</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x503</ref>
+        </refs>
+        <data>Nelbo: When the battle is over Donfan
+will take me to Mahal...
+
+He says he wants to see the reflection
+of Mahal's lake in my eyes... But keep
+it a secret from my best friend Joy...[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6aa</ref>
+            <ref>0x50e</ref>
+        </refs>
+        <data>Donfan: What do you think,
+[character][0x1]? This is my true forte![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x532</ref>
+        </refs>
+        <data>Melodia: Do you like [character][0x1] too,
+[character][0x1]?
+
+  Of course!
+  Not really.[end1].</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x53f</ref>
+        </refs>
+        <data>......
+I like you, [character][0x1]...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x54f</ref>
+        </refs>
+        <data>Melodia: Hey, [character][0x1]! Do you like
+me?
+
+  I cannot tell a lie.
+  I like you![end1]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x563</ref>
+        </refs>
+        <data>Meanie![end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x548</ref>
+        </refs>
+        <data>Heh heh. Don't worry, don't worry.
+But Lukia told me not to trust men...
+What should I do...[end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x55b</ref>
+        </refs>
+        <data>All wrong! You didn't say it like you
+mean it![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x56a</ref>
+        </refs>
+        <data>Melodia: Hey, [character][0x1], what'll you
+do when this is all over?
+
+  I haven't thought about it.
+  All kinds of stuff![end1]N</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x576</ref>
+        </refs>
+        <data>No good! Everybody thinks about
+things![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x57e</ref>
+        </refs>
+        <data>That's good, [character][0x1]!
+Come play with me sometimes, okay?[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x596</ref>
+        </refs>
+        <data>Zora: Ah, it's so nice to see Campbell
+again. I just can't seem to calm down![end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x59e</ref>
+        </refs>
+        <data>Zora: How's my son working out for
+you?
+
+  He's doing good work.
+  Not very good.[end1]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5aa</ref>
+        </refs>
+        <data>That's good.[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5b2</ref>
+        </refs>
+        <data>I see... He doesn't live up to his name
+after all.[end].</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5c5</ref>
+        </refs>
+        <data>...That's how he is.[end]F</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x629</ref>
+            <ref>0x61c</ref>
+            <ref>0x5cd</ref>
+        </refs>
+        <data>Frederica: I'm shaking...
+
+
+It's time...
+
+
+For my medicine...
+
+
+Today I think I'll have some Heal SP...[end]F</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5ef</ref>
+        </refs>
+        <data>Frederica: I faint a lot... I make sure I
+fight, but... sorry.
+
+  No, we depend on you.
+  Rest well.[end1]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5ff</ref>
+        </refs>
+        <data>Thanks... You're really nice,
+[character][0x1].[end]F</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x60f</ref>
+        </refs>
+        <data>Frederica: I'm fine. As long as I have
+my medicine...[end]F</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x636</ref>
+        </refs>
+        <data>Frederica: I've been thinking... When
+the fighting's all over, I'll work hard to
+become well again.
+When that happens, [character][0x1]...
+Will you start a medicine store with
+me?
+Don't worry. I won't use any of the
+merchandise.[end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x65d</ref>
+        </refs>
+        <data>Joy: Nelbo and I are keeping watch.
+Only when there's a battle do we let
+him out.[end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x668</ref>
+        </refs>
+        <data>Donfan: Lesson! Don't make a pass at
+priests![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x672</ref>
+        </refs>
+        <data>Don't you think Donfan is cute?[end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x687</ref>
+        </refs>
+        <data>Joy: I wonder what we should do to
+Donfan next...[end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x69f</ref>
+        </refs>
+        <data>Joy: When the war is over Donfan
+is going to come to Campbell for me...
+He told me...
+[0x24]I cannot believe there is anything in
+nature more beautiful than you! That's
+why I want to try comparing you.[0x22]
+But keep this a secret from my best
+friend Nelbo...[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6e5</ref>
+        </refs>
+        <data>Diana: Did you hear what happened
+between the two lancers?
+
+  What happened?
+  I don't really wanna know.[end1]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6f2</ref>
+        </refs>
+        <data>In celebration of [character][0x1]'s return,
+they were doing what they always do,
+outside her room.
+You know, [0x24]Lan-lan-lancer! Stab-stab![0x22]
+Then Zora yelled at them to stop it.
+
+Apparently that reminded one of them
+of their mother and he's homesick now.
+At least it's quiet again.[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x731</ref>
+            <ref>0x6fb</ref>
+            <ref>0x744</ref>
+            <ref>0x716</ref>
+        </refs>
+        <data>Hmm. I see.[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x702</ref>
+        </refs>
+        <data>Diana: Hey, did you hear about
+[character][0x1]...?
+
+  Tell me.
+  I'm busy right now...[end1]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x70e</ref>
+        </refs>
+        <data>As usual, there are painful-sounding
+voices coming from her room.
+
+I thought it was because of the Holy
+Dragons again... but, she's used to their
+anger now, isn't she?
+So I wonder just what is going on in
+there...[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x71d</ref>
+        </refs>
+        <data>Diana: Hey, did you hear? It's
+something serious!
+
+  Tell me.
+  I'm busy now...[end1]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x729</ref>
+        </refs>
+        <data>Melodia has some dragon panties that
+are important to her. But they
+disappeared.
+When we went looking for them, we
+found them in the men's bedroom!!
+They were tied to a lancer's spear!
+And, the owner of that spear is Reeve!
+That's disgusting!![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x738</ref>
+        </refs>
+        <data>Diana: [character][0x1]. Is it true that the
+fighting's going to end soon?
+
+  I don't know.
+  It might be true.[end1]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x74c</ref>
+        </refs>
+        <data>I see... The rumors are true then.
+I was thinking I should stop worrying
+about rumors that people make up.
+I've decided to pass the time leisurely
+while thinking about myself.[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x764</ref>
+        </refs>
+        <data>Lukia: [character][0x1]'s back, so now
+comes the real battle. Being the only
+Light Armor Knight will be tough...[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x76b</ref>
+        </refs>
+        <data>Lukia: [character][0x1], you're pretty cool
+lately! Why don't you and I try to
+become the topic of gossip?
+  Sorry.
+  Sure thing![end1]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x77f</ref>
+            <ref>0x777</ref>
+        </refs>
+        <data>Just kidding! Relax![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x787</ref>
+        </refs>
+        <data>The door to the new era has finally
+opened. I wonder if our happiness lies
+on the other side...[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x78e</ref>
+        </refs>
+        <data>Lukia: Everybody has started thinking
+about after the battles. I diligently
+pray that everybody will be happy.
+When the fighting is over, let's pray
+together, [character][0x1]![end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7a5</ref>
+        </refs>
+        <data>Jeanne: Um, those two from Campbell...
+They're pretty good at keeping
+straight faces...
+I pity Donfan, but sometimes it's nice
+to have quiet around here.[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7b0</ref>
+        </refs>
+        <data>Donfan: This is the biggest crisis of my
+life![end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7bd</ref>
+        </refs>
+        <data>Jeanne: Donfan has started to become
+a little flabby because of all our Sweet
+Honey and Cookies.
+I might not ever be able to see that
+Donfan Jump anymore.[end]J</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7c7</ref>
+        </refs>
+        <data>Jeanne: When the fighting's over I'm
+returning home with everybody from
+Mahal.
+We especially need Taicho to work
+hard.[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7ed</ref>
+            <ref>0x7de</ref>
+        </refs>
+        <data>Mist: ...I'm still not at full strength.
+Let me rest when we're not fighting...[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7e6</ref>
+        </refs>
+        <data>What... General Palpaleos and
+[character][0x1]... Hmph, that little girl...[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7f5</ref>
+        </refs>
+        <data>Heheheh... I don't blame you for
+starting to like me, [character][0x1]...
+I am pretty cute after all...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7fc</ref>
+        </refs>
+        <data>Mist: I talked with Frederica. When the
+fighting is over we'll all go live with
+Zora.
+The clean air of Campbell Lagoon.
+I look forward to it.[end].</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x804</ref>
+        </refs>
+        <data>...Campbell's clean air. My beauty will
+definitely be increased 100 times...
+Men won't leave me alone...[end][end]</data>
+    </text>
+</texts>

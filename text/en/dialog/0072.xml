@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<texts base="0x1bd" room_id="72">
+    <text>
+        <refs>
+            <ref>0xbb</ref>
+        </refs>
+        <data>Sendak: [character][0x1]......[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd8</ref>
+        </refs>
+        <data>The truth is, I... I have always been
+lacking a sense of direction ever since
+long ago...
+So I don't really know where our
+destination should be... [character][0x1]...
+Take care of it for me.
+Can you give Hornet our destination
+and the order to depart?[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe1</ref>
+        </refs>
+        <data>I'm so acting so old, it's embarrassing...
+Here, I'll laugh to keep his mind off
+that...[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x104</ref>
+        </refs>
+        <data>  Promise Sendak
+  I'm sorry.[end1]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x114</ref>
+        </refs>
+        <data>Oh joy...!! I'm a happy old man...[end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x126</ref>
+        </refs>
+        <data>Ah... so you will take care of it for
+me? You really are nice, [character][0x1].[end]H</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x133</ref>
+        </refs>
+        <data>He hates me... Oh no...
+I'm an old coot that nobody likes...
+But... Sendak, don't give up!!
+At some point [character][0x1] will
+understand your feelings...!!
+Oh... I need to respond...[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x142</ref>
+        </refs>
+        <data>It goes without saying... If there is
+anybody who can do it, it is you,
+[character][0x1].[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x15e</ref>
+        </refs>
+        <data>Well, I have to take care of the crew's
+wages and such, so... keep our promise
+a secret from everybody else...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x195</ref>
+        </refs>
+        <data>Sendak: N loockine...[end][end]</data>
+    </text>
+</texts>

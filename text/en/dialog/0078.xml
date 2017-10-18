@@ -1,0 +1,312 @@
+<?xml version="1.0" ?>
+<texts base="0x9b0" room_id="78">
+    <text>
+        <refs>
+            <ref>0x75</ref>
+        </refs>
+        <data>              Chapter 26
+  Alexander, King of the Holy Dragons[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x95</ref>
+        </refs>
+        <data>Matelite: Hey! Dragonites inside!
+We've come from Orelus!
+We're here to free you!
+Just wait a little longer![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa1</ref>
+        </refs>
+        <data>Matelite: I think they heard![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x80b</ref>
+            <ref>0xae</ref>
+        </refs>
+        <data>Taicho: Alexander heard as well![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xbc</ref>
+        </refs>
+        <data>Matelite: We've all come this far...
+So we're in this together![end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x218</ref>
+        </refs>
+        <data>              Final Chapter
+  We, Who Cannot See into Tomorrow[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x261</ref>
+        </refs>
+        <data>Matelite: Alexander has revived!
+Hurry with the preparations![end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x46c</ref>
+        </refs>
+        <data>[character][0x1]: The Holy Dragons
+explained it to me. The monsters in
+Orelus were also Dragonites.
+Valitora changed their forms to
+prevent the awakening of Bahamut.
+Bahamut did the same thing...
+But Bahamut changed the Dragonites
+into creatures with wings.
+
+He did it so they could someday fly
+into the sky and return to their
+homeland.[end]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x824</ref>
+        </refs>
+        <data>Excellent![end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x484</ref>
+        </refs>
+        <data>[character][0x1]: [character][0x1]... If we can
+just defeat Alexander one more time,
+I'll take care of the rest.
+I'm sure I'll be alright.[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x495</ref>
+        </refs>
+        <data>Palpaleos: This is it...[end]P</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x49f</ref>
+        </refs>
+        <data>Palpaleos: I'm against [character][0x1]'s
+idea, but...[end][character][0x1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4ad</ref>
+        </refs>
+        <data>[character][0x1]: But that's all we can do.[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4cc</ref>
+        </refs>
+        <data>Matelite: Okay, [character][0x1]!
+This should be our final battle!
+There's nothing more to say!
+Are we all set?
+
+
+  It'll take a little bit longer.
+  Let's go, Matelite![end1]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4db</ref>
+        </refs>
+        <data>I leave it in your hands, [character][0x1].[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4ee</ref>
+        </refs>
+        <data>Matelite: Right!
+
+
+Oh, wait a minute...[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x51f</ref>
+        </refs>
+        <data>Matelite: I have a favor to ask of you,
+Palpaleos.[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x52c</ref>
+        </refs>
+        <data>Matelite: This might be the last time
+we're both alive together. The end.
+Will you let me say something to you?[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x58a</ref>
+        </refs>
+        <data>Matelite: What should I do,
+[character][0x1]?
+
+  Say as much as you want!
+  Forget it.[end1]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x598</ref>
+        </refs>
+        <data>Matelite: [character][0x1]. I'm sure...
+You too...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x617</ref>
+        </refs>
+        <data>Taicho: There are many monsters![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x629</ref>
+        </refs>
+        <data>Matelite: Damn! Something's come up![end][0x0]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x637</ref>
+        </refs>
+        <data>Matelite: Okay, this is the final assault![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x65c</ref>
+        </refs>
+        <data>Matelite: How are the preparations?!
+
+
+  Don't be impatient, Matelite!
+  Let's go, Matelite![end1]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x674</ref>
+        </refs>
+        <data>Matelite: Hurry![end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x688</ref>
+        </refs>
+        <data>Matelite: Members of the Orelus
+Freedom Force!
+
+Let's win this battle... and go home![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x815</ref>
+        </refs>
+        <data>Taicho: Have you calmed down,
+[character][0x1]?
+
+  No.
+  Because you guys are here.[end1]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x82f</ref>
+        </refs>
+        <data>I see... When you say that I feel
+much stronger.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x840</ref>
+        </refs>
+        <data>Sendak: Let us return safely to
+Orelus...[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x84a</ref>
+        </refs>
+        <data>Sendak: It is hopeless, [character][0x1]...
+No matter how many times we defeat
+him, Alexander will continue to revive...[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x869</ref>
+        </refs>
+        <data>Rush: This stuff's so heavy I might
+accidentally break it![end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x86d</ref>
+            <ref>0x87e</ref>
+        </refs>
+        <data>  Weapons?
+  Armor?
+  Items?[end1]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x87a</ref>
+        </refs>
+        <data>Rush: Let's hurry, [character][0x1]![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8c2</ref>
+        </refs>
+        <data>Truce: From what I've seen...
+Whenever Matelite randomly behaves
+well...
+That's when he realizes the enemy is
+clearly stronger than us.
+
+Captain [character][0x1]!
+Make thorough preparations![end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8cc</ref>
+        </refs>
+        <data>Truce: Captain [character][0x1]. There is no
+room for impatience at times like this.
+
+Please don't go feeding anything
+strange to the dragons.[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8d7</ref>
+        </refs>
+        <data>Bikkebakke: This is it, [character][0x1]![end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8db</ref>
+        </refs>
+        <data>  I'll buy some mushrooms!
+  I want some books.
+  Matelite-brand merchandise...[end1]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8e8</ref>
+        </refs>
+        <data>We're going home soon![end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8ec</ref>
+        </refs>
+        <data>  I'll buy some mushrooms!
+  I want some books.
+  Matelite-brand merchandise...[end1][end]</data>
+    </text>
+</texts>

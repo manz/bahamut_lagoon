@@ -1,0 +1,362 @@
+<?xml version="1.0" ?>
+<texts base="0xc4a" room_id="11">
+    <text>
+        <refs>
+            <ref>0x54</ref>
+        </refs>
+        <data>               Chapter 11
+               Leviathan[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9b</ref>
+        </refs>
+        <data>Who is it..?[end1]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa9</ref>
+        </refs>
+        <data>Is there somebody there...?[end1]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xba</ref>
+        </refs>
+        <data>A Holy Dragon...?![end1]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc6</ref>
+        </refs>
+        <data>This is...[end1]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd0</ref>
+        </refs>
+        <data>Water...?[end1]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd6</ref>
+        </refs>
+        <data>Is this water...?![end1]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x240</ref>
+        </refs>
+        <data>Donfan: Ahh! Somebody! Help me!![end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x250</ref>
+        </refs>
+        <data>Bikkebakke: Oh no! I caught on to him!
+
+
+I can't pull him in!!
+
+
+I can't pull him in!![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x28a</ref>
+        </refs>
+        <data>Donfan: Oh...... thanks for saving me.[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x29d</ref>
+        </refs>
+        <data>Lukia: Donfaaan! Why you little... You
+snuck into our room, didn't you!
+
+And you even stole [character][0x1]'s...![end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x314</ref>
+        </refs>
+        <data>Oh no, what should I do...
+What shall I do...
+This is the biggest crisis of my life...[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x33c</ref>
+        </refs>
+        <data>Donfan: Ah, good morning, Lukia! Nice
+morning, isn't it? That's because... you
+shine like the morning sun.[end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x348</ref>
+        </refs>
+        <data>Lukia: You had [character][0x1] drink some
+Sweet Wine...
+
+[0x24]Your eyes sparkle like the reflection
+of the night sky on the lake of Mahal.
+
+I shall show you the dragon's
+underground lake...[0x22]
+
+You said something like that, and then
+afterwards...!![end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x371</ref>
+        </refs>
+        <data>Lukia is cute. I'm in love. Don't say
+that in front of everybody!![end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x384</ref>
+        </refs>
+        <data>Donfan: Lukia... I know how you feel so
+much that it pains me.[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x399</ref>
+        </refs>
+        <data>That I fell in love with Princess
+[character][0x1] of Kahna... It was not by
+accident.
+It was the destiny of a man and
+woman.[end]D</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3b6</ref>
+        </refs>
+        <data>Destiny to fall in love... Decided from
+the moment we were born...
+
+Donfan and [character][0x1]...
+
+
+Those names sound right together...[end]T</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3e0</ref>
+        </refs>
+        <data>That is why, Lukia... Please don't be
+sad. The man of your destiny shall
+certainly appear someday.
+Such is the way of the world...
+
+
+What do you think about Bikkebakke?
+What about [character][0x1]?[end]G</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x64e</ref>
+        </refs>
+        <data>Gunso: [0x2a]scratch[0x2a] [0x2a]scratch[0x2a] The beds in
+my town are so nice...
+
+I don't want to [0x2a]scratch[0x2a] [0x2a]scratch[0x2a]
+return to [character][0x1]...[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x661</ref>
+            <ref>0xab6</ref>
+        </refs>
+        <data>You got Gunso's ???.[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x672</ref>
+        </refs>
+        <data>You got a Bastard Sword and Aurora
+that the octopus spit out.[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6b9</ref>
+        </refs>
+        <data>Sendak: Achoo! I think I still have a
+cold...
+
+The Princess's dream... Her dream
+about Leviathan... I hear Leviathan is in
+an underground lake near this village.
+An underground lake nobody has ever
+entered... I am... scared. I am running
+a fever as well...
+We are going to meet Matelite, Taicho,
+and the others there. It seems Taicho
+is really busy with Mahal's revival.
+Matelite went into business selling his
+autographed armor... The princess is
+with him too...[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6bd</ref>
+        </refs>
+        <data>  Wait... take care, Sendak!
+  Let's go... don't overdo it, Sendak![end1]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7d5</ref>
+        </refs>
+        <data>Sendak: Achoo! Should we go to the
+underground lake?[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7e9</ref>
+        </refs>
+        <data>Bikkebakke: Having nothing but
+mushrooms is bad for the body...
+So I'm fishing for an octopus!
+Why don't you give it a try,
+[character][0x1]?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x809</ref>
+        </refs>
+        <data>  I'll give it a shot.
+  You keep at it.[end1]E</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x816</ref>
+        </refs>
+        <data>Eh?! Then we'll have poison mushrooms
+today, yet again...!! If we wanna buy a
+house we'll have to tough it out![end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x830</ref>
+        </refs>
+        <data>Bikkebakke: [character][0x1]! How about
+some mushrooms?[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x834</ref>
+        </refs>
+        <data>  I want some.
+  I don't need any.[end1]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x858</ref>
+        </refs>
+        <data>Lukia: Doooonfaaan....[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x868</ref>
+        </refs>
+        <data>Battlefield Salesman: Hello! I am a
+loving salesman...[end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x86c</ref>
+        </refs>
+        <data>  Weapons, please.
+  Armor, please.
+  Items, please.[end1]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9fa</ref>
+        </refs>
+        <data>You got 2 of Gunso's Battle Strategy
+Books and a Prodigy Notebook.[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa11</ref>
+        </refs>
+        <data>You got 3 Sweet Wines and 2 Super
+Vodkas that Lukia didn't finish.[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa2c</ref>
+        </refs>
+        <data>You got 3 of Lukia's Drawer Things.[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa41</ref>
+        </refs>
+        <data>You got 6 of Gunso's Drawer Things.[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xac7</ref>
+        </refs>
+        <data>You got a Nimbus Robe.[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xad8</ref>
+        </refs>
+        <data>You got a Guardian.[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xae9</ref>
+        </refs>
+        <data>You got 6 Earth Grasses.[end]Y</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xafe</ref>
+        </refs>
+        <data>You got 5 Sweet Wines.[end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb0c</ref>
+        </refs>
+        <data>Bikkebakke: [character][0x1], you can fish
+next to me. If you catch one, move the
+octopus using left, down, and right.
+If he fights back, reel it in using A![end]B</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb34</ref>
+        </refs>
+        <data>Bikkebakke: You got him! Now don't let
+him go![end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xbeb</ref>
+        </refs>
+        <data>Reel him in with the A button![end]L</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc19</ref>
+        </refs>
+        <data>Looks tasty![end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc32</ref>
+        </refs>
+        <data>Oh, so close. Try again![end][end]</data>
+    </text>
+</texts>
