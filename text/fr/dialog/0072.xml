@@ -5,15 +5,14 @@
             <ref>0x104</ref>
         </refs>
         <data> Je te le promets,Sendack...
- Je te demande pardon?![end1]
-</data>
+ Je te demande pardon?![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xbb</ref>
         </refs>
         <data>SENDACK:
-[character][0x1]...[end]J</data>
+[character][0x1]...[end]</data>
     </text>
     <text>
         <refs>
@@ -24,14 +23,14 @@ de l'orientation.
 Où dois-je nous emmener?!
 [character][0x1],j'aurais une requête...
 Pourrais-tu donner à ma place le lieu
-de destination à Hornet?[end]J</data>
+de destination à Hornet?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x142</ref>
         </refs>
         <data>Je t'en prie,je suis certain que tu en
-es capable car tu es le meilleur.[end]H</data>
+es capable car tu es le meilleur.[end]</data>
     </text>
     <text>
         <refs>
@@ -39,7 +38,7 @@ es capable car tu es le meilleur.[end]H</data>
         </refs>
         <data>Haha!
 Tu t'en charges,alors?!
-Tu verras,c'est TRES simple![end]J</data>
+Tu verras,c'est TRES simple![end]</data>
     </text>
     <text>
         <refs>
@@ -52,27 +51,27 @@ Je sais que tôt ou tard,je devrai
 tenir ma promesse et ainsi commander
 ce bateau.
 Lorsque ce jour viendra,ce ne sera un
-secret pour personne.[end]S</data>
+secret pour personne.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x195</ref>
         </refs>
         <data>SENDACK:
-En route![end]J</data>
+En route![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe1</ref>
         </refs>
         <data>Je suis un vieux sorcier,comment
-pourrait-on me faire confiance?[end]C</data>
+pourrait-on me faire confiance?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x114</ref>
         </refs>
-        <data>C'est la chance de ma vie![end]I</data>
+        <data>C'est la chance de ma vie![end]</data>
     </text>
     <text>
         <refs>
@@ -88,6 +87,6 @@ Il faut le convaincre mais je sais que
 ce sera difficile.
  
 Quelle calamité!
-Bon,tentons la flatterie![end][0x0]</data>
+Bon,tentons la flatterie![end]</data>
     </text>
 </texts>

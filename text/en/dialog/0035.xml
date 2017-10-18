@@ -4,45 +4,45 @@
         <refs>
             <ref>0xa4</ref>
         </refs>
-        <data>Matelite: [character][0x1]...[end]S</data>
+        <data>Matelite: [character][0x1]...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb2</ref>
         </refs>
         <data>Sendak: And a Holy Dragon, just as I
-thought...[end]T</data>
+thought...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xbe</ref>
         </refs>
-        <data>Taicho: So that is Emperor Sauzer...[end]R</data>
+        <data>Taicho: So that is Emperor Sauzer...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xce</ref>
         </refs>
-        <data>Rush: That's... Palpaleos![end]M</data>
+        <data>Rush: That's... Palpaleos![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x168</ref>
         </refs>
-        <data>Matelite: Hey, wait a minute.[end][0x0]</data>
+        <data>Matelite: Hey, wait a minute.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x124</ref>
         </refs>
         <data>Lukia: We might not be able to beat
-them...[end][0x0]</data>
+them...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x148</ref>
         </refs>
-        <data>Matelite: Why, are you giving up?![end]M</data>
+        <data>Matelite: Why, are you giving up?![end]</data>
     </text>
     <text>
         <refs>
@@ -50,26 +50,26 @@ them...[end][0x0]</data>
         </refs>
         <data>Matelite: Retreat?! Even if we have to
 put our lives at risk it is our duty to
-rescue [character][0x1]![end]M</data>
+rescue [character][0x1]![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x177</ref>
         </refs>
         <data>Matelite: Sendak, aren't you going to
-say anything?[end]S</data>
+say anything?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x185</ref>
         </refs>
-        <data>Sendak: ...I have nothing to say.[end]S</data>
+        <data>Sendak: ...I have nothing to say.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x196</ref>
         </refs>
-        <data>Sendak: I was just thinking...[end]S</data>
+        <data>Sendak: I was just thinking...[end]</data>
     </text>
     <text>
         <refs>
@@ -79,7 +79,7 @@ say anything?[end]S</data>
 Kahna... Why did Sauzer take the
 princess with him?
 And just now, he's brought her to a
-Holy Dragon... what for?[end]T</data>
+Holy Dragon... what for?[end]</data>
     </text>
     <text>
         <refs>
@@ -90,33 +90,33 @@ Holy Dragon... what for?[end]T</data>
 
 [character][0x1] is the daughter of King
 Kahna. She holds the same power as
-he did...[end]R</data>
+he did...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1c6</ref>
         </refs>
         <data>Rush: [character][0x1] can speak with the
-Holy Dragons too![end]S</data>
+Holy Dragons too![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1d4</ref>
         </refs>
-        <data>Sendak: I believe that is the case...[end]S</data>
+        <data>Sendak: I believe that is the case...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1e1</ref>
         </refs>
         <data>Sendak: Sauzer must want that power
-for himself...[end]M</data>
+for himself...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1f3</ref>
         </refs>
-        <data>Matelite: That's okay![end]M</data>
+        <data>Matelite: That's okay![end]</data>
     </text>
     <text>
         <refs>
@@ -126,19 +126,19 @@ for himself...[end]M</data>
 worry! Because the princess is going
 back with us!
 It doesn't matter what Sauzer is
-planning![end]S</data>
+planning![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2b5</ref>
         </refs>
-        <data>Sendak: [character][0x1]...[end][0x0]</data>
+        <data>Sendak: [character][0x1]...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4ad</ref>
         </refs>
-        <data>[character][0x1]: General Palpaleos...[end][0x0]</data>
+        <data>[character][0x1]: General Palpaleos...[end]</data>
     </text>
     <text>
         <refs>
@@ -146,34 +146,34 @@ planning![end]S</data>
         </refs>
         <data>Matelite: Okay, let's go... I don't want
 to hear any more of Sendak's
-ramblings...[end]H</data>
+ramblings...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x239</ref>
         </refs>
         <data>How rude...
-Saying nothing but, [0x24]Follow me![0x22][end]R</data>
+Saying nothing but, [0x24]Follow me![0x22][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x25c</ref>
         </refs>
         <data>Rush: The others have gone ahead of
-us![end]T</data>
+us![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x277</ref>
         </refs>
-        <data>Truce: It's dangerous all by myself![end]M</data>
+        <data>Truce: It's dangerous all by myself![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x397</ref>
         </refs>
         <data>Matelite: Ergh... We can't do anything
-with [character][0x1] as a hostage...[end]S</data>
+with [character][0x1] as a hostage...[end]</data>
     </text>
     <text>
         <refs>
@@ -181,7 +181,7 @@ with [character][0x1] as a hostage...[end]S</data>
         </refs>
         <data>Sauzer: What was that? Are you
 insinuating I'm holding the princess
-hostage?[end]S</data>
+hostage?[end]</data>
     </text>
     <text>
         <refs>
@@ -189,7 +189,7 @@ hostage?[end]S</data>
         </refs>
         <data>Sauzer: Princess [character][0x1] is a very
 important person to us. That you would
-think we're using her as a hostage...[end]S</data>
+think we're using her as a hostage...[end]</data>
     </text>
     <text>
         <refs>
@@ -197,14 +197,14 @@ think we're using her as a hostage...[end]S</data>
         </refs>
         <data>Sauzer: Hmph... I shall forgive your
 rude comments. I have no time to be
-playing with you.[end]S</data>
+playing with you.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3f9</ref>
         </refs>
         <data>Sauzer: Bring Princess [character][0x1]
-here.[end]S</data>
+here.[end]</data>
     </text>
     <text>
         <refs>
@@ -218,7 +218,7 @@ Kahna's royal family as told of in the
 legend?
 Show me your miraculous power of
 controlling the Holy Dragons with your
-will![end][0x0]</data>
+will![end]</data>
     </text>
     <text>
         <refs>
@@ -226,7 +226,7 @@ will![end][0x0]</data>
         </refs>
         <data>[character][0x1]: I don't know about any
 legend. How many times do I have to
-say it...?[end]P</data>
+say it...?[end]</data>
     </text>
     <text>
         <refs>
@@ -236,7 +236,7 @@ say it...?[end]P</data>
 mustn't be afraid. Didn't you promise
 us?
 Please tell us what the Holy Dragon is
-thinking.[end]M</data>
+thinking.[end]</data>
     </text>
     <text>
         <refs>
@@ -244,13 +244,13 @@ thinking.[end]M</data>
         </refs>
         <data>Matelite: [character][0x1]! Don't! You
 mustn't forget the noble spirit of
-Kahna's royal family![end][character][0x1]</data>
+Kahna's royal family![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x510</ref>
         </refs>
-        <data>[character][0x1]: Matelite...[end][character][0x1]</data>
+        <data>[character][0x1]: Matelite...[end]</data>
     </text>
     <text>
         <refs>
@@ -259,14 +259,14 @@ Kahna's royal family![end][character][0x1]</data>
         <data>[character][0x1]: Emperor Sauzer... No.
 
 
-I...[end]S</data>
+I...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x52a</ref>
         </refs>
         <data>Sauzer: I see... You're saying you
-can't...[end]S</data>
+can't...[end]</data>
     </text>
     <text>
         <refs>
@@ -277,7 +277,7 @@ do.
 
 Ever since I made you a part of my
 kingdom I've had to constantly put up
-with you.[end]S</data>
+with you.[end]</data>
     </text>
     <text>
         <refs>
@@ -285,14 +285,14 @@ with you.[end]S</data>
         </refs>
         <data>Sauzer: But that ends today.
 I can still become the man of
-legend even without your power![end]S</data>
+legend even without your power![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x559</ref>
         </refs>
         <data>Sauzer: I'm through with you.
-You may go back to your friends.[end]W</data>
+You may go back to your friends.[end]</data>
     </text>
     <text>
         <refs>
@@ -301,25 +301,25 @@ You may go back to your friends.[end]W</data>
         <data>What a pity that we won't be able to
 watch the door to a new era open
 together!
-Such a shame![end]P</data>
+Such a shame![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5b5</ref>
         </refs>
-        <data>Palpaleos: Wait![end]S</data>
+        <data>Palpaleos: Wait![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x63d</ref>
         </refs>
-        <data>Sendak: The princess...[end]S</data>
+        <data>Sendak: The princess...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x64b</ref>
         </refs>
-        <data>Sendak: You do not understand...[end]S</data>
+        <data>Sendak: You do not understand...[end]</data>
     </text>
     <text>
         <refs>
@@ -330,39 +330,39 @@ desires. He wants to speak to the Holy
 Dragons with the princess's power.
 And then what? Sauzer, the Emperor of
 Granbelos. Sauzer, the Ruler of Orelus.
-What more could he want?[end]M</data>
+What more could he want?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x66e</ref>
         </refs>
         <data>Matelite: Sendak! Bring medicine!
-We're hurt![end][character][0x1]</data>
+We're hurt![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6a6</ref>
         </refs>
         <data>[character][0x1]... I have to go.
-I wanted to talk more.[end]T</data>
+I wanted to talk more.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6b2</ref>
         </refs>
-        <data>Taicho: Sir Matelite! Get up![end]L</data>
+        <data>Taicho: Sir Matelite! Get up![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6e3</ref>
         </refs>
-        <data>Lukia: [character][0x1], hurry![end]L</data>
+        <data>Lukia: [character][0x1], hurry![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x79f</ref>
         </refs>
-        <data>Lukia: [character][0x1]! What should we oo![end]M</data>
+        <data>Lukia: [character][0x1]! What should we oo![end]</data>
     </text>
     <text>
         <refs>

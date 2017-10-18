@@ -5,34 +5,34 @@
             <ref>0x30</ref>
         </refs>
         <data>               Chapter 5
-            Emperor Sauzer[end]M</data>
+            Emperor Sauzer[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6d</ref>
         </refs>
         <data>Matelite: Sauzer! Why have you brought
-[character][0x1] to such a creepy forest?![end]T</data>
+[character][0x1] to such a creepy forest?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x79</ref>
         </refs>
-        <data>Taicho: There are many enemies![end]T</data>
+        <data>Taicho: There are many enemies![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x87</ref>
         </refs>
         <data>They are not human! They are
-monsters![end]L</data>
+monsters![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x94</ref>
         </refs>
         <data>Lukia: Why did they come to such a
-dangerous place...[end]N</data>
+dangerous place...[end]</data>
     </text>
     <text>
         <refs>
@@ -41,25 +41,25 @@ dangerous place...[end]N</data>
         <data>No matter how dangerous it is, there's
 one thing we must do. Right?
 
-Oops, sorry for interrupting.[end]S</data>
+Oops, sorry for interrupting.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc4</ref>
         </refs>
-        <data>Sendak: Hmmm...[end]T</data>
+        <data>Sendak: Hmmm...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x157</ref>
         </refs>
-        <data>Taicho: Let us go![end][0x0]</data>
+        <data>Taicho: Let us go![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd3</ref>
         </refs>
-        <data>Sendak: Oh! Now I remember![end]S</data>
+        <data>Sendak: Oh! Now I remember![end]</data>
     </text>
     <text>
         <refs>
@@ -67,20 +67,20 @@ Oops, sorry for interrupting.[end]S</data>
         </refs>
         <data>Sendak: There is a Holy Dragon in this
 forest! The sense in the air here...
-It is the same as Bahamut's in Kahna![end]M</data>
+It is the same as Bahamut's in Kahna![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x114</ref>
         </refs>
-        <data>Matelite: Fine, whatever![end]M</data>
+        <data>Matelite: Fine, whatever![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x123</ref>
         </refs>
         <data>Matelite: While we're standing around
-here, [character][0x1]'s...[end]M</data>
+here, [character][0x1]'s...[end]</data>
     </text>
     <text>
         <refs>
@@ -88,13 +88,13 @@ here, [character][0x1]'s...[end]M</data>
         </refs>
         <data>Matelite: It doesn't matter what the
 Empire is thinking! We're going to get
-[character][0x1] back![end]M</data>
+[character][0x1] back![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x142</ref>
         </refs>
-        <data>Matelite: Alright, let's go! Follow me![end]S</data>
+        <data>Matelite: Alright, let's go! Follow me![end]</data>
     </text>
     <text>
         <refs>
@@ -103,21 +103,21 @@ Empire is thinking! We're going to get
         <data>Sendak: The presence of a Holy
 Dragon...
 
-Princess...[end]L</data>
+Princess...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2a2</ref>
         </refs>
         <data>Lukia: I hope we find [character][0x1] this
-time...[end]B</data>
+time...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2a9</ref>
         </refs>
         <data>Battlefield salesman: You're always
-hard at work. Well, please have a look![end] </data>
+hard at work. Well, please have a look![end]</data>
     </text>
     <text>
         <refs>
@@ -125,7 +125,7 @@ hard at work. Well, please have a look![end] </data>
         </refs>
         <data>  Show me weapons.
   Show me armor.
-  Show me items.[end1]B</data>
+  Show me items.[end1]</data>
     </text>
     <text>
         <refs>
@@ -133,14 +133,14 @@ hard at work. Well, please have a look![end] </data>
         </refs>
         <data>Bikkebakke: I found some mushrooms.
 I think I'll try growing them in
-[character][0x1].[end]B</data>
+[character][0x1].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2f4</ref>
         </refs>
         <data>Bikkebakke: [0x2a]mumble[0x2a] [0x2a]mumble[0x2a]
-Are we going to attack?[end] </data>
+Are we going to attack?[end]</data>
     </text>
     <text>
         <refs>
@@ -148,32 +148,32 @@ Are we going to attack?[end] </data>
         </refs>
         <data>  Wait a little bit more!
   Call the dragons!
-  Attack![end1]B</data>
+  Attack![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x302</ref>
         </refs>
         <data>Bikkebakke: Oh, good. That gives me
-time to find some more mushrooms.[end]B</data>
+time to find some more mushrooms.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3bb</ref>
         </refs>
-        <data>Bikkebakke: Alright, let's go![end]M</data>
+        <data>Bikkebakke: Alright, let's go![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x40d</ref>
         </refs>
-        <data>Matelite: [0x2a]pant[0x2a] ......[end]T</data>
+        <data>Matelite: [0x2a]pant[0x2a] ......[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x42d</ref>
         </refs>
-        <data>Taicho: Quickly! The enemy is strong![end][0x2a]</data>
+        <data>Taicho: Quickly! The enemy is strong![end]</data>
     </text>
     <text>
         <refs>

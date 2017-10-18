@@ -14,7 +14,7 @@ Tu es enfin venue...
  
   
 N'hésite pas...
-Ouvre cette porte et viens à moi...[end][character][0x1]</data>
+Ouvre cette porte et viens à moi...[end]</data>
     </text>
     <text>
         <refs>
@@ -27,7 +27,7 @@ Il est dangereux de me suivre.
 Les Dragons Sacrés sont emplis de
 haine.
 Je ne sais pas si je pourrai la
-stopper.[end]S</data>
+stopper.[end]</data>
     </text>
     <text>
         <refs>
@@ -35,7 +35,7 @@ stopper.[end]S</data>
         </refs>
         <data>S'il te plaît,Jormungand,
 ouvre cette porte!
-Tu as besoin de moi,n'est-ce pas?[end][character][0x1]</data>
+Tu as besoin de moi,n'est-ce pas?[end]</data>
     </text>
     <text>
         <refs>
@@ -43,7 +43,7 @@ Tu as besoin de moi,n'est-ce pas?[end][character][0x1]</data>
         </refs>
         <data>[character][0x1]:
 Ne tente rien [character][0x1]!
-A partir d'ici,je dois y aller seule.[end]M</data>
+A partir d'ici,je dois y aller seule.[end]</data>
     </text>
     <text>
         <refs>
@@ -52,7 +52,7 @@ A partir d'ici,je dois y aller seule.[end]M</data>
         <data>MATELIGHT:
 Princesse [character][0x1],
 attendez-nous!
-Je vais vous escorter![end]C</data>
+Je vais vous escorter![end]</data>
     </text>
     <text>
         <refs>
@@ -62,7 +62,7 @@ Je vais vous escorter![end]C</data>
 [character][0x1] semble bien se porter!
  
 [character][0x1],je t'en prie,va tout de même la
-rejoindre![end]S</data>
+rejoindre![end]</data>
     </text>
     <text>
         <refs>
@@ -74,7 +74,7 @@ je... ne peux plus...
 Va la soutenir...
 Va...
 Va l'aider...
-Va voir la Princesse...[end][character][0x1]</data>
+Va voir la Princesse...[end]</data>
     </text>
     <text>
         <refs>
@@ -82,7 +82,7 @@ Va voir la Princesse...[end][character][0x1]</data>
         </refs>
         <data>[character][0x1]:
 [character][0x1],je suis désolée!
-Protège-moi jusqu'au dernier instant.[end][character][0x1]</data>
+Protège-moi jusqu'au dernier instant.[end]</data>
     </text>
     <text>
         <refs>
@@ -91,7 +91,7 @@ Protège-moi jusqu'au dernier instant.[end][character][0x1]</data>
         <data>[character][0x1]:
 Jormungand,je suis prête, maintenant!
 Dis-moi ce que tu as à dire...
-Je t'écouterai![end][character][0x1]</data>
+Je t'écouterai![end]</data>
     </text>
     <text>
         <refs>
@@ -101,7 +101,7 @@ Je t'écouterai![end][character][0x1]</data>
         <data>[character][0x1]...
  
   
-[character][0x1]...[end]L</data>
+[character][0x1]...[end]</data>
     </text>
     <text>
         <refs>
@@ -117,7 +117,7 @@ Ils ne te trahiraient pas et ils n'ont
 aucune haine.
  
 Ils pourraient nous surpasser,nous,
-les Dragons Sacrés...[end]I</data>
+les Dragons Sacrés...[end]</data>
     </text>
     <text>
         <refs>
@@ -137,7 +137,7 @@ Nous ne pouvons les oublier.
  
 Ce fut la Guerre parmi les Dragons
 Sacrés!
-Ce fut la Grande Guerre![end]I</data>
+Ce fut la Grande Guerre![end]</data>
     </text>
     <text>
         <refs>
@@ -165,6 +165,6 @@ La porte de la Nouvelle Ere...
 Nous détestons en entendre parler!
  
 Cependant,il sera un jour où la
-Nouvelle Ere surgira.[end][0x0]</data>
+Nouvelle Ere surgira.[end]</data>
     </text>
 </texts>

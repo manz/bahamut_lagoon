@@ -17,7 +17,7 @@
 
 
            Now... Open the door,
-             and come to me.[end][character][0x1]</data>
+             and come to me.[end]</data>
     </text>
     <text>
         <refs>
@@ -27,7 +27,7 @@
 From here on it will be dangerous...
 The Holy Dragon is full of hatred.
 I don't know whether I will be able
-to stop it or not...[end]P</data>
+to stop it or not...[end]</data>
     </text>
     <text>
         <refs>
@@ -35,14 +35,14 @@ to stop it or not...[end]P</data>
         </refs>
         <data>Please... Jormungand. Close the door...
 It is me that you want... Forgive
-[character][0x1] and the others...[end]M</data>
+[character][0x1] and the others...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x28f</ref>
         </refs>
         <data>Matelite: [character][0x1]... This won't do!
-Please wait for me![end]S</data>
+Please wait for me![end]</data>
     </text>
     <text>
         <refs>
@@ -54,7 +54,7 @@ me...
 I would appreciate it if you could
 rub my legs... I want you to help
 me...
-But, the princess...[end]T</data>
+But, the princess...[end]</data>
     </text>
     <text>
         <refs>
@@ -63,14 +63,14 @@ But, the princess...[end]T</data>
         <data>Taicho: [character][0x1]... She is acting
 differently than her usual self!
 
-[character][0x1]... You must do something![end][character][0x1]</data>
+[character][0x1]... You must do something![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2ae</ref>
         </refs>
         <data>[character][0x1]: Stop... [character][0x1].
-I will go ahead alone...[end][character][0x1]</data>
+I will go ahead alone...[end]</data>
     </text>
     <text>
         <refs>
@@ -78,14 +78,14 @@ I will go ahead alone...[end][character][0x1]</data>
         </refs>
         <data>[character][0x1]: [character][0x1]... please.
 Until the very end, please watch over
-me...[end] </data>
+me...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3c0</ref>
             <ref>0x4b4</ref>
         </refs>
-        <data>             [character][0x1]... Dragnar.[end] </data>
+        <data>             [character][0x1]... Dragnar.[end]</data>
     </text>
     <text>
         <refs>
@@ -99,7 +99,7 @@ me...[end] </data>
 
                 Long ago...
           We Holy Dragons too
-         were once as you are.[end][character][0x1]</data>
+         were once as you are.[end]</data>
     </text>
     <text>
         <refs>
@@ -108,7 +108,7 @@ me...[end] </data>
         <data>[character][0x1]: Jormungand... I am ready.
 Whatever you have to say...
 
-I am prepared to accept you.[end] </data>
+I am prepared to accept you.[end]</data>
     </text>
     <text>
         <refs>
@@ -124,7 +124,7 @@ I am prepared to accept you.[end] </data>
         Our sadness... Our anger...
            Our every thought...
          Our irreversible past...
-     The War of the Holy Dragons...[end] </data>
+     The War of the Holy Dragons...[end]</data>
     </text>
     <text>
         <refs>

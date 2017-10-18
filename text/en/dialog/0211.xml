@@ -8,7 +8,7 @@
 the Holy Dragons... Where the dragons
 will return to... Always warm...
 They will go kindly...
-The land of unchanging memories...[end]D</data>
+The land of unchanging memories...[end]</data>
     </text>
     <text>
         <refs>
@@ -28,7 +28,7 @@ living things... The strength of their
 hearts...
 [character][0x1]... The feeling of reaching
 beyond the sky... I can feel it
-throughout my entire body...[end]D</data>
+throughout my entire body...[end]</data>
     </text>
     <text>
         <refs>
@@ -36,7 +36,7 @@ throughout my entire body...[end]D</data>
         </refs>
         <data>Dragonkeeper: The sky speaks to you...
 [character][0x1]... Be strong... Don't be
-worried. Keep believing...[end]H</data>
+worried. Keep believing...[end]</data>
     </text>
     <text>
         <refs>
@@ -44,14 +44,14 @@ worried. Keep believing...[end]H</data>
         </refs>
         <data>Hornet let me go to the stern of the
 ship since a baby was born!! It's
-because he's the father...[end] </data>
+because he's the father...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x586</ref>
         </refs>
         <data>  Father...?
-  Hmmm...[end1]T</data>
+  Hmmm...[end1]</data>
     </text>
     <text>
         <refs>
@@ -65,7 +65,7 @@ Of course, I had thought you would be
 the father, [character][0x1]...
 
 But since you're the second person,
-that makes you the mother...[end]I</data>
+that makes you the mother...[end]</data>
     </text>
     <text>
         <refs>
@@ -78,14 +78,14 @@ As I didn't have any children of my
 own, I took special care of
 [character][0x1].
 Everybody has been calling me the
-Dragonkeeper ever since...[end][0x2a]</data>
+Dragonkeeper ever since...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5ae</ref>
         </refs>
         <data>[0x2a]sigh[0x2a] Soon it will be the season for
-love... It's going to be tough...[end]D</data>
+love... It's going to be tough...[end]</data>
     </text>
     <text>
         <refs>
@@ -93,21 +93,21 @@ love... It's going to be tough...[end]D</data>
         </refs>
         <data>Dragonkeeper: It's a message from the
 wind... Listen closely, [character][0x1].
-Listen to the voice of the wind...[end]I</data>
+Listen to the voice of the wind...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5c5</ref>
         </refs>
         <data>It says that in Campbell a captain of
-a dragon squad is waiting for you...[end] </data>
+a dragon squad is waiting for you...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5d2</ref>
         </refs>
         <data>  Wait!!
-  Let's go!![end1] </data>
+  Let's go!![end1]</data>
     </text>
     <text>
         <refs>
@@ -116,7 +116,7 @@ a dragon squad is waiting for you...[end] </data>
             <ref>0x60f</ref>
         </refs>
         <data>  Yes
-  No[end1][0x0]</data>
+  No[end1]</data>
     </text>
     <text>
         <refs>
@@ -124,21 +124,21 @@ a dragon squad is waiting for you...[end] </data>
         </refs>
         <data>That's right... Hornet jumped down a
 bit earlier and told me. Are you going
-to take off from here?[end]D</data>
+to take off from here?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x60b</ref>
         </refs>
         <data>Dragonkeeper: Are you going back
-inside?[end]R</data>
+inside?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x681</ref>
         </refs>
         <data>Rush: Let's sneak onto the terrace with
-[character][0x1]!! Well, you gonna get on?[end] </data>
+[character][0x1]!! Well, you gonna get on?[end]</data>
     </text>
     <text>
         <refs>
@@ -146,42 +146,42 @@ inside?[end]R</data>
         </refs>
         <data>  Get on
   Feed
-  Pass[end1]T</data>
+  Pass[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x68f</ref>
         </refs>
         <data>This is the only way!! Aren't you
-worried about [character][0x1]?![end]D</data>
+worried about [character][0x1]?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x98f</ref>
         </refs>
         <data>Dragonkeeper: That's dangerous...
-Don't startle them like that...[end]L</data>
+Don't startle them like that...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9a1</ref>
         </refs>
         <data>Look!! He's not scary... Ouch...!! He bit
-me...!![end]D</data>
+me...!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9ba</ref>
         </refs>
         <data>Don't worry!! He's not scary...
-[character][0x1]'s nice...[end]D</data>
+[character][0x1]'s nice...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa11</ref>
         </refs>
         <data>Dragonkeeper: Okay, [character][0x1]. Try
-calling to him!![end] </data>
+calling to him!![end]</data>
     </text>
     <text>
         <refs>
@@ -189,25 +189,25 @@ calling to him!![end] </data>
         </refs>
         <data>  Go!
   Come!
-  Wait![end1]O</data>
+  Wait![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xab6</ref>
         </refs>
-        <data>Okay then. Be nice to it!![end]G</data>
+        <data>Okay then. Be nice to it!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xad6</ref>
         </refs>
-        <data>Give this child a name.[end]Y</data>
+        <data>Give this child a name.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xafd</ref>
         </refs>
-        <data>You found some Dragon Dung.[end] </data>
+        <data>You found some Dragon Dung.[end]</data>
     </text>
     <text>
         <refs>
@@ -215,25 +215,25 @@ calling to him!![end] </data>
         </refs>
         <data>   The Legend of the Dragon Dung...
 The one who eats the dung shall open
- the door to memories of the future...[end]W</data>
+ the door to memories of the future...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb68</ref>
         </refs>
-        <data>Will you taste some?[end]Y</data>
+        <data>Will you taste some?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xbea</ref>
         </refs>
-        <data>You became a Dragonkeeper.[end] </data>
+        <data>You became a Dragonkeeper.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc04</ref>
         </refs>
-        <data>                [character][0x1]...[end] </data>
+        <data>                [character][0x1]...[end]</data>
     </text>
     <text>
         <refs>
@@ -244,7 +244,7 @@ The one who eats the dung shall open
 
                  [character][0x1]...
             I shall show you
-        memories of the future...[end] </data>
+        memories of the future...[end]</data>
     </text>
     <text>
         <refs>
@@ -252,7 +252,7 @@ The one who eats the dung shall open
         </refs>
         <data>         The skies of Orelus...
     All the lagoons have been lost...
- The era of humans comes to an end...[end] </data>
+ The era of humans comes to an end...[end]</data>
     </text>
     <text>
         <refs>
@@ -262,7 +262,7 @@ The one who eats the dung shall open
 While protecting the lagoons of Orelus...
      While protecting the humans...
                 [character][0x1]...
- I shall take you through these skies...[end]T</data>
+ I shall take you through these skies...[end]</data>
     </text>
     <text>
         <refs>
@@ -273,14 +273,14 @@ end of the statue. They look like
 they're about to fall.
 One present is from Hornet, the other
 is from the crew. Which one will you
-choose?[end] </data>
+choose?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xcfa</ref>
         </refs>
         <data>  Hornet's present
-  The crew's present[end1]T</data>
+  The crew's present[end1]</data>
     </text>
     <text>
         <refs>
@@ -288,7 +288,7 @@ choose?[end] </data>
             <ref>0xd04</ref>
         </refs>
         <data>The other present disappeared into the
-sky...[end]H</data>
+sky...[end]</data>
     </text>
     <text>
         <refs>
@@ -298,7 +298,7 @@ sky...[end]H</data>
 the revival of Kahna!! [character][0x1],
 protect the skies of Orelus!!
 P.S. Don't tell the crew that I gave you
-a present![end]Y</data>
+a present![end]</data>
     </text>
     <text>
         <refs>
@@ -306,7 +306,7 @@ a present![end]Y</data>
         </refs>
         <data>You got a Scharnhorst [0x28]Ultimate Cross
 Knight sword[0x29], a Dreadnaught, and a
-Dillinger.[end]M</data>
+Dillinger.[end]</data>
     </text>
     <text>
         <refs>
@@ -317,7 +317,7 @@ Congratulations on the revival of
 Kahna.
 We, the crew are also praying for
 peace in Orelus. We spent up all of
-our money. [character][0x1], keep at it!![end]Y</data>
+our money. [character][0x1], keep at it!![end]</data>
     </text>
     <text>
         <refs>
@@ -325,7 +325,7 @@ our money. [character][0x1], keep at it!![end]Y</data>
         </refs>
         <data>You got a Destroyer, 2 Kaiser Blades,
 2 Martial Nays, a Prinzeugen, and an
-XXX Porno Mag.[end]B</data>
+XXX Porno Mag.[end]</data>
     </text>
     <text>
         <refs>
@@ -333,45 +333,45 @@ XXX Porno Mag.[end]B</data>
         </refs>
         <data>Bikkebakke's dream mushroom patch.
 No picking!
-                          Bikkebakke[end]S</data>
+                          Bikkebakke[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd57</ref>
         </refs>
-        <data>Steal one of Bikkebakke's mushrooms?[end]Y</data>
+        <data>Steal one of Bikkebakke's mushrooms?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd75</ref>
         </refs>
-        <data>You got a Poisonous Mushroom.[end]Y</data>
+        <data>You got a Poisonous Mushroom.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd8a</ref>
         </refs>
-        <data>You got a Gross Mushroom.[end]Y</data>
+        <data>You got a Gross Mushroom.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd9f</ref>
         </refs>
-        <data>You got a Horrible Mushroom.[end][0x28]</data>
+        <data>You got a Horrible Mushroom.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xdaf</ref>
         </refs>
         <data>[0x28]Bikkebakke's serious look came to
-[character][0x1]'s mind...[0x29][end][0x28]</data>
+[character][0x1]'s mind...[0x29][end]</data>
     </text>
     <text>
         <refs>
             <ref>0xdb8</ref>
         </refs>
         <data>[0x28]Bikkebakke's lonely look came to
-[character][0x1]'s mind...[0x29][end][0x28]</data>
+[character][0x1]'s mind...[0x29][end]</data>
     </text>
     <text>
         <refs>

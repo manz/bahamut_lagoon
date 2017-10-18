@@ -4,20 +4,20 @@
         <refs>
             <ref>0x14f</ref>
         </refs>
-        <data>Matelite: I brought some![end].</data>
+        <data>Matelite: I brought some![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x24d</ref>
         </refs>
-        <data>......[end][0x0]</data>
+        <data>......[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa4</ref>
         </refs>
         <data>               Chapter 12
-           The Spy Operation[end]M</data>
+           The Spy Operation[end]</data>
     </text>
     <text>
         <refs>
@@ -25,21 +25,21 @@
         </refs>
         <data>Matelite: Hey, Taicho! I think we need
 to keep watch over the Empire's
-movements![end]T</data>
+movements![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xda</ref>
         </refs>
         <data>Taicho: Agreed! I want as much
-information as possible![end]M</data>
+information as possible![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe8</ref>
         </refs>
         <data>Matelite: Right! Let's send a spy into
-the Empire![end]H</data>
+the Empire![end]</data>
     </text>
     <text>
         <refs>
@@ -49,7 +49,7 @@ the Empire![end]H</data>
 
 
 I'll bring back some good spies who
-won't mind dying![end]D</data>
+won't mind dying![end]</data>
     </text>
     <text>
         <refs>
@@ -57,20 +57,20 @@ won't mind dying![end]D</data>
         </refs>
         <data>Donfan: Donfan, at your service!
 If it's information about girls you need,
-leave it to me![end]I</data>
+leave it to me![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1a4</ref>
         </refs>
         <data>I'm just an ordinary crew member...
-I'm scared.[end]S</data>
+I'm scared.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1cb</ref>
         </refs>
-        <data>Sendak: ...Me?[end]M</data>
+        <data>Sendak: ...Me?[end]</data>
     </text>
     <text>
         <refs>
@@ -79,7 +79,7 @@ I'm scared.[end]S</data>
         <data>Matelite: This will be a perilous and
 possibly fatal mission!
 
-So you get to choose, [character][0x1]![end]L</data>
+So you get to choose, [character][0x1]![end]</data>
     </text>
     <text>
         <refs>
@@ -87,7 +87,7 @@ So you get to choose, [character][0x1]![end]L</data>
         </refs>
         <data>Ladies and gentleman, you're our spy
 candidates!! If you're going to feel
-bitter, do so to [character][0x1]![end]M</data>
+bitter, do so to [character][0x1]![end]</data>
     </text>
     <text>
         <refs>
@@ -96,13 +96,13 @@ bitter, do so to [character][0x1]![end]M</data>
         <data>Matelite: !!!
 
 
-What?![end]W</data>
+What?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x14e4</ref>
         </refs>
-        <data>Wait...!![end][0x0]</data>
+        <data>Wait...!![end]</data>
     </text>
     <text>
         <refs>
@@ -110,7 +110,7 @@ What?![end]W</data>
         </refs>
         <data>  Ask Donfan
   Ask crew member
-  Ask somebody else [0x28]to next page[0x29][end1] </data>
+  Ask somebody else [0x28]to next page[0x29][end1]</data>
     </text>
     <text>
         <refs>
@@ -118,7 +118,7 @@ What?![end]W</data>
         </refs>
         <data>  Ask Sendak
   Matelite, you go!
-  Previous people [0x28]to previous page[0x29][end1]D</data>
+  Previous people [0x28]to previous page[0x29][end1]</data>
     </text>
     <text>
         <refs>
@@ -131,7 +131,7 @@ I, Donfan, shall steal the hearts of
 100 girls of the Empire.
 
 Such is the way of the world...
-I shall return.[end]S</data>
+I shall return.[end]</data>
     </text>
     <text>
         <refs>
@@ -140,40 +140,40 @@ I shall return.[end]S</data>
         <data>Sendak: You chose me, [character][0x1]...
 Should I be happy?
 Should I be sad?
-I am not really sure...[end]M</data>
+I am not really sure...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2b1</ref>
         </refs>
-        <data>Matelite: Bwahaha!![end]I</data>
+        <data>Matelite: Bwahaha!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2c8</ref>
         </refs>
         <data>I can't go, I'm too famous!
-Taicho, you can be the spy![end]T</data>
+Taicho, you can be the spy![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2d9</ref>
         </refs>
-        <data>Taicho: !!![end]T</data>
+        <data>Taicho: !!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3c7</ref>
         </refs>
         <data>The perilous mission was a complete
-success.[end]T</data>
+success.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3e4</ref>
         </refs>
         <data>The mission ended in failure and the
-crew member returned...[end]M</data>
+crew member returned...[end]</data>
     </text>
     <text>
         <refs>
@@ -183,13 +183,13 @@ crew member returned...[end]M</data>
             <ref>0x4f1</ref>
             <ref>0x6fc</ref>
         </refs>
-        <data>Matelite: Report![end]T</data>
+        <data>Matelite: Report![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4ff</ref>
         </refs>
-        <data>The end of the crew member...[end]M</data>
+        <data>The end of the crew member...[end]</data>
     </text>
     <text>
         <refs>
@@ -198,14 +198,14 @@ crew member returned...[end]M</data>
         <data>Matelite: Understood! If we can put all
 the spy information together...
 
-Sendak, please repeat the story![end]T</data>
+Sendak, please repeat the story![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x54d</ref>
         </refs>
         <data>There is still something I do not
-understand...[end]S</data>
+understand...[end]</data>
     </text>
     <text>
         <refs>
@@ -219,7 +219,7 @@ Afterwards, Emperor Sauzer became
 ill and unable to move...
 
 But, once he becomes better, he will
-definitely seek out the Holy Dragons![end]W</data>
+definitely seek out the Holy Dragons![end]</data>
     </text>
     <text>
         <refs>
@@ -227,26 +227,26 @@ definitely seek out the Holy Dragons![end]W</data>
             <ref>0x76d</ref>
         </refs>
         <data>We must search for the Holy Dragons
-quickly!![end]M</data>
+quickly!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x595</ref>
             <ref>0x95f</ref>
         </refs>
-        <data>Matelite: Yes! In one word... please![end]T</data>
+        <data>Matelite: Yes! In one word... please![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc21</ref>
         </refs>
-        <data>That night...[end][0x0]</data>
+        <data>That night...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x77f</ref>
         </refs>
-        <data>But, wait... there's more.[end][0xef]</data>
+        <data>But, wait... there's more.[end]</data>
     </text>
     <text>
         <refs>
@@ -260,7 +260,7 @@ The Empire is in chaos. But if you look
 at it the other way, we too are
 suffering.
 But we have made it this far! We must
-not give up now![end]T</data>
+not give up now![end]</data>
     </text>
     <text>
         <refs>
@@ -271,7 +271,7 @@ not give up now![end]T</data>
         <data>Taicho: Sauzer somehow found a way
 to read the minds of the Holy Dragons!
 Something is going on...
-That is all I know!![end]M</data>
+That is all I know!![end]</data>
     </text>
     <text>
         <refs>
@@ -280,7 +280,7 @@ That is all I know!![end]M</data>
         </refs>
         <data>Matelite: We're going to find the Holy
 Dragons before Sauzer and revive
-Kahna![end]I</data>
+Kahna![end]</data>
     </text>
     <text>
         <refs>
@@ -288,7 +288,7 @@ Kahna![end]I</data>
         </refs>
         <data>It looks like [character][0x1] has arrived...
 Granbelos Empire's secret weapon...
-There's a sky monster here![end][character][0x1]</data>
+There's a sky monster here![end]</data>
     </text>
     <text>
         <refs>
@@ -296,7 +296,7 @@ There's a sky monster here![end][character][0x1]</data>
         </refs>
         <data>[character][0x1]!! Jump down! It's not that
 far. From that distance you could
-probably even feed the dragons...[end]S</data>
+probably even feed the dragons...[end]</data>
     </text>
     <text>
         <refs>
@@ -307,7 +307,7 @@ in chaos. First I listened to the speech.
 
 At the speech podium was General
 Palpaleos... Emperor Sauzer was not to
-be found.[end]G</data>
+be found.[end]</data>
     </text>
     <text>
         <refs>
@@ -317,7 +317,7 @@ be found.[end]G</data>
 without confidence... The other
 generals seemed strange too...
 But...!! If General Palpaleos's speech
-is true, we're in trouble...!![end]I</data>
+is true, we're in trouble...!![end]</data>
     </text>
     <text>
         <refs>
@@ -328,7 +328,7 @@ My mind was screaming...
 
 It said, [0x24][character][0x1]... I'm sorry...
 Please forgive me for dying unhappily
-before you...[0x22][end]S</data>
+before you...[0x22][end]</data>
     </text>
     <text>
         <refs>
@@ -339,7 +339,7 @@ getting along... Is it because of our
 resistance...?
 Is it because Sauzer fell ill...?
 Is it all because of the power of the
-Holy Dragons...?[end]T</data>
+Holy Dragons...?[end]</data>
     </text>
     <text>
         <refs>
@@ -348,7 +348,7 @@ Holy Dragons...?[end]T</data>
         <data>That is all that I saw... But now it is
 clear that we must search for the Holy
 Dragons before Sauzer recovers!
-Right, [character][0x1]?![end]M</data>
+Right, [character][0x1]?![end]</data>
     </text>
     <text>
         <refs>
@@ -357,13 +357,13 @@ Right, [character][0x1]?![end]M</data>
         </refs>
         <data>Matelite: Okay, I got it... Let's go over
 it one more time! Sendak, please repeat
-the story![end]T</data>
+the story![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x815</ref>
         </refs>
-        <data>Taicho: Matelite!! I have returned![end]T</data>
+        <data>Taicho: Matelite!! I have returned![end]</data>
     </text>
     <text>
         <refs>
@@ -371,7 +371,7 @@ the story![end]T</data>
         </refs>
         <data>Taicho: Here is a present! It should be
 useful for work on your autographed
-armor!![end]N</data>
+armor!![end]</data>
     </text>
     <text>
         <refs>
@@ -379,7 +379,7 @@ armor!![end]N</data>
         </refs>
         <data>No [0x24]welcome back[0x22]...
 No [0x24]thank you[0x22]...
-Nothing at all...[end]T</data>
+Nothing at all...[end]</data>
     </text>
     <text>
         <refs>
@@ -388,7 +388,7 @@ Nothing at all...[end]T</data>
         <data>Taicho: ......
 
 
-The Empire was in complete disarray![end]I</data>
+The Empire was in complete disarray![end]</data>
     </text>
     <text>
         <refs>
@@ -405,7 +405,7 @@ Granbelos generals who was delighted
 that Sauzer was sick!
 The general on the right named Gudolf
 was very strange! Gudolf is Lestat's
-superior officer...[end]T</data>
+superior officer...[end]</data>
     </text>
     <text>
         <refs>
@@ -414,14 +414,14 @@ superior officer...[end]T</data>
         <data>Taicho: Sauzer read the minds of a
 Holy Dragon! Just as [character][0x1] did!
 Do you remember what Sauzer said?
-It was like this...[end]S</data>
+It was like this...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa47</ref>
         </refs>
         <data>Such was my mission...
-My first girl was...[end][0x0]</data>
+My first girl was...[end]</data>
     </text>
     <text>
         <refs>
@@ -429,7 +429,7 @@ My first girl was...[end][0x0]</data>
         </refs>
         <data>Sauzer: I can become the man of
 legend without borrowing the princess's
-power![end]A</data>
+power![end]</data>
     </text>
     <text>
         <refs>
@@ -437,7 +437,7 @@ power![end]A</data>
         </refs>
         <data>Afterwards, I continued my spying!
 I snuck into Granbelos Castle and
-searched for Lestat![end]I</data>
+searched for Lestat![end]</data>
     </text>
     <text>
         <refs>
@@ -447,7 +447,7 @@ searched for Lestat![end]I</data>
 generals... All I could do was hide.
 I will get even on the battlefield!
 I want to get back at them, together
-with you, Matelite![end]T</data>
+with you, Matelite![end]</data>
     </text>
     <text>
         <refs>
@@ -456,14 +456,14 @@ with you, Matelite![end]T</data>
         <data>That is all! That is the end of my
 report!!
 
-......[end]D</data>
+......[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9f8</ref>
         </refs>
         <data>Donfan: I, Donfan, the spectacular spy,
-have returned unharmed![end]D</data>
+have returned unharmed![end]</data>
     </text>
     <text>
         <refs>
@@ -476,7 +476,7 @@ But when a female soldier is separated,
 she becomes a single girl...
 
 I used my kind words to bring you this
-information.[end]O</data>
+information.[end]</data>
     </text>
     <text>
         <refs>
@@ -486,14 +486,14 @@ information.[end]O</data>
 
 
 Yes... Short-lived loves with this
-fabulous spy...[end]D</data>
+fabulous spy...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa5c</ref>
             <ref>0xa7e</ref>
         </refs>
-        <data>Donfan: Heh... a good girl...[end]T</data>
+        <data>Donfan: Heh... a good girl...[end]</data>
     </text>
     <text>
         <refs>
@@ -506,7 +506,7 @@ Heh, a spy's dangerous activities must
 go smoothly... they must go delicately...
 Like how one must treat a girl.
 It was a simple task for a fellow such
-as myself...[end]W</data>
+as myself...[end]</data>
     </text>
     <text>
         <refs>
@@ -520,14 +520,14 @@ dreamy spy?
 
 Oh... I didn't even tell you my name.
 But I stole excellent information from
-you...[end]I</data>
+you...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa99</ref>
         </refs>
         <data>If you must know why, it is because
-love is top secret![end]S</data>
+love is top secret![end]</data>
     </text>
     <text>
         <refs>
@@ -536,14 +536,14 @@ love is top secret![end]S</data>
         <data>Such is the way of the world...!!
 
 
-I must be going now![end]T</data>
+I must be going now![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc2c</ref>
         </refs>
         <data>Taicho: I am excited... [character][0x1]...
-You go ahead...[end]T</data>
+You go ahead...[end]</data>
     </text>
     <text>
         <refs>
@@ -552,7 +552,7 @@ You go ahead...[end]T</data>
         <data>Taicho: Actually... there still is some
 information I am hiding... It is not
 something I can say to everybody.
-But I cannot say it alone either...[end]T</data>
+But I cannot say it alone either...[end]</data>
     </text>
     <text>
         <refs>
@@ -561,46 +561,46 @@ But I cannot say it alone either...[end]T</data>
         <data>Tonight... I want you to come with me
 to [character][0x1]'s room.
 
-It is a secret mission. Come alone.[end]T</data>
+It is a secret mission. Come alone.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf20</ref>
         </refs>
         <data>Taicho: Please wake [character][0x1] up...
-Do it softly and gently...[end]T</data>
+Do it softly and gently...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf2b</ref>
         </refs>
         <data>Taicho: The life of a spy is very
-difficult...[end]D</data>
+difficult...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf44</ref>
         </refs>
-        <data>Don't leave me alone...[end][character][0x1]</data>
+        <data>Don't leave me alone...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf61</ref>
             <ref>0xf7c</ref>
         </refs>
-        <data>[character][0x1]: Eek! [character][0x1]!![end]I</data>
+        <data>[character][0x1]: Eek! [character][0x1]!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf9b</ref>
         </refs>
-        <data>I'm sorry, but... at this time of night...[end]N</data>
+        <data>I'm sorry, but... at this time of night...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfb2</ref>
         </refs>
-        <data>No!! Get out![end]H</data>
+        <data>No!! Get out![end]</data>
     </text>
     <text>
         <refs>
@@ -610,7 +610,7 @@ difficult...[end]D</data>
 the closest spot in [character][0x1] to
 the sky...
 Look, the sky is almost within arm's
-reach...[end]H</data>
+reach...[end]</data>
     </text>
     <text>
         <refs>
@@ -621,21 +621,21 @@ Do you ever remember things when
 you look at the night sky?
 A bunch of things...
 When... I'm lonely...
-I always look at the sky...[end]T</data>
+I always look at the sky...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1005</ref>
         </refs>
         <data>The truth is... I wish we could see it
-from closer up...[end]H</data>
+from closer up...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1021</ref>
         </refs>
         <data>Hey, [character][0x1]. What will happen to
-us? From now on...[end]W</data>
+us? From now on...[end]</data>
     </text>
     <text>
         <refs>
@@ -648,27 +648,27 @@ Fighting... Worrying...
 
 
 Like back then when we didn't
-know anything...[end]I</data>
+know anything...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x105c</ref>
         </refs>
-        <data>It smells nice...[end][character][0x1]</data>
+        <data>It smells nice...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1066</ref>
         </refs>
         <data>[character][0x1]: [character][0x1]. Come stand
-next to me...[end]H</data>
+next to me...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x106d</ref>
         </refs>
         <data>Hornet: Go quickly! I'll look the other
-way just this time.[end]D</data>
+way just this time.[end]</data>
     </text>
     <text>
         <refs>
@@ -678,20 +678,20 @@ way just this time.[end]D</data>
 weapon is amazing!
 
 You can only get inside using a dragon
-to attack.[end]D</data>
+to attack.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1078</ref>
         </refs>
-        <data>Do you want to go back inside?[end] </data>
+        <data>Do you want to go back inside?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x107c</ref>
         </refs>
         <data>  Yep.
-  Nah, I changed my mind.[end1]I</data>
+  Nah, I changed my mind.[end1]</data>
     </text>
     <text>
         <refs>
@@ -700,7 +700,7 @@ to attack.[end]D</data>
         <data>I need to give the dragons a good
 bath afterwards...
 
-They're really starting to get ripe...[end]W</data>
+They're really starting to get ripe...[end]</data>
     </text>
     <text>
         <refs>
@@ -709,7 +709,7 @@ They're really starting to get ripe...[end]W</data>
         <data>We're going to break into the enemy's
 secret weapon on our dragons. It
 might be a little dangerous.
-Should we go now?[end] </data>
+Should we go now?[end]</data>
     </text>
     <text>
         <refs>
@@ -718,33 +718,33 @@ Should we go now?[end] </data>
         </refs>
         <data>  Feed
   Let's go!!
-  Wait[end1]Y</data>
+  Wait[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x12ea</ref>
         </refs>
-        <data>You got a [0x24]Princess's ???[0x22]!![end]T</data>
+        <data>You got a [0x24]Princess's ???[0x22]!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1337</ref>
         </refs>
         <data>Taicho: Her eyes... so soft...
-Did you not see them?[end]T</data>
+Did you not see them?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x134a</ref>
         </refs>
         <data>Taicho: Please refrain from telling
-anyone... I will leave.[end]T</data>
+anyone... I will leave.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1354</ref>
         </refs>
-        <data>Taicho: How was it? Please go next...[end]W</data>
+        <data>Taicho: How was it? Please go next...[end]</data>
     </text>
     <text>
         <refs>
@@ -755,7 +755,7 @@ anyone... I will leave.[end]T</data>
 
 [character][0x1]...
 If we can see the sky...
-Let's go to the terrace.[end]T</data>
+Let's go to the terrace.[end]</data>
     </text>
     <text>
         <refs>
@@ -765,7 +765,7 @@ Let's go to the terrace.[end]T</data>
 to disturb you, but... I have something
 to tell you!
 I made a man-to-man promise at
-Granbelos Castle...[end]I</data>
+Granbelos Castle...[end]</data>
     </text>
     <text>
         <refs>
@@ -774,7 +774,7 @@ Granbelos Castle...[end]I</data>
         <data>I was hiding some... information for
 [character][0x1]...
 
-I will let you hear it, [character][0x1]...[end]A</data>
+I will let you hear it, [character][0x1]...[end]</data>
     </text>
     <text>
         <refs>

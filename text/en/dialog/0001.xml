@@ -4,20 +4,20 @@
         <refs>
             <ref>0x9c</ref>
         </refs>
-        <data> Several years after the horrible war...[0xfc][0x1][end1] </data>
+        <data> Several years after the horrible war...[0xfc][0x1][end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xae</ref>
         </refs>
         <data>     Lagoon of the Forgotten Region
-              Island of Tedd[0xfc][0x1][end1] </data>
+              Island of Tedd[0xfc][0x1][end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xea</ref>
         </refs>
-        <data>            On this island...[0xfc][0x1][end1]A</data>
+        <data>            On this island...[0xfc][0x1][end1]</data>
     </text>
     <text>
         <refs>
@@ -25,77 +25,77 @@
         </refs>
         <data>A resistance movement opposing the
 Empire began to form, comprised of
-surviving knights of Kahna.[0xfc][0x1][end1]Z</data>
+surviving knights of Kahna.[0xfc][0x1][end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x101</ref>
         </refs>
-        <data>Zora: Finally...[end]L</data>
+        <data>Zora: Finally...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x111</ref>
         </refs>
-        <data>Lukia: He's come back...[end] </data>
+        <data>Lukia: He's come back...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x132</ref>
         </refs>
         <data>               Chapter 1
-             The Beginning[end]M</data>
+             The Beginning[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x20a</ref>
         </refs>
-        <data>Melodia: [character][0x1]!![end][character][0x1]</data>
+        <data>Melodia: [character][0x1]!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x218</ref>
         </refs>
-        <data>[character][0x1]!![end]B</data>
+        <data>[character][0x1]!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x346</ref>
         </refs>
-        <data>Bikkebakke: .........[end][character][0x1]</data>
+        <data>Bikkebakke: .........[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x373</ref>
         </refs>
-        <data>[character][0x1]'s back!![end]Z</data>
+        <data>[character][0x1]'s back!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3a5</ref>
         </refs>
-        <data>Zora: [character][0x1]'s back!![end] </data>
+        <data>Zora: [character][0x1]'s back!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3c5</ref>
         </refs>
         <data>   Captain of the Knights of Mahal
-                 Taicho[end]T</data>
+                 Taicho[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3db</ref>
         </refs>
         <data>Taicho: [character][0x1]!!
-It is I, Taicho of the Mahal Knights![end] </data>
+It is I, Taicho of the Mahal Knights![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3eb</ref>
         </refs>
         <data>      Master Summoner, Single
-                Sendak[end]S</data>
+                Sendak[end]</data>
     </text>
     <text>
         <refs>
@@ -103,7 +103,7 @@ It is I, Taicho of the Mahal Knights![end] </data>
         </refs>
         <data>Sendak: So you are back, [character][0x1]?
 There are a great many things to
-discuss.[end] </data>
+discuss.[end]</data>
     </text>
     <text>
         <refs>
@@ -111,21 +111,21 @@ discuss.[end] </data>
         </refs>
         <data>            Knight of Kahna
           Virgo [0x2f] Blood Type O
-                Matelite[end]M</data>
+                Matelite[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x432</ref>
         </refs>
         <data>Matelite: [0x2a]Yawn[0x2a]
-Ahhh, what a nice nap![end]Z</data>
+Ahhh, what a nice nap![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x46b</ref>
         </refs>
         <data>Zora: Hey! Hurry up and get [character][0x1]
-out here!![end]T</data>
+out here!![end]</data>
     </text>
     <text>
         <refs>
@@ -133,7 +133,7 @@ out here!![end]T</data>
         </refs>
         <data>Truce: Alright, everybody! Saddle up!
 Our plan to save Princess [character][0x1]
-starts now!![end] </data>
+starts now!![end]</data>
     </text>
     <text>
         <refs>
@@ -146,7 +146,7 @@ starts now!![end] </data>
     Where are you traveling to now?
 
     Several winters have passed since
-    the war...[end] </data>
+    the war...[end]</data>
     </text>
     <text>
         <refs>
@@ -162,7 +162,7 @@ starts now!![end] </data>
     per the deceased king's final wish
     is but only a name.
     Without you, [character][0x1], everyone
-    seems saddened.[end] </data>
+    seems saddened.[end]</data>
     </text>
     <text>
         <refs>
@@ -176,7 +176,7 @@ starts now!![end] </data>
 
     Well, that is all. Please take care
     of yourself.
-                        From Sendak[end]R</data>
+                        From Sendak[end]</data>
     </text>
     <text>
         <refs>
@@ -187,7 +187,7 @@ It's not like we'll never see them again.
 
 You're the one who decided to do
 this, [character][0x1]! You were the one who
-said to revive Kahna's Dragon Squad.[end]T</data>
+said to revive Kahna's Dragon Squad.[end]</data>
     </text>
     <text>
         <refs>
@@ -195,7 +195,7 @@ said to revive Kahna's Dragon Squad.[end]T</data>
         </refs>
         <data>Truce: So first we have to find all the
 dragons that escaped. Then we
-take back our ship, Kahna's flagship![end]B</data>
+take back our ship, Kahna's flagship![end]</data>
     </text>
     <text>
         <refs>
@@ -203,38 +203,38 @@ take back our ship, Kahna's flagship![end]B</data>
         </refs>
         <data>Bikkebakke: This time we'll take good
 care of them and raise them to be the
-most powerful attack dragons![end]R</data>
+most powerful attack dragons![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8aa</ref>
         </refs>
-        <data>Rush: Let's go!![end]L</data>
+        <data>Rush: Let's go!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8e2</ref>
         </refs>
-        <data>Lukia: It'll be lonely without you...[end]Z</data>
+        <data>Lukia: It'll be lonely without you...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8ef</ref>
         </refs>
-        <data>Zora: Take care...[end]M</data>
+        <data>Zora: Take care...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8fd</ref>
         </refs>
         <data>Melodia, aren't you going to say
-anything? [character][0x1]'s leaving![end]S</data>
+anything? [character][0x1]'s leaving![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x915</ref>
         </refs>
-        <data>Sendak: I... I...[end]M</data>
+        <data>Sendak: I... I...[end]</data>
     </text>
     <text>
         <refs>
@@ -242,20 +242,20 @@ anything? [character][0x1]'s leaving![end]S</data>
         </refs>
         <data>Matelite: [character][0x1]!! Come back soon!
 Come back while [character][0x1]'s still
-safe![end]G</data>
+safe![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9b3</ref>
         </refs>
-        <data>Give this dragon a name.[end]M</data>
+        <data>Give this dragon a name.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb69</ref>
         </refs>
         <data>Matelite: [character][0x1]... Even with all
-these memories of you it still hurts...[end]M</data>
+these memories of you it still hurts...[end]</data>
     </text>
     <text>
         <refs>
@@ -263,7 +263,7 @@ these memories of you it still hurts...[end]M</data>
         </refs>
         <data>Matelite: [character][0x1]... You have
 memories of [character][0x1] too, don't
-you?[end] </data>
+you?[end]</data>
     </text>
     <text>
         <refs>
@@ -271,28 +271,28 @@ you?[end] </data>
             <ref>0xb79</ref>
         </refs>
         <data>  Yes
-  No[end1]W</data>
+  No[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xb86</ref>
         </refs>
         <data>With that lovely face of hers...
-Such nice memories...[end]O</data>
+Such nice memories...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb8e</ref>
         </refs>
         <data>Oh... Well I can't share my memories
-with you...[end][character][0x1]</data>
+with you...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb9a</ref>
         </refs>
         <data>[character][0x1]. I want to go rescue her
-this very minute...[end]S</data>
+this very minute...[end]</data>
     </text>
     <text>
         <refs>
@@ -302,14 +302,14 @@ this very minute...[end]S</data>
 It looks like you found all the dragons.
 
 By the way, do you remember the day
-you left?[end] </data>
+you left?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xbf0</ref>
         </refs>
         <data>  I forget. Tell me about it.
-  I don't want to remember.[end1]O</data>
+  I don't want to remember.[end1]</data>
     </text>
     <text>
         <refs>
@@ -317,7 +317,7 @@ you left?[end] </data>
         </refs>
         <data>Oh, [character][0x1]...
 We're going into battle.
-Let's go, let's go![end]S</data>
+Let's go, let's go![end]</data>
     </text>
     <text>
         <refs>
@@ -325,14 +325,14 @@ Let's go, let's go![end]S</data>
         </refs>
         <data>Sendak: Ever since then...
 You seem all grown up...
-Even I am not used to the new you...[end]T</data>
+Even I am not used to the new you...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc6d</ref>
         </refs>
         <data>Taicho: Do they bite? They look sort of
-scary.[end]T</data>
+scary.[end]</data>
     </text>
     <text>
         <refs>
@@ -342,14 +342,14 @@ scary.[end]T</data>
 really make you that happy? You are
 even crying!!
 I am scared to death of them. One of
-them licked my beard![end]R</data>
+them licked my beard![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xca5</ref>
         </refs>
         <data>Rush: You haven't forgotten our plan,
-have you?[end]F</data>
+have you?[end]</data>
     </text>
     <text>
         <refs>
@@ -357,7 +357,7 @@ have you?[end]F</data>
         </refs>
         <data>First we need to take back Kahna's
 flagship before we can save Princess
-[character][0x1]. Let's hurry![end]Y</data>
+[character][0x1]. Let's hurry![end]</data>
     </text>
     <text>
         <refs>
@@ -369,7 +369,7 @@ starving.
 Try giving them something to eat.
 Here, I'll give you these...
 
-You received various items.[end]F</data>
+You received various items.[end]</data>
     </text>
     <text>
         <refs>
@@ -378,14 +378,14 @@ You received various items.[end]F</data>
             <ref>0xdec</ref>
             <ref>0xd26</ref>
         </refs>
-        <data>Feed this dragon.[end]G</data>
+        <data>Feed this dragon.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe0d</ref>
         </refs>
         <data>Get on [character][0x1] and we'll leave.
-Are your preparations set?[end] </data>
+Are your preparations set?[end]</data>
     </text>
     <text>
         <refs>
@@ -393,85 +393,85 @@ Are your preparations set?[end] </data>
         </refs>
         <data>  Feed
   Take off
-  Not ready[end1]S</data>
+  Not ready[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xe89</ref>
         </refs>
         <data>Sendak: [character][0x1]...
-Is it okay if I hold on tighter?[end] </data>
+Is it okay if I hold on tighter?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe8d</ref>
         </refs>
         <data>  No problem
-  Um, that's kind of awkward...[end1][character][0x1]</data>
+  Um, that's kind of awkward...[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xe98</ref>
         </refs>
         <data>[character][0x1], your back is so nice and
-warm...[end]B</data>
+warm...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xea0</ref>
         </refs>
         <data>But I will fall off...
-Let me hold on...[end]M</data>
+Let me hold on...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xee8</ref>
         </refs>
         <data>Monyo: Monyoooo!
-[0x28]Mini-Devils will fight too![0x29][end]M</data>
+[0x28]Mini-Devils will fight too![0x29][end]</data>
     </text>
     <text>
         <refs>
             <ref>0xeee</ref>
         </refs>
         <data>Manyo: Manyoooo!
-[0x28]When we die, we'll die together![0x29][end]Y</data>
+[0x28]When we die, we'll die together![0x29][end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf86</ref>
         </refs>
-        <data>You found 5 Magic Gins.[end]Y</data>
+        <data>You found 5 Magic Gins.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf9f</ref>
         </refs>
-        <data>You got a Genius Notebook.[end]Y</data>
+        <data>You got a Genius Notebook.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfb4</ref>
         </refs>
-        <data>You got some Uniuji.[end]Y</data>
+        <data>You got some Uniuji.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfc9</ref>
         </refs>
-        <data>You got a Drawer Thing.[end]Y</data>
+        <data>You got a Drawer Thing.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfde</ref>
         </refs>
-        <data>You got some Sweet Wine.[end]Y</data>
+        <data>You got some Sweet Wine.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xffa</ref>
         </refs>
-        <data>You got a Porno Mag.[end]Y</data>
+        <data>You got a Porno Mag.[end]</data>
     </text>
     <text>
         <refs>
@@ -480,7 +480,7 @@ Let me hold on...[end]M</data>
         <data>You got Matelite's Important Item.
 
 
-It's sealed tight. Will you try openingiet?[end]Y</data>
+It's sealed tight. Will you try openingiet?[end]</data>
     </text>
     <text>
         <refs>

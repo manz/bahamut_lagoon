@@ -5,7 +5,7 @@
             <ref>0x6d</ref>
         </refs>
         <data>[character][0x1]:
-... ... ... ...[0xd8][end]S</data>
+... ... ... ...[0xd8][end]</data>
     </text>
     <text>
         <refs>
@@ -13,7 +13,7 @@
         </refs>
         <data>SENDACK:
 Princesse?
-Comment faire?[end][character][0x1]</data>
+Comment faire?[end]</data>
     </text>
     <text>
         <refs>
@@ -21,7 +21,7 @@ Comment faire?[end][character][0x1]</data>
         </refs>
         <data>[character][0x1]:
 Valitra!
-Quelque chose ne va pas?![end]M</data>
+Quelque chose ne va pas?![end]</data>
     </text>
     <text>
         <refs>
@@ -29,14 +29,14 @@ Quelque chose ne va pas?![end]M</data>
         </refs>
         <data>MATELIGHT:
 Quoi?
-Quelle est notre faiblesse?[end][character][0x1]</data>
+Quelle est notre faiblesse?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x94</ref>
         </refs>
         <data>[character][0x1]:
-Je ne comprends pas...[end]S</data>
+Je ne comprends pas...[end]</data>
     </text>
     <text>
         <refs>
@@ -44,20 +44,20 @@ Je ne comprends pas...[end]S</data>
         </refs>
         <data>SENDACK:
 Tout va bien?
-Princesse?[end][character][0x1]</data>
+Princesse?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xae</ref>
         </refs>
         <data>[character][0x1]:
-Oui,Sendack,tout va bien![end]J</data>
+Oui,Sendack,tout va bien![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xba</ref>
         </refs>
-        <data>Je vais y aller...[end]D</data>
+        <data>Je vais y aller...[end]</data>
     </text>
     <text>
         <refs>
@@ -66,13 +66,13 @@ Oui,Sendack,tout va bien![end]J</data>
         <data>Dragon Sacré Garuda...
 je suis ici...
 Pour toi...
-Valitra et Léviathan sont là,en moi...[end]K</data>
+Valitra et Léviathan sont là,en moi...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x142</ref>
         </refs>
-        <data>Kyaaa[0xd8][end]S</data>
+        <data>Kyaaa[0xd8][end]</data>
     </text>
     <text>
         <refs>
@@ -80,7 +80,7 @@ Valitra et Léviathan sont là,en moi...[end]K</data>
         </refs>
         <data>SENDACK:
 Princesse!
-Tenez bon![end]M</data>
+Tenez bon![end]</data>
     </text>
     <text>
         <refs>
@@ -88,7 +88,7 @@ Tenez bon![end]M</data>
             <ref>0x1a4</ref>
         </refs>
         <data>MATELIGHT:
-Princesse [character][0x1]![end] </data>
+Princesse [character][0x1]![end]</data>
     </text>
     <text>
         <refs>
@@ -96,7 +96,7 @@ Princesse [character][0x1]![end] </data>
         </refs>
         <data>[character][0x1]:
 Garuda...
-Mais... que veut-il?![end]P</data>
+Mais... que veut-il?![end]</data>
     </text>
     <text>
         <refs>
@@ -104,14 +104,14 @@ Mais... que veut-il?![end]P</data>
         </refs>
         <data>Pourquoi est-il si furieux...?
 Qui hait-il?
-Quelle haine![end][character][0x1]</data>
+Quelle haine![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1d4</ref>
         </refs>
         <data>[character][0x1]:
-Aaaaah![end]S</data>
+Aaaaah![end]</data>
     </text>
     <text>
         <refs>
@@ -119,7 +119,7 @@ Aaaaah![end]S</data>
         </refs>
         <data>SENDACK:
 Princesse!
-Tenez bon[0xd8][end]M</data>
+Tenez bon[0xd8][end]</data>
     </text>
     <text>
         <refs>
@@ -127,13 +127,13 @@ Tenez bon[0xd8][end]M</data>
         </refs>
         <data>MATELIGHT:
 Ramenons-la immédiatement à
-FARENHEIT![end]m</data>
+FARENHEIT![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x26e</ref>
         </refs>
         <data>manyo!
-[0xa8]... ...![0xa9][end][0x0]</data>
+[0xa8]... ...![0xa9][end]</data>
     </text>
 </texts>

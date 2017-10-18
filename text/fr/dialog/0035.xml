@@ -9,14 +9,14 @@ Je crains que ce ne soit pas la bonne
 méthode.
 Nous sommes vraiment du même monde...
 Aussi persévérants les uns que les
-autres.[end]M</data>
+autres.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa4</ref>
         </refs>
         <data>MATELIGHT:
-[character][0x1]...[end]S</data>
+[character][0x1]...[end]</data>
     </text>
     <text>
         <refs>
@@ -24,28 +24,28 @@ autres.[end]M</data>
         </refs>
         <data>SENDACK:
 Comme je vous l'avais dit,il y a un
-Dragon Sacré,ici...[end]R</data>
+Dragon Sacré,ici...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xce</ref>
         </refs>
         <data>RUSH:
-L'autre type est sûrement Palpaleos![end]L</data>
+L'autre type est sûrement Palpaleos![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x124</ref>
         </refs>
         <data>LUKIA:
-Comment pourrions-nous gagner?[end]M</data>
+Comment pourrions-nous gagner?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x148</ref>
         </refs>
         <data>MATELIGHT:
-Quoi! Abandonner?![end]M</data>
+Quoi! Abandonner?![end]</data>
     </text>
     <text>
         <refs>
@@ -55,28 +55,28 @@ Quoi! Abandonner?![end]M</data>
 Tu peux répéter?!
  
 Même si je perds la vie,[character][0x1] sera
-délivrée...[end]M</data>
+délivrée...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6e3</ref>
         </refs>
         <data>LUKIA:
-[character][0x1],hâte-toi![end][character][0x1]</data>
+[character][0x1],hâte-toi![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6a6</ref>
         </refs>
         <data>[character][0x1],laisse-moi y aller!
-Courage,courage![end]C</data>
+Courage,courage![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x239</ref>
         </refs>
         <data>C'est terrible...
-Pourquoi?[end]M</data>
+Pourquoi?[end]</data>
     </text>
     <text>
         <refs>
@@ -86,7 +86,7 @@ Pourquoi?[end]M</data>
 Humpf humpf...
  
 Notre pauvre [character][0x1]...
-Ils ne veulent que son don![end]S</data>
+Ils ne veulent que son don![end]</data>
     </text>
     <text>
         <refs>
@@ -99,7 +99,7 @@ Mon dieu,vous osez me faire l'honneur
 de votre présence?!
 J'en suis honoré! Hahahahaha!
 Le pouvoir de votre Princesse vous
-intéresse également?[end]S</data>
+intéresse également?[end]</data>
     </text>
     <text>
         <refs>
@@ -108,7 +108,7 @@ intéresse également?[end]S</data>
         <data>SAUZER:
 La Princesse [character][0x1] est très importante
 à mes yeux...
-Surtout son pouvoir![end]S</data>
+Surtout son pouvoir![end]</data>
     </text>
     <text>
         <refs>
@@ -122,7 +122,7 @@ personne telle que moi daigne vous
 parler!
 J'ai beaucoup entendu parler de toi et
 de tes compagnons ces derniers temps.
-Vous m'exaspérez![end]S</data>
+Vous m'exaspérez![end]</data>
     </text>
     <text>
         <refs>
@@ -130,7 +130,7 @@ Vous m'exaspérez![end]S</data>
         </refs>
         <data>SAUZER:
 Je vous en prie,par ici,
-Princesse [character][0x1]![end]S</data>
+Princesse [character][0x1]![end]</data>
     </text>
     <text>
         <refs>
@@ -144,7 +144,7 @@ transmis le pouvoir de votre Légende.
  
 Ainsi,vous êtes l'héritière du pouvoir
 étrange permettant de contrôler les
-Dragons Sacrés![end][character][0x1]</data>
+Dragons Sacrés![end]</data>
     </text>
     <text>
         <refs>
@@ -153,7 +153,7 @@ Dragons Sacrés![end][character][0x1]</data>
         <data>[character][0x1]:
 Toutefois,je ne comprends pas le sens
 de la Légende!
-Elle est si ancienne...[end]P</data>
+Elle est si ancienne...[end]</data>
     </text>
     <text>
         <refs>
@@ -163,14 +163,14 @@ Elle est si ancienne...[end]P</data>
 Princesse [character][0x1],n'ayez crainte!
 Je vous le promets!
 Nous connaîtrons le coeur des Dragons
-Sacrés.[end][character][0x1]</data>
+Sacrés.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4ad</ref>
         </refs>
         <data>[character][0x1]:
-Général Palpaleos...[end]M</data>
+Général Palpaleos...[end]</data>
     </text>
     <text>
         <refs>
@@ -180,14 +180,14 @@ Général Palpaleos...[end]M</data>
 [character][0x1],fuyez!
  
 Le Roi de Kana vous a légué un
-pouvoir trop important![end][character][0x1]</data>
+pouvoir trop important![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x510</ref>
         </refs>
         <data>[character][0x1]:
-Matelight...[end][character][0x1]</data>
+Matelight...[end]</data>
     </text>
     <text>
         <refs>
@@ -195,7 +195,7 @@ Matelight...[end][character][0x1]</data>
         </refs>
         <data>[character][0x1]:
 C'est inutile,Empereur Sauzer!
-Je n'y parviens pas...[end]S</data>
+Je n'y parviens pas...[end]</data>
     </text>
     <text>
         <refs>
@@ -203,7 +203,7 @@ Je n'y parviens pas...[end]S</data>
         </refs>
         <data>SAUZER:
 Je vois,en effet...
-Inutile de me le dire...[end]S</data>
+Inutile de me le dire...[end]</data>
     </text>
     <text>
         <refs>
@@ -212,7 +212,7 @@ Inutile de me le dire...[end]S</data>
         <data>SAUZER:
 Sachez toutefois,Princesse,que c'est
 aujourd'hui que je deviendrai l'homme
-légendaire même sans votre pouvoir![end]S</data>
+légendaire même sans votre pouvoir![end]</data>
     </text>
     <text>
         <refs>
@@ -222,7 +222,7 @@ légendaire même sans votre pouvoir![end]S</data>
 Soyez heureuse!
  
 Rejoignez vos amis,cette bande de
-rebelles![end]S</data>
+rebelles![end]</data>
     </text>
     <text>
         <refs>
@@ -231,14 +231,14 @@ rebelles![end]S</data>
         <data>SAUZER:
 J'ouvrirai moi-même la Porte de la
 Nouvelle Ere!
-C'est regrettable pour vous![end]P</data>
+C'est regrettable pour vous![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5b5</ref>
         </refs>
         <data>PALPALEOS:
-Arrêtez![end]M</data>
+Arrêtez![end]</data>
     </text>
     <text>
         <refs>
@@ -252,49 +252,49 @@ Arrêtez![end]M</data>
             <ref>0x63d</ref>
         </refs>
         <data>SENDACK:
-La Princesse...[end]L</data>
+La Princesse...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x79f</ref>
         </refs>
         <data>LUKIA:
-Quel machiavélisme![end]C</data>
+Quel machiavélisme![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xbe</ref>
         </refs>
         <data>COMMANDANT:
-Cet Empereur Sauzer...[end]M</data>
+Cet Empereur Sauzer...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x168</ref>
         </refs>
         <data>MATELIGHT:
-Attendez une minute![end]M</data>
+Attendez une minute![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x177</ref>
         </refs>
         <data>MATELIGHT:
-Sendack,quelque chose ne va pas?[end]S</data>
+Sendack,quelque chose ne va pas?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x185</ref>
         </refs>
         <data>SENDACK:
-Je n'en sais rien...[end]S</data>
+Je n'en sais rien...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x196</ref>
         </refs>
         <data>SENDACK:
-Je réfléchissais...[end]S</data>
+Je réfléchissais...[end]</data>
     </text>
     <text>
         <refs>
@@ -306,7 +306,7 @@ Sauzer avait emmené la Princesse!
 Mais à quelle fin?
 Il l'a maintenant emmenée devant le
 Dragon Sacré...
-Essaierait-il de le réveiller?[end]T</data>
+Essaierait-il de le réveiller?[end]</data>
     </text>
     <text>
         <refs>
@@ -316,7 +316,7 @@ Essaierait-il de le réveiller?[end]T</data>
 Je comprends ce que tu veux dire...
 [character][0x1] est la fille du Roi de Kana et
 elle a donc les mêmes pouvoirs que
-père.[end]R</data>
+père.[end]</data>
     </text>
     <text>
         <refs>
@@ -324,14 +324,14 @@ père.[end]R</data>
         </refs>
         <data>RUSH:
 [character][0x1] est capable de parler au Dragon
-Sacré![end]S</data>
+Sacré![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1d4</ref>
         </refs>
         <data>SENDACK:
-Quel désastre![end]S</data>
+Quel désastre![end]</data>
     </text>
     <text>
         <refs>
@@ -339,7 +339,7 @@ Quel désastre![end]S</data>
         </refs>
         <data>SENDACK:
 Et si Sauzer avait la force de parvenir
-à ses fins...[end]M</data>
+à ses fins...[end]</data>
     </text>
     <text>
         <refs>
@@ -347,7 +347,7 @@ Et si Sauzer avait la force de parvenir
         </refs>
         <data>MATELIGHT:
 Ne vous inquiétez pas!
-Tout ira pour le mieux![end]M</data>
+Tout ira pour le mieux![end]</data>
     </text>
     <text>
         <refs>
@@ -357,7 +357,7 @@ Tout ira pour le mieux![end]M</data>
 Sendack,ne t'inquiète plus!
 [character][0x1] nous reviendra bientôt!
 Sauzer n'a pas tout planifié car la
-Rebellion arrive![end]M</data>
+Rebellion arrive![end]</data>
     </text>
     <text>
         <refs>
@@ -367,21 +367,21 @@ Rebellion arrive![end]M</data>
 Allons combattre!
  
 Maintenant,je n'écoute plus les
-inepties de Sendack.[end]S</data>
+inepties de Sendack.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2b5</ref>
         </refs>
         <data>SENDACK:
-[character][0x1]...[end]R</data>
+[character][0x1]...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x25c</ref>
         </refs>
         <data>RUSH:
-Allons droit au but![end]T</data>
+Allons droit au but![end]</data>
     </text>
     <text>
         <refs>
@@ -389,14 +389,14 @@ Allons droit au but![end]T</data>
         </refs>
         <data>TAURUS:
 Une personne est à délivrer,
-hâtons-nous![end]S</data>
+hâtons-nous![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x64b</ref>
         </refs>
         <data>SENDACK:
-Tout le monde a compris![end]S</data>
+Tout le monde a compris![end]</data>
     </text>
     <text>
         <refs>
@@ -411,7 +411,7 @@ Mais quel est son but?
 Sauzer... l'Empereur de Granbelos!
 Sauzer... l'Empereur qui contrôle
 Orelus!
-Jusqu'où veut-il aller?[end]M</data>
+Jusqu'où veut-il aller?[end]</data>
     </text>
     <text>
         <refs>
@@ -421,7 +421,7 @@ Jusqu'où veut-il aller?[end]M</data>
 Sendack,ne t'éternise pas!
  
 Même si tu n'es plus très jeune,tu
-peux te dépêcher quand même![end]C</data>
+peux te dépêcher quand même![end]</data>
     </text>
     <text>
         <refs>

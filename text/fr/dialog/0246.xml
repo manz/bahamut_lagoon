@@ -4,34 +4,34 @@
         <refs>
             <ref>0x159</ref>
         </refs>
-        <data>           Don Juan![end1]D</data>
+        <data>           Don Juan![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x1ab</ref>
         </refs>
         <data>DON JUAN:
-Qu'est-ce qui ne va pas,Lukia?[end]L</data>
+Qu'est-ce qui ne va pas,Lukia?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1b7</ref>
         </refs>
         <data>LUKIA:
-Je me suis enfin décidée![end]D</data>
+Je me suis enfin décidée![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1d0</ref>
         </refs>
         <data>DON JUAN:
-Tu t'es décidée?![end]P</data>
+Tu t'es décidée?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1ea</ref>
         </refs>
-        <data>Pour le nouveau Roi de Mahal?![end]L</data>
+        <data>Pour le nouveau Roi de Mahal?![end]</data>
     </text>
     <text>
         <refs>
@@ -39,7 +39,7 @@ Tu t'es décidée?![end]P</data>
         </refs>
         <data>LUKIA:
 Oh!
-Ecoute,tu as l'air surpris![end]D</data>
+Ecoute,tu as l'air surpris![end]</data>
     </text>
     <text>
         <refs>
@@ -47,14 +47,14 @@ Ecoute,tu as l'air surpris![end]D</data>
         </refs>
         <data>DON JUAN:
 Qui... moi...?
-Jamais... jamais...[end]J</data>
+Jamais... jamais...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x20a</ref>
         </refs>
         <data>Je ne suis que Don Juan le Na[0x25]f et
-Fidèle Serviteur,non?![end]L</data>
+Fidèle Serviteur,non?![end]</data>
     </text>
     <text>
         <refs>
@@ -65,14 +65,14 @@ Tu te trompes Don Juan!
  
 En ce qui concerne le futur Roi de ce
 pays,je crois que Commandant sera le
-plus apte.[end]D</data>
+plus apte.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x255</ref>
         </refs>
         <data>DON JUAN:
-Est-ce vrai?![end] </data>
+Est-ce vrai?![end]</data>
     </text>
     <text>
         <refs>
@@ -81,7 +81,7 @@ Est-ce vrai?![end] </data>
         <data>LUKIA:
 Héhéhéhéhé!
 Il finira par accepter face au pouvoir
-dissuasif de Sergent![end]D</data>
+dissuasif de Sergent![end]</data>
     </text>
     <text>
         <refs>
@@ -91,7 +91,7 @@ dissuasif de Sergent![end]D</data>
 Hahahahaha!
  
 Il semble que Commandant ne pourra
-rien refuser![end]L</data>
+rien refuser![end]</data>
     </text>
     <text>
         <refs>
@@ -99,14 +99,14 @@ rien refuser![end]L</data>
         </refs>
         <data>LUKIA:
 Allons au Palais de Mahal!
-Jeanne nous y attend![end]D</data>
+Jeanne nous y attend![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x28d</ref>
         </refs>
         <data>DON JUAN:
-Haha![end]C</data>
+Haha![end]</data>
     </text>
     <text>
         <refs>
@@ -114,7 +114,7 @@ Haha![end]C</data>
         </refs>
         <data>COMMANDANT:
 Sergent... Pourquoi serait-ce moi leur
-nouveau Roi?[end]S</data>
+nouveau Roi?[end]</data>
     </text>
     <text>
         <refs>
@@ -122,7 +122,7 @@ nouveau Roi?[end]S</data>
         </refs>
         <data>SERGENT:
 Considérez que vous êtes la seule
-personne capable d'être leur Roi![end]C</data>
+personne capable d'être leur Roi![end]</data>
     </text>
     <text>
         <refs>
@@ -133,7 +133,7 @@ Mais j'ai toujours été une personne
 se battant pour défendre Mahal pas
 pour faire de la politique.
 Cependant,je crois que je vais
-accepter la décision de notre peuple.[end]S</data>
+accepter la décision de notre peuple.[end]</data>
     </text>
     <text>
         <refs>
@@ -144,14 +144,14 @@ Que dites-vous?!
  
 Commandant!
 Sachez que malgré tout nous serons
-toujours,vous et moi,Capitaines[0xd8][end]C</data>
+toujours,vous et moi,Capitaines[0xd8][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2f1</ref>
         </refs>
         <data>COMMANDANT:
-... ... ...[end]S</data>
+... ... ...[end]</data>
     </text>
     <text>
         <refs>
@@ -159,14 +159,14 @@ toujours,vous et moi,Capitaines[0xd8][end]C</data>
         </refs>
         <data>SERGENT:
 Et maintenant,vous devrez prendre en
-considération votre décision...[end]J</data>
+considération votre décision...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x32e</ref>
         </refs>
         <data>JEANNE:
-Moi je le crois capable![end]D</data>
+Moi je le crois capable![end]</data>
     </text>
     <text>
         <refs>
@@ -174,20 +174,20 @@ Moi je le crois capable![end]D</data>
         </refs>
         <data>DON JUAN:
 Don Juan le Na[0x25]f et Fidèle Serviteur
-le croit aussi![end]L</data>
+le croit aussi![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x346</ref>
         </refs>
         <data>LUKIA:
-Moi aussi![end]C</data>
+Moi aussi![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x352</ref>
         </refs>
         <data>COMMANDANT:
-Oh tout le monde...[end][0x0]</data>
+Oh tout le monde...[end]</data>
     </text>
 </texts>

@@ -5,14 +5,14 @@
             <ref>0x1dd</ref>
             <ref>0x206</ref>
         </refs>
-        <data>Teline...[end]T</data>
+        <data>Teline...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x214</ref>
         </refs>
         <data>Teline... Today... My promise to you...
-was fulfilled.[end]T</data>
+was fulfilled.[end]</data>
     </text>
     <text>
         <refs>
@@ -23,7 +23,7 @@ was fulfilled.[end]T</data>
 
 [0x24]Ifs[0x22] are not allowed for warriors,
 But just this once, I do not want to be
-a warrior! Teline...[end]M</data>
+a warrior! Teline...[end]</data>
     </text>
     <text>
         <refs>
@@ -33,7 +33,7 @@ a warrior! Teline...[end]M</data>
 pretending he's with this Resistance...
 
 And our savings in the jars are about
-to run out too...[end][0x2a]</data>
+to run out too...[end]</data>
     </text>
     <text>
         <refs>
@@ -41,7 +41,7 @@ to run out too...[end][0x2a]</data>
         </refs>
         <data>[0x2a]woof[0x2a] [0x2a]whimper[0x2a]
 [0x28]Master... our family is having a
-crisis...[0x29][end]G</data>
+crisis...[0x29][end]</data>
     </text>
     <text>
         <refs>
@@ -49,13 +49,13 @@ crisis...[0x29][end]G</data>
         </refs>
         <data>Grandma... Tomorrow I will be going to
 the harem... You seem happy for some
-reason...[end]E</data>
+reason...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x261</ref>
         </refs>
-        <data>Eww, stay away from me, you old man!![end]W</data>
+        <data>Eww, stay away from me, you old man!![end]</data>
     </text>
     <text>
         <refs>
@@ -66,7 +66,7 @@ King's harem was revived!
 
 Mommy... went to the harem. She took
 a Drawer Thing with her.  She said it
-was for good luck![end]P</data>
+was for good luck![end]</data>
     </text>
     <text>
         <refs>
@@ -77,27 +77,27 @@ popular among Dafila's royal family!!
 
 Even though it's hot with a fake
 mustache and a king's cloak they
-put up with it!![end]I</data>
+put up with it!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x276</ref>
         </refs>
         <data>I can't say it to the kids...
-Honey... come home...[end]L</data>
+Honey... come home...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x286</ref>
         </refs>
-        <data>Libero: Oh... I'm worried...[end] </data>
+        <data>Libero: Oh... I'm worried...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x28a</ref>
         </refs>
         <data>  Start a discussion
-  It's none of my business.[end1]O</data>
+  It's none of my business.[end1]</data>
     </text>
     <text>
         <refs>
@@ -107,7 +107,7 @@ Honey... come home...[end]L</data>
 the Holy Dragon in the royal palace...
 
 You could get it while helping out with
-the revolution, but...[end]T</data>
+the revolution, but...[end]</data>
     </text>
     <text>
         <refs>
@@ -122,14 +122,14 @@ don't have a leader...
 I'm at best Number 2... How about it...
 You're the leader of the Resistance,
 aren't you?
-Won't you be our leader too?[end] </data>
+Won't you be our leader too?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2a8</ref>
         </refs>
         <data>  Sure thing, leave it to me!!
-  It doesn't concern me.[end1]O</data>
+  It doesn't concern me.[end1]</data>
     </text>
     <text>
         <refs>
@@ -140,7 +140,7 @@ You don't seem like a popular kind of
 guy. But, that's okay!
 Being in the revolution is cool, don't
 you think? No girl will ever leave you
-alone![end]W</data>
+alone![end]</data>
     </text>
     <text>
         <refs>
@@ -151,26 +151,26 @@ alone![end]W</data>
 popularity and freedom, come back and
 see me!
 It will begin tonight! Tonight we shall
-be reborn![end]L</data>
+be reborn![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2c7</ref>
         </refs>
-        <data>Libero: Are you ready?[end] </data>
+        <data>Libero: Are you ready?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2cb</ref>
         </refs>
         <data>  Wander around town
-  Wait for nightfall[end1] </data>
+  Wait for nightfall[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x303</ref>
         </refs>
-        <data>              That night...[end]S</data>
+        <data>              That night...[end]</data>
     </text>
     <text>
         <refs>
@@ -179,13 +179,13 @@ be reborn![end]L</data>
         <data>Sajin: Oh, nobody will ever find me...
 Patience, patience...
 This is part of my training too.
-Oh!!!![end]H</data>
+Oh!!!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x333</ref>
         </refs>
-        <data>Hey buddy! I've been spotted![end]Z</data>
+        <data>Hey buddy! I've been spotted![end]</data>
     </text>
     <text>
         <refs>
@@ -198,7 +198,7 @@ By the way, won't you hire us? We'll
 accept payment afterwards...
 
 That's right... We'll accept up to 15
-installments.[end]S</data>
+installments.[end]</data>
     </text>
     <text>
         <refs>
@@ -211,33 +211,33 @@ Right now, for a basic fee, we will give
 you Level 2 ninjutsu for free.
 
 For the optional package, we'll need a
-down payment.[end]W</data>
+down payment.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x39a</ref>
         </refs>
-        <data>Will you hire us?[end] </data>
+        <data>Will you hire us?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x39e</ref>
         </refs>
         <data>  Basic fee [0x28]pay later[0x29]
-  Optional [0x28]3000 Piro down payment[0x29][end1]W</data>
+  Optional [0x28]3000 Piro down payment[0x29][end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x3a6</ref>
         </refs>
-        <data>Why, I ought to kill you!![end]F</data>
+        <data>Why, I ought to kill you!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3ac</ref>
         </refs>
         <data>For the optional package, please select
-from the following menu.[end] </data>
+from the following menu.[end]</data>
     </text>
     <text>
         <refs>
@@ -245,21 +245,21 @@ from the following menu.[end] </data>
         </refs>
         <data>  Assassination of Matelite
   Assassination of Princess [character][0x1]
-  Assassination of crew member[end1]T</data>
+  Assassination of crew member[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x3d7</ref>
         </refs>
         <data>Thank you. We are glad to do business
-with you.[end]S</data>
+with you.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x424</ref>
         </refs>
         <data>Sajin: I'll use this to work hard on my
-training... Where will I hide this time...[end]Z</data>
+training... Where will I hide this time...[end]</data>
     </text>
     <text>
         <refs>
@@ -267,7 +267,7 @@ training... Where will I hide this time...[end]Z</data>
         </refs>
         <data>Zeroshin: Mom, sorry for worrying you.
 After this job ends... It looks like I'll
-be out of work again...[end]Z</data>
+be out of work again...[end]</data>
     </text>
     <text>
         <refs>
@@ -275,21 +275,21 @@ be out of work again...[end]Z</data>
         </refs>
         <data>Zeroshin: Mom... I found a job. It
 doesn't pay much but I think I can do
-it...[end]A</data>
+it...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x44b</ref>
         </refs>
         <data>A revolution needs the uniform support
-of the people...[end]I</data>
+of the people...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x454</ref>
         </refs>
         <data>I'm not popular... I'm not popular...
-Why?! Guys, why aren't I popular?[end]I</data>
+Why?! Guys, why aren't I popular?[end]</data>
     </text>
     <text>
         <refs>
@@ -297,7 +297,7 @@ Why?! Guys, why aren't I popular?[end]I</data>
         </refs>
         <data>I don't really know. But I wanna
 participate in the revolution!
-Don't you?[end]W</data>
+Don't you?[end]</data>
     </text>
     <text>
         <refs>
@@ -306,7 +306,7 @@ Don't you?[end]W</data>
         <data>Without a revolution for freedom,
 Dafila has no future!
 
-Without women, we have no future![end]W</data>
+Without women, we have no future![end]</data>
     </text>
     <text>
         <refs>
@@ -315,26 +315,26 @@ Without women, we have no future![end]W</data>
         <data>We've brought in special
 assassins-for-hire for the revolution
 tonight, so don't worry.
-Huh?! Now where did those two go?[end]Y</data>
+Huh?! Now where did those two go?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4b5</ref>
         </refs>
         <data>You got a box of Drawer Things.
-There were 11 inside.[end]Y</data>
+There were 11 inside.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4ca</ref>
         </refs>
-        <data>You got 5 High Drugs.[end]Y</data>
+        <data>You got 5 High Drugs.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4e5</ref>
         </refs>
-        <data>You got 5 Super Vodkas.[end]Y</data>
+        <data>You got 5 Super Vodkas.[end]</data>
     </text>
     <text>
         <refs>
@@ -342,13 +342,13 @@ There were 11 inside.[end]Y</data>
         </refs>
         <data>You got a Difficult Book, a Strategy
 Book, a Genius Notebook, and an XXX
-Porno Mag.[end]Y</data>
+Porno Mag.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x517</ref>
         </refs>
-        <data>You got a Calamitias.[end]T</data>
+        <data>You got a Calamitias.[end]</data>
     </text>
     <text>
         <refs>
@@ -356,7 +356,7 @@ Porno Mag.[end]Y</data>
             <ref>0x55e</ref>
         </refs>
         <data>There is 3000 Piro in the jar.
-Will you steal it?[end] </data>
+Will you steal it?[end]</data>
     </text>
     <text>
         <refs>
@@ -364,14 +364,14 @@ Will you steal it?[end] </data>
             <ref>0x52e</ref>
         </refs>
         <data>  Yes
-  No[end1]T</data>
+  No[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x540</ref>
         </refs>
         <data>This family will probably leave town
-suddenly during the night...[end]T</data>
+suddenly during the night...[end]</data>
     </text>
     <text>
         <refs>

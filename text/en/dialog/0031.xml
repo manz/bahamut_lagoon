@@ -5,21 +5,21 @@
             <ref>0x90</ref>
         </refs>
         <data>Matelite: Is anybody here?!
-It's me! Matelite![end]T</data>
+It's me! Matelite![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa9</ref>
         </refs>
         <data>Taicho: It is I, Taicho!
-We have just arrived![end]M</data>
+We have just arrived![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb3</ref>
         </refs>
         <data>Matelite: How rude! Nobody's here to
-greet us! Taicho, follow me![end]S</data>
+greet us! Taicho, follow me![end]</data>
     </text>
     <text>
         <refs>
@@ -27,14 +27,14 @@ greet us! Taicho, follow me![end]S</data>
         </refs>
         <data>Sendak: Ah, the good old Kahna
 flagship... It still seems to be doing
-just fine...[end]S</data>
+just fine...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x240</ref>
         </refs>
         <data>Sendak: I was your captain at one
-time. Do you remember?[end]S</data>
+time. Do you remember?[end]</data>
     </text>
     <text>
         <refs>
@@ -42,14 +42,14 @@ time. Do you remember?[end]S</data>
             <ref>0x247</ref>
         </refs>
         <data>Sendak: [character][0x1]... hmm...
-Not bad, [character][0x1]![end]R</data>
+Not bad, [character][0x1]![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x24f</ref>
         </refs>
         <data>Rush: This is our castle in the sky!
-Let's go to the bridge![end]T</data>
+Let's go to the bridge![end]</data>
     </text>
     <text>
         <refs>
@@ -59,7 +59,7 @@ Let's go to the bridge![end]T</data>
 earlier are waiting.
 
 If my memory is correct, there were
-two girls and two dangerous lancers.[end]B</data>
+two girls and two dangerous lancers.[end]</data>
     </text>
     <text>
         <refs>
@@ -67,14 +67,14 @@ two girls and two dangerous lancers.[end]B</data>
         </refs>
         <data>Bikkebakke: So this is our new house...
 It sure does sway back and forth a
-lot...[end]W</data>
+lot...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x271</ref>
         </refs>
         <data>We're the ship's crew. Follow our boss.
-Don't go anywhere you shouldn't.[end]I</data>
+Don't go anywhere you shouldn't.[end]</data>
     </text>
     <text>
         <refs>
@@ -84,7 +84,7 @@ Don't go anywhere you shouldn't.[end]I</data>
 here...
 
 I think we, the crew, will also be
-useful to you...[end]H</data>
+useful to you...[end]</data>
     </text>
     <text>
         <refs>
@@ -93,7 +93,7 @@ useful to you...[end]H</data>
         <data>Hornet: It's about time!
 So you're the leader of the Resistance.
 I'm this ship's new pilot, Hornet!
-Your friends are waiting on the bridge![end]H</data>
+Your friends are waiting on the bridge![end]</data>
     </text>
     <text>
         <refs>
@@ -101,14 +101,14 @@ Your friends are waiting on the bridge![end]H</data>
             <ref>0x2a0</ref>
             <ref>0x4d0</ref>
         </refs>
-        <data>Hornet: Come with me![end]C</data>
+        <data>Hornet: Come with me![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2d8</ref>
         </refs>
         <data>Captain Sendak hasn't changed a bit
-from when he was young![end]T</data>
+from when he was young![end]</data>
     </text>
     <text>
         <refs>
@@ -116,7 +116,7 @@ from when he was young![end]T</data>
         </refs>
         <data>This entrance is currently being
 inspected. Please enter from over
-there.[end]D</data>
+there.[end]</data>
     </text>
     <text>
         <refs>
@@ -124,7 +124,7 @@ there.[end]D</data>
         </refs>
         <data>Dragonkeeper: I am the Dragonkeeper.
 I take care of the dragons.
-They're really hungry right now.[end]G</data>
+They're really hungry right now.[end]</data>
     </text>
     <text>
         <refs>
@@ -132,7 +132,7 @@ They're really hungry right now.[end]G</data>
         </refs>
         <data>Good work, [character][0x1]!
 We have a suspicious character locked
-up in here.[end]E</data>
+up in here.[end]</data>
     </text>
     <text>
         <refs>
@@ -140,14 +140,14 @@ up in here.[end]E</data>
         </refs>
         <data>Excellent work, [character][0x1]!
 We have some really rowdy guy locked
-up in here.[end]S</data>
+up in here.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x302</ref>
         </refs>
         <data>Shopkeeper: We're here to help as
-much as we can.[end]O</data>
+much as we can.[end]</data>
     </text>
     <text>
         <refs>
@@ -158,7 +158,7 @@ much as we can.[end]O</data>
 
 I'm a friend! I'm part of the crew!
 I changed into a disguise and was
-hiding, that's all.[end]S</data>
+hiding, that's all.[end]</data>
     </text>
     <text>
         <refs>
@@ -166,7 +166,7 @@ hiding, that's all.[end]S</data>
         </refs>
         <data>Sendak: Hey... [character][0x1].
 Wait a minute. There's something I
-want to talk to you about.[end]S</data>
+want to talk to you about.[end]</data>
     </text>
     <text>
         <refs>
@@ -176,31 +176,31 @@ want to talk to you about.[end]S</data>
 of a new name for the ship. But... I'm
 not very good at that kind of thing...
 I'm sure you can come up with a good
-one. Please, choose a really hip name![end]M</data>
+one. Please, choose a really hip name![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4a3</ref>
         </refs>
-        <data>Matelite: Taicho, where are you!?[end]T</data>
+        <data>Matelite: Taicho, where are you!?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4ac</ref>
         </refs>
-        <data>Taicho: Matelite! I am stuck in here![end]M</data>
+        <data>Taicho: Matelite! I am stuck in here![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5a3</ref>
         </refs>
-        <data>Matelite: Hmph! [character][0x1]!![end][character][0x1]</data>
+        <data>Matelite: Hmph! [character][0x1]!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5ae</ref>
         </refs>
-        <data>[character][0x1]! Let's go![end]M</data>
+        <data>[character][0x1]! Let's go![end]</data>
     </text>
     <text>
         <refs>

@@ -4,14 +4,14 @@
         <refs>
             <ref>0xa3</ref>
         </refs>
-        <data>                   Ah![end]S</data>
+        <data>                   Ah![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xdd</ref>
         </refs>
         <data>Sendak: Queen [character][0x1]!
-What is the matter!?[end][character][0x1]</data>
+What is the matter!?[end]</data>
     </text>
     <text>
         <refs>
@@ -19,20 +19,20 @@ What is the matter!?[end][character][0x1]</data>
         </refs>
         <data>[character][0x1]: I just over-exaggerated.
 It's nothing. I had a sudden chill,
-that's all.[end][character][0x1]</data>
+that's all.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x102</ref>
         </refs>
-        <data>[character][0x1]: Where's Matelite?[end]S</data>
+        <data>[character][0x1]: Where's Matelite?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x106</ref>
         </refs>
         <data>Sendak: He is... mumbling to himself in
-front of the throne, again, as usual...[end][character][0x1]</data>
+front of the throne, again, as usual...[end]</data>
     </text>
     <text>
         <refs>
@@ -40,7 +40,7 @@ front of the throne, again, as usual...[end][character][0x1]</data>
         </refs>
         <data>[character][0x1]: Again...? He's been doing
 that every day ever since we
-returned to Kahna...[end]Y</data>
+returned to Kahna...[end]</data>
     </text>
     <text>
         <refs>
@@ -56,43 +56,43 @@ He... [character][0x1]... has become an
 extravagant man...
 
 I am happy to have such good
-friends...[end] </data>
+friends...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x16a</ref>
         </refs>
-        <data>                 Kahna[end] </data>
+        <data>                 Kahna[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x17e</ref>
         </refs>
-        <data>                  Mahal[end] </data>
+        <data>                  Mahal[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x192</ref>
         </refs>
-        <data>                Granbelos[end] </data>
+        <data>                Granbelos[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1a6</ref>
         </refs>
-        <data>                 Godland[end] </data>
+        <data>                 Godland[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1ba</ref>
         </refs>
-        <data>                Campbell[end] </data>
+        <data>                Campbell[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1ce</ref>
         </refs>
-        <data>                 Dafila...[end]B</data>
+        <data>                 Dafila...[end]</data>
     </text>
     <text>
         <refs>
@@ -108,7 +108,7 @@ treaty and became a single kingdom...[end1][end]</data>
             <ref>0x1fc</ref>
             <ref>0x1e5</ref>
         </refs>
-        <data>[end][character][0x1]</data>
+        <data>[end]</data>
     </text>
     <text>
         <refs>
@@ -116,7 +116,7 @@ treaty and became a single kingdom...[end1][end]</data>
         </refs>
         <data>[character][0x1], former captain of Kahna's
 Dragon Squad, was given the duty of
-watching over the skies of all lagoons...[end1].</data>
+watching over the skies of all lagoons...[end1]</data>
     </text>
     <text>
         <refs>

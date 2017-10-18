@@ -4,7 +4,7 @@
         <refs>
             <ref>0x21f</ref>
         </refs>
-        <data>......[end]V</data>
+        <data>......[end]</data>
     </text>
     <text>
         <refs>
@@ -23,7 +23,7 @@ Jormungand...
 
 
 You are all here, I see...
-So the time for vengeance has come...[end]I</data>
+So the time for vengeance has come...[end]</data>
     </text>
     <text>
         <refs>
@@ -36,40 +36,40 @@ Weak-minded girl...
 Come alone...
 
 You have the ability to relieve our
-anger...[end]P</data>
+anger...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2b6</ref>
         </refs>
         <data>Palpaleos: Everyone will go...
-Everything, perhaps, may be lost...[end]P</data>
+Everything, perhaps, may be lost...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2c3</ref>
         </refs>
-        <data>Palpaleos: [character][0x1]...[end]M</data>
+        <data>Palpaleos: [character][0x1]...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2ce</ref>
         </refs>
         <data>Matelite: It won't open!! What should we
-do?![end]M</data>
+do?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2d8</ref>
         </refs>
         <data>Matelite: [character][0x1], do something...
-At times like this, my head hurts![end]T</data>
+At times like this, my head hurts![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2e3</ref>
         </refs>
-        <data>Taicho: We are locked in![end]T</data>
+        <data>Taicho: We are locked in![end]</data>
     </text>
     <text>
         <refs>
@@ -78,7 +78,7 @@ At times like this, my head hurts![end]T</data>
         <data>Taicho: My beard is standing on end!!
 So this is the anger of the Holy
 Dragons...
-It is excruciating!![end]S</data>
+It is excruciating!![end]</data>
     </text>
     <text>
         <refs>
@@ -89,14 +89,14 @@ pretending to be ill... I was afraid of
 the Holy Dragons...
 I was scared of the fighting...
 I suppose I really am a weak old man
-after all...[end]R</data>
+after all...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x31d</ref>
         </refs>
         <data>Rush: The Holy Dragons' anger...
-I can feel it too...[end]T</data>
+I can feel it too...[end]</data>
     </text>
     <text>
         <refs>
@@ -104,14 +104,14 @@ I can feel it too...[end]T</data>
         </refs>
         <data>Truce: It's no good, Captain
 [character][0x1]! The Holy Dragon has
-become angry...[end]B</data>
+become angry...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x332</ref>
         </refs>
         <data>Bikkebakke: Come on!! Eat, eat!
-Have some of my mushrooms!![end]I</data>
+Have some of my mushrooms!![end]</data>
     </text>
     <text>
         <refs>
@@ -120,7 +120,7 @@ Have some of my mushrooms!![end]I</data>
         <data>I know...
 I know I am weak-minded...
 
-I'm unable to read your thoughts...[end]P</data>
+I'm unable to read your thoughts...[end]</data>
     </text>
     <text>
         <refs>
@@ -130,26 +130,26 @@ I'm unable to read your thoughts...[end]P</data>
 No...
 
 You are not the only one who has
-become timid...[end]S</data>
+become timid...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x46d</ref>
         </refs>
-        <data>Sauzer: Please, come this way...[end]P</data>
+        <data>Sauzer: Please, come this way...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x531</ref>
         </refs>
-        <data>Palpaleos: Sauzer!![end]S</data>
+        <data>Palpaleos: Sauzer!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x537</ref>
         </refs>
         <data>Sauzer: Palpaleos...
-Take me up into the sky...[end][0x0]</data>
+Take me up into the sky...[end]</data>
     </text>
     <text>
         <refs>
@@ -168,7 +168,7 @@ Take me up into the sky...[end][0x0]</data>
                Stay well...
 
                 [character][0x1]...
-   Don't forget to feed the dragons...[end]S</data>
+   Don't forget to feed the dragons...[end]</data>
     </text>
     <text>
         <refs>
@@ -184,7 +184,7 @@ Take Hyperion's mind from me...
 
 
 Princess [character][0x1]...
-The skies of Orelus are in your hands.[end] </data>
+The skies of Orelus are in your hands.[end]</data>
     </text>
     <text>
         <refs>
@@ -205,14 +205,14 @@ Human who will lead the Holy Dragons...
   The renewed memories of the sky...
      The era of we Holy Dragons...
 
-        Once more, to that era...[end]P</data>
+        Once more, to that era...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x540</ref>
         </refs>
         <data>Palpaleos: Sauzer... I won't leave you
-here... I'll take you to [character][0x1]...[end]T</data>
+here... I'll take you to [character][0x1]...[end]</data>
     </text>
     <text>
         <refs>
@@ -244,21 +244,21 @@ Nasubi for President!
 
 SEXY BEAM!
 
-                         Signed, Tomato[end]P</data>
+                         Signed, Tomato[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x587</ref>
         </refs>
         <data>Palpaleos: Gudolf! Where is Emperor
-Sauzer...?[end]G</data>
+Sauzer...?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x59e</ref>
         </refs>
         <data>Gudolf: Emperor Sauzer?
-It really was quite unfortunate...[end]G</data>
+It really was quite unfortunate...[end]</data>
     </text>
     <text>
         <refs>
@@ -270,13 +270,13 @@ he took my hand and said this...
 [0x24]Never forgive Palpaleos, no matter
 what happens!![0x22]
 
-Gwahaha!![end]P</data>
+Gwahaha!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5bc</ref>
         </refs>
-        <data>Palpaleos: What..!! Sauzer... Why...?[end]G</data>
+        <data>Palpaleos: What..!! Sauzer... Why...?[end]</data>
     </text>
     <text>
         <refs>

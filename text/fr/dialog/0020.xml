@@ -5,35 +5,33 @@
             <ref>0x91</ref>
         </refs>
         <data>              Chapitre [0xb1]
-    -La Légende Dont Nous Rêvons-[end]H</data>
+    -La Légende Dont Nous Rêvons-[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6a0</ref>
             <ref>0x38d</ref>
         </refs>
-        <data>Haha Haha![end]Z</data>
+        <data>Haha Haha![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6aa</ref>
         </refs>
-        <data>Zee Zee[end]C</data>
+        <data>Zee Zee[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe6a</ref>
         </refs>
-        <data>Chuchuuu[0xd8][end1]
-</data>
+        <data>Chuchuuu[0xd8][end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xef1</ref>
             <ref>0xed2</ref>
         </refs>
-        <data>Allez! Allez![end1]
-</data>
+        <data>Allez! Allez![end1]</data>
     </text>
     <text>
         <refs>
@@ -43,7 +41,7 @@
 Silence,du calme!
  
 Matelight ne va pas tarder à venir
-parler,alors écoutez-le.[end]M</data>
+parler,alors écoutez-le.[end]</data>
     </text>
     <text>
         <refs>
@@ -52,7 +50,7 @@ parler,alors écoutez-le.[end]M</data>
         <data>MATELIGHT:
 L'entraînement au combat va
 commencer!
-D'accord tout le monde?![end] </data>
+D'accord tout le monde?![end]</data>
     </text>
     <text>
         <refs>
@@ -63,7 +61,7 @@ depuis peu devenus des Rebelles.
  
 Orelus,le monde des lagons,dirigé par
 l'Empire doit être libéré.
-Il doit l'être de gré ou de force![end]C</data>
+Il doit l'être de gré ou de force![end]</data>
     </text>
     <text>
         <refs>
@@ -76,7 +74,7 @@ J'invite les Rebelles à tout libérer
 militairement...
  
 Moi et vous allons un à un récupérer
-les lagons perdus![end]D</data>
+les lagons perdus![end]</data>
     </text>
     <text>
         <refs>
@@ -84,47 +82,47 @@ les lagons perdus![end]D</data>
         </refs>
         <data>D'accord tout le monde?!
 Il est donc utile d'avoir de l'ordre et
-de la discipline dans les rangs![end]I</data>
+de la discipline dans les rangs![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x278</ref>
         </refs>
         <data>Il ne faut cependant pas nous
-précipiter![end]J</data>
+précipiter![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2c2</ref>
         </refs>
         <data>Je vais tout d'abord commencer à
-vous inculquer l'ordre et la discipline![end]D</data>
+vous inculquer l'ordre et la discipline![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2d9</ref>
         </refs>
         <data>De même,il nous faut un leader
-charismatique et efficace![end]S</data>
+charismatique et efficace![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2ea</ref>
         </refs>
-        <data>Sachant user de la force![end]M</data>
+        <data>Sachant user de la force![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x365</ref>
         </refs>
-        <data>Matelight de Kana![end]E</data>
+        <data>Matelight de Kana![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3a6</ref>
         </refs>
         <data>En effet,tout le monde ne peut pas
-combattre comme moi![end]N</data>
+combattre comme moi![end]</data>
     </text>
     <text>
         <refs>
@@ -132,33 +130,33 @@ combattre comme moi![end]N</data>
         </refs>
         <data>Notre armée doit être dirigée par le
 flambeau des Rebelles de Kana...
-Le Capitaine de FARENHEIT...[end]A</data>
+Le Capitaine de FARENHEIT...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x469</ref>
         </refs>
-        <data>A savoir,le vieux magicien,Sendack![end]A</data>
+        <data>A savoir,le vieux magicien,Sendack![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x48a</ref>
         </refs>
         <data>Amiral!
-Oui,toi là-bas![end]U</data>
+Oui,toi là-bas![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4a6</ref>
         </refs>
-        <data>Une réponse?![end]H</data>
+        <data>Une réponse?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4bb</ref>
         </refs>
         <data>HORNET:
-Tu ne peux pas attendre?![end]H</data>
+Tu ne peux pas attendre?![end]</data>
     </text>
     <text>
         <refs>
@@ -166,27 +164,27 @@ Tu ne peux pas attendre?![end]H</data>
         </refs>
         <data>HORNET:
 FARENHEIT n'attend plus que l'ordre
-de partir![end]E</data>
+de partir![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4e9</ref>
         </refs>
-        <data>Et le lieu de destination![end]H</data>
+        <data>Et le lieu de destination![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc9c</ref>
         </refs>
         <data>HORNET:
-Les soldats impériaux ont tout cassé![end]I</data>
+Les soldats impériaux ont tout cassé![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xce6</ref>
         </refs>
         <data>Il faut encore un moment avant que
-tout aille mieux![end]H</data>
+tout aille mieux![end]</data>
     </text>
     <text>
         <refs>
@@ -194,7 +192,7 @@ tout aille mieux![end]H</data>
         </refs>
         <data>HORNET:
 C'est outrageant!
-Aaah,tout ce bruit![end]M</data>
+Aaah,tout ce bruit![end]</data>
     </text>
     <text>
         <refs>
@@ -202,7 +200,7 @@ Aaah,tout ce bruit![end]M</data>
         </refs>
         <data>MATELIGHT
 Commandant,pouvez-vous leur dire qui
-vous êtes?[end]C</data>
+vous êtes?[end]</data>
     </text>
     <text>
         <refs>
@@ -210,14 +208,14 @@ vous êtes?[end]C</data>
         </refs>
         <data>COMMANDANT:
 Je suis le Capitaine de l'armée de
-Mahal,Commandant![end]M</data>
+Mahal,Commandant![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x526</ref>
         </refs>
         <data>MATELIGHT:
-Capitaine Commandant![end]M</data>
+Capitaine Commandant![end]</data>
     </text>
     <text>
         <refs>
@@ -227,7 +225,7 @@ Capitaine Commandant![end]M</data>
 Allez tout le monde!
  
 Je vais vous soumettre des ordres et
-vous devrez y obéir![end]M</data>
+vous devrez y obéir![end]</data>
     </text>
     <text>
         <refs>
@@ -239,7 +237,7 @@ passons à la pratique!
 Soyez tous prêts!
  
   
-Allez![end]D</data>
+Allez![end]</data>
     </text>
     <text>
         <refs>
@@ -248,8 +246,7 @@ Allez![end]D</data>
         </refs>
         <data>Droite Droite[0xd8][0xd8]
  [0xfc][0x1]       
-[0xa8]Direction... Droite[0xd8][0xd8][0xa9][end1]
-</data>
+[0xa8]Direction... Droite[0xd8][0xd8][0xa9][end1]</data>
     </text>
     <text>
         <refs>
@@ -257,8 +254,7 @@ Allez![end]D</data>
         </refs>
         <data>Gauche Gauche[0xd8][0xd8]
  [0xfc][0x1]
-[0xa8]Direction... Gauche[0xd8][0xd8][0xa9][end1]
-</data>
+[0xa8]Direction... Gauche[0xd8][0xd8][0xa9][end1]</data>
     </text>
     <text>
         <refs>
@@ -266,8 +262,7 @@ Allez![end]D</data>
         </refs>
         <data>Quelle amélioration[0xd8]
  [0xfc][0x1] 
-[0xa8]Direction... Droit devant[0xd8][0xa9][end1]
-</data>
+[0xa8]Direction... Droit devant[0xd8][0xa9][end1]</data>
     </text>
     <text>
         <refs>
@@ -276,7 +271,7 @@ Allez![end]D</data>
         <data>Hahahahaha!
  
   
-Tourner![end]M</data>
+Tourner![end]</data>
     </text>
     <text>
         <refs>
@@ -286,7 +281,7 @@ Tourner![end]M</data>
 GAHAHAHAHA!
  
 [character][0x1],tu as encore beaucoup à
-apprendre sur l'ordre et la discipline.[end]M</data>
+apprendre sur l'ordre et la discipline.[end]</data>
     </text>
     <text>
         <refs>
@@ -298,15 +293,14 @@ GAHAHAHAHAHA[0xd8]
 [character][0x1],je te donne une autre chance!
 Alors sois prêt!
  
-Faites F-A-C-E[0xd8][end] </data>
+Faites F-A-C-E[0xd8][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1975</ref>
         </refs>
         <data> Je vais aller faire un tour.
- Je vais attendre Matelight.[end1]
-</data>
+ Je vais attendre Matelight.[end1]</data>
     </text>
     <text>
         <refs>
@@ -316,7 +310,7 @@ Faites F-A-C-E[0xd8][end] </data>
 Matelight nous a ordonné de nous
 réunir ici!
 Il va nous instruire et nous entraîner
-pour les combats.[end]R</data>
+pour les combats.[end]</data>
     </text>
     <text>
         <refs>
@@ -325,7 +319,7 @@ pour les combats.[end]R</data>
         <data>RUSH:
 Parfois Matelight peut être trsè en
 colère.
-J'ai un mauvais pressentiment![end]R</data>
+J'ai un mauvais pressentiment![end]</data>
     </text>
     <text>
         <refs>
@@ -335,7 +329,7 @@ J'ai un mauvais pressentiment![end]R</data>
 Le discours de Matelight va être long.
  
 Veux-tu l'écouter en vitesse
-accélérée?[end] </data>
+accélérée?[end]</data>
     </text>
     <text>
         <refs>
@@ -351,22 +345,21 @@ accélérée?[end] </data>
             <ref>0x1bf</ref>
         </refs>
         <data> Oui
- Non[end1]
-</data>
+ Non[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x1971</ref>
         </refs>
         <data>Matelight n'est pas encore là,
-vas-tu l'attendre?[end]N</data>
+vas-tu l'attendre?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x198c</ref>
         </refs>
         <data>Ne tarde pas trop,
-ça pourrait être dangereux avec lui![end]R</data>
+ça pourrait être dangereux avec lui![end]</data>
     </text>
     <text>
         <refs>
@@ -376,7 +369,7 @@ vas-tu l'attendre?[end]N</data>
 A force d'entraînement et en
 échangeant les membres de tes
 équipes,tu trouveras sûrement un
-équilibre des forces.[end]T</data>
+équilibre des forces.[end]</data>
     </text>
     <text>
         <refs>
@@ -385,7 +378,7 @@ A force d'entraînement et en
         <data>TAURUS:
 Matelight va arriver!
  
-Il faudra faire tout ce qu'il dit.[end]T</data>
+Il faudra faire tout ce qu'il dit.[end]</data>
     </text>
     <text>
         <refs>
@@ -393,14 +386,14 @@ Il faudra faire tout ce qu'il dit.[end]T</data>
         </refs>
         <data>TAURUS:
 L'équilibre d'une équipe est très
-important.[end]B</data>
+important.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc75</ref>
         </refs>
         <data>BIKKEBAKKE:
-Vite,commençons![end]B</data>
+Vite,commençons![end]</data>
     </text>
     <text>
         <refs>
@@ -408,14 +401,14 @@ Vite,commençons![end]B</data>
         </refs>
         <data>BIKKEBAKKE:
 Aaaaaaaaaaaaah!
-Y en a encore pour longtemps?[end]D</data>
+Y en a encore pour longtemps?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xff1</ref>
         </refs>
         <data>DIANA:
-Salut![end]D</data>
+Salut![end]</data>
     </text>
     <text>
         <refs>
@@ -424,15 +417,14 @@ Salut![end]D</data>
         <data>DIANA:
 As-tu déjà entendu parler du bras
 droit de l'Empereur Sauzer,
-le Général Palpaleos?[end] </data>
+le Général Palpaleos?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xffc</ref>
         </refs>
         <data> Que sais-tu?!
- Je suis occupé...[end1]
-</data>
+ Je suis occupé...[end1]</data>
     </text>
     <text>
         <refs>
@@ -445,7 +437,7 @@ Quand il vit le ciel,il eut l'ambition et
 le rêve de le conquérir pour lui!
  
 Il était aussi exité que ce couple de
-lanciers.[end]F</data>
+lanciers.[end]</data>
     </text>
     <text>
         <refs>
@@ -455,7 +447,7 @@ lanciers.[end]F</data>
 Vous,les garçons,maniez les armes...
 C'est très bien!
 Mais,nous,nous lançons des sorts de
-soins qui ne sont pas inutiles.[end]F</data>
+soins qui ne sont pas inutiles.[end]</data>
     </text>
     <text>
         <refs>
@@ -466,7 +458,7 @@ J'ai toujours des prétextes pour
 tout.
 Je suis toujours si lente et je réfléchis
 si peu.
-Hihihihihihihihi![end]F</data>
+Hihihihihihihihi![end]</data>
     </text>
     <text>
         <refs>
@@ -478,14 +470,14 @@ conséquent j'ai peine à réfléchir...
 Cependant,ne t'inquiète pas,c'est tout
 à fait habituel...
 Je t'en supplie,laisse-moi faire de la
-médecine...[end] </data>
+médecine...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfab</ref>
         </refs>
         <data> Je ne t'en empêcherai pas...
- Chanceuse![end1]O</data>
+ Chanceuse![end1]</data>
     </text>
     <text>
         <refs>
@@ -493,14 +485,14 @@ médecine...[end] </data>
         </refs>
         <data>Obtenu [0xb4] [0xaa]DROGUE[0xab]
 [0xb4] [0xaa]REMEDE[0xab]
-[0xb4] [0xaa]RANIME[0xab].[end]M</data>
+[0xb4] [0xaa]RANIME[0xab].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfcf</ref>
         </refs>
         <data>Merci,ça me calme beaucoup!
-Je désire dormir maintenant.[end]F</data>
+Je désire dormir maintenant.[end]</data>
     </text>
     <text>
         <refs>
@@ -510,7 +502,7 @@ Je désire dormir maintenant.[end]F</data>
         <data>FRUNZE à REEVE:
 Nous sommes des Lanciers!
 Très loin la lance!
-Lan... Lan... Lanciers![end]B</data>
+Lan... Lan... Lanciers![end]</data>
     </text>
     <text>
         <refs>
@@ -518,7 +510,7 @@ Lan... Lan... Lanciers![end]B</data>
         </refs>
         <data>BARECK:
 A côté de moi,c'est Sergent.
-Nous avons toujours été très proches.[end]B</data>
+Nous avons toujours été très proches.[end]</data>
     </text>
     <text>
         <refs>
@@ -528,21 +520,21 @@ Nous avons toujours été très proches.[end]B</data>
 Nous,les armures lourdes,donc les
 guerriers sommes lents car nous ne
 portons pas de robes comme les
-magiciennes![end]A</data>
+magiciennes![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x107d</ref>
         </refs>
         <data>ANASTASIA:
-J'ai un drôle de sentiment...[end]A</data>
+J'ai un drôle de sentiment...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1084</ref>
         </refs>
         <data>ANASTASIA:
-Veux-tu parler à ma voisine?[end]E</data>
+Veux-tu parler à ma voisine?[end]</data>
     </text>
     <text>
         <refs>
@@ -554,7 +546,7 @@ Ah...
 Euuh...
 Et bien...
  
-Bon... bonjour![end]S</data>
+Bon... bonjour![end]</data>
     </text>
     <text>
         <refs>
@@ -568,7 +560,7 @@ Gauche face,gauche,gauche...
 Aucune erreur...[0xa8]Grognement[0xa9]
 Ce sont les bases[0xa8]Grognement[0xa9]
 d'un exercice d'entraînement d'une
-légion à Mahal.[end]L</data>
+légion à Mahal.[end]</data>
     </text>
     <text>
         <refs>
@@ -578,7 +570,7 @@ légion à Mahal.[end]L</data>
 Bonjour [character][0x1]!
  
 Tu ne trouves pas que c'est terrible
-cette réunion pour un premier jour?![end]L</data>
+cette réunion pour un premier jour?![end]</data>
     </text>
     <text>
         <refs>
@@ -586,7 +578,7 @@ cette réunion pour un premier jour?![end]L</data>
         </refs>
         <data>LUKIA:
 Suis-je une héro[0x25]ne?
-J'ai plutôt l'air sévère...[end]M</data>
+J'ai plutôt l'air sévère...[end]</data>
     </text>
     <text>
         <refs>
@@ -594,7 +586,7 @@ J'ai plutôt l'air sévère...[end]M</data>
         </refs>
         <data>MELODIA:
 [character][0x1],va-y!
-Serre-moi dans tes bras![end]M</data>
+Serre-moi dans tes bras![end]</data>
     </text>
     <text>
         <refs>
@@ -602,13 +594,13 @@ Serre-moi dans tes bras![end]M</data>
             <ref>0xe8e</ref>
         </refs>
         <data>Merci,[character][0x1]!
-Merci beaucoup![end]I</data>
+Merci beaucoup![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe3f</ref>
         </refs>
-        <data>Ingrat![end]M</data>
+        <data>Ingrat![end]</data>
     </text>
     <text>
         <refs>
@@ -616,7 +608,7 @@ Merci beaucoup![end]I</data>
         </refs>
         <data>MELODIA:
 Tu es fatigué,[character][0x1]?!
-Porte-moi sur ton dos![end]D</data>
+Porte-moi sur ton dos![end]</data>
     </text>
     <text>
         <refs>
@@ -625,7 +617,7 @@ Porte-moi sur ton dos![end]D</data>
         <data>Derrière moi se trouve la chambre de
 l'héritière de Kana,la Princesse [character][0x1].
 Elle est en ce moment vide.
-Voudrais-tu y jeter un coup d'oeil?[end]Z</data>
+Voudrais-tu y jeter un coup d'oeil?[end]</data>
     </text>
     <text>
         <refs>
@@ -635,7 +627,7 @@ Voudrais-tu y jeter un coup d'oeil?[end]Z</data>
 La cabine du Capitaine se trouve
 bderrière toi.
 La plupart des discussions et des
-décisions y sont traitées.[end]S</data>
+décisions y sont traitées.[end]</data>
     </text>
     <text>
         <refs>
@@ -643,7 +635,7 @@ décisions y sont traitées.[end]S</data>
         </refs>
         <data>Se tient ici une conférence militaire!
 Personne ne doit entrer!
-                      -Matelight-[end]Z</data>
+                      -Matelight-[end]</data>
     </text>
     <text>
         <refs>
@@ -654,7 +646,7 @@ Dans la cabine du Capitaine vit
 Sendack.
 Le Capitaine Sendack est une vieille et
 délicate personne.
-Evite de le brusquer![end]D</data>
+Evite de le brusquer![end]</data>
     </text>
     <text>
         <refs>
@@ -662,7 +654,7 @@ Evite de le brusquer![end]D</data>
         </refs>
         <data>Dès aujourd'hui,nous allons vous
 apprendre les meilleures [0xaa]formations[0xab].
-Donc exercice de [0xaa]formation[0xab]![end]M</data>
+Donc exercice de [0xaa]formation[0xab]![end]</data>
     </text>
     <text>
         <refs>
@@ -670,7 +662,7 @@ Donc exercice de [0xaa]formation[0xab]![end]M</data>
         </refs>
         <data>MATELIGHT:
 Capitaine Commandant,je suis fatigué!
-Expliquez-leur![end]C</data>
+Expliquez-leur![end]</data>
     </text>
     <text>
         <refs>
@@ -678,7 +670,7 @@ Expliquez-leur![end]C</data>
         </refs>
         <data>COMMANDANT:
 Moi?!
-Expliquer les formations?![end]C</data>
+Expliquer les formations?![end]</data>
     </text>
     <text>
         <refs>
@@ -688,7 +680,7 @@ Expliquer les formations?![end]C</data>
 Tout d'abord,il faut éliminer les
 mauvaises [0xaa]formations[0xab].
 Les meilleures [0xaa]formations[0xab] seront
-favorables à l'ensemble de l'équipe.[end]M</data>
+favorables à l'ensemble de l'équipe.[end]</data>
     </text>
     <text>
         <refs>
@@ -696,14 +688,14 @@ favorables à l'ensemble de l'équipe.[end]M</data>
         </refs>
         <data>Modifier la [0xaa]formation[0xab] d'une de tes
 équipes te permet de compenser ses
-points faibles.[end]P</data>
+points faibles.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x136a</ref>
             <ref>0x13e4</ref>
         </refs>
-        <data>Par exemple,cette équipe...[end]C</data>
+        <data>Par exemple,cette équipe...[end]</data>
     </text>
     <text>
         <refs>
@@ -713,7 +705,7 @@ points faibles.[end]P</data>
 nombreuses Armures Lourdes.
  
 Ainsi,elle a une grande défense mais
-se déplace lentement![end]N</data>
+se déplace lentement![end]</data>
     </text>
     <text>
         <refs>
@@ -721,7 +713,7 @@ se déplace lentement![end]N</data>
         </refs>
         <data>Nous avons ajouté une Armure Lumière
 qui se déplace plus loin donc les
-guerriers peuvent aller plus loin![end]S</data>
+guerriers peuvent aller plus loin![end]</data>
     </text>
     <text>
         <refs>
@@ -729,7 +721,7 @@ guerriers peuvent aller plus loin![end]S</data>
         </refs>
         <data>Si une équipe est composée de gens
 de même métier alors le niveau des
-habiletés magiques est augmenté![end]I</data>
+habiletés magiques est augmenté![end]</data>
     </text>
     <text>
         <refs>
@@ -737,27 +729,27 @@ habiletés magiques est augmenté![end]I</data>
         </refs>
         <data>Il y a ici [0xb2] sorcières utilisant la
 magie noire donc leur magie triple
-en puissance![end]T</data>
+en puissance![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x146e</ref>
         </refs>
         <data>Tout va bien,maintenant!
-Je crois enfin en avoir fini![end]D</data>
+Je crois enfin en avoir fini![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1403</ref>
         </refs>
         <data>Disperser les métiers permet d'avoir
-plusieurs caractéristiques.[end]P</data>
+plusieurs caractéristiques.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1415</ref>
         </refs>
-        <data>Prenons cette équipe...[end]C</data>
+        <data>Prenons cette équipe...[end]</data>
     </text>
     <text>
         <refs>
@@ -765,14 +757,14 @@ plusieurs caractéristiques.[end]P</data>
         </refs>
         <data>COMMANDANT:
 As-tu tout compris sur le système de
-[0xaa]formations[0xab]?[end]J</data>
+[0xaa]formations[0xab]?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x149d</ref>
         </refs>
         <data>Jamais je n'aurai cru que j'aurais dû
-faire,un jour,de l'enseignement...[end]S</data>
+faire,un jour,de l'enseignement...[end]</data>
     </text>
     <text>
         <refs>
@@ -780,7 +772,7 @@ faire,un jour,de l'enseignement...[end]S</data>
         </refs>
         <data>Si tu le dis!
 Tu es si intelligent!
-Mais retiens tout...[end]I</data>
+Mais retiens tout...[end]</data>
     </text>
     <text>
         <refs>
@@ -788,14 +780,14 @@ Mais retiens tout...[end]I</data>
         </refs>
         <data>Il est imprudent d'oublier que
 [0xaa]formation[0xab] et [0xaa]dragons[0xab] sont
-complémentaires.[end]S</data>
+complémentaires.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc0d</ref>
         </refs>
         <data>Souvent,Matelight s'entraîne la nuit!
-Il le fait secrètement...[end]J</data>
+Il le fait secrètement...[end]</data>
     </text>
     <text>
         <refs>
@@ -803,14 +795,14 @@ Il le fait secrètement...[end]J</data>
         </refs>
         <data>Je vais aller droit au but!
 Il y a une relation entre la
-[0xaa]formation[0xab] et les [0xaa]dragons[0xab].[end]D</data>
+[0xaa]formation[0xab] et les [0xaa]dragons[0xab].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x15a6</ref>
         </refs>
         <data>DOCTEUR DRAGON:
-Il faut aussi tenir compte des dragons![end]D</data>
+Il faut aussi tenir compte des dragons![end]</data>
     </text>
     <text>
         <refs>
@@ -818,7 +810,7 @@ Il faut aussi tenir compte des dragons![end]D</data>
         </refs>
         <data>DOCTEUR DRAGON:
 Les dragons ont aussi des compétences,
-il suffit que tu les leur apprennes![end]J</data>
+il suffit que tu les leur apprennes![end]</data>
     </text>
     <text>
         <refs>
@@ -830,7 +822,7 @@ chevalier.
 Mais [character][0x1] sera bientôt trop jeune
 pour moi.
  
-J'ai peut-être déjà perdu son coeur.[end]M</data>
+J'ai peut-être déjà perdu son coeur.[end]</data>
     </text>
     <text>
         <refs>
@@ -840,7 +832,7 @@ J'ai peut-être déjà perdu son coeur.[end]M</data>
 Quel beau bateau de guerre pour
 s'entraîner!
 Je vous conseille à tous d'écouter
-attentivement.[end]...</data>
+attentivement.[end]</data>
     </text>
     <text>
         <refs>
@@ -850,7 +842,7 @@ attentivement.[end]...</data>
  
   
 [character][0x1]...
-[0xa8]Marmonnement[0xa9][end]S</data>
+[0xa8]Marmonnement[0xa9][end]</data>
     </text>
     <text>
         <refs>
@@ -859,7 +851,7 @@ attentivement.[end]...</data>
         </refs>
         <data>SENDACK:
 Je suis le Capitaine de ce bateau,
-maintenant...[end]H</data>
+maintenant...[end]</data>
     </text>
     <text>
         <refs>
@@ -867,7 +859,7 @@ maintenant...[end]H</data>
         </refs>
         <data>HORNET:
 Préviens-moi pour le départ,
-et nous nous envolerons![end]H</data>
+et nous nous envolerons![end]</data>
     </text>
     <text>
         <refs>
@@ -877,15 +869,14 @@ et nous nous envolerons![end]H</data>
 Hé,attention!
 
 Tu veux sauter et risquer de
-t'envoler?![end] </data>
+t'envoler?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x18f2</ref>
         </refs>
         <data> Sauter!
- Je ne veux pas m'envoler...[end1]
-</data>
+ Je ne veux pas m'envoler...[end1]</data>
     </text>
     <text>
         <refs>
@@ -894,15 +885,14 @@ t'envoler?![end] </data>
         <data>HORNET:
 Allons-y!
 Tu t'es bien préparé?!
-Que veux-tu faire?[end] </data>
+Que veux-tu faire?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd32</ref>
         </refs>
         <data> Je me prépare.
- Nous pouvons partir.[end1]
-</data>
+ Nous pouvons partir.[end1]</data>
     </text>
     <text>
         <refs>
@@ -913,7 +903,7 @@ Dès que tu es prêt,donne-moi le lieu
 de destination!
 Quoi?!
 Tu ne sais pas où se trouve la
-Princesse [character][0x1]?[end]R</data>
+Princesse [character][0x1]?[end]</data>
     </text>
     <text>
         <refs>
@@ -922,7 +912,7 @@ Princesse [character][0x1]?[end]R</data>
         <data>RUSH:
 Elle est sur le Continent Verdoyant,
 Campbell!
-Allons-y,[character][0x1]![end]T</data>
+Allons-y,[character][0x1]![end]</data>
     </text>
     <text>
         <refs>
@@ -932,7 +922,7 @@ Allons-y,[character][0x1]![end]T</data>
 N'est-ce pas elle que tu as perdu?
 Il faut secourir la Princesse.
 Elle est retenue prisonnière dans un
-fort à Campbell![end]H</data>
+fort à Campbell![end]</data>
     </text>
     <text>
         <refs>
@@ -942,7 +932,7 @@ fort à Campbell![end]H</data>
 Allons-y!
 Tu sais tout,maintenant!
 Prêt!
-Départ de FARENHEIT![end]M</data>
+Départ de FARENHEIT![end]</data>
     </text>
     <text>
         <refs>
@@ -950,7 +940,7 @@ Départ de FARENHEIT![end]M</data>
         </refs>
         <data>MATELIGHT:
 Je te cherche depuis tout à l'heure!
-Dépêche-toi![end]M</data>
+Dépêche-toi![end]</data>
     </text>
     <text>
         <refs>
@@ -958,7 +948,7 @@ Dépêche-toi![end]M</data>
         </refs>
         <data>MATELOT:
 La Princesse [character][0x1] finira bien par
-revenir d'une manière ou d'une autre.[end]F</data>
+revenir d'une manière ou d'une autre.[end]</data>
     </text>
     <text>
         <refs>
@@ -970,7 +960,7 @@ lui mais ce n'est qu'un conseil!
 Certains livres peuvent faire augmenter
 leur intelligence mais jamais leur
 attaque offensive.
-Réfléchis bien à ce que tu feras.[end]C</data>
+Réfléchis bien à ce que tu feras.[end]</data>
     </text>
     <text>
         <refs>
@@ -978,22 +968,21 @@ Réfléchis bien à ce que tu feras.[end]C</data>
         </refs>
         <data>COMMANDANT:
 As-tu déjà entendu parler des
-[0xaa]formations[0xab]?[end] </data>
+[0xaa]formations[0xab]?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x132b</ref>
         </refs>
         <data> Parle-en moi...
- J'y ai déjà été entrainé![end1]
-</data>
+ J'y ai déjà été entrainé![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x15f3</ref>
         </refs>
         <data>Alors,tu dois être capable de créer de
-nombreuses [0xaa]formations raisonnables[0xab].[end] </data>
+nombreuses [0xaa]formations raisonnables[0xab].[end]</data>
     </text>
     <text>
         <refs>
@@ -1001,7 +990,7 @@ nombreuses [0xaa]formations raisonnables[0xab].[end] </data>
         </refs>
         <data> 
             Chapitre [0xb1][0xaf]
-     -Le Ciel de la Tristesse-[end]R</data>
+     -Le Ciel de la Tristesse-[end]</data>
     </text>
     <text>
         <refs>
@@ -1012,7 +1001,7 @@ nombreuses [0xaa]formations raisonnables[0xab].[end] </data>
 Notre nouveau combat va commencer!
 Matelight va nous faire un discours!
 Un jour,
-Nous deviendrons très importants.[end]R</data>
+Nous deviendrons très importants.[end]</data>
     </text>
     <text>
         <refs>
@@ -1020,7 +1009,7 @@ Nous deviendrons très importants.[end]R</data>
         </refs>
         <data>RUSH:
 Capitaine Adjoint?!
-C'est super,[character][0x1]![end]...</data>
+C'est super,[character][0x1]![end]</data>
     </text>
     <text>
         <refs>
@@ -1028,7 +1017,7 @@ C'est super,[character][0x1]![end]...</data>
             <ref>0xf62</ref>
             <ref>0x1004</ref>
         </refs>
-        <data>... ... ... ...[end]T</data>
+        <data>... ... ... ...[end]</data>
     </text>
     <text>
         <refs>
@@ -1042,7 +1031,7 @@ Trafalgar!
   
 La guerre aurait dû se finir contre
 l'Empereur Sauzer,non contre son
-usurpateur.[end]B</data>
+usurpateur.[end]</data>
     </text>
     <text>
         <refs>
@@ -1052,7 +1041,7 @@ usurpateur.[end]B</data>
 son nouveau livre.
  
 Il est écrit sur la page de couverture:
-[0xaa]Théorie sur l'Economie[0xab].[end]B</data>
+[0xaa]Théorie sur l'Economie[0xab].[end]</data>
     </text>
     <text>
         <refs>
@@ -1060,7 +1049,7 @@ Il est écrit sur la page de couverture:
         </refs>
         <data>BARECK:
 La Restauration de Kana...
-Pour... tout le monde![end]S</data>
+Pour... tout le monde![end]</data>
     </text>
     <text>
         <refs>
@@ -1071,7 +1060,7 @@ Je me suis froissé un muscle!
 [0xa8]Grognement[0xa9]
 Hier,Matelight était en colère contre
 tout le monde.
-Mon muscle...[0xa8]Grognement[0xa9][end]D</data>
+Mon muscle...[0xa8]Grognement[0xa9][end]</data>
     </text>
     <text>
         <refs>
@@ -1082,7 +1071,7 @@ Ce à quoi je pense?
 Oh,je ne pense à rien!
 Vendre contre de l'argent la magie
 pourrait calmer Matelight une fois
-pour toutes![end]A</data>
+pour toutes![end]</data>
     </text>
     <text>
         <refs>
@@ -1093,7 +1082,7 @@ Si la nuit dernière,le Feu d'Artifice
 avait été fait par une sorcière,
 il aurait été plus beau que du cristal!
 J'en suis certaine!
-Veux-tu parler à Ekaterina?[end]E</data>
+Veux-tu parler à Ekaterina?[end]</data>
     </text>
     <text>
         <refs>
@@ -1103,7 +1092,7 @@ Veux-tu parler à Ekaterina?[end]E</data>
 Ah... euh...
 Et bien...
 As... as-tu remarqué?
-Ici,il n'y a pas de bave de dragon.[end]F</data>
+Ici,il n'y a pas de bave de dragon.[end]</data>
     </text>
     <text>
         <refs>
@@ -1112,7 +1101,7 @@ Ici,il n'y a pas de bave de dragon.[end]F</data>
         <data>FREDERIKA:
 La plupart des amis intimes auront un
 avenir commun...
-Peut-être en couple,qui peut savoir?[end] </data>
+Peut-être en couple,qui peut savoir?[end]</data>
     </text>
     <text>
         <refs>
@@ -1122,7 +1111,7 @@ Peut-être en couple,qui peut savoir?[end] </data>
             se repose.
  
      Personne ne doit entrer!
-                          -Zora-[end]C</data>
+                          -Zora-[end]</data>
     </text>
     <text>
         <refs>
@@ -1140,14 +1129,14 @@ l'on apelle les souvenirs.
 Je pressens un nouveau mariage dans
 l'air.
  
-Huhuhuhuhu![end]E</data>
+Huhuhuhuhu![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1147</ref>
         </refs>
         <data>Est-ce que tu voudrais acheter
-quelques livres?[end]P</data>
+quelques livres?[end]</data>
     </text>
     <text>
         <refs>
@@ -1157,7 +1146,7 @@ quelques livres?[end]P</data>
 Je suis l'un des principaux membres
 des Rebelles.
 [0xa8]Mais qui ne sert très vite plus à
- rien.[0xa9][end]C</data>
+ rien.[0xa9][end]</data>
     </text>
     <text>
         <refs>
@@ -1167,7 +1156,7 @@ des Rebelles.
 Oh,j'étais dans les nuages...
 Je ne dois plus être utile.
 Matelight m'a dégradé et je ne suis
-plus que le No [0xb2].[end]H</data>
+plus que le No [0xb2].[end]</data>
     </text>
     <text>
         <refs>
@@ -1175,14 +1164,14 @@ plus que le No [0xb2].[end]H</data>
         </refs>
         <data>HORNET:
 Etre père...
-[0xa8]Grand sourire[0xa9][end]H</data>
+[0xa8]Grand sourire[0xa9][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x18ee</ref>
         </refs>
         <data>HORNET:
-Tu veux voler?![end]H</data>
+Tu veux voler?![end]</data>
     </text>
     <text>
         <refs>
@@ -1190,7 +1179,7 @@ Tu veux voler?![end]H</data>
         </refs>
         <data>HORNET:
 Avoir un enfant...
-[0xa8]Génial[0xa9][end]H</data>
+[0xa8]Génial[0xa9][end]</data>
     </text>
     <text>
         <refs>
@@ -1198,14 +1187,14 @@ Avoir un enfant...
         </refs>
         <data>HORNET:
 Dès que tu es prêt à aller combattre,
-appuie sur l'un des boutons![end]H</data>
+appuie sur l'un des boutons![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1740</ref>
         </refs>
         <data>HORNET:
-Tu as perdu quelque chose?[end]P</data>
+Tu as perdu quelque chose?[end]</data>
     </text>
     <text>
         <refs>
@@ -1213,7 +1202,7 @@ Tu as perdu quelque chose?[end]P</data>
         </refs>
         <data>PALPALEOS:
 Matelight doit vous parler!
-Soyez tous calme![end]M</data>
+Soyez tous calme![end]</data>
     </text>
     <text>
         <refs>
@@ -1222,7 +1211,7 @@ Soyez tous calme![end]M</data>
         <data>MATELIGHT:
 Je sais,
 tout le monde est plus ou moins las!
-Mais la guerre n'est pas encore finie![end]M</data>
+Mais la guerre n'est pas encore finie![end]</data>
     </text>
     <text>
         <refs>
@@ -1233,7 +1222,7 @@ Ecoutez-moi!
  
 Le Capitaine Sendack se sent mieux.
 Toutefois,il ne se sent plus apte à
-nous diriger.[end]J</data>
+nous diriger.[end]</data>
     </text>
     <text>
         <refs>
@@ -1244,7 +1233,7 @@ propre main!
  
 Au cas où il mourrait,ce sont ses
 dernières volontés...
-Lisons-le![end]S</data>
+Lisons-le![end]</data>
     </text>
     <text>
         <refs>
@@ -1253,7 +1242,7 @@ Lisons-le![end]S</data>
         <data>SENDACK:
 Etant donné mon état de santé,
 [character][0x1] sera mon Capitaine Adjoint.
-Mais voici le plus important![end]S</data>
+Mais voici le plus important![end]</data>
     </text>
     <text>
         <refs>
@@ -1262,14 +1251,14 @@ Mais voici le plus important![end]S</data>
         <data>Si je venais à mourir,j'ai décidé que
 [character][0x1] aurait les pleins pouvoirs et
 serait le seul successeur du Capitaine
-de ce vaisseau![end][character][0x1]</data>
+de ce vaisseau![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x281</ref>
         </refs>
         <data>[character][0x1],tu es maintenant le Capitaine
-Adjoint,alors fais de ton mieux.[end]A</data>
+Adjoint,alors fais de ton mieux.[end]</data>
     </text>
     <text>
         <refs>
@@ -1282,20 +1271,20 @@ Il vous faut aussi savoir que Sendack
 participera sûrement à la prochaine
 bataille!
 Faites en sorte qu'il puisse êtes fier
-de vous![end]G</data>
+de vous![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5a1</ref>
         </refs>
-        <data>Général Palpaleos,restez ici![end]V</data>
+        <data>Général Palpaleos,restez ici![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x167e</ref>
         </refs>
         <data>Voici l'écran de pilotage!
-Quel bouton vas-tu actionner?[end] </data>
+Quel bouton vas-tu actionner?[end]</data>
     </text>
     <text>
         <refs>
@@ -1303,8 +1292,7 @@ Quel bouton vas-tu actionner?[end] </data>
         </refs>
         <data> Alarme!
  Départ!
- Spécial Hornet![end1]
-</data>
+ Spécial Hornet![end1]</data>
     </text>
     <text>
         <refs>
@@ -1314,14 +1302,14 @@ Quel bouton vas-tu actionner?[end] </data>
 Nous avons déjà combattu pour la
 Restauration de Kana!
 Et maintenant,nous allons nous battre
-pour Orelus![end]C</data>
+pour Orelus![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1792</ref>
         </refs>
         <data>COMMANDANT:
-Pas si vite,Matelight![end]M</data>
+Pas si vite,Matelight![end]</data>
     </text>
     <text>
         <refs>
@@ -1332,7 +1320,7 @@ Commandant!
  
 L'honneur revient à une seule
 personne:
-le Général Palpaleos.[end]C</data>
+le Général Palpaleos.[end]</data>
     </text>
     <text>
         <refs>
@@ -1340,14 +1328,14 @@ le Général Palpaleos.[end]C</data>
         </refs>
         <data>COMMANDANT:
 Matelight!
-Et moi?![end]M</data>
+Et moi?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x180d</ref>
         </refs>
         <data>MATELIGHT:
-A vous,Général Palpaleos![end]O</data>
+A vous,Général Palpaleos![end]</data>
     </text>
     <text>
         <refs>
@@ -1355,7 +1343,7 @@ A vous,Général Palpaleos![end]O</data>
         </refs>
         <data>Oooooooooh!
 Le Drapeau de l'Armée de Libération
-d'Orelus![end]M</data>
+d'Orelus![end]</data>
     </text>
     <text>
         <refs>
@@ -1363,7 +1351,7 @@ d'Orelus![end]M</data>
         </refs>
         <data>MATELIGHT:
 Nous devons aller sur le Fort de
-l'Empire![end]O</data>
+l'Empire![end]</data>
     </text>
     <text>
         <refs>

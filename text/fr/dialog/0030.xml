@@ -7,14 +7,14 @@
         <data>TAURUS:
 Les forces de Granbelos sont trop
 puissantes!
-Nous devrions battre en retraite...[end]M</data>
+Nous devrions battre en retraite...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3f8</ref>
         </refs>
         <data>MIST:
-[character][0x1],arrête Matelight...[end]R</data>
+[character][0x1],arrête Matelight...[end]</data>
     </text>
     <text>
         <refs>
@@ -23,14 +23,14 @@ Nous devrions battre en retraite...[end]M</data>
         <data>RUSH:
 Les Commandants de l'Empire sont si
 forts...
-Je... n'avais jamais... eu si peur![end]S</data>
+Je... n'avais jamais... eu si peur![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3cb</ref>
         </refs>
         <data>SENDACK:
-La Princesse [character][0x1]![end]S</data>
+La Princesse [character][0x1]![end]</data>
     </text>
     <text>
         <refs>
@@ -43,7 +43,7 @@ Aurait-elle des pouvoirs plus puissants
 que ceux du Dragon Sacré Bahamut?!
  
 Ou est-ce simplement une légende,
-Roi de Kana?[end]S</data>
+Roi de Kana?[end]</data>
     </text>
     <text>
         <refs>
@@ -51,14 +51,14 @@ Roi de Kana?[end]S</data>
         </refs>
         <data>SAUZER:
 Nous allons prendre la Princesse de
-Kana avec nous![end] </data>
+Kana avec nous![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x553</ref>
         </refs>
         <data>                   [character][0x1]!
-                   Matelight![end]P</data>
+                   Matelight![end]</data>
     </text>
     <text>
         <refs>
@@ -68,7 +68,7 @@ Kana avec nous![end] </data>
 ...?!
  
 [character][0x1],le Chef de l'Escadron Dragon
-de Kana?![end]R</data>
+de Kana?![end]</data>
     </text>
     <text>
         <refs>
@@ -78,7 +78,7 @@ de Kana?![end]R</data>
 La Légende!
  
 Comment se fait-il que tu la
-connaisses?[end]S</data>
+connaisses?[end]</data>
     </text>
     <text>
         <refs>
@@ -89,14 +89,14 @@ Sachez,Roi de Kana,que seules les
 époques choisissent la personne qui
 les dirigera!
 J'ai été moi-même choisi et je suis
-l'élu![end]R</data>
+l'élu![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x604</ref>
         </refs>
         <data>ROI DE KANA:
-Tu sembles te surestimer Sauzer![end]L</data>
+Tu sembles te surestimer Sauzer![end]</data>
     </text>
     <text>
         <refs>
@@ -104,7 +104,7 @@ Tu sembles te surestimer Sauzer![end]L</data>
         </refs>
         <data>Le Dragon Sacré ne se réveillera pas!
 Et nous ne te laisserons pas avoir son
-pouvoir![end]S</data>
+pouvoir![end]</data>
     </text>
     <text>
         <refs>
@@ -120,7 +120,7 @@ Cependant,d'ici là,le monde entier
 sera à moi!
  
 Dès aujourd'hui,une nouvelle ère
-commence![end] </data>
+commence![end]</data>
     </text>
     <text>
         <refs>
@@ -131,6 +131,6 @@ commence![end] </data>
  
        Ainsi prit fin une ère...
     Et une nouvelle période de
-         l'Histoire commença...[end][0x0]</data>
+         l'Histoire commença...[end]</data>
     </text>
 </texts>

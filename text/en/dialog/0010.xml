@@ -5,109 +5,109 @@
             <ref>0x70</ref>
         </refs>
         <data>               Chapter 10
-             Rainbow Bridge[end1] </data>
+             Rainbow Bridge[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x8c</ref>
         </refs>
-        <data>    Mahal, the continent of miracles...[end1] </data>
+        <data>    Mahal, the continent of miracles...[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x92</ref>
         </refs>
         <data>        Nobody knows how Mahal
-         came to be called this...[end1] </data>
+         came to be called this...[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x98</ref>
         </refs>
         <data>       With weather always nice...
-           And a large lake...[end1] </data>
+           And a large lake...[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x9e</ref>
         </refs>
         <data>         There resides a people
-      whose hearts are very pure...[end1] </data>
+      whose hearts are very pure...[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xa4</ref>
         </refs>
         <data>          Within Orelus, where
-          many lagoons float...[end1] </data>
+          many lagoons float...[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xaa</ref>
         </refs>
         <data>     Perhaps people call it a miracle
-    because of its unrivaled beauty...[end1] </data>
+    because of its unrivaled beauty...[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xc9</ref>
         </refs>
         <data> The bridge where rainbows appear...
- Also known as the Rainbow Bridge...[end1]D</data>
+ Also known as the Rainbow Bridge...[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xcf</ref>
         </refs>
         <data>Day and night, men and women flock to
- this most famous tourist site in Mahal.[end1] </data>
+ this most famous tourist site in Mahal.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xda</ref>
         </refs>
         <data>   Those who see the rainbows from
-  here will have any wish come true...[end1] </data>
+  here will have any wish come true...[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xe0</ref>
         </refs>
         <data>       However, nobody has been
-    heard to have seen the rainbows.[end1]M</data>
+    heard to have seen the rainbows.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x20e</ref>
         </refs>
-        <data>Matelite: Hey! Is anybody here?[end]A</data>
+        <data>Matelite: Hey! Is anybody here?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x21e</ref>
         </refs>
         <data>Anybody here? If somebody's here,
-say something![end]N</data>
+say something![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x23e</ref>
         </refs>
         <data>No good! Nobody's here! This place was
-attacked by the Empire too![end]L</data>
+attacked by the Empire too![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x255</ref>
         </refs>
-        <data>Lukia: ...! That's...[end]M</data>
+        <data>Lukia: ...! That's...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x26c</ref>
         </refs>
         <data>Matelite: Damn the Empire! Why did they
-do this?![end]S</data>
+do this?![end]</data>
     </text>
     <text>
         <refs>
@@ -115,7 +115,7 @@ do this?![end]S</data>
         </refs>
         <data>Sendak: Hmm... where is Taicho?
 I feel uneasy... it must be my old man
-sense...[end]M</data>
+sense...[end]</data>
     </text>
     <text>
         <refs>
@@ -125,7 +125,7 @@ sense...[end]M</data>
 Taicho!
 
 [character][0x1], you look around the area
-one more time![end]S</data>
+one more time![end]</data>
     </text>
     <text>
         <refs>
@@ -134,32 +134,32 @@ one more time![end]S</data>
         <data>Sendak: It is so cold... I think I am
 coming down with something...
 
-Will we attack?[end] </data>
+Will we attack?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x418</ref>
         </refs>
         <data>  Wait
-  Attack[end1]L</data>
+  Attack[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x523</ref>
         </refs>
-        <data>Lukia: There's nobody here...![end]D</data>
+        <data>Lukia: There's nobody here...![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x530</ref>
         </refs>
-        <data>Donfan: So these are dragons...!! Wow![end]B</data>
+        <data>Donfan: So these are dragons...!! Wow![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x53a</ref>
         </refs>
-        <data>Battlefield Salesman: Hello![end] </data>
+        <data>Battlefield Salesman: Hello![end]</data>
     </text>
     <text>
         <refs>
@@ -167,50 +167,50 @@ Will we attack?[end] </data>
         </refs>
         <data>  Weapons
   Armor
-  Items[end1]T</data>
+  Items[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x5a4</ref>
         </refs>
-        <data>Thank you very much.[end]Y</data>
+        <data>Thank you very much.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6ab</ref>
         </refs>
-        <data>You got a Nimbus Robe.[end]Y</data>
+        <data>You got a Nimbus Robe.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6c2</ref>
         </refs>
-        <data>You got a Guardian.[end]Y</data>
+        <data>You got a Guardian.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6df</ref>
         </refs>
-        <data>You got 6 Earth Grasses.[end]Y</data>
+        <data>You got 6 Earth Grasses.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6fa</ref>
         </refs>
-        <data>You got 5 Sweet Wines.[end]D</data>
+        <data>You got 5 Sweet Wines.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x751</ref>
         </refs>
         <data>Donfan: The Resistance...?
-Lukia...? Is that Lukia?![end]L</data>
+Lukia...? Is that Lukia?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x764</ref>
         </refs>
-        <data>Lukia: Donfan! Are you alright?[end]D</data>
+        <data>Lukia: Donfan! Are you alright?[end]</data>
     </text>
     <text>
         <refs>
@@ -218,7 +218,7 @@ Lukia...? Is that Lukia?![end]L</data>
         </refs>
         <data>Donfan: Why?! Why did you come back
 to Mahal? I had completely forgotten
-all of our memories together.[end]L</data>
+all of our memories together.[end]</data>
     </text>
     <text>
         <refs>
@@ -226,14 +226,14 @@ all of our memories together.[end]L</data>
         </refs>
         <data>Lukia: Donfan... we'll talk later, okay?
 Right now we need as much help as we
-can get! Help us defeat the Empire![end]D</data>
+can get! Help us defeat the Empire![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x78d</ref>
         </refs>
         <data>Donfan: ...Am I wrong, Lukia?
-You weren't able to forget about me...[end]B</data>
+You weren't able to forget about me...[end]</data>
     </text>
     <text>
         <refs>
@@ -241,7 +241,7 @@ You weren't able to forget about me...[end]B</data>
         </refs>
         <data>But you just wanted to watch over me
 from the shadows... You wanted to see
-my face once more...[end]Y</data>
+my face once more...[end]</data>
     </text>
     <text>
         <refs>
@@ -255,14 +255,14 @@ To see him once more... Am I wrong?
 
 Even looking like this, I... Inside your
 heart... I can read your mind as if I
-were looking through stained glass.[end]L</data>
+were looking through stained glass.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7b7</ref>
         </refs>
         <data>Lukia: No!! Donfan! Listen to what I'm
-saying...[end]D</data>
+saying...[end]</data>
     </text>
     <text>
         <refs>
@@ -272,27 +272,27 @@ saying...[end]D</data>
 and say it was because you were
 embarrassed.
 Moreover, I do not intend to deny the
-truth that has appeared inside you.[end]L</data>
+truth that has appeared inside you.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7d1</ref>
         </refs>
         <data>Lukia: What are you talking about?!
-It's nothing like that![end]D</data>
+It's nothing like that![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7df</ref>
         </refs>
-        <data>Donfan: Look at the lake of Mahal...[end]D</data>
+        <data>Donfan: Look at the lake of Mahal...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7e5</ref>
         </refs>
         <data>Donfan: I've been staring at this lake
-all this time...[end]Y</data>
+all this time...[end]</data>
     </text>
     <text>
         <refs>
@@ -300,14 +300,14 @@ all this time...[end]Y</data>
         </refs>
         <data>Yes... Lukia...
 While thinking of your face I would
-stare at this lake.[end]L</data>
+stare at this lake.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7fd</ref>
         </refs>
         <data>Lukia: You don't get it do you...
-Long ago... Your...[end]D</data>
+Long ago... Your...[end]</data>
     </text>
     <text>
         <refs>
@@ -317,95 +317,95 @@ Long ago... Your...[end]D</data>
 would gaze at the water's surface and
 smile like you do. Yes, like this...
 Then... I would silently whisper,
-[0x24]Lukia... This is for you only...[0x22][end]W</data>
+[0x24]Lukia... This is for you only...[0x22][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x85d</ref>
         </refs>
-        <data>Where are you now?[end]W</data>
+        <data>Where are you now?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x865</ref>
         </refs>
-        <data>What are you doing now?[end]A</data>
+        <data>What are you doing now?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x877</ref>
         </refs>
-        <data>Are you okay?[end]I</data>
+        <data>Are you okay?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x87f</ref>
         </refs>
-        <data>I am doing fine...[end]T</data>
+        <data>I am doing fine...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x88c</ref>
         </refs>
-        <data>The inside of my heart[end]I</data>
+        <data>The inside of my heart[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x890</ref>
         </refs>
-        <data>Is blue like this lake,[end]B</data>
+        <data>Is blue like this lake,[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8a3</ref>
         </refs>
-        <data>But without ever forgetting your face,[end]I</data>
+        <data>But without ever forgetting your face,[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8a7</ref>
         </refs>
-        <data>I lived each day all alone...[end]L</data>
+        <data>I lived each day all alone...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x909</ref>
         </refs>
-        <data>Lukia: Stupid![end]D</data>
+        <data>Lukia: Stupid![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x914</ref>
             <ref>0xaf6</ref>
         </refs>
-        <data>Donfan: Ahh! No! Why!![end]U</data>
+        <data>Donfan: Ahh! No! Why!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x940</ref>
         </refs>
         <data>Uh... You, traveler, could you maybe...
-I'm very sorry, but could you help me?[end]W</data>
+I'm very sorry, but could you help me?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x949</ref>
         </refs>
-        <data>Will you help Donfan?[end] </data>
+        <data>Will you help Donfan?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x94d</ref>
         </refs>
         <data>  Yes
-  No[end1]D</data>
+  No[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x95a</ref>
             <ref>0xb44</ref>
         </refs>
-        <data>Donfan: No! Don't leave me alone!![end]D</data>
+        <data>Donfan: No! Don't leave me alone!![end]</data>
     </text>
     <text>
         <refs>
@@ -413,28 +413,28 @@ I'm very sorry, but could you help me?[end]W</data>
         </refs>
         <data>Donfan: [0x2a]cough[0x2a] [0x2a]cough[0x2a] Thanks...
 Thanks for saving me. I don't even
-know your name...[end]Y</data>
+know your name...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x983</ref>
         </refs>
         <data>You! You're [character][0x1], captain of
-Kahna's Dragon Squad, aren't you?![end]I</data>
+Kahna's Dragon Squad, aren't you?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x989</ref>
         </refs>
         <data>I heard lots of stories about you long
-ago.[end]I</data>
+ago.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x997</ref>
         </refs>
         <data>I am Donfan of Mahal. People call me
-the pure-hearted and serious Donfan.[end]I</data>
+the pure-hearted and serious Donfan.[end]</data>
     </text>
     <text>
         <refs>
@@ -442,40 +442,40 @@ the pure-hearted and serious Donfan.[end]I</data>
         </refs>
         <data>I don't intentionally try to be serious,
 but I seem to appear that way around
-people.[end]I</data>
+people.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9aa</ref>
         </refs>
         <data>I also heard that Taicho is a part of
-the Resistance.[end]S</data>
+the Resistance.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9bb</ref>
         </refs>
-        <data>Such is the way of the world...[end]I</data>
+        <data>Such is the way of the world...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9d6</ref>
         </refs>
         <data>I, Donfan, would also like to join your
-party.[end] </data>
+party.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9e3</ref>
         </refs>
         <data>  Okay, okay.
-  We don't need you.[end1]D</data>
+  We don't need you.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x9f0</ref>
         </refs>
-        <data>Donfan: I see... [0x2a]sniff[0x2a][end]D</data>
+        <data>Donfan: I see... [0x2a]sniff[0x2a][end]</data>
     </text>
     <text>
         <refs>
@@ -484,13 +484,13 @@ party.[end] </data>
         <data>Donfan: Really? Do you really need my
 help? Then you've chosen the right
 man for the job.
-I think I might be useful to you.[end]J</data>
+I think I might be useful to you.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa20</ref>
         </refs>
-        <data>Jeanne: Donfan![end]D</data>
+        <data>Jeanne: Donfan![end]</data>
     </text>
     <text>
         <refs>
@@ -498,21 +498,21 @@ I think I might be useful to you.[end]J</data>
         </refs>
         <data>Donfan: Well if it isn't the Light Armor
 soldier, Jeanne! How are you doing?
-Hmm... Are you busy today?![end]J</data>
+Hmm... Are you busy today?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa64</ref>
         </refs>
         <data>Jeanne: I don't have time for your
-girl-hunting antics![end]B</data>
+girl-hunting antics![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa70</ref>
         </refs>
         <data>But never mind that! Taicho has gone
-into Lestat's moldy old palace![end]D</data>
+into Lestat's moldy old palace![end]</data>
     </text>
     <text>
         <refs>
@@ -520,21 +520,21 @@ into Lestat's moldy old palace![end]D</data>
         </refs>
         <data>Donfan: Lestat...? The Empire...? Heh...
 With me in your party you needn't be
-afraid of the Empire.[end]J</data>
+afraid of the Empire.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa8c</ref>
         </refs>
         <data>Jeanne: What are you talking about?!
-This isn't a joke![end]M</data>
+This isn't a joke![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa93</ref>
         </refs>
         <data>Matelite of Kahna has somehow calmed
-down for now, but we must hurry![end]D</data>
+down for now, but we must hurry![end]</data>
     </text>
     <text>
         <refs>
@@ -542,54 +542,54 @@ down for now, but we must hurry![end]D</data>
         </refs>
         <data>Donfan: Are you kidding?! Jeanne...
 I don't blame you for wanting to see
-my face.[end]R</data>
+my face.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xaaf</ref>
         </refs>
-        <data>Right? Because I'm inside your heart...[end]I</data>
+        <data>Right? Because I'm inside your heart...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xab3</ref>
         </refs>
         <data>I can read your mind like I was looking
-through stained glass.[end]J</data>
+through stained glass.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xaf0</ref>
         </refs>
         <data>Jeanne: Shut up! I don't want to hear
-that line from you![end]J</data>
+that line from you![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb08</ref>
         </refs>
         <data>Jeanne: We'll go first and wait for you!
-When you're ready, meet up with us![end]D</data>
+When you're ready, meet up with us![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb2d</ref>
         </refs>
         <data>Donfan: Um... Captain [character][0x1]!
-Could you help me once again?[end]W</data>
+Could you help me once again?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb33</ref>
         </refs>
-        <data>Will you help Donfan?[end] </data>
+        <data>Will you help Donfan?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb37</ref>
         </refs>
         <data>  Okay.
-  No way![end1]D</data>
+  No way![end1]</data>
     </text>
     <text>
         <refs>
@@ -597,7 +597,7 @@ Could you help me once again?[end]W</data>
         </refs>
         <data>Donfan: Jeanne is really cute. She's
 just shy... It's tough being a popular
-guy.[end]O</data>
+guy.[end]</data>
     </text>
     <text>
         <refs>

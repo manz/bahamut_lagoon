@@ -6,21 +6,20 @@
             <ref>0x52e</ref>
         </refs>
         <data> Oui
- Non[end1]
-</data>
+ Non[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x25a</ref>
         </refs>
         <data>Grand-mère,demain,j'irai au Harem.
-J'en suis enchanté...[end]C</data>
+J'en suis enchanté...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x261</ref>
         </refs>
-        <data>Ce n'est pas bien,grand-père![end]G</data>
+        <data>Ce n'est pas bien,grand-père![end]</data>
     </text>
     <text>
         <refs>
@@ -28,14 +27,14 @@ J'en suis enchanté...[end]C</data>
         </refs>
         <data>Grrrrr...
 [0xa8]Il vaut mieux le laisser ou
- il va faire une crise.[0xa9][end]L</data>
+ il va faire une crise.[0xa9][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x276</ref>
         </refs>
         <data>Les enfants sont seuls...
-Partez,leur mère n'est pas là...[end]L</data>
+Partez,leur mère n'est pas là...[end]</data>
     </text>
     <text>
         <refs>
@@ -45,7 +44,7 @@ Partez,leur mère n'est pas là...[end]L</data>
 mais ils ont reformé le Harem du Roi.
 Maman est au Harem!
 Si tu veux,tu peux prendre son
-porte-bonheur dans l'armoire.[end]A</data>
+porte-bonheur dans l'armoire.[end]</data>
     </text>
     <text>
         <refs>
@@ -56,14 +55,14 @@ Kana!
  
 Lorsque je porte une fausse moustache
 et un manteau royal,je lui ressemble
-beaucoup.[end]U</data>
+beaucoup.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x44b</ref>
         </refs>
         <data>Une véritable révolution ne peut avoir
-lieu qu'avec l'union du peuple.[end]P</data>
+lieu qu'avec l'union du peuple.[end]</data>
     </text>
     <text>
         <refs>
@@ -71,7 +70,7 @@ lieu qu'avec l'union du peuple.[end]P</data>
         </refs>
         <data>Peu de succès,pas de succès!
 Pourquoi n'ai-je aucun succès?
-C'est la vie,jeune homme![end]J</data>
+C'est la vie,jeune homme![end]</data>
     </text>
     <text>
         <refs>
@@ -79,7 +78,7 @@ C'est la vie,jeune homme![end]J</data>
         </refs>
         <data>Je ne sais pas très bien ce que c'est
 mais je veux y participer.
-C'est comme ça,jeune homme![end]S</data>
+C'est comme ça,jeune homme![end]</data>
     </text>
     <text>
         <refs>
@@ -89,7 +88,7 @@ C'est comme ça,jeune homme![end]S</data>
 révolution,nous n'aurons pas de
 lendemain à Dafira.
 Et sans jeunes filles,pas de lendemain
-non plus![end]L</data>
+non plus![end]</data>
     </text>
     <text>
         <refs>
@@ -97,15 +96,14 @@ non plus![end]L</data>
         </refs>
         <data>LIBERO:
 C'est embarrassant...
-Vraiment...[end] </data>
+Vraiment...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x28a</ref>
         </refs>
         <data> Lui parler...
- Se joindre à eux![end1]
-</data>
+ Se joindre à eux![end1]</data>
     </text>
     <text>
         <refs>
@@ -122,7 +120,7 @@ Que veux-tu faire... toi?
 Qui pourrait être le leader de cette
 armée?
 Ca te dirait de devenir notre
-leader?[end]L</data>
+leader?[end]</data>
     </text>
     <text>
         <refs>
@@ -130,15 +128,14 @@ leader?[end]L</data>
         </refs>
         <data>Le Roi se dit protégé par le Dragon
 Sacré Jormungand mais la révolution
-prouvera le contraire.[end] </data>
+prouvera le contraire.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2a8</ref>
         </refs>
         <data> Pourquoi aurais-je confiance?
- Je vous rejoins![end1]
-</data>
+ Je vous rejoins![end1]</data>
     </text>
     <text>
         <refs>
@@ -155,14 +152,14 @@ Quels sont les buts de notre Révolution?
   
 Cette Révolution a pour but l'avènement
 d'une nouvelle ère pour les hommes et
-les femmes de Dafira.[end]L</data>
+les femmes de Dafira.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2c7</ref>
         </refs>
         <data>LIBERO:
-As-tu pris une résolution?[end]I</data>
+As-tu pris une résolution?[end]</data>
     </text>
     <text>
         <refs>
@@ -176,15 +173,14 @@ Nous mettrons notre plan à éxécution,
 ce soir!
  
 Cette nuit se sera l'avènement de la
-Renaissance de Dafira.[end] </data>
+Renaissance de Dafira.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2cb</ref>
         </refs>
         <data> Errer un peu en ville.
- Attendre la nuit.[end1]
-</data>
+ Attendre la nuit.[end1]</data>
     </text>
     <text>
         <refs>
@@ -192,14 +188,14 @@ Renaissance de Dafira.[end] </data>
         </refs>
         <data>Je ne me fais aucun souci,les assassins
 seront ce soir au rendez-vous.
-Mais où sont-ils,ces deux-là?[end]H</data>
+Mais où sont-ils,ces deux-là?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x333</ref>
         </refs>
         <data>Hé! Partenaire!
-Tu m'as trouvé![end]Z</data>
+Tu m'as trouvé![end]</data>
     </text>
     <text>
         <refs>
@@ -209,7 +205,7 @@ Tu m'as trouvé![end]Z</data>
 Le Leader des Rebelles!
 Voudrais-tu nous embaucher?
 Tu peux nous payer en différé.
-En [0xb0][0xb4] fois grand maximum,ok?[end]Z</data>
+En [0xb0][0xb4] fois grand maximum,ok?[end]</data>
     </text>
     <text>
         <refs>
@@ -219,7 +215,7 @@ En [0xb0][0xb4] fois grand maximum,ok?[end]Z</data>
 Maman,excuse-moi pour tout les soucis
 que je te cause.
 Dès que mon travail sera fini,je crois
-que je n'aurai plus rien à faire.[end]S</data>
+que je n'aurai plus rien à faire.[end]</data>
     </text>
     <text>
         <refs>
@@ -229,7 +225,7 @@ que je n'aurai plus rien à faire.[end]S</data>
 Personne n'est encore venu me
 chercher.
 Je suis venu tout seul et c'est ici
-que je m'entraîne.[end]S</data>
+que je m'entraîne.[end]</data>
     </text>
     <text>
         <refs>
@@ -243,28 +239,27 @@ nous reproche souvent.
  
 A la base,tu peux disposer de nos
 services au niveau [0xb1] ou nous engager
-avec l'Option tant de Po par tête.[end]L</data>
+avec l'Option tant de Po par tête.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x39a</ref>
         </refs>
-        <data>Les employer?[end] </data>
+        <data>Les employer?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x39e</ref>
         </refs>
         <data> En différé.
- Option [0xa8][0xb2][0xaf][0xaf][0xaf] Po par tête[0xa9].[end1]
-</data>
+ Option [0xa8][0xb2][0xaf][0xaf][0xaf] Po par tête[0xa9].[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x3ac</ref>
         </refs>
         <data>Tu pourras choisir cette option en bas
-de ton menu.[end] </data>
+de ton menu.[end]</data>
     </text>
     <text>
         <refs>
@@ -272,14 +267,13 @@ de ton menu.[end] </data>
         </refs>
         <data> Sombre Meutre de Matelight.
  Meurtre de [character][0x1].
- Meurtre d'un matelot.[end1]
-</data>
+ Meurtre d'un matelot.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x3d7</ref>
         </refs>
-        <data>Merci,tu en bénéficieras.[end]Z</data>
+        <data>Merci,tu en bénéficieras.[end]</data>
     </text>
     <text>
         <refs>
@@ -287,13 +281,13 @@ de ton menu.[end] </data>
         </refs>
         <data>ZEROSHIN:
 Je suis occupé,tu me permets d'avoir
-un peu d'intimité?![end]U</data>
+un peu d'intimité?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3a6</ref>
         </refs>
-        <data>Un meurtre![end]S</data>
+        <data>Un meurtre![end]</data>
     </text>
     <text>
         <refs>
@@ -302,13 +296,13 @@ un peu d'intimité?![end]U</data>
         <data>SAJIN:
 Un peu d'entraînement pourra
 t'encourager!
-Mais maintenant,où se cacher?![end] </data>
+Mais maintenant,où se cacher?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x303</ref>
         </refs>
-        <data>          Vint alors la nuit...[end]T</data>
+        <data>          Vint alors la nuit...[end]</data>
     </text>
     <text>
         <refs>
@@ -316,7 +310,7 @@ Mais maintenant,où se cacher?![end] </data>
         </refs>
         <data>Terrine,j'ai pour toi des présents.
 Ainsi,je tiens ma promesse et je vais
-donc te remplir.[end]T</data>
+donc te remplir.[end]</data>
     </text>
     <text>
         <refs>
@@ -327,14 +321,14 @@ militaires ont oublié quelque chose
 lorsqu'ils partirent!
 Terrine...
 O Terrine...
-Quelle tristessssssse![end]T</data>
+Quelle tristessssssse![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1dd</ref>
             <ref>0x206</ref>
         </refs>
-        <data>Terrine...[end]C</data>
+        <data>Terrine...[end]</data>
     </text>
     <text>
         <refs>
@@ -343,14 +337,14 @@ Quelle tristessssssse![end]T</data>
         <data>C'est la maison de mon fils.
 Il faisait croire qu'il était un Rebelle.
 Il a sauvé de très nombreuses choses
-dans ses jarres.[end]O</data>
+dans ses jarres.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4b5</ref>
         </refs>
         <data>Obtenu [0xaa]CHOSE SUR L'ETAGERE[0xab].
-Il y a en [0xb0][0xb0].[end]I</data>
+Il y a en [0xb0][0xb0].[end]</data>
     </text>
     <text>
         <refs>
@@ -358,37 +352,37 @@ Il y a en [0xb0][0xb0].[end]I</data>
             <ref>0x55e</ref>
         </refs>
         <data>Il y a [0xb2][0xaf][0xaf][0xaf] Po dans le pot.
-Vas-tu les voler?[end] </data>
+Vas-tu les voler?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x540</ref>
         </refs>
-        <data> Les prendre la nuit puis s'enfuir...[end] </data>
+        <data> Les prendre la nuit puis s'enfuir...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x54a</ref>
         </refs>
-        <data> Laissons faire le hasard...[end]O</data>
+        <data> Laissons faire le hasard...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x517</ref>
         </refs>
-        <data>Obtenu [0xaa]CALAMITE[0xab].[end]O</data>
+        <data>Obtenu [0xaa]CALAMITE[0xab].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4ca</ref>
         </refs>
-        <data>Obtenu [0xb4] [0xaa]HI-DROGUE[0xab].[end]O</data>
+        <data>Obtenu [0xb4] [0xaa]HI-DROGUE[0xab].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4e5</ref>
         </refs>
-        <data>Obtenu [0xb4] [0xaa]SUPER VODKA[0xab].[end]O</data>
+        <data>Obtenu [0xb4] [0xaa]SUPER VODKA[0xab].[end]</data>
     </text>
     <text>
         <refs>
@@ -397,6 +391,6 @@ Vas-tu les voler?[end] </data>
         <data>Obtenu [0xaa]LIVRE DIFFICILE[0xab]
 [0xaa]LIVRE DE STRATEGIE[0xab]
 [0xaa]NOTE DE GENIE[0xab]
-[0xaa]LIVRE SUPER PORNO[0xab].[end][0x0]</data>
+[0xaa]LIVRE SUPER PORNO[0xab].[end]</data>
     </text>
 </texts>

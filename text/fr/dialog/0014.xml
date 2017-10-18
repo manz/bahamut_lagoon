@@ -8,13 +8,13 @@
 Ouhahaha!
  
 Ca faisait si longtemps que je n'avais
-pas revu Godrand![end]A</data>
+pas revu Godrand![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x10d</ref>
         </refs>
-        <data>Allez tout le monde![end]L</data>
+        <data>Allez tout le monde![end]</data>
     </text>
     <text>
         <refs>
@@ -22,7 +22,7 @@ pas revu Godrand![end]A</data>
         </refs>
         <data>LUKIA:
 Au fait,Mélodia,pourquoi avais-tu
-quitté cette ville?[end]M</data>
+quitté cette ville?[end]</data>
     </text>
     <text>
         <refs>
@@ -30,7 +30,7 @@ quitté cette ville?[end]M</data>
         </refs>
         <data>MELODIA:
 Je suis partie avec un dragon puisque
-les Petits Démons s'étaient enfuis.[end]M</data>
+les Petits Démons s'étaient enfuis.[end]</data>
     </text>
     <text>
         <refs>
@@ -45,7 +45,7 @@ maintenant pour Godrand!
 Nous les libérons du joug de l'Empire
 et comme à Campbell,ils ont l'air très
 vexé.
-Aiment-ils autant Granbelos?![end]L</data>
+Aiment-ils autant Granbelos?![end]</data>
     </text>
     <text>
         <refs>
@@ -56,7 +56,7 @@ Tout le monde n'est pas pareil,
 Matelight.
 Tu oublies Mahal,ce lagon a combattu
 pour sa liberté,non?
-Et,il y avait Don Juan et Jeanne.[end]S</data>
+Et,il y avait Don Juan et Jeanne.[end]</data>
     </text>
     <text>
         <refs>
@@ -69,7 +69,7 @@ J'espère qu'il ne va causer aucun
 ennui!
  
 J'en ai assez qu'on discute toujours
-mes ordres et ma discipline.[end]M</data>
+mes ordres et ma discipline.[end]</data>
     </text>
     <text>
         <refs>
@@ -79,7 +79,7 @@ mes ordres et ma discipline.[end]M</data>
 Encore des balivernes!
 La sénilité te gagne!
 Ce sont malheureusement les
-conséquences de la vieillesse![end]S</data>
+conséquences de la vieillesse![end]</data>
     </text>
     <text>
         <refs>
@@ -88,7 +88,7 @@ conséquences de la vieillesse![end]S</data>
         <data>SENDACK:
 Haha!
 Vous avez tous entendu!
-Qu'est-ce que je vous disais?![end][character][0x1]</data>
+Qu'est-ce que je vous disais?![end]</data>
     </text>
     <text>
         <refs>
@@ -96,14 +96,14 @@ Qu'est-ce que je vous disais?![end][character][0x1]</data>
         </refs>
         <data>[character][0x1]!
 Je te délègue un moment ma charge,
-je te fais confiance![end]S</data>
+je te fais confiance![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1c7</ref>
         </refs>
         <data>SENDACK:
-Tout ira bien,normalement.[end]C</data>
+Tout ira bien,normalement.[end]</data>
     </text>
     <text>
         <refs>
@@ -111,7 +111,7 @@ Tout ira bien,normalement.[end]C</data>
         </refs>
         <data>COMMANDANT:
 Quel soulagement de pouvoir faire
-confiance à [character][0x1]![end]L</data>
+confiance à [character][0x1]![end]</data>
     </text>
     <text>
         <refs>
@@ -119,7 +119,7 @@ confiance à [character][0x1]![end]L</data>
         </refs>
         <data>LUKIA:
 [character][0x1]...
-Fais attention![end]A</data>
+Fais attention![end]</data>
     </text>
     <text>
         <refs>
@@ -129,14 +129,14 @@ Fais attention![end]A</data>
 bizarres Petits Démons.
  
 Ils étaient très différents de ceux de
-FARENHEIT.[end]M</data>
+FARENHEIT.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6dd</ref>
         </refs>
         <data>Mélodia est enfin revenue.
-Il y a tellement longtemps.[end]T</data>
+Il y a tellement longtemps.[end]</data>
     </text>
     <text>
         <refs>
@@ -158,7 +158,7 @@ Beaucoup de sorciers et de prêtresses
 sont morts en combattant l'Empire.
  
 Tout cela cessa lorsque Godrand fut
-plus ou moins autonome.[end]V</data>
+plus ou moins autonome.[end]</data>
     </text>
     <text>
         <refs>
@@ -168,7 +168,7 @@ plus ou moins autonome.[end]V</data>
 réussi à entrer ici!
  
 Vous deviez avoir de bonnes raisons
-de nous aider![end]J</data>
+de nous aider![end]</data>
     </text>
     <text>
         <refs>
@@ -187,7 +187,7 @@ C'est le principal![end][end]</data>
             <ref>0x70b</ref>
         </refs>
         <data>Aaah,enfin,je peux revoir le paysage.
-Bienvenue à Godrand![end]D</data>
+Bienvenue à Godrand![end]</data>
     </text>
     <text>
         <refs>
@@ -195,7 +195,7 @@ Bienvenue à Godrand![end]D</data>
         </refs>
         <data>DON JUAN:
 Saluuuuut!
-Tu es un ange si tendre![end]M</data>
+Tu es un ange si tendre![end]</data>
     </text>
     <text>
         <refs>
@@ -203,14 +203,14 @@ Tu es un ange si tendre![end]M</data>
         </refs>
         <data>Moi,je ne suis qu'un coeur solaitaire,
 je suis Don Juan ton Na[0x25]f et Fidèle
-serviteur.[end]D</data>
+serviteur.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8d0</ref>
         </refs>
         <data>DON JUAN:
-Et à côté de moi se trouve [character][0x1]![end]U</data>
+Et à côté de moi se trouve [character][0x1]![end]</data>
     </text>
     <text>
         <refs>
@@ -218,7 +218,7 @@ Et à côté de moi se trouve [character][0x1]![end]U</data>
         </refs>
         <data>Un très grand chevalier...
 Le Capitaine de l'Escadron Dragon de
-Kana![end]F</data>
+Kana![end]</data>
     </text>
     <text>
         <refs>
@@ -226,7 +226,7 @@ Kana![end]F</data>
         </refs>
         <data>FEMME:
 [character][0x1],le Capitaine de l'Escadron Dragon
-de Kana?![end]D</data>
+de Kana?![end]</data>
     </text>
     <text>
         <refs>
@@ -234,14 +234,14 @@ de Kana?![end]D</data>
         </refs>
         <data>DON JUAN:
 Hé! Attends une minute!
-J'ai l'impression que tu le connais?[end]E</data>
+J'ai l'impression que tu le connais?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x91a</ref>
         </refs>
         <data>Est-ce que vous vous étiez déjà
-rencontrés,auparavant?[end][character][0x1]</data>
+rencontrés,auparavant?[end]</data>
     </text>
     <text>
         <refs>
@@ -252,7 +252,7 @@ Mélodia est à l'intérieur.
  
 D'après ce que j'entends,tout le
 monde à l'air d'être très heureux
-dans cette maison.[end]O</data>
+dans cette maison.[end]</data>
     </text>
     <text>
         <refs>
@@ -278,14 +278,14 @@ Elles se font toujours attendre!
 Haha,ça ne va pas pour moi ces
 derniers jours!
 Mon charme aurait-il disparu?
-Que va-t-il advenir de moi?[end]G</data>
+Que va-t-il advenir de moi?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x61c</ref>
         </refs>
         <data>GRAND-PERE:
-Je connais aussi un vieil hymne...[end]-</data>
+Je connais aussi un vieil hymne...[end]</data>
     </text>
     <text>
         <refs>
@@ -298,13 +298,13 @@ séparation!
 de bonheur!
  
 - [0xb2] Petits Démons sont source
-de nouveauté![end]V</data>
+de nouveauté![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x62c</ref>
         </refs>
-        <data>Vas-y,Mélodia,continue...[end]M</data>
+        <data>Vas-y,Mélodia,continue...[end]</data>
     </text>
     <text>
         <refs>
@@ -312,14 +312,14 @@ de nouveauté![end]V</data>
         </refs>
         <data>MELODIA:
 Hum et... [0xb3] Petits Démons sont
-source de rendez-vous![end]G</data>
+source de rendez-vous![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x644</ref>
         </refs>
         <data>GRAND-PERE:
-Oui,c'est cela![end]M</data>
+Oui,c'est cela![end]</data>
     </text>
     <text>
         <refs>
@@ -331,7 +331,7 @@ Ouais!
 Sûrement que le Dragon Sacré sera
 notre ami!
  
-Maintenant,on peut se sentir mieux![end]G</data>
+Maintenant,on peut se sentir mieux![end]</data>
     </text>
     <text>
         <refs>
@@ -339,14 +339,14 @@ Maintenant,on peut se sentir mieux![end]G</data>
         </refs>
         <data>GRAND-PERE:
 Connaîtrais-tu une maxime qui te serait
-très utile?[end]M</data>
+très utile?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x60f</ref>
         </refs>
         <data>MELODIA:
-Vite,grimpons sur les dragons![end][character][0x1]</data>
+Vite,grimpons sur les dragons![end]</data>
     </text>
     <text>
         <refs>
@@ -354,14 +354,14 @@ Vite,grimpons sur les dragons![end][character][0x1]</data>
         </refs>
         <data>[character][0x1]:
 Parfois,elle me fait penser à moi
-étant enfant.[end]C</data>
+étant enfant.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x686</ref>
         </refs>
         <data>COMMANDANT:
-Préparez-vous avant le départ![end]M</data>
+Préparez-vous avant le départ![end]</data>
     </text>
     <text>
         <refs>
@@ -370,7 +370,7 @@ Préparez-vous avant le départ![end]M</data>
         <data>MIST:
 Je vais bien...
 Je vais revoir toute l'équipe.
-Je crois avoir suffisamment récupéré.[end]M</data>
+Je crois avoir suffisamment récupéré.[end]</data>
     </text>
     <text>
         <refs>
@@ -378,14 +378,14 @@ Je crois avoir suffisamment récupéré.[end]M</data>
         </refs>
         <data>MATELIGHT:
 Mist vient avec nous!
-Elle va venir à FARENHEIT.[end]S</data>
+Elle va venir à FARENHEIT.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x740</ref>
         </refs>
         <data>SENDACK:
-Tout est prêt?[end][character][0x1]</data>
+Tout est prêt?[end]</data>
     </text>
     <text>
         <refs>
@@ -393,7 +393,7 @@ Tout est prêt?[end][character][0x1]</data>
         </refs>
         <data>[character][0x1]:
 Le Dragon Sacré de Godrand...
-Nous allons aller le trouver![end] </data>
+Nous allons aller le trouver![end]</data>
     </text>
     <text>
         <refs>
@@ -407,7 +407,7 @@ Nous allons aller le trouver![end] </data>
             <ref>0x744</ref>
         </refs>
         <data> Se préparer.
- Allons combattre![end1]M</data>
+ Allons combattre![end1]</data>
     </text>
     <text>
         <refs>
@@ -417,43 +417,43 @@ Nous allons aller le trouver![end] </data>
 Allons-y,allons combattre!
 L'Empire s'essouffle!
 [character][0x1]!
-Prépare-toi bien![end]O</data>
+Prépare-toi bien![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x83b</ref>
         </refs>
-        <data>Obtenu [0xaa]BURYUNAG[0xab].[end]O</data>
+        <data>Obtenu [0xaa]BURYUNAG[0xab].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x84c</ref>
         </refs>
-        <data>Obtenu [0xb5] [0xaa]MIEL DOUX[0xab].[end]O</data>
+        <data>Obtenu [0xb5] [0xaa]MIEL DOUX[0xab].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x861</ref>
         </refs>
-        <data>Obtenu [0xaa]HERBE OMBRE[0xab].[end][character][0x1]</data>
+        <data>Obtenu [0xaa]HERBE OMBRE[0xab].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x157</ref>
         </refs>
         <data>[character][0x1]:
-Attends Mélodia![end]L</data>
+Attends Mélodia![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9b3</ref>
         </refs>
-        <data>Les dragons m'effraient.[end]L</data>
+        <data>Les dragons m'effraient.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9ba</ref>
         </refs>
-        <data>Les dragons sentent mauvais.[end][0x0]</data>
+        <data>Les dragons sentent mauvais.[end]</data>
     </text>
 </texts>

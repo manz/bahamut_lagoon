@@ -5,13 +5,13 @@
             <ref>0x28b</ref>
         </refs>
         <data>[character][0x1]: Sendak doesn't handle
-alcohol very well...[end]N</data>
+alcohol very well...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2e2</ref>
         </refs>
-        <data>Nnggg......[end][0x0]</data>
+        <data>Nnggg......[end]</data>
     </text>
     <text>
         <refs>
@@ -21,14 +21,14 @@ alcohol very well...[end]N</data>
 I... I...
 
 [0x2a]blah[0x2a] [0x2a]blah[0x2a]
-[0x2a]rant[0x2a] [0x2a]rant[0x2a][end]S</data>
+[0x2a]rant[0x2a] [0x2a]rant[0x2a][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x29f</ref>
         </refs>
         <data>Sendak: [0x2a]blah[0x2a] [0x2a]blah[0x2a]
-[0x2a]rant[0x2a] [0x2a]rant[0x2a][end]M</data>
+[0x2a]rant[0x2a] [0x2a]rant[0x2a][end]</data>
     </text>
     <text>
         <refs>
@@ -38,20 +38,20 @@ I... I...
 Mini-Devils came by earlier.
 
 They danced around, trying to get us
-to let them into our group.[end]M</data>
+to let them into our group.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2b7</ref>
         </refs>
         <data>Matelite: The knights of Kahna shall
-rise again![end]T</data>
+rise again![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2c2</ref>
         </refs>
-        <data>Taicho: Excellent work![end]T</data>
+        <data>Taicho: Excellent work![end]</data>
     </text>
     <text>
         <refs>
@@ -59,21 +59,21 @@ rise again![end]T</data>
         </refs>
         <data>Taicho: Even if you drink enough
 alcohol for a knight you cannot let it
-take over you![end]L</data>
+take over you![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2d0</ref>
         </refs>
         <data>Lukia: What? Was Donfan seducing a
-girl again?[end]D</data>
+girl again?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2d7</ref>
         </refs>
         <data>Donfan: No, 'tis not that I, Donfan, do
-not owe a great deal to Lukia.[end]M</data>
+not owe a great deal to Lukia.[end]</data>
     </text>
     <text>
         <refs>
@@ -88,14 +88,14 @@ strange dream every night.
 In it, a man named Neal or Neill or
 something would point at me and
 say, [0x24]L R RESET! L R RESET![0x22]
-What do you suppose it means?[end]I</data>
+What do you suppose it means?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2f6</ref>
         </refs>
         <data>It's crowded in here. Make sure you
-don't hurt yourself with the weapons.[end] </data>
+don't hurt yourself with the weapons.[end]</data>
     </text>
     <text>
         <refs>
@@ -104,28 +104,28 @@ don't hurt yourself with the weapons.[end] </data>
             <ref>0x35a</ref>
         </refs>
         <data>  Go shopping
-  No business here[end1]I</data>
+  No business here[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x326</ref>
         </refs>
         <data>It's crowded in here. Make sure you
-don't damage the armor.[end]I</data>
+don't damage the armor.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x356</ref>
         </refs>
         <data>It's sweltering in here... Make sure the
-goods don't start to stink up.[end]S</data>
+goods don't start to stink up.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x38c</ref>
         </refs>
         <data>Somebody's sleeping inside.
-Be quiet.[end]Y</data>
+Be quiet.[end]</data>
     </text>
     <text>
         <refs>
@@ -133,7 +133,7 @@ Be quiet.[end]Y</data>
         </refs>
         <data>You say you're a friend of the person
 sleeping here? If so, hurry and see
-her![end]S</data>
+her![end]</data>
     </text>
     <text>
         <refs>
@@ -141,32 +141,32 @@ her![end]S</data>
         </refs>
         <data>So you're the Resistance. The battle
 with the Empire must be difficult, but
-don't give up hope![end]A</data>
+don't give up hope![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3e0</ref>
         </refs>
-        <data>Are you a microscope salesman too?[end][0x0]</data>
+        <data>Are you a microscope salesman too?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3d9</ref>
         </refs>
         <data>Although Godland is at peace, the
-outside world is in terrible shape.[end]A</data>
+outside world is in terrible shape.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3e7</ref>
         </refs>
-        <data>Are you [character][0x1]?[end]T</data>
+        <data>Are you [character][0x1]?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x422</ref>
         </refs>
-        <data>Thank you.[end][0x0]</data>
+        <data>Thank you.[end]</data>
     </text>
     <text>
         <refs>
@@ -174,7 +174,7 @@ outside world is in terrible shape.[end]A</data>
         </refs>
         <data>Welcome. If you're gonna take some
 Mini-Devils that live here with you, I'll
-let the Resistance have stuff for free![end]Y</data>
+let the Resistance have stuff for free![end]</data>
     </text>
     <text>
         <refs>
@@ -184,7 +184,7 @@ let the Resistance have stuff for free![end]Y</data>
 right?
 
 Calling yourself the Resistance...
-I really like that... Hee hee.[end]M</data>
+I really like that... Hee hee.[end]</data>
     </text>
     <text>
         <refs>
@@ -194,49 +194,49 @@ I really like that... Hee hee.[end]M</data>
 though they're small, they're deadly.
 
 If you can, I'd like it if you took
-them with you.[end]Y</data>
+them with you.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x49c</ref>
         </refs>
-        <data>You got some Stealth Armor.[end]Y</data>
+        <data>You got some Stealth Armor.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4ad</ref>
         </refs>
-        <data>You got 7 Poem Diaries.[end]Y</data>
+        <data>You got 7 Poem Diaries.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4c5</ref>
         </refs>
-        <data>You got a Holy Grass.[end]Y</data>
+        <data>You got a Holy Grass.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4d9</ref>
         </refs>
-        <data>You got an Assault.[end]Y</data>
+        <data>You got an Assault.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4ea</ref>
         </refs>
-        <data>You got a Master Rod.[end]Y</data>
+        <data>You got a Master Rod.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4fb</ref>
         </refs>
-        <data>You got a Bitter Memory.[end]Y</data>
+        <data>You got a Bitter Memory.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x50c</ref>
         </refs>
-        <data>You got an Elixir.[end]D</data>
+        <data>You got an Elixir.[end]</data>
     </text>
     <text>
         <refs>
@@ -246,32 +246,32 @@ them with you.[end]Y</data>
 than raging flames.
 
 There is something even hotter
-than the sun in the sky.[end]D</data>
+than the sun in the sky.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5fa</ref>
         </refs>
-        <data>Do you know what it is?[end]W</data>
+        <data>Do you know what it is?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x608</ref>
         </refs>
-        <data>Wha...?! Who ARE you?![end]D</data>
+        <data>Wha...?! Who ARE you?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x612</ref>
         </refs>
         <data>Donfan: 'Tis the burning passion I have
-for you![end]U</data>
+for you![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x618</ref>
         </refs>
-        <data>Uh... yeah...[end]D</data>
+        <data>Uh... yeah...[end]</data>
     </text>
     <text>
         <refs>
@@ -280,51 +280,51 @@ for you![end]U</data>
         <data>Donfan: Such is the way of the world...
 
 
-Donfan's burning heart.[end]O</data>
+Donfan's burning heart.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x634</ref>
         </refs>
-        <data>Oh, how lonely I am![end]D</data>
+        <data>Oh, how lonely I am![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x642</ref>
         </refs>
-        <data>Do not pretend to be shy...[end]I</data>
+        <data>Do not pretend to be shy...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x650</ref>
         </refs>
         <data>I can see the inside of your heart as
-if I were looking through a microscope.[end]O</data>
+if I were looking through a microscope.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x659</ref>
         </refs>
         <data>Oh man... is this guy trying to sell
-me microscopes...?[end]D</data>
+me microscopes...?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x669</ref>
         </refs>
-        <data>Donfan: Such is the way of the world...[end]L</data>
+        <data>Donfan: Such is the way of the world...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x697</ref>
         </refs>
-        <data>Lukia: Donfan!! ...What are you doing?[end]M</data>
+        <data>Lukia: Donfan!! ...What are you doing?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x71b</ref>
         </refs>
-        <data>Mist: [character][0x1]...?[end][0x0]</data>
+        <data>Mist: [character][0x1]...?[end]</data>
     </text>
     <text>
         <refs>
@@ -334,39 +334,39 @@ me microscopes...?[end]D</data>
         <data>Donfan: Huh?!
 
 
-Oh! Forgive me, Lukia![end]I</data>
+Oh! Forgive me, Lukia![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x703</ref>
         </refs>
         <data>It looks like this person has drifted
-here from Kahna.[end]S</data>
+here from Kahna.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x70d</ref>
         </refs>
-        <data>She's always talking about [character][0x1].[end]I</data>
+        <data>She's always talking about [character][0x1].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x721</ref>
         </refs>
-        <data>Is that you, [character][0x1]?![end]I</data>
+        <data>Is that you, [character][0x1]?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x72a</ref>
         </refs>
         <data>It's me... Mist, former member of the
-knights of Kahna![end]Y</data>
+knights of Kahna![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x734</ref>
         </refs>
-        <data>You're awake?[end]D</data>
+        <data>You're awake?[end]</data>
     </text>
     <text>
         <refs>
@@ -375,13 +375,13 @@ knights of Kahna![end]Y</data>
         <data>Donfan: If I had known there was a
 girl sick in bed...
 
-Huh...?![end]M</data>
+Huh...?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7b4</ref>
         </refs>
-        <data>Matelite: Mist!! You're alive!![end]M</data>
+        <data>Matelite: Mist!! You're alive!![end]</data>
     </text>
     <text>
         <refs>
@@ -391,7 +391,7 @@ Huh...?![end]M</data>
 
 
 Yes... Ever since that day, when Kahna
-fell...[end]M</data>
+fell...[end]</data>
     </text>
     <text>
         <refs>
@@ -401,20 +401,20 @@ fell...[end]M</data>
 been done in.
 
 How did you manage to escape from
-Kahna?[end]H</data>
+Kahna?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7f5</ref>
         </refs>
         <data>Hold on! She's ill, please don't yell at
-her!![end]M</data>
+her!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7fe</ref>
         </refs>
-        <data>Matelite: Oh, sorry...[end]M</data>
+        <data>Matelite: Oh, sorry...[end]</data>
     </text>
     <text>
         <refs>
@@ -422,45 +422,45 @@ her!![end]M</data>
         </refs>
         <data>Mist: No... I'm okay... I feel better now
 after seeing you and [character][0x1],
-Captain.[end]M</data>
+Captain.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x819</ref>
         </refs>
         <data>Matelite: Oh, that's good!
-Are you being shy, [character][0x1]?[end]M</data>
+Are you being shy, [character][0x1]?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x823</ref>
         </refs>
         <data>Mist: That time... When I was
-unconscious...[end]I</data>
+unconscious...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x82d</ref>
         </refs>
-        <data>I was saved by a lone man...[end]M</data>
+        <data>I was saved by a lone man...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x83b</ref>
         </refs>
-        <data>Matelite: What?! Who?![end]M</data>
+        <data>Matelite: What?! Who?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x841</ref>
         </refs>
-        <data>Mist: ......[end]M</data>
+        <data>Mist: ......[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x84f</ref>
         </refs>
-        <data>Matelite: Mist! Who rescued you?![end]M</data>
+        <data>Matelite: Mist! Who rescued you?![end]</data>
     </text>
     <text>
         <refs>
@@ -469,7 +469,7 @@ unconscious...[end]I</data>
         <data>Mist: The famous Granbelos
 commander...
 
-Satha Palpaleos...[end]M</data>
+Satha Palpaleos...[end]</data>
     </text>
     <text>
         <refs>
@@ -478,28 +478,28 @@ Satha Palpaleos...[end]M</data>
         <data>Matelite: !?
 
 
-...Palpaleos?!![end]D</data>
+...Palpaleos?!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x86f</ref>
         </refs>
         <data>Donfan: Why would an Imperial general
-save a knight of Kahna?![end]M</data>
+save a knight of Kahna?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x880</ref>
         </refs>
         <data>Mist: I don't completely understand
-myself...[end]L</data>
+myself...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x89a</ref>
         </refs>
         <data>Lukia: [character][0x1]! Come to Melodia's
-house![end]W</data>
+house![end]</data>
     </text>
     <text>
         <refs>
@@ -507,13 +507,13 @@ house![end]W</data>
         </refs>
         <data>Wagahai: We're going to ride on a ship!
 A ship that carries death!
-And that name too...[end]M</data>
+And that name too...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x96c</ref>
         </refs>
-        <data>Melodia: This is my grandpa![end]G</data>
+        <data>Melodia: This is my grandpa![end]</data>
     </text>
     <text>
         <refs>
@@ -521,7 +521,7 @@ And that name too...[end]M</data>
         </refs>
         <data>Grandfather: Oh! So you are
 [character][0x1]. I have just now heard
-all about you from Melodia.[end]I</data>
+all about you from Melodia.[end]</data>
     </text>
     <text>
         <refs>
@@ -529,14 +529,14 @@ all about you from Melodia.[end]I</data>
         </refs>
         <data>In such a short time away she has
 become such a fine, young girl. I could
-not be any happier.[end]M</data>
+not be any happier.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x995</ref>
         </refs>
         <data>Melodia: You didn't need to say that.
-You're embarrassing me...[end]G</data>
+You're embarrassing me...[end]</data>
     </text>
     <text>
         <refs>
@@ -544,42 +544,42 @@ You're embarrassing me...[end]G</data>
         </refs>
         <data>Grandfather: No, no... It's not that you
 will not to say it but rather that you
-cannot say it.[end]M</data>
+cannot say it.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9a9</ref>
         </refs>
         <data>Melodia: Huh? I don't understand what
-you just said.[end]G</data>
+you just said.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9b3</ref>
         </refs>
         <data>Grandfather: Oh ho ho...
-It is an old adage said here in Godland.[end]H</data>
+It is an old adage said here in Godland.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9f6</ref>
         </refs>
         <data>Honey, welcome back.
-You worked late again, I see.[end]I</data>
+You worked late again, I see.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa09</ref>
         </refs>
         <data>I'm home.
-Things were a little busy.[end]I</data>
+Things were a little busy.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa1c</ref>
         </refs>
         <data>I was worried since you hadn't come
-home.[end]N</data>
+home.[end]</data>
     </text>
     <text>
         <refs>
@@ -587,14 +587,14 @@ home.[end]N</data>
         </refs>
         <data>No, please forgive me. It's not that I
 didn't come home, it's that I couldn't
-come home.[end]T</data>
+come home.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa69</ref>
         </refs>
         <data>That is what I meant. I wonder if that
-makes sense to you youngsters?[end]M</data>
+makes sense to you youngsters?[end]</data>
     </text>
     <text>
         <refs>
@@ -604,7 +604,7 @@ makes sense to you youngsters?[end]M</data>
 man who likes weird sayings.
 
 Everybody says you're kind of cuckoo
-but you just forgive them.[end]G</data>
+but you just forgive them.[end]</data>
     </text>
     <text>
         <refs>
@@ -612,7 +612,7 @@ but you just forgive them.[end]G</data>
         </refs>
         <data>Grandfather: Melodia has always liked
 animals and Mini-Devils, even when she
-was a small child.[end]S</data>
+was a small child.[end]</data>
     </text>
     <text>
         <refs>
@@ -622,14 +622,14 @@ was a small child.[end]S</data>
 and Mini-Devils in Kahna. So she often
 said how she wanted to go to Kahna.
 I ignored her, then one day she had
-suddenly left.[end]M</data>
+suddenly left.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xaa2</ref>
         </refs>
         <data>Melodia[0x3b] Grandpa, you keep talking
-about me![end]E</data>
+about me![end]</data>
     </text>
     <text>
         <refs>
@@ -637,7 +637,7 @@ about me![end]E</data>
         </refs>
         <data>Even Grandpa just gets up and
 wanders out on a journey without
-saying anything sometimes.[end]G</data>
+saying anything sometimes.[end]</data>
     </text>
     <text>
         <refs>
@@ -647,13 +647,13 @@ saying anything sometimes.[end]G</data>
 a journey is the lifeblood of this
 family.
 Then when we come back we have
-grown.[end]M</data>
+grown.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xace</ref>
         </refs>
-        <data>Melodia: Oh yeah! [character][0x1]![end]G</data>
+        <data>Melodia: Oh yeah! [character][0x1]![end]</data>
     </text>
     <text>
         <refs>
@@ -663,27 +663,27 @@ grown.[end]M</data>
 journeys to collect lots of sayings and
 stories about Godland.
 And he says there's something you
-and the others should hear![end]G</data>
+and the others should hear![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb10</ref>
         </refs>
         <data>Grandfather: Oh, yes! I called you here
-to tell you a story.[end]I</data>
+to tell you a story.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb23</ref>
         </refs>
-        <data>In Godland a very old legend is told...[end] </data>
+        <data>In Godland a very old legend is told...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb35</ref>
         </refs>
         <data>          In this land sleeps
-  a dragon with the form of a bird.[end] </data>
+  a dragon with the form of a bird.[end]</data>
     </text>
     <text>
         <refs>
@@ -691,13 +691,13 @@ to tell you a story.[end]I</data>
         </refs>
         <data>            Filled with anger,
             the bird-dragon
-         must not be awakened.[end]S</data>
+         must not be awakened.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb51</ref>
         </refs>
-        <data>Sendak: A legend of a Holy Dragon...?![end][character][0x1]</data>
+        <data>Sendak: A legend of a Holy Dragon...?![end]</data>
     </text>
     <text>
         <refs>
@@ -706,21 +706,21 @@ to tell you a story.[end]I</data>
         <data>[character][0x1]: The bird-dragon... Garuda...
 
 
-He's angry... I sense a fierce anger...[end]S</data>
+He's angry... I sense a fierce anger...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb66</ref>
         </refs>
         <data>Sendak: Yes, as do I...
-I feel it somewhat as well...[end][character][0x1]</data>
+I feel it somewhat as well...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb7a</ref>
         </refs>
         <data>[character][0x1]: Do you know where
-Garuda is?[end]G</data>
+Garuda is?[end]</data>
     </text>
     <text>
         <refs>
@@ -730,14 +730,14 @@ Garuda is?[end]G</data>
 He is in the western cave.
 
 Be careful. Monsters are plentiful
-there.[end]M</data>
+there.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb92</ref>
         </refs>
         <data>Melodia: Okay, let's head for the cave!
-I'll go get the dragons![end]S</data>
+I'll go get the dragons![end]</data>
     </text>
     <text>
         <refs>

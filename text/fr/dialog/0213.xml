@@ -12,7 +12,7 @@ s'achever.
  
 Tu veux maintenant être l'élu,
 l'homme légendaire...
-Jusqu'où veux-tu aller?[end]T</data>
+Jusqu'où veux-tu aller?[end]</data>
     </text>
     <text>
         <refs>
@@ -25,7 +25,7 @@ Penses-tu vraiment pouvoir faire une
 telle chose?
  
 Oui,une nouvelle ère viendra!
-Mais CE NE SERA PAS la tienne![end]S</data>
+Mais CE NE SERA PAS la tienne![end]</data>
     </text>
     <text>
         <refs>
@@ -33,7 +33,7 @@ Mais CE NE SERA PAS la tienne![end]S</data>
         </refs>
         <data>SAUZER:
 Que...?
-Où suis-je...?[end]P</data>
+Où suis-je...?[end]</data>
     </text>
     <text>
         <refs>
@@ -44,7 +44,7 @@ Sauzer...
 Vous êtes dans votre chambre.
 Vous ne vous en souvenez pas?
 Le pouvoir du Dragon Sacré a été
-libéré.[end]S</data>
+libéré.[end]</data>
     </text>
     <text>
         <refs>
@@ -55,7 +55,7 @@ Je...
 J'ai été atteint par ce pouvoir?
 La Princesse [character][0x1]...
 contrôle-t-elle le Dragon Sacré?
-Se porte-t-elle bien?[end]P</data>
+Se porte-t-elle bien?[end]</data>
     </text>
     <text>
         <refs>
@@ -65,7 +65,7 @@ Se porte-t-elle bien?[end]P</data>
 Je suis désolé,
 la Princesse est partie.
 Elle a rejoint les Rebelles et Campbell
-nous a été reprise.[end]S</data>
+nous a été reprise.[end]</data>
     </text>
     <text>
         <refs>
@@ -75,7 +75,7 @@ nous a été reprise.[end]S</data>
 Je suis désolé Palpaleos.
 Où sont partis les Rebelles?
 Vont-ils à la recherche des Dragons
-Sacrés?[end]P</data>
+Sacrés?[end]</data>
     </text>
     <text>
         <refs>
@@ -83,7 +83,7 @@ Sacrés?[end]P</data>
         </refs>
         <data>PALPALEOS:
 Reposez-vous un peu...
-Nous défendrons Granbelos pour vous![end]S</data>
+Nous défendrons Granbelos pour vous![end]</data>
     </text>
     <text>
         <refs>
@@ -93,7 +93,7 @@ Nous défendrons Granbelos pour vous![end]S</data>
 La personne qui connaît le coeur des
 Dragons Sacrés ouvrira la Porte vers
 une Ere Nouvelle.
-Qu'a dit Valitra à la Princesse [character][0x1]?[end]C</data>
+Qu'a dit Valitra à la Princesse [character][0x1]?[end]</data>
     </text>
     <text>
         <refs>
@@ -110,14 +110,14 @@ le coeur des Dragons Sacrés.
  
 La Légende des Dragons Sacrés,
 la Nouvelle Ere...
-Ils seront MIENS![end]P</data>
+Ils seront MIENS![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2c8</ref>
         </refs>
         <data>Palpaleos...
-Pardonne-moi...[end]J</data>
+Pardonne-moi...[end]</data>
     </text>
     <text>
         <refs>
@@ -131,7 +131,7 @@ que je suis en train de faire.
  
 S'il m'arrivait quelque chose,
 Palpaleos... s'il te plaît...
-pour l'amour de Granbelos...[end] </data>
+pour l'amour de Granbelos...[end]</data>
     </text>
     <text>
         <refs>
@@ -139,14 +139,14 @@ pour l'amour de Granbelos...[end] </data>
         </refs>
         <data> 
 Est-ce cet homme que nous avons
-choisi?[end]C</data>
+choisi?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3ff</ref>
         </refs>
         <data>C'est cet homme qui ouvrira la porte
-vers une Nouvelle Ere...[end]V</data>
+vers une Nouvelle Ere...[end]</data>
     </text>
     <text>
         <refs>
@@ -159,7 +159,7 @@ Aidons-le...
  
   
 Aidons-le à illuminer nos coeurs
-perdus...[end]S</data>
+perdus...[end]</data>
     </text>
     <text>
         <refs>
@@ -173,7 +173,7 @@ Je vous suis reconnaissant de m'avoir
 choisi!
 Mais avant d'y aller...
 j'aimerais savoir une chose...
-Pourquoi m'avoir choisi?[end]S</data>
+Pourquoi m'avoir choisi?[end]</data>
     </text>
     <text>
         <refs>
@@ -182,14 +182,14 @@ Pourquoi m'avoir choisi?[end]S</data>
         <data>Sauzer est l'Empereur de Granbelos...
 Sauzer est le concubin du Ciel...
 Nous savons tout cela...
-Nous connaissons toutes choses...[end]E</data>
+Nous connaissons toutes choses...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x549</ref>
         </refs>
         <data>Et nous t'avons choisi...
-Tu connais la souffrance de la Guerre...[end]A</data>
+Tu connais la souffrance de la Guerre...[end]</data>
     </text>
     <text>
         <refs>
@@ -203,39 +203,39 @@ grande force...
  
 Nous,gardiens,t'aideront à connaître
 le coeur de ce Dragon Sacré pour enfin
-amener la Nouvelle Ere...[end]S</data>
+amener la Nouvelle Ere...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x624</ref>
         </refs>
         <data>SAUZER:
-D'accord,gardiens...[end]N</data>
+D'accord,gardiens...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x634</ref>
         </refs>
-        <data>Nous pouvons commencer...[end]...</data>
+        <data>Nous pouvons commencer...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6b4</ref>
         </refs>
-        <data>... ... ... ... ... ...[end]L</data>
+        <data>... ... ... ... ... ...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6e3</ref>
         </refs>
         <data>Le Coeur du Dragon Sacré...
-Il est... dans mon esprit...[end]T</data>
+Il est... dans mon esprit...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x70d</ref>
         </refs>
-        <data>Tout n'est que... vengeance![end]P</data>
+        <data>Tout n'est que... vengeance![end]</data>
     </text>
     <text>
         <refs>
@@ -246,7 +246,7 @@ Avez-vous remarqué le changement
 dans le ciel?
 Empereur Sauzer,
 comprenez-vous ce qui se trame dans
-le ciel?[end]S</data>
+le ciel?[end]</data>
     </text>
     <text>
         <refs>
@@ -256,14 +256,14 @@ le ciel?[end]S</data>
 Palpaleos...
 Le ciel...
 Viens avec moi voir le ciel pour la
-dernière fois...[end]P</data>
+dernière fois...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x81c</ref>
         </refs>
         <data>PALPALEOS:
-Pour la dernière fois?![end]S</data>
+Pour la dernière fois?![end]</data>
     </text>
     <text>
         <refs>
@@ -274,7 +274,7 @@ Il est si brillant...
 J'avais oublié cela!
 Il est brillant grâce aux rêves et à la
 Légende...
-Le ciel est à moi![end]P</data>
+Le ciel est à moi![end]</data>
     </text>
     <text>
         <refs>
@@ -283,7 +283,7 @@ Le ciel est à moi![end]P</data>
             <ref>0x89d</ref>
         </refs>
         <data>PALPALEOS:
-Sauzer...?![end]S</data>
+Sauzer...?![end]</data>
     </text>
     <text>
         <refs>
@@ -293,7 +293,7 @@ Sauzer...?![end]S</data>
 Palpaleos...
 Est-ce que je fais erreur?
 Suis-je humain?
-Suis-je leur Empereur?[end]J</data>
+Suis-je leur Empereur?[end]</data>
     </text>
     <text>
         <refs>
@@ -303,7 +303,7 @@ Suis-je leur Empereur?[end]J</data>
 comme moi...
 Il me dit...
 Je combattrai et je me sacrifierai pour
-l'Empereur.[end]J</data>
+l'Empereur.[end]</data>
     </text>
     <text>
         <refs>
@@ -313,14 +313,14 @@ l'Empereur.[end]J</data>
 Maintenant,chaque enfant naissant en
 son sein n'a qu'un esprit de combat.
 Ils prennent le même chemin que moi.
-Mon dieu... qu'ai-je créé?![end]T</data>
+Mon dieu... qu'ai-je créé?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8e3</ref>
         </refs>
         <data>Tout est à moi!
-Tout ce que je désirais est à moi![end]P</data>
+Tout ce que je désirais est à moi![end]</data>
     </text>
     <text>
         <refs>
@@ -330,7 +330,7 @@ Tout ce que je désirais est à moi![end]P</data>
 Aurais-tu une chose à laquelle tu
 tiens?
 Une chose pour laquelle tu trahirais
-voire tuerais l'Empereur de Granbelos?[end]G</data>
+voire tuerais l'Empereur de Granbelos?[end]</data>
     </text>
     <text>
         <refs>
@@ -341,7 +341,7 @@ Partez... partez à Kana!
  
 Rejoignez les Rebelles et combattez
 armées pour protéger le ciel...
-Pour protéger Orelus![end]C</data>
+Pour protéger Orelus![end]</data>
     </text>
     <text>
         <refs>
@@ -352,7 +352,7 @@ Ne le discute pas Palpaleos!
  
 Malgré cela,tu seras toujours la
 personne qui ait le plus compté pour
-pour moi![end]C</data>
+pour moi![end]</data>
     </text>
     <text>
         <refs>
@@ -365,6 +365,6 @@ Comprenez-vous la profondeur de
 l'ombre...
  
 La profondeur de l'ombre de mon
-coeur?[end][0x0]</data>
+coeur?[end]</data>
     </text>
 </texts>

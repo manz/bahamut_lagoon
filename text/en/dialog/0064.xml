@@ -8,7 +8,7 @@
 have to say...
 
   Listen
-  I don't wanna listen.[end1]I</data>
+  I don't wanna listen.[end1]</data>
     </text>
     <text>
         <refs>
@@ -21,7 +21,7 @@ Being the only other one who can
 feel it, I wish to console her...
 
 But how should I sympathize with a girl
-at her age?[end]S</data>
+at her age?[end]</data>
     </text>
     <text>
         <refs>
@@ -29,14 +29,14 @@ at her age?[end]S</data>
         </refs>
         <data>Sendak: I am sorry, [character][0x1].
 I suppose I shall have to tell you later
-after all.[end]S</data>
+after all.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x23a</ref>
         </refs>
         <data>Sendak: My long ramblings are boring,
-are they not?[end]Z</data>
+are they not?[end]</data>
     </text>
     <text>
         <refs>
@@ -47,7 +47,7 @@ are they not?[end]Z</data>
 
 
 I'm a lancer. Cleaning is my specialty.
-Thanks a lot![end]A</data>
+Thanks a lot![end]</data>
     </text>
     <text>
         <refs>
@@ -56,13 +56,13 @@ Thanks a lot![end]A</data>
             <ref>0x25d</ref>
             <ref>0x327</ref>
         </refs>
-        <data>AH![end]N</data>
+        <data>AH![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x26a</ref>
         </refs>
-        <data>Nnnggg... Just three more minutes...[end] </data>
+        <data>Nnnggg... Just three more minutes...[end]</data>
     </text>
     <text>
         <refs>
@@ -70,27 +70,27 @@ Thanks a lot![end]A</data>
         </refs>
         <data>  Let him sleep
   Hit him
-  Wake him up gently[end1]N</data>
+  Wake him up gently[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x280</ref>
         </refs>
-        <data>Nnnggg... Thanks Mom...[end]N</data>
+        <data>Nnnggg... Thanks Mom...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x299</ref>
             <ref>0x28c</ref>
         </refs>
-        <data>Nnnggg... Just five more minutes...[end]W</data>
+        <data>Nnnggg... Just five more minutes...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2ca</ref>
         </refs>
         <data>Who are you?! You wake me up just
-like my mom![end]E</data>
+like my mom![end]</data>
     </text>
     <text>
         <refs>
@@ -98,33 +98,33 @@ like my mom![end]E</data>
         </refs>
         <data>Eh?! You're the captain of Kahna's
 Dragon Squad... Which means... my mom
-is with you too![end]O</data>
+is with you too![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x307</ref>
         </refs>
-        <data>Oh no!![end]Z</data>
+        <data>Oh no!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x31b</ref>
         </refs>
-        <data>Zora: Hey! There you are![end]Z</data>
+        <data>Zora: Hey! There you are![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x336</ref>
         </refs>
         <data>Zora: [character][0x1]. This boy is my son.
-He left me and came to this kingdom.[end]Z</data>
+He left me and came to this kingdom.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x367</ref>
         </refs>
         <data>Zora: He left me because... Hey, you
-tell him yourself![end]O</data>
+tell him yourself![end]</data>
     </text>
     <text>
         <refs>
@@ -134,60 +134,60 @@ tell him yourself![end]O</data>
 squad in Campbell that would be even
 better than Kahna's.
 So then I left my mom and came to
-Campbell to start on it.[end]Z</data>
+Campbell to start on it.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x387</ref>
         </refs>
         <data>Zora: And? Who's in this dragon squad
-of yours?[end]U</data>
+of yours?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x393</ref>
         </refs>
-        <data>Uh... umm... Me, and one dragon...[end]Z</data>
+        <data>Uh... umm... Me, and one dragon...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x39f</ref>
         </refs>
         <data>Zora: That's all?! How miserable.
-Well, I had expected as much.[end]Z</data>
+Well, I had expected as much.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3ab</ref>
         </refs>
         <data>Zora: That's a strange dragon. Try
-calling it.[end]U</data>
+calling it.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3b7</ref>
         </refs>
-        <data>Uh... um...[end]C</data>
+        <data>Uh... um...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3de</ref>
         </refs>
         <data>Come!
-[0x28]Please come. Please![0x29][end]Z</data>
+[0x28]Please come. Please![0x29][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x400</ref>
         </refs>
         <data>Zora: Even dragons mock you...
-How miserable.[end]Z</data>
+How miserable.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x40c</ref>
         </refs>
-        <data>Zora: [character][0x1]. You try.[end] </data>
+        <data>Zora: [character][0x1]. You try.[end]</data>
     </text>
     <text>
         <refs>
@@ -195,14 +195,14 @@ How miserable.[end]Z</data>
             <ref>0x424</ref>
         </refs>
         <data>  Come!
-  Wait![end1]Z</data>
+  Wait![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x420</ref>
         </refs>
         <data>Zora: What will making it wait do?
-Come on, [character][0x1].[end]W</data>
+Come on, [character][0x1].[end]</data>
     </text>
     <text>
         <refs>
@@ -210,14 +210,14 @@ Come on, [character][0x1].[end]W</data>
         </refs>
         <data>Whoa!! I can't believe dragons listen to
 what you say! You really are the
-captain of Kahna's Dragon Squad![end]Z</data>
+captain of Kahna's Dragon Squad![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x45f</ref>
         </refs>
         <data>Zora: Hmm. So there are dragons like
-this too.[end]Z</data>
+this too.[end]</data>
     </text>
     <text>
         <refs>
@@ -227,13 +227,13 @@ this too.[end]Z</data>
 Will you let my son and this dragon
 ride on your ship?
   I welcome them.
-  Only the dragon.[end1]D</data>
+  Only the dragon.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x479</ref>
         </refs>
-        <data>Don't say something like that![end]Y</data>
+        <data>Don't say something like that![end]</data>
     </text>
     <text>
         <refs>
@@ -244,26 +244,26 @@ ride on your ship?
 hallways if you'd like.
 
 He can't do much of anything, so he
-can learn by observation.[end]T</data>
+can learn by observation.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x489</ref>
         </refs>
-        <data>Thanks, [character][0x1].[end]I</data>
+        <data>Thanks, [character][0x1].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4a6</ref>
         </refs>
         <data>I'll tell him all about the rules on
-[character][0x1].[end]O</data>
+[character][0x1].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4b4</ref>
         </refs>
-        <data>Okay, you! Come here![end]B</data>
+        <data>Okay, you! Come here![end]</data>
     </text>
     <text>
         <refs>
@@ -271,14 +271,14 @@ can learn by observation.[end]T</data>
         </refs>
         <data>Battlefield Salesman: Thank you for all
 your help. I'm stocking up on new
-things, so come see me again![end]O</data>
+things, so come see me again![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4e9</ref>
         </refs>
         <data>Oh! [character][0x1]! Welcome to my home!
-It's me, the battlefield salesman![end]A</data>
+It's me, the battlefield salesman![end]</data>
     </text>
     <text>
         <refs>
@@ -286,34 +286,34 @@ It's me, the battlefield salesman![end]A</data>
         </refs>
         <data>Are you [character][0x1]? Glad to meet
 you. I hear you're always helping out
-people I know...[end]I</data>
+people I know...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x502</ref>
         </refs>
         <data>I get the feeling they don't know what
-good taste is.[end]H</data>
+good taste is.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x510</ref>
             <ref>0x51f</ref>
         </refs>
-        <data>Hee hee. He believes me. Hee hee.[end]G</data>
+        <data>Hee hee. He believes me. Hee hee.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x536</ref>
         </refs>
-        <data>Give this dragon a name.[end]Z</data>
+        <data>Give this dragon a name.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x579</ref>
         </refs>
         <data>Zora's Son: I see! Giving dragons a
-name! I never thought about that![end]B</data>
+name! I never thought about that![end]</data>
     </text>
     <text>
         <refs>
@@ -321,7 +321,7 @@ name! I never thought about that![end]B</data>
         </refs>
         <data>Bikkebakke: [character][0x1]! This old man
 said if I gave him some money he'd
-give me back 1000 times as much![end]B</data>
+give me back 1000 times as much![end]</data>
     </text>
     <text>
         <refs>
@@ -331,25 +331,25 @@ give me back 1000 times as much![end]B</data>
 
 
   Try giving him some.
-  He's lying to you.[end1]I</data>
+  He's lying to you.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x5c0</ref>
         </refs>
-        <data>If you think so, it must be okay![end]I</data>
+        <data>If you think so, it must be okay![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5cf</ref>
         </refs>
-        <data>I guess so after all...[end]O</data>
+        <data>I guess so after all...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5da</ref>
         </refs>
-        <data>Okay! I'll give him my wallet!![end]B</data>
+        <data>Okay! I'll give him my wallet!![end]</data>
     </text>
     <text>
         <refs>
@@ -357,21 +357,21 @@ give me back 1000 times as much![end]B</data>
         </refs>
         <data>Bikkebakke: [character][0x1]... If what the
 old man says is true, what should I
-do?[end]T</data>
+do?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5f8</ref>
             <ref>0x613</ref>
         </refs>
-        <data>There's a letter lying here...[end] </data>
+        <data>There's a letter lying here...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5fc</ref>
         </refs>
         <data>  Read it
-  Don't bother with it[end1]H</data>
+  Don't bother with it[end1]</data>
     </text>
     <text>
         <refs>
@@ -383,33 +383,33 @@ always on one journey to the next.
 I wish you'd stop by my store when
 you come back to visit. I want to see
 you. But no alcohol.
-I'm lonely... I miss you.[end] </data>
+I'm lonely... I miss you.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x617</ref>
         </refs>
         <data>  Take it
-  Don't bother with it[end1]Y</data>
+  Don't bother with it[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x627</ref>
         </refs>
-        <data>You got a Letter.[end]T</data>
+        <data>You got a Letter.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x636</ref>
         </refs>
-        <data>They're a little expensive...[end]Z</data>
+        <data>They're a little expensive...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x75f</ref>
         </refs>
         <data>Zora: [character][0x1]! I have something to
-tell you![end]A</data>
+tell you![end]</data>
     </text>
     <text>
         <refs>
@@ -419,7 +419,7 @@ tell you![end]A</data>
 asked for a room...
 
 I thought they came here to get
-revenge on the Granbelos Empire?[end]M</data>
+revenge on the Granbelos Empire?[end]</data>
     </text>
     <text>
         <refs>
@@ -428,20 +428,20 @@ revenge on the Granbelos Empire?[end]M</data>
         <data>Matelite: Hero of the liberation of
 Campbell! How about some of my
 autographed weapons and armor?
-You buy some too, [character][0x1]![end]B</data>
+You buy some too, [character][0x1]![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x77e</ref>
         </refs>
-        <data>Barclay: This is pathetic...[end]T</data>
+        <data>Barclay: This is pathetic...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7d7</ref>
         </refs>
         <data>Taicho: You help out too,
-[character][0x1]![end]D</data>
+[character][0x1]![end]</data>
     </text>
     <text>
         <refs>
@@ -451,19 +451,19 @@ You buy some too, [character][0x1]![end]B</data>
 Squad?
 
   Yes
-  No[end1]O</data>
+  No[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x806</ref>
         </refs>
-        <data>Oh! How rare![end]O</data>
+        <data>Oh! How rare![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x812</ref>
         </refs>
-        <data>Oh, I see.[end]Y</data>
+        <data>Oh, I see.[end]</data>
     </text>
     <text>
         <refs>
@@ -473,55 +473,55 @@ Squad?
 the 2nd floor. He's a very pathetic
 excuse of a person.
 He's never even been deemed an
-enemy by the Empire![end]Y</data>
+enemy by the Empire![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x832</ref>
         </refs>
-        <data>You got a Porno Mag.[end]Y</data>
+        <data>You got a Porno Mag.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x843</ref>
         </refs>
-        <data>You got a Handmade Cookie.[end]Y</data>
+        <data>You got a Handmade Cookie.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x854</ref>
         </refs>
-        <data>You got a Heal SP.[end]Y</data>
+        <data>You got a Heal SP.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x865</ref>
         </refs>
-        <data>You got a Drawer Thing.[end]Y</data>
+        <data>You got a Drawer Thing.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x876</ref>
         </refs>
-        <data>You got a Difficult Book.[end]Y</data>
+        <data>You got a Difficult Book.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x887</ref>
         </refs>
-        <data>You got a Prodigy Notebook.[end]Y</data>
+        <data>You got a Prodigy Notebook.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x898</ref>
         </refs>
-        <data>You got a Sweet Memory.[end]Y</data>
+        <data>You got a Sweet Memory.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8a9</ref>
         </refs>
-        <data>You got some Sweet Wine.[end]B</data>
+        <data>You got some Sweet Wine.[end]</data>
     </text>
     <text>
         <refs>

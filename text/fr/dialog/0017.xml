@@ -5,7 +5,7 @@
             <ref>0xbe</ref>
         </refs>
         <data>LEVIATHAN:
-Pourquoi es-tu si impatient,Jormungand?[end]J</data>
+Pourquoi es-tu si impatient,Jormungand?[end]</data>
     </text>
     <text>
         <refs>
@@ -16,7 +16,7 @@ Cette fille a été poussée à ses limites.
  
 Elle perd conscience dès lors qu'elle
 nous réunit,nous,les quatres Dragons
-Sacrés![end]G</data>
+Sacrés![end]</data>
     </text>
     <text>
         <refs>
@@ -27,7 +27,7 @@ Malheureusement,la Porte de la Nouvelle
 Ere n'est pas encore ouverte.
 Et elle ne doit pas l'être tant que
 nous ne sommes pas encore tous
-réunis.[end]V</data>
+réunis.[end]</data>
     </text>
     <text>
         <refs>
@@ -35,7 +35,7 @@ réunis.[end]V</data>
         </refs>
         <data>VALITRA:
 Et que fait Bahamut?
-N'aime-t-il pas ce que nous faisons?[end]J</data>
+N'aime-t-il pas ce que nous faisons?[end]</data>
     </text>
     <text>
         <refs>
@@ -45,7 +45,7 @@ N'aime-t-il pas ce que nous faisons?[end]J</data>
 Je dois avouer que je n'arrive pas à
 le comprendre.
 La Porte de la Nouvelle Ere...
-Pourquoi ne pouvons-nous pas l'ouvrir?[end]L</data>
+Pourquoi ne pouvons-nous pas l'ouvrir?[end]</data>
     </text>
     <text>
         <refs>
@@ -53,7 +53,7 @@ Pourquoi ne pouvons-nous pas l'ouvrir?[end]L</data>
         </refs>
         <data>LEVIATHAN:
 Si Bahamut n'est pas ici,c'est qu'il
-veut éviter les erreurs du passé.[end]J</data>
+veut éviter les erreurs du passé.[end]</data>
     </text>
     <text>
         <refs>
@@ -63,7 +63,7 @@ veut éviter les erreurs du passé.[end]J</data>
 Est-il vraiment nécessaire de devoir
 l'attendre?
 Nous devrions ouvrir la Porte!
-Cela fait une éternité...[end]V</data>
+Cela fait une éternité...[end]</data>
     </text>
     <text>
         <refs>
@@ -72,7 +72,7 @@ Cela fait une éternité...[end]V</data>
         <data>VALITRA:
 Si la Porte de la Nouvelle Ere n'est
 pas ouverte,cette fille...
-Non,nous aussi...![end]G</data>
+Non,nous aussi...![end]</data>
     </text>
     <text>
         <refs>
@@ -81,14 +81,14 @@ Non,nous aussi...![end]G</data>
         <data>GARUDA:
 Nous ne pouvons encore rien dire de
 cette humaine.
-Peut-elle vraiment être une Dragoon?[end] </data>
+Peut-elle vraiment être une Dragoon?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1c4</ref>
         </refs>
         <data>           Chapitre [0xb0][0xb6]
-  -La Porte de la Nouvelle Ere-[end]m</data>
+  -La Porte de la Nouvelle Ere-[end]</data>
     </text>
     <text>
         <refs>
@@ -96,7 +96,7 @@ Peut-elle vraiment être une Dragoon?[end] </data>
         </refs>
         <data>monyo!
 [0xa8]rush a un message verbal à
- transmettre.[0xa9][end]m</data>
+ transmettre.[0xa9][end]</data>
     </text>
     <text>
         <refs>
@@ -104,14 +104,14 @@ Peut-elle vraiment être une Dragoon?[end] </data>
         </refs>
         <data>manyo!
 [0xa8]donc petits démons vont vous
- l'annoncer en ces lieux.[0xa9][end]m</data>
+ l'annoncer en ces lieux.[0xa9][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x23b</ref>
         </refs>
         <data>munyo!
-[0xa8]allez! récite[0xd8][0xa9][end]m</data>
+[0xa8]allez! récite[0xd8][0xa9][end]</data>
     </text>
     <text>
         <refs>
@@ -127,7 +127,7 @@ Dès maintenant,nous menons une
 insurrection!
  
 Cependant,ne t'inquiète pas pour
-[character][0x1] et les autres.[end]m</data>
+[character][0x1] et les autres.[end]</data>
     </text>
     <text>
         <refs>
@@ -135,7 +135,7 @@ Cependant,ne t'inquiète pas pour
         </refs>
         <data>manyo!
 [0xa8]nous n'aimons pas ce qui se
- passe! rush cause des ennuis![0xa9][end]m</data>
+ passe! rush cause des ennuis![0xa9][end]</data>
     </text>
     <text>
         <refs>
@@ -143,7 +143,7 @@ Cependant,ne t'inquiète pas pour
         </refs>
         <data>munyo!
 [0xa8]les petits démons récitent
- toujours en minuscules![0xa9][end]m</data>
+ toujours en minuscules![0xa9][end]</data>
     </text>
     <text>
         <refs>
@@ -151,7 +151,7 @@ Cependant,ne t'inquiète pas pour
         </refs>
         <data>monyo!
 [0xa8]oui,c'est véridique!
- ce n'est pas une légende![0xa9][end]m</data>
+ ce n'est pas une légende![0xa9][end]</data>
     </text>
     <text>
         <refs>
@@ -159,7 +159,7 @@ Cependant,ne t'inquiète pas pour
         </refs>
         <data>manyo!
 [0xa8]petit démon et petit démon,
- nous repartons.[0xa9][end]m</data>
+ nous repartons.[0xa9][end]</data>
     </text>
     <text>
         <refs>
@@ -168,7 +168,7 @@ Cependant,ne t'inquiète pas pour
         <data>munyo!
 [0xa8]prenez soin de vous,[character][0x1]![0xa9]
 [0xa8]petits démons vous souhaitent
- une mort sacrée.[0xa9][end]C</data>
+ une mort sacrée.[0xa9][end]</data>
     </text>
     <text>
         <refs>
@@ -178,7 +178,7 @@ Cependant,ne t'inquiète pas pour
 ... ... ... ?!
  
 Mais qu'est-ce que les Petits Démons
-ont voulu dire?[end]M</data>
+ont voulu dire?[end]</data>
     </text>
     <text>
         <refs>
@@ -187,7 +187,7 @@ ont voulu dire?[end]M</data>
         <data>MATELIGHT:
 ... ... ... ...
  
-Monyo et Manyo sont bien bruyantes![end]M</data>
+Monyo et Manyo sont bien bruyantes![end]</data>
     </text>
     <text>
         <refs>
@@ -195,7 +195,7 @@ Monyo et Manyo sont bien bruyantes![end]M</data>
         </refs>
         <data>MATELIGHT:
 [character][0x1] et les autres vont passer un
-sale quart d'heure![end]C</data>
+sale quart d'heure![end]</data>
     </text>
     <text>
         <refs>
@@ -203,6 +203,6 @@ sale quart d'heure![end]C</data>
         </refs>
         <data>Commandant!
 Prenez soin de [character][0x1],je vais aller voir
-ce qui se passe![end][0x0]</data>
+ce qui se passe![end]</data>
     </text>
 </texts>

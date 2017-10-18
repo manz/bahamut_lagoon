@@ -6,7 +6,7 @@
         </refs>
         <data>MATELOT:
 [character][0x1],[character][0x1]!
-Qu'aimerais-tu?[end]B</data>
+Qu'aimerais-tu?[end]</data>
     </text>
     <text>
         <refs>
@@ -17,8 +17,7 @@ Qu'aimerais-tu?[end]B</data>
 [character][0x1],vieux frère...
 Sil te plaît,coopère!
  Coopérer.
- L'écouter parler.[end1]
-</data>
+ L'écouter parler.[end1]</data>
     </text>
     <text>
         <refs>
@@ -43,14 +42,14 @@ Que suis-je en train de dire?!
 La guerre n'est pas finie et ce
 bateau est confortable tout de même!
 Je veux être avec toi,Rush et Taurus.
-Garde cela secret...[end]B</data>
+Garde cela secret...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x605</ref>
         </refs>
         <data>BIKKEBAKKE:
-Je suis très embarrassé.[end]R</data>
+Je suis très embarrassé.[end]</data>
     </text>
     <text>
         <refs>
@@ -63,7 +62,7 @@ Comme tu peux t'en apercevoir,un
 groupe de lanciers ne fait pas tout
 ensemble!
 Lance haute!
-Lance haute![end]R</data>
+Lance haute![end]</data>
     </text>
     <text>
         <refs>
@@ -73,7 +72,7 @@ Lance haute![end]R</data>
 Frunze est encore couché!
  
 J'aimerais qu'il y ait un autre lancier
-dans ce bateau![end]F</data>
+dans ce bateau![end]</data>
     </text>
     <text>
         <refs>
@@ -86,14 +85,14 @@ Mon partenaire aurait besoin d'un
 médecin pour soigner son expression
 [0xaa]Lance Lance![0xab].
 Malgré ce petit inconvénient,
-nous sommes très amis.[end]F</data>
+nous sommes très amis.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x837</ref>
         </refs>
         <data>FRUNZE:
-Cette histoire se réglera entre lanciers![end] </data>
+Cette histoire se réglera entre lanciers![end]</data>
     </text>
     <text>
         <refs>
@@ -105,13 +104,13 @@ SERGENT:
 Phew[0xd8][0xa8]Grognement[0xa9]
  
 C'est exténuant de porter une lourde
-armure.[end]O</data>
+armure.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7d2</ref>
         </refs>
-        <data>Obtenu [0xaa]Sergent???[0xab].[end]B</data>
+        <data>Obtenu [0xaa]Sergent???[0xab].[end]</data>
     </text>
     <text>
         <refs>
@@ -124,8 +123,7 @@ Est-ce que Commandant te semble être
 toujours le même?
  
  Je pense...
- Je ne pense pas...[end1]
-</data>
+ Je ne pense pas...[end1]</data>
     </text>
     <text>
         <refs>
@@ -142,7 +140,7 @@ Capitaine.
  
 Dès que j'en ai l'occasion,je parle
 énormément de tout et de rien.
-[0xa8]Grognement[0xa9][end]T</data>
+[0xa8]Grognement[0xa9][end]</data>
     </text>
     <text>
         <refs>
@@ -155,7 +153,7 @@ J'aimerais savoir ce que c'est!
 Par contre Rush semble agir
 bizarrement et je me demande ce qu'il
 a?!
-Je n'y comprends rien du tout![end]B</data>
+Je n'y comprends rien du tout![end]</data>
     </text>
     <text>
         <refs>
@@ -165,7 +163,7 @@ Je n'y comprends rien du tout![end]B</data>
 Je veux me plaindre!
 Veux-tu m'entendre?
  Vas-y,s'il te plaît!
- Je suis occupé...[end1]J</data>
+ Je suis occupé...[end1]</data>
     </text>
     <text>
         <refs>
@@ -195,14 +193,14 @@ Hein! Quoi?
 Tu ne m'écoutes plus?
 Tu rejoins tes quartiers?
 Juste une dernière chose!
-Sache que la victoire c'est l'argent![end]C</data>
+Sache que la victoire c'est l'argent![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6b1</ref>
             <ref>0x875</ref>
         </refs>
-        <data>Ce n'est pas grave...[end]R</data>
+        <data>Ce n'est pas grave...[end]</data>
     </text>
     <text>
         <refs>
@@ -215,8 +213,7 @@ Fais de ton mieux,Rush!
 Mais le Général Palpaleos est arrivé et
 la plupart de mes rêves ont disparu.
  Tu es obstiné!
- C'est triste...[end1]
-</data>
+ C'est triste...[end1]</data>
     </text>
     <text>
         <refs>
@@ -224,20 +221,20 @@ la plupart de mes rêves ont disparu.
         </refs>
         <data>Tu as raison!
 Je dois faire quelque chose!
-Je la protègerai![end]O</data>
+Je la protègerai![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5bb</ref>
         </refs>
-        <data>Obtenu [0xaa]PRINCESSE???[0xab].[end]R</data>
+        <data>Obtenu [0xaa]PRINCESSE???[0xab].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5c4</ref>
         </refs>
         <data>RUSH:
-Haha...[end]R</data>
+Haha...[end]</data>
     </text>
     <text>
         <refs>
@@ -254,7 +251,7 @@ avoir de l'argent,des objets et de
 l'expérience.
 Si tout cela est utilisé à bon escient
 pour nous et les dragons,nous pourrons
-augmenter en force.[end]B</data>
+augmenter en force.[end]</data>
     </text>
     <text>
         <refs>
@@ -276,8 +273,7 @@ Nous devrons faire beaucoup d'efforts
 pour ne pas nous disputer.
  
  Félicitations!
- Tout mes voeux de bonheur![end1]
-</data>
+ Tout mes voeux de bonheur![end1]</data>
     </text>
     <text>
         <refs>
@@ -285,7 +281,7 @@ pour ne pas nous disputer.
         </refs>
         <data>Merci!
 N'en parle pas à Matelight,
-garde ça secret.[end]S</data>
+garde ça secret.[end]</data>
     </text>
     <text>
         <refs>
@@ -297,7 +293,7 @@ garde ça secret.[end]S</data>
 Il est mieux pour tous de retourner
 vivre à Orelus!
 [0xa8]Grognement[0xa9]
-Il y a tant de choses à y faire![end]R</data>
+Il y a tant de choses à y faire![end]</data>
     </text>
     <text>
         <refs>
@@ -308,7 +304,7 @@ Altair va redonner de la vigueur à
 Frunze!
 Ensemble,nous crierons:
 Lan... Lan... Lancier!
-Je suis content![end]F</data>
+Je suis content![end]</data>
     </text>
     <text>
         <refs>
@@ -325,7 +321,7 @@ monde entier.
 Personne ne nous vaincra...
 C'est moi qui ai décidé ça ou du
 moins,Lukia nous l'a fait comprendre.
-Tout ira bien,n'est-ce pas?[end]F</data>
+Tout ira bien,n'est-ce pas?[end]</data>
     </text>
     <text>
         <refs>
@@ -335,7 +331,7 @@ Tout ira bien,n'est-ce pas?[end]F</data>
 Quoi?!
 Tu veux connaître mon nom?
  Dis-le moi!
- Ca m'est égal...[end1]F</data>
+ Ca m'est égal...[end1]</data>
     </text>
     <text>
         <refs>
@@ -355,7 +351,7 @@ jamais vaincu...
  
 Parfois,j'entends même des gens crier
 mon nom haut et fort.
-Je ferai de mon mieux![end]O</data>
+Je ferai de mon mieux![end]</data>
     </text>
     <text>
         <refs>
@@ -375,7 +371,7 @@ l'Armée de Libération d'Orelus![end][end]</data>
 Je crois que l'argent devient
 insupportable à la fin!
 Mais depuis que j'ai commencé à
-commercer,je ne peux plus m'arrêter![end] </data>
+commercer,je ne peux plus m'arrêter![end]</data>
     </text>
     <text>
         <refs>
@@ -383,8 +379,7 @@ commercer,je ne peux plus m'arrêter![end] </data>
         </refs>
         <data> Champignons[0xa8]peu de profit[0xa9]
  Objets     [0xa8]Proportion [0xb0][0xd9][0xa9]
- Livres     [0xa8]Les matelots[0xa9][end1]
-</data>
+ Livres     [0xa8]Les matelots[0xa9][end1]</data>
     </text>
     <text>
         <refs>
@@ -397,7 +392,7 @@ Quelque chose sur ce bateau est très
 bruyant...
 [0xa8]Grognement[0xa9]
 C'est toujours la même chose...
-Chantonnons...[end]R</data>
+Chantonnons...[end]</data>
     </text>
     <text>
         <refs>
@@ -405,7 +400,7 @@ Chantonnons...[end]R</data>
         </refs>
         <data>REEVE:
 Ah! Mon pauvre ventre!
-N'accoste pas les gens comme ça.[end]F</data>
+N'accoste pas les gens comme ça.[end]</data>
     </text>
     <text>
         <refs>
@@ -419,7 +414,7 @@ Je lui ai moi-même préparé ce cocktail
 pour avoir trahi mon amitié.
 De cette manière,mes affaires ne
 disparaîtront plus.
-Il faut craindre mes vengeances.[end]D</data>
+Il faut craindre mes vengeances.[end]</data>
     </text>
     <text>
         <refs>
@@ -429,8 +424,7 @@ Il faut craindre mes vengeances.[end]D</data>
  
   
  Demander.
- Ne pas demander.[end1]
-</data>
+ Ne pas demander.[end1]</data>
     </text>
     <text>
         <refs>
@@ -447,7 +441,7 @@ Soyez heureux! [0xa8]Grognement[0xa9]
  
 Aaaah Mahal[0xa8]Grognement[0xa9]
 Erigeons tous ensemble le plus beau de
-tout les palais! [0xa8]Grognement[0xa9][end]B</data>
+tout les palais! [0xa8]Grognement[0xa9][end]</data>
     </text>
     <text>
         <refs>
@@ -463,15 +457,14 @@ moment...
 Que penses-tu de cela?
  
  C'est bien d'en parler!
- Ce n'est pas vraiment super![end1]
-</data>
+ Ce n'est pas vraiment super![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x6cd</ref>
         </refs>
         <data>Je ne sais pas comment j'en suis venu
-à penser à ça? Peut-être le hasard![end]J</data>
+à penser à ça? Peut-être le hasard![end]</data>
     </text>
     <text>
         <refs>
@@ -482,7 +475,7 @@ lutte pour celle que tu aimes!
 Je te comprends,tu sais!
 Personne n'est heureux s'il y a une
 seconde personne qui s'incruste entre
-vous.[end]B</data>
+vous.[end]</data>
     </text>
     <text>
         <refs>
@@ -498,8 +491,7 @@ Ainsi,lorsque le combat sera fini,
 nous pourrons signer une trève.
  
  C'est splendide!
- C'est absolument inutile![end1]
-</data>
+ C'est absolument inutile![end1]</data>
     </text>
     <text>
         <refs>
@@ -516,7 +508,7 @@ très occupé!
 N'oublie quand même pas de te
 préparer pour la prochaine bataille!
 Il faut penser à nous acheter de
-nouveaux équipements pour le combat.[end]C</data>
+nouveaux équipements pour le combat.[end]</data>
     </text>
     <text>
         <refs>
@@ -524,7 +516,7 @@ nouveaux équipements pour le combat.[end]C</data>
         </refs>
         <data>C'est ce que je pensais aussi!
 Je vois que nous avons les mêmes
-points de vue![end]C</data>
+points de vue![end]</data>
     </text>
     <text>
         <refs>
@@ -534,7 +526,7 @@ points de vue![end]C</data>
 Je pensais pourtant avoir eu une très
 bonne idée. Hahahahaha!
 Très bien,préparons-nous pour le
-prochain assaut![end]R</data>
+prochain assaut![end]</data>
     </text>
     <text>
         <refs>
@@ -547,7 +539,7 @@ Je ne suis pas différent des autres
 puisque j'ai toujours des souhaits
 comme tout le monde!
 Guh huh huh...
-Je n'ai plus rien...[end]F</data>
+Je n'ai plus rien...[end]</data>
     </text>
     <text>
         <refs>
@@ -557,7 +549,7 @@ Je n'ai plus rien...[end]F</data>
 Cette fois,c'est décidé!
 Ma vengeance sera terrible!
 J'ai décidé cela tout seul et j'en ai
-même des frissons...[end]S</data>
+même des frissons...[end]</data>
     </text>
     <text>
         <refs>
@@ -584,6 +576,6 @@ Je n'abandonnerai pas!
 Je ne serai pas vaincu!
 [0xa8]Grognement[0xa9]
  
-Je ferai de mon mieux...[end][0x0]</data>
+Je ferai de mon mieux...[end]</data>
     </text>
 </texts>

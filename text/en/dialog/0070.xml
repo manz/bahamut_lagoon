@@ -4,27 +4,27 @@
         <refs>
             <ref>0xda</ref>
         </refs>
-        <data>             Granbelos Empire[end1] </data>
+        <data>             Granbelos Empire[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xf0</ref>
         </refs>
         <data>              Genius of War
-             Emperor Sauzer[end1]H</data>
+             Emperor Sauzer[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x125</ref>
         </refs>
         <data>His ambition was to achieve domination
-of the skies...[end1] </data>
+of the skies...[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x13b</ref>
         </refs>
-        <data>         And then... war erupted.[end1][0x0]</data>
+        <data>         And then... war erupted.[end1]</data>
     </text>
     <text>
         <refs>
@@ -32,7 +32,7 @@ of the skies...[end1] </data>
         </refs>
         <data>The fires of war blanketed the sky...
 And countless lagoons fell at the
-hands of the Empire.[0xfc][0x1][end1]A</data>
+hands of the Empire.[0xfc][0x1][end1]</data>
     </text>
     <text>
         <refs>

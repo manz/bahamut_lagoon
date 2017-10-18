@@ -6,13 +6,13 @@
             <ref>0x76</ref>
             <ref>0x5e</ref>
         </refs>
-        <data>                [character][0x1]...[end] </data>
+        <data>                [character][0x1]...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x81</ref>
         </refs>
-        <data>           Réveille-toi...[end] </data>
+        <data>           Réveille-toi...[end]</data>
     </text>
     <text>
         <refs>
@@ -24,7 +24,7 @@
      Assume le nom de Dragoon!
            Réveille-toi!
  
-  Tu n'as pas de temps à perdre.[end] </data>
+  Tu n'as pas de temps à perdre.[end]</data>
     </text>
     <text>
         <refs>
@@ -37,28 +37,28 @@
           faire savoir.
  
    Nous,les Dragons Sacrés avons
-      énormément besoin de toi.[end] </data>
+      énormément besoin de toi.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc8</ref>
         </refs>
         <data>         -Ouvre cette porte-
-            et viens à moi...[end][character][0x1]</data>
+            et viens à moi...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x219</ref>
         </refs>
         <data>[character][0x1]:
-Hein... huuum...[end] </data>
+Hein... huuum...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x224</ref>
         </refs>
         <data> 
-Que faites-vous tous ici?![end][character][0x1]</data>
+Que faites-vous tous ici?![end]</data>
     </text>
     <text>
         <refs>
@@ -68,14 +68,14 @@ Que faites-vous tous ici?![end][character][0x1]</data>
 Le Dragon Sacré Jormungand m'a
 réveillée.
 Il est en colère,je dois aller à sa
-rencontre.[end]Z</data>
+rencontre.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x231</ref>
         </refs>
         <data>ZORA:
-Tout va bien,Princesse?[end]Z</data>
+Tout va bien,Princesse?[end]</data>
     </text>
     <text>
         <refs>
@@ -85,7 +85,7 @@ Tout va bien,Princesse?[end]Z</data>
 C'est impossible!
 Vous ne pouvez pas y aller.
 J'irai moi-même au combat pour aller
-chercher ce dragon à votre place.[end]M</data>
+chercher ce dragon à votre place.[end]</data>
     </text>
     <text>
         <refs>
@@ -95,7 +95,7 @@ chercher ce dragon à votre place.[end]M</data>
 Au fait,Princesse,nous avons de
 bonnes nouvelles.
 Nous avons vaincu l'Empereur Sauzer.
-Bientôt,notre Kana revivra![end]C</data>
+Bientôt,notre Kana revivra![end]</data>
     </text>
     <text>
         <refs>
@@ -105,13 +105,13 @@ Bientôt,notre Kana revivra![end]C</data>
 Palpaleos a aussi été vaincu!
 C'est la dure réalité de la guerre.
 Princesse [character][0x1],vous devez être
-épuisée![end]...</data>
+épuisée![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x302</ref>
         </refs>
-        <data>... ... ... ...![end][character][0x1]</data>
+        <data>... ... ... ...![end]</data>
     </text>
     <text>
         <refs>
@@ -122,21 +122,21 @@ Je dois y aller par moi-même!
  
 Le Dragon Sacré Jormungand m'a dit
 qu'il avait certaines choses à me
-révéler.[end]P</data>
+révéler.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x31c</ref>
         </refs>
         <data>Princesse [character][0x1]!
-Que vous arrive-t-il?[end][character][0x1]</data>
+Que vous arrive-t-il?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x369</ref>
         </refs>
         <data>[character][0x1]... Je suis là...
-Ne vous inquiétez pas![end]P</data>
+Ne vous inquiétez pas![end]</data>
     </text>
     <text>
         <refs>
@@ -145,7 +145,7 @@ Ne vous inquiétez pas![end]P</data>
         <data>PALPALEOS:
 En effet,j'ai été vaincu par les
 Rebelles mais je suis encore en vie.
-Ils ont vraiment gagné en force![end][character][0x1]</data>
+Ils ont vraiment gagné en force![end]</data>
     </text>
     <text>
         <refs>
@@ -153,13 +153,13 @@ Ils ont vraiment gagné en force![end][character][0x1]</data>
         </refs>
         <data>[character][0x1]..
 Matelight...
-Commandant...[end]G</data>
+Commandant...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x37f</ref>
         </refs>
-        <data>Général Palpaleos...[end]M</data>
+        <data>Général Palpaleos...[end]</data>
     </text>
     <text>
         <refs>
@@ -167,13 +167,13 @@ Commandant...[end]G</data>
         </refs>
         <data>Ma tendre [character][0x1],je ne peux même pas
 réaliser mon souhait le plus cher...
-Etre avec vous![end]Q</data>
+Etre avec vous![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3c5</ref>
         </refs>
-        <data>Qui avez-vous choisi,[character][0x1]?[end]S</data>
+        <data>Qui avez-vous choisi,[character][0x1]?[end]</data>
     </text>
     <text>
         <refs>
@@ -181,7 +181,7 @@ Etre avec vous![end]Q</data>
         </refs>
         <data>Si la Nouvelle Ere s'ouvre à nous,
 j'aimerais être à tout jamais à vos
-côtés.[end]G</data>
+côtés.[end]</data>
     </text>
     <text>
         <refs>
@@ -192,7 +192,7 @@ Hahahahaha!
 Fille,la dénommée Dragoon!
 Est-ce là ton ambition?
 Ce TRES petit rêve ou dois-je dire ce
-MINUSCULE rêve?![end][character][0x1]</data>
+MINUSCULE rêve?![end]</data>
     </text>
     <text>
         <refs>
@@ -200,7 +200,7 @@ MINUSCULE rêve?![end][character][0x1]</data>
         </refs>
         <data>[character][0x1]:
 Ce petit rêve...
-Mais je ne peux même pas le réaliser![end]G</data>
+Mais je ne peux même pas le réaliser![end]</data>
     </text>
     <text>
         <refs>
@@ -211,7 +211,7 @@ Pourquoi penses-tu cela,
 fille au petit rêve?
 Si notre pouvoir est entre tes mains,
 tout ce que tu désires sera contrôlé
-par ton esprit.[end][character][0x1]</data>
+par ton esprit.[end]</data>
     </text>
     <text>
         <refs>
@@ -224,7 +224,7 @@ Ce sont les sentiments qui sont
 profondément ancrés dans nos coeurs.
  
 Indubitablement,
-ils ne pourront changer...[end]G</data>
+ils ne pourront changer...[end]</data>
     </text>
     <text>
         <refs>
@@ -238,14 +238,14 @@ et tu peux nous contrôler.
  
 Tu es meilleure et plus apte comparée
 à l'autre personne qui connaît nos
-coeurs.[end]T</data>
+coeurs.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x447</ref>
         </refs>
         <data>Tu veux parler de l'Empereur?
-Mais il est maintenant...[end]G</data>
+Mais il est maintenant...[end]</data>
     </text>
     <text>
         <refs>
@@ -259,7 +259,7 @@ L'homme de tes rêves,lui aussi se
 porte bien.
 Ne t'inquiète pas!
 N'est-ce pas cela que tu désirais
-savoir?[end][character][0x1]</data>
+savoir?[end]</data>
     </text>
     <text>
         <refs>
@@ -270,7 +270,7 @@ Garuda...
  
 Si je réalise tout mes désirs,il est une
 chose que j'aimerais avoir par dessus
-tout...[end] </data>
+tout...[end]</data>
     </text>
     <text>
         <refs>
@@ -278,7 +278,7 @@ tout...[end] </data>
         </refs>
         <data>La bravoure,le genre de bravoure en
 laquelle je peux avoir totalement
-confiance.[end] </data>
+confiance.[end]</data>
     </text>
     <text>
         <refs>

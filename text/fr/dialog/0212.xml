@@ -5,15 +5,14 @@
             <ref>0x7c6</ref>
         </refs>
         <data> Oui
- Non[end1]
-</data>
+ Non[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x69b</ref>
         </refs>
         <data>Bienvenue!
-Tu tombes bien![end] </data>
+Tu tombes bien![end]</data>
     </text>
     <text>
         <refs>
@@ -22,13 +21,13 @@ Tu tombes bien![end] </data>
         </refs>
         <data> Armes.
  Armures.
- Objets.[end1]J</data>
+ Objets.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x6e2</ref>
         </refs>
-        <data>Je fais des ventes spéciales![end] </data>
+        <data>Je fais des ventes spéciales![end]</data>
     </text>
     <text>
         <refs>
@@ -36,14 +35,14 @@ Tu tombes bien![end] </data>
         </refs>
         <data> De bonnes choses.
  Des champignons.
- Des livres.[end1]B</data>
+ Des livres.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x68a</ref>
         </refs>
         <data>Bienvenue!
-J'ai tout abandonné![end]S</data>
+J'ai tout abandonné![end]</data>
     </text>
     <text>
         <refs>
@@ -51,7 +50,7 @@ J'ai tout abandonné![end]S</data>
         </refs>
         <data>SENDACK:
 [character][0x1]...
-Veux-tu revenir?[end]S</data>
+Veux-tu revenir?[end]</data>
     </text>
     <text>
         <refs>
@@ -59,7 +58,7 @@ Veux-tu revenir?[end]S</data>
         </refs>
         <data>SENDACK:
 [character][0x1]...
-Fais de ton mieux![end] </data>
+Fais de ton mieux![end]</data>
     </text>
     <text>
         <refs>
@@ -67,7 +66,7 @@ Fais de ton mieux![end] </data>
             <ref>0x759</ref>
         </refs>
         <data> Rester!
- Aller combattre![end1]L</data>
+ Aller combattre![end1]</data>
     </text>
     <text>
         <refs>
@@ -77,39 +76,39 @@ Fais de ton mieux![end] </data>
 cultiver des Champignons!
  
 Ne touchez à rien!
--Bikkebakke-[end]V</data>
+-Bikkebakke-[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7c2</ref>
         </refs>
         <data>Voler les champignons tant espérés de
-Bikkebakke?[end][0xaa]</data>
+Bikkebakke?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7e0</ref>
         </refs>
-        <data>[0xaa]CHAMPIGNON VENENEUX[0xab].[end][0xaa]</data>
+        <data>[0xaa]CHAMPIGNON VENENEUX[0xab].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7f5</ref>
         </refs>
-        <data>[0xaa]CHAMPIGNON GUROGURO[0xab].[end][0xaa]</data>
+        <data>[0xaa]CHAMPIGNON GUROGURO[0xab].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x80a</ref>
         </refs>
-        <data>[0xaa]CHAMPIGNON CRIARD[0xab].[end]T</data>
+        <data>[0xaa]CHAMPIGNON CRIARD[0xab].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x81a</ref>
         </refs>
         <data>Tu ne pourras plus regarder Bikkebakke
-en face...[end]T</data>
+en face...[end]</data>
     </text>
     <text>
         <refs>
@@ -117,13 +116,13 @@ en face...[end]T</data>
         </refs>
         <data>Tu n'as même pas pensé que Bikkebakke
 les adorait et qu'il se sentirait très
-seul.[end]T</data>
+seul.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x82c</ref>
         </refs>
         <data>Tu n'as même pas pensé à l'innocent
-Bikkebakke.[end][0x0]</data>
+Bikkebakke.[end]</data>
     </text>
 </texts>

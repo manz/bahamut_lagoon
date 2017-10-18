@@ -4,26 +4,26 @@
         <refs>
             <ref>0x580</ref>
         </refs>
-        <data>Come on!![end]O</data>
+        <data>Come on!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x58d</ref>
         </refs>
-        <data>Okay!! Here's some food!![end]O</data>
+        <data>Okay!! Here's some food!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x595</ref>
         </refs>
-        <data>Okay, okay!![end]D</data>
+        <data>Okay, okay!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5ab</ref>
         </refs>
         <data>Dragonkeeper: A cute baby was born!!
-Look!![end]D</data>
+Look!![end]</data>
     </text>
     <text>
         <refs>
@@ -36,7 +36,7 @@ He's following the ball of light that
 came out of the sky.
 
 When he gets back, feed him some
-daggers as a reward![end]D</data>
+daggers as a reward![end]</data>
     </text>
     <text>
         <refs>
@@ -45,7 +45,7 @@ daggers as a reward![end]D</data>
         <data>Dragonkeeper: Rush got on [character][0x1]
 and is waiting for you!! Are you going
 for a flight?
-Scouting the sky is [character][0x1]'s duty.[end]D</data>
+Scouting the sky is [character][0x1]'s duty.[end]</data>
     </text>
     <text>
         <refs>
@@ -57,7 +57,7 @@ growling!!
 It looks like they're excited that
 Princess [character][0x1] has returned!!
 
-Okay!! Food!![end]D</data>
+Okay!! Food!![end]</data>
     </text>
     <text>
         <refs>
@@ -65,14 +65,14 @@ Okay!! Food!![end]D</data>
         </refs>
         <data>Dragonkeeper: Well then, will you go?
 [character][0x1] really loved basking in the
-thunder.[end]D</data>
+thunder.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5ec</ref>
         </refs>
         <data>Dragonkeeper: ...... Just be a little more
-patient!![end]D</data>
+patient!![end]</data>
     </text>
     <text>
         <refs>
@@ -80,7 +80,7 @@ patient!![end]D</data>
         </refs>
         <data>Dragonkeeper: I've been waiting for
 you!! And so have all the dragons!!
-Hurry!! This way![end]W</data>
+Hurry!! This way![end]</data>
     </text>
     <text>
         <refs>
@@ -88,7 +88,7 @@ Hurry!! This way![end]W</data>
             <ref>0x647</ref>
             <ref>0x837</ref>
         </refs>
-        <data>Will you buy something?[end] </data>
+        <data>Will you buy something?[end]</data>
     </text>
     <text>
         <refs>
@@ -101,7 +101,7 @@ Hurry!! This way![end]W</data>
             <ref>0x83b</ref>
         </refs>
         <data>  Yes
-  No[end1]H</data>
+  No[end1]</data>
     </text>
     <text>
         <refs>
@@ -109,35 +109,35 @@ Hurry!! This way![end]W</data>
         </refs>
         <data>Heehee... I accepted the engagement
 dentures the armor saleslady gave
-me... Hee hee hee...[end]H</data>
+me... Hee hee hee...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x666</ref>
         </refs>
         <data>Hee hee hee... Armor saleslady...
-Oh...!! [character][0x1]!![end]D</data>
+Oh...!! [character][0x1]!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x66f</ref>
         </refs>
         <data>Do you know about the enemy's
-floating fortress, Trafalgar?[end] </data>
+floating fortress, Trafalgar?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x673</ref>
         </refs>
         <data>  Please tell me about it.
-  Go shopping[end1]I</data>
+  Go shopping[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x67e</ref>
         </refs>
         <data>It's terrifying... This is what it looks
-like...[end]A</data>
+like...[end]</data>
     </text>
     <text>
         <refs>
@@ -145,14 +145,14 @@ like...[end]A</data>
         </refs>
         <data>Armor saleslady... Our relationship is
 strictly a professional one...
-I left that out...[end]D</data>
+I left that out...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6a0</ref>
         </refs>
         <data>Does my face look like a cucumber?
-That's what the Mini-Devils told me...[end]I</data>
+That's what the Mini-Devils told me...[end]</data>
     </text>
     <text>
         <refs>
@@ -163,14 +163,14 @@ That's what the Mini-Devils told me...[end]I</data>
         <data>In celebration of Princess
 [character][0x1]'s return, I've stocked up
 on some new items!!
-Would you like to see them?[end]M</data>
+Would you like to see them?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6b9</ref>
         </refs>
         <data>Mmah... dunchus... aah...
-[0x28]My dentures are...[0x29][end][character][0x1]</data>
+[0x28]My dentures are...[0x29][end]</data>
     </text>
     <text>
         <refs>
@@ -180,20 +180,20 @@ Would you like to see them?[end]M</data>
         </refs>
         <data>[character][0x1]'s shop is open every day
 of the year!! Even during rain and
-heavy wind, come by any time![end]W</data>
+heavy wind, come by any time![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6cb</ref>
         </refs>
-        <data>Welcome!! I'm the weapon salesman!![end] </data>
+        <data>Welcome!! I'm the weapon salesman!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6cf</ref>
         </refs>
         <data>  Go shopping
-  I wanna hear classified secrets.[end1]H</data>
+  I wanna hear classified secrets.[end1]</data>
     </text>
     <text>
         <refs>
@@ -218,7 +218,7 @@ If you use this knowledge well you can
 save a lot of money! And you can also
 gather food for the dragons quicker!
 Anyway, that's useful information for
-you to keep in mind.[end]I</data>
+you to keep in mind.[end]</data>
     </text>
     <text>
         <refs>
@@ -229,14 +229,14 @@ you to keep in mind.[end]I</data>
 
 Monyoo! Manyoo! Munyooo!
 [0x28]We're Mini-Devils!! When we die we'll
-die together!![0x29][end]I</data>
+die together!![0x29][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x771</ref>
         </refs>
         <data>I was kicked out, even though it's my
-own shop...[end]I</data>
+own shop...[end]</data>
     </text>
     <text>
         <refs>
@@ -244,7 +244,7 @@ own shop...[end]I</data>
         </refs>
         <data>I feel so ashamed...
 Even at the best of times it's such a
-small store...[end]T</data>
+small store...[end]</data>
     </text>
     <text>
         <refs>
@@ -252,34 +252,34 @@ small store...[end]T</data>
         </refs>
         <data>The Mini-Devils were practicing
 breathing fire... I have a bad feeling
-about this...[end]I</data>
+about this...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x78c</ref>
         </refs>
         <data>It sure is nice and quiet when the
-Mini-Devils aren't around.[end]B</data>
+Mini-Devils aren't around.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x795</ref>
         </refs>
         <data>Be quiet, Mini-Devils...
-Ah, welcome!![end]I</data>
+Ah, welcome!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7b2</ref>
         </refs>
         <data>I have a letter from my salesmen
-colleague for you, [character][0x1].[end]Y</data>
+colleague for you, [character][0x1].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7b8</ref>
         </refs>
-        <data>You got a Letter. Will you read it?[end][0x28]</data>
+        <data>You got a Letter. Will you read it?[end]</data>
     </text>
     <text>
         <refs>
@@ -290,14 +290,14 @@ It's all very sudden, but we got
 married.
 From now on we will work very hard
 together.
-      Wife of the battlefield salesman[end]W</data>
+      Wife of the battlefield salesman[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7d9</ref>
             <ref>0x7eb</ref>
         </refs>
-        <data>Welcome to the item shop!![end]I</data>
+        <data>Welcome to the item shop!![end]</data>
     </text>
     <text>
         <refs>
@@ -308,7 +308,7 @@ up a small shop. Maybe a book shop
 would be nice...
 I can have him write books or
 something. I want to let the people of
-Orelus know about you, [character][0x1].[end]W</data>
+Orelus know about you, [character][0x1].[end]</data>
     </text>
     <text>
         <refs>
@@ -316,7 +316,7 @@ Orelus know about you, [character][0x1].[end]W</data>
         </refs>
         <data>We're going to support each other.
 Okay, do shopping for the peace of
-Orelus!![end]T</data>
+Orelus!![end]</data>
     </text>
     <text>
         <refs>
@@ -324,7 +324,7 @@ Orelus!![end]T</data>
         </refs>
         <data>The weapon shop man... I don't like
 him. The nature of his business is
-military affairs.[end]R</data>
+military affairs.[end]</data>
     </text>
     <text>
         <refs>
@@ -334,14 +334,14 @@ military affairs.[end]R</data>
 to ask things about business.
 Could he be in love with me...?
 But... he's a knight and I'm just a
-shopkeeper...[end]U</data>
+shopkeeper...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x871</ref>
         </refs>
         <data>Umm... about my armor...
-What do you think of it?[end] </data>
+What do you think of it?[end]</data>
     </text>
     <text>
         <refs>
@@ -349,19 +349,19 @@ What do you think of it?[end] </data>
         </refs>
         <data>  It's not bad.
   It breaks all the time!!
-  Go shopping[end1]Y</data>
+  Go shopping[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x882</ref>
         </refs>
-        <data>You're very flattering!![end]I</data>
+        <data>You're very flattering!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x88a</ref>
         </refs>
-        <data>I see... I guess so...[end]T</data>
+        <data>I see... I guess so...[end]</data>
     </text>
     <text>
         <refs>
@@ -369,7 +369,7 @@ What do you think of it?[end] </data>
             <ref>0x8b5</ref>
         </refs>
         <data>This is the armor shop!!
-Please buy something...[end]U</data>
+Please buy something...[end]</data>
     </text>
     <text>
         <refs>
@@ -377,7 +377,7 @@ Please buy something...[end]U</data>
         </refs>
         <data>Uh... No matter where you go, you
 can't run around naked. So, uh... please
-buy equipment from my shop.[end]M</data>
+buy equipment from my shop.[end]</data>
     </text>
     <text>
         <refs>
@@ -385,28 +385,28 @@ buy equipment from my shop.[end]M</data>
         </refs>
         <data>Monyo monyo...
 [0x28]If I eat a dragon will it taste
-good...?[0x29][end]M</data>
+good...?[0x29][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8e1</ref>
         </refs>
         <data>Monyo monyo!!
-[0x28]Yay!![0x29][end]M</data>
+[0x28]Yay!![0x29][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8eb</ref>
         </refs>
         <data>Monyoo!!
-[0x28]For a human, [character][0x1] is okay!![0x29][end]M</data>
+[0x28]For a human, [character][0x1] is okay!![0x29][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8f5</ref>
         </refs>
         <data>Monyoo!!
-[0x28]Mini-Devils aren't afraid of thunder!![0x29][end]M</data>
+[0x28]Mini-Devils aren't afraid of thunder!![0x29][end]</data>
     </text>
     <text>
         <refs>
@@ -414,7 +414,7 @@ good...?[0x29][end]M</data>
         </refs>
         <data>Monyoo!!
 [0x28]Study hard and hurry and become
-like us!![0x29][end]M</data>
+like us!![0x29][end]</data>
     </text>
     <text>
         <refs>
@@ -422,14 +422,14 @@ like us!![0x29][end]M</data>
         </refs>
         <data>Manyoo!!
 [0x28]Even Mini-Devils could win against that
-girl!![0x29][end]M</data>
+girl!![0x29][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x922</ref>
         </refs>
         <data>Manyomanyo!!
-[0x28]Kick kick!![0x29][end]M</data>
+[0x28]Kick kick!![0x29][end]</data>
     </text>
     <text>
         <refs>
@@ -437,14 +437,14 @@ girl!![0x29][end]M</data>
         </refs>
         <data>Manyomanyo...
 [0x28]She's quite above average if I
-do say so myself...[0x29][end]M</data>
+do say so myself...[0x29][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x936</ref>
         </refs>
         <data>Manyoo!!
-[0x28]I want to do this all day...[0x29][end]M</data>
+[0x28]I want to do this all day...[0x29][end]</data>
     </text>
     <text>
         <refs>
@@ -452,7 +452,7 @@ do say so myself...[0x29][end]M</data>
         </refs>
         <data>Manyoo!!
 [0x28]Mini-Devils dance, so we don't need
-weapons or armor!![0x29][end]M</data>
+weapons or armor!![0x29][end]</data>
     </text>
     <text>
         <refs>
@@ -460,14 +460,14 @@ weapons or armor!![0x29][end]M</data>
         </refs>
         <data>Munyoo!!
 [0x28]If you make them eat Gross
-Mushrooms they'll act weird!![0x29][end]M</data>
+Mushrooms they'll act weird!![0x29][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x95b</ref>
         </refs>
         <data>Munyoo!!
-[0x28]Don't pretend to be a kid!![0x29][end]M</data>
+[0x28]Don't pretend to be a kid!![0x29][end]</data>
     </text>
     <text>
         <refs>
@@ -475,7 +475,7 @@ Mushrooms they'll act weird!![0x29][end]M</data>
         </refs>
         <data>Munyoo!!
 [0x28]I'm a Mini-Devil, so I'm not gloomy at
-all!![0x29][end]W</data>
+all!![0x29][end]</data>
     </text>
     <text>
         <refs>
@@ -485,7 +485,7 @@ all!![0x29][end]W</data>
 but now they can't get out...
 
 Oh, the ambitions of the Mini-Devil
-Empire...[end]W</data>
+Empire...[end]</data>
     </text>
     <text>
         <refs>
@@ -494,7 +494,7 @@ Empire...[end]W</data>
         <data>Wagahai: Ever since the Mini-Devil
 Revolution these ones have been a real
 nightmare.
-No, no, I'm glad I'm being kicked.[end]W</data>
+No, no, I'm glad I'm being kicked.[end]</data>
     </text>
     <text>
         <refs>
@@ -502,7 +502,7 @@ No, no, I'm glad I'm being kicked.[end]W</data>
         </refs>
         <data>Wagahai: What pitiful figures the
 Mini-Devil soldiers who live in darkness
-are...[end]C</data>
+are...[end]</data>
     </text>
     <text>
         <refs>
@@ -513,7 +513,7 @@ reward, I will tell you about my dream.
 Someday, I want to become a dragon.
 I promised [character][0x1] I would, but
 will the day when it comes true ever
-come...?[end]C</data>
+come...?[end]</data>
     </text>
     <text>
         <refs>
@@ -523,33 +523,33 @@ come...?[end]C</data>
 one of my friends... Hmph!! Go quickly!!
 
 Someday he will become a dragon and
-return... I get that feeling!![end]S</data>
+return... I get that feeling!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9b9</ref>
         </refs>
         <data>Sajin: This is comfortable.
-And nobody will find me here...[end]S</data>
+And nobody will find me here...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9bf</ref>
         </refs>
-        <data>Sajin: Leave that job to me...[end]S</data>
+        <data>Sajin: Leave that job to me...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9c5</ref>
         </refs>
-        <data>Sajin: You hired us for one person...[end]S</data>
+        <data>Sajin: You hired us for one person...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9cb</ref>
         </refs>
         <data>Sajin: This profession is dirty... 
-I wash my hands of it... I quit...[end]Z</data>
+I wash my hands of it... I quit...[end]</data>
     </text>
     <text>
         <refs>
@@ -557,7 +557,7 @@ I wash my hands of it... I quit...[end]Z</data>
         </refs>
         <data>Zeroshin: Mom... I'm on a ship now.
 I can't make any friends... First I must
-practice my warm greetings.[end]Z</data>
+practice my warm greetings.[end]</data>
     </text>
     <text>
         <refs>
@@ -565,7 +565,7 @@ practice my warm greetings.[end]Z</data>
         </refs>
         <data>Zeroshin: Mom... How are you?
 I can't make any friends...
-Today I'm practicing smiling by myself.[end]Z</data>
+Today I'm practicing smiling by myself.[end]</data>
     </text>
     <text>
         <refs>
@@ -574,7 +574,7 @@ Today I'm practicing smiling by myself.[end]Z</data>
         <data>Zeroshin: Mom... How are you?
 I'm all alone... I don't talk to Sajin
 about anything but work.
-It's so lonely all by myself...[end]Z</data>
+It's so lonely all by myself...[end]</data>
     </text>
     <text>
         <refs>

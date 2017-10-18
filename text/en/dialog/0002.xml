@@ -5,26 +5,26 @@
             <ref>0x5c</ref>
         </refs>
         <data>    The Green Continent of Campbell
-           Granbelos Fortress[end]P</data>
+           Granbelos Fortress[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xbe</ref>
         </refs>
-        <data>Palpaleos: Asleep...[end]S</data>
+        <data>Palpaleos: Asleep...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x112</ref>
         </refs>
         <data>Sauzer: Palpaleos... There you are.
-You can't sleep either?[end]P</data>
+You can't sleep either?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x11f</ref>
         </refs>
-        <data>Palpaleos: No...[end]S</data>
+        <data>Palpaleos: No...[end]</data>
     </text>
     <text>
         <refs>
@@ -32,20 +32,20 @@ You can't sleep either?[end]P</data>
         </refs>
         <data>Sauzer: Don't worry about it.
 Can you feel it...? The legend we
-dreamed of is here, now.[end]P</data>
+dreamed of is here, now.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x13e</ref>
         </refs>
         <data>Palpaleos: On this green continent of
-Campbell?[end]T</data>
+Campbell?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x19c</ref>
         </refs>
-        <data>The legend we dreamed of...[end][0x0]</data>
+        <data>The legend we dreamed of...[end]</data>
     </text>
     <text>
         <refs>
@@ -54,7 +54,7 @@ Campbell?[end]T</data>
         <data>Sauzer: Yes... This girl will fulfill our
 dreams...
 
-She will fulfill the legend.[end]N</data>
+She will fulfill the legend.[end]</data>
     </text>
     <text>
         <refs>
@@ -62,45 +62,45 @@ She will fulfill the legend.[end]N</data>
         </refs>
         <data>No, it's rude of me to call her a girl.
 Princess [character][0x1] has become very
-beautiful.[end]P</data>
+beautiful.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x171</ref>
         </refs>
         <data>Palpaleos... The day we leave is close
-at hand. Please rest.[end]P</data>
+at hand. Please rest.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x273</ref>
         </refs>
-        <data>Palpaleos...[end]L</data>
+        <data>Palpaleos...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x27d</ref>
         </refs>
-        <data>Look at the sky...[end]T</data>
+        <data>Look at the sky...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x298</ref>
         </refs>
-        <data>The sky is ours. But not all of it.[end]S</data>
+        <data>The sky is ours. But not all of it.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2a2</ref>
         </refs>
-        <data>Sauzer...[end]P</data>
+        <data>Sauzer...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2ba</ref>
         </refs>
         <data>Palpaleos: The legend of the Holy
-Dragons...[end][0x0]</data>
+Dragons...[end]</data>
     </text>
     <text>
         <refs>
@@ -108,20 +108,20 @@ Dragons...[end][0x0]</data>
         </refs>
         <data>Sauzer: There is a legend...
 One spoken of in Kahna.
-Do you know of it?[end]S</data>
+Do you know of it?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2d2</ref>
         </refs>
-        <data>Sauzer: Do you think I can do it?[end]D</data>
+        <data>Sauzer: Do you think I can do it?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2e1</ref>
         </refs>
         <data>Do you think I can become the man of
-legend?[end]I</data>
+legend?[end]</data>
     </text>
     <text>
         <refs>
@@ -129,19 +129,19 @@ legend?[end]I</data>
         </refs>
         <data>I am the man who conquered the skies.
 If there are any battles before me, I
-will accept the challenge.[end]A</data>
+will accept the challenge.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x301</ref>
         </refs>
-        <data>And then I will achieve victory![end]P</data>
+        <data>And then I will achieve victory![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x30c</ref>
         </refs>
-        <data>Palpaleos: Victory for a new era...[end]S</data>
+        <data>Palpaleos: Victory for a new era...[end]</data>
     </text>
     <text>
         <refs>

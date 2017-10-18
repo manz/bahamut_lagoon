@@ -4,7 +4,7 @@
         <refs>
             <ref>0xeb</ref>
         </refs>
-        <data>Matelite: [character][0x1]...!![end]T</data>
+        <data>Matelite: [character][0x1]...!![end]</data>
     </text>
     <text>
         <refs>
@@ -12,7 +12,7 @@
         </refs>
         <data>Taicho: Matelite!! Endure it!
 We had hoped that this day would
-come someday...[end]R</data>
+come someday...[end]</data>
     </text>
     <text>
         <refs>
@@ -21,7 +21,7 @@ come someday...[end]R</data>
         <data>Rush: ......
 
 
-Let's get going![end] </data>
+Let's get going![end]</data>
     </text>
     <text>
         <refs>
@@ -29,7 +29,7 @@ Let's get going![end] </data>
         </refs>
         <data>Palpaleos: I want to talk with
 [character][0x1]. Can you wait for me
-inside...?[end][character][0x1]</data>
+inside...?[end]</data>
     </text>
     <text>
         <refs>
@@ -37,35 +37,35 @@ inside...?[end][character][0x1]</data>
             <ref>0x607</ref>
         </refs>
         <data>[character][0x1]: Please, [character][0x1]...
-He's very important to me...[end]P</data>
+He's very important to me...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x624</ref>
         </refs>
         <data>Palpaleos: [character][0x1]... Sorry...
-Help me up, if you could...[end]S</data>
+Help me up, if you could...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x680</ref>
         </refs>
         <data>Sendak: [character][0x1]...
-I am of no use, am I...?[end] </data>
+I am of no use, am I...?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x684</ref>
         </refs>
         <data>  Sendak... You're our last hope...
-  You're exactly right, you old fogy...[end1][character][0x1]</data>
+  You're exactly right, you old fogy...[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x68e</ref>
         </refs>
         <data>[character][0x1]... I... I cannot take the
-place of the princess...[end].</data>
+place of the princess...[end]</data>
     </text>
     <text>
         <refs>

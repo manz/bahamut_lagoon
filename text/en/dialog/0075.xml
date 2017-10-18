@@ -8,19 +8,19 @@
 The true power of the Holy Dragons...
 And the one who speaks with them...
 This power... is mine...
-Even without using the girl...[end]P</data>
+Even without using the girl...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xac</ref>
         </refs>
-        <data>Palpaleos: Sauzer! Are you okay?![end]L</data>
+        <data>Palpaleos: Sauzer! Are you okay?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x143</ref>
         </refs>
-        <data>Lukia: [character][0x1]! Get up![end]L</data>
+        <data>Lukia: [character][0x1]! Get up![end]</data>
     </text>
     <text>
         <refs>
@@ -31,45 +31,45 @@ Even without using the girl...[end]P</data>
 [character][0x1], save [character][0x1]!
 
 Be careful, there's still an enemy
-general here![end]L</data>
+general here![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x24c</ref>
         </refs>
-        <data>Lukia: Is [character][0x1] okay?[end]I</data>
+        <data>Lukia: Is [character][0x1] okay?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x276</ref>
         </refs>
         <data>I'm scared... What... what's going to
-happen to me...?[end]M</data>
+happen to me...?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x325</ref>
         </refs>
-        <data>Matelite: [character][0x1]![end]S</data>
+        <data>Matelite: [character][0x1]![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x333</ref>
         </refs>
-        <data>Sendak: Princess...[end][0x0]</data>
+        <data>Sendak: Princess...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x39a</ref>
         </refs>
-        <data>Sendak: ......!?[end][0x0]</data>
+        <data>Sendak: ......!?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x309</ref>
         </refs>
         <data>Lukia: What was that? Everybody's
-wounds have healed![end]M</data>
+wounds have healed![end]</data>
     </text>
     <text>
         <refs>
@@ -77,14 +77,14 @@ wounds have healed![end]M</data>
         </refs>
         <data>Matelite: [character][0x1]...
 And we just met after all this...
-What a cruel fate...[end]S</data>
+What a cruel fate...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3a2</ref>
         </refs>
         <data>Sendak: Matelite! The princess is
-breathing! She's alright![end]M</data>
+breathing! She's alright![end]</data>
     </text>
     <text>
         <refs>
@@ -94,34 +94,34 @@ breathing! She's alright![end]M</data>
 You're alright, [character][0x1]!
 
 This will not do! Okay, [character][0x1].
-Let's carry her![end]P</data>
+Let's carry her![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x42c</ref>
         </refs>
-        <data>Palpaleos: You called?[end]P</data>
+        <data>Palpaleos: You called?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x43c</ref>
         </refs>
         <data>Palpaleos: Princess [character][0x1]...
-You can't sleep?[end][character][0x1]</data>
+You can't sleep?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x447</ref>
         </refs>
         <data>[character][0x1]: We're going to see the
-Holy Dragon, aren't we?[end]P</data>
+Holy Dragon, aren't we?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x455</ref>
         </refs>
         <data>Palpaleos: Let's not talk about that
-now.[end][character][0x1]</data>
+now.[end]</data>
     </text>
     <text>
         <refs>
@@ -129,13 +129,13 @@ now.[end][character][0x1]</data>
         </refs>
         <data>[character][0x1]: Then, tell me about
 something. Something you're good at,
-Palpaleos.[end]P</data>
+Palpaleos.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x479</ref>
         </refs>
-        <data>Palpaleos: Something I'm good at...[end][character][0x1]</data>
+        <data>Palpaleos: Something I'm good at...[end]</data>
     </text>
     <text>
         <refs>
@@ -143,7 +143,7 @@ Palpaleos.[end]P</data>
         </refs>
         <data>[character][0x1]: How about what you
 talked to me about before? About
-battle strategies and tactics.[end]P</data>
+battle strategies and tactics.[end]</data>
     </text>
     <text>
         <refs>
@@ -151,7 +151,7 @@ battle strategies and tactics.[end]P</data>
         </refs>
         <data>Palpaleos: ...I'm sorry. I don't know
 about any topics that a woman would
-find interesting.[end][character][0x1]</data>
+find interesting.[end]</data>
     </text>
     <text>
         <refs>
@@ -159,38 +159,38 @@ find interesting.[end][character][0x1]</data>
         </refs>
         <data>[character][0x1]: That's not true. I was
 happy... Nobody would ever talk to me
-about that sort of thing before...[end][character][0x1]</data>
+about that sort of thing before...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4e4</ref>
         </refs>
         <data>[character][0x1]: General!
-General Palpaleos![end]G</data>
+General Palpaleos![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4ec</ref>
         </refs>
-        <data>Girl... this is the end of the dream...[end]W</data>
+        <data>Girl... this is the end of the dream...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4f4</ref>
         </refs>
-        <data>Who are you...?[end]I</data>
+        <data>Who are you...?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x539</ref>
         </refs>
-        <data>I am the Holy Dragon Valitora...[end]V</data>
+        <data>I am the Holy Dragon Valitora...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x548</ref>
         </refs>
-        <data>Valitora... A Holy Dragon...[end]G</data>
+        <data>Valitora... A Holy Dragon...[end]</data>
     </text>
     <text>
         <refs>
@@ -200,21 +200,21 @@ General Palpaleos![end]G</data>
 
 
 The one who reads the minds of the
-Holy Dragons...[end]I</data>
+Holy Dragons...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x55b</ref>
         </refs>
         <data>I... I don't know anything.
-I don't know about any legend.[end]G</data>
+I don't know about any legend.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x564</ref>
         </refs>
         <data>Girl who doesn't know the legend...
-If so, then who are you...[end]I</data>
+If so, then who are you...[end]</data>
     </text>
     <text>
         <refs>
@@ -223,7 +223,7 @@ If so, then who are you...[end]I</data>
         <data>I'm... Kahna's...
 
 
-No... I'm nobody.[end]G</data>
+No... I'm nobody.[end]</data>
     </text>
     <text>
         <refs>
@@ -231,7 +231,7 @@ No... I'm nobody.[end]G</data>
         </refs>
         <data>Girl who is nobody...
 Weak-minded girl...
-Girl who speaks with the Holy Dragons...[end]G</data>
+Girl who speaks with the Holy Dragons...[end]</data>
     </text>
     <text>
         <refs>
@@ -239,50 +239,50 @@ Girl who speaks with the Holy Dragons...[end]G</data>
         </refs>
         <data>Gather the minds of we Holy Dragons.
 If you are worthy, we shall grant you
-power...[end]A</data>
+power...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x585</ref>
         </refs>
-        <data>And then you shall become a Dragnar...[end]A</data>
+        <data>And then you shall become a Dragnar...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x599</ref>
         </refs>
-        <data>A Dragnar? I'll become a Dragnar?[end]T</data>
+        <data>A Dragnar? I'll become a Dragnar?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5a1</ref>
         </refs>
         <data>That is up to you. If you become a
-Dragnar, the world shall be yours...[end]I</data>
+Dragnar, the world shall be yours...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5b0</ref>
         </refs>
-        <data>I... don't need the world... I...[end]P</data>
+        <data>I... don't need the world... I...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5d6</ref>
         </refs>
-        <data>Please... the rest... of the dream...[end]P</data>
+        <data>Please... the rest... of the dream...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x64a</ref>
         </refs>
-        <data>Palpaleos: You're... [character][0x1]?[end]P</data>
+        <data>Palpaleos: You're... [character][0x1]?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x65b</ref>
         </refs>
-        <data>Palpaleos: ......[end]P</data>
+        <data>Palpaleos: ......[end]</data>
     </text>
     <text>
         <refs>

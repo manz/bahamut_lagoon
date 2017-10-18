@@ -9,7 +9,7 @@ Est-ce que quelqu'un pourrait me
 servir un Vin Doux?
 Hihihi...
 Je vois une fille comme moi dans le
-miroir...[end]E</data>
+miroir...[end]</data>
     </text>
     <text>
         <refs>
@@ -20,7 +20,7 @@ Hé là,quelqu'un peut me faire un
 coktail spécial Uniuji?
 Hihihi...
 Je vois une fille comme moi dans le
-miroir...[end]M</data>
+miroir...[end]</data>
     </text>
     <text>
         <refs>
@@ -31,7 +31,7 @@ miroir...[end]M</data>
 Donne-moi mon verre...
  
 Pourquoi veux-tu... Hic...
-me le reprendre...?[end]F</data>
+me le reprendre...?[end]</data>
     </text>
     <text>
         <refs>
@@ -42,7 +42,7 @@ Tout le monde sait que [character][0x1] est la
 fille au coeur faible.
 Je suis légèrement fatiguée...
 Tu pourrais me faire un petit massage,
-[character][0x1]?[end]D</data>
+[character][0x1]?[end]</data>
     </text>
     <text>
         <refs>
@@ -50,14 +50,14 @@ Tu pourrais me faire un petit massage,
         </refs>
         <data>DIANA:
 Est-ce que tu le sais?!
-Tu le sais?![end] </data>
+Tu le sais?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2cc</ref>
         </refs>
         <data> Quoi?
- Désolé... je suis occupé![end1]D</data>
+ Désolé... je suis occupé![end1]</data>
     </text>
     <text>
         <refs>
@@ -68,7 +68,7 @@ entendu de tristes voix.
  
 Je suis persuadé que c'étaient les
 Dragons Sacrés qui étaient en train
-de parler.[end]O</data>
+de parler.[end]</data>
     </text>
     <text>
         <refs>
@@ -79,7 +79,7 @@ Ils sont tous si marrants...
  
 Moi et Don Juan?!
 O-HOHOHOHOHO[0xd8]
-Je vais mourir de rire![end]D</data>
+Je vais mourir de rire![end]</data>
     </text>
     <text>
         <refs>
@@ -89,7 +89,7 @@ Je vais mourir de rire![end]D</data>
 J'espère qu'il n'y en a plus dans ce
 bateau.
 O-HOHOHOHOHO...!
-Il faut que je me lève![end]E</data>
+Il faut que je me lève![end]</data>
     </text>
     <text>
         <refs>
@@ -99,7 +99,7 @@ Il faut que je me lève![end]E</data>
 Le ciel est un monde infini!
 Hihihihi... Hihi...
 Pas comme les gens du bateau!
-Hihihihi...[end]A</data>
+Hihihihi...[end]</data>
     </text>
     <text>
         <refs>
@@ -115,7 +115,7 @@ Savais-tu que cette Epée était selon
 une légende celle d'un très grand
 chevalier?
 Bareck,lui,aurait plus besoin d'une
-bonne hache.[end]J</data>
+bonne hache.[end]</data>
     </text>
     <text>
         <refs>
@@ -125,7 +125,7 @@ bonne hache.[end]J</data>
 Haha... resservez-moi...
 resservez-moi...
 Do..n Ju...an!
-Ressers-moi![end]D</data>
+Ressers-moi![end]</data>
     </text>
     <text>
         <refs>
@@ -133,7 +133,7 @@ Ressers-moi![end]D</data>
         </refs>
         <data>DON JUAN:
 Jeanne...
-Tu es si belle...[end]D</data>
+Tu es si belle...[end]</data>
     </text>
     <text>
         <refs>
@@ -141,7 +141,7 @@ Tu es si belle...[end]D</data>
             <ref>0x2be</ref>
         </refs>
         <data>DON JUAN:
-Qu'est-ce que ces manières?[end]J</data>
+Qu'est-ce que ces manières?[end]</data>
     </text>
     <text>
         <refs>
@@ -150,7 +150,7 @@ Qu'est-ce que ces manières?[end]J</data>
         <data>JOY:
 Je suis certaine que Don Juan aurait
 grand besoin d'une herbe gel pour
-calmer ses ardeurs.[end]N</data>
+calmer ses ardeurs.[end]</data>
     </text>
     <text>
         <refs>
@@ -158,7 +158,7 @@ calmer ses ardeurs.[end]N</data>
         </refs>
         <data>NELBO:
 Si Don Juan ose faire un geste déplacé,
-il se mange un coup bien placé![end]A</data>
+il se mange un coup bien placé![end]</data>
     </text>
     <text>
         <refs>
@@ -183,7 +183,7 @@ D'après l'expression sur ton visage,
 ça ne t'intéresse pas!
  
 Ce n'est pas ton passe-temps?!
-Très bien,gentleman[0xd8][end]F</data>
+Très bien,gentleman[0xd8][end]</data>
     </text>
     <text>
         <refs>
@@ -195,7 +195,7 @@ Vas-y...
 Haha... [character][0x1]...
 J'en ai des frissons...
 Haha...
-Haha... c'est très bien[0xd8][end]T</data>
+Haha... c'est très bien[0xd8][end]</data>
     </text>
     <text>
         <refs>
@@ -203,28 +203,28 @@ Haha... c'est très bien[0xd8][end]T</data>
         </refs>
         <data>Très bien.
 Va!
-Tu peux partir.[end]D</data>
+Tu peux partir.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x241</ref>
         </refs>
         <data>DON JUAN:
-Une Sorcière ne ferait jamais cela![end]D</data>
+Une Sorcière ne ferait jamais cela![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2a3</ref>
         </refs>
         <data>DON JUAN:
-Une Prêtresse ne ferait jamais cela![end]D</data>
+Une Prêtresse ne ferait jamais cela![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x308</ref>
         </refs>
         <data>DON JUAN:
-Je vis la vie à [0xb0][0xaf][0xaf] à l'heure![end]A</data>
+Je vis la vie à [0xb0][0xaf][0xaf] à l'heure![end]</data>
     </text>
     <text>
         <refs>
@@ -238,7 +238,7 @@ peut devenir un Dragon Maître.
  
 De toute manière,il semble que ce soit
 leur croissance maximum.
-Je crois que Bareck aime ça![end]N</data>
+Je crois que Bareck aime ça![end]</data>
     </text>
     <text>
         <refs>
@@ -247,7 +247,7 @@ Je crois que Bareck aime ça![end]N</data>
         <data>NELBO:
 On devrait faire taire ce Don Juan,
 l'ennemi des femmes!
-Ce serait si bien...[end]J</data>
+Ce serait si bien...[end]</data>
     </text>
     <text>
         <refs>
@@ -257,7 +257,7 @@ Ce serait si bien...[end]J</data>
 Avec Nelbo,
 nous le surveillons constamment.
 Il est bientôt l'heure de partir au
-combat.[end]J</data>
+combat.[end]</data>
     </text>
     <text>
         <refs>
@@ -271,13 +271,13 @@ rond chez lui.
  
 Et,c'est un vrai malade!
 J'ai découvert qu'il était un voyeur!
-Quel pervers![end]M</data>
+Quel pervers![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x333</ref>
         </refs>
         <data>MIST:
-J'ai rejoint vos idéaux![end][0x0]</data>
+J'ai rejoint vos idéaux![end]</data>
     </text>
 </texts>

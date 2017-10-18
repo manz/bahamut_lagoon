@@ -4,7 +4,7 @@
         <refs>
             <ref>0xa3</ref>
         </refs>
-        <data>            Aaaaaaaah![end]S</data>
+        <data>            Aaaaaaaah![end]</data>
     </text>
     <text>
         <refs>
@@ -12,7 +12,7 @@
         </refs>
         <data>SENDACK:
 Princesse [character][0x1]!
-Ne vous levez-vous pas?![end][character][0x1]</data>
+Ne vous levez-vous pas?![end]</data>
     </text>
     <text>
         <refs>
@@ -22,14 +22,14 @@ Ne vous levez-vous pas?![end][character][0x1]</data>
 Hihi!
 Tu exagères...
 C'est facile à dire mais il fait un peu
-froid,ici![end][character][0x1]</data>
+froid,ici![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x102</ref>
         </refs>
         <data>[character][0x1]:
-Et Matelight?[end]S</data>
+Et Matelight?[end]</data>
     </text>
     <text>
         <refs>
@@ -40,7 +40,7 @@ Oh Matelight!
  
 Il est encore occupé à parler tout
 seul et à se plaindre dans la salle
-du trône.[end][character][0x1]</data>
+du trône.[end]</data>
     </text>
     <text>
         <refs>
@@ -50,7 +50,7 @@ du trône.[end][character][0x1]</data>
 C'est tout lui ça,n'est-ce pas?
  
 Il se plaint car à son goût trop de
-gens de Kana viennent ici chaque jour.[end]M</data>
+gens de Kana viennent ici chaque jour.[end]</data>
     </text>
     <text>
         <refs>
@@ -63,43 +63,43 @@ Kana n'a plus à s'inquiéter!
 Matelight vous défendra autant que
 possible,je le jure!
 [character][0x1] est devenu un homme incroyable
-et il est l'un de mes meilleurs amis.[end] </data>
+et il est l'un de mes meilleurs amis.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x16a</ref>
         </refs>
-        <data>             KANA[end] </data>
+        <data>             KANA[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x17e</ref>
         </refs>
-        <data>             MAHAL[end] </data>
+        <data>             MAHAL[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x192</ref>
         </refs>
-        <data>           GRANBELOS[end] </data>
+        <data>           GRANBELOS[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1a6</ref>
         </refs>
-        <data>            GODRAND[end] </data>
+        <data>            GODRAND[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1ba</ref>
         </refs>
-        <data>           CAMPBELL[end] </data>
+        <data>           CAMPBELL[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1ce</ref>
         </refs>
-        <data>           DAFIRA...[end]C</data>
+        <data>           DAFIRA...[end]</data>
     </text>
     <text>
         <refs>
@@ -107,7 +107,7 @@ et il est l'un de mes meilleurs amis.[end] </data>
         </refs>
         <data>Ces lagons dispersés dans orelus seront
 bientôt unis en une seule nation grâce
-à des accords de paix.[end1]L</data>
+à des accords de paix.[end1]</data>
     </text>
     <text>
         <refs>
@@ -115,7 +115,7 @@ bientôt unis en une seule nation grâce
         </refs>
         <data>Le Capitaine [character][0x1] est à l'origine de
 ce projet et il surveille maintenant
-ces lagons en survolant les cieux.[end1]N</data>
+ces lagons en survolant les cieux.[end1]</data>
     </text>
     <text>
         <refs>
@@ -131,6 +131,6 @@ la finissons ensemble.[end1][end]</data>
             <ref>0x1fc</ref>
             <ref>0x1e5</ref>
         </refs>
-        <data>[end][0x0]</data>
+        <data>[end]</data>
     </text>
 </texts>

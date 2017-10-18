@@ -8,7 +8,7 @@
 thinking what I was doing...
 
 I'm really nervous with all these girls
-here...[end]A</data>
+here...[end]</data>
     </text>
     <text>
         <refs>
@@ -22,7 +22,7 @@ strength before the real thing.
 
 That's what that slow Heavy Armor
 Knight Barclay said. He knows weird
-things like that.[end]A</data>
+things like that.[end]</data>
     </text>
     <text>
         <refs>
@@ -34,7 +34,7 @@ danced with Frederica...
 That slow-moving Heavy Armor Knight
 can do whatever he wants, but for
 some reason that makes me mad.
-But why? Why does it make me mad...?[end]A</data>
+But why? Why does it make me mad...?[end]</data>
     </text>
     <text>
         <refs>
@@ -60,7 +60,7 @@ Barclay was saying that's how you do
 it. If you do that, we wizards will
 become even stronger.
 And then Barclay and the others will
-only play a supporting role![end]A</data>
+only play a supporting role![end]</data>
     </text>
     <text>
         <refs>
@@ -68,19 +68,19 @@ only play a supporting role![end]A</data>
         </refs>
         <data>Anastasia: Hey, [character][0x1]. If you
 walk slow like this you'll find all kinds
-of stuff. I like this. Slowly... slowly...[end]O</data>
+of stuff. I like this. Slowly... slowly...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x421</ref>
         </refs>
-        <data>Oh, I see. Heh heh.[end]W</data>
+        <data>Oh, I see. Heh heh.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x429</ref>
         </refs>
-        <data>Whaaat?[end]E</data>
+        <data>Whaaat?[end]</data>
     </text>
     <text>
         <refs>
@@ -88,7 +88,7 @@ of stuff. I like this. Slowly... slowly...[end]O</data>
         </refs>
         <data>Ectarina: I wonder if he's looking at
 the same sky... His back always turned
-to me...[end]E</data>
+to me...[end]</data>
     </text>
     <text>
         <refs>
@@ -96,7 +96,7 @@ to me...[end]E</data>
         </refs>
         <data>Ectarina: He likes Sweet Wine...
 I'll put my heart into getting some and
-send him some...[end]E</data>
+send him some...[end]</data>
     </text>
     <text>
         <refs>
@@ -104,7 +104,7 @@ send him some...[end]E</data>
         </refs>
         <data>Ectarina: He likes Uniuji...
 I'll put my heart into getting some and
-send it to him...[end]E</data>
+send it to him...[end]</data>
     </text>
     <text>
         <refs>
@@ -112,7 +112,7 @@ send it to him...[end]E</data>
         </refs>
         <data>Ectarina: Oh, his smile... His smile for
 only me... Thanks to the Sweet Wine...
-Heh heh heh...[end]E</data>
+Heh heh heh...[end]</data>
     </text>
     <text>
         <refs>
@@ -124,7 +124,7 @@ Why did it turn out this way...?
 But, it's not all bad... I'll remain in his
 memories as the girl who sent him
 Uniuji...
-Heh heh heh...[end]E</data>
+Heh heh heh...[end]</data>
     </text>
     <text>
         <refs>
@@ -133,7 +133,7 @@ Heh heh heh...[end]E</data>
         <data>Ectarina: I wonder what he's thinking
 right now... About the lovely girl who
 sent him Sweet Wine? Heh heh...
-Ah, I'm in his mind now... Heh heh...[end]E</data>
+Ah, I'm in his mind now... Heh heh...[end]</data>
     </text>
     <text>
         <refs>
@@ -146,7 +146,7 @@ Heh heh... Ectarina, the mean girl...
 Should I be even meaner I wonder...
 
 Heh heh... If I do, he'll always think
-about me...[end]E</data>
+about me...[end]</data>
     </text>
     <text>
         <refs>
@@ -157,7 +157,7 @@ fighting's over I'll reveal my feelings
 for him...
 If it doesn't work out... Then I'll get
 everybody involved... Heh heh heh...
-Boom!![end]E</data>
+Boom!![end]</data>
     </text>
     <text>
         <refs>
@@ -170,7 +170,7 @@ It's all [character][0x1]'s fault that he hates
 me now... I won't forget this...
 
 When all the fighting is over, I'll get
-even with that [character][0x1]... Heh heh...[end]N</data>
+even with that [character][0x1]... Heh heh...[end]</data>
     </text>
     <text>
         <refs>
@@ -179,26 +179,26 @@ even with that [character][0x1]... Heh heh...[end]N</data>
         <data>Nelbo: Ah, [character][0x1]. It was decided
 that Donfan, the enemy of women,
 should be held here.
-Good, don't you think?[end][end1]</data>
+Good, don't you think?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5b9</ref>
         </refs>
-        <data>[end1][0x0]</data>
+        <data>[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x4cc</ref>
         </refs>
-        <data>Donfan: Lesson!! Don't touch wizards!![end]N</data>
+        <data>Donfan: Lesson!! Don't touch wizards!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4d6</ref>
         </refs>
         <data>Nelbo: Playing as a gentlemen...
-This is fun.[end]D</data>
+This is fun.[end]</data>
     </text>
     <text>
         <refs>
@@ -206,14 +206,14 @@ This is fun.[end]D</data>
             <ref>0x67d</ref>
         </refs>
         <data>Donfan: This is miserable! This is the
-most humiliating thing in my life!![end]N</data>
+most humiliating thing in my life!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4eb</ref>
         </refs>
         <data>Nelbo: I wonder if I'll make Donfan be
-naked next time...[end]D</data>
+naked next time...[end]</data>
     </text>
     <text>
         <refs>
@@ -221,7 +221,7 @@ naked next time...[end]D</data>
             <ref>0x4f6</ref>
         </refs>
         <data>Donfan: Look at me! You two can be
-my captives!![end]N</data>
+my captives!![end]</data>
     </text>
     <text>
         <refs>
@@ -232,7 +232,7 @@ will take me to Mahal...
 
 He says he wants to see the reflection
 of Mahal's lake in my eyes... But keep
-it a secret from my best friend Joy...[end]D</data>
+it a secret from my best friend Joy...[end]</data>
     </text>
     <text>
         <refs>
@@ -240,7 +240,7 @@ it a secret from my best friend Joy...[end]D</data>
             <ref>0x50e</ref>
         </refs>
         <data>Donfan: What do you think,
-[character][0x1]? This is my true forte![end]M</data>
+[character][0x1]? This is my true forte![end]</data>
     </text>
     <text>
         <refs>
@@ -250,14 +250,14 @@ it a secret from my best friend Joy...[end]D</data>
 [character][0x1]?
 
   Of course!
-  Not really.[end1].</data>
+  Not really.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x53f</ref>
         </refs>
         <data>......
-I like you, [character][0x1]...[end]M</data>
+I like you, [character][0x1]...[end]</data>
     </text>
     <text>
         <refs>
@@ -267,13 +267,13 @@ I like you, [character][0x1]...[end]M</data>
 me?
 
   I cannot tell a lie.
-  I like you![end1]M</data>
+  I like you![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x563</ref>
         </refs>
-        <data>Meanie![end][0x0]</data>
+        <data>Meanie![end]</data>
     </text>
     <text>
         <refs>
@@ -281,14 +281,14 @@ me?
         </refs>
         <data>Heh heh. Don't worry, don't worry.
 But Lukia told me not to trust men...
-What should I do...[end]A</data>
+What should I do...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x55b</ref>
         </refs>
         <data>All wrong! You didn't say it like you
-mean it![end]M</data>
+mean it![end]</data>
     </text>
     <text>
         <refs>
@@ -298,28 +298,28 @@ mean it![end]M</data>
 do when this is all over?
 
   I haven't thought about it.
-  All kinds of stuff![end1]N</data>
+  All kinds of stuff![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x576</ref>
         </refs>
         <data>No good! Everybody thinks about
-things![end]T</data>
+things![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x57e</ref>
         </refs>
         <data>That's good, [character][0x1]!
-Come play with me sometimes, okay?[end]Z</data>
+Come play with me sometimes, okay?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x596</ref>
         </refs>
         <data>Zora: Ah, it's so nice to see Campbell
-again. I just can't seem to calm down![end]Z</data>
+again. I just can't seem to calm down![end]</data>
     </text>
     <text>
         <refs>
@@ -329,26 +329,26 @@ again. I just can't seem to calm down![end]Z</data>
 you?
 
   He's doing good work.
-  Not very good.[end1]T</data>
+  Not very good.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x5aa</ref>
         </refs>
-        <data>That's good.[end]I</data>
+        <data>That's good.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5b2</ref>
         </refs>
         <data>I see... He doesn't live up to his name
-after all.[end].</data>
+after all.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5c5</ref>
         </refs>
-        <data>...That's how he is.[end]F</data>
+        <data>...That's how he is.[end]</data>
     </text>
     <text>
         <refs>
@@ -365,7 +365,7 @@ It's time...
 For my medicine...
 
 
-Today I think I'll have some Heal SP...[end]F</data>
+Today I think I'll have some Heal SP...[end]</data>
     </text>
     <text>
         <refs>
@@ -375,21 +375,21 @@ Today I think I'll have some Heal SP...[end]F</data>
 fight, but... sorry.
 
   No, we depend on you.
-  Rest well.[end1]T</data>
+  Rest well.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x5ff</ref>
         </refs>
         <data>Thanks... You're really nice,
-[character][0x1].[end]F</data>
+[character][0x1].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x60f</ref>
         </refs>
         <data>Frederica: I'm fine. As long as I have
-my medicine...[end]F</data>
+my medicine...[end]</data>
     </text>
     <text>
         <refs>
@@ -402,7 +402,7 @@ When that happens, [character][0x1]...
 Will you start a medicine store with
 me?
 Don't worry. I won't use any of the
-merchandise.[end]J</data>
+merchandise.[end]</data>
     </text>
     <text>
         <refs>
@@ -410,27 +410,27 @@ merchandise.[end]J</data>
         </refs>
         <data>Joy: Nelbo and I are keeping watch.
 Only when there's a battle do we let
-him out.[end][0x0]</data>
+him out.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x668</ref>
         </refs>
         <data>Donfan: Lesson! Don't make a pass at
-priests![end]D</data>
+priests![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x672</ref>
         </refs>
-        <data>Don't you think Donfan is cute?[end]J</data>
+        <data>Don't you think Donfan is cute?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x687</ref>
         </refs>
         <data>Joy: I wonder what we should do to
-Donfan next...[end]J</data>
+Donfan next...[end]</data>
     </text>
     <text>
         <refs>
@@ -443,7 +443,7 @@ He told me...
 nature more beautiful than you! That's
 why I want to try comparing you.[0x22]
 But keep this a secret from my best
-friend Nelbo...[end]D</data>
+friend Nelbo...[end]</data>
     </text>
     <text>
         <refs>
@@ -453,7 +453,7 @@ friend Nelbo...[end]D</data>
 between the two lancers?
 
   What happened?
-  I don't really wanna know.[end1]I</data>
+  I don't really wanna know.[end1]</data>
     </text>
     <text>
         <refs>
@@ -467,7 +467,7 @@ Then Zora yelled at them to stop it.
 
 Apparently that reminded one of them
 of their mother and he's homesick now.
-At least it's quiet again.[end]H</data>
+At least it's quiet again.[end]</data>
     </text>
     <text>
         <refs>
@@ -476,7 +476,7 @@ At least it's quiet again.[end]H</data>
             <ref>0x744</ref>
             <ref>0x716</ref>
         </refs>
-        <data>Hmm. I see.[end]D</data>
+        <data>Hmm. I see.[end]</data>
     </text>
     <text>
         <refs>
@@ -486,7 +486,7 @@ At least it's quiet again.[end]H</data>
 [character][0x1]...?
 
   Tell me.
-  I'm busy right now...[end1]A</data>
+  I'm busy right now...[end1]</data>
     </text>
     <text>
         <refs>
@@ -499,7 +499,7 @@ I thought it was because of the Holy
 Dragons again... but, she's used to their
 anger now, isn't she?
 So I wonder just what is going on in
-there...[end]D</data>
+there...[end]</data>
     </text>
     <text>
         <refs>
@@ -509,7 +509,7 @@ there...[end]D</data>
 something serious!
 
   Tell me.
-  I'm busy now...[end1]M</data>
+  I'm busy now...[end1]</data>
     </text>
     <text>
         <refs>
@@ -522,7 +522,7 @@ When we went looking for them, we
 found them in the men's bedroom!!
 They were tied to a lancer's spear!
 And, the owner of that spear is Reeve!
-That's disgusting!![end]D</data>
+That's disgusting!![end]</data>
     </text>
     <text>
         <refs>
@@ -532,7 +532,7 @@ That's disgusting!![end]D</data>
 fighting's going to end soon?
 
   I don't know.
-  It might be true.[end1]I</data>
+  It might be true.[end1]</data>
     </text>
     <text>
         <refs>
@@ -542,7 +542,7 @@ fighting's going to end soon?
 I was thinking I should stop worrying
 about rumors that people make up.
 I've decided to pass the time leisurely
-while thinking about myself.[end]L</data>
+while thinking about myself.[end]</data>
     </text>
     <text>
         <refs>
@@ -550,7 +550,7 @@ while thinking about myself.[end]L</data>
         </refs>
         <data>Lukia: [character][0x1]'s back, so now
 comes the real battle. Being the only
-Light Armor Knight will be tough...[end]L</data>
+Light Armor Knight will be tough...[end]</data>
     </text>
     <text>
         <refs>
@@ -560,14 +560,14 @@ Light Armor Knight will be tough...[end]L</data>
 lately! Why don't you and I try to
 become the topic of gossip?
   Sorry.
-  Sure thing![end1]J</data>
+  Sure thing![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x77f</ref>
             <ref>0x777</ref>
         </refs>
-        <data>Just kidding! Relax![end]T</data>
+        <data>Just kidding! Relax![end]</data>
     </text>
     <text>
         <refs>
@@ -575,7 +575,7 @@ become the topic of gossip?
         </refs>
         <data>The door to the new era has finally
 opened. I wonder if our happiness lies
-on the other side...[end]L</data>
+on the other side...[end]</data>
     </text>
     <text>
         <refs>
@@ -585,7 +585,7 @@ on the other side...[end]L</data>
 about after the battles. I diligently
 pray that everybody will be happy.
 When the fighting is over, let's pray
-together, [character][0x1]![end]J</data>
+together, [character][0x1]![end]</data>
     </text>
     <text>
         <refs>
@@ -595,14 +595,14 @@ together, [character][0x1]![end]J</data>
 They're pretty good at keeping
 straight faces...
 I pity Donfan, but sometimes it's nice
-to have quiet around here.[end]D</data>
+to have quiet around here.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7b0</ref>
         </refs>
         <data>Donfan: This is the biggest crisis of my
-life![end]J</data>
+life![end]</data>
     </text>
     <text>
         <refs>
@@ -612,7 +612,7 @@ life![end]J</data>
 a little flabby because of all our Sweet
 Honey and Cookies.
 I might not ever be able to see that
-Donfan Jump anymore.[end]J</data>
+Donfan Jump anymore.[end]</data>
     </text>
     <text>
         <refs>
@@ -622,7 +622,7 @@ Donfan Jump anymore.[end]J</data>
 returning home with everybody from
 Mahal.
 We especially need Taicho to work
-hard.[end]M</data>
+hard.[end]</data>
     </text>
     <text>
         <refs>
@@ -630,14 +630,14 @@ hard.[end]M</data>
             <ref>0x7de</ref>
         </refs>
         <data>Mist: ...I'm still not at full strength.
-Let me rest when we're not fighting...[end]W</data>
+Let me rest when we're not fighting...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7e6</ref>
         </refs>
         <data>What... General Palpaleos and
-[character][0x1]... Hmph, that little girl...[end]H</data>
+[character][0x1]... Hmph, that little girl...[end]</data>
     </text>
     <text>
         <refs>
@@ -645,7 +645,7 @@ Let me rest when we're not fighting...[end]W</data>
         </refs>
         <data>Heheheh... I don't blame you for
 starting to like me, [character][0x1]...
-I am pretty cute after all...[end]M</data>
+I am pretty cute after all...[end]</data>
     </text>
     <text>
         <refs>
@@ -655,7 +655,7 @@ I am pretty cute after all...[end]M</data>
 fighting is over we'll all go live with
 Zora.
 The clean air of Campbell Lagoon.
-I look forward to it.[end].</data>
+I look forward to it.[end]</data>
     </text>
     <text>
         <refs>

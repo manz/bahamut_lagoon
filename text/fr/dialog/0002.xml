@@ -5,14 +5,14 @@
             <ref>0x5c</ref>
         </refs>
         <data>              -Lagon Campbell-
-            Château de Granbelos[end]P</data>
+            Château de Granbelos[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xbe</ref>
         </refs>
         <data>PALPALEOS:
-Dormez-vous,Princesse?[end]S</data>
+Dormez-vous,Princesse?[end]</data>
     </text>
     <text>
         <refs>
@@ -21,14 +21,14 @@ Dormez-vous,Princesse?[end]S</data>
         <data>SAUZER:
 Je me doutais que tu serais ici
 mon cher Palpaleos!
-Tu ne peux également pas dormir?[end]P</data>
+Tu ne peux également pas dormir?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x11f</ref>
         </refs>
         <data>PALPALEOS:
-C'est cela,Empereur...[end]S</data>
+C'est cela,Empereur...[end]</data>
     </text>
     <text>
         <refs>
@@ -38,14 +38,14 @@ C'est cela,Empereur...[end]S</data>
 Est-ce pour la même raison?
 La Légende dont nous rêvons?!
 Elle est maintenant ici et elles est à
-nous...[end]P</data>
+nous...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x13e</ref>
         </refs>
         <data>PALPALEOS:
-A Campbell,le Continent Verdoyant...[end]S</data>
+A Campbell,le Continent Verdoyant...[end]</data>
     </text>
     <text>
         <refs>
@@ -55,7 +55,7 @@ A Campbell,le Continent Verdoyant...[end]S</data>
 Effectivement!
  
 Cette fille nous amènera probablement
-vers la Légende![end]J</data>
+vers la Légende![end]</data>
     </text>
     <text>
         <refs>
@@ -63,7 +63,7 @@ vers la Légende![end]J</data>
         </refs>
         <data>Je ne devrais pas l'appeler fille!
 Princesse [character][0x1],
-quelle magnifique personne vous êtes![end]P</data>
+quelle magnifique personne vous êtes![end]</data>
     </text>
     <text>
         <refs>
@@ -71,25 +71,25 @@ quelle magnifique personne vous êtes![end]P</data>
         </refs>
         <data>Palpaleos,
 tu devrais prendre un peu de repos.
-Tu sembles être si fatigué.[end] </data>
+Tu sembles être si fatigué.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x19c</ref>
         </refs>
-        <data>La Légende dont nous rêvons...[end]P</data>
+        <data>La Légende dont nous rêvons...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x273</ref>
         </refs>
-        <data>Palpaleos...[end]R</data>
+        <data>Palpaleos...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x27d</ref>
         </refs>
-        <data>Regarde ce ciel bleu...[end]N</data>
+        <data>Regarde ce ciel bleu...[end]</data>
     </text>
     <text>
         <refs>
@@ -97,14 +97,14 @@ Tu sembles être si fatigué.[end] </data>
         </refs>
         <data>Nous contrôlons les cieux!
 Nous n'avons malheureusement pas
-encore tout![end]P</data>
+encore tout![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2a2</ref>
         </refs>
         <data>PALPALEOS:
-Sauzer...[end]S</data>
+Sauzer...[end]</data>
     </text>
     <text>
         <refs>
@@ -115,14 +115,14 @@ Je me souviens d'une légende...
  
 La légende de Kana...
 Est-elle un conte?
-La connais-tu Palpaleos?[end]P</data>
+La connais-tu Palpaleos?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2ba</ref>
         </refs>
         <data>PALPALEOS:
-La légende de leur Dragon Sacré?![end]S</data>
+La légende de leur Dragon Sacré?![end]</data>
     </text>
     <text>
         <refs>
@@ -130,14 +130,14 @@ La légende de leur Dragon Sacré?![end]S</data>
         </refs>
         <data>SAUZER:
 Penses-tu qu'un jour,je serai
-l'homme légendaire?[end]J</data>
+l'homme légendaire?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2e1</ref>
         </refs>
         <data>Je suis déjà l'Empereur qui contrôle
-le ciel![end]L</data>
+le ciel![end]</data>
     </text>
     <text>
         <refs>
@@ -146,20 +146,20 @@ le ciel![end]L</data>
         <data>La légende de Kana est dorénavant ma
 seule ambition!
  
-Seulement après cela,je serai satisfait.[end]E</data>
+Seulement après cela,je serai satisfait.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x301</ref>
         </refs>
-        <data>Et,j'aurai la victoire![end]P</data>
+        <data>Et,j'aurai la victoire![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x30c</ref>
         </refs>
         <data>PALPALEOS:
-La victoire vers une Ere Nouvelle...[end]S</data>
+La victoire vers une Ere Nouvelle...[end]</data>
     </text>
     <text>
         <refs>

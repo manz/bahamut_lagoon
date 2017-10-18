@@ -5,7 +5,7 @@
             <ref>0x2d</ref>
         </refs>
         <data>          Chapitre [0xb2]
--Campbell,le Continent Verdoyant-[end]M</data>
+-Campbell,le Continent Verdoyant-[end]</data>
     </text>
     <text>
         <refs>
@@ -13,14 +13,14 @@
         </refs>
         <data>MATELIGHT:
 Les forces ennemis sont visibles de
-très loin![end]M</data>
+très loin![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x121</ref>
         </refs>
         <data>MATELIGHT:
-La Princesse [character][0x1] serait-elle là-bas?[end]M</data>
+La Princesse [character][0x1] serait-elle là-bas?[end]</data>
     </text>
     <text>
         <refs>
@@ -28,7 +28,7 @@ La Princesse [character][0x1] serait-elle là-bas?[end]M</data>
         </refs>
         <data>MATELIGHT:
 [character][0x1],ne vous inquiétez pas!
-Nous arrivons![end]M</data>
+Nous arrivons![end]</data>
     </text>
     <text>
         <refs>
@@ -36,7 +36,7 @@ Nous arrivons![end]M</data>
         </refs>
         <data>MATELIGHT:
 Allons-y tout de suite!
-Partons![end]S</data>
+Partons![end]</data>
     </text>
     <text>
         <refs>
@@ -46,42 +46,41 @@ Partons![end]S</data>
 Que veux-tu faire?
  
  Appeler les dragons.
- Un peu de repos.[end1]
-</data>
+ Un peu de repos.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x372</ref>
         </refs>
-        <data>N'oublie pas de les nourrir![end][character][0x1]</data>
+        <data>N'oublie pas de les nourrir![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x36a</ref>
         </refs>
         <data>[character][0x1],chaque minute de préparations
-compte beaucoup.[end]S</data>
+compte beaucoup.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x380</ref>
         </refs>
         <data>SENDACK:
-Ici... ici![end]S</data>
+Ici... ici![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4df</ref>
         </refs>
         <data>SENDACK:
-[character][0x1],c'est fantastique![end]L</data>
+[character][0x1],c'est fantastique![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x313</ref>
         </refs>
         <data>La Princesse pourra voir de splendides
-dragons si tu les nourris bien.[end]S</data>
+dragons si tu les nourris bien.[end]</data>
     </text>
     <text>
         <refs>
@@ -91,8 +90,7 @@ dragons si tu les nourris bien.[end]S</data>
 [character][0x1],que veux-tu faire?
  
  Finir les préparatifs.
- Aller au combat![end1]
-</data>
+ Aller au combat![end1]</data>
     </text>
     <text>
         <refs>
@@ -102,14 +100,13 @@ dragons si tu les nourris bien.[end]S</data>
 Veux-tu des explications sur la
 nourriture?
  Je suis déjà très instruit!
- J'aimerais en savoir plus...[end1]
-</data>
+ J'aimerais en savoir plus...[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x5ce</ref>
         </refs>
-        <data>Très bien![end]L</data>
+        <data>Très bien![end]</data>
     </text>
     <text>
         <refs>
@@ -137,7 +134,7 @@ Ce dernier conseil te sera aussi utile:
 augmenter l'esprit et l'intelligence les
 rendra plus compétent en magie.
 Ce sont toutes les bases!
-A toi de réussir![end]N</data>
+A toi de réussir![end]</data>
     </text>
     <text>
         <refs>
@@ -162,7 +159,7 @@ Tu veux commercer avec moi?[end][end]</data>
 Tout de suite?!
  
 Comment peut-il nous donner de tels
-ordres![end]L</data>
+ordres![end]</data>
     </text>
     <text>
         <refs>
@@ -178,7 +175,6 @@ Viens,n'y prête pas attention![end][end]</data>
         </refs>
         <data> Armes.
  Armures.
- Objets.[end1]
-</data>
+ Objets.[end1]</data>
     </text>
 </texts>

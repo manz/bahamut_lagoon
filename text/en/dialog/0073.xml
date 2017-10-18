@@ -6,14 +6,14 @@
         </refs>
         <data>Dragonkeeper: Okay! Shall I teach you
 about how to take care of the
-dragons?[end] </data>
+dragons?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2ea</ref>
         </refs>
         <data>  Please tell me.
-  No thanks.[end1]D</data>
+  No thanks.[end1]</data>
     </text>
     <text>
         <refs>
@@ -21,14 +21,14 @@ dragons?[end] </data>
         </refs>
         <data>Dragonkeeper: Okay! Here you go!!
 This is a present from me!
-He's very shy, so take good care of it.[end]C</data>
+He's very shy, so take good care of it.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x360</ref>
             <ref>0x605</ref>
         </refs>
-        <data>Come here!![end]L</data>
+        <data>Come here!![end]</data>
     </text>
     <text>
         <refs>
@@ -38,26 +38,26 @@ He's very shy, so take good care of it.[end]C</data>
 Their faces are saying they're hungry.
 Dragons can get hungry at anytime.
 If you feed them a lot they'll calm
-down.[end]H</data>
+down.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3b5</ref>
         </refs>
-        <data>Hey! Here's some food!![end]C</data>
+        <data>Hey! Here's some food!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3d2</ref>
         </refs>
-        <data>Come here!![end]D</data>
+        <data>Come here!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x403</ref>
         </refs>
         <data>Dragons will eat anything.
-Swords, medicine, anything!![end]B</data>
+Swords, medicine, anything!![end]</data>
     </text>
     <text>
         <refs>
@@ -69,14 +69,14 @@ develop quickly or slowly. How much of
 something you feed them is the key!!
 If you don't think about their
 nutritional balance, they won't become
-excellent dragons!![end]D</data>
+excellent dragons!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4dc</ref>
             <ref>0x444</ref>
         </refs>
-        <data>Do you understand so far?[end] </data>
+        <data>Do you understand so far?[end]</data>
     </text>
     <text>
         <refs>
@@ -87,7 +87,7 @@ excellent dragons!![end]D</data>
             <ref>0x65d</ref>
         </refs>
         <data>  Yes
-  No[end1]O</data>
+  No[end1]</data>
     </text>
     <text>
         <refs>
@@ -98,7 +98,7 @@ You ready?
 
 Dragons can get hungry at
 anytime. They'll eat anything, whether
-they like it or not.[end]O</data>
+they like it or not.[end]</data>
     </text>
     <text>
         <refs>
@@ -106,7 +106,7 @@ they like it or not.[end]O</data>
         </refs>
         <data>Oh! It looks like they calmed down.
 I'll continue while I still can... Don't
-startle them.[end]I</data>
+startle them.[end]</data>
     </text>
     <text>
         <refs>
@@ -117,7 +117,7 @@ about the strength of everybody's
 skills, like yours and Matelite's.
 The strength of everyone's skills and
 their types level up alongside their
-dragons' strength![end]T</data>
+dragons' strength![end]</data>
     </text>
     <text>
         <refs>
@@ -125,60 +125,60 @@ dragons' strength![end]T</data>
         </refs>
         <data>The stronger the dragons become the
 stronger everyone will be. But you
-must be careful when using Formation.[end]O</data>
+must be careful when using Formation.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4e8</ref>
         </refs>
-        <data>Okay! One more time![end]A</data>
+        <data>Okay! One more time![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4f4</ref>
         </refs>
         <data>And then... I'll tell you a secret over
-there!![end]S</data>
+there!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x502</ref>
         </refs>
-        <data>Stay!![end][character][0x1]</data>
+        <data>Stay!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x54a</ref>
         </refs>
         <data>[character][0x1]...
-Is there somebody you like?[end]I</data>
+Is there somebody you like?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x556</ref>
         </refs>
         <data>I see... well... I think you'll understand
-this feeling soon enough...[end]T</data>
+this feeling soon enough...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x55e</ref>
         </refs>
         <data>Then you might understand how the
-dragons feel too...[end]G</data>
+dragons feel too...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x881</ref>
             <ref>0x687</ref>
         </refs>
-        <data>Give this dragon a name.[end]O</data>
+        <data>Give this dragon a name.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6d0</ref>
         </refs>
-        <data>Oh...[end][0x0]</data>
+        <data>Oh...[end]</data>
     </text>
     <text>
         <refs>
@@ -189,7 +189,7 @@ pay too much attention to just one...
 
 And if you don't show enough affection
 to one of them, it might become timid...
-Be careful.[end]Y</data>
+Be careful.[end]</data>
     </text>
     <text>
         <refs>
@@ -199,14 +199,14 @@ Be careful.[end]Y</data>
 dragons the more you'll become
 emotionally attached to them.
 You'll definitely become able to express
-your feelings much more easily.[end]T</data>
+your feelings much more easily.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5a4</ref>
         </refs>
         <data>This is all that I can teach you.
-Okay, [character][0x1]?[end]D</data>
+Okay, [character][0x1]?[end]</data>
     </text>
     <text>
         <refs>
@@ -220,7 +220,7 @@ They can also be sad, and they can
 also love.
 To make matters worse... they also
 overeat, and they catch colds too...
-Make sure to take good care of them.[end][character][0x1]</data>
+Make sure to take good care of them.[end]</data>
     </text>
     <text>
         <refs>
@@ -228,7 +228,7 @@ Make sure to take good care of them.[end][character][0x1]</data>
         </refs>
         <data>[character][0x1], you might be able to
 become a legendary dragonkeeper like
-me too...[end]D</data>
+me too...[end]</data>
     </text>
     <text>
         <refs>
@@ -236,21 +236,21 @@ me too...[end]D</data>
         </refs>
         <data>Don't give up!
 Here's a present from me!
-He's shy, so take care of him.[end]O</data>
+He's shy, so take care of him.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x64c</ref>
         </refs>
         <data>Okay then! You can do whatever you
-want now![end]D</data>
+want now![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x659</ref>
         </refs>
         <data>Dragonkeeper: Are you going back
-inside?[end]D</data>
+inside?[end]</data>
     </text>
     <text>
         <refs>

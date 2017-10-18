@@ -9,8 +9,7 @@
             <ref>0x65d</ref>
         </refs>
         <data> Oui
- Non[end1]
-</data>
+ Non[end1]</data>
     </text>
     <text>
         <refs>
@@ -19,7 +18,7 @@
         <data>DOCTEUR DRAGON:
 Je vais t'apprendre les meilleures
 méthodes pour t'occuper de tes
-dragons.[end]V</data>
+dragons.[end]</data>
     </text>
     <text>
         <refs>
@@ -27,7 +26,7 @@ dragons.[end]V</data>
             <ref>0x605</ref>
         </refs>
         <data>Venez ici!
-Allez,venez ici![end]T</data>
+Allez,venez ici![end]</data>
     </text>
     <text>
         <refs>
@@ -40,21 +39,21 @@ Les dragons ont toujours plus ou
 moins faim!
  
 Ne sois pas trop avare lorsque tu les
-nourris.[end]H</data>
+nourris.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3b5</ref>
         </refs>
         <data>Hahaha!
-Ils me chatouillent![end]H</data>
+Ils me chatouillent![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3d2</ref>
         </refs>
         <data>Ha ha!
-Ici! Ici![end]L</data>
+Ici! Ici![end]</data>
     </text>
     <text>
         <refs>
@@ -62,7 +61,7 @@ Ici! Ici![end]L</data>
         </refs>
         <data>Les dragons mangent souvent mais ne
 soit pas non plus trop excessif avec
-la nourriture.[end]V</data>
+la nourriture.[end]</data>
     </text>
     <text>
         <refs>
@@ -80,14 +79,14 @@ précisément d'une chose importante:
 la nourriture!
 Regarde et jauge bien ce que tu leur
 donnes afin d'avoir d'élégants
-dragons.[end]C</data>
+dragons.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4dc</ref>
             <ref>0x444</ref>
         </refs>
-        <data>C'est fini! Tu as compris?[end]H</data>
+        <data>C'est fini! Tu as compris?[end]</data>
     </text>
     <text>
         <refs>
@@ -98,20 +97,20 @@ Tu suis toujours ce que je dis?
  
 Les dragons sont toujours amicaux.
 Néanmoins,ils peuvent aimer ou non ce
-que tu leur donnes à manger![end]D</data>
+que tu leur donnes à manger![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x49e</ref>
         </refs>
         <data>Du calme!
-Ils aiment ça...[end]V</data>
+Ils aiment ça...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6d0</ref>
         </refs>
-        <data>Viens ici...[end]J</data>
+        <data>Viens ici...[end]</data>
     </text>
     <text>
         <refs>
@@ -125,7 +124,7 @@ Matelight peut augmenter...
 C'est pareil pour un dragon.
 Lorsqu'il gagne un niveau,il peut
 changer et ainsi avoir différentes
-apparences![end]L</data>
+apparences![end]</data>
     </text>
     <text>
         <refs>
@@ -135,27 +134,27 @@ apparences![end]L</data>
 force mais aussi des aliments que tu
 lui a donné.
 Cependant,fais très attention à la
-fameuse caractéristique [0xaa]mutation[0xab]![end]I</data>
+fameuse caractéristique [0xaa]mutation[0xab]![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4f4</ref>
         </refs>
         <data>Il y a encore de nombreux secrets
-mais c'est à toi de les découvrir.[end][character][0x1]</data>
+mais c'est à toi de les découvrir.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x54a</ref>
         </refs>
-        <data>[character][0x1],aimes-tu une femme?[end]S</data>
+        <data>[character][0x1],aimes-tu une femme?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x55e</ref>
         </refs>
         <data>Saches que les dragons comprennent
-ces sentiments.[end]I</data>
+ces sentiments.[end]</data>
     </text>
     <text>
         <refs>
@@ -163,7 +162,7 @@ ces sentiments.[end]I</data>
         </refs>
         <data>Ils sont intelligents!
 Ainsi,ils pensent et ont des
-sentiments.[end]L</data>
+sentiments.[end]</data>
     </text>
     <text>
         <refs>
@@ -174,7 +173,7 @@ qu'être profondément jaloux.
  
 Ils ont beaucoup d'affection malgré
 leur grande timidité.
-Prends garde à tout cela![end]I</data>
+Prends garde à tout cela![end]</data>
     </text>
     <text>
         <refs>
@@ -185,7 +184,7 @@ sont très réceptifs et ils sentent tes
 états d'âme.
 C'est pour cette raison qu'ils
 comprennent sans aucun doute la
-plupart de tes sentiments![end]J</data>
+plupart de tes sentiments![end]</data>
     </text>
     <text>
         <refs>
@@ -193,7 +192,7 @@ plupart de tes sentiments![end]J</data>
         </refs>
         <data>Je concluerai en disant qu'il faut bien
 les éduquer!
-Tu as compris,[character][0x1]?![end]C</data>
+Tu as compris,[character][0x1]?![end]</data>
     </text>
     <text>
         <refs>
@@ -207,7 +206,7 @@ colère,déçus,ou avoir beaucoup
 d'affection.
 Pour que toutes ces choses se fassent,
 nourris tes dragons!
-Ainsi,ils seront heureux![end]S</data>
+Ainsi,ils seront heureux![end]</data>
     </text>
     <text>
         <refs>
@@ -216,7 +215,7 @@ Ainsi,ils seront heureux![end]S</data>
         <data>Sache que le Docteur Dragon fait partie
 de la légende des dragons.
 Laquelle?
-Hahaha! Qui sait?![end]F</data>
+Hahaha! Qui sait?![end]</data>
     </text>
     <text>
         <refs>
@@ -224,7 +223,7 @@ Hahaha! Qui sait?![end]F</data>
         </refs>
         <data>Fais de ton mieux,[character][0x1]!
 Au fait,j'ai un très beau cadeau
-pour toi![end]L</data>
+pour toi![end]</data>
     </text>
     <text>
         <refs>
@@ -232,49 +231,48 @@ pour toi![end]L</data>
         </refs>
         <data>Le voilà!
 Il est venu de lui-même!
-Chose peu commune aux dragons![end]D</data>
+Chose peu commune aux dragons![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8e7</ref>
         </refs>
         <data>DOCTEUR DRAGON:
-Tu veux déjà partir?[end]D</data>
+Tu veux déjà partir?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x659</ref>
         </refs>
         <data>DOCTEUR DRAGON:
-Est-ce que tu veux rentrer?[end]E</data>
+Est-ce que tu veux rentrer?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4e8</ref>
         </refs>
         <data>Et bien dis donc!
-Tu as du mal à suivre![end]T</data>
+Tu as du mal à suivre![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x502</ref>
         </refs>
-        <data>Très bien![end]V</data>
+        <data>Très bien![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x881</ref>
             <ref>0x687</ref>
         </refs>
-        <data>Veuillez nommer ce dragon.[end] </data>
+        <data>Veuillez nommer ce dragon.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2ea</ref>
         </refs>
         <data> Je veux apprendre... Docteur!
- Je suis fatigué... Docteur![end1]
-</data>
+ Je suis fatigué... Docteur![end1]</data>
     </text>
     <text>
         <refs>
@@ -288,6 +286,6 @@ tes dragons!
  
 Très bien,j'ai quand même un cadeau
 pour toi,même si tu n'as pas voulu
-m'écouter![end][0x0]</data>
+m'écouter![end]</data>
     </text>
 </texts>

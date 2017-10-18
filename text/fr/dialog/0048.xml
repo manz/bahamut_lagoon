@@ -5,7 +5,7 @@
             <ref>0xeb</ref>
         </refs>
         <data>MATELIGHT:
-Princesse [character][0x1][0xd8][end]C</data>
+Princesse [character][0x1][0xd8][end]</data>
     </text>
     <text>
         <refs>
@@ -14,7 +14,7 @@ Princesse [character][0x1][0xd8][end]C</data>
         <data>COMMANDANT:
 Matelight!
 Reste ici!
-Pour une fois,écoute-moi et viens...[end]R</data>
+Pour une fois,écoute-moi et viens...[end]</data>
     </text>
     <text>
         <refs>
@@ -23,35 +23,35 @@ Pour une fois,écoute-moi et viens...[end]R</data>
         <data>RUSH:
 ... ... ... ...
  
-Très bien,partons![end]S</data>
+Très bien,partons![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x680</ref>
         </refs>
         <data>SENDACK:
-[character][0x1],la force mène à tout.[end] </data>
+[character][0x1],la force mène à tout.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x684</ref>
         </refs>
         <data> Tu crois que tout est fini!
- Tu es un vieil homme...[end1][character][0x1]</data>
+ Tu es un vieil homme...[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x68e</ref>
         </refs>
         <data>[character][0x1],la Princesse a choisi quelqu'un
-d'autre que toi...[end]...</data>
+d'autre que toi...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x696</ref>
         </refs>
         <data>... ... ... ...
-Au revoir,[character][0x1]![end][character][0x1]</data>
+Au revoir,[character][0x1]![end]</data>
     </text>
     <text>
         <refs>
@@ -60,7 +60,7 @@ Au revoir,[character][0x1]![end][character][0x1]</data>
         </refs>
         <data>[character][0x1]:
 [character][0x1],j'aurai une requête...
-Prends soin de lui...[end]P</data>
+Prends soin de lui...[end]</data>
     </text>
     <text>
         <refs>
@@ -68,7 +68,7 @@ Prends soin de lui...[end]P</data>
         </refs>
         <data>PALPALEOS:
 [character][0x1],j'aimerais te parler!
-C'est très important...[end]P</data>
+C'est très important...[end]</data>
     </text>
     <text>
         <refs>
@@ -76,6 +76,6 @@ C'est très important...[end]P</data>
         </refs>
         <data>PALPALEOS:
 [character][0x1],s'il te plaît,puis-je m'appuyer
-sur ton épaule...?[end][character][0x1]</data>
+sur ton épaule...?[end]</data>
     </text>
 </texts>

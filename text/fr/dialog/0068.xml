@@ -14,7 +14,7 @@ C'est ça que j'aime![end][end]</data>
             <ref>0x38c</ref>
         </refs>
         <data>Il y a une personne qui dort,
-ne fais pas de bruit.[end]D</data>
+ne fais pas de bruit.[end]</data>
     </text>
     <text>
         <refs>
@@ -22,7 +22,7 @@ ne fais pas de bruit.[end]D</data>
         </refs>
         <data>DON JUAN:
 Mon dieu,cette ravissante jeune femme
-est malade.[end]I</data>
+est malade.[end]</data>
     </text>
     <text>
         <refs>
@@ -30,7 +30,7 @@ est malade.[end]I</data>
         </refs>
         <data>Il y a,dans cette ville,de nombreux
 Petits Démons qui sont libres.
-Ils pourraient vous aider?[end]D</data>
+Ils pourraient vous aider?[end]</data>
     </text>
     <text>
         <refs>
@@ -40,20 +40,20 @@ Ils pourraient vous aider?[end]D</data>
 Grâce à votre flamme,
 j'ai le coeur chaud.
 Vous êtes pour moi une jeune personne
-venue tout droit du ciel.[end]L</data>
+venue tout droit du ciel.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5fa</ref>
         </refs>
-        <data>Le saviez-vous?[end]A</data>
+        <data>Le saviez-vous?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x608</ref>
         </refs>
         <data>Ah?!
-Mais qui êtes-vous?![end]D</data>
+Mais qui êtes-vous?![end]</data>
     </text>
     <text>
         <refs>
@@ -61,13 +61,13 @@ Mais qui êtes-vous?![end]D</data>
         </refs>
         <data>DON JUAN:
 Mais je suis Don Juan qui a d'énormes
-sentiments pour vous![end]H</data>
+sentiments pour vous![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x618</ref>
         </refs>
-        <data>Haha...[end]D</data>
+        <data>Haha...[end]</data>
     </text>
     <text>
         <refs>
@@ -75,20 +75,20 @@ sentiments pour vous![end]H</data>
         </refs>
         <data>DON JUAN:
 Moi,Don Juan,je vous aime.
-J'ai un grand coeur.[end]V</data>
+J'ai un grand coeur.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x634</ref>
         </refs>
         <data>Vous avez un coeur pur mais il est si
-seul... si solitaire![end]V</data>
+seul... si solitaire![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x642</ref>
         </refs>
-        <data>Vous ne le pensez pas?[end]S</data>
+        <data>Vous ne le pensez pas?[end]</data>
     </text>
     <text>
         <refs>
@@ -96,21 +96,21 @@ seul... si solitaire![end]V</data>
         </refs>
         <data>Si j'observais votre coeur dans un
 microscope,je verrais que j'y suis
-présent.[end]C</data>
+présent.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x659</ref>
         </refs>
         <data>Cependant j'y vois aussi que vous
-manquez d'audace.[end]D</data>
+manquez d'audace.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x669</ref>
         </refs>
         <data>DON JUAN:
-Etc etc etc...[end]L</data>
+Etc etc etc...[end]</data>
     </text>
     <text>
         <refs>
@@ -118,7 +118,7 @@ Etc etc etc...[end]L</data>
         </refs>
         <data>LUKIA:
 Don Juan!
-Que fais-tu?[end]D</data>
+Que fais-tu?[end]</data>
     </text>
     <text>
         <refs>
@@ -127,47 +127,47 @@ Que fais-tu?[end]D</data>
         </refs>
         <data>DON JUAN:
 Hein?!
-Oh,pardonne-moi Lukia![end]D</data>
+Oh,pardonne-moi Lukia![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x703</ref>
         </refs>
         <data>Dans ce lit se trouve une personne
-venant de Kana.[end][character][0x1]</data>
+venant de Kana.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x70d</ref>
         </refs>
         <data>[character][0x1]...
-Est-ce que je cauchemarde?[end]M</data>
+Est-ce que je cauchemarde?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x71b</ref>
         </refs>
         <data>MIST:
-[character][0x1]?[end]E</data>
+[character][0x1]?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x721</ref>
         </refs>
-        <data>Est-ce toi,[character][0x1]?![end]C</data>
+        <data>Est-ce toi,[character][0x1]?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x72a</ref>
         </refs>
         <data>C'est moi... Mist...
-Une cavalière de Kana![end]T</data>
+Une cavalière de Kana![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x734</ref>
         </refs>
-        <data>Tu ne me reconnais pas?[end]M</data>
+        <data>Tu ne me reconnais pas?[end]</data>
     </text>
     <text>
         <refs>
@@ -175,7 +175,7 @@ Une cavalière de Kana![end]T</data>
         </refs>
         <data>MATELIGHT:
 Mi... Mist!
-Tu es encore en vie?![end]M</data>
+Tu es encore en vie?![end]</data>
     </text>
     <text>
         <refs>
@@ -185,7 +185,7 @@ Tu es encore en vie?![end]M</data>
 Capitaine Matelight!
  
 Nous ne nous étions plus vus depuis
-la malheureuse chute de Kana.[end]M</data>
+la malheureuse chute de Kana.[end]</data>
     </text>
     <text>
         <refs>
@@ -198,7 +198,7 @@ Je croyais vraiment que je ne te
 reverrais plus.
  
 Mais au fait,comment as-tu réussi à
-fuir Kana?[end]U</data>
+fuir Kana?[end]</data>
     </text>
     <text>
         <refs>
@@ -206,14 +206,14 @@ fuir Kana?[end]U</data>
         </refs>
         <data>Une minute!
 Ta voix...
-C'est celle d'une malade![end]M</data>
+C'est celle d'une malade![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7fe</ref>
         </refs>
         <data>MATELIGHT:
-Est-ce que tu vas bien?[end]M</data>
+Est-ce que tu vas bien?[end]</data>
     </text>
     <text>
         <refs>
@@ -224,7 +224,7 @@ Hum...
 Tout va bien...
 J'ai tout de suite repris des forces
 en voyant le visage du Capitaine
-[character][0x1]![end]M</data>
+[character][0x1]![end]</data>
     </text>
     <text>
         <refs>
@@ -234,7 +234,7 @@ en voyant le visage du Capitaine
 Si tu le dis!
  
 [character][0x1] doit sûrement t'illuminer de
-bonheur![end]M</data>
+bonheur![end]</data>
     </text>
     <text>
         <refs>
@@ -242,14 +242,14 @@ bonheur![end]M</data>
         </refs>
         <data>MIST:
 Il est temps pour moi de revenir avec
-vous.[end]J</data>
+vous.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x82d</ref>
         </refs>
         <data>J'ai été aidée par un homme et je
-dois vous aider.[end]M</data>
+dois vous aider.[end]</data>
     </text>
     <text>
         <refs>
@@ -257,21 +257,21 @@ dois vous aider.[end]M</data>
         </refs>
         <data>MATELIGHT:
 Quoi?!
-Par qui?![end]M</data>
+Par qui?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x841</ref>
         </refs>
         <data>MIST:
-... ... ... ...[end]M</data>
+... ... ... ...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x84f</ref>
         </refs>
         <data>MATELIGHT:
-Mist,qui t'a aidé à t'enfuir de Kana?[end]M</data>
+Mist,qui t'a aidé à t'enfuir de Kana?[end]</data>
     </text>
     <text>
         <refs>
@@ -279,14 +279,14 @@ Mist,qui t'a aidé à t'enfuir de Kana?[end]M</data>
         </refs>
         <data>MIST:
 Un Général de Granbelos...
-Le Grand Palpaleos![end]M</data>
+Le Grand Palpaleos![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x863</ref>
         </refs>
         <data>MATELIGHT:
-Palpaleos?![end]D</data>
+Palpaleos?![end]</data>
     </text>
     <text>
         <refs>
@@ -294,7 +294,7 @@ Palpaleos?![end]D</data>
         </refs>
         <data>DON JUAN:
 Un Général de l'Empire aidant une
-cavalière de Kana?[end]M</data>
+cavalière de Kana?[end]</data>
     </text>
     <text>
         <refs>
@@ -302,7 +302,7 @@ cavalière de Kana?[end]M</data>
         </refs>
         <data>MIST:
 Je n'ai toujours pas compris ce qui
-l'a poussé à m'aider.[end]L</data>
+l'a poussé à m'aider.[end]</data>
     </text>
     <text>
         <refs>
@@ -319,7 +319,7 @@ Mélodia t'attend![end][end]</data>
         <data>WAGAHAI:
 [0xa8]wagahai aller sur le bateau!
  mort transporter sur bateau!
- là-bas fait sombre...[0xa9][end]D</data>
+ là-bas fait sombre...[0xa9][end]</data>
     </text>
     <text>
         <refs>
@@ -334,7 +334,7 @@ pense que Don Juan est un héros.[end][end]</data>
             <ref>0x96c</ref>
         </refs>
         <data>MELODIA:
-C'est mon grand-père![end]G</data>
+C'est mon grand-père![end]</data>
     </text>
     <text>
         <refs>
@@ -344,14 +344,14 @@ C'est mon grand-père![end]G</data>
 Hoho!
 Ne serais-tu pas [character][0x1]?
 Mélodia m'a énormément parlé de toi
-et de tes exploits.[end]T</data>
+et de tes exploits.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x987</ref>
         </refs>
         <data>Tout comme ma petite-fille,j'aime
-parler et je suis un très bon conteur.[end]M</data>
+parler et je suis un très bon conteur.[end]</data>
     </text>
     <text>
         <refs>
@@ -360,7 +360,7 @@ parler et je suis un très bon conteur.[end]M</data>
         <data>MELODIA:
 Grand-père,racontes-nous une histoire!
 S'il te plaît!
-Viiite![end]G</data>
+Viiite![end]</data>
     </text>
     <text>
         <refs>
@@ -368,7 +368,7 @@ Viiite![end]G</data>
         </refs>
         <data>GRAND-PERE:
 Tu es bien impatiente Mélodia!
-Bon,je vais vous en raconter une.[end]M</data>
+Bon,je vais vous en raconter une.[end]</data>
     </text>
     <text>
         <refs>
@@ -376,7 +376,7 @@ Bon,je vais vous en raconter une.[end]M</data>
         </refs>
         <data>MELODIA:
 Est-ce que tu pourrais me dire le sens
-de mon prénom?[end]G</data>
+de mon prénom?[end]</data>
     </text>
     <text>
         <refs>
@@ -384,7 +384,7 @@ de mon prénom?[end]G</data>
         </refs>
         <data>GRAND-PERE:
 Hohoho! Cela s'est toujours transmis
-à Godrand.[end]T</data>
+à Godrand.[end]</data>
     </text>
     <text>
         <refs>
@@ -392,35 +392,35 @@ Hohoho! Cela s'est toujours transmis
         </refs>
         <data>Tu seras toujours à Godrand la
 bienvenue mais aujourd'hui je suis
-occupée.[end]J</data>
+occupée.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa09</ref>
         </refs>
         <data>Je suis aujourd'hui revenue mais ce
-n'est que pour un instant.[end]J</data>
+n'est que pour un instant.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa1c</ref>
         </refs>
         <data>Je suis rapidement revenue car je
-m'inquiétais beaucoup.[end]P</data>
+m'inquiétais beaucoup.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa2f</ref>
         </refs>
         <data>Pardonnez mon impatience mais je dois
-repartir pour ensuite revenir![end]V</data>
+repartir pour ensuite revenir![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa69</ref>
         </refs>
         <data>Voici le sens de ton prénom!
-Tout le monde a compris?[end]M</data>
+Tout le monde a compris?[end]</data>
     </text>
     <text>
         <refs>
@@ -431,7 +431,7 @@ Grand-père!
 Ce ne sont que de vieux proverbes.
 Tu n'as fait que changer le nom de
 la personne à qui ils s'appliquent!
-C'est trop facile![end]G</data>
+C'est trop facile![end]</data>
     </text>
     <text>
         <refs>
@@ -439,7 +439,7 @@ C'est trop facile![end]G</data>
         </refs>
         <data>GRAND-PERE:
 Autrefois,nombreux étaient les gens qui
-adoraient la magie des Petits Démons.[end]J</data>
+adoraient la magie des Petits Démons.[end]</data>
     </text>
     <text>
         <refs>
@@ -452,21 +452,21 @@ C'est pour cette raison que tu es
 montée sur un dragon pour aller en
 direction de Kana.
 J'ignorais qu'un jour,
-tu reviendrais ici.[end]M</data>
+tu reviendrais ici.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xaa2</ref>
         </refs>
         <data>MELODIA:
-Grand-père,je te félicite![end]J</data>
+Grand-père,je te félicite![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xaa8</ref>
         </refs>
         <data>Je crois que notre famille est née
-pour voyager.[end]G</data>
+pour voyager.[end]</data>
     </text>
     <text>
         <refs>
@@ -479,14 +479,14 @@ A chaque fois qu'on voyage,
 j'ai le sang qui remue.
  
 Et dès que nous revenons,
-je redeviens une autre personne.[end]M</data>
+je redeviens une autre personne.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xace</ref>
         </refs>
         <data>MELODIA:
-[character][0x1]![end]C</data>
+[character][0x1]![end]</data>
     </text>
     <text>
         <refs>
@@ -496,7 +496,7 @@ je redeviens une autre personne.[end]M</data>
 grand-père dit et transmet de
 nombreux proverbes à Godrand.
 Si tu veux,il peut t'en dire encore
-beaucoup![end]G</data>
+beaucoup![end]</data>
     </text>
     <text>
         <refs>
@@ -506,21 +506,21 @@ beaucoup![end]G</data>
 Hoho!
 N'exagère pas!
 Mais il est vrai que j'en connais un
-d'une très grande importance.[end]I</data>
+d'une très grande importance.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb23</ref>
         </refs>
         <data>Il provient d'une très vieille légende
-de Godrand...[end]U</data>
+de Godrand...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb35</ref>
         </refs>
         <data>Un Dragon à l'apparence d'un oiseau
-dort dans cette région.[end]L</data>
+dort dans cette région.[end]</data>
     </text>
     <text>
         <refs>
@@ -534,7 +534,7 @@ le Dragon Oiseau s'éveillera.[end][end]</data>
             <ref>0xb51</ref>
         </refs>
         <data>SENDACK:
-Une Légende de Dragon Sacré?[end][character][0x1]</data>
+Une Légende de Dragon Sacré?[end]</data>
     </text>
     <text>
         <refs>
@@ -544,14 +544,14 @@ Une Légende de Dragon Sacré?[end][character][0x1]</data>
 Le Dragon Oiseau...
 C'est Garuda!
 Il est furieux...
-Je sens sa terrible colère...[end]S</data>
+Je sens sa terrible colère...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb66</ref>
         </refs>
         <data>SENDACK:
-Je sens aussi quelque chose...[end][character][0x1]</data>
+Je sens aussi quelque chose...[end]</data>
     </text>
     <text>
         <refs>
@@ -559,7 +559,7 @@ Je sens aussi quelque chose...[end][character][0x1]</data>
         </refs>
         <data>[character][0x1]:
 Savez-vous où se trouve le lieu de
-repos de Garuda?[end]G</data>
+repos de Garuda?[end]</data>
     </text>
     <text>
         <refs>
@@ -569,14 +569,14 @@ repos de Garuda?[end]G</data>
 Je l'ai même déjà vu et il se trouve
 à l'Ouest d'ici.
 Pensez au bon esprit car la magie peut
-tout vaincre.[end]T</data>
+tout vaincre.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3e0</ref>
         </refs>
         <data>Tu as déjà vu un microscope?
-Tu as déjà regardé dedans?[end]L</data>
+Tu as déjà regardé dedans?[end]</data>
     </text>
     <text>
         <refs>
@@ -586,13 +586,13 @@ Tu as déjà regardé dedans?[end]L</data>
 Moi et lui? Ensemble?!
 Jamais!
 Don Juan ne cesse d'importuner les
-femmes![end]H</data>
+femmes![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2e2</ref>
         </refs>
-        <data>Hum...[end]V</data>
+        <data>Hum...[end]</data>
     </text>
     <text>
         <refs>
@@ -600,13 +600,13 @@ femmes![end]H</data>
         </refs>
         <data>Vous êtes l'un des amis de cette
 personne?
-Vous pouvez aller la voir![end]E</data>
+Vous pouvez aller la voir![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3e7</ref>
         </refs>
-        <data>Est-ce que tu es [character][0x1]?[end]M</data>
+        <data>Est-ce que tu es [character][0x1]?[end]</data>
     </text>
     <text>
         <refs>
@@ -615,7 +615,7 @@ Vous pouvez aller la voir![end]E</data>
         <data>MIST:
 Un jour,j'espère que mon souhait se
 réalisera...
-Je n'abandonnerai jamais...[end]M</data>
+Je n'abandonnerai jamais...[end]</data>
     </text>
     <text>
         <refs>
@@ -623,7 +623,7 @@ Je n'abandonnerai jamais...[end]M</data>
         </refs>
         <data>MATELIGHT:
 Maintenant,toute la cavalerie de Kana
-est restaurée![end]S</data>
+est restaurée![end]</data>
     </text>
     <text>
         <refs>
@@ -633,7 +633,7 @@ est restaurée![end]S</data>
 [character][0x1]...
 Je... je...
  [0xa8]Il dit des inepties...[0xa9]
- [0xa8]Et il se répète en plus...[0xa9][end]M</data>
+ [0xa8]Et il se répète en plus...[0xa9][end]</data>
     </text>
     <text>
         <refs>
@@ -646,14 +646,14 @@ Il y a longtemps,ici,
 il y avait plein de Petits Démons.
  
 Ils dansent souvent quand ils sont
-ensembles.[end]C</data>
+ensembles.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2c2</ref>
         </refs>
         <data>COMMANDANT:
-J'apprécie ce que tu fais![end]S</data>
+J'apprécie ce que tu fais![end]</data>
     </text>
     <text>
         <refs>
@@ -661,7 +661,7 @@ J'apprécie ce que tu fais![end]S</data>
         </refs>
         <data>SENDACK:
 [0xa8]Il dit des inepties.[0xa9]
-[0xa8]C'est lassant,il se répète.[0xa9][end]C</data>
+[0xa8]C'est lassant,il se répète.[0xa9][end]</data>
     </text>
     <text>
         <refs>
@@ -669,28 +669,28 @@ J'apprécie ce que tu fais![end]S</data>
         </refs>
         <data>COMMANDANT:
 Un chevalier ne doit pas boire d'alcool
-au bar![end]C</data>
+au bar![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2f6</ref>
         </refs>
         <data>C'est un peu petit,ici!
-Vous ne voudriez pas quelques armes?[end]N</data>
+Vous ne voudriez pas quelques armes?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x326</ref>
         </refs>
         <data>Nous sommes un peu à l'étroit.
-Vous aimeriez des armures?[end]O</data>
+Vous aimeriez des armures?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x356</ref>
         </refs>
         <data>On étouffe ici.
-Vous aimeriez faire des affaires?[end] </data>
+Vous aimeriez faire des affaires?[end]</data>
     </text>
     <text>
         <refs>
@@ -699,13 +699,13 @@ Vous aimeriez faire des affaires?[end] </data>
             <ref>0x35a</ref>
         </refs>
         <data> Acheter.
- Je suis occupé.[end1]M</data>
+ Je suis occupé.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x422</ref>
         </refs>
-        <data>Merci beaucoup.[end]I</data>
+        <data>Merci beaucoup.[end]</data>
     </text>
     <text>
         <refs>
@@ -719,14 +719,14 @@ Qu'est-ce que la mort sacrée?!
   
 Cela signifie qu'ils ont choisi une
 personne et qu'ils la protègeront
-pour toujours.[end]I</data>
+pour toujours.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3d9</ref>
         </refs>
         <data>Ici,Godrand est en paix mais à
-l'extérieur,c'est terrible.[end]M</data>
+l'extérieur,c'est terrible.[end]</data>
     </text>
     <text>
         <refs>
@@ -734,7 +734,7 @@ l'extérieur,c'est terrible.[end]M</data>
         </refs>
         <data>MELODIA:
 Nous devons aller dans cette grotte!
-Je vais appeler les dragons![end]J</data>
+Je vais appeler les dragons![end]</data>
     </text>
     <text>
         <refs>
@@ -742,62 +742,62 @@ Je vais appeler les dragons![end]J</data>
         </refs>
         <data>J'adore les Rebelles.
 Les combats que mène l'Empire sont
-trop terribles![end][character][0x1]</data>
+trop terribles![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x28b</ref>
         </refs>
         <data>[character][0x1]:
-Sendack a encore trop bu d'alcool...[end]O</data>
+Sendack a encore trop bu d'alcool...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x49c</ref>
         </refs>
-        <data>Obtenu [0xaa]ARMURE FURTIVE[0xab].[end]O</data>
+        <data>Obtenu [0xaa]ARMURE FURTIVE[0xab].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4ad</ref>
         </refs>
-        <data>Obtenu [0xb6] [0xaa]POEME[0xab].[end]O</data>
+        <data>Obtenu [0xb6] [0xaa]POEME[0xab].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4c5</ref>
         </refs>
-        <data>Obtenu [0xaa]HERBE SACRE[0xab].[end]O</data>
+        <data>Obtenu [0xaa]HERBE SACRE[0xab].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4d9</ref>
         </refs>
-        <data>Obtenu [0xaa]ASSAUT[0xab].[end]O</data>
+        <data>Obtenu [0xaa]ASSAUT[0xab].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4ea</ref>
         </refs>
-        <data>Obtenu [0xaa]BATON MAITRE[0xab].[end]O</data>
+        <data>Obtenu [0xaa]BATON MAITRE[0xab].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4fb</ref>
         </refs>
-        <data>Obtenu [0xaa]MEMOIRE MAUVAISE[0xab].[end]O</data>
+        <data>Obtenu [0xaa]MEMOIRE MAUVAISE[0xab].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x50c</ref>
         </refs>
-        <data>Obtenu [0xaa]ELIXIR[0xab].[end]S</data>
+        <data>Obtenu [0xaa]ELIXIR[0xab].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xbb7</ref>
         </refs>
         <data>SENDACK:
-Allons-y...[end][0x0]</data>
+Allons-y...[end]</data>
     </text>
 </texts>

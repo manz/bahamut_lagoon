@@ -12,14 +12,14 @@ libre!
  
 Venez,peuple de Campbell!
 Votre cité est libérée du joug de
-l'Empire![end]M</data>
+l'Empire![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xca</ref>
         </refs>
         <data>MATELIGHT:
-Hein...?[end]M</data>
+Hein...?[end]</data>
     </text>
     <text>
         <refs>
@@ -27,7 +27,7 @@ Hein...?[end]M</data>
         </refs>
         <data>MATELIGHT:
 Quelque chose ne va pas?!
-Peuple de Campbell![end]C</data>
+Peuple de Campbell![end]</data>
     </text>
     <text>
         <refs>
@@ -37,7 +37,7 @@ Peuple de Campbell![end]C</data>
 Matelight!
  
 Je crois que nous devrions tout
-d'abord aller saluer l'Impératrice.[end]M</data>
+d'abord aller saluer l'Impératrice.[end]</data>
     </text>
     <text>
         <refs>
@@ -45,7 +45,7 @@ d'abord aller saluer l'Impératrice.[end]M</data>
         </refs>
         <data>MATELIGHT:
 Je t'accompagne!
-Allons au château![end]S</data>
+Allons au château![end]</data>
     </text>
     <text>
         <refs>
@@ -53,7 +53,7 @@ Allons au château![end]S</data>
         </refs>
         <data>SENDACK:
 La Princesse ne se porte pas bien!
-Trouvons vite l'Impératrice.[end][character][0x1]</data>
+Trouvons vite l'Impératrice.[end]</data>
     </text>
     <text>
         <refs>
@@ -61,7 +61,7 @@ Trouvons vite l'Impératrice.[end][character][0x1]</data>
             <ref>0x3b9</ref>
         </refs>
         <data>[character][0x1]:
-Oh... je vais bien...[end][character][0x1]</data>
+Oh... je vais bien...[end]</data>
     </text>
     <text>
         <refs>
@@ -69,7 +69,7 @@ Oh... je vais bien...[end][character][0x1]</data>
         </refs>
         <data>[character][0x1]:
 Le Dragon Sacré Valitra est simplement
-en colère.[end]S</data>
+en colère.[end]</data>
     </text>
     <text>
         <refs>
@@ -77,7 +77,7 @@ en colère.[end]S</data>
         </refs>
         <data>SENDACK:
 Princesse,je vous comprends...
-Moi aussi,je le ressens...[end]J</data>
+Moi aussi,je le ressens...[end]</data>
     </text>
     <text>
         <refs>
@@ -85,7 +85,7 @@ Moi aussi,je le ressens...[end]J</data>
         </refs>
         <data>Je vous remercie!
 Campbell retrouve enfin son apparence
-d'antan.[end]T</data>
+d'antan.[end]</data>
     </text>
     <text>
         <refs>
@@ -93,14 +93,14 @@ d'antan.[end]T</data>
         </refs>
         <data>Tu as vaincu Zonbeld!
 Tu dois être le Capitaine de l'Escadron
-Dragon mais tu as l'air si jeune.[end]C</data>
+Dragon mais tu as l'air si jeune.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6ce</ref>
         </refs>
         <data>C'est ici que les Généraux de l'Empire
-et leurs soldats ont fait une halte.[end]L</data>
+et leurs soldats ont fait une halte.[end]</data>
     </text>
     <text>
         <refs>
@@ -112,14 +112,14 @@ personne.
 Le Général m'a dit:
 [0xaa]Tu seras un homme puissant[0xab],
 et il a raison!
-Héhéhé![end]A</data>
+Héhéhé![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6dc</ref>
         </refs>
         <data>Avant que vous n'arriviez,les soldats
-s'étaient installés partout en ville![end]L</data>
+s'étaient installés partout en ville![end]</data>
     </text>
     <text>
         <refs>
@@ -137,7 +137,7 @@ J'ai fait la correction du script.
 Tapez-moi sur les doigts si vous voyez
 une faute!
  
-COPERNIC:[end]S</data>
+COPERNIC:[end]</data>
     </text>
     <text>
         <refs>
@@ -148,7 +148,7 @@ Mais aussi de les comprendre!
  
 C'est pour cette raison que Sauzer
 voulait impérativement la Princesse.
-Alors pourquoi l'a-t-il laissée partir?[end][character][0x1]</data>
+Alors pourquoi l'a-t-il laissée partir?[end]</data>
     </text>
     <text>
         <refs>
@@ -156,7 +156,7 @@ Alors pourquoi l'a-t-il laissée partir?[end][character][0x1]</data>
         </refs>
         <data>[character][0x1]:
 Tante,je ne comprends pas la Légende
-des Dragons Sacrés.[end][character][0x1]</data>
+des Dragons Sacrés.[end]</data>
     </text>
     <text>
         <refs>
@@ -166,7 +166,7 @@ des Dragons Sacrés.[end][character][0x1]</data>
 Je vous demande pardon...
  
 A mon grand regret,
-Campbell reste sur ses positions.[end]M</data>
+Campbell reste sur ses positions.[end]</data>
     </text>
     <text>
         <refs>
@@ -175,7 +175,7 @@ Campbell reste sur ses positions.[end]M</data>
         <data>MATELIGHT:
 [character][0x1] est effrayée par l'immense
 pouvoir des Dragons Sacrés!
-Arrêtez d'en parler![end]I</data>
+Arrêtez d'en parler![end]</data>
     </text>
     <text>
         <refs>
@@ -185,7 +185,7 @@ Arrêtez d'en parler![end]I</data>
 Sauzer n'est pas ce genre d'homme.
 Il n'abandonnera jamais!
 Il a peut-être déjà trouvé un autre
-moyen![end][character][0x1]</data>
+moyen![end]</data>
     </text>
     <text>
         <refs>
@@ -195,14 +195,14 @@ moyen![end][character][0x1]</data>
 [character][0x1],allons-nous en!
 Je... veux partir...
 C'est cela... partons...
-ensemble...[end][character][0x1]</data>
+ensemble...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3fe</ref>
         </refs>
         <data>[character][0x1]:
-Viens,retournons à FARENHEIT![end]I</data>
+Viens,retournons à FARENHEIT![end]</data>
     </text>
     <text>
         <refs>
@@ -218,7 +218,7 @@ Il est temps que tu montres ton
 véritable pouvoir.
  
 Tu peux voir que tout cela n'est pas
-un rêve...[end]T</data>
+un rêve...[end]</data>
     </text>
     <text>
         <refs>
@@ -228,7 +228,7 @@ un rêve...[end]T</data>
 Accompagnez ces personnes.
 Protégez autant que possible ma nièce.
 Ne me dites pas que vous ne voulez
-pas y aller![end][character][0x1]</data>
+pas y aller![end]</data>
     </text>
     <text>
         <refs>
@@ -236,7 +236,7 @@ pas y aller![end][character][0x1]</data>
         </refs>
         <data>[character][0x1]:
 Cessez!
-Je n'en sais rien![end]R</data>
+Je n'en sais rien![end]</data>
     </text>
     <text>
         <refs>
@@ -245,14 +245,14 @@ Je n'en sais rien![end]R</data>
         <data>TAURUS:
 Nous allons rester ici pour voir s'il y
 a encore des troupes de l'Empire.
-C'est une idée de Rush![end]R</data>
+C'est une idée de Rush![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x711</ref>
         </refs>
         <data>RUSH:
-Arrête,tu m'embarrasses![end]R</data>
+Arrête,tu m'embarrasses![end]</data>
     </text>
     <text>
         <refs>
@@ -260,7 +260,7 @@ Arrête,tu m'embarrasses![end]R</data>
         </refs>
         <data>RUSH:
 Tout cela donne l'impression que
-l'Empire a fait fuir tout le monde![end]T</data>
+l'Empire a fait fuir tout le monde![end]</data>
     </text>
     <text>
         <refs>
@@ -268,7 +268,7 @@ l'Empire a fait fuir tout le monde![end]T</data>
         </refs>
         <data>TAURUS:
 Capitaine [character][0x1]!
-Est-il temps de retourner à FARENHEIT?[end] </data>
+Est-il temps de retourner à FARENHEIT?[end]</data>
     </text>
     <text>
         <refs>
@@ -276,8 +276,7 @@ Est-il temps de retourner à FARENHEIT?[end] </data>
             <ref>0x73a</ref>
         </refs>
         <data> Continuons à faire pression!
- Retournons à FARENHEIT...[end1]
-</data>
+ Retournons à FARENHEIT...[end1]</data>
     </text>
     <text>
         <refs>
@@ -285,7 +284,7 @@ Est-il temps de retourner à FARENHEIT?[end] </data>
         </refs>
         <data>Je crains que nous ne soyons venus
 pour rien à Campbell.
-Pourquoi ont-ils si peur?[end]E</data>
+Pourquoi ont-ils si peur?[end]</data>
     </text>
     <text>
         <refs>
@@ -293,20 +292,20 @@ Pourquoi ont-ils si peur?[end]E</data>
             <ref>0x747</ref>
         </refs>
         <data>Est-ce que vous comprenez,
-Capitaine [character][0x1]?[end]R</data>
+Capitaine [character][0x1]?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x75a</ref>
         </refs>
-        <data>Regardez moi ça...[end]M</data>
+        <data>Regardez moi ça...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x781</ref>
         </refs>
         <data>MATELIGHT:
-Hé,nous repartons?[end]J</data>
+Hé,nous repartons?[end]</data>
     </text>
     <text>
         <refs>
@@ -314,7 +313,7 @@ Hé,nous repartons?[end]J</data>
         </refs>
         <data>JOY:
 C'est naturel!
-Nous vous comprenons,Impératrice.[end]N</data>
+Nous vous comprenons,Impératrice.[end]</data>
     </text>
     <text>
         <refs>
@@ -322,7 +321,7 @@ Nous vous comprenons,Impératrice.[end]N</data>
         </refs>
         <data>NELBO:
 Impératrice...
-Soyez forte,résistez![end]I</data>
+Soyez forte,résistez![end]</data>
     </text>
     <text>
         <refs>
@@ -335,21 +334,21 @@ Je suis peinée mais rejoignez Sendack
 et aidez-le autant que possible.
  
 Cherchez maintenant le Dragon Sacré de
-la Capitale de l'eau,Mahal.[end]I</data>
+la Capitale de l'eau,Mahal.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x40b</ref>
         </refs>
         <data>IMPERATRICE DE CAMPBELL:
-Attendez![end][character][0x1]</data>
+Attendez![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x422</ref>
         </refs>
         <data>IMPERATRICE DE CAMPBELL:
-J'ai décidé de vous parler...[end]I</data>
+J'ai décidé de vous parler...[end]</data>
     </text>
     <text>
         <refs>
@@ -357,7 +356,7 @@ J'ai décidé de vous parler...[end]I</data>
         </refs>
         <data>IMPERATRICE DE CAMPBELL:
 Je vais vous dire ce qu'est vraiment
-la légende...[end]M</data>
+la légende...[end]</data>
     </text>
     <text>
         <refs>
@@ -365,7 +364,7 @@ la légende...[end]M</data>
         </refs>
         <data>MATELIGHT:
 Et alors?
-Parlez...[end]I</data>
+Parlez...[end]</data>
     </text>
     <text>
         <refs>
@@ -374,7 +373,7 @@ Parlez...[end]I</data>
         <data>IMPERATRICE DE CAMPBELL:
 Pour commencer,il vous faut savoir que
 c'est à vous de comprendre la
-Légende des Dragons Sacrés.[end]L</data>
+Légende des Dragons Sacrés.[end]</data>
     </text>
     <text>
         <refs>
@@ -387,7 +386,7 @@ Cependant,il y a une suite très peu
 connue...
 C'est celle-ci...
 Néanmoins,une personne au coeur faible
-n'amènera que désastre dans le ciel.[end]M</data>
+n'amènera que désastre dans le ciel.[end]</data>
     </text>
     <text>
         <refs>
@@ -399,7 +398,7 @@ Dragons Sacrés...
 Ouvrira la Porte vers...
 Une Ere Nouvelle...
 Quoi?!
-Alors ce serait [character][0x1]![end]S</data>
+Alors ce serait [character][0x1]![end]</data>
     </text>
     <text>
         <refs>
@@ -407,7 +406,7 @@ Alors ce serait [character][0x1]![end]S</data>
         </refs>
         <data>SENDACK:
 Une personne au coeur faible?
-N'amènera que désastre dans le ciel?[end]M</data>
+N'amènera que désastre dans le ciel?[end]</data>
     </text>
     <text>
         <refs>
@@ -417,7 +416,7 @@ N'amènera que désastre dans le ciel?[end]M</data>
 Sendack!
  
 Pourquoi est-ce que tu vois toujours
-le mauvais côté des choses?![end]S</data>
+le mauvais côté des choses?![end]</data>
     </text>
     <text>
         <refs>
@@ -434,7 +433,7 @@ d'unifier les cieux sous son pouvoir!
 Ainsi,le pouvoir que le Roi de Kana a
 transmis à la Princesse lui permettra
 de connaître les sentiments du coeur
-des Dragons Sacrés.[end]J</data>
+des Dragons Sacrés.[end]</data>
     </text>
     <text>
         <refs>
@@ -454,7 +453,7 @@ d'important...
  
 Mon frère,le Roi de Kana,est mort...
 Cela attriste [character][0x1],ainsi que moi...
-J'espère qu'elle ne s'affaiblira pas.[end]L</data>
+J'espère qu'elle ne s'affaiblira pas.[end]</data>
     </text>
     <text>
         <refs>
@@ -462,7 +461,7 @@ J'espère qu'elle ne s'affaiblira pas.[end]L</data>
         </refs>
         <data>La personne qui connaît le coeur des
 Dragons Sacrés ouvrira la porte vers
-une Ere nouvelle.[end]L</data>
+une Ere nouvelle.[end]</data>
     </text>
     <text>
         <refs>
@@ -470,7 +469,7 @@ une Ere nouvelle.[end]L</data>
         </refs>
         <data>La Princesse au coeur faible,
 celle qui connaît la Légende,
-c'est vous,Princesse...[end]V</data>
+c'est vous,Princesse...[end]</data>
     </text>
     <text>
         <refs>
@@ -478,7 +477,7 @@ c'est vous,Princesse...[end]V</data>
         </refs>
         <data>Valitra...
 Je ne peux pas...
-Tu dois changer...[end]N</data>
+Tu dois changer...[end]</data>
     </text>
     <text>
         <refs>
@@ -486,50 +485,50 @@ Tu dois changer...[end]N</data>
         </refs>
         <data>Nous devons changer...
 Il est temps de venir...
-Tu souffres... Tu as peur...[end]R</data>
+Tu souffres... Tu as peur...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6f8</ref>
         </refs>
         <data>RUSH:
-[character][0x1]...[end]T</data>
+[character][0x1]...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7c2</ref>
         </refs>
         <data>TAURUS:
-Capitaine...[end]O</data>
+Capitaine...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8c3</ref>
         </refs>
-        <data>Obtenu [0xaa]HERBE VIE[0xab].[end]O</data>
+        <data>Obtenu [0xaa]HERBE VIE[0xab].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8d4</ref>
         </refs>
-        <data>Obtenu [0xaa]MIEL DOUX[0xab].[end]O</data>
+        <data>Obtenu [0xaa]MIEL DOUX[0xab].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8e5</ref>
         </refs>
-        <data>Obtenu [0xaa]CHAMPIGNON VENENEUX[0xab].[end]O</data>
+        <data>Obtenu [0xaa]CHAMPIGNON VENENEUX[0xab].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8f6</ref>
         </refs>
-        <data>Obtenu [0xaa]UNIUJI[0xab].[end]O</data>
+        <data>Obtenu [0xaa]UNIUJI[0xab].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x907</ref>
         </refs>
-        <data>Obtenu [0xaa]REMEDE[0xab].[end][0x0]</data>
+        <data>Obtenu [0xaa]REMEDE[0xab].[end]</data>
     </text>
 </texts>

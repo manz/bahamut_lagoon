@@ -4,7 +4,7 @@
         <refs>
             <ref>0xd3</ref>
         </refs>
-        <data>           Sauzer...[end]P</data>
+        <data>           Sauzer...[end]</data>
     </text>
     <text>
         <refs>
@@ -30,13 +30,13 @@ avait alors commencé...
  
 Voulais-tu vraiment la paix universelle?
 Tu avais tant d'esprit...
-Sauzer...[end] </data>
+Sauzer...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xeb</ref>
         </refs>
-        <data>Adieu,Sauzer...[end]P</data>
+        <data>Adieu,Sauzer...[end]</data>
     </text>
     <text>
         <refs>
@@ -58,33 +58,33 @@ Toutefois,je ne m'inquiète pas car
 vous avez avec vous de fantastiques
 amis.
 Mais au fond...
-Ne vous manque-t-il personne?[end]J</data>
+Ne vous manque-t-il personne?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x133</ref>
         </refs>
         <data>Je vous envie tellement,
-[character][0x1]...[end] </data>
+[character][0x1]...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x143</ref>
         </refs>
-        <data>Adieu,[character][0x1]...[end] </data>
+        <data>Adieu,[character][0x1]...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x14b</ref>
         </refs>
         <data>Adieu,
-Légende des Dragons Sacrés...[end]P</data>
+Légende des Dragons Sacrés...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x179</ref>
         </refs>
-        <data>Palpaleos![end]P</data>
+        <data>Palpaleos![end]</data>
     </text>
     <text>
         <refs>
@@ -94,14 +94,14 @@ Légende des Dragons Sacrés...[end]P</data>
  
   
 Vous avez vous-même donné des ordres
-et entraîné le peuple dans la guerre![end]V</data>
+et entraîné le peuple dans la guerre![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x18d</ref>
         </refs>
         <data>Votre collaboration avec les ennemis de
-l'Empire a aussi été reconnue![end]P</data>
+l'Empire a aussi été reconnue![end]</data>
     </text>
     <text>
         <refs>
@@ -109,7 +109,7 @@ l'Empire a aussi été reconnue![end]P</data>
         </refs>
         <data>PALPALEOS:
 L'amour et la rancune habitent
-maintenant vos coeurs...[end]L</data>
+maintenant vos coeurs...[end]</data>
     </text>
     <text>
         <refs>
@@ -119,6 +119,6 @@ maintenant vos coeurs...[end]L</data>
  
   
 Vous avez causé beaucoup trop de
-morts et de victimes![end][0x0]</data>
+morts et de victimes![end]</data>
     </text>
 </texts>

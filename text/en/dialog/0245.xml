@@ -4,7 +4,7 @@
         <refs>
             <ref>0xd3</ref>
         </refs>
-        <data>                Sauzer...[end]P</data>
+        <data>                Sauzer...[end]</data>
     </text>
     <text>
         <refs>
@@ -20,13 +20,13 @@ What you sought wasn't really war, it
 was peace, wasn't it?
 
 ...I get that feeling...
-Sauzer...[end]G</data>
+Sauzer...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xeb</ref>
         </refs>
-        <data>Goodbye, Sauzer...[end]P</data>
+        <data>Goodbye, Sauzer...[end]</data>
     </text>
     <text>
         <refs>
@@ -39,53 +39,53 @@ Even though the war has ended, I
 cannot show my face in Kahna...
 Forgive me...
 However, you have excellent friends...
-You aren't lonely, are you?[end]I</data>
+You aren't lonely, are you?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x133</ref>
         </refs>
         <data>I envy you...
-[character][0x1]...[end]G</data>
+[character][0x1]...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x143</ref>
         </refs>
-        <data>Goodbye, [character][0x1]...[end]G</data>
+        <data>Goodbye, [character][0x1]...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x14b</ref>
         </refs>
-        <data>Goodbye, legend of the Holy Dragons...[end]P</data>
+        <data>Goodbye, legend of the Holy Dragons...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x179</ref>
         </refs>
-        <data>Palpaleos![end]P</data>
+        <data>Palpaleos![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x183</ref>
         </refs>
         <data>Palpaleos! You're the one who got us
-all into that damn war![end]S</data>
+all into that damn war![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x18d</ref>
         </refs>
         <data>So how're you gonna take responsibility
-for it?![end]P</data>
+for it?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x193</ref>
         </refs>
         <data>Palpaleos: So that you are satisfied...
-Do as you wish...[end]S</data>
+Do as you wish...[end]</data>
     </text>
     <text>
         <refs>

@@ -4,8 +4,7 @@
         <refs>
             <ref>0x141</ref>
         </refs>
-        <data>          -Empire Granbelos-[end1]
-</data>
+        <data>          -Empire Granbelos-[end1]</data>
     </text>
     <text>
         <refs>
@@ -15,7 +14,7 @@
       L'Empereur Sauzer a été
      confronté avec son propre
       corps,à la Légende des
-          Dragons Sacrés.[end] </data>
+          Dragons Sacrés.[end]</data>
     </text>
     <text>
         <refs>
@@ -23,14 +22,14 @@
         </refs>
         <data>           Maintenant,
        il est tombé malade.
-   Mais ne vous inquiétez pas...[end] </data>
+   Mais ne vous inquiétez pas...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1c5</ref>
         </refs>
         <data>      NOTRE Empereur connaît
-   le COEUR des Dragons Sacrés.[end] </data>
+   le COEUR des Dragons Sacrés.[end]</data>
     </text>
     <text>
         <refs>
@@ -41,7 +40,7 @@
  
       Cette Ere sera celle de
         l'Empire Granbelos,
-     celle de NOTRE Empereur![end]G</data>
+     celle de NOTRE Empereur![end]</data>
     </text>
     <text>
         <refs>
@@ -63,7 +62,7 @@ Cette Nouvelle Ere sera MA Nouvelle
 Ere!
  
 Je briserai Sauzer et notre peuple
-comprendra sûrement ce coup de force![end]L</data>
+comprendra sûrement ce coup de force![end]</data>
     </text>
     <text>
         <refs>
@@ -76,7 +75,7 @@ Tout le monde!
 Toute la puissance!
  
 Tout sera mien!
-Tout sera à Gudruff![end]D</data>
+Tout sera à Gudruff![end]</data>
     </text>
     <text>
         <refs>
@@ -92,14 +91,14 @@ En tout cas,ce n'est pas moi qui vous
 y emmènerais!
 J'ai beaucoup d'affection pour vous!
 En effet,Don Juan est très généreux
-et il a le plus grand coeur au monde![end] </data>
+et il a le plus grand coeur au monde![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4a8</ref>
         </refs>
         <data>             Don Juan
-    et la [0xb3][0xb7]e femme courtisée![end]D</data>
+    et la [0xb3][0xb7]e femme courtisée![end]</data>
     </text>
     <text>
         <refs>
@@ -115,14 +114,14 @@ Pourquoi ne t'échapperais-tu pas de
 ce château pour voyager dans le ciel
 avec moi?
 Je serais le Prince,et toi,tu serais
-la Princesse de mes rêves.[end] </data>
+la Princesse de mes rêves.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5c3</ref>
         </refs>
         <data>             Don Juan
-    et la [0xb5][0xb8]e femme courtisée![end]D</data>
+    et la [0xb5][0xb8]e femme courtisée![end]</data>
     </text>
     <text>
         <refs>
@@ -141,7 +140,7 @@ Il se nomme FARENHEIT...
 Mais si tu t'envoles avec moi,
 je lui donnerai ton nom!
 Mais tout d'abord,dis-le moi!
-Quel est-il?[end]G</data>
+Quel est-il?[end]</data>
     </text>
     <text>
         <refs>
@@ -153,7 +152,7 @@ Quel est-il?[end]G</data>
 Ca alors...
 Si ton intérêt est le mien,
 je suis ton homme!
-Quel est ton passe-temps?[end]L</data>
+Quel est ton passe-temps?[end]</data>
     </text>
     <text>
         <refs>
@@ -164,7 +163,7 @@ Quel est ton passe-temps?[end]L</data>
   
 Général Barbalea...
 Les chaînes,c'est ma passion!
-Est-ce que je suis ton homme?[end]J</data>
+Est-ce que je suis ton homme?[end]</data>
     </text>
     <text>
         <refs>
@@ -181,14 +180,14 @@ Je suis Don Juan,le Na[0x25]f et le
 Fidèle.
 Tu as pris mes mensurations?
 On pourrait discuter ensemble pendant
-un entraînement?[end] </data>
+un entraînement?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6a9</ref>
         </refs>
         <data>             Don Juan
-   et la [0xb0][0xaf][0xaf]e femme courtisée[0xd8][end] </data>
+   et la [0xb0][0xaf][0xaf]e femme courtisée[0xd8][end]</data>
     </text>
     <text>
         <refs>
@@ -196,14 +195,14 @@ un entraînement?[end] </data>
         </refs>
         <data> Don Juan s'était maintenant fait une
     réputation au sein de l'Empire
-            Granbelos.[end]P</data>
+            Granbelos.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x758</ref>
         </refs>
         <data>PALPALEOS:
-Qui est là?![end]Q</data>
+Qui est là?![end]</data>
     </text>
     <text>
         <refs>
@@ -211,7 +210,7 @@ Qui est là?![end]Q</data>
         </refs>
         <data>Qui êtes-vous...?!
 Il me semble reconnaître cette
-moustache.[end]C</data>
+moustache.[end]</data>
     </text>
     <text>
         <refs>
@@ -222,7 +221,7 @@ Je... je suis un voyageur...
  
 Je suis un marchand envoyé au champ
 de bataille!
-Vous avez dû faire erreur.[end]P</data>
+Vous avez dû faire erreur.[end]</data>
     </text>
     <text>
         <refs>
@@ -231,7 +230,7 @@ Vous avez dû faire erreur.[end]P</data>
         <data>PALPALEOS:
 ...?
  
-J'ai déjà entendu cette voix.[end]C</data>
+J'ai déjà entendu cette voix.[end]</data>
     </text>
     <text>
         <refs>
@@ -240,7 +239,7 @@ J'ai déjà entendu cette voix.[end]C</data>
         <data>COMMANDANT:
 C'est la première fois que nous nous
 rencontrons...
-Général... Palpaleos...[end]P</data>
+Général... Palpaleos...[end]</data>
     </text>
     <text>
         <refs>
@@ -249,7 +248,7 @@ Général... Palpaleos...[end]P</data>
         <data>PALPALEOS:
 Vous dites être un voyageur!
 D'accord...
-Puis-je vous parler de mes sentiments?[end]P</data>
+Puis-je vous parler de mes sentiments?[end]</data>
     </text>
     <text>
         <refs>
@@ -261,7 +260,7 @@ Puis-je vous parler de mes sentiments?[end]P</data>
 Je suis loin de la femme que j'aime et
 ici,je ne peux me contenter que de
 souvenirs.
-Comprenez-vous mes sentiments?[end]C</data>
+Comprenez-vous mes sentiments?[end]</data>
     </text>
     <text>
         <refs>
@@ -271,7 +270,7 @@ Comprenez-vous mes sentiments?[end]C</data>
 Je les comprends...
  
 Moi-même,je suis très loin de ma femme
-et mon enfant.[end]P</data>
+et mon enfant.[end]</data>
     </text>
     <text>
         <refs>
@@ -281,7 +280,7 @@ et mon enfant.[end]P</data>
 Je sens une intense tristesse en vous!
  
 Quelle est la personne que vous avez
-perdue?[end]C</data>
+perdue?[end]</data>
     </text>
     <text>
         <refs>
@@ -297,7 +296,7 @@ Céline,j'avais encore tant de choses à
 te dire.
  
 Maintenant,il ne me reste que des
-souvenirs.[end]P</data>
+souvenirs.[end]</data>
     </text>
     <text>
         <refs>
@@ -307,7 +306,7 @@ souvenirs.[end]P</data>
 Je vous envie...
  
 Ces souvenirs vous font vivre,
-n'est-ce pas?[end]C</data>
+n'est-ce pas?[end]</data>
     </text>
     <text>
         <refs>
@@ -316,21 +315,21 @@ n'est-ce pas?[end]C</data>
             <ref>0x7cb</ref>
         </refs>
         <data>COMMANDANT:
-... ... ...[end]P</data>
+... ... ...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x83f</ref>
         </refs>
         <data>PALPALEOS:
-Vous voyagez en bravant les dangers...[end]P</data>
+Vous voyagez en bravant les dangers...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x864</ref>
         </refs>
         <data>PALPALEOS:
-Arrêtons cette mascarade![end]J</data>
+Arrêtons cette mascarade![end]</data>
     </text>
     <text>
         <refs>
@@ -342,21 +341,21 @@ déjà rencontré sur un lagon.
 Si vous le voulez,j'aimerais que vous
 transmettiez un message.
 Vous connaissez sûrement une femme...
-Du nom de... [character][0x1]...[end]V</data>
+Du nom de... [character][0x1]...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x88f</ref>
         </refs>
         <data>Vous et moi avons perdu quelque
-chose...[end]C</data>
+chose...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8a5</ref>
         </refs>
         <data>COMMANDANT:
-Je lui parlerai de vous...[end]P</data>
+Je lui parlerai de vous...[end]</data>
     </text>
     <text>
         <refs>
@@ -364,7 +363,7 @@ Je lui parlerai de vous...[end]P</data>
         </refs>
         <data>PALPALEOS:
 Voyageur,un jour,vous pourrez
-certainement vous arrêter...[end]C</data>
+certainement vous arrêter...[end]</data>
     </text>
     <text>
         <refs>
@@ -373,7 +372,7 @@ certainement vous arrêter...[end]C</data>
         <data>COMMANDANT:
 Nous nous reverrons sur le champ de
 bataille.
-Adieu![end] </data>
+Adieu![end]</data>
     </text>
     <text>
         <refs>
@@ -382,7 +381,7 @@ Adieu![end] </data>
             <ref>0x3e9</ref>
             <ref>0x93f</ref>
         </refs>
-        <data>       -Château de Granbelos-[end]L</data>
+        <data>       -Château de Granbelos-[end]</data>
     </text>
     <text>
         <refs>
@@ -390,7 +389,7 @@ Adieu![end] </data>
         </refs>
         <data>LEGION:
 Empereur Gudruff!
-Où est le corps de Sauzer?[end]G</data>
+Où est le corps de Sauzer?[end]</data>
     </text>
     <text>
         <refs>
@@ -402,7 +401,7 @@ Son corps...?
 GUFUFUFUFU!
  
   
-Tu finiras comme Sauzer![end]G</data>
+Tu finiras comme Sauzer![end]</data>
     </text>
     <text>
         <refs>
@@ -413,7 +412,7 @@ GUFUFUFUFU!
 Préparez-vous!
 Le peuple de l'Empire attend!
 Il veut des funérailles pour son
-Empereur![end] </data>
+Empereur![end]</data>
     </text>
     <text>
         <refs>
@@ -426,7 +425,7 @@ Empereur![end] </data>
  
   
           Tout le monde le
-            connaissait...[end] </data>
+            connaissait...[end]</data>
     </text>
     <text>
         <refs>
@@ -437,20 +436,20 @@ Empereur![end] </data>
  
      Nous avons perdu quelqu'un
      de cher mais l'ordre doit
-               régner...[end] </data>
+               régner...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x561</ref>
         </refs>
         <data>   -Général Pelsona de Granbelos-
-      Passe-temps:le nettoyage.[end] </data>
+      Passe-temps:le nettoyage.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x646</ref>
         </refs>
         <data>   -Général Arbain de Granbelos-
-     Passe-temps:l'entraînement.[end][0x0]</data>
+     Passe-temps:l'entraînement.[end]</data>
     </text>
 </texts>

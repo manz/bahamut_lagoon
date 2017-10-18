@@ -9,7 +9,7 @@ Pourquoi un tel visage?!
  
 Le château de Kana se trouve ici!
 Tu devrais être heureux.
-Bon,j'y entre en premier[0xd8][end]C</data>
+Bon,j'y entre en premier[0xd8][end]</data>
     </text>
     <text>
         <refs>
@@ -19,7 +19,7 @@ Bon,j'y entre en premier[0xd8][end]C</data>
 Hahaha,
 le magnifique château de Kana!
 Il est encore plus splendide que celui
-de Mahal![end]C</data>
+de Mahal![end]</data>
     </text>
     <text>
         <refs>
@@ -29,7 +29,7 @@ de Mahal![end]C</data>
 Ce sont de véritables statues de
 dragons!
 Elles ont l'air en vie et elles sont si
-scintillantes.[end]R</data>
+scintillantes.[end]</data>
     </text>
     <text>
         <refs>
@@ -39,14 +39,14 @@ scintillantes.[end]R</data>
 Nous devrions attendre notre nouvelle
 Impératrice.
 Elle ne va pas tarder!
-Es-tu vraiment heureux?[end] </data>
+Es-tu vraiment heureux?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe5e</ref>
         </refs>
         <data> Je suis heureux...
- Tu as un autre sentiment que le mien.[end1]Q</data>
+ Tu as un autre sentiment que le mien.[end1]</data>
     </text>
     <text>
         <refs>
@@ -54,7 +54,7 @@ Es-tu vraiment heureux?[end] </data>
         </refs>
         <data>Qui sait,nous rencontrerons peut-être,
 un jour,une femme aussi belle que
-[character][0x1]![end]D</data>
+[character][0x1]![end]</data>
     </text>
     <text>
         <refs>
@@ -62,7 +62,7 @@ un jour,une femme aussi belle que
         </refs>
         <data>De toute manière,c'est la Restauration
 de Kana.
-Alors,ne pensons plus à ça![end]T</data>
+Alors,ne pensons plus à ça![end]</data>
     </text>
     <text>
         <refs>
@@ -73,7 +73,7 @@ Bikkebakke a encore transporté ses
 champignons quelque part.
 Le cours des champignons a chuté,
 il y a quelques temps.
-Est-il inquiet pour cela?[end]C</data>
+Est-il inquiet pour cela?[end]</data>
     </text>
     <text>
         <refs>
@@ -81,14 +81,14 @@ Est-il inquiet pour cela?[end]C</data>
         </refs>
         <data>COMMANDANT:
 Matelight fait le timide car il prépare
-un grand évènement pour ce soir![end]P</data>
+un grand évènement pour ce soir![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xdd0</ref>
         </refs>
         <data>Peut-être devrais-tu aller parler à
-Matelight?[end]B</data>
+Matelight?[end]</data>
     </text>
     <text>
         <refs>
@@ -96,14 +96,14 @@ Matelight?[end]B</data>
         </refs>
         <data>BARECK:
 Matelight?
-Il est probablement là-bas![end] </data>
+Il est probablement là-bas![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe40</ref>
         </refs>
         <data> Probablement là-bas... où?
- En train de s'entraîner?[end1]I</data>
+ En train de s'entraîner?[end1]</data>
     </text>
     <text>
         <refs>
@@ -124,7 +124,7 @@ Par contre,si nous la gagnons,
 les nouveaux bâtiments seront
 étincellants.
 Par conséquent,une bonne fin m'évitera
-la chute![end]B</data>
+la chute![end]</data>
     </text>
     <text>
         <refs>
@@ -134,7 +134,7 @@ la chute![end]B</data>
 Le Général Palpaleos va faire commencer
 les travaux pour le château de Kana!
 Matelight est pour l'instant un peu
-pauvre pour ça...[end]S</data>
+pauvre pour ça...[end]</data>
     </text>
     <text>
         <refs>
@@ -150,7 +150,7 @@ La Nouvelle Ere n'est pas encore
 venue...
  
 Ces propos me rendent très inquiet.
-Que veulent-ils dire?[end]F</data>
+Que veulent-ils dire?[end]</data>
     </text>
     <text>
         <refs>
@@ -161,14 +161,14 @@ Les sorcières ne sont pas des filles
 promises à tous!
 Je dois dire que tout le monde ne le
 sait pas.
-Rien ne te semble étrange?[end] </data>
+Rien ne te semble étrange?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xdaa</ref>
         </refs>
         <data> Tu es inquiète?
- Pas d'inquiétude...[end1]E</data>
+ Pas d'inquiétude...[end1]</data>
     </text>
     <text>
         <refs>
@@ -178,7 +178,7 @@ Rien ne te semble étrange?[end] </data>
 à se jeter dans les bras d'un inconnu!
 Tu verras,dans peu de temps,elle sera
 de nouveau seule!
-Moi,pessimiste? Nonnnnnn![end]A</data>
+Moi,pessimiste? Nonnnnnn![end]</data>
     </text>
     <text>
         <refs>
@@ -187,7 +187,7 @@ Moi,pessimiste? Nonnnnnn![end]A</data>
         <data>Anastasia,elle,est depuis peu une amie
 très intime de Bareck.
 Bientôt un vieux couple!
-Moi?! Et bien,je suis seule![end]F</data>
+Moi?! Et bien,je suis seule![end]</data>
     </text>
     <text>
         <refs>
@@ -195,14 +195,14 @@ Moi?! Et bien,je suis seule![end]F</data>
         </refs>
         <data>FRUNZE à REEVE:
 Lan... Lan... Lancier[0xd8]
-Jetons les lances...[end] </data>
+Jetons les lances...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd89</ref>
         </refs>
         <data> Vous êtes de nouveaux amis?
- Que se passe-t-il,ici?[end1]N</data>
+ Que se passe-t-il,ici?[end1]</data>
     </text>
     <text>
         <refs>
@@ -216,7 +216,7 @@ réconciliés.
  
 Nous étions d'inséparables amis mais
 c'était avant!
-Dorénavant,tout est fini![end]T</data>
+Dorénavant,tout est fini![end]</data>
     </text>
     <text>
         <refs>
@@ -227,7 +227,7 @@ C'est moi,le Grand Docteur Dragon!
 On se sent si prééminent en s'asseyant
 sur le trône du Roi de Kana!
 C'est vraiment ce qui fait la réputation
-de Kana.[end]K</data>
+de Kana.[end]</data>
     </text>
     <text>
         <refs>
@@ -240,7 +240,7 @@ J'ai,à l'extérieur,un Gros Présent
 pour toi!
  
 Allez,allez!
-Sortons,sortons[0xd8][end]C</data>
+Sortons,sortons[0xd8][end]</data>
     </text>
     <text>
         <refs>
@@ -248,7 +248,7 @@ Sortons,sortons[0xd8][end]C</data>
         </refs>
         <data>COMMANDANT:
 [character][0x1] va arriver!
-[character][0x1],va à ta place![end][character][0x1]</data>
+[character][0x1],va à ta place![end]</data>
     </text>
     <text>
         <refs>
@@ -256,7 +256,7 @@ Sortons,sortons[0xd8][end]C</data>
         </refs>
         <data>[character][0x1]:
 Et Matelight?!
-Quelque chose ne va pas?[end]C</data>
+Quelque chose ne va pas?[end]</data>
     </text>
     <text>
         <refs>
@@ -267,14 +267,14 @@ Matelight a disparu[0xd8]
  
 La nuit de la Restauration de Kana
 est une chose importante pour lui.
-Il faut le laisser seul![end][character][0x1]</data>
+Il faut le laisser seul![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x44e</ref>
         </refs>
         <data>[character][0x1]:
-Matelight,où es-tu?[end]E</data>
+Matelight,où es-tu?[end]</data>
     </text>
     <text>
         <refs>
@@ -288,7 +288,7 @@ j'annonce la Restauration de notre
 patrie:Kana!
 Une véritable Restauration!
 Mon père étant mort,je suis donc la
-nouvelle Impératrice de Kana![end]M</data>
+nouvelle Impératrice de Kana![end]</data>
     </text>
     <text>
         <refs>
@@ -297,7 +297,7 @@ nouvelle Impératrice de Kana![end]M</data>
         <data>Mais en pensant aux souvenirs du Roi
 de Kana et de son peuple,je dois
 avouer que le temps n'est pas encore
-pour moi d'accéder au trône.[end]C</data>
+pour moi d'accéder au trône.[end]</data>
     </text>
     <text>
         <refs>
@@ -310,7 +310,7 @@ Nous sommes maintenant l'Armée de
 la Restauration de Kana...
 Non!
 Nous sommes maintenant l'Armée de
-Libération d'Orelus![end]J</data>
+Libération d'Orelus![end]</data>
     </text>
     <text>
         <refs>
@@ -319,14 +319,14 @@ Libération d'Orelus![end]J</data>
         <data>J'ai longuement discuté avec le Général
 Palpaleos qui nous vient tout droit de
 l'Empire!
-Voici ce que j'ai décidé...[end]N</data>
+Voici ce que j'ai décidé...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x492</ref>
         </refs>
         <data>Nous ne devons surtout pas arrêter le
-combat![end]B</data>
+combat![end]</data>
     </text>
     <text>
         <refs>
@@ -337,7 +337,7 @@ de nombreux lagons sont encore sous
 domination impériale.
 Nous devons les libérer!
 Toutefois,ce ne sera pas la fin de
-notre combat![end]S</data>
+notre combat![end]</data>
     </text>
     <text>
         <refs>
@@ -345,7 +345,7 @@ notre combat![end]S</data>
         </refs>
         <data>Seule une victoire définitive et
 l'instauration d'une paix durable
-signifieront la fin de notre quête![end]L</data>
+signifieront la fin de notre quête![end]</data>
     </text>
     <text>
         <refs>
@@ -361,7 +361,7 @@ Dressons-nous,brandissons nos armes
 et ce pour la Liberté!
  
 Me suivrez-vous Commandant,
-Capitaine de la Cavalerie de Mahal?[end]C</data>
+Capitaine de la Cavalerie de Mahal?[end]</data>
     </text>
     <text>
         <refs>
@@ -371,7 +371,7 @@ Capitaine de la Cavalerie de Mahal?[end]C</data>
 Je vous suivrai Impératrice[0xd8]
  
 Et Matelight aurait été ravi d'entendre
-un tel discours![end][character][0x1]</data>
+un tel discours![end]</data>
     </text>
     <text>
         <refs>
@@ -383,7 +383,7 @@ Matelight,nous avons tant de souvenirs
 Sendack,mon noble et puissant sorcier,
 soutiendras-tu mes idéaux?
 Les Dragons Sacrés sont à nos côtés!
-Continueras-tu à nous aider?[end]S</data>
+Continueras-tu à nous aider?[end]</data>
     </text>
     <text>
         <refs>
@@ -393,7 +393,7 @@ Continueras-tu à nous aider?[end]S</data>
 M... moi,un puissant sorcier!
 Mais... je... pense...
 Euh... n'importe quoi...
-Oui,je vous aiderai![end]R</data>
+Oui,je vous aiderai![end]</data>
     </text>
     <text>
         <refs>
@@ -403,14 +403,14 @@ Oui,je vous aiderai![end]R</data>
 Etes-vous d'accord?
  
 Brandirons-nous nos armes pour une
-cause commune?[end]R</data>
+cause commune?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x536</ref>
         </refs>
         <data>RUSH:
-Nous le ferons[0xd8][end]T</data>
+Nous le ferons[0xd8][end]</data>
     </text>
     <text>
         <refs>
@@ -418,7 +418,7 @@ Nous le ferons[0xd8][end]T</data>
         </refs>
         <data>TAURUS:
 Nous combattrons ensemble,
-Impératrice [character][0x1]![end][character][0x1]</data>
+Impératrice [character][0x1]![end]</data>
     </text>
     <text>
         <refs>
@@ -428,14 +428,14 @@ Impératrice [character][0x1]![end][character][0x1]</data>
 Et toi... [character][0x1]?
  
 Livreras-tu bataille pour une Ere
-Nouvelle?![end] </data>
+Nouvelle?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x589</ref>
         </refs>
         <data> Je combattrai pour cette ère!
- Je suis perplexe...[end1]T</data>
+ Je suis perplexe...[end1]</data>
     </text>
     <text>
         <refs>
@@ -446,7 +446,7 @@ Tu es inquiet...
 Ouvre donc ton coeur...
 Rejoins notre combat...
 Montre-nous ton courage,ta force et
-ta valeur![end][character][0x1]</data>
+ta valeur![end]</data>
     </text>
     <text>
         <refs>
@@ -454,7 +454,7 @@ ta valeur![end][character][0x1]</data>
         </refs>
         <data>[character][0x1],nous sommes ensemble depuis le
 commencement et maintenant,nous tous,
-nous triompherons![end]I</data>
+nous triompherons![end]</data>
     </text>
     <text>
         <refs>
@@ -465,7 +465,7 @@ j'aimerais vous annoncer!
 Le Général Palpaleos...
 Bien qu'il vienne de l'Empire et qu'il
 ait été le bras droit de Sauzer,
-il est notre ami![end]L</data>
+il est notre ami![end]</data>
     </text>
     <text>
         <refs>
@@ -479,7 +479,7 @@ de nous rejoindre!
  
 Il a aussi décidé de secourir le ciel
 d'Orelus des monstres venant du monde
-du trou noir.[end]P</data>
+du trou noir.[end]</data>
     </text>
     <text>
         <refs>
@@ -489,7 +489,7 @@ du trou noir.[end]P</data>
 L'Empire est maintenant sous l'influence
 politique du Général Gudruff!
 Il utilisera toute les forces possibles
-pour mener son peuple à la victoire.[end]M</data>
+pour mener son peuple à la victoire.[end]</data>
     </text>
     <text>
         <refs>
@@ -499,7 +499,7 @@ pour mener son peuple à la victoire.[end]M</data>
 la Nouvelle Ere se présente à nous.
 Alors,prenons-la[0xd8]
 La Légende des Dragons Sacrés se
-finira par notre victoire![end][character][0x1]</data>
+finira par notre victoire![end]</data>
     </text>
     <text>
         <refs>
@@ -509,28 +509,28 @@ finira par notre victoire![end][character][0x1]</data>
 C'est ainsi que j'annonce en ces lieux
 la Restauration de Kana!
 Et le commencement de notre nouveau
-combat![end]m</data>
+combat![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x616</ref>
         </refs>
         <data>monyo[0xd8]
-[0xa8]voici le service des messages[0xd8][0xa9][end]m</data>
+[0xa8]voici le service des messages[0xd8][0xa9][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x629</ref>
         </refs>
         <data>manyo[0xd8]
-[0xa8]et je suis la seconde[0xd8][0xa9][end]m</data>
+[0xa8]et je suis la seconde[0xd8][0xa9][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x63c</ref>
         </refs>
         <data>munyo[0xd8]
-[0xa8]et je suis l'expéditrice![0xa9][end]M</data>
+[0xa8]et je suis l'expéditrice![0xa9][end]</data>
     </text>
     <text>
         <refs>
@@ -538,7 +538,7 @@ combat![end]m</data>
         </refs>
         <data>Mélodia[0xd8]
 [0xa8]L'amie des Petits Démons
- est fatiguée...[0xa9][end]m</data>
+ est fatiguée...[0xa9][end]</data>
     </text>
     <text>
         <refs>
@@ -546,21 +546,21 @@ combat![end]m</data>
         </refs>
         <data>monyo monyo[0xd8]
 [0xa8]edition de luxe des
- petits démons[0xd8][0xa9][end]m</data>
+ petits démons[0xd8][0xa9][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x66d</ref>
         </refs>
         <data>manyo manyo[0xd8]
-[0xa8]les démons commencent à danser[0xd8][0xa9][end]m</data>
+[0xa8]les démons commencent à danser[0xd8][0xa9][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x67c</ref>
         </refs>
         <data>munyo munyo munyo[0xd8]
-[0xa8]cette nuit nous danserons[0xd8][0xa9][end]m</data>
+[0xa8]cette nuit nous danserons[0xd8][0xa9][end]</data>
     </text>
     <text>
         <refs>
@@ -568,7 +568,7 @@ combat![end]m</data>
         </refs>
         <data>mélo mélo[0xd8]
 [0xa8]les petits démons vous
- amuseront bien[0xd8][0xa9][end][character][0x1]</data>
+ amuseront bien[0xd8][0xa9][end]</data>
     </text>
     <text>
         <refs>
@@ -578,14 +578,14 @@ combat![end]m</data>
 Cette nuit est et restera la nuit de
 la Restauration de Kana!
 Amusons-nous tous!
-Et toi,[character][0x1],seras-tu là cette nuit?[end] </data>
+Et toi,[character][0x1],seras-tu là cette nuit?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6e2</ref>
         </refs>
         <data> Je serai là...
- Nous nous amuserons![end1]T</data>
+ Nous nous amuserons![end1]</data>
     </text>
     <text>
         <refs>
@@ -593,14 +593,14 @@ Et toi,[character][0x1],seras-tu là cette nuit?[end] </data>
         </refs>
         <data>Très bien!
 Cette nuit,nous danserons et nous
-nous amuserons.[end]C</data>
+nous amuserons.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6fe</ref>
         </refs>
         <data>Cette nuit,nous danserons tous et
-nous nous amuserons![end]m</data>
+nous nous amuserons![end]</data>
     </text>
     <text>
         <refs>
@@ -608,7 +608,7 @@ nous nous amuserons![end]m</data>
         </refs>
         <data>monyo monyo...
 [0xa8]parler la nuit!
- les êtres humains rêvent...[0xa9][end]m</data>
+ les êtres humains rêvent...[0xa9][end]</data>
     </text>
     <text>
         <refs>
@@ -616,7 +616,7 @@ nous nous amuserons![end]m</data>
         </refs>
         <data>manyo manyo...
 [0xa8]vraie Paix...
- c'est un rêve éternel...[0xa9][end]m</data>
+ c'est un rêve éternel...[0xa9][end]</data>
     </text>
     <text>
         <refs>
@@ -624,7 +624,7 @@ nous nous amuserons![end]m</data>
         </refs>
         <data>munyo munyo...
 [0xa8]ici danger...
- nous vivre...[0xa9][end]m</data>
+ nous vivre...[0xa9][end]</data>
     </text>
     <text>
         <refs>
@@ -632,7 +632,7 @@ nous nous amuserons![end]m</data>
         </refs>
         <data>monyo[0xd8]
 [0xa8]il y a de l'espoir dans le
- mal...[0xa9][end]m</data>
+ mal...[0xa9][end]</data>
     </text>
     <text>
         <refs>
@@ -640,7 +640,7 @@ nous nous amuserons![end]m</data>
         </refs>
         <data>manyo[0xd8]
 [0xa8]êtres humains dans le noir...
- vous dans le noir...[0xa9][end]m</data>
+ vous dans le noir...[0xa9][end]</data>
     </text>
     <text>
         <refs>
@@ -648,7 +648,7 @@ nous nous amuserons![end]m</data>
         </refs>
         <data>munyo[0xd8]
 [0xa8]la danse continue[0xd8]
- humain penser! danser[0xd8][0xa9][end]M</data>
+ humain penser! danser[0xd8][0xa9][end]</data>
     </text>
     <text>
         <refs>
@@ -673,7 +673,7 @@ Voici le feu d'artifice!
 Regardez,s'il vous plaît!
  
 Merci!
-Merci à tous![end] </data>
+Merci à tous![end]</data>
     </text>
     <text>
         <refs>
@@ -683,28 +683,28 @@ Merci à tous![end] </data>
  
   
      Mais [0xb1] personnes dansèrent
-              encore...[end]M</data>
+              encore...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa3</ref>
         </refs>
         <data>MATELIGHT:
-[character][0x1] est-elle... élégante?[end]C</data>
+[character][0x1] est-elle... élégante?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xba</ref>
         </refs>
         <data>COMMANDANT:
-Elle est élégante et elle est puissante...[end]M</data>
+Elle est élégante et elle est puissante...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd1</ref>
         </refs>
         <data>MATELIGHT:
-[character][0x1] est-elle... magnifique?[end]C</data>
+[character][0x1] est-elle... magnifique?[end]</data>
     </text>
     <text>
         <refs>
@@ -712,14 +712,14 @@ Elle est élégante et elle est puissante...[end]M</data>
         </refs>
         <data>COMMANDANT:
 Elle est splendide puisqu'elle porte la
-robe que lui a donné Matelight![end]M</data>
+robe que lui a donné Matelight![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xff</ref>
         </refs>
         <data>MATELIGHT:
-[character][0x1] est-elle... heureuse?[end]C</data>
+[character][0x1] est-elle... heureuse?[end]</data>
     </text>
     <text>
         <refs>
@@ -727,14 +727,14 @@ robe que lui a donné Matelight![end]M</data>
         </refs>
         <data>COMMANDANT:
 Elle était malheureuse car Matelight
-n'était pas là![end]M</data>
+n'était pas là![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x128</ref>
         </refs>
         <data>MATELIGHT:
-[character][0x1]...[end]C</data>
+[character][0x1]...[end]</data>
     </text>
     <text>
         <refs>
@@ -742,6 +742,6 @@ n'était pas là![end]M</data>
         </refs>
         <data>COMMANDANT:
 Tout va bien,Matelight...
-Tout va bien...[end][0x0]</data>
+Tout va bien...[end]</data>
     </text>
 </texts>

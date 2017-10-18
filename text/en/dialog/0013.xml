@@ -5,19 +5,19 @@
             <ref>0x7c</ref>
         </refs>
         <data>Matelite: Hmm... It seems we've made it
-to Mahal.[end]T</data>
+to Mahal.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x90</ref>
         </refs>
-        <data>Taicho: Let us hurry and take off![end]S</data>
+        <data>Taicho: Let us hurry and take off![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb1</ref>
         </refs>
-        <data>Sendak: Taicho seems quite anxious...[end]M</data>
+        <data>Sendak: Taicho seems quite anxious...[end]</data>
     </text>
     <text>
         <refs>
@@ -31,7 +31,7 @@ soldier there...
 
 Kahna's best soldier...
 Hey, then he's the same as me!
-His pain is the same as mine![end]S</data>
+His pain is the same as mine![end]</data>
     </text>
     <text>
         <refs>
@@ -41,27 +41,27 @@ His pain is the same as mine![end]S</data>
 attacked Mahal they fought dirty...
 
 What should we do, [character][0x1]...?
-We might have to fight dirty too...[end]M</data>
+We might have to fight dirty too...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xdc</ref>
         </refs>
         <data>Matelite: What are you saying, Master
-Sendak!![end]I</data>
+Sendak!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfb</ref>
         </refs>
-        <data>I'm getting on a dragon now![end][0x0]</data>
+        <data>I'm getting on a dragon now![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xed</ref>
         </refs>
         <data>Even if they fight dirty, we must fight
-fairly! That is what it is to be a knight![end]S</data>
+fairly! That is what it is to be a knight![end]</data>
     </text>
     <text>
         <refs>
@@ -70,7 +70,7 @@ fairly! That is what it is to be a knight![end]S</data>
         <data>Sendak: [character][0x1]...
 
 
-We do not know how to fight dirty...[end]T</data>
+We do not know how to fight dirty...[end]</data>
     </text>
     <text>
         <refs>
@@ -78,54 +78,54 @@ We do not know how to fight dirty...[end]T</data>
         </refs>
         <data>Truce: Captain [character][0x1]!! I've come
 up with a plan for Mahal. Would you
-like to hear it?[end] </data>
+like to hear it?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x247</ref>
         </refs>
         <data>  Listen
-  Don't listen[end1]I</data>
+  Don't listen[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x251</ref>
         </refs>
         <data>I... I see... Even though I stayed up all
-night working on it...[end]L</data>
+night working on it...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x259</ref>
         </refs>
-        <data>Let's take a look at a map of Mahal.[end]T</data>
+        <data>Let's take a look at a map of Mahal.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x270</ref>
         </refs>
         <data>Truce: An excellent plan don't you
-think?! A piece of cake, right?![end]S</data>
+think?! A piece of cake, right?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x28e</ref>
         </refs>
-        <data>Sendak: Well, [character][0x1]. Shall we go?[end] </data>
+        <data>Sendak: Well, [character][0x1]. Shall we go?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x292</ref>
         </refs>
         <data>  Wait
-  Let's go![end1]S</data>
+  Let's go![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x3be</ref>
         </refs>
         <data>Since you're about to take off, will you
-buy something?[end] </data>
+buy something?[end]</data>
     </text>
     <text>
         <refs>
@@ -134,14 +134,14 @@ buy something?[end] </data>
         </refs>
         <data>  Weapons
   Armor
-  Items[end1]T</data>
+  Items[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x59c</ref>
             <ref>0x42c</ref>
         </refs>
-        <data>Thank you.[end]I</data>
+        <data>Thank you.[end]</data>
     </text>
     <text>
         <refs>

@@ -5,15 +5,14 @@
             <ref>0xac</ref>
         </refs>
         <data>          Chapitre [0xb7]
--Combat de l'air des Dragons-[end] </data>
+-Combat de l'air des Dragons-[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8e5</ref>
         </refs>
         <data> Oui
- Non[end1]
-</data>
+ Non[end1]</data>
     </text>
     <text>
         <refs>
@@ -21,8 +20,7 @@
         </refs>
         <data> Le nourrir.
  Grimper!
- Continuer à se préparer.[end1]
-</data>
+ Continuer à se préparer.[end1]</data>
     </text>
     <text>
         <refs>
@@ -31,7 +29,7 @@
             <ref>0x11d</ref>
         </refs>
         <data>Et les heures passèrent...
-Combien de temps s'est-il écoulé?[end] </data>
+Combien de temps s'est-il écoulé?[end]</data>
     </text>
     <text>
         <refs>
@@ -43,15 +41,14 @@ Combien de temps s'est-il écoulé?[end] </data>
         </refs>
         <data> [0xb0] Heure.
  [0xb1] Heures.
- [0xb2] Heures.[end1]
-</data>
+ [0xb2] Heures.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xd6</ref>
         </refs>
         <data>COMMANDANT:
-Ce chemin mène à ma patrie Mahal![end]M</data>
+Ce chemin mène à ma patrie Mahal![end]</data>
     </text>
     <text>
         <refs>
@@ -61,14 +58,14 @@ Ce chemin mène à ma patrie Mahal![end]M</data>
 Commandant!
  
 Nous atterrirons bientôt sur Mahal et
-ta patrie sera libre![end]C</data>
+ta patrie sera libre![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xee</ref>
         </refs>
         <data>COMMANDANT:
-Libérée![end]M</data>
+Libérée![end]</data>
     </text>
     <text>
         <refs>
@@ -77,7 +74,7 @@ Libérée![end]M</data>
         <data>MATELIGHT:
 Oui,Commandant!
 Regarde ce ciel...
-C'est relaxant,n'est-ce pas?![end]C</data>
+C'est relaxant,n'est-ce pas?![end]</data>
     </text>
     <text>
         <refs>
@@ -86,7 +83,7 @@ C'est relaxant,n'est-ce pas?![end]C</data>
         <data>COMMANDANT:
 Ces nuages couvrent Mahal!
 Mais même ainsi,je peux encore sentir
-l'odeur de ses lacs![end]M</data>
+l'odeur de ses lacs![end]</data>
     </text>
     <text>
         <refs>
@@ -97,7 +94,7 @@ C'est vrai...
  
 Très bien Commandant,tu vas surveiller
 le ciel quelques instants.
-Ca m'ennuie un peu,moi![end]M</data>
+Ca m'ennuie un peu,moi![end]</data>
     </text>
     <text>
         <refs>
@@ -106,7 +103,7 @@ Ca m'ennuie un peu,moi![end]M</data>
         <data>MATELIGHT:
 Regarde la carte,Hornet!
 N'y a-t-il pas quelque chose
-d'étrange sur Mahal?[end]H</data>
+d'étrange sur Mahal?[end]</data>
     </text>
     <text>
         <refs>
@@ -114,7 +111,7 @@ d'étrange sur Mahal?[end]H</data>
         </refs>
         <data>HORNET:
 La forme des nuages est suspecte mais
-c'est étonnamment calme![end]M</data>
+c'est étonnamment calme![end]</data>
     </text>
     <text>
         <refs>
@@ -124,7 +121,7 @@ c'est étonnamment calme![end]M</data>
 J'ai froid!
  
 [character][0x1]!
-Scrute le ciel à ma place![end]J</data>
+Scrute le ciel à ma place![end]</data>
     </text>
     <text>
         <refs>
@@ -134,7 +131,7 @@ Scrute le ciel à ma place![end]J</data>
 Capitaine de ce bateau,de la stratégie
 à employer pour reprendre Mahal.
 Nous devons parler seuls!
-Juste entre adultes![end]C</data>
+Juste entre adultes![end]</data>
     </text>
     <text>
         <refs>
@@ -142,7 +139,7 @@ Juste entre adultes![end]C</data>
         </refs>
         <data>COMMANDANT:
 [character][0x1],retourne à ton poste!
-Scrute le ciel![end]H</data>
+Scrute le ciel![end]</data>
     </text>
     <text>
         <refs>
@@ -150,7 +147,7 @@ Scrute le ciel![end]H</data>
         </refs>
         <data>HORNET:
 Tu n'entends pas?
-Le ciel de Mahal est orageux...[end]M</data>
+Le ciel de Mahal est orageux...[end]</data>
     </text>
     <text>
         <refs>
@@ -159,7 +156,7 @@ Le ciel de Mahal est orageux...[end]M</data>
         <data>MATELIGHT:
 Va surveiller le ciel!
 Tu n'as pas le droit de
-quitter ton poste![end]C</data>
+quitter ton poste![end]</data>
     </text>
     <text>
         <refs>
@@ -167,7 +164,7 @@ quitter ton poste![end]C</data>
             <ref>0x25c</ref>
         </refs>
         <data>COMMANDANT:
-Quelque chose ne va pas![end]C</data>
+Quelque chose ne va pas![end]</data>
     </text>
     <text>
         <refs>
@@ -175,7 +172,7 @@ Quelque chose ne va pas![end]C</data>
         </refs>
         <data>COMMANDANT:
 Quelque chose ne va pas,
-Matelight![end]C</data>
+Matelight![end]</data>
     </text>
     <text>
         <refs>
@@ -183,14 +180,14 @@ Matelight![end]C</data>
         </refs>
         <data>C'est terrible! Terrible!
 Des Escadrons Dragons de l'Empire font
-face à FARENHEIT![end]C</data>
+face à FARENHEIT![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe9f</ref>
         </refs>
         <data>Certains se dirigent aussi vers Mahal!
-C'est dangereux! Dangeureux![end]H</data>
+C'est dangereux! Dangeureux![end]</data>
     </text>
     <text>
         <refs>
@@ -198,14 +195,14 @@ C'est dangereux! Dangeureux![end]H</data>
         </refs>
         <data>HORNET:
 Des dragons de l'Empire...
-Dois-je donner l'alarme?[end]D</data>
+Dois-je donner l'alarme?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9f8</ref>
         </refs>
         <data>Des préparatifs,des conseils?
-Grimpez tous sur vos dragons![end]M</data>
+Grimpez tous sur vos dragons![end]</data>
     </text>
     <text>
         <refs>
@@ -213,7 +210,7 @@ Grimpez tous sur vos dragons![end]M</data>
         </refs>
         <data>MATELIGHT:
 Mahal risque d'être encore attaquée
-ces violents dragons![end]C</data>
+ces violents dragons![end]</data>
     </text>
     <text>
         <refs>
@@ -221,7 +218,7 @@ ces violents dragons![end]C</data>
         </refs>
         <data>COMMANDANT:
 Les dragons ennemis sont enfin sortis
-de cette mer de nuages![end]R</data>
+de cette mer de nuages![end]</data>
     </text>
     <text>
         <refs>
@@ -229,20 +226,20 @@ de cette mer de nuages![end]R</data>
         </refs>
         <data>RUSH:
 Allons combattre les dragons Impériaux!
-Tu grimpes sur SALAMANDO?[end]I</data>
+Tu grimpes sur SALAMANDO?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa2b</ref>
         </refs>
-        <data>Il faut partir combattre![end]H</data>
+        <data>Il faut partir combattre![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9ff</ref>
         </refs>
         <data>Hola! Hola!
-C'est un beau dragon![end]H</data>
+C'est un beau dragon![end]</data>
     </text>
     <text>
         <refs>
@@ -250,15 +247,14 @@ C'est un beau dragon![end]H</data>
         </refs>
         <data>HORNET:
 L'ennemi se dirige vers Mahal.
-Vous allez combattre?[end] </data>
+Vous allez combattre?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x98e</ref>
         </refs>
         <data> Restons ici!
- Allons combattre![end1]
-</data>
+ Allons combattre![end1]</data>
     </text>
     <text>
         <refs>
@@ -268,7 +264,7 @@ Vous allez combattre?[end] </data>
 aide...
  
 FARENHEIT sera fermement défendu par
-tout le monde[0xd8][end]S</data>
+tout le monde[0xd8][end]</data>
     </text>
     <text>
         <refs>
@@ -276,14 +272,14 @@ tout le monde[0xd8][end]S</data>
         </refs>
         <data>SENDACK:
 Est-ce que je peux t'être utile,
-[character][0x1]?[end]S</data>
+[character][0x1]?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x702</ref>
         </refs>
         <data>SENDACK:
-Haha! J'en suis content![end]S</data>
+Haha! J'en suis content![end]</data>
     </text>
     <text>
         <refs>
@@ -292,14 +288,14 @@ Haha! J'en suis content![end]S</data>
         </refs>
         <data>SENDACK:
 Nous pourrions tout de même voler
-ensemble...[end][character][0x1]</data>
+ensemble...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2bb</ref>
         </refs>
         <data>[character][0x1]:
-[character][0x1],je suis ici.[end][character][0x1]</data>
+[character][0x1],je suis ici.[end]</data>
     </text>
     <text>
         <refs>
@@ -308,7 +304,7 @@ ensemble...[end][character][0x1]</data>
         <data>[character][0x1]:
 J'apprécie tout ce que tu fais pour
 nous tous.
-Tiens... c'est pour toi...[end]T</data>
+Tiens... c'est pour toi...[end]</data>
     </text>
     <text>
         <refs>
@@ -316,28 +312,28 @@ Tiens... c'est pour toi...[end]T</data>
         </refs>
         <data>Tu as reçu des
 [0xaa]Cookies faits par [character][0x1][0xab].
-Tu les manges?[end][character][0x1]</data>
+Tu les manges?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7d0</ref>
         </refs>
         <data>[character][0x1]:
-Ils étaient... délicieux?[end][character][0x1]</data>
+Ils étaient... délicieux?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7e7</ref>
         </refs>
         <data>[character][0x1]:
-Tu as aimé?![end][character][0x1]</data>
+Tu as aimé?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x79a</ref>
         </refs>
         <data>[character][0x1]:
-Je te demande pardon...[end][character][0x1]</data>
+Je te demande pardon...[end]</data>
     </text>
     <text>
         <refs>
@@ -345,7 +341,7 @@ Je te demande pardon...[end][character][0x1]</data>
         </refs>
         <data>[character][0x1]:
 Err... [character][0x1]...
-Pourrais-je regarder le ciel?[end][character][0x1]</data>
+Pourrais-je regarder le ciel?[end]</data>
     </text>
     <text>
         <refs>
@@ -354,20 +350,20 @@ Pourrais-je regarder le ciel?[end][character][0x1]</data>
         <data>[character][0x1]:
 [character][0x1]...
 Je ne vois pas très bien!
-Tu pourrais rester en arrière.[end][character][0x1]</data>
+Tu pourrais rester en arrière.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x85d</ref>
         </refs>
         <data>[character][0x1]:
-Le ciel a la couleur de la tristesse...[end]K</data>
+Le ciel a la couleur de la tristesse...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x865</ref>
         </refs>
-        <data>Kyaa![end]C</data>
+        <data>Kyaa![end]</data>
     </text>
     <text>
         <refs>
@@ -375,7 +371,7 @@ Le ciel a la couleur de la tristesse...[end]K</data>
         </refs>
         <data>COMMANDANT:
 Je scrute le ciel en ce moment.
-Ce n'est pas comme certains![end]H</data>
+Ce n'est pas comme certains![end]</data>
     </text>
     <text>
         <refs>
@@ -384,7 +380,7 @@ Ce n'est pas comme certains![end]H</data>
         <data>HORNET:
 Ohé l'amoureux!
 C'est un bateau ici!
-Alors,faites les innocents![end]S</data>
+Alors,faites les innocents![end]</data>
     </text>
     <text>
         <refs>
@@ -392,14 +388,14 @@ Alors,faites les innocents![end]S</data>
         </refs>
         <data>SENDACK:
 [character][0x1]...
-Merci...[end]S</data>
+Merci...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x322</ref>
         </refs>
         <data>SENDACK:
-Tiens... je te les offre.[end]T</data>
+Tiens... je te les offre.[end]</data>
     </text>
     <text>
         <refs>
@@ -408,7 +404,7 @@ Tiens... je te les offre.[end]T</data>
         <data>Tu as reçu des
 [0xaa]Cookies faits par Sendack[0xab].
  
-Tu les manges?[end]S</data>
+Tu les manges?[end]</data>
     </text>
     <text>
         <refs>
@@ -417,28 +413,28 @@ Tu les manges?[end]S</data>
         <data>SENDACK:
 [character][0x1]...
  
-Hahahahahaha...[end]S</data>
+Hahahahahaha...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x386</ref>
         </refs>
         <data>SENDACK:
-Kyaa hahaha[0xd8][end]S</data>
+Kyaa hahaha[0xd8][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3b8</ref>
         </refs>
         <data>SENDACK:
-[character][0x1],ton ventre est très gros...[end]S</data>
+[character][0x1],ton ventre est très gros...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x35c</ref>
         </refs>
         <data>SENDACK:
-Je suis content...[end]S</data>
+Je suis content...[end]</data>
     </text>
     <text>
         <refs>
@@ -447,7 +443,7 @@ Je suis content...[end]S</data>
             <ref>0x34c</ref>
         </refs>
         <data>SENDACK:
-Très bien,[character][0x1]...[end]T</data>
+Très bien,[character][0x1]...[end]</data>
     </text>
     <text>
         <refs>
@@ -455,7 +451,7 @@ Très bien,[character][0x1]...[end]T</data>
         </refs>
         <data>TAURUS:
 Nous sommes déjà assez nombreux,
-Sendack.[end]B</data>
+Sendack.[end]</data>
     </text>
     <text>
         <refs>
@@ -463,7 +459,7 @@ Sendack.[end]B</data>
         </refs>
         <data>BIKKEBAKKE:
 [character][0x1]!
-Je vous en prie...[end][character][0x1]</data>
+Je vous en prie...[end]</data>
     </text>
     <text>
         <refs>
@@ -471,14 +467,14 @@ Je vous en prie...[end][character][0x1]</data>
         </refs>
         <data>[character][0x1]:
 [character][0x1]...
-Merci... de m'avoir attendu![end]J</data>
+Merci... de m'avoir attendu![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xbfe</ref>
         </refs>
         <data>Je te fais un service peu cher!
-Qu'aimerais-tu?[end] </data>
+Qu'aimerais-tu?[end]</data>
     </text>
     <text>
         <refs>
@@ -486,55 +482,49 @@ Qu'aimerais-tu?[end] </data>
         </refs>
         <data> Armes.
  Armures.
- Objets.[end1]
-</data>
+ Objets.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xc4e</ref>
         </refs>
         <data>Attention!
-Vous pourriez blesser quelqu'un![end] </data>
+Vous pourriez blesser quelqu'un![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x778</ref>
         </refs>
         <data> Merci,merci beaucoup!
- Je suis très occupé![end1]
-</data>
+ Je suis très occupé![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x7d4</ref>
         </refs>
         <data> Vraiment délicieux!
- Ca avait un goût de dragon...[end1]
-</data>
+ Ca avait un goût de dragon...[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x81b</ref>
         </refs>
         <data> Je t'en prie!
- C'est une affaire d'homme![end1]
-</data>
+ C'est une affaire d'homme![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x32f</ref>
         </refs>
         <data> Merci énormément,Sendack!
- J'ai du travail,vieil homme![end1]
-</data>
+ J'ai du travail,vieil homme![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x6ee</ref>
         </refs>
         <data> Tu peux être très utile.
- Non,résigne-toi,Vieil homme.[end1]
-</data>
+ Non,résigne-toi,Vieil homme.[end1]</data>
     </text>
     <text>
         <refs>
@@ -546,6 +536,6 @@ Vous pourriez blesser quelqu'un![end] </data>
 Inutile,inutile...
  
 Pourtant les dragons impériaux
-approchent![end][0x0]</data>
+approchent![end]</data>
     </text>
 </texts>

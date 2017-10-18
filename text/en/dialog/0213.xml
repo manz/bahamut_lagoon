@@ -7,7 +7,7 @@
         <data>Queen Campbell: There is nothing for
 you. You've captured Campbell... And
 someday you'll rule the world...
-But you'll never be satisfied...[end]E</data>
+But you'll never be satisfied...[end]</data>
     </text>
     <text>
         <refs>
@@ -19,13 +19,13 @@ Holy Dragons, what could you do?
 The one who will bring about a new
 era...
 
-That person is not you!![end]S</data>
+That person is not you!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1a1</ref>
         </refs>
-        <data>Sauzer: Where am I... What happened?[end]P</data>
+        <data>Sauzer: Where am I... What happened?[end]</data>
     </text>
     <text>
         <refs>
@@ -33,7 +33,7 @@ That person is not you!![end]S</data>
         </refs>
         <data>Palpaleos: Sauzer... This is your room.
 Don't you remember? The Holy Dragon
-awoke.[end]S</data>
+awoke.[end]</data>
     </text>
     <text>
         <refs>
@@ -43,7 +43,7 @@ awoke.[end]S</data>
 It knocked me unconscious...?
 
 So Princess [character][0x1] was able to
-control it after all... Is she all right?[end]P</data>
+control it after all... Is she all right?[end]</data>
     </text>
     <text>
         <refs>
@@ -53,7 +53,7 @@ control it after all... Is she all right?[end]P</data>
 Resistance...
 
 But she's not the only one. Campbell
-has already fallen as well.[end]S</data>
+has already fallen as well.[end]</data>
     </text>
     <text>
         <refs>
@@ -64,7 +64,7 @@ has already fallen as well.[end]S</data>
 
 Palpaleos. Where did the Resistance go?
 Are they heading for the Holy
-Dragons?[end]P</data>
+Dragons?[end]</data>
     </text>
     <text>
         <refs>
@@ -72,7 +72,7 @@ Dragons?[end]P</data>
         </refs>
         <data>Palpaleos: Sauzer, you still need to
 rest... We shall protect Granbelos for
-you.[end]S</data>
+you.[end]</data>
     </text>
     <text>
         <refs>
@@ -82,7 +82,7 @@ you.[end]S</data>
 of the Holy Dragons shall open the
 door to a new era...
 Just what did Valitora say to Princess
-[character][0x1]?[end]I</data>
+[character][0x1]?[end]</data>
     </text>
     <text>
         <refs>
@@ -97,13 +97,13 @@ Resistance to continue!!
 The way to read the minds of the Holy
 Dragons... Very soon... The legendary
 Holy Dragons... The new era...
-They shall be mine.[end]F</data>
+They shall be mine.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2c8</ref>
         </refs>
-        <data>Forgive me, Palpaleos...[end]R</data>
+        <data>Forgive me, Palpaleos...[end]</data>
     </text>
     <text>
         <refs>
@@ -113,20 +113,20 @@ They shall be mine.[end]F</data>
 Doing so means I will no longer be
 myself.
 When I change, Palpaleos...
-Take charge of the Granbelos Empire...[end]T</data>
+Take charge of the Granbelos Empire...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3ce</ref>
         </refs>
-        <data>This human is the one we will choose?[end]T</data>
+        <data>This human is the one we will choose?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3ff</ref>
         </refs>
         <data>The suitable human we will entrust with
-the doorway to the new era...[end]T</data>
+the doorway to the new era...[end]</data>
     </text>
     <text>
         <refs>
@@ -134,7 +134,7 @@ the doorway to the new era...[end]T</data>
         </refs>
         <data>The one who will bring peace...
 To our confused minds...
-With his power...[end]S</data>
+With his power...[end]</data>
     </text>
     <text>
         <refs>
@@ -150,7 +150,7 @@ First, allow me to express my
 gratitude for your choosing me...
 
 However, let me ask you one thing.
-Why... did you choose me?[end]E</data>
+Why... did you choose me?[end]</data>
     </text>
     <text>
         <refs>
@@ -163,13 +163,13 @@ Great Conqueror of the Human
 World...
 
 But you know of the emptiness of
-those titles.[end]A</data>
+those titles.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x549</ref>
         </refs>
-        <data>And you know the pain of fighting...[end]T</data>
+        <data>And you know the pain of fighting...[end]</data>
     </text>
     <text>
         <refs>
@@ -179,38 +179,38 @@ those titles.[end]A</data>
 opened by a weak-minded human.
 Nor by we monsters...
 Read the minds of the Holy Dragons,
-and open the doorway for us...[end]S</data>
+and open the doorway for us...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x624</ref>
         </refs>
-        <data>Sauzer: Monsters...[end]L</data>
+        <data>Sauzer: Monsters...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x634</ref>
         </refs>
-        <data>Let it begin.[end].</data>
+        <data>Let it begin.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6b4</ref>
         </refs>
-        <data>......[end]T</data>
+        <data>......[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6e3</ref>
         </refs>
         <data>The minds of the Holy Dragons...
-So these are their thoughts...[end]U</data>
+So these are their thoughts...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x70d</ref>
         </refs>
-        <data>Unnngh!![end]P</data>
+        <data>Unnngh!![end]</data>
     </text>
     <text>
         <refs>
@@ -218,7 +218,7 @@ So these are their thoughts...[end]U</data>
         </refs>
         <data>Palpaleos: The disaster in the sky
 seems to have subsided... Do you know
-what's happening up there, Sauzer?[end]S</data>
+what's happening up there, Sauzer?[end]</data>
     </text>
     <text>
         <refs>
@@ -226,13 +226,13 @@ what's happening up there, Sauzer?[end]S</data>
         </refs>
         <data>Sauzer: Palpaleos... The sky... I want to
 look at it with you when the end
-comes...[end]P</data>
+comes...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x81c</ref>
         </refs>
-        <data>Palpaleos: When the end comes?[end]S</data>
+        <data>Palpaleos: When the end comes?[end]</data>
     </text>
     <text>
         <refs>
@@ -240,7 +240,7 @@ comes...[end]P</data>
         </refs>
         <data>Sauzer: How dazzling... The sky is...
 always glittering... Dreams... legends...
-Everything is in this sky...[end]P</data>
+Everything is in this sky...[end]</data>
     </text>
     <text>
         <refs>
@@ -248,14 +248,14 @@ Everything is in this sky...[end]P</data>
             <ref>0x87b</ref>
             <ref>0x89d</ref>
         </refs>
-        <data>Palpaleos: Sauzer...[end]S</data>
+        <data>Palpaleos: Sauzer...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x88c</ref>
         </refs>
         <data>Sauzer: Am I... human...?
-The emperor of the human world...?[end]T</data>
+The emperor of the human world...?[end]</data>
     </text>
     <text>
         <refs>
@@ -263,7 +263,7 @@ The emperor of the human world...?[end]T</data>
         </refs>
         <data>There were children who looked up to
 me... [0x24]If it's for the Emperor we'll risk
-our lives and fight...[0x22][end]T</data>
+our lives and fight...[0x22][end]</data>
     </text>
     <text>
         <refs>
@@ -273,7 +273,7 @@ our lives and fight...[0x22][end]T</data>
 children born there will wage war...
 
 They will follow the same path as I
-have...[end]T</data>
+have...[end]</data>
     </text>
     <text>
         <refs>
@@ -282,7 +282,7 @@ have...[end]T</data>
         <data>This is all mine...
 
 
-What I have been wanting...[end]P</data>
+What I have been wanting...[end]</data>
     </text>
     <text>
         <refs>
@@ -290,7 +290,7 @@ What I have been wanting...[end]P</data>
         </refs>
         <data>Palpaleos... There is someone you must
 protect... As Emperor of the Granbelos
-Empire I order you...[end]G</data>
+Empire I order you...[end]</data>
     </text>
     <text>
         <refs>
@@ -298,7 +298,7 @@ Empire I order you...[end]G</data>
         </refs>
         <data>General Palpaleos!! Go to Kahna!!
 Protect the skies of Orelus with the
-Resistance!![end]T</data>
+Resistance!![end]</data>
     </text>
     <text>
         <refs>
@@ -308,7 +308,7 @@ Resistance!![end]T</data>
 Do not disobey, Palpaleos...
 
 Protect the one most important to
-you...[end]T</data>
+you...[end]</data>
     </text>
     <text>
         <refs>

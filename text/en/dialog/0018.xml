@@ -4,59 +4,59 @@
         <refs>
             <ref>0xe7</ref>
         </refs>
-        <data>Leviathan: Where is this...?[end]G</data>
+        <data>Leviathan: Where is this...?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x102</ref>
         </refs>
-        <data>Garuda: What is happening...?[end]V</data>
+        <data>Garuda: What is happening...?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x11d</ref>
         </refs>
         <data>Valitora: The door to the new era...
-Has it opened?[end]J</data>
+Has it opened?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x138</ref>
         </refs>
-        <data>Jormungand: We can go no further...[end]G</data>
+        <data>Jormungand: We can go no further...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x153</ref>
         </refs>
         <data>Garuda: Can you not see it...?
-It is our...[end]L</data>
+It is our...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x16c</ref>
         </refs>
-        <data>Leviathan: Him...? What is arising...?[end]J</data>
+        <data>Leviathan: Him...? What is arising...?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x187</ref>
         </refs>
-        <data>Jormungand: Bahamut. It is him again...[end]V</data>
+        <data>Jormungand: Bahamut. It is him again...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1a2</ref>
         </refs>
         <data>Valitora: But why...? If things are to
-continue at this rate...[end][character][0x1]</data>
+continue at this rate...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x345</ref>
         </refs>
         <data>[character][0x1]: But... [character][0x1] and
-the others aren't...[end][0x0]</data>
+the others aren't...[end]</data>
     </text>
     <text>
         <refs>
@@ -68,21 +68,21 @@ the others aren't...[end][0x0]</data>
 Is it my fault? Because I can't become
 a Dragnar?
 
-Because I'm weak-minded?[end] </data>
+Because I'm weak-minded?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2b1</ref>
         </refs>
         <data>               Chapter 18
-           The Promised Land[end]M</data>
+           The Promised Land[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x32d</ref>
         </refs>
         <data>Matelite: [character][0x1], tell us!
-What's happening in the sky?[end]H</data>
+What's happening in the sky?[end]</data>
     </text>
     <text>
         <refs>
@@ -90,14 +90,14 @@ What's happening in the sky?[end]H</data>
         </refs>
         <data>Hah! Forget about them!! Those who
 oppose me shouldn't get to hear what
-you have to say, [character][0x1]!![end]D</data>
+you have to say, [character][0x1]!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x373</ref>
         </refs>
         <data>Don't worry about them... I'm almost
-certain they're watching or listening![end]W</data>
+certain they're watching or listening![end]</data>
     </text>
     <text>
         <refs>
@@ -105,7 +105,7 @@ certain they're watching or listening![end]W</data>
         </refs>
         <data>Well? [character][0x1], speak up!
 Tell us what the Holy Dragons are
-saying!![end][character][0x1]</data>
+saying!![end]</data>
     </text>
     <text>
         <refs>
@@ -113,7 +113,7 @@ saying!![end][character][0x1]</data>
         </refs>
         <data>[character][0x1]: Matelite, do you remember
 how the legend of the Holy Dragons
-goes?[end]M</data>
+goes?[end]</data>
     </text>
     <text>
         <refs>
@@ -121,7 +121,7 @@ goes?[end]M</data>
         </refs>
         <data>Matelite: Of course, [character][0x1]!
 In my own words, it goes something
-like...[end]T</data>
+like...[end]</data>
     </text>
     <text>
         <refs>
@@ -131,7 +131,7 @@ like...[end]T</data>
 Empire and the new era of Kahna is
 ushered in!!
 I think there was more after that,
-but... Well, anyway, that's how it goes.[end]T</data>
+but... Well, anyway, that's how it goes.[end]</data>
     </text>
     <text>
         <refs>
@@ -143,7 +143,7 @@ but... Well, anyway, that's how it goes.[end]T</data>
 The one who can speak with the Holy
 Dragons shall open the door to a new
 era...
-Yes... The door has now been opened...[end]T</data>
+Yes... The door has now been opened...[end]</data>
     </text>
     <text>
         <refs>
@@ -151,14 +151,14 @@ Yes... The door has now been opened...[end]T</data>
         </refs>
         <data>That door in the sky is the door to a
 new era... The Holy Dragons opened it.
-No, that is, they tried to open it...[end]B</data>
+No, that is, they tried to open it...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x400</ref>
         </refs>
         <data>But.. they couldn't...
-But then... I...[end]M</data>
+But then... I...[end]</data>
     </text>
     <text>
         <refs>
@@ -169,7 +169,7 @@ But then... I...[end]M</data>
 
          A weak minded person...
             From the heavens
-            a disaster will fall...[end]H</data>
+            a disaster will fall...[end]</data>
     </text>
     <text>
         <refs>
@@ -178,21 +178,21 @@ But then... I...[end]M</data>
         <data>Hmmm... Door, door, door.
 Where was there a door...
 
-Hey! Taicho! Prepare for departure![end]T</data>
+Hey! Taicho! Prepare for departure![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x44e</ref>
         </refs>
         <data>Taicho: Matelite... You do not seem to
-understand... Shall I explain it to you?[end]T</data>
+understand... Shall I explain it to you?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x45d</ref>
         </refs>
         <data>Taicho: [character][0x1]! Might the door be
-that hole in the sky?[end]M</data>
+that hole in the sky?[end]</data>
     </text>
     <text>
         <refs>
@@ -200,59 +200,59 @@ that hole in the sky?[end]M</data>
         </refs>
         <data>Matelite: Quiet! Taicho! Stop your
 complaining and leave at once!
-Everybody, leave![end]Z</data>
+Everybody, leave![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x573</ref>
         </refs>
-        <data>Zora: Out of the way! What is it?![end1].</data>
+        <data>Zora: Out of the way! What is it?![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x594</ref>
         </refs>
-        <data>...What was that about?![end1]R</data>
+        <data>...What was that about?![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x5e9</ref>
         </refs>
         <data>Rush: Yes... That's how!
-Later, [character][0x1]!![end]R</data>
+Later, [character][0x1]!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x669</ref>
         </refs>
-        <data>Rush: Oh no!!! [character][0x1]!! Wait![end]M</data>
+        <data>Rush: Oh no!!! [character][0x1]!! Wait![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x698</ref>
         </refs>
         <data>Matelite: What's wrong, [character][0x1]?
-You're acting strange!![end][character][0x1]</data>
+You're acting strange!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6a1</ref>
         </refs>
-        <data>[character][0x1]: ......[end]M</data>
+        <data>[character][0x1]: ......[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6b5</ref>
         </refs>
         <data>Matelite: The door to the new era...
-It still might not open, right?[end]H</data>
+It still might not open, right?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6ca</ref>
         </refs>
         <data>Have you forgotten about our Holy
-Dragon?[end]B</data>
+Dragon?[end]</data>
     </text>
     <text>
         <refs>
@@ -262,7 +262,7 @@ Dragon?[end]B</data>
 Kahna!!
 
 Until Bahamut wakes up the legend
-won't be fulfilled![end][character][0x1]</data>
+won't be fulfilled![end]</data>
     </text>
     <text>
         <refs>
@@ -270,13 +270,13 @@ won't be fulfilled![end][character][0x1]</data>
         </refs>
         <data>[character][0x1]... Believe!! You mustn't
 think of yourself as a weak-minded
-person![end].</data>
+person![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x724</ref>
         </refs>
-        <data>...Thank you.[end]B</data>
+        <data>...Thank you.[end]</data>
     </text>
     <text>
         <refs>
@@ -284,25 +284,25 @@ person![end].</data>
         </refs>
         <data>But... Matelite... It appears that
 Bahamut is despised by the other
-Holy Dragons...[end]M</data>
+Holy Dragons...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x76d</ref>
         </refs>
-        <data>Matelite the Hero![end]M</data>
+        <data>Matelite the Hero![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x782</ref>
         </refs>
-        <data>Matelite the Famous![end]T</data>
+        <data>Matelite the Famous![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7d7</ref>
         </refs>
-        <data>Taicho is...[end][0x0]</data>
+        <data>Taicho is...[end]</data>
     </text>
     <text>
         <refs>
@@ -315,46 +315,46 @@ If monsters from that other world
 show up through the door in the sky,
 we'll protect you from them!
 That is the way I live! I will never
-change that![end]M</data>
+change that![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x752</ref>
         </refs>
         <data>Matelite: Bwahaha... I wouldn't be
-surprised! Take a look at me![end]M</data>
+surprised! Take a look at me![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x792</ref>
         </refs>
-        <data>Matelite the Knight of Kahna![end]S</data>
+        <data>Matelite the Knight of Kahna![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7a1</ref>
         </refs>
         <data>Strong people have many enemies...
-I'm hated by everybody...[end]I</data>
+I'm hated by everybody...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7ad</ref>
         </refs>
         <data>I'm the Bahamut of the human world!
-And Taicho is...[end]L</data>
+And Taicho is...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7c0</ref>
         </refs>
-        <data>Leviathan? Or maybe Jormungand?[end]B</data>
+        <data>Leviathan? Or maybe Jormungand?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7e7</ref>
         </refs>
-        <data>Bahamut's tail!![end][character][0x1]</data>
+        <data>Bahamut's tail!![end]</data>
     </text>
     <text>
         <refs>
@@ -364,14 +364,14 @@ And Taicho is...[end]L</data>
 fussy man... I talk too much, and am
 easily flattered...
 As a knight... as a soldier... I might
-not be qualified...[end]B</data>
+not be qualified...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x83e</ref>
         </refs>
         <data>But! I can't leave now! I can't leave it
-all up to them...[end][character][0x1]</data>
+all up to them...[end]</data>
     </text>
     <text>
         <refs>
@@ -384,13 +384,13 @@ They care only of appearances...
 Only cheap words...
 
 They're right up there with...
-the Mini-Devils...[end][character][0x1]</data>
+the Mini-Devils...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x857</ref>
         </refs>
-        <data>[character][0x1]... I have a dream...[end]K</data>
+        <data>[character][0x1]... I have a dream...[end]</data>
     </text>
     <text>
         <refs>
@@ -398,14 +398,14 @@ the Mini-Devils...[end][character][0x1]</data>
         </refs>
         <data>Kahna is revived, and you become the
 queen... And I am always at your side
-to serve you![end]H</data>
+to serve you![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x873</ref>
         </refs>
         <data>However... Even I... will become old
-someday...[end]I</data>
+someday...[end]</data>
     </text>
     <text>
         <refs>
@@ -415,7 +415,7 @@ someday...[end]I</data>
 If I started rambling all the time, I'd
 think of retiring too...
 If they'll take my place for me when
-that happens...[end]I</data>
+that happens...[end]</data>
     </text>
     <text>
         <refs>
@@ -423,7 +423,7 @@ that happens...[end]I</data>
         </refs>
         <data>If they become excellent knights who
 will serve you, [character][0x1]...
-I would be happy...[end]B</data>
+I would be happy...[end]</data>
     </text>
     <text>
         <refs>
@@ -433,14 +433,14 @@ I would be happy...[end]B</data>
 Even when they become my age...
 If they want to make Kahna free...
 I will let them...
-You will too, certainly...[end]A</data>
+You will too, certainly...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8c1</ref>
         </refs>
         <data>And then, I'll retire... By then Sendak
-will probably be gone...[end]W</data>
+will probably be gone...[end]</data>
     </text>
     <text>
         <refs>
@@ -453,7 +453,7 @@ About the king of Kahna... about this
 war... Rumors about [character][0x1] and
 the others...
 I would like it if you could come and
-visit me some time, so we can talk...[end]A</data>
+visit me some time, so we can talk...[end]</data>
     </text>
     <text>
         <refs>
@@ -466,21 +466,21 @@ My bones will rattle as I walk...
 
 
 When that times comes, wearing my
-shining armor, I will say farewell![end]O</data>
+shining armor, I will say farewell![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x906</ref>
         </refs>
         <data>Oh, no... I'm already rambling... I'm
-going to be an old man soon too...[end]O</data>
+going to be an old man soon too...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x927</ref>
         </refs>
         <data>Okay...! Time to go make fun of Taicho
-or somebody![end]O</data>
+or somebody![end]</data>
     </text>
     <text>
         <refs>
@@ -493,7 +493,7 @@ Especially, don't bring the new king of
 Kahna over! Whenever I think of you
 married to someone, it pains me!!
 The only one I will ever serve is you,
-[character][0x1]!![end]I</data>
+[character][0x1]!![end]</data>
     </text>
     <text>
         <refs>
@@ -502,7 +502,7 @@ The only one I will ever serve is you,
             <ref>0xa5c</ref>
         </refs>
         <data>I've changed a lot since then, haven't
-I?[end] </data>
+I?[end]</data>
     </text>
     <text>
         <refs>
@@ -514,7 +514,7 @@ I?[end] </data>
    You can hear Matelite's laughter...
 
 
-               Bwahahaha...![end][character][0x1]</data>
+               Bwahahaha...![end]</data>
     </text>
     <text>
         <refs>
@@ -524,7 +524,7 @@ I?[end] </data>
 the others.
 
 Matelite... [character][0x1]... All the
-members of the Resistance...[end][character][0x1]</data>
+members of the Resistance...[end]</data>
     </text>
     <text>
         <refs>
@@ -532,13 +532,13 @@ members of the Resistance...[end][character][0x1]</data>
         </refs>
         <data>[character][0x1]. I couldn't say this to
 Matelite, but I have a dream.
-A small, feeble dream...[end]M</data>
+A small, feeble dream...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf79</ref>
         </refs>
-        <data>My dream is...[end]N</data>
+        <data>My dream is...[end]</data>
     </text>
     <text>
         <refs>
@@ -551,14 +551,14 @@ You see... If I put it into words...
 
 
 It's like they would melt away into
-the sky.[end]L</data>
+the sky.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfb5</ref>
         </refs>
         <data>Let's go... Matelite's waiting for us on
-the bridge.[end][character][0x1]</data>
+the bridge.[end]</data>
     </text>
     <text>
         <refs>
@@ -574,14 +574,14 @@ Memories that must not be lost...
 
 
 Ours too... Do you still remember our
-promise...?[end] </data>
+promise...?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1001</ref>
         </refs>
         <data>  It was embarrassing, so I forgot it...
-  I remember![end1][character][0x1]</data>
+  I remember![end1]</data>
     </text>
     <text>
         <refs>
@@ -589,7 +589,7 @@ promise...?[end] </data>
         </refs>
         <data>[character][0x1]: I'm sorry... I want
 to look at the sky a little more. When
-I look at the sky... I feel better...[end]S</data>
+I look at the sky... I feel better...[end]</data>
     </text>
     <text>
         <refs>
@@ -598,14 +598,14 @@ I look at the sky... I feel better...[end]S</data>
         <data>Sendak: The Holy Dragons are angry...
 Very intensely, very deeply angry...
 
-Am I shaking?[end] </data>
+Am I shaking?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1065</ref>
         </refs>
         <data>  Ha ha! You're a shaking old geezer!
-  Don't worry about it, Sendak.[end1][character][0x1]</data>
+  Don't worry about it, Sendak.[end1]</data>
     </text>
     <text>
         <refs>
@@ -613,7 +613,7 @@ Am I shaking?[end] </data>
         </refs>
         <data>[character][0x1], I am frightened. The Holy
 Dragons are this angry because I
-prayed for such odd things...[end]Y</data>
+prayed for such odd things...[end]</data>
     </text>
     <text>
         <refs>
@@ -627,14 +627,14 @@ The anger of despair... Anger toward
 what...?
 If it is I they are angry at... I...
 thought only of bad things, that is
-why...[end]T</data>
+why...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1093</ref>
         </refs>
         <data>Taicho: Sir Matelite... Someday I shall
-make you weep![end]T</data>
+make you weep![end]</data>
     </text>
     <text>
         <refs>
@@ -642,14 +642,14 @@ make you weep![end]T</data>
         </refs>
         <data>Taicho: Sir Matelite is being silent...
 All he said was, [0x24]You're the tail...[0x22]
-He must be planning something...[end]H</data>
+He must be planning something...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x10a5</ref>
         </refs>
         <data>Hornet: The sky is angry...
-I hope nothing bad happens.[end]H</data>
+I hope nothing bad happens.[end]</data>
     </text>
     <text>
         <refs>
@@ -659,20 +659,20 @@ I hope nothing bad happens.[end]H</data>
 [character][0x1]. Kahna at last!
 
 Make sure your preparations are
-complete! The final battle is near![end] </data>
+complete! The final battle is near![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x10b0</ref>
         </refs>
         <data>  Wait!!
-  Let's go!![end1]R</data>
+  Let's go!![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x10dc</ref>
         </refs>
-        <data>Rush: He makes me so mad![end]R</data>
+        <data>Rush: He makes me so mad![end]</data>
     </text>
     <text>
         <refs>
@@ -680,13 +680,13 @@ complete! The final battle is near![end] </data>
         </refs>
         <data>Rush: I don't need your consolation or
 your excuses. [character][0x1] is... important
-to me too...[end]T</data>
+to me too...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1107</ref>
         </refs>
-        <data>Truce: [character][0x1]'s about to start...[end]T</data>
+        <data>Truce: [character][0x1]'s about to start...[end]</data>
     </text>
     <text>
         <refs>
@@ -694,7 +694,7 @@ to me too...[end]T</data>
         </refs>
         <data>Truce: The door to a new era... Did it
 really open? If it did, then what about
-those monsters from the other world?[end]B</data>
+those monsters from the other world?[end]</data>
     </text>
     <text>
         <refs>
@@ -702,20 +702,20 @@ those monsters from the other world?[end]B</data>
         </refs>
         <data>Bikkebakke: Hey, [character][0x1]... I'm
 having to do something nasty... Do you
-hate me for it?[end] </data>
+hate me for it?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x111f</ref>
         </refs>
         <data>  What's wrong?
-  Nah, it just means you're an adult.[end1]T</data>
+  Nah, it just means you're an adult.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x1129</ref>
         </refs>
-        <data>Thanks, [character][0x1]...[end]W</data>
+        <data>Thanks, [character][0x1]...[end]</data>
     </text>
     <text>
         <refs>
@@ -728,7 +728,7 @@ But I just don't have enough... I know
 it's not something I should be doing...
 But this is all I CAN do now.
 I can't help it, that's just the way it
-is...[end] </data>
+is...[end]</data>
     </text>
     <text>
         <refs>
@@ -736,7 +736,7 @@ is...[end] </data>
         </refs>
         <data>  Matelite-brand merchandise
   Book store
-  Mushroom shop[end1]Z</data>
+  Mushroom shop[end1]</data>
     </text>
     <text>
         <refs>
@@ -744,7 +744,7 @@ is...[end] </data>
         </refs>
         <data>Zora: Come on! If somebody is going to
 cheer [character][0x1] up, we're better at
-it than he is![end]L</data>
+it than he is![end]</data>
     </text>
     <text>
         <refs>
@@ -752,7 +752,7 @@ it than he is![end]L</data>
         </refs>
         <data>Lukia: You know, I'll always have faith
 in [character][0x1]...
-And in you too, [character][0x1].[end]M</data>
+And in you too, [character][0x1].[end]</data>
     </text>
     <text>
         <refs>
@@ -762,21 +762,21 @@ And in you too, [character][0x1].[end]M</data>
 I hate that Matelite!
 
 But that's okay! I get to be with you
-and Hornet!![end]M</data>
+and Hornet!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x11c8</ref>
         </refs>
         <data>Melodia: Hey... What's wrong?
-Tell me!![end]M</data>
+Tell me!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x11e1</ref>
         </refs>
         <data>Melodia: It's so weird... Matelite
-isn't saying anything![end] </data>
+isn't saying anything![end]</data>
     </text>
     <text>
         <refs>
@@ -796,7 +796,7 @@ isn't saying anything![end] </data>
    Imperial Army is in a state of war...
    Furthermore, the whereabouts of
  the crew member who had gathered
-      this information is unknown.[end]Y</data>
+      this information is unknown.[end]</data>
     </text>
     <text>
         <refs>

@@ -9,7 +9,7 @@ Cette lance est différente de la
 mienne mais elle est aussi comme
 la mienne.
 Il est à plaindre!
-Je m'en souviendrai![end]F</data>
+Je m'en souviendrai![end]</data>
     </text>
     <text>
         <refs>
@@ -17,7 +17,7 @@ Je m'en souviendrai![end]F</data>
         </refs>
         <data>FILS DE ZORA:
 C'est propre!
-Tout est propre![end]B</data>
+Tout est propre![end]</data>
     </text>
     <text>
         <refs>
@@ -25,14 +25,14 @@ Tout est propre![end]B</data>
         </refs>
         <data>BARECK:
 Bienvenue!
-Je suis un magasin d'armures![end] </data>
+Je suis un magasin d'armures![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x16a</ref>
         </refs>
         <data> Faire du shopping.
- Parler un peu.[end1]B</data>
+ Parler un peu.[end1]</data>
     </text>
     <text>
         <refs>
@@ -43,7 +43,7 @@ Passons à la minute pratique!
 Mais ça ne concerne pas les combats!
 Euh... c'est sur... euuh...
 Dès que tu vois une charmante femme,
-ne bats pas en retraite trop vite![end]F</data>
+ne bats pas en retraite trop vite![end]</data>
     </text>
     <text>
         <refs>
@@ -53,7 +53,7 @@ ne bats pas en retraite trop vite![end]F</data>
 Il me semble que Reeve a perdu
 quelque chose!
 Quelque chose de splendide!
-Lan Lan Lan... Hahaha![end]R</data>
+Lan Lan Lan... Hahaha![end]</data>
     </text>
     <text>
         <refs>
@@ -63,7 +63,7 @@ Lan Lan Lan... Hahaha![end]R</data>
 Ce n'est pas intelligent!
 Pourquoi?
 Je n'avais jamais changé de lance!
-Je regrette le mienne...[end]F</data>
+Je regrette le mienne...[end]</data>
     </text>
     <text>
         <refs>
@@ -76,7 +76,7 @@ Reeve a secrètement échangé nos
 lances.
  
 J'ai le sentiment qu'il a trahi notre
-amitié.[end]F</data>
+amitié.[end]</data>
     </text>
     <text>
         <refs>
@@ -88,7 +88,7 @@ Merci beaucoup[0xd8]
 Au moins,ici,je sens que je suis
 respecté comme un vrai Lancier!
 Je crois que je suis devenu un vrai
-homme.[end]B</data>
+homme.[end]</data>
     </text>
     <text>
         <refs>
@@ -101,7 +101,7 @@ Elles considèrent que les guerriers
 sont des humains inutiles.
 C'est si mesquin...
 Si tout continue encore comme ça,
-il faudra que tu en parles à Matelight.[end]S</data>
+il faudra que tu en parles à Matelight.[end]</data>
     </text>
     <text>
         <refs>
@@ -118,13 +118,13 @@ renouvellement des armures.
 [0xa8]Grognement[0xa9]
 Elles peuvent facilement rendre un
 homme nouveau.
-[0xa8]Grognement[0xa9][end]S</data>
+[0xa8]Grognement[0xa9][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x249</ref>
         </refs>
-        <data>Super![end]S</data>
+        <data>Super![end]</data>
     </text>
     <text>
         <refs>
@@ -142,7 +142,7 @@ En aucun cas quelque chose ne doit
 Commandant est originaire de
 [0xa8]Grognement[0xa9]Mahal et va aider
 à la restauration.
-Il faut vivre,vivre,vivre...[end]O</data>
+Il faut vivre,vivre,vivre...[end]</data>
     </text>
     <text>
         <refs>

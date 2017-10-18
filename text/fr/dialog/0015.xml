@@ -5,15 +5,14 @@
             <ref>0x7da</ref>
         </refs>
         <data> Livres.
- Champignons.[end1]
-</data>
+ Champignons.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x9e</ref>
         </refs>
         <data>             Chapitre [0xb0][0xb4]
--Combat décisif dans les Sables Chauds-[end]H</data>
+-Combat décisif dans les Sables Chauds-[end]</data>
     </text>
     <text>
         <refs>
@@ -26,14 +25,14 @@ maintenant vers Dafira.
 C'est un lagon désert,chaud et
 sablonneux comme tous les déserts.
 C'est un lagon où règnent la chaleur
-et l'ardeur.[end]C</data>
+et l'ardeur.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc8</ref>
         </refs>
         <data>C'est le lieu où autrefois j'aimais
-vivre.[end]N</data>
+vivre.[end]</data>
     </text>
     <text>
         <refs>
@@ -41,7 +40,7 @@ vivre.[end]N</data>
         </refs>
         <data>Nous voyageons maintenant dans ce
 ciel bleu pour combattre l'Empire et
-rechercher les Dragons Sacrés.[end]L</data>
+rechercher les Dragons Sacrés.[end]</data>
     </text>
     <text>
         <refs>
@@ -49,14 +48,14 @@ rechercher les Dragons Sacrés.[end]L</data>
         </refs>
         <data>La colère,les blessures et l'amertume
 des Dragons Sacrés ont rendu la
-Princesse malade.[end]E</data>
+Princesse malade.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf9</ref>
         </refs>
         <data>Elle est souffrante à cause de...
-cette colère.[end]L</data>
+cette colère.[end]</data>
     </text>
     <text>
         <refs>
@@ -73,7 +72,7 @@ Est-ce à cause du jour où la guerre
 a éclaté à Orelus?
 J'ai l'impression que cette époque est
 lointaine...
-Je le crois même...[end]L</data>
+Je le crois même...[end]</data>
     </text>
     <text>
         <refs>
@@ -86,7 +85,7 @@ Ils ne font que des actions droites et
 justifiables!
 Je les ai rejoints...
 Je suis redevenu un homme et j'ai
-retrouvé mon sens de l'humour...[end]O</data>
+retrouvé mon sens de l'humour...[end]</data>
     </text>
     <text>
         <refs>
@@ -94,7 +93,7 @@ retrouvé mon sens de l'humour...[end]O</data>
         </refs>
         <data>Oui Sauzer!
 Ils ne sont pas comme toi!
-Cette lettre que tu m'as envoyé...[end]J</data>
+Cette lettre que tu m'as envoyé...[end]</data>
     </text>
     <text>
         <refs>
@@ -103,7 +102,7 @@ Cette lettre que tu m'as envoyé...[end]J</data>
         <data>Je l'ai conservée:
 Le Dragon Sacré Jormungand se trouve
 près de la ville de Dafira.
-Je vous y attendrai avec les Rebelles.[end]S</data>
+Je vous y attendrai avec les Rebelles.[end]</data>
     </text>
     <text>
         <refs>
@@ -113,7 +112,7 @@ Je vous y attendrai avec les Rebelles.[end]S</data>
  
   
 Je vois que depuis notre rencontre à
-à ce bar,tu n'as toujours pas changé.[end]S</data>
+à ce bar,tu n'as toujours pas changé.[end]</data>
     </text>
     <text>
         <refs>
@@ -122,7 +121,7 @@ Je vois que depuis notre rencontre à
         <data>SAUZER:
 Buvons au pouvoir!
  
-Aide-moi Hornet![end]T</data>
+Aide-moi Hornet![end]</data>
     </text>
     <text>
         <refs>
@@ -132,7 +131,7 @@ Aide-moi Hornet![end]T</data>
 Brandis ton épée pour moi!
  
 J'ai besoin de toi pour conquérir le
-ciel d'Orelus.[end]H</data>
+ciel d'Orelus.[end]</data>
     </text>
     <text>
         <refs>
@@ -140,7 +139,7 @@ ciel d'Orelus.[end]H</data>
         </refs>
         <data>HORNET:
 Tu veux conquérir le...
-ciel?[end]M</data>
+ciel?[end]</data>
     </text>
     <text>
         <refs>
@@ -151,14 +150,14 @@ Nous y flottons seulement,laissant de
 côté nos ennuis et nous nous en
 réjouissons!
 Par conséquent,je ne brandirai pas
-mon épée à ton service.[end]S</data>
+mon épée à ton service.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1c4</ref>
         </refs>
         <data>SAUZER:
-Craindrais-tu la Guerre?[end]H</data>
+Craindrais-tu la Guerre?[end]</data>
     </text>
     <text>
         <refs>
@@ -171,7 +170,7 @@ Sauzer,au cours de ta vie,ne blesse
 personne pour de futiles raisons.
  
 Si j'étais toi,je prendrais cette brave
-et sage décision.[end]S</data>
+et sage décision.[end]</data>
     </text>
     <text>
         <refs>
@@ -183,7 +182,7 @@ grand vaisseau et de voler à la
 conquête du ciel.
 Si tu veux un jour ce bateau,
 rejoins-moi!
-Je t'attendrai jusqu'à ce jour![end]M</data>
+Je t'attendrai jusqu'à ce jour![end]</data>
     </text>
     <text>
         <refs>
@@ -191,7 +190,7 @@ Je t'attendrai jusqu'à ce jour![end]M</data>
         </refs>
         <data>MATELIGHT:
 [character][0x1],je jure qu'il ne vous arrivera
-rien avec moi.[end]J</data>
+rien avec moi.[end]</data>
     </text>
     <text>
         <refs>
@@ -204,21 +203,21 @@ Homme du ciel,je crois que je vais
 bientôt mettre un terme à ma carrière
 de matelot car j'ai montré la plupart
 de mes faiblesses lorsque nous avons
-aveuglément traversé la tempête.[end]J</data>
+aveuglément traversé la tempête.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7d6</ref>
         </refs>
         <data>J'ai beaucoup de splendides choses à
-te vendre.[end]Z</data>
+te vendre.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x29e</ref>
         </refs>
         <data>ZORA:
-Réunissons-nous et attendons![end]Z</data>
+Réunissons-nous et attendons![end]</data>
     </text>
     <text>
         <refs>
@@ -228,7 +227,7 @@ Réunissons-nous et attendons![end]Z</data>
 Comme vous le savez déjà...
  
 [character][0x1] n'est plus maintenant en grande
-forme.[end]T</data>
+forme.[end]</data>
     </text>
     <text>
         <refs>
@@ -244,14 +243,14 @@ J'ai maintenant une chose importante
 mais elle souffre de maux dûs aux
 Dragons Sacrés.
 Mais pour elle,je ferai tout ce qui est
-en mon pouvoir pour vaincre l'Empire.[end]B</data>
+en mon pouvoir pour vaincre l'Empire.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x309</ref>
         </refs>
         <data>Bien!
-Soyez tous prêts![end]H</data>
+Soyez tous prêts![end]</data>
     </text>
     <text>
         <refs>
@@ -262,7 +261,7 @@ Préparez-vous tous,nous allons bientôt
 passer les nuages!
 Et derrière eux se trouve le lagon
 désertique Dafira et son incroyable
-température.[end]R</data>
+température.[end]</data>
     </text>
     <text>
         <refs>
@@ -272,7 +271,7 @@ température.[end]R</data>
 Nous allons combattre dans les sables
 chauds!
 C'est un terrain approprié contre
-Sauzer.[end]T</data>
+Sauzer.[end]</data>
     </text>
     <text>
         <refs>
@@ -283,7 +282,7 @@ Tu ne penses pas que [character][0x1] ne
 devrait pas combattre?
 Si Sauzer était en ce moment même
 devant moi,je n'hésiterais pas à le
-tuer malgré sa maladie.[end]B</data>
+tuer malgré sa maladie.[end]</data>
     </text>
     <text>
         <refs>
@@ -299,7 +298,7 @@ Au fait,frère,je vais bientôt avoir une
 file d'attente dans mon magasin de
 Champignons.
 Et plus tard,je l'agrandirai,
-puis j'aurai un gros salaire.[end]H</data>
+puis j'aurai un gros salaire.[end]</data>
     </text>
     <text>
         <refs>
@@ -308,15 +307,14 @@ puis j'aurai un gros salaire.[end]H</data>
         <data>HORNET:
 Nous combattons toujours plus mais il
 faut rester ferme.
-Allons-nous atterrir?[end] </data>
+Allons-nous atterrir?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x787</ref>
         </refs>
         <data> Se préparer.
- Atterrir.[end1]
-</data>
+ Atterrir.[end1]</data>
     </text>
     <text>
         <refs>
@@ -327,14 +325,14 @@ L'Empereur Sauzer connaît le coeur
 des Dragons Sacrés.
 Je crois qu'ils n'en sont pas fiers,
 donc nous devons nous battre pour
-éviter le pire.[end]C</data>
+éviter le pire.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x779</ref>
         </refs>
         <data>COMMANDANT:
-Nous tiendrons bon jusqu'au bout![end]F</data>
+Nous tiendrons bon jusqu'au bout![end]</data>
     </text>
     <text>
         <refs>
@@ -355,6 +353,6 @@ Compte à rebours!
 [0xaf]... ...
  
   
-[0xd8][0xd8][0xd8][0xd8][end][0x0]</data>
+[0xd8][0xd8][0xd8][0xd8][end]</data>
     </text>
 </texts>

@@ -6,7 +6,7 @@
         </refs>
         <data>[character][0x1]:
 Dragon Sacré Bahamut,
-je suis enfin venue.[end]A</data>
+je suis enfin venue.[end]</data>
     </text>
     <text>
         <refs>
@@ -14,7 +14,7 @@ je suis enfin venue.[end]A</data>
         </refs>
         <data>Auparavant,avec mon défunt père,
 le Roi de Kana,je n'avais pu te
-réveiller.[end]M</data>
+réveiller.[end]</data>
     </text>
     <text>
         <refs>
@@ -22,7 +22,7 @@ réveiller.[end]M</data>
         </refs>
         <data>Mes forces...
 Mes faiblesses...
-Je ne pouvais pas...[end]L</data>
+Je ne pouvais pas...[end]</data>
     </text>
     <text>
         <refs>
@@ -47,14 +47,14 @@ Et enfin,je lierai vos coeurs![end][end]</data>
             <ref>0x258</ref>
         </refs>
         <data>MATELIGHT:
-Princesse [character][0x1]![end]S</data>
+Princesse [character][0x1]![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x265</ref>
         </refs>
         <data>SENDACK:
-Ramenons la Princesse au château![end][character][0x1]</data>
+Ramenons la Princesse au château![end]</data>
     </text>
     <text>
         <refs>
@@ -62,14 +62,14 @@ Ramenons la Princesse au château![end][character][0x1]</data>
         </refs>
         <data>[character][0x1]:
 Inutile!
-Allons à FARENHEIT![end]P</data>
+Allons à FARENHEIT![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x278</ref>
         </refs>
         <data>PALPALEOS:
-Mais... [character][0x1]![end][character][0x1]</data>
+Mais... [character][0x1]![end]</data>
     </text>
     <text>
         <refs>
@@ -83,14 +83,14 @@ commencer!
  
 Nous devons ouvrir la Porte pour les
 Dragons Sacrés.
-Nous partons à... ALTAIR![end]B</data>
+Nous partons à... ALTAIR![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x135</ref>
         </refs>
         <data>BAHAMUT:
-[character][0x1],la Dragoon...[end][character][0x1]</data>
+[character][0x1],la Dragoon...[end]</data>
     </text>
     <text>
         <refs>
@@ -98,14 +98,14 @@ Nous partons à... ALTAIR![end]B</data>
         </refs>
         <data>[character][0x1]:
 Dragoon?
-Suis-je devenue une Dragoon?[end]B</data>
+Suis-je devenue une Dragoon?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x154</ref>
         </refs>
         <data>BAHAMUT:
-En effet...[end]V</data>
+En effet...[end]</data>
     </text>
     <text>
         <refs>
@@ -113,7 +113,7 @@ En effet...[end]V</data>
         </refs>
         <data>Valitra... Léviathan...
 Garuda... Jormungand...
-Et même Hypérion...[end]L</data>
+Et même Hypérion...[end]</data>
     </text>
     <text>
         <refs>
@@ -121,21 +121,21 @@ Et même Hypérion...[end]L</data>
         </refs>
         <data>Leur colère,leur haine...
 Tous leurs sentiments viennent
-maintenant à toi...[end]D</data>
+maintenant à toi...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x160</ref>
         </refs>
         <data>Dès à présent,mon coeur sera une
-partie de toi...[end][character][0x1]</data>
+partie de toi...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x170</ref>
         </refs>
         <data>[character][0x1]:
-Moi... Une Dragoon...?[end][character][0x1]</data>
+Moi... Une Dragoon...?[end]</data>
     </text>
     <text>
         <refs>
@@ -145,7 +145,7 @@ Moi... Une Dragoon...?[end][character][0x1]</data>
 S'il te plaît,Bahamut,fais moi
 l'honneur de répondre...
 Quel est le vrai sens de la Légende
-des Dragons Sacrés?[end]B</data>
+des Dragons Sacrés?[end]</data>
     </text>
     <text>
         <refs>
@@ -154,14 +154,14 @@ des Dragons Sacrés?[end]B</data>
         <data>BAHAMUT:
 La personne qui connaît le coeur des
 Dragons Sacrés ouvrira la Porte vers
-une Ere Nouvelle.[end]C</data>
+une Ere Nouvelle.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x192</ref>
         </refs>
         <data>Cette Nouvelle Ere est celle de la
-résurrection des Dragons Sacrés.[end]L</data>
+résurrection des Dragons Sacrés.[end]</data>
     </text>
     <text>
         <refs>
@@ -169,7 +169,7 @@ résurrection des Dragons Sacrés.[end]L</data>
         </refs>
         <data>La seule personne qui puisse nous y
 mener est la Dragoon.
-C'est ta destinée...[end][character][0x1]</data>
+C'est ta destinée...[end]</data>
     </text>
     <text>
         <refs>
@@ -177,7 +177,7 @@ C'est ta destinée...[end][character][0x1]</data>
         </refs>
         <data>[character][0x1]:
 Votre résurrection...?
-Allez-vous encore guerroyer?[end]B</data>
+Allez-vous encore guerroyer?[end]</data>
     </text>
     <text>
         <refs>
@@ -187,21 +187,21 @@ Allez-vous encore guerroyer?[end]B</data>
 Nous n'en sommes pas sûr...
 Ce n'est maintenant plus le passé...
 Dorénavant,la personne qui nous dirige,
-c'est toi [character][0x1]...[end][character][0x1]</data>
+c'est toi [character][0x1]...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1b4</ref>
         </refs>
         <data>[character][0x1]:
-Mais comment puis-je faire?[end]B</data>
+Mais comment puis-je faire?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1c3</ref>
         </refs>
         <data>BAHAMUT:
-Lie nos coeurs ensemble...[end] </data>
+Lie nos coeurs ensemble...[end]</data>
     </text>
     <text>
         <refs>
@@ -212,7 +212,7 @@ Lie ces coeurs emplis de colère et
 blessés...
 Alors,la Porte de la Nouvelle Ere
 s'ouvrira...
-Peux-tu faire cela Dragoon?[end][character][0x1]</data>
+Peux-tu faire cela Dragoon?[end]</data>
     </text>
     <text>
         <refs>
@@ -220,6 +220,6 @@ Peux-tu faire cela Dragoon?[end][character][0x1]</data>
         </refs>
         <data>[character][0x1]:
 J'essaierai...
-Viens... Bahamut...[0xd8][end][0x0]</data>
+Viens... Bahamut...[0xd8][end]</data>
     </text>
 </texts>

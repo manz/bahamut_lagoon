@@ -5,14 +5,14 @@
             <ref>0x47</ref>
         </refs>
         <data>          Chapitre [0xb8]
- -Mahal,le Continent Miracle-[end]N</data>
+ -Mahal,le Continent Miracle-[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x85</ref>
         </refs>
         <data>Nous serons bientôt à Mahal.
-J'espère que tout le monde est prêt?[end]J</data>
+J'espère que tout le monde est prêt?[end]</data>
     </text>
     <text>
         <refs>
@@ -20,28 +20,28 @@ J'espère que tout le monde est prêt?[end]J</data>
         </refs>
         <data>Je n'oublierai jamais ce jour...
 Jamais!
-Ce jour où j'ai quitté Mahal...[end]C</data>
+Ce jour où j'ai quitté Mahal...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9b</ref>
         </refs>
         <data>C'était l'époque où Mahal fut
-assiégée...[end]R</data>
+assiégée...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf5</ref>
         </refs>
         <data>RESTATTO:
-HIHIHIHIHIHIHIHIHIHIHI![end]P</data>
+HIHIHIHIHIHIHIHIHIHIHI![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfe</ref>
         </refs>
         <data>Pour moi,Mahal n'est qu'une partie de
-plaisir.[end]M</data>
+plaisir.[end]</data>
     </text>
     <text>
         <refs>
@@ -52,7 +52,7 @@ Sortez soldats de Mahal!
 Où êtes-vous?!
 Où es-tu Commandant?
 Sort!
-HIHIHIHIHIHIHI![end]S</data>
+HIHIHIHIHIHIHI![end]</data>
     </text>
     <text>
         <refs>
@@ -60,7 +60,7 @@ HIHIHIHIHIHIHI![end]S</data>
         </refs>
         <data>SERGENT:
 Capitaine,Mahal va tomber entre les
-mains de l'ennemi![end]S</data>
+mains de l'ennemi![end]</data>
     </text>
     <text>
         <refs>
@@ -71,14 +71,14 @@ C'est inévitable!
  
 Ne nous faisons pas d'illusions!
 La question est maintenant:
-quand Mahal va-t-elle tomber?[end]C</data>
+quand Mahal va-t-elle tomber?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x195</ref>
         </refs>
         <data>Capitaine!
-Donnez-nous les ordres![end]C</data>
+Donnez-nous les ordres![end]</data>
     </text>
     <text>
         <refs>
@@ -89,7 +89,7 @@ Hum...
  
 En tant que chevalier,je vais moi-même
 aller défier ce Restatto!
-Laissez-moi vous protéger tous![end]S</data>
+Laissez-moi vous protéger tous![end]</data>
     </text>
     <text>
         <refs>
@@ -99,7 +99,7 @@ Laissez-moi vous protéger tous![end]S</data>
 C'est beaucoup trop dangereux!
  
 Vous risqueriez de vous faire tuer
-rapidement face à tant d'ennemis![end]S</data>
+rapidement face à tant d'ennemis![end]</data>
     </text>
     <text>
         <refs>
@@ -110,7 +110,7 @@ Nous allons le faire pour vous,
 Capitaine Commandant.
 Nous combattrons Restatto et dès
 qu'une opportunité se présentera
-vous le tuerez.[end]C</data>
+vous le tuerez.[end]</data>
     </text>
     <text>
         <refs>
@@ -118,21 +118,21 @@ vous le tuerez.[end]C</data>
         </refs>
         <data>COMMANDANT:
 Silence!
-Qui commande ici?![end]C</data>
+Qui commande ici?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1ec</ref>
         </refs>
         <data>C'est moi,Commandant!
-Capitaine de l'armée de Mahal![end]S</data>
+Capitaine de l'armée de Mahal![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1fa</ref>
         </refs>
         <data>SOLDAT:
-Mais...[end]C</data>
+Mais...[end]</data>
     </text>
     <text>
         <refs>
@@ -145,14 +145,14 @@ Je suis le guerrier le plus puissant de
 Mahal et je dois défendre son peuple!
  
 Quand le danger se présente,je suis
-prêt à perdre la vie pour lui![end]S</data>
+prêt à perdre la vie pour lui![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x218</ref>
         </refs>
         <data>SOLDAT:
-Mais...[end]C</data>
+Mais...[end]</data>
     </text>
     <text>
         <refs>
@@ -160,21 +160,21 @@ Mais...[end]C</data>
         </refs>
         <data>COMMANDANT:
 Cessez! Ce sont mes ordres!
-Vous êtes trop bruyants![end]C</data>
+Vous êtes trop bruyants![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x22e</ref>
         </refs>
         <data>CELINE:
-Tu ne changeras jamais![end]S</data>
+Tu ne changeras jamais![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x242</ref>
         </refs>
         <data>SERGENT:
-Céline...[end]C</data>
+Céline...[end]</data>
     </text>
     <text>
         <refs>
@@ -182,7 +182,7 @@ Céline...[end]C</data>
         </refs>
         <data>CELINE:
 Je suis également d'accord avec ce
-qu'a dit ce soldat.[end]C</data>
+qu'a dit ce soldat.[end]</data>
     </text>
     <text>
         <refs>
@@ -192,14 +192,14 @@ qu'a dit ce soldat.[end]C</data>
 Que dis-tu?!
 Tu ne comprends rien?!
 Si je ne vais pas défendre ma patrie...
-Qui le fera?![end]C</data>
+Qui le fera?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x26d</ref>
         </refs>
         <data>CELINE:
-Tu ne peux vaincre Restatto...[end]S</data>
+Tu ne peux vaincre Restatto...[end]</data>
     </text>
     <text>
         <refs>
@@ -207,21 +207,21 @@ Tu ne peux vaincre Restatto...[end]S</data>
         </refs>
         <data>SERGENT:
 Céline!
-Je suis d'accord avec vous![end]C</data>
+Je suis d'accord avec vous![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x28e</ref>
         </refs>
         <data>COMMANDANT:
-Cessez! Taisez-vous![end]Y</data>
+Cessez! Taisez-vous![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x297</ref>
         </refs>
         <data>Y a-t-il à Mahal un guerrier aussi
-puissant que moi?![end]N</data>
+puissant que moi?![end]</data>
     </text>
     <text>
         <refs>
@@ -232,14 +232,14 @@ Car je suis le guerrier No [0xb0] à Mahal!
  
 Pour protéger cet honneur,je suis
 prêt à combattre voire à perdre la
-vie![end]C</data>
+vie![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2cc</ref>
         </refs>
         <data>CELINE:
-Magie Sommeil![end]C</data>
+Magie Sommeil![end]</data>
     </text>
     <text>
         <refs>
@@ -247,7 +247,7 @@ Magie Sommeil![end]C</data>
         </refs>
         <data>CELINE:
 Je suis désolée mon tendre époux...
-Je me devais de faire cela.[end]C</data>
+Je me devais de faire cela.[end]</data>
     </text>
     <text>
         <refs>
@@ -261,7 +261,7 @@ Mahal va tomber aux mains de l'Empire.
  
 Mais ne vous inquiétez pas!
 Il arrivera un jour où notre
-mère-patrie sera libérée![end]S</data>
+mère-patrie sera libérée![end]</data>
     </text>
     <text>
         <refs>
@@ -270,27 +270,27 @@ mère-patrie sera libérée![end]S</data>
         <data>S'il te plaît Commandant,reste en vie
 et attends ce jour pour nous...
  
-Notre chère... Mahal...[end]N</data>
+Notre chère... Mahal...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x343</ref>
         </refs>
         <data>Notre patrie ne sera pas défendue en
-vain![end]C</data>
+vain![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x349</ref>
         </refs>
         <data>CELINE:
-Venez mes braves soldats![end]N</data>
+Venez mes braves soldats![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x363</ref>
         </refs>
-        <data>Nous partons![end]C</data>
+        <data>Nous partons![end]</data>
     </text>
     <text>
         <refs>
@@ -300,26 +300,26 @@ Venez mes braves soldats![end]N</data>
 Sergent,ceci est ma dernière volonté:
 Fuis Mahal et dis à Commandant
 d'attendre le jour...
-Le jour de la libération![end]N</data>
+Le jour de la libération![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x378</ref>
         </refs>
-        <data>Nous partons![end]C</data>
+        <data>Nous partons![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3f0</ref>
         </refs>
         <data>CELINE:
-Approche,Restatto![end]M</data>
+Approche,Restatto![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3fb</ref>
         </refs>
-        <data>Magie Maladie![end]R</data>
+        <data>Magie Maladie![end]</data>
     </text>
     <text>
         <refs>
@@ -328,7 +328,7 @@ Approche,Restatto![end]M</data>
         <data>RESTATTO:
 HIHIHIHIHIHIHIHIHI!
 Tu ne peux me vaincre avec une telle
-magie![end]O</data>
+magie![end]</data>
     </text>
     <text>
         <refs>
@@ -336,13 +336,13 @@ magie![end]O</data>
         </refs>
         <data>Où est Commandant?!
 Où est le guerrier No [0xb0] de Mahal?
-Me craindrait-il?![end]M</data>
+Me craindrait-il?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x499</ref>
         </refs>
-        <data>Magie Uppercut![end]R</data>
+        <data>Magie Uppercut![end]</data>
     </text>
     <text>
         <refs>
@@ -354,7 +354,7 @@ Commandant!
 Où est-il?!
 Le guerrier No [0xb0] a eu peur de moi et
 s'est enfui?!
-HIHIHIHIHIHIHIHIHIHIHI![end]C</data>
+HIHIHIHIHIHIHIHIHIHIHI![end]</data>
     </text>
     <text>
         <refs>
@@ -363,7 +363,7 @@ HIHIHIHIHIHIHIHIHIHIHI![end]C</data>
         <data>CELINE:
 Tu te trompes!
 Mon mari...
-Mon mari n'est pas ce genre d'homme![end]R</data>
+Mon mari n'est pas ce genre d'homme![end]</data>
     </text>
     <text>
         <refs>
@@ -373,27 +373,27 @@ Mon mari n'est pas ce genre d'homme![end]R</data>
 HIHIHIHIHIHI!
 Ce genre d'homme?
 Si,il l'est!
-HIHIHIHIHIHI![end]M</data>
+HIHIHIHIHIHI![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4e7</ref>
         </refs>
-        <data>Meurs,insolente![end]C</data>
+        <data>Meurs,insolente![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x570</ref>
         </refs>
         <data>CELINE:
-Kyaaaaa![end]J</data>
+Kyaaaaa![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5ce</ref>
         </refs>
         <data>Je n'ai pas pu...
-Je n'ai pas pu la protéger...[end]M</data>
+Je n'ai pas pu la protéger...[end]</data>
     </text>
     <text>
         <refs>
@@ -401,45 +401,45 @@ Je n'ai pas pu la protéger...[end]M</data>
         </refs>
         <data>Ma patrie,Mahal...
 Mon palais de Mahal...
-Mes courageux soldats...[end]E</data>
+Mes courageux soldats...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5dc</ref>
         </refs>
-        <data>Et aussi ma bien-aimée épouse...[end]J</data>
+        <data>Et aussi ma bien-aimée épouse...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5e0</ref>
         </refs>
-        <data>Je n'ai pas pu les protéger...[end]J</data>
+        <data>Je n'ai pas pu les protéger...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5eb</ref>
         </refs>
-        <data>Je suis si... inutile...[end]Q</data>
+        <data>Je suis si... inutile...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x601</ref>
         </refs>
-        <data>Quelle tristesse![end]Q</data>
+        <data>Quelle tristesse![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9d6</ref>
         </refs>
         <data>Qu'ai-je fait?
-Ils étaient innocents...[end][character][0x1]</data>
+Ils étaient innocents...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9e8</ref>
         </refs>
         <data>[character][0x1]...
-Ils étaient INNOCENTS...[end][character][0x1]</data>
+Ils étaient INNOCENTS...[end]</data>
     </text>
     <text>
         <refs>
@@ -449,14 +449,14 @@ Ils étaient INNOCENTS...[end][character][0x1]</data>
 Y a-t-il une personne que tu admires
 et que tu aimes?
 Y a-t-il une personne que tu
-protégerais corps et âme?[end] </data>
+protégerais corps et âme?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa1d</ref>
         </refs>
         <data> Oui
- Non[end1]T</data>
+ Non[end1]</data>
     </text>
     <text>
         <refs>
@@ -464,14 +464,14 @@ protégerais corps et âme?[end] </data>
         </refs>
         <data>Tu es encore jeune...
 Tu ne penses pas à tout.
-Et la Princesse [character][0x1]?[end][character][0x1]</data>
+Et la Princesse [character][0x1]?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa31</ref>
         </refs>
         <data>[character][0x1],
-tu es un garçon chanceux...[end]E</data>
+tu es un garçon chanceux...[end]</data>
     </text>
     <text>
         <refs>
@@ -480,7 +480,7 @@ tu es un garçon chanceux...[end]E</data>
         <data>Etre avec la femme qu'on aime est
 la meilleure chose dans la vie d'un
 homme.
-Tu devrais prendre soin d'elle.[end]C</data>
+Tu devrais prendre soin d'elle.[end]</data>
     </text>
     <text>
         <refs>
@@ -488,7 +488,7 @@ Tu devrais prendre soin d'elle.[end]C</data>
         </refs>
         <data>Car lorsque tu perds cette personne,
 la tristesse s'empare alors de tout ton
-être et pour toute ta vie...[end]S</data>
+être et pour toute ta vie...[end]</data>
     </text>
     <text>
         <refs>
@@ -498,28 +498,28 @@ la tristesse s'empare alors de tout ton
 [character][0x1]...
  
 tu seras alors simplement devenu un
-homme inutile,tout comme moi...[end]T</data>
+homme inutile,tout comme moi...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6f8</ref>
         </refs>
         <data>TAURUS:
-Voici,la carte de Mahal...[end]C</data>
+Voici,la carte de Mahal...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x742</ref>
         </refs>
         <data>Ceci est un barrage utilisé pour
-éviter les inondations.[end]P</data>
+éviter les inondations.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x767</ref>
         </refs>
         <data>Par conséquent,nous pourrions réussir
-à combattre des ennemis affaiblis...[end]I</data>
+à combattre des ennemis affaiblis...[end]</data>
     </text>
     <text>
         <refs>
@@ -527,14 +527,14 @@ Voici,la carte de Mahal...[end]C</data>
         </refs>
         <data>Il suffit pour cela d'ouvrir le barrage
 et ainsi l'eau se répandra et noiera
-les ennemis![end] </data>
+les ennemis![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xacd</ref>
         </refs>
         <data>         Chapitre [0xb0][0xb2]
--Godrand,la Cité de la Magie-[end]G</data>
+-Godrand,la Cité de la Magie-[end]</data>
     </text>
     <text>
         <refs>
@@ -542,7 +542,7 @@ les ennemis![end] </data>
         </refs>
         <data>Godrand,la cité de la magie,est une
 civilisation avancée dans l'art de la
-magie.[end]G</data>
+magie.[end]</data>
     </text>
     <text>
         <refs>
@@ -550,14 +550,14 @@ magie.[end]G</data>
         </refs>
         <data>Grâce à cela,ce lagon a réussi à
 conserver son autonomie au sein de
-l'Empire.[end]H</data>
+l'Empire.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb1a</ref>
         </refs>
         <data>HORNET:
-Nous sommes bientôt à Godrand.[end]M</data>
+Nous sommes bientôt à Godrand.[end]</data>
     </text>
     <text>
         <refs>
@@ -565,7 +565,7 @@ Nous sommes bientôt à Godrand.[end]M</data>
         </refs>
         <data>MELODIA:
 Ouais! Ouais!
-Ma chère ville de Godrand![end]L</data>
+Ma chère ville de Godrand![end]</data>
     </text>
     <text>
         <refs>
@@ -576,7 +576,7 @@ Ma chère ville de Godrand![end]L</data>
   
 Les Petits Démons vont revoir
 leurs amis!
-Hein?![end]m</data>
+Hein?![end]</data>
     </text>
     <text>
         <refs>
@@ -584,7 +584,7 @@ Hein?![end]m</data>
         </refs>
         <data>manyo!
 [0xa8]allez! allez!
- à godrand! allez![0xa9][end]m</data>
+ à godrand! allez![0xa9][end]</data>
     </text>
     <text>
         <refs>
@@ -592,7 +592,7 @@ Hein?![end]m</data>
         </refs>
         <data>munyo!
 [0xa8]allez! allez!
- a godrand![0xa9][end]H</data>
+ a godrand![0xa9][end]</data>
     </text>
     <text>
         <refs>
@@ -602,7 +602,7 @@ Hein?![end]m</data>
 Mélodia!
 Tu le sais,pourtant!
 Les Petits Démons n'ont pas le droit
-d'être sur le pont.[end]M</data>
+d'être sur le pont.[end]</data>
     </text>
     <text>
         <refs>
@@ -611,28 +611,28 @@ d'être sur le pont.[end]M</data>
         <data>MELODIA:
 Génial!
 Hornet a mauvais tempérament!
-Partons,Petits Démons![end]H</data>
+Partons,Petits Démons![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xba7</ref>
         </refs>
         <data>HORNET:
-Hé! Arrêtez![end]R</data>
+Hé! Arrêtez![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc0c</ref>
         </refs>
         <data>RUSH:
-Hé...[end]H</data>
+Hé...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc15</ref>
         </refs>
         <data>Hé,Taurus...
-Est-ce que tu dors?[end]T</data>
+Est-ce que tu dors?[end]</data>
     </text>
     <text>
         <refs>
@@ -641,7 +641,7 @@ Est-ce que tu dors?[end]T</data>
         <data>TAURUS:
 Je... je n'arrive pas...
 Je n'ai dormi qu'un moment...
-Je me demande pourquoi?[end]R</data>
+Je me demande pourquoi?[end]</data>
     </text>
     <text>
         <refs>
@@ -649,14 +649,14 @@ Je me demande pourquoi?[end]R</data>
         </refs>
         <data>RUSH:
 C'est étrange que nous ne puissions
-pas dormir...[end]B</data>
+pas dormir...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc30</ref>
         </refs>
         <data>Bikkebakke!
-Et toi?[end]B</data>
+Et toi?[end]</data>
     </text>
     <text>
         <refs>
@@ -664,7 +664,7 @@ Et toi?[end]B</data>
             <ref>0xc3e</ref>
         </refs>
         <data>BIKKEBAKKE:
-Zzzz... Zzzz...[end]T</data>
+Zzzz... Zzzz...[end]</data>
     </text>
     <text>
         <refs>
@@ -672,27 +672,27 @@ Zzzz... Zzzz...[end]T</data>
         </refs>
         <data>TAURUS:
 Il a un sommeil de plomb!
-Impossible de le réveiller![end]R</data>
+Impossible de le réveiller![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc50</ref>
         </refs>
         <data>RUSH:
-Haha...[end]D</data>
+Haha...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc5c</ref>
         </refs>
-        <data>D'accord,Taurus![end]T</data>
+        <data>D'accord,Taurus![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc65</ref>
         </refs>
         <data>TAURUS:
-Quoi?[end]R</data>
+Quoi?[end]</data>
     </text>
     <text>
         <refs>
@@ -702,14 +702,14 @@ Quoi?[end]R</data>
 Comment pourrais-je te le dire
 simplement?!
 J'ai eu un étrange sentiment lorsque
-j'ai vu le peuple de Mahal...[end]T</data>
+j'ai vu le peuple de Mahal...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc77</ref>
         </refs>
         <data>TAURUS:
-?![end]R</data>
+?![end]</data>
     </text>
     <text>
         <refs>
@@ -717,7 +717,7 @@ j'ai vu le peuple de Mahal...[end]T</data>
         </refs>
         <data>RUSH:
 Huuum...
-Tu sais ce que je veux dire...[end]T</data>
+Tu sais ce que je veux dire...[end]</data>
     </text>
     <text>
         <refs>
@@ -725,7 +725,7 @@ Tu sais ce que je veux dire...[end]T</data>
         </refs>
         <data>TAURUS:
 Je te comprends,Rush,d'une manière
-ou d'une autre...[end]R</data>
+ou d'une autre...[end]</data>
     </text>
     <text>
         <refs>
@@ -733,7 +733,7 @@ ou d'une autre...[end]R</data>
         </refs>
         <data>RUSH:
 Et toi,Taurus!
-Tu n'as rien ressenti?![end]T</data>
+Tu n'as rien ressenti?![end]</data>
     </text>
     <text>
         <refs>
@@ -741,21 +741,21 @@ Tu n'as rien ressenti?![end]T</data>
         </refs>
         <data>TAURUS:
 Heuuu...
-Et bien...[end]I</data>
+Et bien...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xcb1</ref>
         </refs>
         <data>Il est vrai qu'ils sont un peu
-différents du peuple de Kana...[end]C</data>
+différents du peuple de Kana...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xcb7</ref>
         </refs>
         <data>Commandant combat pour sa femme
-décédée...[end]H</data>
+décédée...[end]</data>
     </text>
     <text>
         <refs>
@@ -763,7 +763,7 @@ décédée...[end]H</data>
         </refs>
         <data>Hahahaha!
 Lukia est attirante mais elle est une
-vraie guerrière.[end]E</data>
+vraie guerrière.[end]</data>
     </text>
     <text>
         <refs>
@@ -771,7 +771,7 @@ vraie guerrière.[end]E</data>
         </refs>
         <data>Et Don Juan ne cesse jamais
 d'approcher les femmes même
-durant les combats.[end]H</data>
+durant les combats.[end]</data>
     </text>
     <text>
         <refs>
@@ -779,14 +779,14 @@ durant les combats.[end]H</data>
         </refs>
         <data>Hahahaha!
 Quant à Jeanne,elle est ravissante,
-et elle égale un homme au combat.[end]R</data>
+et elle égale un homme au combat.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xcd5</ref>
         </refs>
         <data>RUSH:
-Ils sont différents de nous...[end]T</data>
+Ils sont différents de nous...[end]</data>
     </text>
     <text>
         <refs>
@@ -794,28 +794,28 @@ Ils sont différents de nous...[end]T</data>
         </refs>
         <data>TAURUS:
 Lorsque j'étais très jeune,j'ai été
-formé pour entrer dans l'armée.[end]R</data>
+formé pour entrer dans l'armée.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xce7</ref>
         </refs>
         <data>RUSH:
-La liberté...[end]N</data>
+La liberté...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xced</ref>
         </refs>
         <data>Nous recherchons tous la liberté...
-Quitte... à être des brutes![end]T</data>
+Quitte... à être des brutes![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xcf9</ref>
         </refs>
         <data>TAURUS:
-Je ne comprends pas très bien.[end]R</data>
+Je ne comprends pas très bien.[end]</data>
     </text>
     <text>
         <refs>
@@ -823,6 +823,6 @@ Je ne comprends pas très bien.[end]R</data>
         </refs>
         <data>RUSH:
 Bikkebakke!
-Hého...[end][0x0]</data>
+Hého...[end]</data>
     </text>
 </texts>

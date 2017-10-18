@@ -11,96 +11,96 @@ I, Royal Guard Matelite, hereby
 declare Campbell free!
 
 Citizens of Campbell! From now on
-Campbell belongs to you![end]M</data>
+Campbell belongs to you![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xca</ref>
         </refs>
-        <data>Matelite: Huh...?[end]M</data>
+        <data>Matelite: Huh...?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd3</ref>
         </refs>
         <data>Matelite: What's wrong, citizens of
-Campbell?![end]T</data>
+Campbell?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe6</ref>
         </refs>
         <data>Taicho: Matelite... that proclamation is
-for the queen to give.[end]M</data>
+for the queen to give.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf2</ref>
         </refs>
         <data>Matelite: That's right! Let's go to the
-castle![end][character][0x1]</data>
+castle![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3c0</ref>
             <ref>0x3b9</ref>
         </refs>
-        <data>[character][0x1]: I am... fine.[end][character][0x1]</data>
+        <data>[character][0x1]: I am... fine.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3ce</ref>
         </refs>
         <data>[character][0x1]: The Holy Dragon Valitora
-is angry...[end]S</data>
+is angry...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3dc</ref>
         </refs>
         <data>Sendak: Princess... I understand... I can
-sense it a little as well.[end]S</data>
+sense it a little as well.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3e5</ref>
         </refs>
         <data>Sendak: Princess... I understand... I can
-sense it a little as well.[end][character][0x1]</data>
+sense it a little as well.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3fe</ref>
         </refs>
         <data>[character][0x1]: Okay, let's return to
-[character][0x1].[end]Q</data>
+[character][0x1].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x40b</ref>
         </refs>
         <data>Queen Campbell: [character][0x1]! Everyone!
-Please wait![end]Q</data>
+Please wait![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x422</ref>
         </refs>
-        <data>Queen Campbell: I'll tell you after all...[end]M</data>
+        <data>Queen Campbell: I'll tell you after all...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x438</ref>
         </refs>
         <data>Matelite: What is it? We're kind of
-busy now.[end]Q</data>
+busy now.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x451</ref>
         </refs>
         <data>Queen Campbell: If I don't tell you, I
-will...[end]Q</data>
+will...[end]</data>
     </text>
     <text>
         <refs>
@@ -108,7 +108,7 @@ will...[end]Q</data>
         </refs>
         <data>Queen Campbell: I... knew about the
 legend of the Holy Dragons from the
-start...[end][0x24]</data>
+start...[end]</data>
     </text>
     <text>
         <refs>
@@ -121,13 +121,13 @@ And then of course there is something
 added to it...
 
 [0x24]A weak-minded person shall summon
-forth a disaster from the heavens.[0x22][end]R</data>
+forth a disaster from the heavens.[0x22][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6f8</ref>
         </refs>
-        <data>Rush: [character][0x1]...[end][0x0]</data>
+        <data>Rush: [character][0x1]...[end]</data>
     </text>
     <text>
         <refs>
@@ -135,14 +135,14 @@ forth a disaster from the heavens.[0x22][end]R</data>
         </refs>
         <data>The one who speaks with the Holy
 Dragons shall open the door to a new
-era.[end]U</data>
+era.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x72e</ref>
             <ref>0x747</ref>
         </refs>
-        <data>Understood, Captain [character][0x1].[end][0x0]</data>
+        <data>Understood, Captain [character][0x1].[end]</data>
     </text>
     <text>
         <refs>
@@ -150,7 +150,7 @@ era.[end]U</data>
         </refs>
         <data>Weak-minded daughter of the king...
 Girl who knows of the legend...
-It all lies in your hands...[end]V</data>
+It all lies in your hands...[end]</data>
     </text>
     <text>
         <refs>
@@ -158,7 +158,7 @@ It all lies in your hands...[end]V</data>
         </refs>
         <data>Valitora...
 Please... leave...
-Please... let me go...[end]I</data>
+Please... let me go...[end]</data>
     </text>
     <text>
         <refs>
@@ -166,7 +166,7 @@ Please... let me go...[end]I</data>
         </refs>
         <data>I will not leave...
 Time will not come back...
-Be frightened... and suffer...[end]M</data>
+Be frightened... and suffer...[end]</data>
     </text>
     <text>
         <refs>
@@ -176,28 +176,28 @@ Be frightened... and suffer...[end]M</data>
 of the Holy Dragons... A door to a new
 era...
 What?! So then that means [character][0x1]
-is...![end]S</data>
+is...![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x586</ref>
         </refs>
         <data>Sendak: A weak-minded person?
-A disaster from the heavens?[end][character][0x1]</data>
+A disaster from the heavens?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5d5</ref>
         </refs>
         <data>[character][0x1]: Stop! I don't want to
-know anything![end][0x0]</data>
+know anything![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x593</ref>
         </refs>
         <data>Matelite: Sendak! Why're you always
-thinking so pessimistically![end]S</data>
+thinking so pessimistically![end]</data>
     </text>
     <text>
         <refs>
@@ -211,14 +211,14 @@ world, that isn't all there is. So that is
 why he wants the princess's power...
 No, he wants the power of the Kahna
 family line so he can use it to talk
-with the Holy Dragons...[end]S</data>
+with the Holy Dragons...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5aa</ref>
         </refs>
         <data>Sendak: But... it does not make sense.
-Why did Sauzer let her go?[end]M</data>
+Why did Sauzer let her go?[end]</data>
     </text>
     <text>
         <refs>
@@ -226,14 +226,14 @@ Why did Sauzer let her go?[end]M</data>
         </refs>
         <data>Matelite: He was scared of the power
 of [character][0x1] and the Holy Dragons!
-He gave up![end]Q</data>
+He gave up![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5c3</ref>
         </refs>
         <data>Queen Campbell: Sauzer is not the kind
-of person to give up on anything...[end][character][0x1]</data>
+of person to give up on anything...[end]</data>
     </text>
     <text>
         <refs>
@@ -241,7 +241,7 @@ of person to give up on anything...[end][character][0x1]</data>
         </refs>
         <data>[character][0x1]: ...[character][0x1]. Take me
 with you. I want to go back. It was
-nice together... I want to go back...[end]Q</data>
+nice together... I want to go back...[end]</data>
     </text>
     <text>
         <refs>
@@ -254,7 +254,7 @@ Back to when I knew nothing...
 Back to when I was a strong girl...
 
 But that is a dream that will never
-come true...[end]J</data>
+come true...[end]</data>
     </text>
     <text>
         <refs>
@@ -262,21 +262,21 @@ come true...[end]J</data>
         </refs>
         <data>Joy, Nelbo... Go with those people.
 Help them as much as you possibly can.
-Will you do that for me?[end]J</data>
+Will you do that for me?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x659</ref>
         </refs>
         <data>Joy: Of course, if that is Her Majesty's
-wish.[end]N</data>
+wish.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x66e</ref>
         </refs>
         <data>Nelbo: Your Highness...
-Please take care.[end]Q</data>
+Please take care.[end]</data>
     </text>
     <text>
         <refs>
@@ -287,7 +287,7 @@ Thank you...
 
 And... oh yes, please tell Sendak that if
 he is looking for the Holy Dragons, he
-should go to the water city of Mahal.[end]I</data>
+should go to the water city of Mahal.[end]</data>
     </text>
     <text>
         <refs>
@@ -302,7 +302,7 @@ forgiven...
 The destruction of Kahna... The death
 of King Kahna... And [character][0x1]'s
 pain...
-Oh, what will happen to us now...[end]S</data>
+Oh, what will happen to us now...[end]</data>
     </text>
     <text>
         <refs>
@@ -310,7 +310,7 @@ Oh, what will happen to us now...[end]S</data>
         </refs>
         <data>Sendak: [character][0x1]... The princess
 does not look well. Hurry and see the
-queen.[end]A</data>
+queen.[end]</data>
     </text>
     <text>
         <refs>
@@ -318,14 +318,14 @@ queen.[end]A</data>
         </refs>
         <data>Ah... so you're the dragon squad who
 defeated General Zomberd...
-Well done for someone so young.[end]T</data>
+Well done for someone so young.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6c7</ref>
         </refs>
         <data>Thank you. Campbell has now returned
-to its former self.[end]T</data>
+to its former self.[end]</data>
     </text>
     <text>
         <refs>
@@ -333,7 +333,7 @@ to its former self.[end]T</data>
         </refs>
         <data>The generals and soldiers of the
 Granbelos Empire stayed here.
-Even Emperor Sauzer came.[end]G</data>
+Even Emperor Sauzer came.[end]</data>
     </text>
     <text>
         <refs>
@@ -341,14 +341,14 @@ Even Emperor Sauzer came.[end]G</data>
         </refs>
         <data>General Palpaleos was nice.
 He told me to become a strong man!
-Heheh![end]I</data>
+Heheh![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6dc</ref>
         </refs>
         <data>I saw Emperor Sauzer before!
-He was cool![end]W</data>
+He was cool![end]</data>
     </text>
     <text>
         <refs>
@@ -356,14 +356,14 @@ He was cool![end]W</data>
         </refs>
         <data>We got used to having Imperial soldiers
 walking around, so now it seems a little
-strange.[end]R</data>
+strange.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6f1</ref>
         </refs>
         <data>Rush: None of those Empire jerks are
-here![end]T</data>
+here![end]</data>
     </text>
     <text>
         <refs>
@@ -372,13 +372,13 @@ here![end]T</data>
         <data>Truce: We're keeping watch to make
 sure the Imperial Army doesn't come
 back. This was Rush's idea.
-He too has become an excellent soldier.[end]R</data>
+He too has become an excellent soldier.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x711</ref>
         </refs>
-        <data>Rush: Stop! You're embarrassing me![end]T</data>
+        <data>Rush: Stop! You're embarrassing me![end]</data>
     </text>
     <text>
         <refs>
@@ -386,7 +386,7 @@ He too has become an excellent soldier.[end]R</data>
         </refs>
         <data>Truce: Captain [character][0x1]. Please tell
 me when you want to return to
-[character][0x1].[end] </data>
+[character][0x1].[end]</data>
     </text>
     <text>
         <refs>
@@ -394,7 +394,7 @@ me when you want to return to
             <ref>0x73a</ref>
         </refs>
         <data>  Stay a little longer
-  Go to [character][0x1][end1]I</data>
+  Go to [character][0x1][end1]</data>
     </text>
     <text>
         <refs>
@@ -402,56 +402,56 @@ me when you want to return to
         </refs>
         <data>I don't think we've ever been to
 Campbell before. Is there anything that
-interests you?[end]L</data>
+interests you?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x75a</ref>
         </refs>
-        <data>Let's see, the ones still here are...[end]M</data>
+        <data>Let's see, the ones still here are...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x781</ref>
         </refs>
-        <data>Matelite: Huh? Are we going back?[end][character][0x1]</data>
+        <data>Matelite: Huh? Are we going back?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x794</ref>
         </refs>
         <data>[character][0x1]: I'm sorry... We came all
-the way to Campbell for nothing...[end]T</data>
+the way to Campbell for nothing...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7c2</ref>
         </refs>
-        <data>Truce: Captain...[end]Y</data>
+        <data>Truce: Captain...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8c3</ref>
         </refs>
-        <data>You got a Life Grass.[end]Y</data>
+        <data>You got a Life Grass.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8d4</ref>
         </refs>
-        <data>You got a Sweet Honey.[end]Y</data>
+        <data>You got a Sweet Honey.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8e5</ref>
         </refs>
-        <data>You got a Poison Mushroom.[end]Y</data>
+        <data>You got a Poison Mushroom.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8f6</ref>
         </refs>
-        <data>You got some Uniuji.[end]Y</data>
+        <data>You got some Uniuji.[end]</data>
     </text>
     <text>
         <refs>

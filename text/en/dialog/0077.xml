@@ -5,14 +5,14 @@
             <ref>0x42</ref>
         </refs>
         <data>              Chapter 23
-              Destruction[end]H</data>
+              Destruction[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x64</ref>
         </refs>
         <data>Hello there! It's been a while!
-Okay, [character][0x1], this way![end]A</data>
+Okay, [character][0x1], this way![end]</data>
     </text>
     <text>
         <refs>
@@ -28,13 +28,13 @@ That's why I'm retiring as a battlefield
 salesman.
 
 Now I'm a salesman who's going to
-protect his wife and child. Hey you![end]H</data>
+protect his wife and child. Hey you![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xaf</ref>
         </refs>
-        <data>Here you go, Rush. Wow, this is heavy![end]W</data>
+        <data>Here you go, Rush. Wow, this is heavy![end]</data>
     </text>
     <text>
         <refs>
@@ -42,7 +42,7 @@ protect his wife and child. Hey you![end]H</data>
             <ref>0xded</ref>
             <ref>0xd47</ref>
         </refs>
-        <data>Who are you...[end][0x0]</data>
+        <data>Who are you...[end]</data>
     </text>
     <text>
         <refs>
@@ -53,7 +53,7 @@ good salesman.
 
 But I think you should think a little
 more before you act... If you do that,
-you're sure to be a huge success![end]T</data>
+you're sure to be a huge success![end]</data>
     </text>
     <text>
         <refs>
@@ -61,7 +61,7 @@ you're sure to be a huge success![end]T</data>
         </refs>
         <data>Truce! You think too much.
 Think in moderation.
-And help Rush.[end]R</data>
+And help Rush.[end]</data>
     </text>
     <text>
         <refs>
@@ -69,39 +69,39 @@ And help Rush.[end]R</data>
         </refs>
         <data>Rush, Truce!
 If you two work together you can
-accomplish anything![end]B</data>
+accomplish anything![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf1</ref>
         </refs>
-        <data>Bikkebakke: What about me...?[end]B</data>
+        <data>Bikkebakke: What about me...?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x15d</ref>
         </refs>
-        <data>Bikkebakke: I'm so happy!![end].</data>
+        <data>Bikkebakke: I'm so happy!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x934</ref>
         </refs>
-        <data>......!? Unless![end][0x0]</data>
+        <data>......!? Unless![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x105</ref>
         </refs>
         <data>Bikkebakke! I like you a lot!
-You're good just the way you are now![end]B</data>
+You're good just the way you are now![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x16d</ref>
         </refs>
         <data>Bikkebakke: Yay! It's all thanks to you,
-[character][0x1]! Thanks a lot![end][0x0]</data>
+[character][0x1]! Thanks a lot![end]</data>
     </text>
     <text>
         <refs>
@@ -111,7 +111,7 @@ You're good just the way you are now![end]B</data>
 [character][0x1]! Thanks for everything!
 I will pray for your safety!
 Goodbye, everyone!
-Thanks![end]O</data>
+Thanks![end]</data>
     </text>
     <text>
         <refs>
@@ -121,7 +121,7 @@ Thanks![end]O</data>
 
 
 Bikkebakke, you gave some money to
-an old man in Campbell, didn't you?[end]H</data>
+an old man in Campbell, didn't you?[end]</data>
     </text>
     <text>
         <refs>
@@ -130,20 +130,20 @@ an old man in Campbell, didn't you?[end]H</data>
         <data>He said he'd give you 1000 times as
 much!! That's great! He gave it to me
 to give to you!
-Here you go! 1000 Piro![end] </data>
+Here you go! 1000 Piro![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x293</ref>
         </refs>
         <data>              Chapter 25
-           Eternal Travelers[end]M</data>
+           Eternal Travelers[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x621</ref>
         </refs>
-        <data>Matelite: [character][0x1]... Stay on guard...[end][0x0]</data>
+        <data>Matelite: [character][0x1]... Stay on guard...[end]</data>
     </text>
     <text>
         <refs>
@@ -151,7 +151,7 @@ Here you go! 1000 Piro![end] </data>
         </refs>
         <data>[character][0x1]: [character][0x1]! I'm worried
 about General Palpaleos! Let's go right
-away![end] </data>
+away![end]</data>
     </text>
     <text>
         <refs>
@@ -159,13 +159,13 @@ away![end] </data>
         </refs>
         <data>  I'm not ready...
   Oh well, lets go!
-  Okay, let's go![end1]P</data>
+  Okay, let's go![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x57d</ref>
         </refs>
-        <data>Palpaleos: Sorry... We're too late...[end][character][0x1]</data>
+        <data>Palpaleos: Sorry... We're too late...[end]</data>
     </text>
     <text>
         <refs>
@@ -174,7 +174,7 @@ away![end] </data>
         </refs>
         <data>[character][0x1]: I'm scared...
 The Holy Dragons are angry...
-Even more intensely than before...[end][character][0x1]</data>
+Even more intensely than before...[end]</data>
     </text>
     <text>
         <refs>
@@ -182,14 +182,14 @@ Even more intensely than before...[end][character][0x1]</data>
         </refs>
         <data>[character][0x1]: Where are the
 Dragonites... The Holy Dragons are
-searching for them...[end][character][0x1]</data>
+searching for them...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5ae</ref>
         </refs>
         <data>[character][0x1]: What happened on Altair...
-The Holy Dragons want to know...[end]P</data>
+The Holy Dragons want to know...[end]</data>
     </text>
     <text>
         <refs>
@@ -199,14 +199,14 @@ The Holy Dragons want to know...[end]P</data>
 finished our preparations?
 
   Hold on a minute.
-  Let's go!![end1]P</data>
+  Let's go!![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x5c4</ref>
         </refs>
         <data>Palpaleos: I know very little of this
-place...[end]S</data>
+place...[end]</data>
     </text>
     <text>
         <refs>
@@ -216,7 +216,7 @@ place...[end]S</data>
 taking care of dragons...
 
   Don't worry about it.
-  Taking care of them is for real men![end1]M</data>
+  Taking care of them is for real men![end1]</data>
     </text>
     <text>
         <refs>
@@ -224,20 +224,20 @@ taking care of dragons...
         </refs>
         <data>My battle strategies will not be useful
 against these monsters. I shouldn't be
-a burden to you...[end][character][0x1]</data>
+a burden to you...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x601</ref>
         </refs>
         <data>[character][0x1]! Don't say that!
-He'll think you're jealous![end]M</data>
+He'll think you're jealous![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x60f</ref>
         </refs>
-        <data>Matelite: Leave this to Palpaleos![end]M</data>
+        <data>Matelite: Leave this to Palpaleos![end]</data>
     </text>
     <text>
         <refs>
@@ -245,40 +245,40 @@ He'll think you're jealous![end]M</data>
             <ref>0x61a</ref>
         </refs>
         <data>Matelite: [character][0x1]! When you're
-finished preparing, let's go![end]T</data>
+finished preparing, let's go![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x62c</ref>
         </refs>
         <data>Taicho: This is a gloomy castle...
-It smells full of danger.[end]T</data>
+It smells full of danger.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x633</ref>
         </refs>
         <data>Taicho: The dragons seem different
-than normal! They are restless![end]S</data>
+than normal! They are restless![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x63e</ref>
         </refs>
         <data>Sendak: Their eyes are glowing...
-I am scared.[end]S</data>
+I am scared.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x645</ref>
         </refs>
-        <data>Sendak: Altair... I am scared...[end]R</data>
+        <data>Sendak: Altair... I am scared...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x659</ref>
         </refs>
-        <data>Rush: This is pretty fun, [character][0x1]![end] </data>
+        <data>Rush: This is pretty fun, [character][0x1]![end]</data>
     </text>
     <text>
         <refs>
@@ -287,40 +287,40 @@ I am scared.[end]S</data>
         </refs>
         <data>  Weapon Shop
   Armor Shop
-  Item Shop[end1]R</data>
+  Item Shop[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x68b</ref>
         </refs>
         <data>Rush: This isn't the time for business.
-Come see me later![end]R</data>
+Come see me later![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x692</ref>
         </refs>
-        <data>Rush: I'm suited to be a salesman...?[end]T</data>
+        <data>Rush: I'm suited to be a salesman...?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6c8</ref>
         </refs>
-        <data>Truce: Think in moderation...?[end]B</data>
+        <data>Truce: Think in moderation...?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6f0</ref>
         </refs>
         <data>Bikkebakke: Buy from me too,
-[character][0x1]![end][0x0]</data>
+[character][0x1]![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6cf</ref>
         </refs>
         <data>Truce: So this is Altair...
-The Holy Dragons' homeland...[end] </data>
+The Holy Dragons' homeland...[end]</data>
     </text>
     <text>
         <refs>
@@ -329,20 +329,20 @@ The Holy Dragons' homeland...[end] </data>
         </refs>
         <data>  Mushrooms
   Books
-  Matelite-brand merchandise[end1]B</data>
+  Matelite-brand merchandise[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x722</ref>
         </refs>
         <data>Bikkebakke: You want mushrooms?
-In a little bit.[end][character][0x1]</data>
+In a little bit.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x739</ref>
         </refs>
-        <data>[character][0x1]: We come from Orelus.[end].</data>
+        <data>[character][0x1]: We come from Orelus.[end]</data>
     </text>
     <text>
         <refs>
@@ -352,7 +352,7 @@ In a little bit.[end][character][0x1]</data>
 
 
 I sense the spirits of the Holy
-Dragons...[end].</data>
+Dragons...[end]</data>
     </text>
     <text>
         <refs>
@@ -360,7 +360,7 @@ Dragons...[end].</data>
         </refs>
         <data>......Bahamut!?
 ...Valitora!?
-Garuda!![end]L</data>
+Garuda!![end]</data>
     </text>
     <text>
         <refs>
@@ -368,13 +368,13 @@ Garuda!![end]L</data>
         </refs>
         <data>Leviathan!
 Jormungand!
-Hyperion!![end]W</data>
+Hyperion!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7bb</ref>
         </refs>
-        <data>What does this mean...?[end][character][0x1]</data>
+        <data>What does this mean...?[end]</data>
     </text>
     <text>
         <refs>
@@ -384,7 +384,7 @@ Hyperion!![end]W</data>
 Holy Dragons back to Altair.
 And...
 To defeat the monsters that would
-destroy Orelus...[end]M</data>
+destroy Orelus...[end]</data>
     </text>
     <text>
         <refs>
@@ -392,13 +392,13 @@ destroy Orelus...[end]M</data>
         </refs>
         <data>Monsters...... you mean them.
 But never mind that, where are the
-Holy Dragons?[end][character][0x1]</data>
+Holy Dragons?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7fe</ref>
         </refs>
-        <data>[character][0x1]: They're inside my mind...[end]T</data>
+        <data>[character][0x1]: They're inside my mind...[end]</data>
     </text>
     <text>
         <refs>
@@ -406,20 +406,20 @@ Holy Dragons?[end][character][0x1]</data>
         </refs>
         <data>Then, you are a Dragnar!? One who
 can communicate with the Holy
-Dragons...[end][character][0x1]</data>
+Dragons...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x821</ref>
         </refs>
         <data>[character][0x1]: ......Yes.
-...And you are?[end].</data>
+...And you are?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x84f</ref>
         </refs>
-        <data>...We are the Dragonites.[end]S</data>
+        <data>...We are the Dragonites.[end]</data>
     </text>
     <text>
         <refs>
@@ -432,7 +432,7 @@ Tell me, Dragonite. The Holy Dragons
 return to life with the aid of your
 kind.
 That is what I have heard, anyway.
-What does that mean?[end]H</data>
+What does that mean?[end]</data>
     </text>
     <text>
         <refs>
@@ -460,7 +460,7 @@ The wandering spirit of the Holy
 Dragon enters the body of a Dragonite
 and is thus revived.
 The revival of the Holy Dragons is the
-true happiness of we Dragonites![end]M</data>
+true happiness of we Dragonites![end]</data>
     </text>
     <text>
         <refs>
@@ -468,7 +468,7 @@ true happiness of we Dragonites![end]M</data>
         </refs>
         <data>Matelite: I get it already! Too many
 long stories! Hurry up and take the
-Holy Dragons' spirits from [character][0x1]![end].</data>
+Holy Dragons' spirits from [character][0x1]![end]</data>
     </text>
     <text>
         <refs>
@@ -478,14 +478,14 @@ Holy Dragons' spirits from [character][0x1]![end].</data>
 
 
 I fear I am too old, and the only
-remaining Dragonites are...[end]W</data>
+remaining Dragonites are...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8e1</ref>
         </refs>
         <data>We're just kids! Kids can't do it!
-We'd turn into violent dragons![end]D</data>
+We'd turn into violent dragons![end]</data>
     </text>
     <text>
         <refs>
@@ -495,7 +495,7 @@ We'd turn into violent dragons![end]D</data>
 
 
 Can you not keep the Holy Dragons
-inside your mind as you are now?[end].</data>
+inside your mind as you are now?[end]</data>
     </text>
     <text>
         <refs>
@@ -526,7 +526,7 @@ Now the revival of the Holy Dragons
 does not matter...
 
 Please... Please hold the Holy Dragons
-for a little while longer...[end]L</data>
+for a little while longer...[end]</data>
     </text>
     <text>
         <refs>
@@ -534,7 +534,7 @@ for a little while longer...[end]L</data>
         </refs>
         <data>Long ago there were Dragonites who
 crossed over to Orelus, together with
-the Holy Dragons...[end]T</data>
+the Holy Dragons...[end]</data>
     </text>
     <text>
         <refs>
@@ -545,20 +545,20 @@ changed the forms of the Dragonites...
 
 However, the inherited memories of
 their homeland... Although dim they did
-not disappear...[end]A</data>
+not disappear...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x980</ref>
         </refs>
-        <data>And the joy of returning...[end].</data>
+        <data>And the joy of returning...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x986</ref>
         </refs>
         <data>......?
-Are you the one named [character][0x1]?[end]T</data>
+Are you the one named [character][0x1]?[end]</data>
     </text>
     <text>
         <refs>
@@ -566,27 +566,27 @@ Are you the one named [character][0x1]?[end]T</data>
         </refs>
         <data>They have said to tell you something...
 They are words whose meaning I do
-not understand.[end]T</data>
+not understand.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x997</ref>
         </refs>
         <data>THANK... YOU...
-I... LOVE... YOU...[end]T</data>
+I... LOVE... YOU...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9a2</ref>
         </refs>
-        <data>That is what they said.[end]I</data>
+        <data>That is what they said.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9e0</ref>
         </refs>
         <data>I'm still a kid so I can't be a dragon
-yet.[end]M</data>
+yet.[end]</data>
     </text>
     <text>
         <refs>
@@ -594,27 +594,27 @@ yet.[end]M</data>
         </refs>
         <data>Matelite: Hey! Kid! When do you become
 a dragon? Are there really no other
-Dragonites?[end]I</data>
+Dragonites?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9fe</ref>
         </refs>
         <data>If you go to Alexander Temple there
-should be some Dragonites...[end]M</data>
+should be some Dragonites...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa0a</ref>
         </refs>
-        <data>Matelite: Alexander?[end]H</data>
+        <data>Matelite: Alexander?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa1b</ref>
         </refs>
         <data>He's the king of Altair!
-The Holy Dragon Alexander![end]I</data>
+The Holy Dragon Alexander![end]</data>
     </text>
     <text>
         <refs>
@@ -622,7 +622,7 @@ The Holy Dragon Alexander![end]I</data>
         </refs>
         <data>It's a story from long ago, after
 Bahamut and the others had gone to
-Orelus.[end]A</data>
+Orelus.[end]</data>
     </text>
     <text>
         <refs>
@@ -632,7 +632,7 @@ Orelus.[end]A</data>
 That was the reason why he closed
 the door in the sky!
 So the other Holy Dragons couldn't
-come back.[end]T</data>
+come back.[end]</data>
     </text>
     <text>
         <refs>
@@ -640,25 +640,25 @@ come back.[end]T</data>
         </refs>
         <data>They say that he took many Dragonites
 to his temple. And that he then
-transformed them into mindless beasts![end][character][0x1]</data>
+transformed them into mindless beasts![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa5c</ref>
         </refs>
-        <data>[character][0x1]: The Holy Dragons...[end]B</data>
+        <data>[character][0x1]: The Holy Dragons...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa67</ref>
         </refs>
-        <data>Bahamut: Dragonite... Answer me...[end]O</data>
+        <data>Bahamut: Dragonite... Answer me...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa78</ref>
         </refs>
-        <data>Oh! Bahamut![end]B</data>
+        <data>Oh! Bahamut![end]</data>
     </text>
     <text>
         <refs>
@@ -669,35 +669,35 @@ may be revived...
 
 To usher in a new era, we have
 ventured through the door and
-returned...[end]V</data>
+returned...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa84</ref>
         </refs>
         <data>Valitora: Are you saying our revival
-matters not?[end]I</data>
+matters not?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa95</ref>
         </refs>
         <data>I don't know!
-Grandpa! Grandpa![end]L</data>
+Grandpa! Grandpa![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa9d</ref>
         </refs>
         <data>Leviathan: The Dragonites...
-Are they still here?[end].</data>
+Are they still here?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xabb</ref>
         </refs>
         <data>...Perhaps. Alexander would likely have
-some around for his own purposes.[end]G</data>
+some around for his own purposes.[end]</data>
     </text>
     <text>
         <refs>
@@ -706,20 +706,20 @@ some around for his own purposes.[end]G</data>
         <data>Garuda: Girl... You people who give this
 girl strength... For us, just this once...
 
-Fight for our sake...[end]M</data>
+Fight for our sake...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb09</ref>
         </refs>
         <data>Matelite: Hey, Holy Dragons!
-Don't be so happy![end]M</data>
+Don't be so happy![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb26</ref>
         </refs>
-        <data>Matelite: You made [character][0x1] suffer![end]M</data>
+        <data>Matelite: You made [character][0x1] suffer![end]</data>
     </text>
     <text>
         <refs>
@@ -727,7 +727,7 @@ Don't be so happy![end]M</data>
         </refs>
         <data>Matelite: We'd still fight even if you
 hadn't asked us! Fighting was the
-reason we came here!![end]B</data>
+reason we came here!![end]</data>
     </text>
     <text>
         <refs>
@@ -738,19 +738,19 @@ It was for ours!
 
 Each one of us fights, hiding in our
 hearts things we can't say to anyone
-else![end]S</data>
+else![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb58</ref>
         </refs>
-        <data>Sendak: Matelite![end]F</data>
+        <data>Sendak: Matelite![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd5e</ref>
         </refs>
-        <data>From where have you come...[end]P</data>
+        <data>From where have you come...[end]</data>
     </text>
     <text>
         <refs>
@@ -758,26 +758,26 @@ else![end]S</data>
         </refs>
         <data>Palpaleos: I will try and speak with
 General Gudolf. A battle may be
-avoidable.[end]P</data>
+avoidable.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe4d</ref>
         </refs>
-        <data>Palpaleos: Let me go alone![end]M</data>
+        <data>Palpaleos: Let me go alone![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe5f</ref>
         </refs>
-        <data>Matelite: General Palpaleos![end]M</data>
+        <data>Matelite: General Palpaleos![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe6b</ref>
         </refs>
         <data>Matelite: I may hate you, but I'll tell
-you this![end]M</data>
+you this![end]</data>
     </text>
     <text>
         <refs>
@@ -788,7 +788,7 @@ responsibility for by dying!
 
 I'll never forgive you if you were to
 do something to make [character][0x1]
-sad!![end]T</data>
+sad!![end]</data>
     </text>
     <text>
         <refs>

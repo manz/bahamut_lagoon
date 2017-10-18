@@ -6,7 +6,7 @@
         </refs>
         <data>MATELIGHT:
 Il y a quelqu'un?!
-Je suis Matelight![end]C</data>
+Je suis Matelight![end]</data>
     </text>
     <text>
         <refs>
@@ -16,7 +16,7 @@ Je suis Matelight![end]C</data>
 Je suis Commandant!
  
 Tout va bien,nous sommes enfin
-arrivés![end]M</data>
+arrivés![end]</data>
     </text>
     <text>
         <refs>
@@ -26,21 +26,21 @@ arrivés![end]M</data>
 Personne pour nous féliciter?!
 C'est impoli!
 Commandant,allons voir ce qui se passe
-ici![end]M</data>
+ici![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4a3</ref>
         </refs>
         <data>MATELIGHT:
-C'est ici,Commandant![end]C</data>
+C'est ici,Commandant![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4ac</ref>
         </refs>
         <data>COMMANDANT:
-C'est petit,Matelight![end]H</data>
+C'est petit,Matelight![end]</data>
     </text>
     <text>
         <refs>
@@ -52,7 +52,7 @@ Ainsi,tu dois être [character][0x1],le chef de la
 Résistance.
 Je suis Hornet,le capitaine de ce
 vaisseau!
-Viens sur le pont avec tes amis![end]H</data>
+Viens sur le pont avec tes amis![end]</data>
     </text>
     <text>
         <refs>
@@ -61,14 +61,14 @@ Viens sur le pont avec tes amis![end]H</data>
             <ref>0x4d0</ref>
         </refs>
         <data>HORNET:
-Venez![end]J</data>
+Venez![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x271</ref>
         </refs>
         <data>Je suis un membre de cet équipage!
-Je ne suis pas un ennemi![end]D</data>
+Je ne suis pas un ennemi![end]</data>
     </text>
     <text>
         <refs>
@@ -78,7 +78,7 @@ Je ne suis pas un ennemi![end]D</data>
 J'aide et soigne les dragons.
 Je suis le Docteur Dragon!
 Mais,je ne suis pas habilité à soigner
-les maux d'estomac![end]R</data>
+les maux d'estomac![end]</data>
     </text>
     <text>
         <refs>
@@ -86,7 +86,7 @@ les maux d'estomac![end]R</data>
         </refs>
         <data>RUSH:
 La Forteresse du Ciel!
-Vite,sur le pont![end]T</data>
+Vite,sur le pont![end]</data>
     </text>
     <text>
         <refs>
@@ -98,7 +98,7 @@ premiers à entrer dans la Forteresse
 du Ciel car nous y avons encore de
 très nombreux souvenirs jusqu'à ce
 que,malheureusement,le danger y soit
-venu![end]S</data>
+venu![end]</data>
     </text>
     <text>
         <refs>
@@ -108,7 +108,7 @@ venu![end]S</data>
 Nous avons enfin récupéré le Flambeau
 de Kana.
 J'ai encore tant d'affection pour ce
-bateau![end]S</data>
+bateau![end]</data>
     </text>
     <text>
         <refs>
@@ -116,7 +116,7 @@ bateau![end]S</data>
         </refs>
         <data>SENDACK:
 Le capitaine du bateau doit être ici!
-Te souviens-tu de lui?[end]B</data>
+Te souviens-tu de lui?[end]</data>
     </text>
     <text>
         <refs>
@@ -124,7 +124,7 @@ Te souviens-tu de lui?[end]B</data>
         </refs>
         <data>BIKKEBAKKE:
 Nous sommes revenus à la maison...
-J'en frémis de joie![end]T</data>
+J'en frémis de joie![end]</data>
     </text>
     <text>
         <refs>
@@ -133,7 +133,7 @@ J'en frémis de joie![end]T</data>
         <data>Tu es le Chef,n'est-ce pas?!
 Nous apprécions beaucoup tout ce que
 tu as fait pour nous!
-Tu n'as pas l'air d'un type douteux.[end]T</data>
+Tu n'as pas l'air d'un type douteux.[end]</data>
     </text>
     <text>
         <refs>
@@ -142,7 +142,7 @@ Tu n'as pas l'air d'un type douteux.[end]T</data>
         <data>Tu es le Chef,n'est-ce pas?!
 Nous apprécions beaucoup tout ce que
 tu as fait pour nous!
-Tu n'as pas l'air d'un type ennuyeux.[end]M</data>
+Tu n'as pas l'air d'un type ennuyeux.[end]</data>
     </text>
     <text>
         <refs>
@@ -152,7 +152,7 @@ Tu n'as pas l'air d'un type ennuyeux.[end]M</data>
 Ah,[character][0x1]!
  
 Nous avons bientôt terminé l'inspection
-du bateau![end]S</data>
+du bateau![end]</data>
     </text>
     <text>
         <refs>
@@ -160,7 +160,7 @@ du bateau![end]S</data>
         </refs>
         <data>SENDACK:
 [character][0x1],attends un instant!
-J'aimerais te parler...[end]S</data>
+J'aimerais te parler...[end]</data>
     </text>
     <text>
         <refs>
@@ -173,7 +173,7 @@ Tu dois sûrement avoir un très beau
 nom à proposer.
  
 Il faudrait un nom qui marque notre
-grand retour![end]S</data>
+grand retour![end]</data>
     </text>
     <text>
         <refs>
@@ -183,7 +183,7 @@ grand retour![end]S</data>
         <data>SENDACK:
 FARENHEIT?!
 [character][0x1],je dois dire que ce nom est
-Fan-Tas-Ti-Que![end]M</data>
+Fan-Tas-Ti-Que![end]</data>
     </text>
     <text>
         <refs>
@@ -191,7 +191,7 @@ Fan-Tas-Ti-Que![end]M</data>
         </refs>
         <data>MATELIGHT:
 Hahahahaha!
-FARENHEIT?![end]M</data>
+FARENHEIT?![end]</data>
     </text>
     <text>
         <refs>
@@ -199,7 +199,7 @@ FARENHEIT?![end]M</data>
         </refs>
         <data>MATELIGHT:
 Tout compte fait,FARENHEIT,
-c'est assez cool![end]M</data>
+c'est assez cool![end]</data>
     </text>
     <text>
         <refs>
@@ -207,14 +207,14 @@ c'est assez cool![end]M</data>
         </refs>
         <data>MARCHAND:
 Je vous en prie,vous pouvez regarder
-la marchandise![end]L</data>
+la marchandise![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2d8</ref>
         </refs>
         <data>Le capitaine de ce vaisseau,Sendack,
-doit être resté très jeune,non?![end]I</data>
+doit être resté très jeune,non?![end]</data>
     </text>
     <text>
         <refs>
@@ -222,7 +222,7 @@ doit être resté très jeune,non?![end]I</data>
         </refs>
         <data>Ici se trouve une entrée vers le pont!
 Passe par l'une d'entre elles pour y
-accéder.[end]M</data>
+accéder.[end]</data>
     </text>
     <text>
         <refs>
@@ -233,7 +233,7 @@ Je suis de l'équipage!
  
 C'est juste un déguisement que
 j'utilisais pour ne pas être capturé
-par l'empire.[end]C</data>
+par l'empire.[end]</data>
     </text>
     <text>
         <refs>
@@ -244,6 +244,6 @@ princesse [character][0x1] sera encore vide...
  
 J'appartiens à l'équipage et j'ai
 l'intention de vous aider de toutes
-mes forces.[end][0x0]</data>
+mes forces.[end]</data>
     </text>
 </texts>

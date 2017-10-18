@@ -5,7 +5,7 @@
             <ref>0x144</ref>
         </refs>
         <data>FREDERIKA:
-Je me demande si [character][0x1] arrive.[end]H</data>
+Je me demande si [character][0x1] arrive.[end]</data>
     </text>
     <text>
         <refs>
@@ -15,21 +15,21 @@ Je me demande si [character][0x1] arrive.[end]H</data>
 Désolé de vous avoir fait attendre!
 Notre chef va bientôt arriver!
 Il accompagne Sendack,le Capitaine de
-ce vaisseau,qui est assez vieux![end]D</data>
+ce vaisseau,qui est assez vieux![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x15d</ref>
         </refs>
         <data>DIANA:
-[character][0x1] arrive![end]F</data>
+[character][0x1] arrive![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x315</ref>
         </refs>
         <data>FREDERIKA:
-Bienvenue [character][0x1]![end]D</data>
+Bienvenue [character][0x1]![end]</data>
     </text>
     <text>
         <refs>
@@ -37,7 +37,7 @@ Bienvenue [character][0x1]![end]D</data>
         </refs>
         <data>DIANA:
 Tu es en retard!
-Nous nous inquiétions![end]H</data>
+Nous nous inquiétions![end]</data>
     </text>
     <text>
         <refs>
@@ -47,7 +47,7 @@ Nous nous inquiétions![end]H</data>
 Parlez un peu du passé ensemble!
  
 Après cela,le voyage vers le combat
-commence![end]H</data>
+commence![end]</data>
     </text>
     <text>
         <refs>
@@ -55,7 +55,7 @@ commence![end]H</data>
         </refs>
         <data>HORNET:
 Capitaine du vaisseau,Sendack!
-Donnez-nous le signal![end]H</data>
+Donnez-nous le signal![end]</data>
     </text>
     <text>
         <refs>
@@ -65,14 +65,14 @@ Donnez-nous le signal![end]H</data>
 En route!
 Nous n'avons rien oublié?!
 Le nouveau nom du bateau a été
-choisi?[end]M</data>
+choisi?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3c0</ref>
         </refs>
         <data>MATELIGHT:
-Comment osent-ils nous bloquer?![end]C</data>
+Comment osent-ils nous bloquer?![end]</data>
     </text>
     <text>
         <refs>
@@ -80,14 +80,14 @@ Comment osent-ils nous bloquer?![end]C</data>
         </refs>
         <data>COMMANDANT:
 Matelight!
-Arrêtez![end]S</data>
+Arrêtez![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x375</ref>
         </refs>
         <data>SENDACK:
-Le nom du bateau est...[end]H</data>
+Le nom du bateau est...[end]</data>
     </text>
     <text>
         <refs>
@@ -97,7 +97,7 @@ Le nom du bateau est...[end]H</data>
 Oh!
  
 Vous êtes dans mon vaisseau,
-alors soyez calme![end]M</data>
+alors soyez calme![end]</data>
     </text>
     <text>
         <refs>
@@ -105,7 +105,7 @@ alors soyez calme![end]M</data>
         </refs>
         <data>MATELIGHT:
 Comment osent-ils?!
-Je suis Matelight tout de même![end]H</data>
+Je suis Matelight tout de même![end]</data>
     </text>
     <text>
         <refs>
@@ -113,7 +113,7 @@ Je suis Matelight tout de même![end]H</data>
         </refs>
         <data>HORNET:
 Allez-y,Sendack!
-Annoncez le nom de ce bateau![end]S</data>
+Annoncez le nom de ce bateau![end]</data>
     </text>
     <text>
         <refs>
@@ -121,14 +121,14 @@ Annoncez le nom de ce bateau![end]S</data>
         </refs>
         <data>SENDACK:
 Hum hum!
-Soyez attentifs...[end]L</data>
+Soyez attentifs...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4fa</ref>
         </refs>
         <data>La fierté de Kana se nommera
-FARENHEIT![end]C</data>
+FARENHEIT![end]</data>
     </text>
     <text>
         <refs>
@@ -136,7 +136,7 @@ FARENHEIT![end]C</data>
         </refs>
         <data>COMMANDANT:
 La fierté de Kana?!
-C'est cela![end]M</data>
+C'est cela![end]</data>
     </text>
     <text>
         <refs>
@@ -145,7 +145,7 @@ C'est cela![end]M</data>
         <data>MATELIGHT:
 Co... Commandant...
  
-Je... je te le demande...[end]C</data>
+Je... je te le demande...[end]</data>
     </text>
     <text>
         <refs>
@@ -153,7 +153,7 @@ Je... je te le demande...[end]C</data>
         </refs>
         <data>COMMANDANT:
 Tu veux que je fasse ça,
-Matelight![end]C</data>
+Matelight![end]</data>
     </text>
     <text>
         <refs>
@@ -162,7 +162,7 @@ Matelight![end]C</data>
         <data>COMMANDANT:
 Matelight,c'est à toi de le faire!
 Ce sont tes souvenirs!
-D'accord,je vais le faire![end]C</data>
+D'accord,je vais le faire![end]</data>
     </text>
     <text>
         <refs>
@@ -170,14 +170,14 @@ D'accord,je vais le faire![end]C</data>
         </refs>
         <data>COMMANDANT:
 Matelight!
-Regardez![end]H</data>
+Regardez![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6e5</ref>
         </refs>
         <data>Hoho!
-Le Drapeau National de Kana![end]M</data>
+Le Drapeau National de Kana![end]</data>
     </text>
     <text>
         <refs>
@@ -204,13 +204,13 @@ batailles!
 Celle pour ta patrie arrivera bien
 assez tôt!
  
-Je suis le puissant Matelight![end]C</data>
+Je suis le puissant Matelight![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5f9</ref>
         </refs>
         <data>COMMANDANT:
-Allons-y![end][0x0]</data>
+Allons-y![end]</data>
     </text>
 </texts>

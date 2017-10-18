@@ -5,7 +5,7 @@
             <ref>0x75</ref>
         </refs>
         <data>              Chapter 26
-  Alexander, King of the Holy Dragons[end]M</data>
+  Alexander, King of the Holy Dragons[end]</data>
     </text>
     <text>
         <refs>
@@ -14,41 +14,41 @@
         <data>Matelite: Hey! Dragonites inside!
 We've come from Orelus!
 We're here to free you!
-Just wait a little longer![end]M</data>
+Just wait a little longer![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa1</ref>
         </refs>
-        <data>Matelite: I think they heard![end]T</data>
+        <data>Matelite: I think they heard![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x80b</ref>
             <ref>0xae</ref>
         </refs>
-        <data>Taicho: Alexander heard as well![end]M</data>
+        <data>Taicho: Alexander heard as well![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xbc</ref>
         </refs>
         <data>Matelite: We've all come this far...
-So we're in this together![end] </data>
+So we're in this together![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x218</ref>
         </refs>
         <data>              Final Chapter
-  We, Who Cannot See into Tomorrow[end]M</data>
+  We, Who Cannot See into Tomorrow[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x261</ref>
         </refs>
         <data>Matelite: Alexander has revived!
-Hurry with the preparations![end][character][0x1]</data>
+Hurry with the preparations![end]</data>
     </text>
     <text>
         <refs>
@@ -65,13 +65,13 @@ into creatures with wings.
 
 He did it so they could someday fly
 into the sky and return to their
-homeland.[end]E</data>
+homeland.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x824</ref>
         </refs>
-        <data>Excellent![end][0x0]</data>
+        <data>Excellent![end]</data>
     </text>
     <text>
         <refs>
@@ -80,26 +80,26 @@ homeland.[end]E</data>
         <data>[character][0x1]: [character][0x1]... If we can
 just defeat Alexander one more time,
 I'll take care of the rest.
-I'm sure I'll be alright.[end]P</data>
+I'm sure I'll be alright.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x495</ref>
         </refs>
-        <data>Palpaleos: This is it...[end]P</data>
+        <data>Palpaleos: This is it...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x49f</ref>
         </refs>
         <data>Palpaleos: I'm against [character][0x1]'s
-idea, but...[end][character][0x1]</data>
+idea, but...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4ad</ref>
         </refs>
-        <data>[character][0x1]: But that's all we can do.[end]M</data>
+        <data>[character][0x1]: But that's all we can do.[end]</data>
     </text>
     <text>
         <refs>
@@ -112,13 +112,13 @@ Are we all set?
 
 
   It'll take a little bit longer.
-  Let's go, Matelite![end1]I</data>
+  Let's go, Matelite![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x4db</ref>
         </refs>
-        <data>I leave it in your hands, [character][0x1].[end]M</data>
+        <data>I leave it in your hands, [character][0x1].[end]</data>
     </text>
     <text>
         <refs>
@@ -127,14 +127,14 @@ Are we all set?
         <data>Matelite: Right!
 
 
-Oh, wait a minute...[end]M</data>
+Oh, wait a minute...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x51f</ref>
         </refs>
         <data>Matelite: I have a favor to ask of you,
-Palpaleos.[end]M</data>
+Palpaleos.[end]</data>
     </text>
     <text>
         <refs>
@@ -142,7 +142,7 @@ Palpaleos.[end]M</data>
         </refs>
         <data>Matelite: This might be the last time
 we're both alive together. The end.
-Will you let me say something to you?[end]M</data>
+Will you let me say something to you?[end]</data>
     </text>
     <text>
         <refs>
@@ -152,32 +152,32 @@ Will you let me say something to you?[end]M</data>
 [character][0x1]?
 
   Say as much as you want!
-  Forget it.[end1]M</data>
+  Forget it.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x598</ref>
         </refs>
         <data>Matelite: [character][0x1]. I'm sure...
-You too...[end]T</data>
+You too...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x617</ref>
         </refs>
-        <data>Taicho: There are many monsters![end]M</data>
+        <data>Taicho: There are many monsters![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x629</ref>
         </refs>
-        <data>Matelite: Damn! Something's come up![end][0x0]</data>
+        <data>Matelite: Damn! Something's come up![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x637</ref>
         </refs>
-        <data>Matelite: Okay, this is the final assault![end]M</data>
+        <data>Matelite: Okay, this is the final assault![end]</data>
     </text>
     <text>
         <refs>
@@ -187,13 +187,13 @@ You too...[end]T</data>
 
 
   Don't be impatient, Matelite!
-  Let's go, Matelite![end1]M</data>
+  Let's go, Matelite![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x674</ref>
         </refs>
-        <data>Matelite: Hurry![end]M</data>
+        <data>Matelite: Hurry![end]</data>
     </text>
     <text>
         <refs>
@@ -202,7 +202,7 @@ You too...[end]T</data>
         <data>Matelite: Members of the Orelus
 Freedom Force!
 
-Let's win this battle... and go home![end]T</data>
+Let's win this battle... and go home![end]</data>
     </text>
     <text>
         <refs>
@@ -212,21 +212,21 @@ Let's win this battle... and go home![end]T</data>
 [character][0x1]?
 
   No.
-  Because you guys are here.[end1]I</data>
+  Because you guys are here.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x82f</ref>
         </refs>
         <data>I see... When you say that I feel
-much stronger.[end]S</data>
+much stronger.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x840</ref>
         </refs>
         <data>Sendak: Let us return safely to
-Orelus...[end]S</data>
+Orelus...[end]</data>
     </text>
     <text>
         <refs>
@@ -234,14 +234,14 @@ Orelus...[end]S</data>
         </refs>
         <data>Sendak: It is hopeless, [character][0x1]...
 No matter how many times we defeat
-him, Alexander will continue to revive...[end]R</data>
+him, Alexander will continue to revive...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x869</ref>
         </refs>
         <data>Rush: This stuff's so heavy I might
-accidentally break it![end] </data>
+accidentally break it![end]</data>
     </text>
     <text>
         <refs>
@@ -250,13 +250,13 @@ accidentally break it![end] </data>
         </refs>
         <data>  Weapons?
   Armor?
-  Items?[end1]R</data>
+  Items?[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x87a</ref>
         </refs>
-        <data>Rush: Let's hurry, [character][0x1]![end]T</data>
+        <data>Rush: Let's hurry, [character][0x1]![end]</data>
     </text>
     <text>
         <refs>
@@ -269,7 +269,7 @@ That's when he realizes the enemy is
 clearly stronger than us.
 
 Captain [character][0x1]!
-Make thorough preparations![end]T</data>
+Make thorough preparations![end]</data>
     </text>
     <text>
         <refs>
@@ -279,13 +279,13 @@ Make thorough preparations![end]T</data>
 room for impatience at times like this.
 
 Please don't go feeding anything
-strange to the dragons.[end]B</data>
+strange to the dragons.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8d7</ref>
         </refs>
-        <data>Bikkebakke: This is it, [character][0x1]![end] </data>
+        <data>Bikkebakke: This is it, [character][0x1]![end]</data>
     </text>
     <text>
         <refs>
@@ -293,13 +293,13 @@ strange to the dragons.[end]B</data>
         </refs>
         <data>  I'll buy some mushrooms!
   I want some books.
-  Matelite-brand merchandise...[end1]W</data>
+  Matelite-brand merchandise...[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x8e8</ref>
         </refs>
-        <data>We're going home soon![end] </data>
+        <data>We're going home soon![end]</data>
     </text>
     <text>
         <refs>

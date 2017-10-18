@@ -6,14 +6,14 @@
         </refs>
         <data>MATELIGHT:
 Qu'est-ce que c'est?
-Cette chose est une porte?[end][character][0x1]</data>
+Cette chose est une porte?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9f</ref>
         </refs>
         <data>[character][0x1]:
-Ah![end]S</data>
+Ah![end]</data>
     </text>
     <text>
         <refs>
@@ -21,7 +21,7 @@ Ah![end]S</data>
         </refs>
         <data>SENDACK:
 Vous sentez-vous bien?
-Princesse...?![end][character][0x1]</data>
+Princesse...?![end]</data>
     </text>
     <text>
         <refs>
@@ -31,7 +31,7 @@ Princesse...?![end][character][0x1]</data>
 Bien sûr...
 Le Dragon Sacré...
 Je le sens...
-Il est derrière cette porte...[end]M</data>
+Il est derrière cette porte...[end]</data>
     </text>
     <text>
         <refs>
@@ -40,14 +40,14 @@ Il est derrière cette porte...[end]M</data>
         <data>MATELIGHT:
 Très bien!
 Nous allons examiner ça!
-Viens Commandant![end]C</data>
+Viens Commandant![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd4</ref>
         </refs>
         <data>COMMANDANT:
-Allons-y![end]C</data>
+Allons-y![end]</data>
     </text>
     <text>
         <refs>
@@ -57,7 +57,7 @@ Allons-y![end]C</data>
 P... pourquoi est-elle si imposante?
  
 De toute manière,
-elle ne m'intimide pas![end]M</data>
+elle ne m'intimide pas![end]</data>
     </text>
     <text>
         <refs>
@@ -66,7 +66,7 @@ elle ne m'intimide pas![end]M</data>
         <data>MATELIGHT:
 Humf humf...
 Même moi,un garde palais de réputation,
-je n'arrive pas à l'ouvrir.[end]S</data>
+je n'arrive pas à l'ouvrir.[end]</data>
     </text>
     <text>
         <refs>
@@ -76,7 +76,7 @@ je n'arrive pas à l'ouvrir.[end]S</data>
 C'est évident,il est inutile d'utiliser
 notre force!
 Tenter d'ouvrir la porte vers le
-Dragon Sacré est une vaine obstination![end]L</data>
+Dragon Sacré est une vaine obstination![end]</data>
     </text>
     <text>
         <refs>
@@ -85,7 +85,7 @@ Dragon Sacré est une vaine obstination![end]L</data>
         <data>La porte ne peut être ouverte que par
 une seule personne...
 La dragoon!
-Allez-y,Princesse.[end][character][0x1]</data>
+Allez-y,Princesse.[end]</data>
     </text>
     <text>
         <refs>
@@ -93,7 +93,7 @@ Allez-y,Princesse.[end][character][0x1]</data>
         </refs>
         <data>[character][0x1]:
 Je comprends...
-Je le ferai...[end]M</data>
+Je le ferai...[end]</data>
     </text>
     <text>
         <refs>
@@ -101,7 +101,7 @@ Je le ferai...[end]M</data>
         </refs>
         <data>MATELIGHT:
 Utiliser la force était donc vraiment
-inutile pour ouvrir cette porte![end]C</data>
+inutile pour ouvrir cette porte![end]</data>
     </text>
     <text>
         <refs>
@@ -109,14 +109,14 @@ inutile pour ouvrir cette porte![end]C</data>
         </refs>
         <data>COMMANDANT:
 N'y... n'y a-t-il pas un Dragon
-Sacré à l'intérieur?![end][character][0x1]</data>
+Sacré à l'intérieur?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x179</ref>
         </refs>
         <data>[character][0x1]:
-Je vais appeler le Dragon Sacré...[end]S</data>
+Je vais appeler le Dragon Sacré...[end]</data>
     </text>
     <text>
         <refs>
@@ -125,7 +125,7 @@ Je vais appeler le Dragon Sacré...[end]S</data>
         <data>SENDACK:
 Nous sommes donc devant l'antre du
 Dragon Sacré...
-Devrions-nous y pénétrer?[end]M</data>
+Devrions-nous y pénétrer?[end]</data>
     </text>
     <text>
         <refs>
@@ -135,7 +135,7 @@ Devrions-nous y pénétrer?[end]M</data>
 [character][0x1],
 ce doit être vraiment très dangereux!
 [character][0x1],va tout d'abord voir si tout va
-bien![end]M</data>
+bien![end]</data>
     </text>
     <text>
         <refs>
@@ -143,27 +143,27 @@ bien![end]M</data>
         </refs>
         <data>MATELIGHT:
 Que s'est-il passé?!
-Qu'allons-nous faire?![end][character][0x1]</data>
+Qu'allons-nous faire?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x22c</ref>
         </refs>
         <data>[character][0x1]:
-Aaaaah![end]S</data>
+Aaaaah![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x235</ref>
         </refs>
         <data>SENDACK:
-Princesse![end]Q</data>
+Princesse![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x24f</ref>
         </refs>
-        <data>Que... qu'est-ce...?[end]M</data>
+        <data>Que... qu'est-ce...?[end]</data>
     </text>
     <text>
         <refs>
@@ -174,13 +174,13 @@ Hééééé!
 A qui crois-tu avoir affaire?
 Je suis Matelight!
 Je t'ordonne de laisser [character][0x1]
-tranquille![end][character][0x1]</data>
+tranquille![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2a5</ref>
         </refs>
-        <data>[character][0x1]![end]L</data>
+        <data>[character][0x1]![end]</data>
     </text>
     <text>
         <refs>
@@ -188,14 +188,14 @@ tranquille![end][character][0x1]</data>
         </refs>
         <data>LEVIATHAN:
 Fille,tu es la personne qui peut
-soigner nos blessures...[end][character][0x1]</data>
+soigner nos blessures...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x31a</ref>
         </refs>
         <data>[character][0x1]:
-Tu veux que je soigne tes blessures?[end]L</data>
+Tu veux que je soigne tes blessures?[end]</data>
     </text>
     <text>
         <refs>
@@ -206,14 +206,14 @@ Notre tristesse...
 Notre colère...
 Approche...
 Ecoute nos voix...
-Vois nos larmes...[end][character][0x1]</data>
+Vois nos larmes...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x346</ref>
         </refs>
         <data>[character][0x1]:
-A... attends...[end]S</data>
+A... attends...[end]</data>
     </text>
     <text>
         <refs>
@@ -221,14 +221,14 @@ A... attends...[end]S</data>
         </refs>
         <data>SENDACK:
 Princesse!
-Tenez bon![end][character][0x1]</data>
+Tenez bon![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3fd</ref>
         </refs>
         <data>[character][0x1]:
-[character][0x1]...[end][character][0x1]</data>
+[character][0x1]...[end]</data>
     </text>
     <text>
         <refs>
@@ -236,14 +236,14 @@ Tenez bon![end][character][0x1]</data>
         </refs>
         <data>[character][0x1]:
 Le Dragon Sacré Léviathan...
-Leur colère...? Leur peine...?[end]L</data>
+Leur colère...? Leur peine...?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x431</ref>
         </refs>
         <data>Les Dragons Sacrés sont furieux et ils
-sont aussi tristes...[end]S</data>
+sont aussi tristes...[end]</data>
     </text>
     <text>
         <refs>
@@ -253,7 +253,7 @@ sont aussi tristes...[end]S</data>
 Colère... tristesse...?
 Quel peut en être le sens?
 Vraiment,je ne comprends pas.
-Ils sont tristes![end]M</data>
+Ils sont tristes![end]</data>
     </text>
     <text>
         <refs>
@@ -261,7 +261,7 @@ Ils sont tristes![end]M</data>
         </refs>
         <data>MATELIGHT:
 Pourquoi ne le pourraient-ils pas?!
-Les Dragons Sacrés sont comme nous![end]I</data>
+Les Dragons Sacrés sont comme nous![end]</data>
     </text>
     <text>
         <refs>
@@ -271,7 +271,7 @@ Les Dragons Sacrés sont comme nous![end]I</data>
 de la colère autant que de la peine!
 Ma désillusion,mes sentiments,ma haine
 et ma tristesse sont dûes à la chute
-de Kana.[end]L</data>
+de Kana.[end]</data>
     </text>
     <text>
         <refs>
@@ -281,21 +281,21 @@ de Kana.[end]L</data>
 tout comme eux...
  
 Cependant,tout le monde garde cela
-secret au plus profond de son coeur.[end]L</data>
+secret au plus profond de son coeur.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x482</ref>
         </refs>
         <data>Les Dragons Sacrés ont des sentiments
-et avec eux,nous vaincrons l'Empire![end]M</data>
+et avec eux,nous vaincrons l'Empire![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4b3</ref>
         </refs>
         <data>MATELIGHT:
-Vite,quittons cet endroit![end][character][0x1]</data>
+Vite,quittons cet endroit![end]</data>
     </text>
     <text>
         <refs>
@@ -303,7 +303,7 @@ Vite,quittons cet endroit![end][character][0x1]</data>
         </refs>
         <data>[character][0x1]:
 Le Dragon Sacré est très puissant...
-Il veut me dire quelque chose.[end]S</data>
+Il veut me dire quelque chose.[end]</data>
     </text>
     <text>
         <refs>
@@ -311,7 +311,7 @@ Il veut me dire quelque chose.[end]S</data>
         </refs>
         <data>SENDACK:
 [character][0x1],tout va bien?
-Je sens que tu es bizarre...[end]M</data>
+Je sens que tu es bizarre...[end]</data>
     </text>
     <text>
         <refs>
@@ -319,13 +319,13 @@ Je sens que tu es bizarre...[end]M</data>
         </refs>
         <data>MATELIGHT:
 [character][0x1],
-je t'ai demandé quelque chose![end]C</data>
+je t'ai demandé quelque chose![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x69e</ref>
         </refs>
         <data>COMMANDANT:
-Vas-y![end][0x0]</data>
+Vas-y![end]</data>
     </text>
 </texts>

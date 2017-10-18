@@ -8,14 +8,14 @@
 histoire avec [character][0x1] continue!
  
 Vite! Vite!
-C'est difficile[0xd8][end]V</data>
+C'est difficile[0xd8][end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc02</ref>
         </refs>
         <data>Vite,fais le pour moi!
-Tu es vraiment à envier...[end]M</data>
+Tu es vraiment à envier...[end]</data>
     </text>
     <text>
         <refs>
@@ -24,8 +24,7 @@ Tu es vraiment à envier...[end]M</data>
         </refs>
         <data>MATELIGHT:
 [character][0x1]!
-...![0xfc][0x1][end1]
-</data>
+...![0xfc][0x1][end1]</data>
     </text>
     <text>
         <refs>
@@ -34,7 +33,7 @@ Tu es vraiment à envier...[end]M</data>
         </refs>
         <data>MATELIGHT:
 Princesse [character][0x1]!
-S'il vous plaît,obéissez[0xd8][end][character][0x1]</data>
+S'il vous plaît,obéissez[0xd8][end]</data>
     </text>
     <text>
         <refs>
@@ -43,7 +42,7 @@ S'il vous plaît,obéissez[0xd8][end][character][0x1]</data>
         </refs>
         <data>[character][0x1]:
 [character][0x1]...
-Vite... par ici![end][character][0x1]</data>
+Vite... par ici![end]</data>
     </text>
     <text>
         <refs>
@@ -51,8 +50,7 @@ Vite... par ici![end][character][0x1]</data>
         </refs>
         <data>[character][0x1]:
 SALAMANDO...
-Vite[0xd8][0xfc][0x1][end1]
-</data>
+Vite[0xd8][0xfc][0x1][end1]</data>
     </text>
     <text>
         <refs>
@@ -60,27 +58,27 @@ Vite[0xd8][0xfc][0x1][end1]
         </refs>
         <data>[character][0x1]:
 Viens,[character][0x1]...
-Que fais-tu? Tu vas bien?[end] </data>
+Que fais-tu? Tu vas bien?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x390</ref>
         </refs>
         <data> Très bien!
- Je suis un peu mal à l'aise.[end1]H</data>
+ Je suis un peu mal à l'aise.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x3a6</ref>
         </refs>
         <data>Hum hum!
-Nous sommes un peu serrés,non?[end]N</data>
+Nous sommes un peu serrés,non?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x39a</ref>
         </refs>
-        <data>Nous sommes bientôt arrivés...[end][character][0x1]</data>
+        <data>Nous sommes bientôt arrivés...[end]</data>
     </text>
     <text>
         <refs>
@@ -90,7 +88,7 @@ Nous sommes un peu serrés,non?[end]N</data>
 je me demande souvent jusqu'où
 continue le ciel...
 Traverser le ciel...
-Quel étrange sentiment,n'est-ce pas?[end][character][0x1]</data>
+Quel étrange sentiment,n'est-ce pas?[end]</data>
     </text>
     <text>
         <refs>
@@ -100,15 +98,14 @@ Quel étrange sentiment,n'est-ce pas?[end][character][0x1]</data>
 C'est ici,[character][0x1]!
 C'est cette église...
 Je vais te parler de ses souvenirs.
-Sais-tu pourquoi elle est si connues?[end] </data>
+Sais-tu pourquoi elle est si connues?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xab1</ref>
         </refs>
         <data> Pourquoi?!
- Je le sais...[end1]
-</data>
+ Je le sais...[end1]</data>
     </text>
     <text>
         <refs>
@@ -121,7 +118,7 @@ Sache que nombreux couples furent
 encore plus amoureux après avoir
 visité cette église.
 Leur futur est sans doute lié à
-jamais.[end]I</data>
+jamais.[end]</data>
     </text>
     <text>
         <refs>
@@ -132,21 +129,20 @@ de cette église.
  
 Chaque couple se mariant dans cette
 église s'aimera à jamais et aura un
-futur parfait.[end]M</data>
+futur parfait.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xaf1</ref>
         </refs>
-        <data>M'y emmèneras-tu un jour?[end] </data>
+        <data>M'y emmèneras-tu un jour?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb11</ref>
         </refs>
         <data> Probablement...
- Non![end1]
-</data>
+ Non![end1]</data>
     </text>
     <text>
         <refs>
@@ -156,7 +152,7 @@ futur parfait.[end]M</data>
 Nous devrions nous dépêcher...
  
 Matelight ne doit sûrement pas
-apprécier notre escapade![end][character][0x1]</data>
+apprécier notre escapade![end]</data>
     </text>
     <text>
         <refs>
@@ -164,7 +160,7 @@ apprécier notre escapade![end][character][0x1]</data>
             <ref>0xcc6</ref>
         </refs>
         <data>[character][0x1]:
-C'est sans espoir...[end]N</data>
+C'est sans espoir...[end]</data>
     </text>
     <text>
         <refs>
@@ -178,7 +174,7 @@ Le Roi de Kana protestera!
  
 Peut-être qu'un jour...
 Qui sait ce que nous réserve
-l'avenir?[end][character][0x1]</data>
+l'avenir?[end]</data>
     </text>
     <text>
         <refs>
@@ -188,15 +184,14 @@ l'avenir?[end][character][0x1]</data>
 serons adultes,nous aurons les mêmes
 sentiments.
 Me promets-tu qu'un jour nous ferons
-partie des souvenirs de cette église?[end] </data>
+partie des souvenirs de cette église?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb7a</ref>
         </refs>
         <data> Je le promets!
- Seul le futur le dira...[end1]
-</data>
+ Seul le futur le dira...[end1]</data>
     </text>
     <text>
         <refs>
@@ -207,7 +202,7 @@ personnes se le promettent...
  
 Matelight risque d'aller voir mon père
 pour lui raconter notre escapade
-secrète.[end]L</data>
+secrète.[end]</data>
     </text>
     <text>
         <refs>
@@ -218,7 +213,7 @@ Un couple peut un jour ou l'autre se
 séparer.
 Allons-y,[character][0x1]...
 Je n'aime pas cette idée,
-cette promesse...[end]P</data>
+cette promesse...[end]</data>
     </text>
     <text>
         <refs>
@@ -230,7 +225,7 @@ permission de voler.
 Venez,Princesse [character][0x1]!
 Je vous en prie,venez...
  
-Mon dragon nous attend dehors![end][character][0x1]</data>
+Mon dragon nous attend dehors![end]</data>
     </text>
     <text>
         <refs>
@@ -238,7 +233,7 @@ Mon dragon nous attend dehors![end][character][0x1]</data>
         </refs>
         <data>[character][0x1]:
 Pouvez-vous attendre un peu,
-jusqu'à ce qu'il fasse nuit?[end]P</data>
+jusqu'à ce qu'il fasse nuit?[end]</data>
     </text>
     <text>
         <refs>
@@ -246,14 +241,14 @@ jusqu'à ce qu'il fasse nuit?[end]P</data>
         </refs>
         <data>[character][0x1]:
 Est-il vrai que vous pouvez m'emmener
-n'importe où?[end]P</data>
+n'importe où?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x612</ref>
         </refs>
         <data>PALPALEOS:
-Dans chaque lieu que vous désirerez![end]P</data>
+Dans chaque lieu que vous désirerez![end]</data>
     </text>
     <text>
         <refs>
@@ -261,7 +256,7 @@ Dans chaque lieu que vous désirerez![end]P</data>
         </refs>
         <data>PALPALEOS:
 Il est sûrement plus rapide que les
-dragons de Kana![end][character][0x1]</data>
+dragons de Kana![end]</data>
     </text>
     <text>
         <refs>
@@ -269,7 +264,7 @@ dragons de Kana![end][character][0x1]</data>
         </refs>
         <data>[character][0x1]:
 Huuum...
-SALAMANDO l'est beaucoup plus![end]P</data>
+SALAMANDO l'est beaucoup plus![end]</data>
     </text>
     <text>
         <refs>
@@ -277,7 +272,7 @@ SALAMANDO l'est beaucoup plus![end]P</data>
         </refs>
         <data>PALPALEOS:
 SALAMANDO...
-Tiens donc...[end]P</data>
+Tiens donc...[end]</data>
     </text>
     <text>
         <refs>
@@ -285,7 +280,7 @@ Tiens donc...[end]P</data>
         </refs>
         <data>PALPALEOS:
 Princesse [character][0x1],
-vous êtes si combattive...[end] </data>
+vous êtes si combattive...[end]</data>
     </text>
     <text>
         <refs>
@@ -293,21 +288,21 @@ vous êtes si combattive...[end] </data>
         </refs>
         <data>      Ils volèrent beaucoup et ne
       réalisèrent pas que le ciel
-           s'assombrissait...[end]J</data>
+           s'assombrissait...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x735</ref>
         </refs>
         <data>Je ne désire qu'une chose:
-parler avec vous,Princesse...[end]P</data>
+parler avec vous,Princesse...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x862</ref>
         </refs>
         <data>PALPALEOS:
-Est-ce un lieu de mémoire?[end][character][0x1]</data>
+Est-ce un lieu de mémoire?[end]</data>
     </text>
     <text>
         <refs>
@@ -317,14 +312,14 @@ Est-ce un lieu de mémoire?[end][character][0x1]</data>
 Oui,c'est un lieu chargé de souvenirs!
  
 L'endroit où tout a commencé entre
-nous![end]P</data>
+nous![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x881</ref>
         </refs>
         <data>PALPALEOS:
-C'est ici que tout avait commencé...[end][character][0x1]</data>
+C'est ici que tout avait commencé...[end]</data>
     </text>
     <text>
         <refs>
@@ -332,14 +327,14 @@ C'est ici que tout avait commencé...[end][character][0x1]</data>
         </refs>
         <data>[character][0x1]:
 Il y a une très belle histoire à propos
-de cette église...[end]P</data>
+de cette église...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8af</ref>
         </refs>
         <data>PALPALEOS:
-Pourriez-vous me la conter?[end][character][0x1]</data>
+Pourriez-vous me la conter?[end]</data>
     </text>
     <text>
         <refs>
@@ -352,14 +347,14 @@ Autrefois,de nombreux amoureux vinrent
 à cette église pour se marier et être
 heureux.
 C'est pour cela qu'elle est aujourd'hui
-appelée l'Eglise des Souvenirs![end]P</data>
+appelée l'Eglise des Souvenirs![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8d3</ref>
         </refs>
         <data>PALPALEOS:
-Il était une fois un couple...[end][character][0x1]</data>
+Il était une fois un couple...[end]</data>
     </text>
     <text>
         <refs>
@@ -367,7 +362,7 @@ Il était une fois un couple...[end][character][0x1]</data>
         </refs>
         <data>[character][0x1]:
 Je crains que nous n'ayons pas plus
-de temps...[end]S</data>
+de temps...[end]</data>
     </text>
     <text>
         <refs>
@@ -375,6 +370,6 @@ de temps...[end]S</data>
         </refs>
         <data>Si j'avais un souhait...
 J'aimerais...
-Que le temps s'arrête maintenant...[end][0x0]</data>
+Que le temps s'arrête maintenant...[end]</data>
     </text>
 </texts>

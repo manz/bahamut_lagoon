@@ -5,7 +5,7 @@
             <ref>0x144</ref>
         </refs>
         <data>Frederica: Hey. Aren't [character][0x1] and
-the others back yet?[end]H</data>
+the others back yet?[end]</data>
     </text>
     <text>
         <refs>
@@ -13,41 +13,41 @@ the others back yet?[end]H</data>
         </refs>
         <data>Hornet: Sorry to make you wait!
 We brought your leader back.
-Captain Sendak is with us too.[end]D</data>
+Captain Sendak is with us too.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x15d</ref>
         </refs>
-        <data>Diana: [character][0x1]'s here!![end]F</data>
+        <data>Diana: [character][0x1]'s here!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x315</ref>
         </refs>
         <data>Frederica: [character][0x1]!!
-We've been waiting for you![end]D</data>
+We've been waiting for you![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x327</ref>
         </refs>
         <data>Diana: We were getting worried since
-you were late.[end]H</data>
+you were late.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x33d</ref>
         </refs>
         <data>Hornet: There will be time to chat
-later! Now our struggle begins.[end]H</data>
+later! Now our struggle begins.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x34a</ref>
         </refs>
         <data>Hornet: Okay, Captain Sendak!
-Give the order for departure![end]H</data>
+Give the order for departure![end]</data>
     </text>
     <text>
         <refs>
@@ -55,104 +55,104 @@ Give the order for departure![end]H</data>
         </refs>
         <data>Hornet: That's right! I forgot!
 You decided on a name for the ship,
-didn't you?[end]S</data>
+didn't you?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x375</ref>
         </refs>
-        <data>Sendak: The name of the ship is...[end]M</data>
+        <data>Sendak: The name of the ship is...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3c0</ref>
         </refs>
         <data>Matelite: Wait! You're forgetting about
-me! What is the meaning of this?![end]T</data>
+me! What is the meaning of this?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3f5</ref>
         </refs>
-        <data>Taicho: Matelite! Wait![end]H</data>
+        <data>Taicho: Matelite! Wait![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x403</ref>
         </refs>
-        <data>Hornet: Hey! Be quiet inside the ship![end]M</data>
+        <data>Hornet: Hey! Be quiet inside the ship![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x41d</ref>
         </refs>
         <data>Matelite: Just who do you think I am?!
-You're talking to me, Matelite![end]H</data>
+You're talking to me, Matelite![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4b5</ref>
         </refs>
         <data>Hornet: Okay, Captain Sendak.
-Now for the ship's name.[end]S</data>
+Now for the ship's name.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4c7</ref>
         </refs>
-        <data>Sendak: Ahem! Okay, get ready now...[end][character][0x1]</data>
+        <data>Sendak: Ahem! Okay, get ready now...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4fa</ref>
         </refs>
-        <data>[character][0x1], the flagship of Kahna!![end]T</data>
+        <data>[character][0x1], the flagship of Kahna!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x553</ref>
         </refs>
         <data>Taicho: The flagship of Kahna!?
-But something seems missing![end]M</data>
+But something seems missing![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x578</ref>
         </refs>
         <data>Matelite: Taicho... You know what to
-do...[end]T</data>
+do...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x581</ref>
         </refs>
         <data>Taicho: T-this is...!
-Sir Matelite!![end]T</data>
+Sir Matelite!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x587</ref>
         </refs>
         <data>Taicho: As you wish, Sir Matelite!
-Here I go![end]T</data>
+Here I go![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5f9</ref>
         </refs>
-        <data>Taicho: Here I go!![end]T</data>
+        <data>Taicho: Here I go!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6ce</ref>
         </refs>
-        <data>Taicho: Sir Matelite!! Look!![end]O</data>
+        <data>Taicho: Sir Matelite!! Look!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6e5</ref>
         </refs>
-        <data>Oh!! Kahna's flag![end]M</data>
+        <data>Oh!! Kahna's flag![end]</data>
     </text>
     <text>
         <refs>

@@ -5,28 +5,28 @@
             <ref>0x32</ref>
         </refs>
         <data>               Chapter 4
-             Full of Regret[end]M</data>
+             Full of Regret[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x436</ref>
             <ref>0x76</ref>
         </refs>
-        <data>Matelite: [character][0x1]![end]M</data>
+        <data>Matelite: [character][0x1]![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x94</ref>
         </refs>
         <data>Matelite: I, Matelite, captain of the
-knights of Kahna, have arrived![end]T</data>
+knights of Kahna, have arrived![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xab</ref>
         </refs>
         <data>Taicho: I, Taicho of the knights of
-Mahal, have also come![end]M</data>
+Mahal, have also come![end]</data>
     </text>
     <text>
         <refs>
@@ -34,14 +34,14 @@ Mahal, have also come![end]M</data>
             <ref>0x21d</ref>
         </refs>
         <data>Matelite: Alright, [character][0x1]! Do your
-worst![end]S</data>
+worst![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x359</ref>
             <ref>0x3df</ref>
         </refs>
-        <data>Soldier: !!![end][0x0]</data>
+        <data>Soldier: !!![end]</data>
     </text>
     <text>
         <refs>
@@ -49,7 +49,7 @@ worst![end]S</data>
         </refs>
         <data>[character][0x1]... My heart is full of
 regret. I had hoped we would finally
-find you...[end]M</data>
+find you...[end]</data>
     </text>
     <text>
         <refs>
@@ -57,47 +57,47 @@ find you...[end]M</data>
         </refs>
         <data>Matelite: Here comes the commander,
 taking his idle time! Hurry up,
-[character][0x1]![end][character][0x1]</data>
+[character][0x1]![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x22f</ref>
         </refs>
         <data>[character][0x1] was also tortured...
-That image will not do![end]A</data>
+That image will not do![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x239</ref>
         </refs>
-        <data>A distant, pleasant fragrance...[end]T</data>
+        <data>A distant, pleasant fragrance...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x248</ref>
         </refs>
         <data>Taicho: Hurry and introduce me to
-[character][0x1]![end][0x0]</data>
+[character][0x1]![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x252</ref>
         </refs>
         <data>Taicho: Do it however you like,
-[character][0x1]![end]I</data>
+[character][0x1]![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x260</ref>
         </refs>
         <data>I cannot believe that [character][0x1]
-would torture somebody...[end]S</data>
+would torture somebody...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x26a</ref>
         </refs>
-        <data>Sendak: [0x2a]gasp[0x2a] [0x2a]pant[0x2a] I will wait here...[end]L</data>
+        <data>Sendak: [0x2a]gasp[0x2a] [0x2a]pant[0x2a] I will wait here...[end]</data>
     </text>
     <text>
         <refs>
@@ -107,53 +107,53 @@ would torture somebody...[end]S</data>
 enemies outside. Are your battle
 preparations complete?
   Wait!
-  Let's go![end1]M</data>
+  Let's go![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x29f</ref>
         </refs>
-        <data>Matelite: Hey! Stop shouting![end]L</data>
+        <data>Matelite: Hey! Stop shouting![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2b8</ref>
         </refs>
         <data>Lukia: I'll wait here too. Sendak looks
-like he got a little too enthusiastic.[end]L</data>
+like he got a little too enthusiastic.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2bf</ref>
         </refs>
         <data>Lukia: Rush is chasing after a
-Granbelos soldier.[end]R</data>
+Granbelos soldier.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2d2</ref>
             <ref>0x57f</ref>
         </refs>
-        <data>Rush: Sorry... he got away.[end]R</data>
+        <data>Rush: Sorry... he got away.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2df</ref>
         </refs>
-        <data>Rush: But I brought this guy with me.[end]R</data>
+        <data>Rush: But I brought this guy with me.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5d8</ref>
         </refs>
-        <data>Rush: I see.[end][0x0]</data>
+        <data>Rush: I see.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2f1</ref>
             <ref>0x301</ref>
         </refs>
-        <data>Battlefield salesman: Hello![end] </data>
+        <data>Battlefield salesman: Hello![end]</data>
     </text>
     <text>
         <refs>
@@ -161,33 +161,33 @@ Granbelos soldier.[end]R</data>
         </refs>
         <data>  Show me weapons.
   Show me armor.
-  Show me items.[end1]U</data>
+  Show me items.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x346</ref>
         </refs>
-        <data>Uhehehehe... Princess... Hee hee hee...[end]S</data>
+        <data>Uhehehehe... Princess... Hee hee hee...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x369</ref>
         </refs>
         <data>Soldier: Sorry, General Zomberd!
-I was daydreaming![end]S</data>
+I was daydreaming![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x375</ref>
         </refs>
-        <data>Soldier: Who are you?![end]S</data>
+        <data>Soldier: Who are you?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3a0</ref>
         </refs>
         <data>Soldier: The Resistance?! Please, spare
-my life![end]S</data>
+my life![end]</data>
     </text>
     <text>
         <refs>
@@ -197,20 +197,20 @@ my life![end]S</data>
 You're... not gonna torture me, are
 you?
   Torture it is!
-  I can't do something like that![end1]A</data>
+  I can't do something like that![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x4de</ref>
             <ref>0x40f</ref>
         </refs>
-        <data>Aah! Stop! I don't like being hurt![end]R</data>
+        <data>Aah! Stop! I don't like being hurt![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5b4</ref>
         </refs>
-        <data>Rush: Screw that![end][0x0]</data>
+        <data>Rush: Screw that![end]</data>
     </text>
     <text>
         <refs>
@@ -220,14 +220,14 @@ you?
 ......
 
 Oh no! You're just toying with me!
-You're going to, after all![end]M</data>
+You're going to, after all![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x454</ref>
         </refs>
         <data>Matelite: What is this? Where is
-[character][0x1]?![end]R</data>
+[character][0x1]?![end]</data>
     </text>
     <text>
         <refs>
@@ -235,13 +235,13 @@ You're going to, after all![end]M</data>
         </refs>
         <data>Rush: She isn't here. [character][0x1] is
 gonna ask this guy about her by
-torturing him.[end]T</data>
+torturing him.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x46d</ref>
         </refs>
-        <data>Taicho: Excellent idea![end]S</data>
+        <data>Taicho: Excellent idea![end]</data>
     </text>
     <text>
         <refs>
@@ -249,48 +249,48 @@ torturing him.[end]T</data>
         </refs>
         <data>Soldier: Please stop! I'll talk! I'll talk!
 Princess [character][0x1] was taken with
-Emperor Sauzer![end]M</data>
+Emperor Sauzer![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4b3</ref>
         </refs>
-        <data>Matelite: But WHERE TO?![end]S</data>
+        <data>Matelite: But WHERE TO?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4bc</ref>
         </refs>
         <data>Soldier: To the forest to the north!
-I don't know the details![end]M</data>
+I don't know the details![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4c8</ref>
         </refs>
         <data>Matelite: You don't know the details?
-Lying won't do you any good.[end]M</data>
+Lying won't do you any good.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4d5</ref>
         </refs>
         <data>Matelite: Fine. I'll just have to
-personally show him some real torture.[end]R</data>
+personally show him some real torture.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x53b</ref>
         </refs>
         <data>Rush: Oh no! He's going to call for his
-friends![end]R</data>
+friends![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x586</ref>
         </refs>
         <data>Rush: Those Granbelos jerks! Sticking
-[character][0x1] in a place like this![end]R</data>
+[character][0x1] in a place like this![end]</data>
     </text>
     <text>
         <refs>
@@ -300,7 +300,7 @@ friends![end]R</data>
 ahead! What should we do,
 [character][0x1]?
   You go on ahead!
-  Come back later![end1]R</data>
+  Come back later![end1]</data>
     </text>
     <text>
         <refs>
@@ -309,7 +309,7 @@ ahead! What should we do,
         <data>Rush: [0x24]Oh, Rush! You came to save me![0x22]
 And then I'll hold her tightly in my
 arms!
-Sorry, [character][0x1]. Come back later![end]R</data>
+Sorry, [character][0x1]. Come back later![end]</data>
     </text>
     <text>
         <refs>
@@ -321,33 +321,33 @@ yourself, don't you?!
 [0x24]Oh, [character][0x1]! You came to save
 me! I'm so happy![0x22] she'll say, then
 you'll hold each other's hands...
-That role is mine![end]R</data>
+That role is mine![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x60b</ref>
         </refs>
-        <data>Rush: She isn't here...[end]R</data>
+        <data>Rush: She isn't here...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x612</ref>
         </refs>
-        <data>Rush: I wonder what this guy knows?[end]B</data>
+        <data>Rush: I wonder what this guy knows?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6a5</ref>
         </refs>
         <data>Bikkebakke: I brought the dragons, but
-it's a little crowded here.[end]H</data>
+it's a little crowded here.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x76c</ref>
         </refs>
         <data>Hey! What happened to, [0x24]Rush... Thank
-you...[0x22]!?[end]R</data>
+you...[0x22]!?[end]</data>
     </text>
     <text>
         <refs>

@@ -8,7 +8,7 @@
 Je me demande si cette fille voit le
 même ciel que moi.
 Son attitude ne me permet même pas
-de mieux le cerner.[end]Z</data>
+de mieux le cerner.[end]</data>
     </text>
     <text>
         <refs>
@@ -18,7 +18,7 @@ de mieux le cerner.[end]Z</data>
 Je vais enfin revoir Campbell après de
 si longues années.
 Je n'arriverai pas à rester calme
-très longtemps tant je suis contente![end]F</data>
+très longtemps tant je suis contente![end]</data>
     </text>
     <text>
         <refs>
@@ -31,8 +31,7 @@ Combattre est épuisant,
 mais si tu veux... frappe-moi[0xd8]
  
  Le faire à contre-coeur...
- Le faire doucement...[end1]
-</data>
+ Le faire doucement...[end1]</data>
     </text>
     <text>
         <refs>
@@ -45,8 +44,7 @@ Tu as vu de quelle manière parle les
 lanciers depuis quelques temps?
  
  Que veux-tu dire?
- Je n'ai pas vu de différence![end1]
-</data>
+ Je n'ai pas vu de différence![end1]</data>
     </text>
     <text>
         <refs>
@@ -56,7 +54,7 @@ lanciers depuis quelques temps?
 C'est bien que la Princesse [character][0x1]
 soit enfin revenue!
 Sache qu'une personne comme moi,
-une Garde Lumière,peut marcher loin.[end]M</data>
+une Garde Lumière,peut marcher loin.[end]</data>
     </text>
     <text>
         <refs>
@@ -66,8 +64,7 @@ une Garde Lumière,peut marcher loin.[end]M</data>
 [character][0x1],
 est-ce que tu aimes [character][0x1]?
  Evidemment,quelle question!
- Et bien...[end1]
-</data>
+ Et bien...[end1]</data>
     </text>
     <text>
         <refs>
@@ -77,7 +74,7 @@ est-ce que tu aimes [character][0x1]?
 ...
 ...
 Mélodia aime beaucoup tout ce qu'aime
-[character][0x1]...[end]H</data>
+[character][0x1]...[end]</data>
     </text>
     <text>
         <refs>
@@ -88,14 +85,14 @@ Je suis soulagée!
 SOULAGEE!
 Au fait,sache que Lukia m'a confié
 qu'elle adorait sortir avec des hommes
-bien vêtus![end]M</data>
+bien vêtus![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5ff</ref>
         </refs>
         <data>Merci...
-[character][0x1],tu es très gentil.[end]D</data>
+[character][0x1],tu es très gentil.[end]</data>
     </text>
     <text>
         <refs>
@@ -112,7 +109,7 @@ Elle n'a jamais été si bruyante.
  
 Tu peux me considérer comme quelqu'un
 de nostalgique mais je peux t'assurer
-que c'était bien plus calme auvant![end]B</data>
+que c'était bien plus calme auvant![end]</data>
     </text>
     <text>
         <refs>
@@ -131,7 +128,7 @@ Quel désastre[0xd8][end][end]</data>
         </refs>
         <data>FREDERIKA:
 Moi?! Je vais bien!
-Je prépare un peu de médecine...[end]E</data>
+Je prépare un peu de médecine...[end]</data>
     </text>
     <text>
         <refs>
@@ -139,7 +136,7 @@ Je prépare un peu de médecine...[end]E</data>
         </refs>
         <data>EKATERINA:
 Ainsi,il aimerait le Uniuji?
-Hahaha,je lui en enverrai![end]E</data>
+Hahaha,je lui en enverrai![end]</data>
     </text>
     <text>
         <refs>
@@ -147,7 +144,7 @@ Hahaha,je lui en enverrai![end]E</data>
         </refs>
         <data>EKATERINA:
 Ainsi,il aimerait le Vin Doux?
-Hahaha,je lui en enverrai![end]A</data>
+Hahaha,je lui en enverrai![end]</data>
     </text>
     <text>
         <refs>
@@ -161,7 +158,7 @@ la force que tu as gagné.
  
 Seul l'argent compte pour les guerriers
 lents comme Bareck.
-Ils ne sont satisfait que par ça.[end]D</data>
+Ils ne sont satisfait que par ça.[end]</data>
     </text>
     <text>
         <refs>
@@ -169,7 +166,7 @@ Ils ne sont satisfait que par ça.[end]D</data>
         </refs>
         <data>DON JUAN:
 Leçon de Morale!
-Une sorcière ne ferait jamais ça![end]D</data>
+Une sorcière ne ferait jamais ça![end]</data>
     </text>
     <text>
         <refs>
@@ -177,14 +174,14 @@ Une sorcière ne ferait jamais ça![end]D</data>
         </refs>
         <data>DON JUAN:
 Leçon de Morale!
-Une prêtresse ne ferait jamais ça![end]D</data>
+Une prêtresse ne ferait jamais ça![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7b0</ref>
         </refs>
         <data>DON JUAN:
-Je vis la vie au maximum![end]A</data>
+Je vis la vie au maximum![end]</data>
     </text>
     <text>
         <refs>
@@ -198,7 +195,7 @@ Il fallait s'en douter!
  
 Je suis restée sur ma faim lorsqu'ils
 ont parlé des distinctions entre une
-Armure Lourde et une Sorcière.[end]A</data>
+Armure Lourde et une Sorcière.[end]</data>
     </text>
     <text>
         <refs>
@@ -208,21 +205,20 @@ Armure Lourde et une Sorcière.[end]A</data>
 Bareck a dit quelque chose?
  
  Félicitations!
- Rien de particulier...[end1]
-</data>
+ Rien de particulier...[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x421</ref>
         </refs>
         <data>S'il en parle,c'est une bonne chose!
-Héhéhéhéhé![end]A</data>
+Héhéhéhéhé![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x429</ref>
         </refs>
-        <data>Ah bon?![end]E</data>
+        <data>Ah bon?![end]</data>
     </text>
     <text>
         <refs>
@@ -232,7 +228,7 @@ Héhéhéhéhé![end]A</data>
 Le visage souriant de cette fille...
 Le mien est beaucoup plus beau grâce
 au Vin Doux!
-Huhu... Huhuhu... Huhuhuhu...[end]E</data>
+Huhu... Huhuhu... Huhuhuhu...[end]</data>
     </text>
     <text>
         <refs>
@@ -246,7 +242,7 @@ plus?
  
 Je suis une personne qui a tant de
 souvenirs!
-Huhu... Huhuhu... Huhuhuhu...[end]E</data>
+Huhu... Huhuhu... Huhuhuhu...[end]</data>
     </text>
     <text>
         <refs>
@@ -257,7 +253,7 @@ plus?
  
 Je suis une personne qui a tant de
 souvenirs!
-Huhu... Huhuhu... Huhuhuhu...[end]E</data>
+Huhu... Huhuhu... Huhuhuhu...[end]</data>
     </text>
     <text>
         <refs>
@@ -275,7 +271,7 @@ Bon,on change d'optique et tout le
 monde doit perdre!
 Voilà,un point c'est tout...
 Que je suis drôle!
-Huhu... Huhuhu... Huhuhuhu...[end]E</data>
+Huhu... Huhuhu... Huhuhuhu...[end]</data>
     </text>
     <text>
         <refs>
@@ -292,7 +288,7 @@ souvent.
 Je suis adorée de tous!
 La guerre est bientôt finie et j'ai
 tout à y gagner!
-Huhu... Huhuhu... Huhuhuhu...[end]N</data>
+Huhu... Huhuhu... Huhuhuhu...[end]</data>
     </text>
     <text>
         <refs>
@@ -302,7 +298,7 @@ Huhu... Huhuhu... Huhuhuhu...[end]N</data>
 Est-ce que tu as remarqué quelque
 chose,[character][0x1]?
 Nous avons enfermé Don Juan!
-C'est génial,n'est-ce pas?![end]J</data>
+C'est génial,n'est-ce pas?![end]</data>
     </text>
     <text>
         <refs>
@@ -311,7 +307,7 @@ C'est génial,n'est-ce pas?![end]J</data>
         <data>JOY:
 Moi et Nelbo sommes prêtes à être
 envoyées au combat dès qu'il sera
-temps![end]N</data>
+temps![end]</data>
     </text>
     <text>
         <refs>
@@ -324,7 +320,7 @@ Il m'a dit qu'on aura une grande
 sensation lorsque nos visages se
 reflèteront dans les lacs de Mahal.
 Cependant,je ne dois pas oublier mon
-mon amie Joy.[end]J</data>
+mon amie Joy.[end]</data>
     </text>
     <text>
         <refs>
@@ -337,7 +333,7 @@ Je crois qu'il sera subjugué par la
 beauté de la nature.
 J'en suis certaine!
 Cependant,je ne dois pas oublier mon
-amie Nelbo.[end]D</data>
+amie Nelbo.[end]</data>
     </text>
     <text>
         <refs>
@@ -346,7 +342,7 @@ amie Nelbo.[end]D</data>
         </refs>
         <data>DON JUAN:
 Haha,[character][0x1]!
-Je suis Don Juan,le Méritant![end]M</data>
+Je suis Don Juan,le Méritant![end]</data>
     </text>
     <text>
         <refs>
@@ -356,20 +352,19 @@ Je suis Don Juan,le Méritant![end]M</data>
 Ah [character][0x1]!
 Tu sais qui aime Mélodia?
  Tu vas encore mentir!
- Je le sais...[end1]
-</data>
+ Je le sais...[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x563</ref>
         </refs>
-        <data>MENTEUR![end]T</data>
+        <data>MENTEUR![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x55b</ref>
         </refs>
-        <data>Tu as un si grand coeur![end]M</data>
+        <data>Tu as un si grand coeur![end]</data>
     </text>
     <text>
         <refs>
@@ -379,21 +374,20 @@ Tu sais qui aime Mélodia?
 Est-ce bientôt la fin de la guerre?
  
  Je n'en sais rien...
- Je ne pense pas![end1]
-</data>
+ Je ne pense pas![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x576</ref>
         </refs>
-        <data>Tout le monde pense ça![end]C</data>
+        <data>Tout le monde pense ça![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x57e</ref>
         </refs>
         <data>C'est terrible [character][0x1]!
-C'est long![end]Z</data>
+C'est long![end]</data>
     </text>
     <text>
         <refs>
@@ -403,26 +397,25 @@ C'est long![end]Z</data>
 As-tu vu mon fils?
  
  Non,désolé...
- Une fois de plus![end1]
-</data>
+ Une fois de plus![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x5aa</ref>
         </refs>
-        <data>Essaie de le trouver![end]S</data>
+        <data>Essaie de le trouver![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5b2</ref>
         </refs>
-        <data>Sache qu'il assume un très grand nom![end][end1]</data>
+        <data>Sache qu'il assume un très grand nom![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5c5</ref>
         </refs>
-        <data>Tout le monde...[end]F</data>
+        <data>Tout le monde...[end]</data>
     </text>
     <text>
         <refs>
@@ -437,7 +430,7 @@ Il me faut...
 Il me faut de la médecine...
  
 Aujourd'hui les soins:
-[0xaa]Remède[0xab]...[end]F</data>
+[0xaa]Remède[0xab]...[end]</data>
     </text>
     <text>
         <refs>
@@ -452,7 +445,7 @@ d'être un peu plus énergique.
 Quand ça arrivera,tu crois que je
 pourrai ouvrir un magasin de médecine?
 Ne t'inquiète pas!
-Je ne vendrai pas de magies illégales.[end]D</data>
+Je ne vendrai pas de magies illégales.[end]</data>
     </text>
     <text>
         <refs>
@@ -462,8 +455,7 @@ Je ne vendrai pas de magies illégales.[end]D</data>
 Est-ce bientôt la fin de la guerre?
  
  Je ne sais pas...
- Et bien...[end1]
-</data>
+ Et bien...[end1]</data>
     </text>
     <text>
         <refs>
@@ -476,7 +468,7 @@ Je le savais!
 Attention,je ne suis pas le genre de
 fille qui prête attention aux rumeurs.
 Moi,les choses que je dis sont des
-plus vraies.[end]L</data>
+plus vraies.[end]</data>
     </text>
     <text>
         <refs>
@@ -489,15 +481,14 @@ Fais-tu attention aux rumeurs qui
 courent?
  
  Excuse-moi?!
- Merci,ça me réconforte![end1]
-</data>
+ Merci,ça me réconforte![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x77f</ref>
             <ref>0x777</ref>
         </refs>
-        <data>Tu as une place d'honneur![end]L</data>
+        <data>Tu as une place d'honneur![end]</data>
     </text>
     <text>
         <refs>
@@ -510,7 +501,7 @@ Tout le monde sera satisfait lorsqu'ils
 sauront qu'ils ne craignent plus rien
 pour leur vie.
 La fin du combat est proche!
-Nous en sommes tous persuadés![end]J</data>
+Nous en sommes tous persuadés![end]</data>
     </text>
     <text>
         <refs>
@@ -521,7 +512,7 @@ Don Juan est l'un des détracteurs de
 couples à Campbell.
 Nous avons réussi à le calmer!
 Ce pathétique Don Juan nous laisse
-enfin en paix.[end]J</data>
+enfin en paix.[end]</data>
     </text>
     <text>
         <refs>
@@ -531,7 +522,7 @@ enfin en paix.[end]J</data>
 Dès que la guerre sera finie,
 je crois que je retournerai à Mahal.
 Avec mes amis nous servirons tout
-spécialement Commandant.[end]M</data>
+spécialement Commandant.[end]</data>
     </text>
     <text>
         <refs>
@@ -539,7 +530,7 @@ spécialement Commandant.[end]M</data>
             <ref>0x7de</ref>
         </refs>
         <data>MIST:
-J'aimerais t'accompagner au combat![end]M</data>
+J'aimerais t'accompagner au combat![end]</data>
     </text>
     <text>
         <refs>
@@ -552,7 +543,7 @@ Je suis aussi redevable envers Zora
 de Campbell pour m'avoir aidé dans
 mon combat.
 L'air du Lagon Campbell est si frais.
-C'est un vrai plaisir![end]T</data>
+C'est un vrai plaisir![end]</data>
     </text>
     <text>
         <refs>
@@ -562,7 +553,7 @@ C'est un vrai plaisir![end]T</data>
 Au moins,je ne penses à rien dans
 cette chambre!
 Ici,les femmes ne sont pas nerveuses
-et elles t'écoutent.[end]C</data>
+et elles t'écoutent.[end]</data>
     </text>
     <text>
         <refs>
@@ -570,7 +561,7 @@ et elles t'écoutent.[end]C</data>
         </refs>
         <data>C'est la meilleure!
 Le Général Palpaleos et la Princesse
-[character][0x1] vont ensemble![end]H</data>
+[character][0x1] vont ensemble![end]</data>
     </text>
     <text>
         <refs>
@@ -583,7 +574,7 @@ Que devrais-je bien lui dire?
 était inévitable!
  
 Un instant! Regarde-moi!
-Je suis très belle,non?![end]L</data>
+Je suis très belle,non?![end]</data>
     </text>
     <text>
         <refs>
@@ -591,7 +582,7 @@ Je suis très belle,non?![end]L</data>
         </refs>
         <data>L'air de Campbell est si doux...
 Je pourrais le respirer au moins
-[0xb0][0xaf][0xaf] fois de suite![end]J</data>
+[0xb0][0xaf][0xaf] fois de suite![end]</data>
     </text>
     <text>
         <refs>
@@ -599,7 +590,7 @@ Je pourrais le respirer au moins
         </refs>
         <data>JOY:
 Tu ne penses pas que Don Juan est
-très mignon comme ça?[end]N</data>
+très mignon comme ça?[end]</data>
     </text>
     <text>
         <refs>
@@ -608,7 +599,7 @@ très mignon comme ça?[end]N</data>
         <data>NELBO:
 Amuse-toi avec ce gentleman...
 Il est marrant,non?
-[0xa8]Il a l'air idiot![0xa9][end]D</data>
+[0xa8]Il a l'air idiot![0xa9][end]</data>
     </text>
     <text>
         <refs>
@@ -617,14 +608,14 @@ Il est marrant,non?
         </refs>
         <data>DON JUAN:
 Don Juan est très bien ici mais il
-aime la vie mais pas l'humiliation![end]J</data>
+aime la vie mais pas l'humiliation![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x687</ref>
         </refs>
         <data>JOY:
-Maintenant,Don Juan est plus calme...[end]N</data>
+Maintenant,Don Juan est plus calme...[end]</data>
     </text>
     <text>
         <refs>
@@ -632,7 +623,7 @@ Maintenant,Don Juan est plus calme...[end]N</data>
         </refs>
         <data>NELBO:
 Maintenant,Don Juan est plus calme au
-bar...[end]D</data>
+bar...[end]</data>
     </text>
     <text>
         <refs>
@@ -643,7 +634,7 @@ bar...[end]D</data>
 Je suis toujours le même!
  
 Don Juan captive encore autant
-l'attention![end]D</data>
+l'attention![end]</data>
     </text>
     <text>
         <refs>
@@ -653,8 +644,7 @@ l'attention![end]D</data>
 Est-ce que tu le sais?
 C'est une chose importante!
  Informe-moi!
- Je suis très occupé...[end1]
-</data>
+ Je suis très occupé...[end1]</data>
     </text>
     <text>
         <refs>
@@ -671,7 +661,7 @@ devrais-je dire un clepto!
 Un cleptomane,hahaha!
 Et... et... cette personne est
 Reeve!
-C'est fou,non?![end]D</data>
+C'est fou,non?![end]</data>
     </text>
     <text>
         <refs>
@@ -681,8 +671,7 @@ C'est fou,non?![end]D</data>
 Veux-tu savoir ce que j'ai à dire sur
 [character][0x1]?
  Informe-moi!
- Je suis très occupé...[end1]
-</data>
+ Je suis très occupé...[end1]</data>
     </text>
     <text>
         <refs>
@@ -696,7 +685,7 @@ Sacrés.
  
 Ils avaient l'air en colère[0xd8]
 Qu'est-ce que ça veut dire?
-Je me pose beaucoup de questions![end]A</data>
+Je me pose beaucoup de questions![end]</data>
     </text>
     <text>
         <refs>
@@ -719,7 +708,7 @@ leur pouvoir magique tandis que Bareck
 et les autres n'augmentent qu'en
 force!
 De toute manière,des types comme lui
-ne sont que des brutes.[end]A</data>
+ne sont que des brutes.[end]</data>
     </text>
     <text>
         <refs>
@@ -730,7 +719,7 @@ Aujourd'hui je suis allée me promener
 mais je n'ai rien découvert de très
 d'intéressant.
 Par contre,qui tu sais marche
-lentement... lentement...[end]F</data>
+lentement... lentement...[end]</data>
     </text>
     <text>
         <refs>
@@ -740,7 +729,7 @@ lentement... lentement...[end]F</data>
 La Porte de la Nouvelle Ere est
 ouverte...
 Qu'allons-nous bien trouver au delà de
-cette Porte?[end]J</data>
+cette Porte?[end]</data>
     </text>
     <text>
         <refs>
@@ -749,7 +738,7 @@ cette Porte?[end]J</data>
         <data>JEANNE:
 J'avais demandé du Miel Doux et des
 Cookies à Don Juan mais il ne cesse
-de sauter et de me regarder![end]E</data>
+de sauter et de me regarder![end]</data>
     </text>
     <text>
         <refs>
@@ -763,7 +752,7 @@ Pourquoi personne n'amène du Vin Doux
 Huhu... Huhuhu... Huhuhuhu...
 Je suis une femme qui a tant d'esprit!
 Je suis hypra-intelligente!
-Huhu... Huhuhu... Huhuhuhu...[end]E</data>
+Huhu... Huhuhu... Huhuhuhu...[end]</data>
     </text>
     <text>
         <refs>
@@ -779,6 +768,6 @@ Ekaterina la Malicieuse!
 Je suis la plus malicieuse!
 Hihi... Hihihi... Hihihihi...
 Personne ne peut s'empêcher de
-penser à moi![end][0x0]</data>
+penser à moi![end]</data>
     </text>
 </texts>

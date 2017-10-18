@@ -6,21 +6,21 @@
         </refs>
         <data>Dragonkeeper: Here I am!
 You shouldn't keep the dragons
-starving![end][0x0]</data>
+starving![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x91</ref>
         </refs>
         <data>               Chapter 2
-     The Legend we Dreamed of...[end] </data>
+     The Legend we Dreamed of...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9a</ref>
         </refs>
         <data>              Chapter 20
-         The Sky of Sadness[end][0x0]</data>
+         The Sky of Sadness[end]</data>
     </text>
     <text>
         <refs>
@@ -31,7 +31,7 @@ starving![end][0x0]</data>
 Matelite has some big, important
 announcement.
 Didn't we all have to line up like this
-once before?[end]R</data>
+once before?[end]</data>
     </text>
     <text>
         <refs>
@@ -41,7 +41,7 @@ once before?[end]R</data>
 the basics of fighting.
 
 He thinks he's such a big shot, yelling
-at us to line up and wait like that...[end]T</data>
+at us to line up and wait like that...[end]</data>
     </text>
     <text>
         <refs>
@@ -50,21 +50,21 @@ at us to line up and wait like that...[end]T</data>
         <data>Taicho: Quiet down!
 
 
-Be quiet and listen to Matelite's speech![end]P</data>
+Be quiet and listen to Matelite's speech![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x158</ref>
         </refs>
         <data>Palpaleos: Matelite has something to
-say. I would like you to listen.[end]R</data>
+say. I would like you to listen.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1bb</ref>
         </refs>
         <data>Rush: Matelite's speech is long.
-Will you do the quick version?[end] </data>
+Will you do the quick version?[end]</data>
     </text>
     <text>
         <refs>
@@ -80,7 +80,7 @@ Will you do the quick version?[end] </data>
             <ref>0x1bf</ref>
         </refs>
         <data>  Yes
-  No[end1]M</data>
+  No[end1]</data>
     </text>
     <text>
         <refs>
@@ -89,21 +89,21 @@ Will you do the quick version?[end] </data>
         <data>Matelite: Whenever I'm in front of
 everyone I get really nervous...
 This won't do...
-Do it just like I practiced...[end]M</data>
+Do it just like I practiced...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1fc</ref>
         </refs>
         <data>Matelite: You all are probably very
-exhausted, so... to put it briefly...[end]M</data>
+exhausted, so... to put it briefly...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x20e</ref>
         </refs>
         <data>Matelite: Our fight has only just begun!
-Okay, everybody![end]M</data>
+Okay, everybody![end]</data>
     </text>
     <text>
         <refs>
@@ -111,27 +111,27 @@ Okay, everybody![end]M</data>
         </refs>
         <data>Matelite: As you know, Sendak has
 fainted. He's not dead yet, but he
-probably doesn't have long to live...[end]H</data>
+probably doesn't have long to live...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x22c</ref>
         </refs>
         <data>Here is Sendak's will! He hasn't died
-yet, but I'll read it anyway![end]M</data>
+yet, but I'll read it anyway![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2ea</ref>
         </refs>
-        <data>ME![end][0x2a]</data>
+        <data>ME![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6a0</ref>
             <ref>0x38d</ref>
         </refs>
-        <data>[0x2a]gasp[0x2a] [0x2a]gasp[0x2a][end][0x0]</data>
+        <data>[0x2a]gasp[0x2a] [0x2a]gasp[0x2a][end]</data>
     </text>
     <text>
         <refs>
@@ -142,7 +142,7 @@ the Granbelos Empire!
 
 We are the freedom force that will
 save all the lagoons of our world of
-Orelus from the rule of the Empire![end]H</data>
+Orelus from the rule of the Empire![end]</data>
     </text>
     <text>
         <refs>
@@ -152,7 +152,7 @@ Orelus from the rule of the Empire![end]H</data>
 called a humble resistance group...
 
 To not forget that, I shall call us the
-Resistance, not the Freedom Force![end]M</data>
+Resistance, not the Freedom Force![end]</data>
     </text>
     <text>
         <refs>
@@ -160,7 +160,7 @@ Resistance, not the Freedom Force![end]M</data>
         </refs>
         <data>Matelite: It says, [0x24]I hereby make
 [character][0x1] acting captain after I pass
-away...[0x22]!![end]O</data>
+away...[0x22]!![end]</data>
     </text>
     <text>
         <refs>
@@ -168,7 +168,7 @@ away...[0x22]!![end]O</data>
         </refs>
         <data>Okay, everyone!!
 The first thing we need are rules and
-orders for the unit![end]S</data>
+orders for the unit![end]</data>
     </text>
     <text>
         <refs>
@@ -178,49 +178,49 @@ orders for the unit![end]S</data>
 he dies...
 
 We will respect Sendak's dying wish and
-make [character][0x1] acting captain![end]H</data>
+make [character][0x1] acting captain![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x278</ref>
         </refs>
         <data>However... It seems there are people
-who don't understand![end][character][0x1]</data>
+who don't understand![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x281</ref>
         </refs>
         <data>[character][0x1]! Do your best as the new
-captain![end]F</data>
+captain![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2c2</ref>
         </refs>
         <data>First, I will have to show you what
-rules and orders are![end]T</data>
+rules and orders are![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2d9</ref>
         </refs>
         <data>The one who will command the
-Resistance is...[end]N</data>
+Resistance is...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x365</ref>
         </refs>
         <data>No matter what you say...
-I am Matelite of Kahna![end]I</data>
+I am Matelite of Kahna![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3a6</ref>
         </refs>
         <data>I have no equal when it comes to
-fighting![end]I</data>
+fighting![end]</data>
     </text>
     <text>
         <refs>
@@ -229,7 +229,7 @@ fighting![end]I</data>
         <data>If I'm going to be the one who takes
 command of the battle, then the
 captain of [character][0x1], Kahna's...
-No... the Resistance's flagship will be...[end]B</data>
+No... the Resistance's flagship will be...[end]</data>
     </text>
     <text>
         <refs>
@@ -239,78 +239,78 @@ No... the Resistance's flagship will be...[end]B</data>
 he's just faking it, that he was
 exhausted in battle!
 We'll have Captain Sendak help out in
-the next battle, so don't worry![end]M</data>
+the next battle, so don't worry![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x469</ref>
         </refs>
-        <data>Master Sendak!![end]Y</data>
+        <data>Master Sendak!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x48a</ref>
         </refs>
         <data>You handle the controls!
-You, over there![end]R</data>
+You, over there![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4a6</ref>
         </refs>
-        <data>Respond![end]H</data>
+        <data>Respond![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4bb</ref>
         </refs>
-        <data>Hornet: Quiet![end]H</data>
+        <data>Hornet: Quiet![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4da</ref>
         </refs>
         <data>Hornet: Tell me when to make
-[character][0x1] leave![end]A</data>
+[character][0x1] leave![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4e9</ref>
         </refs>
-        <data>And tell me where to go too![end]M</data>
+        <data>And tell me where to go too![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x501</ref>
         </refs>
-        <data>Matelite: Taicho... What do you want?[end]T</data>
+        <data>Matelite: Taicho... What do you want?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x512</ref>
         </refs>
         <data>Taicho: I am Taicho, which makes me
-the squad captain![end]M</data>
+the squad captain![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x526</ref>
         </refs>
-        <data>Matelite: Taicho is the squad captain![end]M</data>
+        <data>Matelite: Taicho is the squad captain![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x537</ref>
         </refs>
         <data>Matelite: Okay, everybody!
-From now on follow the rules![end]W</data>
+From now on follow the rules![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x54b</ref>
         </refs>
         <data>We're going to practice now!
-Do what I say! Okay, here we go![end]T</data>
+Do what I say! Okay, here we go![end]</data>
     </text>
     <text>
         <refs>
@@ -318,34 +318,34 @@ Do what I say! Okay, here we go![end]T</data>
             <ref>0x6f5</ref>
         </refs>
         <data>Turn right!
-[0xfc][0x1][0x28]Press right![0x29][end1]O</data>
+[0xfc][0x1][0x28]Press right![0x29][end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x5a1</ref>
         </refs>
         <data>Okay, General Palpaleos!
-We're counting on you![end][0x2a]</data>
+We're counting on you![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6aa</ref>
         </refs>
-        <data>[0x2a]wheeze[0x2a][end]F</data>
+        <data>[0x2a]wheeze[0x2a][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6b3</ref>
         </refs>
         <data>Face straight!
-[0xfc][0x1][0x28]Press up![0x29][end1]T</data>
+[0xfc][0x1][0x28]Press up![0x29][end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x736</ref>
         </refs>
         <data>Turn left!
-[0xfc][0x1][0x28]Press left![0x29][end1]P</data>
+[0xfc][0x1][0x28]Press left![0x29][end1]</data>
     </text>
     <text>
         <refs>
@@ -354,7 +354,7 @@ We're counting on you![end][0x2a]</data>
         <data>Palpaleos: So this is the chief member
 of the Resistance...
 
-[0x28]I must blend in quickly...[0x29][end][character][0x1]</data>
+[0x28]I must blend in quickly...[0x29][end]</data>
     </text>
     <text>
         <refs>
@@ -364,7 +364,7 @@ of the Resistance...
 excellent knight just like me...
 
 [character][0x1] is now of marriageable
-age... Don't disappoint me...[end].</data>
+age... Don't disappoint me...[end]</data>
     </text>
     <text>
         <refs>
@@ -378,7 +378,7 @@ Zzzz...
 
 [character][0x1]......
 [0x2a]mumble[0x2a] [0x2a]mumble[0x2a]
-......[end]S</data>
+......[end]</data>
     </text>
     <text>
         <refs>
@@ -387,28 +387,28 @@ Zzzz...
         </refs>
         <data>Sendak: [character][0x1]... There is
 something I wish to talk to you about...
-Come to the captain's room later...[end]U</data>
+Come to the captain's room later...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc06</ref>
         </refs>
         <data>Uh oh... Formation and dragons...
-I'm not good with either of them...[end]S</data>
+I'm not good with either of them...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc0d</ref>
         </refs>
         <data>Sir Matelite practiced all night without
-sleeping... Leave him be...[end]T</data>
+sleeping... Leave him be...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc14</ref>
         </refs>
         <data>Taicho: Nobody likes me. Matelite
-demoted me to number three...[end]R</data>
+demoted me to number three...[end]</data>
     </text>
     <text>
         <refs>
@@ -416,35 +416,35 @@ demoted me to number three...[end]R</data>
         </refs>
         <data>Rush: Matelite looks like he's mad.
 Is this a foreshadow of things to
-come...?[end]R</data>
+come...?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc31</ref>
         </refs>
         <data>Rush: Don't jump out just because
-the practice didn't go well![end]R</data>
+the practice didn't go well![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc43</ref>
         </refs>
         <data>Rush: Acting captain...
-Way to go, [character][0x1]![end]T</data>
+Way to go, [character][0x1]![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc52</ref>
         </refs>
         <data>Truce: We're waiting for Matelite.
-Get in line.[end]T</data>
+Get in line.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc5c</ref>
         </refs>
         <data>Truce: Hmm... balance is an important
-part of Formation...[end]T</data>
+part of Formation...[end]</data>
     </text>
     <text>
         <refs>
@@ -454,21 +454,21 @@ part of Formation...[end]T</data>
 Trafalgar, is the Empire's ultimate
 weapon!
 Emperor Sauzer must not have allowed
-its use in the previous battles...[end]B</data>
+its use in the previous battles...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc75</ref>
         </refs>
         <data>Bikkebakke: Umm... Are we going to
-start soon or not?[end]B</data>
+start soon or not?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc7c</ref>
         </refs>
         <data>Bikkebakke: Umm... How long are we
-going to be doing this?[end][0x28]</data>
+going to be doing this?[end]</data>
     </text>
     <text>
         <refs>
@@ -478,47 +478,47 @@ going to be doing this?[end][0x28]</data>
 difficult book.[0x29]
 
 [0x28]The cover of the book says,
-[0x24]The Theory of Economics[0x22].[0x29][end]H</data>
+[0x24]The Theory of Economics[0x22].[0x29][end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc9c</ref>
         </refs>
-        <data>Hornet: The ship seems okay...[end]B</data>
+        <data>Hornet: The ship seems okay...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xce6</ref>
         </refs>
-        <data>But it's still a bit rough.[end]H</data>
+        <data>But it's still a bit rough.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xcef</ref>
         </refs>
         <data>Hornet: You should line up soon.
-He's going to be fussy.[end]H</data>
+He's going to be fussy.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xcfa</ref>
         </refs>
         <data>Hornet: We'll leave shortly, just hold
-on. And stop jumping out![end]H</data>
+on. And stop jumping out![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd2e</ref>
         </refs>
         <data>Hornet: Okay! Departure preparations
-complete! How about you?[end] </data>
+complete! How about you?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd32</ref>
         </refs>
         <data>  Not ready!
-  Let's go![end1]H</data>
+  Let's go![end1]</data>
     </text>
     <text>
         <refs>
@@ -526,14 +526,14 @@ complete! How about you?[end] </data>
         </refs>
         <data>Hornet: Oh, that's right... I haven't
 asked about our destination yet.
-Where is Princess [character][0x1]?[end]R</data>
+Where is Princess [character][0x1]?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd70</ref>
         </refs>
         <data>Rush: On the green continent of
-Campbell!! Right, [character][0x1]?![end]T</data>
+Campbell!! Right, [character][0x1]?![end]</data>
     </text>
     <text>
         <refs>
@@ -541,7 +541,7 @@ Campbell!! Right, [character][0x1]?![end]T</data>
         </refs>
         <data>Truce: Have you forgotten? She's in
 the fortress on Campbell. We must save
-her quickly![end]H</data>
+her quickly![end]</data>
     </text>
     <text>
         <refs>
@@ -549,54 +549,54 @@ her quickly![end]H</data>
         </refs>
         <data>Hornet: Okay! We'll go over the details
 later! Let's go! Full speed ahead,
-[character][0x1]![end]H</data>
+[character][0x1]![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xdff</ref>
         </refs>
         <data>Hornet: [0x2a]grin[0x2a] I'm a father too,
-starting today... How embarrassing...[end]H</data>
+starting today... How embarrassing...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe09</ref>
         </refs>
         <data>Hornet: I wonder if he's being good...
-[0x28]Hmph...[0x29][end]H</data>
+[0x28]Hmph...[0x29][end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe12</ref>
         </refs>
         <data>Hornet: If we're going, press the
-appropriate button![end]M</data>
+appropriate button![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe23</ref>
         </refs>
         <data>Melodia: [character][0x1]... I can't see!
-Pick me up![end]M</data>
+Pick me up![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe33</ref>
         </refs>
         <data>Melodia: I'm tired, [character][0x1]!!
-Carry me on your back![end]Y</data>
+Carry me on your back![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe3f</ref>
         </refs>
-        <data>You meanie![end][0x2a]</data>
+        <data>You meanie![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe6a</ref>
         </refs>
-        <data>[0x2a]smooch[0x2a][end1]T</data>
+        <data>[0x2a]smooch[0x2a][end1]</data>
     </text>
     <text>
         <refs>
@@ -604,28 +604,28 @@ Carry me on your back![end]Y</data>
             <ref>0xe8e</ref>
         </refs>
         <data>Thanks, [character][0x1]!
-You're my favorite![end]Y</data>
+You're my favorite![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xef1</ref>
             <ref>0xed2</ref>
         </refs>
-        <data>Yippee![end1]L</data>
+        <data>Yippee![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xf2f</ref>
         </refs>
         <data>Lukia: [character][0x1]... Today's definitely
-going to be a rough day.[end]L</data>
+going to be a rough day.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf36</ref>
         </refs>
         <data>Lukia: Can you do that for me too?
-But I guess I'm too heavy, huh.[end]F</data>
+But I guess I'm too heavy, huh.[end]</data>
     </text>
     <text>
         <refs>
@@ -638,7 +638,7 @@ But I guess I'm too heavy, huh.[end]F</data>
 We attack from far away!
 
 
-Lan...lan...lancers![end].</data>
+Lan...lan...lancers![end]</data>
     </text>
     <text>
         <refs>
@@ -646,21 +646,21 @@ Lan...lan...lancers![end].</data>
             <ref>0xf62</ref>
             <ref>0x1004</ref>
         </refs>
-        <data>......[end]F</data>
+        <data>......[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf8e</ref>
         </refs>
         <data>Frederica: They're always trying to
-show off. Geez, that's dangerous...[end]F</data>
+show off. Geez, that's dangerous...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf99</ref>
         </refs>
         <data>Frederica: He's always slow and
-sluggish... Oh no, I'm going to faint...[end]F</data>
+sluggish... Oh no, I'm going to faint...[end]</data>
     </text>
     <text>
         <refs>
@@ -671,28 +671,28 @@ Ah... [character][0x1]...
 Please don't worry about me...
 I'm always like this...
 But, please...
-Take this medicine...[end] </data>
+Take this medicine...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfab</ref>
         </refs>
         <data>  Let her drink it
-  Lucky! I'll take it.[end1]Y</data>
+  Lucky! I'll take it.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xfb5</ref>
         </refs>
         <data>You got 5 Drugs, 5 Heal potions,
-and 5 Litancibles.[end]T</data>
+and 5 Litancibles.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfcf</ref>
         </refs>
         <data>Thank you, I've calmed down a little
-bit. I should fall asleep soon...[end]F</data>
+bit. I should fall asleep soon...[end]</data>
     </text>
     <text>
         <refs>
@@ -703,13 +703,13 @@ They stopped talking to each other.
 They used to be good friends too...
 Everybody changes...
 Their hearts... their bodies...
-They all decay...[end]D</data>
+They all decay...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xff1</ref>
         </refs>
-        <data>Diana: No way![end]D</data>
+        <data>Diana: No way![end]</data>
     </text>
     <text>
         <refs>
@@ -717,14 +717,14 @@ They all decay...[end]D</data>
         </refs>
         <data>Diana: Hey, have you heard of the
 Empire's Emperor Sauzer and General
-Palpaleos?[end] </data>
+Palpaleos?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xffc</ref>
         </refs>
         <data>  What about them?
-  I'm not interested.[end1]T</data>
+  I'm not interested.[end1]</data>
     </text>
     <text>
         <refs>
@@ -737,7 +737,7 @@ While looking at the sky they would
 talk about their dreams and ambitions.
 
 It's a little different than those two
-lancers over there...[end]D</data>
+lancers over there...[end]</data>
     </text>
     <text>
         <refs>
@@ -747,7 +747,7 @@ lancers over there...[end]D</data>
 terrible? I do. Selling your magic power
 for money...
 Just because Matelite asks, that
-suddenly makes it okay... That's low.[end]Z</data>
+suddenly makes it okay... That's low.[end]</data>
     </text>
     <text>
         <refs>
@@ -755,7 +755,7 @@ suddenly makes it okay... That's low.[end]Z</data>
         </refs>
         <data>Zora: The room in the back is the
 captain's room. They're having a
-meeting so you can't go in.[end]Z</data>
+meeting so you can't go in.[end]</data>
     </text>
     <text>
         <refs>
@@ -765,7 +765,7 @@ meeting so you can't go in.[end]Z</data>
 two in the captain's room...
 
 Captain Sendak is very delicate and
-easily hurt so be nice to him![end]B</data>
+easily hurt so be nice to him![end]</data>
     </text>
     <text>
         <refs>
@@ -773,14 +773,14 @@ easily hurt so be nice to him![end]B</data>
         </refs>
         <data>Barclay: Um... This guy Gunso is next to
 me... The next spot over is open
-though.[end]B</data>
+though.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1039</ref>
         </refs>
         <data>Barclay: Yes... it's often said the Heavy
-Armor soldiers are carefree.[end]B</data>
+Armor soldiers are carefree.[end]</data>
     </text>
     <text>
         <refs>
@@ -788,7 +788,7 @@ Armor soldiers are carefree.[end]B</data>
         </refs>
         <data>Barclay: Even with the revival of Kahna
 the battle continues... Well, that's just
-the way things go, I guess.[end]G</data>
+the way things go, I guess.[end]</data>
     </text>
     <text>
         <refs>
@@ -799,7 +799,7 @@ the way things go, I guess.[end]G</data>
 Turning left, press left...
 Face front, press up... [0x2a]scratch[0x2a]
 Mahal's training practices have really
-helped me out.[end]G</data>
+helped me out.[end]</data>
     </text>
     <text>
         <refs>
@@ -809,21 +809,21 @@ helped me out.[end]G</data>
 
 
 Yesterday we all had to lift Matelite
-up... [0x2a]scratch[0x2a] Ouch...[end]A</data>
+up... [0x2a]scratch[0x2a] Ouch...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x107d</ref>
         </refs>
         <data>Anastasia: I think he wants us to face
-forward...[end]A</data>
+forward...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1084</ref>
         </refs>
         <data>Anastasia: Do you want to talk to the
-person next to me?[end]A</data>
+person next to me?[end]</data>
     </text>
     <text>
         <refs>
@@ -832,7 +832,7 @@ person next to me?[end]A</data>
         <data>Anastasia: Yesterday's fireworks were
 thanks to the wizards' magic. Wasn't
 it beautiful?
-Do you want to talk to Ectarina too?[end]E</data>
+Do you want to talk to Ectarina too?[end]</data>
     </text>
     <text>
         <refs>
@@ -847,7 +847,7 @@ Uh...
 Um...
 
 
-Hello.[end]E</data>
+Hello.[end]</data>
     </text>
     <text>
         <refs>
@@ -855,7 +855,7 @@ Hello.[end]E</data>
         </refs>
         <data>Ectarina: Uh... um... Has he realized that
 his back is covered with dragon drool
-yet?[end]T</data>
+yet?[end]</data>
     </text>
     <text>
         <refs>
@@ -863,7 +863,7 @@ yet?[end]T</data>
         </refs>
         <data>This is Princess [character][0x1]'s room.
 She'll be really angry, but would you
-like to see it for a bit?[end]C</data>
+like to see it for a bit?[end]</data>
     </text>
     <text>
         <refs>
@@ -871,7 +871,7 @@ like to see it for a bit?[end]C</data>
         </refs>
         <data>Crew member: It's so lonely here
 without Princess [character][0x1]...
-I've prepared these in advance.[end]H</data>
+I've prepared these in advance.[end]</data>
     </text>
     <text>
         <refs>
@@ -887,7 +887,7 @@ is what she says...
 All the others are in here doing
 cleaning.
 Sort of like, [0x24]Welcome, newlyweds![0x22]
-Heheh...[end]W</data>
+Heheh...[end]</data>
     </text>
     <text>
         <refs>
@@ -895,7 +895,7 @@ Heheh...[end]W</data>
         </refs>
         <data>When you've been rejected, why don't
 you try a book or something? Want
-some?[end]D</data>
+some?[end]</data>
     </text>
     <text>
         <refs>
@@ -903,7 +903,7 @@ some?[end]D</data>
         </refs>
         <data>Dragonkeeper: You have to be friendly
 with dragons! I'll teach you how to
-take care of them! Let's go![end]M</data>
+take care of them! Let's go![end]</data>
     </text>
     <text>
         <refs>
@@ -912,7 +912,7 @@ take care of them! Let's go![end]M</data>
         <data>Matelite: Bwahaha! [character][0x1]!
 I'll give you one more chance.
 If you can't do it...
-I'll have to punish you![end]H</data>
+I'll have to punish you![end]</data>
     </text>
     <text>
         <refs>
@@ -921,7 +921,7 @@ I'll have to punish you![end]H</data>
         <data>Heheh... Okay, how about this!
 
 
-Turn around![end]M</data>
+Turn around![end]</data>
     </text>
     <text>
         <refs>
@@ -929,7 +929,7 @@ Turn around![end]M</data>
         </refs>
         <data>Matelite: Bwahaha! [character][0x1]!
 It looks like you still don't understand
-what rules are![end]I</data>
+what rules are![end]</data>
     </text>
     <text>
         <refs>
@@ -939,20 +939,20 @@ what rules are![end]I</data>
 a leader or what, but you're now in
 charge of miscellaneous duties!
 Go study up about things like
-Formation![end]M</data>
+Formation![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x12ec</ref>
         </refs>
         <data>Matelite: Taicho! I'm tired, you take
-over![end]T</data>
+over![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1301</ref>
         </refs>
-        <data>Taicho: !! You want me... to explain?[end]T</data>
+        <data>Taicho: !! You want me... to explain?[end]</data>
     </text>
     <text>
         <refs>
@@ -962,21 +962,21 @@ over![end]T</data>
 with Formation...
 
 Because you can create strong parties
-with it.[end]T</data>
+with it.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1327</ref>
         </refs>
         <data>Taicho: [character][0x1]... You know about
-Formation, do you not?[end] </data>
+Formation, do you not?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x132b</ref>
         </refs>
         <data>  No, teach me!
-  Yes, I know about it![end1][character][0x1]</data>
+  Yes, I know about it![end1]</data>
     </text>
     <text>
         <refs>
@@ -984,14 +984,14 @@ Formation, do you not?[end] </data>
         </refs>
         <data>[character][0x1]... With Formation, you can
 compensate for weaknesses in your
-party![end]F</data>
+party![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x136a</ref>
             <ref>0x13e4</ref>
         </refs>
-        <data>For example, this kind of party...[end]T</data>
+        <data>For example, this kind of party...[end]</data>
     </text>
     <text>
         <refs>
@@ -999,7 +999,7 @@ party![end]F</data>
         </refs>
         <data>This party has many Heavy Armor
 knights who have strong defense, but
-it makes moving around a nightmare![end]S</data>
+it makes moving around a nightmare![end]</data>
     </text>
     <text>
         <refs>
@@ -1007,7 +1007,7 @@ it makes moving around a nightmare![end]S</data>
         </refs>
         <data>So bring Lukia, who is a Light Armor
 knight, with you! That way you can
-move more quickly![end]I</data>
+move more quickly![end]</data>
     </text>
     <text>
         <refs>
@@ -1015,7 +1015,7 @@ move more quickly![end]I</data>
         </refs>
         <data>If your Formation consists of people of
 the same job, their magic and ability
-effectiveness will increase![end]W</data>
+effectiveness will increase![end]</data>
     </text>
     <text>
         <refs>
@@ -1023,48 +1023,48 @@ effectiveness will increase![end]W</data>
         </refs>
         <data>When all members are of a different
 job, their party will have no special
-strengths![end]O</data>
+strengths![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1415</ref>
         </refs>
-        <data>On the other hand, though....[end]W</data>
+        <data>On the other hand, though....[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x144b</ref>
         </refs>
         <data>With three Wizards, their Black Magic
-level will increase![end]T</data>
+level will increase![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x146e</ref>
         </refs>
         <data>That is all there is to it!
-I am sure you will figure it out too![end]T</data>
+I am sure you will figure it out too![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x147d</ref>
         </refs>
         <data>Taicho: So, [character][0x1]...
-Do you understand Formation now?[end]O</data>
+Do you understand Formation now?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x149d</ref>
         </refs>
         <data>Oh... I am not very good at teaching...
-Let us go over it once more...[end]G</data>
+Let us go over it once more...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x14bc</ref>
         </refs>
         <data>Good! I get the feeling I have become
-a little wiser too![end]?</data>
+a little wiser too![end]</data>
     </text>
     <text>
         <refs>
@@ -1074,7 +1074,7 @@ a little wiser too![end]?</data>
 
 
 There's a very important relationship
-between Formation and dragons![end]T</data>
+between Formation and dragons![end]</data>
     </text>
     <text>
         <refs>
@@ -1082,20 +1082,20 @@ between Formation and dragons![end]T</data>
         </refs>
         <data>That's good...
 You should choose a suitable
-Formation...[end]Y</data>
+Formation...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1671</ref>
         </refs>
-        <data>You got a Gunso's ???.[end]T</data>
+        <data>You got a Gunso's ???.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x167e</ref>
         </refs>
         <data>There are some buttons lined up.
-Which will you press?[end] </data>
+Which will you press?[end]</data>
     </text>
     <text>
         <refs>
@@ -1103,7 +1103,7 @@ Which will you press?[end] </data>
         </refs>
         <data>  Warning!!
   Take off!
-  Hornet Special![end1]H</data>
+  Hornet Special![end1]</data>
     </text>
     <text>
         <refs>
@@ -1111,7 +1111,7 @@ Which will you press?[end] </data>
         </refs>
         <data>Hornet: Aren't you forgetting
 something? You don't mind if I become
-your godfather, do you?[end]M</data>
+your godfather, do you?[end]</data>
     </text>
     <text>
         <refs>
@@ -1121,85 +1121,85 @@ your godfather, do you?[end]M</data>
 on we aren't fighting for the revival
 of Kahna!
 The entire world of Orelus is resting
-on our shoulders now![end]T</data>
+on our shoulders now![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1792</ref>
         </refs>
-        <data>Taicho: Sir Matelite! Wait![end]M</data>
+        <data>Taicho: Sir Matelite! Wait![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x17a0</ref>
         </refs>
         <data>Matelite: Taicho! Give it to General
-Palpaleos...[end]T</data>
+Palpaleos...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x17c3</ref>
         </refs>
-        <data>Taicho: Sir Matelite! Allow me to...![end]M</data>
+        <data>Taicho: Sir Matelite! Allow me to...![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x180d</ref>
         </refs>
-        <data>Matelite: You know what to do, General![end]O</data>
+        <data>Matelite: You know what to do, General![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1899</ref>
         </refs>
-        <data>Oh!! The Orelus Freedom Force flag![end]M</data>
+        <data>Oh!! The Orelus Freedom Force flag![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x18b9</ref>
         </refs>
         <data>Matelite: It's the battle with the
-Empire's sky fortress! Let's go![end]H</data>
+Empire's sky fortress! Let's go![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x18e8</ref>
         </refs>
         <data>Hornet: Hey! You're... not going to jump
-out are you?![end]H</data>
+out are you?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x18ee</ref>
         </refs>
         <data>Hornet: You're going to jump?
-Oh well, go ahead.[end] </data>
+Oh well, go ahead.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x18f2</ref>
         </refs>
         <data>  Jump!
-  Don't jump[end1]W</data>
+  Don't jump[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x1971</ref>
         </refs>
-        <data>Will you wait for Matelite to come out?[end] </data>
+        <data>Will you wait for Matelite to come out?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1975</ref>
         </refs>
         <data>  Keep wandering around
-  Sit still and wait for Matelite[end1]Y</data>
+  Sit still and wait for Matelite[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x198c</ref>
         </refs>
-        <data>You shouldn't wander around too much.[end]R</data>
+        <data>You shouldn't wander around too much.[end]</data>
     </text>
     <text>
         <refs>
@@ -1207,7 +1207,7 @@ Oh well, go ahead.[end] </data>
         </refs>
         <data>Resistance Rules Meeting in Progress
 No Entrance!!
-                             Matelite[end]C</data>
+                             Matelite[end]</data>
     </text>
     <text>
         <refs>
@@ -1215,7 +1215,7 @@ No Entrance!!
         </refs>
         <data>Captain Sendak is resting.
 Do Not Enter!!
-                     Zora[end]M</data>
+                     Zora[end]</data>
     </text>
     <text>
         <refs>
@@ -1223,7 +1223,7 @@ Do Not Enter!!
         </refs>
         <data>Matelite: How long are you going to
 wander around! Get in line, on the
-double![end]I</data>
+double![end]</data>
     </text>
     <text>
         <refs>

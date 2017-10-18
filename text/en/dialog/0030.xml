@@ -5,7 +5,7 @@
             <ref>0x3cb</ref>
         </refs>
         <data>Sendak: [character][0x1]...
-Sire...[end]R</data>
+Sire...[end]</data>
     </text>
     <text>
         <refs>
@@ -15,41 +15,41 @@ Sire...[end]R</data>
 strong...
 
 This feeling...
-It's a first for me...[end]T</data>
+It's a first for me...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3eb</ref>
         </refs>
         <data>Truce: It's the Granbelos army!
-We must withdraw![end]M</data>
+We must withdraw![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3f8</ref>
         </refs>
         <data>Mist: [character][0x1]...
-Stop Matelite...[end]S</data>
+Stop Matelite...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x53f</ref>
         </refs>
-        <data>Sauzer: Take Princess [character][0x1].[end] </data>
+        <data>Sauzer: Take Princess [character][0x1].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x553</ref>
         </refs>
         <data>            [character][0x1]!!
-            Matelite![end]P</data>
+            Matelite![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5b3</ref>
         </refs>
         <data>Palpaleos: [character][0x1], the captain of
-Kahna's Dragon Squad...!![end]S</data>
+Kahna's Dragon Squad...!![end]</data>
     </text>
     <text>
         <refs>
@@ -60,7 +60,7 @@ The power of a Dragnar...
 
 So this is the extent of Bahamut's
 power? It's hardly worthy of a
-legend.[end]K</data>
+legend.[end]</data>
     </text>
     <text>
         <refs>
@@ -69,7 +69,7 @@ legend.[end]K</data>
         <data>King Kahna: !!!!
 
 
-The legend!!! How do you know of it?![end]S</data>
+The legend!!! How do you know of it?![end]</data>
     </text>
     <text>
         <refs>
@@ -80,14 +80,14 @@ The legend!!! How do you know of it?![end]S</data>
 
 History will always choose a single
 person. And then that person will be
-known as a hero.[end]K</data>
+known as a hero.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x604</ref>
         </refs>
         <data>King Kahna: What are you scheming?
-Sauzer![end][0x0]</data>
+Sauzer![end]</data>
     </text>
     <text>
         <refs>
@@ -95,7 +95,7 @@ Sauzer![end][0x0]</data>
         </refs>
         <data>The Holy Dragons shall not awaken!
 I will not hand over their power to
-you!![end]S</data>
+you!![end]</data>
     </text>
     <text>
         <refs>
@@ -106,7 +106,7 @@ That's merely because their time of
 awakening has not come yet!
 The moment I conquer this world, their
 time shall begin! And that time begins
-now![end] </data>
+now![end]</data>
     </text>
     <text>
         <refs>

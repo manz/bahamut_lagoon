@@ -4,14 +4,14 @@
         <refs>
             <ref>0x15e</ref>
         </refs>
-        <data>Grrrrr...[end]L</data>
+        <data>Grrrrr...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x31e</ref>
         </refs>
         <data>L'Empire a été chassé mais cela
-n'était pas nécessaire![end]H</data>
+n'était pas nécessaire![end]</data>
     </text>
     <text>
         <refs>
@@ -19,14 +19,14 @@ n'était pas nécessaire![end]H</data>
         </refs>
         <data>Haha...
 Et après cela,Campbell redeviendra
-pareille?[end]V</data>
+pareille?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x30c</ref>
         </refs>
         <data>Vous nous avez libérés mais tout n'est
-pas aussi simple.[end]U</data>
+pas aussi simple.[end]</data>
     </text>
     <text>
         <refs>
@@ -36,8 +36,7 @@ pas aussi simple.[end]U</data>
 face à l'Empire Granbelos,
 n'est-ce pas?
  Oui...
- Hum...[end1]
-</data>
+ Hum...[end1]</data>
     </text>
     <text>
         <refs>
@@ -45,20 +44,20 @@ n'est-ce pas?
         </refs>
         <data>Je le savais!
 Mais pour combien de temps encore,
-en supposant que rien ne change![end]C</data>
+en supposant que rien ne change![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x17b</ref>
         </refs>
-        <data>Cela me console.[end]L</data>
+        <data>Cela me console.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x186</ref>
         </refs>
         <data>La plupart des adultes avaient été
-enfermés par les soldats de l'Empire.[end]L</data>
+enfermés par les soldats de l'Empire.[end]</data>
     </text>
     <text>
         <refs>
@@ -68,7 +67,7 @@ enfermés par les soldats de l'Empire.[end]L</data>
 protéger,a accepté de rester enfermée
 dans une cellule de prison,mais la ville
 s'est aussi montrée résistante face à
-Sauzer.[end]L</data>
+Sauzer.[end]</data>
     </text>
     <text>
         <refs>
@@ -77,7 +76,7 @@ Sauzer.[end]L</data>
         <data>La nouvelle de la libération de Campbell
 parviendra bientôt à l'Empereur.
 Il sera furieux!
-Qu'adviendra-t-il de nous?[end]M</data>
+Qu'adviendra-t-il de nous?[end]</data>
     </text>
     <text>
         <refs>
@@ -88,14 +87,14 @@ Vous êtes faible!
 Même si vous êtes la soeur de notre
 défunt Roi de Kana et l'Impératrice
 de Campbell,je ne pourrai pas vous
-vous pardonner![end]I</data>
+vous pardonner![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x59f</ref>
         </refs>
         <data>IMPERATRICE DE CAMPBELL:
-Matelight,je ne changerai pas d'avis.[end]M</data>
+Matelight,je ne changerai pas d'avis.[end]</data>
     </text>
     <text>
         <refs>
@@ -106,7 +105,7 @@ Oh!
 Vous,Impératrice,vous préférez mourir
 dans l'ombre,comme nourriture à
 à dragon,plutôt que de faire face à
-l'ennemi![end]C</data>
+l'ennemi![end]</data>
     </text>
     <text>
         <refs>
@@ -114,14 +113,14 @@ l'ennemi![end]C</data>
         </refs>
         <data>COMMANDANT:
 Matelight!
-Calme-toi![end]M</data>
+Calme-toi![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5da</ref>
         </refs>
         <data>MATELIGHT:
-Comment pourrais-je me calmer?[end]M</data>
+Comment pourrais-je me calmer?[end]</data>
     </text>
     <text>
         <refs>
@@ -132,7 +131,7 @@ L'Impératrice ne veut pas que nous
 libérions Campbell!
 Elle est persuadée que rester aux
 mains de Granbelos est meilleur pour
-son peuple![end]C</data>
+son peuple![end]</data>
     </text>
     <text>
         <refs>
@@ -145,7 +144,7 @@ Ce n'est peut-être pas le meilleur
 plan à suivre.
  
 Pensons à la manière dont il faudra
-agir pour lui faire changer d'avis.[end]M</data>
+agir pour lui faire changer d'avis.[end]</data>
     </text>
     <text>
         <refs>
@@ -155,21 +154,21 @@ agir pour lui faire changer d'avis.[end]M</data>
 Tu as raison!
  
 Peut-être que nous ne devrions pas
-rester ici![end]C</data>
+rester ici![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x635</ref>
         </refs>
         <data>COMMANDANT:
-Tu peux te calmer?![end]M</data>
+Tu peux te calmer?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x643</ref>
         </refs>
         <data>MATELIGHT:
-Encore![end]C</data>
+Encore![end]</data>
     </text>
     <text>
         <refs>
@@ -179,14 +178,14 @@ Encore![end]C</data>
 L'Impératrice nous a tenu un étrange
 discours.
 Essaie de la faire changer d'avis...
-Si tu y parviens![end]M</data>
+Si tu y parviens![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfa</ref>
         </refs>
         <data>MATELIGHT:
-Convaincs-la![end]N</data>
+Convaincs-la![end]</data>
     </text>
     <text>
         <refs>
@@ -194,7 +193,7 @@ Convaincs-la![end]N</data>
         </refs>
         <data>NELBO:
 Tu es [character][0x1],membre de l'Escadron
-Dragon de Kana?![end]J</data>
+Dragon de Kana?![end]</data>
     </text>
     <text>
         <refs>
@@ -202,14 +201,14 @@ Dragon de Kana?![end]J</data>
         </refs>
         <data>JOY:
 Tu peux entrer sans clé!
-Je t'en prie,vas-y...[end]I</data>
+Je t'en prie,vas-y...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1a2</ref>
         </refs>
         <data>IMPERATRICE DE CAMPBELL:
-Tu es [character][0x1],n'est-ce pas?[end][character][0x1]</data>
+Tu es [character][0x1],n'est-ce pas?[end]</data>
     </text>
     <text>
         <refs>
@@ -220,7 +219,7 @@ Ainsi,c'est vous qui avez commencé
 une nouvelle guerre?
 Unir le ciel est l'ambition de Sauzer.
 C'est pour cette raison qu'il guerroie
-sans cesse.[end]I</data>
+sans cesse.[end]</data>
     </text>
     <text>
         <refs>
@@ -230,7 +229,7 @@ sans cesse.[end]I</data>
 Lorsque son ambition sera achevée,
 la paix viendra!
 Ce sera la liberté pour mon humble
-peuple si nous ne résistons pas.[end]I</data>
+peuple si nous ne résistons pas.[end]</data>
     </text>
     <text>
         <refs>
@@ -241,7 +240,7 @@ Mais la réalité de cette paix n'est pas
 encore palpable.
 Et si nous résistions?
 Non... tu serais incapable de nous
-secourir,n'est-ce pas?![end]I</data>
+secourir,n'est-ce pas?![end]</data>
     </text>
     <text>
         <refs>
@@ -250,7 +249,7 @@ secourir,n'est-ce pas?![end]I</data>
         <data>IMPERATRICE DE CAMPBELL:
 L'Empire reprendrait de suite Campbell!
 Serais-tu capable de nous défendre?
-Pourrais-tu le garantir?[end]I</data>
+Pourrais-tu le garantir?[end]</data>
     </text>
     <text>
         <refs>
@@ -261,14 +260,14 @@ Réponds! Je t'en prie!
 Pourquoi ne parles-tu pas?
 Dorénavant,réfléchis mieux et prends
 en considération ce que je viens de
-te dire.[end][character][0x1]</data>
+te dire.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x27b</ref>
         </refs>
         <data>[character][0x1]:
-Tante![end]I</data>
+Tante![end]</data>
     </text>
     <text>
         <refs>
@@ -276,7 +275,7 @@ Tante![end]I</data>
             <ref>0x287</ref>
         </refs>
         <data>IMPERATRICE DE CAMPBELL:
-Je n'ai rien à te dire![end][character][0x1]</data>
+Je n'ai rien à te dire![end]</data>
     </text>
     <text>
         <refs>
@@ -288,21 +287,21 @@ Je n'ai rien à te dire![end][character][0x1]</data>
 Va rejoindre ton bataillon,
 s'il te plaît!
  
-Je veux rester seule avec ma tante...[end]S</data>
+Je veux rester seule avec ma tante...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2a0</ref>
         </refs>
         <data>SENDACK:
-Princesse... la Légende...[end][character][0x1]</data>
+Princesse... la Légende...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2ac</ref>
         </refs>
         <data>[character][0x1]:
-Je sais,Sendack![end]J</data>
+Je sais,Sendack![end]</data>
     </text>
     <text>
         <refs>
@@ -315,7 +314,7 @@ Nous ne devrions pas nous
 inquiéter...
 [character][0x1],nous devrions nous reposer.
 Oui! A une telle heure,c'est
-nécessaire![end][character][0x1]</data>
+nécessaire![end]</data>
     </text>
     <text>
         <refs>
@@ -323,7 +322,7 @@ nécessaire![end][character][0x1]</data>
         </refs>
         <data>[character][0x1]:
 Désolé [character][0x1]!
-Seulement deux personnes.[end]S</data>
+Seulement deux personnes.[end]</data>
     </text>
     <text>
         <refs>
@@ -334,14 +333,14 @@ Seulement deux personnes.[end]S</data>
  
 Allons au bar,en ville,pour boire un
 peu de vin.
-Un pause me fera du bien![end]J</data>
+Un pause me fera du bien![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2ef</ref>
         </refs>
         <data>JOY:
-Elles sont déjà deux dans la cellule...[end]N</data>
+Elles sont déjà deux dans la cellule...[end]</data>
     </text>
     <text>
         <refs>
@@ -349,26 +348,26 @@ Elles sont déjà deux dans la cellule...[end]N</data>
         </refs>
         <data>NELBO:
 Laisse-les...
-Fais-le pour moi...[end]B</data>
+Fais-le pour moi...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x18d</ref>
         </refs>
-        <data>Bienvenue![end]L</data>
+        <data>Bienvenue![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x301</ref>
         </refs>
-        <data>Le Peuple de Campbell a fait erreur![end]L</data>
+        <data>Le Peuple de Campbell a fait erreur![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x313</ref>
         </refs>
         <data>L'Empire,ici à Campbell,nous avait
-permis de prospérer.[end]H</data>
+permis de prospérer.[end]</data>
     </text>
     <text>
         <refs>
@@ -378,8 +377,7 @@ permis de prospérer.[end]H</data>
  
   
  Pourquoi ne sortez-vous pas?
- Rien d'important...[end1]
-</data>
+ Rien d'important...[end1]</data>
     </text>
     <text>
         <refs>
@@ -397,13 +395,13 @@ ne veux pas la tromper!
 Avec toutes vos questions,vous allez
 ennuyer l'Impératrice mais sachez que
 que tout est plus compliqué que vous
-n'avez l'air de le penser.[end]L</data>
+n'avez l'air de le penser.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x33b</ref>
         </refs>
         <data>Les ennuis ne sont pas finis,
-ils deviennent plus grands![end][0x0]</data>
+ils deviennent plus grands![end]</data>
     </text>
 </texts>

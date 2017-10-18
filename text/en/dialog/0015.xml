@@ -5,7 +5,7 @@
             <ref>0x9e</ref>
         </refs>
         <data>              Chapter 15
-    Showdown in the Burning Sands[end]H</data>
+    Showdown in the Burning Sands[end]</data>
     </text>
     <text>
         <refs>
@@ -16,14 +16,14 @@ through a thunderhead and is heading
 for the desert land of Dafila.
 The desert land of Dafila...
 It's hot.. suffocatingly hot...
-A lagoon of sand...[end]W</data>
+A lagoon of sand...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc8</ref>
         </refs>
         <data>We are currently right here on the
-map...[end]O</data>
+map...[end]</data>
     </text>
     <text>
         <refs>
@@ -34,7 +34,7 @@ map...[end]O</data>
 
 While searching for the Holy Dragons
 we've drifted about in the seas of the
-sky...[end]W</data>
+sky...[end]</data>
     </text>
     <text>
         <refs>
@@ -42,14 +42,14 @@ sky...[end]W</data>
         </refs>
         <data>We've made Princess [character][0x1]
 suffer the anger and the sadness of
-the Holy Dragons...[end]T</data>
+the Holy Dragons...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf9</ref>
         </refs>
         <data>Tonight, at [character][0x1]'s bar I'm going
-to drink all night while praying...[end]F</data>
+to drink all night while praying...[end]</data>
     </text>
     <text>
         <refs>
@@ -72,7 +72,7 @@ Is it all madness?
 
 Is it the same as how I feel...
 The only thing I can have faith in is
-this sky...[end]H</data>
+this sky...[end]</data>
     </text>
     <text>
         <refs>
@@ -90,7 +90,7 @@ Can their way of living work for me...
 Since they're here with me...
 I've started to smile...
 
-Don't you think, Sauzer...[end]I</data>
+Don't you think, Sauzer...[end]</data>
     </text>
     <text>
         <refs>
@@ -99,7 +99,7 @@ Don't you think, Sauzer...[end]I</data>
         <data>It's just like you...
 This letter...
 
-The sender was you, Emperor Sauzer...[end]T</data>
+The sender was you, Emperor Sauzer...[end]</data>
     </text>
     <text>
         <refs>
@@ -112,7 +112,7 @@ The Holy Dragon Jormungand sleeps
 in the deserts of Dafila.
 
 I shall be waiting for you there.
-Come if you dare, Resistance.[end]Y</data>
+Come if you dare, Resistance.[end]</data>
     </text>
     <text>
         <refs>
@@ -123,7 +123,7 @@ then, do you...
 
 At that time too...
 It was like time had stopped...
-It was such a lonely bar...[end]S</data>
+It was such a lonely bar...[end]</data>
     </text>
     <text>
         <refs>
@@ -132,7 +132,7 @@ It was such a lonely bar...[end]S</data>
         <data>Sauzer: I will ask only once more...
 
 
-Take up the sword for me...[end]Y</data>
+Take up the sword for me...[end]</data>
     </text>
     <text>
         <refs>
@@ -144,14 +144,14 @@ needed...
 To dominate the world of Orelus...
 
 
-To dominate over the entire sky...[end]H</data>
+To dominate over the entire sky...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1af</ref>
         </refs>
         <data>Hornet: The entire sky...
-And then what will happen?[end]T</data>
+And then what will happen?[end]</data>
     </text>
     <text>
         <refs>
@@ -163,14 +163,14 @@ possession...
 We are embraced by the sky, floating
 aimlessly, with no place to go...
 
-I will never again hold a sword...[end]S</data>
+I will never again hold a sword...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1c4</ref>
         </refs>
         <data>Sauzer: So you're afraid of fighting,
-huh.[end]H</data>
+huh.[end]</data>
     </text>
     <text>
         <refs>
@@ -183,7 +183,7 @@ However, Sauzer.
 Putting down swords...
 People living without being hurt...
 To me, that is the most courageous
-decision of all...[end]S</data>
+decision of all...[end]</data>
     </text>
     <text>
         <refs>
@@ -204,13 +204,13 @@ And let me fly around my sky...
 Until that day...
 
 
-...stay alive.[end][0x0]</data>
+...stay alive.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x29e</ref>
         </refs>
-        <data>Zora: Everyone, come here![end]Z</data>
+        <data>Zora: Everyone, come here![end]</data>
     </text>
     <text>
         <refs>
@@ -220,7 +220,7 @@ Until that day...
 
 
 Listen, [character][0x1] doesn't seem to be
-doing very well...[end]E</data>
+doing very well...[end]</data>
     </text>
     <text>
         <refs>
@@ -233,13 +233,13 @@ Now is an important time...
 
 
 [character][0x1] is enduring the pain of
-a Dragnar. We have to endure too.[end]O</data>
+a Dragnar. We have to endure too.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x309</ref>
         </refs>
-        <data>Okay! Take care of the rest![end]H</data>
+        <data>Okay! Take care of the rest![end]</data>
     </text>
     <text>
         <refs>
@@ -247,7 +247,7 @@ a Dragnar. We have to endure too.[end]O</data>
         </refs>
         <data>Hornet: Cheer up! We're almost out of
 the thunderhead! Dafila is a desert
-lagoon... It's going to be hot!![end]R</data>
+lagoon... It's going to be hot!![end]</data>
     </text>
     <text>
         <refs>
@@ -268,14 +268,14 @@ Countdown!
 0...
 
 
-!!![end]M</data>
+!!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x768</ref>
         </refs>
         <data>Matelite: [character][0x1]...
-I couldn't do anything...[end]S</data>
+I couldn't do anything...[end]</data>
     </text>
     <text>
         <refs>
@@ -284,13 +284,13 @@ I couldn't do anything...[end]S</data>
         <data>Sendak: Emperor Sauzer has read the
 mind of a Holy Dragon... So he knows
 where the Holy Dragons reside...
-We will not be able to avoid a battle...[end]T</data>
+We will not be able to avoid a battle...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x779</ref>
         </refs>
-        <data>Taicho: I must clear my head!![end]H</data>
+        <data>Taicho: I must clear my head!![end]</data>
     </text>
     <text>
         <refs>
@@ -299,14 +299,14 @@ We will not be able to avoid a battle...[end]T</data>
         <data>Hornet: A showdown at last...
 Try your hardest!
 
-Are you going to take off?[end] </data>
+Are you going to take off?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x787</ref>
         </refs>
         <data>  Not ready
-  Take off![end1]T</data>
+  Take off![end1]</data>
     </text>
     <text>
         <refs>
@@ -322,21 +322,21 @@ He says when he doesn't want to show
 such weakness he heads for a
 thunderhead...
 At those times... We, the crew, grab a
-book and get some shut-eye...[end]U</data>
+book and get some shut-eye...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7d6</ref>
         </refs>
         <data>Uh, well... It's pretty good pay...
-I sell a lot![end] </data>
+I sell a lot![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7da</ref>
         </refs>
         <data>  Book Shop
-  Mushroom Shop[end1]R</data>
+  Mushroom Shop[end1]</data>
     </text>
     <text>
         <refs>
@@ -344,7 +344,7 @@ I sell a lot![end] </data>
         </refs>
         <data>Rush: A battle in the burning sands!
 It's perfect for a standoff against
-Sauzer![end]T</data>
+Sauzer![end]</data>
     </text>
     <text>
         <refs>
@@ -354,7 +354,7 @@ Sauzer![end]T</data>
 [character][0x1]?
 
 As we are now, we should be prepared
-enough to fight Sauzer, but...[end]B</data>
+enough to fight Sauzer, but...[end]</data>
     </text>
     <text>
         <refs>

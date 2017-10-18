@@ -5,40 +5,40 @@
             <ref>0x52</ref>
         </refs>
         <data>              Chapter 14
-   When the Bird-Dragon Awakens...[end]M</data>
+   When the Bird-Dragon Awakens...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfa</ref>
         </refs>
         <data>Melodia: Yippee!! It's Godland!
-I'm back home![end]C</data>
+I'm back home![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x10d</ref>
         </refs>
-        <data>Come on everybody, let's take a break![end]L</data>
+        <data>Come on everybody, let's take a break![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x119</ref>
         </refs>
         <data>Lukia: Hey, Melodia. Why did you leave
-Godland?[end]M</data>
+Godland?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x132</ref>
         </refs>
         <data>Melodia: I wanted to ride the dragons.
-And there were Mini-Devils too![end][character][0x1]</data>
+And there were Mini-Devils too![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x157</ref>
         </refs>
-        <data>[character][0x1]: Wait, Melodia![end]M</data>
+        <data>[character][0x1]: Wait, Melodia![end]</data>
     </text>
     <text>
         <refs>
@@ -48,41 +48,41 @@ And there were Mini-Devils too![end][character][0x1]</data>
 Campbell and Godland fight back?
 
 Isn't it horrible being ruled by the
-Empire?[end]L</data>
+Empire?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x178</ref>
         </refs>
         <data>Lukia: Everybody's different, Matelite.
-Didn't Mahal fight? Donfan... Jeanne...[end]M</data>
+Didn't Mahal fight? Donfan... Jeanne...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x19b</ref>
         </refs>
         <data>Matelite: Enough of your incessant
-ranting![end]S</data>
+ranting![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1a4</ref>
         </refs>
         <data>Sendak: Huh? Oh, I did not realize that
-I was rambling...[end][character][0x1]</data>
+I was rambling...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1b5</ref>
         </refs>
         <data>[character][0x1]! I leave it all in your
-hands![end]Y</data>
+hands![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x83b</ref>
         </refs>
-        <data>You got a Brunhag.[end][0x0]</data>
+        <data>You got a Brunhag.[end]</data>
     </text>
     <text>
         <refs>
@@ -93,20 +93,20 @@ I would rather he not start a ruckus...
 
 As I am the captain, it infuriates me
 whenever rules or orders are
-disobeyed...[end]S</data>
+disobeyed...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1c7</ref>
         </refs>
         <data>Sendak: Well then, it is the same as
-always...[end]S</data>
+always...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x740</ref>
         </refs>
-        <data>Sendak: Shall we go?[end][0x0]</data>
+        <data>Sendak: Shall we go?[end]</data>
     </text>
     <text>
         <refs>
@@ -114,14 +114,14 @@ always...[end]S</data>
         </refs>
         <data>Taicho: If we leave it up to
 [character][0x1], we will have no
-worries![end]L</data>
+worries![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x22b</ref>
         </refs>
         <data>Lukia: Always working hard, eh,
-[character][0x1]. Keep up the good work![end]U</data>
+[character][0x1]. Keep up the good work![end]</data>
     </text>
     <text>
         <refs>
@@ -131,7 +131,7 @@ worries![end]L</data>
 Mini-Devil.
 
 It looked like it was a little different
-than the ones on [character][0x1]...[end][character][0x1]</data>
+than the ones on [character][0x1]...[end]</data>
     </text>
     <text>
         <refs>
@@ -139,7 +139,7 @@ than the ones on [character][0x1]...[end][character][0x1]</data>
         </refs>
         <data>[character][0x1]: Apparently this is
 Melodia's house. Listening to the sounds
-inside makes me feel happy.[end]Y</data>
+inside makes me feel happy.[end]</data>
     </text>
     <text>
         <refs>
@@ -153,7 +153,7 @@ inside makes me feel happy.[end]Y</data>
         </refs>
         <data>[character][0x1]: It sounds like she's
 remembering something from her
-childhood...[end][character][0x1]</data>
+childhood...[end]</data>
     </text>
     <text>
         <refs>
@@ -162,7 +162,7 @@ childhood...[end][character][0x1]</data>
         <data>[character][0x1]: There is a Holy Dragon in
 Godland too, but...
 
-Are we being led by it...?[end]M</data>
+Are we being led by it...?[end]</data>
     </text>
     <text>
         <refs>
@@ -170,14 +170,14 @@ Are we being led by it...?[end]M</data>
         </refs>
         <data>Matelite: You worried about Mist?
 Don't worry, she'll regain her senses
-while fighting.[end]M</data>
+while fighting.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x601</ref>
         </refs>
         <data>Mist: I'm fine. Take me with you.
-I'll try not to get in your way.[end]D</data>
+I'll try not to get in your way.[end]</data>
     </text>
     <text>
         <refs>
@@ -189,21 +189,21 @@ where ever she goes...
 Oh, but there are certainly other girls
 waiting for me...
 
-Oh, what to do...[end]M</data>
+Oh, what to do...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x60f</ref>
         </refs>
         <data>Melodia: Let's hurry and get on the
-dragons![end]G</data>
+dragons![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x61c</ref>
         </refs>
         <data>Grandfather: This is what people long
-ago said.[end]1</data>
+ago said.[end]</data>
     </text>
     <text>
         <refs>
@@ -211,7 +211,7 @@ ago said.[end]1</data>
         </refs>
         <data>1 Mini-Devil means a break-up,
 2 Mini-Devils mean happiness,
-3 Mini-Devils mean something new...[end] </data>
+3 Mini-Devils mean something new...[end]</data>
     </text>
     <text>
         <refs>
@@ -225,7 +225,7 @@ ago said.[end]1</data>
             <ref>0x62c</ref>
         </refs>
         <data>Okay, Melodia.
-Now you try saying the rest.[end]M</data>
+Now you try saying the rest.[end]</data>
     </text>
     <text>
         <refs>
@@ -233,13 +233,13 @@ Now you try saying the rest.[end]M</data>
         </refs>
         <data>Melodia: Let's see...
 4 Mini-Devils mean meeting somebody
-new![end]G</data>
+new![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x644</ref>
         </refs>
-        <data>Grandfather: Indeed. Well done.[end]M</data>
+        <data>Grandfather: Indeed. Well done.[end]</data>
     </text>
     <text>
         <refs>
@@ -250,14 +250,14 @@ new![end]G</data>
 
 The Holy Dragons'll definitely be our
 friends! No matter how mad they get
-we'll be okay![end]T</data>
+we'll be okay![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x686</ref>
         </refs>
         <data>Taicho: Once preparations have been
-made we will leave![end]M</data>
+made we will leave![end]</data>
     </text>
     <text>
         <refs>
@@ -267,21 +267,21 @@ made we will leave![end]M</data>
 Next up is either some monsters or the
 Empire!
 [character][0x1]! Make sure we're all
-prepared![end]G</data>
+prepared![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6d4</ref>
         </refs>
         <data>Grandfather: My adages have been of
-use to you, have they not?[end]H</data>
+use to you, have they not?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6dd</ref>
         </refs>
         <data>Ho ho... Melodia has returned.
-How nice it is to see her again.[end]T</data>
+How nice it is to see her again.[end]</data>
     </text>
     <text>
         <refs>
@@ -293,7 +293,7 @@ It's a story from times long ago...
 All of the wizards and priests died
 during the war with the Empire.
 
-After that, Godland ended its fighting.[end]O</data>
+After that, Godland ended its fighting.[end]</data>
     </text>
     <text>
         <refs>
@@ -303,7 +303,7 @@ After that, Godland ended its fighting.[end]O</data>
 Is that so?
 
 Then, is that dragon I smell?
-It's quite pungent![end]I</data>
+It's quite pungent![end]</data>
     </text>
     <text>
         <refs>
@@ -314,7 +314,7 @@ It's quite pungent![end]I</data>
 
 They say that it was unbearable when
 Godland was enveloped in the fighting.
-Good thing we won...[end][character][0x1]</data>
+Good thing we won...[end]</data>
     </text>
     <text>
         <refs>
@@ -322,78 +322,78 @@ Good thing we won...[end][character][0x1]</data>
         </refs>
         <data>[character][0x1] of the Dragon Squad?
 Hmm... you seem like a pretty nice
-guy. You smell a little bit, though.[end]H</data>
+guy. You smell a little bit, though.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x70b</ref>
         </refs>
         <data>Huh? You're new here, aren't you?
-Welcome to Godland![end]W</data>
+Welcome to Godland![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x712</ref>
         </refs>
         <data>When I grow up I'm gonna join the
-Resistance too! They're so cool![end]Y</data>
+Resistance too! They're so cool![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x861</ref>
         </refs>
-        <data>You got a Dark Grass.[end]D</data>
+        <data>You got a Dark Grass.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8bc</ref>
         </refs>
-        <data>Donfan: Why, hello, my lovely angel![end]M</data>
+        <data>Donfan: Why, hello, my lovely angel![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8ca</ref>
         </refs>
-        <data>My name is Donfan.[end]D</data>
+        <data>My name is Donfan.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8d0</ref>
         </refs>
         <data>Donfan: And standing next to you is
-the studly [character][0x1]![end]T</data>
+the studly [character][0x1]![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8de</ref>
         </refs>
         <data>The warrior of love... and captain of
-Kahna's Dragon Squad, [character][0x1]![end]C</data>
+Kahna's Dragon Squad, [character][0x1]![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8fe</ref>
         </refs>
-        <data>Captain of Kahna's Dragon Squad?![end]D</data>
+        <data>Captain of Kahna's Dragon Squad?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x907</ref>
         </refs>
         <data>Donfan: ...Wait a minute.
-You know [character][0x1]?[end]W</data>
+You know [character][0x1]?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x91a</ref>
         </refs>
-        <data>Will you two come with me?[end]D</data>
+        <data>Will you two come with me?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9b3</ref>
         </refs>
-        <data>Dragons are scary...[end]D</data>
+        <data>Dragons are scary...[end]</data>
     </text>
     <text>
         <refs>

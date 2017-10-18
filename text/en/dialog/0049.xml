@@ -7,28 +7,28 @@
         <data>         The night grows late...
 
 
-  All alone, they continue their dance...[end]M</data>
+  All alone, they continue their dance...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa3</ref>
         </refs>
         <data>Matelite: [character][0x1]...
-Was she stunning...?[end]T</data>
+Was she stunning...?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xba</ref>
         </refs>
         <data>Taicho: She was indeed...
-She has grown strong...[end]M</data>
+She has grown strong...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd1</ref>
         </refs>
         <data>Matelite: [character][0x1]...
-Was she beautiful...?[end]T</data>
+Was she beautiful...?[end]</data>
     </text>
     <text>
         <refs>
@@ -36,21 +36,21 @@ Was she beautiful...?[end]T</data>
         </refs>
         <data>Taicho: She was indeed...
 Sir Matelite's dress... looked very
-well on her...[end]M</data>
+well on her...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xff</ref>
         </refs>
         <data>Matelite: [character][0x1]...
-Did she seem happy...?[end]T</data>
+Did she seem happy...?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x116</ref>
         </refs>
         <data>Taicho: She appeared to be sad that
-you were not present...[end]M</data>
+you were not present...[end]</data>
     </text>
     <text>
         <refs>
@@ -59,13 +59,13 @@ you were not present...[end]M</data>
         <data>Matelite: ......
 
 
-[character][0x1]...[end]T</data>
+[character][0x1]...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x13a</ref>
         </refs>
-        <data>Taicho: Come now...[end]S</data>
+        <data>Taicho: Come now...[end]</data>
     </text>
     <text>
         <refs>
@@ -78,7 +78,7 @@ Kahna Castle is not in that direction!
 
 
 Okay then! I shall be the first one
-inside![end]T</data>
+inside![end]</data>
     </text>
     <text>
         <refs>
@@ -86,28 +86,28 @@ inside![end]T</data>
         </refs>
         <data>Taicho: Oh! Kahna Castle at long last!
 It is completely different than the
-moldy palace of Mahal![end]T</data>
+moldy palace of Mahal![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x219</ref>
         </refs>
         <data>Taicho: The dragon statues are quite
-stylish! They appear brand new!![end]T</data>
+stylish! They appear brand new!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x313</ref>
         </refs>
         <data>Taicho: Come, [character][0x1]!
-[character][0x1], you line up too![end][character][0x1]</data>
+[character][0x1], you line up too![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x434</ref>
         </refs>
         <data>[character][0x1]: What has happened to
-Matelite...?[end]T</data>
+Matelite...?[end]</data>
     </text>
     <text>
         <refs>
@@ -119,7 +119,7 @@ unknown!! That is fine!
 He will not be here for this important
 occasion, the night of the revival of
 Kahna...
-Leave him be![end][character][0x1]</data>
+Leave him be![end]</data>
     </text>
     <text>
         <refs>
@@ -128,7 +128,7 @@ Leave him be![end][character][0x1]</data>
         <data>[character][0x1]: ......
 
 
-Where are you, Matelite...[end][character][0x1]</data>
+Where are you, Matelite...[end]</data>
     </text>
     <text>
         <refs>
@@ -143,7 +143,7 @@ I declare the revival of Kahna.
 Yes...
 
 
-I... shall become the queen of Kahna.[end]B</data>
+I... shall become the queen of Kahna.[end]</data>
     </text>
     <text>
         <refs>
@@ -153,7 +153,7 @@ I... shall become the queen of Kahna.[end]B</data>
 
 
 I don't think I'm yet suited for the
-throne.[end]I</data>
+throne.[end]</data>
     </text>
     <text>
         <refs>
@@ -163,7 +163,7 @@ throne.[end]I</data>
 About us from now on...
 
 About Kahna's revival force...
-No... about Orelus's freedom force.[end]I</data>
+No... about Orelus's freedom force.[end]</data>
     </text>
     <text>
         <refs>
@@ -172,13 +172,13 @@ No... about Orelus's freedom force.[end]I</data>
         <data>I discussed it with General Palpaleos,
 who has come from the Granbelos
 Empire...
-And then I decided.[end]W</data>
+And then I decided.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x492</ref>
         </refs>
-        <data>We must continue the battle.[end]W</data>
+        <data>We must continue the battle.[end]</data>
     </text>
     <text>
         <refs>
@@ -187,7 +187,7 @@ And then I decided.[end]W</data>
         <data>We've revived Kahna, and liberated
 many lagoons from the rule of the
 Granbelos Empire.
-But... it isn't over yet.[end]T</data>
+But... it isn't over yet.[end]</data>
     </text>
     <text>
         <refs>
@@ -195,7 +195,7 @@ But... it isn't over yet.[end]T</data>
         </refs>
         <data>True peace...
 This is something won through
-fighting...[end]T</data>
+fighting...[end]</data>
     </text>
     <text>
         <refs>
@@ -205,7 +205,7 @@ fighting...[end]T</data>
 
 
 I wish Matelite could also have heard
-that![end][0x0]</data>
+that![end]</data>
     </text>
     <text>
         <refs>
@@ -218,7 +218,7 @@ Until that time comes, all we can do is
 fight.
 
 Isn't that right... Sir Taicho, captain of
-the knights of Mahal.[end]I</data>
+the knights of Mahal.[end]</data>
     </text>
     <text>
         <refs>
@@ -232,32 +232,32 @@ Will you be alright... Sendak?
 
 The Holy Dragons are our allies.
 Even if it's painful, do you think you
-can continue to fight?[end]R</data>
+can continue to fight?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x536</ref>
         </refs>
-        <data>Rush: I will!![end]T</data>
+        <data>Rush: I will!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x550</ref>
         </refs>
-        <data>Truce: [character][0x1]! Let's fight together![end][character][0x1]</data>
+        <data>Truce: [character][0x1]! Let's fight together![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x585</ref>
         </refs>
-        <data>[character][0x1]... you too.[end][0xef]</data>
+        <data>[character][0x1]... you too.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x616</ref>
         </refs>
         <data>Manyoo!
-[0x28]Catering service!![0x29][end][0x0]</data>
+[0x28]Catering service!![0x29][end]</data>
     </text>
     <text>
         <refs>
@@ -266,7 +266,7 @@ can continue to fight?[end]R</data>
         <data>Sendak: I.. I am a strong old geezer...!!
 I will not ramble on any longer...
 
-I think, anyway...[end]L</data>
+I think, anyway...[end]</data>
     </text>
     <text>
         <refs>
@@ -275,14 +275,14 @@ I think, anyway...[end]L</data>
         <data>Listen......
 Rush, Truce...
 ...everyone.
-Will you fight with me?[end] </data>
+Will you fight with me?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x589</ref>
         </refs>
         <data>  Let's fight... for a new era!
-  Oh man... how should I answer...[end1]T</data>
+  Oh man... how should I answer...[end1]</data>
     </text>
     <text>
         <refs>
@@ -295,7 +295,7 @@ That is what it means to fight...
 
 
 That is what it means to become
-strong...[end][character][0x1]</data>
+strong...[end]</data>
     </text>
     <text>
         <refs>
@@ -305,7 +305,7 @@ strong...[end][character][0x1]</data>
 many times...
 
 From now on... please lead us to
-victory.[end]I</data>
+victory.[end]</data>
     </text>
     <text>
         <refs>
@@ -318,7 +318,7 @@ This is General Palpaleos...
 
 
 He left the Empire and Sauzer to
-become a new member of our group...[end]E</data>
+become a new member of our group...[end]</data>
     </text>
     <text>
         <refs>
@@ -332,7 +332,7 @@ Then, he let General Palpaleos go.
 
 It was all to protect the skies of
 Orelus. To protect them from the
-beasts of the other world...[end]P</data>
+beasts of the other world...[end]</data>
     </text>
     <text>
         <refs>
@@ -343,7 +343,7 @@ authority over the Empire...
 
 If it's to win... No, if it's to rule the
 people by force, he will use any means
-necessary...[end]W</data>
+necessary...[end]</data>
     </text>
     <text>
         <refs>
@@ -357,7 +357,7 @@ If we do it now we'll make it in time!
 
 The legend of the Holy Dragons...
 We'll be the ones to write the
-conclusion to it![end][character][0x1]</data>
+conclusion to it![end]</data>
     </text>
     <text>
         <refs>
@@ -366,28 +366,28 @@ conclusion to it![end][character][0x1]</data>
         <data>[character][0x1]: I hereby declare the
 revival of Kahna!!
 
-And... the beginning of a new battle![end]M</data>
+And... the beginning of a new battle![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x629</ref>
         </refs>
         <data>Manyooo!
-[0x28]We've received payment![0x29][end]M</data>
+[0x28]We've received payment![0x29][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x63c</ref>
         </refs>
         <data>Munyoo!
-[0x28]We can't tell you who paid![0x29][end]M</data>
+[0x28]We can't tell you who paid![0x29][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x64f</ref>
         </refs>
         <data>Melomelo!!
-[0x28]The Mini-Devils' friend is tired...[0x29][end]M</data>
+[0x28]The Mini-Devils' friend is tired...[0x29][end]</data>
     </text>
     <text>
         <refs>
@@ -395,21 +395,21 @@ And... the beginning of a new battle![end]M</data>
         </refs>
         <data>Monyomonyo!!
 [0x28]Deluxe edition of the Mini-Devil
-Dance![0x29][end]M</data>
+Dance![0x29][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x66d</ref>
         </refs>
         <data>Manyomanyo!!
-[0x28]Devil Dance begin!![0x29][end]M</data>
+[0x28]Devil Dance begin!![0x29][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x67c</ref>
         </refs>
         <data>Munyomunyomunyo!!
-[0x28]Let's keep dancing tonight!![0x29][end]M</data>
+[0x28]Let's keep dancing tonight!![0x29][end]</data>
     </text>
     <text>
         <refs>
@@ -417,7 +417,7 @@ Dance![0x29][end]M</data>
         </refs>
         <data>Melomelo!!
 [0x28]It looks like the Mini-Devils are happy
-with lots of tips!![0x29][end][character][0x1]</data>
+with lots of tips!![0x29][end]</data>
     </text>
     <text>
         <refs>
@@ -427,28 +427,28 @@ with lots of tips!![0x29][end][character][0x1]</data>
 Kahna's revival!! Let's all have fun!!
 
 Hey... [character][0x1]. What are you going to
-do tonight?[end] </data>
+do tonight?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6e2</ref>
         </refs>
         <data>  I'm going to sleep when it's bedtime.
-  I'm gonna be free and easy!![end1]I</data>
+  I'm gonna be free and easy!![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x6f1</ref>
         </refs>
         <data>I see... Tonight let's enjoy a quiet
-dance.[end]I</data>
+dance.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6fe</ref>
         </refs>
         <data>I see... Let's dance 'til we drop, all
-night long!![end]M</data>
+night long!![end]</data>
     </text>
     <text>
         <refs>
@@ -456,14 +456,14 @@ night long!![end]M</data>
         </refs>
         <data>Monyomonyo...
 [0x28]They haven't spoken much tonight...
-Humans who have many dreams...[0x29][end]M</data>
+Humans who have many dreams...[0x29][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x748</ref>
         </refs>
         <data>Manyomanyo...
-[0x28]True peace... an eternal illusion.[0x29][end]M</data>
+[0x28]True peace... an eternal illusion.[0x29][end]</data>
     </text>
     <text>
         <refs>
@@ -471,7 +471,7 @@ Humans who have many dreams...[0x29][end]M</data>
         </refs>
         <data>Munyomunyo...
 [0x28]It's pretty dangerous... If it happens
-we devils won't be able to live...[0x29][end]M</data>
+we devils won't be able to live...[0x29][end]</data>
     </text>
     <text>
         <refs>
@@ -479,7 +479,7 @@ we devils won't be able to live...[0x29][end]M</data>
         </refs>
         <data>Monyo!!
 [0x28]But holding onto hopes isn't that bad...
-That's what it means to be human...[0x29][end]M</data>
+That's what it means to be human...[0x29][end]</data>
     </text>
     <text>
         <refs>
@@ -487,7 +487,7 @@ That's what it means to be human...[0x29][end]M</data>
         </refs>
         <data>Manyoo!!
 [0x28]Humans who must love...Like we devils,
-you too will not perish...[0x29][end]M</data>
+you too will not perish...[0x29][end]</data>
     </text>
     <text>
         <refs>
@@ -495,7 +495,7 @@ you too will not perish...[0x29][end]M</data>
         </refs>
         <data>Munyoo!!
 [0x28]Keep dancing! Don't think, humans!
-Dance!![0x29][end]M</data>
+Dance!![0x29][end]</data>
     </text>
     <text>
         <refs>
@@ -529,21 +529,21 @@ Watch my Matelite-brand fireworks!!
 
 
 Everyone!
-Thank you![end]F</data>
+Thank you![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd85</ref>
         </refs>
         <data>Frenze and Reeve: [0x2a]sniff[0x2a]
-Lan-lan-lancer!! Stab-stab... [0x2a]sniff[0x2a][end] </data>
+Lan-lan-lancer!! Stab-stab... [0x2a]sniff[0x2a][end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd89</ref>
         </refs>
         <data>  What are you sniffling for?
-  Leave him alone[end1]H</data>
+  Leave him alone[end1]</data>
     </text>
     <text>
         <refs>
@@ -555,7 +555,7 @@ But... the friendship was fake.
 We just pretended to be friends...
 
 
-[0x2a]sniff[0x2a] Achoooo!![end]F</data>
+[0x2a]sniff[0x2a] Achoooo!![end]</data>
     </text>
     <text>
         <refs>
@@ -565,14 +565,14 @@ We just pretended to be friends...
 promises to their boyfriends.
 How nice...
 Everybody has somebody waiting for
-them... But don't you think it's strange?[end] </data>
+them... But don't you think it's strange?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xdaa</ref>
         </refs>
         <data>  Is there something worrying you?
-  Don't worry about it.[end1]A</data>
+  Don't worry about it.[end1]</data>
     </text>
     <text>
         <refs>
@@ -580,7 +580,7 @@ them... But don't you think it's strange?[end] </data>
         </refs>
         <data>Anastasia... Lately she's been real
 friendly with that Barclay. He must be
-an old flame![end]E</data>
+an old flame![end]</data>
     </text>
     <text>
         <refs>
@@ -590,7 +590,7 @@ an old flame![end]E</data>
 
 
 She's always being rejected.
-I wonder whose fault it is...?[end]T</data>
+I wonder whose fault it is...?[end]</data>
     </text>
     <text>
         <refs>
@@ -600,14 +600,14 @@ I wonder whose fault it is...?[end]T</data>
 of vigor as usual...
 
 It is unfortunate, with tonight being
-the night of Kahna's revival...[end]H</data>
+the night of Kahna's revival...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xdd0</ref>
         </refs>
         <data>He certainly must have been hurt
-by your words, [character][0x1]![end]H</data>
+by your words, [character][0x1]![end]</data>
     </text>
     <text>
         <refs>
@@ -620,7 +620,7 @@ It's me, the Dragonkeeper!
 
 
 The famous royal throne of Kahna is
-unbelievably comfortable to sit in.[end]C</data>
+unbelievably comfortable to sit in.[end]</data>
     </text>
     <text>
         <refs>
@@ -632,7 +632,7 @@ Kahna!
 Outside is a big present from me!
 
 
-Come! This way!![end]S</data>
+Come! This way!![end]</data>
     </text>
     <text>
         <refs>
@@ -648,21 +648,21 @@ frightening voices...
 not yet upon us...[0x22]
 
 Or something. But why did they have to
-tell me...[end]B</data>
+tell me...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe3c</ref>
         </refs>
         <data>Barclay: Matelite... You don't think that
-he...[end] </data>
+he...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe40</ref>
         </refs>
         <data>  What do you mean?
-  Yeah, I think so.[end1]F</data>
+  Yeah, I think so.[end1]</data>
     </text>
     <text>
         <refs>
@@ -677,7 +677,7 @@ ruins, with his own money.
 But, when he came and saw it, this was
 how it was. Perfectly intact, like it was
 brand new...
-He's really depressed...[end]B</data>
+He's really depressed...[end]</data>
     </text>
     <text>
         <refs>
@@ -685,7 +685,7 @@ He's really depressed...[end]B</data>
         </refs>
         <data>Barclay: I heard it was General
 Palpaleos who repaired Kahna Castle...
-And once again Matelite is poor...[end]R</data>
+And once again Matelite is poor...[end]</data>
     </text>
     <text>
         <refs>
@@ -695,28 +695,28 @@ And once again Matelite is poor...[end]R</data>
 [character][0x1], who's gonna be the queen
 of Kahna!
 But you know, [character][0x1]... Are you
-really that happy?[end] </data>
+really that happy?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe5e</ref>
         </refs>
         <data>  Yes, I'm happy.
-  I might feel the same as you...[end1]Y</data>
+  I might feel the same as you...[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xe68</ref>
         </refs>
         <data>Yeah... It's the revival of Kahna, after
-all...[end][character][0x1]</data>
+all...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe6e</ref>
         </refs>
         <data>[character][0x1]... It's like she's gone
-beyond our reach now...[end]T</data>
+beyond our reach now...[end]</data>
     </text>
     <text>
         <refs>

@@ -5,7 +5,7 @@
             <ref>0x132</ref>
         </refs>
         <data>         Chapitre [0xb0]
-     -Le Commencement-[end] </data>
+     -Le Commencement-[end]</data>
     </text>
     <text>
         <refs>
@@ -13,38 +13,33 @@
             <ref>0xb79</ref>
         </refs>
         <data> Oui
- Non[end1]
-</data>
+ Non[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x9c</ref>
         </refs>
         <data>  Plusieurs années après le cauchemar
-  de la guerre...[0xfc][0x1][end1]
-</data>
+  de la guerre...[0xfc][0x1][end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xae</ref>
         </refs>
-        <data> Sur Teid,un lagon oublié de l'Empire...[0xfc][0x1][end1]
-</data>
+        <data> Sur Teid,un lagon oublié de l'Empire...[0xfc][0x1][end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xea</ref>
         </refs>
         <data> Les survivants de la chute de Kana
- formèrent un groupe de rebelles...[0xfc][0x1][end1]
-</data>
+ formèrent un groupe de rebelles...[0xfc][0x1][end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xee</ref>
         </refs>
-        <data> pour faire face à l'Empire Granbelos.[0xfc][0x1][end1]
-</data>
+        <data> pour faire face à l'Empire Granbelos.[0xfc][0x1][end1]</data>
     </text>
     <text>
         <refs>
@@ -53,47 +48,47 @@
         <data>ZORA:
 J'entends ce bruit de plus en plus
 fort!
-Il s'approche...[end]L</data>
+Il s'approche...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x111</ref>
         </refs>
         <data>LUKIA:
-Ils sont de retour![end]M</data>
+Ils sont de retour![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x20a</ref>
         </refs>
         <data>MELODIA:
-SALAMANDO![end][character][0x1]</data>
+SALAMANDO![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x218</ref>
         </refs>
-        <data>[character][0x1]![end]B</data>
+        <data>[character][0x1]![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x346</ref>
         </refs>
         <data>BIKKEBAKKE:
-............[end]S</data>
+............[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x373</ref>
         </refs>
-        <data>Souhaitez la bienvenue à [character][0x1][0xd8][end]Z</data>
+        <data>Souhaitez la bienvenue à [character][0x1][0xd8][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3a5</ref>
         </refs>
         <data>ZORA:
-[character][0x1] est de retour![end] </data>
+[character][0x1] est de retour![end]</data>
     </text>
     <text>
         <refs>
@@ -101,14 +96,14 @@ SALAMANDO![end][character][0x1]</data>
         </refs>
         <data> Capitaine de la Cavalerie de
             Mahal,
-        -COMMANDANT-[end] </data>
+        -COMMANDANT-[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3eb</ref>
         </refs>
         <data>   Vieux magicien de kana,
-          -SENDACK-[end] </data>
+          -SENDACK-[end]</data>
     </text>
     <text>
         <refs>
@@ -116,7 +111,7 @@ SALAMANDO![end][character][0x1]</data>
         </refs>
         <data>  Membre de la Cavalerie de
    Kana,Groupe Sanguin O,
-         -MATELIGHT-[end]C</data>
+         -MATELIGHT-[end]</data>
     </text>
     <text>
         <refs>
@@ -126,7 +121,7 @@ SALAMANDO![end][character][0x1]</data>
 Monsieur [character][0x1]!
  
 Je suis un chevalier de Mahal,
-je me nomme Commandant![end]S</data>
+je me nomme Commandant![end]</data>
     </text>
     <text>
         <refs>
@@ -136,7 +131,7 @@ je me nomme Commandant![end]S</data>
 Humpf humpf...
  
 [character][0x1] est revenu?
-Il faudrait que je lui parles![end]M</data>
+Il faudrait que je lui parles![end]</data>
     </text>
     <text>
         <refs>
@@ -144,14 +139,14 @@ Il faudrait que je lui parles![end]M</data>
         </refs>
         <data>MATELIGHT:
 Hahahaha!
-Content de te revoir![end]Z</data>
+Content de te revoir![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x46b</ref>
         </refs>
         <data>ZORA:
-Où est [character][0x1]?![end]T</data>
+Où est [character][0x1]?![end]</data>
     </text>
     <text>
         <refs>
@@ -161,7 +156,7 @@ Où est [character][0x1]?![end]T</data>
 Regardez tout le monde!
 Nous avons capturé un Dragon!
 Il fait parti de notre plan pour
-délivrer la princesse.[end]Z</data>
+délivrer la princesse.[end]</data>
     </text>
     <text>
         <refs>
@@ -176,7 +171,7 @@ rien avaler tant je suis heureuse.
 Je crois que ça passera lorsque nous
 nous serons envolés.
  
-Obtenu [0xaa]Divers Objets[0xab].[end]R</data>
+Obtenu [0xaa]Divers Objets[0xab].[end]</data>
     </text>
     <text>
         <refs>
@@ -184,7 +179,7 @@ Obtenu [0xaa]Divers Objets[0xab].[end]R</data>
         </refs>
         <data>RUSH:
 Ne me dis pas que tu as oublié notre
-stratégie!?[end]A</data>
+stratégie!?[end]</data>
     </text>
     <text>
         <refs>
@@ -193,7 +188,7 @@ stratégie!?[end]A</data>
         <data>Afin de secourir la Princesse [character][0x1],
 nous allons récupérer le vaisseau qui
 faisait la fierté du Drapeau de Kana.
-Dépêchons-nous![end]S</data>
+Dépêchons-nous![end]</data>
     </text>
     <text>
         <refs>
@@ -206,15 +201,14 @@ Nous apprécions tout ce que tu as fait
 pour retrouver les dragons.
  
 Te souviens-tu du jour où tu es
-parti avec les autres?[end] </data>
+parti avec les autres?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xbf0</ref>
         </refs>
         <data> Je ne m'en souviens plus...
- Je m'en souviens.[end1]
-</data>
+ Je m'en souviens.[end1]</data>
     </text>
     <text>
         <refs>
@@ -222,14 +216,14 @@ parti avec les autres?[end] </data>
         </refs>
         <data>SENDACK:
 C'était il y a peu de temps mais tu
-sembles si mâture,maintenant...[end]H</data>
+sembles si mâture,maintenant...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xbfc</ref>
         </refs>
         <data>Ha,[character][0x1]!
-Vite au champ de bataille![end]M</data>
+Vite au champ de bataille![end]</data>
     </text>
     <text>
         <refs>
@@ -242,7 +236,7 @@ Te souviens-tu à quel point [character][0x1]
 avait le coeur troublé?!
  
 Tu as également de beaux souvenirs
-d'elle,n'est-ce pas?[end]M</data>
+d'elle,n'est-ce pas?[end]</data>
     </text>
     <text>
         <refs>
@@ -252,21 +246,21 @@ d'elle,n'est-ce pas?[end]M</data>
 Princesse [character][0x1]...
  
 J'ai tant de souvenirs dans mon coeur
-brisé...[end]T</data>
+brisé...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb86</ref>
         </refs>
         <data>Tu rougis!
-Ce sont donc de bons souvenirs![end]T</data>
+Ce sont donc de bons souvenirs![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb9a</ref>
         </refs>
         <data>Très bien,[character][0x1]!
-Allons vite secourir la Princesse![end]J</data>
+Allons vite secourir la Princesse![end]</data>
     </text>
     <text>
         <refs>
@@ -274,7 +268,7 @@ Allons vite secourir la Princesse![end]J</data>
         </refs>
         <data>Je sais très bien que tu en as!
 Surtout des souvenirs lorsque tu
-t'envolais avec elle dans les cieux.[end]M</data>
+t'envolais avec elle dans les cieux.[end]</data>
     </text>
     <text>
         <refs>
@@ -282,7 +276,7 @@ t'envolais avec elle dans les cieux.[end]M</data>
         </refs>
         <data>MONYO:
 monyo!
-[0xa8]petit démon combattre![0xa9][end]M</data>
+[0xa8]petit démon combattre![0xa9][end]</data>
     </text>
     <text>
         <refs>
@@ -290,13 +284,13 @@ monyo!
         </refs>
         <data>MANYO:
 manyo!
-[0xa8]mourrir au combat![0xa9][end]-</data>
+[0xa8]mourrir au combat![0xa9][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9b3</ref>
         </refs>
-        <data>-Veuillez nommer ce dragon-[end]-</data>
+        <data>-Veuillez nommer ce dragon-[end]</data>
     </text>
     <text>
         <refs>
@@ -305,14 +299,14 @@ manyo!
             <ref>0xdec</ref>
             <ref>0xd26</ref>
         </refs>
-        <data>-Nourrir ce Dragon-[end]S</data>
+        <data>-Nourrir ce Dragon-[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe0d</ref>
         </refs>
         <data>SALAMANDO est prêt à partir.
-Les préparatifs sont OK?[end] </data>
+Les préparatifs sont OK?[end]</data>
     </text>
     <text>
         <refs>
@@ -320,8 +314,7 @@ Les préparatifs sont OK?[end] </data>
         </refs>
         <data> Nourrir.
  Partir.
- Finir les préparatifs.[end1]
-</data>
+ Finir les préparatifs.[end1]</data>
     </text>
     <text>
         <refs>
@@ -329,27 +322,27 @@ Les préparatifs sont OK?[end] </data>
         </refs>
         <data>SENDACK:
 [character][0x1],ce serait trop dur toi d'être
-plus attentif![end] </data>
+plus attentif![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe8d</ref>
         </refs>
         <data> Y aller doucement!
- Je suis un peu maladroit.[end1][character][0x1]</data>
+ Je suis un peu maladroit.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xe98</ref>
         </refs>
-        <data>[character][0x1]...[end]M</data>
+        <data>[character][0x1]...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xea0</ref>
         </refs>
         <data>Mais,tu ne vas pas tomber!
-Marche arrière...[end]C</data>
+Marche arrière...[end]</data>
     </text>
     <text>
         <refs>
@@ -357,7 +350,7 @@ Marche arrière...[end]C</data>
         </refs>
         <data>COMMANDANT:
 Essait-il de mordre?
-Il me fait peur...[end]C</data>
+Il me fait peur...[end]</data>
     </text>
     <text>
         <refs>
@@ -368,7 +361,7 @@ Matelight est parti sur un dragon et il
 était heureux!
 Il semblait pleurer de joie.
 Moi-même,j'en ai été étonné et ma
-moustache n'a fait qu'un tour.[end]T</data>
+moustache n'a fait qu'un tour.[end]</data>
     </text>
     <text>
         <refs>
@@ -378,50 +371,50 @@ moustache n'a fait qu'un tour.[end]T</data>
 [0xaa]Chose importante de Matelight[0xab].
  
 Le coffre est fermement scellé.
-L'ouvrir tout de même?[end]T</data>
+L'ouvrir tout de même?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x102c</ref>
         </refs>
         <data>Tu as trouvé
-[0xaa]Souvenir de la Princesse[0xab].[end]T</data>
+[0xaa]Souvenir de la Princesse[0xab].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfc9</ref>
         </refs>
-        <data>Trouvé [0xaa]CHOSE SUR L'ETAGERE[0xab].[end]T</data>
+        <data>Trouvé [0xaa]CHOSE SUR L'ETAGERE[0xab].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfde</ref>
         </refs>
-        <data>Trouvé [0xaa]VIN DOUX[0xab].[end]T</data>
+        <data>Trouvé [0xaa]VIN DOUX[0xab].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xffa</ref>
         </refs>
-        <data>Trouvé [0xaa]PORNO[0xab].[end]T</data>
+        <data>Trouvé [0xaa]PORNO[0xab].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfb4</ref>
         </refs>
-        <data>Trouvé [0xaa]UNIUJI[0xab].[end]T</data>
+        <data>Trouvé [0xaa]UNIUJI[0xab].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf9f</ref>
         </refs>
-        <data>Trouvé [0xaa]GENIE[0xab].[end]T</data>
+        <data>Trouvé [0xaa]GENIE[0xab].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf86</ref>
         </refs>
-        <data>Trouvé [0xb4] [0xaa]GIN[0xab].[end] </data>
+        <data>Trouvé [0xb4] [0xaa]GIN[0xab].[end]</data>
     </text>
     <text>
         <refs>
@@ -435,7 +428,7 @@ L'ouvrir tout de même?[end]T</data>
  
  Depuis la Grande Guerre,
  l'hiver semble être de plus en plus
- froid.[end] </data>
+ froid.[end]</data>
     </text>
     <text>
         <refs>
@@ -451,7 +444,7 @@ L'ouvrir tout de même?[end]T</data>
  sont maintenant considérés comme des
  Rebelles.
  C'est irréversible...
- [character][0x1], revenez-nous tous très vite.[end] </data>
+ [character][0x1], revenez-nous tous très vite.[end]</data>
     </text>
     <text>
         <refs>
@@ -461,7 +454,7 @@ L'ouvrir tout de même?[end]T</data>
  Ici,ce sera bientôt un autre hiver
  très rude.
  Prenez soin de vous,
- -SENDACK-[end]R</data>
+ -SENDACK-[end]</data>
     </text>
     <text>
         <refs>
@@ -473,7 +466,7 @@ Fais-leur tes adieux...
 Tu te dépêches [character][0x1]!
  
   
-Capitaine,nous sommes prêts![end]T</data>
+Capitaine,nous sommes prêts![end]</data>
     </text>
     <text>
         <refs>
@@ -483,7 +476,7 @@ Capitaine,nous sommes prêts![end]T</data>
 Nous devons récupérer les dragons qui
 se sont enfuis lors de notre défaite!
 Ensuite,nous pourrons reprendre le
-flambeau de la Flotte de Kana![end]B</data>
+flambeau de la Flotte de Kana![end]</data>
     </text>
     <text>
         <refs>
@@ -492,28 +485,28 @@ flambeau de la Flotte de Kana![end]B</data>
         <data>BIKKEBAKKE:
 Allons chercher les dragons puis notre
 escadron sera plus puissant.
-Courage,courage![end]R</data>
+Courage,courage![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8aa</ref>
         </refs>
         <data>RUSH:
-Allons-y![end]L</data>
+Allons-y![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8e2</ref>
         </refs>
         <data>LUKIA:
-Nous allons nous sentir bien seules.[end]Z</data>
+Nous allons nous sentir bien seules.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8ef</ref>
         </refs>
         <data>ZORA:
-Faites attention à vous![end]R</data>
+Faites attention à vous![end]</data>
     </text>
     <text>
         <refs>
@@ -522,14 +515,14 @@ Faites attention à vous![end]R</data>
         <data>Regarde Melodia...
 Ils s'en vont!
 [character][0x1] s'en va!
-Tu ne dis rien?![end]S</data>
+Tu ne dis rien?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x915</ref>
         </refs>
         <data>SENDACK:
-Je...[end]M</data>
+Je...[end]</data>
     </text>
     <text>
         <refs>

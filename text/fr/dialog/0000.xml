@@ -5,15 +5,14 @@
             <ref>0x9fb</ref>
         </refs>
         <data> Oui
- Non[end1]
-</data>
+ Non[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x7e</ref>
         </refs>
         <data>             Prologue
-        -La Chute de Kana-[end]R</data>
+        -La Chute de Kana-[end]</data>
     </text>
     <text>
         <refs>
@@ -25,21 +24,20 @@ pas?
 Pourquoi ne puis-je te tirer de ton
 sommeil?
  
-Vas-tu laisser l'Empire détruire Kana?[end] </data>
+Vas-tu laisser l'Empire détruire Kana?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x160</ref>
         </refs>
-        <data> -Base de l'Escadron Dragon de Kana-[end1]
-</data>
+        <data> -Base de l'Escadron Dragon de Kana-[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x184</ref>
         </refs>
         <data>RUSH:
-Allons-y![end]T</data>
+Allons-y![end]</data>
     </text>
     <text>
         <refs>
@@ -47,7 +45,7 @@ Allons-y![end]T</data>
         </refs>
         <data>TAURUS:
 Capitaine,donnez-nous le signal
-d'attaque![end] </data>
+d'attaque![end]</data>
     </text>
     <text>
         <refs>
@@ -55,7 +53,7 @@ d'attaque![end] </data>
         </refs>
         <data>  -Le Capitaine de l'Escadron Dragon-
    Il aime les dragons et il est un
-          Chevalier Croix.[end]R</data>
+          Chevalier Croix.[end]</data>
     </text>
     <text>
         <refs>
@@ -66,7 +64,7 @@ Nous devons repartir garder le
 Château de Kana!
 Tu ferais mieux de savoir quel nom
 donner aux dragons avant d'aller
-te battre![end]R</data>
+te battre![end]</data>
     </text>
     <text>
         <refs>
@@ -74,7 +72,7 @@ te battre![end]R</data>
         </refs>
         <data>RUSH:
 Allez!
-Dépêchons-nous![end]T</data>
+Dépêchons-nous![end]</data>
     </text>
     <text>
         <refs>
@@ -86,7 +84,7 @@ l'Empire!
 Capitaine [character][0x1]!
 Voulez-vous attaquer sans être certain
 de savoir ce que vous allez faire?
-Qu'aimeriez-vous savoir,Capitaine?[end] </data>
+Qu'aimeriez-vous savoir,Capitaine?[end]</data>
     </text>
     <text>
         <refs>
@@ -94,8 +92,7 @@ Qu'aimeriez-vous savoir,Capitaine?[end] </data>
         </refs>
         <data> Les commandes des dragons.
  Un jour,le ciel se teinta...
- Je n'ai rien à savoir.[end1]
-</data>
+ Je n'ai rien à savoir.[end1]</data>
     </text>
     <text>
         <refs>
@@ -103,7 +100,7 @@ Qu'aimeriez-vous savoir,Capitaine?[end] </data>
         </refs>
         <data>TAURUS:
 Ce fut le jour où l'Empire Granbelos
-commença à envahir les lagons...[end]T</data>
+commença à envahir les lagons...[end]</data>
     </text>
     <text>
         <refs>
@@ -114,15 +111,14 @@ Si l'Escadron Dragon ne stoppe pas
 l'Empire,celui-ci aura bientôt envahi
 tout les lagons.
 Si nous perdons cette bataille...
-Ce sera...[end] </data>
+Ce sera...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9a3</ref>
         </refs>
         <data> Les commandes des dragons.
- Je n'ai rien à savoir.[end1]
-</data>
+ Je n'ai rien à savoir.[end1]</data>
     </text>
     <text>
         <refs>
@@ -142,7 +138,7 @@ Ton dragon n'attaque pas mais il peut
 soigner tes alliés.
 Avant de leur assigner une commande,
 surveillez bien la manière dont se
-déroule la bataille.[end]L</data>
+déroule la bataille.[end]</data>
     </text>
     <text>
         <refs>
@@ -155,7 +151,7 @@ Dépêchons-nous d'aller au Château de
 Kana!
  
 Capitaine [character][0x1],grimpons vite sur nos
-dragons.[end]B</data>
+dragons.[end]</data>
     </text>
     <text>
         <refs>
@@ -163,7 +159,7 @@ dragons.[end]B</data>
         </refs>
         <data>BIKKEBAKKE:
 Veux-tu connaître les noms les plus
-populaires?[end]A</data>
+populaires?[end]</data>
     </text>
     <text>
         <refs>
@@ -171,7 +167,7 @@ populaires?[end]A</data>
         </refs>
         <data>Au fait,je... je suis...
 Bikkebakke!
-Facile à retenir,non?[end][0xb0]</data>
+Facile à retenir,non?[end]</data>
     </text>
     <text>
         <refs>
@@ -180,7 +176,7 @@ Facile à retenir,non?[end][0xb0]</data>
         <data>[0xb0]- SALAMANDO
 [0xb1]- POCHI
 [0xb2]- TANAKA
-[0xb3]- Le nom de ta bien-aimée[end]-</data>
+[0xb3]- Le nom de ta bien-aimée[end]</data>
     </text>
     <text>
         <refs>
@@ -188,21 +184,21 @@ Facile à retenir,non?[end][0xb0]</data>
             <ref>0xafe</ref>
             <ref>0xa2e</ref>
         </refs>
-        <data>-Veuillez nommer ce dragon-[end]R</data>
+        <data>-Veuillez nommer ce dragon-[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb60</ref>
         </refs>
         <data>RUSH:
-Envolons-nous![end]T</data>
+Envolons-nous![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb18</ref>
         </refs>
         <data>TAURUS:
-Allez,partons...[end]R</data>
+Allez,partons...[end]</data>
     </text>
     <text>
         <refs>
@@ -212,7 +208,7 @@ Allez,partons...[end]R</data>
 Princesse?!
  
 Pouvez-vous sentir la présence de
-Bahamut?[end] </data>
+Bahamut?[end]</data>
     </text>
     <text>
         <refs>
@@ -220,14 +216,14 @@ Bahamut?[end] </data>
         </refs>
         <data>       -La Princesse de Kana-
      Elle peut parler aux Dragons
-     et peut devenir une Dragoon.[end][character][0x1]</data>
+     et peut devenir une Dragoon.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5c4</ref>
         </refs>
         <data>[character][0x1]:
-Père...[end]R</data>
+Père...[end]</data>
     </text>
     <text>
         <refs>
@@ -235,13 +231,13 @@ Père...[end]R</data>
         </refs>
         <data>ROI DE KANA:
 [character][0x1],arrives-tu à comprendre les
-sentiments de Bahamut?[end]R</data>
+sentiments de Bahamut?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x604</ref>
         </refs>
-        <data>Retournons vite au château![end][character][0x1]</data>
+        <data>Retournons vite au château![end]</data>
     </text>
     <text>
         <refs>
@@ -253,21 +249,21 @@ Bahamut,je t'en prie...
 Protège Kana...
  
  
-Et [character][0x1]...[end]M</data>
+Et [character][0x1]...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6ec</ref>
         </refs>
         <data>MIST:
-Les troupes de l'Empire approchent![end]M</data>
+Les troupes de l'Empire approchent![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6fa</ref>
         </refs>
         <data>MATELIGHT:
-Que fait notre Escadron Dragon?![end]R</data>
+Que fait notre Escadron Dragon?![end]</data>
     </text>
     <text>
         <refs>
@@ -275,7 +271,7 @@ Que fait notre Escadron Dragon?![end]R</data>
             <ref>0x703</ref>
         </refs>
         <data>ROI DE KANA:
-... ... ...[end]M</data>
+... ... ...[end]</data>
     </text>
     <text>
         <refs>
@@ -286,7 +282,7 @@ Votre Majesté!
 Et Bahamut?
 Bahamut,le Dragon censé protéger
 Kana!
-Où est-il?[end]R</data>
+Où est-il?[end]</data>
     </text>
     <text>
         <refs>
@@ -294,7 +290,7 @@ Où est-il?[end]R</data>
             <ref>0x76b</ref>
         </refs>
         <data>RUSH:
-Nous arrivons trop tard![end]T</data>
+Nous arrivons trop tard![end]</data>
     </text>
     <text>
         <refs>
@@ -304,7 +300,7 @@ Nous arrivons trop tard![end]T</data>
 La base aérienne de l'Empire n'était
 qu'un leurre.
 Nous sommes tombés dans leur piège!
-Nous n'aurions pas dû...[end]M</data>
+Nous n'aurions pas dû...[end]</data>
     </text>
     <text>
         <refs>
@@ -315,7 +311,7 @@ Aucune excuse!
 Rassemblons nos forces!
 Suivez-moi!
 Nous ne les laisserons pas approcher
-du portail![end]S</data>
+du portail![end]</data>
     </text>
     <text>
         <refs>
@@ -326,7 +322,7 @@ Selon la légende,le Dragon devrait se
 réveiller dans une telle situation.
 Bahamut devrait être en train de
 protéger Kana!
-Qu'attend-t-il?![end]R</data>
+Qu'attend-t-il?![end]</data>
     </text>
     <text>
         <refs>
@@ -336,13 +332,13 @@ Qu'attend-t-il?![end]R</data>
 Ne dites pas cela!
  
 Nous avons encore l'Escadron Dragon
-et [character][0x1].[end][character][0x1]</data>
+et [character][0x1].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x74f</ref>
         </refs>
-        <data>[character][0x1]...[end]T</data>
+        <data>[character][0x1]...[end]</data>
     </text>
     <text>
         <refs>
@@ -350,7 +346,7 @@ et [character][0x1].[end][character][0x1]</data>
         </refs>
         <data>TAURUS:
 Il faut avouer au Roi ce qui nous est
-arrivé...[end]B</data>
+arrivé...[end]</data>
     </text>
     <text>
         <refs>
@@ -358,6 +354,6 @@ arrivé...[end]B</data>
         </refs>
         <data>BIKKEBAKKE:
 Il y a un zillion d'ennemis dehors!
-Dépêchons-nous![end][0x0]</data>
+Dépêchons-nous![end]</data>
     </text>
 </texts>

@@ -5,7 +5,7 @@
             <ref>0x63</ref>
         </refs>
         <data>               Chapter 7
-    The Legend of the Holy Dragons[end]W</data>
+    The Legend of the Holy Dragons[end]</data>
     </text>
     <text>
         <refs>
@@ -14,7 +14,7 @@
         <data>When Campbell is liberated, I, as
 commander of the freedom force, will
 be called a hero...
-And then my plan will be complete...[end]T</data>
+And then my plan will be complete...[end]</data>
     </text>
     <text>
         <refs>
@@ -25,14 +25,14 @@ At long last!
 
 Even though they have destroyed the
 weapons munitions, surprise is the key!
-Let us be well prepared![end]S</data>
+Let us be well prepared![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x20b</ref>
             <ref>0x1de</ref>
         </refs>
-        <data>Sendak: [character][0x1]! Good luck![end]S</data>
+        <data>Sendak: [character][0x1]! Good luck![end]</data>
     </text>
     <text>
         <refs>
@@ -43,7 +43,7 @@ I have become able to summon the
 Holy Dragon Valitora.
 When the princess is nearby, my power
 swells up almost as if I have become a
-Holy Dragon myself...[end]T</data>
+Holy Dragon myself...[end]</data>
     </text>
     <text>
         <refs>
@@ -53,34 +53,34 @@ Holy Dragon myself...[end]T</data>
 old man is this happy because he can
 become strong by borrowing power.
 Oh! I'm being absentminded again.
-I need to stop doing that.[end]M</data>
+I need to stop doing that.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x220</ref>
         </refs>
         <data>Matelite: That's right! Sendak works
-harder than three people combined![end]R</data>
+harder than three people combined![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x233</ref>
         </refs>
         <data>Rush: Bikkebakke has been acting
-weird lately.[end]I</data>
+weird lately.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x28f</ref>
         </refs>
-        <data>I wonder how he's doing...[end][0x0]</data>
+        <data>I wonder how he's doing...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x23a</ref>
         </refs>
         <data>Truce: Bikkebakke is hiding something,
-isn't he?[end]H</data>
+isn't he?[end]</data>
     </text>
     <text>
         <refs>
@@ -90,7 +90,7 @@ isn't he?[end]H</data>
 Lagoon area, so we can go at any
 time.
 This time you should take off from the
-Dragonkeeper's place.[end]H</data>
+Dragonkeeper's place.[end]</data>
     </text>
     <text>
         <refs>
@@ -100,39 +100,39 @@ Dragonkeeper's place.[end]H</data>
 
 
   Tell me what you like.
-  Tell me what you hate.[end1]W</data>
+  Tell me what you hate.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x262</ref>
         </refs>
         <data>What I like, huh? I really like Sweet
-Wine.[end]W</data>
+Wine.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x26d</ref>
         </refs>
         <data>What I hate? Hmm, I get goose bumps
-at just the thought of Uniuji.[end]Z</data>
+at just the thought of Uniuji.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2af</ref>
         </refs>
-        <data>Zora: I know that![end]M</data>
+        <data>Zora: I know that![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x328</ref>
         </refs>
-        <data>Matelite: ...No thanks.[end][character][0x1]</data>
+        <data>Matelite: ...No thanks.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x389</ref>
         </refs>
-        <data>[character][0x1]: [character][0x1]......[end][0x0]</data>
+        <data>[character][0x1]: [character][0x1]......[end]</data>
     </text>
     <text>
         <refs>
@@ -143,7 +143,7 @@ I'm from Campbell, you see. This really
 brings back memories.
 Are you going with the princess to the
 castle? While you're doing that I'll be
-walking around town.[end]M</data>
+walking around town.[end]</data>
     </text>
     <text>
         <refs>
@@ -153,28 +153,28 @@ walking around town.[end]M</data>
 heedlessly about?!
 
 We have to kick the Granbelos Empire
-out of Campbell before that![end]M</data>
+out of Campbell before that![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2c4</ref>
         </refs>
         <data>Matelite: By the way, Zora. I heard you
-hit [character][0x1]. Is that true?[end]Z</data>
+hit [character][0x1]. Is that true?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2e0</ref>
         </refs>
         <data>Zora: It's true. Who did you hear that
-from?[end]M</data>
+from?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2fd</ref>
         </refs>
         <data>Matelite: What?! You really hit her?!
-Unforgivable![end]Z</data>
+Unforgivable![end]</data>
     </text>
     <text>
         <refs>
@@ -183,13 +183,13 @@ Unforgivable![end]Z</data>
         <data>Zora: What are you going to do about
 it, huh? What are you going to do with
 me? Well, Matelite! What do you say?
-Do you want me to hit you too?![end]R</data>
+Do you want me to hit you too?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x33d</ref>
         </refs>
-        <data>Regrettable... I'll go tell Taicho later...[end][character][0x1]</data>
+        <data>Regrettable... I'll go tell Taicho later...[end]</data>
     </text>
     <text>
         <refs>
@@ -197,27 +197,27 @@ Do you want me to hit you too?![end]R</data>
         </refs>
         <data>[character][0x1]: [character][0x1]... My body...
 something's wrong. It won't move...
-like I want it to...[end]I</data>
+like I want it to...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3a3</ref>
         </refs>
         <data>I don't want you to see me like this,
-[character][0x1]...[end]V</data>
+[character][0x1]...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3b2</ref>
         </refs>
-        <data>Valitora... the Holy Dragon inside me...[end][character][0x1]</data>
+        <data>Valitora... the Holy Dragon inside me...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3bd</ref>
         </refs>
         <data>[character][0x1]... Help me... Give me... your
-hand...[end]W</data>
+hand...[end]</data>
     </text>
     <text>
         <refs>
@@ -227,7 +227,7 @@ hand...[end]W</data>
 There is no need for legends...
 
 Do not think... empty your mind...
-And release my power...[end][character][0x1]</data>
+And release my power...[end]</data>
     </text>
     <text>
         <refs>
@@ -239,14 +239,14 @@ And release my power...[end][character][0x1]</data>
 [character][0x1]... It appears the Holy
 Dragons don't want us to know about
 the legend...
-But... we must keep going...[end][character][0x1]</data>
+But... we must keep going...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x416</ref>
         </refs>
         <data>[character][0x1]: I'll be okay now. I'm going
-with you all to Campbell.[end][character][0x1]</data>
+with you all to Campbell.[end]</data>
     </text>
     <text>
         <refs>
@@ -254,7 +254,7 @@ with you all to Campbell.[end][character][0x1]</data>
         </refs>
         <data>[character][0x1]: [character][0x1]... keep this a
 secret from the others... It will only
-worry them...[end]A</data>
+worry them...[end]</data>
     </text>
     <text>
         <refs>
@@ -264,20 +264,20 @@ worry them...[end]A</data>
 his favorite food is for me?
 
   Ask him yourself.
-  Alright.[end1]Y</data>
+  Alright.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x449</ref>
         </refs>
         <data>You should be able to at least do
-something as simple as that![end]T</data>
+something as simple as that![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x452</ref>
         </refs>
-        <data>Thanks, [character][0x1]![end]A</data>
+        <data>Thanks, [character][0x1]![end]</data>
     </text>
     <text>
         <refs>
@@ -287,40 +287,40 @@ something as simple as that![end]T</data>
 he say he likes?
 
   Sweet Wine
-  Uniuji[end1]A</data>
+  Uniuji[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x47c</ref>
         </refs>
-        <data>Ah, I see![end]A</data>
+        <data>Ah, I see![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x486</ref>
         </refs>
         <data>Anastasia: Did you hear that, Ectarina?
-Okay, let's go.[end]E</data>
+Okay, let's go.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4b4</ref>
         </refs>
         <data>Ectarina: U-um... [character][0x1].
-Thank you very much.[end]E</data>
+Thank you very much.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4d0</ref>
         </refs>
-        <data>Ectarina: [character][0x1]... um... uh...[end]L</data>
+        <data>Ectarina: [character][0x1]... um... uh...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4db</ref>
         </refs>
         <data>Lukia: Those boys, they've forgotten
-that we're in the middle of a war...[end]L</data>
+that we're in the middle of a war...[end]</data>
     </text>
     <text>
         <refs>
@@ -330,14 +330,14 @@ that we're in the middle of a war...[end]L</data>
 about the legend of the Holy Dragons,
 right?
 I hope it's a good legend where
-everybody lives happily ever after.[end]M</data>
+everybody lives happily ever after.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4ed</ref>
         </refs>
         <data>Manyo: Manyoooo!
-[0x28]Melodia is a good girl![0x29][end]M</data>
+[0x28]Melodia is a good girl![0x29][end]</data>
     </text>
     <text>
         <refs>
@@ -345,7 +345,7 @@ everybody lives happily ever after.[end]M</data>
         </refs>
         <data>Manyo: Manyoooo!
 [0x28]She's pretty tough to be able to
-dance with us![0x29][end]M</data>
+dance with us![0x29][end]</data>
     </text>
     <text>
         <refs>
@@ -355,32 +355,32 @@ dance with us![0x29][end]M</data>
 be more of them!
 
   Yep, I agree.
-  They get in the way of shop people.[end1]A</data>
+  They get in the way of shop people.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x50e</ref>
         </refs>
         <data>Ah! Then let's all dance together! You
-too, [character][0x1]![end]I</data>
+too, [character][0x1]![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x517</ref>
         </refs>
-        <data>It's okay! Melodia will tell you how![end]Y</data>
+        <data>It's okay! Melodia will tell you how![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x76a</ref>
         </refs>
-        <data>You got some Bitter Wine.[end]Y</data>
+        <data>You got some Bitter Wine.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x77b</ref>
         </refs>
-        <data>You got a Ship's Log.[end]Y</data>
+        <data>You got a Ship's Log.[end]</data>
     </text>
     <text>
         <refs>

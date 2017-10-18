@@ -5,14 +5,14 @@
             <ref>0xac</ref>
         </refs>
         <data>               Chapter 8
-         Mid-Air Dragon Battle[end]T</data>
+         Mid-Air Dragon Battle[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd6</ref>
         </refs>
         <data>Taicho: Up there in the sky is my home
-town of Mahal!![end]M</data>
+town of Mahal!![end]</data>
     </text>
     <text>
         <refs>
@@ -20,20 +20,20 @@ town of Mahal!![end]M</data>
         </refs>
         <data>Matelite: Taicho!! Soon! Soon we will
 liberate your kingdom of Mahal from
-the Empire![end]T</data>
+the Empire![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xee</ref>
         </refs>
-        <data>Taicho: We shall liberate it!![end]M</data>
+        <data>Taicho: We shall liberate it!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfc</ref>
         </refs>
         <data>Matelite: Hey, Taicho. Watching the sky
-is fun!![end]S</data>
+is fun!![end]</data>
     </text>
     <text>
         <refs>
@@ -41,7 +41,7 @@ is fun!![end]S</data>
             <ref>0x17a</ref>
             <ref>0x11d</ref>
         </refs>
-        <data>Several hours pass... How many?[end] </data>
+        <data>Several hours pass... How many?[end]</data>
     </text>
     <text>
         <refs>
@@ -53,7 +53,7 @@ is fun!![end]S</data>
         </refs>
         <data>  1 hour later
   2 hours later
-  3 hours later[end1]T</data>
+  3 hours later[end1]</data>
     </text>
     <text>
         <refs>
@@ -61,14 +61,14 @@ is fun!![end]S</data>
         </refs>
         <data>Taicho: On the other side of the clouds
 is my home town of Mahal! The smell
-of the lake has drifted here![end]M</data>
+of the lake has drifted here![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x158</ref>
         </refs>
         <data>Matelite: I see... You know, Taicho,
-watching the sky is boring.[end]M</data>
+watching the sky is boring.[end]</data>
     </text>
     <text>
         <refs>
@@ -76,21 +76,21 @@ watching the sky is boring.[end]M</data>
         </refs>
         <data>Matelite: Hey... Hornet, you're our
 navigator. When will we arrive at
-Mahal?[end]H</data>
+Mahal?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1de</ref>
         </refs>
         <data>Hornet: The sky's become strange.
-Be quiet![end]M</data>
+Be quiet![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x203</ref>
         </refs>
         <data>Matelite: It's cold... [character][0x1]!
-Take over for me![end]I</data>
+Take over for me![end]</data>
     </text>
     <text>
         <refs>
@@ -98,46 +98,46 @@ Take over for me![end]I</data>
         </refs>
         <data>I'll talk with Captain Sendak about the
 plans for Mahal. It's a conversation for
-adults, so don't bother us![end]T</data>
+adults, so don't bother us![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xcf1</ref>
             <ref>0x25c</ref>
         </refs>
-        <data>Taicho: All clear![end][character][0x1]</data>
+        <data>Taicho: All clear![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2bb</ref>
         </refs>
-        <data>[character][0x1]: [character][0x1]... Come down.[end]S</data>
+        <data>[character][0x1]: [character][0x1]... Come down.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x30e</ref>
         </refs>
-        <data>Sendak: [character][0x1]... Good work...[end]S</data>
+        <data>Sendak: [character][0x1]... Good work...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x322</ref>
         </refs>
-        <data>Sendak: Here is a gift.[end]Y</data>
+        <data>Sendak: Here is a gift.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x32b</ref>
         </refs>
         <data>You got Sendak's Sincerity Cookie.
-Will you eat it?[end] </data>
+Will you eat it?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x32f</ref>
         </refs>
         <data>  Thank you, Sendak.
-  I don't need any, you old man![end1]S</data>
+  I don't need any, you old man![end1]</data>
     </text>
     <text>
         <refs>
@@ -145,13 +145,13 @@ Will you eat it?[end] </data>
             <ref>0xa83</ref>
             <ref>0x34c</ref>
         </refs>
-        <data>Sendak: What? [character][0x1]...[end]S</data>
+        <data>Sendak: What? [character][0x1]...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x35c</ref>
         </refs>
-        <data>Sendak: I am happy...[end]S</data>
+        <data>Sendak: I am happy...[end]</data>
     </text>
     <text>
         <refs>
@@ -160,41 +160,41 @@ Will you eat it?[end] </data>
         <data>Sendak: [character][0x1]......
 
 
-[0x2a]wheeze[0x2a] [0x2a]wheeze[0x2a][end]S</data>
+[0x2a]wheeze[0x2a] [0x2a]wheeze[0x2a][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x386</ref>
         </refs>
-        <data>Sendak: Eep!![end]S</data>
+        <data>Sendak: Eep!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3b8</ref>
         </refs>
         <data>Sendak: [character][0x1]... your rear is so
-round...[end]M</data>
+round...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6dc</ref>
         </refs>
         <data>Matelite: Get them before they get to
-Mahal![end]S</data>
+Mahal![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6ea</ref>
         </refs>
         <data>Sendak: [character][0x1]... Do you mind if I
-hold on to you?[end] </data>
+hold on to you?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6ee</ref>
         </refs>
         <data>  Yeah, go ahead.
-  No, please stop, you old man!![end1]S</data>
+  No, please stop, you old man!![end1]</data>
     </text>
     <text>
         <refs>
@@ -202,135 +202,135 @@ hold on to you?[end] </data>
             <ref>0x6f9</ref>
         </refs>
         <data>Sendak: [character][0x1]... But I wanted to
-ride with you...[end]S</data>
+ride with you...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x702</ref>
         </refs>
-        <data>Sendak: I am so happy...[end]T</data>
+        <data>Sendak: I am so happy...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x74b</ref>
         </refs>
         <data>Taicho: [character][0x1], you keep watch
-over there!![end]T</data>
+over there!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x752</ref>
         </refs>
         <data>Taicho: The enemy's dragons have
-vanished into the clouds!![end]T</data>
+vanished into the clouds!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x759</ref>
         </refs>
         <data>Taicho: I am watching nothing but the
-sky!![end][character][0x1]</data>
+sky!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x76b</ref>
         </refs>
         <data>[character][0x1]: Thank you. Here's a
-present...[end]Y</data>
+present...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x774</ref>
         </refs>
         <data>You got [character][0x1]'s Handmade Cookie.
-Will you eat it?[end] </data>
+Will you eat it?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x778</ref>
         </refs>
         <data>  Thank you!!
-  I'm busy.[end1][character][0x1]</data>
+  I'm busy.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x79a</ref>
         </refs>
-        <data>[character][0x1]: Sorry.[end][character][0x1]</data>
+        <data>[character][0x1]: Sorry.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7d0</ref>
         </refs>
-        <data>[character][0x1]: Well? Is it good?[end] </data>
+        <data>[character][0x1]: Well? Is it good?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7d4</ref>
         </refs>
         <data>  Delicious!
-  This is fit for a dragon...[end1][character][0x1]</data>
+  This is fit for a dragon...[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x7e7</ref>
         </refs>
-        <data>[character][0x1]: I'm glad.[end][character][0x1]</data>
+        <data>[character][0x1]: I'm glad.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x817</ref>
         </refs>
         <data>[character][0x1]: Hey, [character][0x1].
-Can I keep watch too?[end] </data>
+Can I keep watch too?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x81b</ref>
         </refs>
         <data>  Yes, of course!
-  This is a man's job!![end1][character][0x1]</data>
+  This is a man's job!![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x840</ref>
         </refs>
         <data>[character][0x1]: [character][0x1]... I can't see
-very well. Push me up from behind.[end][character][0x1]</data>
+very well. Push me up from behind.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x85d</ref>
         </refs>
         <data>[character][0x1]: The sky... it's such a sad
-color, don't you think?[end]E</data>
+color, don't you think?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x865</ref>
         </refs>
-        <data>Eep!![end]H</data>
+        <data>Eep!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8ca</ref>
         </refs>
         <data>Hornet: I've never heard that Mahal
-has stormy skies...[end]H</data>
+has stormy skies...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8e1</ref>
         </refs>
         <data>Hornet: The Empire's dragons, huh...
-Shall we sound the alarm?[end] </data>
+Shall we sound the alarm?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8e5</ref>
         </refs>
         <data>  Yes
-  No[end1]H</data>
+  No[end1]</data>
     </text>
     <text>
         <refs>
@@ -339,14 +339,14 @@ Shall we sound the alarm?[end] </data>
         <data>Hornet: It looks like the enemy is also
 headed for Mahal.
 
-Are we ready for attack?[end] </data>
+Are we ready for attack?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x98e</ref>
         </refs>
         <data>  Wait!!
-  Let's go!![end1]H</data>
+  Let's go!![end1]</data>
     </text>
     <text>
         <refs>
@@ -355,19 +355,19 @@ Are we ready for attack?[end] </data>
         <data>Hornet: My lover is this ship...
 
 
-Uh... never mind.[end]A</data>
+Uh... never mind.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9f8</ref>
         </refs>
-        <data>All set?! Get on a dragon, everyone!![end]O</data>
+        <data>All set?! Get on a dragon, everyone!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9ff</ref>
         </refs>
-        <data>Okay!! Take good care of the dragons![end]W</data>
+        <data>Okay!! Take good care of the dragons![end]</data>
     </text>
     <text>
         <refs>
@@ -377,7 +377,7 @@ Uh... never mind.[end]A</data>
 supporting you...
 
 Please protect [character][0x1] as best as
-you can!![end]R</data>
+you can!![end]</data>
     </text>
     <text>
         <refs>
@@ -386,7 +386,7 @@ you can!![end]R</data>
         <data>Rush: We're going to fight the Empire's
 dragons!
 
-Get on [character][0x1]?[end] </data>
+Get on [character][0x1]?[end]</data>
     </text>
     <text>
         <refs>
@@ -394,39 +394,39 @@ Get on [character][0x1]?[end] </data>
         </refs>
         <data>  Feed
   Ride
-  Not ready[end1]T</data>
+  Not ready[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xa2b</ref>
         </refs>
-        <data>They're going to attack! Hurry, get on![end]T</data>
+        <data>They're going to attack! Hurry, get on![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa7d</ref>
         </refs>
-        <data>Truce: Regular staff is over.[end][character][0x1]</data>
+        <data>Truce: Regular staff is over.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xaa6</ref>
         </refs>
         <data>[character][0x1]: [character][0x1]... Please, let
-me ride with you...[end]B</data>
+me ride with you...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xaac</ref>
         </refs>
-        <data>Bikkebakke: [character][0x1]!! This way...[end]S</data>
+        <data>Bikkebakke: [character][0x1]!! This way...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xbfe</ref>
         </refs>
         <data>Special sale going on!! How can I help
-you?[end] </data>
+you?[end]</data>
     </text>
     <text>
         <refs>
@@ -434,13 +434,13 @@ you?[end] </data>
         </refs>
         <data>  Weapons
   Armor
-  Items[end1]B</data>
+  Items[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xc4e</ref>
         </refs>
-        <data>Be careful and come again![end]S</data>
+        <data>Be careful and come again![end]</data>
     </text>
     <text>
         <refs>
@@ -449,20 +449,20 @@ you?[end] </data>
             <ref>0xc90</ref>
         </refs>
         <data>Sendak: We can waste no more time.
-The Empire's dragons are here.[end]T</data>
+The Empire's dragons are here.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe08</ref>
         </refs>
-        <data>Taicho: I see something, Matelite![end]T</data>
+        <data>Taicho: I see something, Matelite![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe8f</ref>
         </refs>
         <data>This is bad! In front of [character][0x1]!
-It's the Empire's Dragon Sky Force![end]T</data>
+It's the Empire's Dragon Sky Force![end]</data>
     </text>
     <text>
         <refs>
@@ -472,7 +472,7 @@ It's the Empire's Dragon Sky Force![end]T</data>
 Mahal!!
 
 What should we do? What should we
-do?![end]M</data>
+do?![end]</data>
     </text>
     <text>
         <refs>

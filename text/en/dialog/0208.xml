@@ -8,20 +8,20 @@
 said, [0x24]That you would even think about
 the armor shop lady is low.[0x22]
 Now I don't want to anymore.
-Please don't tell Matelite.[end]B</data>
+Please don't tell Matelite.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x166</ref>
         </refs>
-        <data>Barclay: Hello! This is the armor shop!![end] </data>
+        <data>Barclay: Hello! This is the armor shop!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x16a</ref>
         </refs>
         <data>  Go shopping
-  Chat[end1]B</data>
+  Chat[end1]</data>
     </text>
     <text>
         <refs>
@@ -31,7 +31,7 @@ Please don't tell Matelite.[end]B</data>
 practice.. I won't be able to fight
 forever, you know.
 Well... um... I want to find a cute wife
-right away and then retire![end]G</data>
+right away and then retire![end]</data>
     </text>
     <text>
         <refs>
@@ -47,7 +47,7 @@ There are a lot of things I will do.
 off this armor [0x2a]scratch[0x2a] and have a
 nice bath... [0x2a]scratch[0x2a]
 I will feel completely refreshed.
-[0x2a]scratch[0x2a][end]G</data>
+[0x2a]scratch[0x2a][end]</data>
     </text>
     <text>
         <refs>
@@ -61,13 +61,13 @@ don't die.
 
 [0x2a]scratch[0x2a] I must help Taicho return
 Mahal to its former glory. [0x2a]scratch[0x2a]
-That's why I must live...[end]Y</data>
+That's why I must live...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1c7</ref>
         </refs>
-        <data>You got a Gunso's ???.[end]R</data>
+        <data>You got a Gunso's ???.[end]</data>
     </text>
     <text>
         <refs>
@@ -79,14 +79,14 @@ That's why I must live...[end]Y</data>
 Why? It's not the same as it used to
 be...
 
-My arms... they're so heavy...[end]R</data>
+My arms... they're so heavy...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1fa</ref>
         </refs>
         <data>Reeve: No!! Not like that!!
-You do it like this!! Remember?![end]F</data>
+You do it like this!! Remember?![end]</data>
     </text>
     <text>
         <refs>
@@ -99,7 +99,7 @@ I secretly switched Reeve's spear with
 an especially heavy one.
 
 It feels good, he deserves it for
-betraying our friendship.[end]F</data>
+betraying our friendship.[end]</data>
     </text>
     <text>
         <refs>
@@ -108,7 +108,7 @@ betraying our friendship.[end]F</data>
         <data>Frenze: Reeve's forgotten about me...
 I'm going to make him regret it...
 
-...Lan-lan-lancer...[end]Z</data>
+...Lan-lan-lancer...[end]</data>
     </text>
     <text>
         <refs>
@@ -121,13 +121,13 @@ I guess I'm better suited at this than
 being a Lancer.
 
 I'll probably be a cleaning boy like this
-for a very long time.[end]Z</data>
+for a very long time.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x242</ref>
         </refs>
-        <data>Zora's Son: I can't! I told you, I can't![end]P</data>
+        <data>Zora's Son: I can't! I told you, I can't![end]</data>
     </text>
     <text>
         <refs>

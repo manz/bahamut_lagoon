@@ -7,7 +7,7 @@
         <data>MARCHAND ENVOYE AU CHAMP DE
 BATAILLE:
 Je suis heureux de te voir!
-Je te présente ma fierté... ma femme![end]E</data>
+Je te présente ma fierté... ma femme![end]</data>
     </text>
     <text>
         <refs>
@@ -15,7 +15,7 @@ Je te présente ma fierté... ma femme![end]E</data>
         </refs>
         <data>EPOUSE:
 Tu veux faire du shopping?
-Hihihi! Huhuhu![end]M</data>
+Hihihi! Huhuhu![end]</data>
     </text>
     <text>
         <refs>
@@ -26,7 +26,7 @@ BATAILLE:
 Je l'ai rencontrée hier soir!
 Ma femme te vendra des choses
 intéressantes.
-Fais un peu de shopping![end]M</data>
+Fais un peu de shopping![end]</data>
     </text>
     <text>
         <refs>
@@ -35,7 +35,7 @@ Fais un peu de shopping![end]M</data>
         <data>MARCHAND ENVOYE AU CHAMP DE
 BATAILLE:
 Ma femme est ici!
-Un peu de shopping?![end]L</data>
+Un peu de shopping?![end]</data>
     </text>
     <text>
         <refs>
@@ -48,7 +48,7 @@ Dafira a achevé sa libération,le plus
 terrible est passé.
  
 [character][0x1],faites tout votre possible pour
-les autres![end]R</data>
+les autres![end]</data>
     </text>
     <text>
         <refs>
@@ -62,7 +62,7 @@ sentiments.
  
 Je pense toujours à ce que nous
 avons fait cette nuit.
-Nous avons libéré Dafira.[end]T</data>
+Nous avons libéré Dafira.[end]</data>
     </text>
     <text>
         <refs>
@@ -72,7 +72,7 @@ Nous avons libéré Dafira.[end]T</data>
 Le Roi a été vaincu par la Révolution
 de la Liberté.
 Kana,Matelight et la princesse [character][0x1]...
-Tout est vraiment compliqué![end]B</data>
+Tout est vraiment compliqué![end]</data>
     </text>
     <text>
         <refs>
@@ -82,7 +82,7 @@ Tout est vraiment compliqué![end]B</data>
 Il y a beaucoup de choses à Dafira.
  
 Je vais me faire de l'argent en les
-collectionnant.[end]R</data>
+collectionnant.[end]</data>
     </text>
     <text>
         <refs>
@@ -91,14 +91,14 @@ collectionnant.[end]R</data>
         <data>RUSH:
 Ce pays change...
  
-Peut-être que le monde entier aussi...[end]R</data>
+Peut-être que le monde entier aussi...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3b8</ref>
         </refs>
         <data>RUSH:
-Les voilà![end]M</data>
+Les voilà![end]</data>
     </text>
     <text>
         <refs>
@@ -109,7 +109,7 @@ Que faites-vous?!
 Allez,ne traînez pas!
 [character][0x1] a besoin de toutes nos forces!
 Alors,avez-vous appris où se trouve
-le Dragon Sacré?[end]T</data>
+le Dragon Sacré?[end]</data>
     </text>
     <text>
         <refs>
@@ -120,7 +120,7 @@ Ah oui,le Dragon Sacré?!
 Il faut tout d'abord que tu saches que
 nous avons pris part à la libération de
 Dafira.
-Maintenant cette ville est...[end]M</data>
+Maintenant cette ville est...[end]</data>
     </text>
     <text>
         <refs>
@@ -132,7 +132,7 @@ tes histoires!
 Je ne suis pas concerné par cela!
 Ce que je veux savoir concerne juste
 le Dragon!
-ALORS,où est le Dragon Sacré?![end]T</data>
+ALORS,où est le Dragon Sacré?![end]</data>
     </text>
     <text>
         <refs>
@@ -140,7 +140,7 @@ ALORS,où est le Dragon Sacré?![end]T</data>
         </refs>
         <data>TAURUS:
 Il se trouve dans un Palais au Sud du
-Désert![end]M</data>
+Désert![end]</data>
     </text>
     <text>
         <refs>
@@ -149,7 +149,7 @@ Désert![end]M</data>
         <data>MATELIGHT:
 A nous le Dragon,Commandant!
 La Princesse se rejouira de cette
-information![end]R</data>
+information![end]</data>
     </text>
     <text>
         <refs>
@@ -162,7 +162,7 @@ C'est regrettable...
 Tout ce qui l'intéresse,c'est que nous
 combattions toujours plus...
 Que ferait-il si nous ne lui obéissions
-plus?[end]T</data>
+plus?[end]</data>
     </text>
     <text>
         <refs>
@@ -172,7 +172,7 @@ plus?[end]T</data>
 C'est pénible.
 C'est vraiment pénible.
 Mais je suis un militaire,il me faut
-obéir,n'est-ce pas?[end]S</data>
+obéir,n'est-ce pas?[end]</data>
     </text>
     <text>
         <refs>
@@ -185,7 +185,7 @@ Elle a vu le Dragon Sacré Jormungand.
 Et il lui a parlé.
  
 Il semblerait que Jormungand nous
-attende...[end][character][0x1]</data>
+attende...[end]</data>
     </text>
     <text>
         <refs>
@@ -198,14 +198,14 @@ J'y ai senti quelque chose de si
 proche.
  
 Je suis désolée,je t'inquiète toujours
-pour rien.[end]M</data>
+pour rien.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2f7</ref>
         </refs>
         <data>Moi?!
-Je crois que je vais bien.[end]M</data>
+Je crois que je vais bien.[end]</data>
     </text>
     <text>
         <refs>
@@ -213,7 +213,7 @@ Je crois que je vais bien.[end]M</data>
         </refs>
         <data>BIKKEBAKKE:
 [character][0x1],mon frère!
-Tu es prêt à aller combattre?[end] </data>
+Tu es prêt à aller combattre?[end]</data>
     </text>
     <text>
         <refs>
@@ -221,24 +221,21 @@ Tu es prêt à aller combattre?[end] </data>
         </refs>
         <data> Attends un peu.
  Je veux des champignons!
- Aller combattre![end1]
-</data>
+ Aller combattre![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x484</ref>
         </refs>
         <data> Je désire des armes.
- Je désire des armures.[end1]
-</data>
+ Je désire des armures.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x4c6</ref>
         </refs>
         <data> J'aimerais des objets.
- J'aimerais des livres.[end1]
-</data>
+ J'aimerais des livres.[end1]</data>
     </text>
     <text>
         <refs>
@@ -246,13 +243,13 @@ Tu es prêt à aller combattre?[end] </data>
         </refs>
         <data>ZEROSHIN:
 J'ai maintenant du travail et beaucoup
-d'amis.[end]S</data>
+d'amis.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2dd</ref>
         </refs>
         <data>SAJIN:
-Ces dragons ne semblent pas si forts.[end][0x0]</data>
+Ces dragons ne semblent pas si forts.[end]</data>
     </text>
 </texts>
