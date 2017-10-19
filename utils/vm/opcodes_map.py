@@ -36,6 +36,8 @@ opcode_names = {
     0x43: 'change_room',
     0x48: 'wait_for_actor_to_be_still',
     0x5a: 'show_mode7_animation',  # but 0x01 leads to semi functional title screen
+
+    0x7b: 'display_credit',
     0xff: 'exit'
 }
 
@@ -68,8 +70,8 @@ opcode_table = {
     0x10: Opcode(3),
     0x11: Opcode(2, comment_lambda=lambda r: f'actor({r.get_byte(1):#02x})'),
     0x12: Opcode(4,
-                 comment_lambda=lambda
-                     r: f'actor({r.get_byte(1):#02x}): x({r.get_byte(2):#02x}), y({r.get_byte(3):#02x})'),
+                 comment_lambda=lambda r:
+                 f'actor({r.get_byte(1):#02x}): x({r.get_byte(2):#02x}), y({r.get_byte(3):#02x})'),
     0x13: Opcode13(),
     0x14: Opcode13(),
     0x15: Opcode(3),
@@ -187,23 +189,6 @@ opcode_table = {
     0x7d: Opcode(3),
     0x7e: Opcode(3),
     0x7F: Opcode(3),
-
-    # 0x80: Opcode(2), # 3
-    # 0x81: None, # 3
-    # 0x82: Opcode(5), # 2
-    # 0x83: Opcode(1), # 2
-    # 0x84: Opcode(1), # 5
-    # 0x85: Opcode(5), # 4
-    # 0x86: Opcode(1),
-    # 0x87: Opcode(1), # 5
-    # 0x88: Opcode(2), # 1
-    # 0x89: Opcode(2), # 1
-    # 0x8a: Opcode(2), # 2
-    # 0x8b: Opcode(2), # 2
-    # 0x8c: None, # 2
-    # 0x8d: None, # 2
-    # 0x8e: None, # 3
-    # 0x8f: Opcode(6),  # contains a jump (conditional)
 
     0x80: Opcode(2),
     0x81: Opcode(2),

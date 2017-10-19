@@ -21,12 +21,16 @@ def get_string_from_room(room, address, table):
         if pos >= len(room_data):
             pos = len(room_data)
             break
-        if room_data[pos] in (0xFF, 0xFD):
+        if room_data[pos:pos + 2] in (b'\xff\xff', b'\xfd\xff'):
             pos += 2
+            break
+        elif room_data[pos] in (0xFF, 0xFD):
+            pos += 1
             break
         pos += 1
 
-    if room.lang == 'jp':
+    # FIXME: does not really work
+    if room.lang == 'jpe':
         text_data = bl_prefix_lookup_chars(bytes(room_data[address:pos]))
     else:
         text_data = bytes(room_data[address:pos])
@@ -34,7 +38,7 @@ def get_string_from_room(room, address, table):
     decoded_text = table.to_text(text_data)
 
     room.program.put_text_data(address, text_data,
-                               decoded_text.replace('\s', ' '))
+                               decoded_text.replace('\\s', ' '))
 
     return pos - address, decoded_text
 
@@ -255,8 +259,8 @@ class Jump(Opcode):
                                 ('data',
                                  ('reference', address)),
                                 size=3)
-        room.jump_to(address)
 
+        room.jump_to(address)
         return 0
 
 

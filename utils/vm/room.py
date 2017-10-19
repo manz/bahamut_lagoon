@@ -148,7 +148,7 @@ class Room(object):
 
             data = text.find('data')
             encoded_text = self.table.to_bytes(data.text.replace(' ', r'\s'))
-            hexdump(encoded_text)
+            # hexdump(encoded_text)
             text_data += encoded_text
 
 
