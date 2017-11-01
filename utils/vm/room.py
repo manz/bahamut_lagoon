@@ -147,10 +147,9 @@ class Room(object):
                 patches[int(ref.text, 16)] = base + len(text_data)
 
             data = text.find('data')
-            encoded_text = self.table.to_bytes(data.text.replace(' ', r'\s'))
-            # hexdump(encoded_text)
-            text_data += encoded_text
-
+            if data.text:
+                encoded_text = self.table.to_bytes(data.text.replace(' ', r'\s'))
+                text_data += encoded_text
 
         return self._apply_patches(base, patches, text_data)
 
