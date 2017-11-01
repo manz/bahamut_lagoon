@@ -2,14 +2,13 @@ import re
 import struct
 import os
 
-from a816.cpu.cpu_65c816 import snes_to_rom
+from a816.cpu.cpu_65c816 import snes_to_rom, rom_to_snes, RomType
 from script import Table
 
 from utils.dump_rooms import compress_room
 from utils.lz import lz_decompress_battle
 from utils.vm import AlreadyVisitedError
 from utils.vm.executor import walk_event_chain
-from utils.vm.opcodes import bl_prefix_lookup_chars
 from utils.vm.opcodes_map import battle_opcode_table, battle_opcode_names
 from utils.vm.room import Room, prettify
 import xml.etree.ElementTree as ET
@@ -71,6 +70,7 @@ def walk_battle_room(room_id, decompressed, table, lang):
 
     decompressed_program = decompressed[addr:]
     room = Room(decompressed_program, battle_opcode_table, battle_opcode_names, table, lang=lang)
+    room.debug_outside_jump_protection = True
     room.id = room_id
     ptr_table = []
     for k in range(0, 0x0c + 2):
@@ -88,10 +88,6 @@ def walk_battle_room(room_id, decompressed, table, lang):
 
     return room
 
-    # program.display_program_part(stdout, text_program)
-    # with open('/tmp/b{}.txt'.format(room.id), 'w', encoding='utf-8') as output:
-    #     room.program.display_program(output)
-
 
 def extract_string_from_block(lang, table, data, index):
     pos = index
@@ -99,18 +95,15 @@ def extract_string_from_block(lang, table, data, index):
         if pos >= len(data):
             pos = len(data)
             break
-        if data[pos] == 0xFF:
-            pos += 1
-            break
-        if data[pos] == 0xFD:
+        if data[pos] in (0xFF, 0xFD):
             pos += 2
             break
         pos += 1
 
-    if lang == 'jp':
-        text_data = bl_prefix_lookup_chars(bytes(data[index:pos]))
-    else:
-        text_data = bytes(data[index:pos])
+    # if lang == 'jp':
+    #     text_data = bl_prefix_lookup_chars(bytes(data[index:pos]))
+    # else:
+    text_data = bytes(data[index:pos])
 
     return pos, table.to_text(text_data).replace('\\s', ' ')
 
@@ -168,6 +161,7 @@ def dump_battle_room(rom, room_id, table, lang, output_dir):
         print(f'Unable to decompress: {e}')
     else:
         try:
+
             room = walk_battle_room(room_id, decompressed, table, lang)
             program = room.program
             # override_strings = None
@@ -185,39 +179,42 @@ def dump_battle_room(rom, room_id, table, lang, output_dir):
             #     override_strings = strings
             #
             texts = room.dump_text()
+            room.program.display_program()
+
             if texts:
                 with open(os.path.join(output_dir, f'{room_id:04d}.xml'), 'wt', encoding='utf-8') as output:
                     output.write(prettify(texts))
         except AlreadyVisitedError:
             pass
 
-        with open('/tmp/battle.bin', 'wb') as out:
-            out.write(decompressed)
 
-
-def build_battle_text_patch(rom, table, writer):
+def build_battle_text_patch(rom, table, writer, reloc_address):
     xmlfile_re = re.compile('(\d+)\.xml')
     dialog_dir = os.path.join(os.path.dirname(__file__), '../text/battle')
     files = os.listdir(dialog_dir)
+    address = reloc_address
 
     for file in files:
         match = xmlfile_re.match(file)
         if match:
             room_id = int(match.group(1))
-            address, data, room = get_battle_room(rom, room_id, table, 'jp')
+            _, data, room = get_battle_room(rom, room_id, table, 'jp')
             tree = ET.parse(os.path.join(dialog_dir, file))
             updated_room = room.update_text(tree)
             battle_room_data = data + updated_room
 
-            compressed = compress_room(battle_room_data) + b'\x00' # no next block
+            compressed = compress_room(battle_room_data) + b'\x00'  # no next block
             print('compressed', hex(len(compressed)))
 
             writer.write_block(compressed, address)
 
-            # value = rom_to_snes(address, RomType.high_rom)
+            value = rom_to_snes(address, RomType.high_rom)
 
-            # writer.write_block(struct.pack('<HB', value & 0xFFFF, (value >> 16) & 0xFF),
-            #                    snes_to_rom(0xDA8000) + (room_id * 3))
+            writer.write_block(struct.pack('<HB', value & 0xFFFF, (value >> 16) & 0xFF),
+                               snes_to_rom(0xc7140f) + (room_id * 3))
+            address += len(compressed) + 1
+
+    return address
 
 
 def output_dir(lang):
