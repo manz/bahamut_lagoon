@@ -1,7 +1,9 @@
 import struct
+
 from a816.cpu.cpu_65c816 import snes_to_rom, rom_to_snes, RomType
 import xml.etree.ElementTree as ET
 
+from a816.program import Program
 from script import Table
 
 from utils.vm.room import prettify
@@ -63,30 +65,38 @@ def dragon_find_address(rom_file, xref):
         raise RuntimeError('unable to find the required addresses part.')
 
 
-def dump_dragon_string(rom_file, root, xref):
-    address = dragon_find_address(root, xref)
+def dump_char_names(rom_file):
+    jp_fixed_table = Table('../text/table/dragon_feed_table.tbl')
+
+    with open('../text/jp/names.xml', 'wt', encoding='utf-8') as char_names_jp:
+        char_names = ET.Element('char_names')
+
+        for k in range(40):
+            rom_file.seek(snes_to_rom(0xEF0380) + k * 8)
+            data_string = rom_file.read(8)
+            string = ET.SubElement(char_names, 'string')
+            data_string = data_string.rstrip(b'\xfe')
+            string.text = jp_fixed_table.to_text(bytes(data_string))
+        char_names_jp.write(prettify(char_names))
 
 
-def dump_inline_string(rom_file, root, xref):
-    rom_file.seek(snes_to_rom(xref) + 3)
-    raw_string = b''
-    while rom_file.peek(2)[:2] != b'\xff\xff':
-        raw = rom_file.read(2)
-        if raw != b'\x81\x40':
-            raw_string += raw
-        else:
-            raw_string += b'\x20'
+def insert_char_names(writer, address=None):
+    jp_fixed_table = Table('./text/table/mz.tbl')
+    address = address or snes_to_rom(0xEF0380)
+    data = b''
+    tree = ET.parse('./text/fr/names.xml')
+    root = tree.getroot()
 
-    jap_text = raw_string.decode('shift-jis')
-    string = ET.SubElement(root, 'string')
-    string.set('ref', hex(xref))
-    string.text = jap_text
+    for string in root:
+        data += jp_fixed_table.to_bytes(string.text)[:8].ljust(8, b'\xfe')
+
+    writer.write_block(data, address)
 
 
 def dump_dragon_feed_inline_strings(rom_file):
     jp_fixed_table = Table('../text/table/dragon_feed_table.tbl')
 
-    with open('../text/dragon_feed_jp.xml', 'wt', encoding='utf-8') as dragon_feed_jp:
+    with open('../text/jp/dragon_feed.xml', 'wt', encoding='utf-8') as dragon_feed_jp:
         dragon_feed = ET.Element('dragon_feed')
 
         for xref in feed_dragon_strings_xref:
@@ -108,9 +118,7 @@ def dump_dragon_feed_inline_strings(rom_file):
                 string.set('ref_5f', hex(refs[0x5f]))
                 string.set('ref_5e', hex(refs[0x5e]))
                 string.set('xref', hex(xref))
-                # jp_fixed_table.inverted_lookup = {}
-                toto = jp_fixed_table.to_text(bytes(data_string))
-                string.text = toto
+                string.text = jp_fixed_table.to_text(bytes(data_string))
             else:
                 print(f'ram ref {addr:#08x}')
         print(prettify(dragon_feed))
@@ -120,7 +128,7 @@ def dump_dragon_feed_inline_strings(rom_file):
 def insert_dragon_feed_inline_strings(writer, address):
     jp_fixed_table = Table('./text/table/dragon_feed_table_mz.tbl')
 
-    tree = ET.parse('./text/dragon_feed_jp.xml')
+    tree = ET.parse('./text/dragon_feed.xml')
     root = tree.getroot()
 
     text_data = b''
@@ -137,8 +145,25 @@ def insert_dragon_feed_inline_strings(writer, address):
     writer.write_block(text_data, address)
 
 
+def dump_inline_string(rom_file, root, xref):
+    rom_file.seek(snes_to_rom(xref) + 3)
+    raw_string = b''
+    while rom_file.peek(2)[:2] != b'\xff\xff':
+        raw = rom_file.read(2)
+        if raw != b'\x81\x40':
+            raw_string += raw
+        else:
+            raw_string += b'\x20'
+
+    jap_text = raw_string.decode('shift-jis')
+    string = ET.SubElement(root, 'string')
+    string.set('ref', hex(xref))
+    string.set('jump_to', hex(rom_to_snes(rom_file.tell() + 2, RomType.high_rom)))
+    string.text = jap_text
+
+
 def dump_inline_strings(rom_file):
-    with open('../text/inline_jp.xml', 'wt', encoding='utf-8') as inline_jp:
+    with open('../text/jp/inline.xml', 'wt', encoding='utf-8') as inline_jp:
         inline = ET.Element('inline')
 
         for xref in draw_inline_string_xrefs:
@@ -147,9 +172,127 @@ def dump_inline_strings(rom_file):
         inline_jp.write(prettify(inline))
 
 
+def insert_inline_strings(writer, address, draw_inline_string_ref):
+    jp_fixed_table = Table('./text/table/battle.tbl')
+    tree = ET.parse('./text/inline.xml')
+    root = tree.getroot()
+
+    program_text_template = '''
+*={draw_inline_string_xref:#02x}
+{{
+ret_addr = {return_address:#02x}
+    jsr.w draw_inline_string_patched
+    .dw {pointer:#02x}
+    bra ret_addr
+}}'''
+    text_data = b''
+    program_text = ''
+    for string in root:
+        program_text += program_text_template.format(
+            draw_inline_string_xref=int(string.get('ref'), 16),
+            pointer=rom_to_snes(address + len(text_data), RomType.high_rom) & 0xffff,
+            return_address=int(string.get('jump_to'), 16)
+        )
+        text_data += jp_fixed_table.to_bytes(string.text) + b'\xff'
+
+    program = Program()
+    program.resolver.current_scope.add_symbol('draw_inline_string_patched', draw_inline_string_ref)
+    program.assemble_string_with_emitter(program_text, 'generated_draw_inline.s', writer)
+
+    writer.write_block(text_data, address)
+
+    return rom_to_snes(address + len(text_data), RomType.high_rom)
+
+
+def dump_message_strings(rom_file):
+    with open('../text/en/messages.xml', 'wt', encoding='utf-8') as messages_jp:
+        battle = ET.Element('messages')
+        battle.set('pointers', hex(0xEE35F1))
+
+        japanese_table = Table('../text/table/en.tbl')
+        references = {}
+
+        def put_reference(addr, index):
+            if addr in references:
+                references[addr].add(index)
+            else:
+                references[addr] = {index}
+
+        strings = {}
+
+        for pointer_id in range(630):
+            rom_file.seek(snes_to_rom(0xEE35F1 + pointer_id * 2))
+
+            ptr = struct.unpack('<H', rom_file.read(2))[0]
+            put_reference(ptr, pointer_id)
+            if ptr not in strings:
+                rom_file.seek(snes_to_rom(0xED0000 + ptr))
+
+                read = b''
+                data_string = b''
+
+                while read != b'\xff':
+                    read = rom_file.read(1)
+                    data_string += read
+                strings[ptr] = data_string
+
+        for addr in strings.keys():
+            string = ET.SubElement(battle, 'string')
+            refs = ET.SubElement(string, 'refs')
+            for ref in references[addr]:
+                ref_element = ET.SubElement(refs, 'ref')
+                ref_element.text = hex(ref)
+            data = ET.SubElement(string, 'data')
+            data.text = japanese_table.to_text(strings[addr]).replace('\s', ' ')
+
+        messages_jp.write(prettify(battle))
+
+
+def insert_messages_strings(writer, address):
+    mz_table = Table('./text/table/mz.tbl')
+    tree = ET.parse('./text/messages.xml')
+    root = tree.getroot()
+
+    text_data = b''
+    pointer_table = {}
+
+    for string in root:
+        refs = string.find('refs')
+        data = string.find('data')
+
+        text_addr = rom_to_snes(len(text_data) + address, RomType.high_rom)
+
+        for ref in refs:
+            pointer_id = int(ref.text, 16)
+            pointer_table[pointer_id] = text_addr & 0xffff
+        text_data += mz_table.to_bytes(data.text.replace(' ', '\s')) + b'\xff'
+
+    pointer_table_bytes = b''
+    for key in sorted(pointer_table):
+        pointer = pointer_table[key]
+        pointer_table_bytes += struct.pack('<H', pointer)
+
+    # .EE:5404                 LDA     #$EE ; '¯'
+    writer.write_block(bytes([rom_to_snes(address, RomType.high_rom) >> 16, 0]),
+                       snes_to_rom(0xee5404 + 1))
+    # .EE:553A                 LDA     #$EE ; '¯'
+    writer.write_block(bytes([rom_to_snes(address, RomType.high_rom) >> 16, 0]),
+                       snes_to_rom(0xee553A + 1))
+
+    # battle magic description ?
+    # .C0:D8AD                 LDA     word_EE0000, X
+    writer.write_block(bytes([rom_to_snes(address, RomType.high_rom) >> 16]),
+                       snes_to_rom(0xC0D8AD + 3))
+
+    writer.write_block(pointer_table_bytes, snes_to_rom(int(root.get('pointers'), 16)))
+    writer.write_block(text_data, address)
+
+    return rom_to_snes(len(text_data) + address, RomType.high_rom)
+
+
 def dump_battle_commands_strings(rom_file):
-    jp_fixed_table = Table('../text/table/dragon_feed_table_mz.tbl')
-    with open('../text/battle_mz.xml', 'wt', encoding='utf-8') as battle_jp:
+    jp_fixed_table = Table('../text/table/battle_jp.tbl')
+    with open('../text/jp/battle.xml', 'wt', encoding='utf-8') as battle_jp:
         battle = ET.Element('battle')
         battle.set('pointers', hex(0xC0E121))
         battle.set('bank_addr', hex(0xC0E0FF))
@@ -187,15 +330,14 @@ def dump_battle_commands_strings(rom_file):
                 ref_element = ET.SubElement(refs, 'ref')
                 ref_element.text = hex(ref)
             data = ET.SubElement(string, 'data')
-            toto = jp_fixed_table.to_text(bytes(strings[addr]))
-            data.text = toto
+            data.text = jp_fixed_table.to_text(bytes(strings[addr]))
 
         battle_jp.write(prettify(battle))
 
 
 def insert_battle_commands_strings(writer, address):
     jp_fixed_table = Table('./text/table/battle.tbl')
-    tree = ET.parse('./text/battle_mz.xml')
+    tree = ET.parse('./text/battle.xml')
     root = tree.getroot()
 
     text_data = b''
@@ -218,13 +360,63 @@ def insert_battle_commands_strings(writer, address):
         pointer = pointer_table[key]
         pointer_table_bytes += struct.pack('<H', pointer)
 
-    writer.write_block(bytes([rom_to_snes(address, RomType.high_rom) >> 16]), snes_to_rom(int(root.get('bank_addr'), 16)))
+    writer.write_block(bytes([rom_to_snes(address, RomType.high_rom) >> 16]),
+                       snes_to_rom(int(root.get('bank_addr'), 16)))
     writer.write_block(pointer_table_bytes, snes_to_rom(int(root.get('pointers'), 16)))
+    writer.write_block(text_data, address)
+
+    return rom_to_snes(len(text_data) + address, RomType.high_rom)
+
+
+def dump_fixed(rom_file, address, count, destination):
+    pass
+
+
+def dump_battle_fixed(rom_file):
+    length = 8
+    address = snes_to_rom(0xEF5920)
+
+    jp_fixed_table = Table('../text/table/battle_jp.tbl')
+    with open('../text/jp/battle-fixed.xml', 'wt', encoding='utf-8') as battle_fixed_jp:
+        fixed = ET.Element('fixed')
+        fixed.set('length', str(length))
+        fixed.set('address', hex(address))
+
+        for k in range(255):
+            rom_file.seek(address + k * length)
+            data = rom_file.read(length).split(b'\xff')[0]
+
+            string = ET.SubElement(fixed, 'string')
+            string.text = jp_fixed_table.to_text(data)
+        battle_fixed_jp.write(prettify(fixed))
+
+
+def insert_battle_fixed(writer, address=None):
+    length = 8
+    address = address or snes_to_rom(0xEF5920)
+    jp_fixed_table = Table('./text/table/battle.tbl')
+    tree = ET.parse('./text/battle-fixed.xml')
+    root = tree.getroot()
+
+    text_data = b''
+
+    for string in root:
+        data = jp_fixed_table.to_bytes(string.text)[:length]
+        if len(data) < length:
+            data += b'\xff'
+
+        data = data.ljust(length, b'\xfe')
+        text_data += data
+
     writer.write_block(text_data, address)
 
 
 if __name__ == '__main__':
     with open('../bl.sfc', 'rb') as rom_file:
-        # dump_dragon_feed_inline_strings(rom_file)
-        # dump_inline_strings(rom_file)
+        dump_battle_fixed(rom_file)
+        dump_dragon_feed_inline_strings(rom_file)
+        dump_inline_strings(rom_file)
         dump_battle_commands_strings(rom_file)
+        dump_char_names(rom_file)
+        dump_message_strings(rom_file)
+
