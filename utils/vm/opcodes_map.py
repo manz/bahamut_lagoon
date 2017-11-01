@@ -455,7 +455,7 @@ battle_opcode_table = {
     0xf1: Opcode(5),
     0xf3: Opcode(3),
     0xf4: Opcode(2),
-    0xf5: Opcode(1),
+    0xf5: Opcode(2),
     0xf6: Opcode(1),
     0xf7: Opcode(3),
     0xf8: Opcode(3),
