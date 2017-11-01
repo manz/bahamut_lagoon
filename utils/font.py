@@ -67,7 +67,20 @@ def print_length_table(data):
         print(f'{k:#02x} = {data[k * 17 + 16]:d}')
 
 
+char_length_override = {
+    0xef: 4,
+    0xa3: 5,  # ,
+    0xd5: 7,
+    0xd6: 4,
+    0xd7: 7,
+    0xd8: 6,
+
+    # 0x88: 6,  # :
+    # 0xef: 2,  # original space
+    # 0x26: 2  # another space
+}
+
 if __name__ == '__main__':
     with open('../assets/vwf.bin', 'wb') as binary_asset:
-        data = convert_font('../fonts/vwf.png', empty_chars={0x26: 5, 0x8F: 4})
+        data = convert_font('../fonts/vwf.png', empty_chars=char_length_override)
         binary_asset.write(data)
