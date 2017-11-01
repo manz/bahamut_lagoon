@@ -3,6 +3,8 @@
 .include 'src/battle_vwf.s'
 .include 'src/dragon_feed.s'
 
+.include 'src/battle.s'
+.include 'src/naming_screen.s'
 .include 'src/draw_inline_string.s'
 ; copy font from rom instead of ram (2bpp) the 4bpp version is derived from the 2bpp decompressed in ram
 ; TODO: write a compressor and properly replace the asset.
