@@ -54,9 +54,6 @@ def lz_decompress_battle(data, decompressed=None):
                         back_pointer = (data[k] | (data[k + 1] << 8)) & 0x0FFF
                         length = ((data[k + 1] >> 4) & 0x0F) + 3
 
-                        if back_pointer < length:
-                            print(hex(len(decompressed)), 'decom', back_pointer, length)
-
                         back_pointer = len(decompressed) - back_pointer
 
                         for l in range(length):
