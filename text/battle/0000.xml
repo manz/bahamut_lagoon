@@ -19,7 +19,7 @@ here...[end1][end]</data>
         <refs>
             <ref>0x75</ref>
         </refs>
-        <data>“Inspire!!”[end]S</data>
+        <data>“Inspire!!”[end]</data>
     </text>
     <text>
         <refs>
@@ -27,8 +27,7 @@ here...[end1][end]</data>
         </refs>
         <data>Sendak: If we are to cross the river,
 then we will need to freeze it using
-magic.[end1]
-</data>
+magic.[end1]</data>
     </text>
     <text>
         <refs>
@@ -42,7 +41,7 @@ magic.[end1]
             <ref>0xa3</ref>
         </refs>
         <data>“Condition for Victory:”[0xfc][0x1]
-“Defeat of all enemies”[end]I</data>
+“Defeat of all enemies”[end]</data>
     </text>
     <text>
         <refs>
