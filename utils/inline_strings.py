@@ -84,7 +84,7 @@ def insert_char_names(writer, address=None):
     jp_fixed_table = Table('./text/table/mz.tbl')
     address = address or snes_to_rom(0xEF0380)
     data = b''
-    tree = ET.parse('./text/fr/names.xml')
+    tree = ET.parse('./text/names.xml')
     root = tree.getroot()
 
     for string in root:
