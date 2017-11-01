@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<texts base="0x43" room_id="28">
+    <text>
+        <refs>
+            <ref>0x28</ref>
+        </refs>
+        <data>“Condition for Victory:”[0xfc][0x1]
+“Defeat of all enemies”[end][end]</data>
+    </text>
+</texts>

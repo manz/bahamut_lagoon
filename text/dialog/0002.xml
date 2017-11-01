@@ -1,0 +1,174 @@
+<?xml version="1.0" ?>
+<texts base="0x36e" room_id="2">
+    <text>
+        <refs>
+            <ref>0x5c</ref>
+        </refs>
+        <data>              -Lagon Campbell-
+            Château de Granbelos[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xbe</ref>
+        </refs>
+        <data>PALPALEOS:
+Dormez-vous,Princesse?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x112</ref>
+        </refs>
+        <data>SAUZER:
+Je me doutais que tu serais ici
+mon cher Palpaleos!
+Tu ne peux également pas dormir?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x11f</ref>
+        </refs>
+        <data>PALPALEOS:
+C'est cela,Empereur...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x12c</ref>
+        </refs>
+        <data>SAUZER:
+Est-ce pour la même raison?
+La Légende dont nous rêvons?!
+Elle est maintenant ici et elles est à
+nous...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x13e</ref>
+        </refs>
+        <data>PALPALEOS:
+A Campbell,le Continent Verdoyant...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x154</ref>
+        </refs>
+        <data>SAUZER:
+Effectivement!
+ 
+Cette fille nous amènera probablement
+vers la Légende![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x164</ref>
+        </refs>
+        <data>Je ne devrais pas l'appeler fille!
+Princesse [character][0x1],
+quelle magnifique personne vous êtes![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x171</ref>
+        </refs>
+        <data>Palpaleos,
+tu devrais prendre un peu de repos.
+Tu sembles être si fatigué.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x19c</ref>
+        </refs>
+        <data>La Légende dont nous rêvons...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x273</ref>
+        </refs>
+        <data>Palpaleos...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x27d</ref>
+        </refs>
+        <data>Regarde ce ciel bleu...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x298</ref>
+        </refs>
+        <data>Nous contrôlons les cieux!
+Nous n'avons malheureusement pas
+encore tout![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2a2</ref>
+        </refs>
+        <data>PALPALEOS:
+Sauzer...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2b4</ref>
+        </refs>
+        <data>SAUZER:
+Je me souviens d'une légende...
+ 
+La légende de Kana...
+Est-elle un conte?
+La connais-tu Palpaleos?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2ba</ref>
+        </refs>
+        <data>PALPALEOS:
+La légende de leur Dragon Sacré?![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2d2</ref>
+        </refs>
+        <data>SAUZER:
+Penses-tu qu'un jour,je serai
+l'homme légendaire?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2e1</ref>
+        </refs>
+        <data>Je suis déjà l'Empereur qui contrôle
+le ciel![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2f6</ref>
+        </refs>
+        <data>La légende de Kana est dorénavant ma
+seule ambition!
+ 
+Seulement après cela,je serai satisfait.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x301</ref>
+        </refs>
+        <data>Et,j'aurai la victoire![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x30c</ref>
+        </refs>
+        <data>PALPALEOS:
+La victoire vers une Ere Nouvelle...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x317</ref>
+        </refs>
+        <data>SAUZER:
+Oui,vers une Ere Nouvelle!
+ 
+S'il te plaît,Palpaleos,
+reste quelques temps avec moi...[end][end]</data>
+    </text>
+</texts>

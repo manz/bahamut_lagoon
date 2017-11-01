@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<texts base="0x421" room_id="13">
+    <text>
+        <refs>
+            <ref>0x28</ref>
+        </refs>
+        <data>“Condition for Victory:”[0xfc][0x1]
+“Defeat of Radia”[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x417</ref>
+        </refs>
+        <data>So, this is Godland...[0xfc][0x1]
+It certainly appears to be different
+from the other lagoons.[end1][end]</data>
+    </text>
+</texts>

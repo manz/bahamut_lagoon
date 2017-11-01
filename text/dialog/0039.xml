@@ -1,0 +1,108 @@
+<?xml version="1.0" ?>
+<texts base="0x162" room_id="39">
+    <text>
+        <refs>
+            <ref>0xec</ref>
+            <ref>0x10e</ref>
+            <ref>0x53</ref>
+            <ref>0xd6</ref>
+            <ref>0x9d</ref>
+        </refs>
+        <data>               Céline...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7f</ref>
+        </refs>
+        <data>Lorsque j'ai su que je ne pourrais
+vous protéger toi et Mahal...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x83</ref>
+        </refs>
+        <data>Je me suis senti inutile...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x87</ref>
+        </refs>
+        <data>Ai-je été très lâche?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x91</ref>
+        </refs>
+        <data>Pourquoi n'ai-je pu vous aider?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa1</ref>
+        </refs>
+        <data>Certaines choses ne peuvent être
+changées...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xab</ref>
+        </refs>
+        <data>J'ai aujourd'hui réalisé ton souhait![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb9</ref>
+        </refs>
+        <data>Mahal est enfin libérée du joug de
+l'Empire...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc8</ref>
+        </refs>
+        <data>Quand j'ai cette pensée...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xcc</ref>
+        </refs>
+        <data>Je sens que je suis devenu plus fort.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xda</ref>
+        </refs>
+        <data>Céline,
+je n'aurais jamais dû te perdre...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe0</ref>
+        </refs>
+        <data>J'ai parfois honte...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe6</ref>
+        </refs>
+        <data>J'ai honte d'être un soldat![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf0</ref>
+        </refs>
+        <data>Un soldat qui n'a pu te défendre...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xfc</ref>
+        </refs>
+        <data>Je te demande vraiment...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x108</ref>
+        </refs>
+        <data>A toi et à mes soldats...
+De me pardonner d'avoir été si inutile![end]</data>
+    </text>
+</texts>

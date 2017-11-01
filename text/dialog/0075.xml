@@ -1,0 +1,352 @@
+<?xml version="1.0" ?>
+<texts base="0x69d" room_id="75">
+    <text>
+        <refs>
+            <ref>0x79</ref>
+        </refs>
+        <data>SAUZER:
+Regarde Palpaleos!
+Ca ne fait aucun doute!
+C'est le pouvoir des Dragons Sacrés
+et la Princesse leur parle.
+ 
+C'est le pouvoir dont parle la
+Légende.
+Le pouvoir que je désire...
+C'est de cette fille que tout dépendra![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xac</ref>
+        </refs>
+        <data>PALPALEOS:
+Sauzer!
+Allez-vous bien?![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x333</ref>
+        </refs>
+        <data>SENDACK:
+Princesse...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x325</ref>
+        </refs>
+        <data>MATELIGHT:
+[character][0x1]![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x143</ref>
+        </refs>
+        <data>LUKIA:
+[character][0x1]!
+Tiens bon![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x164</ref>
+            <ref>0x245</ref>
+        </refs>
+        <data>LUKIA:
+Réveillez-vous!
+ 
+[character][0x1]!
+Et [character][0x1]!
+ 
+Va la rejoindre,vite!
+Le Général Palpaleos veut la
+reprendre![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x64a</ref>
+        </refs>
+        <data>PALPALEOS:
+Ainsi,tu es [character][0x1]![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x65b</ref>
+        </refs>
+        <data>PALPALEOS:
+... ... ... ...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x66a</ref>
+        </refs>
+        <data>PALPALEOS:
+J'ai entendu parler de ton histoire
+avec la Princesse.
+Chef de l'Escadron Dragon de Kana!
+La Princesse... te revient![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x24c</ref>
+        </refs>
+        <data>LUKIA:
+Est-ce que [character][0x1] va bien?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x276</ref>
+        </refs>
+        <data>Effrayant...
+je... je suis...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x42c</ref>
+        </refs>
+        <data>PALPALEOS:
+Nous nous reverrons![end][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x309</ref>
+        </refs>
+        <data>LUKIA:
+Que faire maintenant?
+Quelqu'un a une idée?![end][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x391</ref>
+        </refs>
+        <data>MATELIGHT:
+Je vous retrouve enfin ma chère
+[character][0x1]!
+Quel acte cruel de la part de
+l'empire![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x39a</ref>
+        </refs>
+        <data>SENDACK:
+... ... ...?![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3a2</ref>
+        </refs>
+        <data>SENDACK:
+Matelight!
+La princesse doit se reposer!
+Il n'y a pas à s'inquiéter![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3ab</ref>
+        </refs>
+        <data>MATELIGHT:
+Oooh,[character][0x1]...
+Vous êtes saine et sauve!
+Et vous nous avez rejoints!
+ 
+  
+[character][0x1],je dois avouer que c'est toi
+qui l'a ramenée![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4e4</ref>
+        </refs>
+        <data>[character][0x1]:
+Général!
+Général... Palpaleos![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4ec</ref>
+        </refs>
+        <data>Fille...
+Le rêve est fini...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x43c</ref>
+        </refs>
+        <data>PALPALEOS:
+Princesse [character][0x1]...
+ 
+Vous non plus,
+vous n'arrivez pas à dormir?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x447</ref>
+        </refs>
+        <data>[character][0x1]:
+Vous voulez que je vous conte aussi
+la légende des Dragons Sacrés?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x455</ref>
+        </refs>
+        <data>PALPALEOS:
+Non,je ne veux pas vous faire parler
+de votre sujet favori.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x46d</ref>
+        </refs>
+        <data>[character][0x1]:
+Vous ne voulez pas que je vous en
+parle?
+Mais de quoi voulez-vous discuter,
+Palpaleos?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x479</ref>
+        </refs>
+        <data>PALPALEOS:
+De l'art de la stratégie et du
+triomphe![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x485</ref>
+        </refs>
+        <data>[character][0x1]:
+Vous voulez discuter de ce sujet?
+ 
+Vous voulez me parler de l'art de la
+stratégie militaire?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x49a</ref>
+        </refs>
+        <data>PALPALEOS:
+Je suis désolé!
+Cela ne vous intéresse sûrement pas![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4b3</ref>
+        </refs>
+        <data>[character][0x1]:
+Vous vous trompez,Palpaleos!
+J'aime parler de cela...
+Tout le monde devrait connaître les
+bases de cet art.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x550</ref>
+        </refs>
+        <data>Serais-tu la fille...?
+Tu comprendras la Légende et le coeur
+des Dragons Sacrés.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x55b</ref>
+        </refs>
+        <data>[character][0x1]:
+Que devrais-je comprendre?
+ 
+Qu'y a-t-il à comprendre dans cette
+Légende?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x564</ref>
+        </refs>
+        <data>Tu comprendras si tu es la fille de la
+Légende...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x56c</ref>
+        </refs>
+        <data>[character][0x1]:
+Je suis simplement une jeune fille de
+Kana...
+Je suis une fille ordinaire.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4f4</ref>
+        </refs>
+        <data>[character][0x1]:
+Qui est là?
+Qui êtes-vous?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x539</ref>
+        </refs>
+        <data>Je suis Valitra,
+je suis un Dragon Sacré.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x548</ref>
+        </refs>
+        <data>[character][0x1]:
+Valitra,le Dragon Sacré?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x574</ref>
+        </refs>
+        <data>Quelle genre de fille es-tu?
+Toi,la fille au coeur faible,tu peux
+parler aux Dragons Sacrés.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x57d</ref>
+        </refs>
+        <data>Réunis nos coeurs...
+Réunis-les et approprie-toi nos
+pouvoirs...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x585</ref>
+        </refs>
+        <data>Et seulement ensuite,tu deviendras une
+Dragoon...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x599</ref>
+        </refs>
+        <data>[character][0x1]:
+Une Dragoon?
+Moi,devenir une Dragoon?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5a1</ref>
+        </refs>
+        <data>Lorsque tu le seras...
+Quand tu seras une Dragoon,
+le monde sera entre tes mains.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5b0</ref>
+        </refs>
+        <data>[character][0x1]:
+Quoi?!
+Le monde sera... à moi...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5d6</ref>
+        </refs>
+        <data>Je vous en prie,
+dites-moi si c'est un rêve![end]</data>
+    </text>
+</texts>

@@ -1,0 +1,331 @@
+<?xml version="1.0" ?>
+<texts base="0x6d8" room_id="41">
+    <text>
+        <refs>
+            <ref>0x83</ref>
+        </refs>
+        <data>MATELIGHT:
+Qu'est-ce que c'est?
+Cette chose est une porte?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9f</ref>
+        </refs>
+        <data>[character][0x1]:
+Ah![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xac</ref>
+        </refs>
+        <data>SENDACK:
+Vous sentez-vous bien?
+Princesse...?![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb9</ref>
+        </refs>
+        <data>[character][0x1]:
+Bien sûr...
+Le Dragon Sacré...
+Je le sens...
+Il est derrière cette porte...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xcb</ref>
+        </refs>
+        <data>MATELIGHT:
+Très bien!
+Nous allons examiner ça!
+Viens Commandant![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd4</ref>
+        </refs>
+        <data>COMMANDANT:
+Allons-y![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf8</ref>
+        </refs>
+        <data>COMMANDANT:
+P... pourquoi est-elle si imposante?
+ 
+De toute manière,
+elle ne m'intimide pas![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x108</ref>
+        </refs>
+        <data>MATELIGHT:
+Humf humf...
+Même moi,un garde palais de réputation,
+je n'arrive pas à l'ouvrir.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x111</ref>
+        </refs>
+        <data>SENDACK:
+C'est évident,il est inutile d'utiliser
+notre force!
+Tenter d'ouvrir la porte vers le
+Dragon Sacré est une vaine obstination![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x122</ref>
+        </refs>
+        <data>La porte ne peut être ouverte que par
+une seule personne...
+La dragoon!
+Allez-y,Princesse.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x128</ref>
+        </refs>
+        <data>[character][0x1]:
+Je comprends...
+Je le ferai...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x15e</ref>
+        </refs>
+        <data>MATELIGHT:
+Utiliser la force était donc vraiment
+inutile pour ouvrir cette porte![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x16a</ref>
+        </refs>
+        <data>COMMANDANT:
+N'y... n'y a-t-il pas un Dragon
+Sacré à l'intérieur?![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x179</ref>
+        </refs>
+        <data>[character][0x1]:
+Je vais appeler le Dragon Sacré...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x182</ref>
+        </refs>
+        <data>SENDACK:
+Nous sommes donc devant l'antre du
+Dragon Sacré...
+Devrions-nous y pénétrer?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x19c</ref>
+        </refs>
+        <data>MATELIGHT:
+[character][0x1],
+ce doit être vraiment très dangereux!
+[character][0x1],va tout d'abord voir si tout va
+bien![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1ea</ref>
+        </refs>
+        <data>MATELIGHT:
+Que s'est-il passé?!
+Qu'allons-nous faire?![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x22c</ref>
+        </refs>
+        <data>[character][0x1]:
+Aaaaah![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x235</ref>
+        </refs>
+        <data>SENDACK:
+Princesse![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x24f</ref>
+        </refs>
+        <data>Que... qu'est-ce...?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x298</ref>
+        </refs>
+        <data>MATELIGHT:
+Hééééé!
+A qui crois-tu avoir affaire?
+Je suis Matelight!
+Je t'ordonne de laisser [character][0x1]
+tranquille![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2a5</ref>
+        </refs>
+        <data>[character][0x1]![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x30e</ref>
+        </refs>
+        <data>LEVIATHAN:
+Fille,tu es la personne qui peut
+soigner nos blessures...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x31a</ref>
+        </refs>
+        <data>[character][0x1]:
+Tu veux que je soigne tes blessures?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x331</ref>
+        </refs>
+        <data>LEVIATHAN:
+Notre tristesse...
+Notre colère...
+Approche...
+Ecoute nos voix...
+Vois nos larmes...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x346</ref>
+        </refs>
+        <data>[character][0x1]:
+A... attends...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3ee</ref>
+        </refs>
+        <data>SENDACK:
+Princesse!
+Tenez bon![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3fd</ref>
+        </refs>
+        <data>[character][0x1]:
+[character][0x1]...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x428</ref>
+        </refs>
+        <data>[character][0x1]:
+Le Dragon Sacré Léviathan...
+Leur colère...? Leur peine...?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x431</ref>
+        </refs>
+        <data>Les Dragons Sacrés sont furieux et ils
+sont aussi tristes...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x446</ref>
+        </refs>
+        <data>SENDACK:
+Colère... tristesse...?
+Quel peut en être le sens?
+Vraiment,je ne comprends pas.
+Ils sont tristes![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x456</ref>
+        </refs>
+        <data>MATELIGHT:
+Pourquoi ne le pourraient-ils pas?!
+Les Dragons Sacrés sont comme nous![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x467</ref>
+        </refs>
+        <data>Ils ont des sentiments,un coeur et
+de la colère autant que de la peine!
+Ma désillusion,mes sentiments,ma haine
+et ma tristesse sont dûes à la chute
+de Kana.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x473</ref>
+        </refs>
+        <data>Les Rebelles ont aussi des sentiments
+tout comme eux...
+ 
+Cependant,tout le monde garde cela
+secret au plus profond de son coeur.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x482</ref>
+        </refs>
+        <data>Les Dragons Sacrés ont des sentiments
+et avec eux,nous vaincrons l'Empire![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4b3</ref>
+        </refs>
+        <data>MATELIGHT:
+Vite,quittons cet endroit![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x680</ref>
+        </refs>
+        <data>[character][0x1]:
+Le Dragon Sacré est très puissant...
+Il veut me dire quelque chose.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x68c</ref>
+        </refs>
+        <data>SENDACK:
+[character][0x1],tout va bien?
+Je sens que tu es bizarre...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x695</ref>
+        </refs>
+        <data>MATELIGHT:
+[character][0x1],
+je t'ai demandé quelque chose![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x69e</ref>
+        </refs>
+        <data>COMMANDANT:
+Vas-y![end]</data>
+    </text>
+</texts>

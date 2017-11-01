@@ -1,0 +1,129 @@
+<?xml version="1.0" ?>
+<texts base="0x17b" room_id="243">
+    <text>
+        <refs>
+            <ref>0x9e</ref>
+        </refs>
+        <data>Frère!
+Nous sommes vraiment revenus chez
+nous pour de bon?![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xaa</ref>
+        </refs>
+        <data>Matelight me l'a dit!
+C'est fini!
+C'est vrai de vrai?![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb6</ref>
+        </refs>
+        <data>Je n'en reviens pas!
+Je suis ici!
+ 
+Et nous sommes enfin tous ensemble![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc4</ref>
+        </refs>
+        <data>Commandant,Zora...
+La guerre avait réuni tant de gens...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xcd</ref>
+        </refs>
+        <data>Nous avons visité tant de terres...
+Mais...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd7</ref>
+        </refs>
+        <data>Mais... quoi?
+Qu'y a-t-il?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe5</ref>
+        </refs>
+        <data>C'est insignifiant...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xef</ref>
+        </refs>
+        <data>Qu'est-ce qui ne va pas,
+Bikkebakke?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xfd</ref>
+        </refs>
+        <data>Je suis en train de penser à tout le
+monde et à tous ces moments passés
+ensemble...
+Réjouissons-nous...
+Soyons heureux de tout nos souvenirs![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x107</ref>
+        </refs>
+        <data>Nous en avons tant...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x111</ref>
+        </refs>
+        <data>T... tout est enfin fini...
+Ecoutez!
+Tout le monde est heureux!
+Des lar...
+Des larmes me viennent...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x11b</ref>
+        </refs>
+        <data>Moi aussi...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x124</ref>
+        </refs>
+        <data>Il y a trop longtemps que je n'avais
+versé une larme...
+J'ai tant attendu ce moment...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x141</ref>
+        </refs>
+        <data>Frère...
+M... Merci... pour tout...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x153</ref>
+        </refs>
+        <data>[character][0x1]![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x165</ref>
+        </refs>
+        <data>Capitaine [character][0x1]![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x177</ref>
+        </refs>
+        <data>[character][0x1]...
+Nous visiterons encore d'autres
+contrées...[end]</data>
+    </text>
+</texts>

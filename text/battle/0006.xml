@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<texts base="0x262" room_id="6">
+    <text>
+        <refs>
+            <ref>0x28</ref>
+        </refs>
+        <data>“Condition for Victory:”[0xfc][0x1]
+“Defeat of Zomberd”[end]Z</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7b</ref>
+        </refs>
+        <data>Zomberd: Ahaha!! You fell into my trap,
+Resistance scum![end1][end]</data>
+    </text>
+</texts>

@@ -1,0 +1,773 @@
+<?xml version="1.0" ?>
+<texts base="0x86a" room_id="215">
+    <text>
+        <refs>
+            <ref>0x44b</ref>
+        </refs>
+        <data>EKATERINA:
+Je me demande si cette fille voit le
+même ciel que moi.
+Son attitude ne me permet même pas
+de mieux le cerner.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x596</ref>
+        </refs>
+        <data>ZORA:
+Je vais enfin revoir Campbell après de
+si longues années.
+Je n'arriverai pas à rester calme
+très longtemps tant je suis contente![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5ef</ref>
+        </refs>
+        <data>FREDERIKA:
+Moi?!
+Je suis exténuée!
+Combattre est épuisant,
+mais si tu veux... frappe-moi[0xd8]
+ 
+ Le faire à contre-coeur...
+ Le faire doucement...[end1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6e5</ref>
+        </refs>
+        <data>DIANA:
+Tu n'as rien remarqué?
+ 
+Tu as vu de quelle manière parle les
+lanciers depuis quelques temps?
+ 
+ Que veux-tu dire?
+ Je n'ai pas vu de différence![end1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x764</ref>
+        </refs>
+        <data>LUKIA:
+C'est bien que la Princesse [character][0x1]
+soit enfin revenue!
+Sache qu'une personne comme moi,
+une Garde Lumière,peut marcher loin.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x532</ref>
+        </refs>
+        <data>MELODIA:
+[character][0x1],
+est-ce que tu aimes [character][0x1]?
+ Evidemment,quelle question!
+ Et bien...[end1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x53f</ref>
+        </refs>
+        <data>...
+...
+...
+Mélodia aime beaucoup tout ce qu'aime
+[character][0x1]...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x548</ref>
+        </refs>
+        <data>Héhéhéhéhé!
+Je suis soulagée!
+SOULAGEE!
+Au fait,sache que Lukia m'a confié
+qu'elle adorait sortir avec des hommes
+bien vêtus![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5ff</ref>
+        </refs>
+        <data>Merci...
+[character][0x1],tu es très gentil.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6f2</ref>
+        </refs>
+        <data>Depuis que [character][0x1] est revenue dans sa
+chambre,ce type va et vient,et
+s'exclame toujours:
+Lan lan lancier! Lance Lance!
+Est-ce respectueux?
+ 
+Et Zora!
+Elle n'a jamais été si bruyante.
+ 
+Tu peux me considérer comme quelqu'un
+de nostalgique mais je peux t'assurer
+que c'était bien plus calme auvant![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x731</ref>
+            <ref>0x6fb</ref>
+            <ref>0x744</ref>
+            <ref>0x716</ref>
+        </refs>
+        <data>Bien!
+Très bien!
+Quel désastre[0xd8][end][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x60f</ref>
+        </refs>
+        <data>FREDERIKA:
+Moi?! Je vais bien!
+Je prépare un peu de médecine...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x460</ref>
+        </refs>
+        <data>EKATERINA:
+Ainsi,il aimerait le Uniuji?
+Hahaha,je lui en enverrai![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x459</ref>
+        </refs>
+        <data>EKATERINA:
+Ainsi,il aimerait le Vin Doux?
+Hahaha,je lui en enverrai![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3f9</ref>
+        </refs>
+        <data>ANASTASIA:
+L'argent et la nourriture sont toujours
+suffisants.
+Durant une bataille,regarde toujours
+la force que tu as gagné.
+ 
+Seul l'argent compte pour les guerriers
+lents comme Bareck.
+Ils ne sont satisfait que par ça.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4cc</ref>
+        </refs>
+        <data>DON JUAN:
+Leçon de Morale!
+Une sorcière ne ferait jamais ça![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x668</ref>
+        </refs>
+        <data>DON JUAN:
+Leçon de Morale!
+Une prêtresse ne ferait jamais ça![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7b0</ref>
+        </refs>
+        <data>DON JUAN:
+Je vis la vie au maximum![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x407</ref>
+        </refs>
+        <data>ANASTASIA:
+Te souviens-tu de la nuit de la
+Restauration de Kana?
+Bareck et Frederika se sont disputés!
+Il fallait s'en douter!
+ 
+Je suis restée sur ma faim lorsqu'ils
+ont parlé des distinctions entre une
+Armure Lourde et une Sorcière.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x415</ref>
+        </refs>
+        <data>ANASTASIA:
+Bareck a dit quelque chose?
+ 
+ Félicitations!
+ Rien de particulier...[end1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x421</ref>
+        </refs>
+        <data>S'il en parle,c'est une bonne chose!
+Héhéhéhéhé![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x429</ref>
+        </refs>
+        <data>Ah bon?![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x46d</ref>
+        </refs>
+        <data>EKATERINA:
+Le visage souriant de cette fille...
+Le mien est beaucoup plus beau grâce
+au Vin Doux!
+Huhu... Huhuhu... Huhuhuhu...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x477</ref>
+        </refs>
+        <data>EKATERINA:
+J'aime tellement le Uniuji...
+ 
+Mais où pourrais-je donc en avoir
+plus?
+ 
+Je suis une personne qui a tant de
+souvenirs!
+Huhu... Huhuhu... Huhuhuhu...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5b9</ref>
+        </refs>
+        <data> en avoir
+plus?
+ 
+Je suis une personne qui a tant de
+souvenirs!
+Huhu... Huhuhu... Huhuhuhu...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4a1</ref>
+        </refs>
+        <data>EKATERINA:
+Je ne cesse de me regarder pour
+contempler ma beauté!
+Soyons franche,Ekaterina!
+Je veux que la guerre prenne fin une
+fois pour toute!
+Houlala,j'ai des idées trop préconçues
+et c'est donc inutile de penser!
+Bon,on change d'optique et tout le
+monde doit perdre!
+Voilà,un point c'est tout...
+Que je suis drôle!
+Huhu... Huhuhu... Huhuhuhu...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4ab</ref>
+        </refs>
+        <data>EKATERINA:
+Que j'ai de souvenirs!
+Que je suis intelligente!
+C'est [character][0x1] qui l'a dit!
+Il n'y a qu'une personne au monde
+qui aime le uniuji.
+Je suis cette personne dont il parle si
+souvent.
+Je suis adorée de tous!
+La guerre est bientôt finie et j'ai
+tout à y gagner!
+Huhu... Huhuhu... Huhuhuhu...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4c1</ref>
+        </refs>
+        <data>NELBO:
+Est-ce que tu as remarqué quelque
+chose,[character][0x1]?
+Nous avons enfermé Don Juan!
+C'est génial,n'est-ce pas?![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x65d</ref>
+        </refs>
+        <data>JOY:
+Moi et Nelbo sommes prêtes à être
+envoyées au combat dès qu'il sera
+temps![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x503</ref>
+        </refs>
+        <data>NELBO:
+Lorsque la guerre sera finie,
+Don Juan m'emmènera à Mahal.
+Il m'a dit qu'on aura une grande
+sensation lorsque nos visages se
+reflèteront dans les lacs de Mahal.
+Cependant,je ne dois pas oublier mon
+mon amie Joy.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x69f</ref>
+        </refs>
+        <data>JOY:
+Dès que la guerre sera finie,
+Don Juan viendra à Campbell.
+Je crois qu'il sera subjugué par la
+beauté de la nature.
+J'en suis certaine!
+Cependant,je ne dois pas oublier mon
+amie Nelbo.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6aa</ref>
+            <ref>0x50e</ref>
+        </refs>
+        <data>DON JUAN:
+Haha,[character][0x1]!
+Je suis Don Juan,le Méritant![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x54f</ref>
+        </refs>
+        <data>MELODIA:
+Ah [character][0x1]!
+Tu sais qui aime Mélodia?
+ Tu vas encore mentir!
+ Je le sais...[end1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x563</ref>
+        </refs>
+        <data>MENTEUR![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x55b</ref>
+        </refs>
+        <data>Tu as un si grand coeur![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x56a</ref>
+        </refs>
+        <data>MELODIA:
+Est-ce bientôt la fin de la guerre?
+ 
+ Je n'en sais rien...
+ Je ne pense pas![end1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x576</ref>
+        </refs>
+        <data>Tout le monde pense ça![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x57e</ref>
+        </refs>
+        <data>C'est terrible [character][0x1]!
+C'est long![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x59e</ref>
+        </refs>
+        <data>ZORA:
+As-tu vu mon fils?
+ 
+ Non,désolé...
+ Une fois de plus![end1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5aa</ref>
+        </refs>
+        <data>Essaie de le trouver![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5b2</ref>
+        </refs>
+        <data>Sache qu'il assume un très grand nom![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5c5</ref>
+        </refs>
+        <data>Tout le monde...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x629</ref>
+            <ref>0x61c</ref>
+            <ref>0x5cd</ref>
+        </refs>
+        <data>FREDERIKA:
+Non,je ne suis pas en manque!
+Je tremble... c'est... tout!
+Il me faut...
+Il me faut de la médecine...
+ 
+Aujourd'hui les soins:
+[0xaa]Remède[0xab]...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x636</ref>
+        </refs>
+        <data>FREDERIKA:
+Moi ma plus grande difficulté,
+c'est de penser!
+Quand la guerre sera finie,j'essaierai
+d'être un peu plus énergique.
+ 
+Quand ça arrivera,tu crois que je
+pourrai ouvrir un magasin de médecine?
+Ne t'inquiète pas!
+Je ne vendrai pas de magies illégales.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x738</ref>
+        </refs>
+        <data>DIANA:
+Est-ce bientôt la fin de la guerre?
+ 
+ Je ne sais pas...
+ Et bien...[end1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x74c</ref>
+        </refs>
+        <data>Je n'y crois pas...
+La rumeur était vraie.
+ 
+Je le savais!
+Attention,je ne suis pas le genre de
+fille qui prête attention aux rumeurs.
+Moi,les choses que je dis sont des
+plus vraies.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x76b</ref>
+        </refs>
+        <data>LUKIA:
+[character][0x1],tu sembles aller mieux depuis
+quelques jours!
+Fais-tu attention aux rumeurs qui
+courent?
+ 
+ Excuse-moi?!
+ Merci,ça me réconforte![end1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x77f</ref>
+            <ref>0x777</ref>
+        </refs>
+        <data>Tu as une place d'honneur![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x78e</ref>
+        </refs>
+        <data>LUKIA:
+Chacun commence à penser à la fin de
+la guerre.
+Tout le monde sera satisfait lorsqu'ils
+sauront qu'ils ne craignent plus rien
+pour leur vie.
+La fin du combat est proche!
+Nous en sommes tous persuadés![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7a5</ref>
+        </refs>
+        <data>JEANNE:
+Don Juan est l'un des détracteurs de
+couples à Campbell.
+Nous avons réussi à le calmer!
+Ce pathétique Don Juan nous laisse
+enfin en paix.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7c7</ref>
+        </refs>
+        <data>JEANNE:
+Dès que la guerre sera finie,
+je crois que je retournerai à Mahal.
+Avec mes amis nous servirons tout
+spécialement Commandant.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7ed</ref>
+            <ref>0x7de</ref>
+        </refs>
+        <data>MIST:
+J'aimerais t'accompagner au combat![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7fc</ref>
+        </refs>
+        <data>MIST:
+Frederika a des discussions bien
+étranges.
+Je suis aussi redevable envers Zora
+de Campbell pour m'avoir aidé dans
+mon combat.
+L'air du Lagon Campbell est si frais.
+C'est un vrai plaisir![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3db</ref>
+        </refs>
+        <data>TAURUS:
+Au moins,je ne penses à rien dans
+cette chambre!
+Ici,les femmes ne sont pas nerveuses
+et elles t'écoutent.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7e6</ref>
+        </refs>
+        <data>C'est la meilleure!
+Le Général Palpaleos et la Princesse
+[character][0x1] vont ensemble![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7f5</ref>
+        </refs>
+        <data>Huhu... Huhuhu... Huhuhuhu...
+Que devrais-je bien lui dire?
+ 
+[character][0x1],j'ai la sensation que tout cela
+était inévitable!
+ 
+Un instant! Regarde-moi!
+Je suis très belle,non?![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x804</ref>
+        </refs>
+        <data>L'air de Campbell est si doux...
+Je pourrais le respirer au moins
+[0xb0][0xaf][0xaf] fois de suite![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x672</ref>
+        </refs>
+        <data>JOY:
+Tu ne penses pas que Don Juan est
+très mignon comme ça?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4d6</ref>
+        </refs>
+        <data>NELBO:
+Amuse-toi avec ce gentleman...
+Il est marrant,non?
+[0xa8]Il a l'air idiot![0xa9][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4e1</ref>
+            <ref>0x67d</ref>
+        </refs>
+        <data>DON JUAN:
+Don Juan est très bien ici mais il
+aime la vie mais pas l'humiliation![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x687</ref>
+        </refs>
+        <data>JOY:
+Maintenant,Don Juan est plus calme...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4eb</ref>
+        </refs>
+        <data>NELBO:
+Maintenant,Don Juan est plus calme au
+bar...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x692</ref>
+            <ref>0x4f6</ref>
+        </refs>
+        <data>DON JUAN:
+Je suis toujours le même!
+ 
+Don Juan captive encore autant
+l'attention![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x71d</ref>
+        </refs>
+        <data>DIANA:
+Est-ce que tu le sais?
+C'est une chose importante!
+ Informe-moi!
+ Je suis très occupé...[end1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x729</ref>
+        </refs>
+        <data>Mélodia a de nombreux slips dragons.
+Et elle les a perdus!
+Ou du moins,le croyait-elle!
+J'ai découvert qu'ils étaient TOUS
+dans les quartiers des hommes!
+ 
+C'est un Lancier qui les a dérobés ou
+devrais-je dire un clepto!
+Un cleptomane,hahaha!
+Et... et... cette personne est
+Reeve!
+C'est fou,non?![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x702</ref>
+        </refs>
+        <data>DIANA:
+Veux-tu savoir ce que j'ai à dire sur
+[character][0x1]?
+ Informe-moi!
+ Je suis très occupé...[end1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x70e</ref>
+        </refs>
+        <data>Comme d'habitude,j'écoutais ce qui se
+passait dans la chambre de [character][0x1].
+ 
+Et il m'a semblé entendre les Dragons
+Sacrés.
+ 
+Ils avaient l'air en colère[0xd8]
+Qu'est-ce que ça veut dire?
+Je me pose beaucoup de questions![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x400</ref>
+        </refs>
+        <data>ANASTASIA:
+Je vais t'apprendre quelque chose!
+ 
+Les dragons peuvent utiliser la magie
+noire ou la magie de soin!
+ 
+Tu peux faire augmenter leur Défense,
+leur Attaque,leur pouvoir de Poison,
+leur pouvoir de Soin,et aussi ceux de
+de Feu,d'Eau,et de Foudre!
+C'est ce qui conviendrait parfaitement
+à Bareck!
+Les sorcières peuvent aussi augmenter
+leur pouvoir magique tandis que Bareck
+et les autres n'augmentent qu'en
+force!
+De toute manière,des types comme lui
+ne sont que des brutes.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x40e</ref>
+        </refs>
+        <data>ANASTASIA:
+Aujourd'hui je suis allée me promener
+mais je n'ai rien découvert de très
+d'intéressant.
+Par contre,qui tu sais marche
+lentement... lentement...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x787</ref>
+        </refs>
+        <data>LUKIA:
+La Porte de la Nouvelle Ere est
+ouverte...
+Qu'allons-nous bien trouver au delà de
+cette Porte?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7bd</ref>
+        </refs>
+        <data>JEANNE:
+J'avais demandé du Miel Doux et des
+Cookies à Don Juan mais il ne cesse
+de sauter et de me regarder![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x487</ref>
+        </refs>
+        <data>EKATERINA:
+Que pourrait penser une fille comme
+moi en ce moment?
+Pourquoi personne n'amène du Vin Doux
+à une fille aussi fantastique que moi?
+Huhu... Huhuhu... Huhuhuhu...
+Je suis une femme qui a tant d'esprit!
+Je suis hypra-intelligente!
+Huhu... Huhuhu... Huhuhuhu...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x491</ref>
+        </refs>
+        <data>EKATERINA:
+Une fois de plus,
+je sais encore tant de choses!
+Est-ce le uniuji qui me rend si
+malicieuse?
+Hihi... Hihihi... Hihihihi...
+Ekaterina la Malicieuse!
+Je suis la plus malicieuse!
+Hihi... Hihihi... Hihihihi...
+Personne ne peut s'empêcher de
+penser à moi![end]</data>
+    </text>
+</texts>

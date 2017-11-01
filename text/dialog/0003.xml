@@ -1,0 +1,180 @@
+<?xml version="1.0" ?>
+<texts base="0x604" room_id="3">
+    <text>
+        <refs>
+            <ref>0x2d</ref>
+        </refs>
+        <data>          Chapitre [0xb2]
+-Campbell,le Continent Verdoyant-[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x66</ref>
+        </refs>
+        <data>MATELIGHT:
+Les forces ennemis sont visibles de
+très loin![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x121</ref>
+        </refs>
+        <data>MATELIGHT:
+La Princesse [character][0x1] serait-elle là-bas?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x152</ref>
+        </refs>
+        <data>MATELIGHT:
+[character][0x1],ne vous inquiétez pas!
+Nous arrivons![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x15e</ref>
+        </refs>
+        <data>MATELIGHT:
+Allons-y tout de suite!
+Partons![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x35e</ref>
+        </refs>
+        <data>SENDACK:
+Que veux-tu faire?
+ 
+ Appeler les dragons.
+ Un peu de repos.[end1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x372</ref>
+        </refs>
+        <data>N'oublie pas de les nourrir![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x36a</ref>
+        </refs>
+        <data>[character][0x1],chaque minute de préparations
+compte beaucoup.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x380</ref>
+        </refs>
+        <data>SENDACK:
+Ici... ici![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4df</ref>
+        </refs>
+        <data>SENDACK:
+[character][0x1],c'est fantastique![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x313</ref>
+        </refs>
+        <data>La Princesse pourra voir de splendides
+dragons si tu les nourris bien.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x307</ref>
+        </refs>
+        <data>SENDACK:
+[character][0x1],que veux-tu faire?
+ 
+ Finir les préparatifs.
+ Aller au combat![end1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5c2</ref>
+        </refs>
+        <data>DOCTEUR DRAGON:
+Veux-tu des explications sur la
+nourriture?
+ Je suis déjà très instruit!
+ J'aimerais en savoir plus...[end1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5ce</ref>
+        </refs>
+        <data>Très bien![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5d6</ref>
+        </refs>
+        <data>La personnalité d'un dragon dépend
+de la nourriture qui lui est donnée!
+ 
+Les armes augmentent son caractère
+offensif donc il attaquera plus fort
+les ennemis!
+Les armures le rendent moins craintif
+donc il attaquera plus souvent les
+ennemis!
+Soit généreux en les nourrissant,
+surtout si c'est leur nourriture
+favorite.
+Mais ne soit pas trop excessif!
+Il vaut mieux de bonnes quantités
+constantes plutôt que de les goinfrer.
+Si ton dragon est heureux,
+il fera alors des rotations.
+ 
+Ce dernier conseil te sera aussi utile:
+augmenter l'esprit et l'intelligence les
+rendra plus compétent en magie.
+Ce sont toutes les bases!
+A toi de réussir![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x31b</ref>
+        </refs>
+        <data>Nous devons persévérer pour
+récupérer la Princesse![end][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x562</ref>
+        </refs>
+        <data>Je suis un marchand envoyé au champs
+de bataille!
+Tu veux commercer avec moi?[end][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x183</ref>
+        </refs>
+        <data>RUSH:
+Tout de suite?!
+ 
+Comment peut-il nous donner de tels
+ordres![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1a1</ref>
+        </refs>
+        <data>LUKIA:
+Il est juste inquiet!
+Viens,n'y prête pas attention![end][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x534</ref>
+        </refs>
+        <data> Armes.
+ Armures.
+ Objets.[end1]</data>
+    </text>
+</texts>

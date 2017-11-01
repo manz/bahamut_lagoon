@@ -1,0 +1,902 @@
+<?xml version="1.0" ?>
+<texts base="0x1537" room_id="18">
+    <text>
+        <refs>
+            <ref>0xe7</ref>
+        </refs>
+        <data>LEVIATHAN:
+Où sommes-nous?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x102</ref>
+        </refs>
+        <data>GARUDA:
+Que s'est-il passé?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x11d</ref>
+        </refs>
+        <data>VALITRA:
+La Porte de la Nouvelle Ere serait-elle
+ouverte?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x138</ref>
+        </refs>
+        <data>JORMUNGAND:
+Nous ne pouvons avancer plus loin.
+Est-ce notre destination?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x153</ref>
+        </refs>
+        <data>GARUDA:
+Nous ne pouvons pas voir ce qu'il y a
+derrière la Porte.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x16c</ref>
+        </refs>
+        <data>LEVIATHAN:
+Sont-ils nos ennemis?
+Que se passe-t-il?![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x187</ref>
+        </refs>
+        <data>JORMUNGAND:
+Et Bahamut,que fait-il?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1a2</ref>
+        </refs>
+        <data>VALITRA:
+Pourquoi?
+Que sont toutes ces choses ici?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x20a</ref>
+        </refs>
+        <data>[character][0x1]:
+Attendez,Dragons Sacrés...
+ 
+Avez-vous fait cela pour vous?
+Avez-vous ouvert la Porte?
+ 
+Je ne suis pas encore une Dragoon...
+Je suis encore la fille au coeur faible![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2b1</ref>
+        </refs>
+        <data> 
+            Chapitre [0xb0][0xb7]
+        -La Place Promise-[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x10a5</ref>
+        </refs>
+        <data>HORNET:
+Pourquoi le ciel est-il si furieux?
+Le temps n'est pas au beau fixe![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1107</ref>
+        </refs>
+        <data>TAURUS:
+[character][0x1] est sur le point de parler.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x10dc</ref>
+        </refs>
+        <data>RUSH:
+Je me sens offensé![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x111b</ref>
+        </refs>
+        <data>BIKKEBAKKE:
+[character][0x1],je dois dire que je suis très
+inquiet.
+Y aurait-il des choses que tu n'aimes
+pas en moi?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x111f</ref>
+        </refs>
+        <data> Qu'est-ce qui ne va pas?
+ Tu es un adulte,maintenant.[end1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1130</ref>
+        </refs>
+        <data>Nous allons bientôt rentrer à Kana
+mais il y a beaucoup de choses à faire
+encore et je ne comprends pas tout.
+Cependant,ne t'inquiète pas,
+je suis toujours d'attaque![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1129</ref>
+        </refs>
+        <data>Vraiment?!
+Merci,frère.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1137</ref>
+        </refs>
+        <data> De bons objets.
+ Des livres.
+ Des champignons.[end1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1199</ref>
+        </refs>
+        <data>MELODIA:
+Matelight et ses amis sont tous
+ensemble.
+Mais [character][0x1] et Hornet sont ici et ils
+sont seuls.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf30</ref>
+        </refs>
+        <data>        Jette un coup d'oeil.
+  
+ 
+    J'entends Matelight rire à
+            haute voix...
+ 
+            GAHAHAHAHA...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x32d</ref>
+        </refs>
+        <data>MATELIGHT:
+Princesse [character][0x1],vous pouvez parler!
+Que s'est-il passé dans le ciel?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x345</ref>
+        </refs>
+        <data>[character][0x1]:
+Mais où sont [character][0x1] et les autres?![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x35c</ref>
+        </refs>
+        <data>Hahahahaha!
+Ces petits insectes?!
+ 
+Ils ne sont pas là car ils m'ont
+désobéi mais vous pouvez parler.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x373</ref>
+        </refs>
+        <data>Ne vous inquiétez pas,ils écoutent!
+Les murs ont des oreilles![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x382</ref>
+        </refs>
+        <data>Allez-y,Princesse [character][0x1],
+dites-nous ce qui est arrivé.
+ 
+Racontez-nous ce que vous ont dit les
+Dragons Sacrés![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3a4</ref>
+        </refs>
+        <data>[character][0x1]:
+Matelight,te souviens-tu de ce que
+conte la Légende des Dragons Sacrés?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3c2</ref>
+        </refs>
+        <data>MATELIGHT:
+Bien sûr,Princesse!
+Ma version est celle-ci...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3ce</ref>
+        </refs>
+        <data>Les Dragons Sacrés vaincront Granbelos
+et viendra alors une Ere Nouvelle pour
+Kana.
+Et cette ère perdurera à jamais.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3e4</ref>
+        </refs>
+        <data>La Légende des Dragons Sacrés:
+La personne qui connaît le coeur des
+Dragons Sacrés ouvrira la Porte vers
+une Ere Nouvelle.
+Il semblerait toutefois que la Porte
+soit ouverte.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3fc</ref>
+        </refs>
+        <data>Ce trou,dans le ciel...
+Ce serait la Porte de la Nouvelle Ere?
+ 
+Serait-ce les Dragons Sacrés qui
+l'aient ouvertes?
+ 
+Non,ils ont dit qu'ils le feraient![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x400</ref>
+        </refs>
+        <data>Mais il ne s'est rien passé.
+Ainsi,je...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x41d</ref>
+        </refs>
+        <data>MATELIGHT:
+Mon dieu!
+Ce à quoi je pensais serait donc vrai!
+Je vais vous rapeller la suite de cette
+Légende!
+ 
+Une personne au coeur faible amènera
+le désastre dans les cieux.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x43d</ref>
+        </refs>
+        <data>La Porte... La Porte!
+La Porte est quelque part...
+ 
+Viens,COMMANDANT!
+Il faut se préparer pour la prochaine
+bataille![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x44e</ref>
+        </refs>
+        <data>COMMANDANT:
+Matelight,qu'y a-t-il?
+Dis-moi ce qui ne va pas![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x45d</ref>
+        </refs>
+        <data>COMMANDANT:
+La Princesse [character][0x1]!
+ 
+Il se peut que le trou dans le ciel
+soit la Porte ouverte par une personne
+au coeur faible.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x594</ref>
+        </refs>
+        <data>Mon dieu![end1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x478</ref>
+        </refs>
+        <data>MATELIGHT:
+Silence,Commandant!
+Ne dis rien à personne!
+Sortez tous![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x573</ref>
+        </refs>
+        <data>ZORA:
+Qu'y a-t-il?!
+Quelque chose ne va pas?![end1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5e9</ref>
+        </refs>
+        <data>RUSH:
+[character][0x1],je vais voir ce qui se passe![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x105e</ref>
+        </refs>
+        <data>SENDACK:
+Les Dragons Sacrés sont furieux et
+violents!
+Je tremble beaucoup?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1065</ref>
+        </refs>
+        <data> Tu trembles vieil homme!
+ Je n'ai rien remarqué...[end1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1070</ref>
+        </refs>
+        <data>Je crains le pire,[character][0x1].
+Les Dragons Sacrés sont furieux!
+Je n'arrive pas à me calmer.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x107f</ref>
+        </refs>
+        <data>Je ne peux pas car si l'on regarde
+leur puissance,elle est extraordinaire.
+Ils désespèrent sur leur sort.
+Leur colère serait-elle dûe à leur
+désespoir?
+Les arrêter est impossible,
+ils nous sont supérieurs![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1111</ref>
+        </refs>
+        <data>TAURUS:
+La Porte de la Nouvelle Ere est-elle
+vraiment ouverte?
+Si tel est le cas,le monde entier sera
+différent à cause de ce trou noir?![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x669</ref>
+        </refs>
+        <data>RUSH:
+N'approche pas plus,
+c'est dangereux.
+SALAMANDO,arrête![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x698</ref>
+        </refs>
+        <data>MATELIGHT:
+Qu'est-ce qui ne va pas,
+Princesse [character][0x1]?
+Vous êtes... étrange![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6a1</ref>
+        </refs>
+        <data>[character][0x1]:
+... ... ... ...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6b5</ref>
+        </refs>
+        <data>MATELIGHT:
+La Porte de la Nouvelle Ere n'a pas
+été ouverte?![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6ca</ref>
+        </refs>
+        <data>Notre grande alliance avec les Dragons
+Sacrés aurait-elle pris fin?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6df</ref>
+        </refs>
+        <data>Bahamut,le protecteur de Kana,va-t-il
+finir par se réveiller comme l'annonce
+la légende de Kana?![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6fc</ref>
+        </refs>
+        <data>Princesse,vous devriez faire confiance
+à vos sentiments.
+ 
+Vous n'êtes pas simplement une fille
+au coeur faible,je peux vous le dire![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x709</ref>
+        </refs>
+        <data>[character][0x1],vous n'êtes pas seule!
+Nous sommes tous à vos côtés!
+ 
+si des démons du monde du trou noir
+sortent par cette Porte,nous vous
+défendrons tous!
+C'est notre manière de vivre et rien
+ne changera cela![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x724</ref>
+        </refs>
+        <data>[character][0x1]:
+Merci...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x740</ref>
+        </refs>
+        <data>Mais Matelight,je sens que Bahamut est
+ha[0x25] par les autres Dragons Sacrés![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x752</ref>
+        </refs>
+        <data>MATELIGHT:
+GAHAHAHAHAHA!
+Vous vous inquiétez pour ça!
+Regardez-moi,Princesse![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x76d</ref>
+        </refs>
+        <data>Matelight le Héros![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x782</ref>
+        </refs>
+        <data>Le célèbre Matelight![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x792</ref>
+        </refs>
+        <data>Matelight,le Chevalier de Kana![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7a1</ref>
+        </refs>
+        <data>Je suis plus puissant que n'importe
+quel ennemi!
+Je vaincs tout le monde![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7ad</ref>
+        </refs>
+        <data>Je suis le Bahamut des êtres humains
+d'Orelus!
+ 
+Et Commandant...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7c0</ref>
+        </refs>
+        <data>[character][0x1]:
+Commandant est Léviathan ou alors
+Jormungand?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7d7</ref>
+        </refs>
+        <data>MATELIGHT:
+Commandant?![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7e7</ref>
+        </refs>
+        <data>Il est la queue de Bahamut![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x82c</ref>
+        </refs>
+        <data>Princesse [character][0x1],
+Je vous comprends...
+ 
+Aujourd'hui,je suis un homme lassant
+et aux valeurs dépassées.
+ 
+Un vieux cavalier qui survit sur les
+champs de bataille!
+Je suis un homme dépassé.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x83e</ref>
+        </refs>
+        <data>Un jour,je devrai me retirer et vous
+devrez faire confiance à quelqu'un
+d'autre.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x84a</ref>
+        </refs>
+        <data>Vous aurez [character][0x1] et Rush,
+les révolutionnaires de la Liberté.
+Ils ont beaucoup grandi mais leurs
+paroles ne le montrent guère...
+Bien que les Petits Démons parlent
+moins bien qu'eux.
+Hahahahaha![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x857</ref>
+        </refs>
+        <data>Princesse [character][0x1],
+j'ai un rêve...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x863</ref>
+        </refs>
+        <data>Je souhaite que notre patrie Kana soit
+restaurée et que vous en soyez
+l'Impératrice!
+[character][0x1],je serai toujours à vos côtés
+pour vous soutenir.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x873</ref>
+        </refs>
+        <data>Je vous le jure![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x87f</ref>
+        </refs>
+        <data>Le jour où je serai âgé tout comme
+l'est ce vieil homme,Sendack,et que
+je dirai des inepties...
+Alors ce jour-là,je me retirerai.
+Et d'autres personnes me remplaceront.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x892</ref>
+        </refs>
+        <data>[character][0x1],de beaux chevaliers prendront
+ma place pour vous servir,vous et la
+patrie![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8a8</ref>
+        </refs>
+        <data>Quand ce moment viendra...
+Quand ils seront aussi âgés que moi...
+Quand ils auront fait de Kana une
+contrée libre...
+ 
+  
+Alors je quitterai notre mère-patrie!
+Je crois que vous êtes d'accord avec
+moi,Princesse...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8c1</ref>
+        </refs>
+        <data>Lorsque ce jour arrivera...
+Peut-être que Sendack sera déjà
+mort...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8dc</ref>
+        </refs>
+        <data>Je crois que je commence déjà à dire
+n'importe quoi!
+ 
+Peut-être que lorsque vous serez
+comme moi...
+ 
+Vous vous souviendrez de votre
+enfance lorsque votre père n'était pas
+encore mort.
+Vous vous souviendrez que j'étais
+alors très jeune.
+ 
+Vous vous souviendrez de la guerre...
+Vous vous souviendrez de nos
+compagnons d'armes et de [character][0x1]...
+J'aime énormément vous parler,
+Princesse![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8f2</ref>
+        </refs>
+        <data>Et j'aimerais rester avec vous pour
+toujours...
+ 
+Mais lorsque je ne pourrai plus vous
+protéger...
+ 
+Je crois,Princesse [character][0x1],que je devrai
+dire adieu à mon armure.
+ 
+C'est ici que je déposerai mes armes
+et vous dirai au revoir.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x906</ref>
+        </refs>
+        <data>Suis-je en train de dire des
+balivernes?
+ 
+Je dois me reprendre,je suis encore
+loin d'être vieux![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x927</ref>
+        </refs>
+        <data>Je vais aller chercher mon ami,
+Commandant![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x93d</ref>
+        </refs>
+        <data>Voilà,c'était ma conclusion!
+Mais,juste un dernier mot,si vous me
+le permettez...
+Lorsque je partirai,j'espère que de
+temps à autre vous viendrez me rendre
+visite.
+Mais surtout,ne venez pas avec le
+nouveau Roi de Kana!
+ 
+[character][0x1],je crois qu'un jour vous vous
+marierez avec l'un de mes compagnons!
+C'est sincèrement ce que je pense![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf51</ref>
+        </refs>
+        <data>[character][0x1]:
+De nombreux amis s'inquiètent tant
+pour moi!
+Matelight...
+Toi aussi,[character][0x1]...
+Et tous les Rebelles...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf70</ref>
+        </refs>
+        <data>[character][0x1],il y a quelque chose que je n'ai
+pas dit à notre cher Matelight.
+Moi aussi,j'ai un rêve...
+Un petit rêve,selon certains dires...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf79</ref>
+        </refs>
+        <data>Mais c'est mon rêve...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xfa6</ref>
+        </refs>
+        <data>J'y pense souvent mais je ne peux
+pas encore te le dire.
+ 
+Comme j'aime regarder le ciel![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xfb5</ref>
+        </refs>
+        <data>Je dois partir car Matelight m'attend
+sur le pont.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x11ff</ref>
+        </refs>
+        <data>-Résultat de la reconnaissance du ciel-
+ 
+Des monstres du monde du trou noir
+sont proches de l'Eglise des Souvenirs
+et se livrent à des actes violents.
+En ce moment,des troupes de l'Empire
+Granbelos préparent une offensive à
+à l'Eglise Souvenirs.
+Le Général Palpaleos est présent.
+Malheureusement,nous n'avons pas eu
+d'autres informations dans ces
+circonstances.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xffd</ref>
+        </refs>
+        <data>[character][0x1]:
+[character][0x1],j'ai une requête...
+Protège cette église!
+Elle a en mémoire tant de souvenirs
+d'amoureux de Kana...
+ 
+Nous n'avons pas de temps à perdre
+car ces souvenirs ne doivent pas être
+perdus suite à une défaite!
+Nous y avons aussi des souvenirs,
+[character][0x1]...
+ 
+Te souviens-tu encore de notre
+promesse?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1001</ref>
+        </refs>
+        <data> Je ne m'en souviens plus.
+ Je m'en souviens.[end1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x104b</ref>
+            <ref>0xa2b</ref>
+            <ref>0xa5c</ref>
+        </refs>
+        <data>[character][0x1]:
+Cette époque a malheureusement bien
+changé par ma faute...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1183</ref>
+        </refs>
+        <data>ZORA:
+C'est terrible!
+Il nous faut arrêter ça!
+Comme toutes les autres femmes,[character][0x1]
+est résistante et elle n'a pas un
+coeur faible.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x118a</ref>
+        </refs>
+        <data>LUKIA:
+J'ai entièrement confiance en la
+Princesse [character][0x1].
+Tu es d'accord avec moi?![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x11c8</ref>
+        </refs>
+        <data>MELODIA:
+Hé! Hé! HEEEEEEE!
+Qu'est-ce qui ne va pas?
+Vous pouvez me le dire?![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x11e1</ref>
+        </refs>
+        <data>MELODIA:
+C'est étrange,Matelight ne dit plus
+rien![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1093</ref>
+        </refs>
+        <data>COMMANDANT:
+Matelight semble parfois si triste![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x109a</ref>
+        </refs>
+        <data>COMMANDANT:
+Matelight est très silencieux!
+ 
+Sais-tu pourquoi il ne veut pas parler?
+Hum,il y a des choses qui ne se
+disent pas,tu as raison!
+Prépare-toi bien![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x10ac</ref>
+        </refs>
+        <data>HORNET:
+[character][0x1] t'a-t-il donné ses
+informations?!
+Très bien,direction Kana!
+Prépare-toi pour la bataille!
+ 
+Nous sommes proches du combat final![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x10fc</ref>
+        </refs>
+        <data>RUSH:
+Tu dois être réconforté par ces
+paroles.
+Nous avons appris bien des choses sur
+[character][0x1]...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x10b0</ref>
+        </refs>
+        <data> Préparons-nous.
+ Allons combattre![end1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x103d</ref>
+        </refs>
+        <data>[character][0x1]:
+Je te demande pardon,je n'ai pas
+respecté notre promesse.
+Le ciel a bien changé...
+Et moi aussi...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1288</ref>
+        </refs>
+        <data> Obtenu [0xaa]PRINCESSE?[0xab].[end]</data>
+    </text>
+</texts>

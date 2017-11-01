@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<texts base="0x1b2" room_id="10">
+    <text>
+        <refs>
+            <ref>0x28</ref>
+        </refs>
+        <data>Lestat: Heeheehee![0xfc][0x1] Ladies and
+gentleman of the Resistance!![0xfc][0x1]
+Thanks for coming![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2c</ref>
+        </refs>
+        <data>My preparations are all set![0xfc][0x1]
+Well then, shall we begin?[end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x35</ref>
+        </refs>
+        <data>“Condition for Victory:”[0xfc][0x1]
+“Defeat of Lestat”[end]W</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4b</ref>
+        </refs>
+        <data>Watch out!
+These statues are booby-trapped![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x54</ref>
+        </refs>
+        <data>Break 'em using thunder techs![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x19a</ref>
+        </refs>
+        <data>Lestat: No!!![0xfc][0x1] Impossible!![0xfc][0x1]
+I, the great Lestat, cannot be
+defeated...![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x19e</ref>
+        </refs>
+        <data>F...[0xfc][0x1] Fuck!![0xfc][0x1][end][end]</data>
+    </text>
+</texts>

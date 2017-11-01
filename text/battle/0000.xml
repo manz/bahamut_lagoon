@@ -1,0 +1,139 @@
+<?xml version="1.0" ?>
+<texts base="0x4da" room_id="0">
+    <text>
+        <refs>
+            <ref>0x64</ref>
+        </refs>
+        <data>Matelite: Damn it!![0xfc][0x1]
+The Imperial army's approaching![0xfc][0x1]
+I never expected them to attack us
+here...[end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x68</ref>
+        </refs>
+        <data>We need to buy some time!![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x75</ref>
+        </refs>
+        <data>“Inspire!!”[end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x90</ref>
+        </refs>
+        <data>Sendak: If we are to cross the river,
+then we will need to freeze it using
+magic.[end1]
+</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x94</ref>
+        </refs>
+        <data>Let us show them how to fight,
+[character][0x1]![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa3</ref>
+        </refs>
+        <data>“Condition for Victory:”[0xfc][0x1]
+“Defeat of all enemies”[end]I</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc5</ref>
+        </refs>
+        <data>If you melt the ice bridge with fire
+magic, the enemy will be unable to
+move!![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd9</ref>
+        </refs>
+        <data>Matelite: What're you doing?! Are you
+gonna help me already or what?!![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf8</ref>
+        </refs>
+        <data>Let's move!!
+Take Kahna Castle by force!![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x220</ref>
+        </refs>
+        <data>Ah... So we are crossing the river...
+Be careful when using fire magic.[end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x26b</ref>
+        </refs>
+        <data>Ice bridges can be melted with fire
+magic, so be careful!![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x387</ref>
+        </refs>
+        <data>Matelite: I never thought I would be
+done in so soon...[end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x392</ref>
+        </refs>
+        <data>Sendak: [character][0x1]...[0xfc][0x1] This cannot be...[0xfc][0x1]
+How I longed to fight alongside you in
+future battles...[end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3c6</ref>
+        </refs>
+        <data>Don't isolate your dragon!!
+Command it to do something!![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3ca</ref>
+        </refs>
+        <data>Don't forget about the [0x22]Come[0x22] and
+[0x22]Wait[0x22] commands!![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x465</ref>
+        </refs>
+        <data>The enemy...[end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x46c</ref>
+        </refs>
+        <data>Prepare yourselves!![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4bd</ref>
+        </refs>
+        <data>King Kahna, he's...!![0xfc][0x1]
+The Granbelos generals have
+penetrated the castle!![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4c9</ref>
+        </refs>
+        <data>Matelite: Damn it!! We have to protect
+the King!![end1][end]</data>
+    </text>
+</texts>

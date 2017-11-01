@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<texts base="0x100" room_id="14">
+    <text>
+        <refs>
+            <ref>0x2c</ref>
+        </refs>
+        <data>“Condition for Victory:”[0xfc][0x1]
+“Defeat of Grand Moth”[end][end]</data>
+    </text>
+</texts>

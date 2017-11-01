@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<texts base="0xaa" room_id="27">
+    <text>
+        <refs>
+            <ref>0x28</ref>
+        </refs>
+        <data>“Condition for Victory:”[0xfc][0x1]
+“Defeat of all enemies”[end]O</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x45</ref>
+        </refs>
+        <data>Our attacks aren't affecting it![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4c</ref>
+        </refs>
+        <data>We have to take out the other heads
+first![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9c</ref>
+        </refs>
+        <data>Attack that one![0xfc][0x1][end1][end]</data>
+    </text>
+</texts>

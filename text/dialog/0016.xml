@@ -1,0 +1,290 @@
+<?xml version="1.0" ?>
+<texts base="0x63e" room_id="16">
+    <text>
+        <refs>
+            <ref>0x6a</ref>
+            <ref>0x76</ref>
+            <ref>0x5e</ref>
+        </refs>
+        <data>                [character][0x1]...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x81</ref>
+        </refs>
+        <data>           Réveille-toi...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa6</ref>
+        </refs>
+        <data>               [character][0x1]...
+ 
+  
+     Assume le nom de Dragoon!
+           Réveille-toi!
+ 
+  Tu n'as pas de temps à perdre.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc2</ref>
+        </refs>
+        <data>      Je suis le Dragon Sacré
+            Jormungand.
+    Je t'attends dans le désert.
+   Je te dirai ce que je veux te
+          faire savoir.
+ 
+   Nous,les Dragons Sacrés avons
+      énormément besoin de toi.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc8</ref>
+        </refs>
+        <data>         -Ouvre cette porte-
+            et viens à moi...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x219</ref>
+        </refs>
+        <data>[character][0x1]:
+Hein... huuum...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x224</ref>
+        </refs>
+        <data> 
+Que faites-vous tous ici?![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x268</ref>
+        </refs>
+        <data>[character][0x1]:
+Le Dragon Sacré Jormungand m'a
+réveillée.
+Il est en colère,je dois aller à sa
+rencontre.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x231</ref>
+        </refs>
+        <data>ZORA:
+Tout va bien,Princesse?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x279</ref>
+        </refs>
+        <data>ZORA:
+C'est impossible!
+Vous ne pouvez pas y aller.
+J'irai moi-même au combat pour aller
+chercher ce dragon à votre place.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2c7</ref>
+        </refs>
+        <data>MATELIGHT:
+Au fait,Princesse,nous avons de
+bonnes nouvelles.
+Nous avons vaincu l'Empereur Sauzer.
+Bientôt,notre Kana revivra![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2dc</ref>
+        </refs>
+        <data>COMMANDANT:
+Palpaleos a aussi été vaincu!
+C'est la dure réalité de la guerre.
+Princesse [character][0x1],vous devez être
+épuisée![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x302</ref>
+        </refs>
+        <data>... ... ... ...![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x29d</ref>
+        </refs>
+        <data>[character][0x1]:
+Je dois y aller par moi-même!
+ 
+Le Dragon Sacré Jormungand m'a dit
+qu'il avait certaines choses à me
+révéler.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x31c</ref>
+        </refs>
+        <data>Princesse [character][0x1]!
+Que vous arrive-t-il?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x369</ref>
+        </refs>
+        <data>[character][0x1]... Je suis là...
+Ne vous inquiétez pas![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3a1</ref>
+        </refs>
+        <data>PALPALEOS:
+En effet,j'ai été vaincu par les
+Rebelles mais je suis encore en vie.
+Ils ont vraiment gagné en force![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3ad</ref>
+        </refs>
+        <data>[character][0x1]..
+Matelight...
+Commandant...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x37f</ref>
+        </refs>
+        <data>Général Palpaleos...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3b9</ref>
+        </refs>
+        <data>Ma tendre [character][0x1],je ne peux même pas
+réaliser mon souhait le plus cher...
+Etre avec vous![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3c5</ref>
+        </refs>
+        <data>Qui avez-vous choisi,[character][0x1]?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3d1</ref>
+        </refs>
+        <data>Si la Nouvelle Ere s'ouvre à nous,
+j'aimerais être à tout jamais à vos
+côtés.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x40d</ref>
+        </refs>
+        <data>GARUDA:
+Hahahahaha!
+Fille,la dénommée Dragoon!
+Est-ce là ton ambition?
+Ce TRES petit rêve ou dois-je dire ce
+MINUSCULE rêve?![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x41b</ref>
+        </refs>
+        <data>[character][0x1]:
+Ce petit rêve...
+Mais je ne peux même pas le réaliser![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x426</ref>
+        </refs>
+        <data>GARUDA:
+Pourquoi penses-tu cela,
+fille au petit rêve?
+Si notre pouvoir est entre tes mains,
+tout ce que tu désires sera contrôlé
+par ton esprit.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x433</ref>
+        </refs>
+        <data>[character][0x1]:
+Si le monde est mien,il y a une chose
+que je ne pourrai changer...
+Ce sont les sentiments qui sont
+profondément ancrés dans nos coeurs.
+ 
+Indubitablement,
+ils ne pourront changer...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x43d</ref>
+        </refs>
+        <data>GARUDA:
+Ne sois pas déçue,fille au petit rêve!
+ 
+Tu connais maintenant nos sentiments
+et tu peux nous contrôler.
+ 
+Tu es meilleure et plus apte comparée
+à l'autre personne qui connaît nos
+coeurs.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x447</ref>
+        </refs>
+        <data>Tu veux parler de l'Empereur?
+Mais il est maintenant...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x451</ref>
+        </refs>
+        <data>GARUDA:
+Non!
+Je peux sentir sa faible vie.
+Il n'est pas mort...
+L'homme de tes rêves,lui aussi se
+porte bien.
+Ne t'inquiète pas!
+N'est-ce pas cela que tu désirais
+savoir?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x461</ref>
+        </refs>
+        <data>[character][0x1]:
+Garuda...
+ 
+Si je réalise tout mes désirs,il est une
+chose que j'aimerais avoir par dessus
+tout...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x471</ref>
+        </refs>
+        <data>La bravoure,le genre de bravoure en
+laquelle je peux avoir totalement
+confiance.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x534</ref>
+        </refs>
+        <data>           Chapitre [0xb0][0xb5]
+   -Le Dragon Sacré Jormungand-[end][end]</data>
+    </text>
+</texts>

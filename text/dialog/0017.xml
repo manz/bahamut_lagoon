@@ -1,0 +1,208 @@
+<?xml version="1.0" ?>
+<texts base="0x3b8" room_id="17">
+    <text>
+        <refs>
+            <ref>0xbe</ref>
+        </refs>
+        <data>LEVIATHAN:
+Pourquoi es-tu si impatient,Jormungand?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xcd</ref>
+        </refs>
+        <data>JORMUNGAND:
+Cette fille a été poussée à ses limites.
+ 
+Elle perd conscience dès lors qu'elle
+nous réunit,nous,les quatres Dragons
+Sacrés![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xde</ref>
+        </refs>
+        <data>GARUDA:
+Malheureusement,la Porte de la Nouvelle
+Ere n'est pas encore ouverte.
+Et elle ne doit pas l'être tant que
+nous ne sommes pas encore tous
+réunis.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xfd</ref>
+        </refs>
+        <data>VALITRA:
+Et que fait Bahamut?
+N'aime-t-il pas ce que nous faisons?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xef</ref>
+        </refs>
+        <data>JORMUNGAND:
+Je dois avouer que je n'arrive pas à
+le comprendre.
+La Porte de la Nouvelle Ere...
+Pourquoi ne pouvons-nous pas l'ouvrir?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x10e</ref>
+        </refs>
+        <data>LEVIATHAN:
+Si Bahamut n'est pas ici,c'est qu'il
+veut éviter les erreurs du passé.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x11f</ref>
+        </refs>
+        <data>JORMUNGAND:
+Est-il vraiment nécessaire de devoir
+l'attendre?
+Nous devrions ouvrir la Porte!
+Cela fait une éternité...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x12d</ref>
+        </refs>
+        <data>VALITRA:
+Si la Porte de la Nouvelle Ere n'est
+pas ouverte,cette fille...
+Non,nous aussi...![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x13e</ref>
+        </refs>
+        <data>GARUDA:
+Nous ne pouvons encore rien dire de
+cette humaine.
+Peut-elle vraiment être une Dragoon?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1c4</ref>
+        </refs>
+        <data>           Chapitre [0xb0][0xb6]
+  -La Porte de la Nouvelle Ere-[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x223</ref>
+        </refs>
+        <data>monyo!
+[0xa8]rush a un message verbal à
+ transmettre.[0xa9][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x22f</ref>
+        </refs>
+        <data>manyo!
+[0xa8]donc petits démons vont vous
+ l'annoncer en ces lieux.[0xa9][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x23b</ref>
+        </refs>
+        <data>munyo!
+[0xa8]allez! récite[0xd8][0xa9][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x247</ref>
+        </refs>
+        <data>monyo monyo!
+ 
+ 
+RUSH:
+Matelight,nous ne voulons plus vous
+obéir!
+Dès maintenant,nous menons une
+insurrection!
+ 
+Cependant,ne t'inquiète pas pour
+[character][0x1] et les autres.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x253</ref>
+        </refs>
+        <data>manyo!
+[0xa8]nous n'aimons pas ce qui se
+ passe! rush cause des ennuis![0xa9][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x25f</ref>
+        </refs>
+        <data>munyo!
+[0xa8]les petits démons récitent
+ toujours en minuscules![0xa9][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x26b</ref>
+        </refs>
+        <data>monyo!
+[0xa8]oui,c'est véridique!
+ ce n'est pas une légende![0xa9][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x277</ref>
+        </refs>
+        <data>manyo!
+[0xa8]petit démon et petit démon,
+ nous repartons.[0xa9][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x283</ref>
+        </refs>
+        <data>munyo!
+[0xa8]prenez soin de vous,[character][0x1]![0xa9]
+[0xa8]petits démons vous souhaitent
+ une mort sacrée.[0xa9][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2a7</ref>
+        </refs>
+        <data>COMMANDANT:
+... ... ... ?!
+ 
+Mais qu'est-ce que les Petits Démons
+ont voulu dire?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2c9</ref>
+        </refs>
+        <data>MATELIGHT:
+... ... ... ...
+ 
+Monyo et Manyo sont bien bruyantes![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2ea</ref>
+        </refs>
+        <data>MATELIGHT:
+[character][0x1] et les autres vont passer un
+sale quart d'heure![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2f2</ref>
+        </refs>
+        <data>Commandant!
+Prenez soin de [character][0x1],je vais aller voir
+ce qui se passe![end]</data>
+    </text>
+</texts>

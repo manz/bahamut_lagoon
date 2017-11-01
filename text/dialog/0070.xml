@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<texts base="0x83a" room_id="70">
+    <text>
+        <refs>
+            <ref>0xda</ref>
+        </refs>
+        <data>           -Empire Granbelos-[end1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf0</ref>
+        </refs>
+        <data>          Le génie militaire,
+          l'Empereur Sauzer,[end1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x125</ref>
+        </refs>
+        <data> avait pour rêve de conquérir le ciel
+     et d'y assoir sa domination.[end1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x13b</ref>
+        </refs>
+        <data>  C'est ainsi que la guerre survint...[end1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3ed</ref>
+        </refs>
+        <data>    Le feu des combats se propagea
+    sur tout les lagons et Orelus
+       appartint à l'Empereur.[end1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x763</ref>
+        </refs>
+        <data>  Ainsi le ciel se teinta d'une
+     mélancolique couleur...[end1]</data>
+    </text>
+</texts>

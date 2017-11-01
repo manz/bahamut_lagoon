@@ -1,0 +1,274 @@
+<?xml version="1.0" ?>
+<texts base="0x251" room_id="40">
+    <text>
+        <refs>
+            <ref>0xa0</ref>
+        </refs>
+        <data>         La pluie a cessé...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa4</ref>
+        </refs>
+        <data>               Céline...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa8</ref>
+        </refs>
+        <data>       Restatto a été vaincu![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xac</ref>
+        </refs>
+        <data>     Toi et le peuple de Mahal...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb0</ref>
+        </refs>
+        <data>     Me pardonnerez-vous un jour?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x139</ref>
+            <ref>0x112</ref>
+            <ref>0x1ab</ref>
+            <ref>0xb4</ref>
+        </refs>
+        <data>               Céline...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x101</ref>
+            <ref>0xeb</ref>
+        </refs>
+        <data>                 Tu...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf8</ref>
+        </refs>
+        <data>            Cé... Céline?![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x105</ref>
+        </refs>
+        <data>            Ta promesse...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x109</ref>
+        </refs>
+        <data>         Tu l'as respectée...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x11b</ref>
+        </refs>
+        <data>            Merci beaucoup...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x11f</ref>
+        </refs>
+        <data>              Hihihi...
+   Nous venions ici,auparavant.
+ 
+      Mais l'Arc-en-Ciel ne se
+            montrait pas.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x128</ref>
+        </refs>
+        <data>          T'en souviens-tu?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x12c</ref>
+        </refs>
+        <data>    L'Arc-en-Ciel n'apparaissait
+        jamais,donc tu étais
+       toujours si furieux...
+   [0xaa]L'Arc-en-Ciel ne vient pas!
+      Il ne vient pas! Mince...[0xab][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x130</ref>
+        </refs>
+        <data>       Mais,j'étais heureuse...
+       Ce furent de très bons
+             souvenirs...
+               Hihihi...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x142</ref>
+        </refs>
+        <data>                 Toi...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x146</ref>
+        </refs>
+        <data>     Tu es maintenant devenu un
+        très grand chevalier![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x14f</ref>
+        </refs>
+        <data>     [character][0x1] et Matelight de Kana
+   sont également très puissants![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x153</ref>
+        </refs>
+        <data>         Toutefois,pour moi,
+     tu es le plus fantastique!
+                Hihihi...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x157</ref>
+        </refs>
+        <data>   Laisse-moi te dire un secret...
+    Lorsque Mahal fut attaquée,
+                 Je...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x15b</ref>
+        </refs>
+        <data>       J'attendais un enfant...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x15f</ref>
+        </refs>
+        <data>       Je ne t'en ai rien dit...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x163</ref>
+        </refs>
+        <data>       La raison est évidente...
+   Tu étais tellement occupé par
+   cette guerre contre l'Empire.
+    Je ne voulais pas que cela
+   cause la défaite et ta perte.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x167</ref>
+        </refs>
+        <data>   Je ne voulais pas t'inquiéter.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x16b</ref>
+        </refs>
+        <data>       Je voulais... vraiment...
+    te le dire... te l'annoncer...
+ 
+      Mais il aurait fallu que
+           tu m'écoutes![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x16f</ref>
+        </refs>
+        <data>     De plus,tu étais déjà assez
+         inquiet pour Mahal...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x173</ref>
+        </refs>
+        <data>     Et maintenant,tu as gagné![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x177</ref>
+        </refs>
+        <data>       J'avais déjà trouvé le
+       prénom de cet enfant...
+        Si c'était un garçon,
+    il se serait nommé [0xa8]Shogun[0xa9].
+        Si c'était une fille,
+   elle se serait nommée [0xa8]Chiko[0xa9].[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x190</ref>
+        </refs>
+        <data>          L'Arc-en-Ciel...?![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x199</ref>
+        </refs>
+        <data>         Tu as fait venir
+           l'Arc-en-Ciel![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1a2</ref>
+        </refs>
+        <data>         Il est encore là,
+         il n'est pas mort!
+ 
+       C'est toi qui l'as fait
+             apparaître!
+ 
+         Cet Arc-en-Ciel...
+               Ainsi...
+     un souhait se réalisera...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1b4</ref>
+        </refs>
+        <data>      L'Arc-en-Ciel est venu,
+        et selon les dires,
+   j'ai droit à un souhait,non?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1b8</ref>
+        </refs>
+        <data>      Je sais déjà ce que va
+          être ce souhait...
+ 
+     Je souhaite la paix pour
+     tout les peuples du monde
+              entier.
+     Un monde libre de toutes
+              guerres![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1c1</ref>
+        </refs>
+        <data>   Cela est mon dernier souhait...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1de</ref>
+        </refs>
+        <data>             Mais...? Tu...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1ef</ref>
+        </refs>
+        <data>              Céline!
+            Ton souhait...
+    C'est moi qui le réaliserai![end]</data>
+    </text>
+</texts>

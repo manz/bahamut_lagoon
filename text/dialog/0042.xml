@@ -1,0 +1,455 @@
+<?xml version="1.0" ?>
+<texts base="0xc26" room_id="42">
+    <text>
+        <refs>
+            <ref>0x141</ref>
+        </refs>
+        <data>          -Empire Granbelos-[end1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x17f</ref>
+        </refs>
+        <data>        Peuple de l'Empire,
+      L'Empereur Sauzer a été
+     confronté avec son propre
+      corps,à la Légende des
+          Dragons Sacrés.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1a2</ref>
+        </refs>
+        <data>           Maintenant,
+       il est tombé malade.
+   Mais ne vous inquiétez pas...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1c5</ref>
+        </refs>
+        <data>      NOTRE Empereur connaît
+   le COEUR des Dragons Sacrés.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1e0</ref>
+        </refs>
+        <data>    Il a l'ambition d'ouvrir la
+     Porte d'une Ere Nouvelle...
+ 
+      Cette Ere sera celle de
+        l'Empire Granbelos,
+     celle de NOTRE Empereur![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x33b</ref>
+        </refs>
+        <data>GUDRUFF:
+Hahahaha!
+ 
+vous avez vu les visages du peuple de
+l'Empire!
+ 
+Et la compassion sur celui de
+Palpaleos?!
+Hahahahaha!
+L'homme qui devait faire ce discours
+aurait dû être un fin politique comme
+moi,Gudruff!
+Cette Nouvelle Ere sera MA Nouvelle
+Ere!
+ 
+Je briserai Sauzer et notre peuple
+comprendra sûrement ce coup de force![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x379</ref>
+        </refs>
+        <data>L'Empereur de Granbelos...
+La personne qui contrôle le monde
+entier...
+Tout le monde!
+Toute la puissance!
+ 
+Tout sera mien!
+Tout sera à Gudruff![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x446</ref>
+        </refs>
+        <data>DON JUAN:
+Salut les filles,
+je suis l'inoubliable Don Juan!
+Vous combattez aussi...?!
+Le champ de bataille risque d'abîmer
+votre joli sourire!
+En tout cas,ce n'est pas moi qui vous
+y emmènerais!
+J'ai beaucoup d'affection pour vous!
+En effet,Don Juan est très généreux
+et il a le plus grand coeur au monde![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4a8</ref>
+        </refs>
+        <data>             Don Juan
+    et la [0xb3][0xb7]e femme courtisée![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4f5</ref>
+        </refs>
+        <data>DON JUAN:
+Salut Lady au cheveux rouges!
+ 
+Je suis le Na[0x25]f et Inoubliable
+Don Juan!
+ 
+Pourquoi ne t'échapperais-tu pas de
+ce château pour voyager dans le ciel
+avec moi?
+Je serais le Prince,et toi,tu serais
+la Princesse de mes rêves.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5c3</ref>
+        </refs>
+        <data>             Don Juan
+    et la [0xb5][0xb8]e femme courtisée![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5e6</ref>
+        </refs>
+        <data>DON JUAN:
+Salut,
+très belle demoiselle de l'Empire!
+Aimerais-tu voyager dans le ciel avec
+moi,Don Juan?
+ 
+Je suis le Capitaine d'un grand
+bateau!
+ 
+Il se nomme FARENHEIT...
+Mais si tu t'envoles avec moi,
+je lui donnerai ton nom!
+Mais tout d'abord,dis-le moi!
+Quel est-il?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5f4</ref>
+        </refs>
+        <data>Général Barbalea!
+ 
+  
+Ca alors...
+Si ton intérêt est le mien,
+je suis ton homme!
+Quel est ton passe-temps?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x600</ref>
+        </refs>
+        <data>Les chaînes...?!
+ 
+  
+Général Barbalea...
+Les chaînes,c'est ma passion!
+Est-ce que je suis ton homme?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x628</ref>
+        </refs>
+        <data>Je suis un homme qui...
+s'entraîne dur...
+ 
+... ... ... ...
+ 
+  
+Je suis ton homme?!
+Je suis Don Juan,le Na[0x25]f et le
+Fidèle.
+Tu as pris mes mensurations?
+On pourrait discuter ensemble pendant
+un entraînement?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6a9</ref>
+        </refs>
+        <data>             Don Juan
+   et la [0xb0][0xaf][0xaf]e femme courtisée[0xd8][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6b7</ref>
+        </refs>
+        <data> Don Juan s'était maintenant fait une
+    réputation au sein de l'Empire
+            Granbelos.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x758</ref>
+        </refs>
+        <data>PALPALEOS:
+Qui est là?![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x76a</ref>
+        </refs>
+        <data>Qui êtes-vous...?!
+Il me semble reconnaître cette
+moustache.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x77b</ref>
+        </refs>
+        <data>COMMANDANT:
+Je... je suis un voyageur...
+ 
+Je suis un marchand envoyé au champ
+de bataille!
+Vous avez dû faire erreur.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x78d</ref>
+        </refs>
+        <data>PALPALEOS:
+...?
+ 
+J'ai déjà entendu cette voix.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7a6</ref>
+        </refs>
+        <data>COMMANDANT:
+C'est la première fois que nous nous
+rencontrons...
+Général... Palpaleos...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7b3</ref>
+        </refs>
+        <data>PALPALEOS:
+Vous dites être un voyageur!
+D'accord...
+Puis-je vous parler de mes sentiments?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7dc</ref>
+        </refs>
+        <data>PALPALEOS:
+... ... ... ...
+ 
+Je suis loin de la femme que j'aime et
+ici,je ne peux me contenter que de
+souvenirs.
+Comprenez-vous mes sentiments?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7f9</ref>
+        </refs>
+        <data>COMMANDANT:
+Je les comprends...
+ 
+Moi-même,je suis très loin de ma femme
+et mon enfant.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x806</ref>
+        </refs>
+        <data>PALPALEOS:
+Je sens une intense tristesse en vous!
+ 
+Quelle est la personne que vous avez
+perdue?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x812</ref>
+        </refs>
+        <data>COMMANDANT:
+Céline,ma femme...
+ 
+Aussi,je n'ai été qu'un lâche.
+J'y repense souvent...
+ 
+Céline,j'avais encore tant de choses à
+te dire.
+ 
+Maintenant,il ne me reste que des
+souvenirs.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x81e</ref>
+        </refs>
+        <data>PALPALEOS:
+Je vous envie...
+ 
+Ces souvenirs vous font vivre,
+n'est-ce pas?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x830</ref>
+            <ref>0x84b</ref>
+            <ref>0x7cb</ref>
+        </refs>
+        <data>COMMANDANT:
+... ... ...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x83f</ref>
+        </refs>
+        <data>PALPALEOS:
+Vous voyagez en bravant les dangers...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x864</ref>
+        </refs>
+        <data>PALPALEOS:
+Arrêtons cette mascarade![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x87f</ref>
+        </refs>
+        <data>Je vous ai reconnu voyageur...
+Vous êtes un des Rebelles que j'ai
+déjà rencontré sur un lagon.
+Si vous le voulez,j'aimerais que vous
+transmettiez un message.
+Vous connaissez sûrement une femme...
+Du nom de... [character][0x1]...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x88f</ref>
+        </refs>
+        <data>Vous et moi avons perdu quelque
+chose...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8a5</ref>
+        </refs>
+        <data>COMMANDANT:
+Je lui parlerai de vous...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8b2</ref>
+        </refs>
+        <data>PALPALEOS:
+Voyageur,un jour,vous pourrez
+certainement vous arrêter...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8c4</ref>
+        </refs>
+        <data>COMMANDANT:
+Nous nous reverrons sur le champ de
+bataille.
+Adieu![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x729</ref>
+            <ref>0x27c</ref>
+            <ref>0x3e9</ref>
+            <ref>0x93f</ref>
+        </refs>
+        <data>       -Château de Granbelos-[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x984</ref>
+        </refs>
+        <data>LEGION:
+Empereur Gudruff!
+Où est le corps de Sauzer?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9d5</ref>
+        </refs>
+        <data>GUDRUFF:
+Son corps...?
+ 
+GUFUFUFUFU!
+ 
+  
+Tu finiras comme Sauzer![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa30</ref>
+        </refs>
+        <data>GUDRUFF:
+GUFUFUFUFU!
+Préparez-vous!
+Le peuple de l'Empire attend!
+Il veut des funérailles pour son
+Empereur![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xaf3</ref>
+        </refs>
+        <data>       La mort de l'Empereur...
+ 
+  
+       La mort d'un être aimé...
+ 
+  
+          Tout le monde le
+            connaissait...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xafd</ref>
+        </refs>
+        <data>        Il créa et régna sur
+       l'Empire de Granbelos.
+ 
+     Nous avons perdu quelqu'un
+     de cher mais l'ordre doit
+               régner...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x561</ref>
+        </refs>
+        <data>   -Général Pelsona de Granbelos-
+      Passe-temps:le nettoyage.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x646</ref>
+        </refs>
+        <data>   -Général Arbain de Granbelos-
+     Passe-temps:l'entraînement.[end]</data>
+    </text>
+</texts>

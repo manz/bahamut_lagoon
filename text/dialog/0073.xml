@@ -1,0 +1,291 @@
+<?xml version="1.0" ?>
+<texts base="0x923" room_id="73">
+    <text>
+        <refs>
+            <ref>0x4e0</ref>
+            <ref>0x448</ref>
+            <ref>0x8eb</ref>
+            <ref>0x54e</ref>
+            <ref>0x65d</ref>
+        </refs>
+        <data> Oui
+ Non[end1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2e6</ref>
+        </refs>
+        <data>DOCTEUR DRAGON:
+Je vais t'apprendre les meilleures
+méthodes pour t'occuper de tes
+dragons.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x360</ref>
+            <ref>0x605</ref>
+        </refs>
+        <data>Venez ici!
+Allez,venez ici![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3a0</ref>
+        </refs>
+        <data>Tu vois,ils sont obéissants!
+Ils regardent l'expression de ton
+visage et te comprennent!
+Les dragons ont toujours plus ou
+moins faim!
+ 
+Ne sois pas trop avare lorsque tu les
+nourris.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3b5</ref>
+        </refs>
+        <data>Hahaha!
+Ils me chatouillent![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3d2</ref>
+        </refs>
+        <data>Ha ha!
+Ici! Ici![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x403</ref>
+        </refs>
+        <data>Les dragons mangent souvent mais ne
+soit pas non plus trop excessif avec
+la nourriture.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x434</ref>
+            <ref>0x47d</ref>
+        </refs>
+        <data>Venez!
+  
+ 
+Lorsque tu fais manger tes dragons,
+ils peuvent finir par changer de
+catégorie.
+Maintenant parlons un petit peu plus
+précisément d'une chose importante:
+la nourriture!
+Regarde et jauge bien ce que tu leur
+donnes afin d'avoir d'élégants
+dragons.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4dc</ref>
+            <ref>0x444</ref>
+        </refs>
+        <data>C'est fini! Tu as compris?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x479</ref>
+        </refs>
+        <data>Hola! Hé là!
+Tu suis toujours ce que je dis?
+ 
+Les dragons sont toujours amicaux.
+Néanmoins,ils peuvent aimer ou non ce
+que tu leur donnes à manger![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x49e</ref>
+        </refs>
+        <data>Du calme!
+Ils aiment ça...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6d0</ref>
+        </refs>
+        <data>Viens ici...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4ce</ref>
+        </refs>
+        <data>Je vais te dire quelque chose
+d'important.
+ 
+Par exemple,ta force ou celle de
+Matelight peut augmenter...
+C'est pareil pour un dragon.
+Lorsqu'il gagne un niveau,il peut
+changer et ainsi avoir différentes
+apparences![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4d4</ref>
+        </refs>
+        <data>Le changement de race dépend de la
+force mais aussi des aliments que tu
+lui a donné.
+Cependant,fais très attention à la
+fameuse caractéristique [0xaa]mutation[0xab]![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4f4</ref>
+        </refs>
+        <data>Il y a encore de nombreux secrets
+mais c'est à toi de les découvrir.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x54a</ref>
+        </refs>
+        <data>[character][0x1],aimes-tu une femme?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x55e</ref>
+        </refs>
+        <data>Saches que les dragons comprennent
+ces sentiments.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x556</ref>
+        </refs>
+        <data>Ils sont intelligents!
+Ainsi,ils pensent et ont des
+sentiments.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x56c</ref>
+        </refs>
+        <data>Les dragons peuvent autant t'aimer
+qu'être profondément jaloux.
+ 
+Ils ont beaucoup d'affection malgré
+leur grande timidité.
+Prends garde à tout cela![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x57c</ref>
+        </refs>
+        <data>Il est également vrai que les dragons
+sont très réceptifs et ils sentent tes
+états d'âme.
+C'est pour cette raison qu'ils
+comprennent sans aucun doute la
+plupart de tes sentiments![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5a4</ref>
+        </refs>
+        <data>Je concluerai en disant qu'il faut bien
+les éduquer!
+Tu as compris,[character][0x1]?![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5b2</ref>
+        </refs>
+        <data>Comment les éduquer?
+Il faut augmenter leur esprit!
+C'est aussi simple que ça!
+En somme,ils peuvent sourire,être en
+colère,déçus,ou avoir beaucoup
+d'affection.
+Pour que toutes ces choses se fassent,
+nourris tes dragons!
+Ainsi,ils seront heureux![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5d3</ref>
+        </refs>
+        <data>Sache que le Docteur Dragon fait partie
+de la légende des dragons.
+Laquelle?
+Hahaha! Qui sait?![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5e2</ref>
+        </refs>
+        <data>Fais de ton mieux,[character][0x1]!
+Au fait,j'ai un très beau cadeau
+pour toi![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x64c</ref>
+        </refs>
+        <data>Le voilà!
+Il est venu de lui-même!
+Chose peu commune aux dragons![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8e7</ref>
+        </refs>
+        <data>DOCTEUR DRAGON:
+Tu veux déjà partir?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x659</ref>
+        </refs>
+        <data>DOCTEUR DRAGON:
+Est-ce que tu veux rentrer?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4e8</ref>
+        </refs>
+        <data>Et bien dis donc!
+Tu as du mal à suivre![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x502</ref>
+        </refs>
+        <data>Très bien![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x881</ref>
+            <ref>0x687</ref>
+        </refs>
+        <data>Veuillez nommer ce dragon.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2ea</ref>
+        </refs>
+        <data> Je veux apprendre... Docteur!
+ Je suis fatigué... Docteur![end1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x327</ref>
+        </refs>
+        <data>DOCTEUR DRAGON:
+D'accord,j'espère que tu sais déjà
+de nombreuses choses!
+Ne va pas faire de mauvais choix pour
+tes dragons!
+ 
+Très bien,j'ai quand même un cadeau
+pour toi,même si tu n'as pas voulu
+m'écouter![end]</data>
+    </text>
+</texts>

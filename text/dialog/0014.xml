@@ -1,0 +1,459 @@
+<?xml version="1.0" ?>
+<texts base="0x9dd" room_id="14">
+    <text>
+        <refs>
+            <ref>0xfa</ref>
+        </refs>
+        <data>MELODIA:
+Ouhahaha!
+ 
+Ca faisait si longtemps que je n'avais
+pas revu Godrand![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x10d</ref>
+        </refs>
+        <data>Allez tout le monde![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x119</ref>
+        </refs>
+        <data>LUKIA:
+Au fait,Mélodia,pourquoi avais-tu
+quitté cette ville?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x132</ref>
+        </refs>
+        <data>MELODIA:
+Je suis partie avec un dragon puisque
+les Petits Démons s'étaient enfuis.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x16c</ref>
+        </refs>
+        <data>MATELIGHT:
+Mais...
+Je ne comprends rien...
+Nous combattons pour Campbell et
+maintenant pour Godrand!
+ 
+Nous les libérons du joug de l'Empire
+et comme à Campbell,ils ont l'air très
+vexé.
+Aiment-ils autant Granbelos?![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x178</ref>
+        </refs>
+        <data>LUKIA:
+Tout le monde n'est pas pareil,
+Matelight.
+Tu oublies Mahal,ce lagon a combattu
+pour sa liberté,non?
+Et,il y avait Don Juan et Jeanne.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x18d</ref>
+        </refs>
+        <data>SENDACK:
+Don Juan?!
+Est-il encore sur le bateau?
+J'espère qu'il ne va causer aucun
+ennui!
+ 
+J'en ai assez qu'on discute toujours
+mes ordres et ma discipline.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x19b</ref>
+        </refs>
+        <data>MATELIGHT:
+Encore des balivernes!
+La sénilité te gagne!
+Ce sont malheureusement les
+conséquences de la vieillesse![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1a4</ref>
+        </refs>
+        <data>SENDACK:
+Haha!
+Vous avez tous entendu!
+Qu'est-ce que je vous disais?![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1b5</ref>
+        </refs>
+        <data>[character][0x1]!
+Je te délègue un moment ma charge,
+je te fais confiance![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1c7</ref>
+        </refs>
+        <data>SENDACK:
+Tout ira bien,normalement.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1de</ref>
+        </refs>
+        <data>COMMANDANT:
+Quel soulagement de pouvoir faire
+confiance à [character][0x1]![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x22b</ref>
+        </refs>
+        <data>LUKIA:
+[character][0x1]...
+Fais attention![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x235</ref>
+        </refs>
+        <data>Auparavant,ici,j'avais déjà vu de
+bizarres Petits Démons.
+ 
+Ils étaient très différents de ceux de
+FARENHEIT.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6dd</ref>
+        </refs>
+        <data>Mélodia est enfin revenue.
+Il y a tellement longtemps.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6fd</ref>
+        </refs>
+        <data>Tu es,[character][0x1],le Capitaine de l'EScadron
+Dragon?
+Tu es un homme formidable!
+Tu vas encore rester ici?[end][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6e6</ref>
+        </refs>
+        <data>Godrand est la Ville de la Magie.
+Il y a de nombreuses vieilles histoires
+sur elle.
+Beaucoup de sorciers et de prêtresses
+sont morts en combattant l'Empire.
+ 
+Tout cela cessa lorsque Godrand fut
+plus ou moins autonome.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x712</ref>
+        </refs>
+        <data>Vous êtes les Grands Rebelles qui ont
+réussi à entrer ici!
+ 
+Vous deviez avoir de bonnes raisons
+de nous aider![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6f4</ref>
+        </refs>
+        <data>J'avais été très surpris que vous
+soyez venus ici.
+ 
+C'est intolérable que vous vous soyez
+mêlés à notre combat.
+Mais vous avez gagné!
+C'est le principal![end][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x70b</ref>
+        </refs>
+        <data>Aaah,enfin,je peux revoir le paysage.
+Bienvenue à Godrand![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8bc</ref>
+        </refs>
+        <data>DON JUAN:
+Saluuuuut!
+Tu es un ange si tendre![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8ca</ref>
+        </refs>
+        <data>Moi,je ne suis qu'un coeur solaitaire,
+je suis Don Juan ton Na[0x25]f et Fidèle
+serviteur.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8d0</ref>
+        </refs>
+        <data>DON JUAN:
+Et à côté de moi se trouve [character][0x1]![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8de</ref>
+        </refs>
+        <data>Un très grand chevalier...
+Le Capitaine de l'Escadron Dragon de
+Kana![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8fe</ref>
+        </refs>
+        <data>FEMME:
+[character][0x1],le Capitaine de l'Escadron Dragon
+de Kana?![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x907</ref>
+        </refs>
+        <data>DON JUAN:
+Hé! Attends une minute!
+J'ai l'impression que tu le connais?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x91a</ref>
+        </refs>
+        <data>Est-ce que vous vous étiez déjà
+rencontrés,auparavant?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5bc</ref>
+        </refs>
+        <data>[character][0x1]:
+Mélodia est à l'intérieur.
+ 
+D'après ce que j'entends,tout le
+monde à l'air d'être très heureux
+dans cette maison.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6ed</ref>
+        </refs>
+        <data>Oh,tu es le Capitaine de l'Escadron
+Dragon?
+ 
+Mais tu ne sentirais pas un peu le
+dragon?
+Tu ne sens pas très bon.[end][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x608</ref>
+        </refs>
+        <data>DON JUAN:
+Où cette femme a-t-elle déjà entendu
+parler de toi?!
+Haha,les femmes!
+Elles se font toujours attendre!
+ 
+Haha,ça ne va pas pour moi ces
+derniers jours!
+Mon charme aurait-il disparu?
+Que va-t-il advenir de moi?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x61c</ref>
+        </refs>
+        <data>GRAND-PERE:
+Je connais aussi un vieil hymne...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x622</ref>
+        </refs>
+        <data>- [0xb0] Petit Démon est source de
+séparation!
+ 
+- [0xb1] Petits Démons sont source
+de bonheur!
+ 
+- [0xb2] Petits Démons sont source
+de nouveauté![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x62c</ref>
+        </refs>
+        <data>Vas-y,Mélodia,continue...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x63a</ref>
+        </refs>
+        <data>MELODIA:
+Hum et... [0xb3] Petits Démons sont
+source de rendez-vous![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x644</ref>
+        </refs>
+        <data>GRAND-PERE:
+Oui,c'est cela![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x669</ref>
+        </refs>
+        <data>MELODIA:
+Ouais!
+ 
+Sûrement que le Dragon Sacré sera
+notre ami!
+ 
+Maintenant,on peut se sentir mieux![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6d4</ref>
+        </refs>
+        <data>GRAND-PERE:
+Connaîtrais-tu une maxime qui te serait
+très utile?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x60f</ref>
+        </refs>
+        <data>MELODIA:
+Vite,grimpons sur les dragons![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5c7</ref>
+        </refs>
+        <data>[character][0x1]:
+Parfois,elle me fait penser à moi
+étant enfant.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x686</ref>
+        </refs>
+        <data>COMMANDANT:
+Préparez-vous avant le départ![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x601</ref>
+        </refs>
+        <data>MIST:
+Je vais bien...
+Je vais revoir toute l'équipe.
+Je crois avoir suffisamment récupéré.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5fa</ref>
+        </refs>
+        <data>MATELIGHT:
+Mist vient avec nous!
+Elle va venir à FARENHEIT.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x740</ref>
+        </refs>
+        <data>SENDACK:
+Tout est prêt?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5f3</ref>
+        </refs>
+        <data>[character][0x1]:
+Le Dragon Sacré de Godrand...
+Nous allons aller le trouver![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x52</ref>
+        </refs>
+        <data>         Chapitre [0xb0][0xb3]
+ -Le réveil du Dragon Oiseau-[end][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x744</ref>
+        </refs>
+        <data> Se préparer.
+ Allons combattre![end1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6b4</ref>
+        </refs>
+        <data>MATELIGHT:
+Allons-y,allons combattre!
+L'Empire s'essouffle!
+[character][0x1]!
+Prépare-toi bien![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x83b</ref>
+        </refs>
+        <data>Obtenu [0xaa]BURYUNAG[0xab].[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x84c</ref>
+        </refs>
+        <data>Obtenu [0xb5] [0xaa]MIEL DOUX[0xab].[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x861</ref>
+        </refs>
+        <data>Obtenu [0xaa]HERBE OMBRE[0xab].[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x157</ref>
+        </refs>
+        <data>[character][0x1]:
+Attends Mélodia![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9b3</ref>
+        </refs>
+        <data>Les dragons m'effraient.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9ba</ref>
+        </refs>
+        <data>Les dragons sentent mauvais.[end]</data>
+    </text>
+</texts>

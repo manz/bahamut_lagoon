@@ -1,0 +1,880 @@
+<?xml version="1.0" ?>
+<texts base="0xecb" room_id="77">
+    <text>
+        <refs>
+            <ref>0x72d</ref>
+            <ref>0xded</ref>
+            <ref>0xd47</ref>
+        </refs>
+        <data>Qui sont-ils?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd5e</ref>
+        </refs>
+        <data>D'où viennent-ils?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x739</ref>
+        </refs>
+        <data>[character][0x1]:
+Nous sommes originaires d'Orelus.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x749</ref>
+        </refs>
+        <data>... ... ... ... ...?!
+Je sens l'esprit des Dragons Sacrés.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x77d</ref>
+        </refs>
+        <data>Bahamut?!
+Valitra?!
+Garuda[0xd8][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x789</ref>
+        </refs>
+        <data>Léviathan!
+Jormungand!
+Hypérion[0xd8][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7bb</ref>
+        </refs>
+        <data>Comment sont-ils revenus?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7d7</ref>
+        </refs>
+        <data>[character][0x1]:
+Les Dragons Sacrés sont enfin revenus
+à Altair.
+Et nous venons d'Orelus qui est
+menacé de destruction par des démons.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7e3</ref>
+        </refs>
+        <data>Ils ont créé... les démons?
+Qu'est-ce qui ne va pas avec les
+Dragons Sacrés?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7fe</ref>
+        </refs>
+        <data>[character][0x1]:
+Ils sont à l'intérieur de mon coeur...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x80a</ref>
+        </refs>
+        <data>Quoi?! Une dragoon?!
+Ils communiquent avec toi grâce à leur
+esprit...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x821</ref>
+        </refs>
+        <data>[character][0x1]:
+C'est cela...
+Et vous êtes?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x84f</ref>
+        </refs>
+        <data>Je suis un être-dragon.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x868</ref>
+        </refs>
+        <data>SENDACK:
+Un être-dragon?!
+Dites-nous en plus!
+La résurrection doit se faire entre les
+êtres-dragon et les Dragons Sacrés!
+Qu'est-il nécessaire de faire?[end][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x875</ref>
+        </refs>
+        <data>Orelus,le monde des êtres humains...
+Comment a-t-il survécu à la Grande
+Guerre des Dragons Sacrés?
+Vous avez tant de choses à apprendre
+sur nous,le peuple dragon,et sur les
+Dragons Sacrés.
+Nous sommes les Corps des Dragons
+Sacrés.
+ 
+Un Dragon Sacré possède la vie et
+l'esprit éternels.
+ 
+S'il meurt...
+Alors son corps meurt...
+ 
+A l'endroit où repose son corps
+flotte dans les airs son esprit.
+ 
+L'esprit du Dragon Sacré vient alors
+dans le corps d'un être-dragon.
+ 
+C'est cela la Résurrection des Dragons
+Sacrés et elle est normalement une joie
+pour le peuple dragon.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9ed</ref>
+        </refs>
+        <data>MATELIGHT:
+Hé! Par ici l'enfant!
+Tu as perdu un Dragon Sacré!
+C'est vrai que tu es un petit
+être-dragon?[end][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x88d</ref>
+        </refs>
+        <data>MATELIGHT:
+Votre histoire n'a aucun sens!
+Je n'y comprends rien.
+Mais dépêchez-vous d'enlever les
+esprits des Dragons Sacrés du corps
+de [character][0x1]![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8c3</ref>
+        </refs>
+        <data>Ce n'est pas possible!
+Nous sommes trop âgés...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x8e1</ref>
+        </refs>
+        <data>Nous sommes simplement des enfants!
+Les enfants sont inutiles!
+ 
+Il est impensable pour les Dragons
+Sacrés de revivre à travers le corps
+de l'un de nous!
+Ce serait dangereux tant pour lui que
+pour l'enfant![end][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x903</ref>
+        </refs>
+        <data>La Dragoon d'Orelus,comment as-tu
+fait pour contenir les sentiments des
+Dragons?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x934</ref>
+        </refs>
+        <data>En supposant que cela soit vrai![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x91a</ref>
+        </refs>
+        <data>Jamais un être humain n'avait réussi à
+contenir les âmes de tous les Dragons
+Sacrés.
+Tu pourrais être considérée comme
+l'humaine ayant le plus de force.
+ 
+Et pourtant,les êtres humains ont un
+esprit faible.
+ 
+Pour obtenir le pouvoir,vous vous
+entretuez...
+ 
+Cela s'est aussi vu chez les Dragons
+Sacrés...
+ 
+Etres humains,vous avez fini par
+comprendre le coeur des Dragons
+Sacrés.
+Bahamut était leur seul ennemi...
+ 
+  
+Un Dragoon,un être humain ayant le
+don de communiquer avec les Dragons
+Sacrés et d'utiliser leur pouvoir.
+Maintenant,leur Résurrection peut se
+faire...
+S'il vous plaît!
+Liez-vous Dragons Sacrés!
+Liez vos pouvoirs![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9e0</ref>
+        </refs>
+        <data>Moi,je suis un enfant,donc je ne peux
+pas encore avoir de Dragon Sacré.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9fe</ref>
+        </refs>
+        <data>Bientôt,le peuple dragon va faire venir
+le Grand et Divin Alexandre...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa0a</ref>
+        </refs>
+        <data>MATELIGHT:
+Alexandre?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa1b</ref>
+        </refs>
+        <data>Le Roi d'Altair!
+Le Dragon Sacré Alexandre![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa2c</ref>
+        </refs>
+        <data>Il y a longtemps Bahamut et les autres
+Dragons Sacrés partirent pour Orelus
+et trop occupés,ils cessèrent de nous
+nous protéger![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa3d</ref>
+        </refs>
+        <data>Beaucoup d'entre nous étaient seuls à
+Altair et sans défense!
+ 
+C'est pour cela qu'Alexandre prit la
+responsabilité de fermer la Route du
+Ciel!
+Ainsi,les Dragons Sacrés ne purent
+revenir.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa4e</ref>
+        </refs>
+        <data>le Divin Alexandre prit avec lui de
+nombreux être-dragons mais tous ne
+purent être sauvés!
+Certains moururent dans le trou noir,
+d'autres eurent le coeur transformé!
+Cela nous fut insupportable![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa5c</ref>
+        </refs>
+        <data>[character][0x1]:
+Les Dragons Sacrés...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa67</ref>
+        </refs>
+        <data>BAHAMUT:
+Peuple Dragon...
+Répondez à notre appel...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa78</ref>
+        </refs>
+        <data>Aaaaaah! BAHAMUT![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa80</ref>
+        </refs>
+        <data>BAHAMUT:
+Nous sommes revenus pour la
+Résurrection...
+Sortez car la Nouvelle Ere est arrivée.
+Nous sommes revenus par la Porte.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa84</ref>
+        </refs>
+        <data>VALITRA:
+Pouvons-nous vraiment faire la
+Résurrection?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa95</ref>
+        </refs>
+        <data>Je ne comprends plus rien!
+Assez! Assez[0xd8][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa9d</ref>
+        </refs>
+        <data>LEVIATHAN:
+Peuple Dragon...
+N'est-il pas encore arrivé?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xabb</ref>
+        </refs>
+        <data>Il viendra...
+Alexandre a déjà sauvé le peuple
+dragon auparavant!
+Il jugera vos actes![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5a0</ref>
+            <ref>0xac9</ref>
+        </refs>
+        <data>[character][0x1]:
+Je crains le pire...
+Les Dragons Sacrés sont en colère!
+Jamais ils n'avaient été si furieux
+jusqu'à maintenant![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xad2</ref>
+        </refs>
+        <data>GARUDA:
+La fille...
+ 
+La fille à qui nous avons donné nos
+pouvoirs...
+ 
+Une fois de plus,
+daigne combattre pour nous...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb09</ref>
+        </refs>
+        <data>MATELIGHT:
+Hé! Les Dragons Sacrés!
+ 
+Vous nous emmenez en terres
+inconnues![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb26</ref>
+        </refs>
+        <data>MATELIGHT:
+Princesse [character][0x1] ne vous tourmentez
+pas![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb33</ref>
+        </refs>
+        <data>MATELIGHT:
+Quelqu'en soit la raison,
+nous combattrons!
+Nous combattrons pour eux![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb4e</ref>
+        </refs>
+        <data>MATELIGHT:
+Allons-y!
+ 
+Nous allons vous aider Dragons Sacrés!
+Grâce à ma force,nous allons gagner!
+ 
+Ils vont voir de quel bois,
+on se chauffe...
+Nous partons combattre![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb58</ref>
+        </refs>
+        <data>SENDACK:
+Matelight![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb69</ref>
+            <ref>0x61a</ref>
+        </refs>
+        <data>MATELIGHT:
+[character][0x1]!
+Prépare-toi au combat![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5b9</ref>
+        </refs>
+        <data>PALPALEOS:
+[character][0x1]!
+Est-ce que tu es prêt?
+ Attends encore un instant.
+ Allons combattre![end1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5ca</ref>
+        </refs>
+        <data>Ce n'est pas encore fini...
+Je ne sais pas si l'aide des dragons
+est nécessaire...
+ Je n'en suis pas sûr!
+ Seul ton aide est inutile![end1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5f0</ref>
+        </refs>
+        <data>Je crois que mes connaissance en
+stratégie te sont inutiles,alors...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x601</ref>
+        </refs>
+        <data>[character][0x1]!
+Tout cela est inutile!
+Il semble que tu es jaloux![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x13d</ref>
+        </refs>
+        <data>Bikkebakke,je crois que vous avez
+oublié quelque chose!
+ 
+Vous aviez surveillé,au lagon Campbell,
+le portefeuille d'un grand-père,non?![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x149</ref>
+        </refs>
+        <data>Votre récompense est de [0xb0][0xaf][0xaf][0xaf] PO!
+C'est pour vous!
+Je vous assure!
+Oui! C'est [0xb0][0xaf][0xaf][0xaf] Po![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x16d</ref>
+        </refs>
+        <data>BIKKEBAKKE:
+Super!
+Tu m'as bien aidé frère!
+Merci![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x15d</ref>
+        </refs>
+        <data>BIKKEBAKKE:
+Je suis content! Content![end][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x68b</ref>
+        </refs>
+        <data>RUSH:
+Le commerce,après!
+Les compagnons avant tout![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x659</ref>
+        </refs>
+        <data>RUSH:
+C'est un commerce génial![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x65d</ref>
+            <ref>0x696</ref>
+        </refs>
+        <data> Magasin d'armes.
+ Magasin d'armures.
+ Magasin d'objets.[end1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x722</ref>
+        </refs>
+        <data>BIKKEBAKKE:
+Tu veux des champignons?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6e3</ref>
+            <ref>0x6f4</ref>
+        </refs>
+        <data> Champignons.
+ Livres.
+ Objet autographe Matelight.[end1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x63e</ref>
+        </refs>
+        <data>SENDACK:
+Toutes ces lumières sont effrayantes.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x692</ref>
+        </refs>
+        <data>RUSH:
+Je suis marchand...?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6c8</ref>
+        </refs>
+        <data>TAURUS:
+Il était si sceptique...?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6f0</ref>
+        </refs>
+        <data>BIKKEBAKKE:
+Tu veux m'acheter quelque chose?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x62c</ref>
+        </refs>
+        <data>COMMANDANT:
+Quel château mélancolique!
+Il y a une intense odeur de danger.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe9b</ref>
+        </refs>
+        <data>Si j'étais toi,je ferais attention à ce
+genre de choses...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x60f</ref>
+        </refs>
+        <data>MATELIGHT:
+Là,je dois entièrement faire confiance
+à Palpaleos![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x42</ref>
+        </refs>
+        <data> 
+              Chapitre [0xb1][0xb2]
+           -L'Effrondrement-[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe39</ref>
+        </refs>
+        <data>PALPALEOS:
+Le Général Gudruff est en train de
+parler.
+Il ne semble pas vouloir éviter cette
+bataille.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe4d</ref>
+        </refs>
+        <data>PALPALEOS:
+Je vais aller voir seul![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe5f</ref>
+        </refs>
+        <data>MATELIGHT:
+Général Palpaleos![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe6b</ref>
+        </refs>
+        <data>MATELIGHT:
+Faites attention!
+Je hais à vous dire cela mais...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe78</ref>
+        </refs>
+        <data>MATELIGHT:
+N'allez pas vous faire tuer,
+quelqu'un vous attend!
+Vous n'avez pas intérêt à rendre
+[character][0x1] triste!
+Je ne vous le pardonnerait pas![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x64</ref>
+        </refs>
+        <data>Courage,courage!
+Les beaux jours reviendront!
+Venez,[character][0x1],ici,ici![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x97</ref>
+        </refs>
+        <data>C'est le Château de l'Empire!
+Et le monde entier compte sur vous
+pour le détruire!
+Moi,je suis né pour vivre donc je
+dois assurer mon existence!
+ 
+Ca a été si soudain mais j'ai décidé
+d'arrêter mon travail de marchand!
+ 
+Je ne suis plus un marchand envoyé
+au champ de bataille.
+ 
+Je suis un marchand protégeant sa
+femme et ses enfants.
+Dès maintenant![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xaf</ref>
+        </refs>
+        <data>Oui,Rush.
+C'est pour vous![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc0</ref>
+        </refs>
+        <data>J'ai vu que vous aviez des capacités
+de marchand.
+ 
+Etant très actif,j'ai immédiatement
+pensé à vous.
+ 
+J'ai eu un grand succès mais j'ai
+aussi fait des erreurs![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd2</ref>
+        </refs>
+        <data>Taurus! J'ai aussi pensé à vous mais
+j'ai été plus sceptique. Mais vous
+pourrez être l'assistant de Rush.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe0</ref>
+        </refs>
+        <data>Rush,Taurus!
+Unissez vos forces et vous pourrez
+faire de grandes choses![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf1</ref>
+        </refs>
+        <data>BIKKEBAKKE:
+Et moi?![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x105</ref>
+        </refs>
+        <data>Bikkebakke!
+Vous êtes mon favori mais vous faites
+déjà du commerce![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x120</ref>
+        </refs>
+        <data>MARCHAND PROTEGEANT SA FEMME ET SES
+ENFANTS:
+Capitaine [character][0x1],je vous suis redevable!
+Faites tous attention à vous!
+Au revoir Messieurs![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x54a</ref>
+        </refs>
+        <data>[character][0x1]:
+[character][0x1],je m'inquiète pour le Général
+Palpaleos!
+Prépare-toi à combattre![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x54e</ref>
+        </refs>
+        <data> Je me prépare.
+ On ne peut plus l'aider!
+ Très bien,allons combattre![end1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x57d</ref>
+        </refs>
+        <data>PALPALEOS:
+Tout est clair... C'est un piège![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5c4</ref>
+        </refs>
+        <data>PALPALEOS:
+Je n'arrive pas à déterminer l'endroit
+où nous sommes...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5a7</ref>
+        </refs>
+        <data>[character][0x1]:
+Où est le Peuple Dragon?
+Les Dragons Sacrés les cherchent![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x633</ref>
+        </refs>
+        <data>COMMANDANT:
+Les dragons semblent être dans un
+état second!
+Ils sont très nerveux![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6cf</ref>
+        </refs>
+        <data>TAURUS:
+Ainsi,c'est ici Altair!
+La Patrie des Dragons Sacrés![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5ae</ref>
+        </refs>
+        <data>[character][0x1]:
+Que se passe-t-il à Altair?
+ 
+Les Dragons Sacrés doivent sûrement le
+savoir.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x645</ref>
+        </refs>
+        <data>SENDACK:
+Altair...
+Ca... m'effraie...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x621</ref>
+        </refs>
+        <data>MATELIGHT:
+[character][0x1]...
+Fais très attention ici...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x293</ref>
+        </refs>
+        <data> 
+             Chapitre [0xb1][0xb4]
+     -Voyageur Pour l'Eternité-[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x96f</ref>
+        </refs>
+        <data>Le Peuple Dragon amenait toujours les
+Dragons Sacrés vers Orelus.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x975</ref>
+        </refs>
+        <data>Toutefois,par la force,ils reprirent
+leur apparence de dragons en dépit du
+peuple dragon.
+Et nous ne gardâmes que les souvenirs
+de notre ancienne patrie.
+ 
+C'est ainsi que les plus faibles d'entre
+nous vinrent à disparaître...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x980</ref>
+        </refs>
+        <data>Le retour des Dragons Sacrés est une
+joie car c'est aussi notre retour...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x986</ref>
+        </refs>
+        <data>... ... ... ...?
+[character][0x1],qu'en dis-tu?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x991</ref>
+        </refs>
+        <data>Ce n'est pour toi qu'une légende...
+Pour moi cette histoire a un sens.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x997</ref>
+        </refs>
+        <data> M... E... R... C... I...
+ B... E... A... U... C... O... U... P...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9a2</ref>
+        </refs>
+        <data> C'est peut-être une légende![end]</data>
+    </text>
+</texts>

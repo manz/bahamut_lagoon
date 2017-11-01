@@ -1,0 +1,124 @@
+<?xml version="1.0" ?>
+<texts base="0x1c7" room_id="245">
+    <text>
+        <refs>
+            <ref>0xd3</ref>
+        </refs>
+        <data>           Sauzer...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xe5</ref>
+        </refs>
+        <data>PALPALEOS:
+La Légende dont nous rêvions...
+Que nous a-t-elle apporté?
+Ta mort...
+ 
+  
+Tout est maintenant fini!
+ 
+  
+Je suis persuadé qu'en toi,
+une flamme brille encore...
+ 
+Pourquoi ne viens-tu pas,
+Sauzer?
+ 
+Tu avais des buts mais la guerre
+avait alors commencé...
+ 
+Voulais-tu vraiment la paix universelle?
+Tu avais tant d'esprit...
+Sauzer...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xeb</ref>
+        </refs>
+        <data>Adieu,Sauzer...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x129</ref>
+        </refs>
+        <data>PALPALEOS:
+[character][0x1]...
+ 
+Je suis enfin revenu dans ma patrie
+Granbelos mais je suis si seul sans
+vous!
+Dès que la guerre fut finie,
+vous retournâmes très vite à Kana...
+ 
+Ma fin approche et je n'en suis que
+trop conscient!
+ 
+Toutefois,je ne m'inquiète pas car
+vous avez avec vous de fantastiques
+amis.
+Mais au fond...
+Ne vous manque-t-il personne?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x133</ref>
+        </refs>
+        <data>Je vous envie tellement,
+[character][0x1]...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x143</ref>
+        </refs>
+        <data>Adieu,[character][0x1]...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x14b</ref>
+        </refs>
+        <data>Adieu,
+Légende des Dragons Sacrés...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x179</ref>
+        </refs>
+        <data>Palpaleos![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x183</ref>
+        </refs>
+        <data>Palpaleos[0xd8]
+ 
+  
+Vous avez vous-même donné des ordres
+et entraîné le peuple dans la guerre![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x18d</ref>
+        </refs>
+        <data>Votre collaboration avec les ennemis de
+l'Empire a aussi été reconnue![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x193</ref>
+        </refs>
+        <data>PALPALEOS:
+L'amour et la rancune habitent
+maintenant vos coeurs...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x199</ref>
+        </refs>
+        <data>La parenthèse va être fermée!
+ 
+  
+Vous avez causé beaucoup trop de
+morts et de victimes![end]</data>
+    </text>
+</texts>
