@@ -113,16 +113,19 @@ def get_dialog_room(rom, room_id, table, lang='jp', disasm=False):
     return room
 
 
-def dump_room(rom, room_id, address, table, output_dir, compressed=False, size=None, lang=None):
-    rom.seek(address)
+def dump_room(rom, room, table, output_dir, lang=None):
+    rom.seek(room["address"])
+    room_id = room['id']
     print(f'room: {room_id}')
-    if compressed:
+    if room['compressed']:
         decompressed = decompress_block(rom)
-        # Might be not necessary but for completion it is implemented
-        # (results in mostly very short rooms)
         # else:
-        #     decompressed = rom.read(size)
+        #     # Might be not necessary but for completion it is implemented
+        #     # (results in mostly very short rooms)
+        #     decompressed = rom.read(room['size'])
+
         room = live_disasm(room_id, decompressed, table, lang=lang)
+        room.program.display_program()
         texts = room.dump_text()
         if texts:
             with open(os.path.join(output_dir, f'{room_id:04d}.xml'), 'wt', encoding='utf-8') as output:
@@ -158,18 +161,22 @@ def math_pow_2(a):
     return int(math.pow(2, a))
 
 
-DANGER = [250]
+DANGER = []
 
 
-def dump_rooms(rom, table, lang, output_dir):
+def dump_rooms(rom, table, lang, output_dir, room_id=None):
     room_table = build_room_address_table(rom)
-    for room in sorted(room_table, key=lambda r: r['id']):
+    if room_id:
+        rooms = [room for room in room_table if room['id'] == room_id]
+    else:
+        rooms = sorted(room_table, key=lambda r: r['id'])
+
+    for room in rooms:
         if room['id'] not in DANGER:
-            dump_room(rom, room['id'], room['address'],
+            dump_room(rom, room,
                       table,
                       output_dir,
-                      compressed=room['compressed'],
-                      size=room.get('size'), lang=lang)
+                      lang=lang)
 
 
 def format_dialogs(tree):
@@ -180,12 +187,11 @@ def format_dialogs(tree):
             tmp = data.text
 
 
-def build_text_patch(rom, table, writer):
+def build_text_patch(rom, table, writer, reloc_address):
     xmlfile_re = re.compile('(\d+)\.xml')
     dialog_dir = os.path.join(os.path.dirname(__file__), '../text/dialog')
     files = os.listdir(dialog_dir)
-    address = snes_to_rom(0xF00000)
-
+    address = reloc_address
     for file in files:
         match = xmlfile_re.match(file)
         if match:
@@ -201,8 +207,14 @@ def build_text_patch(rom, table, writer):
 
                 writer.write_block(struct.pack('<HB', value & 0xFFFF, (value >> 16) & 0xFF),
                                    snes_to_rom(0xDA8000) + (room_id * 3))
-                print(f'original: {room.compressed_size:#02x} modified: {len(compressed):#02x}')
+                # print(f'original: {room.compressed_size:#02x}')
+                # print(f'modified: {len(compressed):#02x}')
+                # print(f'ratio: {len(compressed) / room.compressed_size}')
+                # print(f'delta: {len(compressed) - room.compressed_size}')
+                # print('=' * 80)
                 address += len(compressed) + 1
+    print(f'Ends at {address + 0xC00000:#02x}')
+    return address
 
 
 def build_room_address_table(rom):
@@ -241,4 +253,4 @@ def dump_rooms_for_lang(lang):
 if __name__ == '__main__':
     dump_rooms_for_lang('fr')
     dump_rooms_for_lang('en')
-    dump_rooms_for_lang('jp')
+    # dump_rooms_for_lang('jp')
