@@ -1,8 +1,3 @@
-*=0xDA3B2E
-    nop
-    nop
-    nop
-
 ; copy__char_counter
 *=0xDA3E9F
     jmp.w copy_counter
