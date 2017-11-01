@@ -1,47 +1,47 @@
 <?xml version="1.0" ?>
 <fixed address="0x2f5920" length="8">
-    <string>ぼうぎょ</string>
-    <string>了イテム</string>
-    <string>たたかう</string>
-    <string>たたかう</string>
-    <string>たたかう</string>
-    <string>たたかう</string>
-    <string>たたかう</string>
-    <string>たたかう</string>
-    <string>わざ</string>
-    <string>ジャベリン</string>
+    <string>defense</string>
+    <string>Completion</string>
+    <string>Fight</string>
+    <string>Fight</string>
+    <string>Fight</string>
+    <string>Fight</string>
+    <string>Fight</string>
+    <string>Fight</string>
+    <string>Work</string>
+    <string>Javelin</string>
     <string>ひっさつけん</string>
-    <string>はかい</string>
-    <string>しろまほう</string>
-    <string>くろまほう</string>
+    <string>Ravage</string>
+    <string>White</string>
+    <string>Black</string>
     <string>しろくろま</string>
-    <string>しょうかん</string>
-    <string>にんじゅつ</string>
-    <string>クリティカル</string>
-    <string>デフェンス</string>
-    <string>スプリンタ-</string>
-    <string>おどり</string>
-    <string>わざ</string>
-    <string>まほう</string>
-    <string>フレイムパルス</string>
+    <string>Summons</string>
+    <string>Ninjutsu</string>
+    <string>Critical</string>
+    <string>Defense</string>
+    <string>Sprinter-</string>
+    <string>Dance</string>
+    <string>Work</string>
+    <string>Magic</string>
+    <string>Flame pulse</string>
     <string>了イスパルス</string>
-    <string>サンダ-パルス</string>
-    <string>ポイズンパルス</string>
-    <string>ドラッグパルス</string>
+    <string>Thunder pulse</string>
+    <string>Poison pulse</string>
+    <string>Dragon pulse</string>
     <string>了-スパルス</string>
-    <string>セイン卜パルス</string>
-    <string>ダ-クパルス</string>
-    <string>うにうにパルス</string>
-    <string>?パルス</string>
-    <string>フレイムブ-ス</string>
-    <string>了イスブ-ス</string>
-    <string>サンダ-ブ-ス</string>
-    <string>ポイズンブ-ス</string>
-    <string>ドラッグブ-ス</string>
-    <string>了-スブ-ス</string>
-    <string>セイン卜ブ-ス</string>
-    <string>ダ-クブ-ス</string>
-    <string>うにうにブ-ス</string>
+    <string>Saint pulse</string>
+    <string>Dark pulse</string>
+    <string>Ugly pulse</string>
+    <string>? pulse</string>
+    <string>Flame booth</string>
+    <string>Booth</string>
+    <string>Sand booth</string>
+    <string>Poison booth</string>
+    <string>Dragon booth</string>
+    <string>Success</string>
+    <string>Seventh booth</string>
+    <string>Dark booth</string>
+    <string>Urban booth</string>
     <string>?ブ-ス</string>
     <string>フレイムタワ-</string>
     <string>了イスタワ-</string>

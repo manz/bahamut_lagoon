@@ -1,20 +1,20 @@
 <?xml version="1.0" ?>
 <dragon_feed>
-    <string ref_5e="0x17527" ref_5f="0x1752b" ref_60="0x1752f" xref="0xc17532">ピロ-[0xff]</string>
-    <string ref_5e="0x18f23" ref_5f="0x18f27" ref_60="0x18f2b" xref="0xc18f2e">BGナンバ-[0xff]</string>
-    <string ref_5e="0x18f36" ref_5f="0x18f3a" ref_60="0x18f3e" xref="0xc18f41">PLAYERナンバ-[0xff]</string>
-    <string ref_5e="0x18f49" ref_5f="0x18f4d" ref_60="0x18f51" xref="0xc18f54">ENMナンバ-[0xff]</string>
-    <string ref_5e="0x18f5c" ref_5f="0x18f60" ref_60="0x18f64" xref="0xc18f67">キャラナンバ-[0xff]</string>
+    <string ref_5e="0x17527" ref_5f="0x1752b" ref_60="0x1752f" xref="0xc17532">GP[0xff]</string>
+    <string ref_5e="0x18f23" ref_5f="0x18f27" ref_60="0x18f2b" xref="0xc18f2e">BG Number[0xff]</string>
+    <string ref_5e="0x18f36" ref_5f="0x18f3a" ref_60="0x18f3e" xref="0xc18f41">Player Number[0xff]</string>
+    <string ref_5e="0x18f49" ref_5f="0x18f4d" ref_60="0x18f51" xref="0xc18f54">Enemy Number[0xff]</string>
+    <string ref_5e="0x18f5c" ref_5f="0x18f60" ref_60="0x18f64" xref="0xc18f67">Character number[0xff]</string>
     <string ref_5e="0x18f6f" ref_5f="0x18f73" ref_60="0x18f77" xref="0xc18f7a">了ニメナンバ-[0xff]</string>
     <string ref_5e="0x18f82" ref_5f="0x18f86" ref_60="0x18f8a" xref="0xc18f8d">エフェク卜ナンバ-[0xff]</string>
-    <string ref_5e="0x18f95" ref_5f="0x18f99" ref_60="0x18f9d" xref="0xc18fa0">NEXT[0xff]</string>
-    <string ref_5e="0x18fcb" ref_5f="0x18fcf" ref_60="0x18fd3" xref="0xc18fd6">おんがく[0xff]</string>
-    <string ref_5e="0x18fde" ref_5f="0x18fe2" ref_60="0x18fe6" xref="0xc18fe9">こうかおん[0xff]</string>
-    <string ref_5e="0x18ff1" ref_5f="0x18ff5" ref_60="0x18ff9" xref="0xc18ffc">ドラゴンナンバ-[0xff]</string>
-    <string ref_5e="0x19004" ref_5f="0x19008" ref_60="0x1900c" xref="0xc1900f">RAM[0xef]SAVE[0xff]</string>
-    <string ref_5e="0x1901f" ref_5f="0x19023" ref_60="0x19027" xref="0xc1902a">BACK[0xff]</string>
-    <string ref_5e="0x19a79" ref_5f="0x19a7d" ref_60="0x19a81" xref="0xc19a85">かしこさ[0xff]</string>
-    <string ref_5e="0x19aa4" ref_5f="0x19aa8" ref_60="0x19aac" xref="0xc19ab0">したしさ[0xff]</string>
-    <string ref_5e="0x19b27" ref_5f="0x19b2b" ref_60="0x19b2f" xref="0xc19b32">エサをあげる[0xff]</string>
-    <string ref_5e="0x19b3a" ref_5f="0x19b3e" ref_60="0x19b42" xref="0xc19b45">EXIT[0xff]</string>
+    <string ref_5e="0x18f95" ref_5f="0x18f99" ref_60="0x18f9d" xref="0xc18fa0">SUIVANT[0xff]</string>
+    <string ref_5e="0x18fcb" ref_5f="0x18fcf" ref_60="0x18fd3" xref="0xc18fd6">Music[0xff]</string>
+    <string ref_5e="0x18fde" ref_5f="0x18fe2" ref_60="0x18fe6" xref="0xc18fe9">Sound Effect[0xff]</string>
+    <string ref_5e="0x18ff1" ref_5f="0x18ff5" ref_60="0x18ff9" xref="0xc18ffc">Dragon Number[0xff]</string>
+    <string ref_5e="0x19004" ref_5f="0x19008" ref_60="0x1900c" xref="0xc1900f">RAM[0xef]SAUVER[0xff]</string>
+    <string ref_5e="0x1901f" ref_5f="0x19023" ref_60="0x19027" xref="0xc1902a">RETOUR[0xff]</string>
+    <string ref_5e="0x19a79" ref_5f="0x19a7d" ref_60="0x19a81" xref="0xc19a85">Intelligence[0xff]</string>
+    <string ref_5e="0x19aa4" ref_5f="0x19aa8" ref_60="0x19aac" xref="0xc19ab0">Gladness[0xff]</string>
+    <string ref_5e="0x19b27" ref_5f="0x19b2b" ref_60="0x19b2f" xref="0xc19b32">Nourrir[0xff]</string>
+    <string ref_5e="0x19b3a" ref_5f="0x19b3e" ref_60="0x19b42" xref="0xc19b45">Sortir[0xff]</string>
 </dragon_feed>

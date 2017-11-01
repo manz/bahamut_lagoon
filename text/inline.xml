@@ -1,47 +1,47 @@
 <?xml version="1.0" ?>
 <inline>
-    <string jump_to="0xee6f7b" ref="0xee6f6c">パーティー</string>
-    <string jump_to="0xee6fb6" ref="0xee6fab">ＭＰ．</string>
-    <string jump_to="0xee6fc3" ref="0xee6fb8">ＳＰ．</string>
-    <string jump_to="0xee6fef" ref="0xee6fe4">ＭＰ．</string>
-    <string jump_to="0xee6ffc" ref="0xee6ff1">ＳＰ．</string>
+    <string jump_to="0xee6f7b" ref="0xee6f6c">Equipe </string>
+    <string jump_to="0xee6fb6" ref="0xee6fab">MP:</string>
+    <string jump_to="0xee6fc3" ref="0xee6fb8">SP:</string>
+    <string jump_to="0xee6fef" ref="0xee6fe4">MP:</string>
+    <string jump_to="0xee6ffc" ref="0xee6ff1">SP:</string>
     <string jump_to="0xee7027" ref="0xee7020">／</string>
     <string jump_to="0xee706c" ref="0xee7065">／</string>
-    <string jump_to="0xee70b1" ref="0xee70a6">ＭＰ．</string>
-    <string jump_to="0xee70be" ref="0xee70b3">ＳＰ．</string>
-    <string jump_to="0xee712e" ref="0xee7123">ＭＰ．</string>
-    <string jump_to="0xee713b" ref="0xee7130">ＳＰ．</string>
-    <string jump_to="0xee7bb0" ref="0xee7b9b">てきせいへんせい</string>
-    <string jump_to="0xee7bc5" ref="0xee7bb6">されました</string>
-    <string jump_to="0xee7f65" ref="0xee7f5c">ＬＶ</string>
-    <string jump_to="0xee7fdb" ref="0xee7fd0">ＨＰ．</string>
-    <string jump_to="0xee81c0" ref="0xee81b5">まほう</string>
-    <string jump_to="0xee81d3" ref="0xee81c6">アイテム</string>
-    <string jump_to="0xee81e4" ref="0xee81d9">そうび</string>
-    <string jump_to="0xee81f9" ref="0xee81ea">じょうほう</string>
+    <string jump_to="0xee70b1" ref="0xee70a6">MP:</string>
+    <string jump_to="0xee70be" ref="0xee70b3">SP:</string>
+    <string jump_to="0xee712e" ref="0xee7123">MP:</string>
+    <string jump_to="0xee713b" ref="0xee7130">SP:</string>
+    <string jump_to="0xee7bb0" ref="0xee7b9b">Image de fond</string>
+    <string jump_to="0xee7bc5" ref="0xee7bb6">C'était fait</string>
+    <string jump_to="0xee7f65" ref="0xee7f5c">NV</string>
+    <string jump_to="0xee7fdb" ref="0xee7fd0">PV:</string>
+    <string jump_to="0xee81c0" ref="0xee81b5">Magies</string>
+    <string jump_to="0xee81d3" ref="0xee81c6">Objets</string>
+    <string jump_to="0xee81e4" ref="0xee81d9">Equiper</string>
+    <string jump_to="0xee81f9" ref="0xee81ea">Infos</string>
     <string jump_to="0xee8214" ref="0xee81ff">     ターン</string>
     <string jump_to="0xee8235" ref="0xee821a">        ピロー</string>
     <string jump_to="0xee824c" ref="0xee823b">  ．  ．</string>
     <string jump_to="0xee8273" ref="0xee8262">よりみち  </string>
-    <string jump_to="0xee829a" ref="0xee8287">ＣＨＡＰＴＥＲ</string>
-    <string jump_to="0xee8346" ref="0xee8339">へんせい</string>
-    <string jump_to="0xee8359" ref="0xee834c">ドラゴン</string>
-    <string jump_to="0xee836c" ref="0xee835f">てきせい</string>
+    <string jump_to="0xee829a" ref="0xee8287">CHAPITRE</string>
+    <string jump_to="0xee8346" ref="0xee8339">Organisation</string>
+    <string jump_to="0xee8359" ref="0xee834c">Dragon</string>
+    <string jump_to="0xee836c" ref="0xee835f">Aptitude</string>
     <string jump_to="0xee8388" ref="0xee8379">じょうほう</string>
     <string jump_to="0xee8399" ref="0xee838e">そうび</string>
     <string jump_to="0xee83aa" ref="0xee839f">マップ</string>
     <string jump_to="0xee83bf" ref="0xee83b0">しゅつげき</string>
     <string jump_to="0xee83e2" ref="0xee83d5">よりみち</string>
-    <string jump_to="0xee8d96" ref="0xee8d83">ＮＯ ＩＴＥＭ</string>
-    <string jump_to="0xee8f80" ref="0xee8f77">ＬＶ</string>
-    <string jump_to="0xee8fdb" ref="0xee8fd0">ＨＰ．</string>
+    <string jump_to="0xee8d96" ref="0xee8d83">NO ITEM</string>
+    <string jump_to="0xee8f80" ref="0xee8f77">NV</string>
+    <string jump_to="0xee8fdb" ref="0xee8fd0">PV:</string>
     <string jump_to="0xee9000" ref="0xee8ff9">／</string>
-    <string jump_to="0xee9556" ref="0xee954d">ＬＶ</string>
-    <string jump_to="0xee95d7" ref="0xee95ce">ＬＶ</string>
-    <string jump_to="0xee9633" ref="0xee9628">ＨＰ．</string>
+    <string jump_to="0xee9556" ref="0xee954d">NV</string>
+    <string jump_to="0xee95d7" ref="0xee95ce">NV</string>
+    <string jump_to="0xee9633" ref="0xee9628">PV:</string>
     <string jump_to="0xee9658" ref="0xee9651">／</string>
-    <string jump_to="0xee9694" ref="0xee9687">ＥＸＰ．</string>
-    <string jump_to="0xee96df" ref="0xee96d0">ＮＥＸＴ．</string>
+    <string jump_to="0xee9694" ref="0xee9687">EXP:</string>
+    <string jump_to="0xee96df" ref="0xee96d0">NEXT:</string>
     <string jump_to="0xee973d" ref="0xee9734">ぶき</string>
     <string jump_to="0xee976d" ref="0xee9762">ぼうぐ</string>
     <string jump_to="0xee97b2" ref="0xee97a5">こうげき</string>
@@ -50,14 +50,14 @@
     <string jump_to="0xee9860" ref="0xee9853">まりょく</string>
     <string jump_to="0xee98e9" ref="0xee98da">（   ）</string>
     <string jump_to="0xeea51f" ref="0xeea512">そのほか</string>
-    <string jump_to="0xeea64d" ref="0xeea640">ＰＡＧＥ</string>
+    <string jump_to="0xeea64d" ref="0xeea640">PAGE</string>
     <string jump_to="0xeea661" ref="0xeea65a">／</string>
     <string jump_to="0xeea75a" ref="0xeea74d">そのほか</string>
-    <string jump_to="0xeeac55" ref="0xeeac42">ＵＮＫＮＯＷＮ</string>
-    <string jump_to="0xeeaddc" ref="0xeeadd3">ＬＶ</string>
-    <string jump_to="0xeeae15" ref="0xeeae0a">ＨＰ．</string>
+    <string jump_to="0xeeac55" ref="0xeeac42">INCONNU</string>
+    <string jump_to="0xeeaddc" ref="0xeeadd3">NV</string>
+    <string jump_to="0xeeae15" ref="0xeeae0a">PV:</string>
     <string jump_to="0xeeae3a" ref="0xeeae33">／</string>
-    <string jump_to="0xeeae81" ref="0xeeae76">ＭＰ．</string>
+    <string jump_to="0xeeae81" ref="0xeeae76">MP:</string>
     <string jump_to="0xeeaeb2" ref="0xeeaeab">／</string>
     <string jump_to="0xeeaee9" ref="0xeeaee2">／</string>
     <string jump_to="0xeeaf13" ref="0xeeaf06">こうげき</string>
@@ -66,13 +66,13 @@
     <string jump_to="0xeeafa9" ref="0xeeaf9c">まりょく</string>
     <string jump_to="0xeeb046" ref="0xeeb03b">いじけ</string>
     <string jump_to="0xeeb059" ref="0xeeb04c">かしこさ</string>
-    <string jump_to="0xeeb70e" ref="0xeeb705">ＬＶ</string>
-    <string jump_to="0xeeb773" ref="0xeeb768">ＨＰ．</string>
+    <string jump_to="0xeeb70e" ref="0xeeb705">NV</string>
+    <string jump_to="0xeeb773" ref="0xeeb768">PV:</string>
     <string jump_to="0xeeb797" ref="0xeeb790">／</string>
-    <string jump_to="0xeeb7e2" ref="0xeeb7cd">こうげき    </string>
-    <string jump_to="0xeeb815" ref="0xeeb800">ぼうぎょ    </string>
-    <string jump_to="0xeeb848" ref="0xeeb833">すばやさ    </string>
-    <string jump_to="0xeeb87b" ref="0xeeb866">まりょく    </string>
+    <string jump_to="0xeeb7e2" ref="0xeeb7cd">Atk.    </string>
+    <string jump_to="0xeeb815" ref="0xeeb800">Def.    </string>
+    <string jump_to="0xeeb848" ref="0xeeb833">Vit.    </string>
+    <string jump_to="0xeeb87b" ref="0xeeb866">Mag.    </string>
     <string jump_to="0xeeb8d7" ref="0xeeb8ce">ぶき</string>
     <string jump_to="0xeeb913" ref="0xeeb908">ぼうぐ</string>
     <string jump_to="0xeec1b6" ref="0xeec1a5">しょうひＭＰ</string>
@@ -82,14 +82,14 @@
     <string jump_to="0xeed2f1" ref="0xeed2e2">しゅつげき</string>
     <string jump_to="0xeed309" ref="0xeed300">はい</string>
     <string jump_to="0xeed31a" ref="0xeed30f">いいえ</string>
-    <string jump_to="0xeed3e5" ref="0xeed3d2">ＮＯ ＤＡＴＡ</string>
-    <string jump_to="0xeed3fe" ref="0xeed3eb">ＮＯ ＤＡＴＡ</string>
-    <string jump_to="0xeed417" ref="0xeed404">ＮＯ ＤＡＴＡ</string>
-    <string jump_to="0xeed58a" ref="0xeed577">ＣＨＡＰＴＥＲ</string>
-    <string jump_to="0xeed5ba" ref="0xeed5a9">ＥＸＰＬＡＹ</string>
-    <string jump_to="0xeed5f4" ref="0xeed5d5">ＴＩＭＥ   ．  ．  </string>
-    <string jump_to="0xeedad6" ref="0xeedaa7">ひらがな  カタカナ  そのほか  おわり</string>
-    <string jump_to="0xeedd93" ref="0xeedd7a">そうびかのうなジョブ</string>
+    <string jump_to="0xeed3e5" ref="0xeed3d2">PAS DE DONNEES</string>
+    <string jump_to="0xeed3fe" ref="0xeed3eb">PAS DE DONNEES</string>
+    <string jump_to="0xeed417" ref="0xeed404">PAS DE DONNEES</string>
+    <string jump_to="0xeed58a" ref="0xeed577">CHAPITRE</string>
+    <string jump_to="0xeed5ba" ref="0xeed5a9">EXPLAY</string>
+    <string jump_to="0xeed5f4" ref="0xeed5d5">TEMPS   :  :  </string>
+    <string jump_to="0xeedad6" ref="0xeedaa7">Hira  Kata  Autre Fin</string>
+    <string jump_to="0xeedd93" ref="0xeedd7a">Equiped jobs</string>
     <string jump_to="0xeedda9" ref="0xeedda0">かう</string>
     <string jump_to="0xeeddb8" ref="0xeeddaf">うる</string>
     <string jump_to="0xeeddc9" ref="0xeeddbe">そうび</string>
@@ -97,34 +97,34 @@
     <string jump_to="0xeee3d9" ref="0xeee3d2">こ</string>
     <string jump_to="0xeee417" ref="0xeee40c">ピロー</string>
     <string jump_to="0xeee47a" ref="0xeee467">もっているかず</string>
-    <string jump_to="0xeee53a" ref="0xeee523">そうびしているかず</string>
-    <string jump_to="0xeee6c9" ref="0xeee6b6">ＮＯ ＩＴＥＭ</string>
-    <string jump_to="0xeee6d8" ref="0xeee6cb">ＰＡＧＥ</string>
+    <string jump_to="0xeee53a" ref="0xeee523">NOMBRE EQUIPE</string>
+    <string jump_to="0xeee6c9" ref="0xeee6b6">NO ITEM</string>
+    <string jump_to="0xeee6d8" ref="0xeee6cb">PAGE</string>
     <string jump_to="0xeee6ec" ref="0xeee6e5">／</string>
-    <string jump_to="0xeeefbb" ref="0xeeefa8">ＮＯ ＩＴＥＭ</string>
-    <string jump_to="0xeeefca" ref="0xeeefbd">ＰＡＧＥ</string>
+    <string jump_to="0xeeefbb" ref="0xeeefa8">NO ITEM</string>
+    <string jump_to="0xeeefca" ref="0xeeefbd">PAGE</string>
     <string jump_to="0xeeefde" ref="0xeeefd7">／</string>
-    <string jump_to="0xeef0bd" ref="0xeef0b4">ＨＰ</string>
-    <string jump_to="0xeef0cc" ref="0xeef0c3">ＭＰ</string>
+    <string jump_to="0xeef0bd" ref="0xeef0b4">PV</string>
+    <string jump_to="0xeef0cc" ref="0xeef0c3">PM</string>
     <string jump_to="0xeef11c" ref="0xeef111">いじけ</string>
     <string jump_to="0xeef12f" ref="0xeef122">いじけ２</string>
     <string jump_to="0xeef142" ref="0xeef135">かしこさ</string>
     <string jump_to="0xeef155" ref="0xeef148">せいかく</string>
     <string jump_to="0xeef166" ref="0xeef15b">へんい</string>
     <string jump_to="0xeef179" ref="0xeef16c">したしさ</string>
-    <string jump_to="0xeef229" ref="0xeef21c">ＤＯＷＮ</string>
-    <string jump_to="0xeef243" ref="0xeef23a">ＵＰ</string>
-    <string jump_to="0xeef278" ref="0xeef26d">ＳＴＲ</string>
-    <string jump_to="0xeef289" ref="0xeef27e">ＶＩＴ</string>
-    <string jump_to="0xeef29a" ref="0xeef28f">ＤＥＸ</string>
-    <string jump_to="0xeef2ad" ref="0xeef2a0">ＭＩＮＤ</string>
+    <string jump_to="0xeef229" ref="0xeef21c">BAS</string>
+    <string jump_to="0xeef243" ref="0xeef23a">HAUT</string>
+    <string jump_to="0xeef278" ref="0xeef26d">STR</string>
+    <string jump_to="0xeef289" ref="0xeef27e">VIT</string>
+    <string jump_to="0xeef29a" ref="0xeef28f">DEX</string>
+    <string jump_to="0xeef2ad" ref="0xeef2a0">MIND</string>
     <string jump_to="0xeef2bf" ref="0xeef2b8">ひ</string>
     <string jump_to="0xeef2ce" ref="0xeef2c5">みず</string>
     <string jump_to="0xeef2e1" ref="0xeef2d4">かみなり</string>
     <string jump_to="0xeef2f4" ref="0xeef2e7">かいふく</string>
     <string jump_to="0xeef303" ref="0xeef2fa">どく</string>
-    <string jump_to="0xeef32f" ref="0xeef31c">そうびいちらん</string>
-    <string jump_to="0xeef35a" ref="0xeef345">ドラゴンおやじの</string>
-    <string jump_to="0xeef36f" ref="0xeef35a">アイテムかいせつ</string>
-    <string jump_to="0xeefa0b" ref="0xeef9fc">ＢＯＮＵＳ</string>
+    <string jump_to="0xeef32f" ref="0xeef31c">Equipment list</string>
+    <string jump_to="0xeef35a" ref="0xeef345">Dragon Oyaji's</string>
+    <string jump_to="0xeef36f" ref="0xeef35a">Item description</string>
+    <string jump_to="0xeefa0b" ref="0xeef9fc">BONUS</string>
 </inline>

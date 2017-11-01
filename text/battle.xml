@@ -7,37 +7,37 @@
             <ref>0x8</ref>
             <ref>0x7</ref>
         </refs>
-        <data>しゅうりょう[0xff]</data>
+        <data>Fin[0xff]</data>
     </string>
     <string>
         <refs>
             <ref>0x2</ref>
         </refs>
-        <data>いどう[0xff]</data>
+        <data>Bouger[0xff]</data>
     </string>
     <string>
         <refs>
             <ref>0x3</ref>
         </refs>
-        <data>たたかう[0xff]</data>
+        <data>Attaquer[0xff]</data>
     </string>
     <string>
         <refs>
             <ref>0x4</ref>
         </refs>
-        <data>フィ-ルド[0xff]</data>
+        <data>Terrain[0xff]</data>
     </string>
     <string>
         <refs>
             <ref>0x5</ref>
         </refs>
-        <data>ドラゴン[0xff]</data>
+        <data>Dragon[0xff]</data>
     </string>
     <string>
         <refs>
             <ref>0x6</ref>
         </refs>
-        <data>パ-ティ-[0xff]</data>
+        <data>Equipe[0xff]</data>
     </string>
     <string>
         <refs>
@@ -46,61 +46,61 @@
             <ref>0xb</ref>
             <ref>0xd</ref>
         </refs>
-        <data>いいえ[0xff]</data>
+        <data>Non[0xff]</data>
     </string>
     <string>
         <refs>
             <ref>0xc</ref>
         </refs>
-        <data>はい[0xff]</data>
+        <data>Oui[0xff]</data>
     </string>
     <string>
         <refs>
             <ref>0xe</ref>
         </refs>
-        <data>こい![0xff]</data>
+        <data>Viens![0xff]</data>
     </string>
     <string>
         <refs>
             <ref>0xf</ref>
         </refs>
-        <data>いけ![0xff]</data>
+        <data>Attaque![0xff]</data>
     </string>
     <string>
         <refs>
             <ref>0x10</ref>
         </refs>
-        <data>まて![0xff]</data>
+        <data>Attends![0xff]</data>
     </string>
     <string>
         <refs>
             <ref>0x11</ref>
         </refs>
-        <data>フェイズしゅうりょう[0xff]</data>
+        <data>Fin du tour[0xff]</data>
     </string>
     <string>
         <refs>
             <ref>0x12</ref>
         </refs>
-        <data>テンポラリ-セ-ブ[0xff]</data>
+        <data>Temporary Save[0xff]</data>
     </string>
     <string>
         <refs>
             <ref>0x13</ref>
         </refs>
-        <data>サウンドモ-ド[0xff]</data>
+        <data>Sound Mode[0xff]</data>
     </string>
     <string>
         <refs>
             <ref>0x14</ref>
         </refs>
-        <data>モノラル[0xff]</data>
+        <data>Mono[0xff]</data>
     </string>
     <string>
         <refs>
             <ref>0x15</ref>
         </refs>
-        <data>ステレオ[0xff]</data>
+        <data>Stereo[0xff]</data>
     </string>
     <string>
         <refs>
@@ -112,6 +112,6 @@
         <refs>
             <ref>0x17</ref>
         </refs>
-        <data>やめる[0xff]</data>
+        <data>Quit[0xff]</data>
     </string>
 </battle>

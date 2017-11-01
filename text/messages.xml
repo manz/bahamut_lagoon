@@ -34,371 +34,371 @@
             <ref>0x4c</ref>
             <ref>0x4f</ref>
         </refs>
-        <data>[0xff]</data>
+        <data>[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x2</ref>
         </refs>
-        <data>水の[0xf1][0xd]性を持つ剣[0xff]</data>
+        <data>Water-elemental sword[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x3</ref>
         </refs>
-        <data>雷の[0xf1][0xd]性を持つ剣[0xff]</data>
+        <data>Thunder-elemental sword[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x4</ref>
         </refs>
-        <data>火の[0xf1][0xd]性を持つ剣[0xff]</data>
+        <data>Fire-elemental sword[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x6</ref>
         </refs>
-        <data>毒の[0xf1][0xd]性を持つ剣[0xff]</data>
+        <data>Poisonous sword[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x7</ref>
         </refs>
-        <data>聖の[0xf1][0xd]性を持つ剣[0xff]</data>
+        <data>Holy-affinity sword[end]</data>
     </string>
     <string>
         <refs>
             <ref>0xa</ref>
         </refs>
-        <data>[0xf2][0xa]強の剣[0xff]</data>
+        <data>Ultimate sword[end]</data>
     </string>
     <string>
         <refs>
             <ref>0xc</ref>
         </refs>
-        <data>火の[0xf1][0xd]性を持つ[0xf0][0xd6][0xff]</data>
+        <data>Fire-elemental axe[end]</data>
     </string>
     <string>
         <refs>
             <ref>0xe</ref>
         </refs>
-        <data>土の[0xf1][0xd]性を持つ[0xf0][0xd6][0xff]</data>
+        <data>Earth-elemental axe[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x12</ref>
             <ref>0xf</ref>
         </refs>
-        <data>聖の[0xf1][0xd]性を持つ[0xf0][0xd6][0xff]</data>
+        <data>Holy-affinity axe[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x11</ref>
         </refs>
-        <data>死の効果を持つ[0xf0][0xd6][0xff]</data>
+        <data>Death-affinity axe[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x15</ref>
         </refs>
-        <data>睡眠の効果のある小剣[0xff]</data>
+        <data>Sleep-affinity rapier[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x16</ref>
         </refs>
-        <data>毒の[0xf1][0xd]性を持つ小剣[0xff]</data>
+        <data>Poisonous rapier[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x18</ref>
         </refs>
-        <data>死の効果のある小剣[0xff]</data>
+        <data>Death-affinity rapier[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x19</ref>
         </refs>
-        <data>命中.100盟の小剣[0xff]</data>
+        <data>100[0x25] hit-rate rapier[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1a</ref>
         </refs>
-        <data>吸収の効果のある小剣[0xff]</data>
+        <data>HP Draining rapier[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1b</ref>
         </refs>
-        <data>[0xf2][0xa]強の小剣[0xff]</data>
+        <data>Ultimate rapier[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1d</ref>
         </refs>
-        <data>水の[0xf1][0xd]性を持つ槍[0xff]</data>
+        <data>Water-elemental spear[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1e</ref>
         </refs>
-        <data>死の効果のある槍[0xff]</data>
+        <data>Death-affinity spear[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x20</ref>
         </refs>
-        <data>火の[0xf1][0xd]性を持つ槍[0xff]</data>
+        <data>Fire-elemental spear[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x21</ref>
         </refs>
-        <data>雷の[0xf1][0xd]性を持つ槍[0xff]</data>
+        <data>Thunder-elemental spear[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x22</ref>
         </refs>
-        <data>聖の[0xf1][0xd]性を持つ槍[0xff]</data>
+        <data>Holy-affinity spear[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x23</ref>
         </refs>
-        <data>[0xf2][0xa]強の槍[0xff]</data>
+        <data>Ultimate spear[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x25</ref>
         </refs>
-        <data>火の攻[0xf1][0x20]をする杖[0xff]</data>
+        <data>Fire-elemental staff[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x26</ref>
         </refs>
-        <data>水の攻[0xf1][0x20]をする杖[0xff]</data>
+        <data>Water-elemental staff[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x27</ref>
         </refs>
-        <data>雷の攻[0xf1][0x20]をする杖[0xff]</data>
+        <data>Thunder-elemental staff[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x28</ref>
         </refs>
-        <data>回復の効果のある杖[0xff]</data>
+        <data>Recovery staff[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x2e</ref>
         </refs>
-        <data>毒の[0xf1][0xd]性を持つ忍剣[0xff]</data>
+        <data>Poisonous katana[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x30</ref>
         </refs>
-        <data>雷の[0xf1][0xd]性を持つ忍剣[0xff]</data>
+        <data>Thunder-elemental katana[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x33</ref>
         </refs>
-        <data>水の[0xf1][0xd]性を持つ重ヨロイ[0xff]</data>
+        <data>Water-elemental heavy armor[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x40</ref>
             <ref>0x34</ref>
         </refs>
-        <data>雷の[0xf1][0xd]性を持つ重ヨロイ[0xff]</data>
+        <data>Thunder-elemental heavy armor[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x35</ref>
             <ref>0x3f</ref>
         </refs>
-        <data>火の[0xf1][0xd]性を持つ重ヨロイ[0xff]</data>
+        <data>Fire-elemental heavy armor[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x37</ref>
         </refs>
-        <data>毒を防止する重ヨロイ[0xff]</data>
+        <data>Anti-poison heavy armor[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x38</ref>
         </refs>
-        <data>ウッサー,毒を防止する重ヨロイ[0xff]</data>
+        <data>Anti-rabbit[0x2f]poison heavy armor[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x3b</ref>
             <ref>0x3c</ref>
         </refs>
-        <data>ステータス異常を防止する重ヨロイ[0xff]</data>
+        <data>Anti-status change heavy armor[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x3d</ref>
         </refs>
-        <data>火と雷の[0xf1][0xd]性を持つ重ヨロイ[0xff]</data>
+        <data>Fire[0x2f]thunder-elemental heavy armor[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x42</ref>
         </refs>
-        <data>水の[0xf1][0xd]性を持つ軽ヨロイ[0xff]</data>
+        <data>Water-elemental light armor[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x43</ref>
         </refs>
-        <data>火の[0xf1][0xd]性を持つ軽ヨロイ[0xff]</data>
+        <data>Fire-elemental light armor[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x44</ref>
         </refs>
-        <data>雷の[0xf1][0xd]性を持つ軽ヨロイ[0xff]</data>
+        <data>Thunder-elemental light armor[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x46</ref>
         </refs>
-        <data>ウッサー,毒,死を防止する軽ヨロイ[0xff]</data>
+        <data>Anti-rabbit[0x2f]poison[0x2f]death light armor[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x47</ref>
         </refs>
-        <data>ウッサー,睡眠,毒を防止する軽ヨロイ[0xff]</data>
+        <data>Anti-rabbit[0x2f]sleep[0x2f]poison light armor[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x48</ref>
         </refs>
-        <data>毒,石化,死を防止する軽ヨロイ[0xff]</data>
+        <data>Anti-poison[0x2f]petrify[0x2f]death light armor[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x49</ref>
         </refs>
-        <data>ステータス異常を防止する軽ヨロイ[0xff]</data>
+        <data>Anti-status change light armor[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x4b</ref>
         </refs>
-        <data>すべての[0xf1][0xd]性攻[0xf1][0x20]を吸収する軽ヨロイ[0xff]</data>
+        <data>Absorbs all elemental attacks[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x4d</ref>
         </refs>
-        <data>土の[0xf1][0xd]性のあるローブ[0xff]</data>
+        <data>Earth-elemental robe[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x4e</ref>
         </refs>
-        <data>火の[0xf1][0xd]性のあるローブ[0xff]</data>
+        <data>Fire-elemental robe[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x50</ref>
         </refs>
-        <data>水の[0xf1][0xd]性のあるローブ[0xff]</data>
+        <data>Water-elemental robe[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x51</ref>
         </refs>
-        <data>雷の[0xf1][0xd]性のあるローブ[0xff]</data>
+        <data>Thunder-elemental robe[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x52</ref>
         </refs>
-        <data>毒,睡眠,石化を防止するローブ[0xff]</data>
+        <data>Anti-poison[0x2f]sleep[0x2f]petrify robe[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x53</ref>
         </refs>
-        <data>毒,睡眠,石化,死を防止するローブ[0xff]</data>
+        <data>Anti-poison[0x2f]sleep[0x2f]petrify[0x2f]death robe[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x54</ref>
         </refs>
-        <data>ウッサー,睡眠,石化を防止するローブ[0xff]</data>
+        <data>Anti-rabbit[0x2f]sleep[0x2f]petrify robe[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x55</ref>
         </refs>
-        <data>味方一人のHPを100回復[0xff]</data>
+        <data>Restores 100 HP - Single ally[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x56</ref>
         </refs>
-        <data>味方一人のHPを1000回復[0xff]</data>
+        <data>Restores 1000 HP - Single ally[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x57</ref>
         </refs>
-        <data>味方全体のHP1000回復[0xff]</data>
+        <data>Restores 1000 HP - All allies[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x58</ref>
         </refs>
-        <data>味方一人のMPを50回復[0xff]</data>
+        <data>Restores 50 MP - Single ally[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x59</ref>
         </refs>
-        <data>味方一人のMPを500回復[0xff]</data>
+        <data>Restores 500 MP - Single ally[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x5a</ref>
         </refs>
-        <data>味方一人のHPとMPを全回復[0xff]</data>
+        <data>Restores all HP and MP - Single ally[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x5b</ref>
         </refs>
-        <data>味方一人の戦闘不能を復活[0xff]</data>
+        <data>Revive - Single ally[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x5c</ref>
         </refs>
-        <data>味方全体の戦闘不能を回復[0xff]</data>
+        <data>Revive - All allies[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x5d</ref>
         </refs>
-        <data>味方一人のステータス異常を回復[0xff]</data>
+        <data>Cure status ailments - Single ally[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x5e</ref>
         </refs>
-        <data>味方全体のステータス回復[0xff]</data>
+        <data>Cure status ailments - All allies[end]</data>
     </string>
     <string>
         <refs>
@@ -407,19 +407,19 @@
             <ref>0x78</ref>
             <ref>0x5f</ref>
         </refs>
-        <data>軸全体に火の魔法[0xff]</data>
+        <data>Fire magic - All enemies[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x60</ref>
         </refs>
-        <data>軸全体に水の魔法[0xff]</data>
+        <data>Water magic - All enemies[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x61</ref>
         </refs>
-        <data>軸全体に雷の魔法[0xff]</data>
+        <data>Thunder magic - All enemies[end]</data>
     </string>
     <string>
         <refs>
@@ -428,25 +428,25 @@
             <ref>0x7b</ref>
             <ref>0x7a</ref>
         </refs>
-        <data>軸全体に毒の魔法[0xff]</data>
+        <data>Poison magic - All enemies[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x63</ref>
         </refs>
-        <data>味方全体に回復の魔法[0xff]</data>
+        <data>Heal magic - All allies[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x64</ref>
         </refs>
-        <data>軸全体に土の魔法[0xff]</data>
+        <data>Earth magic - All enemies[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x65</ref>
         </refs>
-        <data>軸全体に聖の魔法[0xff]</data>
+        <data>Holy magic - All enemies[end]</data>
     </string>
     <string>
         <refs>
@@ -454,7 +454,7 @@
             <ref>0x66</ref>
             <ref>0x77</ref>
         </refs>
-        <data>軸全体に暗の魔法[0xff]</data>
+        <data>Dark magic - All enemies[end]</data>
     </string>
     <string>
         <refs>
@@ -462,14 +462,14 @@
             <ref>0x7e</ref>
             <ref>0x67</ref>
         </refs>
-        <data>????[0xff]</data>
+        <data>???[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x68</ref>
             <ref>0x69</ref>
         </refs>
-        <data>軸1体に睡眠の魔法[0xff]</data>
+        <data>Sleep magic - Single enemy[end]</data>
     </string>
     <string>
         <refs>
@@ -478,7 +478,7 @@
             <ref>0x6c</ref>
             <ref>0x6d</ref>
         </refs>
-        <data>軸全体に睡眠の魔法[0xff]</data>
+        <data>Sleep magic - All enemies[end]</data>
     </string>
     <string>
         <refs>
@@ -487,31 +487,31 @@
             <ref>0x73</ref>
             <ref>0x6e</ref>
         </refs>
-        <data>味方1体に回復の効果[0xff]</data>
+        <data>Heal effect - Single ally[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x71</ref>
         </refs>
-        <data>味方1体のステータス異常を回復[0xff]</data>
+        <data>Cure status - Single ally[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x75</ref>
         </refs>
-        <data>軸1体にダメージ[0xff]</data>
+        <data>Damage - Single enemy[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x76</ref>
         </refs>
-        <data>軸1体に死の魔法[0xff]</data>
+        <data>Death magic - Single enemy[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x7d</ref>
         </refs>
-        <data>味方全員に復活の魔法[0xff]</data>
+        <data>Revive magic - All allies[end]</data>
     </string>
     <string>
         <refs>
@@ -607,21 +607,21 @@
             <ref>0x15e</ref>
             <ref>0x15f</ref>
         </refs>
-        <data>[0xff]</data>
+        <data>[end]</data>
     </string>
     <string>
         <refs>
             <ref>0xa1</ref>
             <ref>0x97</ref>
         </refs>
-        <data>軸一体に火の物理攻[0xf1][0x20][0xff]</data>
+        <data>Fire attack - Single enemy[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x98</ref>
             <ref>0xa2</ref>
         </refs>
-        <data>軸一体に水の物理攻[0xf1][0x20][0xff]</data>
+        <data>Water attack - Single enemy[end]</data>
     </string>
     <string>
         <refs>
@@ -629,42 +629,42 @@
             <ref>0xa3</ref>
             <ref>0xb5</ref>
         </refs>
-        <data>軸一体に雷の物理攻[0xf1][0x20][0xff]</data>
+        <data>Thunder attack - Single enemy[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x9a</ref>
             <ref>0xa4</ref>
         </refs>
-        <data>軸一体に毒の物理攻[0xf1][0x20][0xff]</data>
+        <data>Poison attack - Single enemy[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x9b</ref>
             <ref>0xa5</ref>
         </refs>
-        <data>軸一体に吸収の物理攻[0xf1][0x20][0xff]</data>
+        <data>HP Drain attack - Single enemy[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x9c</ref>
             <ref>0xa6</ref>
         </refs>
-        <data>軸一体に土の物理攻[0xf1][0x20][0xff]</data>
+        <data>Earth attack - Single enemy[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x9d</ref>
             <ref>0xa7</ref>
         </refs>
-        <data>軸一体に聖の物理攻[0xf1][0x20][0xff]</data>
+        <data>Holy attack - Single enemy[end]</data>
     </string>
     <string>
         <refs>
             <ref>0xa8</ref>
             <ref>0x9e</ref>
         </refs>
-        <data>軸一体に暗の物理攻[0xf1][0x20][0xff]</data>
+        <data>Dark attack - Single enemy[end]</data>
     </string>
     <string>
         <refs>
@@ -680,7 +680,7 @@
             <ref>0x117</ref>
             <ref>0x9f</ref>
         </refs>
-        <data>軸一体に無[0xf1][0xd]性の物理攻[0xf1][0x20][0xff]</data>
+        <data>Neutral attack - Single enemy[end]</data>
     </string>
     <string>
         <refs>
@@ -688,7 +688,7 @@
             <ref>0xc2</ref>
             <ref>0xab</ref>
         </refs>
-        <data>軸全体に火の物理攻[0xf1][0x20][0xff]</data>
+        <data>Fire attack - All enemies[end]</data>
     </string>
     <string>
         <refs>
@@ -696,7 +696,7 @@
             <ref>0xc3</ref>
             <ref>0xac</ref>
         </refs>
-        <data>軸全体に水の物理攻[0xf1][0x20][0xff]</data>
+        <data>Water attack - All enemies[end]</data>
     </string>
     <string>
         <refs>
@@ -704,7 +704,7 @@
             <ref>0xc4</ref>
             <ref>0xad</ref>
         </refs>
-        <data>軸全体に雷の物理攻[0xf1][0x20][0xff]</data>
+        <data>Thunder attack - All enemies[end]</data>
     </string>
     <string>
         <refs>
@@ -712,7 +712,7 @@
             <ref>0xc5</ref>
             <ref>0xae</ref>
         </refs>
-        <data>軸全体に毒の物理攻[0xf1][0x20][0xff]</data>
+        <data>Poison attack - All enemies[end]</data>
     </string>
     <string>
         <refs>
@@ -720,7 +720,7 @@
             <ref>0xc6</ref>
             <ref>0xaf</ref>
         </refs>
-        <data>軸全体に吸収の物理攻[0xf1][0x20][0xff]</data>
+        <data>HP Drain attack - All enemies[end]</data>
     </string>
     <string>
         <refs>
@@ -728,7 +728,7 @@
             <ref>0xbd</ref>
             <ref>0xc7</ref>
         </refs>
-        <data>軸全体に土の物理攻[0xf1][0x20][0xff]</data>
+        <data>Earth attack - All enemies[end]</data>
     </string>
     <string>
         <refs>
@@ -736,7 +736,7 @@
             <ref>0xb1</ref>
             <ref>0xbe</ref>
         </refs>
-        <data>軸全体に聖の物理攻[0xf1][0x20][0xff]</data>
+        <data>Holy attack - All enemies[end]</data>
     </string>
     <string>
         <refs>
@@ -745,7 +745,7 @@
             <ref>0x11d</ref>
             <ref>0xbf</ref>
         </refs>
-        <data>軸全体に暗の物理攻[0xf1][0x20][0xff]</data>
+        <data>Dark attack - All enemies[end]</data>
     </string>
     <string>
         <refs>
@@ -757,7 +757,7 @@
             <ref>0xb3</ref>
             <ref>0xb4</ref>
         </refs>
-        <data>軸全体に無[0xf1][0xd]性の物理攻[0xf1][0x20][0xff]</data>
+        <data>Neutral attack - All enemies[end]</data>
     </string>
     <string>
         <refs>
@@ -766,7 +766,7 @@
             <ref>0xf6</ref>
             <ref>0xef</ref>
         </refs>
-        <data>軸全体に火の魔法[0xff]</data>
+        <data>Fire magic - All enemies[end]</data>
     </string>
     <string>
         <refs>
@@ -775,27 +775,27 @@
             <ref>0x10c</ref>
             <ref>0xcd</ref>
         </refs>
-        <data>軸全体に水の魔法[0xff]</data>
+        <data>Water magic - All enemies[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x10d</ref>
             <ref>0xce</ref>
         </refs>
-        <data>軸全体に雷の魔法[0xff]</data>
+        <data>Thunder magic - All enemies[end]</data>
     </string>
     <string>
         <refs>
             <ref>0xd9</ref>
             <ref>0xcf</ref>
         </refs>
-        <data>軸一体に死の魔法[0xff]</data>
+        <data>Death magic - Single enemy[end]</data>
     </string>
     <string>
         <refs>
             <ref>0xd0</ref>
         </refs>
-        <data>軸全体に睡眠の魔法[0xff]</data>
+        <data>Sleep magic - All enemies[end]</data>
     </string>
     <string>
         <refs>
@@ -806,7 +806,7 @@
             <ref>0xf4</ref>
             <ref>0xdb</ref>
         </refs>
-        <data>軸全体に土の魔法[0xff]</data>
+        <data>Earth magic - All enemies[end]</data>
     </string>
     <string>
         <refs>
@@ -814,13 +814,13 @@
             <ref>0xde</ref>
             <ref>0x10f</ref>
         </refs>
-        <data>味方全体に回復の魔法[0xff]</data>
+        <data>Heal magic - All allies[end]</data>
     </string>
     <string>
         <refs>
             <ref>0xd3</ref>
         </refs>
-        <data>軸全体に死の魔法[0xff]</data>
+        <data>Death magic - All enemies[end]</data>
     </string>
     <string>
         <refs>
@@ -839,31 +839,31 @@
             <ref>0xf7</ref>
             <ref>0xf8</ref>
         </refs>
-        <data>軸全体に無[0xf1][0xd]性の魔法[0xff]</data>
+        <data>Neutral magic - All enemies[end]</data>
     </string>
     <string>
         <refs>
             <ref>0xd6</ref>
         </refs>
-        <data>味方一体/全体に回復の魔法[0xff]</data>
+        <data>Heal magic - Single[0x2f]all allies[end]</data>
     </string>
     <string>
         <refs>
             <ref>0xd7</ref>
         </refs>
-        <data>味方一体のステータス異常を回復[0xff]</data>
+        <data>Cure status - Single ally[end]</data>
     </string>
     <string>
         <refs>
             <ref>0xd8</ref>
         </refs>
-        <data>軸一体に睡眠の魔法[0xff]</data>
+        <data>Sleep magic - Single enemy[end]</data>
     </string>
     <string>
         <refs>
             <ref>0xda</ref>
         </refs>
-        <data>戦闘不能の味方一人を復活[0xff]</data>
+        <data>Revive magic - Single ally[end]</data>
     </string>
     <string>
         <refs>
@@ -876,44 +876,44 @@
             <ref>0x11c</ref>
             <ref>0x11e</ref>
         </refs>
-        <data>軸全体に聖の魔法[0xff]</data>
+        <data>Holy magic - All enemies[end]</data>
     </string>
     <string>
         <refs>
             <ref>0xdd</ref>
         </refs>
-        <data>軸一体に暗の魔法[0xff]</data>
+        <data>Dark magic - Single enemy[end]</data>
     </string>
     <string>
         <refs>
             <ref>0xdf</ref>
         </refs>
-        <data>軸一体/全体に火の魔法[0xff]</data>
+        <data>Fire magic - Single[0x2f]all enemies[end]</data>
     </string>
     <string>
         <refs>
             <ref>0xe0</ref>
         </refs>
-        <data>軸一体/全体に水の魔法[0xff]</data>
+        <data>Water magic - Single[0x2f]all enemies[end]</data>
     </string>
     <string>
         <refs>
             <ref>0xe1</ref>
         </refs>
-        <data>軸一体/全体に雷の魔法[0xff]</data>
+        <data>Thunder magic - Single[0x2f]all enemies[end]</data>
     </string>
     <string>
         <refs>
             <ref>0xe2</ref>
             <ref>0x10e</ref>
         </refs>
-        <data>軸全体に毒の魔法[0xff]</data>
+        <data>Poison magic - All enemies[end]</data>
     </string>
     <string>
         <refs>
             <ref>0xe3</ref>
         </refs>
-        <data>軸一体に吸収の魔法[0xff]</data>
+        <data>HP Drain magic - Single enemy[end]</data>
     </string>
     <string>
         <refs>
@@ -925,13 +925,13 @@
             <ref>0x11b</ref>
             <ref>0x11f</ref>
         </refs>
-        <data>軸全体に暗の魔法[0xff]</data>
+        <data>Dark magic - All enemies[end]</data>
     </string>
     <string>
         <refs>
             <ref>0xe8</ref>
         </refs>
-        <data>味方一体に強化の魔法[0xff]</data>
+        <data>Strengthen magic - Single ally[end]</data>
     </string>
     <string>
         <refs>
@@ -939,7 +939,7 @@
             <ref>0xfa</ref>
             <ref>0xfb</ref>
         </refs>
-        <data>なにかがおこる![0xff]</data>
+        <data>Something'll happen![end]</data>
     </string>
     <string>
         <refs>
@@ -948,19 +948,19 @@
             <ref>0x106</ref>
             <ref>0x107</ref>
         </refs>
-        <data>軸一体にときどき大ダメージ[0xff]</data>
+        <data>Random critical hit - Single enemy[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x112</ref>
         </refs>
-        <data>なにかにへんしん[0xff]</data>
+        <data>Transform into something[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x124</ref>
         </refs>
-        <data>軸一体に聖の魔法[0xff]</data>
+        <data>Holy magic - Single enemy[end]</data>
     </string>
     <string>
         <refs>
@@ -1094,185 +1094,185 @@
             <ref>0x1f7</ref>
             <ref>0x1fd</ref>
         </refs>
-        <data>[0xff]</data>
+        <data>[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x195</ref>
         </refs>
-        <data>肘程1,範囲2の雷の物理攻[0xf1][0x20][0xff]</data>
+        <data>Thunder attack : ✚1, ⏱2[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x196</ref>
             <ref>0x197</ref>
         </refs>
-        <data>肘程1,範囲2の無[0xf1][0xd]性の物理攻[0xf1][0x20][0xff]</data>
+        <data>Neutral attack : ✚1, ⏱2[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x198</ref>
         </refs>
-        <data>肘程2,範囲1の火の物理攻[0xf1][0x20][0xff]</data>
+        <data>Fire attack : ✚2, ⏱1[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x199</ref>
         </refs>
-        <data>肘程2,範囲1の水の物理攻[0xf1][0x20][0xff]</data>
+        <data>Water attack : ✚2, ⏱1[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x19a</ref>
         </refs>
-        <data>肘程2,範囲1の雷の物理攻[0xf1][0x20][0xff]</data>
+        <data>Thunder attack : ✚2, ⏱1[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x19b</ref>
         </refs>
-        <data>肘程2,範囲1の毒の物理攻[0xf1][0x20][0xff]</data>
+        <data>Poison attack : ✚2, ⏱1[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x19c</ref>
         </refs>
-        <data>肘程2,範囲1の吸収の物理攻[0xf1][0x20][0xff]</data>
+        <data>HP Drain attack : ✚2, ⏱1[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x19d</ref>
         </refs>
-        <data>肘程2,範囲1の土の物理攻[0xf1][0x20][0xff]</data>
+        <data>Earth attack : ✚2, ⏱1[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x19e</ref>
         </refs>
-        <data>肘程2,範囲1の聖の物理攻[0xf1][0x20][0xff]</data>
+        <data>Holy attack : ✚2, ⏱1[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x19f</ref>
         </refs>
-        <data>肘程2,範囲1の暗の物理攻[0xf1][0x20][0xff]</data>
+        <data>Dark attack : ✚2, ⏱1[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1a0</ref>
             <ref>0x1a1</ref>
         </refs>
-        <data>肘程2,範囲1の無[0xf1][0xd]性の物理攻[0xf1][0x20][0xff]</data>
+        <data>Neutral attack : ✚2, ⏱1[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1a2</ref>
         </refs>
-        <data>肘程5,範囲2の火の物理攻[0xf1][0x20][0xff]</data>
+        <data>Attaque de Feu : ✚5, ⏱2[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1a3</ref>
         </refs>
-        <data>肘程5,範囲2の水の物理攻[0xf1][0x20][0xff]</data>
+        <data>Water attack : ✚5, ⏱2[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1a4</ref>
         </refs>
-        <data>肘程5,範囲2の雷の物理攻[0xf1][0x20][0xff]</data>
+        <data>Thunder attack : ✚5, ⏱2[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1a5</ref>
         </refs>
-        <data>肘程5,範囲2の毒の物理攻[0xf1][0x20][0xff]</data>
+        <data>Poison attack : ✚5, ⏱2[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1a6</ref>
         </refs>
-        <data>肘程5,範囲1の吸収の物理攻[0xf1][0x20][0xff]</data>
+        <data>HP Drain attack : ✚5, ⏱1[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1a7</ref>
         </refs>
-        <data>肘程5,範囲2の土の物理攻[0xf1][0x20][0xff]</data>
+        <data>Earth attack : ✚5, ⏱2[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1a8</ref>
         </refs>
-        <data>肘程5,範囲2の聖の物理攻[0xf1][0x20][0xff]</data>
+        <data>Holy attack : ✚5, ⏱2[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1a9</ref>
         </refs>
-        <data>肘程5,範囲2の暗の物理攻[0xf1][0x20][0xff]</data>
+        <data>Dark attack : ✚5, ⏱2[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1aa</ref>
             <ref>0x1ab</ref>
         </refs>
-        <data>肘程5,範囲2の無[0xf1][0xd]性の物理攻[0xf1][0x20][0xff]</data>
+        <data>Neutral attack : ✚5, ⏱2[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1ac</ref>
         </refs>
-        <data>肘程0,範囲3の火の魔法[0xff]</data>
+        <data>Fire magic : ✚0, ⏱3[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1ad</ref>
         </refs>
-        <data>肘程0,範囲3の水の魔法[0xff]</data>
+        <data>Water magic : ✚0, ⏱3[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1ae</ref>
         </refs>
-        <data>肘程0,範囲3の雷の魔法[0xff]</data>
+        <data>Thunder magic : ✚0, ⏱3[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1af</ref>
         </refs>
-        <data>肘程0,範囲2の死の魔法[0xff]</data>
+        <data>Death magic : ✚0, ⏱3[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1b0</ref>
         </refs>
-        <data>肘程0,範囲5の睡眠の魔法[0xff]</data>
+        <data>Sleep magic : ✚0, ⏱5[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1b1</ref>
         </refs>
-        <data>肘程1,範囲2の土の魔法[0xff]</data>
+        <data>Earth magic : ✚1, ⏱2[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1b2</ref>
         </refs>
-        <data>肘程0,範囲3の回復の魔法[0xff]</data>
+        <data>Heal magic : ✚0, ⏱3[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1b3</ref>
         </refs>
-        <data>肘程0,範囲4の死の魔法[0xff]</data>
+        <data>Death magic : ✚0, ⏱4[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1b4</ref>
             <ref>0x1b5</ref>
         </refs>
-        <data>肘程0,範囲2の無[0xf1][0xd]性の魔法[0xff]</data>
+        <data>Neutral magic : ✚0, ⏱2[end]</data>
     </string>
     <string>
         <refs>
@@ -1280,31 +1280,31 @@
             <ref>0x1b6</ref>
             <ref>0x1ef</ref>
         </refs>
-        <data>肘程5,範囲2の回復の魔法[0xff]</data>
+        <data>Heal magic : ✚5, ⏱2[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1b7</ref>
         </refs>
-        <data>肘程5,範囲2のステータス回復[0xff]</data>
+        <data>Status Restore : ✚5, ⏱2[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1b8</ref>
         </refs>
-        <data>肘程5,範囲1の睡眠の魔法[0xff]</data>
+        <data>Sleep magic : ✚5, ⏱1[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1b9</ref>
         </refs>
-        <data>肘程5,範囲1の死の魔法[0xff]</data>
+        <data>Death magic : ✚5, ⏱1[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1ba</ref>
         </refs>
-        <data>肘程5,範囲1の復活の魔法[0xff]</data>
+        <data>Revive magic : ✚5, ⏱1[end]</data>
     </string>
     <string>
         <refs>
@@ -1314,7 +1314,7 @@
             <ref>0x1d4</ref>
             <ref>0x1bb</ref>
         </refs>
-        <data>肘程5,範囲2の土の魔法[0xff]</data>
+        <data>Earth magic : ✚5, ⏱2[end]</data>
     </string>
     <string>
         <refs>
@@ -1328,7 +1328,7 @@
             <ref>0x1fc</ref>
             <ref>0x1fe</ref>
         </refs>
-        <data>肘程5,範囲3の聖の魔法[0xff]</data>
+        <data>Holy magic : ✚5, ⏱3[end]</data>
     </string>
     <string>
         <refs>
@@ -1341,41 +1341,41 @@
             <ref>0x1bd</ref>
             <ref>0x1ff</ref>
         </refs>
-        <data>肘程5,範囲3の暗の魔法[0xff]</data>
+        <data>Dark magic : ✚5, ⏱3[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1eb</ref>
             <ref>0x1bf</ref>
         </refs>
-        <data>肘程5,範囲2の火の魔法[0xff]</data>
+        <data>Fire magic : ✚5, ⏱2[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1c0</ref>
             <ref>0x1ec</ref>
         </refs>
-        <data>肘程5,範囲2の水の魔法[0xff]</data>
+        <data>Water magic : ✚5, ⏱2[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1c1</ref>
             <ref>0x1ed</ref>
         </refs>
-        <data>肘程5,範囲2の雷の魔法[0xff]</data>
+        <data>Thunder magic : ✚5, ⏱2[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1c2</ref>
             <ref>0x1ee</ref>
         </refs>
-        <data>肘程5,範囲2の毒の魔法[0xff]</data>
+        <data>Poison magic : ✚5, ⏱2[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1c3</ref>
         </refs>
-        <data>肘程5,範囲1の吸収の魔法[0xff]</data>
+        <data>HP Drain magic : ✚5, ⏱1[end]</data>
     </string>
     <string>
         <refs>
@@ -1384,13 +1384,13 @@
             <ref>0x1f1</ref>
             <ref>0x1c7</ref>
         </refs>
-        <data>肘程5,範囲2の無[0xf1][0xd]性の魔法[0xff]</data>
+        <data>Neutral magic : ✚5, ⏱2[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1c8</ref>
         </refs>
-        <data>肘程5,範囲1の強化の魔法[0xff]</data>
+        <data>Strengthen magic : ✚5, ⏱2[end]</data>
     </string>
     <string>
         <refs>
@@ -1399,35 +1399,35 @@
             <ref>0x1d5</ref>
             <ref>0x1ce</ref>
         </refs>
-        <data>肘程5,範囲3の無[0xf1][0xd]性の魔法[0xff]</data>
+        <data>Neutral magic : ✚5, ⏱3[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1d2</ref>
             <ref>0x1cb</ref>
         </refs>
-        <data>肘程5,範囲4の水の魔法[0xff]</data>
+        <data>Water magic : ✚5, ⏱3[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1d3</ref>
             <ref>0x1cc</ref>
         </refs>
-        <data>肘程5,範囲5の無[0xf1][0xd]性の魔法[0xff]</data>
+        <data>Neutral magic : ✚5, ⏱5[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1d6</ref>
             <ref>0x1cf</ref>
         </refs>
-        <data>肘程5,範囲5の火の魔法[0xff]</data>
+        <data>Fire magic : ✚5, ⏱5[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1d0</ref>
             <ref>0x1d7</ref>
         </refs>
-        <data>肘程5,範囲6の無[0xf1][0xd]性の魔法[0xff]</data>
+        <data>Neutral magic : ✚5, ⏱6[end]</data>
     </string>
     <string>
         <refs>
@@ -1435,7 +1435,7 @@
             <ref>0x1da</ref>
             <ref>0x1db</ref>
         </refs>
-        <data>肘程0,範囲4のランダム魔法[0xff]</data>
+        <data>Random magic : ✚0, ⏱4[end]</data>
     </string>
     <string>
         <refs>
@@ -1444,199 +1444,199 @@
             <ref>0x1e6</ref>
             <ref>0x1e7</ref>
         </refs>
-        <data>肘程5,範囲1の無[0xf1][0xd]性の魔法[0xff]</data>
+        <data>Neutral magic : ✚5, ⏱1[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x240</ref>
         </refs>
-        <data>カーナ[0xf1][0xd0]陥落[0xff]</data>
+        <data>The Fall of               Kahna Castle[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x241</ref>
         </refs>
-        <data>蛤動[0xff]</data>
+        <data>The Beginning[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x242</ref>
         </refs>
-        <data>おれたちの夢みた伝説[0xff]</data>
+        <data>The Legend we            Dreamed of...[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x243</ref>
         </refs>
-        <data>あおい大陸キャンベル[0xff]</data>
+        <data>The Green Continent of   Campbell[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x244</ref>
         </refs>
-        <data>くやしさでいっぱい[0xff]</data>
+        <data>Full of Regret[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x245</ref>
         </refs>
-        <data>皇帝サウザー[0xff]</data>
+        <data>Emperor Sauzer[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x246</ref>
         </refs>
-        <data>夢では...ないのれ...[0xff]</data>
+        <data>It's Not a Dream, is it...[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x247</ref>
         </refs>
-        <data>神竜の伝説[0xff]</data>
+        <data>The Legend of the        Holy Dragons[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x248</ref>
         </refs>
-        <data>ドラゴン空中戦[0xff]</data>
+        <data>Mid-Air Dragon Battle[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x249</ref>
         </refs>
-        <data>寄跡の大陸マハール[0xff]</data>
+        <data>Mahal, the Continent of   Miracles[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x24a</ref>
         </refs>
-        <data>レインボゥブリッジ[0xff]</data>
+        <data>Rainbow Bridge[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x24b</ref>
         </refs>
-        <data>神竜リヴァイ了サン[0xff]</data>
+        <data>Leviathan[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x24c</ref>
         </refs>
-        <data>スパイ大作戦[0xff]</data>
+        <data>The Spy Operation[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x24d</ref>
         </refs>
-        <data>魔法都市ゴドランド[0xff]</data>
+        <data>The Magic City of         Godland[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x24e</ref>
         </refs>
-        <data>[0xf3][0x9c]の竜めざめる時...[0xff]</data>
+        <data>When the Bird-Dragon    Awakens...[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x24f</ref>
         </refs>
-        <data>熱砂決戦[0xff]</data>
+        <data>Showdown in the          Burning Sands[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x250</ref>
         </refs>
-        <data>神竜ユルムンガルド[0xff]</data>
+        <data>The Holy Dragon          Jormungand[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x251</ref>
         </refs>
-        <data>新たなる時代の扉[0xff]</data>
+        <data>A Door to a New Era[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x252</ref>
         </refs>
-        <data>約束の地[0xff]</data>
+        <data>The Promised Land[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x253</ref>
         </refs>
-        <data>さらば!!マテライ卜[0xff]</data>
+        <data>Farewell, Matelite![end]</data>
     </string>
     <string>
         <refs>
             <ref>0x254</ref>
         </refs>
-        <data>悲しみの空[0xff]</data>
+        <data>The Sky of Sadness[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x255</ref>
         </refs>
-        <data>神竜バハムー卜[0xff]</data>
+        <data>The Holy Dragon          Bahamut[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x256</ref>
         </refs>
-        <data>[0xf2][0xa]終決戦[0xff]</data>
+        <data>The Final Battle[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x257</ref>
         </refs>
-        <data>掘亡[0xff]</data>
+        <data>Destruction[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x258</ref>
         </refs>
-        <data>故郷へ...[0xff]</data>
+        <data>To the Homeland...[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x259</ref>
         </refs>
-        <data>乖[0xf3][0x3]の旅人[0xff]</data>
+        <data>Eternal Travelers[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x25a</ref>
         </refs>
-        <data>神竜王了レキサンダー[0xff]</data>
+        <data>Alexander, King of the    Holy Dragons[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x25b</ref>
         </refs>
-        <data>明日のみえぬぼくたち[0xff]</data>
+        <data>We, Who Cannot See into  Tomorrow[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x25c</ref>
         </refs>
-        <data>グランベロス砦[0xff]</data>
+        <data>Granbelos Fortress[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x25d</ref>
         </refs>
-        <data>やさしいダンジョン[0xff]</data>
+        <data>Easy Dungeon[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x25e</ref>
         </refs>
-        <data>むずかしいダンジョン[0xff]</data>
+        <data>Hard Dungeon[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x25f</ref>
         </refs>
-        <data>謂典事韓走生[0xff]</data>
+        <data>Situation Critical[end]</data>
     </string>
     <string>
         <refs>
@@ -1649,90 +1649,90 @@
             <ref>0x266</ref>
             <ref>0x267</ref>
         </refs>
-        <data>[0xff]</data>
+        <data>[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x268</ref>
         </refs>
-        <data>何を買いますか?[0xff]</data>
+        <data>What will you buy?[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x269</ref>
         </refs>
-        <data>いくつ買いますか?[0xff]</data>
+        <data>How many will you buy?[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x26a</ref>
         </refs>
-        <data>お金が足りません[0xff]</data>
+        <data>You don't have enough money.[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x26b</ref>
         </refs>
-        <data>それ峨上持てません[0xff]</data>
+        <data>You can't carry any more.[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x26c</ref>
         </refs>
-        <data>ありがとうございます[0xff]</data>
+        <data>Thank you very much.[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x26d</ref>
         </refs>
-        <data>どのデーターで蛤めますか[0xff]</data>
+        <data>   Please choose a saved game.[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x26e</ref>
         </refs>
-        <data>今の拭韓を[0xf3][0x3f]存しますか?[0xff]</data>
+        <data>      Save the current state?[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x26f</ref>
         </refs>
-        <data>どこにセーブしますか?[0xff]</data>
+        <data>       Choose a slot to save.[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x270</ref>
         </refs>
-        <data>車当にセーブしてもよろしいですか?[0xff]</data>
+        <data>Do you wish to overwrite this save?[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x271</ref>
         </refs>
-        <data>データがありません.[0xff]</data>
+        <data>              No data.[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x272</ref>
         </refs>
-        <data>終了します.[0xff]</data>
+        <data>[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x273</ref>
         </refs>
-        <data>何をルりますか?[0xff]</data>
+        <data>What will you sell?[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x274</ref>
         </refs>
-        <data>いくつルりますか?[0xff]</data>
+        <data>How many will you sell?[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x275</ref>
         </refs>
-        <data>攻 防 [0xf3][0x6e] 魔 火 水 雷 土 回 毒[0xff]</data>
+        <data>                         [end]</data>
     </string>
 </messages>
