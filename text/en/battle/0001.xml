@@ -25,7 +25,7 @@ and take back Kahna's flagship!![end1][end]</data>
             <ref>0x37</ref>
         </refs>
         <data>Enemy approaching!!
-The Resistance is attacking?![end][0x0]</data>
+The Resistance is attacking?![end]</data>
     </text>
     <text>
         <refs>
@@ -33,14 +33,14 @@ The Resistance is attacking?![end][0x0]</data>
         </refs>
         <data>Yo, I'm the boss here!![0xfc][0x1]
 I won the position in the
-javelin-throwing competition!![end]“</data>
+javelin-throwing competition!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4b</ref>
         </refs>
         <data>“Condition for Victory:”[0xfc][0x1]
-“Defeat of the boss”[end]T</data>
+“Defeat of the boss”[end]</data>
     </text>
     <text>
         <refs>

@@ -23,8 +23,7 @@ No faltering!![end1][end]</data>
         <refs>
             <ref>0x4e</ref>
         </refs>
-        <data>Things aren't like they used to be...[end1]
-</data>
+        <data>Things aren't like they used to be...[end1]</data>
     </text>
     <text>
         <refs>
@@ -122,7 +121,7 @@ Palpaleos, too, of course.[end1][end]</data>
             <ref>0xb0</ref>
         </refs>
         <data>“Condition for Victory:”[0xfc][0x1]
-“Defeat of Sauzer”[end]T</data>
+“Defeat of Sauzer”[end]</data>
     </text>
     <text>
         <refs>
