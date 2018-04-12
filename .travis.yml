@@ -11,6 +11,7 @@ deploy:
   api_key:
     secure: WrsEpopbWaZhLeKyIb7lr+TotrLMumhy38n1Ybk7O5bFI2zpbZoMY5YTB/RvHx6pxoG4OeF7+vPRb6PKCEpGMcRKzgWR8bgYYuYF5/7RIPOPc0uvH81iggXhfOpo0eDh+1MT4hv3bG0I9JuMEQXZiVtkbfBU9l6bXTsOIwwqHcugqG4+bw0hfvlxdQebDlrzt26fumHBwC63OGOZ1bxfLwXiVACX8s8tmMebw/QFoq0jcxpt5z5ZVjQtBty5C/CWYS7aMl+zcCSUheKhG6YoylhY3pzSwhc0fG8LJQFm4UnjzUZH+Y6fxdPzQj+GEVCpBsonjkaSyOTx3BCeRx1YfvqpVHnoZI7g7Y3inSMJSYp8Xeq5FIUu+8UQqiomwOAPUp1rbCuEIkSuEiez+yohPIcbLZ/fwotiSJfmoSKRo66XNFI3Rmo79x3dXFI+mQOQJdweeJcw4FyXpNc0o80Vnfm8XByAALPwxL2eKaQbv88dGX0TJkrwPM6XvOA8Psb/E65UmD4vcAsKTu1VTqP2MDkP+5UTQoyc55ItlFCWKh1Dvs5vc46ewXpzyTDxPYOUnPhTnzS+QQ8cDBb1PY5njzqNwcBUN0lz2S9BnXsfXehWGi3JmxI3Ia+TmBYCNIoREeszYsXzATXL4LtidAWqpfVkoyggHjvz57Ygj/plYU0=
   file: bl.ips
+  skip_cleanup: true
   on:
     tags: true
     repo: manz/bahamut_lagoon
