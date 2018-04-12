@@ -42,7 +42,7 @@ Tout le monde sait que [character][0x1] est la
 fille au coeur faible.
 Je suis légèrement fatiguée...
 Tu pourrais me faire un petit massage,
-[character][0x1]?[end]</data>
+[character][0x0]?[end]</data>
     </text>
     <text>
         <refs>
@@ -106,7 +106,7 @@ Hihihihi...[end]</data>
             <ref>0x1db</ref>
         </refs>
         <data>ANASTASIA:
-[character][0x1],l'as-tu appris?
+[character][0x0],l'as-tu appris?
  
 Bareck a dit que le Général Arbain
 a en sa possesion une épée nommée
@@ -192,7 +192,7 @@ Très bien,gentleman[0xd8][end]</data>
         <data>FREDERIKA:
 Vas-y...
 Vas-y...
-Haha... [character][0x1]...
+Haha... [character][0x0]...
 J'en ai des frissons...
 Haha...
 Haha... c'est très bien[0xd8][end]</data>
@@ -231,7 +231,7 @@ Je vis la vie à [0xb0][0xaf][0xaf] à l'heure![end]</data>
             <ref>0x1d4</ref>
         </refs>
         <data>ANASTASIA:
-[character][0x1],sais-tu ça?
+[character][0x0],sais-tu ça?
  
 Avec une bonne croissance,un dragon
 peut devenir un Dragon Maître.

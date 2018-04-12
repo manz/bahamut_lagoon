@@ -16,7 +16,7 @@ Devrions-nous l'attendre?[end]</data>
         <data>COMMANDANT:
 Tu es si impatient!
  
-Je sais que toi et [character][0x1] êtes tout les
+Je sais que toi et [character][0x0] êtes tout les
 deux très triste.[end]</data>
     </text>
     <text>
@@ -28,7 +28,7 @@ Ce Général Palpaleos n'est qu'un
 ennemi!
 Il est le bras droit de Sauzer et
 n'est donc que le mal incarné!
-C'est [character][0x1] qui devrait être félicité![end]</data>
+C'est [character][0x0] qui devrait être félicité![end]</data>
     </text>
     <text>
         <refs>
@@ -199,7 +199,7 @@ voulez![end]</data>
             <ref>0xbf2</ref>
         </refs>
         <data>MATELIGHT:
-[character][0x1],que devrais-je faire?[end]</data>
+[character][0x0],que devrais-je faire?[end]</data>
     </text>
     <text>
         <refs>
@@ -227,7 +227,7 @@ aussi venus avec moi![end]</data>
             <ref>0xca1</ref>
         </refs>
         <data>COMMANDANT:
-Réponds-moi,[character][0x1]...
+Réponds-moi,[character][0x0]...
 As-tu compris tes erreurs?[end]</data>
     </text>
     <text>
@@ -252,7 +252,7 @@ J'ai rejoint les Rebelles![end]</data>
             <ref>0xcb3</ref>
         </refs>
         <data>PALPALEOS:
-[character][0x1],allons combattre ensemble!
+[character][0x0],allons combattre ensemble!
 Aller combattre ensemble?[end]</data>
     </text>
     <text>
@@ -315,7 +315,7 @@ c'est à cause de la saison des amours.[end]</data>
         <refs>
             <ref>0xa1a</ref>
         </refs>
-        <data>N'aie crainte [character][0x1]!
+        <data>N'aie crainte [character][0x0]!
 Il faut être ferme et savoir donner
 de vrais ordres![end]</data>
     </text>
@@ -402,7 +402,7 @@ dragon père et un dragon mère.[end]</data>
         </refs>
         <data>Ce charmant couple donnera un bel
 enfant!
-tu as fait un très bon choix,[character][0x1].
+tu as fait un très bon choix,[character][0x0].
 Repartons maintenant tous FARENHEIT!
  
   
@@ -471,7 +471,7 @@ la nuit?
 Le ciel est vraiment paisible,ici,loin
 de toutes guerres.
  
-[0xa8]Il n'a aucune expérience ce [character][0x1]?
+[0xa8]Il n'a aucune expérience ce [character][0x0]?
  Il ne savait même rien sur les
  dragons![0xa9][end]</data>
     </text>
@@ -482,7 +482,7 @@ de toutes guerres.
         <data>PALPALEOS:
 [0xa8]Un enfant...?[0xa9]
  
-[character][0x1],aimerais-tu escorter [character][0x1]
+[character][0x0],aimerais-tu escorter [character][0x1]
 jusqu'à la salle du trône?
 Qui de nous deux ira?[end]</data>
     </text>
@@ -584,7 +584,7 @@ Hoho!
 Aujourd'hui comme toujours,j'ai de
 nombreuses choses à vendre.
 Ma femme aime travailler!
-Capitaine [character][0x1],voulez-vous nous
+Capitaine [character][0x0],voulez-vous nous
 acheter quelque chose?[end]</data>
     </text>
     <text>
@@ -649,7 +649,7 @@ pour défendre ce très cher endroit.[end]</data>
             <ref>0x753</ref>
         </refs>
         <data>TAURUS:
-Bonjour Capitaine [character][0x1]!
+Bonjour Capitaine [character][0x0]!
  
 Nous sommes enfin revenus à Kana.
 Ce n'est pas un rêve...
@@ -725,12 +725,12 @@ d'arrêter maintenant,n'est-ce pas?[end]</data>
             <ref>0x839</ref>
         </refs>
         <data>BIKKEBAKKE:
-[character][0x1],mon frère!
+[character][0x0],mon frère!
 Je... je suis inutile.
 Je ne sers plus à rien.
 Ca te fait sourire...?!
  
-[character][0x1],serais-tu prêt à organiser un
+[character][0x0],serais-tu prêt à organiser un
 un grand commerce de champignons?
 Il y en a tant dans le monde!
 Tant...[end]</data>
@@ -742,7 +742,7 @@ Tant...[end]</data>
         <data>Je suis aussi inquiet sur le fait que
 face au très grand Palpaleos,je ne
 suis rien...
-[character][0x1],mon frère,je sais que face à lui,
+[character][0x0],mon frère,je sais que face à lui,
 je serai mis de côté.[end]</data>
     </text>
     <text>

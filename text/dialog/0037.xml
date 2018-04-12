@@ -192,7 +192,7 @@ moyen![end]</data>
             <ref>0x5e4</ref>
         </refs>
         <data>[character][0x1]:
-[character][0x1],allons-nous en!
+[character][0x0],allons-nous en!
 Je... veux partir...
 C'est cela... partons...
 ensemble...[end]</data>
@@ -267,7 +267,7 @@ l'Empire a fait fuir tout le monde![end]</data>
             <ref>0x71c</ref>
         </refs>
         <data>TAURUS:
-Capitaine [character][0x1]!
+Capitaine [character][0x0]!
 Est-il temps de retourner à FARENHEIT?[end]</data>
     </text>
     <text>
@@ -292,7 +292,7 @@ Pourquoi ont-ils si peur?[end]</data>
             <ref>0x747</ref>
         </refs>
         <data>Est-ce que vous comprenez,
-Capitaine [character][0x1]?[end]</data>
+Capitaine [character][0x0]?[end]</data>
     </text>
     <text>
         <refs>
@@ -492,7 +492,7 @@ Tu souffres... Tu as peur...[end]</data>
             <ref>0x6f8</ref>
         </refs>
         <data>RUSH:
-[character][0x1]...[end]</data>
+[character][0x0]...[end]</data>
     </text>
     <text>
         <refs>

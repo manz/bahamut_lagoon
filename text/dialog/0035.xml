@@ -62,13 +62,13 @@ délivrée...[end]</data>
             <ref>0x6e3</ref>
         </refs>
         <data>LUKIA:
-[character][0x1],hâte-toi![end]</data>
+[character][0x0],hâte-toi![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6a6</ref>
         </refs>
-        <data>[character][0x1],laisse-moi y aller!
+        <data>[character][0x0],laisse-moi y aller!
 Courage,courage![end]</data>
     </text>
     <text>
@@ -245,7 +245,7 @@ Arrêtez![end]</data>
             <ref>0x7ff</ref>
         </refs>
         <data>MATELIGHT:
-[character][0x1],tiens bon![end][end]</data>
+[character][0x0],tiens bon![end][end]</data>
     </text>
     <text>
         <refs>
@@ -374,7 +374,7 @@ inepties de Sendack.[end]</data>
             <ref>0x2b5</ref>
         </refs>
         <data>SENDACK:
-[character][0x1]...[end]</data>
+[character][0x0]...[end]</data>
     </text>
     <text>
         <refs>

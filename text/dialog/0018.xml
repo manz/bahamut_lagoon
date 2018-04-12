@@ -109,7 +109,7 @@ Je me sens offensé![end]</data>
             <ref>0x111b</ref>
         </refs>
         <data>BIKKEBAKKE:
-[character][0x1],je dois dire que je suis très
+[character][0x0],je dois dire que je suis très
 inquiet.
 Y aurait-il des choses que tu n'aimes
 pas en moi?[end]</data>
@@ -153,7 +153,7 @@ Merci,frère.[end]</data>
         <data>MELODIA:
 Matelight et ses amis sont tous
 ensemble.
-Mais [character][0x1] et Hornet sont ici et ils
+Mais [character][0x0] et Hornet sont ici et ils
 sont seuls.[end]</data>
     </text>
     <text>
@@ -181,7 +181,7 @@ Que s'est-il passé dans le ciel?[end]</data>
             <ref>0x345</ref>
         </refs>
         <data>[character][0x1]:
-Mais où sont [character][0x1] et les autres?![end]</data>
+Mais où sont [character][0x0] et les autres?![end]</data>
     </text>
     <text>
         <refs>
@@ -336,7 +336,7 @@ Quelque chose ne va pas?![end1]</data>
             <ref>0x5e9</ref>
         </refs>
         <data>RUSH:
-[character][0x1],je vais voir ce qui se passe![end]</data>
+[character][0x0],je vais voir ce qui se passe![end]</data>
     </text>
     <text>
         <refs>
@@ -358,7 +358,7 @@ Je tremble beaucoup?[end]</data>
         <refs>
             <ref>0x1070</ref>
         </refs>
-        <data>Je crains le pire,[character][0x1].
+        <data>Je crains le pire,[character][0x0].
 Les Dragons Sacrés sont furieux!
 Je n'arrive pas à me calmer.[end]</data>
     </text>
@@ -560,7 +560,7 @@ d'autre.[end]</data>
         <refs>
             <ref>0x84a</ref>
         </refs>
-        <data>Vous aurez [character][0x1] et Rush,
+        <data>Vous aurez [character][0x0] et Rush,
 les révolutionnaires de la Liberté.
 Ils ont beaucoup grandi mais leurs
 paroles ne le montrent guère...
@@ -649,7 +649,7 @@ alors très jeune.
  
 Vous vous souviendrez de la guerre...
 Vous vous souviendrez de nos
-compagnons d'armes et de [character][0x1]...
+compagnons d'armes et de [character][0x0]...
 J'aime énormément vous parler,
 Princesse![end]</data>
     </text>
@@ -711,14 +711,14 @@ C'est sincèrement ce que je pense![end]</data>
 De nombreux amis s'inquiètent tant
 pour moi!
 Matelight...
-Toi aussi,[character][0x1]...
+Toi aussi,[character][0x0]...
 Et tous les Rebelles...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf70</ref>
         </refs>
-        <data>[character][0x1],il y a quelque chose que je n'ai
+        <data>[character][0x0],il y a quelque chose que je n'ai
 pas dit à notre cher Matelight.
 Moi aussi,j'ai un rêve...
 Un petit rêve,selon certains dires...[end]</data>
@@ -767,7 +767,7 @@ circonstances.[end]</data>
             <ref>0xffd</ref>
         </refs>
         <data>[character][0x1]:
-[character][0x1],j'ai une requête...
+[character][0x0],j'ai une requête...
 Protège cette église!
 Elle a en mémoire tant de souvenirs
 d'amoureux de Kana...
@@ -776,7 +776,7 @@ Nous n'avons pas de temps à perdre
 car ces souvenirs ne doivent pas être
 perdus suite à une défaite!
 Nous y avons aussi des souvenirs,
-[character][0x1]...
+[character][0x0]...
  
 Te souviens-tu encore de notre
 promesse?[end]</data>
@@ -859,7 +859,7 @@ Prépare-toi bien![end]</data>
             <ref>0x10ac</ref>
         </refs>
         <data>HORNET:
-[character][0x1] t'a-t-il donné ses
+[character][0x7] t'a-t-il donné ses
 informations?!
 Très bien,direction Kana!
 Prépare-toi pour la bataille!

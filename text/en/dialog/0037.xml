@@ -73,7 +73,7 @@ sense it a little as well.[end]</data>
             <ref>0x3fe</ref>
         </refs>
         <data>[character][0x1]: Okay, let's return to
-[character][0x1].[end]</data>
+[character][0x9].[end]</data>
     </text>
     <text>
         <refs>
@@ -127,7 +127,7 @@ forth a disaster from the heavens.[0x22][end]</data>
         <refs>
             <ref>0x6f8</ref>
         </refs>
-        <data>Rush: [character][0x1]...[end]</data>
+        <data>Rush: [character][0x0]...[end]</data>
     </text>
     <text>
         <refs>
@@ -142,7 +142,7 @@ era.[end]</data>
             <ref>0x72e</ref>
             <ref>0x747</ref>
         </refs>
-        <data>Understood, Captain [character][0x1].[end]</data>
+        <data>Understood, Captain [character][0x0].[end]</data>
     </text>
     <text>
         <refs>
@@ -239,7 +239,7 @@ of person to give up on anything...[end]</data>
         <refs>
             <ref>0x5e4</ref>
         </refs>
-        <data>[character][0x1]: ...[character][0x1]. Take me
+        <data>[character][0x1]: ...[character][0x0]. Take me
 with you. I want to go back. It was
 nice together... I want to go back...[end]</data>
     </text>
@@ -308,7 +308,7 @@ Oh, what will happen to us now...[end]</data>
         <refs>
             <ref>0x6b9</ref>
         </refs>
-        <data>Sendak: [character][0x1]... The princess
+        <data>Sendak: [character][0x0]... The princess
 does not look well. Hurry and see the
 queen.[end]</data>
     </text>
@@ -384,9 +384,9 @@ He too has become an excellent soldier.[end]</data>
         <refs>
             <ref>0x71c</ref>
         </refs>
-        <data>Truce: Captain [character][0x1]. Please tell
+        <data>Truce: Captain [character][0x0]. Please tell
 me when you want to return to
-[character][0x1].[end]</data>
+[character][0x9].[end]</data>
     </text>
     <text>
         <refs>
@@ -394,7 +394,7 @@ me when you want to return to
             <ref>0x73a</ref>
         </refs>
         <data>  Stay a little longer
-  Go to [character][0x1][end1]</data>
+  Go to [character][0x9][end1]</data>
     </text>
     <text>
         <refs>

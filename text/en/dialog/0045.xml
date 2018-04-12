@@ -4,7 +4,7 @@
         <refs>
             <ref>0x1f5</ref>
         </refs>
-        <data>[character][0x1]!! Come here![end]</data>
+        <data>[character][0x4]!! Come here![end]</data>
     </text>
     <text>
         <refs>
@@ -39,9 +39,9 @@ So this is what war is like...[end]</data>
         <refs>
             <ref>0x1dc</ref>
         </refs>
-        <data>Matelite: [character][0x1]... You take care
+        <data>Matelite: [character][0x0]... You take care
 of the info about the Holy Dragons!
-We're going back to [character][0x1]!![end]</data>
+We're going back to [character][0x9]!![end]</data>
     </text>
     <text>
         <refs>
@@ -149,7 +149,7 @@ You wouldn't understand...[end]</data>
         <refs>
             <ref>0x7c0</ref>
         </refs>
-        <data>Wait, [character][0x1]!!
+        <data>Wait, [character][0x0]!!
 
 
 Donfan: Hello, miss! O, beautiful girl of
@@ -212,7 +212,7 @@ responsibility![end]</data>
         <data>Libero: King! Be prepared! Tomorrow
 Dafila shall be ours! The Freedom
 Revolution will be realized!
-The leader shall be... [character][0x1]!
+The leader shall be... [character][0x0]!
 
 
 I hereby declare Dafila a free
@@ -257,7 +257,7 @@ Farewell, my citizens...[end]</data>
         <refs>
             <ref>0x965</ref>
         </refs>
-        <data>As for [character][0x1]...[end]</data>
+        <data>As for [character][0x0]...[end]</data>
     </text>
     <text>
         <refs>
@@ -313,7 +313,7 @@ take a short break tonight...[end]</data>
         <refs>
             <ref>0xa8f</ref>
         </refs>
-        <data>Dragon Squad Captain [character][0x1]!!
+        <data>Dragon Squad Captain [character][0x0]!!
 Married to Princess [character][0x1]!!
 
 Or not?[end]</data>
@@ -345,7 +345,7 @@ sound?
 Such is the way of the world...
 
 
-[character][0x1] has my wallet. How about
+[character][0x0] has my wallet. How about
 giving the bill to him?[end]</data>
     </text>
     <text>
@@ -360,7 +360,7 @@ Resistance? 100 Piro per copy![end]</data>
         <refs>
             <ref>0xa96</ref>
         </refs>
-        <data>[character][0x1] Crew Member Steals
+        <data>[character][0x9] Crew Member Steals
 Bikkebakke's Mushrooms and Wallet,
 Escapes![end]</data>
     </text>

@@ -31,7 +31,7 @@ Je crois qu'Alexandre nous a entendu![end]</data>
             <ref>0x4cc</ref>
         </refs>
         <data>MATELIGHT:
-Allons-y [character][0x1]!
+Allons-y [character][0x0]!
 Ce sera sûrement la Dernière Bataille!
 Tout est en ordre!
 Est-ce que tu es prêt?
@@ -43,7 +43,7 @@ Est-ce que tu es prêt?
         <refs>
             <ref>0x4db</ref>
         </refs>
-        <data>Tu veux rire [character][0x1]?![end]</data>
+        <data>Tu veux rire [character][0x0]?![end]</data>
     </text>
     <text>
         <refs>
@@ -75,7 +75,7 @@ attaquera?[end]</data>
             <ref>0x58a</ref>
         </refs>
         <data>MATELIGHT:
-[character][0x1],
+[character][0x0],
 choisit le meilleur cri de guerre!
  Combattons avec courage!
  Je m'en remets au destin![end1]</data>
@@ -93,7 +93,7 @@ Orelus...[end]</data>
             <ref>0x598</ref>
         </refs>
         <data>MATELIGHT:
-[character][0x1]...
+[character][0x0]...
 C'est tout toi ça,pas moi...[end]</data>
     </text>
     <text>
@@ -169,7 +169,7 @@ lui-même en certaines occasions.
 Avec cette force,il est évident que ni
 nous ni un ennemi ne doit se frotter à
 lui en pareilles occasions!
-Capitaine [character][0x1]!
+Capitaine [character][0x0]!
 Préparez-vous vite![end]</data>
     </text>
     <text>
@@ -228,7 +228,7 @@ Soyons tous prêt![end]</data>
             <ref>0x84a</ref>
         </refs>
         <data>SENDACK:
-[character][0x1],est-ce utile... de vaincre...
+[character][0x0],est-ce utile... de vaincre...
 Alexandre ressuscité?[end]</data>
     </text>
     <text>
@@ -236,7 +236,7 @@ Alexandre ressuscité?[end]</data>
             <ref>0x484</ref>
         </refs>
         <data>[character][0x1]:
-[character][0x1]...
+[character][0x0]...
 Nous avons vaincu Alexandre une fois!
 Je suis sûre que nous y parviendrons
 encore.
@@ -247,7 +247,7 @@ Je suis sûre que tout ira bien.[end]</data>
             <ref>0x815</ref>
         </refs>
         <data>COMMANDANT:
-[character][0x1],reste calme!
+[character][0x0],reste calme!
  
  Ce n'est pas possible!
  Tout est bientôt fini...[end1]</data>
@@ -298,7 +298,7 @@ nous rentrerons chez nous![end]</data>
             <ref>0x8cc</ref>
         </refs>
         <data>TAURUS:
-Capitaine [character][0x1]!
+Capitaine [character][0x0]!
 Assurez-vous de n'avoir rien oublié!
 N'oubliez pas de vous occuper des
 dragons.[end]</data>
@@ -323,7 +323,7 @@ Mais je l'ai déjà fait![end]</data>
             <ref>0x87a</ref>
         </refs>
         <data>RUSH:
-Dépêche-toi [character][0x1]![end]</data>
+Dépêche-toi [character][0x0]![end]</data>
     </text>
     <text>
         <refs>

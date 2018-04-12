@@ -118,7 +118,7 @@ sanctum... I am not sure we can enter...[end]</data>
             <ref>0x19c</ref>
         </refs>
         <data>Matelite: We can't put [character][0x1] in
-danger! [character][0x1]!! You go ahead
+danger! [character][0x0]!! You go ahead
 and check it out![end]</data>
     </text>
     <text>
@@ -191,7 +191,7 @@ Come... Listen closely to our call...[end]</data>
         <refs>
             <ref>0x3fd</ref>
         </refs>
-        <data>[character][0x1]: [character][0x1]...[end]</data>
+        <data>[character][0x1]: [character][0x0]...[end]</data>
     </text>
     <text>
         <refs>
@@ -268,19 +268,19 @@ powerful...[end]</data>
         <refs>
             <ref>0x68c</ref>
         </refs>
-        <data>Sendak: [character][0x1], are you all right?
+        <data>Sendak: [character][0x0], are you all right?
 I have a bad feeling about this...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x695</ref>
         </refs>
-        <data>Matelite: Take care of it, [character][0x1]![end]</data>
+        <data>Matelite: Take care of it, [character][0x0]![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x69e</ref>
         </refs>
-        <data>Taicho: [character][0x1], ho![end][end]</data>
+        <data>Taicho: [character][0x0], ho![end][end]</data>
     </text>
 </texts>

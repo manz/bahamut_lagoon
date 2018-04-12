@@ -11,7 +11,7 @@
         <refs>
             <ref>0xc0</ref>
         </refs>
-        <data>Hornet: [character][0x1] is taking a route
+        <data>Hornet: [character][0x9] is taking a route
 through a thunderhead and is heading
 for the desert land of Dafila.
 The desert land of Dafila...
@@ -48,7 +48,7 @@ the Holy Dragons...[end]</data>
         <refs>
             <ref>0xf9</ref>
         </refs>
-        <data>Tonight, at [character][0x1]'s bar I'm going
+        <data>Tonight, at [character][0x9]'s bar I'm going
 to drink all night while praying...[end]</data>
     </text>
     <text>
@@ -363,7 +363,7 @@ enough to fight Sauzer, but...[end]</data>
         <data>Bikkebakke: [character][0x1]'s room says
 it's off limits to men...
 
-Actually, [character][0x1]... I hired an
+Actually, [character][0x0]... I hired an
 employee for my mushroom shop.
 
 If I don't expand my store I won't

@@ -4,20 +4,20 @@
         <refs>
             <ref>0x9c</ref>
         </refs>
-        <data> Several years after the horrible war...[0xfc][0x1][end1]</data>
+        <data> Several years after the horrible war...[0xfc][0x40][end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xae</ref>
         </refs>
         <data>     Lagoon of the Forgotten Region
-              Island of Tedd[0xfc][0x1][end1]</data>
+              Island of Tedd[0xfc][0x40][end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xea</ref>
         </refs>
-        <data>            On this island...[0xfc][0x1][end1]</data>
+        <data>            On this island...[0xfc][0x40][end1]</data>
     </text>
     <text>
         <refs>
@@ -25,7 +25,7 @@
         </refs>
         <data>A resistance movement opposing the
 Empire began to form, comprised of
-surviving knights of Kahna.[0xfc][0x1][end1]</data>
+surviving knights of Kahna.[0xfc][0x40][end1]</data>
     </text>
     <text>
         <refs>
@@ -50,13 +50,13 @@ surviving knights of Kahna.[0xfc][0x1][end1]</data>
         <refs>
             <ref>0x20a</ref>
         </refs>
-        <data>Melodia: [character][0x1]!![end]</data>
+        <data>Melodia: [character][0x2]!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x218</ref>
         </refs>
-        <data>[character][0x1]!![end]</data>
+        <data>[character][0x0]!![end]</data>
     </text>
     <text>
         <refs>
@@ -68,13 +68,13 @@ surviving knights of Kahna.[0xfc][0x1][end1]</data>
         <refs>
             <ref>0x373</ref>
         </refs>
-        <data>[character][0x1]'s back!![end]</data>
+        <data>[character][0x0]'s back!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3a5</ref>
         </refs>
-        <data>Zora: [character][0x1]'s back!![end]</data>
+        <data>Zora: [character][0x0]'s back!![end]</data>
     </text>
     <text>
         <refs>
@@ -87,7 +87,7 @@ surviving knights of Kahna.[0xfc][0x1][end1]</data>
         <refs>
             <ref>0x3db</ref>
         </refs>
-        <data>Taicho: [character][0x1]!!
+        <data>Taicho: [character][0x0]!!
 It is I, Taicho of the Mahal Knights![end]</data>
     </text>
     <text>
@@ -101,7 +101,7 @@ It is I, Taicho of the Mahal Knights![end]</data>
         <refs>
             <ref>0x401</ref>
         </refs>
-        <data>Sendak: So you are back, [character][0x1]?
+        <data>Sendak: So you are back, [character][0x0]?
 There are a great many things to
 discuss.[end]</data>
     </text>
@@ -124,7 +124,7 @@ Ahhh, what a nice nap![end]</data>
         <refs>
             <ref>0x46b</ref>
         </refs>
-        <data>Zora: Hey! Hurry up and get [character][0x1]
+        <data>Zora: Hey! Hurry up and get [character][0x0]
 out here!![end]</data>
     </text>
     <text>
@@ -139,7 +139,7 @@ starts now!![end]</data>
         <refs>
             <ref>0x6f2</ref>
         </refs>
-        <data>    Dear [character][0x1]...
+        <data>    Dear [character][0x0]...
 
 
     How are you?
@@ -161,7 +161,7 @@ starts now!![end]</data>
     The resistance group created as
     per the deceased king's final wish
     is but only a name.
-    Without you, [character][0x1], everyone
+    Without you, [character][0x0], everyone
     seems saddened.[end]</data>
     </text>
     <text>
@@ -182,11 +182,11 @@ starts now!![end]</data>
         <refs>
             <ref>0x872</ref>
         </refs>
-        <data>Rush: Hey, [character][0x1]! Let's get going.
+        <data>Rush: Hey, [character][0x0]! Let's get going.
 It's not like we'll never see them again.
 
 You're the one who decided to do
-this, [character][0x1]! You were the one who
+this, [character][0x0]! You were the one who
 said to revive Kahna's Dragon Squad.[end]</data>
     </text>
     <text>
@@ -228,7 +228,7 @@ most powerful attack dragons![end]</data>
             <ref>0x8fd</ref>
         </refs>
         <data>Melodia, aren't you going to say
-anything? [character][0x1]'s leaving![end]</data>
+anything? [character][0x0]'s leaving![end]</data>
     </text>
     <text>
         <refs>
@@ -240,7 +240,7 @@ anything? [character][0x1]'s leaving![end]</data>
         <refs>
             <ref>0x96d</ref>
         </refs>
-        <data>Matelite: [character][0x1]!! Come back soon!
+        <data>Matelite: [character][0x0]!! Come back soon!
 Come back while [character][0x1]'s still
 safe![end]</data>
     </text>
@@ -261,7 +261,7 @@ these memories of you it still hurts...[end]</data>
         <refs>
             <ref>0xb75</ref>
         </refs>
-        <data>Matelite: [character][0x1]... You have
+        <data>Matelite: [character][0x0]... You have
 memories of [character][0x1] too, don't
 you?[end]</data>
     </text>
@@ -291,14 +291,14 @@ with you...[end]</data>
         <refs>
             <ref>0xb9a</ref>
         </refs>
-        <data>[character][0x1]. I want to go rescue her
+        <data>[character][0x0]. I want to go rescue her
 this very minute...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xbec</ref>
         </refs>
-        <data>Sendak: Welcome back, [character][0x1].
+        <data>Sendak: Welcome back, [character][0x0].
 It looks like you found all the dragons.
 
 By the way, do you remember the day
@@ -315,7 +315,7 @@ you left?[end]</data>
         <refs>
             <ref>0xbfc</ref>
         </refs>
-        <data>Oh, [character][0x1]...
+        <data>Oh, [character][0x0]...
 We're going into battle.
 Let's go, let's go![end]</data>
     </text>
@@ -384,7 +384,7 @@ You received various items.[end]</data>
         <refs>
             <ref>0xe0d</ref>
         </refs>
-        <data>Get on [character][0x1] and we'll leave.
+        <data>Get on [character][0x2] and we'll leave.
 Are your preparations set?[end]</data>
     </text>
     <text>
@@ -399,7 +399,7 @@ Are your preparations set?[end]</data>
         <refs>
             <ref>0xe89</ref>
         </refs>
-        <data>Sendak: [character][0x1]...
+        <data>Sendak: [character][0x0]...
 Is it okay if I hold on tighter?[end]</data>
     </text>
     <text>
@@ -413,7 +413,7 @@ Is it okay if I hold on tighter?[end]</data>
         <refs>
             <ref>0xe98</ref>
         </refs>
-        <data>[character][0x1], your back is so nice and
+        <data>[character][0x0], your back is so nice and
 warm...[end]</data>
     </text>
     <text>

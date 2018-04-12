@@ -12,7 +12,7 @@
             <ref>0x64</ref>
         </refs>
         <data>Hello there! It's been a while!
-Okay, [character][0x1], this way![end]</data>
+Okay, [character][0x0], this way![end]</data>
     </text>
     <text>
         <refs>
@@ -101,14 +101,14 @@ You're good just the way you are now![end]</data>
             <ref>0x16d</ref>
         </refs>
         <data>Bikkebakke: Yay! It's all thanks to you,
-[character][0x1]! Thanks a lot![end]</data>
+[character][0x0]! Thanks a lot![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x120</ref>
         </refs>
         <data>Wife-and-child-protecting Salesman:
-[character][0x1]! Thanks for everything!
+[character][0x0]! Thanks for everything!
 I will pray for your safety!
 Goodbye, everyone!
 Thanks![end]</data>
@@ -143,13 +143,13 @@ Here you go! 1000 Piro![end]</data>
         <refs>
             <ref>0x621</ref>
         </refs>
-        <data>Matelite: [character][0x1]... Stay on guard...[end]</data>
+        <data>Matelite: [character][0x0]... Stay on guard...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x54a</ref>
         </refs>
-        <data>[character][0x1]: [character][0x1]! I'm worried
+        <data>[character][0x1]: [character][0x0]! I'm worried
 about General Palpaleos! Let's go right
 away![end]</data>
     </text>
@@ -195,7 +195,7 @@ The Holy Dragons want to know...[end]</data>
         <refs>
             <ref>0x5b9</ref>
         </refs>
-        <data>Palpaleos: [character][0x1]. Have you
+        <data>Palpaleos: [character][0x0]. Have you
 finished our preparations?
 
   Hold on a minute.
@@ -230,7 +230,7 @@ a burden to you...[end]</data>
         <refs>
             <ref>0x601</ref>
         </refs>
-        <data>[character][0x1]! Don't say that!
+        <data>[character][0x0]! Don't say that!
 He'll think you're jealous![end]</data>
     </text>
     <text>
@@ -244,7 +244,7 @@ He'll think you're jealous![end]</data>
             <ref>0xb69</ref>
             <ref>0x61a</ref>
         </refs>
-        <data>Matelite: [character][0x1]! When you're
+        <data>Matelite: [character][0x0]! When you're
 finished preparing, let's go![end]</data>
     </text>
     <text>
@@ -278,7 +278,7 @@ I am scared.[end]</data>
         <refs>
             <ref>0x659</ref>
         </refs>
-        <data>Rush: This is pretty fun, [character][0x1]![end]</data>
+        <data>Rush: This is pretty fun, [character][0x0]![end]</data>
     </text>
     <text>
         <refs>
@@ -313,7 +313,7 @@ Come see me later![end]</data>
             <ref>0x6f0</ref>
         </refs>
         <data>Bikkebakke: Buy from me too,
-[character][0x1]![end]</data>
+[character][0x0]![end]</data>
     </text>
     <text>
         <refs>
@@ -558,7 +558,7 @@ not disappear...[end]</data>
             <ref>0x986</ref>
         </refs>
         <data>......?
-Are you the one named [character][0x1]?[end]</data>
+Are you the one named [character][0x0]?[end]</data>
     </text>
     <text>
         <refs>
@@ -794,7 +794,7 @@ sad!![end]</data>
         <refs>
             <ref>0xe9b</ref>
         </refs>
-        <data>Taicho: [character][0x1]... I, too, have
+        <data>Taicho: [character][0x0]... I, too, have
 been wondering about that ionct wewarrived..[end][end]</data>
     </text>
 </texts>

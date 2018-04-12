@@ -20,7 +20,7 @@ Even without using the girl...[end]</data>
         <refs>
             <ref>0x143</ref>
         </refs>
-        <data>Lukia: [character][0x1]! Get up![end]</data>
+        <data>Lukia: [character][0x0]! Get up![end]</data>
     </text>
     <text>
         <refs>
@@ -28,7 +28,7 @@ Even without using the girl...[end]</data>
             <ref>0x245</ref>
         </refs>
         <data>Lukia: I'll take care of everyone.
-[character][0x1], save [character][0x1]!
+[character][0x0], save [character][0x1]!
 
 Be careful, there's still an enemy
 general here![end]</data>
@@ -93,7 +93,7 @@ breathing! She's alright![end]</data>
         <data>Matelite: Oh... [character][0x1]...
 You're alright, [character][0x1]!
 
-This will not do! Okay, [character][0x1].
+This will not do! Okay, [character][0x0].
 Let's carry her![end]</data>
     </text>
     <text>
@@ -276,7 +276,7 @@ Dragnar, the world shall be yours...[end]</data>
         <refs>
             <ref>0x64a</ref>
         </refs>
-        <data>Palpaleos: You're... [character][0x1]?[end]</data>
+        <data>Palpaleos: You're... [character][0x0]?[end]</data>
     </text>
     <text>
         <refs>
@@ -291,7 +291,7 @@ Dragnar, the world shall be yours...[end]</data>
         <data>Palpaleos: I have heard about you
 many times from the princess...
 
-[character][0x1], captain of Kahna's Dragon
+[character][0x0], captain of Kahna's Dragon
 Squad... I retrny hep to you[end][end]</data>
     </text>
 </texts>

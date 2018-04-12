@@ -10,21 +10,21 @@
         <refs>
             <ref>0x37</ref>
         </refs>
-        <data>Sendak: Princess... [0xfc][0x1]I too can sense it.[0xfc][0x1]
+        <data>Sendak: Princess... [0xfc][0x20]I too can sense it.[0xfc][0x30]
 The Holy Dragon Jormungand is calling.[end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x68</ref>
         </refs>
-        <data>[character][0x1]: Jormungand...[0xfc][0x1] is calling
+        <data>[character][0x1]: Jormungand...[0xfc][0x18] is calling
 for me.[end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x47</ref>
         </refs>
-        <data>“Condition for Victory:”[0xfc][0x1]
+        <data>“Condition for Victory:”[0xfc][0x28]
 “Defeat of Soul Cage”[end]</data>
     </text>
     <text>
@@ -37,7 +37,7 @@ for me.[end1][end]</data>
         <refs>
             <ref>0x7e</ref>
         </refs>
-        <data>Matelite: Princess [character][0x1]...[0xfc][0x1]
+        <data>Matelite: Princess [character][0x1]...[0xfc][0x18]
 I won't leave your side![end1][end]</data>
     </text>
     <text>

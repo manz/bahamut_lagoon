@@ -438,14 +438,14 @@ Ils étaient innocents...[end]</data>
         <refs>
             <ref>0x9e8</ref>
         </refs>
-        <data>[character][0x1]...
+        <data>[character][0x0]...
 Ils étaient INNOCENTS...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa11</ref>
         </refs>
-        <data>[character][0x1]...
+        <data>[character][0x0]...
 Y a-t-il une personne que tu admires
 et que tu aimes?
 Y a-t-il une personne que tu
@@ -470,7 +470,7 @@ Et la Princesse [character][0x1]?[end]</data>
         <refs>
             <ref>0xa31</ref>
         </refs>
-        <data>[character][0x1],
+        <data>[character][0x0],
 tu es un garçon chanceux...[end]</data>
     </text>
     <text>
@@ -495,7 +495,7 @@ la tristesse s'empare alors de tout ton
             <ref>0xa55</ref>
         </refs>
         <data>Si cette chose t'arrive,
-[character][0x1]...
+[character][0x0]...
  
 tu seras alors simplement devenu un
 homme inutile,tout comme moi...[end]</data>

@@ -4,7 +4,7 @@
         <refs>
             <ref>0xbb</ref>
         </refs>
-        <data>Sendak: [character][0x1]......[end]</data>
+        <data>Sendak: [character][0x0]......[end]</data>
     </text>
     <text>
         <refs>
@@ -14,7 +14,7 @@
 lacking a sense of direction ever since
 long ago...
 So I don't really know where our
-destination should be... [character][0x1]...
+destination should be... [character][0x0]...
 Take care of it for me.
 Can you give Hornet our destination
 and the order to depart?[end]</data>
@@ -45,7 +45,7 @@ that...[end]</data>
             <ref>0x126</ref>
         </refs>
         <data>Ah... so you will take care of it for
-me? You really are nice, [character][0x1].[end]</data>
+me? You really are nice, [character][0x0].[end]</data>
     </text>
     <text>
         <refs>
@@ -54,7 +54,7 @@ me? You really are nice, [character][0x1].[end]</data>
         <data>He hates me... Oh no...
 I'm an old coot that nobody likes...
 But... Sendak, don't give up!!
-At some point [character][0x1] will
+At some point [character][0x0] will
 understand your feelings...!!
 Oh... I need to respond...[end]</data>
     </text>
@@ -64,7 +64,7 @@ Oh... I need to respond...[end]</data>
         </refs>
         <data>It goes without saying... If there is
 anybody who can do it, it is you,
-[character][0x1].[end]</data>
+[character][0x0].[end]</data>
     </text>
     <text>
         <refs>

@@ -4,7 +4,7 @@
         <refs>
             <ref>0x5d</ref>
         </refs>
-        <data>Rush: [character][0x1]... wake up!
+        <data>Rush: [character][0x0]... wake up!
 You felt it at Dafila, didn't you?
 From now on this is our time.[end]</data>
     </text>
@@ -92,7 +92,7 @@ us!![0x29][end]</data>
         <refs>
             <ref>0x1b4</ref>
         </refs>
-        <data>[character][0x1]... You're gonna be
+        <data>[character][0x0]... You're gonna be
 accompanying us for a little while![end]</data>
     </text>
     <text>
@@ -143,7 +143,7 @@ feeding you! Get in line![end]</data>
             <ref>0x3ba</ref>
         </refs>
         <data>Rush: Gimme some advice here,
-[character][0x1]![end]</data>
+[character][0x0]![end]</data>
     </text>
     <text>
         <refs>
@@ -217,13 +217,13 @@ What in the world is happening?[end]</data>
         </refs>
         <data>Matelite: [character][0x1]... we can talk
 later. For now we must protect
-[character][0x1]!![end]</data>
+[character][0x9]!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x917</ref>
         </refs>
-        <data>Here we go! [character][0x1]!! Rush!!
+        <data>Here we go! [character][0x0]!! Rush!!
 Follow me![end]</data>
     </text>
     <text>
@@ -249,7 +249,7 @@ this at least once![end]</data>
         <refs>
             <ref>0xbba</ref>
         </refs>
-        <data>Shopping!! [character][0x1]... I'll let you
+        <data>Shopping!! [character][0x0]... I'll let you
 choose the goods. This might be your
 last time to buy anything!
 I might become the leader, you see...
@@ -281,7 +281,7 @@ up for you?! Okay, time for shopping...[end]</data>
         <data>Matelite: I can't do a thing...
 Even though [character][0x1] is suffering...
 
-Come on, [character][0x1]... Rush...
+Come on, [character][0x0]... Rush...
 At least let me be by your side...[end]</data>
     </text>
     <text>
@@ -312,7 +312,7 @@ hearts' content...!![end]</data>
 good...
 
 Please try to put up with it, Captain
-[character][0x1]...[end]</data>
+[character][0x0]...[end]</data>
     </text>
     <text>
         <refs>

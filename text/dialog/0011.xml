@@ -63,7 +63,7 @@ C'est ma passion...[end]</data>
         <data>BIKKEBAKKE:
 Elle a un champignon sur le dos!
 Cette pieuvre en a un sur le dos!
-[character][0x1],veux-tu l'attraper?[end]</data>
+[character][0x0],veux-tu l'attraper?[end]</data>
     </text>
     <text>
         <refs>
@@ -195,7 +195,7 @@ ceux envoyés par le destin.
 Et euh... Bikkebakke pourrait me
 remplacer?
 Il ne te plaît pas?!
-Ou bien,il y a aussi [character][0x1]?![end]</data>
+Ou bien,il y a aussi [character][0x0]?![end]</data>
     </text>
     <text>
         <refs>
@@ -209,7 +209,7 @@ Ou bien,il y a aussi [character][0x1]?![end]</data>
             <ref>0x830</ref>
         </refs>
         <data>BIKKEBAKKE:
-[character][0x1],vieux frère!
+[character][0x0],vieux frère!
 Tu veux des champignons?[end]</data>
     </text>
     <text>

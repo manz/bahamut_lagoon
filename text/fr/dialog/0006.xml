@@ -40,7 +40,7 @@ rencontrer la Princesse [character][0x1]![end]</data>
         <refs>
             <ref>0x2c3</ref>
         </refs>
-        <data>[character][0x1],il faut toujours faire attention
+        <data>[character][0x0],il faut toujours faire attention
 à son apparence extérieur!
  
 Je me sers souvent de la bave de
@@ -107,7 +107,7 @@ bateau?[end]</data>
         <refs>
             <ref>0xbb2</ref>
         </refs>
-        <data>Tu es trop jeune [character][0x1]![end]</data>
+        <data>Tu es trop jeune [character][0x0]![end]</data>
     </text>
     <text>
         <refs>
@@ -246,14 +246,14 @@ elle est ici tout de même![end]</data>
             <ref>0x317</ref>
         </refs>
         <data>SENDACK:
-[character][0x1],la Princesse est réveillée![end][end]</data>
+[character][0x0],la Princesse est réveillée![end][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x11af</ref>
         </refs>
         <data>RUSH:
-Viens ici [character][0x1]![end]</data>
+Viens ici [character][0x0]![end]</data>
     </text>
     <text>
         <refs>
@@ -271,7 +271,7 @@ Viens ici [character][0x1]![end]</data>
         <refs>
             <ref>0x62b</ref>
         </refs>
-        <data>[character][0x1],est-ce toi?![end]</data>
+        <data>[character][0x0],est-ce toi?![end]</data>
     </text>
     <text>
         <refs>
@@ -425,7 +425,7 @@ c'est toujours comme ça pour nous![end]</data>
             <ref>0x35e</ref>
         </refs>
         <data>SENDACK:
-[character][0x1]!
+[character][0x0]!
 Allons-y,sortons![end]</data>
     </text>
     <text>
@@ -677,7 +677,7 @@ Il fallait le dire...[end]</data>
             <ref>0x10ee</ref>
         </refs>
         <data>SENDACK:
-[character][0x1]...[end]</data>
+[character][0x0]...[end]</data>
     </text>
     <text>
         <refs>
@@ -711,7 +711,7 @@ D... d'accord Princesse![end]</data>
             <ref>0x86a</ref>
         </refs>
         <data>[character][0x1]:
-[character][0x1],je dois te voir!
+[character][0x0],je dois te voir!
  
 Viens me rejoindre dans la Cabine du
 Capitaine![end]</data>
@@ -721,7 +721,7 @@ Capitaine![end]</data>
             <ref>0x87e</ref>
         </refs>
         <data>Princesse!
-[character][0x1] est le Capitaine de l'Escadron!
+[character][0x0] est le Capitaine de l'Escadron!
 Il est très occupé!
 Il a beaucoup trop de choses à faire.
 Mais moi,je suis libre!
@@ -891,7 +891,7 @@ Je ne le pense pas...[end]</data>
         <refs>
             <ref>0x9b6</ref>
         </refs>
-        <data>Je suis désolée [character][0x1]!
+        <data>Je suis désolée [character][0x0]!
 Je crois vraiment que je gâche ton
 temps à te parler.[end]</data>
     </text>
@@ -935,13 +935,13 @@ Mais,où as-tu appris ça?[end]</data>
             <ref>0xab5</ref>
         </refs>
         <data>[character][0x1]:
-Merci [character][0x1]![end]</data>
+Merci [character][0x0]![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x36c</ref>
         </refs>
-        <data>[character][0x1] et la princesse ensemble?!
+        <data>[character][0x0] et la princesse ensemble?!
 Elle ne peut pas tomber amoureuse en
 pleine période de guerre![end]</data>
     </text>
@@ -1132,7 +1132,7 @@ stratégie...[end]</data>
         <data>MATELIGHT:
 Mais bien sûr,Princesse [character][0x1]!
  
-Très bien [character][0x1]!
+Très bien [character][0x0]!
 Prépare-toi à combattre![end]</data>
     </text>
     <text>
@@ -1156,7 +1156,7 @@ telles choses sur la stratégie?[end]</data>
             <ref>0x521</ref>
         </refs>
         <data>HORNET:
-Es-tu prêt [character][0x1]?
+Es-tu prêt [character][0x0]?
  
  Attendons encore...
  Allons combattre![end1]</data>
@@ -1166,7 +1166,7 @@ Es-tu prêt [character][0x1]?
             <ref>0xc67</ref>
         </refs>
         <data>[character][0x1]:
-Allons-y [character][0x1]![end]</data>
+Allons-y [character][0x0]![end]</data>
     </text>
     <text>
         <refs>

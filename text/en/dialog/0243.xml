@@ -4,7 +4,7 @@
         <refs>
             <ref>0x9e</ref>
         </refs>
-        <data>[character][0x1]! Are you really giving this
+        <data>[character][0x0]! Are you really giving this
 house to us?[end]</data>
     </text>
     <text>
@@ -33,7 +33,7 @@ the war and gathered here...[end]</data>
         <refs>
             <ref>0xcd</ref>
         </refs>
-        <data>We... Until we met you, [character][0x1], we
+        <data>We... Until we met you, [character][0x0], we
 were like stray dogs...
 
 But...[end]</data>
@@ -96,25 +96,25 @@ this time...[end]</data>
         <refs>
             <ref>0x141</ref>
         </refs>
-        <data>[character][0x1]...
+        <data>[character][0x0]...
 Thank you...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x153</ref>
         </refs>
-        <data>[character][0x1]![end]</data>
+        <data>[character][0x0]![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x165</ref>
         </refs>
-        <data>Captain [character][0x1]!![end]</data>
+        <data>Captain [character][0x0]!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x177</ref>
         </refs>
-        <data>        [character][0x1]... I'm gldl we meu...[end][end]</data>
+        <data>        [character][0x0]... I'm gldl we meu...[end][end]</data>
     </text>
 </texts>

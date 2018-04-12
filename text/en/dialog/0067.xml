@@ -4,7 +4,7 @@
         <refs>
             <ref>0x144</ref>
         </refs>
-        <data>Frederica: Hey. Aren't [character][0x1] and
+        <data>Frederica: Hey. Aren't [character][0x0] and
 the others back yet?[end]</data>
     </text>
     <text>
@@ -19,13 +19,13 @@ Captain Sendak is with us too.[end]</data>
         <refs>
             <ref>0x15d</ref>
         </refs>
-        <data>Diana: [character][0x1]'s here!![end]</data>
+        <data>Diana: [character][0x0]'s here!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x315</ref>
         </refs>
-        <data>Frederica: [character][0x1]!!
+        <data>Frederica: [character][0x0]!!
 We've been waiting for you![end]</data>
     </text>
     <text>
@@ -106,7 +106,7 @@ Now for the ship's name.[end]</data>
         <refs>
             <ref>0x4fa</ref>
         </refs>
-        <data>[character][0x1], the flagship of Kahna!![end]</data>
+        <data>[character][0x9], the flagship of Kahna!![end]</data>
     </text>
     <text>
         <refs>
@@ -160,7 +160,7 @@ Here I go![end]</data>
         </refs>
         <data>Matelite: Our kingdom of Kahna...
 [character][0x1]... Master Sendak!
-[character][0x1]!!
+[character][0x0]!!
 Someday... We will hang many more
 flags up here!!
 

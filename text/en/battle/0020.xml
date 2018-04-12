@@ -12,7 +12,7 @@ floating fortress?![end1][end]</data>
             <ref>0x3b</ref>
         </refs>
         <data>[character][0x1]: There's a Holy Dragon
-here...[0xfc][0x1] A Holy Dragon with tremendous
+here...[0xfc][0x18] A Holy Dragon with tremendous
 power...![end1][end]</data>
     </text>
     <text>
@@ -20,27 +20,27 @@ power...![end1][end]</data>
             <ref>0x48</ref>
         </refs>
         <data>Taicho: The fortress utilizes the power
-of a Holy Dragon?[0xfc][0x1] That is amazing!![end1][end]</data>
+of a Holy Dragon?[0xfc][0x18] That is amazing!![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x55</ref>
         </refs>
-        <data>Palpaleos: Sauzer...[0xfc][0x1]
+        <data>Palpaleos: Sauzer...[0xfc][0x18]
 Are you here as well...?[end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5e</ref>
         </refs>
-        <data>“Condition for Victory:”[0xfc][0x1]
+        <data>“Condition for Victory:”[0xfc][0x28]
 “Defeat of Irvine”[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9e</ref>
         </refs>
-        <data>Taicho: What are those on the floor?[0xfc][0x1]
+        <data>Taicho: What are those on the floor?[0xfc][0x15]
 They appear suspicious!![end1][end]</data>
     </text>
     <text>
@@ -49,7 +49,7 @@ They appear suspicious!![end1][end]</data>
         </refs>
         <data>Matelite: They've got nothing to do
 with us defeating the enemy!!
-[0xfc][0x1]Just attack!![end1][end]</data>
+[0xfc][0x18]Just attack!![end1][end]</data>
     </text>
     <text>
         <refs>
@@ -73,8 +73,8 @@ with us defeating the enemy!!
         <refs>
             <ref>0xbff</ref>
         </refs>
-        <data>There's something in the back room!![0xfc][0x1]
-A Holy Dragon...?[0xfc][0x1] I have a bad feeling
+        <data>There's something in the back room!![0xfc][0x18]
+A Holy Dragon...?[0xfc][0x18] I have a bad feeling
 about this... But let's check it out...[end1][end]</data>
     </text>
 </texts>

@@ -4,22 +4,22 @@
         <refs>
             <ref>0x28</ref>
         </refs>
-        <data>Lestat: Heeheehee![0xfc][0x1] Ladies and
-gentleman of the Resistance!![0xfc][0x1]
+        <data>Lestat: Heeheehee![0xfc][0x20] Ladies and
+gentleman of the Resistance!![0xfc][0x20]
 Thanks for coming![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2c</ref>
         </refs>
-        <data>My preparations are all set![0xfc][0x1]
+        <data>My preparations are all set![0xfc][0x20]
 Well then, shall we begin?[end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x35</ref>
         </refs>
-        <data>“Condition for Victory:”[0xfc][0x1]
+        <data>“Condition for Victory:”[0xfc][0x28]
 “Defeat of Lestat”[end]</data>
     </text>
     <text>
@@ -39,7 +39,7 @@ These statues are booby-trapped![end1][end]</data>
         <refs>
             <ref>0x19a</ref>
         </refs>
-        <data>Lestat: No!!![0xfc][0x1] Impossible!![0xfc][0x1]
+        <data>Lestat: No!!![0xfc][0x30] Impossible!![0xfc][0x30]
 I, the great Lestat, cannot be
 defeated...![end1][end]</data>
     </text>
@@ -47,6 +47,6 @@ defeated...![end1][end]</data>
         <refs>
             <ref>0x19e</ref>
         </refs>
-        <data>F...[0xfc][0x1] Fuck!![0xfc][0x1][end][end]</data>
+        <data>F...[0xfc][0x18] Fuck!![0xfc][0x30][end][end]</data>
     </text>
 </texts>

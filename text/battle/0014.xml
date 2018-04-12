@@ -4,7 +4,7 @@
         <refs>
             <ref>0x2c</ref>
         </refs>
-        <data>“Condition for Victory:”[0xfc][0x1]
+        <data>“Condition for Victory:”[0xfc][0x28]
 “Defeat of Grand Moth”[end][end]</data>
     </text>
 </texts>

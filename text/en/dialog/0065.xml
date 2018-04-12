@@ -10,7 +10,7 @@
         <refs>
             <ref>0x104</ref>
         </refs>
-        <data>Taicho: [character][0x1], do not get angry
+        <data>Taicho: [character][0x0], do not get angry
 when you hear what the queen has to
 say.[end]</data>
     </text>
@@ -18,7 +18,7 @@ say.[end]</data>
         <refs>
             <ref>0x111</ref>
         </refs>
-        <data>[character][0x1]: Sorry, [character][0x1].
+        <data>[character][0x1]: Sorry, [character][0x0].
 Let us be alone for now.[end]</data>
     </text>
     <text>
@@ -26,7 +26,7 @@ Let us be alone for now.[end]</data>
             <ref>0x11e</ref>
         </refs>
         <data>I know that what we did was not a
-mistake... [character][0x1]... Don't be
+mistake... [character][0x0]... Don't be
 disappointed...
 That's it! At a time like this we need
 some recreation![end]</data>
@@ -35,7 +35,7 @@ some recreation![end]</data>
         <refs>
             <ref>0x12b</ref>
         </refs>
-        <data>Sendak: [character][0x1]! There is a place
+        <data>Sendak: [character][0x0]! There is a place
 in town where we can have a drink. I
 shall be waiting for you there![end]</data>
     </text>
@@ -111,7 +111,7 @@ say to you![end]</data>
             <ref>0x1a2</ref>
         </refs>
         <data>Queen Campbell: You... you're
-[character][0x1], aren't you?[end]</data>
+[character][0x0], aren't you?[end]</data>
     </text>
     <text>
         <refs>
@@ -178,17 +178,17 @@ Campbell? Can you do that?[end]</data>
         <refs>
             <ref>0x294</ref>
         </refs>
-        <data>[character][0x1]: [character][0x1]... I heard most of
+        <data>[character][0x1]: [character][0x0]... I heard most of
 it from the people upstairs.
 
-[character][0x1], please. Please let us be
+[character][0x0], please. Please let us be
 alone...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2d6</ref>
         </refs>
-        <data>Nelbo: You're [character][0x1] of Kahna's
+        <data>Nelbo: You're [character][0x0] of Kahna's
 Dragon Squad, right?[end]</data>
     </text>
     <text>

@@ -29,7 +29,7 @@ Look!![end]</data>
         <refs>
             <ref>0x5b8</ref>
         </refs>
-        <data>Dragonkeeper: [character][0x1] is scouting
+        <data>Dragonkeeper: [character][0x7] is scouting
 the skies along with the crew!!
 
 He's following the ball of light that
@@ -42,10 +42,10 @@ daggers as a reward![end]</data>
         <refs>
             <ref>0x5c0</ref>
         </refs>
-        <data>Dragonkeeper: Rush got on [character][0x1]
+        <data>Dragonkeeper: Rush got on [character][0x2]
 and is waiting for you!! Are you going
 for a flight?
-Scouting the sky is [character][0x1]'s duty.[end]</data>
+Scouting the sky is [character][0x7]'s duty.[end]</data>
     </text>
     <text>
         <refs>
@@ -64,7 +64,7 @@ Okay!! Food!![end]</data>
             <ref>0x5dc</ref>
         </refs>
         <data>Dragonkeeper: Well then, will you go?
-[character][0x1] really loved basking in the
+[character][0x4] really loved basking in the
 thunder.[end]</data>
     </text>
     <text>
@@ -116,7 +116,7 @@ me... Hee hee hee...[end]</data>
             <ref>0x666</ref>
         </refs>
         <data>Hee hee hee... Armor saleslady...
-Oh...!! [character][0x1]!![end]</data>
+Oh...!! [character][0x0]!![end]</data>
     </text>
     <text>
         <refs>
@@ -178,7 +178,7 @@ Would you like to see them?[end]</data>
             <ref>0x7e2</ref>
             <ref>0x8ac</ref>
         </refs>
-        <data>[character][0x1]'s shop is open every day
+        <data>[character][0x9]'s shop is open every day
 of the year!! Even during rain and
 heavy wind, come by any time![end]</data>
     </text>
@@ -273,7 +273,7 @@ Ah, welcome!![end]</data>
             <ref>0x7b2</ref>
         </refs>
         <data>I have a letter from my salesmen
-colleague for you, [character][0x1].[end]</data>
+colleague for you, [character][0x0].[end]</data>
     </text>
     <text>
         <refs>
@@ -285,7 +285,7 @@ colleague for you, [character][0x1].[end]</data>
         <refs>
             <ref>0x7d2</ref>
         </refs>
-        <data>[0x28]Abbreviated...[0x29] To [character][0x1],
+        <data>[0x28]Abbreviated...[0x29] To [character][0x0],
 It's all very sudden, but we got
 married.
 From now on we will work very hard
@@ -308,7 +308,7 @@ up a small shop. Maybe a book shop
 would be nice...
 I can have him write books or
 something. I want to let the people of
-Orelus know about you, [character][0x1].[end]</data>
+Orelus know about you, [character][0x0].[end]</data>
     </text>
     <text>
         <refs>
@@ -511,7 +511,7 @@ are...[end]</data>
         <data>Crew member: Thanks for earlier. As a
 reward, I will tell you about my dream.
 Someday, I want to become a dragon.
-I promised [character][0x1] I would, but
+I promised [character][0x7] I would, but
 will the day when it comes true ever
 come...?[end]</data>
     </text>

@@ -28,7 +28,7 @@ We must withdraw![end]</data>
         <refs>
             <ref>0x3f8</ref>
         </refs>
-        <data>Mist: [character][0x1]...
+        <data>Mist: [character][0x0]...
 Stop Matelite...[end]</data>
     </text>
     <text>
@@ -41,14 +41,14 @@ Stop Matelite...[end]</data>
         <refs>
             <ref>0x553</ref>
         </refs>
-        <data>            [character][0x1]!!
+        <data>            [character][0x0]!!
             Matelite![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5b3</ref>
         </refs>
-        <data>Palpaleos: [character][0x1], the captain of
+        <data>Palpaleos: [character][0x0], the captain of
 Kahna's Dragon Squad...!![end]</data>
     </text>
     <text>

@@ -553,7 +553,7 @@ Je vous soutiendrai![end]</data>
             <ref>0x6be</ref>
         </refs>
         <data>MATELIGHT:
-[character][0x1],prépare-toi!
+[character][0x0],prépare-toi!
 L'ambiance qui règne ici est austère.[end]</data>
     </text>
     <text>
@@ -641,7 +641,7 @@ terrible mais ils ont l'air apaisé
 depuis que nous allons les aider.
 Je sens aussi que la colère de leur
 esprit s'est affaiblie.
-Au fait,[character][0x1],penses-tu que je sois
+Au fait,[character][0x0],penses-tu que je sois
 assez puissante?
  
  Tu l'es...
@@ -652,7 +652,7 @@ assez puissante?
             <ref>0x12e7</ref>
         </refs>
         <data>[character][0x1]:
-Merci [character][0x1]!
+Merci [character][0x0]!
 Je ne te décevrai pas![end]</data>
     </text>
     <text>
@@ -660,7 +660,7 @@ Je ne te décevrai pas![end]</data>
             <ref>0x12f1</ref>
         </refs>
         <data>[character][0x1]:
-[character][0x1]!
+[character][0x0]!
  
 Je crois que si tu faisais un peu
 attention à moi,tu aurais remarqué
@@ -1153,7 +1153,7 @@ J'essaierai de faire vite![end]</data>
             <ref>0xd10</ref>
         </refs>
         <data>HORNET:
-Es-tu prêt,[character][0x1]?
+Es-tu prêt,[character][0x0]?
  
  Attendre un peu!
  Allons combattre[0xd8][end1]</data>
@@ -1181,7 +1181,7 @@ Suis-je un lâche?[end]</data>
             <ref>0xee2</ref>
         </refs>
         <data>ZORA:
-Viens [character][0x1]!
+Viens [character][0x0]!
  
 Palpaleos et la Princesse ont à se
 parler...
@@ -1243,7 +1243,7 @@ La Porte de la Nouvelle Ere![end]</data>
             <ref>0x1318</ref>
         </refs>
         <data>[character][0x1]:
-[character][0x1]...
+[character][0x0]...
 Qu'est-ce qui ne va pas?[end]</data>
     </text>
     <text>
@@ -1251,7 +1251,7 @@ Qu'est-ce qui ne va pas?[end]</data>
             <ref>0x132b</ref>
         </refs>
         <data>La Porte de la Nouvelle Ere...
-Attends,[character][0x1][0xd8]
+Attends,[character][0x0][0xd8]
  
 Le coeur des Dragons Sacrés va me la
 montrer...
@@ -1288,7 +1288,7 @@ L'Empire Granbelos...[end]</data>
             <ref>0x13a8</ref>
         </refs>
         <data>PALPALEOS:
-[character][0x1]...
+[character][0x0]...
  
 Si tu rencontres le Général Gudruff,
 ne reviens à FARENHEIT que si tu l'as
@@ -1374,7 +1374,7 @@ Kana est loin de Granbelos![end]</data>
             <ref>0x2a9</ref>
         </refs>
         <data>[character][0x1]:
-[character][0x1],je dois te parler![end]</data>
+[character][0x0],je dois te parler![end]</data>
     </text>
     <text>
         <refs>
@@ -1691,7 +1691,7 @@ Nous voilà![end]</data>
         </refs>
         <data>MATELIGHT:
 Génial!
-[character][0x1],prépare-toi![end]</data>
+[character][0x0],prépare-toi![end]</data>
     </text>
     <text>
         <refs>

@@ -192,7 +192,7 @@ Convaincs-la![end]</data>
             <ref>0x2d6</ref>
         </refs>
         <data>NELBO:
-Tu es [character][0x1],membre de l'Escadron
+Tu es [character][0x0],membre de l'Escadron
 Dragon de Kana?![end]</data>
     </text>
     <text>
@@ -208,7 +208,7 @@ Je t'en prie,vas-y...[end]</data>
             <ref>0x1a2</ref>
         </refs>
         <data>IMPERATRICE DE CAMPBELL:
-Tu es [character][0x1],n'est-ce pas?[end]</data>
+Tu es [character][0x0],n'est-ce pas?[end]</data>
     </text>
     <text>
         <refs>
@@ -282,7 +282,7 @@ Je n'ai rien à te dire![end]</data>
             <ref>0x294</ref>
         </refs>
         <data>[character][0x1]:
-[character][0x1]!
+[character][0x0]!
  
 Va rejoindre ton bataillon,
 s'il te plaît!
@@ -312,7 +312,7 @@ Ne t'inquiète pas!
 Nous sommes du bon côté!
 Nous ne devrions pas nous
 inquiéter...
-[character][0x1],nous devrions nous reposer.
+[character][0x0],nous devrions nous reposer.
 Oui! A une telle heure,c'est
 nécessaire![end]</data>
     </text>
@@ -321,7 +321,7 @@ nécessaire![end]</data>
             <ref>0x111</ref>
         </refs>
         <data>[character][0x1]:
-Désolé [character][0x1]!
+Désolé [character][0x0]!
 Seulement deux personnes.[end]</data>
     </text>
     <text>
@@ -329,7 +329,7 @@ Seulement deux personnes.[end]</data>
             <ref>0x12b</ref>
         </refs>
         <data>SENDACK:
-[character][0x1]!
+[character][0x0]!
  
 Allons au bar,en ville,pour boire un
 peu de vin.

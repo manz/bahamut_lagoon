@@ -100,7 +100,7 @@ stylish! They appear brand new!![end]</data>
             <ref>0x313</ref>
         </refs>
         <data>Taicho: Come, [character][0x1]!
-[character][0x1], you line up too![end]</data>
+[character][0x0], you line up too![end]</data>
     </text>
     <text>
         <refs>
@@ -134,7 +134,7 @@ Where are you, Matelite...[end]</data>
         <refs>
             <ref>0x461</ref>
         </refs>
-        <data>[character][0x1]...
+        <data>[character][0x0]...
 Sendak...
 Please listen, everyone.
 Right now, right here...
@@ -250,7 +250,7 @@ can continue to fight?[end]</data>
         <refs>
             <ref>0x585</ref>
         </refs>
-        <data>[character][0x1]... you too.[end]</data>
+        <data>[character][0x0]... you too.[end]</data>
     </text>
     <text>
         <refs>
@@ -301,7 +301,7 @@ strong...[end]</data>
         <refs>
             <ref>0x599</ref>
         </refs>
-        <data>[character][0x1]... You've cheered me up so
+        <data>[character][0x0]... You've cheered me up so
 many times...
 
 From now on... please lead us to
@@ -426,7 +426,7 @@ with lots of tips!![0x29][end]</data>
         <data>[character][0x1]: Tonight is the night of
 Kahna's revival!! Let's all have fun!!
 
-Hey... [character][0x1]. What are you going to
+Hey... [character][0x0]. What are you going to
 do tonight?[end]</data>
     </text>
     <text>
@@ -607,7 +607,7 @@ the night of Kahna's revival...[end]</data>
             <ref>0xdd0</ref>
         </refs>
         <data>He certainly must have been hurt
-by your words, [character][0x1]![end]</data>
+by your words, [character][0x0]![end]</data>
     </text>
     <text>
         <refs>
@@ -694,7 +694,7 @@ And once again Matelite is poor...[end]</data>
         <data>Rush: Now we just hafta wait for
 [character][0x1], who's gonna be the queen
 of Kahna!
-But you know, [character][0x1]... Are you
+But you know, [character][0x0]... Are you
 really that happy?[end]</data>
     </text>
     <text>

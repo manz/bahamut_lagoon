@@ -4,7 +4,7 @@
         <refs>
             <ref>0x28</ref>
         </refs>
-        <data>“Condition for Victory:”[0xfc][0x1]
+        <data>“Condition for Victory:”[0xfc][0x28]
 “Defeat of all enemies”[end]</data>
     </text>
     <text>
@@ -24,6 +24,6 @@ first![end1][end]</data>
         <refs>
             <ref>0x9c</ref>
         </refs>
-        <data>Attack that one![0xfc][0x1][end1][end]</data>
+        <data>Attack that one![0xfc][0x28][end1][end]</data>
     </text>
 </texts>

@@ -5,21 +5,21 @@
             <ref>0x28</ref>
         </refs>
         <data>Persona: I will not allow trash aboard
-my ship![0xfc][0x1] How dare you filthy it up, you
+my ship![0xfc][0x18] How dare you filthy it up, you
 dirty scum![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x33</ref>
         </refs>
-        <data>“Condition for Victory:”[0xfc][0x1]
+        <data>“Condition for Victory:”[0xfc][0x28]
 “Defeat of Persona”[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x11b</ref>
         </refs>
-        <data>Persona: D... Damn it, no!!![0xfc][0x1]
+        <data>Persona: D... Damn it, no!!![0xfc][0x18]
 I haven't even finished paying off the
 loan yet!![end1][end]</data>
     </text>

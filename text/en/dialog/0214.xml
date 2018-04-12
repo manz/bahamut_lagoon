@@ -4,7 +4,7 @@
         <refs>
             <ref>0x59a</ref>
         </refs>
-        <data>Rush: [character][0x1]!! Nobody will listen
+        <data>Rush: [character][0x0]!! Nobody will listen
 to me!
 
 They say to let them do whatever
@@ -51,7 +51,7 @@ I don't need it anymore.[end]</data>
             <ref>0x5d9</ref>
             <ref>0x60c</ref>
         </refs>
-        <data>Bikkebakke: [character][0x1]... Please help
+        <data>Bikkebakke: [character][0x0]... Please help
 me!
 
   Let me help you out.
@@ -94,7 +94,7 @@ For Rush, I would... Huh? I wonder
 what Rush would want?
 
 In my room... well you already know,
-[character][0x1].[end]</data>
+[character][0x0].[end]</data>
     </text>
     <text>
         <refs>
@@ -108,7 +108,7 @@ money... I don't think I can do it...[end]</data>
             <ref>0x70f</ref>
         </refs>
         <data>I guess so after all. It's just like you
-said, [character][0x1]!![end]</data>
+said, [character][0x0]!![end]</data>
     </text>
     <text>
         <refs>
@@ -161,7 +161,7 @@ will you hear me out?
         <refs>
             <ref>0x6df</ref>
         </refs>
-        <data>Ah... [character][0x1] must have been
+        <data>Ah... [character][0x0] must have been
 rejected... So he must be trying to get
 in the way of people's happiness now...[end]</data>
     </text>
@@ -187,7 +187,7 @@ This armor is stuffy.[end]</data>
         <refs>
             <ref>0x6b8</ref>
         </refs>
-        <data>Barclay: [character][0x1], remember this.
+        <data>Barclay: [character][0x0], remember this.
 In this world, you must not give up
 even if you lose.
 The items, money, and experience you
@@ -201,7 +201,7 @@ we and the dragons grow stronger.[end]</data>
             <ref>0x7fb</ref>
         </refs>
         <data>Reeve: Frenze is still depressed!
-Hey, [character][0x1]! I want a new lancer![end]</data>
+Hey, [character][0x0]! I want a new lancer![end]</data>
     </text>
     <text>
         <refs>
@@ -223,7 +223,7 @@ Don't talk to me...[end]</data>
         <refs>
             <ref>0x7b8</ref>
         </refs>
-        <data>Gunso: [character][0x1]! I want to return
+        <data>Gunso: [character][0x0]! I want to return
 to Orelus alive! [0x2a]scratch[0x2a] There are
 lots of things I will do![end]</data>
     </text>
@@ -258,7 +258,7 @@ The spoils of victory, money of course![end]</data>
             <ref>0x6bf</ref>
         </refs>
         <data>Barclay: I think you might know a lot
-about this, [character][0x1].
+about this, [character][0x0].
 
 A man and woman who are constantly
 bickering... Love suddenly sprouts
@@ -274,7 +274,7 @@ Does this sort of thing ever happen?
             <ref>0x6e9</ref>
         </refs>
         <data>Barclay: I think you might know a lot
-about this, [character][0x1].
+about this, [character][0x0].
 
 A stuck-up wizard and a simple Heavy
 Armor Knight. If they started to like
@@ -286,7 +286,7 @@ each other, would things work out?
         <refs>
             <ref>0x700</ref>
         </refs>
-        <data>Ah... [character][0x1] must be trying to get
+        <data>Ah... [character][0x0] must be trying to get
 in the way of people's happiness.
 No, no, it's just that he's so busy...
 All the thinking, preparing, and what
@@ -299,7 +299,7 @@ off of him, I'll do it.[end]</data>
         <refs>
             <ref>0x71f</ref>
         </refs>
-        <data>Barclay: Oh, [character][0x1]. I'll let you
+        <data>Barclay: Oh, [character][0x0]. I'll let you
 know for the time being.
 
 That stuck-up wizard... Anastasia,
@@ -317,7 +317,7 @@ strongest for the rest of our lives.
         </refs>
         <data>Gunso: This is just for your ears only...
 What do you think of Taicho,
-[character][0x1]?
+[character][0x0]?
   Not much...
   Not a whole lot...[end1]</data>
     </text>
@@ -469,7 +469,7 @@ embarrassed. I'm trying hard![end]</data>
         <refs>
             <ref>0x87f</ref>
         </refs>
-        <data>Crew member: I have this, [character][0x1].
+        <data>Crew member: I have this, [character][0x0].
 How about it?[end][end]</data>
     </text>
 </texts>

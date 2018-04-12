@@ -28,7 +28,7 @@ Let's get going![end]</data>
             <ref>0x5a6</ref>
         </refs>
         <data>Palpaleos: I want to talk with
-[character][0x1]. Can you wait for me
+[character][0x0]. Can you wait for me
 inside...?[end]</data>
     </text>
     <text>
@@ -36,21 +36,21 @@ inside...?[end]</data>
             <ref>0x5cf</ref>
             <ref>0x607</ref>
         </refs>
-        <data>[character][0x1]: Please, [character][0x1]...
+        <data>[character][0x1]: Please, [character][0x0]...
 He's very important to me...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x624</ref>
         </refs>
-        <data>Palpaleos: [character][0x1]... Sorry...
+        <data>Palpaleos: [character][0x0]... Sorry...
 Help me up, if you could...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x680</ref>
         </refs>
-        <data>Sendak: [character][0x1]...
+        <data>Sendak: [character][0x0]...
 I am of no use, am I...?[end]</data>
     </text>
     <text>
@@ -64,7 +64,7 @@ I am of no use, am I...?[end]</data>
         <refs>
             <ref>0x68e</ref>
         </refs>
-        <data>[character][0x1]... I... I cannot take the
+        <data>[character][0x0]... I... I cannot take the
 place of the princess...[end]</data>
     </text>
     <text>
@@ -75,6 +75,6 @@ place of the princess...[end]</data>
 
 
 Farewell...
-[character][0x1]...[end][end]</data>
+[character][0x0]...[end][end]</data>
     </text>
 </texts>

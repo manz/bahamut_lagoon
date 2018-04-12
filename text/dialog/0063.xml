@@ -42,12 +42,12 @@ Un peu de shopping?![end]</data>
             <ref>0x473</ref>
         </refs>
         <data>LIBERO:
-[character][0x1],vous nous quittez déjà?
+[character][0x0],vous nous quittez déjà?
  
 Dafira a achevé sa libération,le plus
 terrible est passé.
  
-[character][0x1],faites tout votre possible pour
+[character][0x0],faites tout votre possible pour
 les autres![end]</data>
     </text>
     <text>
@@ -179,7 +179,7 @@ obéir,n'est-ce pas?[end]</data>
             <ref>0x2e5</ref>
         </refs>
         <data>SENDACK:
-[character][0x1],la Princesse m'a parlé d'un de
+[character][0x0],la Princesse m'a parlé d'un de
 ses rêves.
 Elle a vu le Dragon Sacré Jormungand.
 Et il lui a parlé.
@@ -212,7 +212,7 @@ Je crois que je vais bien.[end]</data>
             <ref>0x3f4</ref>
         </refs>
         <data>BIKKEBAKKE:
-[character][0x1],mon frère!
+[character][0x0],mon frère!
 Tu es prêt à aller combattre?[end]</data>
     </text>
     <text>

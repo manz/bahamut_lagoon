@@ -29,7 +29,7 @@ C'est la dure réalité de la guerre.[end]</data>
             <ref>0x1dc</ref>
         </refs>
         <data>MATELIGHT:
-[character][0x1],
+[character][0x0],
 va te renseigner sur le Dragon Sacré!
 Nous,nous retournons à FARENHEIT![end]</data>
     </text>
@@ -37,7 +37,7 @@ Nous,nous retournons à FARENHEIT![end]</data>
         <refs>
             <ref>0x1f5</ref>
         </refs>
-        <data>[character][0x1]!
+        <data>[character][0x4]!
 Viens!
 Qu'est-ce que tu fais?![end]</data>
     </text>
@@ -211,7 +211,7 @@ Entre![end]</data>
         <refs>
             <ref>0x7c0</ref>
         </refs>
-        <data>Héhé! [character][0x1]!
+        <data>Héhé! [character][0x0]!
 Ca y est,ça y est[0xd8]
  
 DON JUAN:
@@ -257,7 +257,7 @@ aussi aller me reposer.[end]</data>
 Que veut-il?
 Je suis pourtant un gentleman...
 Est-ce que c'est privé?
-Tu n'aimerais pas y entrer [character][0x1]?
+Tu n'aimerais pas y entrer [character][0x0]?
 Quoi?!
 Tu n'aurais rien à y faire?![end]</data>
     </text>
@@ -333,7 +333,7 @@ Demain à Dafira sera mis en place un
 gouvernement formé de révolutionnaires
 pour la liberté!
 Notre leader est...
-le seigneur [character][0x1]!
+le seigneur [character][0x0]!
 Nous vous l'annonçons en ces lieux:
 Dès à présent,Dafira est un pays libre!
 Une nouvelle ère commence![end]</data>
@@ -384,7 +384,7 @@ Nous sommes tous libres![end]</data>
         <refs>
             <ref>0x965</ref>
         </refs>
-        <data>             Et [character][0x1]...[end]</data>
+        <data>             Et [character][0x0]...[end]</data>
     </text>
     <text>
         <refs>
@@ -440,7 +440,7 @@ Je t'en dirai une pour [0xb0][0xaf][0xaf] Po![end]</data>
             <ref>0xa8f</ref>
         </refs>
         <data>Il paraîtrait que le Capitaine de
-l'Escadron Dragon,[character][0x1],se marierait
+l'Escadron Dragon,[character][0x0],se marierait
 bientôt avec la Princesse [character][0x1]![end]</data>
     </text>
     <text>

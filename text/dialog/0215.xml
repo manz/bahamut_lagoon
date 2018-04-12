@@ -61,7 +61,7 @@ une Garde Lumière,peut marcher loin.[end]</data>
             <ref>0x532</ref>
         </refs>
         <data>MELODIA:
-[character][0x1],
+[character][0x0],
 est-ce que tu aimes [character][0x1]?
  Evidemment,quelle question!
  Et bien...[end1]</data>
@@ -74,7 +74,7 @@ est-ce que tu aimes [character][0x1]?
 ...
 ...
 Mélodia aime beaucoup tout ce qu'aime
-[character][0x1]...[end]</data>
+[character][0x0]...[end]</data>
     </text>
     <text>
         <refs>
@@ -92,7 +92,7 @@ bien vêtus![end]</data>
             <ref>0x5ff</ref>
         </refs>
         <data>Merci...
-[character][0x1],tu es très gentil.[end]</data>
+[character][0x0],tu es très gentil.[end]</data>
     </text>
     <text>
         <refs>
@@ -280,7 +280,7 @@ Huhu... Huhuhu... Huhuhuhu...[end]</data>
         <data>EKATERINA:
 Que j'ai de souvenirs!
 Que je suis intelligente!
-C'est [character][0x1] qui l'a dit!
+C'est [character][0x0] qui l'a dit!
 Il n'y a qu'une personne au monde
 qui aime le uniuji.
 Je suis cette personne dont il parle si
@@ -296,7 +296,7 @@ Huhu... Huhuhu... Huhuhuhu...[end]</data>
         </refs>
         <data>NELBO:
 Est-ce que tu as remarqué quelque
-chose,[character][0x1]?
+chose,[character][0x0]?
 Nous avons enfermé Don Juan!
 C'est génial,n'est-ce pas?![end]</data>
     </text>
@@ -341,7 +341,7 @@ amie Nelbo.[end]</data>
             <ref>0x50e</ref>
         </refs>
         <data>DON JUAN:
-Haha,[character][0x1]!
+Haha,[character][0x0]!
 Je suis Don Juan,le Méritant![end]</data>
     </text>
     <text>
@@ -349,7 +349,7 @@ Je suis Don Juan,le Méritant![end]</data>
             <ref>0x54f</ref>
         </refs>
         <data>MELODIA:
-Ah [character][0x1]!
+Ah [character][0x0]!
 Tu sais qui aime Mélodia?
  Tu vas encore mentir!
  Je le sais...[end1]</data>
@@ -386,7 +386,7 @@ Est-ce bientôt la fin de la guerre?
         <refs>
             <ref>0x57e</ref>
         </refs>
-        <data>C'est terrible [character][0x1]!
+        <data>C'est terrible [character][0x0]!
 C'est long![end]</data>
     </text>
     <text>
@@ -475,7 +475,7 @@ plus vraies.[end]</data>
             <ref>0x76b</ref>
         </refs>
         <data>LUKIA:
-[character][0x1],tu sembles aller mieux depuis
+[character][0x0],tu sembles aller mieux depuis
 quelques jours!
 Fais-tu attention aux rumeurs qui
 courent?
@@ -570,7 +570,7 @@ Le Général Palpaleos et la Princesse
         <data>Huhu... Huhuhu... Huhuhuhu...
 Que devrais-je bien lui dire?
  
-[character][0x1],j'ai la sensation que tout cela
+[character][0x0],j'ai la sensation que tout cela
 était inévitable!
  
 Un instant! Regarde-moi!

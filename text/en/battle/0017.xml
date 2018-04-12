@@ -12,7 +12,7 @@ never seen before!![end1][end]</data>
             <ref>0x32</ref>
         </refs>
         <data>Matelite: What the hell are these
-monsters?![0xfc][0x1] They just appeared out of
+monsters?![0xfc][0x15] They just appeared out of
 a hole the sky!![end1][end]</data>
     </text>
     <text>
@@ -25,21 +25,21 @@ a hole the sky!![end1][end]</data>
         <refs>
             <ref>0x50</ref>
         </refs>
-        <data>[character][0x1]: Be careful, [0xfc][0x1][character][0x1].[0xfc][0x1]
+        <data>[character][0x1]: Be careful, [0xfc][0x10][character][0x0].[0xfc][0x20]
 The Holy Dragons are confused too...[end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x57</ref>
         </refs>
-        <data>What are they?[0xfc][0x1] I've never seen any
-monsters like these before...[0xfc][0x1][end1][end]</data>
+        <data>What are they?[0xfc][0x10] I've never seen any
+monsters like these before...[0xfc][0x20][end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x64</ref>
         </refs>
-        <data>Sendak: Be careful, [0xfc][0x1][character][0x1].[0xfc][0x1]
+        <data>Sendak: Be careful, [0xfc][0x10][character][0x0].[0xfc][0x20]
 I do not know what they are...[end1][end]</data>
     </text>
     <text>
@@ -52,7 +52,7 @@ I do not know what they are...[end1][end]</data>
         <refs>
             <ref>0x76</ref>
         </refs>
-        <data>“Condition for Victory:”[0xfc][0x1]
+        <data>“Condition for Victory:”[0xfc][0x28]
 “Defeat of Dictory”[end]</data>
     </text>
     <text>
@@ -71,7 +71,7 @@ I do not know what they are...[end1][end]</data>
         <refs>
             <ref>0xbd</ref>
         </refs>
-        <data>Look out!![0xfc][0x1]
-Everyone inside [character][0x1], now!![end1][end]</data>
+        <data>Look out!![0xfc][0x18]
+Everyone inside [character][0x9], now!![end1][end]</data>
     </text>
 </texts>

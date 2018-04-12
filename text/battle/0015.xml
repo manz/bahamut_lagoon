@@ -30,20 +30,20 @@ No faltering!![end1][end]</data>
             <ref>0x59</ref>
         </refs>
         <data>Taicho: We will bring this to a
-conclusion,[0xfc][0x1] right here![end1][end]</data>
+conclusion,[0xfc][0x10] right here![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x64</ref>
         </refs>
-        <data>Matelite: Princess [character][0x1]...[0xfc][0x1]
+        <data>Matelite: Princess [character][0x1]...[0xfc][0x18]
 Please watch over us...[end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6b</ref>
         </refs>
-        <data>Sauzer: Members of the Resistance,[0xfc][0x1]
+        <data>Sauzer: Members of the Resistance,[0xfc][0x10]
 this has indeed been a lengthy war...[end1][end]</data>
     </text>
     <text>
@@ -63,21 +63,21 @@ It ends right here![end1][end]</data>
         <refs>
             <ref>0x77</ref>
         </refs>
-        <data>I must stop you.[0xfc][0x1] For I am the one who
+        <data>I must stop you.[0xfc][0x12] For I am the one who
 will fulfill the legend!![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7e</ref>
         </refs>
-        <data>Palpaleos: ...She isn't here?[0xfc][0x1]
+        <data>Palpaleos: ...She isn't here?[0xfc][0x10]
 [character][0x1]......[end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x84</ref>
         </refs>
-        <data>Sauzer: ...Princess [character][0x1]...[0xfc][0x1]
+        <data>Sauzer: ...Princess [character][0x1]...[0xfc][0x10]
 How ironic...[end1][end]</data>
     </text>
     <text>
@@ -106,7 +106,7 @@ Dragons...[end1][end]</data>
             <ref>0xa2</ref>
         </refs>
         <data>Sendak: Occasionally there will be
-sandstorms,[0xfc][0x1] thus it is imperative that
+sandstorms,[0xfc][0x18] thus it is imperative that
 we keep watch for them.[end1][end]</data>
     </text>
     <text>
@@ -120,27 +120,27 @@ Palpaleos, too, of course.[end1][end]</data>
         <refs>
             <ref>0xb0</ref>
         </refs>
-        <data>“Condition for Victory:”[0xfc][0x1]
+        <data>“Condition for Victory:”[0xfc][0x28]
 “Defeat of Sauzer”[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x116</ref>
         </refs>
-        <data>Matelite: We've defeated Sauzer...[0xfc][0x1][end1][end]</data>
+        <data>Matelite: We've defeated Sauzer...[0xfc][0x20][end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x121</ref>
         </refs>
-        <data>Taicho: Sir Matelite!![0xfc][0x1]
+        <data>Taicho: Sir Matelite!![0xfc][0x18]
 We are victorious!![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x129</ref>
         </refs>
-        <data>Alright, let's head for that town.[0xfc][0x1]
+        <data>Alright, let's head for that town.[0xfc][0x18]
 We need to find the Holy Dragon for
 Princess [character][0x1].[end1][end]</data>
     </text>

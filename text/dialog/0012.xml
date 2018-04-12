@@ -84,7 +84,7 @@ Et... moi?[end]</data>
             <ref>0x1e8</ref>
         </refs>
         <data>MATELIGHT:
-[character][0x1],c'est une dangereuse mission!
+[character][0x0],c'est une dangereuse mission!
 Alors... fais le bon choix![end]</data>
     </text>
     <text>
@@ -132,7 +132,7 @@ C'est parti![end]</data>
             <ref>0x26f</ref>
         </refs>
         <data>SENDACK:
-[character][0x1]...
+[character][0x0]...
 Tu m'as choisi?!
 Je dois prendre ce choix pour un
 compliment ou pas?
@@ -365,7 +365,7 @@ je me dois de vous raconter la suite.[end]</data>
         </refs>
         <data>Là-bas,les temps ont changé...
 Mon coeur en était tout bouleversé.
-[character][0x1],excuse-moi!
+[character][0x0],excuse-moi!
 Ce que je viens de dire a sûrement dû
 te mettre en colère.[end]</data>
     </text>
@@ -398,7 +398,7 @@ Mais,je ne comprends pas tout!
 Pendant que Sauzer se fait soigner,
 nous devrions rechercher les autres
 Dragons Sacrés.
-Tu écoutes,[character][0x1]?![end]</data>
+Tu écoutes,[character][0x0]?![end]</data>
     </text>
     <text>
         <refs>
@@ -602,7 +602,7 @@ Rien du tout...[end]</data>
             <ref>0x670</ref>
         </refs>
         <data>HORNET:
-Il semble que [character][0x1]
+Il semble que [character][0x7]
 soit arrivé!
 Ce monstre volant dans le ciel doit
 être... l'Arme Secrète de Granbelos![end]</data>
@@ -611,7 +611,7 @@ Ce monstre volant dans le ciel doit
         <refs>
             <ref>0x6af</ref>
         </refs>
-        <data>Allez [character][0x1]!
+        <data>Allez [character][0x0]!
 Va à sa rencontre!
 N'oublie pas de nourrir tes dragons![end]</data>
     </text>
@@ -685,7 +685,7 @@ Nous allons combattre?[end]</data>
         <data>COMMANDANT:
 Vite,allons-y...
  
-Par ici,[character][0x1]...[end]</data>
+Par ici,[character][0x0]...[end]</data>
     </text>
     <text>
         <refs>
@@ -710,7 +710,7 @@ Fais-le doucement...[end]</data>
         <data>[character][0x1]:
 Kyaaa!
  
-[character][0x1]?![end]</data>
+[character][0x0]?![end]</data>
     </text>
     <text>
         <refs>
@@ -734,7 +734,7 @@ Sors d'ici![end]</data>
         <data>Attends...
  
   
-[character][0x1]...
+[character][0x0]...
 Allons observer le ciel.
  
 Allons sur le balcon,s'il te plaît.[end]</data>
@@ -757,7 +757,7 @@ Tu dois tout savoir...[end]</data>
         <refs>
             <ref>0xfef</ref>
         </refs>
-        <data>[character][0x1]...
+        <data>[character][0x0]...
  
   
 Admirer le ciel,la nuit,ne te rapelle
@@ -770,7 +770,7 @@ contemple le ciel.[end]</data>
         <refs>
             <ref>0x1021</ref>
         </refs>
-        <data>[character][0x1]...
+        <data>[character][0x0]...
 Je me demande si nous sommes
 toujours les mêmes?
 Si nous avons encore les mêmes buts.[end]</data>
@@ -824,7 +824,7 @@ Sois respectueux...[end]</data>
             <ref>0x14f4</ref>
         </refs>
         <data>COMMANDANT:
-[character][0x1]...
+[character][0x0]...
 Arrête de te faire du souci!
 J'ai rencontré quelqu'un,
 il y a peu de temps!
@@ -882,7 +882,7 @@ coeur...[end]</data>
             <ref>0x1066</ref>
         </refs>
         <data>[character][0x1]:
-Viens... [character][0x1]...
+Viens... [character][0x0]...
 Viens à mes côtés...[end]</data>
     </text>
 </texts>

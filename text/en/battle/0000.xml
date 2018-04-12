@@ -4,8 +4,8 @@
         <refs>
             <ref>0x64</ref>
         </refs>
-        <data>Matelite: Damn it!![0xfc][0x1]
-The Imperial army's approaching![0xfc][0x1]
+        <data>Matelite: Damn it!![0xfc][0x28]
+The Imperial army's approaching![0xfc][0x36]
 I never expected them to attack us
 here...[end1][end]</data>
     </text>
@@ -34,13 +34,13 @@ magic.[end1]</data>
             <ref>0x94</ref>
         </refs>
         <data>Let us show them how to fight,
-[character][0x1]![end1][end]</data>
+[character][0x0]![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa3</ref>
         </refs>
-        <data>“Condition for Victory:”[0xfc][0x1]
+        <data>“Condition for Victory:”[0xfc][0x28]
 “Defeat of all enemies”[end]</data>
     </text>
     <text>
@@ -90,7 +90,7 @@ done in so soon...[end1][end]</data>
         <refs>
             <ref>0x392</ref>
         </refs>
-        <data>Sendak: [character][0x1]...[0xfc][0x1] This cannot be...[0xfc][0x1]
+        <data>Sendak: [character][0x0]...[0xfc][0x20] This cannot be...[0xfc][0x30]
 How I longed to fight alongside you in
 future battles...[end1][end]</data>
     </text>
@@ -124,7 +124,7 @@ Command it to do something!![end1][end]</data>
         <refs>
             <ref>0x4bd</ref>
         </refs>
-        <data>King Kahna, he's...!![0xfc][0x1]
+        <data>King Kahna, he's...!![0xfc][0x30]
 The Granbelos generals have
 penetrated the castle!![end1][end]</data>
     </text>

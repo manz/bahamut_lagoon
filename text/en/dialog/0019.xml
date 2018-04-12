@@ -27,7 +27,7 @@ be doing this?[end]</data>
 We men must endure...
 
 
-[character][0x1] has an even more
+[character][0x0] has an even more
 difficult situation than we...[end]</data>
     </text>
     <text>
@@ -37,7 +37,7 @@ difficult situation than we...[end]</data>
         <data>Matelite: But... Palpaleos is an enemy
 general... He was Sauzer's right-hand
 man! He's a bad guy...
-Not like [character][0x1]![end]</data>
+Not like [character][0x0]![end]</data>
     </text>
     <text>
         <refs>
@@ -210,7 +210,7 @@ now, you know...[end]</data>
         <refs>
             <ref>0x753</ref>
         </refs>
-        <data>Truce: Morning, Captain [character][0x1].
+        <data>Truce: Morning, Captain [character][0x0].
 We took back Kahna Castle, right?
 It wasn't just a dream, right?
 I have plenty of nice memories of this
@@ -251,7 +251,7 @@ Orelus's sky someday!
 To help make it come true... I named
 this dog after a dragon in the Dragon
 Squad!
-Isn't that right, [character][0x1]!![end]</data>
+Isn't that right, [character][0x2]!![end]</data>
     </text>
     <text>
         <refs>
@@ -259,7 +259,7 @@ Isn't that right, [character][0x1]!![end]</data>
         </refs>
         <data>Truce: But the fighting is still gonna
 keep going, huh. We need to get back
-to [character][0x1]...
+to [character][0x9]...
 Speaking of which... It seems
 Bikkebakke hasn't come back.
 
@@ -270,7 +270,7 @@ fighting now?[end]</data>
         <refs>
             <ref>0x839</ref>
         </refs>
-        <data>Bikkebakke: [character][0x1]... I... I can't
+        <data>Bikkebakke: [character][0x0]... I... I can't
 do it... The real estate man...
 He just laughed at me...
 [0x24]You know... Do you really think you
@@ -285,7 +285,7 @@ He's right... What was I thinking...[end]</data>
         <data>And then... when Palpaleos joined, we
 had one too many knights...
 
-I.. I... [character][0x1]... I keep thinking
+I.. I... [character][0x0]... I keep thinking
 somebody will say to me, [0x24]We don't
 need you.[0x22][end]</data>
     </text>
@@ -321,7 +321,7 @@ looking for you this whole time![end]</data>
         </refs>
         <data>Truce: What would we do without you,
 Bikkebakke...? Okay, let's all return
-together to [character][0x1]!![end]</data>
+together to [character][0x9]!![end]</data>
     </text>
     <text>
         <refs>
@@ -337,7 +337,7 @@ together to [character][0x1]!![end]</data>
 
 
 The Empire's floating fortress is
-headed for [character][0x1]!![end]</data>
+headed for [character][0x9]!![end]</data>
     </text>
     <text>
         <refs>
@@ -437,7 +437,7 @@ money...[end]</data>
         </refs>
         <data>The entire crew is talking about you.
 Well, I guess you haven't given up yet!
-I put my money on you, [character][0x1]...[end]</data>
+I put my money on you, [character][0x0]...[end]</data>
     </text>
     <text>
         <refs>
@@ -472,14 +472,14 @@ and father?[end]</data>
 cute baby!
 
 Okay! We'll be returning to
-[character][0x1], so go and enjoy the
+[character][0x9], so go and enjoy the
 night of Kahna's revival![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xbf2</ref>
         </refs>
-        <data>Matelite: [character][0x1]... Would it be best
+        <data>Matelite: [character][0x0]... Would it be best
 if I weren't here?[end]</data>
     </text>
     <text>
@@ -511,13 +511,13 @@ I'm joining the Resistance!![end]</data>
             <ref>0xca1</ref>
         </refs>
         <data>Taicho: I do not have an answer...
-[character][0x1] will find it himself...[end]</data>
+[character][0x0] will find it himself...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xcb3</ref>
         </refs>
-        <data>Palpaleos: [character][0x1]... I'm fighting
+        <data>Palpaleos: [character][0x0]... I'm fighting
 alongside you! Should we go?[end]</data>
     </text>
     <text>
@@ -546,14 +546,14 @@ alongside you! Should we go?[end]</data>
         <refs>
             <ref>0xd13</ref>
         </refs>
-        <data>[character][0x1], captain of the
+        <data>[character][0x0], captain of the
 Dragon Squad. Can you see the stars
 in the night sky?
 Until peace visits this sky we'll have to
 fight together...
 
 [0x28]You're all sticky with the dragons'
-love juice, [character][0x1]![0x29][end]</data>
+love juice, [character][0x0]![0x29][end]</data>
     </text>
     <text>
         <refs>
@@ -562,7 +562,7 @@ love juice, [character][0x1]![0x29][end]</data>
         <data>Palpaleos: [0x28]A baby...[0x29]
 
 
-[character][0x1]... I wish to escort
+[character][0x0]... I wish to escort
 Princess [character][0x1] to the castle,
 would you like to come too?[end]</data>
     </text>

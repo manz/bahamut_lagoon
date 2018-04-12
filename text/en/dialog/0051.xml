@@ -185,7 +185,7 @@ the castle quickly![end]</data>
         <refs>
             <ref>0x26e</ref>
         </refs>
-        <data>[character][0x1]: No... To [character][0x1]...[end]</data>
+        <data>[character][0x1]: No... To [character][0x9]...[end]</data>
     </text>
     <text>
         <refs>
@@ -197,7 +197,7 @@ the castle quickly![end]</data>
         <refs>
             <ref>0x2a9</ref>
         </refs>
-        <data>[character][0x1]: To [character][0x1]...
+        <data>[character][0x1]: To [character][0x9]...
 
 
 We will... take off soon.
@@ -206,7 +206,7 @@ The door... will open...
 The Holy Dragons will open the door...
 Everybody... to Altair...
 
-[character][0x1]...
+[character][0x0]...
 Please get repatre[0x9]...[end][end]</data>
     </text>
 </texts>

@@ -14,7 +14,7 @@ They're all slimy and gross.[end]</data>
         <data>Sendak: The princess... she was
 muttering in her sleep...
 
-She was saying, [0x24][character][0x1]...[0x22]
+She was saying, [0x24][character][0x0]...[0x22]
 
 
 It also appears that the Holy Dragon
@@ -27,7 +27,7 @@ us something...[end]</data>
         <refs>
             <ref>0x2f0</ref>
         </refs>
-        <data>[character][0x1]: ...[character][0x1]. There
+        <data>[character][0x1]: ...[character][0x0]. There
 were lots of things in my dream.
 
 I felt... I felt you were very close by.
@@ -114,7 +114,7 @@ their money... It'll be soon...[end]</data>
         <refs>
             <ref>0x3f4</ref>
         </refs>
-        <data>Bikkebakke: [character][0x1]... Will we go?[end]</data>
+        <data>Bikkebakke: [character][0x0]... Will we go?[end]</data>
     </text>
     <text>
         <refs>
@@ -128,11 +128,11 @@ their money... It'll be soon...[end]</data>
         <refs>
             <ref>0x473</ref>
         </refs>
-        <data>Libero: [character][0x1]... You can feel
+        <data>Libero: [character][0x0]... You can feel
 it too, right? The wind of freedom has
 begun to blow through Dafila...
 From now on things will be difficult.
-Don't you give up either, [character][0x1]![end]</data>
+Don't you give up either, [character][0x0]![end]</data>
     </text>
     <text>
         <refs>

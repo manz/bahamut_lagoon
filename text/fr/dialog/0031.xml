@@ -48,7 +48,7 @@ C'est petit,Matelight![end]</data>
         </refs>
         <data>HORNET:
 Je t'attendais impatiemment!
-Ainsi,tu dois être [character][0x1],le chef de la
+Ainsi,tu dois être [character][0x0],le chef de la
 Résistance.
 Je suis Hornet,le capitaine de ce
 vaisseau!
@@ -149,7 +149,7 @@ Tu n'as pas l'air d'un type ennuyeux.[end]</data>
             <ref>0x69d</ref>
         </refs>
         <data>MATELIGHT:
-Ah,[character][0x1]!
+Ah,[character][0x0]!
  
 Nous avons bientôt terminé l'inspection
 du bateau![end]</data>
@@ -159,7 +159,7 @@ du bateau![end]</data>
             <ref>0x3de</ref>
         </refs>
         <data>SENDACK:
-[character][0x1],attends un instant!
+[character][0x0],attends un instant!
 J'aimerais te parler...[end]</data>
     </text>
     <text>
@@ -182,7 +182,7 @@ grand retour![end]</data>
         </refs>
         <data>SENDACK:
 FARENHEIT?!
-[character][0x1],je dois dire que ce nom est
+[character][0x0],je dois dire que ce nom est
 Fan-Tas-Ti-Que![end]</data>
     </text>
     <text>

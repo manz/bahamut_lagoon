@@ -89,7 +89,7 @@ Be quiet![end]</data>
         <refs>
             <ref>0x203</ref>
         </refs>
-        <data>Matelite: It's cold... [character][0x1]!
+        <data>Matelite: It's cold... [character][0x0]!
 Take over for me![end]</data>
     </text>
     <text>
@@ -111,13 +111,13 @@ adults, so don't bother us![end]</data>
         <refs>
             <ref>0x2bb</ref>
         </refs>
-        <data>[character][0x1]: [character][0x1]... Come down.[end]</data>
+        <data>[character][0x1]: [character][0x0]... Come down.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x30e</ref>
         </refs>
-        <data>Sendak: [character][0x1]... Good work...[end]</data>
+        <data>Sendak: [character][0x0]... Good work...[end]</data>
     </text>
     <text>
         <refs>
@@ -145,7 +145,7 @@ Will you eat it?[end]</data>
             <ref>0xa83</ref>
             <ref>0x34c</ref>
         </refs>
-        <data>Sendak: What? [character][0x1]...[end]</data>
+        <data>Sendak: What? [character][0x0]...[end]</data>
     </text>
     <text>
         <refs>
@@ -157,7 +157,7 @@ Will you eat it?[end]</data>
         <refs>
             <ref>0x36e</ref>
         </refs>
-        <data>Sendak: [character][0x1]......
+        <data>Sendak: [character][0x0]......
 
 
 [0x2a]wheeze[0x2a] [0x2a]wheeze[0x2a][end]</data>
@@ -172,7 +172,7 @@ Will you eat it?[end]</data>
         <refs>
             <ref>0x3b8</ref>
         </refs>
-        <data>Sendak: [character][0x1]... your rear is so
+        <data>Sendak: [character][0x0]... your rear is so
 round...[end]</data>
     </text>
     <text>
@@ -186,7 +186,7 @@ Mahal![end]</data>
         <refs>
             <ref>0x6ea</ref>
         </refs>
-        <data>Sendak: [character][0x1]... Do you mind if I
+        <data>Sendak: [character][0x0]... Do you mind if I
 hold on to you?[end]</data>
     </text>
     <text>
@@ -201,7 +201,7 @@ hold on to you?[end]</data>
             <ref>0x738</ref>
             <ref>0x6f9</ref>
         </refs>
-        <data>Sendak: [character][0x1]... But I wanted to
+        <data>Sendak: [character][0x0]... But I wanted to
 ride with you...[end]</data>
     </text>
     <text>
@@ -214,7 +214,7 @@ ride with you...[end]</data>
         <refs>
             <ref>0x74b</ref>
         </refs>
-        <data>Taicho: [character][0x1], you keep watch
+        <data>Taicho: [character][0x0], you keep watch
 over there!![end]</data>
     </text>
     <text>
@@ -281,7 +281,7 @@ Will you eat it?[end]</data>
         <refs>
             <ref>0x817</ref>
         </refs>
-        <data>[character][0x1]: Hey, [character][0x1].
+        <data>[character][0x1]: Hey, [character][0x0].
 Can I keep watch too?[end]</data>
     </text>
     <text>
@@ -295,7 +295,7 @@ Can I keep watch too?[end]</data>
         <refs>
             <ref>0x840</ref>
         </refs>
-        <data>[character][0x1]: [character][0x1]... I can't see
+        <data>[character][0x1]: [character][0x0]... I can't see
 very well. Push me up from behind.[end]</data>
     </text>
     <text>
@@ -376,7 +376,7 @@ Uh... never mind.[end]</data>
         <data>We can't do anything, but we're
 supporting you...
 
-Please protect [character][0x1] as best as
+Please protect [character][0x9] as best as
 you can!![end]</data>
     </text>
     <text>
@@ -386,7 +386,7 @@ you can!![end]</data>
         <data>Rush: We're going to fight the Empire's
 dragons!
 
-Get on [character][0x1]?[end]</data>
+Get on [character][0x2]?[end]</data>
     </text>
     <text>
         <refs>
@@ -412,7 +412,7 @@ Get on [character][0x1]?[end]</data>
         <refs>
             <ref>0xaa6</ref>
         </refs>
-        <data>[character][0x1]: [character][0x1]... Please, let
+        <data>[character][0x1]: [character][0x0]... Please, let
 me ride with you...[end]</data>
     </text>
     <text>
@@ -461,7 +461,7 @@ The Empire's dragons are here.[end]</data>
         <refs>
             <ref>0xe8f</ref>
         </refs>
-        <data>This is bad! In front of [character][0x1]!
+        <data>This is bad! In front of [character][0x9]!
 It's the Empire's Dragon Sky Force![end]</data>
     </text>
     <text>
@@ -478,7 +478,7 @@ do?![end]</data>
         <refs>
             <ref>0xf04</ref>
         </refs>
-        <data>Matelite: [character][0x1]! You're supposed
+        <data>Matelite: [character][0x0]! You're supposed
 to be watching the sky! No leaving
 your post![end][end]</data>
     </text>

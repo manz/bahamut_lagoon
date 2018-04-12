@@ -110,19 +110,19 @@ M... Merci... pour tout...[end]</data>
         <refs>
             <ref>0x153</ref>
         </refs>
-        <data>[character][0x1]![end]</data>
+        <data>[character][0x0]![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x165</ref>
         </refs>
-        <data>Capitaine [character][0x1]![end]</data>
+        <data>Capitaine [character][0x0]![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x177</ref>
         </refs>
-        <data>[character][0x1]...
+        <data>[character][0x0]...
 Nous visiterons encore d'autres
 contrées...[end]</data>
     </text>

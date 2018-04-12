@@ -4,7 +4,7 @@
         <refs>
             <ref>0x4d</ref>
         </refs>
-        <data>Matelite: [character][0x1]...
+        <data>Matelite: [character][0x0]...
 We did it... we won...[end]</data>
     </text>
     <text>
@@ -48,7 +48,7 @@ wandering![end]</data>
         <refs>
             <ref>0x20e</ref>
         </refs>
-        <data>Matelite: [character][0x1]! Retreat!![end]</data>
+        <data>Matelite: [character][0x0]! Retreat!![end]</data>
     </text>
     <text>
         <refs>
@@ -93,7 +93,7 @@ Give me strength![end]</data>
         <refs>
             <ref>0x34d</ref>
         </refs>
-        <data>[character][0x1]: [character][0x1]... Please...
+        <data>[character][0x1]: [character][0x0]... Please...
 You too...[end]</data>
     </text>
     <text>
@@ -101,7 +101,7 @@ You too...[end]</data>
             <ref>0x35d</ref>
         </refs>
         <data>[character][0x1]: You don't like me,
-[character][0x1]... I make you feel
+[character][0x0]... I make you feel
 awkward when I'm with you...
 I understand that...[end]</data>
     </text>
@@ -115,13 +115,13 @@ I understand that...[end]</data>
         <refs>
             <ref>0xaeb</ref>
         </refs>
-        <data>[character][0x1]...[end]</data>
+        <data>[character][0x0]...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x36f</ref>
         </refs>
-        <data>[character][0x1]: But... [character][0x1].
+        <data>[character][0x1]: But... [character][0x0].
 You really are an important person to
 me.[end]</data>
     </text>
@@ -311,7 +311,7 @@ I am unable to see into tomorrow...[end]</data>
         <refs>
             <ref>0x872</ref>
         </refs>
-        <data>Bahamut: [character][0x1]...
+        <data>Bahamut: [character][0x0]...
 Inside [character][0x1]'s heart you are
 held very dear.[end]</data>
     </text>
@@ -319,7 +319,7 @@ held very dear.[end]</data>
         <refs>
             <ref>0xa6f</ref>
         </refs>
-        <data>[character][0x1]: [character][0x1]... Thanks.[end]</data>
+        <data>[character][0x1]: [character][0x0]... Thanks.[end]</data>
     </text>
     <text>
         <refs>
@@ -351,13 +351,13 @@ shall someday fade away...[end]</data>
         <refs>
             <ref>0x88a</ref>
         </refs>
-        <data>Bahamut: [character][0x1]...
+        <data>Bahamut: [character][0x0]...
 The new era has come...
 But, new eras soon become old ones...
 No one can escape the flow of time...
 
 
-Listen well, [character][0x1]...
+Listen well, [character][0x0]...
 Look only to the future...
 
 You live only here in the present,
@@ -368,7 +368,7 @@ unabated...[end]</data>
         <refs>
             <ref>0x8cd</ref>
         </refs>
-        <data>Matelite: Come on, [character][0x1].
+        <data>Matelite: Come on, [character][0x0].
 Let's go home.[end]</data>
     </text>
     <text>
@@ -388,7 +388,7 @@ say to you.[end]</data>
         <refs>
             <ref>0x8f2</ref>
         </refs>
-        <data>Matelite: Thank you, [character][0x1].[end]</data>
+        <data>Matelite: Thank you, [character][0x0].[end]</data>
     </text>
     <text>
         <refs>
@@ -402,7 +402,7 @@ awkward![end]</data>
         <refs>
             <ref>0x916</ref>
         </refs>
-        <data>Matelite: Okay, [character][0x1].
+        <data>Matelite: Okay, [character][0x0].
 How should we act when we return
 to the others?[end]</data>
     </text>
@@ -418,7 +418,7 @@ to the others?[end]</data>
         <refs>
             <ref>0xa7a</ref>
         </refs>
-        <data>[character][0x1]: Hey, [character][0x1]...
+        <data>[character][0x1]: Hey, [character][0x0]...
 Do you mind if I hold on tight?
 
   Go ahead!!

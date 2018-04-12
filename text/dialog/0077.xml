@@ -428,7 +428,7 @@ Matelight![end]</data>
             <ref>0x61a</ref>
         </refs>
         <data>MATELIGHT:
-[character][0x1]!
+[character][0x0]!
 Prépare-toi au combat![end]</data>
     </text>
     <text>
@@ -436,7 +436,7 @@ Prépare-toi au combat![end]</data>
             <ref>0x5b9</ref>
         </refs>
         <data>PALPALEOS:
-[character][0x1]!
+[character][0x0]!
 Est-ce que tu es prêt?
  Attends encore un instant.
  Allons combattre![end1]</data>
@@ -462,7 +462,7 @@ stratégie te sont inutiles,alors...[end]</data>
         <refs>
             <ref>0x601</ref>
         </refs>
-        <data>[character][0x1]!
+        <data>[character][0x0]!
 Tout cela est inutile!
 Il semble que tu es jaloux![end]</data>
     </text>
@@ -649,7 +649,7 @@ Je ne vous le pardonnerait pas![end]</data>
         </refs>
         <data>Courage,courage!
 Les beaux jours reviendront!
-Venez,[character][0x1],ici,ici![end]</data>
+Venez,[character][0x0],ici,ici![end]</data>
     </text>
     <text>
         <refs>
@@ -728,7 +728,7 @@ déjà du commerce![end]</data>
         </refs>
         <data>MARCHAND PROTEGEANT SA FEMME ET SES
 ENFANTS:
-Capitaine [character][0x1],je vous suis redevable!
+Capitaine [character][0x0],je vous suis redevable!
 Faites tous attention à vous!
 Au revoir Messieurs![end]</data>
     </text>
@@ -737,7 +737,7 @@ Au revoir Messieurs![end]</data>
             <ref>0x54a</ref>
         </refs>
         <data>[character][0x1]:
-[character][0x1],je m'inquiète pour le Général
+[character][0x0],je m'inquiète pour le Général
 Palpaleos!
 Prépare-toi à combattre![end]</data>
     </text>
@@ -812,7 +812,7 @@ Ca... m'effraie...[end]</data>
             <ref>0x621</ref>
         </refs>
         <data>MATELIGHT:
-[character][0x1]...
+[character][0x0]...
 Fais très attention ici...[end]</data>
     </text>
     <text>
@@ -855,7 +855,7 @@ joie car c'est aussi notre retour...[end]</data>
             <ref>0x986</ref>
         </refs>
         <data>... ... ... ...?
-[character][0x1],qu'en dis-tu?[end]</data>
+[character][0x0],qu'en dis-tu?[end]</data>
     </text>
     <text>
         <refs>

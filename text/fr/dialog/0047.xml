@@ -13,7 +13,7 @@
         </refs>
         <data>RUSH:
 Nous y sommes enfin!
-[character][0x1],n'as-tu rien vu?
+[character][0x0],n'as-tu rien vu?
 Nous avons grandi depuis la libération
 de Dafira.
 Ce doit être notre ère![end]</data>
@@ -99,7 +99,7 @@ veut nous suivre...[end]</data>
         <refs>
             <ref>0x1b4</ref>
         </refs>
-        <data>[character][0x1],faisons route ensemble,
+        <data>[character][0x0],faisons route ensemble,
 un moment![end]</data>
     </text>
     <text>
@@ -124,7 +124,7 @@ C'est moi qui vous dirigerai![end]</data>
         <data>TAURUS:
 Comment avez-vous pensé à agir de
 cette manière?
-Capitaine [character][0x1],je vous soutiens tout
+Capitaine [character][0x0],je vous soutiens tout
 de même![end]</data>
     </text>
     <text>
@@ -141,7 +141,7 @@ Je n'arrive pas à y croire...[end]</data>
         <data>C'est grandiose!
 Enfin,nous nous rebellons contre
 l'autorité!
-[character][0x1],c'est la dernière fois que nous
+[character][0x0],c'est la dernière fois que nous
 pourrons acheter des objets.
 Et j'ai failli oublier!
 Je serai le leader!
@@ -205,7 +205,7 @@ De plus,elle est maintenant souffrante...[end]</data>
         <data>MATELIGHT:
 Je suis fou de la Princesse [character][0x1][0xd8]
 Je ne serai rien sans elle...
-Oui,[character][0x1]...
+Oui,[character][0x0]...
 Oui,Rush...
 C'est pour cette raison que je vous
 éloigne toujours d'elle![end]</data>
@@ -279,7 +279,7 @@ En rang[0xd8][end]</data>
             <ref>0x3ba</ref>
         </refs>
         <data>RUSH:
-Je supervise le tout,[character][0x1]![end]</data>
+Je supervise le tout,[character][0x0]![end]</data>
     </text>
     <text>
         <refs>
@@ -359,7 +359,7 @@ Nous défendrons FARENHEIT![end]</data>
         <data>En avant[0xd8]
  
   
-[character][0x1][0xd8]
+[character][0x0][0xd8]
 Rush[0xd8]
 C'est moi qui commande[0xd8][end]</data>
     </text>

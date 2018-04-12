@@ -159,7 +159,7 @@ Resistance, not the Freedom Force![end]</data>
             <ref>0x247</ref>
         </refs>
         <data>Matelite: It says, [0x24]I hereby make
-[character][0x1] acting captain after I pass
+[character][0x0] acting captain after I pass
 away...[0x22]!![end]</data>
     </text>
     <text>
@@ -178,7 +178,7 @@ orders for the unit![end]</data>
 he dies...
 
 We will respect Sendak's dying wish and
-make [character][0x1] acting captain![end]</data>
+make [character][0x0] acting captain![end]</data>
     </text>
     <text>
         <refs>
@@ -191,7 +191,7 @@ who don't understand![end]</data>
         <refs>
             <ref>0x281</ref>
         </refs>
-        <data>[character][0x1]! Do your best as the new
+        <data>[character][0x0]! Do your best as the new
 captain![end]</data>
     </text>
     <text>
@@ -228,7 +228,7 @@ fighting![end]</data>
         </refs>
         <data>If I'm going to be the one who takes
 command of the battle, then the
-captain of [character][0x1], Kahna's...
+captain of [character][0x9], Kahna's...
 No... the Resistance's flagship will be...[end]</data>
     </text>
     <text>
@@ -271,7 +271,7 @@ You, over there![end]</data>
             <ref>0x4da</ref>
         </refs>
         <data>Hornet: Tell me when to make
-[character][0x1] leave![end]</data>
+[character][0x9] leave![end]</data>
     </text>
     <text>
         <refs>
@@ -318,7 +318,7 @@ Do what I say! Okay, here we go![end]</data>
             <ref>0x6f5</ref>
         </refs>
         <data>Turn right!
-[0xfc][0x1][0x28]Press right![0x29][end1]</data>
+[0xfc][0x10][0x28]Press right![0x29][end1]</data>
     </text>
     <text>
         <refs>
@@ -338,14 +338,14 @@ We're counting on you![end]</data>
             <ref>0x6b3</ref>
         </refs>
         <data>Face straight!
-[0xfc][0x1][0x28]Press up![0x29][end1]</data>
+[0xfc][0x10][0x28]Press up![0x29][end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x736</ref>
         </refs>
         <data>Turn left!
-[0xfc][0x1][0x28]Press left![0x29][end1]</data>
+[0xfc][0x10][0x28]Press left![0x29][end1]</data>
     </text>
     <text>
         <refs>
@@ -360,7 +360,7 @@ of the Resistance...
         <refs>
             <ref>0xbb5</ref>
         </refs>
-        <data>[character][0x1]... You will soon become an
+        <data>[character][0x0]... You will soon become an
 excellent knight just like me...
 
 [character][0x1] is now of marriageable
@@ -385,7 +385,7 @@ Zzzz...
             <ref>0xd10</ref>
             <ref>0xbcf</ref>
         </refs>
-        <data>Sendak: [character][0x1]... There is
+        <data>Sendak: [character][0x0]... There is
 something I wish to talk to you about...
 Come to the captain's room later...[end]</data>
     </text>
@@ -430,7 +430,7 @@ the practice didn't go well![end]</data>
             <ref>0xc43</ref>
         </refs>
         <data>Rush: Acting captain...
-Way to go, [character][0x1]![end]</data>
+Way to go, [character][0x0]![end]</data>
     </text>
     <text>
         <refs>
@@ -533,7 +533,7 @@ Where is Princess [character][0x1]?[end]</data>
             <ref>0xd70</ref>
         </refs>
         <data>Rush: On the green continent of
-Campbell!! Right, [character][0x1]?![end]</data>
+Campbell!! Right, [character][0x0]?![end]</data>
     </text>
     <text>
         <refs>
@@ -549,7 +549,7 @@ her quickly![end]</data>
         </refs>
         <data>Hornet: Okay! We'll go over the details
 later! Let's go! Full speed ahead,
-[character][0x1]![end]</data>
+[character][0x9]![end]</data>
     </text>
     <text>
         <refs>
@@ -576,14 +576,14 @@ appropriate button![end]</data>
         <refs>
             <ref>0xe23</ref>
         </refs>
-        <data>Melodia: [character][0x1]... I can't see!
+        <data>Melodia: [character][0x0]... I can't see!
 Pick me up![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe33</ref>
         </refs>
-        <data>Melodia: I'm tired, [character][0x1]!!
+        <data>Melodia: I'm tired, [character][0x0]!!
 Carry me on your back![end]</data>
     </text>
     <text>
@@ -603,7 +603,7 @@ Carry me on your back![end]</data>
             <ref>0xf0d</ref>
             <ref>0xe8e</ref>
         </refs>
-        <data>Thanks, [character][0x1]!
+        <data>Thanks, [character][0x0]!
 You're my favorite![end]</data>
     </text>
     <text>
@@ -617,7 +617,7 @@ You're my favorite![end]</data>
         <refs>
             <ref>0xf2f</ref>
         </refs>
-        <data>Lukia: [character][0x1]... Today's definitely
+        <data>Lukia: [character][0x0]... Today's definitely
 going to be a rough day.[end]</data>
     </text>
     <text>
@@ -667,7 +667,7 @@ sluggish... Oh no, I'm going to faint...[end]</data>
             <ref>0xfa7</ref>
         </refs>
         <data>Frederica: I feel... faint...
-Ah... [character][0x1]...
+Ah... [character][0x0]...
 Please don't worry about me...
 I'm always like this...
 But, please...
@@ -879,7 +879,7 @@ I've prepared these in advance.[end]</data>
         </refs>
         <data>Heheh... She's not in this room.
 [character][0x1] is taking care of Sendak.
-You're with us too, [character][0x1].
+You're with us too, [character][0x0].
 Me and twelve others...
 [0x24]Let's just be friends...
 I will have good memories of you,[0x22]
@@ -909,7 +909,7 @@ take care of them! Let's go![end]</data>
         <refs>
             <ref>0x119c</ref>
         </refs>
-        <data>Matelite: Bwahaha! [character][0x1]!
+        <data>Matelite: Bwahaha! [character][0x0]!
 I'll give you one more chance.
 If you can't do it...
 I'll have to punish you![end]</data>
@@ -927,7 +927,7 @@ Turn around![end]</data>
         <refs>
             <ref>0x1296</ref>
         </refs>
-        <data>Matelite: Bwahaha! [character][0x1]!
+        <data>Matelite: Bwahaha! [character][0x0]!
 It looks like you still don't understand
 what rules are![end]</data>
     </text>
@@ -968,7 +968,7 @@ with it.[end]</data>
         <refs>
             <ref>0x1327</ref>
         </refs>
-        <data>Taicho: [character][0x1]... You know about
+        <data>Taicho: [character][0x0]... You know about
 Formation, do you not?[end]</data>
     </text>
     <text>
@@ -982,7 +982,7 @@ Formation, do you not?[end]</data>
         <refs>
             <ref>0x1338</ref>
         </refs>
-        <data>[character][0x1]... With Formation, you can
+        <data>[character][0x0]... With Formation, you can
 compensate for weaknesses in your
 party![end]</data>
     </text>
@@ -1049,7 +1049,7 @@ I am sure you will figure it out too![end]</data>
         <refs>
             <ref>0x147d</ref>
         </refs>
-        <data>Taicho: So, [character][0x1]...
+        <data>Taicho: So, [character][0x0]...
 Do you understand Formation now?[end]</data>
     </text>
     <text>
@@ -1117,7 +1117,7 @@ your godfather, do you?[end]</data>
         <refs>
             <ref>0x1779</ref>
         </refs>
-        <data>Matelite: [character][0x1]! Wait! From now
+        <data>Matelite: [character][0x0]! Wait! From now
 on we aren't fighting for the revival
 of Kahna!
 The entire world of Orelus is resting
@@ -1236,6 +1236,6 @@ If that's all you feed them they will
 start to go mad and become violent.
 
 You should be careful yourslf,
- [character][0x1][end][end]</data>
+ [character][0x0][end][end]</data>
     </text>
 </texts>

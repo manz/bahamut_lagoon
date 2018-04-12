@@ -30,7 +30,7 @@ Très bien,partons![end]</data>
             <ref>0x680</ref>
         </refs>
         <data>SENDACK:
-[character][0x1],la force mène à tout.[end]</data>
+[character][0x0],la force mène à tout.[end]</data>
     </text>
     <text>
         <refs>
@@ -43,7 +43,7 @@ Très bien,partons![end]</data>
         <refs>
             <ref>0x68e</ref>
         </refs>
-        <data>[character][0x1],la Princesse a choisi quelqu'un
+        <data>[character][0x0],la Princesse a choisi quelqu'un
 d'autre que toi...[end]</data>
     </text>
     <text>
@@ -51,7 +51,7 @@ d'autre que toi...[end]</data>
             <ref>0x696</ref>
         </refs>
         <data>... ... ... ...
-Au revoir,[character][0x1]![end]</data>
+Au revoir,[character][0x0]![end]</data>
     </text>
     <text>
         <refs>
@@ -59,7 +59,7 @@ Au revoir,[character][0x1]![end]</data>
             <ref>0x607</ref>
         </refs>
         <data>[character][0x1]:
-[character][0x1],j'aurai une requête...
+[character][0x0],j'aurai une requête...
 Prends soin de lui...[end]</data>
     </text>
     <text>
@@ -67,7 +67,7 @@ Prends soin de lui...[end]</data>
             <ref>0x5a6</ref>
         </refs>
         <data>PALPALEOS:
-[character][0x1],j'aimerais te parler!
+[character][0x0],j'aimerais te parler!
 C'est très important...[end]</data>
     </text>
     <text>
@@ -75,7 +75,7 @@ C'est très important...[end]</data>
             <ref>0x624</ref>
         </refs>
         <data>PALPALEOS:
-[character][0x1],s'il te plaît,puis-je m'appuyer
+[character][0x0],s'il te plaît,puis-je m'appuyer
 sur ton épaule...?[end]</data>
     </text>
 </texts>

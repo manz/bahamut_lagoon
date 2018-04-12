@@ -5,7 +5,7 @@
             <ref>0x87f</ref>
         </refs>
         <data>MATELOT:
-[character][0x1],[character][0x1]!
+[character][0x0],[character][0x0]!
 Qu'aimerais-tu?[end]</data>
     </text>
     <text>
@@ -14,7 +14,7 @@ Qu'aimerais-tu?[end]</data>
             <ref>0x60c</ref>
         </refs>
         <data>BIKKEBAKKE:
-[character][0x1],vieux frère...
+[character][0x0],vieux frère...
 Sil te plaît,coopère!
  Coopérer.
  L'écouter parler.[end1]</data>
@@ -288,7 +288,7 @@ garde ça secret.[end]</data>
             <ref>0x7b8</ref>
         </refs>
         <data>SERGENT:
-[character][0x1]!
+[character][0x0]!
 [0xa8]Grognement[0xa9]
 Il est mieux pour tous de retourner
 vivre à Orelus!

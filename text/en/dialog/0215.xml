@@ -50,7 +50,7 @@ you?
         <refs>
             <ref>0x400</ref>
         </refs>
-        <data>Anastasia: [character][0x1], did you know?
+        <data>Anastasia: [character][0x0], did you know?
 You can create dragons that use Holy
 skills and ones that use Darkness skills!
 Max out their fire, water, and thunder
@@ -66,7 +66,7 @@ only play a supporting role![end]</data>
         <refs>
             <ref>0x40e</ref>
         </refs>
-        <data>Anastasia: Hey, [character][0x1]. If you
+        <data>Anastasia: Hey, [character][0x0]. If you
 walk slow like this you'll find all kinds
 of stuff. I like this. Slowly... slowly...[end]</data>
     </text>
@@ -163,20 +163,20 @@ Boom!![end]</data>
         <refs>
             <ref>0x4ab</ref>
         </refs>
-        <data>Ectarina: I remember now... [character][0x1]
-said it... [character][0x1] was the one who
+        <data>Ectarina: I remember now... [character][0x0]
+said it... [character][0x0] was the one who
 said he liked Uniuji...
-It's all [character][0x1]'s fault that he hates
+It's all [character][0x0]'s fault that he hates
 me now... I won't forget this...
 
 When all the fighting is over, I'll get
-even with that [character][0x1]... Heh heh...[end]</data>
+even with that [character][0x0]... Heh heh...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4c1</ref>
         </refs>
-        <data>Nelbo: Ah, [character][0x1]. It was decided
+        <data>Nelbo: Ah, [character][0x0]. It was decided
 that Donfan, the enemy of women,
 should be held here.
 Good, don't you think?[end]</data>
@@ -240,14 +240,14 @@ it a secret from my best friend Joy...[end]</data>
             <ref>0x50e</ref>
         </refs>
         <data>Donfan: What do you think,
-[character][0x1]? This is my true forte![end]</data>
+[character][0x0]? This is my true forte![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x532</ref>
         </refs>
         <data>Melodia: Do you like [character][0x1] too,
-[character][0x1]?
+[character][0x0]?
 
   Of course!
   Not really.[end1]</data>
@@ -257,13 +257,13 @@ it a secret from my best friend Joy...[end]</data>
             <ref>0x53f</ref>
         </refs>
         <data>......
-I like you, [character][0x1]...[end]</data>
+I like you, [character][0x0]...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x54f</ref>
         </refs>
-        <data>Melodia: Hey, [character][0x1]! Do you like
+        <data>Melodia: Hey, [character][0x0]! Do you like
 me?
 
   I cannot tell a lie.
@@ -294,7 +294,7 @@ mean it![end]</data>
         <refs>
             <ref>0x56a</ref>
         </refs>
-        <data>Melodia: Hey, [character][0x1], what'll you
+        <data>Melodia: Hey, [character][0x0], what'll you
 do when this is all over?
 
   I haven't thought about it.
@@ -311,7 +311,7 @@ things![end]</data>
         <refs>
             <ref>0x57e</ref>
         </refs>
-        <data>That's good, [character][0x1]!
+        <data>That's good, [character][0x0]!
 Come play with me sometimes, okay?[end]</data>
     </text>
     <text>
@@ -382,7 +382,7 @@ fight, but... sorry.
             <ref>0x5ff</ref>
         </refs>
         <data>Thanks... You're really nice,
-[character][0x1].[end]</data>
+[character][0x0].[end]</data>
     </text>
     <text>
         <refs>
@@ -398,7 +398,7 @@ my medicine...[end]</data>
         <data>Frederica: I've been thinking... When
 the fighting's all over, I'll work hard to
 become well again.
-When that happens, [character][0x1]...
+When that happens, [character][0x0]...
 Will you start a medicine store with
 me?
 Don't worry. I won't use any of the
@@ -528,7 +528,7 @@ That's disgusting!![end]</data>
         <refs>
             <ref>0x738</ref>
         </refs>
-        <data>Diana: [character][0x1]. Is it true that the
+        <data>Diana: [character][0x0]. Is it true that the
 fighting's going to end soon?
 
   I don't know.
@@ -556,7 +556,7 @@ Light Armor Knight will be tough...[end]</data>
         <refs>
             <ref>0x76b</ref>
         </refs>
-        <data>Lukia: [character][0x1], you're pretty cool
+        <data>Lukia: [character][0x0], you're pretty cool
 lately! Why don't you and I try to
 become the topic of gossip?
   Sorry.
@@ -585,7 +585,7 @@ on the other side...[end]</data>
 about after the battles. I diligently
 pray that everybody will be happy.
 When the fighting is over, let's pray
-together, [character][0x1]![end]</data>
+together, [character][0x0]![end]</data>
     </text>
     <text>
         <refs>
@@ -644,7 +644,7 @@ Let me rest when we're not fighting...[end]</data>
             <ref>0x7f5</ref>
         </refs>
         <data>Heheheh... I don't blame you for
-starting to like me, [character][0x1]...
+starting to like me, [character][0x0]...
 I am pretty cute after all...[end]</data>
     </text>
     <text>

@@ -27,7 +27,7 @@ at her age?[end]</data>
         <refs>
             <ref>0x22f</ref>
         </refs>
-        <data>Sendak: I am sorry, [character][0x1].
+        <data>Sendak: I am sorry, [character][0x0].
 I suppose I shall have to tell you later
 after all.[end]</data>
     </text>
@@ -116,7 +116,7 @@ is with you too![end]</data>
         <refs>
             <ref>0x336</ref>
         </refs>
-        <data>Zora: [character][0x1]. This boy is my son.
+        <data>Zora: [character][0x0]. This boy is my son.
 He left me and came to this kingdom.[end]</data>
     </text>
     <text>
@@ -187,7 +187,7 @@ How miserable.[end]</data>
         <refs>
             <ref>0x40c</ref>
         </refs>
-        <data>Zora: [character][0x1]. You try.[end]</data>
+        <data>Zora: [character][0x0]. You try.[end]</data>
     </text>
     <text>
         <refs>
@@ -202,7 +202,7 @@ How miserable.[end]</data>
             <ref>0x420</ref>
         </refs>
         <data>Zora: What will making it wait do?
-Come on, [character][0x1].[end]</data>
+Come on, [character][0x0].[end]</data>
     </text>
     <text>
         <refs>
@@ -223,7 +223,7 @@ this too.[end]</data>
         <refs>
             <ref>0x46d</ref>
         </refs>
-        <data>Zora: What do you think, [character][0x1].
+        <data>Zora: What do you think, [character][0x0].
 Will you let my son and this dragon
 ride on your ship?
   I welcome them.
@@ -250,14 +250,14 @@ can learn by observation.[end]</data>
         <refs>
             <ref>0x489</ref>
         </refs>
-        <data>Thanks, [character][0x1].[end]</data>
+        <data>Thanks, [character][0x0].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4a6</ref>
         </refs>
         <data>I'll tell him all about the rules on
-[character][0x1].[end]</data>
+[character][0x9].[end]</data>
     </text>
     <text>
         <refs>
@@ -277,14 +277,14 @@ things, so come see me again![end]</data>
         <refs>
             <ref>0x4e9</ref>
         </refs>
-        <data>Oh! [character][0x1]! Welcome to my home!
+        <data>Oh! [character][0x0]! Welcome to my home!
 It's me, the battlefield salesman![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4fb</ref>
         </refs>
-        <data>Are you [character][0x1]? Glad to meet
+        <data>Are you [character][0x0]? Glad to meet
 you. I hear you're always helping out
 people I know...[end]</data>
     </text>
@@ -319,7 +319,7 @@ name! I never thought about that![end]</data>
         <refs>
             <ref>0x5aa</ref>
         </refs>
-        <data>Bikkebakke: [character][0x1]! This old man
+        <data>Bikkebakke: [character][0x0]! This old man
 said if I gave him some money he'd
 give me back 1000 times as much![end]</data>
     </text>
@@ -355,7 +355,7 @@ give me back 1000 times as much![end]</data>
         <refs>
             <ref>0x5e1</ref>
         </refs>
-        <data>Bikkebakke: [character][0x1]... If what the
+        <data>Bikkebakke: [character][0x0]... If what the
 old man says is true, what should I
 do?[end]</data>
     </text>
@@ -408,7 +408,7 @@ I'm lonely... I miss you.[end]</data>
         <refs>
             <ref>0x75f</ref>
         </refs>
-        <data>Zora: [character][0x1]! I have something to
+        <data>Zora: [character][0x0]! I have something to
 tell you![end]</data>
     </text>
     <text>
@@ -428,7 +428,7 @@ revenge on the Granbelos Empire?[end]</data>
         <data>Matelite: Hero of the liberation of
 Campbell! How about some of my
 autographed weapons and armor?
-You buy some too, [character][0x1]![end]</data>
+You buy some too, [character][0x0]![end]</data>
     </text>
     <text>
         <refs>
@@ -441,7 +441,7 @@ You buy some too, [character][0x1]![end]</data>
             <ref>0x7d7</ref>
         </refs>
         <data>Taicho: You help out too,
-[character][0x1]![end]</data>
+[character][0x0]![end]</data>
     </text>
     <text>
         <refs>
@@ -527,7 +527,7 @@ enemy by the Empire![end]</data>
         <refs>
             <ref>0x8b1</ref>
         </refs>
-        <data>Battlefield Salesman: [character][0x1]...
+        <data>Battlefield Salesman: [character][0x0]...
 I'll give you some Sweet Wine for free.[end][end]</data>
     </text>
 </texts>

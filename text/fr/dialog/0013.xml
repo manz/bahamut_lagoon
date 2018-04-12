@@ -47,7 +47,7 @@ Vite!
 L'Empire risque de fortement
 contre-attaquer Mahal.
  
-[character][0x1]?
+[character][0x0]?
 N'est-ce pas terrible?[end]</data>
     </text>
     <text>
@@ -77,7 +77,7 @@ Montez sur vos dragons![end]</data>
             <ref>0x10d</ref>
         </refs>
         <data>SENDACK:
-[character][0x1],je ne suis pas content!
+[character][0x0],je ne suis pas content!
 Et toi?[end]</data>
     </text>
     <text>
@@ -85,7 +85,7 @@ Et toi?[end]</data>
             <ref>0x243</ref>
         </refs>
         <data>TAURUS:
-Capitaine [character][0x1]!
+Capitaine [character][0x0]!
  
 J'ai imaginé une tactique pour
 reprendre Mahal.
@@ -159,7 +159,7 @@ Que vas-tu acheter?[end]</data>
             <ref>0x28e</ref>
         </refs>
         <data>SENDACK:
-Très bien [character][0x1]!
+Très bien [character][0x0]!
 Es-tu prêt à aller te battre?[end]</data>
     </text>
     <text>

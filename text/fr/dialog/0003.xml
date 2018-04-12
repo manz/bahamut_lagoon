@@ -58,7 +58,7 @@ Que veux-tu faire?
         <refs>
             <ref>0x36a</ref>
         </refs>
-        <data>[character][0x1],chaque minute de préparations
+        <data>[character][0x0],chaque minute de préparations
 compte beaucoup.[end]</data>
     </text>
     <text>
@@ -73,7 +73,7 @@ Ici... ici![end]</data>
             <ref>0x4df</ref>
         </refs>
         <data>SENDACK:
-[character][0x1],c'est fantastique![end]</data>
+[character][0x0],c'est fantastique![end]</data>
     </text>
     <text>
         <refs>
@@ -87,7 +87,7 @@ dragons si tu les nourris bien.[end]</data>
             <ref>0x307</ref>
         </refs>
         <data>SENDACK:
-[character][0x1],que veux-tu faire?
+[character][0x0],que veux-tu faire?
  
  Finir les préparatifs.
  Aller au combat![end1]</data>

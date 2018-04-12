@@ -55,7 +55,7 @@ Veux-tu rentrer?[end]</data>
         </refs>
         <data>DOCTEUR DRAGON:
 Ecoute le vent...
-Tends bien l'oreille [character][0x1]!
+Tends bien l'oreille [character][0x0]!
 Entends les voix apportées par le
 vent...[end]</data>
     </text>
@@ -141,7 +141,7 @@ Il regrette![end]</data>
         </refs>
         <data>Tout va bien,tout va bien!
 Il vous aime...
-[character][0x1] est sympathique...[end]</data>
+[character][0x0] est sympathique...[end]</data>
     </text>
     <text>
         <refs>
@@ -156,7 +156,7 @@ j'étais pourtant enfant et SALAMANDO
 C'est à partir de cet instant que je
 décidai de devenir un Docteur Dragon.
  
-Je crois que [character][0x1] t'aime
+Je crois que [character][0x8] t'aime
 beaucoup.[end]</data>
     </text>
     <text>
@@ -165,7 +165,7 @@ beaucoup.[end]</data>
         </refs>
         <data>DOCTEUR DRAGON:
 Essaie de commander le bébé,
-[character][0x1]![end]</data>
+[character][0x0]![end]</data>
     </text>
     <text>
         <refs>
@@ -216,7 +216,7 @@ ciel.[end]</data>
         <data>MESSAGE de HORNET:
 Félicitations pour la Restauration de
 Kana!
-[character][0x1],protège sans cesse le ciel
+[character][0x0],protège sans cesse le ciel
 d'Orelus!
  
 Post-Scriptum:
@@ -290,7 +290,7 @@ Les Souvenirs du Futur...[end]</data>
         <refs>
             <ref>0xc04</ref>
         </refs>
-        <data>[character][0x1]...[end]</data>
+        <data>[character][0x0]...[end]</data>
     </text>
     <text>
         <refs>
@@ -299,7 +299,7 @@ Les Souvenirs du Futur...[end]</data>
         <data>Je suis le Dragon Sacré Bahamut...
  
   
-[character][0x1]...
+[character][0x0]...
 Tu vas pouvoir regarder les souvenirs
 du futur...[end]</data>
     </text>
@@ -328,7 +328,7 @@ Volons...
 Surveille les Lagons d'Orelus!
 Surveille les êtres humains...
   
-[character][0x1]...
+[character][0x0]...
 Tu peux changer...
 Le ciel d'Orelus...[end]</data>
     </text>
@@ -362,7 +362,7 @@ première crise mais il l'est encore.
 L'Océan de Nuages...
 Il est le rêve de Tous!
 Il est la force de Tous!
-[character][0x1]...
+[character][0x0]...
 J'entends la voix et les souvenirs du
 Ciel...
 Je sens qu'il est en peine...
@@ -419,7 +419,7 @@ Bikkebakke?[end]</data>
         <refs>
             <ref>0xdaf</ref>
         </refs>
-        <data>[character][0x1],tu ne pourras plus regarder
+        <data>[character][0x0],tu ne pourras plus regarder
 Bikkebakke en face.[end]</data>
     </text>
     <text>
@@ -434,7 +434,7 @@ sentirait très seul.[end]</data>
         <refs>
             <ref>0xdc1</ref>
         </refs>
-        <data>[character][0x1],tu n'as même pas pensé à
+        <data>[character][0x0],tu n'as même pas pensé à
 l'innocent Bikkebakke.[end]</data>
     </text>
 </texts>

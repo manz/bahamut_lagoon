@@ -147,7 +147,7 @@ mais c'est à toi de les découvrir.[end]</data>
         <refs>
             <ref>0x54a</ref>
         </refs>
-        <data>[character][0x1],aimes-tu une femme?[end]</data>
+        <data>[character][0x0],aimes-tu une femme?[end]</data>
     </text>
     <text>
         <refs>
@@ -192,7 +192,7 @@ plupart de tes sentiments![end]</data>
         </refs>
         <data>Je concluerai en disant qu'il faut bien
 les éduquer!
-Tu as compris,[character][0x1]?![end]</data>
+Tu as compris,[character][0x0]?![end]</data>
     </text>
     <text>
         <refs>
@@ -221,7 +221,7 @@ Hahaha! Qui sait?![end]</data>
         <refs>
             <ref>0x5e2</ref>
         </refs>
-        <data>Fais de ton mieux,[character][0x1]!
+        <data>Fais de ton mieux,[character][0x0]!
 Au fait,j'ai un très beau cadeau
 pour toi![end]</data>
     </text>

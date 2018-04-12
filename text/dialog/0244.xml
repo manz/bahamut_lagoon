@@ -62,7 +62,7 @@ Nous sommes enfin revenus chez nous.
 Kana n'a plus à s'inquiéter!
 Matelight vous défendra autant que
 possible,je le jure!
-[character][0x1] est devenu un homme incroyable
+[character][0x0] est devenu un homme incroyable
 et il est l'un de mes meilleurs amis.[end]</data>
     </text>
     <text>
@@ -113,7 +113,7 @@ bientôt unis en une seule nation grâce
         <refs>
             <ref>0x1f2</ref>
         </refs>
-        <data>Le Capitaine [character][0x1] est à l'origine de
+        <data>Le Capitaine [character][0x0] est à l'origine de
 ce projet et il surveille maintenant
 ces lagons en survolant les cieux.[end1]</data>
     </text>

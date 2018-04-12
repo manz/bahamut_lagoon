@@ -14,7 +14,7 @@ Nous devrions battre en retraite...[end]</data>
             <ref>0x3f8</ref>
         </refs>
         <data>MIST:
-[character][0x1],arrête Matelight...[end]</data>
+[character][0x0],arrête Matelight...[end]</data>
     </text>
     <text>
         <refs>
@@ -57,7 +57,7 @@ Kana avec nous![end]</data>
         <refs>
             <ref>0x553</ref>
         </refs>
-        <data>                   [character][0x1]!
+        <data>                   [character][0x0]!
                    Matelight![end]</data>
     </text>
     <text>
@@ -67,7 +67,7 @@ Kana avec nous![end]</data>
         <data>PALPALEOS:
 ...?!
  
-[character][0x1],le Chef de l'Escadron Dragon
+[character][0x0],le Chef de l'Escadron Dragon
 de Kana?![end]</data>
     </text>
     <text>

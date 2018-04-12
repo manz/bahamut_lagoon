@@ -23,7 +23,7 @@
         <refs>
             <ref>0xbe</ref>
         </refs>
-        <data>[character][0x1]: [character][0x1]... Matelite...
+        <data>[character][0x1]: [character][0x0]... Matelite...
 From here on it will be dangerous...
 The Holy Dragon is full of hatred.
 I don't know whether I will be able
@@ -35,7 +35,7 @@ to stop it or not...[end]</data>
         </refs>
         <data>Please... Jormungand. Close the door...
 It is me that you want... Forgive
-[character][0x1] and the others...[end]</data>
+[character][0x0] and the others...[end]</data>
     </text>
     <text>
         <refs>
@@ -48,7 +48,7 @@ Please wait for me![end]</data>
         <refs>
             <ref>0x299</ref>
         </refs>
-        <data>Sendak: [character][0x1]... I... the truth is...
+        <data>Sendak: [character][0x0]... I... the truth is...
 I would like it if you could carry
 me...
 I would appreciate it if you could
@@ -63,20 +63,20 @@ But, the princess...[end]</data>
         <data>Taicho: [character][0x1]... She is acting
 differently than her usual self!
 
-[character][0x1]... You must do something![end]</data>
+[character][0x0]... You must do something![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2ae</ref>
         </refs>
-        <data>[character][0x1]: Stop... [character][0x1].
+        <data>[character][0x1]: Stop... [character][0x0].
 I will go ahead alone...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2ce</ref>
         </refs>
-        <data>[character][0x1]: [character][0x1]... please.
+        <data>[character][0x1]: [character][0x0]... please.
 Until the very end, please watch over
 me...[end]</data>
     </text>

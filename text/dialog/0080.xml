@@ -5,7 +5,7 @@
             <ref>0x4d</ref>
         </refs>
         <data>MATELIGHT:
-[character][0x1]...
+[character][0x0]...
 Je... nous... avons gagné...[end]</data>
     </text>
     <text>
@@ -120,7 +120,7 @@ force![end]</data>
             <ref>0x34d</ref>
         </refs>
         <data>[character][0x1]:
-[character][0x1],s'il te plaît...[end]</data>
+[character][0x0],s'il te plaît...[end]</data>
     </text>
     <text>
         <refs>
@@ -137,7 +137,7 @@ je te le promets...[end]</data>
             <ref>0x36f</ref>
         </refs>
         <data>[character][0x1]:
-[character][0x1]...
+[character][0x0]...
  
 Tu es pour moi une personne très
 importante.[end]</data>
@@ -166,14 +166,14 @@ Le temps est venu![end]</data>
         <refs>
             <ref>0xaeb</ref>
         </refs>
-        <data> [character][0x1]...[end]</data>
+        <data> [character][0x0]...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa6f</ref>
         </refs>
         <data>[character][0x1]:
-Merci... [character][0x1]![end][end]</data>
+Merci... [character][0x0]![end][end]</data>
     </text>
     <text>
         <refs>
@@ -194,7 +194,7 @@ Je te l'ordonne![end]</data>
             <ref>0xa7a</ref>
         </refs>
         <data>[character][0x1]:
-[character][0x1]...
+[character][0x0]...
 Est-ce que tu vas m'aider?
  Très bien!
  Je ne sais pas...[end1]</data>
@@ -426,7 +426,7 @@ Le monde est à vous![end]</data>
             <ref>0x872</ref>
         </refs>
         <data>BAHAMUT:
-[character][0x1]...
+[character][0x0]...
  
 Nous étions à l'intérieur de l'esprit
 de [character][0x1] et je sais que tu lui es
@@ -455,7 +455,7 @@ qui a précédé...
 Tout le monde essaie de gagner du
 temps sur le temps...
  
-Va [character][0x1]...
+Va [character][0x0]...
 avant qu'il ne soit cette fois
 trop tard...
 Va de l'avant et fais dans ta vie
@@ -467,7 +467,7 @@ Il est maintenant l'heure...[end]</data>
             <ref>0x8cd</ref>
         </refs>
         <data>MATELIGHT:
-Viens... [character][0x1]!
+Viens... [character][0x0]!
 Nous rentrons chez nous![end]</data>
     </text>
     <text>
@@ -491,7 +491,7 @@ Et je ne veux pas les savoir![end]</data>
             <ref>0x8f2</ref>
         </refs>
         <data>MATELIGHT:
-Merci pour tout... [character][0x1]![end]</data>
+Merci pour tout... [character][0x0]![end]</data>
     </text>
     <text>
         <refs>
@@ -506,7 +506,7 @@ voulais faire ce petit discours![end]</data>
             <ref>0x916</ref>
         </refs>
         <data>MATELIGHT:
-Hé,[character][0x1]...
+Hé,[character][0x0]...
  
 En repartant,tu veux faire face à
 tout le monde comment?[end]</data>

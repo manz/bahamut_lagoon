@@ -62,7 +62,7 @@ Where will it open?[end]</data>
         <data>Matelite: Seems the door in the sky to
 the new era has opened..
 
-[character][0x1], take care of the rest.
+[character][0x0], take care of the rest.
 I'm...[end]</data>
     </text>
     <text>
@@ -131,7 +131,7 @@ at a time like this?![end]</data>
             <ref>0x3f2</ref>
             <ref>0x6cd</ref>
         </refs>
-        <data>Matelite: Hmph! [character][0x1], finish
+        <data>Matelite: Hmph! [character][0x0], finish
 getting ready![end]</data>
     </text>
     <text>
@@ -145,7 +145,7 @@ getting ready![end]</data>
         <refs>
             <ref>0x48f</ref>
         </refs>
-        <data>Hornet: Sorry, [character][0x1]! I can't
+        <data>Hornet: Sorry, [character][0x0]! I can't
 control it! We're being sucked in![end]</data>
     </text>
     <text>
@@ -169,7 +169,7 @@ of silence for the old Orelus![end]</data>
         <refs>
             <ref>0x69c</ref>
         </refs>
-        <data>Matelite: [character][0x1]. I'm not
+        <data>Matelite: [character][0x0]. I'm not
 relieved one bit.
 
 Same goes for Palpaleos, but why'd we
@@ -182,7 +182,7 @@ thinking at all, lately...[end]</data>
         <refs>
             <ref>0x6a3</ref>
         </refs>
-        <data>Matelite: [character][0x1]. Those are the
+        <data>Matelite: [character][0x0]. Those are the
 eyes of a man prepared to die...[end]</data>
     </text>
     <text>
@@ -201,7 +201,7 @@ eyes of a man prepared to die...[end]</data>
         <refs>
             <ref>0x6be</ref>
         </refs>
-        <data>Matelite: [character][0x1]. Continue with
+        <data>Matelite: [character][0x0]. Continue with
 our preparations. Calmly and dignified...[end]</data>
     </text>
     <text>
@@ -214,7 +214,7 @@ me...
 When she was little, she'd follow me
 around and call me Uncle Matty.
 
-[character][0x1]. Do you know the first
+[character][0x0]. Do you know the first
 word she learned?
 
 It was [0x24]Matty[0x22]. Not [0x24]Daddy[0x22] or
@@ -265,7 +265,7 @@ other... let them be.[end]</data>
             <ref>0x74d</ref>
         </refs>
         <data>Taicho: Captain of the Orelus Dragon
-Squad. Acting Captain of [character][0x1].
+Squad. Acting Captain of [character][0x9].
 Continue your hard work![end]</data>
     </text>
     <text>
@@ -319,7 +319,7 @@ man?[end]</data>
         <refs>
             <ref>0x7a3</ref>
         </refs>
-        <data>Sendak: [character][0x1]...
+        <data>Sendak: [character][0x0]...
 
 
 Emperor Sauzer made an agreement
@@ -875,7 +875,7 @@ you later.[end]</data>
         <refs>
             <ref>0xc98</ref>
         </refs>
-        <data>Rush: [character][0x1]! What do we do?![end]</data>
+        <data>Rush: [character][0x0]! What do we do?![end]</data>
     </text>
     <text>
         <refs>
@@ -950,7 +950,7 @@ gonna happen...[end]</data>
         <refs>
             <ref>0xd10</ref>
         </refs>
-        <data>Hornet: What will we do, [character][0x1]?
+        <data>Hornet: What will we do, [character][0x0]?
 
 
   Wait!
@@ -967,7 +967,7 @@ tomorrow...[end]</data>
         <refs>
             <ref>0xd22</ref>
         </refs>
-        <data>Hornet: [character][0x1]. Are we all ready?
+        <data>Hornet: [character][0x0]. Are we all ready?
 
 
   Wait!
@@ -1048,7 +1048,7 @@ Have a look outside the window...[end]</data>
         <refs>
             <ref>0xe01</ref>
         </refs>
-        <data>Hornet: Well, [character][0x1]?
+        <data>Hornet: Well, [character][0x0]?
 
 
   Not ready!
@@ -1074,7 +1074,7 @@ If I don't think about anything...[end]</data>
             <ref>0xe4a</ref>
             <ref>0xe43</ref>
         </refs>
-        <data>Hornet: [character][0x1]. Where should I fly
+        <data>Hornet: [character][0x0]. Where should I fly
 to?[end]</data>
     </text>
     <text>
@@ -1108,7 +1108,7 @@ have take a turn for the worse.[end]</data>
         <refs>
             <ref>0xe9e</ref>
         </refs>
-        <data>Hornet: What will you do, [character][0x1]?
+        <data>Hornet: What will you do, [character][0x0]?
 
 
   I'll get ready!
@@ -1126,7 +1126,7 @@ think?[end]</data>
         <refs>
             <ref>0xee2</ref>
         </refs>
-        <data>Zora: [character][0x1]. Leave Palpaleos to
+        <data>Zora: [character][0x0]. Leave Palpaleos to
 the princess. Don't worry, they'll be
 coming with us too.[end]</data>
     </text>
@@ -1191,7 +1191,7 @@ us about his talk with the Holy Dragon.[end]</data>
         <refs>
             <ref>0xf42</ref>
         </refs>
-        <data>[character][0x1]: [character][0x1]... I wonder if
+        <data>[character][0x1]: [character][0x0]... I wonder if
 Emperor Sauzer is going to get better...[end]</data>
     </text>
     <text>
@@ -1387,7 +1387,7 @@ Give me an order![end]</data>
         <refs>
             <ref>0x1177</ref>
         </refs>
-        <data>Matelite: [character][0x1]! Take her to her
+        <data>Matelite: [character][0x0]! Take her to her
 room![end]</data>
     </text>
     <text>
@@ -1532,7 +1532,7 @@ That's what I think...[end]</data>
         <refs>
             <ref>0x12db</ref>
         </refs>
-        <data>[character][0x1]: [character][0x1]...
+        <data>[character][0x1]: [character][0x0]...
 I... guess I'm a little scared after all.
 
 But, it's strange... The Holy Dragons'
@@ -1544,7 +1544,7 @@ and confused just like we are...
 It's not just anger, I also know it's
 because I have a weak mind...
 
-Or, [character][0x1], maybe it's because
+Or, [character][0x0], maybe it's because
 I'm a little stronger now?
 
   Probably because of them.
@@ -1554,14 +1554,14 @@ I'm a little stronger now?
         <refs>
             <ref>0x12e7</ref>
         </refs>
-        <data>[character][0x1]: Thank you, [character][0x1].
+        <data>[character][0x1]: Thank you, [character][0x0].
 That makes me feel better.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x12f1</ref>
         </refs>
-        <data>[character][0x1]: Yeah, [character][0x1].
+        <data>[character][0x1]: Yeah, [character][0x0].
 It isn't something that simple.[end]</data>
     </text>
     <text>
@@ -1569,14 +1569,14 @@ It isn't something that simple.[end]</data>
             <ref>0x1311</ref>
             <ref>0x1407</ref>
         </refs>
-        <data>[character][0x1]: [character][0x1], thanks for
+        <data>[character][0x1]: [character][0x0], thanks for
 all your hard work.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1318</ref>
         </refs>
-        <data>[character][0x1]: [character][0x1]... What's the
+        <data>[character][0x1]: [character][0x0]... What's the
 matter?[end]</data>
     </text>
     <text>
@@ -1592,7 +1592,7 @@ matter?[end]</data>
             <ref>0x132b</ref>
         </refs>
         <data>Where is the door to the new era...?
-Hold on, [character][0x1]. I'll look into the
+Hold on, [character][0x0]. I'll look into the
 minds of the Holy Dragons.
 The relationship between me and the
 Holy Dragons is different than before.[end]</data>
@@ -1623,16 +1623,16 @@ Granbelos.[end]</data>
         <refs>
             <ref>0x13a8</ref>
         </refs>
-        <data>Palpaleos: [character][0x1]. General Gudolf
+        <data>Palpaleos: [character][0x0]. General Gudolf
 is still in Granbelos. He'll attack us for
-certain if we take [character][0x1] there.[end]</data>
+certain if we take [character][0x9] there.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x13b9</ref>
         </refs>
         <data>Palpaleos: When the time comes,
-[character][0x1]... Don't hold back.
+[character][0x0]... Don't hold back.
 
 Crush Gudolf and the Granbelos Empire.[end]</data>
     </text>
@@ -1665,13 +1665,13 @@ nothing but war...[end]</data>
         <data>[character][0x1]: When I'm not fighting, I
 want to be with Palpaleos.
 He cheers me up.
-Just like you used to, [character][0x1]...[end]</data>
+Just like you used to, [character][0x0]...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1424</ref>
         </refs>
-        <data>Zora's Son: Oh, hey, [character][0x1].
+        <data>Zora's Son: Oh, hey, [character][0x0].
 The ship sure seems gloomy.[end]</data>
     </text>
     <text>
@@ -1720,7 +1720,7 @@ longer.[end]</data>
         <refs>
             <ref>0x1477</ref>
         </refs>
-        <data>Palpaleos: [character][0x1]. When we
+        <data>Palpaleos: [character][0x0]. When we
 conquered Kahna we took many
 things as the spoils of war...
 Most of the soldiers disposed of them,
@@ -1728,7 +1728,7 @@ and this was all that was left.
 
 I brought it from Granbelos Castle, but
 [character][0x1] said I should let you have
-it, [character][0x1].
+it, [character][0x0].
 It belonged to the king of Kahna...
 Take it.[end]</data>
     </text>
@@ -1743,7 +1743,7 @@ Gown.[end]</data>
         <refs>
             <ref>0x149b</ref>
         </refs>
-        <data>Sauzer: [character][0x1], was it?
+        <data>Sauzer: [character][0x0], was it?
 Take care of Palpaleos...[end]</data>
     </text>
     <text>

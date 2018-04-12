@@ -140,7 +140,7 @@ venant de Kana.[end]</data>
         <refs>
             <ref>0x70d</ref>
         </refs>
-        <data>[character][0x1]...
+        <data>[character][0x0]...
 Est-ce que je cauchemarde?[end]</data>
     </text>
     <text>
@@ -148,13 +148,13 @@ Est-ce que je cauchemarde?[end]</data>
             <ref>0x71b</ref>
         </refs>
         <data>MIST:
-[character][0x1]?[end]</data>
+[character][0x0]?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x721</ref>
         </refs>
-        <data>Est-ce toi,[character][0x1]?![end]</data>
+        <data>Est-ce toi,[character][0x0]?![end]</data>
     </text>
     <text>
         <refs>
@@ -224,7 +224,7 @@ Hum...
 Tout va bien...
 J'ai tout de suite repris des forces
 en voyant le visage du Capitaine
-[character][0x1]![end]</data>
+[character][0x0]![end]</data>
     </text>
     <text>
         <refs>
@@ -233,7 +233,7 @@ en voyant le visage du Capitaine
         <data>MATELIGHT:
 Si tu le dis!
  
-[character][0x1] doit sûrement t'illuminer de
+[character][0x0] doit sûrement t'illuminer de
 bonheur![end]</data>
     </text>
     <text>
@@ -309,7 +309,7 @@ l'a poussé à m'aider.[end]</data>
             <ref>0x89a</ref>
         </refs>
         <data>LUKIA:
-[character][0x1]!
+[character][0x0]!
 Mélodia t'attend![end][end]</data>
     </text>
     <text>
@@ -342,7 +342,7 @@ C'est mon grand-père![end]</data>
         </refs>
         <data>GRAND-PERE:
 Hoho!
-Ne serais-tu pas [character][0x1]?
+Ne serais-tu pas [character][0x0]?
 Mélodia m'a énormément parlé de toi
 et de tes exploits.[end]</data>
     </text>
@@ -486,7 +486,7 @@ je redeviens une autre personne.[end]</data>
             <ref>0xace</ref>
         </refs>
         <data>MELODIA:
-[character][0x1]![end]</data>
+[character][0x0]![end]</data>
     </text>
     <text>
         <refs>
@@ -606,7 +606,7 @@ Vous pouvez aller la voir![end]</data>
         <refs>
             <ref>0x3e7</ref>
         </refs>
-        <data>Est-ce que tu es [character][0x1]?[end]</data>
+        <data>Est-ce que tu es [character][0x0]?[end]</data>
     </text>
     <text>
         <refs>
@@ -630,7 +630,7 @@ est restaurée![end]</data>
             <ref>0x296</ref>
         </refs>
         <data>SENDACK:
-[character][0x1]...
+[character][0x0]...
 Je... je...
  [0xa8]Il dit des inepties...[0xa9]
  [0xa8]Et il se répète en plus...[0xa9][end]</data>
@@ -640,7 +640,7 @@ Je... je...
             <ref>0x2ad</ref>
         </refs>
         <data>MATELIGHT:
-Hoho [character][0x1]!
+Hoho [character][0x0]!
  
 Il y a longtemps,ici,
 il y avait plein de Petits Démons.

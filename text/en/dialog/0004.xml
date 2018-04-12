@@ -33,7 +33,7 @@ Mahal, have also come![end]</data>
             <ref>0x47d</ref>
             <ref>0x21d</ref>
         </refs>
-        <data>Matelite: Alright, [character][0x1]! Do your
+        <data>Matelite: Alright, [character][0x0]! Do your
 worst![end]</data>
     </text>
     <text>
@@ -57,7 +57,7 @@ find you...[end]</data>
         </refs>
         <data>Matelite: Here comes the commander,
 taking his idle time! Hurry up,
-[character][0x1]![end]</data>
+[character][0x0]![end]</data>
     </text>
     <text>
         <refs>
@@ -84,13 +84,13 @@ That image will not do![end]</data>
             <ref>0x252</ref>
         </refs>
         <data>Taicho: Do it however you like,
-[character][0x1]![end]</data>
+[character][0x0]![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x260</ref>
         </refs>
-        <data>I cannot believe that [character][0x1]
+        <data>I cannot believe that [character][0x0]
 would torture somebody...[end]</data>
     </text>
     <text>
@@ -233,7 +233,7 @@ You're going to, after all![end]</data>
         <refs>
             <ref>0x460</ref>
         </refs>
-        <data>Rush: She isn't here. [character][0x1] is
+        <data>Rush: She isn't here. [character][0x0] is
 gonna ask this guy about her by
 torturing him.[end]</data>
     </text>
@@ -298,7 +298,7 @@ friends![end]</data>
         </refs>
         <data>Rush: Something seems strange up
 ahead! What should we do,
-[character][0x1]?
+[character][0x0]?
   You go on ahead!
   Come back later![end1]</data>
     </text>
@@ -309,7 +309,7 @@ ahead! What should we do,
         <data>Rush: [0x24]Oh, Rush! You came to save me![0x22]
 And then I'll hold her tightly in my
 arms!
-Sorry, [character][0x1]. Come back later![end]</data>
+Sorry, [character][0x0]. Come back later![end]</data>
     </text>
     <text>
         <refs>
@@ -318,7 +318,7 @@ Sorry, [character][0x1]. Come back later![end]</data>
         <data>Rush: You just want her all for
 yourself, don't you?!
 
-[0x24]Oh, [character][0x1]! You came to save
+[0x24]Oh, [character][0x0]! You came to save
 me! I'm so happy![0x22] she'll say, then
 you'll hold each other's hands...
 That role is mine![end]</data>
@@ -353,7 +353,7 @@ you...[0x22]!?[end]</data>
         <refs>
             <ref>0x7f3</ref>
         </refs>
-        <data>Rush: [character][0x1]! Where're you
+        <data>Rush: [character][0x0]! Where're you
 going?![end][end]</data>
     </text>
 </texts>

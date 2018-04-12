@@ -79,7 +79,7 @@ I'm scared.[end]</data>
         <data>Matelite: This will be a perilous and
 possibly fatal mission!
 
-So you get to choose, [character][0x1]![end]</data>
+So you get to choose, [character][0x0]![end]</data>
     </text>
     <text>
         <refs>
@@ -87,7 +87,7 @@ So you get to choose, [character][0x1]![end]</data>
         </refs>
         <data>Ladies and gentleman, you're our spy
 candidates!! If you're going to feel
-bitter, do so to [character][0x1]![end]</data>
+bitter, do so to [character][0x0]![end]</data>
     </text>
     <text>
         <refs>
@@ -137,7 +137,7 @@ I shall return.[end]</data>
         <refs>
             <ref>0x26f</ref>
         </refs>
-        <data>Sendak: You chose me, [character][0x1]...
+        <data>Sendak: You chose me, [character][0x0]...
 Should I be happy?
 Should I be sad?
 I am not really sure...[end]</data>
@@ -286,7 +286,7 @@ Kahna![end]</data>
         <refs>
             <ref>0x670</ref>
         </refs>
-        <data>It looks like [character][0x1] has arrived...
+        <data>It looks like [character][0x7] has arrived...
 Granbelos Empire's secret weapon...
 There's a sky monster here![end]</data>
     </text>
@@ -294,7 +294,7 @@ There's a sky monster here![end]</data>
         <refs>
             <ref>0x6af</ref>
         </refs>
-        <data>[character][0x1]!! Jump down! It's not that
+        <data>[character][0x0]!! Jump down! It's not that
 far. From that distance you could
 probably even feed the dragons...[end]</data>
     </text>
@@ -326,7 +326,7 @@ is true, we're in trouble...!![end]</data>
         <data>I was scared at the time...
 My mind was screaming...
 
-It said, [0x24][character][0x1]... I'm sorry...
+It said, [0x24][character][0x0]... I'm sorry...
 Please forgive me for dying unhappily
 before you...[0x22][end]</data>
     </text>
@@ -348,7 +348,7 @@ Holy Dragons...?[end]</data>
         <data>That is all that I saw... But now it is
 clear that we must search for the Holy
 Dragons before Sauzer recovers!
-Right, [character][0x1]?![end]</data>
+Right, [character][0x0]?![end]</data>
     </text>
     <text>
         <refs>
@@ -542,7 +542,7 @@ I must be going now![end]</data>
         <refs>
             <ref>0xc2c</ref>
         </refs>
-        <data>Taicho: I am excited... [character][0x1]...
+        <data>Taicho: I am excited... [character][0x0]...
 You go ahead...[end]</data>
     </text>
     <text>
@@ -588,7 +588,7 @@ difficult...[end]</data>
             <ref>0xf61</ref>
             <ref>0xf7c</ref>
         </refs>
-        <data>[character][0x1]: Eek! [character][0x1]!![end]</data>
+        <data>[character][0x1]: Eek! [character][0x0]!![end]</data>
     </text>
     <text>
         <refs>
@@ -607,7 +607,7 @@ difficult...[end]</data>
             <ref>0xfc9</ref>
         </refs>
         <data>Hornet told me... He said that this is
-the closest spot in [character][0x1] to
+the closest spot in [character][0x9] to
 the sky...
 Look, the sky is almost within arm's
 reach...[end]</data>
@@ -616,7 +616,7 @@ reach...[end]</data>
         <refs>
             <ref>0xfef</ref>
         </refs>
-        <data>Hey... [character][0x1]...
+        <data>Hey... [character][0x0]...
 Do you ever remember things when
 you look at the night sky?
 A bunch of things...
@@ -634,7 +634,7 @@ from closer up...[end]</data>
         <refs>
             <ref>0x1021</ref>
         </refs>
-        <data>Hey, [character][0x1]. What will happen to
+        <data>Hey, [character][0x0]. What will happen to
 us? From now on...[end]</data>
     </text>
     <text>
@@ -660,7 +660,7 @@ know anything...[end]</data>
         <refs>
             <ref>0x1066</ref>
         </refs>
-        <data>[character][0x1]: [character][0x1]. Come stand
+        <data>[character][0x1]: [character][0x0]. Come stand
 next to me...[end]</data>
     </text>
     <text>
@@ -753,7 +753,7 @@ anyone... I will leave.[end]</data>
         <data>Wait...
 
 
-[character][0x1]...
+[character][0x0]...
 If we can see the sky...
 Let's go to the terrace.[end]</data>
     </text>
@@ -761,7 +761,7 @@ Let's go to the terrace.[end]</data>
         <refs>
             <ref>0x14f4</ref>
         </refs>
-        <data>Taicho: [character][0x1]... I am very sorry
+        <data>Taicho: [character][0x0]... I am very sorry
 to disturb you, but... I have something
 to tell you!
 I made a man-to-man promise at
@@ -774,7 +774,7 @@ Granbelos Castle...[end]</data>
         <data>I was hiding some... information for
 [character][0x1]...
 
-I will let you hear it, [character][0x1]...[end]</data>
+I will let you hear it, [character][0x0]...[end]</data>
     </text>
     <text>
         <refs>

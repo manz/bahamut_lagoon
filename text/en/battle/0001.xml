@@ -4,7 +4,7 @@
         <refs>
             <ref>0xba</ref>
         </refs>
-        <data>Everybody get inside!![0xfc][0x1][end1][end]</data>
+        <data>Everybody get inside!![0xfc][0x18][end1][end]</data>
     </text>
     <text>
         <refs>
@@ -17,7 +17,7 @@ still around!![end1][end]</data>
         <refs>
             <ref>0x30</ref>
         </refs>
-        <data>We're gonna kick the crap out of them[0xfc][0x1]
+        <data>We're gonna kick the crap out of them[0xfc][0x18]
 and take back Kahna's flagship!![end1][end]</data>
     </text>
     <text>
@@ -31,7 +31,7 @@ The Resistance is attacking?![end]</data>
         <refs>
             <ref>0x40</ref>
         </refs>
-        <data>Yo, I'm the boss here!![0xfc][0x1]
+        <data>Yo, I'm the boss here!![0xfc][0x18]
 I won the position in the
 javelin-throwing competition!![end]</data>
     </text>
@@ -39,7 +39,7 @@ javelin-throwing competition!![end]</data>
         <refs>
             <ref>0x4b</ref>
         </refs>
-        <data>“Condition for Victory:”[0xfc][0x1]
+        <data>“Condition for Victory:”[0xfc][0x28]
 “Defeat of the boss”[end]</data>
     </text>
     <text>
@@ -53,7 +53,7 @@ Use the dragon commands properly...[end1][end]</data>
         <refs>
             <ref>0x9d</ref>
         </refs>
-        <data>Don't forget about [0xfc][0x1][0x22]Come[0x22] and [0x22]Wait[0x22]!![end1][end]</data>
+        <data>Don't forget about [0xfc][0x18][0x22]Come[0x22] and [0x22]Wait[0x22]!![end1][end]</data>
     </text>
     <text>
         <refs>
@@ -67,7 +67,7 @@ techs! So be careful!![end1][end]</data>
         <refs>
             <ref>0xb3</ref>
         </refs>
-        <data>Matelite: OK!![0xfc][0x1] I'm taking charge of the
+        <data>Matelite: OK!![0xfc][0x20] I'm taking charge of the
 ship!![end1][end]</data>
     </text>
 </texts>

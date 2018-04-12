@@ -40,7 +40,7 @@ the other side quests![end]</data>
         <refs>
             <ref>0x745</ref>
         </refs>
-        <data>Sendak: [character][0x1]...
+        <data>Sendak: [character][0x0]...
 Do your best next time!![end]</data>
     </text>
     <text>
@@ -55,7 +55,7 @@ Do your best next time!![end]</data>
         <refs>
             <ref>0x755</ref>
         </refs>
-        <data>Sendak: [character][0x1]...
+        <data>Sendak: [character][0x0]...
 Are we returning already?[end]</data>
     </text>
     <text>
@@ -102,20 +102,20 @@ No picking!
             <ref>0x81a</ref>
         </refs>
         <data>[0x28]Bikkebakke's serious look came to
-[character][0x1]'s mind...[0x29][end]</data>
+[character][0x0]'s mind...[0x29][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x823</ref>
         </refs>
         <data>[0x28]Bikkebakke's lonely look came to
-[character][0x1]'s mind...[0x29][end]</data>
+[character][0x0]'s mind...[0x29][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x82c</ref>
         </refs>
         <data>[0x28]Bikkebakke's innocent face came to
-[character][0x1]'s mind...[0x29][end][end]</data>
+[character][0x0]'s mind...[0x29][end][end]</data>
     </text>
 </texts>

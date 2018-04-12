@@ -46,7 +46,7 @@ colère du Dragon Sacré?![end]</data>
             <ref>0x327</ref>
         </refs>
         <data>TAURUS:
-Capitaine [character][0x1],
+Capitaine [character][0x0],
 je me sens si lourd...
 Le Dragon Sacré est dans une telle
 furie![end]</data>
@@ -151,7 +151,7 @@ Ne va pas trop vite!
 Prends un peu de repos!
 Tout le monde t'aime.
  
-[character][0x1],
+[character][0x0],
 n'oublie pas de nourrir les dragons.[end]</data>
     </text>
     <text>
@@ -184,7 +184,7 @@ C'est si pénible[0xd8][end]</data>
             <ref>0x2d8</ref>
         </refs>
         <data>MATELIGHT:
-[character][0x1],que se passe-t-il?
+[character][0x0],que se passe-t-il?
 Toi,tu peux...
 Oh,ma tête![end]</data>
     </text>

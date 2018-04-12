@@ -4,7 +4,7 @@
         <refs>
             <ref>0x28</ref>
         </refs>
-        <data>Lestat: Heeheehee!![0xfc][0x1]
+        <data>Lestat: Heeheehee!![0xfc][0x18]
 So, you're the mighty Resistance I've
 heard so much about.[end1][end]</data>
     </text>
@@ -12,20 +12,20 @@ heard so much about.[end1][end]</data>
         <refs>
             <ref>0x33</ref>
         </refs>
-        <data>Taicho: Lestat![0xfc][0x1] So, now we meet at last![end1][end]</data>
+        <data>Taicho: Lestat![0xfc][0x18] So, now we meet at last![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x37</ref>
         </refs>
-        <data>The malice of those killed by you...[0xfc][0x1]
+        <data>The malice of those killed by you...[0xfc][0x28]
 You will now taste it for yourself!![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3e</ref>
         </refs>
-        <data>“Condition for Victory:”[0xfc][0x1]
+        <data>“Condition for Victory:”[0xfc][0x28]
 “Defeat of Lestat”[end]</data>
     </text>
     <text>

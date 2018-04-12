@@ -20,26 +20,26 @@
             <ref>0x9c</ref>
         </refs>
         <data>  Plusieurs années après le cauchemar
-  de la guerre...[0xfc][0x1][end1]</data>
+  de la guerre...[0xfc][0x40][end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xae</ref>
         </refs>
-        <data> Sur Teid,un lagon oublié de l'Empire...[0xfc][0x1][end1]</data>
+        <data> Sur Teid,un lagon oublié de l'Empire...[0xfc][0x40][end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xea</ref>
         </refs>
         <data> Les survivants de la chute de Kana
- formèrent un groupe de rebelles...[0xfc][0x1][end1]</data>
+ formèrent un groupe de rebelles...[0xfc][0x40][end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xee</ref>
         </refs>
-        <data> pour faire face à l'Empire Granbelos.[0xfc][0x1][end1]</data>
+        <data> pour faire face à l'Empire Granbelos.[0xfc][0x40][end1]</data>
     </text>
     <text>
         <refs>
@@ -68,7 +68,7 @@ SALAMANDO![end]</data>
         <refs>
             <ref>0x218</ref>
         </refs>
-        <data>[character][0x1]![end]</data>
+        <data>[character][0x0]![end]</data>
     </text>
     <text>
         <refs>
@@ -81,14 +81,14 @@ SALAMANDO![end]</data>
         <refs>
             <ref>0x373</ref>
         </refs>
-        <data>Souhaitez la bienvenue à [character][0x1][0xd8][end]</data>
+        <data>Souhaitez la bienvenue à [character][0x0][0xd8][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3a5</ref>
         </refs>
         <data>ZORA:
-[character][0x1] est de retour![end]</data>
+[character][0x0] est de retour![end]</data>
     </text>
     <text>
         <refs>
@@ -118,7 +118,7 @@ SALAMANDO![end]</data>
             <ref>0x3db</ref>
         </refs>
         <data>COMMANDANT:
-Monsieur [character][0x1]!
+Monsieur [character][0x0]!
  
 Je suis un chevalier de Mahal,
 je me nomme Commandant![end]</data>
@@ -130,7 +130,7 @@ je me nomme Commandant![end]</data>
         <data>SENDACK:
 Humpf humpf...
  
-[character][0x1] est revenu?
+[character][0x0] est revenu?
 Il faudrait que je lui parles![end]</data>
     </text>
     <text>
@@ -146,7 +146,7 @@ Content de te revoir![end]</data>
             <ref>0x46b</ref>
         </refs>
         <data>ZORA:
-Où est [character][0x1]?![end]</data>
+Où est [character][0x0]?![end]</data>
     </text>
     <text>
         <refs>
@@ -195,7 +195,7 @@ Dépêchons-nous![end]</data>
             <ref>0xbec</ref>
         </refs>
         <data>SENDACK:
-[character][0x1],bienvenue à la maison!
+[character][0x0],bienvenue à la maison!
  
 Nous apprécions tout ce que tu as fait
 pour retrouver les dragons.
@@ -222,7 +222,7 @@ sembles si mâture,maintenant...[end]</data>
         <refs>
             <ref>0xbfc</ref>
         </refs>
-        <data>Ha,[character][0x1]!
+        <data>Ha,[character][0x0]!
 Vite au champ de bataille![end]</data>
     </text>
     <text>
@@ -230,7 +230,7 @@ Vite au champ de bataille![end]</data>
             <ref>0xb75</ref>
         </refs>
         <data>MATELIGHT:
-[character][0x1]...
+[character][0x0]...
  
 Te souviens-tu à quel point [character][0x1]
 avait le coeur troublé?!
@@ -259,7 +259,7 @@ Ce sont donc de bons souvenirs![end]</data>
         <refs>
             <ref>0xb9a</ref>
         </refs>
-        <data>Très bien,[character][0x1]!
+        <data>Très bien,[character][0x0]!
 Allons vite secourir la Princesse![end]</data>
     </text>
     <text>
@@ -321,7 +321,7 @@ Les préparatifs sont OK?[end]</data>
             <ref>0xe89</ref>
         </refs>
         <data>SENDACK:
-[character][0x1],ce serait trop dur toi d'être
+[character][0x0],ce serait trop dur toi d'être
 plus attentif![end]</data>
     </text>
     <text>
@@ -335,7 +335,7 @@ plus attentif![end]</data>
         <refs>
             <ref>0xe98</ref>
         </refs>
-        <data>[character][0x1]...[end]</data>
+        <data>[character][0x0]...[end]</data>
     </text>
     <text>
         <refs>
@@ -420,7 +420,7 @@ L'ouvrir tout de même?[end]</data>
         <refs>
             <ref>0x6f2</ref>
         </refs>
-        <data> Très cher [character][0x1],
+        <data> Très cher [character][0x0],
   
    
  Comment te portes-tu?
@@ -444,7 +444,7 @@ L'ouvrir tout de même?[end]</data>
  sont maintenant considérés comme des
  Rebelles.
  C'est irréversible...
- [character][0x1], revenez-nous tous très vite.[end]</data>
+ [character][0x0], revenez-nous tous très vite.[end]</data>
     </text>
     <text>
         <refs>
@@ -463,7 +463,7 @@ L'ouvrir tout de même?[end]</data>
         <data>RUSH:
 Nous partons bientôt!
 Fais-leur tes adieux...
-Tu te dépêches [character][0x1]!
+Tu te dépêches [character][0x0]!
  
   
 Capitaine,nous sommes prêts![end]</data>
@@ -514,7 +514,7 @@ Faites attention à vous![end]</data>
         </refs>
         <data>Regarde Melodia...
 Ils s'en vont!
-[character][0x1] s'en va!
+[character][0x0] s'en va!
 Tu ne dis rien?![end]</data>
     </text>
     <text>
@@ -530,7 +530,7 @@ Je...[end]</data>
         </refs>
         <data>MATELIGHT:
 Tâche de revenir très vite,
-[character][0x1]!
+[character][0x0]!
 [character][0x1] ne doit pas rester plus longtemps
 entre les mains de l'Empire Granbelos.
 Nous devons la récupérer![end][end]</data>

@@ -94,7 +94,7 @@ Qu'est-ce que je vous disais?![end]</data>
         <refs>
             <ref>0x1b5</ref>
         </refs>
-        <data>[character][0x1]!
+        <data>[character][0x0]!
 Je te délègue un moment ma charge,
 je te fais confiance![end]</data>
     </text>
@@ -111,14 +111,14 @@ Tout ira bien,normalement.[end]</data>
         </refs>
         <data>COMMANDANT:
 Quel soulagement de pouvoir faire
-confiance à [character][0x1]![end]</data>
+confiance à [character][0x0]![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x22b</ref>
         </refs>
         <data>LUKIA:
-[character][0x1]...
+[character][0x0]...
 Fais attention![end]</data>
     </text>
     <text>
@@ -142,7 +142,7 @@ Il y a tellement longtemps.[end]</data>
         <refs>
             <ref>0x6fd</ref>
         </refs>
-        <data>Tu es,[character][0x1],le Capitaine de l'EScadron
+        <data>Tu es,[character][0x0],le Capitaine de l'EScadron
 Dragon?
 Tu es un homme formidable!
 Tu vas encore rester ici?[end][end]</data>
@@ -210,7 +210,7 @@ serviteur.[end]</data>
             <ref>0x8d0</ref>
         </refs>
         <data>DON JUAN:
-Et à côté de moi se trouve [character][0x1]![end]</data>
+Et à côté de moi se trouve [character][0x0]![end]</data>
     </text>
     <text>
         <refs>
@@ -225,7 +225,7 @@ Kana![end]</data>
             <ref>0x8fe</ref>
         </refs>
         <data>FEMME:
-[character][0x1],le Capitaine de l'Escadron Dragon
+[character][0x0],le Capitaine de l'Escadron Dragon
 de Kana?![end]</data>
     </text>
     <text>
@@ -416,7 +416,7 @@ Nous allons aller le trouver![end]</data>
         <data>MATELIGHT:
 Allons-y,allons combattre!
 L'Empire s'essouffle!
-[character][0x1]!
+[character][0x0]!
 Prépare-toi bien![end]</data>
     </text>
     <text>

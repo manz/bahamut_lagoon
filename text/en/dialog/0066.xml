@@ -5,7 +5,7 @@
             <ref>0xba</ref>
             <ref>0x14d</ref>
         </refs>
-        <data>[character][0x1]: [character][0x1]...
+        <data>[character][0x1]: [character][0x0]...
 Hurry, this way![end]</data>
     </text>
     <text>
@@ -19,13 +19,13 @@ Hurry, this way![end]</data>
         <refs>
             <ref>0x2aa</ref>
         </refs>
-        <data>[character][0x1]: [character][0x1] is so fast![0xfc][0x1][end1]</data>
+        <data>[character][0x1]: [character][0x2] is so fast![0xfc][0x30][end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x380</ref>
         </refs>
-        <data>[character][0x1]: Hey, [character][0x1]...
+        <data>[character][0x1]: Hey, [character][0x0]...
 Do you mind if I hold on tighter?[end]</data>
     </text>
     <text>
@@ -51,7 +51,7 @@ Do you mind if I hold on tighter?[end]</data>
         <refs>
             <ref>0x3c7</ref>
         </refs>
-        <data>Hey, [character][0x1]...
+        <data>Hey, [character][0x0]...
 I wonder how far the sky goes...
 
 Reaching beyond the sky... I wonder if
@@ -106,13 +106,13 @@ one of Kahna's dragons.[end]</data>
             <ref>0x6d9</ref>
         </refs>
         <data>[character][0x1]: No... It's a lot faster than
-[character][0x1]!![end]</data>
+[character][0x2]!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6e9</ref>
         </refs>
-        <data>Palpaleos: [character][0x1]...
+        <data>Palpaleos: [character][0x2]...
 He can really burn things...[end]</data>
     </text>
     <text>
@@ -205,13 +205,13 @@ it is now...[end]</data>
             <ref>0xc48</ref>
             <ref>0xa7d</ref>
         </refs>
-        <data>Matelite: [character][0x1]!! Wait!![0xfc][0x1][end1]</data>
+        <data>Matelite: [character][0x0]!! Wait!![0xfc][0x10][end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xaa1</ref>
         </refs>
-        <data>[character][0x1]: Hey, [character][0x1].
+        <data>[character][0x1]: Hey, [character][0x0].
 This is called the Church of Memories.
 Do you know why?[end]</data>
     </text>
@@ -273,7 +273,7 @@ We should have brought Matelite too.[end]</data>
         <refs>
             <ref>0xb57</ref>
         </refs>
-        <data>Hey... [character][0x1].
+        <data>Hey... [character][0x0].
 When we're a little older...
 When I feel the same way...
 If I ask you to come to the Church of
@@ -293,7 +293,7 @@ Memories, will you?[end]</data>
         <data>That's right... We can't see into the
 future... Will we be far away from each
 other I wonder...
-Right now... [character][0x1]...
+Right now... [character][0x0]...
 Even if it's a lie...
 Promise me...[end]</data>
     </text>

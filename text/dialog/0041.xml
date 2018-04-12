@@ -134,7 +134,7 @@ Devrions-nous y pénétrer?[end]</data>
         <data>MATELIGHT:
 [character][0x1],
 ce doit être vraiment très dangereux!
-[character][0x1],va tout d'abord voir si tout va
+[character][0x0],va tout d'abord voir si tout va
 bien![end]</data>
     </text>
     <text>
@@ -228,7 +228,7 @@ Tenez bon![end]</data>
             <ref>0x3fd</ref>
         </refs>
         <data>[character][0x1]:
-[character][0x1]...[end]</data>
+[character][0x0]...[end]</data>
     </text>
     <text>
         <refs>
@@ -310,7 +310,7 @@ Il veut me dire quelque chose.[end]</data>
             <ref>0x68c</ref>
         </refs>
         <data>SENDACK:
-[character][0x1],tout va bien?
+[character][0x0],tout va bien?
 Je sens que tu es bizarre...[end]</data>
     </text>
     <text>
@@ -318,7 +318,7 @@ Je sens que tu es bizarre...[end]</data>
             <ref>0x695</ref>
         </refs>
         <data>MATELIGHT:
-[character][0x1],
+[character][0x0],
 je t'ai demandé quelque chose![end]</data>
     </text>
     <text>

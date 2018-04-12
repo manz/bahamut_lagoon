@@ -95,7 +95,7 @@ sense Bahamut's thoughts?[end]</data>
         <data>[character][0x1]: Bahamut...
 Protect Kahna...
 
-Protect [character][0x1]...[end]</data>
+Protect [character][0x0]...[end]</data>
     </text>
     <text>
         <refs>
@@ -136,14 +136,14 @@ awaken. Without Bahamut we are lost...[end]</data>
             <ref>0x740</ref>
         </refs>
         <data>King Kahna: That is not so. We still
-have [character][0x1] and his Dragon
+have [character][0x0] and his Dragon
 Squad...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x74f</ref>
         </refs>
-        <data>[character][0x1]...[end]</data>
+        <data>[character][0x0]...[end]</data>
     </text>
     <text>
         <refs>
@@ -173,7 +173,7 @@ the dragons![end]</data>
         <data>Truce: We can't lose this final battle
 with the Granbelos Empire!
 
-Captain [character][0x1]!! Shouldn't you go
+Captain [character][0x0]!! Shouldn't you go
 over the details once more before we
 attack?[end]</data>
     </text>
@@ -223,7 +223,7 @@ and heal you or rest.[end]</data>
 to the enemy's sky fortress to hold
 them off.
 We must hurry to Kahna Castle.
-Captain [character][0x1], please get on
+Captain [character][0x0], please get on
 your dragon.[end]</data>
     </text>
     <text>

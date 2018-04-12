@@ -248,7 +248,7 @@ Sortons,sortons[0xd8][end]</data>
         </refs>
         <data>COMMANDANT:
 [character][0x1] va arriver!
-[character][0x1],va à ta place![end]</data>
+[character][0x0],va à ta place![end]</data>
     </text>
     <text>
         <refs>
@@ -425,7 +425,7 @@ Impératrice [character][0x1]![end]</data>
             <ref>0x585</ref>
         </refs>
         <data>[character][0x1]:
-Et toi... [character][0x1]?
+Et toi... [character][0x0]?
  
 Livreras-tu bataille pour une Ere
 Nouvelle?![end]</data>
@@ -452,7 +452,7 @@ ta valeur![end]</data>
         <refs>
             <ref>0x599</ref>
         </refs>
-        <data>[character][0x1],nous sommes ensemble depuis le
+        <data>[character][0x0],nous sommes ensemble depuis le
 commencement et maintenant,nous tous,
 nous triompherons![end]</data>
     </text>
@@ -578,7 +578,7 @@ combat![end]</data>
 Cette nuit est et restera la nuit de
 la Restauration de Kana!
 Amusons-nous tous!
-Et toi,[character][0x1],seras-tu là cette nuit?[end]</data>
+Et toi,[character][0x0],seras-tu là cette nuit?[end]</data>
     </text>
     <text>
         <refs>

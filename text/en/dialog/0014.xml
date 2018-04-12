@@ -75,7 +75,7 @@ I was rambling...[end]</data>
         <refs>
             <ref>0x1b5</ref>
         </refs>
-        <data>[character][0x1]! I leave it all in your
+        <data>[character][0x0]! I leave it all in your
 hands![end]</data>
     </text>
     <text>
@@ -113,7 +113,7 @@ always...[end]</data>
             <ref>0x1de</ref>
         </refs>
         <data>Taicho: If we leave it up to
-[character][0x1], we will have no
+[character][0x0], we will have no
 worries![end]</data>
     </text>
     <text>
@@ -121,17 +121,17 @@ worries![end]</data>
             <ref>0x22b</ref>
         </refs>
         <data>Lukia: Always working hard, eh,
-[character][0x1]. Keep up the good work![end]</data>
+[character][0x0]. Keep up the good work![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x235</ref>
         </refs>
-        <data>Um... [character][0x1]. I think I just saw a
+        <data>Um... [character][0x0]. I think I just saw a
 Mini-Devil.
 
 It looked like it was a little different
-than the ones on [character][0x1]...[end]</data>
+than the ones on [character][0x9]...[end]</data>
     </text>
     <text>
         <refs>
@@ -266,7 +266,7 @@ made we will leave![end]</data>
         <data>Matelite: Okay, it's time to fight!
 Next up is either some monsters or the
 Empire!
-[character][0x1]! Make sure we're all
+[character][0x0]! Make sure we're all
 prepared![end]</data>
     </text>
     <text>
@@ -320,7 +320,7 @@ Good thing we won...[end]</data>
         <refs>
             <ref>0x6fd</ref>
         </refs>
-        <data>[character][0x1] of the Dragon Squad?
+        <data>[character][0x0] of the Dragon Squad?
 Hmm... you seem like a pretty nice
 guy. You smell a little bit, though.[end]</data>
     </text>
@@ -361,14 +361,14 @@ Resistance too! They're so cool![end]</data>
             <ref>0x8d0</ref>
         </refs>
         <data>Donfan: And standing next to you is
-the studly [character][0x1]![end]</data>
+the studly [character][0x0]![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8de</ref>
         </refs>
         <data>The warrior of love... and captain of
-Kahna's Dragon Squad, [character][0x1]![end]</data>
+Kahna's Dragon Squad, [character][0x0]![end]</data>
     </text>
     <text>
         <refs>
@@ -381,7 +381,7 @@ Kahna's Dragon Squad, [character][0x1]![end]</data>
             <ref>0x907</ref>
         </refs>
         <data>Donfan: ...Wait a minute.
-You know [character][0x1]?[end]</data>
+You know [character][0x0]?[end]</data>
     </text>
     <text>
         <refs>

@@ -135,7 +135,7 @@ Je crois qu'il ne va pas bien...[end]</data>
 Je crois que je vais aller voir où il
 est passé!
 Va voir si tu trouves quelqu'un ici,
-[character][0x1]![end]</data>
+[character][0x0]![end]</data>
     </text>
     <text>
         <refs>
@@ -414,7 +414,7 @@ Je ne connais même pas ton nom?![end]</data>
             <ref>0x983</ref>
         </refs>
         <data>T... t... toi!
-Tu es [character][0x1],le Capitaine de l'Escadron
+Tu es [character][0x0],le Capitaine de l'Escadron
 Dragon de Kana![end]</data>
     </text>
     <text>
@@ -603,7 +603,7 @@ nous![end]</data>
             <ref>0xb2d</ref>
         </refs>
         <data>DON JUAN:
-Capitaine [character][0x1]!
+Capitaine [character][0x0]!
 Encore une fois,tu ne voudrais pas
 m'aider?[end]</data>
     </text>

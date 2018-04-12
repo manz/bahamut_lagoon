@@ -405,7 +405,7 @@ torrent take care of them for us!![end]</data>
         <refs>
             <ref>0x9e8</ref>
         </refs>
-        <data>[character][0x1]...
+        <data>[character][0x0]...
 
 
 Uh, never mind...[end]</data>
@@ -414,7 +414,7 @@ Uh, never mind...[end]</data>
         <refs>
             <ref>0xa11</ref>
         </refs>
-        <data>[character][0x1]... Is there somebody you
+        <data>[character][0x0]... Is there somebody you
 love? Is there somebody you have
 to protect?[end]</data>
     </text>
@@ -436,7 +436,7 @@ Princess [character][0x1], right?[end]</data>
         <refs>
             <ref>0xa31</ref>
         </refs>
-        <data>[character][0x1]... you are a man of
+        <data>[character][0x0]... you are a man of
 happiness.[end]</data>
     </text>
     <text>

@@ -50,7 +50,7 @@ Okay, let's go![end]</data>
         <refs>
             <ref>0x307</ref>
         </refs>
-        <data>Sendak: What will you do, [character][0x1]?
+        <data>Sendak: What will you do, [character][0x0]?
 
 
   I'm not ready yet!
@@ -73,7 +73,7 @@ dragon.[end]</data>
         <refs>
             <ref>0x35e</ref>
         </refs>
-        <data>Sendak: What will you do, [character][0x1]?
+        <data>Sendak: What will you do, [character][0x0]?
 
 
   Call the dragons
@@ -103,7 +103,7 @@ members.[end]</data>
         <refs>
             <ref>0x4df</ref>
         </refs>
-        <data>Sendak: Cool, [character][0x1]![end]</data>
+        <data>Sendak: Cool, [character][0x0]![end]</data>
     </text>
     <text>
         <refs>

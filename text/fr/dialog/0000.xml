@@ -81,7 +81,7 @@ Dépêchons-nous![end]</data>
         <data>TAURUS:
 Ce sera une bataille décisive contre
 l'Empire!
-Capitaine [character][0x1]!
+Capitaine [character][0x0]!
 Voulez-vous attaquer sans être certain
 de savoir ce que vous allez faire?
 Qu'aimeriez-vous savoir,Capitaine?[end]</data>
@@ -150,7 +150,7 @@ de le stopper.
 Dépêchons-nous d'aller au Château de
 Kana!
  
-Capitaine [character][0x1],grimpons vite sur nos
+Capitaine [character][0x0],grimpons vite sur nos
 dragons.[end]</data>
     </text>
     <text>
@@ -249,7 +249,7 @@ Bahamut,je t'en prie...
 Protège Kana...
  
  
-Et [character][0x1]...[end]</data>
+Et [character][0x0]...[end]</data>
     </text>
     <text>
         <refs>
@@ -332,13 +332,13 @@ Qu'attend-t-il?![end]</data>
 Ne dites pas cela!
  
 Nous avons encore l'Escadron Dragon
-et [character][0x1].[end]</data>
+et [character][0x0].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x74f</ref>
         </refs>
-        <data>[character][0x1]...[end]</data>
+        <data>[character][0x0]...[end]</data>
     </text>
     <text>
         <refs>

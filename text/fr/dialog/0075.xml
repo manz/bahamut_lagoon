@@ -42,7 +42,7 @@ Princesse...[end]</data>
             <ref>0x143</ref>
         </refs>
         <data>LUKIA:
-[character][0x1]!
+[character][0x0]!
 Tiens bon![end]</data>
     </text>
     <text>
@@ -53,7 +53,7 @@ Tiens bon![end]</data>
         <data>LUKIA:
 Réveillez-vous!
  
-[character][0x1]!
+[character][0x0]!
 Et [character][0x1]!
  
 Va la rejoindre,vite!
@@ -65,7 +65,7 @@ reprendre![end]</data>
             <ref>0x64a</ref>
         </refs>
         <data>PALPALEOS:
-Ainsi,tu es [character][0x1]![end]</data>
+Ainsi,tu es [character][0x0]![end]</data>
     </text>
     <text>
         <refs>
@@ -149,7 +149,7 @@ Vous êtes saine et sauve!
 Et vous nous avez rejoints!
  
   
-[character][0x1],je dois avouer que c'est toi
+[character][0x0],je dois avouer que c'est toi
 qui l'a ramenée![end]</data>
     </text>
     <text>

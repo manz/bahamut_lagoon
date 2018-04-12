@@ -12,7 +12,7 @@
             <ref>0xbb</ref>
         </refs>
         <data>SENDACK:
-[character][0x1]...[end]</data>
+[character][0x0]...[end]</data>
     </text>
     <text>
         <refs>
@@ -21,7 +21,7 @@
         <data>Je dois avouer ne pas avoir le sens
 de l'orientation.
 Où dois-je nous emmener?!
-[character][0x1],j'aurais une requête...
+[character][0x0],j'aurais une requête...
 Pourrais-tu donner à ma place le lieu
 de destination à Hornet?[end]</data>
     </text>

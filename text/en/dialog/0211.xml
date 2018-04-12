@@ -14,7 +14,7 @@ The land of unchanging memories...[end]</data>
         <refs>
             <ref>0x566</ref>
         </refs>
-        <data>Dragonkeeper: [character][0x1]... The skies
+        <data>Dragonkeeper: [character][0x0]... The skies
 of Orelus... Beneath the clouds,
 continuing forever, lies another world.
 Protecting you... The world of people
@@ -26,7 +26,7 @@ the world of Orelus...
 Beneath the clouds... The dreams of all
 living things... The strength of their
 hearts...
-[character][0x1]... The feeling of reaching
+[character][0x0]... The feeling of reaching
 beyond the sky... I can feel it
 throughout my entire body...[end]</data>
     </text>
@@ -35,7 +35,7 @@ throughout my entire body...[end]</data>
             <ref>0x573</ref>
         </refs>
         <data>Dragonkeeper: The sky speaks to you...
-[character][0x1]... Be strong... Don't be
+[character][0x0]... Be strong... Don't be
 worried. Keep believing...[end]</data>
     </text>
     <text>
@@ -62,7 +62,7 @@ because he's the father...[end]</data>
 becomes its human father!!
 
 Of course, I had thought you would be
-the father, [character][0x1]...
+the father, [character][0x0]...
 
 But since you're the second person,
 that makes you the mother...[end]</data>
@@ -71,12 +71,12 @@ that makes you the mother...[end]</data>
         <refs>
             <ref>0x59c</ref>
         </refs>
-        <data>I remember when [character][0x1] was just
+        <data>I remember when [character][0x2] was just
 a dragon pup... I was his father...
 
 As I didn't have any children of my
 own, I took special care of
-[character][0x1].
+[character][0x2].
 Everybody has been calling me the
 Dragonkeeper ever since...[end]</data>
     </text>
@@ -92,7 +92,7 @@ love... It's going to be tough...[end]</data>
             <ref>0x5bd</ref>
         </refs>
         <data>Dragonkeeper: It's a message from the
-wind... Listen closely, [character][0x1].
+wind... Listen closely, [character][0x0].
 Listen to the voice of the wind...[end]</data>
     </text>
     <text>
@@ -138,7 +138,7 @@ inside?[end]</data>
             <ref>0x681</ref>
         </refs>
         <data>Rush: Let's sneak onto the terrace with
-[character][0x1]!! Well, you gonna get on?[end]</data>
+[character][0x2]!! Well, you gonna get on?[end]</data>
     </text>
     <text>
         <refs>
@@ -174,13 +174,13 @@ me...!![end]</data>
             <ref>0x9ba</ref>
         </refs>
         <data>Don't worry!! He's not scary...
-[character][0x1]'s nice...[end]</data>
+[character][0x0]'s nice...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa11</ref>
         </refs>
-        <data>Dragonkeeper: Okay, [character][0x1]. Try
+        <data>Dragonkeeper: Okay, [character][0x0]. Try
 calling to him!![end]</data>
     </text>
     <text>
@@ -233,7 +233,7 @@ The one who eats the dung shall open
         <refs>
             <ref>0xc04</ref>
         </refs>
-        <data>                [character][0x1]...[end]</data>
+        <data>                [character][0x0]...[end]</data>
     </text>
     <text>
         <refs>
@@ -242,7 +242,7 @@ The one who eats the dung shall open
         <data>             I am Bahamut...
 
 
-                 [character][0x1]...
+                 [character][0x0]...
             I shall show you
         memories of the future...[end]</data>
     </text>
@@ -261,7 +261,7 @@ The one who eats the dung shall open
         <data>     The future... I desire to fly...
 While protecting the lagoons of Orelus...
      While protecting the humans...
-                [character][0x1]...
+                [character][0x0]...
  I shall take you through these skies...[end]</data>
     </text>
     <text>
@@ -295,7 +295,7 @@ sky...[end]</data>
             <ref>0xd0c</ref>
         </refs>
         <data>Hornet's message: Congratulations on
-the revival of Kahna!! [character][0x1],
+the revival of Kahna!! [character][0x0],
 protect the skies of Orelus!!
 P.S. Don't tell the crew that I gave you
 a present![end]</data>
@@ -317,7 +317,7 @@ Congratulations on the revival of
 Kahna.
 We, the crew are also praying for
 peace in Orelus. We spent up all of
-our money. [character][0x1], keep at it!![end]</data>
+our money. [character][0x0], keep at it!![end]</data>
     </text>
     <text>
         <refs>
@@ -364,20 +364,20 @@ No picking!
             <ref>0xdaf</ref>
         </refs>
         <data>[0x28]Bikkebakke's serious look came to
-[character][0x1]'s mind...[0x29][end]</data>
+[character][0x0]'s mind...[0x29][end]</data>
     </text>
     <text>
         <refs>
             <ref>0xdb8</ref>
         </refs>
         <data>[0x28]Bikkebakke's lonely look came to
-[character][0x1]'s mind...[0x29][end]</data>
+[character][0x0]'s mind...[0x29][end]</data>
     </text>
     <text>
         <refs>
             <ref>0xdc1</ref>
         </refs>
         <data>[0x28]Bikkebakke's innocent eace came to
-[character][0x1]'s mind...[0x29][end][end]</data>
+[character][0x0]'s mind...[0x29][end][end]</data>
     </text>
 </texts>

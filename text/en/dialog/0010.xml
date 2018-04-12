@@ -124,7 +124,7 @@ sense...[end]</data>
         <data>Matelite: We're going to go look for
 Taicho!
 
-[character][0x1], you look around the area
+[character][0x0], you look around the area
 one more time![end]</data>
     </text>
     <text>
@@ -419,7 +419,7 @@ know your name...[end]</data>
         <refs>
             <ref>0x983</ref>
         </refs>
-        <data>You! You're [character][0x1], captain of
+        <data>You! You're [character][0x0], captain of
 Kahna's Dragon Squad, aren't you?![end]</data>
     </text>
     <text>
@@ -575,7 +575,7 @@ When you're ready, meet up with us![end]</data>
         <refs>
             <ref>0xb2d</ref>
         </refs>
-        <data>Donfan: Um... Captain [character][0x1]!
+        <data>Donfan: Um... Captain [character][0x0]!
 Could you help me once again?[end]</data>
     </text>
     <text>

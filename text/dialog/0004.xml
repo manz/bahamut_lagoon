@@ -221,7 +221,7 @@ Où est la Princesse [character][0x1]?[end]</data>
         <data>RUSH:
 La Princesse n'est pas ici!
  
-[character][0x1] va utiliser la torture pour que
+[character][0x0] va utiliser la torture pour que
 ce soldat nous dise où elle se trouve![end]</data>
     </text>
     <text>
@@ -237,7 +237,7 @@ Très bonne idée![end]</data>
             <ref>0x21d</ref>
         </refs>
         <data>MATELIGHT:
-Vas-y [character][0x1]!
+Vas-y [character][0x0]!
 Et ne lésine pas sur les coups![end]</data>
     </text>
     <text>
@@ -326,7 +326,7 @@ impérial![end]</data>
         <refs>
             <ref>0x260</ref>
         </refs>
-        <data>Quoi [character][0x1]!
+        <data>Quoi [character][0x0]!
 Des tortures...[end]</data>
     </text>
     <text>
@@ -414,7 +414,7 @@ genre de choses![end]</data>
             <ref>0x7f3</ref>
         </refs>
         <data>RUSH:
-[character][0x1]!
+[character][0x0]!
 Où vas-tu?![end]</data>
     </text>
     <text>

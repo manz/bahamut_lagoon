@@ -41,8 +41,8 @@ time. Do you remember?[end]</data>
             <ref>0x556</ref>
             <ref>0x247</ref>
         </refs>
-        <data>Sendak: [character][0x1]... hmm...
-Not bad, [character][0x1]![end]</data>
+        <data>Sendak: [character][0x9]... hmm...
+Not bad, [character][0x0]![end]</data>
     </text>
     <text>
         <refs>
@@ -130,7 +130,7 @@ They're really hungry right now.[end]</data>
         <refs>
             <ref>0x2f4</ref>
         </refs>
-        <data>Good work, [character][0x1]!
+        <data>Good work, [character][0x0]!
 We have a suspicious character locked
 up in here.[end]</data>
     </text>
@@ -138,7 +138,7 @@ up in here.[end]</data>
         <refs>
             <ref>0x2fb</ref>
         </refs>
-        <data>Excellent work, [character][0x1]!
+        <data>Excellent work, [character][0x0]!
 We have some really rowdy guy locked
 up in here.[end]</data>
     </text>
@@ -164,7 +164,7 @@ hiding, that's all.[end]</data>
         <refs>
             <ref>0x3de</ref>
         </refs>
-        <data>Sendak: Hey... [character][0x1].
+        <data>Sendak: Hey... [character][0x0].
 Wait a minute. There's something I
 want to talk to you about.[end]</data>
     </text>
@@ -194,19 +194,19 @@ one. Please, choose a really hip name![end]</data>
         <refs>
             <ref>0x5a3</ref>
         </refs>
-        <data>Matelite: Hmph! [character][0x1]!![end]</data>
+        <data>Matelite: Hmph! [character][0x9]!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5ae</ref>
         </refs>
-        <data>[character][0x1]! Let's go![end]</data>
+        <data>[character][0x9]! Let's go![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x69d</ref>
         </refs>
-        <data>Matelite: Hmph! [character][0x1]!
+        <data>Matelite: Hmph! [character][0x0]!
 I can't believe you'd go on ahead and
 leave us here! Can't you wait?![end][end]</data>
     </text>

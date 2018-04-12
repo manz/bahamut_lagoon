@@ -5,7 +5,7 @@
             <ref>0x144</ref>
         </refs>
         <data>FREDERIKA:
-Je me demande si [character][0x1] arrive.[end]</data>
+Je me demande si [character][0x0] arrive.[end]</data>
     </text>
     <text>
         <refs>
@@ -22,14 +22,14 @@ ce vaisseau,qui est assez vieux![end]</data>
             <ref>0x15d</ref>
         </refs>
         <data>DIANA:
-[character][0x1] arrive![end]</data>
+[character][0x0] arrive![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x315</ref>
         </refs>
         <data>FREDERIKA:
-Bienvenue [character][0x1]![end]</data>
+Bienvenue [character][0x0]![end]</data>
     </text>
     <text>
         <refs>
@@ -187,7 +187,7 @@ Le Drapeau National de Kana![end]</data>
 Notre Patrie Kana...
 La Princesse [character][0x1]...
 Sendack,ce vieux magicien!
-[character][0x1]!
+[character][0x0]!
  
 Lorsque la paix sera de retour,
 de nombreux autres drapeaux pourront

@@ -17,7 +17,7 @@ alcohol very well...[end]</data>
         <refs>
             <ref>0x296</ref>
         </refs>
-        <data>Sendak: ...[character][0x1]...
+        <data>Sendak: ...[character][0x0]...
 I... I...
 
 [0x2a]blah[0x2a] [0x2a]blah[0x2a]
@@ -34,7 +34,7 @@ I... I...
         <refs>
             <ref>0x2ad</ref>
         </refs>
-        <data>Matelite: Oh, [character][0x1]. Some
+        <data>Matelite: Oh, [character][0x0]. Some
 Mini-Devils came by earlier.
 
 They danced around, trying to get us
@@ -82,7 +82,7 @@ not owe a great deal to Lukia.[end]</data>
         <data>Mist: Not yet... I wonder if our wish
 can come true... We shouldn't give up...
 
-Oh, by the way, [character][0x1]. While I
+Oh, by the way, [character][0x0]. While I
 was sick in bed, I kept having this
 strange dream every night.
 In it, a man named Neal or Neill or
@@ -160,7 +160,7 @@ outside world is in terrible shape.[end]</data>
         <refs>
             <ref>0x3e7</ref>
         </refs>
-        <data>Are you [character][0x1]?[end]</data>
+        <data>Are you [character][0x0]?[end]</data>
     </text>
     <text>
         <refs>
@@ -324,7 +324,7 @@ me microscopes...?[end]</data>
         <refs>
             <ref>0x71b</ref>
         </refs>
-        <data>Mist: [character][0x1]...?[end]</data>
+        <data>Mist: [character][0x0]...?[end]</data>
     </text>
     <text>
         <refs>
@@ -347,13 +347,13 @@ here from Kahna.[end]</data>
         <refs>
             <ref>0x70d</ref>
         </refs>
-        <data>She's always talking about [character][0x1].[end]</data>
+        <data>She's always talking about [character][0x0].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x721</ref>
         </refs>
-        <data>Is that you, [character][0x1]?![end]</data>
+        <data>Is that you, [character][0x0]?![end]</data>
     </text>
     <text>
         <refs>
@@ -421,7 +421,7 @@ her!![end]</data>
             <ref>0x80b</ref>
         </refs>
         <data>Mist: No... I'm okay... I feel better now
-after seeing you and [character][0x1],
+after seeing you and [character][0x0],
 Captain.[end]</data>
     </text>
     <text>
@@ -429,7 +429,7 @@ Captain.[end]</data>
             <ref>0x819</ref>
         </refs>
         <data>Matelite: Oh, that's good!
-Are you being shy, [character][0x1]?[end]</data>
+Are you being shy, [character][0x0]?[end]</data>
     </text>
     <text>
         <refs>
@@ -498,7 +498,7 @@ myself...[end]</data>
         <refs>
             <ref>0x89a</ref>
         </refs>
-        <data>Lukia: [character][0x1]! Come to Melodia's
+        <data>Lukia: [character][0x0]! Come to Melodia's
 house![end]</data>
     </text>
     <text>
@@ -520,7 +520,7 @@ And that name too...[end]</data>
             <ref>0x97d</ref>
         </refs>
         <data>Grandfather: Oh! So you are
-[character][0x1]. I have just now heard
+[character][0x0]. I have just now heard
 all about you from Melodia.[end]</data>
     </text>
     <text>
@@ -653,7 +653,7 @@ grown.[end]</data>
         <refs>
             <ref>0xace</ref>
         </refs>
-        <data>Melodia: Oh yeah! [character][0x1]![end]</data>
+        <data>Melodia: Oh yeah! [character][0x0]![end]</data>
     </text>
     <text>
         <refs>

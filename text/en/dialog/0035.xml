@@ -132,7 +132,7 @@ planning![end]</data>
         <refs>
             <ref>0x2b5</ref>
         </refs>
-        <data>Sendak: [character][0x1]...[end]</data>
+        <data>Sendak: [character][0x0]...[end]</data>
     </text>
     <text>
         <refs>
@@ -343,7 +343,7 @@ We're hurt![end]</data>
         <refs>
             <ref>0x6a6</ref>
         </refs>
-        <data>[character][0x1]... I have to go.
+        <data>[character][0x0]... I have to go.
 I wanted to talk more.[end]</data>
     </text>
     <text>
@@ -356,18 +356,18 @@ I wanted to talk more.[end]</data>
         <refs>
             <ref>0x6e3</ref>
         </refs>
-        <data>Lukia: [character][0x1], hurry![end]</data>
+        <data>Lukia: [character][0x0], hurry![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x79f</ref>
         </refs>
-        <data>Lukia: [character][0x1]! What should we oo![end]</data>
+        <data>Lukia: [character][0x0]! What should we oo![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7ff</ref>
         </refs>
-        <data>Matelite: [character][0x1]... waid...[end][end]</data>
+        <data>Matelite: [character][0x0]... waid...[end][end]</data>
     </text>
 </texts>

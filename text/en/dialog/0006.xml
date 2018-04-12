@@ -40,7 +40,7 @@ Why, that little...[end]</data>
         <refs>
             <ref>0x155</ref>
         </refs>
-        <data>Matelite: Huh? Oh, [character][0x1]? Aren't
+        <data>Matelite: Huh? Oh, [character][0x0]? Aren't
 you happy?[end]</data>
     </text>
     <text>
@@ -99,7 +99,7 @@ around Campbell Lagoon?[end]</data>
 to free Campbell from the Granbelos
 Empire!
 I can just see the delighted faces of
-the people of Campbell, [character][0x1]![end]</data>
+the people of Campbell, [character][0x0]![end]</data>
     </text>
     <text>
         <refs>
@@ -128,13 +128,13 @@ Imperial soldiers all over the place.[end]</data>
             <ref>0x305</ref>
             <ref>0x10ee</ref>
         </refs>
-        <data>Sendak: [character][0x1]...[end]</data>
+        <data>Sendak: [character][0x0]...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x62b</ref>
         </refs>
-        <data>[character][0x1]?[end][end]</data>
+        <data>[character][0x0]?[end][end]</data>
     </text>
     <text>
         <refs>
@@ -165,7 +165,7 @@ set up a perimeter...[end]</data>
             <ref>0x23d</ref>
         </refs>
         <data>Matelite: Correct, Princess!
-Okay, [character][0x1]! Make the battle
+Okay, [character][0x0]! Make the battle
 preparations![end]</data>
     </text>
     <text>
@@ -194,7 +194,7 @@ lively?[end]</data>
             <ref>0x2c3</ref>
         </refs>
         <data>Taicho: You should take care of your
-appearance too, [character][0x1]. You are
+appearance too, [character][0x0]. You are
 all sticky with dragon drool.[end]</data>
     </text>
     <text>
@@ -224,7 +224,7 @@ of a dragon...?[end]</data>
             <ref>0x34d</ref>
             <ref>0x317</ref>
         </refs>
-        <data>Sendak: [character][0x1]... You are happy
+        <data>Sendak: [character][0x0]... You are happy
 the princess has returned, are you
 not?[end]</data>
     </text>
@@ -245,7 +245,7 @@ My head hurts...[end]</data>
             <ref>0x7f5</ref>
             <ref>0x35e</ref>
         </refs>
-        <data>Sendak: Let us go, [character][0x1]...[end]</data>
+        <data>Sendak: Let us go, [character][0x0]...[end]</data>
     </text>
     <text>
         <refs>
@@ -259,7 +259,7 @@ don't you think?[0x29][end]</data>
         <refs>
             <ref>0x36c</ref>
         </refs>
-        <data>[character][0x1] and the princess, always
+        <data>[character][0x0] and the princess, always
 together by themselves... Love and war
 aren't compatible...[end]</data>
     </text>
@@ -403,7 +403,7 @@ later...[end]</data>
         <refs>
             <ref>0x4b8</ref>
         </refs>
-        <data>Hornet: [character][0x1], won't you try
+        <data>Hornet: [character][0x0], won't you try
 controlling the ship?[end]</data>
     </text>
     <text>
@@ -437,7 +437,7 @@ something there?[end]</data>
         <refs>
             <ref>0x521</ref>
         </refs>
-        <data>Hornet: [character][0x1], are we ready to
+        <data>Hornet: [character][0x0], are we ready to
 go?
 
   Not yet.
@@ -526,7 +526,7 @@ some more.[end]</data>
         <refs>
             <ref>0x665</ref>
         </refs>
-        <data>Sendak: This is [character][0x1].
+        <data>Sendak: This is [character][0x9].
 You are back with us.[end]</data>
     </text>
     <text>
@@ -653,7 +653,7 @@ Campbell Lagoon.[end]</data>
         <refs>
             <ref>0x86a</ref>
         </refs>
-        <data>[character][0x1]: [character][0x1], There's
+        <data>[character][0x1]: [character][0x0], There's
 something I want to tell you. Let's go
 to the captain's room.[end]</data>
     </text>
@@ -661,7 +661,7 @@ to the captain's room.[end]</data>
         <refs>
             <ref>0x87e</ref>
         </refs>
-        <data>Princess... [character][0x1] is very busy
+        <data>Princess... [character][0x0] is very busy
 with the Dragon Squad. Please do not
 waste his time...
 But I will say no more. I do not want
@@ -808,20 +808,20 @@ you said...?[end]</data>
         <refs>
             <ref>0xab5</ref>
         </refs>
-        <data>[character][0x1]: Thank you, [character][0x1].[end]</data>
+        <data>[character][0x1]: Thank you, [character][0x0].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xbb2</ref>
         </refs>
         <data>......
-You sure are young, [character][0x1].[end]</data>
+You sure are young, [character][0x0].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc67</ref>
         </refs>
-        <data>[character][0x1]: [character][0x1], don't go![end]</data>
+        <data>[character][0x1]: [character][0x0], don't go![end]</data>
     </text>
     <text>
         <refs>
@@ -1034,7 +1034,7 @@ Now you must move ahead, Princess.[end]</data>
             <ref>0x11af</ref>
         </refs>
         <data>Rush: Where're you going,
-[character][0x1]?![end]</data>
+[character][0x0]?![end]</data>
     </text>
     <text>
         <refs>

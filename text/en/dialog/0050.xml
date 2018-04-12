@@ -62,7 +62,7 @@ do?![end]</data>
         <refs>
             <ref>0x2d8</ref>
         </refs>
-        <data>Matelite: [character][0x1], do something...
+        <data>Matelite: [character][0x0], do something...
 At times like this, my head hurts![end]</data>
     </text>
     <text>
@@ -103,7 +103,7 @@ I can feel it too...[end]</data>
             <ref>0x327</ref>
         </refs>
         <data>Truce: It's no good, Captain
-[character][0x1]! The Holy Dragon has
+[character][0x0]! The Holy Dragon has
 become angry...[end]</data>
     </text>
     <text>
@@ -167,7 +167,7 @@ Take me up into the sky...[end]</data>
             Everybody else...
                Stay well...
 
-                [character][0x1]...
+                [character][0x0]...
    Don't forget to feed the dragons...[end]</data>
     </text>
     <text>
@@ -212,7 +212,7 @@ Human who will lead the Holy Dragons...
             <ref>0x540</ref>
         </refs>
         <data>Palpaleos: Sauzer... I won't leave you
-here... I'll take you to [character][0x1]...[end]</data>
+here... I'll take you to [character][0x9]...[end]</data>
     </text>
     <text>
         <refs>

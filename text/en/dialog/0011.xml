@@ -155,7 +155,7 @@ Such is the way of the world...
 
 
 What do you think about Bikkebakke?
-What about [character][0x1]?[end]</data>
+What about [character][0x0]?[end]</data>
     </text>
     <text>
         <refs>
@@ -165,7 +165,7 @@ What about [character][0x1]?[end]</data>
 my town are so nice...
 
 I don't want to [0x2a]scratch[0x2a] [0x2a]scratch[0x2a]
-return to [character][0x1]...[end]</data>
+return to [character][0x9]...[end]</data>
     </text>
     <text>
         <refs>
@@ -223,7 +223,7 @@ underground lake?[end]</data>
 mushrooms is bad for the body...
 So I'm fishing for an octopus!
 Why don't you give it a try,
-[character][0x1]?[end]</data>
+[character][0x0]?[end]</data>
     </text>
     <text>
         <refs>
@@ -244,7 +244,7 @@ house we'll have to tough it out![end]</data>
         <refs>
             <ref>0x830</ref>
         </refs>
-        <data>Bikkebakke: [character][0x1]! How about
+        <data>Bikkebakke: [character][0x0]! How about
 some mushrooms?[end]</data>
     </text>
     <text>
@@ -329,7 +329,7 @@ Vodkas that Lukia didn't finish.[end]</data>
         <refs>
             <ref>0xb0c</ref>
         </refs>
-        <data>Bikkebakke: [character][0x1], you can fish
+        <data>Bikkebakke: [character][0x0], you can fish
 next to me. If you catch one, move the
 octopus using left, down, and right.
 If he fights back, reel it in using A![end]</data>

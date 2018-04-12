@@ -52,7 +52,7 @@ Do not worry about Kahna.
 As long as I, Matelite, am here...
 And, as long as they are here...
 
-He... [character][0x1]... has become an
+He... [character][0x0]... has become an
 extravagant man...
 
 I am happy to have such good
@@ -114,7 +114,7 @@ treaty and became a single kingdom...[end1][end]</data>
         <refs>
             <ref>0x1f2</ref>
         </refs>
-        <data>[character][0x1], former captain of Kahna's
+        <data>[character][0x0], former captain of Kahna's
 Dragon Squad, was given the duty of
 watching over the skies of all lagoons...[end1]</data>
     </text>

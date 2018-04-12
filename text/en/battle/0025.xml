@@ -4,7 +4,7 @@
         <refs>
             <ref>0x28</ref>
         </refs>
-        <data>“Condition for Victory:”[0xfc][0x1]
+        <data>“Condition for Victory:”[0xfc][0x28]
 “Defeat of Lucrec”[end][end]</data>
     </text>
 </texts>

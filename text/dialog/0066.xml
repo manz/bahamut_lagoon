@@ -23,8 +23,8 @@ Tu es vraiment à envier...[end]</data>
             <ref>0xa7d</ref>
         </refs>
         <data>MATELIGHT:
-[character][0x1]!
-...![0xfc][0x1][end1]</data>
+[character][0x0]!
+...![0xfc][0x10][end1]</data>
     </text>
     <text>
         <refs>
@@ -41,7 +41,7 @@ S'il vous plaît,obéissez[0xd8][end]</data>
             <ref>0x14d</ref>
         </refs>
         <data>[character][0x1]:
-[character][0x1]...
+[character][0x0]...
 Vite... par ici![end]</data>
     </text>
     <text>
@@ -50,14 +50,14 @@ Vite... par ici![end]</data>
         </refs>
         <data>[character][0x1]:
 SALAMANDO...
-Vite[0xd8][0xfc][0x1][end1]</data>
+Vite[0xd8][0xfc][0x20][end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x380</ref>
         </refs>
         <data>[character][0x1]:
-Viens,[character][0x1]...
+Viens,[character][0x0]...
 Que fais-tu? Tu vas bien?[end]</data>
     </text>
     <text>
@@ -84,7 +84,7 @@ Nous sommes un peu serrés,non?[end]</data>
         <refs>
             <ref>0x3c7</ref>
         </refs>
-        <data>[character][0x1],
+        <data>[character][0x0],
 je me demande souvent jusqu'où
 continue le ciel...
 Traverser le ciel...
@@ -95,7 +95,7 @@ Quel étrange sentiment,n'est-ce pas?[end]</data>
             <ref>0xaa1</ref>
         </refs>
         <data>[character][0x1]:
-C'est ici,[character][0x1]!
+C'est ici,[character][0x0]!
 C'est cette église...
 Je vais te parler de ses souvenirs.
 Sais-tu pourquoi elle est si connues?[end]</data>
@@ -180,7 +180,7 @@ l'avenir?[end]</data>
         <refs>
             <ref>0xb57</ref>
         </refs>
-        <data>[character][0x1],peut-être que lorsque nous
+        <data>[character][0x0],peut-être que lorsque nous
 serons adultes,nous aurons les mêmes
 sentiments.
 Me promets-tu qu'un jour nous ferons
@@ -211,7 +211,7 @@ secrète.[end]</data>
         <data>Le futur peut tout changer...
 Un couple peut un jour ou l'autre se
 séparer.
-Allons-y,[character][0x1]...
+Allons-y,[character][0x0]...
 Je n'aime pas cette idée,
 cette promesse...[end]</data>
     </text>

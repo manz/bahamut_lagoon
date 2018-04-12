@@ -141,7 +141,7 @@ quelque chose dans la guerre...[end]</data>
             <ref>0x4d0</ref>
         </refs>
         <data>EKATERINA:
-[character][0x1]...
+[character][0x0]...
 Err...[end]</data>
     </text>
     <text>
@@ -164,7 +164,7 @@ qu'il aime le plus?
         <refs>
             <ref>0x452</ref>
         </refs>
-        <data>Je t'en supplie,[character][0x1]![end]</data>
+        <data>Je t'en supplie,[character][0x0]![end]</data>
     </text>
     <text>
         <refs>
@@ -220,7 +220,7 @@ Viens,allons-y![end]</data>
             <ref>0x4b4</ref>
         </refs>
         <data>EKATERINA:
-[character][0x1]...
+[character][0x0]...
 Merci d'avoir dit la vérité![end]</data>
     </text>
     <text>
@@ -323,7 +323,7 @@ Tous ensemble,nous irons à Campbell.[end]</data>
             <ref>0x40d</ref>
         </refs>
         <data>[character][0x1]:
-[character][0x1]...
+[character][0x0]...
  
 Il me semble que les Dragons Sacrés
 n'aient pas l'air de vouloir que je
@@ -335,7 +335,7 @@ Mais nous irons sur ce lagon...[end]</data>
             <ref>0x428</ref>
         </refs>
         <data>[character][0x1]:
-[character][0x1]!
+[character][0x0]!
  
 Garde cela secret!
 Ne t'inquiète pas pour moi...[end]</data>
@@ -345,7 +345,7 @@ Ne t'inquiète pas pour moi...[end]</data>
             <ref>0x398</ref>
         </refs>
         <data>[character][0x1]:
-[character][0x1]!
+[character][0x0]!
  
 Mon... corps... est lourd!
 Trop lourd pour que je puisse
@@ -355,7 +355,7 @@ bouger...[end]</data>
         <refs>
             <ref>0x3a3</ref>
         </refs>
-        <data>[character][0x1],je n'arrive pas à voir ce...
+        <data>[character][0x0],je n'arrive pas à voir ce...
 qui se passe ici![end]</data>
     </text>
     <text>
@@ -369,7 +369,7 @@ Valitra...[end]</data>
         <refs>
             <ref>0x3bd</ref>
         </refs>
-        <data>[character][0x1]...
+        <data>[character][0x0]...
 Aide-moi...
 Tends-moi... la main...[end]</data>
     </text>
@@ -378,7 +378,7 @@ Tends-moi... la main...[end]</data>
             <ref>0x389</ref>
         </refs>
         <data>[character][0x1]:
-[character][0x1]...[end]</data>
+[character][0x0]...[end]</data>
     </text>
     <text>
         <refs>
@@ -412,7 +412,7 @@ Je le suis de plus en plus!
         </refs>
         <data>Ha ha!
 Allez! Tout le monde danse!
-Allez [character][0x1]![end]</data>
+Allez [character][0x0]![end]</data>
     </text>
     <text>
         <refs>

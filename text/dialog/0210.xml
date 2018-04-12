@@ -172,7 +172,7 @@ Nous sommes respectables![end]</data>
         <data>DOCTEUR DRAGON:
 Veux-tu sortir?
  
-[character][0x1] est très heureux car nous
+[character][0x4] est très heureux car nous
 avons vu beaucoup d'éclairs![end]</data>
     </text>
     <text>
@@ -206,7 +206,7 @@ des rêves!
 Chaque jour,je peux m'occuper des
 dragons.
  
-J'ai promis à [character][0x1] que tout
+J'ai promis à [character][0x7] que tout
 allait très bien se passer.[end]</data>
     </text>
     <text>
@@ -267,7 +267,7 @@ Qu'aimeriez-vous?[end]</data>
             <ref>0x5b8</ref>
         </refs>
         <data>DOCTEUR DRAGON:
-[character][0x1] et un matelot sont partis
+[character][0x7] et un matelot sont partis
 en reconnaissance.
 Heureusement qu'il y a un rayon de
 soleil!
@@ -345,7 +345,7 @@ Ah,bienvenue![end]</data>
 Rush est parti avec SALAMANDO,
 il y a un instant!
 Sais-tu où il va?
-[character][0x1],lui,est parti en
+[character][0x7],lui,est parti en
 reconnaissance![end]</data>
     </text>
     <text>
@@ -514,7 +514,7 @@ Veux-tu la lire?[end]</data>
         <refs>
             <ref>0x7d2</ref>
         </refs>
-        <data>J'avais presque oublié [character][0x1] et sa
+        <data>J'avais presque oublié [character][0x0] et sa
 guerre!
  
 C'est soudain pour nous,

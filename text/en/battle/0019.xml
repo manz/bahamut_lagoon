@@ -5,34 +5,34 @@
             <ref>0x33</ref>
         </refs>
         <data>Taicho: All the Granbelos generals have
-been mustered!![0xfc][0x1] What should we do!?[end1][end]</data>
+been mustered!![0xfc][0x18] What should we do!?[end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3b</ref>
         </refs>
         <data>Palpaleos: Patience... If we use a
-divide-and-conquer strategy,[0xfc][0x1] we can
+divide-and-conquer strategy,[0xfc][0x8] we can
 overpower them![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x46</ref>
         </refs>
-        <data>Matelite: ...[0xfc][0x1]...[0xfc][0x1]...[0xfc][0x1] Exactly!![end1][end]</data>
+        <data>Matelite: ...[0xfc][0x20]...[0xfc][0x20]...[0xfc][0x25] Exactly!![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x53</ref>
         </refs>
-        <data>“Condition for Victory:”[0xfc][0x1]
+        <data>“Condition for Victory:”[0xfc][0x28]
 “Defeat of Gudolf”[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6a</ref>
         </refs>
-        <data>The kingdom of Kahna is revived![0xfc][0x1]
+        <data>The kingdom of Kahna is revived![0xfc][0x18]
 We can return to Kahna Castle!![end1][end]</data>
     </text>
 </texts>

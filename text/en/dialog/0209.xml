@@ -4,7 +4,7 @@
         <refs>
             <ref>0x1d4</ref>
         </refs>
-        <data>Anastasia: Did you know, [character][0x1]?
+        <data>Anastasia: Did you know, [character][0x0]?
 
 
 They say that when dragons mature
@@ -19,7 +19,7 @@ I heard so from Barclay.[end]</data>
         <refs>
             <ref>0x1db</ref>
         </refs>
-        <data>Anastasia: Hey, [character][0x1], did you
+        <data>Anastasia: Hey, [character][0x0], did you
 know?
 
 I heard this from Barclay, he said that
@@ -67,7 +67,7 @@ him... Hee hee.[end]</data>
         <refs>
             <ref>0x236</ref>
         </refs>
-        <data>Nelbo: Oh, [character][0x1].
+        <data>Nelbo: Oh, [character][0x0].
 Donfan, the enemy of women, wound
 up being trapped in here.
 Good idea, don't you think?[end]</data>
@@ -102,7 +102,7 @@ I'm so confused...[end]</data>
 about [character][0x1].
 
 You're the only person to come see
-me, [character][0x1].
+me, [character][0x0].
 
 But that's okay... I have my medicine...[end]</data>
     </text>
@@ -116,7 +116,7 @@ But that's okay... I have my medicine...[end]</data>
 Why...
 
 
-Oh... [character][0x1]...
+Oh... [character][0x0]...
 I can't stop shaking.
 
 Oh...

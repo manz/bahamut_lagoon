@@ -32,13 +32,13 @@ Let us be well prepared![end]</data>
             <ref>0x20b</ref>
             <ref>0x1de</ref>
         </refs>
-        <data>Sendak: [character][0x1]! Good luck![end]</data>
+        <data>Sendak: [character][0x0]! Good luck![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1e5</ref>
         </refs>
-        <data>Sendak: [character][0x1], have I told you?
+        <data>Sendak: [character][0x0], have I told you?
 I have become able to summon the
 Holy Dragon Valitora.
 When the princess is nearby, my power
@@ -132,7 +132,7 @@ at just the thought of Uniuji.[end]</data>
         <refs>
             <ref>0x389</ref>
         </refs>
-        <data>[character][0x1]: [character][0x1]......[end]</data>
+        <data>[character][0x1]: [character][0x0]......[end]</data>
     </text>
     <text>
         <refs>
@@ -195,7 +195,7 @@ Do you want me to hit you too?![end]</data>
         <refs>
             <ref>0x398</ref>
         </refs>
-        <data>[character][0x1]: [character][0x1]... My body...
+        <data>[character][0x1]: [character][0x0]... My body...
 something's wrong. It won't move...
 like I want it to...[end]</data>
     </text>
@@ -204,7 +204,7 @@ like I want it to...[end]</data>
             <ref>0x3a3</ref>
         </refs>
         <data>I don't want you to see me like this,
-[character][0x1]...[end]</data>
+[character][0x0]...[end]</data>
     </text>
     <text>
         <refs>
@@ -216,7 +216,7 @@ like I want it to...[end]</data>
         <refs>
             <ref>0x3bd</ref>
         </refs>
-        <data>[character][0x1]... Help me... Give me... your
+        <data>[character][0x0]... Help me... Give me... your
 hand...[end]</data>
     </text>
     <text>
@@ -236,7 +236,7 @@ And release my power...[end]</data>
         <data>[character][0x1]: ......
 
 
-[character][0x1]... It appears the Holy
+[character][0x0]... It appears the Holy
 Dragons don't want us to know about
 the legend...
 But... we must keep going...[end]</data>
@@ -252,7 +252,7 @@ with you all to Campbell.[end]</data>
         <refs>
             <ref>0x428</ref>
         </refs>
-        <data>[character][0x1]: [character][0x1]... keep this a
+        <data>[character][0x1]: [character][0x0]... keep this a
 secret from the others... It will only
 worry them...[end]</data>
     </text>
@@ -277,7 +277,7 @@ something as simple as that![end]</data>
         <refs>
             <ref>0x452</ref>
         </refs>
-        <data>Thanks, [character][0x1]![end]</data>
+        <data>Thanks, [character][0x0]![end]</data>
     </text>
     <text>
         <refs>
@@ -306,14 +306,14 @@ Okay, let's go.[end]</data>
         <refs>
             <ref>0x4b4</ref>
         </refs>
-        <data>Ectarina: U-um... [character][0x1].
+        <data>Ectarina: U-um... [character][0x0].
 Thank you very much.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4d0</ref>
         </refs>
-        <data>Ectarina: [character][0x1]... um... uh...[end]</data>
+        <data>Ectarina: [character][0x0]... um... uh...[end]</data>
     </text>
     <text>
         <refs>
@@ -362,7 +362,7 @@ be more of them!
             <ref>0x50e</ref>
         </refs>
         <data>Ah! Then let's all dance together! You
-too, [character][0x1]![end]</data>
+too, [character][0x0]![end]</data>
     </text>
     <text>
         <refs>

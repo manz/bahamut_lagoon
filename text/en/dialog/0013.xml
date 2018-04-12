@@ -40,7 +40,7 @@ His pain is the same as mine![end]</data>
         <data>Sendak: Yes, yes... When the Empire
 attacked Mahal they fought dirty...
 
-What should we do, [character][0x1]...?
+What should we do, [character][0x0]...?
 We might have to fight dirty too...[end]</data>
     </text>
     <text>
@@ -67,7 +67,7 @@ fairly! That is what it is to be a knight![end]</data>
         <refs>
             <ref>0x10d</ref>
         </refs>
-        <data>Sendak: [character][0x1]...
+        <data>Sendak: [character][0x0]...
 
 
 We do not know how to fight dirty...[end]</data>
@@ -76,7 +76,7 @@ We do not know how to fight dirty...[end]</data>
         <refs>
             <ref>0x243</ref>
         </refs>
-        <data>Truce: Captain [character][0x1]!! I've come
+        <data>Truce: Captain [character][0x0]!! I've come
 up with a plan for Mahal. Would you
 like to hear it?[end]</data>
     </text>
@@ -111,7 +111,7 @@ think?! A piece of cake, right?![end]</data>
         <refs>
             <ref>0x28e</ref>
         </refs>
-        <data>Sendak: Well, [character][0x1]. Shall we go?[end]</data>
+        <data>Sendak: Well, [character][0x0]. Shall we go?[end]</data>
     </text>
     <text>
         <refs>

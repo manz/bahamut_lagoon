@@ -120,7 +120,7 @@ c'est étonnamment calme![end]</data>
         <data>MATELIGHT:
 J'ai froid!
  
-[character][0x1]!
+[character][0x0]!
 Scrute le ciel à ma place![end]</data>
     </text>
     <text>
@@ -138,7 +138,7 @@ Juste entre adultes![end]</data>
             <ref>0x74b</ref>
         </refs>
         <data>COMMANDANT:
-[character][0x1],retourne à ton poste!
+[character][0x0],retourne à ton poste!
 Scrute le ciel![end]</data>
     </text>
     <text>
@@ -272,7 +272,7 @@ tout le monde[0xd8][end]</data>
         </refs>
         <data>SENDACK:
 Est-ce que je peux t'être utile,
-[character][0x1]?[end]</data>
+[character][0x0]?[end]</data>
     </text>
     <text>
         <refs>
@@ -295,7 +295,7 @@ ensemble...[end]</data>
             <ref>0x2bb</ref>
         </refs>
         <data>[character][0x1]:
-[character][0x1],je suis ici.[end]</data>
+[character][0x0],je suis ici.[end]</data>
     </text>
     <text>
         <refs>
@@ -340,7 +340,7 @@ Je te demande pardon...[end]</data>
             <ref>0x817</ref>
         </refs>
         <data>[character][0x1]:
-Err... [character][0x1]...
+Err... [character][0x0]...
 Pourrais-je regarder le ciel?[end]</data>
     </text>
     <text>
@@ -348,7 +348,7 @@ Pourrais-je regarder le ciel?[end]</data>
             <ref>0x840</ref>
         </refs>
         <data>[character][0x1]:
-[character][0x1]...
+[character][0x0]...
 Je ne vois pas très bien!
 Tu pourrais rester en arrière.[end]</data>
     </text>
@@ -387,7 +387,7 @@ Alors,faites les innocents![end]</data>
             <ref>0x30e</ref>
         </refs>
         <data>SENDACK:
-[character][0x1]...
+[character][0x0]...
 Merci...[end]</data>
     </text>
     <text>
@@ -411,7 +411,7 @@ Tu les manges?[end]</data>
             <ref>0x36e</ref>
         </refs>
         <data>SENDACK:
-[character][0x1]...
+[character][0x0]...
  
 Hahahahahaha...[end]</data>
     </text>
@@ -427,7 +427,7 @@ Kyaa hahaha[0xd8][end]</data>
             <ref>0x3b8</ref>
         </refs>
         <data>SENDACK:
-[character][0x1],ton ventre est très gros...[end]</data>
+[character][0x0],ton ventre est très gros...[end]</data>
     </text>
     <text>
         <refs>
@@ -443,7 +443,7 @@ Je suis content...[end]</data>
             <ref>0x34c</ref>
         </refs>
         <data>SENDACK:
-Très bien,[character][0x1]...[end]</data>
+Très bien,[character][0x0]...[end]</data>
     </text>
     <text>
         <refs>
@@ -466,7 +466,7 @@ Je vous en prie...[end]</data>
             <ref>0xaa6</ref>
         </refs>
         <data>[character][0x1]:
-[character][0x1]...
+[character][0x0]...
 Merci... de m'avoir attendu![end]</data>
     </text>
     <text>

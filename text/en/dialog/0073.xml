@@ -150,7 +150,7 @@ there!![end]</data>
         <refs>
             <ref>0x54a</ref>
         </refs>
-        <data>[character][0x1]...
+        <data>[character][0x0]...
 Is there somebody you like?[end]</data>
     </text>
     <text>
@@ -206,14 +206,14 @@ your feelings much more easily.[end]</data>
             <ref>0x5a4</ref>
         </refs>
         <data>This is all that I can teach you.
-Okay, [character][0x1]?[end]</data>
+Okay, [character][0x0]?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5b2</ref>
         </refs>
         <data>Dragons have hearts, just like you,
-[character][0x1].
+[character][0x0].
 
 They laugh, and they get angry.
 They can also be sad, and they can
@@ -226,7 +226,7 @@ Make sure to take good care of them.[end]</data>
         <refs>
             <ref>0x5d3</ref>
         </refs>
-        <data>[character][0x1], you might be able to
+        <data>[character][0x0], you might be able to
 become a legendary dragonkeeper like
 me too...[end]</data>
     </text>

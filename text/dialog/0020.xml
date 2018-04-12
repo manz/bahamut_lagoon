@@ -245,7 +245,7 @@ Allez![end]</data>
             <ref>0x6f5</ref>
         </refs>
         <data>Droite Droite[0xd8][0xd8]
- [0xfc][0x1]       
+ [0xfc][0x10]       
 [0xa8]Direction... Droite[0xd8][0xd8][0xa9][end1]</data>
     </text>
     <text>
@@ -253,7 +253,7 @@ Allez![end]</data>
             <ref>0x736</ref>
         </refs>
         <data>Gauche Gauche[0xd8][0xd8]
- [0xfc][0x1]
+ [0xfc][0x10]
 [0xa8]Direction... Gauche[0xd8][0xd8][0xa9][end1]</data>
     </text>
     <text>
@@ -261,7 +261,7 @@ Allez![end]</data>
             <ref>0x6b3</ref>
         </refs>
         <data>Quelle amélioration[0xd8]
- [0xfc][0x1] 
+ [0xfc][0x10] 
 [0xa8]Direction... Droit devant[0xd8][0xa9][end1]</data>
     </text>
     <text>
@@ -280,7 +280,7 @@ Tourner![end]</data>
         <data>MATELIGHT:
 GAHAHAHAHA!
  
-[character][0x1],tu as encore beaucoup à
+[character][0x0],tu as encore beaucoup à
 apprendre sur l'ordre et la discipline.[end]</data>
     </text>
     <text>
@@ -290,7 +290,7 @@ apprendre sur l'ordre et la discipline.[end]</data>
         <data>MATELIGHT:
 GAHAHAHAHAHA[0xd8]
  
-[character][0x1],je te donne une autre chance!
+[character][0x0],je te donne une autre chance!
 Alors sois prêt!
  
 Faites F-A-C-E[0xd8][end]</data>
@@ -567,7 +567,7 @@ légion à Mahal.[end]</data>
             <ref>0xf2f</ref>
         </refs>
         <data>LUKIA:
-Bonjour [character][0x1]!
+Bonjour [character][0x0]!
  
 Tu ne trouves pas que c'est terrible
 cette réunion pour un premier jour?![end]</data>
@@ -585,7 +585,7 @@ J'ai plutôt l'air sévère...[end]</data>
             <ref>0xe23</ref>
         </refs>
         <data>MELODIA:
-[character][0x1],va-y!
+[character][0x0],va-y!
 Serre-moi dans tes bras![end]</data>
     </text>
     <text>
@@ -593,7 +593,7 @@ Serre-moi dans tes bras![end]</data>
             <ref>0xf0d</ref>
             <ref>0xe8e</ref>
         </refs>
-        <data>Merci,[character][0x1]!
+        <data>Merci,[character][0x0]!
 Merci beaucoup![end]</data>
     </text>
     <text>
@@ -607,7 +607,7 @@ Merci beaucoup![end]</data>
             <ref>0xe33</ref>
         </refs>
         <data>MELODIA:
-Tu es fatigué,[character][0x1]?!
+Tu es fatigué,[character][0x0]?!
 Porte-moi sur ton dos![end]</data>
     </text>
     <text>
@@ -912,7 +912,7 @@ Princesse [character][0x1]?[end]</data>
         <data>RUSH:
 Elle est sur le Continent Verdoyant,
 Campbell!
-Allons-y,[character][0x1]![end]</data>
+Allons-y,[character][0x0]![end]</data>
     </text>
     <text>
         <refs>
@@ -1009,7 +1009,7 @@ Nous deviendrons très importants.[end]</data>
         </refs>
         <data>RUSH:
 Capitaine Adjoint?!
-C'est super,[character][0x1]![end]</data>
+C'est super,[character][0x0]![end]</data>
     </text>
     <text>
         <refs>
@@ -1241,7 +1241,7 @@ Lisons-le![end]</data>
         </refs>
         <data>SENDACK:
 Etant donné mon état de santé,
-[character][0x1] sera mon Capitaine Adjoint.
+[character][0x0] sera mon Capitaine Adjoint.
 Mais voici le plus important![end]</data>
     </text>
     <text>
@@ -1249,7 +1249,7 @@ Mais voici le plus important![end]</data>
             <ref>0x25f</ref>
         </refs>
         <data>Si je venais à mourir,j'ai décidé que
-[character][0x1] aurait les pleins pouvoirs et
+[character][0x0] aurait les pleins pouvoirs et
 serait le seul successeur du Capitaine
 de ce vaisseau![end]</data>
     </text>
@@ -1257,7 +1257,7 @@ de ce vaisseau![end]</data>
         <refs>
             <ref>0x281</ref>
         </refs>
-        <data>[character][0x1],tu es maintenant le Capitaine
+        <data>[character][0x0],tu es maintenant le Capitaine
 Adjoint,alors fais de ton mieux.[end]</data>
     </text>
     <text>

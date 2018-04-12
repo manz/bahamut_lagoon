@@ -21,7 +21,7 @@ Ouvre cette porte et viens à moi...[end]</data>
             <ref>0xbe</ref>
         </refs>
         <data>[character][0x1]:
-[character][0x1]...
+[character][0x0]...
 Matelight...
 Il est dangereux de me suivre.
 Les Dragons Sacrés sont emplis de
@@ -42,7 +42,7 @@ Tu as besoin de moi,n'est-ce pas?[end]</data>
             <ref>0x2ae</ref>
         </refs>
         <data>[character][0x1]:
-Ne tente rien [character][0x1]!
+Ne tente rien [character][0x0]!
 A partir d'ici,je dois y aller seule.[end]</data>
     </text>
     <text>
@@ -61,7 +61,7 @@ Je vais vous escorter![end]</data>
         <data>COMMANDANT:
 [character][0x1] semble bien se porter!
  
-[character][0x1],je t'en prie,va tout de même la
+[character][0x0],je t'en prie,va tout de même la
 rejoindre![end]</data>
     </text>
     <text>
@@ -69,7 +69,7 @@ rejoindre![end]</data>
             <ref>0x299</ref>
         </refs>
         <data>SENDACK:
-[character][0x1]...
+[character][0x0]...
 je... ne peux plus...
 Va la soutenir...
 Va...
@@ -81,7 +81,7 @@ Va voir la Princesse...[end]</data>
             <ref>0x2ce</ref>
         </refs>
         <data>[character][0x1]:
-[character][0x1],je suis désolée!
+[character][0x0],je suis désolée!
 Protège-moi jusqu'au dernier instant.[end]</data>
     </text>
     <text>
