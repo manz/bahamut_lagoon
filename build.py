@@ -85,10 +85,10 @@ if __name__ == '__main__':
             end_of_message_strings = insert_messages_strings(writer, snes_to_rom(end_of_inline_strings + 1))
 
             # too much ? maybe
-            with open('src_assets/e89a4f.bin', 'rb') as asset:
-                data = asset.read()
-                compressed = lz_compress_gfx(data)
-                writer.write_block(compressed, snes_to_rom(end_of_message_strings + 1))
+            # with open('src_assets/e89a4f.bin', 'rb') as asset:
+            #     data = asset.read()
+            #     compressed = lz_compress_gfx(data)
+            #     writer.write_block(compressed, snes_to_rom(end_of_message_strings + 1))
             # .D5:E6B9                 LDA     #$9A4F
             # .D5:E6BC                 STA     D, $28
             # .D5:E6BE                 SEP     #$20 ; ' '
