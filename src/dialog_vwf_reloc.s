@@ -1,23 +1,57 @@
 write_base_address_low=0xE280 + 0x20
 position=0x095f
 
-.macro do_shadow(delta) {
+.macro do_shadow_dialog(delta, write_buffer) {
     ; input: A, trashes: A
     pha
     rep #0x20
     and.w #0x00ff
-    ror
+; shadow bottom
+    pha
     sep #0x20
-    ora.w write_base_address_low + 3 + delta, y
-    sta.w write_base_address_low + 3 + delta, y
+    ora.w write_buffer + 3 + delta, y
+    sta.w write_buffer + 3 + delta, y
 
     xba
     rep #0x20
     and.w #0x0080
     sep #0x20
 
-    ora.w write_base_address_low + 1 + delta, y
-    sta.w write_base_address_low + 1 + delta, y
+    ora.w write_buffer + 1 + delta, y
+    sta.w write_buffer + 1 + delta, y
+    rep #0x20
+    pla
+;    pha
+; shadow right
+
+    ror
+    pha
+    sep #0x20
+    ora.w write_buffer + 3 + delta, y
+    sta.w write_buffer + 3 + delta, y
+
+    xba
+    rep #0x20
+    and.w #0x0080
+    sep #0x20
+
+    ora.w write_buffer + 1 + delta, y
+    sta.w write_buffer + 1 + delta, y
+
+; shadow right
+    rep #0x20
+    pla
+    sep #0x20
+    ora.w write_buffer + 1 + delta, y
+    sta.w write_buffer + 1 + delta, y
+
+    xba
+    rep #0x20
+    and.w #0x0080
+    sep #0x20
+
+    ora.w write_buffer - 1 + delta, y
+    sta.w write_buffer - 1 + delta, y
     pla
 }
 
@@ -75,7 +109,7 @@ shift_copy_loop:
 
         ora.w write_base_address_low + 0x20, y
         sta.w write_base_address_low + 0x20, y
-        do_shadow(0x20)
+        jsr.w make_shadow_20
 
         ;reloads the line data
         rep #0x20
@@ -85,7 +119,7 @@ shift_copy_loop:
 
         ora.w write_base_address_low, y
         sta.w write_base_address_low, y
-        do_shadow(0)
+        jsr.w make_shadow_0
 
         inx
         iny
@@ -109,8 +143,7 @@ raw_copy_loop:
         ora.w write_base_address_low, y
         sta.w write_base_address_low, y
 
-        do_shadow(0)
-
+        jsr.w make_shadow_0
         inx
         iny
         iny
@@ -128,7 +161,7 @@ add_letter_length:
 
     clc
     adc.w position
-    inc
+;    inc
     sta.w position
 
     plb
@@ -145,5 +178,12 @@ shift_table:
     .db 0x08
     .db 0x04
     .db 0x02
+
+make_shadow_0:
+        do_shadow_dialog(0, write_base_address_low)
+        rts
+make_shadow_20:
+        do_shadow_dialog(0x20, write_base_address_low)
+        rts
 }
 

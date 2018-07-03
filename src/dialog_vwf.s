@@ -1,6 +1,7 @@
 ; copy__char_counter
 *=0xDA3E9F
     jmp.w copy_counter
+copy_counter_return:
 
 *=0xDA3CC5
     pla
@@ -16,4 +17,4 @@ copy_counter:
     asl
     cmp.w 0x095F
     pla
-    jmp.w 0x3EA2
+    jmp.w copy_counter_return
