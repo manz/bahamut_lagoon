@@ -3,22 +3,25 @@ read_base_address=assets_vwf_bin
 
 battle_dma_transfer:
 {
+    phb
+    lda.b #0x00
+    pha
+    plb
+
+    jsr.l wait_for_something__long ; vblank ?
+
     rep #0x21
     lda.l battle_vwf_position
-
     and #0xfff8
-;    bit.w #3
-;    bne even_char
-;    and #0xfff0
-even_char:
+    asl
+
     sta.b 0x10
     asl
     clc
     adc.w #0xD000
-
     sta.w 0x4302
 
-    lda 0x10
+    lda.b 0x10
     clc
     adc.w #0x4180
     sta.w 0x2116
@@ -32,44 +35,52 @@ even_char:
     stx 0x4305
     lda #1
     sta 0x420b
+    plb
     rtl
 }
 
 battle_vwf_init:
+    pha
+    phx
+    php
+    rep #0x20
+    lda.w #0x0000
+    sta.l battle_vwf_position
+    tax
+    stx 0x18
     stx 0x1c
     stz 0x1f
-    stx.w battle_vwf_position & 0xffff
+
+    plp
+    plx
+    pla
     rtl
 
 battle_vwf_new_line:
 {
-;    jmp.l battle_vwf_new_line_return
 
     rep #0x20
     lda.l battle_vwf_position
-    and.w #0xfff8
 
-    cmp.w #0x00e8 + 1
-    bcs line2
-    lda.w #0x0f << 4
+    cmp.w #0x1e << 3
+    bpl line2
+    lda.w #0x1e << 3
     bra end
 
-line2:
-    cmp.w #0x00e8 * 2 + 1
-    bcs line3
-    lda.w #0x0f * 2 << 4
-    bra end
-line3:
-    cmp.w #0x00e8 * 3 + 1
-    bcs line4
-    lda.w #0x0f * 3 << 4
+    line2:
+    cmp.w #0x3c << 3
+    bpl line3
+    lda.w #0x3c << 3
     bra end
 
-line4:
-    lda.w #0x0f * 4 << 4
+    line3:
+    lda.w #0x0000
+    bra change_window
+    bra end
+
+change_window:
     sta.l battle_vwf_position
     sep #0x20
-
     jmp.l battle_vwf_window_pause
 end:
     sta.l battle_vwf_position
@@ -97,7 +108,7 @@ battle_vwf_char:
 
     lda.l battle_vwf_position
     pha
-    and #0xfff8
+    and #0x3ff8
     asl
     asl
     tay
@@ -155,8 +166,13 @@ raw_copy_loop:
     plx
 
 add_letter_length:
+    pha
+    phx
+    ; do the dma transfer before incrementing battle_dma_transfer
+    jsr.l battle_dma_transfer
+    plx
+    pla
     lda.l assets_vwf_bin + 16, x
-;    lda.b #0x07
     plb
 
     rep #0x20
@@ -165,18 +181,8 @@ add_letter_length:
     adc.l battle_vwf_position
     inc
     sta.l battle_vwf_position
-;    and.w #0x3ff8
-;    lsr
-;    lsr
-;    lsr
-
 
     sep #0x20
-;    dec
-;lada:
-;    inc 0xfa
-;    sta.b 0xfa
-;    inc 0x1a
     jmp.l return_from_battle_vwf_char
 
 shift_table:
