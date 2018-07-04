@@ -1,6 +1,7 @@
 import struct
 from a816.cpu.cpu_65c816 import snes_to_rom
 from io import BytesIO
+
 from utils.lz import lz_decompress, lz_compress, find_back_reference
 
 
@@ -29,7 +30,6 @@ def compress_asset(data):
             a = reference & 0xFF
             b = ((reference & 0x300) >> 2) | length
 
-
             compressed.append(b)
             compressed.append(a)
 
@@ -43,7 +43,7 @@ def compress_asset(data):
             k += 1
 
     compressed += b'\x1a\x00\x01'
-    return compressed
+    return b'\x01' + compressed
 
 
 def decompress_asset(rom_file):
@@ -87,13 +87,15 @@ def decompress_asset(rom_file):
     return decompressed
 
 
-decompress_gfx_xrefs = [0xee7d46, 0xee850b, 0xee8548, 0xee855d, 0xee8572, 0xee8593,
-                        0xeed8a3, 0xeed8b0, 0xeed8bd]
+decompress_gfx_xrefs = [
+    0xee7d46, 0xee850b, 0xee8548, 0xee855d, 0xee8572, 0xee8593,
+    0xeed8a3, 0xeed8b0, 0xeed8bd,
+    0xee850b]
 
 lz_compressed_gfxs = [
-    # 0xcc2d80,
-    # 0xe87432,
-    # 0xe883ec,
+    0xcc2d80,
+    0xe87432,
+    0xe883ec,
     0xe89a4f
 ]
 
