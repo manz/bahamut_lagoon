@@ -1,3 +1,5 @@
 git+https://github.com/manz/a816.git@develop
 pillow
 numpy
+Cython==0.26.1
+kivy

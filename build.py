@@ -7,7 +7,7 @@ from a816.cpu.cpu_65c816 import RomType, rom_to_snes, snes_to_rom
 from a816.program import Program
 from a816.writers import IPSWriter
 from script import Table
-from utils.decompress_gfx import lz_compress_gfx
+from utils.decompress_gfx import lz_compress_gfx, compress_asset
 from utils.dump_battle_rooms import build_battle_text_patch
 from utils.dump_rooms import build_text_patch
 from utils.inline_strings import (insert_battle_commands_strings,
@@ -84,18 +84,43 @@ if __name__ == '__main__':
 
             end_of_message_strings = insert_messages_strings(writer, snes_to_rom(end_of_inline_strings + 1))
 
+
+            def insert_compressed_asset(writer, asset_filename, insert_addr, low_addr, bank_addr, compressor):
+                with open(asset_filename, 'rb') as asset:
+                    data = asset.read()
+                    compressed = compressor(data)
+                    writer.write_block(compressed, snes_to_rom(insert_addr + 1))
+                    # .D5:E6B9                 LDA     #$9A4F
+                    # .D5:E6BC                 STA     D, $28
+                    # .D5:E6BE                 SEP     #$20 ; ' '
+                    # .D5:E6C0 .A8
+                    # .D5:E6C0                 LDA     #$E8 ; 'Þ'
+                    writer.write_block(struct.pack('<H', insert_addr + 1 & 0xFFFF), snes_to_rom(low_addr))
+                    writer.write_block(struct.pack('B', (insert_addr + 1) >> 16), snes_to_rom(bank_addr))
+
+                    return rom_to_snes(snes_to_rom(insert_addr) + 1 + len(compressed), RomType.high_rom)
+
+
+            next_insert = insert_compressed_asset(writer, 'src_assets/e89a4f.bin', insert_addr=end_of_message_strings,
+                                                  low_addr=0xD5E6B9 + 1, bank_addr=0xD5E6C0 + 1,
+                                                  compressor=lz_compress_gfx)
+            # .EE:850F                 .WORD $20
+            # .EE:8511                 .BYTE $EE
+            insert_compressed_asset(writer, 'src_assets/ee0020.bin', insert_addr=next_insert,
+                                    low_addr=0xee850f, bank_addr=0xee8511, compressor=compress_asset)
             # too much ? maybe
             # with open('src_assets/e89a4f.bin', 'rb') as asset:
             #     data = asset.read()
             #     compressed = lz_compress_gfx(data)
             #     writer.write_block(compressed, snes_to_rom(end_of_message_strings + 1))
-            # .D5:E6B9                 LDA     #$9A4F
-            # .D5:E6BC                 STA     D, $28
-            # .D5:E6BE                 SEP     #$20 ; ' '
-            # .D5:E6C0 .A8
-            # .D5:E6C0                 LDA     #$E8 ; 'Þ'
-            writer.write_block(struct.pack('<H', end_of_message_strings + 1 & 0xFFFF), snes_to_rom(0xD5E6B9 + 1))
-            writer.write_block(struct.pack('B', (end_of_message_strings + 1) >> 16), snes_to_rom(0xD5E6C0 + 1))
+            #
+            # # .D5:E6B9                 LDA     #$9A4F
+            # # .D5:E6BC                 STA     D, $28
+            # # .D5:E6BE                 SEP     #$20 ; ' '
+            # # .D5:E6C0 .A8
+            # # .D5:E6C0                 LDA     #$E8 ; 'Þ'
+            # writer.write_block(struct.pack('<H', end_of_message_strings + 1 & 0xFFFF), snes_to_rom(0xD5E6B9 + 1))
+            # writer.write_block(struct.pack('B', (end_of_message_strings + 1) >> 16), snes_to_rom(0xD5E6C0 + 1))
 
             insert_char_names(writer)
             insert_battle_fixed(writer)
