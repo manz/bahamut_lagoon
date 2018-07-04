@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import numpy as np
 from PIL import Image
 
@@ -81,6 +83,6 @@ char_length_override = {
 }
 
 if __name__ == '__main__':
-    with open('../assets/vwf.bin', 'wb') as binary_asset:
-        data = convert_font('../fonts/vwf.png', empty_chars=char_length_override)
+    with open('assets/vwf.bin', 'wb') as binary_asset:
+        data = convert_font('fonts/vwf.png', empty_chars=char_length_override)
         binary_asset.write(data)
