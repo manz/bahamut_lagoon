@@ -83,35 +83,23 @@ def find_pattern(buffer, temp_buffer):
     return None
 
 
-def repeating_sequence(char, buffer):
-    if char and len(buffer):
-        j = 0
-        for k in range(0, len(buffer)):
-            if buffer[k] != ord(char):
-                break
-            j += 1
-        if j > 2:
-            return j
-    return 0
-
-
-def find_back_reference(data, position):
-    buffer = data[max(position - 4095, 0):position]
+def find_back_reference(data, position, search_patterns, buffer_size=4095, max_length=18, min_length=2):
+    buffer = data[max(position - buffer_size, 0):position]
     retval = None
 
-    temp_buffer = data[position:position + 18]
-    # try:
-    #     repeat_length = repeating_sequence(bytes([data[position - 18, position]]), temp_buffer)
-    # except IndexError:
-    #     repeat_length = 0
+    temp_buffer = data[position:position + max_length]
 
-    back_buffer = data[max(0, position - 18): position]
-    repeating = find_pattern(back_buffer, temp_buffer)
+    back_buffer = data[max(0, position - max_length): position]
 
-    for i in range(len(temp_buffer), 2, -1):
+    if search_patterns:
+        repeating = find_pattern(back_buffer, temp_buffer)
+    else:
+        repeating = None
+
+    for i in range(len(temp_buffer), min_length, -1):
         # find or rfind are usable here but rfind matches the dejap compressor
-        index = buffer.rfind(temp_buffer[:i])
-        # index = buffer.find(temp_buffer[:i])
+        # index = buffer.rfind(temp_buffer[:i])
+        index = buffer.find(temp_buffer[:i])
 
         if index != -1:
             retval = len(buffer) - index, i
@@ -120,13 +108,13 @@ def find_back_reference(data, position):
                 return repeating[0], repeating[1]
             else:
                 return retval
-        elif repeating and repeating[1] > 2:
+        elif repeating and repeating[1] > min_length:
             return repeating[0], repeating[1]
 
     return None
 
 
-def lz_compress(data):
+def lz_compress(data, search_patterns=True):
     pos = 0
     compressed = bytearray()
     while pos < len(data):
@@ -134,7 +122,7 @@ def lz_compress(data):
         block.append(0)
         k = 0
         while k < 8:
-            back_reference = find_back_reference(data, pos)
+            back_reference = find_back_reference(data, pos, search_patterns=search_patterns)
 
             if back_reference and back_reference[1] > 2:
                 block[0] |= 1 << k
