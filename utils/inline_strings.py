@@ -177,25 +177,30 @@ def insert_inline_strings(writer, address, draw_inline_string_ref):
     tree = ET.parse('./text/inline.xml')
     root = tree.getroot()
 
-    program_text_template = '''
+    single_char_program_template = '''
 *={draw_inline_string_xref:#02x}
-{{
-ret_addr = {return_address:#02x}
-    jsr.w draw_inline_string_patched
-    .dw {pointer:#02x}
-    bra ret_addr
-}}'''
+jsr.w draw_inline_string_patched
+.dw {pointer:#02x}
+'''
     text_data = b''
     program_text = ''
     for string in root:
-        program_text += program_text_template.format(
-            draw_inline_string_xref=int(string.get('ref'), 16),
+        xref = int(string.get('ref'), 16)
+        jump_to = int(string.get('jump_to'), 16)
+
+        program_text += single_char_program_template.format(
+            draw_inline_string_xref=xref,
             pointer=rom_to_snes(address + len(text_data), RomType.high_rom) & 0xffff,
-            return_address=int(string.get('jump_to'), 16)
+            return_address=jump_to
         )
+
+        if jump_to - xref - 5 > 0:
+            program_text += ('nop\n' * (jump_to - xref - 5))
+
         text_data += jp_fixed_table.to_bytes(string.text) + b'\xff'
 
     program = Program()
+    program.resolver.rom_type = RomType.high_rom
     program.resolver.current_scope.add_symbol('draw_inline_string_patched', draw_inline_string_ref)
     program.assemble_string_with_emitter(program_text, 'generated_draw_inline.s', writer)
 
@@ -352,7 +357,7 @@ def insert_battle_commands_strings(writer, address):
         for ref in refs:
             pointer_id = int(ref.text, 16)
             pointer_table[pointer_id] = text_addr & 0xffff
-        print(jp_fixed_table.to_bytes(data.text))
+        # print(jp_fixed_table.to_bytes(data.text))
         text_data += jp_fixed_table.to_bytes(data.text)
 
     pointer_table_bytes = b''
