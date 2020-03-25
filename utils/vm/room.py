@@ -59,7 +59,6 @@ class Room(object):
 
                 raise AlreadyVisitedError()
 
-        print(f'Jump to {address:02x}')
         self.pc = address
         self.jump_addresses.append(address)
         self.program.put_label(address)
@@ -94,6 +93,13 @@ class Room(object):
     def get_data(self, delta=0, size=1):
         data = self.room[self.pc + delta: self.pc + size]
         return data
+
+    def get_text_base(self):
+        text_program = self.program.filter(lambda _, e: e[0][0] == 'text')
+        sorted_program_keys = sorted(text_program.keys())
+        if len(sorted_program_keys) > 0:
+            return sorted_program_keys[0]
+        return None
 
     def dump_text(self, override_strings=None):
         text_program = self.program.filter(lambda _, e: e[0][0] == 'text')
@@ -132,6 +138,17 @@ class Room(object):
             patched_room[address + 1] = (pointer >> 8) & 0xFF
 
         return patched_room
+
+    def apply_patches(self, patches):
+        if patches is not None:
+            for patch in patches:
+                print(f'{patch[0]:#x}: {patch[1]:#x}')
+                self.room[patch[0]] = patch[1]
+
+    def get_base_from_tree(self, tree):
+        texts = tree.getroot()
+
+        return int(texts.get('base'), 16)
 
     def update_text(self, tree):
         texts = tree.getroot()
