@@ -89,7 +89,7 @@ def compress_room(data):
 
 
 def is_compressed(rom, room_id):
-    room_id_high = math_pow_2(room_id & 0x07)
+    room_id_high = 1 << (room_id & 0x07)
     room_id_low = room_id >> 3
 
     rom.seek(snes_to_rom(0xDA8300) + room_id_low)
@@ -196,23 +196,41 @@ def build_text_patch(rom, table, writer, reloc_address):
         match = xmlfile_re.match(file)
         if match:
             room_id = int(match.group(1))
+
             if is_compressed(rom, room_id):
                 room = get_dialog_room(rom, room_id, table, 'jp')
                 tree = ET.parse(os.path.join(dialog_dir, file))
                 updated_room = room.update_text(tree)
-                compressed = compress_room(updated_room)
 
-                writer.write_block(compressed, address)
+                if len(updated_room) >= 0x6000:
+                    logger.error(f'Un compressed Room {room_id} is bigger than the ram buffer 0x6000'
+                                 ' storing it uncompressed')
+                    room_id_high = 1 << (room_id & 0x07)
+                    room_id_low = room_id >> 3
+                    compressed_byte_address = snes_to_rom(0xDA8300) + room_id_low
+                    rom.seek(compressed_byte_address)
+                    compressed_byte = room_compressed.get(compressed_byte_address, struct.unpack('B', rom.read(1))[0])
+                    room_compressed[compressed_byte_address] = compressed_byte & ~room_id_high
+                    logger.error(f'{compressed_byte:02b} {room_compressed[compressed_byte_address]:02b}')
+                    updated_room_data = updated_room
+                else:
+                    updated_room_data = compress_room(updated_room)
+
+                if address & 0xff0000 != (address + len(updated_room_data)) & 0xff0000:
+                    address = (address & 0xff0000) + 0x10000
+
+                writer.write_block(updated_room_data, address)
+
                 value = rom_to_snes(address, RomType.high_rom)
 
                 writer.write_block(struct.pack('<HB', value & 0xFFFF, (value >> 16) & 0xFF),
                                    snes_to_rom(0xDA8000) + (room_id * 3))
-                # print(f'original: {room.compressed_size:#02x}')
-                # print(f'modified: {len(compressed):#02x}')
-                # print(f'ratio: {len(compressed) / room.compressed_size}')
-                # print(f'delta: {len(compressed) - room.compressed_size}')
-                # print('=' * 80)
-                address += len(compressed) + 1
+
+                address += len(updated_room_data) + 1
+
+    for address, value in room_compressed.items():
+        writer.write_block(struct.pack('B', value), address)
+
     print(f'Ends at {address + 0xC00000:#02x}')
     return address
 
