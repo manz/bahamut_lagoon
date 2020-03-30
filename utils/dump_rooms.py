@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+import logging
 import struct
 import os
 import math
@@ -11,6 +13,8 @@ from utils.lz import lz_decompress, lz_compress
 from utils.vm.opcodes_map import opcode_table, opcode_names
 from utils.vm.room import Room, prettify
 import xml.etree.ElementTree as ET
+
+logger = logging.getLogger('rooms.dialog')
 
 
 def battle_decompress_block(rom):
@@ -192,13 +196,18 @@ def build_text_patch(rom, table, writer, reloc_address):
     dialog_dir = os.path.join(os.path.dirname(__file__), '../text/dialog')
     files = os.listdir(dialog_dir)
     address = reloc_address
+    files = sorted(files, key=lambda name: int(name[:4], 10))
+    room_compressed = {}
+
     for file in files:
+        logger.error(file)
         match = xmlfile_re.match(file)
         if match:
             room_id = int(match.group(1))
 
             if is_compressed(rom, room_id):
-                room = get_dialog_room(rom, room_id, table, 'jp')
+                room = get_dialog_room(rom, room_id, table, 'jp', disasm=True)
+
                 tree = ET.parse(os.path.join(dialog_dir, file))
                 updated_room = room.update_text(tree)
 
