@@ -1,5 +1,7 @@
 V = 0
 Q = $(if $(filter 1,$V),,@)
+# V=1 also turns on build.py's progress logging (./build.py -vv dumps the rooms).
+BUILD_FLAGS = $(if $(filter 1,$V),-v,)
 
 M = $(shell if [ "$$(tput colors 2> /dev/null || echo 0)" -ge 8 ]; then printf "\033[34;1m▶\033[0m"; else printf "▶"; fi)
 
@@ -35,7 +37,7 @@ $(IPS): $(SOURCES) $(TEXTS) fonts/fft.png build.py
 		echo "$(ROM) missing. Place an unheadered Bahamut Lagoon (J) ROM there."; \
 		exit 1; }
 	$(info $(M) Building patch...)
-	$(Q) $(PY) ./build.py
+	$(Q) $(PY) ./build.py $(BUILD_FLAGS)
 	$(Q) test -s $(IPS)
 
 .PHONY: tests

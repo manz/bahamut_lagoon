@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import argparse
 import logging
 import struct
 import sys
@@ -85,10 +86,10 @@ def build_rooms_partial(table: Table) -> None:
     with ROOMS_PARTIAL.open("wb") as partial, ROM.open("rb") as rom:
         writer = IPSWriter(partial)
         address = build_text_patch(rom, table, writer, rom_offset(0xF00000))
-        print(f"Relocated dialog rooms end at {address + 0xC00000:#0x}")
+        logger.info("Relocated dialog rooms end at %#x", address + 0xC00000)
 
         address = build_battle_text_patch(rom, table, writer, address)
-        print(f"Relocated battle rooms end at {address + 0xC00000:#0x}")
+        logger.info("Relocated battle rooms end at %#x", address + 0xC00000)
 
 
 def insert_compressed_asset(writer, asset_filename, insert_addr, low_addr, bank_addr, compressor):
@@ -149,6 +150,12 @@ def build_ips() -> None:
 
 
 def main() -> int:
+    parser = argparse.ArgumentParser(description="Build the Bahamut Lagoon patch into build/.")
+    parser.add_argument("-v", "--verbose", action="count", default=0, help="-v for progress, -vv for room dumps")
+    args = parser.parse_args()
+    level = (logging.WARNING, logging.INFO, logging.DEBUG)[min(args.verbose, 2)]
+    logging.basicConfig(level=level, format="%(message)s")
+
     if not ROM.is_file() or ROM.stat().st_size == 0:
         logger.error("%s missing. Place an unheadered Bahamut Lagoon (J) ROM there.", ROM)
         return 1

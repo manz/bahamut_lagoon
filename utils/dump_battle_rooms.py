@@ -20,7 +20,7 @@ logger = logging.getLogger("rooms.battle")
 def decompress_block(rom):
     size = rom.read(2)
     size = struct.unpack("<H", size)[0]
-    print(hex(size))
+    logger.debug("block size %#x", size)
     data = rom.read(size)
     decompressed = bytearray()
     decompressed = lz_decompress_battle(data, decompressed)
@@ -209,7 +209,7 @@ def build_battle_text_patch(rom, table, writer, reloc_address):
             writer.write_block(compressed, address)
 
             value = rom_address(address)
-            logger.error(
+            logger.debug(
                 f"[{value:#x}] room {room_id} length {len(compressed):#x}\t"
                 f"(uncompressed {len(updated_room):#x}, original {len(room.room):#x})"
             )
