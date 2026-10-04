@@ -10,9 +10,19 @@ export VERSION
 .PHONY: all
 all: | bl.ips  ## Builds everything
 
+# uv format fetches its own ruff: run the one pinned in the dev group.
+RUFF_VERSION = $(shell uv run ruff --version | cut -d' ' -f2)
+UV_FORMAT = uv format --preview-features format-command --version $(RUFF_VERSION)
+
 .PHONY: format
-format: ## Formats the python code
-	$(Q) uv run ruff format build.py utils
+format: ## Formats and lint-fixes the python code
+	$(Q) $(UV_FORMAT)
+	$(Q) uv run ruff check --fix
+
+.PHONY: check
+check: ## Checks python formatting and lint
+	$(Q) $(UV_FORMAT) --check
+	$(Q) uv run ruff check
 
 .PHONY: tests
 tests: ## Runs unit tests

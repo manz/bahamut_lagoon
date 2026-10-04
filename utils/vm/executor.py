@@ -1,4 +1,4 @@
-from . import AlreadyVisitedError, DEBUG_OPCODES_TRACING
+from . import DEBUG_OPCODES_TRACING, AlreadyVisitedError
 from .room import Room
 
 

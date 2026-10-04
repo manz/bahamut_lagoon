@@ -1,11 +1,11 @@
 import json
 import struct
 from sys import stdout
-from typing import Dict, Tuple, Literal
+from typing import Literal
 
 
 class Program:
-    def __init__(self, opcode_names: Dict[int, str]) -> None:
+    def __init__(self, opcode_names: dict[int, str]) -> None:
         self._program = {}
         self._labels = set()
         self._actors = set()
@@ -81,7 +81,7 @@ class Program:
             name, opcode, data = opcode_tuple
             return f"{opcode:#02x} {name}({format_data(data)})"
 
-        def format_element(element: Tuple[Literal["opcode", "reference", "text"], ...]) -> str:
+        def format_element(element: tuple[Literal["opcode", "reference", "text"], ...]) -> str:
             element_type = element[0]
             if element_type == "opcode":
                 return format_opcode(element[1:])
@@ -114,7 +114,7 @@ class Program:
 
         class BytesEncoder(json.JSONEncoder):
             def default(self, obj):
-                if isinstance(obj, bytearray) or isinstance(obj, bytes):
+                if isinstance(obj, (bytearray, bytes)):
                     return obj.decode("unicode-escape")
                 return json.JSONEncoder.default(self, obj)
 
@@ -128,9 +128,7 @@ class Program:
                         serialize_data(output, d)
                 elif data[0] == "byte":
                     output.write(struct.pack("B", data[1]))
-                elif data[0] == "word":
-                    output.write(struct.pack("<H", data[1]))
-                elif data[0] == "reference":
+                elif data[0] == "word" or data[0] == "reference":
                     output.write(struct.pack("<H", data[1]))
                 elif data[0] == "raw":
                     output.write(data[1])
@@ -139,7 +137,7 @@ class Program:
             for address in sorted(self._program.keys()):
                 output.seek(address)
 
-                data, comment, size = self._program[address]
+                data, _comment, _size = self._program[address]
 
                 if data[0] == "reference":
                     output.write(struct.pack("<H", data[1]))
@@ -154,7 +152,7 @@ class Program:
     def opcode_frequency(self):
         frequency = {}
         for address in sorted(self._program.keys()):
-            data, comment, size = self._program[address]
+            data, _comment, _size = self._program[address]
 
             if data[0] == "opcode":
                 if data[2] in frequency:

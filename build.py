@@ -66,9 +66,7 @@ def ips_records(path: Path) -> bytes:
 class DebugWriter(IPSWriter):
     def write_block_header(self, block: bytes, block_address: int) -> None:
         super().write_block_header(block, block_address)
-        print(
-            f"DEBUGIPS: {rom_address(block_address):#x} {len(block):#x}"
-        )
+        print(f"DEBUGIPS: {rom_address(block_address):#x} {len(block):#x}")
 
 
 def build_rooms_partials(writer: Writer, table: Table) -> None:
@@ -85,9 +83,7 @@ partials_builder = {"rooms": build_rooms_partials}
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Build patch.")
 
-    parser.add_argument(
-        "--debug", dest="debug", action="store_true", help="Turns debug on"
-    )
+    parser.add_argument("--debug", dest="debug", action="store_true", help="Turns debug on")
 
     parser.add_argument("--rooms", action="store_true", help="build rooms partial")
 
@@ -118,20 +114,14 @@ if __name__ == "__main__":
             draw_inline_string_ref = symbols["draw_inline_string_patched"]
 
             insert_dragon_feed_inline_strings(writer, rom_offset(0xFC0000))
-            end_of_battle_commands = insert_battle_commands_strings(
-                writer, rom_offset(0xFD0000)
-            )
+            end_of_battle_commands = insert_battle_commands_strings(writer, rom_offset(0xFD0000))
             end_of_inline_strings = insert_inline_strings(
                 writer, rom_offset(end_of_battle_commands + 1), draw_inline_string_ref
             )
 
-            end_of_message_strings = insert_messages_strings(
-                writer, rom_offset(end_of_inline_strings + 1)
-            )
+            end_of_message_strings = insert_messages_strings(writer, rom_offset(end_of_inline_strings + 1))
 
-            def insert_compressed_asset(
-                writer, asset_filename, insert_addr, low_addr, bank_addr, compressor
-            ):
+            def insert_compressed_asset(writer, asset_filename, insert_addr, low_addr, bank_addr, compressor):
                 with open(asset_filename, "rb") as asset:
                     data = asset.read()
                     compressed = compressor(data)

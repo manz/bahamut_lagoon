@@ -1,9 +1,11 @@
-from math import ceil
 import binascii
 import struct
-from PIL import Image
-from utils.font import get_char, get_max_width
+from math import ceil
+
 import numpy as np
+from PIL import Image
+
+from utils.font import get_char, get_max_width
 
 
 def text_to_char(text):
@@ -39,7 +41,7 @@ def build_text_image(font_file, text_data):
         else:
             buffer = culled_char
 
-    tiled_length = ceil(len(buffer[0]) / 8) * 8
+    ceil(len(buffer[0]) / 8) * 8
 
     return buffer
 
@@ -122,25 +124,27 @@ def generate_8x8_vwf_asset(string_list, prefix, table_start, max_tile_length=Non
     k = 0
     current_id = table_start
 
-    with open("assets/%s.bin" % prefix, "wb") as output:
-        with open("assets/%s.len" % prefix, "wb") as length_table:
-            with open("text/%s.tbl" % prefix, "wt", encoding="utf-8") as table:
-                if max_tile_length:
-                    line_length = max_tile_length * 2 * 8
-                for string in string_list:
-                    if max_tile_length:
-                        output.seek(k * line_length)
-                    data = build_text_image("fonts/8x8vwf.png", string.strip())
-                    data_2bpp = write_as_2bpp(data)
-                    output.write(data_2bpp)
-                    length_table.write(struct.pack("<H", len(data_2bpp)))
-                    tile_count = int(len(data_2bpp) / 2 / 8)
-                    print("tile_count", tile_count)
-                    table_entry_id = bytearray(range(current_id, current_id + tile_count))
-                    print("kiki", binascii.hexlify(table_entry_id))
-                    table.write("%s=%s\n" % (binascii.hexlify(table_entry_id).decode("ascii"), string))
-                    current_id += tile_count
-                    k += 1
+    with (
+        open(f"assets/{prefix}.bin", "wb") as output,
+        open(f"assets/{prefix}.len", "wb") as length_table,
+        open(f"text/{prefix}.tbl", "wt", encoding="utf-8") as table,
+    ):
+        if max_tile_length:
+            line_length = max_tile_length * 2 * 8
+        for string in string_list:
+            if max_tile_length:
+                output.seek(k * line_length)
+            data = build_text_image("fonts/8x8vwf.png", string.strip())
+            data_2bpp = write_as_2bpp(data)
+            output.write(data_2bpp)
+            length_table.write(struct.pack("<H", len(data_2bpp)))
+            tile_count = int(len(data_2bpp) / 2 / 8)
+            print("tile_count", tile_count)
+            table_entry_id = bytearray(range(current_id, current_id + tile_count))
+            print("kiki", binascii.hexlify(table_entry_id))
+            table.write("{}={}\n".format(binascii.hexlify(table_entry_id).decode("ascii"), string))
+            current_id += tile_count
+            k += 1
 
 
 if __name__ == "__main__":

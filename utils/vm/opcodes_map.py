@@ -1,25 +1,23 @@
-from typing import Dict
-
 from utils.vm.opcodes import (
-    OpcodeProtocol,
-    Jump,
+    BattleOptionalJump,
     ConditionalJump,
     ConditionalJumpToSubRoutine,
+    IfElseOpcode,
+    Jump,
     JumpToSubRoutine,
-    ReturnFromSubRoutine,
-    Opcode,
-    YesNoChoiceOpcode,
     MultipleChoiceTextOpcode,
-    StateOpcode,
+    NinetySixOpcode,
+    Opcode,
     Opcode13,
     Opcode18,
+    OpcodeProtocol,
+    ReturnFromSubRoutine,
+    StateOpcode,
     TextOpcode,
-    NinetySixOpcode,
-    BattleOptionalJump,
-    IfElseOpcode,
+    YesNoChoiceOpcode,
 )
 
-opcode_names: Dict[int, str] = {
+opcode_names: dict[int, str] = {
     0x00: "jump",
     0x01: "conditional_jump_1",
     0x02: "conditional_jump_2",
@@ -58,7 +56,7 @@ opcode_names: Dict[int, str] = {
     0xFF: "exit",
 }
 
-OpcodeTable = Dict[int, OpcodeProtocol]
+OpcodeTable = dict[int, OpcodeProtocol]
 
 opcode_table: OpcodeTable = {
     0x00: Jump(),
@@ -112,8 +110,10 @@ opcode_table: OpcodeTable = {
     ),
     0x2A: Opcode(
         5,
-        comment_lambda=lambda r: f"animate_brightness(start={r.get_byte(1):#02x}, "
-        f"end={r.get_byte(2):#02x}, time={r.get_byte(3):#02x}, unknown={r.get_byte(4):#02x})",
+        comment_lambda=lambda r: (
+            f"animate_brightness(start={r.get_byte(1):#02x}, "
+            f"end={r.get_byte(2):#02x}, time={r.get_byte(3):#02x}, unknown={r.get_byte(4):#02x})"
+        ),
     ),
     0x2B: Opcode(2),
     0x2C: Opcode(5),

@@ -1,4 +1,4 @@
-from typing import Protocol, Optional
+from typing import Protocol
 
 from script import Table
 
@@ -86,18 +86,16 @@ class OpcodeProtocol(Protocol):
 
 
 class CommentLambda(Protocol):
-    def __call__(self, room: Room) -> str:
-        ...
+    def __call__(self, room: Room) -> str: ...
 
 
 class DataLambda(Protocol):
-    def __call__(self, room: Room) -> bytes:
-        ...
+    def __call__(self, room: Room) -> bytes: ...
 
 
 class Opcode:
     def __init__(
-        self, size: int, data_lambda: Optional[DataLambda] = None, comment_lambda: Optional[CommentLambda] = None
+        self, size: int, data_lambda: DataLambda | None = None, comment_lambda: CommentLambda | None = None
     ) -> None:
         self.size = size
         self.data_lambda = data_lambda
@@ -142,7 +140,7 @@ class StateOpcode:
             ]
             index = byte >> 3
             value = convert_table[byte & 7]
-            return "var: 0x%02x: value %s" % (index, bin(value))
+            return f"var: 0x{index:02x}: value {bin(value)}"
 
         room.program.put_opcode(
             room.pc,
@@ -190,13 +188,13 @@ class Opcode18:
 
 
 class TextOpcode:
-    def __init__(self, size: Optional[int] = 3) -> None:
+    def __init__(self, size: int | None = 3) -> None:
         self.size = size
 
     def apply(self, room: Room) -> int:
         text_addr = room.get_word(1)
 
-        bytes_len, text = get_string_from_room(room, text_addr, room.table)
+        _bytes_len, text = get_string_from_room(room, text_addr, room.table)
         room.program.put_opcode(room.pc, room.get_byte(), ("data", ("reference", text_addr)), text, size=3)
 
         room.put_text_reference(room.pc + 1, text_addr, text)
@@ -208,7 +206,7 @@ class YesNoChoiceOpcode:
     def apply(self, room: Room) -> int:
         text_addr = room.get_word(1)
 
-        bytes_len, text = get_string_from_room(room, text_addr, room.table)
+        _bytes_len, text = get_string_from_room(room, text_addr, room.table)
         room.put_text_reference(room.pc + 1, text_addr, text)
         room.program.put_opcode(
             room.pc,

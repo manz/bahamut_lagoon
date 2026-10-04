@@ -49,7 +49,7 @@ requires-dist = [
 [package.metadata.requires-dev]
 dev = [
     { name = "pytest" },
-    { name = "ruff" },
+    { name = "ruff", specifier = "==0.16.10" },
 ]
 
 [[package]]

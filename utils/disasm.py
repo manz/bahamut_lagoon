@@ -1,9 +1,8 @@
 import struct
-from typing import Optional
 
 from utils.vm import NoMoreEventsForPlayer
 from utils.vm.executor import walk_event_chain
-from utils.vm.opcodes_map import opcode_table, opcode_names
+from utils.vm.opcodes_map import opcode_names, opcode_table
 from utils.vm.room import Room
 
 
@@ -88,7 +87,7 @@ def check_04(room):
     room.restore_pc()
 
 
-def disassemble(room: Room, display_program: Optional[bool] = False) -> None:
+def disassemble(room: Room, display_program: bool | None = False) -> None:
     header_length = room.get_word()
 
     if header_length > 2:
@@ -129,7 +128,7 @@ def disassemble(room: Room, display_program: Optional[bool] = False) -> None:
     if len(new_events) > 0:
         while True:
             try:
-                for k in range(0, max(new_events) + 2):
+                for k in range(max(new_events) + 2):
                     walk_events_for_player_event(room, k)
                 if not (new_events - room.program.actors):
                     break

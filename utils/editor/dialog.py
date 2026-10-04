@@ -1,24 +1,21 @@
 import os
+import xml.etree.ElementTree as ET
 from array import array
 
+import numpy as np
 from kivy.app import App
 from kivy.base import EventLoop
+from kivy.graphics import *
 from kivy.graphics.texture import Texture
 from kivy.properties import StringProperty
+from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.button import Button
 from kivy.uix.label import Label
 from kivy.uix.popup import Popup
 from kivy.uix.scrollview import ScrollView
 from kivy.uix.textinput import TextInput
-from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.widget import Widget
-from kivy.graphics import *
-import xml.etree.ElementTree as ET
-
-import numpy as np
 from script import Table
-
-from utils.vm.room import prettify
 
 root_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
 
@@ -30,7 +27,7 @@ def get_char(data, char):
     char_width = data[((char + 1) * 17) - 1]
     retval = []
     for b in char_data:
-        retval.append([int(k) for k in "{:08b}".format(b)][:char_width])
+        retval.append([int(k) for k in f"{b:08b}"][:char_width])
     return np.pad(retval, [(0, 0), (0, 1)], mode="constant")
 
 
@@ -178,7 +175,8 @@ class TextRender(Widget):
             arr = array("B", buffer.flatten())
             # now blit the array
             self._texture.blit_buffer(arr, colorfmt="luminance", bufferfmt="ubyte")
-        except Exception:
+        except (ValueError, IndexError):
+            # text overflowing the preview buffer: keep the last rendering
             pass
 
     def update_canvas(self, *args):
@@ -191,7 +189,7 @@ class TextRender(Widget):
         preview_display = (preview_width, hi * preview_width // wi)
 
         display_width = ws - preview_display[0]
-        display_height = hi * display_width // wi
+        hi * display_width // wi
 
         with self.canvas:
             x, y = self.pos
@@ -351,7 +349,7 @@ class DialogEditorApp(App):
         high_layout = BoxLayout(orientation="vertical")
 
         layout = BoxLayout(orientation="horizontal")
-        text_input = TextInput(text="", multiline=True, size_hint=(1, 1)) #, height=500)
+        text_input = TextInput(text="", multiline=True, size_hint=(1, 1))  # , height=500)
 
         def on_text(instance, value):
             text_render.text = value

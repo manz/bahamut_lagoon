@@ -1,25 +1,23 @@
 #!/usr/bin/env python
 import logging
-import struct
-import os
 import math
+import os
 import re
+import struct
+import xml.etree.ElementTree as ET
 
-from utils.cartridge import rom_address, rom_offset
 from script import Table
 
+from utils.cartridge import rom_address, rom_offset
 from utils.disasm import live_disasm
-from utils.lz import lz_decompress, lz_compress
-from utils.vm.opcodes_map import opcode_table, opcode_names
+from utils.lz import lz_compress, lz_decompress
+from utils.vm.opcodes_map import opcode_names, opcode_table
 from utils.vm.room import Room, prettify
-import xml.etree.ElementTree as ET
 
 logger = logging.getLogger("rooms.dialog")
 
 
 def battle_decompress_block(rom):
-    origin = rom.tell()
-
     size = rom.read(2)
     size = struct.unpack("<H", size)[0]
     print(hex(size))
@@ -40,7 +38,7 @@ def battle_decompress_block(rom):
         control = rom.read(1)
 
         if control[0] & 0x3F:
-            next_end = rom.read(2)
+            rom.read(2)
             control_byte = rom.peek(1)
 
             next_size = get_size(control[0], control_byte[0])
@@ -185,14 +183,6 @@ def dump_rooms(rom, table, lang, output_dir, room_id=None):
             dump_room(rom, room, table, output_dir, lang=lang)
 
 
-def format_dialogs(tree):
-    texts = tree.getroot()
-    for text in texts:
-        if text.get("center") == "true":
-            data = text.find("data")
-            tmp = data.text
-
-
 # 2a animate luminosity ?
 # 0x71 : 0x2a __opcode(0x0 0xf 0x40 0x0)
 # start, end, time (frame count ?) and something
@@ -214,7 +204,7 @@ room_patches = {
 
 
 def build_text_patch(rom, table, writer, reloc_address):
-    xmlfile_re = re.compile("(\d+)\.xml")
+    xmlfile_re = re.compile(r"(\d+)\.xml")
     dialog_dir = os.path.join(os.path.dirname(__file__), "../text/dialog")
     files = os.listdir(dialog_dir)
     address = reloc_address
@@ -238,7 +228,7 @@ def build_text_patch(rom, table, writer, reloc_address):
 
                 if len(updated_room) >= 0x6000:
                     logger.error(
-                        f"Un compressed Room {room_id} is bigger than the ram buffer 0x6000" " storing it uncompressed"
+                        f"Un compressed Room {room_id} is bigger than the ram buffer 0x6000 storing it uncompressed"
                     )
                     room_id_high = 1 << (room_id & 0x07)
                     room_id_low = room_id >> 3

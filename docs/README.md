@@ -34,16 +34,16 @@ def lz_decompress(data, decompressed=None):
             k += 9
         else:
             k += 1
-            raw_data = data[k + 1:k + 9]
+            raw_data = data[k + 1 : k + 9]
             decompressed += raw_data
             for i in range(8):
-                if k < len(data)-1:
+                if k < len(data) - 1:
                     if (control_byte >> i) & 1:
                         back_pointer = (data[k] + (data[k + 1] << 8)) & 0x0FFF
                         length = ((data[k + 1] >> 4) & 0x0F) + 3
 
                         back_pointer = len(decompressed) - back_pointer
-                        pointed_data = decompressed[back_pointer:back_pointer + length]
+                        pointed_data = decompressed[back_pointer : back_pointer + length]
 
                         decompressed += pointed_data
                         k += 2
