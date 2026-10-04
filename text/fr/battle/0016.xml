@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<texts base="0x9e" room_id="16">
+    <text>
+        <refs>
+            <ref>0x2c</ref>
+        </refs>
+        <data>MATELIGHT
+[0xa8]Ici se trouve le Dragon Sacré
+ du désert[0xd8][end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x37</ref>
+        </refs>
+        <data> le Dragon Sacré
+ du désert[0xd8][end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x68</ref>
+        </refs>
+        <data>... [0xfc][0x1]qu'y a-t-il?![0xfc][0x1]
+ Le Dragon Sacré Yulmungald
+ vous appelle...[end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7e</ref>
+        </refs>
+        <data>ré Yulmungald
+ vous appelle...[end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x89</ref>
+        </refs>
+        <data> Dragon Sacré Yulmungald[0xfc][0x1]
+ me réclame...[end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6c</ref>
+        </refs>
+        <data>[0xfc][0x1]
+ J'irai partout où vous irez![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x47</ref>
+        </refs>
+        <data>rtout où vous irez![end1][end]</data>
+    </text>
+</texts>

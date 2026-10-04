@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<texts base="0x9a" room_id="2">
+    <text>
+        <refs>
+            <ref>0x2c</ref>
+        </refs>
+        <data>MATELIGHT
+[0xa8]Ainsi, c'est là que [character][0x1]
+ se trouve[0xd8][end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3d</ref>
+        </refs>
+        <data>b
+ se trouve[0xd8][end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x48</ref>
+        </refs>
+        <data>ight est ici[0xd8][end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x74</ref>
+        </refs>
+        <data>le monde[0xd8][0xfc][0x1]
+ Montrons-leur ce dont nous
+ sommes capables[0xd8][end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7f</ref>
+        </refs>
+        <data>apables[0xd8][end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4f</ref>
+        </refs>
+        <data>      Vaincre le Boss[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5a</ref>
+        </refs>
+        <data>tazueketayoujiyano....[end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x65</ref>
+        </refs>
+        <data>undeikimashiyou.[end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x30</ref>
+        </refs>
+        <data>e minute et...[0xd8][0xfc][0x1]
+ Allons-y[0xd8][end1][end]</data>
+    </text>
+</texts>

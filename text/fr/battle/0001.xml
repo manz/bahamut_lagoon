@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<texts base="0xc6" room_id="1">
+    <text>
+        <refs>
+            <ref>0x2c</ref>
+        </refs>
+        <data>MATELIGHT
+[0xa8]Il y a encore des soldats de
+ l'Empire[0xd8][end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x37</ref>
+        </refs>
+        <data>T
+[0xa8]Pas question[0xd8]
+ Ils n'effraient personne[0xd8][end][0xa8]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x40</ref>
+        </refs>
+        <data>aient personne[0xd8][end][0xa8]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4b</ref>
+        </refs>
+        <data> proche[0xd8]!
+ Allons-nous attaquer les Rebelles!?[end][0xa8]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x99</ref>
+        </refs>
+        <data>es Rebelles!?[end][0xa8]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa4</ref>
+        </refs>
+        <data>Qu'ils viennent à moi[0xd8][end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb3</ref>
+        </refs>
+        <data>ons sont importants[0xd8]
+ Donnes-leur des ordres...[end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xba</ref>
+        </refs>
+        <data>r des ordres...[end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x30</ref>
+        </refs>
+        <data>agie atteint aussi les
+ Dragons!
+ Sois prudents[0xd8][end][0xa8]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x9d</ref>
+        </refs>
+        <data>ents[0xd8][end][0xa8]</data>
+    </text>
+</texts>

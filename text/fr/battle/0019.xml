@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<texts base="0x76" room_id="19">
+    <text>
+        <refs>
+            <ref>0x53</ref>
+        </refs>
+        <data>      Condition de la Victoire[0xfc][0x1]
+            Vaincre Gudruff[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x33</ref>
+        </refs>
+        <data>            Vaincre Gudruff[end]C</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3b</ref>
+        </refs>
+        <data>rai étalage de
+ Généraux d'Empire[0xd8][0xfc][0x1]
+ Ils sont si nombreux pour nous!?[end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x46</ref>
+        </refs>
+        <data> Ils sont si nombreux pour nous!?[end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6a</ref>
+        </refs>
+        <data> nous!?[end1][end]</data>
+    </text>
+</texts>

@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<texts base="0xcb" room_id="17">
+    <text>
+        <refs>
+            <ref>0x76</ref>
+        </refs>
+        <data>      Condition de la Vicoire[0xfc][0x1]
+          Vaincre Diktator[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x32</ref>
+        </refs>
+        <data>        Vaincre Diktator[end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3f</ref>
+        </refs>
+        <data>ola[0xd8][0xfc][0x1]
+ Le ciel[0xd8][end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x50</ref>
+        </refs>
+        <data>NT
+[0xa8]Montrons à ces types ce dont
+ nous sommes capables[0xd8][end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x64</ref>
+        </refs>
+        <data>es capables[0xd8][end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xab</ref>
+        </refs>
+        <data>[0xfc][0x1]
+ Les Dragons Sacrés sont perplexes...[0xfc][0x1][end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb4</ref>
+        </refs>
+        <data>crés sont perplexes...[0xfc][0x1][end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xbd</ref>
+        </refs>
+        <data>lexes...[0xfc][0x1][end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x57</ref>
+        </refs>
+        <data> prudents... [0xfc][0x1][character][0x1]![0xfc][0x1]
+ Je ne cromprends rien non plus...[0xfc][0x1][end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6b</ref>
+        </refs>
+        <data>mprends rien non plus...[0xfc][0x1][end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x43</ref>
+        </refs>
+        <data>us...[0xfc][0x1][end1][end]</data>
+    </text>
+</texts>
