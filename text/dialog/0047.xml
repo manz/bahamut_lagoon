@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0xdea" room_id="47">
     <text>
         <refs>
@@ -11,153 +11,156 @@
         <refs>
             <ref>0x5d</ref>
         </refs>
-        <data>RUSH:
-Nous y sommes enfin!
-[character][0x0],n'as-tu rien vu?
-Nous avons grandi depuis la libération
-de Dafira.
+        <data>[character][0xd]: Nous y sommes enfin !
+
+
+[character][0x0],n'as-tu rien vu ?
+
+
+Nous avons grandi depuis la libération de Dafira.
+
+
 Ce doit être notre ère![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6f</ref>
         </refs>
-        <data>Matelight ne nous traite pas assez en
-adultes.
-Tu es d'accord avec moi?[end]</data>
+        <data>[character][0xb] ne nous traite pas assez en adultes.
+
+
+Tu es d'accord avec moi ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa5</ref>
         </refs>
-        <data>Nous avons beaucoup changé et nous
-devrions rester unis face à ce qui va
-arriver!
-Estimons-nous heureux!
-C'est notre ère!
+        <data>Nous avons beaucoup changé et nous devrions rester unis
+face à ce qui va arriver !
+
+Estimons-nous heureux !
+
+
+C'est notre ère !
+
  
-Je suis persuadé que [character][0x1] nous
-comprendra.[end]</data>
+Je suis persuadé que [character][0x1] nous comprendra.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8c</ref>
         </refs>
-        <data>Montrons notre détermination!
-C'est notre ère!
-Nous avons changé!
-[character][0x1] décidera par la suite si elle
-veut nous suivre...[end]</data>
+        <data>Montrons notre détermination !
+C'est notre ère !
+Nous avons changé !
+[character][0x1] décidera par la suite si elle veut nous suivre...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfd</ref>
         </refs>
         <data>monyo[0xd8]
-[0xa8]la tradition[0xd8]
- tout ressemble à un conte[0xd8][0xa9][end]</data>
+``la tradition[0xd8]
+ tout ressemble à un conte[0xd8]''[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x109</ref>
         </refs>
         <data>manyo[0xd8]
-[0xa8]nous le désirons aussi[0xd8][0xa9][end]</data>
+``nous le désirons aussi[0xd8]''[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x115</ref>
         </refs>
         <data>munyo[0xd8]
-[0xa8]matelight et les autres ont
- fait erreur[0xd8][0xa9][end]</data>
+``matelight et les autres ont
+ fait erreur[0xd8]''[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x127</ref>
         </refs>
         <data>monyo[0xd8]
-[0xa8]les petits démons font la
- révolution des Démons![0xa9][end]</data>
+``les petits démons font la
+ révolution des Démons!''[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x13d</ref>
         </refs>
         <data>manyo[0xd8]
-[0xa8]vous nous envierez![0xa9][end]</data>
+``vous nous envierez!''[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x189</ref>
         </refs>
         <data>munyo[0xd8]
-[0xa8]les petits démons ont des
- intentions déterminées![0xa9][end]</data>
+``les petits démons ont des
+ intentions déterminées!''[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1b4</ref>
         </refs>
-        <data>[character][0x0],faisons route ensemble,
-un moment![end]</data>
+        <data>[character][0x0],faisons route ensemble, un moment ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb8a</ref>
         </refs>
-        <data>RUSH:
-Très bien,allons-y![end]</data>
+        <data>[character][0xd]: Très bien,allons-y![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xba1</ref>
         </refs>
-        <data>Maintenant,commençons par le
-commencement...
-C'est moi qui vous dirigerai![end]</data>
+        <data>Maintenant,commençons par le commencement...
+
+
+C'est moi qui vous dirigerai ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xdd3</ref>
         </refs>
-        <data>TAURUS:
-Comment avez-vous pensé à agir de
-cette manière?
+        <data>[character][0xf]: Comment avez-vous pensé à agir de
+cette manière ?
+
 Capitaine [character][0x0],je vous soutiens tout
-de même![end]</data>
+de même ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xde1</ref>
         </refs>
-        <data>BIKKEBAKKE:
-Je n'arrive pas à y croire...[end]</data>
+        <data>[character][0xe]: Je n'arrive pas à y croire...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xbba</ref>
         </refs>
         <data>C'est grandiose!
-Enfin,nous nous rebellons contre
-l'autorité!
-[character][0x0],c'est la dernière fois que nous
-pourrons acheter des objets.
-Et j'ai failli oublier!
-Je serai le leader!
- 
-  
-Vous ne devez surtout avoir aucun
-regret de ce que nous sommes en train
-de faire![end]</data>
+Enfin,nous nous rebellons contre l'autorité !
+
+[character][0x0],c'est la dernière fois que nous pourrons acheter
+des objets.
+
+Et j'ai failli oublier !
+Je serai le leader !
+   
+Vous ne devez surtout avoir aucun regret de ce que
+nous sommes en train de faire ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1f3</ref>
         </refs>
-        <data>MATELIGHT:
-Vous là-bas!
-Que faites-vous?!
+        <data>[character][0xb]: Vous là-bas !
+Que faites-vous ?!
+
 Laissez-moi entrer[0xd8][end]</data>
     </text>
     <text>
@@ -165,8 +168,7 @@ Laissez-moi entrer[0xd8][end]</data>
             <ref>0x204</ref>
             <ref>0x246</ref>
         </refs>
-        <data>RUSH:
-Il veut qu'on lui ouvre?![end]</data>
+        <data>[character][0xd]: Il veut qu'on lui ouvre ?![end]</data>
     </text>
     <text>
         <refs>
@@ -174,48 +176,55 @@ Il veut qu'on lui ouvre?![end]</data>
             <ref>0xbe2</ref>
             <ref>0x4fe</ref>
         </refs>
-        <data>Venez![end]</data>
+        <data>Venez ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x235</ref>
         </refs>
-        <data>MATELIGHT:
-Vous allez m'énerver!
+        <data>[character][0xb]: Vous allez m'énerver !
  
-Sachez que vous êtes en train de
-m'insulter en agissant ainsi[0xd8][end]</data>
+
+Sachez que vous êtes en train de m'insulter en agissant
+ainsi[0xd8][end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc37</ref>
         </refs>
-        <data>MATELIGHT:
-Mais,je...[0xd8]
+        <data>[character][0xb]: Mais,je...[0xd8]
  
-Je pense seulement à [character][0x1] sur les
-champs de bataille et à rien d'autre!
-Désolé!
+
+Je pense seulement à [character][0x1] sur les champs de 
+bataille et à rien d'autre !
+
+Désolé !
+
+
 De plus,elle est maintenant souffrante...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc64</ref>
         </refs>
-        <data>MATELIGHT:
-Je suis fou de la Princesse [character][0x1][0xd8]
+        <data>[character][0xb]: Je suis fou de la Princesse [character][0x1][0xd8]
 Je ne serai rien sans elle...
+
 Oui,[character][0x0]...
+
+
 Oui,Rush...
-C'est pour cette raison que je vous
-éloigne toujours d'elle![end]</data>
+
+C'est pour cette raison que je vous éloigne toujours
+d'elle ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc5b</ref>
         </refs>
-        <data>RUSH:
-Lui ouvrir...?! Non!
+        <data>[character][0xd]: Lui ouvrir...?! Non !
+
+
 Venez[0xd8]
 Continuons à commercer...[end]</data>
     </text>
@@ -223,63 +232,68 @@ Continuons à commercer...[end]</data>
         <refs>
             <ref>0xdda</ref>
         </refs>
-        <data>TAURUS:
-La Princesse [character][0x1]...
+        <data>[character][0xf]: La Princesse [character][0x1]...
  
-Si c'est pour l'amour de la Princesse,
-il dit peut-être la vérité.[end]</data>
+
+Si c'est pour l'amour de la Princesse, il dit
+peut-être la vérité.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x27e</ref>
         </refs>
-        <data>RUSH:
-Allez,nous sommes débordés!
-A quoi penses-tu Taurus?[end]</data>
+        <data>[character][0xd]: Allez,nous sommes débordés !
+
+
+A quoi penses-tu [character][0xf] ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x291</ref>
         </refs>
-        <data>TAURUS:
-... ... ...[end]</data>
+        <data>[character][0xf]: ... ... ...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc9d</ref>
         </refs>
-        <data>RUSH:
-Ne comprenez-vous donc rien?
+        <data>[character][0xd]: Ne comprenez-vous donc rien ?
  
-Matelight tente d'utiliser la ruse pour
-nous attrister!
- 
-C'est notre Nouvelle Ere!
-Nous avons décidé d'être forts!
-En route![end]</data>
+
+[character][0xb] tente d'utiliser la ruse pour nous attrister !
+
+
+C'est notre Nouvelle Ere !
+
+
+Nous avons décidé d'être forts !
+
+
+En route ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xcc7</ref>
         </refs>
-        <data>RUSH:
-Nous allons nourrir les dragons![end]</data>
+        <data>[character][0xd]: Nous allons nourrir les dragons ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x34a</ref>
         </refs>
-        <data>RUSH:
-hola hola!
-Je vais vous nourrir!
+        <data>[character][0xd]: hola hola !
+
+
+Je vais vous nourrir !
+
+
 En rang[0xd8][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3ba</ref>
         </refs>
-        <data>RUSH:
-Je supervise le tout,[character][0x0]![end]</data>
+        <data>[character][0xd]: Je supervise le tout,[character][0x0] ![end]</data>
     </text>
     <text>
         <refs>
@@ -305,17 +319,16 @@ Je supervise le tout,[character][0x0]![end]</data>
         <refs>
             <ref>0x580</ref>
         </refs>
-        <data>Que penses-tu de ça?
+        <data>Que penses-tu de ça ?
  
   
-Très bien,allons parler à Matelight[0xd8][end]</data>
+Très bien,allons parler à [character][0xb][0xd8][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x85d</ref>
         </refs>
-        <data>COMMANDANT:
-Voici la Princesse [character][0x1]...[end]</data>
+        <data>[character][0x10]: Voici la Princesse [character][0x1]...[end]</data>
     </text>
     <text>
         <refs>
@@ -327,29 +340,25 @@ Voici la Princesse [character][0x1]...[end]</data>
         <refs>
             <ref>0x8a2</ref>
         </refs>
-        <data>[character][0x1]:
-La porte de la Nouvelle Ere est
-ouverte...
-Il semblerait que les Dragons Sacrés
-l'aient ouverte...
-Mais pourquoi si tôt?![end]</data>
+        <data>[character][0x1]: La porte de la Nouvelle Ère est ouverte...
+Il semblerait que les Dragons Sacrés l'aient ouverte...
+
+Mais pourquoi si tôt ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8b8</ref>
         </refs>
-        <data>TAURUS:
-La Porte de la Nouvelle Ere?
+        <data>[character][0xf]: La Porte de la Nouvelle Ère?
  
-Ce serait bien si un escadron allait
-la voir de plus près.[end]</data>
+
+Ce serait bien si un escadron allait la voir de plus près.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8ff</ref>
         </refs>
-        <data>MATELIGHT:
-[character][0x1] n'en dites pas plus!
+        <data>[character][0xb]: [character][0x1] n'en dites pas plus!
 Nous défendrons FARENHEIT![end]</data>
     </text>
     <text>
@@ -367,8 +376,9 @@ C'est moi qui commande[0xd8][end]</data>
         <refs>
             <ref>0x92d</ref>
         </refs>
-        <data>RUSH:
-Matelight...
+        <data>[character][0xd]: [character][0xb]...
+
+
 Nous sommes...[end]</data>
     </text>
 </texts>

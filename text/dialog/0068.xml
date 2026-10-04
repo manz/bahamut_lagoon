@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0xc3d" room_id="68">
     <text>
         <refs>
@@ -20,8 +20,7 @@ ne fais pas de bruit.[end]</data>
         <refs>
             <ref>0x764</ref>
         </refs>
-        <data>DON JUAN:
-Mon dieu,cette ravissante jeune femme
+        <data>[character][0x13]: Mon dieu,cette ravissante jeune femme 
 est malade.[end]</data>
     </text>
     <text>
@@ -317,9 +316,9 @@ Mélodia t'attend![end][end]</data>
             <ref>0x919</ref>
         </refs>
         <data>WAGAHAI:
-[0xa8]wagahai aller sur le bateau!
+``wagahai aller sur le bateau!
  mort transporter sur bateau!
- là-bas fait sombre...[0xa9][end]</data>
+ là-bas fait sombre...''[end]</data>
     </text>
     <text>
         <refs>
@@ -632,8 +631,8 @@ est restaurée![end]</data>
         <data>SENDACK:
 [character][0x0]...
 Je... je...
- [0xa8]Il dit des inepties...[0xa9]
- [0xa8]Et il se répète en plus...[0xa9][end]</data>
+ ``Il dit des inepties...''
+ ``Et il se répète en plus...''[end]</data>
     </text>
     <text>
         <refs>
@@ -660,8 +659,8 @@ J'apprécie ce que tu fais![end]</data>
             <ref>0x29f</ref>
         </refs>
         <data>SENDACK:
-[0xa8]Il dit des inepties.[0xa9]
-[0xa8]C'est lassant,il se répète.[0xa9][end]</data>
+``Il dit des inepties.''
+``C'est lassant,il se répète.''[end]</data>
     </text>
     <text>
         <refs>

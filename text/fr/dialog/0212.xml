@@ -11,8 +11,8 @@
         <refs>
             <ref>0x69b</ref>
         </refs>
-        <data>Bienvenue!
-Tu tombes bien![end]</data>
+        <data>Bienvenue !
+Tu tombes bien ![end]</data>
     </text>
     <text>
         <refs>
@@ -27,7 +27,7 @@ Tu tombes bien![end]</data>
         <refs>
             <ref>0x6e2</ref>
         </refs>
-        <data>Je fais des ventes spéciales![end]</data>
+        <data>Je fais des ventes spéciales ![end]</data>
     </text>
     <text>
         <refs>
@@ -41,7 +41,7 @@ Tu tombes bien![end]</data>
         <refs>
             <ref>0x68a</ref>
         </refs>
-        <data>Bienvenue!
+        <data>Bienvenue !
 J'ai tout abandonné![end]</data>
     </text>
     <text>
@@ -50,7 +50,7 @@ J'ai tout abandonné![end]</data>
         </refs>
         <data>SENDACK:
 [character][0x0]...
-Veux-tu revenir?[end]</data>
+Veux-tu revenir ?[end]</data>
     </text>
     <text>
         <refs>
@@ -58,24 +58,24 @@ Veux-tu revenir?[end]</data>
         </refs>
         <data>SENDACK:
 [character][0x0]...
-Fais de ton mieux![end]</data>
+Fais de ton mieux ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x749</ref>
             <ref>0x759</ref>
         </refs>
-        <data> Rester!
- Aller combattre![end1]</data>
+        <data> Rester !
+ Aller combattre ![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x7be</ref>
         </refs>
         <data>Lieu de Rêve de Bikkebakke pour
-cultiver des Champignons!
+cultiver des Champignons !
  
-Ne touchez à rien!
+Ne touchez à rien !
 -Bikkebakke-[end]</data>
     </text>
     <text>
@@ -83,7 +83,7 @@ Ne touchez à rien!
             <ref>0x7c2</ref>
         </refs>
         <data>Voler les champignons tant espérés de
-Bikkebakke?[end]</data>
+Bikkebakke ?[end]</data>
     </text>
     <text>
         <refs>

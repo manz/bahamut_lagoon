@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<texts base="0x4f3" room_id="5">
+<texts room_id="5" base="0x4f3">
     <text>
         <refs>
             <ref>0x30</ref>

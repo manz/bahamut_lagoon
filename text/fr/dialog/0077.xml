@@ -6,13 +6,13 @@
             <ref>0xded</ref>
             <ref>0xd47</ref>
         </refs>
-        <data>Qui sont-ils?[end]</data>
+        <data>Qui sont-ils ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd5e</ref>
         </refs>
-        <data>D'où viennent-ils?[end]</data>
+        <data>D'où viennent-ils ?[end]</data>
     </text>
     <text>
         <refs>
@@ -32,23 +32,23 @@ Je sens l'esprit des Dragons Sacrés.[end]</data>
         <refs>
             <ref>0x77d</ref>
         </refs>
-        <data>Bahamut?!
-Valitra?!
+        <data>Bahamut ?!
+Valitra ?!
 Garuda[0xd8][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x789</ref>
         </refs>
-        <data>Léviathan!
-Jormungand!
+        <data>Léviathan !
+Jormungand !
 Hypérion[0xd8][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7bb</ref>
         </refs>
-        <data>Comment sont-ils revenus?[end]</data>
+        <data>Comment sont-ils revenus ?[end]</data>
     </text>
     <text>
         <refs>
@@ -64,9 +64,9 @@ menacé de destruction par des démons.[end]</data>
         <refs>
             <ref>0x7e3</ref>
         </refs>
-        <data>Ils ont créé... les démons?
+        <data>Ils ont créé... les démons ?
 Qu'est-ce qui ne va pas avec les
-Dragons Sacrés?[end]</data>
+Dragons Sacrés ?[end]</data>
     </text>
     <text>
         <refs>
@@ -79,7 +79,7 @@ Ils sont à l'intérieur de mon coeur...[end]</data>
         <refs>
             <ref>0x80a</ref>
         </refs>
-        <data>Quoi?! Une dragoon?!
+        <data>Quoi ?! Une dragoon ?!
 Ils communiquent avec toi grâce à leur
 esprit...[end]</data>
     </text>
@@ -89,7 +89,7 @@ esprit...[end]</data>
         </refs>
         <data>[character][0x1]:
 C'est cela...
-Et vous êtes?[end]</data>
+Et vous êtes ?[end]</data>
     </text>
     <text>
         <refs>
@@ -102,11 +102,11 @@ Et vous êtes?[end]</data>
             <ref>0x868</ref>
         </refs>
         <data>SENDACK:
-Un être-dragon?!
-Dites-nous en plus!
+Un être-dragon ?!
+Dites-nous en plus !
 La résurrection doit se faire entre les
-êtres-dragon et les Dragons Sacrés!
-Qu'est-il nécessaire de faire?[end][end]</data>
+êtres-dragon et les Dragons Sacrés !
+Qu'est-il nécessaire de faire ?[end][end]</data>
     </text>
     <text>
         <refs>
@@ -114,7 +114,7 @@ Qu'est-il nécessaire de faire?[end][end]</data>
         </refs>
         <data>Orelus,le monde des êtres humains...
 Comment a-t-il survécu à la Grande
-Guerre des Dragons Sacrés?
+Guerre des Dragons Sacrés ?
 Vous avez tant de choses à apprendre
 sur nous,le peuple dragon,et sur les
 Dragons Sacrés.
@@ -142,17 +142,17 @@ pour le peuple dragon.[end]</data>
             <ref>0x9ed</ref>
         </refs>
         <data>MATELIGHT:
-Hé! Par ici l'enfant!
+Hé! Par ici l'enfant !
 Tu as perdu un Dragon Sacré!
 C'est vrai que tu es un petit
-être-dragon?[end][end]</data>
+être-dragon ?[end][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x88d</ref>
         </refs>
         <data>MATELIGHT:
-Votre histoire n'a aucun sens!
+Votre histoire n'a aucun sens !
 Je n'y comprends rien.
 Mais dépêchez-vous d'enlever les
 esprits des Dragons Sacrés du corps
@@ -162,21 +162,21 @@ de [character][0x1]![end]</data>
         <refs>
             <ref>0x8c3</ref>
         </refs>
-        <data>Ce n'est pas possible!
+        <data>Ce n'est pas possible !
 Nous sommes trop âgés...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8e1</ref>
         </refs>
-        <data>Nous sommes simplement des enfants!
-Les enfants sont inutiles!
+        <data>Nous sommes simplement des enfants !
+Les enfants sont inutiles !
  
 Il est impensable pour les Dragons
 Sacrés de revivre à travers le corps
-de l'un de nous!
+de l'un de nous !
 Ce serait dangereux tant pour lui que
-pour l'enfant![end][end]</data>
+pour l'enfant ![end][end]</data>
     </text>
     <text>
         <refs>
@@ -184,13 +184,13 @@ pour l'enfant![end][end]</data>
         </refs>
         <data>La Dragoon d'Orelus,comment as-tu
 fait pour contenir les sentiments des
-Dragons?[end]</data>
+Dragons ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x934</ref>
         </refs>
-        <data>En supposant que cela soit vrai![end]</data>
+        <data>En supposant que cela soit vrai ![end]</data>
     </text>
     <text>
         <refs>
@@ -222,9 +222,9 @@ don de communiquer avec les Dragons
 Sacrés et d'utiliser leur pouvoir.
 Maintenant,leur Résurrection peut se
 faire...
-S'il vous plaît!
-Liez-vous Dragons Sacrés!
-Liez vos pouvoirs![end]</data>
+S'il vous plaît !
+Liez-vous Dragons Sacrés !
+Liez vos pouvoirs ![end]</data>
     </text>
     <text>
         <refs>
@@ -245,14 +245,14 @@ le Grand et Divin Alexandre...[end]</data>
             <ref>0xa0a</ref>
         </refs>
         <data>MATELIGHT:
-Alexandre?[end]</data>
+Alexandre ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa1b</ref>
         </refs>
-        <data>Le Roi d'Altair!
-Le Dragon Sacré Alexandre![end]</data>
+        <data>Le Roi d'Altair !
+Le Dragon Sacré Alexandre ![end]</data>
     </text>
     <text>
         <refs>
@@ -261,18 +261,18 @@ Le Dragon Sacré Alexandre![end]</data>
         <data>Il y a longtemps Bahamut et les autres
 Dragons Sacrés partirent pour Orelus
 et trop occupés,ils cessèrent de nous
-nous protéger![end]</data>
+nous protéger ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa3d</ref>
         </refs>
         <data>Beaucoup d'entre nous étaient seuls à
-Altair et sans défense!
+Altair et sans défense !
  
 C'est pour cela qu'Alexandre prit la
 responsabilité de fermer la Route du
-Ciel!
+Ciel !
 Ainsi,les Dragons Sacrés ne purent
 revenir.[end]</data>
     </text>
@@ -282,10 +282,10 @@ revenir.[end]</data>
         </refs>
         <data>le Divin Alexandre prit avec lui de
 nombreux être-dragons mais tous ne
-purent être sauvés!
+purent être sauvés !
 Certains moururent dans le trou noir,
 d'autres eurent le coeur transformé!
-Cela nous fut insupportable![end]</data>
+Cela nous fut insupportable ![end]</data>
     </text>
     <text>
         <refs>
@@ -306,7 +306,7 @@ Répondez à notre appel...[end]</data>
         <refs>
             <ref>0xa78</ref>
         </refs>
-        <data>Aaaaaah! BAHAMUT![end]</data>
+        <data>Aaaaaah ! BAHAMUT ![end]</data>
     </text>
     <text>
         <refs>
@@ -324,14 +324,14 @@ Nous sommes revenus par la Porte.[end]</data>
         </refs>
         <data>VALITRA:
 Pouvons-nous vraiment faire la
-Résurrection?[end]</data>
+Résurrection ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa95</ref>
         </refs>
-        <data>Je ne comprends plus rien!
-Assez! Assez[0xd8][end]</data>
+        <data>Je ne comprends plus rien !
+Assez ! Assez[0xd8][end]</data>
     </text>
     <text>
         <refs>
@@ -347,8 +347,8 @@ N'est-il pas encore arrivé?[end]</data>
         </refs>
         <data>Il viendra...
 Alexandre a déjà sauvé le peuple
-dragon auparavant!
-Il jugera vos actes![end]</data>
+dragon auparavant !
+Il jugera vos actes ![end]</data>
     </text>
     <text>
         <refs>
@@ -357,9 +357,9 @@ Il jugera vos actes![end]</data>
         </refs>
         <data>[character][0x1]:
 Je crains le pire...
-Les Dragons Sacrés sont en colère!
+Les Dragons Sacrés sont en colère !
 Jamais ils n'avaient été si furieux
-jusqu'à maintenant![end]</data>
+jusqu'à maintenant ![end]</data>
     </text>
     <text>
         <refs>
@@ -379,10 +379,10 @@ daigne combattre pour nous...[end]</data>
             <ref>0xb09</ref>
         </refs>
         <data>MATELIGHT:
-Hé! Les Dragons Sacrés!
+Hé! Les Dragons Sacrés !
  
 Vous nous emmenez en terres
-inconnues![end]</data>
+inconnues ![end]</data>
     </text>
     <text>
         <refs>
@@ -390,7 +390,7 @@ inconnues![end]</data>
         </refs>
         <data>MATELIGHT:
 Princesse [character][0x1] ne vous tourmentez
-pas![end]</data>
+pas ![end]</data>
     </text>
     <text>
         <refs>
@@ -398,29 +398,29 @@ pas![end]</data>
         </refs>
         <data>MATELIGHT:
 Quelqu'en soit la raison,
-nous combattrons!
-Nous combattrons pour eux![end]</data>
+nous combattrons !
+Nous combattrons pour eux ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb4e</ref>
         </refs>
         <data>MATELIGHT:
-Allons-y!
+Allons-y !
  
-Nous allons vous aider Dragons Sacrés!
-Grâce à ma force,nous allons gagner!
+Nous allons vous aider Dragons Sacrés !
+Grâce à ma force,nous allons gagner !
  
 Ils vont voir de quel bois,
 on se chauffe...
-Nous partons combattre![end]</data>
+Nous partons combattre ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb58</ref>
         </refs>
         <data>SENDACK:
-Matelight![end]</data>
+Matelight ![end]</data>
     </text>
     <text>
         <refs>
@@ -429,7 +429,7 @@ Matelight![end]</data>
         </refs>
         <data>MATELIGHT:
 [character][0x0]!
-Prépare-toi au combat![end]</data>
+Prépare-toi au combat ![end]</data>
     </text>
     <text>
         <refs>
@@ -437,9 +437,9 @@ Prépare-toi au combat![end]</data>
         </refs>
         <data>PALPALEOS:
 [character][0x0]!
-Est-ce que tu es prêt?
+Est-ce que tu es prêt ?
  Attends encore un instant.
- Allons combattre![end1]</data>
+ Allons combattre ![end1]</data>
     </text>
     <text>
         <refs>
@@ -448,8 +448,8 @@ Est-ce que tu es prêt?
         <data>Ce n'est pas encore fini...
 Je ne sais pas si l'aide des dragons
 est nécessaire...
- Je n'en suis pas sûr!
- Seul ton aide est inutile![end1]</data>
+ Je n'en suis pas sûr !
+ Seul ton aide est inutile ![end1]</data>
     </text>
     <text>
         <refs>
@@ -463,58 +463,58 @@ stratégie te sont inutiles,alors...[end]</data>
             <ref>0x601</ref>
         </refs>
         <data>[character][0x0]!
-Tout cela est inutile!
-Il semble que tu es jaloux![end]</data>
+Tout cela est inutile !
+Il semble que tu es jaloux ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x13d</ref>
         </refs>
         <data>Bikkebakke,je crois que vous avez
-oublié quelque chose!
+oublié quelque chose !
  
 Vous aviez surveillé,au lagon Campbell,
-le portefeuille d'un grand-père,non?![end]</data>
+le portefeuille d'un grand-père,non ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x149</ref>
         </refs>
-        <data>Votre récompense est de [0xb0][0xaf][0xaf][0xaf] PO!
-C'est pour vous!
-Je vous assure!
-Oui! C'est [0xb0][0xaf][0xaf][0xaf] Po![end]</data>
+        <data>Votre récompense est de [0xb0][0xaf][0xaf][0xaf] PO !
+C'est pour vous !
+Je vous assure !
+Oui ! C'est [0xb0][0xaf][0xaf][0xaf] Po ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x16d</ref>
         </refs>
         <data>BIKKEBAKKE:
-Super!
-Tu m'as bien aidé frère!
-Merci![end]</data>
+Super !
+Tu m'as bien aidé frère !
+Merci ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x15d</ref>
         </refs>
         <data>BIKKEBAKKE:
-Je suis content! Content![end][end]</data>
+Je suis content ! Content ![end][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x68b</ref>
         </refs>
         <data>RUSH:
-Le commerce,après!
-Les compagnons avant tout![end]</data>
+Le commerce,après !
+Les compagnons avant tout ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x659</ref>
         </refs>
         <data>RUSH:
-C'est un commerce génial![end]</data>
+C'est un commerce génial ![end]</data>
     </text>
     <text>
         <refs>
@@ -530,7 +530,7 @@ C'est un commerce génial![end]</data>
             <ref>0x722</ref>
         </refs>
         <data>BIKKEBAKKE:
-Tu veux des champignons?[end]</data>
+Tu veux des champignons ?[end]</data>
     </text>
     <text>
         <refs>
@@ -567,14 +567,14 @@ Il était si sceptique...?[end]</data>
             <ref>0x6f0</ref>
         </refs>
         <data>BIKKEBAKKE:
-Tu veux m'acheter quelque chose?[end]</data>
+Tu veux m'acheter quelque chose ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x62c</ref>
         </refs>
         <data>COMMANDANT:
-Quel château mélancolique!
+Quel château mélancolique !
 Il y a une intense odeur de danger.[end]</data>
     </text>
     <text>
@@ -590,7 +590,7 @@ genre de choses...[end]</data>
         </refs>
         <data>MATELIGHT:
 Là,je dois entièrement faire confiance
-à Palpaleos![end]</data>
+à Palpaleos ![end]</data>
     </text>
     <text>
         <refs>
@@ -615,21 +615,21 @@ bataille.[end]</data>
             <ref>0xe4d</ref>
         </refs>
         <data>PALPALEOS:
-Je vais aller voir seul![end]</data>
+Je vais aller voir seul ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe5f</ref>
         </refs>
         <data>MATELIGHT:
-Général Palpaleos![end]</data>
+Général Palpaleos ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe6b</ref>
         </refs>
         <data>MATELIGHT:
-Faites attention!
+Faites attention !
 Je hais à vous dire cela mais...[end]</data>
     </text>
     <text>
@@ -638,45 +638,45 @@ Je hais à vous dire cela mais...[end]</data>
         </refs>
         <data>MATELIGHT:
 N'allez pas vous faire tuer,
-quelqu'un vous attend!
+quelqu'un vous attend !
 Vous n'avez pas intérêt à rendre
-[character][0x1] triste!
-Je ne vous le pardonnerait pas![end]</data>
+[character][0x1] triste !
+Je ne vous le pardonnerait pas ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x64</ref>
         </refs>
-        <data>Courage,courage!
-Les beaux jours reviendront!
-Venez,[character][0x0],ici,ici![end]</data>
+        <data>Courage,courage !
+Les beaux jours reviendront !
+Venez,[character][0x0],ici,ici ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x97</ref>
         </refs>
-        <data>C'est le Château de l'Empire!
+        <data>C'est le Château de l'Empire !
 Et le monde entier compte sur vous
-pour le détruire!
+pour le détruire !
 Moi,je suis né pour vivre donc je
-dois assurer mon existence!
+dois assurer mon existence !
  
 Ca a été si soudain mais j'ai décidé
-d'arrêter mon travail de marchand!
+d'arrêter mon travail de marchand !
  
 Je ne suis plus un marchand envoyé
 au champ de bataille.
  
 Je suis un marchand protégeant sa
 femme et ses enfants.
-Dès maintenant![end]</data>
+Dès maintenant ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xaf</ref>
         </refs>
         <data>Oui,Rush.
-C'est pour vous![end]</data>
+C'est pour vous ![end]</data>
     </text>
     <text>
         <refs>
@@ -689,13 +689,13 @@ Etant très actif,j'ai immédiatement
 pensé à vous.
  
 J'ai eu un grand succès mais j'ai
-aussi fait des erreurs![end]</data>
+aussi fait des erreurs ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd2</ref>
         </refs>
-        <data>Taurus! J'ai aussi pensé à vous mais
+        <data>Taurus ! J'ai aussi pensé à vous mais
 j'ai été plus sceptique. Mais vous
 pourrez être l'assistant de Rush.[end]</data>
     </text>
@@ -703,24 +703,24 @@ pourrez être l'assistant de Rush.[end]</data>
         <refs>
             <ref>0xe0</ref>
         </refs>
-        <data>Rush,Taurus!
+        <data>Rush,Taurus !
 Unissez vos forces et vous pourrez
-faire de grandes choses![end]</data>
+faire de grandes choses ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf1</ref>
         </refs>
         <data>BIKKEBAKKE:
-Et moi?![end]</data>
+Et moi ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x105</ref>
         </refs>
-        <data>Bikkebakke!
+        <data>Bikkebakke !
 Vous êtes mon favori mais vous faites
-déjà du commerce![end]</data>
+déjà du commerce ![end]</data>
     </text>
     <text>
         <refs>
@@ -728,9 +728,9 @@ déjà du commerce![end]</data>
         </refs>
         <data>MARCHAND PROTEGEANT SA FEMME ET SES
 ENFANTS:
-Capitaine [character][0x0],je vous suis redevable!
-Faites tous attention à vous!
-Au revoir Messieurs![end]</data>
+Capitaine [character][0x0],je vous suis redevable !
+Faites tous attention à vous !
+Au revoir Messieurs ![end]</data>
     </text>
     <text>
         <refs>
@@ -738,23 +738,23 @@ Au revoir Messieurs![end]</data>
         </refs>
         <data>[character][0x1]:
 [character][0x0],je m'inquiète pour le Général
-Palpaleos!
-Prépare-toi à combattre![end]</data>
+Palpaleos !
+Prépare-toi à combattre ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x54e</ref>
         </refs>
         <data> Je me prépare.
- On ne peut plus l'aider!
- Très bien,allons combattre![end1]</data>
+ On ne peut plus l'aider !
+ Très bien,allons combattre ![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x57d</ref>
         </refs>
         <data>PALPALEOS:
-Tout est clair... C'est un piège![end]</data>
+Tout est clair... C'est un piège ![end]</data>
     </text>
     <text>
         <refs>
@@ -769,8 +769,8 @@ où nous sommes...[end]</data>
             <ref>0x5a7</ref>
         </refs>
         <data>[character][0x1]:
-Où est le Peuple Dragon?
-Les Dragons Sacrés les cherchent![end]</data>
+Où est le Peuple Dragon ?
+Les Dragons Sacrés les cherchent ![end]</data>
     </text>
     <text>
         <refs>
@@ -778,23 +778,23 @@ Les Dragons Sacrés les cherchent![end]</data>
         </refs>
         <data>COMMANDANT:
 Les dragons semblent être dans un
-état second!
-Ils sont très nerveux![end]</data>
+état second !
+Ils sont très nerveux ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6cf</ref>
         </refs>
         <data>TAURUS:
-Ainsi,c'est ici Altair!
-La Patrie des Dragons Sacrés![end]</data>
+Ainsi,c'est ici Altair !
+La Patrie des Dragons Sacrés ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5ae</ref>
         </refs>
         <data>[character][0x1]:
-Que se passe-t-il à Altair?
+Que se passe-t-il à Altair ?
  
 Les Dragons Sacrés doivent sûrement le
 savoir.[end]</data>
@@ -855,7 +855,7 @@ joie car c'est aussi notre retour...[end]</data>
             <ref>0x986</ref>
         </refs>
         <data>... ... ... ...?
-[character][0x0],qu'en dis-tu?[end]</data>
+[character][0x0],qu'en dis-tu ?[end]</data>
     </text>
     <text>
         <refs>
@@ -875,6 +875,6 @@ Pour moi cette histoire a un sens.[end]</data>
         <refs>
             <ref>0x9a2</ref>
         </refs>
-        <data> C'est peut-être une légende![end]</data>
+        <data> C'est peut-être une légende ![end]</data>
     </text>
 </texts>

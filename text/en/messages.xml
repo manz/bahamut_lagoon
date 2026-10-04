@@ -1,0 +1,1738 @@
+<?xml version="1.0" ?>
+<messages pointers="0xee35f1">
+    <string>
+        <refs>
+            <ref>0x0</ref>
+            <ref>0x1</ref>
+            <ref>0x5</ref>
+            <ref>0x8</ref>
+            <ref>0x9</ref>
+            <ref>0xb</ref>
+            <ref>0xd</ref>
+            <ref>0x10</ref>
+            <ref>0x13</ref>
+            <ref>0x14</ref>
+            <ref>0x17</ref>
+            <ref>0x1c</ref>
+            <ref>0x1f</ref>
+            <ref>0x24</ref>
+            <ref>0x29</ref>
+            <ref>0x2a</ref>
+            <ref>0x2b</ref>
+            <ref>0x2c</ref>
+            <ref>0x2d</ref>
+            <ref>0x2f</ref>
+            <ref>0x31</ref>
+            <ref>0x32</ref>
+            <ref>0x36</ref>
+            <ref>0x39</ref>
+            <ref>0x3a</ref>
+            <ref>0x3e</ref>
+            <ref>0x41</ref>
+            <ref>0x45</ref>
+            <ref>0x4a</ref>
+            <ref>0x4c</ref>
+            <ref>0x4f</ref>
+        </refs>
+        <data>[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x2</ref>
+        </refs>
+        <data>Water-elemental sword[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x3</ref>
+        </refs>
+        <data>Thunder-elemental sword[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x4</ref>
+        </refs>
+        <data>Fire-elemental sword[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x6</ref>
+        </refs>
+        <data>Poisonous sword[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x7</ref>
+        </refs>
+        <data>Holy-affinity sword[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0xa</ref>
+        </refs>
+        <data>Ultimate sword[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0xc</ref>
+        </refs>
+        <data>Fire-elemental axe[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0xe</ref>
+        </refs>
+        <data>Earth-elemental axe[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x12</ref>
+            <ref>0xf</ref>
+        </refs>
+        <data>Holy-affinity axe[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x11</ref>
+        </refs>
+        <data>Death-affinity axe[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x15</ref>
+        </refs>
+        <data>Sleep-affinity rapier[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x16</ref>
+        </refs>
+        <data>Poisonous rapier[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x18</ref>
+        </refs>
+        <data>Death-affinity rapier[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x19</ref>
+        </refs>
+        <data>100[0x25] hit-rate rapier[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x1a</ref>
+        </refs>
+        <data>HP Draining rapier[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x1b</ref>
+        </refs>
+        <data>Ultimate rapier[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x1d</ref>
+        </refs>
+        <data>Water-elemental spear[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x1e</ref>
+        </refs>
+        <data>Death-affinity spear[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x20</ref>
+        </refs>
+        <data>Fire-elemental spear[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x21</ref>
+        </refs>
+        <data>Thunder-elemental spear[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x22</ref>
+        </refs>
+        <data>Holy-affinity spear[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x23</ref>
+        </refs>
+        <data>Ultimate spear[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x25</ref>
+        </refs>
+        <data>Fire-elemental staff[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x26</ref>
+        </refs>
+        <data>Water-elemental staff[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x27</ref>
+        </refs>
+        <data>Thunder-elemental staff[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x28</ref>
+        </refs>
+        <data>Recovery staff[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x2e</ref>
+        </refs>
+        <data>Poisonous katana[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x30</ref>
+        </refs>
+        <data>Thunder-elemental katana[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x33</ref>
+        </refs>
+        <data>Water-elemental heavy armor[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x40</ref>
+            <ref>0x34</ref>
+        </refs>
+        <data>Thunder-elemental heavy armor[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x35</ref>
+            <ref>0x3f</ref>
+        </refs>
+        <data>Fire-elemental heavy armor[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x37</ref>
+        </refs>
+        <data>Anti-poison heavy armor[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x38</ref>
+        </refs>
+        <data>Anti-rabbit[0x2f]poison heavy armor[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x3b</ref>
+            <ref>0x3c</ref>
+        </refs>
+        <data>Anti-status change heavy armor[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x3d</ref>
+        </refs>
+        <data>Fire[0x2f]thunder-elemental heavy armor[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x42</ref>
+        </refs>
+        <data>Water-elemental light armor[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x43</ref>
+        </refs>
+        <data>Fire-elemental light armor[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x44</ref>
+        </refs>
+        <data>Thunder-elemental light armor[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x46</ref>
+        </refs>
+        <data>Anti-rabbit[0x2f]poison[0x2f]death light armor[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x47</ref>
+        </refs>
+        <data>Anti-rabbit[0x2f]sleep[0x2f]poison light armor[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x48</ref>
+        </refs>
+        <data>Anti-poison[0x2f]petrify[0x2f]death light armor[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x49</ref>
+        </refs>
+        <data>Anti-status change light armor[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x4b</ref>
+        </refs>
+        <data>Absorbs all elemental attacks[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x4d</ref>
+        </refs>
+        <data>Earth-elemental robe[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x4e</ref>
+        </refs>
+        <data>Fire-elemental robe[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x50</ref>
+        </refs>
+        <data>Water-elemental robe[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x51</ref>
+        </refs>
+        <data>Thunder-elemental robe[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x52</ref>
+        </refs>
+        <data>Anti-poison[0x2f]sleep[0x2f]petrify robe[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x53</ref>
+        </refs>
+        <data>Anti-poison[0x2f]sleep[0x2f]petrify[0x2f]death robe[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x54</ref>
+        </refs>
+        <data>Anti-rabbit[0x2f]sleep[0x2f]petrify robe[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x55</ref>
+        </refs>
+        <data>Restores 100 HP - Single ally[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x56</ref>
+        </refs>
+        <data>Restores 1000 HP - Single ally[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x57</ref>
+        </refs>
+        <data>Restores 1000 HP - All allies[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x58</ref>
+        </refs>
+        <data>Restores 50 MP - Single ally[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x59</ref>
+        </refs>
+        <data>Restores 500 MP - Single ally[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x5a</ref>
+        </refs>
+        <data>Restores all HP and MP - Single ally[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x5b</ref>
+        </refs>
+        <data>Revive - Single ally[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x5c</ref>
+        </refs>
+        <data>Revive - All allies[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x5d</ref>
+        </refs>
+        <data>Cure status ailments - Single ally[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x5e</ref>
+        </refs>
+        <data>Cure status ailments - All allies[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x74</ref>
+            <ref>0x6f</ref>
+            <ref>0x78</ref>
+            <ref>0x5f</ref>
+        </refs>
+        <data>Fire magic - All enemies[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x60</ref>
+        </refs>
+        <data>Water magic - All enemies[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x61</ref>
+        </refs>
+        <data>Thunder magic - All enemies[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x79</ref>
+            <ref>0x62</ref>
+            <ref>0x7b</ref>
+            <ref>0x7a</ref>
+        </refs>
+        <data>Poison magic - All enemies[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x63</ref>
+        </refs>
+        <data>Heal magic - All allies[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x64</ref>
+        </refs>
+        <data>Earth magic - All enemies[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x65</ref>
+        </refs>
+        <data>Holy magic - All enemies[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x7c</ref>
+            <ref>0x66</ref>
+            <ref>0x77</ref>
+        </refs>
+        <data>Dark magic - All enemies[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x7f</ref>
+            <ref>0x7e</ref>
+            <ref>0x67</ref>
+        </refs>
+        <data>???[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x68</ref>
+            <ref>0x69</ref>
+        </refs>
+        <data>Sleep magic - Single enemy[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x6a</ref>
+            <ref>0x6b</ref>
+            <ref>0x6c</ref>
+            <ref>0x6d</ref>
+        </refs>
+        <data>Sleep magic - All enemies[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x70</ref>
+            <ref>0x72</ref>
+            <ref>0x73</ref>
+            <ref>0x6e</ref>
+        </refs>
+        <data>Heal effect - Single ally[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x71</ref>
+        </refs>
+        <data>Cure status - Single ally[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x75</ref>
+        </refs>
+        <data>Damage - Single enemy[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x76</ref>
+        </refs>
+        <data>Death magic - Single enemy[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x7d</ref>
+        </refs>
+        <data>Revive magic - All allies[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x80</ref>
+            <ref>0x81</ref>
+            <ref>0x82</ref>
+            <ref>0x83</ref>
+            <ref>0x84</ref>
+            <ref>0x85</ref>
+            <ref>0x86</ref>
+            <ref>0x87</ref>
+            <ref>0x88</ref>
+            <ref>0x89</ref>
+            <ref>0x8a</ref>
+            <ref>0x8b</ref>
+            <ref>0x8c</ref>
+            <ref>0x8d</ref>
+            <ref>0x8e</ref>
+            <ref>0x8f</ref>
+            <ref>0x90</ref>
+            <ref>0x91</ref>
+            <ref>0x92</ref>
+            <ref>0x93</ref>
+            <ref>0x94</ref>
+            <ref>0x95</ref>
+            <ref>0x96</ref>
+            <ref>0xfc</ref>
+            <ref>0xfd</ref>
+            <ref>0xfe</ref>
+            <ref>0xff</ref>
+            <ref>0x100</ref>
+            <ref>0x101</ref>
+            <ref>0x102</ref>
+            <ref>0x103</ref>
+            <ref>0x104</ref>
+            <ref>0x105</ref>
+            <ref>0x10a</ref>
+            <ref>0x127</ref>
+            <ref>0x128</ref>
+            <ref>0x129</ref>
+            <ref>0x12a</ref>
+            <ref>0x12b</ref>
+            <ref>0x12c</ref>
+            <ref>0x12d</ref>
+            <ref>0x12e</ref>
+            <ref>0x12f</ref>
+            <ref>0x130</ref>
+            <ref>0x131</ref>
+            <ref>0x132</ref>
+            <ref>0x133</ref>
+            <ref>0x134</ref>
+            <ref>0x135</ref>
+            <ref>0x136</ref>
+            <ref>0x137</ref>
+            <ref>0x138</ref>
+            <ref>0x139</ref>
+            <ref>0x13a</ref>
+            <ref>0x13b</ref>
+            <ref>0x13c</ref>
+            <ref>0x13d</ref>
+            <ref>0x13e</ref>
+            <ref>0x13f</ref>
+            <ref>0x140</ref>
+            <ref>0x141</ref>
+            <ref>0x142</ref>
+            <ref>0x143</ref>
+            <ref>0x144</ref>
+            <ref>0x145</ref>
+            <ref>0x146</ref>
+            <ref>0x147</ref>
+            <ref>0x148</ref>
+            <ref>0x149</ref>
+            <ref>0x14a</ref>
+            <ref>0x14b</ref>
+            <ref>0x14c</ref>
+            <ref>0x14d</ref>
+            <ref>0x14e</ref>
+            <ref>0x14f</ref>
+            <ref>0x150</ref>
+            <ref>0x151</ref>
+            <ref>0x152</ref>
+            <ref>0x153</ref>
+            <ref>0x154</ref>
+            <ref>0x155</ref>
+            <ref>0x156</ref>
+            <ref>0x157</ref>
+            <ref>0x158</ref>
+            <ref>0x159</ref>
+            <ref>0x15a</ref>
+            <ref>0x15b</ref>
+            <ref>0x15c</ref>
+            <ref>0x15d</ref>
+            <ref>0x15e</ref>
+            <ref>0x15f</ref>
+        </refs>
+        <data>[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0xa1</ref>
+            <ref>0x97</ref>
+        </refs>
+        <data>Fire attack - Single enemy[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x98</ref>
+            <ref>0xa2</ref>
+        </refs>
+        <data>Water attack - Single enemy[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x99</ref>
+            <ref>0xa3</ref>
+            <ref>0xb5</ref>
+        </refs>
+        <data>Thunder attack - Single enemy[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x9a</ref>
+            <ref>0xa4</ref>
+        </refs>
+        <data>Poison attack - Single enemy[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x9b</ref>
+            <ref>0xa5</ref>
+        </refs>
+        <data>HP Drain attack - Single enemy[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x9c</ref>
+            <ref>0xa6</ref>
+        </refs>
+        <data>Earth attack - Single enemy[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x9d</ref>
+            <ref>0xa7</ref>
+        </refs>
+        <data>Holy attack - Single enemy[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0xa8</ref>
+            <ref>0x9e</ref>
+        </refs>
+        <data>Dark attack - Single enemy[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0xa0</ref>
+            <ref>0xa9</ref>
+            <ref>0xaa</ref>
+            <ref>0x113</ref>
+            <ref>0x114</ref>
+            <ref>0x115</ref>
+            <ref>0xb6</ref>
+            <ref>0xb7</ref>
+            <ref>0x116</ref>
+            <ref>0x117</ref>
+            <ref>0x9f</ref>
+        </refs>
+        <data>Neutral attack - Single enemy[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0xb8</ref>
+            <ref>0xc2</ref>
+            <ref>0xab</ref>
+        </refs>
+        <data>Fire attack - All enemies[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0xb9</ref>
+            <ref>0xc3</ref>
+            <ref>0xac</ref>
+        </refs>
+        <data>Water attack - All enemies[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0xba</ref>
+            <ref>0xc4</ref>
+            <ref>0xad</ref>
+        </refs>
+        <data>Thunder attack - All enemies[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0xbb</ref>
+            <ref>0xc5</ref>
+            <ref>0xae</ref>
+        </refs>
+        <data>Poison attack - All enemies[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0xbc</ref>
+            <ref>0xc6</ref>
+            <ref>0xaf</ref>
+        </refs>
+        <data>HP Drain attack - All enemies[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0xb0</ref>
+            <ref>0xbd</ref>
+            <ref>0xc7</ref>
+        </refs>
+        <data>Earth attack - All enemies[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0xc8</ref>
+            <ref>0xb1</ref>
+            <ref>0xbe</ref>
+        </refs>
+        <data>Holy attack - All enemies[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0xc9</ref>
+            <ref>0xb2</ref>
+            <ref>0x11d</ref>
+            <ref>0xbf</ref>
+        </refs>
+        <data>Dark attack - All enemies[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0xc0</ref>
+            <ref>0xc1</ref>
+            <ref>0x126</ref>
+            <ref>0xca</ref>
+            <ref>0xcb</ref>
+            <ref>0xb3</ref>
+            <ref>0xb4</ref>
+        </refs>
+        <data>Neutral attack - All enemies[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x10b</ref>
+            <ref>0xcc</ref>
+            <ref>0xf6</ref>
+            <ref>0xef</ref>
+        </refs>
+        <data>Fire magic - All enemies[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0xf2</ref>
+            <ref>0xeb</ref>
+            <ref>0x10c</ref>
+            <ref>0xcd</ref>
+        </refs>
+        <data>Water magic - All enemies[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x10d</ref>
+            <ref>0xce</ref>
+        </refs>
+        <data>Thunder magic - All enemies[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0xd9</ref>
+            <ref>0xcf</ref>
+        </refs>
+        <data>Death magic - Single enemy[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0xd0</ref>
+        </refs>
+        <data>Sleep magic - All enemies[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0xe4</ref>
+            <ref>0xed</ref>
+            <ref>0x110</ref>
+            <ref>0xd1</ref>
+            <ref>0xf4</ref>
+            <ref>0xdb</ref>
+        </refs>
+        <data>Earth magic - All enemies[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0xd2</ref>
+            <ref>0xde</ref>
+            <ref>0x10f</ref>
+        </refs>
+        <data>Heal magic - All allies[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0xd3</ref>
+        </refs>
+        <data>Death magic - All enemies[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0xe7</ref>
+            <ref>0xe9</ref>
+            <ref>0xea</ref>
+            <ref>0xec</ref>
+            <ref>0xee</ref>
+            <ref>0xf0</ref>
+            <ref>0xf1</ref>
+            <ref>0x111</ref>
+            <ref>0xf3</ref>
+            <ref>0xd4</ref>
+            <ref>0xd5</ref>
+            <ref>0xf5</ref>
+            <ref>0xf7</ref>
+            <ref>0xf8</ref>
+        </refs>
+        <data>Neutral magic - All enemies[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0xd6</ref>
+        </refs>
+        <data>Heal magic - Single[0x2f]all allies[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0xd7</ref>
+        </refs>
+        <data>Cure status - Single ally[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0xd8</ref>
+        </refs>
+        <data>Sleep magic - Single enemy[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0xda</ref>
+        </refs>
+        <data>Revive magic - Single ally[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x120</ref>
+            <ref>0x122</ref>
+            <ref>0xe5</ref>
+            <ref>0xdc</ref>
+            <ref>0x118</ref>
+            <ref>0x11a</ref>
+            <ref>0x11c</ref>
+            <ref>0x11e</ref>
+        </refs>
+        <data>Holy magic - All enemies[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0xdd</ref>
+        </refs>
+        <data>Dark magic - Single enemy[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0xdf</ref>
+        </refs>
+        <data>Fire magic - Single[0x2f]all enemies[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0xe0</ref>
+        </refs>
+        <data>Water magic - Single[0x2f]all enemies[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0xe1</ref>
+        </refs>
+        <data>Thunder magic - Single[0x2f]all enemies[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0xe2</ref>
+            <ref>0x10e</ref>
+        </refs>
+        <data>Poison magic - All enemies[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0xe3</ref>
+        </refs>
+        <data>HP Drain magic - Single enemy[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x121</ref>
+            <ref>0x123</ref>
+            <ref>0x125</ref>
+            <ref>0xe6</ref>
+            <ref>0x119</ref>
+            <ref>0x11b</ref>
+            <ref>0x11f</ref>
+        </refs>
+        <data>Dark magic - All enemies[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0xe8</ref>
+        </refs>
+        <data>Strengthen magic - Single ally[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0xf9</ref>
+            <ref>0xfa</ref>
+            <ref>0xfb</ref>
+        </refs>
+        <data>Something'll happen![end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x108</ref>
+            <ref>0x109</ref>
+            <ref>0x106</ref>
+            <ref>0x107</ref>
+        </refs>
+        <data>Random critical hit - Single enemy[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x112</ref>
+        </refs>
+        <data>Transform into something[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x124</ref>
+        </refs>
+        <data>Holy magic - Single enemy[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x206</ref>
+            <ref>0x207</ref>
+            <ref>0x208</ref>
+            <ref>0x209</ref>
+            <ref>0x20a</ref>
+            <ref>0x20b</ref>
+            <ref>0x20c</ref>
+            <ref>0x20d</ref>
+            <ref>0x20e</ref>
+            <ref>0x20f</ref>
+            <ref>0x210</ref>
+            <ref>0x211</ref>
+            <ref>0x212</ref>
+            <ref>0x213</ref>
+            <ref>0x214</ref>
+            <ref>0x215</ref>
+            <ref>0x216</ref>
+            <ref>0x217</ref>
+            <ref>0x218</ref>
+            <ref>0x219</ref>
+            <ref>0x21a</ref>
+            <ref>0x21b</ref>
+            <ref>0x21c</ref>
+            <ref>0x21d</ref>
+            <ref>0x21e</ref>
+            <ref>0x21f</ref>
+            <ref>0x220</ref>
+            <ref>0x221</ref>
+            <ref>0x222</ref>
+            <ref>0x223</ref>
+            <ref>0x224</ref>
+            <ref>0x225</ref>
+            <ref>0x226</ref>
+            <ref>0x227</ref>
+            <ref>0x228</ref>
+            <ref>0x229</ref>
+            <ref>0x22a</ref>
+            <ref>0x22b</ref>
+            <ref>0x22c</ref>
+            <ref>0x22d</ref>
+            <ref>0x22e</ref>
+            <ref>0x22f</ref>
+            <ref>0x230</ref>
+            <ref>0x231</ref>
+            <ref>0x232</ref>
+            <ref>0x233</ref>
+            <ref>0x234</ref>
+            <ref>0x235</ref>
+            <ref>0x236</ref>
+            <ref>0x237</ref>
+            <ref>0x238</ref>
+            <ref>0x239</ref>
+            <ref>0x23a</ref>
+            <ref>0x23b</ref>
+            <ref>0x23c</ref>
+            <ref>0x23d</ref>
+            <ref>0x23e</ref>
+            <ref>0x23f</ref>
+            <ref>0x160</ref>
+            <ref>0x161</ref>
+            <ref>0x162</ref>
+            <ref>0x163</ref>
+            <ref>0x164</ref>
+            <ref>0x165</ref>
+            <ref>0x166</ref>
+            <ref>0x167</ref>
+            <ref>0x168</ref>
+            <ref>0x169</ref>
+            <ref>0x16a</ref>
+            <ref>0x16b</ref>
+            <ref>0x16c</ref>
+            <ref>0x16d</ref>
+            <ref>0x16e</ref>
+            <ref>0x16f</ref>
+            <ref>0x170</ref>
+            <ref>0x171</ref>
+            <ref>0x172</ref>
+            <ref>0x173</ref>
+            <ref>0x174</ref>
+            <ref>0x175</ref>
+            <ref>0x176</ref>
+            <ref>0x177</ref>
+            <ref>0x178</ref>
+            <ref>0x179</ref>
+            <ref>0x17a</ref>
+            <ref>0x17b</ref>
+            <ref>0x17c</ref>
+            <ref>0x17d</ref>
+            <ref>0x17e</ref>
+            <ref>0x17f</ref>
+            <ref>0x180</ref>
+            <ref>0x181</ref>
+            <ref>0x182</ref>
+            <ref>0x183</ref>
+            <ref>0x184</ref>
+            <ref>0x185</ref>
+            <ref>0x186</ref>
+            <ref>0x187</ref>
+            <ref>0x188</ref>
+            <ref>0x189</ref>
+            <ref>0x18a</ref>
+            <ref>0x18b</ref>
+            <ref>0x18c</ref>
+            <ref>0x18d</ref>
+            <ref>0x18e</ref>
+            <ref>0x18f</ref>
+            <ref>0x190</ref>
+            <ref>0x191</ref>
+            <ref>0x192</ref>
+            <ref>0x193</ref>
+            <ref>0x194</ref>
+            <ref>0x1dc</ref>
+            <ref>0x1dd</ref>
+            <ref>0x1de</ref>
+            <ref>0x1df</ref>
+            <ref>0x1e0</ref>
+            <ref>0x1e1</ref>
+            <ref>0x1e2</ref>
+            <ref>0x1e3</ref>
+            <ref>0x1e4</ref>
+            <ref>0x1e5</ref>
+            <ref>0x1ea</ref>
+            <ref>0x1f2</ref>
+            <ref>0x1f3</ref>
+            <ref>0x1f4</ref>
+            <ref>0x1f5</ref>
+            <ref>0x1f6</ref>
+            <ref>0x1f7</ref>
+            <ref>0x1fd</ref>
+        </refs>
+        <data>[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x195</ref>
+        </refs>
+        <data>Thunder attack : ✚1, ⏱2[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x196</ref>
+            <ref>0x197</ref>
+        </refs>
+        <data>Neutral attack : ✚1, ⏱2[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x198</ref>
+        </refs>
+        <data>Fire attack : ✚2, ⏱1[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x199</ref>
+        </refs>
+        <data>Water attack : ✚2, ⏱1[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x19a</ref>
+        </refs>
+        <data>Thunder attack : ✚2, ⏱1[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x19b</ref>
+        </refs>
+        <data>Poison attack : ✚2, ⏱1[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x19c</ref>
+        </refs>
+        <data>HP Drain attack : ✚2, ⏱1[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x19d</ref>
+        </refs>
+        <data>Earth attack : ✚2, ⏱1[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x19e</ref>
+        </refs>
+        <data>Holy attack : ✚2, ⏱1[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x19f</ref>
+        </refs>
+        <data>Dark attack : ✚2, ⏱1[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x1a0</ref>
+            <ref>0x1a1</ref>
+        </refs>
+        <data>Neutral attack : ✚2, ⏱1[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x1a2</ref>
+        </refs>
+        <data>Fire attack : ✚5, ⏱2[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x1a3</ref>
+        </refs>
+        <data>Water attack : ✚5, ⏱2[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x1a4</ref>
+        </refs>
+        <data>Thunder attack : ✚5, ⏱2[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x1a5</ref>
+        </refs>
+        <data>Poison attack : ✚5, ⏱2[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x1a6</ref>
+        </refs>
+        <data>HP Drain attack : ✚5, ⏱1[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x1a7</ref>
+        </refs>
+        <data>Earth attack : ✚5, ⏱2[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x1a8</ref>
+        </refs>
+        <data>Holy attack : ✚5, ⏱2[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x1a9</ref>
+        </refs>
+        <data>Dark attack : ✚5, ⏱2[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x1aa</ref>
+            <ref>0x1ab</ref>
+        </refs>
+        <data>Neutral attack : ✚5, ⏱2[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x1ac</ref>
+        </refs>
+        <data>Fire magic : ✚0, ⏱3[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x1ad</ref>
+        </refs>
+        <data>Water magic : ✚0, ⏱3[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x1ae</ref>
+        </refs>
+        <data>Thunder magic : ✚0, ⏱3[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x1af</ref>
+        </refs>
+        <data>Death magic : ✚0, ⏱3[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x1b0</ref>
+        </refs>
+        <data>Sleep magic : ✚0, ⏱5[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x1b1</ref>
+        </refs>
+        <data>Earth magic : ✚1, ⏱2[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x1b2</ref>
+        </refs>
+        <data>Heal magic : ✚0, ⏱3[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x1b3</ref>
+        </refs>
+        <data>Death magic : ✚0, ⏱4[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x1b4</ref>
+            <ref>0x1b5</ref>
+        </refs>
+        <data>Neutral magic : ✚0, ⏱2[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x1be</ref>
+            <ref>0x1b6</ref>
+            <ref>0x1ef</ref>
+        </refs>
+        <data>Heal magic : ✚5, ⏱2[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x1b7</ref>
+        </refs>
+        <data>Status Restore : ✚5, ⏱2[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x1b8</ref>
+        </refs>
+        <data>Sleep magic : ✚5, ⏱1[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x1b9</ref>
+        </refs>
+        <data>Death magic : ✚5, ⏱1[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x1ba</ref>
+        </refs>
+        <data>Revive magic : ✚5, ⏱1[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x1c4</ref>
+            <ref>0x1cd</ref>
+            <ref>0x1f0</ref>
+            <ref>0x1d4</ref>
+            <ref>0x1bb</ref>
+        </refs>
+        <data>Earth magic : ✚5, ⏱2[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x200</ref>
+            <ref>0x202</ref>
+            <ref>0x1bc</ref>
+            <ref>0x204</ref>
+            <ref>0x1c5</ref>
+            <ref>0x1f8</ref>
+            <ref>0x1fa</ref>
+            <ref>0x1fc</ref>
+            <ref>0x1fe</ref>
+        </refs>
+        <data>Holy magic : ✚5, ⏱3[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x201</ref>
+            <ref>0x203</ref>
+            <ref>0x205</ref>
+            <ref>0x1c6</ref>
+            <ref>0x1f9</ref>
+            <ref>0x1fb</ref>
+            <ref>0x1bd</ref>
+            <ref>0x1ff</ref>
+        </refs>
+        <data>Dark magic : ✚5, ⏱3[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x1eb</ref>
+            <ref>0x1bf</ref>
+        </refs>
+        <data>Fire magic : ✚5, ⏱2[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x1c0</ref>
+            <ref>0x1ec</ref>
+        </refs>
+        <data>Water magic : ✚5, ⏱2[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x1c1</ref>
+            <ref>0x1ed</ref>
+        </refs>
+        <data>Thunder magic : ✚5, ⏱2[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x1c2</ref>
+            <ref>0x1ee</ref>
+        </refs>
+        <data>Poison magic : ✚5, ⏱2[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x1c3</ref>
+        </refs>
+        <data>HP Drain magic : ✚5, ⏱1[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x1d8</ref>
+            <ref>0x1c9</ref>
+            <ref>0x1f1</ref>
+            <ref>0x1c7</ref>
+        </refs>
+        <data>Neutral magic : ✚5, ⏱2[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x1c8</ref>
+        </refs>
+        <data>Strengthen magic : ✚5, ⏱2[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x1d1</ref>
+            <ref>0x1ca</ref>
+            <ref>0x1d5</ref>
+            <ref>0x1ce</ref>
+        </refs>
+        <data>Neutral magic : ✚5, ⏱3[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x1d2</ref>
+            <ref>0x1cb</ref>
+        </refs>
+        <data>Water magic : ✚5, ⏱3[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x1d3</ref>
+            <ref>0x1cc</ref>
+        </refs>
+        <data>Neutral magic : ✚5, ⏱5[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x1d6</ref>
+            <ref>0x1cf</ref>
+        </refs>
+        <data>Fire magic : ✚5, ⏱5[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x1d0</ref>
+            <ref>0x1d7</ref>
+        </refs>
+        <data>Neutral magic : ✚5, ⏱6[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x1d9</ref>
+            <ref>0x1da</ref>
+            <ref>0x1db</ref>
+        </refs>
+        <data>Random magic : ✚0, ⏱4[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x1e8</ref>
+            <ref>0x1e9</ref>
+            <ref>0x1e6</ref>
+            <ref>0x1e7</ref>
+        </refs>
+        <data>Neutral magic : ✚5, ⏱1[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x240</ref>
+        </refs>
+        <data>The Fall of               Kahna Castle[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x241</ref>
+        </refs>
+        <data>The Beginning[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x242</ref>
+        </refs>
+        <data>The Legend we            Dreamed of...[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x243</ref>
+        </refs>
+        <data>The Green Continent of   Campbell[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x244</ref>
+        </refs>
+        <data>Full of Regret[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x245</ref>
+        </refs>
+        <data>Emperor Sauzer[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x246</ref>
+        </refs>
+        <data>It's Not a Dream, is it...[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x247</ref>
+        </refs>
+        <data>The Legend of the        Holy Dragons[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x248</ref>
+        </refs>
+        <data>Mid-Air Dragon Battle[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x249</ref>
+        </refs>
+        <data>Mahal, the Continent of   Miracles[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x24a</ref>
+        </refs>
+        <data>Rainbow Bridge[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x24b</ref>
+        </refs>
+        <data>Leviathan[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x24c</ref>
+        </refs>
+        <data>The Spy Operation[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x24d</ref>
+        </refs>
+        <data>The Magic City of         Godland[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x24e</ref>
+        </refs>
+        <data>When the Bird-Dragon    Awakens...[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x24f</ref>
+        </refs>
+        <data>Showdown in the          Burning Sands[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x250</ref>
+        </refs>
+        <data>The Holy Dragon          Jormungand[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x251</ref>
+        </refs>
+        <data>A Door to a New Era[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x252</ref>
+        </refs>
+        <data>The Promised Land[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x253</ref>
+        </refs>
+        <data>Farewell, Matelite![end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x254</ref>
+        </refs>
+        <data>The Sky of Sadness[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x255</ref>
+        </refs>
+        <data>The Holy Dragon          Bahamut[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x256</ref>
+        </refs>
+        <data>The Final Battle[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x257</ref>
+        </refs>
+        <data>Destruction[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x258</ref>
+        </refs>
+        <data>To the Homeland...[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x259</ref>
+        </refs>
+        <data>Eternal Travelers[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x25a</ref>
+        </refs>
+        <data>Alexander, King of the    Holy Dragons[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x25b</ref>
+        </refs>
+        <data>We, Who Cannot See into  Tomorrow[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x25c</ref>
+        </refs>
+        <data>Granbelos Fortress[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x25d</ref>
+        </refs>
+        <data>Easy Dungeon[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x25e</ref>
+        </refs>
+        <data>Hard Dungeon[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x25f</ref>
+        </refs>
+        <data>Situation Critical[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x260</ref>
+            <ref>0x261</ref>
+            <ref>0x262</ref>
+            <ref>0x263</ref>
+            <ref>0x264</ref>
+            <ref>0x265</ref>
+            <ref>0x266</ref>
+            <ref>0x267</ref>
+        </refs>
+        <data>[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x268</ref>
+        </refs>
+        <data>What will you buy?[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x269</ref>
+        </refs>
+        <data>How many will you buy?[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x26a</ref>
+        </refs>
+        <data>You don't have enough money.[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x26b</ref>
+        </refs>
+        <data>You can't carry any more.[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x26c</ref>
+        </refs>
+        <data>Thank you very much.[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x26d</ref>
+        </refs>
+        <data>   Please choose a saved game.[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x26e</ref>
+        </refs>
+        <data>      Save the current state?[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x26f</ref>
+        </refs>
+        <data>       Choose a slot to save.[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x270</ref>
+        </refs>
+        <data>Do you wish to overwrite this save?[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x271</ref>
+        </refs>
+        <data>              No data.[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x272</ref>
+        </refs>
+        <data>[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x273</ref>
+        </refs>
+        <data>What will you sell?[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x274</ref>
+        </refs>
+        <data>How many will you sell?[end]</data>
+    </string>
+    <string>
+        <refs>
+            <ref>0x275</ref>
+        </refs>
+        <data>                         [end]</data>
+    </string>
+</messages>

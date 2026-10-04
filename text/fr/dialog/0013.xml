@@ -12,73 +12,73 @@ Allons à Mahal.[end]</data>
             <ref>0x90</ref>
         </refs>
         <data>COMMANDANT:
-Atterrissons très vite à Mahal![end]</data>
+Atterrissons très vite à Mahal ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb1</ref>
         </refs>
         <data>SENDACK:
-Une minute Commandant!
+Une minute Commandant !
  
 Tu n'attends pas que nous soyons
-prêts?[end]</data>
+prêts ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc7</ref>
         </refs>
         <data>MATELIGHT:
-Oublie un peu Commandant!
-Mahal a été conquise par l'Empire!
+Oublie un peu Commandant !
+Mahal a été conquise par l'Empire !
 Il est le guerrier No [0xb0] de Mahal,
 il faut le comprendre.
-Moi je suis le No [0xb0] de Kana!
-Nous avons notre honneur à défendre!
-Et nous avons le même but![end]</data>
+Moi je suis le No [0xb0] de Kana !
+Nous avons notre honneur à défendre !
+Et nous avons le même but ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd3</ref>
         </refs>
         <data>SENDACK:
-Vite!
+Vite !
  
 L'Empire risque de fortement
 contre-attaquer Mahal.
  
 [character][0x0]?
-N'est-ce pas terrible?[end]</data>
+N'est-ce pas terrible ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xdc</ref>
         </refs>
         <data>MATELIGHT:
-Qu'est-ce que tu racontes Sendack![end]</data>
+Qu'est-ce que tu racontes Sendack ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xed</ref>
         </refs>
         <data>Notre Escadron sera des plus brillants
-sur le champ de bataille!
-Ce sont de vrais chevaliers![end]</data>
+sur le champ de bataille !
+Ce sont de vrais chevaliers ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfb</ref>
         </refs>
-        <data>Allez!
-Montez sur vos dragons![end]</data>
+        <data>Allez !
+Montez sur vos dragons ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x10d</ref>
         </refs>
         <data>SENDACK:
-[character][0x0],je ne suis pas content!
-Et toi?[end]</data>
+[character][0x0],je ne suis pas content !
+Et toi ?[end]</data>
     </text>
     <text>
         <refs>
@@ -89,7 +89,7 @@ Capitaine [character][0x0]!
  
 J'ai imaginé une tactique pour
 reprendre Mahal.
-Aimeriez-vous l'entendre?[end]</data>
+Aimeriez-vous l'entendre ?[end]</data>
     </text>
     <text>
         <refs>
@@ -102,7 +102,7 @@ Aimeriez-vous l'entendre?[end]</data>
         <refs>
             <ref>0x251</ref>
         </refs>
-        <data>C'est... c'est vrai?
+        <data>C'est... c'est vrai ?
 Je n'ai pas dormi de la nuit pour
 pouvoir la préparer.[end]</data>
     </text>
@@ -119,16 +119,16 @@ carte de Mahal.[end]</data>
         </refs>
         <data>TAURUS:
 Je crois que c'est une tactique
-formidable!
-Elle nous permettra de gagner![end]</data>
+formidable !
+Elle nous permettra de gagner ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3be</ref>
         </refs>
         <data>Nous y sommes enfin...
-Nous pouvons voir le lagon!
-Qu'aimerais-tu acheter?[end]</data>
+Nous pouvons voir le lagon !
+Qu'aimerais-tu acheter ?[end]</data>
     </text>
     <text>
         <refs>
@@ -152,7 +152,7 @@ Qu'aimerais-tu acheter?[end]</data>
         </refs>
         <data>Tout le monde est déjà monté sur son
 dragon.
-Que vas-tu acheter?[end]</data>
+Que vas-tu acheter ?[end]</data>
     </text>
     <text>
         <refs>
@@ -160,13 +160,13 @@ Que vas-tu acheter?[end]</data>
         </refs>
         <data>SENDACK:
 Très bien [character][0x0]!
-Es-tu prêt à aller te battre?[end]</data>
+Es-tu prêt à aller te battre ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x292</ref>
         </refs>
         <data> Se préparer.
- Aller combattre![end1]</data>
+ Aller combattre ![end1]</data>
     </text>
 </texts>

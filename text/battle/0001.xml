@@ -17,7 +17,7 @@ still around!![end1][end]</data>
         <refs>
             <ref>0x30</ref>
         </refs>
-        <data>We're gonna kick the crap out of them[0xfc][0x18]
+        <data>We're gonna kick the crap out of them
 and take back Kahna's flagship!![end1][end]</data>
     </text>
     <text>
@@ -31,7 +31,7 @@ The Resistance is attacking?![end]</data>
         <refs>
             <ref>0x40</ref>
         </refs>
-        <data>Yo, I'm the boss here!![0xfc][0x18]
+        <data>Yo, I'm the boss here!!
 I won the position in the
 javelin-throwing competition!![end]</data>
     </text>
@@ -39,7 +39,7 @@ javelin-throwing competition!![end]</data>
         <refs>
             <ref>0x4b</ref>
         </refs>
-        <data>“Condition for Victory:”[0xfc][0x28]
+        <data>“Condition for Victory:”
 “Defeat of the boss”[end]</data>
     </text>
     <text>

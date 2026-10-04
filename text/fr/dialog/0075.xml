@@ -5,23 +5,23 @@
             <ref>0x79</ref>
         </refs>
         <data>SAUZER:
-Regarde Palpaleos!
-Ca ne fait aucun doute!
+Regarde Palpaleos !
+Ca ne fait aucun doute !
 C'est le pouvoir des Dragons Sacrés
 et la Princesse leur parle.
  
 C'est le pouvoir dont parle la
 Légende.
 Le pouvoir que je désire...
-C'est de cette fille que tout dépendra![end]</data>
+C'est de cette fille que tout dépendra ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xac</ref>
         </refs>
         <data>PALPALEOS:
-Sauzer!
-Allez-vous bien?![end]</data>
+Sauzer !
+Allez-vous bien ?![end]</data>
     </text>
     <text>
         <refs>
@@ -43,7 +43,7 @@ Princesse...[end]</data>
         </refs>
         <data>LUKIA:
 [character][0x0]!
-Tiens bon![end]</data>
+Tiens bon ![end]</data>
     </text>
     <text>
         <refs>
@@ -51,14 +51,14 @@ Tiens bon![end]</data>
             <ref>0x245</ref>
         </refs>
         <data>LUKIA:
-Réveillez-vous!
+Réveillez-vous !
  
 [character][0x0]!
 Et [character][0x1]!
  
-Va la rejoindre,vite!
+Va la rejoindre,vite !
 Le Général Palpaleos veut la
-reprendre![end]</data>
+reprendre ![end]</data>
     </text>
     <text>
         <refs>
@@ -81,15 +81,15 @@ Ainsi,tu es [character][0x0]![end]</data>
         <data>PALPALEOS:
 J'ai entendu parler de ton histoire
 avec la Princesse.
-Chef de l'Escadron Dragon de Kana!
-La Princesse... te revient![end]</data>
+Chef de l'Escadron Dragon de Kana !
+La Princesse... te revient ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x24c</ref>
         </refs>
         <data>LUKIA:
-Est-ce que [character][0x1] va bien?[end]</data>
+Est-ce que [character][0x1] va bien ?[end]</data>
     </text>
     <text>
         <refs>
@@ -103,15 +103,15 @@ je... je suis...[end]</data>
             <ref>0x42c</ref>
         </refs>
         <data>PALPALEOS:
-Nous nous reverrons![end][end]</data>
+Nous nous reverrons ![end][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x309</ref>
         </refs>
         <data>LUKIA:
-Que faire maintenant?
-Quelqu'un a une idée?![end][end]</data>
+Que faire maintenant ?
+Quelqu'un a une idée ?![end][end]</data>
     </text>
     <text>
         <refs>
@@ -121,7 +121,7 @@ Quelqu'un a une idée?![end][end]</data>
 Je vous retrouve enfin ma chère
 [character][0x1]!
 Quel acte cruel de la part de
-l'empire![end]</data>
+l'empire ![end]</data>
     </text>
     <text>
         <refs>
@@ -135,9 +135,9 @@ l'empire![end]</data>
             <ref>0x3a2</ref>
         </refs>
         <data>SENDACK:
-Matelight!
-La princesse doit se reposer!
-Il n'y a pas à s'inquiéter![end]</data>
+Matelight !
+La princesse doit se reposer !
+Il n'y a pas à s'inquiéter ![end]</data>
     </text>
     <text>
         <refs>
@@ -145,20 +145,20 @@ Il n'y a pas à s'inquiéter![end]</data>
         </refs>
         <data>MATELIGHT:
 Oooh,[character][0x1]...
-Vous êtes saine et sauve!
-Et vous nous avez rejoints!
+Vous êtes saine et sauve !
+Et vous nous avez rejoints !
  
   
 [character][0x0],je dois avouer que c'est toi
-qui l'a ramenée![end]</data>
+qui l'a ramenée ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4e4</ref>
         </refs>
         <data>[character][0x1]:
-Général!
-Général... Palpaleos![end]</data>
+Général !
+Général... Palpaleos ![end]</data>
     </text>
     <text>
         <refs>
@@ -175,7 +175,7 @@ Le rêve est fini...[end]</data>
 Princesse [character][0x1]...
  
 Vous non plus,
-vous n'arrivez pas à dormir?[end]</data>
+vous n'arrivez pas à dormir ?[end]</data>
     </text>
     <text>
         <refs>
@@ -183,7 +183,7 @@ vous n'arrivez pas à dormir?[end]</data>
         </refs>
         <data>[character][0x1]:
 Vous voulez que je vous conte aussi
-la légende des Dragons Sacrés?[end]</data>
+la légende des Dragons Sacrés ?[end]</data>
     </text>
     <text>
         <refs>
@@ -199,9 +199,9 @@ de votre sujet favori.[end]</data>
         </refs>
         <data>[character][0x1]:
 Vous ne voulez pas que je vous en
-parle?
+parle ?
 Mais de quoi voulez-vous discuter,
-Palpaleos?[end]</data>
+Palpaleos ?[end]</data>
     </text>
     <text>
         <refs>
@@ -209,17 +209,17 @@ Palpaleos?[end]</data>
         </refs>
         <data>PALPALEOS:
 De l'art de la stratégie et du
-triomphe![end]</data>
+triomphe ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x485</ref>
         </refs>
         <data>[character][0x1]:
-Vous voulez discuter de ce sujet?
+Vous voulez discuter de ce sujet ?
  
 Vous voulez me parler de l'art de la
-stratégie militaire?[end]</data>
+stratégie militaire ?[end]</data>
     </text>
     <text>
         <refs>
@@ -227,14 +227,14 @@ stratégie militaire?[end]</data>
         </refs>
         <data>PALPALEOS:
 Je suis désolé!
-Cela ne vous intéresse sûrement pas![end]</data>
+Cela ne vous intéresse sûrement pas ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4b3</ref>
         </refs>
         <data>[character][0x1]:
-Vous vous trompez,Palpaleos!
+Vous vous trompez,Palpaleos !
 J'aime parler de cela...
 Tout le monde devrait connaître les
 bases de cet art.[end]</data>
@@ -252,10 +252,10 @@ des Dragons Sacrés.[end]</data>
             <ref>0x55b</ref>
         </refs>
         <data>[character][0x1]:
-Que devrais-je comprendre?
+Que devrais-je comprendre ?
  
 Qu'y a-t-il à comprendre dans cette
-Légende?[end]</data>
+Légende ?[end]</data>
     </text>
     <text>
         <refs>
@@ -279,7 +279,7 @@ Je suis une fille ordinaire.[end]</data>
         </refs>
         <data>[character][0x1]:
 Qui est là?
-Qui êtes-vous?[end]</data>
+Qui êtes-vous ?[end]</data>
     </text>
     <text>
         <refs>
@@ -299,7 +299,7 @@ Valitra,le Dragon Sacré?[end]</data>
         <refs>
             <ref>0x574</ref>
         </refs>
-        <data>Quelle genre de fille es-tu?
+        <data>Quelle genre de fille es-tu ?
 Toi,la fille au coeur faible,tu peux
 parler aux Dragons Sacrés.[end]</data>
     </text>
@@ -323,8 +323,8 @@ Dragoon...[end]</data>
             <ref>0x599</ref>
         </refs>
         <data>[character][0x1]:
-Une Dragoon?
-Moi,devenir une Dragoon?[end]</data>
+Une Dragoon ?
+Moi,devenir une Dragoon ?[end]</data>
     </text>
     <text>
         <refs>
@@ -339,7 +339,7 @@ le monde sera entre tes mains.[end]</data>
             <ref>0x5b0</ref>
         </refs>
         <data>[character][0x1]:
-Quoi?!
+Quoi ?!
 Le monde sera... à moi...[end]</data>
     </text>
     <text>
@@ -347,6 +347,6 @@ Le monde sera... à moi...[end]</data>
             <ref>0x5d6</ref>
         </refs>
         <data>Je vous en prie,
-dites-moi si c'est un rêve![end]</data>
+dites-moi si c'est un rêve ![end]</data>
     </text>
 </texts>

@@ -12,7 +12,7 @@
             <ref>0xce</ref>
         </refs>
         <data>MATELIGHT:
-Commandant!
+Commandant !
  
 Nous ne savons rien du tout sur ce
 qui se passe au sein de l'Empire.[end]</data>
@@ -22,7 +22,7 @@ qui se passe au sein de l'Empire.[end]</data>
             <ref>0xda</ref>
         </refs>
         <data>COMMANDANT:
-Affirmatif!
+Affirmatif !
  
 Nous avons vraiment besoin
 d'informations.[end]</data>
@@ -32,7 +32,7 @@ d'informations.[end]</data>
             <ref>0xe8</ref>
         </refs>
         <data>MATELIGHT:
-Evidemment,Commandant!
+Evidemment,Commandant !
 Nous allons envoyer un espion infiltrer
 l'Empire.[end]</data>
     </text>
@@ -41,10 +41,10 @@ l'Empire.[end]</data>
             <ref>0xfd</ref>
         </refs>
         <data>Attends...
-Laisse-moi réfléchir!
+Laisse-moi réfléchir !
  
 Il nous faudrait quelqu'un d'intelligent
-et de discret!
+et de discret !
 Nous devrions avoir le choix.[end]</data>
     </text>
     <text>
@@ -60,39 +60,39 @@ J'ai trouvé![end]</data>
         </refs>
         <data>DON JUAN:
 Moi,Don Juan,le Na[0x25]f et Fidèle
-Serviteur!
+Serviteur !
 Je pourrais approcher de très
-nombreuses femmes![end]</data>
+nombreuses femmes ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1a4</ref>
         </refs>
-        <data>J'ai aussi trouvé ce marin!
+        <data>J'ai aussi trouvé ce marin !
 Je sais,j'ai peur qu'il ne réussisse
-pas cette mission![end]</data>
+pas cette mission ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1cb</ref>
         </refs>
         <data>SENDACK:
-Et... moi?[end]</data>
+Et... moi ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1e8</ref>
         </refs>
         <data>MATELIGHT:
-[character][0x0],c'est une dangereuse mission!
-Alors... fais le bon choix![end]</data>
+[character][0x0],c'est une dangereuse mission !
+Alors... fais le bon choix ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1f6</ref>
         </refs>
-        <data>Voici les candidats pour l'espionnage!
-Si tu es prêt,choisis l'heureux élu![end]</data>
+        <data>Voici les candidats pour l'espionnage !
+Si tu es prêt,choisis l'heureux élu ![end]</data>
     </text>
     <text>
         <refs>
@@ -118,8 +118,8 @@ Si tu es prêt,choisis l'heureux élu![end]</data>
 D'accord...
  
 La na[0x25]veté de Don Juan lui permettra
-d'approcher [0xb0][0xaf][0xaf] femmes de l'Empire!
-C'est parti![end]</data>
+d'approcher [0xb0][0xaf][0xaf] femmes de l'Empire !
+C'est parti ![end]</data>
     </text>
     <text>
         <refs>
@@ -133,18 +133,18 @@ C'est parti![end]</data>
         </refs>
         <data>SENDACK:
 [character][0x0]...
-Tu m'as choisi?!
+Tu m'as choisi ?!
 Je dois prendre ce choix pour un
-compliment ou pas?
-Je n'arrive pas à y croire!
-Très bien,je comprends![end]</data>
+compliment ou pas ?
+Je n'arrive pas à y croire !
+Très bien,je comprends ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x299</ref>
         </refs>
         <data>MATELIGHT:
-Moi![end]</data>
+Moi ![end]</data>
     </text>
     <text>
         <refs>
@@ -158,11 +158,11 @@ Gahahahahahahahaha[0xd8][end]</data>
             <ref>0x2c8</ref>
         </refs>
         <data>Mais,mon pauvre garçon,tu es devenu
-fou?!
+fou ?!
  
 Je suis une célébrité,je suis donc trop
 reconnaissable.
-Commandant sera l'espion![end]</data>
+Commandant sera l'espion ![end]</data>
     </text>
     <text>
         <refs>
@@ -201,7 +201,7 @@ Commandant sera l'espion![end]</data>
             <ref>0x6fc</ref>
         </refs>
         <data>MATELIGHT:
-Donne-nous les informations![end]</data>
+Donne-nous les informations ![end]</data>
     </text>
     <text>
         <refs>
@@ -211,7 +211,7 @@ Donne-nous les informations![end]</data>
 L'espion Don Juan a beaucoup
 d'informations.
 Don Juan est revenu de cette
-escapade militaire![end]</data>
+escapade militaire ![end]</data>
     </text>
     <text>
         <refs>
@@ -221,10 +221,10 @@ escapade militaire![end]</data>
 Les guerrières impériales sont très
 dures à faire parler.
 Je dois aussi vous avouer que nombres
-d'entres elles sont célibataires!
+d'entres elles sont célibataires !
  
 Et Don Juan,le plus beau,le magnifique,
-a aussi les mots pour les attirer![end]</data>
+a aussi les mots pour les attirer ![end]</data>
     </text>
     <text>
         <refs>
@@ -234,7 +234,7 @@ a aussi les mots pour les attirer![end]</data>
 informations,car...
  
 Un très bel espion arrive toujours à
-ses fins![end]</data>
+ses fins ![end]</data>
     </text>
     <text>
         <refs>
@@ -248,7 +248,7 @@ ses fins![end]</data>
             <ref>0xa7e</ref>
         </refs>
         <data>DON JUAN:
-Et voici... mes rencontres![end]</data>
+Et voici... mes rencontres ![end]</data>
     </text>
     <text>
         <refs>
@@ -260,36 +260,36 @@ le château de Granbelos.
 Traiter avec une femme est simple pour
 un espion hors du commun,tendre et
 beau-parleur.
-Admirez cet espion!
+Admirez cet espion !
 Il n'est autre que moi...
-Don Juan![end]</data>
+Don Juan ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa91</ref>
         </refs>
         <data>Depuis tout ce temps,je me demande si
-elles pensent encore toutes à moi?
+elles pensent encore toutes à moi ?
  
 Même en temps de guerre,elles ne
 pourront aimer qu'un seul espion:
-Don Juan!
+Don Juan !
 Oh oui,j'allais oublier de vous dire
-le plus intéressant!
+le plus intéressant !
  
 J'ai quand même appris les prénoms
-de certaines!
+de certaines !
  
 J'ai maintenant la sensation que MOI
 seul détienne...
-l'intelligence supérieure![end]</data>
+l'intelligence supérieure ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa99</ref>
         </refs>
         <data>Car j'ai des amours...
-Top-Secret![end]</data>
+Top-Secret ![end]</data>
     </text>
     <text>
         <refs>
@@ -298,7 +298,7 @@ Top-Secret![end]</data>
         <data> Etc,etc,etc...
  Etc,etc,etc...
  Etc,etc,etc...
- Allons-y![end]</data>
+ Allons-y ![end]</data>
     </text>
     <text>
         <refs>
@@ -309,20 +309,20 @@ L'Empire de Granbelos est en ce
 moment plongé dans le chaos.
 Je l'ai moi-même entendu...
 Le Général Palpaleos a fait un discours
-déconcertant!
+déconcertant !
 L'Empereur Sauzer a plus que besoin
-de lui![end]</data>
+de lui ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x73b</ref>
         </refs>
         <data>Durant son discours,le Général Palpaleos
-avait l'air très sérieux!
+avait l'air très sérieux !
 Les autres généraux avaient l'air déçu.
 Et...
 Le Général Palpaleos a annoncé de
-terribles choses![end]</data>
+terribles choses ![end]</data>
     </text>
     <text>
         <refs>
@@ -332,7 +332,7 @@ terribles choses![end]</data>
         <data>SENDACK:
 L'Empereur Sauzer connaît le coeur
 des Dragons Sacrés.
-Mais,comment a-t-il fait?
+Mais,comment a-t-il fait ?
  
   
 Et,en ayant découvert le coeur des
@@ -340,7 +340,7 @@ Dragons Sacrés,l'Empereur Sauzer est
 tombé malade.
 Par conséquent,nous pouvons en
 déduire qu'il a déjà commencé à
-chercher les Dragons Sacrés!
+chercher les Dragons Sacrés !
 Mais il ne peut plus bouger car il est
 convalescent.[end]</data>
     </text>
@@ -350,7 +350,7 @@ convalescent.[end]</data>
             <ref>0x76d</ref>
         </refs>
         <data>Nous devons nous hâter de les trouver
-avant lui![end]</data>
+avant lui ![end]</data>
     </text>
     <text>
         <refs>
@@ -365,7 +365,7 @@ je me dois de vous raconter la suite.[end]</data>
         </refs>
         <data>Là-bas,les temps ont changé...
 Mon coeur en était tout bouleversé.
-[character][0x0],excuse-moi!
+[character][0x0],excuse-moi !
 Ce que je viens de dire a sûrement dû
 te mettre en colère.[end]</data>
     </text>
@@ -377,23 +377,23 @@ te mettre en colère.[end]</data>
 Les relations entre les généraux de
 l'Empire sont au plus bas.
 Certains sont peut-être même prêts à
-faire sécession!
+faire sécession !
  
 Nous,les Rebelles,nous pouvons gagner
-en force grâce à leur faiblesse!
-Sauzer n'est-il pas malade?
+en force grâce à leur faiblesse !
+Sauzer n'est-il pas malade ?
 Si je puis le dire,la chance nous
-sourit!
+sourit !
  
 Ne pouvons-nous pas avoir l'assistance
-de la force des Dragons Sacrés?![end]</data>
+de la force des Dragons Sacrés ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7b6</ref>
         </refs>
         <data>J'ai vu tant de choses...
-Mais,je ne comprends pas tout!
+Mais,je ne comprends pas tout !
  
 Pendant que Sauzer se fait soigner,
 nous devrions rechercher les autres
@@ -411,17 +411,17 @@ profite.
 Ce doit être le chaos au sein de
 l'Empire.
 Et cela a dû les afflaiblir.
-C'est une chance pour nous!
+C'est une chance pour nous !
 Mais,ce n'est pas en restant ici qu'on
-avancera![end]</data>
+avancera ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x815</ref>
         </refs>
         <data>COMMANDANT:
-Matelight!
-Je suis de retour![end]</data>
+Matelight !
+Je suis de retour ![end]</data>
     </text>
     <text>
         <refs>
@@ -430,24 +430,24 @@ Je suis de retour![end]</data>
         <data>COMMANDANT:
 ... ... ... ...
  
-C'est le chaos au sein de l'Empire![end]</data>
+C'est le chaos au sein de l'Empire ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8b0</ref>
         </refs>
         <data>Même si ce discours m'a amusé,j'ai
-remarqué qu'ils étaient tous tristes!
+remarqué qu'ils étaient tous tristes !
  
 Ce discours tentait d'éviter que le
 peuple de Granbelos ne s'inquiète pour
-la maladie de l'Empereur!
+la maladie de l'Empereur !
 J'ai également remarqué que certains
 Généraux de l'Empire se réjouissaient
 de la maladie de leur Empereur.
 Je suspecte énormément l'un de ses
 bras-droit,le Général Gudruff,de
-vouloir tenter une sécession!
+vouloir tenter une sécession !
 Lui et Restatto avaient l'air d'être
 de grands chefs.[end]</data>
     </text>
@@ -457,11 +457,11 @@ de grands chefs.[end]</data>
         </refs>
         <data>COMMANDANT:
 Sauzer connaît maintenant le coeur des
-Dragons Sacrés!
+Dragons Sacrés !
 Comme la Princesse [character][0x1]!
 Vous souvenez-vous des paroles de
-Sauzer?!
-Non?! J'en étais sûr![end]</data>
+Sauzer ?!
+Non ?! J'en étais sûr ![end]</data>
     </text>
     <text>
         <refs>
@@ -469,7 +469,7 @@ Non?! J'en étais sûr![end]</data>
         </refs>
         <data>[0xa8]SAUZER:
 Je deviendrai l'homme de la Légende,
-même sans le pouvoir de la Princesse![0xa9][end]</data>
+même sans le pouvoir de la Princesse ![0xa9][end]</data>
     </text>
     <text>
         <refs>
@@ -480,17 +480,17 @@ même sans le pouvoir de la Princesse![0xa9][end]</data>
         <data>COMMANDANT:
 D'une manière ou d'une autre,Sauzer
 connaît maintenant le coeur des
-Dragons Sacrés!
-Comment a-t-il fait?
+Dragons Sacrés !
+Comment a-t-il fait ?
  
 Moi-même,je n'ai pu en savoir plus,
-ni même comprendre plus![end]</data>
+ni même comprendre plus ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8fe</ref>
         </refs>
-        <data>Mais j'ai continué à jouer l'espion!
+        <data>Mais j'ai continué à jouer l'espion !
  
 Je me suis infiltré dans le Château
 pour tenter de trouver Restatto.[end]</data>
@@ -503,14 +503,14 @@ pour tenter de trouver Restatto.[end]</data>
 Quatre des généraux sont de grands
 ennemis de leur propre nation.
 C'est tout ce que j'ai su.
-Cessons de nous cacher!
-Allons au champ de bataille![end]</data>
+Cessons de nous cacher !
+Allons au champ de bataille ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x920</ref>
         </refs>
-        <data>Sincèrement,il faut en finir![end]</data>
+        <data>Sincèrement,il faut en finir ![end]</data>
     </text>
     <text>
         <refs>
@@ -537,10 +537,10 @@ tu dois savoir.[end]</data>
             <ref>0x540</ref>
         </refs>
         <data>MATELIGHT:
-Très bien! Mettons en ordre les
+Très bien ! Mettons en ordre les
 informations de notre espion.
 Sendack,j'aimerais que tu jures que
-tout ce que tu as dit est véridique![end]</data>
+tout ce que tu as dit est véridique ![end]</data>
     </text>
     <text>
         <refs>
@@ -548,10 +548,10 @@ tout ce que tu as dit est véridique![end]</data>
             <ref>0x95f</ref>
         </refs>
         <data>MATELIGHT:
-Très bien!
+Très bien !
 Je n'ai qu'un mot à dire...
 Commandant,j'aimerais que tu jures
-que tout ce que tu as dit est vrai![end]</data>
+que tout ce que tu as dit est vrai ![end]</data>
     </text>
     <text>
         <refs>
@@ -577,17 +577,17 @@ Et ainsi Kana revivra.[end]</data>
         <data>MATELIGHT:
 Très bien,mettons tout en ordre,
 une fois pour toutes.
-Laissons parler Sendack![end]</data>
+Laissons parler Sendack ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x840</ref>
         </refs>
         <data>COMMANDANT:
-Je me souviens de tout!
+Je me souviens de tout !
  
 J'espère que mes recherches vont
-utiles![end]</data>
+utiles ![end]</data>
     </text>
     <text>
         <refs>
@@ -605,23 +605,23 @@ Rien du tout...[end]</data>
 Il semble que [character][0x7]
 soit arrivé!
 Ce monstre volant dans le ciel doit
-être... l'Arme Secrète de Granbelos![end]</data>
+être... l'Arme Secrète de Granbelos ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6af</ref>
         </refs>
         <data>Allez [character][0x0]!
-Va à sa rencontre!
-N'oublie pas de nourrir tes dragons![end]</data>
+Va à sa rencontre !
+N'oublie pas de nourrir tes dragons ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x106d</ref>
         </refs>
         <data>HORNET:
-Allez,dépêche-toi!
-N'essaie pas de t'enfuir![end]</data>
+Allez,dépêche-toi !
+N'essaie pas de t'enfuir ![end]</data>
     </text>
     <text>
         <refs>
@@ -637,7 +637,7 @@ dragons dans son corps.[end]</data>
         <refs>
             <ref>0x1078</ref>
         </refs>
-        <data>Veux-tu rentrer?[end]</data>
+        <data>Veux-tu rentrer ?[end]</data>
     </text>
     <text>
         <refs>
@@ -650,7 +650,7 @@ dragons dans son corps.[end]</data>
         <refs>
             <ref>0x1084</ref>
         </refs>
-        <data>Dépêche-toi![end]</data>
+        <data>Dépêche-toi ![end]</data>
     </text>
     <text>
         <refs>
@@ -660,8 +660,8 @@ dragons dans son corps.[end]</data>
 cette Arme Secrète.
  
 Ne me dis pas que tu n'es pas en
-forme!
-Nous allons combattre?[end]</data>
+forme !
+Nous allons combattre ?[end]</data>
     </text>
     <text>
         <refs>
@@ -669,7 +669,7 @@ Nous allons combattre?[end]</data>
             <ref>0x10ae</ref>
         </refs>
         <data> Nourrir les Dragons.
- Aller combattre!
+ Aller combattre !
  Se préparer.[end1]</data>
     </text>
     <text>
@@ -708,7 +708,7 @@ Fais-le doucement...[end]</data>
             <ref>0xf7c</ref>
         </refs>
         <data>[character][0x1]:
-Kyaaa!
+Kyaaa !
  
 [character][0x0]?![end]</data>
     </text>
@@ -724,8 +724,8 @@ Il n'est pas encore l'heure...[end]</data>
         <refs>
             <ref>0xfb2</ref>
         </refs>
-        <data>N'insiste pas!
-Sors d'ici![end]</data>
+        <data>N'insiste pas !
+Sors d'ici ![end]</data>
     </text>
     <text>
         <refs>
@@ -750,7 +750,7 @@ Allons sur le balcon,s'il te plaît.[end]</data>
             <ref>0x134a</ref>
         </refs>
         <data>COMMANDANT:
-Que veux-tu faire?
+Que veux-tu faire ?
 Tu dois tout savoir...[end]</data>
     </text>
     <text>
@@ -761,7 +761,7 @@ Tu dois tout savoir...[end]</data>
  
   
 Admirer le ciel,la nuit,ne te rapelle
-pas certains... souvenirs?
+pas certains... souvenirs ?
 De si nombreuses choses...
 Je suis toujours si seule lorsque je
 contemple le ciel.[end]</data>
@@ -772,7 +772,7 @@ contemple le ciel.[end]</data>
         </refs>
         <data>[character][0x0]...
 Je me demande si nous sommes
-toujours les mêmes?
+toujours les mêmes ?
 Si nous avons encore les mêmes buts.[end]</data>
     </text>
     <text>
@@ -797,14 +797,14 @@ plus loin.[end]</data>
         <refs>
             <ref>0x1031</ref>
         </refs>
-        <data>Hélas!
+        <data>Hélas !
  
   
 Les batailles causent toujours tant
 d'inquiétude et de peine...
  
 Je crois même que tu n'as encore rien
-remarqué ni même compris![end]</data>
+remarqué ni même compris ![end]</data>
     </text>
     <text>
         <refs>
@@ -817,7 +817,7 @@ Sois respectueux...[end]</data>
         <refs>
             <ref>0x14e4</ref>
         </refs>
-        <data>Arrête![end]</data>
+        <data>Arrête ![end]</data>
     </text>
     <text>
         <refs>
@@ -825,9 +825,9 @@ Sois respectueux...[end]</data>
         </refs>
         <data>COMMANDANT:
 [character][0x0]...
-Arrête de te faire du souci!
+Arrête de te faire du souci !
 J'ai rencontré quelqu'un,
-il y a peu de temps!
+il y a peu de temps !
  
 J'ai fait une promesse d'homme à
 homme au Château de Granbelos...[end]</data>
@@ -875,7 +875,7 @@ coeur...[end]</data>
         <refs>
             <ref>0x12ea</ref>
         </refs>
-        <data>Obtenu [0xaa]PRINCESSE???[0xab].[end]</data>
+        <data>Obtenu [0xaa]PRINCESSE ???[0xab].[end]</data>
     </text>
     <text>
         <refs>

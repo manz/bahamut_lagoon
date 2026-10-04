@@ -34,8 +34,8 @@ stopper.[end]</data>
             <ref>0xce</ref>
         </refs>
         <data>S'il te plaît,Jormungand,
-ouvre cette porte!
-Tu as besoin de moi,n'est-ce pas?[end]</data>
+ouvre cette porte !
+Tu as besoin de moi,n'est-ce pas ?[end]</data>
     </text>
     <text>
         <refs>
@@ -51,18 +51,18 @@ A partir d'ici,je dois y aller seule.[end]</data>
         </refs>
         <data>MATELIGHT:
 Princesse [character][0x1],
-attendez-nous!
-Je vais vous escorter![end]</data>
+attendez-nous !
+Je vais vous escorter ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2a3</ref>
         </refs>
         <data>COMMANDANT:
-[character][0x1] semble bien se porter!
+[character][0x1] semble bien se porter !
  
 [character][0x0],je t'en prie,va tout de même la
-rejoindre![end]</data>
+rejoindre ![end]</data>
     </text>
     <text>
         <refs>
@@ -81,7 +81,7 @@ Va voir la Princesse...[end]</data>
             <ref>0x2ce</ref>
         </refs>
         <data>[character][0x1]:
-[character][0x0],je suis désolée!
+[character][0x0],je suis désolée !
 Protège-moi jusqu'au dernier instant.[end]</data>
     </text>
     <text>
@@ -89,9 +89,9 @@ Protège-moi jusqu'au dernier instant.[end]</data>
             <ref>0x49b</ref>
         </refs>
         <data>[character][0x1]:
-Jormungand,je suis prête, maintenant!
+Jormungand,je suis prête, maintenant !
 Dis-moi ce que tu as à dire...
-Je t'écouterai![end]</data>
+Je t'écouterai ![end]</data>
     </text>
     <text>
         <refs>
@@ -136,8 +136,8 @@ Ces souvenirs...
 Nous ne pouvons les oublier.
  
 Ce fut la Guerre parmi les Dragons
-Sacrés!
-Ce fut la Grande Guerre![end]</data>
+Sacrés !
+Ce fut la Grande Guerre ![end]</data>
     </text>
     <text>
         <refs>
@@ -147,7 +147,7 @@ Ce fut la Grande Guerre![end]</data>
 cette histoire et comprennent nos
 sentiments.
 Il y a très longtemps,
-nous nous combattîmes!
+nous nous combattîmes !
  
 Nous nous ha[0x25]ssions.
 Nous nous querellions.
@@ -162,7 +162,7 @@ Les souvenirs des Dragons Sacrés...
  
   
 La porte de la Nouvelle Ere...
-Nous détestons en entendre parler!
+Nous détestons en entendre parler !
  
 Cependant,il sera un jour où la
 Nouvelle Ere surgira.[end]</data>

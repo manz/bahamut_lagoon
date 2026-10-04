@@ -20,11 +20,11 @@
         </refs>
         <data>ROI DE KANA:
 Bahamut,pourquoi ne te réveilles-tu
-pas?
+pas ?
 Pourquoi ne puis-je te tirer de ton
-sommeil?
+sommeil ?
  
-Vas-tu laisser l'Empire détruire Kana?[end]</data>
+Vas-tu laisser l'Empire détruire Kana ?[end]</data>
     </text>
     <text>
         <refs>
@@ -37,7 +37,7 @@ Vas-tu laisser l'Empire détruire Kana?[end]</data>
             <ref>0x184</ref>
         </refs>
         <data>RUSH:
-Allons-y![end]</data>
+Allons-y ![end]</data>
     </text>
     <text>
         <refs>
@@ -45,7 +45,7 @@ Allons-y![end]</data>
         </refs>
         <data>TAURUS:
 Capitaine,donnez-nous le signal
-d'attaque![end]</data>
+d'attaque ![end]</data>
     </text>
     <text>
         <refs>
@@ -61,18 +61,18 @@ d'attaque![end]</data>
         </refs>
         <data>RUSH:
 Nous devons repartir garder le
-Château de Kana!
+Château de Kana !
 Tu ferais mieux de savoir quel nom
 donner aux dragons avant d'aller
-te battre![end]</data>
+te battre ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x975</ref>
         </refs>
         <data>RUSH:
-Allez!
-Dépêchons-nous![end]</data>
+Allez !
+Dépêchons-nous ![end]</data>
     </text>
     <text>
         <refs>
@@ -80,11 +80,11 @@ Dépêchons-nous![end]</data>
         </refs>
         <data>TAURUS:
 Ce sera une bataille décisive contre
-l'Empire!
+l'Empire !
 Capitaine [character][0x0]!
 Voulez-vous attaquer sans être certain
-de savoir ce que vous allez faire?
-Qu'aimeriez-vous savoir,Capitaine?[end]</data>
+de savoir ce que vous allez faire ?
+Qu'aimeriez-vous savoir,Capitaine ?[end]</data>
     </text>
     <text>
         <refs>
@@ -148,7 +148,7 @@ déroule la bataille.[end]</data>
 base aérienne de l'Empire pour tenter
 de le stopper.
 Dépêchons-nous d'aller au Château de
-Kana!
+Kana !
  
 Capitaine [character][0x0],grimpons vite sur nos
 dragons.[end]</data>
@@ -159,15 +159,15 @@ dragons.[end]</data>
         </refs>
         <data>BIKKEBAKKE:
 Veux-tu connaître les noms les plus
-populaires?[end]</data>
+populaires ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa03</ref>
         </refs>
         <data>Au fait,je... je suis...
-Bikkebakke!
-Facile à retenir,non?[end]</data>
+Bikkebakke !
+Facile à retenir,non ?[end]</data>
     </text>
     <text>
         <refs>
@@ -191,7 +191,7 @@ Facile à retenir,non?[end]</data>
             <ref>0xb60</ref>
         </refs>
         <data>RUSH:
-Envolons-nous![end]</data>
+Envolons-nous ![end]</data>
     </text>
     <text>
         <refs>
@@ -205,10 +205,10 @@ Allez,partons...[end]</data>
             <ref>0x558</ref>
         </refs>
         <data>ROI DE KANA:
-Princesse?!
+Princesse ?!
  
 Pouvez-vous sentir la présence de
-Bahamut?[end]</data>
+Bahamut ?[end]</data>
     </text>
     <text>
         <refs>
@@ -231,13 +231,13 @@ Père...[end]</data>
         </refs>
         <data>ROI DE KANA:
 [character][0x1],arrives-tu à comprendre les
-sentiments de Bahamut?[end]</data>
+sentiments de Bahamut ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x604</ref>
         </refs>
-        <data>Retournons vite au château![end]</data>
+        <data>Retournons vite au château ![end]</data>
     </text>
     <text>
         <refs>
@@ -256,14 +256,14 @@ Et [character][0x0]...[end]</data>
             <ref>0x6ec</ref>
         </refs>
         <data>MIST:
-Les troupes de l'Empire approchent![end]</data>
+Les troupes de l'Empire approchent ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6fa</ref>
         </refs>
         <data>MATELIGHT:
-Que fait notre Escadron Dragon?![end]</data>
+Que fait notre Escadron Dragon ?![end]</data>
     </text>
     <text>
         <refs>
@@ -279,10 +279,10 @@ Que fait notre Escadron Dragon?![end]</data>
         </refs>
         <data>MIST:
 Votre Majesté!
-Et Bahamut?
+Et Bahamut ?
 Bahamut,le Dragon censé protéger
-Kana!
-Où est-il?[end]</data>
+Kana !
+Où est-il ?[end]</data>
     </text>
     <text>
         <refs>
@@ -290,7 +290,7 @@ Où est-il?[end]</data>
             <ref>0x76b</ref>
         </refs>
         <data>RUSH:
-Nous arrivons trop tard![end]</data>
+Nous arrivons trop tard ![end]</data>
     </text>
     <text>
         <refs>
@@ -299,7 +299,7 @@ Nous arrivons trop tard![end]</data>
         <data>TAURUS:
 La base aérienne de l'Empire n'était
 qu'un leurre.
-Nous sommes tombés dans leur piège!
+Nous sommes tombés dans leur piège !
 Nous n'aurions pas dû...[end]</data>
     </text>
     <text>
@@ -307,11 +307,11 @@ Nous n'aurions pas dû...[end]</data>
             <ref>0xbde</ref>
         </refs>
         <data>MATELIGHT:
-Aucune excuse!
-Rassemblons nos forces!
-Suivez-moi!
+Aucune excuse !
+Rassemblons nos forces !
+Suivez-moi !
 Nous ne les laisserons pas approcher
-du portail![end]</data>
+du portail ![end]</data>
     </text>
     <text>
         <refs>
@@ -321,15 +321,15 @@ du portail![end]</data>
 Selon la légende,le Dragon devrait se
 réveiller dans une telle situation.
 Bahamut devrait être en train de
-protéger Kana!
-Qu'attend-t-il?![end]</data>
+protéger Kana !
+Qu'attend-t-il ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x740</ref>
         </refs>
         <data>ROI DE KANA:
-Ne dites pas cela!
+Ne dites pas cela !
  
 Nous avons encore l'Escadron Dragon
 et [character][0x0].[end]</data>
@@ -353,7 +353,7 @@ arrivé...[end]</data>
             <ref>0xa1e</ref>
         </refs>
         <data>BIKKEBAKKE:
-Il y a un zillion d'ennemis dehors!
-Dépêchons-nous![end]</data>
+Il y a un zillion d'ennemis dehors !
+Dépêchons-nous ![end]</data>
     </text>
 </texts>

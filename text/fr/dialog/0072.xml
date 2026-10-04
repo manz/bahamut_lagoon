@@ -5,7 +5,7 @@
             <ref>0x104</ref>
         </refs>
         <data> Je te le promets,Sendack...
- Je te demande pardon?![end1]</data>
+ Je te demande pardon ?![end1]</data>
     </text>
     <text>
         <refs>
@@ -20,10 +20,10 @@
         </refs>
         <data>Je dois avouer ne pas avoir le sens
 de l'orientation.
-Où dois-je nous emmener?!
+Où dois-je nous emmener ?!
 [character][0x0],j'aurais une requête...
 Pourrais-tu donner à ma place le lieu
-de destination à Hornet?[end]</data>
+de destination à Hornet ?[end]</data>
     </text>
     <text>
         <refs>
@@ -36,9 +36,9 @@ es capable car tu es le meilleur.[end]</data>
         <refs>
             <ref>0x126</ref>
         </refs>
-        <data>Haha!
-Tu t'en charges,alors?!
-Tu verras,c'est TRES simple![end]</data>
+        <data>Haha !
+Tu t'en charges,alors ?!
+Tu verras,c'est TRES simple ![end]</data>
     </text>
     <text>
         <refs>
@@ -58,35 +58,35 @@ secret pour personne.[end]</data>
             <ref>0x195</ref>
         </refs>
         <data>SENDACK:
-En route![end]</data>
+En route ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe1</ref>
         </refs>
         <data>Je suis un vieux sorcier,comment
-pourrait-on me faire confiance?[end]</data>
+pourrait-on me faire confiance ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x114</ref>
         </refs>
-        <data>C'est la chance de ma vie![end]</data>
+        <data>C'est la chance de ma vie ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x133</ref>
         </refs>
-        <data>Il n'aurait rien compris?!
+        <data>Il n'aurait rien compris ?!
 Il doit sûrement mentir.
  
 On dit souvent que je suis très
 vieux mais Sendack est encore vivant
-et a plus d'une corde à son arc!
+et a plus d'une corde à son arc !
 Il faut le convaincre mais je sais que
 ce sera difficile.
  
 Quelle calamité!
-Bon,tentons la flatterie![end]</data>
+Bon,tentons la flatterie ![end]</data>
     </text>
 </texts>

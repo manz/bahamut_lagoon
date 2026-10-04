@@ -1,11 +1,11 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0xfc8" room_id="8">
     <text>
         <refs>
             <ref>0xac</ref>
         </refs>
-        <data>          Chapitre [0xb7]
--Combat de l'air des Dragons-[end]</data>
+        <data>                   Chapitre [0xb7]
+         -Combat des Dragons en plein air-[end]</data>
     </text>
     <text>
         <refs>

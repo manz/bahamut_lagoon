@@ -12,24 +12,24 @@
             <ref>0x76</ref>
         </refs>
         <data>SENDACK:
-Princesse?
-Comment faire?[end]</data>
+Princesse ?
+Comment faire ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x82</ref>
         </refs>
         <data>[character][0x1]:
-Valitra!
-Quelque chose ne va pas?![end]</data>
+Valitra !
+Quelque chose ne va pas ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8e</ref>
         </refs>
         <data>MATELIGHT:
-Quoi?
-Quelle est notre faiblesse?[end]</data>
+Quoi ?
+Quelle est notre faiblesse ?[end]</data>
     </text>
     <text>
         <refs>
@@ -43,15 +43,15 @@ Je ne comprends pas...[end]</data>
             <ref>0xa1</ref>
         </refs>
         <data>SENDACK:
-Tout va bien?
-Princesse?[end]</data>
+Tout va bien ?
+Princesse ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xae</ref>
         </refs>
         <data>[character][0x1]:
-Oui,Sendack,tout va bien![end]</data>
+Oui,Sendack,tout va bien ![end]</data>
     </text>
     <text>
         <refs>
@@ -79,8 +79,8 @@ Valitra et Léviathan sont là,en moi...[end]</data>
             <ref>0x17e</ref>
         </refs>
         <data>SENDACK:
-Princesse!
-Tenez bon![end]</data>
+Princesse !
+Tenez bon ![end]</data>
     </text>
     <text>
         <refs>
@@ -96,29 +96,29 @@ Princesse [character][0x1]![end]</data>
         </refs>
         <data>[character][0x1]:
 Garuda...
-Mais... que veut-il?![end]</data>
+Mais... que veut-il ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1cb</ref>
         </refs>
         <data>Pourquoi est-il si furieux...?
-Qui hait-il?
-Quelle haine![end]</data>
+Qui hait-il ?
+Quelle haine ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1d4</ref>
         </refs>
         <data>[character][0x1]:
-Aaaaah![end]</data>
+Aaaaah ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1fb</ref>
         </refs>
         <data>SENDACK:
-Princesse!
+Princesse !
 Tenez bon[0xd8][end]</data>
     </text>
     <text>
@@ -127,13 +127,13 @@ Tenez bon[0xd8][end]</data>
         </refs>
         <data>MATELIGHT:
 Ramenons-la immédiatement à
-FARENHEIT![end]</data>
+FARENHEIT ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x26e</ref>
         </refs>
-        <data>manyo!
+        <data>manyo !
 [0xa8]... ...![0xa9][end]</data>
     </text>
 </texts>

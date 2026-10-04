@@ -23,14 +23,14 @@ C'est éprouvant...[end]</data>
         </refs>
         <data>RUSH:
 SALAMANDO va secrètement approcher
-du balcon!
-Est-ce que tu veux monter?[end]</data>
+du balcon !
+Est-ce que tu veux monter ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x685</ref>
         </refs>
-        <data> Allons-y!
+        <data> Allons-y !
  Je dois nourrir les dragons.
  Je ne viens pas.[end1]</data>
     </text>
@@ -38,16 +38,16 @@ Est-ce que tu veux monter?[end]</data>
         <refs>
             <ref>0x68f</ref>
         </refs>
-        <data>Prenons ce chemin!
+        <data>Prenons ce chemin !
 La Princesse [character][0x1] ne doit pas
-s'inquiéter![end]</data>
+s'inquiéter ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x60b</ref>
         </refs>
         <data>DOCTEUR DRAGON:
-Veux-tu rentrer?[end]</data>
+Veux-tu rentrer ?[end]</data>
     </text>
     <text>
         <refs>
@@ -73,21 +73,21 @@ le Capitaine de l'Escadron Dragon.[end]</data>
         </refs>
         <data>Hornet m'a demandé de le prévenir
 dès que tu veux partir.
-Es-tu prêt à aller combattre?[end]</data>
+Es-tu prêt à aller combattre ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5d2</ref>
         </refs>
         <data> Rester là!
- Aller combattre![end1]</data>
+ Aller combattre ![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x582</ref>
         </refs>
         <data>Hornet ne pense qu'à une chose et il
-ne prête plus attention au bateau!
+ne prête plus attention au bateau !
 Il veut devenir Papa...[end]</data>
     </text>
     <text>
@@ -104,7 +104,7 @@ Il veut devenir Papa...[end]</data>
         </refs>
         <data>En ayant vu la progéniture des Dragons,
 il a décidé de devenir père d'un être
-humain!
+humain !
 Tu devrais faire attention au père du
 bébé dragon...
  
@@ -122,24 +122,24 @@ grand-père de ce bébé dragon.[end]</data>
             <ref>0x98f</ref>
         </refs>
         <data>DOCTEUR DRAGON:
-C'est dangereux,dangereux!
+C'est dangereux,dangereux !
 Tu les a effrayés...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9a1</ref>
         </refs>
-        <data>Hola hola!
+        <data>Hola hola !
 Ils vous aiment bien...
  
-C'est ça!
-Il regrette![end]</data>
+C'est ça !
+Il regrette ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9ba</ref>
         </refs>
-        <data>Tout va bien,tout va bien!
+        <data>Tout va bien,tout va bien !
 Il vous aime...
 [character][0x0] est sympathique...[end]</data>
     </text>
@@ -150,7 +150,7 @@ Il vous aime...
         <data>Je me souviens de SALAMANDO quand il
 était jeune.
  
-J'étais un vrai père pour lui!
+J'étais un vrai père pour lui !
 j'étais pourtant enfant et SALAMANDO
 était si grand.
 C'est à partir de cet instant que je
@@ -180,19 +180,19 @@ Essaie de commander le bébé,
             <ref>0xab6</ref>
         </refs>
         <data>C'est très bien...
-Il semble t'aimer![end]</data>
+Il semble t'aimer ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xcf6</ref>
         </refs>
-        <data>J'ai ici [0xb1] messages!
-A toi d'en choisir un!
+        <data>J'ai ici [0xb1] messages !
+A toi d'en choisir un !
  
 [0xb0] [0xaa]PRESENT de HORNET[0xab].
 [0xb0] [0xaa]PRESENT des MATELOTS[0xab].
  
-Lequel vas-tu choisir?[end]</data>
+Lequel vas-tu choisir ?[end]</data>
     </text>
     <text>
         <refs>
@@ -215,13 +215,13 @@ ciel.[end]</data>
         </refs>
         <data>MESSAGE de HORNET:
 Félicitations pour la Restauration de
-Kana!
+Kana !
 [character][0x0],protège sans cesse le ciel
-d'Orelus!
+d'Orelus !
  
 Post-Scriptum:
 C'est un présent de ma part et de
-celle des matelots![end]</data>
+celle des matelots ![end]</data>
     </text>
     <text>
         <refs>
@@ -229,11 +229,11 @@ celle des matelots![end]</data>
         </refs>
         <data>MESSAGE des MATELOTS:
 Félicitations pour la Restauration de
-Kana!
+Kana !
 Nous,les matelots,voulons la paix pour
 Orelus.
  
-Tu es notre sauveur![end]</data>
+Tu es notre sauveur ![end]</data>
     </text>
     <text>
         <refs>
@@ -277,7 +277,7 @@ Futur.[end]</data>
         <refs>
             <ref>0xb68</ref>
         </refs>
-        <data>Veux-tu le faire?[end]</data>
+        <data>Veux-tu le faire ?[end]</data>
     </text>
     <text>
         <refs>
@@ -325,7 +325,7 @@ L'ère des êtres humains est finie...[end]</data>
 Volons...
  
   
-Surveille les Lagons d'Orelus!
+Surveille les Lagons d'Orelus !
 Surveille les êtres humains...
   
 [character][0x0]...
@@ -337,11 +337,11 @@ Le ciel d'Orelus...[end]</data>
             <ref>0x573</ref>
         </refs>
         <data>DOCTEUR DRAGON:
-Entends-tu les appels du ciel?
+Entends-tu les appels du ciel ?
  
 Le ciel est puissant.
 Il bouge constamment.
-Croyons en lui![end]</data>
+Croyons en lui ![end]</data>
     </text>
     <text>
         <refs>
@@ -350,7 +350,7 @@ Croyons en lui![end]</data>
         <data>DOCTEUR DRAGON:
 Le ciel d'Orelus ne cessera jamais
 d'être un océan de nuages.
-Il est si grand!
+Il est si grand !
 Tu dois le surveiller pour sa
 sauvegarde...
 Le Monde entier le regarde...
@@ -360,13 +360,13 @@ Le monde d'Orelus n'en est pas à sa
 première crise mais il l'est encore.
  
 L'Océan de Nuages...
-Il est le rêve de Tous!
-Il est la force de Tous!
+Il est le rêve de Tous !
+Il est la force de Tous !
 [character][0x0]...
 J'entends la voix et les souvenirs du
 Ciel...
 Je sens qu'il est en peine...
-Viens-lui en aide![end]</data>
+Viens-lui en aide ![end]</data>
     </text>
     <text>
         <refs>
@@ -375,9 +375,9 @@ Viens-lui en aide![end]</data>
         <data>DOCTEUR DRAGON:
 Altair,
 la Patrie des Dragons Sacrés...
-Le lieu de retour des dragons!
+Le lieu de retour des dragons !
 Cette terre a toujours été pour eux
-la plus belle!
+la plus belle !
 C'est la terre de leurs souvenirs...[end]</data>
     </text>
     <text>
@@ -385,9 +385,9 @@ C'est la terre de leurs souvenirs...[end]</data>
             <ref>0xd53</ref>
         </refs>
         <data>Lieu de Rêve de Bikkebakke pour
-cultiver des Champignons!
+cultiver des Champignons !
  
-Ne touchez à rien!
+Ne touchez à rien !
 -Bikkebakke-[end]</data>
     </text>
     <text>
@@ -395,7 +395,7 @@ Ne touchez à rien!
             <ref>0xd57</ref>
         </refs>
         <data>Voler les champignons tant espérés de
-Bikkebakke?[end]</data>
+Bikkebakke ?[end]</data>
     </text>
     <text>
         <refs>

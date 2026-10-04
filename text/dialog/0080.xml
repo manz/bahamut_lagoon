@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0"?>
 <texts base="0xaf8" room_id="80">
     <text>
         <refs>
@@ -107,7 +107,6 @@ Matelight! Sendack![end]</data>
         </refs>
         <data>[character][0x1]:
 Nous sommes les Compagnons d'Orelus!
- 
   
 Grâce à la volonté de tout le monde
 et avec ma volonté nous pouvons en

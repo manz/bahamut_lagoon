@@ -12,14 +12,14 @@
             <ref>0x85</ref>
         </refs>
         <data>Nous serons bientôt à Mahal.
-J'espère que tout le monde est prêt?[end]</data>
+J'espère que tout le monde est prêt ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8f</ref>
         </refs>
         <data>Je n'oublierai jamais ce jour...
-Jamais!
+Jamais !
 Ce jour où j'ai quitté Mahal...[end]</data>
     </text>
     <text>
@@ -34,7 +34,7 @@ assiégée...[end]</data>
             <ref>0xf5</ref>
         </refs>
         <data>RESTATTO:
-HIHIHIHIHIHIHIHIHIHIHI![end]</data>
+HIHIHIHIHIHIHIHIHIHIHI ![end]</data>
     </text>
     <text>
         <refs>
@@ -47,12 +47,12 @@ plaisir.[end]</data>
         <refs>
             <ref>0x107</ref>
         </refs>
-        <data>Qu'est-ce qui ne va pas?
-Sortez soldats de Mahal!
-Où êtes-vous?!
-Où es-tu Commandant?
-Sort!
-HIHIHIHIHIHIHI![end]</data>
+        <data>Qu'est-ce qui ne va pas ?
+Sortez soldats de Mahal !
+Où êtes-vous ?!
+Où es-tu Commandant ?
+Sort !
+HIHIHIHIHIHIHI ![end]</data>
     </text>
     <text>
         <refs>
@@ -60,25 +60,25 @@ HIHIHIHIHIHIHI![end]</data>
         </refs>
         <data>SERGENT:
 Capitaine,Mahal va tomber entre les
-mains de l'ennemi![end]</data>
+mains de l'ennemi ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x188</ref>
         </refs>
         <data>SOLDAT:
-C'est inévitable!
+C'est inévitable !
  
-Ne nous faisons pas d'illusions!
+Ne nous faisons pas d'illusions !
 La question est maintenant:
-quand Mahal va-t-elle tomber?[end]</data>
+quand Mahal va-t-elle tomber ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x195</ref>
         </refs>
-        <data>Capitaine!
-Donnez-nous les ordres![end]</data>
+        <data>Capitaine !
+Donnez-nous les ordres ![end]</data>
     </text>
     <text>
         <refs>
@@ -88,18 +88,18 @@ Donnez-nous les ordres![end]</data>
 Hum...
  
 En tant que chevalier,je vais moi-même
-aller défier ce Restatto!
-Laissez-moi vous protéger tous![end]</data>
+aller défier ce Restatto !
+Laissez-moi vous protéger tous ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1ad</ref>
         </refs>
         <data>SOLDAT:
-C'est beaucoup trop dangereux!
+C'est beaucoup trop dangereux !
  
 Vous risqueriez de vous faire tuer
-rapidement face à tant d'ennemis![end]</data>
+rapidement face à tant d'ennemis ![end]</data>
     </text>
     <text>
         <refs>
@@ -117,15 +117,15 @@ vous le tuerez.[end]</data>
             <ref>0x1de</ref>
         </refs>
         <data>COMMANDANT:
-Silence!
-Qui commande ici?![end]</data>
+Silence !
+Qui commande ici ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1ec</ref>
         </refs>
-        <data>C'est moi,Commandant!
-Capitaine de l'armée de Mahal![end]</data>
+        <data>C'est moi,Commandant !
+Capitaine de l'armée de Mahal ![end]</data>
     </text>
     <text>
         <refs>
@@ -139,13 +139,13 @@ Mais...[end]</data>
             <ref>0x20a</ref>
         </refs>
         <data>COMMANDANT:
-Silence!
-Ce sont mes ordres!
+Silence !
+Ce sont mes ordres !
 Je suis le guerrier le plus puissant de
-Mahal et je dois défendre son peuple!
+Mahal et je dois défendre son peuple !
  
 Quand le danger se présente,je suis
-prêt à perdre la vie pour lui![end]</data>
+prêt à perdre la vie pour lui ![end]</data>
     </text>
     <text>
         <refs>
@@ -159,15 +159,15 @@ Mais...[end]</data>
             <ref>0x226</ref>
         </refs>
         <data>COMMANDANT:
-Cessez! Ce sont mes ordres!
-Vous êtes trop bruyants![end]</data>
+Cessez ! Ce sont mes ordres !
+Vous êtes trop bruyants ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x22e</ref>
         </refs>
         <data>CELINE:
-Tu ne changeras jamais![end]</data>
+Tu ne changeras jamais ![end]</data>
     </text>
     <text>
         <refs>
@@ -189,10 +189,10 @@ qu'a dit ce soldat.[end]</data>
             <ref>0x263</ref>
         </refs>
         <data>COMMANDANT:
-Que dis-tu?!
-Tu ne comprends rien?!
+Que dis-tu ?!
+Tu ne comprends rien ?!
 Si je ne vais pas défendre ma patrie...
-Qui le fera?![end]</data>
+Qui le fera ?![end]</data>
     </text>
     <text>
         <refs>
@@ -206,40 +206,40 @@ Tu ne peux vaincre Restatto...[end]</data>
             <ref>0x279</ref>
         </refs>
         <data>SERGENT:
-Céline!
-Je suis d'accord avec vous![end]</data>
+Céline !
+Je suis d'accord avec vous ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x28e</ref>
         </refs>
         <data>COMMANDANT:
-Cessez! Taisez-vous![end]</data>
+Cessez ! Taisez-vous ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x297</ref>
         </refs>
         <data>Y a-t-il à Mahal un guerrier aussi
-puissant que moi?![end]</data>
+puissant que moi ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x29d</ref>
         </refs>
-        <data>Non!
-Car je suis le guerrier No [0xb0] à Mahal!
+        <data>Non !
+Car je suis le guerrier No [0xb0] à Mahal !
  
 Pour protéger cet honneur,je suis
 prêt à combattre voire à perdre la
-vie![end]</data>
+vie ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2cc</ref>
         </refs>
         <data>CELINE:
-Magie Sommeil![end]</data>
+Magie Sommeil ![end]</data>
     </text>
     <text>
         <refs>
@@ -255,13 +255,13 @@ Je me devais de faire cela.[end]</data>
         </refs>
         <data>CELINE:
 Soldats,puissiez-vous entendre et
-respecter mes paroles!
-C'est inévitable!
+respecter mes paroles !
+C'est inévitable !
 Mahal va tomber aux mains de l'Empire.
  
-Mais ne vous inquiétez pas!
+Mais ne vous inquiétez pas !
 Il arrivera un jour où notre
-mère-patrie sera libérée![end]</data>
+mère-patrie sera libérée ![end]</data>
     </text>
     <text>
         <refs>
@@ -277,20 +277,20 @@ Notre chère... Mahal...[end]</data>
             <ref>0x343</ref>
         </refs>
         <data>Notre patrie ne sera pas défendue en
-vain![end]</data>
+vain ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x349</ref>
         </refs>
         <data>CELINE:
-Venez mes braves soldats![end]</data>
+Venez mes braves soldats ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x363</ref>
         </refs>
-        <data>Nous partons![end]</data>
+        <data>Nous partons ![end]</data>
     </text>
     <text>
         <refs>
@@ -300,93 +300,93 @@ Venez mes braves soldats![end]</data>
 Sergent,ceci est ma dernière volonté:
 Fuis Mahal et dis à Commandant
 d'attendre le jour...
-Le jour de la libération![end]</data>
+Le jour de la libération ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x378</ref>
         </refs>
-        <data>Nous partons![end]</data>
+        <data>Nous partons ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3f0</ref>
         </refs>
         <data>CELINE:
-Approche,Restatto![end]</data>
+Approche,Restatto ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3fb</ref>
         </refs>
-        <data>Magie Maladie![end]</data>
+        <data>Magie Maladie ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x440</ref>
         </refs>
         <data>RESTATTO:
-HIHIHIHIHIHIHIHIHI!
+HIHIHIHIHIHIHIHIHI !
 Tu ne peux me vaincre avec une telle
-magie![end]</data>
+magie ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x455</ref>
         </refs>
-        <data>Où est Commandant?!
-Où est le guerrier No [0xb0] de Mahal?
-Me craindrait-il?![end]</data>
+        <data>Où est Commandant ?!
+Où est le guerrier No [0xb0] de Mahal ?
+Me craindrait-il ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x499</ref>
         </refs>
-        <data>Magie Uppercut![end]</data>
+        <data>Magie Uppercut ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4c1</ref>
         </refs>
         <data>RESTATTO:
-HIHIHIHIHIHIHIHI!
-Commandant!
-Où est-il?!
+HIHIHIHIHIHIHIHI !
+Commandant !
+Où est-il ?!
 Le guerrier No [0xb0] a eu peur de moi et
-s'est enfui?!
-HIHIHIHIHIHIHIHIHIHIHI![end]</data>
+s'est enfui ?!
+HIHIHIHIHIHIHIHIHIHIHI ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4d1</ref>
         </refs>
         <data>CELINE:
-Tu te trompes!
+Tu te trompes !
 Mon mari...
-Mon mari n'est pas ce genre d'homme![end]</data>
+Mon mari n'est pas ce genre d'homme ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4de</ref>
         </refs>
         <data>RESTATTO:
-HIHIHIHIHIHI!
-Ce genre d'homme?
-Si,il l'est!
-HIHIHIHIHIHI![end]</data>
+HIHIHIHIHIHI !
+Ce genre d'homme ?
+Si,il l'est !
+HIHIHIHIHIHI ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4e7</ref>
         </refs>
-        <data>Meurs,insolente![end]</data>
+        <data>Meurs,insolente ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x570</ref>
         </refs>
         <data>CELINE:
-Kyaaaaa![end]</data>
+Kyaaaaa ![end]</data>
     </text>
     <text>
         <refs>
@@ -425,13 +425,13 @@ Mes courageux soldats...[end]</data>
         <refs>
             <ref>0x601</ref>
         </refs>
-        <data>Quelle tristesse![end]</data>
+        <data>Quelle tristesse ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9d6</ref>
         </refs>
-        <data>Qu'ai-je fait?
+        <data>Qu'ai-je fait ?
 Ils étaient innocents...[end]</data>
     </text>
     <text>
@@ -447,9 +447,9 @@ Ils étaient INNOCENTS...[end]</data>
         </refs>
         <data>[character][0x0]...
 Y a-t-il une personne que tu admires
-et que tu aimes?
+et que tu aimes ?
 Y a-t-il une personne que tu
-protégerais corps et âme?[end]</data>
+protégerais corps et âme ?[end]</data>
     </text>
     <text>
         <refs>
@@ -527,7 +527,7 @@ Voici,la carte de Mahal...[end]</data>
         </refs>
         <data>Il suffit pour cela d'ouvrir le barrage
 et ainsi l'eau se répandra et noiera
-les ennemis![end]</data>
+les ennemis ![end]</data>
     </text>
     <text>
         <refs>
@@ -564,43 +564,43 @@ Nous sommes bientôt à Godrand.[end]</data>
             <ref>0xb31</ref>
         </refs>
         <data>MELODIA:
-Ouais! Ouais!
-Ma chère ville de Godrand![end]</data>
+Ouais ! Ouais !
+Ma chère ville de Godrand ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb3f</ref>
         </refs>
-        <data>Les Petis Démons sont contents!
+        <data>Les Petis Démons sont contents !
  
   
 Les Petits Démons vont revoir
-leurs amis!
-Hein?![end]</data>
+leurs amis !
+Hein ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb51</ref>
         </refs>
-        <data>manyo!
-[0xa8]allez! allez!
- à godrand! allez![0xa9][end]</data>
+        <data>manyo !
+[0xa8]allez ! allez !
+ à godrand ! allez ![0xa9][end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb8e</ref>
         </refs>
-        <data>munyo!
-[0xa8]allez! allez!
- a godrand![0xa9][end]</data>
+        <data>munyo !
+[0xa8]allez ! allez !
+ a godrand ![0xa9][end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb61</ref>
         </refs>
         <data>HORNET:
-Mélodia!
-Tu le sais,pourtant!
+Mélodia !
+Tu le sais,pourtant !
 Les Petits Démons n'ont pas le droit
 d'être sur le pont.[end]</data>
     </text>
@@ -609,16 +609,16 @@ d'être sur le pont.[end]</data>
             <ref>0xb77</ref>
         </refs>
         <data>MELODIA:
-Génial!
-Hornet a mauvais tempérament!
-Partons,Petits Démons![end]</data>
+Génial !
+Hornet a mauvais tempérament !
+Partons,Petits Démons ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xba7</ref>
         </refs>
         <data>HORNET:
-Hé! Arrêtez![end]</data>
+Hé! Arrêtez ![end]</data>
     </text>
     <text>
         <refs>
@@ -632,7 +632,7 @@ Hé...[end]</data>
             <ref>0xc15</ref>
         </refs>
         <data>Hé,Taurus...
-Est-ce que tu dors?[end]</data>
+Est-ce que tu dors ?[end]</data>
     </text>
     <text>
         <refs>
@@ -641,7 +641,7 @@ Est-ce que tu dors?[end]</data>
         <data>TAURUS:
 Je... je n'arrive pas...
 Je n'ai dormi qu'un moment...
-Je me demande pourquoi?[end]</data>
+Je me demande pourquoi ?[end]</data>
     </text>
     <text>
         <refs>
@@ -655,8 +655,8 @@ pas dormir...[end]</data>
         <refs>
             <ref>0xc30</ref>
         </refs>
-        <data>Bikkebakke!
-Et toi?[end]</data>
+        <data>Bikkebakke !
+Et toi ?[end]</data>
     </text>
     <text>
         <refs>
@@ -671,8 +671,8 @@ Zzzz... Zzzz...[end]</data>
             <ref>0xc47</ref>
         </refs>
         <data>TAURUS:
-Il a un sommeil de plomb!
-Impossible de le réveiller![end]</data>
+Il a un sommeil de plomb !
+Impossible de le réveiller ![end]</data>
     </text>
     <text>
         <refs>
@@ -685,14 +685,14 @@ Haha...[end]</data>
         <refs>
             <ref>0xc5c</ref>
         </refs>
-        <data>D'accord,Taurus![end]</data>
+        <data>D'accord,Taurus ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc65</ref>
         </refs>
         <data>TAURUS:
-Quoi?[end]</data>
+Quoi ?[end]</data>
     </text>
     <text>
         <refs>
@@ -700,7 +700,7 @@ Quoi?[end]</data>
         </refs>
         <data>RUSH:
 Comment pourrais-je te le dire
-simplement?!
+simplement ?!
 J'ai eu un étrange sentiment lorsque
 j'ai vu le peuple de Mahal...[end]</data>
     </text>
@@ -732,8 +732,8 @@ ou d'une autre...[end]</data>
             <ref>0xc9a</ref>
         </refs>
         <data>RUSH:
-Et toi,Taurus!
-Tu n'as rien ressenti?![end]</data>
+Et toi,Taurus !
+Tu n'as rien ressenti ?![end]</data>
     </text>
     <text>
         <refs>
@@ -761,7 +761,7 @@ décédée...[end]</data>
         <refs>
             <ref>0xcbd</ref>
         </refs>
-        <data>Hahahaha!
+        <data>Hahahaha !
 Lukia est attirante mais elle est une
 vraie guerrière.[end]</data>
     </text>
@@ -777,7 +777,7 @@ durant les combats.[end]</data>
         <refs>
             <ref>0xccc</ref>
         </refs>
-        <data>Hahahaha!
+        <data>Hahahaha !
 Quant à Jeanne,elle est ravissante,
 et elle égale un homme au combat.[end]</data>
     </text>
@@ -808,7 +808,7 @@ La liberté...[end]</data>
             <ref>0xced</ref>
         </refs>
         <data>Nous recherchons tous la liberté...
-Quitte... à être des brutes![end]</data>
+Quitte... à être des brutes ![end]</data>
     </text>
     <text>
         <refs>
@@ -822,7 +822,7 @@ Je ne comprends pas très bien.[end]</data>
             <ref>0xd17</ref>
         </refs>
         <data>RUSH:
-Bikkebakke!
+Bikkebakke !
 Hého...[end]</data>
     </text>
 </texts>

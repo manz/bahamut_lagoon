@@ -19,7 +19,7 @@ J'en suis enchanté...[end]</data>
         <refs>
             <ref>0x261</ref>
         </refs>
-        <data>Ce n'est pas bien,grand-père![end]</data>
+        <data>Ce n'est pas bien,grand-père ![end]</data>
     </text>
     <text>
         <refs>
@@ -42,7 +42,7 @@ Partez,leur mère n'est pas là...[end]</data>
         </refs>
         <data>Les troupes de l'Empereur sont parties
 mais ils ont reformé le Harem du Roi.
-Maman est au Harem!
+Maman est au Harem !
 Si tu veux,tu peux prendre son
 porte-bonheur dans l'armoire.[end]</data>
     </text>
@@ -51,7 +51,7 @@ porte-bonheur dans l'armoire.[end]</data>
             <ref>0x26f</ref>
         </refs>
         <data>A Dafira,la mode est d'imiter le Roi de
-Kana!
+Kana !
  
 Lorsque je porte une fausse moustache
 et un manteau royal,je lui ressemble
@@ -68,9 +68,9 @@ lieu qu'avec l'union du peuple.[end]</data>
         <refs>
             <ref>0x454</ref>
         </refs>
-        <data>Peu de succès,pas de succès!
-Pourquoi n'ai-je aucun succès?
-C'est la vie,jeune homme![end]</data>
+        <data>Peu de succès,pas de succès !
+Pourquoi n'ai-je aucun succès ?
+C'est la vie,jeune homme ![end]</data>
     </text>
     <text>
         <refs>
@@ -78,7 +78,7 @@ C'est la vie,jeune homme![end]</data>
         </refs>
         <data>Je ne sais pas très bien ce que c'est
 mais je veux y participer.
-C'est comme ça,jeune homme![end]</data>
+C'est comme ça,jeune homme ![end]</data>
     </text>
     <text>
         <refs>
@@ -88,7 +88,7 @@ C'est comme ça,jeune homme![end]</data>
 révolution,nous n'aurons pas de
 lendemain à Dafira.
 Et sans jeunes filles,pas de lendemain
-non plus![end]</data>
+non plus ![end]</data>
     </text>
     <text>
         <refs>
@@ -103,7 +103,7 @@ Vraiment...[end]</data>
             <ref>0x28a</ref>
         </refs>
         <data> Lui parler...
- Se joindre à eux![end1]</data>
+ Se joindre à eux ![end1]</data>
     </text>
     <text>
         <refs>
@@ -116,11 +116,11 @@ l'équipe qui formera le groupe de
 Révolutionnaires pour la Liberté.
 Mais nous n'avons pas de chef.
 Mon plus haut grade est No [0xb1].
-Que veux-tu faire... toi?
+Que veux-tu faire... toi ?
 Qui pourrait être le leader de cette
-armée?
+armée ?
 Ca te dirait de devenir notre
-leader?[end]</data>
+leader ?[end]</data>
     </text>
     <text>
         <refs>
@@ -134,20 +134,20 @@ prouvera le contraire.[end]</data>
         <refs>
             <ref>0x2a8</ref>
         </refs>
-        <data> Pourquoi aurais-je confiance?
- Je vous rejoins![end1]</data>
+        <data> Pourquoi aurais-je confiance ?
+ Je vous rejoins ![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x2b7</ref>
         </refs>
         <data>D'accord,je crois que ça vaut le coup
-de t'embaucher!
+de t'embaucher !
  
 Je sens que tu ne sais pas comment
 t'y prendre.
-Mais,tout ira bien!
-Quels sont les buts de notre Révolution?
+Mais,tout ira bien !
+Quels sont les buts de notre Révolution ?
  
   
 Cette Révolution a pour but l'avènement
@@ -159,7 +159,7 @@ les femmes de Dafira.[end]</data>
             <ref>0x2c7</ref>
         </refs>
         <data>LIBERO:
-As-tu pris une résolution?[end]</data>
+As-tu pris une résolution ?[end]</data>
     </text>
     <text>
         <refs>
@@ -170,7 +170,7 @@ As-tu pris une résolution?[end]</data>
 devenir une Superstar en ramenant ici
 la liberté!
 Nous mettrons notre plan à éxécution,
-ce soir!
+ce soir !
  
 Cette nuit se sera l'avènement de la
 Renaissance de Dafira.[end]</data>
@@ -194,7 +194,7 @@ Mais où sont-ils,ces deux-là?[end]</data>
         <refs>
             <ref>0x333</ref>
         </refs>
-        <data>Hé! Partenaire!
+        <data>Hé! Partenaire !
 Tu m'as trouvé![end]</data>
     </text>
     <text>
@@ -202,10 +202,10 @@ Tu m'as trouvé![end]</data>
             <ref>0x382</ref>
         </refs>
         <data>ZEROSHIN:
-Le Leader des Rebelles!
-Voudrais-tu nous embaucher?
+Le Leader des Rebelles !
+Voudrais-tu nous embaucher ?
 Tu peux nous payer en différé.
-En [0xb0][0xb4] fois grand maximum,ok?[end]</data>
+En [0xb0][0xb4] fois grand maximum,ok ?[end]</data>
     </text>
     <text>
         <refs>
@@ -245,7 +245,7 @@ avec l'Option tant de Po par tête.[end]</data>
         <refs>
             <ref>0x39a</ref>
         </refs>
-        <data>Les employer?[end]</data>
+        <data>Les employer ?[end]</data>
     </text>
     <text>
         <refs>
@@ -287,7 +287,7 @@ un peu d'intimité?![end]</data>
         <refs>
             <ref>0x3a6</ref>
         </refs>
-        <data>Un meurtre![end]</data>
+        <data>Un meurtre ![end]</data>
     </text>
     <text>
         <refs>
@@ -295,8 +295,8 @@ un peu d'intimité?![end]</data>
         </refs>
         <data>SAJIN:
 Un peu d'entraînement pourra
-t'encourager!
-Mais maintenant,où se cacher?![end]</data>
+t'encourager !
+Mais maintenant,où se cacher ?![end]</data>
     </text>
     <text>
         <refs>
@@ -318,10 +318,10 @@ donc te remplir.[end]</data>
         </refs>
         <data>Terrine,j'ai le sentiment que les
 militaires ont oublié quelque chose
-lorsqu'ils partirent!
+lorsqu'ils partirent !
 Terrine...
 O Terrine...
-Quelle tristessssssse![end]</data>
+Quelle tristessssssse ![end]</data>
     </text>
     <text>
         <refs>
@@ -352,7 +352,7 @@ Il y a en [0xb0][0xb0].[end]</data>
             <ref>0x55e</ref>
         </refs>
         <data>Il y a [0xb2][0xaf][0xaf][0xaf] Po dans le pot.
-Vas-tu les voler?[end]</data>
+Vas-tu les voler ?[end]</data>
     </text>
     <text>
         <refs>

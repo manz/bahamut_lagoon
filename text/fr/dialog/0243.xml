@@ -4,26 +4,26 @@
         <refs>
             <ref>0x9e</ref>
         </refs>
-        <data>Frère!
+        <data>Frère !
 Nous sommes vraiment revenus chez
-nous pour de bon?![end]</data>
+nous pour de bon ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xaa</ref>
         </refs>
-        <data>Matelight me l'a dit!
-C'est fini!
-C'est vrai de vrai?![end]</data>
+        <data>Matelight me l'a dit !
+C'est fini !
+C'est vrai de vrai ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb6</ref>
         </refs>
-        <data>Je n'en reviens pas!
-Je suis ici!
+        <data>Je n'en reviens pas !
+Je suis ici !
  
-Et nous sommes enfin tous ensemble![end]</data>
+Et nous sommes enfin tous ensemble ![end]</data>
     </text>
     <text>
         <refs>
@@ -43,8 +43,8 @@ Mais...[end]</data>
         <refs>
             <ref>0xd7</ref>
         </refs>
-        <data>Mais... quoi?
-Qu'y a-t-il?[end]</data>
+        <data>Mais... quoi ?
+Qu'y a-t-il ?[end]</data>
     </text>
     <text>
         <refs>
@@ -57,7 +57,7 @@ Qu'y a-t-il?[end]</data>
             <ref>0xef</ref>
         </refs>
         <data>Qu'est-ce qui ne va pas,
-Bikkebakke?[end]</data>
+Bikkebakke ?[end]</data>
     </text>
     <text>
         <refs>
@@ -67,7 +67,7 @@ Bikkebakke?[end]</data>
 monde et à tous ces moments passés
 ensemble...
 Réjouissons-nous...
-Soyons heureux de tout nos souvenirs![end]</data>
+Soyons heureux de tout nos souvenirs ![end]</data>
     </text>
     <text>
         <refs>
@@ -80,8 +80,8 @@ Soyons heureux de tout nos souvenirs![end]</data>
             <ref>0x111</ref>
         </refs>
         <data>T... tout est enfin fini...
-Ecoutez!
-Tout le monde est heureux!
+Ecoutez !
+Tout le monde est heureux !
 Des lar...
 Des larmes me viennent...[end]</data>
     </text>

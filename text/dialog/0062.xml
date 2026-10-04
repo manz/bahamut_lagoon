@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0x580" room_id="62">
     <text>
         <refs>
@@ -26,8 +26,8 @@ J'en suis enchanté...[end]</data>
             <ref>0x253</ref>
         </refs>
         <data>Grrrrr...
-[0xa8]Il vaut mieux le laisser ou
- il va faire une crise.[0xa9][end]</data>
+``Il vaut mieux le laisser ou
+ il va faire une crise.''[end]</data>
     </text>
     <text>
         <refs>
@@ -252,7 +252,7 @@ avec l'Option tant de Po par tête.[end]</data>
             <ref>0x39e</ref>
         </refs>
         <data> En différé.
- Option [0xa8][0xb2][0xaf][0xaf][0xaf] Po par tête[0xa9].[end1]</data>
+ Option ``[0xb2][0xaf][0xaf][0xaf] Po par tête''.[end1]</data>
     </text>
     <text>
         <refs>

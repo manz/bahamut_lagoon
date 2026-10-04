@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0x369" room_id="44">
     <text>
         <refs>
@@ -134,6 +134,6 @@ FARENHEIT![end]</data>
             <ref>0x26e</ref>
         </refs>
         <data>manyo!
-[0xa8]... ...![0xa9][end]</data>
+``... ...!''[end]</data>
     </text>
 </texts>

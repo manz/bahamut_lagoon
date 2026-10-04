@@ -13,37 +13,37 @@
         </refs>
         <data>MATELIGHT:
 Les forces ennemis sont visibles de
-très loin![end]</data>
+très loin ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x121</ref>
         </refs>
         <data>MATELIGHT:
-La Princesse [character][0x1] serait-elle là-bas?[end]</data>
+La Princesse [character][0x1] serait-elle là-bas ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x152</ref>
         </refs>
         <data>MATELIGHT:
-[character][0x1],ne vous inquiétez pas!
-Nous arrivons![end]</data>
+[character][0x1],ne vous inquiétez pas !
+Nous arrivons ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x15e</ref>
         </refs>
         <data>MATELIGHT:
-Allons-y tout de suite!
-Partons![end]</data>
+Allons-y tout de suite !
+Partons ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x35e</ref>
         </refs>
         <data>SENDACK:
-Que veux-tu faire?
+Que veux-tu faire ?
  
  Appeler les dragons.
  Un peu de repos.[end1]</data>
@@ -52,7 +52,7 @@ Que veux-tu faire?
         <refs>
             <ref>0x372</ref>
         </refs>
-        <data>N'oublie pas de les nourrir![end]</data>
+        <data>N'oublie pas de les nourrir ![end]</data>
     </text>
     <text>
         <refs>
@@ -66,14 +66,14 @@ compte beaucoup.[end]</data>
             <ref>0x380</ref>
         </refs>
         <data>SENDACK:
-Ici... ici![end]</data>
+Ici... ici ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4df</ref>
         </refs>
         <data>SENDACK:
-[character][0x0],c'est fantastique![end]</data>
+[character][0x0],c'est fantastique ![end]</data>
     </text>
     <text>
         <refs>
@@ -87,10 +87,10 @@ dragons si tu les nourris bien.[end]</data>
             <ref>0x307</ref>
         </refs>
         <data>SENDACK:
-[character][0x0],que veux-tu faire?
+[character][0x0],que veux-tu faire ?
  
  Finir les préparatifs.
- Aller au combat![end1]</data>
+ Aller au combat ![end1]</data>
     </text>
     <text>
         <refs>
@@ -98,33 +98,33 @@ dragons si tu les nourris bien.[end]</data>
         </refs>
         <data>DOCTEUR DRAGON:
 Veux-tu des explications sur la
-nourriture?
- Je suis déjà très instruit!
+nourriture ?
+ Je suis déjà très instruit !
  J'aimerais en savoir plus...[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x5ce</ref>
         </refs>
-        <data>Très bien![end]</data>
+        <data>Très bien ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5d6</ref>
         </refs>
         <data>La personnalité d'un dragon dépend
-de la nourriture qui lui est donnée!
+de la nourriture qui lui est donnée !
  
 Les armes augmentent son caractère
 offensif donc il attaquera plus fort
-les ennemis!
+les ennemis !
 Les armures le rendent moins craintif
 donc il attaquera plus souvent les
-ennemis!
+ennemis !
 Soit généreux en les nourrissant,
 surtout si c'est leur nourriture
 favorite.
-Mais ne soit pas trop excessif!
+Mais ne soit pas trop excessif !
 Il vaut mieux de bonnes quantités
 constantes plutôt que de les goinfrer.
 Si ton dragon est heureux,
@@ -133,41 +133,41 @@ il fera alors des rotations.
 Ce dernier conseil te sera aussi utile:
 augmenter l'esprit et l'intelligence les
 rendra plus compétent en magie.
-Ce sont toutes les bases!
-A toi de réussir![end]</data>
+Ce sont toutes les bases !
+A toi de réussir ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x31b</ref>
         </refs>
         <data>Nous devons persévérer pour
-récupérer la Princesse![end][end]</data>
+récupérer la Princesse ![end][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x562</ref>
         </refs>
         <data>Je suis un marchand envoyé au champs
-de bataille!
-Tu veux commercer avec moi?[end][end]</data>
+de bataille !
+Tu veux commercer avec moi ?[end][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x183</ref>
         </refs>
         <data>RUSH:
-Tout de suite?!
+Tout de suite ?!
  
 Comment peut-il nous donner de tels
-ordres![end]</data>
+ordres ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1a1</ref>
         </refs>
         <data>LUKIA:
-Il est juste inquiet!
-Viens,n'y prête pas attention![end][end]</data>
+Il est juste inquiet !
+Viens,n'y prête pas attention ![end][end]</data>
     </text>
     <text>
         <refs>

@@ -5,7 +5,7 @@
             <ref>0xd3</ref>
         </refs>
         <data>SENDACK:
-Souvenez-vous![end]</data>
+Souvenez-vous ![end]</data>
     </text>
     <text>
         <refs>
@@ -23,7 +23,7 @@ Kana.[end]</data>
             <ref>0x114</ref>
         </refs>
         <data>MATELIGHT:
-C'était facile à voir![end]</data>
+C'était facile à voir ![end]</data>
     </text>
     <text>
         <refs>
@@ -47,14 +47,14 @@ L'Empire afin que nous puissions
             <ref>0x142</ref>
         </refs>
         <data>MATELIGHT:
-Venez![end]</data>
+Venez ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x157</ref>
         </refs>
         <data>COMMANDANT:
-Allons-y![end]</data>
+Allons-y ![end]</data>
     </text>
     <text>
         <refs>
@@ -72,7 +72,7 @@ puisque je les ai laissé à FARENHEIT.[end]</data>
         </refs>
         <data>SENDACK:
 Je suis inquiet pour le Dragon Sacré
-et la princesse![end]</data>
+et la princesse ![end]</data>
     </text>
     <text>
         <refs>
@@ -88,15 +88,15 @@ Les dragons sont là![end]</data>
         <data>MARCHAND ENVOYE AU CHAMP DE
 BATAILLE:
 Chaque nouvelle bataille est plus
-terrible que la précédente!
-Tu veux m'acheter quelque chose?[end]</data>
+terrible que la précédente !
+Tu veux m'acheter quelque chose ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x42d</ref>
         </refs>
         <data>COMMANDANT:
-Hâtez-vous!
+Hâtez-vous !
 L'ennemi semble être très puissant.[end]</data>
     </text>
     <text>
@@ -106,37 +106,37 @@ L'ennemi semble être très puissant.[end]</data>
         <data>LUKIA:
 Maintenant,il ne fait aucun doute que
 princesse soit ici.
-Elle doit être en danger![end]</data>
+Elle doit être en danger ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2f4</ref>
         </refs>
         <data>BIKKEBAKKE:
-Nous allons combattre?[end]</data>
+Nous allons combattre ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3bb</ref>
         </refs>
         <data>BIKKEBAKKE:
-A... allons-y![end]</data>
+A... allons-y ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x40d</ref>
         </refs>
         <data>MATELIGHT:
-Humph![end]</data>
+Humph ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xac</ref>
         </refs>
-        <data>Quelque soit le danger,il faut y aller!
-Qu'en penses-tu?
+        <data>Quelque soit le danger,il faut y aller !
+Qu'en penses-tu ?
  
- Effectivement!
+ Effectivement !
  Désolé...[end]</data>
     </text>
     <text>
@@ -167,24 +167,24 @@ différents champignons.[end]</data>
             <ref>0x6d</ref>
         </refs>
         <data>MATELIGHT:
-Sauzer!
+Sauzer !
  
 Comment avez-vous pû emmener la
-princesse dans cette horrible forêt?[end]</data>
+princesse dans cette horrible forêt ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x79</ref>
         </refs>
         <data>COMMANDANT:
-Il y a beaucoup d'ennemis![end]</data>
+Il y a beaucoup d'ennemis ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x87</ref>
         </refs>
-        <data>Ce ne sont pas des humains!
-Ca sent la magie![end]</data>
+        <data>Ce ne sont pas des humains !
+Ca sent la magie ![end]</data>
     </text>
     <text>
         <refs>
@@ -200,7 +200,7 @@ Ca sent la magie![end]</data>
         </refs>
         <data> Attendre.
  Appeler les Dragons.
- Prêt à combattre![end1]</data>
+ Prêt à combattre ![end1]</data>
     </text>
     <text>
         <refs>

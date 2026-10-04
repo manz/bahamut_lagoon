@@ -4,16 +4,16 @@
         <refs>
             <ref>0x64</ref>
         </refs>
-        <data>Matelite: Damn it!![0xfc][0x28]
-The Imperial army's approaching![0xfc][0x36]
-I never expected them to attack us
-here...[end1][end]</data>
+        <data>Matelite: Bon sang!![0xfc][0x28]
+L'armée impériale approche![0xfc][0x36]
+
+Je ne m'attendais pas à ce qu'ils nous attaquent ici...[end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x68</ref>
         </refs>
-        <data>We need to buy some time!![end1][end]</data>
+        <data>Nous devons gagner du temps !![end1][end]</data>
     </text>
     <text>
         <refs>
@@ -25,114 +25,109 @@ here...[end1][end]</data>
         <refs>
             <ref>0x90</ref>
         </refs>
-        <data>Sendak: If we are to cross the river,
-then we will need to freeze it using
-magic.[end1]</data>
+        <data>Sendak: Si nous devons traverser la rivière, alors nous
+aurons besoin de la geler en utilisant la magie.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x94</ref>
         </refs>
-        <data>Let us show them how to fight,
-[character][0x0]![end1][end]</data>
+        <data>[character][0x0], montrons-leur comment se battre !![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa3</ref>
         </refs>
-        <data>“Condition for Victory:”[0xfc][0x28]
-“Defeat of all enemies”[end]</data>
+        <data>“Condition de la victoire:”[0xfc][0x28]
+“Défaire tout les ennemis”[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc5</ref>
         </refs>
-        <data>If you melt the ice bridge with fire
-magic, the enemy will be unable to
-move!![end1][end]</data>
+        <data>Si vous faites fondre le pont de glace avec la magie du
+feu, l'ennemi sera incapable de se déplacer !![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd9</ref>
         </refs>
-        <data>Matelite: What're you doing?! Are you
-gonna help me already or what?!![end1][end]</data>
+        <data>Matelite: Qu'est-ce que tu fais ?!
+Est-ce que tu vas m'aider ou quoi ?[end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf8</ref>
         </refs>
-        <data>Let's move!!
-Take Kahna Castle by force!![end1][end]</data>
+        <data>Avancez !!
+Prenez le château de Kahna par la force !![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x220</ref>
         </refs>
-        <data>Ah... So we are crossing the river...
-Be careful when using fire magic.[end1][end]</data>
+        <data>Ah... Donc nous traversons la rivière...
+Soyez prudent lorsque vous utilisez la magie du feu.[end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x26b</ref>
         </refs>
-        <data>Ice bridges can be melted with fire
-magic, so be careful!![end1][end]</data>
+        <data>Les ponts de glace peuvent être fondus avec la magie du
+feu, alors faites attention !![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x387</ref>
         </refs>
-        <data>Matelite: I never thought I would be
-done in so soon...[end1][end]</data>
+        <data>Matelite: Je ne pensais jamais que je serai fait en si peu
+de temps ...[end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x392</ref>
         </refs>
-        <data>Sendak: [character][0x0]...[0xfc][0x20] This cannot be...[0xfc][0x30]
-How I longed to fight alongside you in
-future battles...[end1][end]</data>
+        <data>Sendak: [character][0x0]...[0xfc][0x20] Cela ne se peut...[0xfc][0x30]
+Comme j'avais envie de me battre à vos côtés dans de
+futures batailles...[end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3c6</ref>
         </refs>
-        <data>Don't isolate your dragon!!
-Command it to do something!![end1][end]</data>
+        <data>N'isolez pas votre dragon !!
+Donnez-lui un ordre !![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3ca</ref>
         </refs>
-        <data>Don't forget about the [0x22]Come[0x22] and
-[0x22]Wait[0x22] commands!![end1][end]</data>
+        <data>N'oubliez pas les commandes
+[0x22]Come[0x22] et [0x22]Wait[0x22] !![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x465</ref>
         </refs>
-        <data>The enemy...[end1][end]</data>
+        <data>L'ennemi...[end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x46c</ref>
         </refs>
-        <data>Prepare yourselves!![end1][end]</data>
+        <data>Préparez-vous !![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4bd</ref>
         </refs>
-        <data>King Kahna, he's...!![0xfc][0x30]
-The Granbelos generals have
-penetrated the castle!![end1][end]</data>
+        <data>Le Roi, est...!![0xfc][0x30]
+Les généraux Granbelos ont pénétrés dans le château !![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4c9</ref>
         </refs>
-        <data>Matelite: Damn it!! We have to protect
-the King!![end1][end]</data>
+        <data>Matelite: Bon sang!! Nous devons protéger le roi !![end1][end]</data>
     </text>
 </texts>

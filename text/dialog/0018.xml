@@ -1,11 +1,10 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0x1537" room_id="18">
     <text>
         <refs>
             <ref>0xe7</ref>
         </refs>
-        <data>LEVIATHAN:
-Où sommes-nous?[end]</data>
+        <data>Leviathan: Où sommes-nous?[end]</data>
     </text>
     <text>
         <refs>
@@ -78,9 +77,9 @@ Je suis encore la fille au coeur faible![end]</data>
         <refs>
             <ref>0x2b1</ref>
         </refs>
-        <data> 
-            Chapitre [0xb0][0xb7]
-        -La Place Promise-[end]</data>
+        <data>
+                   Chapitre [0xb0][0xb7]
+               -La Place Promise-[end]</data>
     </text>
     <text>
         <refs>
@@ -231,7 +230,7 @@ Ma version est celle-ci...[end]</data>
             <ref>0x3ce</ref>
         </refs>
         <data>Les Dragons Sacrés vaincront Granbelos
-et viendra alors une Ere Nouvelle pour
+et viendra alors une Ère Nouvelle pour
 Kana.
 Et cette ère perdurera à jamais.[end]</data>
     </text>
@@ -242,7 +241,7 @@ Et cette ère perdurera à jamais.[end]</data>
         <data>La Légende des Dragons Sacrés:
 La personne qui connaît le coeur des
 Dragons Sacrés ouvrira la Porte vers
-une Ere Nouvelle.
+une Ère Nouvelle.
 Il semblerait toutefois que la Porte
 soit ouverte.[end]</data>
     </text>
@@ -467,7 +466,7 @@ Merci...[end]</data>
             <ref>0x740</ref>
         </refs>
         <data>Mais Matelight,je sens que Bahamut est
-ha[0x25] par les autres Dragons Sacrés![end]</data>
+haï par les autres Dragons Sacrés![end]</data>
     </text>
     <text>
         <refs>

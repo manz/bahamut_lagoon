@@ -13,8 +13,8 @@ Mademoiselle [character][0x1]![end]</data>
             <ref>0x94</ref>
         </refs>
         <data>MATELIGHT:
-Je suis le Chevalier de votre contrée!
-Je suis enfin arrivé à vous![end]</data>
+Je suis le Chevalier de votre contrée !
+Je suis enfin arrivé à vous ![end]</data>
     </text>
     <text>
         <refs>
@@ -22,17 +22,17 @@ Je suis enfin arrivé à vous![end]</data>
         </refs>
         <data>COMMANDANT:
 Je suis Commandant,Capitaine de
-Mahal,je suis venu avec Matelight![end]</data>
+Mahal,je suis venu avec Matelight ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x586</ref>
         </refs>
         <data>RUSH:
-Granbelos le paiera!
+Granbelos le paiera !
  
 On n'emmène pas la Princesse dans un
-tel lieu![end]</data>
+tel lieu ![end]</data>
     </text>
     <text>
         <refs>
@@ -47,58 +47,58 @@ Arrêtons-nous ici...[end]</data>
             <ref>0x2b8</ref>
         </refs>
         <data>LUKIA:
-Ne le fais pas trop parler!
+Ne le fais pas trop parler !
  
 Sendack doit se reposer un instant,
 et il sera bientôt de nouveau plein
-vigueur![end]</data>
+vigueur ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x599</ref>
         </refs>
         <data>RUSH:
-Ce passage est suspect!
-Que veux-tu faire?
+Ce passage est suspect !
+Que veux-tu faire ?
  Je te suis.
- Je passe en premier![end1]</data>
+ Je passe en premier ![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x5d8</ref>
         </refs>
         <data>RUSH:
-Minute![end]</data>
+Minute ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5a7</ref>
         </refs>
         <data>RUSH:
-J'ai découvert ta pensée!
+J'ai découvert ta pensée !
  
 Tu veux que j'aille secourir seul la
-princesse puis tu me rejoindras!
-C'est ça ton idée,n'est-ce pas?
-Et bien,ça ne marche pas avec moi!
-Nous entrerons l'un après l'autre![end]</data>
+princesse puis tu me rejoindras !
+C'est ça ton idée,n'est-ce pas ?
+Et bien,ça ne marche pas avec moi !
+Nous entrerons l'un après l'autre ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5b4</ref>
         </refs>
         <data>RUSH:
-Pas si vite![end]</data>
+Pas si vite ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5cd</ref>
         </refs>
         <data>RUSH:
-J'entrerai en premier!
-Tu veux être le seul héros?
-Et bien,ça ne marche pas avec moi!
-Tu passeras après moi!
+J'entrerai en premier !
+Tu veux être le seul héros ?
+Et bien,ça ne marche pas avec moi !
+Tu passeras après moi !
  
 J'irai secourir la princesse et tu
 suivras au cas où il se passerait
@@ -108,11 +108,11 @@ quelque chose.[end]</data>
         <refs>
             <ref>0x76c</ref>
         </refs>
-        <data>Tu pourrais au moins me remercier!
+        <data>Tu pourrais au moins me remercier !
  
   
-Tiens!
-Qu'avons-nous ici?![end]</data>
+Tiens !
+Qu'avons-nous ici ?![end]</data>
     </text>
     <text>
         <refs>
@@ -126,8 +126,8 @@ Qu'avons-nous ici?![end]</data>
             <ref>0x346</ref>
         </refs>
         <data>Héhéhéhéhé!
-Hohihi!
-Hihihihihi![end]</data>
+Hohihi !
+Hihihihihi ![end]</data>
     </text>
     <text>
         <refs>
@@ -135,15 +135,15 @@ Hihihihihi![end]</data>
             <ref>0x3df</ref>
         </refs>
         <data>LEGION:
-Aaaaaah![end]</data>
+Aaaaaah ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x369</ref>
         </refs>
         <data>LEGION:
-Chef Zonbeld!
-Je n'aurais pas dû m'endormir![end]</data>
+Chef Zonbeld !
+Je n'aurais pas dû m'endormir ![end]</data>
     </text>
     <text>
         <refs>
@@ -157,21 +157,21 @@ Hé,vous là?![end]</data>
             <ref>0x3a0</ref>
         </refs>
         <data>LEGION:
-Vous êtes des rebelles?!
-Lai... laissez-moi en vie![end]</data>
+Vous êtes des rebelles ?!
+Lai... laissez-moi en vie ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3bf</ref>
         </refs>
         <data>LEGION:
-Je... je pourrais être utile!
-Quoi?!
-Peut... peut-être la torture?!
-Vous voulez vraiment faire cela?!
+Je... je pourrais être utile !
+Quoi ?!
+Peut... peut-être la torture ?!
+Vous voulez vraiment faire cela ?!
  
- Le torturer!
- Je le pourrais![end1]</data>
+ Le torturer !
+ Je le pourrais ![end1]</data>
     </text>
     <text>
         <refs>
@@ -180,7 +180,7 @@ Vous voulez vraiment faire cela?!
         <data>... ... ... ...
  
   
-C'est un plan pour me piéger![end]</data>
+C'est un plan pour me piéger ![end]</data>
     </text>
     <text>
         <refs>
@@ -188,8 +188,8 @@ C'est un plan pour me piéger![end]</data>
         </refs>
         <data>MATELIGHT:
 Ca avance lentement mais sûrement...
-Dépêchons-nous!
-Trouve vite un passage![end]</data>
+Dépêchons-nous !
+Trouve vite un passage ![end]</data>
     </text>
     <text>
         <refs>
@@ -202,9 +202,9 @@ Trouve vite un passage![end]</data>
             <ref>0x4de</ref>
             <ref>0x40f</ref>
         </refs>
-        <data>Aaah!
-Nonnnnnn!
-C'est douloureux![end]</data>
+        <data>Aaah !
+Nonnnnnn !
+C'est douloureux ![end]</data>
     </text>
     <text>
         <refs>
@@ -219,17 +219,17 @@ Où est la Princesse [character][0x1]?[end]</data>
             <ref>0x460</ref>
         </refs>
         <data>RUSH:
-La Princesse n'est pas ici!
+La Princesse n'est pas ici !
  
 [character][0x0] va utiliser la torture pour que
-ce soldat nous dise où elle se trouve![end]</data>
+ce soldat nous dise où elle se trouve ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x46d</ref>
         </refs>
         <data>COMMANDANT:
-Très bonne idée![end]</data>
+Très bonne idée ![end]</data>
     </text>
     <text>
         <refs>
@@ -238,7 +238,7 @@ Très bonne idée![end]</data>
         </refs>
         <data>MATELIGHT:
 Vas-y [character][0x0]!
-Et ne lésine pas sur les coups![end]</data>
+Et ne lésine pas sur les coups ![end]</data>
     </text>
     <text>
         <refs>
@@ -246,23 +246,23 @@ Et ne lésine pas sur les coups![end]</data>
         </refs>
         <data>LEGION:
 Arrêtez...
-Je vais parler... Je vais parler!
+Je vais parler... Je vais parler !
 L'Empereur Sauzer a emmené la
-Princesse [character][0x1] avec lui![end]</data>
+Princesse [character][0x1] avec lui ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4b3</ref>
         </refs>
         <data>MATELIGHT:
-Où l'a-t-il EMMENEE?![end]</data>
+Où l'a-t-il EMMENEE ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4bc</ref>
         </refs>
         <data>LEGION:
-Dans une forêt au Nord!
+Dans une forêt au Nord !
  
 D'ici,vous pouvez apercevoir la cime
 des arbres.[end]</data>
@@ -273,35 +273,35 @@ des arbres.[end]</data>
         </refs>
         <data>MATELIGHT:
 Nous pouvons apercevoir la cime des
-arbres?!
-Nous devons y aller![end]</data>
+arbres ?!
+Nous devons y aller ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4d5</ref>
         </refs>
         <data>MATELIGHT:
-Très bien!
+Très bien !
  
 Utilise la force et montre-lui ce qu'est
-une vraie scéance de torture![end]</data>
+une vraie scéance de torture ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x53b</ref>
         </refs>
         <data>RUSH:
-C'est dangereux!
+C'est dangereux !
  
 Je vais aller voir si ce type n'a pas
-des amis qui traînent![end]</data>
+des amis qui traînent ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x201</ref>
         </refs>
         <data>[character][0x1]...
-Votre coeur est empli de chagrin!
+Votre coeur est empli de chagrin !
 Nous ferons tout ce qui est en notre
 pouvoir pour vous libérer.[end]</data>
     </text>
@@ -312,7 +312,7 @@ pouvoir pour vous libérer.[end]</data>
         <data>[character][0x1]...
 Aurait-elle été torturé?
  
-Mon esprit me joue des tours![end]</data>
+Mon esprit me joue des tours ![end]</data>
     </text>
     <text>
         <refs>
@@ -320,7 +320,7 @@ Mon esprit me joue des tours![end]</data>
         </refs>
         <data>LUKIA:
 Rush est parti à la poursuite du soldat
-impérial![end]</data>
+impérial ![end]</data>
     </text>
     <text>
         <refs>
@@ -335,7 +335,7 @@ Des tortures...[end]</data>
             <ref>0x57f</ref>
         </refs>
         <data>RUSH:
-C'est fini!
+C'est fini !
 Il a réussi à s'enfuir pour de bon...[end]</data>
     </text>
     <text>
@@ -343,7 +343,7 @@ Il a réussi à s'enfuir pour de bon...[end]</data>
             <ref>0x2df</ref>
         </refs>
         <data>RUSH:
-Mais une autre personne arrive![end]</data>
+Mais une autre personne arrive ![end]</data>
     </text>
     <text>
         <refs>
@@ -352,7 +352,7 @@ Mais une autre personne arrive![end]</data>
         </refs>
         <data>MARCHAND ENVOYE AU CHAMP DE
 BATAILLE:
-Besoin de quelque chose?![end][end]</data>
+Besoin de quelque chose ?![end][end]</data>
     </text>
     <text>
         <refs>
@@ -367,32 +367,32 @@ Besoin de quelque chose?![end][end]</data>
             <ref>0x27c</ref>
         </refs>
         <data>LUKIA:
-Es-tu prêt à aller au combat?
+Es-tu prêt à aller au combat ?
  
  Attendre.
- A l'attaque![end1]</data>
+ A l'attaque ![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x29f</ref>
         </refs>
         <data>MATELIGHT:
-Vous avez entendu?!
-J'entends des cris qui approchent![end]</data>
+Vous avez entendu ?!
+J'entends des cris qui approchent ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x612</ref>
         </refs>
         <data>RUSH:
-Tu comprends ce que dit ce type?[end]</data>
+Tu comprends ce que dit ce type ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x248</ref>
         </refs>
         <data>COMMANDANT:
-Vite,[character][0x1] est peut-être blessée![end]</data>
+Vite,[character][0x1] est peut-être blessée ![end]</data>
     </text>
     <text>
         <refs>
@@ -400,7 +400,7 @@ Vite,[character][0x1] est peut-être blessée![end]</data>
         </refs>
         <data>COMMANDANT:
 Il y a plusieurs manières pour faire ce
-genre de choses![end]</data>
+genre de choses ![end]</data>
     </text>
     <text>
         <refs>
@@ -415,7 +415,7 @@ genre de choses![end]</data>
         </refs>
         <data>RUSH:
 [character][0x0]!
-Où vas-tu?![end]</data>
+Où vas-tu ?![end]</data>
     </text>
     <text>
         <refs>
@@ -423,6 +423,6 @@ Où vas-tu?![end]</data>
         </refs>
         <data>BIKKEBAKKE:
 Les dragons doivent tous être nourris.
-Ne l'oublie pas![end]</data>
+Ne l'oublie pas ![end]</data>
     </text>
 </texts>

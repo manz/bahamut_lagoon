@@ -1,11 +1,11 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0x1cc7" room_id="20">
     <text>
         <refs>
             <ref>0x91</ref>
         </refs>
-        <data>              Chapitre [0xb1]
-    -La Légende Dont Nous Rêvons-[end]</data>
+        <data>                    Chapitre [0xb1]
+           -La Légende Dont Nous Rêvons-[end]</data>
     </text>
     <text>
         <refs>
@@ -246,7 +246,7 @@ Allez![end]</data>
         </refs>
         <data>Droite Droite[0xd8][0xd8]
  [0xfc][0x10]       
-[0xa8]Direction... Droite[0xd8][0xd8][0xa9][end1]</data>
+``Direction... Droite[0xd8][0xd8]''[end1]</data>
     </text>
     <text>
         <refs>
@@ -254,7 +254,7 @@ Allez![end]</data>
         </refs>
         <data>Gauche Gauche[0xd8][0xd8]
  [0xfc][0x10]
-[0xa8]Direction... Gauche[0xd8][0xd8][0xa9][end1]</data>
+``Direction... Gauche[0xd8][0xd8]''[end1]</data>
     </text>
     <text>
         <refs>
@@ -262,7 +262,7 @@ Allez![end]</data>
         </refs>
         <data>Quelle amélioration[0xd8]
  [0xfc][0x10] 
-[0xa8]Direction... Droit devant[0xd8][0xa9][end1]</data>
+``Direction... Droit devant[0xd8]''[end1]</data>
     </text>
     <text>
         <refs>
@@ -553,12 +553,12 @@ Bon... bonjour![end]</data>
             <ref>0x104b</ref>
         </refs>
         <data>SERGENT:
-[0xa8]Grognement[0xa9]Je suis Sergent.
-[0xa8]Grognement[0xa9]
+``Grognement''Je suis Sergent.
+``Grognement''
 Droite face,droite,droite...
 Gauche face,gauche,gauche...
-Aucune erreur...[0xa8]Grognement[0xa9]
-Ce sont les bases[0xa8]Grognement[0xa9]
+Aucune erreur...``Grognement''
+Ce sont les bases``Grognement''
 d'un exercice d'entraînement d'une
 légion à Mahal.[end]</data>
     </text>
@@ -577,7 +577,7 @@ cette réunion pour un premier jour?![end]</data>
             <ref>0xf36</ref>
         </refs>
         <data>LUKIA:
-Suis-je une héro[0x25]ne?
+Suis-je une héroïne?
 J'ai plutôt l'air sévère...[end]</data>
     </text>
     <text>
@@ -842,7 +842,7 @@ attentivement.[end]</data>
  
   
 [character][0x1]...
-[0xa8]Marmonnement[0xa9][end]</data>
+``Marmonnement''[end]</data>
     </text>
     <text>
         <refs>
@@ -1057,10 +1057,10 @@ Pour... tout le monde![end]</data>
         </refs>
         <data>SERGENT:
 Je me suis froissé un muscle!
-[0xa8]Grognement[0xa9]
+``Grognement''
 Hier,Matelight était en colère contre
 tout le monde.
-Mon muscle...[0xa8]Grognement[0xa9][end]</data>
+Mon muscle...``Grognement''[end]</data>
     </text>
     <text>
         <refs>
@@ -1145,8 +1145,8 @@ quelques livres?[end]</data>
         <data>PALPALEOS:
 Je suis l'un des principaux membres
 des Rebelles.
-[0xa8]Mais qui ne sert très vite plus à
- rien.[0xa9][end]</data>
+``Mais qui ne sert très vite plus à
+ rien.''[end]</data>
     </text>
     <text>
         <refs>
@@ -1164,7 +1164,7 @@ plus que le No [0xb2].[end]</data>
         </refs>
         <data>HORNET:
 Etre père...
-[0xa8]Grand sourire[0xa9][end]</data>
+``Grand sourire''[end]</data>
     </text>
     <text>
         <refs>
@@ -1179,7 +1179,7 @@ Tu veux voler?![end]</data>
         </refs>
         <data>HORNET:
 Avoir un enfant...
-[0xa8]Génial[0xa9][end]</data>
+``Génial''[end]</data>
     </text>
     <text>
         <refs>

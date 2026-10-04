@@ -1546,7 +1546,7 @@
         <refs>
             <ref>0x250</ref>
         </refs>
-        <data>The Holy Dragon          Jormungand[end]</data>
+        <data>The Holy Dragon Jormungand[end]</data>
     </string>
     <string>
         <refs>
@@ -1685,7 +1685,7 @@
         <refs>
             <ref>0x26d</ref>
         </refs>
-        <data>   Please choose a saved game.[end]</data>
+        <data>Please choose a saved game.[end]</data>
     </string>
     <string>
         <refs>

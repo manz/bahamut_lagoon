@@ -12,8 +12,8 @@ Princesse [character][0x1][0xd8][end]</data>
             <ref>0x11d</ref>
         </refs>
         <data>COMMANDANT:
-Matelight!
-Reste ici!
+Matelight !
+Reste ici !
 Pour une fois,écoute-moi et viens...[end]</data>
     </text>
     <text>
@@ -23,7 +23,7 @@ Pour une fois,écoute-moi et viens...[end]</data>
         <data>RUSH:
 ... ... ... ...
  
-Très bien,partons![end]</data>
+Très bien,partons ![end]</data>
     </text>
     <text>
         <refs>
@@ -36,7 +36,7 @@ Très bien,partons![end]</data>
         <refs>
             <ref>0x684</ref>
         </refs>
-        <data> Tu crois que tout est fini!
+        <data> Tu crois que tout est fini !
  Tu es un vieil homme...[end1]</data>
     </text>
     <text>
@@ -67,7 +67,7 @@ Prends soin de lui...[end]</data>
             <ref>0x5a6</ref>
         </refs>
         <data>PALPALEOS:
-[character][0x0],j'aimerais te parler!
+[character][0x0],j'aimerais te parler !
 C'est très important...[end]</data>
     </text>
     <text>

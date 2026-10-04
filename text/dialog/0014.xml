@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0x9dd" room_id="14">
     <text>
         <refs>
@@ -202,7 +202,7 @@ Tu es un ange si tendre![end]</data>
             <ref>0x8ca</ref>
         </refs>
         <data>Moi,je ne suis qu'un coeur solaitaire,
-je suis Don Juan ton Na[0x25]f et Fidèle
+je suis Don Juan ton Naïf et Fidèle
 serviteur.[end]</data>
     </text>
     <text>

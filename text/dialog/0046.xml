@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0x59f" room_id="46">
     <text>
         <refs>
@@ -149,7 +149,7 @@ sentiments.
 Il y a très longtemps,
 nous nous combattîmes!
  
-Nous nous ha[0x25]ssions.
+Nous nous haïssions.
 Nous nous querellions.
 Nous nous maudissions.
 Nous nous invoquions les uns et les

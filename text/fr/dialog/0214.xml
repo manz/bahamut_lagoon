@@ -6,7 +6,7 @@
         </refs>
         <data>MATELOT:
 [character][0x0],[character][0x0]!
-Qu'aimerais-tu?[end]</data>
+Qu'aimerais-tu ?[end]</data>
     </text>
     <text>
         <refs>
@@ -15,7 +15,7 @@ Qu'aimerais-tu?[end]</data>
         </refs>
         <data>BIKKEBAKKE:
 [character][0x0],vieux frère...
-Sil te plaît,coopère!
+Sil te plaît,coopère !
  Coopérer.
  L'écouter parler.[end1]</data>
     </text>
@@ -26,9 +26,9 @@ Sil te plaît,coopère!
         <data>BIKKEBAKKE:
 La Princesse [character][0x1] est revenue.
  
-Nous pouvons donc rentrer à la maison!
+Nous pouvons donc rentrer à la maison !
 Ainsi,je pourrai me consacrer à
-l'économie et à l'argent!
+l'économie et à l'argent !
 Toi,moi,Taurus et Rush nous briserons
 la délinquence à Kana.
  
@@ -38,9 +38,9 @@ auparavant.
 Nous mangerons tout ce qu'il nous
 sera possible de manger et nous
 dormirons rassasiés.
-Que suis-je en train de dire?!
+Que suis-je en train de dire ?!
 La guerre n'est pas finie et ce
-bateau est confortable tout de même!
+bateau est confortable tout de même !
 Je veux être avec toi,Rush et Taurus.
 Garde cela secret...[end]</data>
     </text>
@@ -56,13 +56,13 @@ Je suis très embarrassé.[end]</data>
             <ref>0x7f1</ref>
         </refs>
         <data>REEVE:
-Frunze s'est endormi!
-Hahahahaha!
+Frunze s'est endormi !
+Hahahahaha !
 Comme tu peux t'en apercevoir,un
 groupe de lanciers ne fait pas tout
-ensemble!
-Lance haute!
-Lance haute![end]</data>
+ensemble !
+Lance haute !
+Lance haute ![end]</data>
     </text>
     <text>
         <refs>
@@ -72,7 +72,7 @@ Lance haute![end]</data>
 Frunze est encore couché!
  
 J'aimerais qu'il y ait un autre lancier
-dans ce bateau![end]</data>
+dans ce bateau ![end]</data>
     </text>
     <text>
         <refs>
@@ -80,10 +80,10 @@ dans ce bateau![end]</data>
         </refs>
         <data>FRUNZE:
 Guh...
-Tu veux me parler de Reeve?
+Tu veux me parler de Reeve ?
 Mon partenaire aurait besoin d'un
 médecin pour soigner son expression
-[0xaa]Lance Lance![0xab].
+[0xaa]Lance Lance ![0xab].
 Malgré ce petit inconvénient,
 nous sommes très amis.[end]</data>
     </text>
@@ -92,7 +92,7 @@ nous sommes très amis.[end]</data>
             <ref>0x837</ref>
         </refs>
         <data>FRUNZE:
-Cette histoire se réglera entre lanciers![end]</data>
+Cette histoire se réglera entre lanciers ![end]</data>
     </text>
     <text>
         <refs>
@@ -110,7 +110,7 @@ armure.[end]</data>
         <refs>
             <ref>0x7d2</ref>
         </refs>
-        <data>Obtenu [0xaa]Sergent???[0xab].[end]</data>
+        <data>Obtenu [0xaa]Sergent ???[0xab].[end]</data>
     </text>
     <text>
         <refs>
@@ -120,7 +120,7 @@ armure.[end]</data>
 Parlons seul à seul...
 [0xa8]Grognement[0xa9]
 Est-ce que Commandant te semble être
-toujours le même?
+toujours le même ?
  
  Je pense...
  Je ne pense pas...[end1]</data>
@@ -146,54 +146,54 @@ Dès que j'en ai l'occasion,je parle
         <refs>
             <ref>0x628</ref>
         </refs>
-        <data>Tu feras des achats plus tard!
+        <data>Tu feras des achats plus tard !
 Taurus a caché un grand livre dans sa
 chambre.
-J'aimerais savoir ce que c'est!
+J'aimerais savoir ce que c'est !
 Par contre Rush semble agir
 bizarrement et je me demande ce qu'il
-a?!
-Je n'y comprends rien du tout![end]</data>
+a ?!
+Je n'y comprends rien du tout ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x69c</ref>
         </refs>
         <data>BARECK:
-Je veux me plaindre!
-Veux-tu m'entendre?
- Vas-y,s'il te plaît!
+Je veux me plaindre !
+Veux-tu m'entendre ?
+ Vas-y,s'il te plaît !
  Je suis occupé...[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x6a9</ref>
         </refs>
-        <data>Je ne suis pas content!
+        <data>Je ne suis pas content !
 Tout ça à cause d'une sorcière
 vaniteuse comme Anastasia.
 Elle rit de moi en imaginant ce que
-je serais dans un groupe de filles!
-[0xaa]Va plus loin! Va plus vite![0xab]
+je serais dans un groupe de filles !
+[0xaa]Va plus loin ! Va plus vite ![0xab]
 Voilà ce qu'elle me dirait à tout bout
-de champ!
+de champ !
  
 Mais ce n'est pas de ma faute si nos
 armures sont très lourdes.
 De plus,les braves guerriers ne
 peuvent pas jeter de sorts sur de
 longues distances mais nos attaques
-directes sont puissantes!
+directes sont puissantes !
 Anastasia devrait savoir que la plupart
 des victoires sont remportées grâce à
 nous.
 C'est grâce à nos attaques directes
 qu'elle peut savourer tant de victoire.
-Hein! Quoi?
-Tu ne m'écoutes plus?
-Tu rejoins tes quartiers?
-Juste une dernière chose!
-Sache que la victoire c'est l'argent![end]</data>
+Hein ! Quoi ?
+Tu ne m'écoutes plus ?
+Tu rejoins tes quartiers ?
+Juste une dernière chose !
+Sache que la victoire c'est l'argent ![end]</data>
     </text>
     <text>
         <refs>
@@ -209,7 +209,7 @@ Sache que la victoire c'est l'argent![end]</data>
         <data>RUSH:
 Durant les combats,je ne vois que le
 sourire de [character][0x1],et alors,je me dis:
-Fais de ton mieux,Rush!
+Fais de ton mieux,Rush !
 Mais le Général Palpaleos est arrivé et
 la plupart de mes rêves ont disparu.
  Tu es obstiné!
@@ -219,15 +219,15 @@ la plupart de mes rêves ont disparu.
         <refs>
             <ref>0x5b1</ref>
         </refs>
-        <data>Tu as raison!
-Je dois faire quelque chose!
-Je la protègerai![end]</data>
+        <data>Tu as raison !
+Je dois faire quelque chose !
+Je la protègerai ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5bb</ref>
         </refs>
-        <data>Obtenu [0xaa]PRINCESSE???[0xab].[end]</data>
+        <data>Obtenu [0xaa]PRINCESSE ???[0xab].[end]</data>
     </text>
     <text>
         <refs>
@@ -261,25 +261,25 @@ augmenter en force.[end]</data>
 Je dois t'annoncer que j'aime
 quelqu'un...
 Une sorcière vaniteuse...
-C'est Anastasia!
+C'est Anastasia !
 J'ai discuté avec elle...
 Si je vis avec elle,je suppose que
 nous allons nous marier.
  
 Une sorcière et une armure lourde
-ensemble!
-Qui l'aurait cru?!
+ensemble !
+Qui l'aurait cru ?!
 Nous devrons faire beaucoup d'efforts
 pour ne pas nous disputer.
  
- Félicitations!
- Tout mes voeux de bonheur![end1]</data>
+ Félicitations !
+ Tout mes voeux de bonheur ![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x72d</ref>
         </refs>
-        <data>Merci!
+        <data>Merci !
 N'en parle pas à Matelight,
 garde ça secret.[end]</data>
     </text>
@@ -291,9 +291,9 @@ garde ça secret.[end]</data>
 [character][0x0]!
 [0xa8]Grognement[0xa9]
 Il est mieux pour tous de retourner
-vivre à Orelus!
+vivre à Orelus !
 [0xa8]Grognement[0xa9]
-Il y a tant de choses à y faire![end]</data>
+Il y a tant de choses à y faire ![end]</data>
     </text>
     <text>
         <refs>
@@ -301,10 +301,10 @@ Il y a tant de choses à y faire![end]</data>
         </refs>
         <data>REEVE:
 Altair va redonner de la vigueur à
-Frunze!
+Frunze !
 Ensemble,nous crierons:
-Lan... Lan... Lancier!
-Je suis content![end]</data>
+Lan... Lan... Lancier !
+Je suis content ![end]</data>
     </text>
     <text>
         <refs>
@@ -313,24 +313,24 @@ Je suis content![end]</data>
         <data>FRUNZE:
 ... ... ... ...
  
-Je suis un lancier!
-Lan... Lan... Lancier!
-Jeter les Lances!
+Je suis un lancier !
+Lan... Lan... Lancier !
+Jeter les Lances !
 Je vais faire cela à Altair pour le
 monde entier.
 Personne ne nous vaincra...
 C'est moi qui ai décidé ça ou du
 moins,Lukia nous l'a fait comprendre.
-Tout ira bien,n'est-ce pas?[end]</data>
+Tout ira bien,n'est-ce pas ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x85b</ref>
         </refs>
         <data>FILS DE ZORA:
-Quoi?!
-Tu veux connaître mon nom?
- Dis-le moi!
+Quoi ?!
+Tu veux connaître mon nom ?
+ Dis-le moi !
  Ca m'est égal...[end1]</data>
     </text>
     <text>
@@ -339,7 +339,7 @@ Tu veux connaître mon nom?
         </refs>
         <data>FILS DE ZORA:
 En réalité...
-Mon nom est... Orelus!
+Mon nom est... Orelus !
 Beaucoup de personnes dans le monde
 s'appellent comme ça.
  
@@ -351,7 +351,7 @@ jamais vaincu...
  
 Parfois,j'entends même des gens crier
 mon nom haut et fort.
-Je ferai de mon mieux![end]</data>
+Je ferai de mon mieux ![end]</data>
     </text>
     <text>
         <refs>
@@ -359,9 +359,9 @@ Je ferai de mon mieux![end]</data>
         </refs>
         <data>RUSH:
 Nous aimons le combat,
-nous allons aller combattre!
+nous allons aller combattre !
 Nous connaissons tous le but de
-l'Armée de Libération d'Orelus![end][end]</data>
+l'Armée de Libération d'Orelus ![end][end]</data>
     </text>
     <text>
         <refs>
@@ -369,9 +369,9 @@ l'Armée de Libération d'Orelus![end][end]</data>
         </refs>
         <data>BIKKEBAKKE:
 Je crois que l'argent devient
-insupportable à la fin!
+insupportable à la fin !
 Mais depuis que j'ai commencé à
-commercer,je ne peux plus m'arrêter![end]</data>
+commercer,je ne peux plus m'arrêter ![end]</data>
     </text>
     <text>
         <refs>
@@ -399,7 +399,7 @@ Chantonnons...[end]</data>
             <ref>0x807</ref>
         </refs>
         <data>REEVE:
-Ah! Mon pauvre ventre!
+Ah ! Mon pauvre ventre !
 N'accoste pas les gens comme ça.[end]</data>
     </text>
     <text>
@@ -408,7 +408,7 @@ N'accoste pas les gens comme ça.[end]</data>
         </refs>
         <data>FRUNZE:
 Reeve a mangé un mélange de
-[0xaa]SERGENT???[0xab] et de [0xaa]UNIUJI[0xab].
+[0xaa]SERGENT ???[0xab] et de [0xaa]UNIUJI[0xab].
 Il a mal à l'estomac...
 Je lui ai moi-même préparé ce cocktail
 pour avoir trahi mon amitié.
@@ -420,7 +420,7 @@ Il faut craindre mes vengeances.[end]</data>
         <refs>
             <ref>0x789</ref>
         </refs>
-        <data>Demander à Sergent ce qu'il fredonne?
+        <data>Demander à Sergent ce qu'il fredonne ?
  
   
  Demander.
@@ -435,13 +435,13 @@ Il faut craindre mes vengeances.[end]</data>
  
 Le Pont Arc-en-Ciel...
 Ouvrez les barrages...
-Regardez tous! [0xa8]Grognement[0xa9]
-Pêchez les pieuvres!
-Soyez heureux! [0xa8]Grognement[0xa9]
+Regardez tous ! [0xa8]Grognement[0xa9]
+Pêchez les pieuvres !
+Soyez heureux ! [0xa8]Grognement[0xa9]
  
 Aaaah Mahal[0xa8]Grognement[0xa9]
 Erigeons tous ensemble le plus beau de
-tout les palais! [0xa8]Grognement[0xa9][end]</data>
+tout les palais ! [0xa8]Grognement[0xa9][end]</data>
     </text>
     <text>
         <refs>
@@ -454,25 +454,25 @@ mêmes pour les hommes et les femmes.
 C'est alors que je pensai de suite au
 couple et à l'amour qui bourgeonne en
 moment...
-Que penses-tu de cela?
+Que penses-tu de cela ?
  
- C'est bien d'en parler!
- Ce n'est pas vraiment super![end1]</data>
+ C'est bien d'en parler !
+ Ce n'est pas vraiment super ![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x6cd</ref>
         </refs>
         <data>Je ne sais pas comment j'en suis venu
-à penser à ça? Peut-être le hasard![end]</data>
+à penser à ça ? Peut-être le hasard ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6df</ref>
         </refs>
         <data>J'espère que tu n'abandonnes pas la
-lutte pour celle que tu aimes!
-Je te comprends,tu sais!
+lutte pour celle que tu aimes !
+Je te comprends,tu sais !
 Personne n'est heureux s'il y a une
 seconde personne qui s'incruste entre
 vous.[end]</data>
@@ -483,15 +483,15 @@ vous.[end]</data>
         </refs>
         <data>BARECK:
 Il faut que tu me dise ce que tu
-penses de ma nouvelle idée!
+penses de ma nouvelle idée !
 Crois-tu qu'une bataille entre les
 sorcières et les guerriers soit
-possible?!
+possible ?!
 Ainsi,lorsque le combat sera fini,
 nous pourrons signer une trève.
  
- C'est splendide!
- C'est absolument inutile![end1]</data>
+ C'est splendide !
+ C'est absolument inutile ![end1]</data>
     </text>
     <text>
         <refs>
@@ -499,14 +499,14 @@ nous pourrons signer une trève.
         </refs>
         <data>Je crois que tu n'as pas très bien
 compris ce que j'ai voulu te dire.
-Mais je te comprends!
+Mais je te comprends !
 Tu dois avoir la tête ailleurs depuis
 que tu as un ennemi dans tes histoires
 sentimentales.
 Il faut dire aussi que tu es souvent
 très occupé!
 N'oublie quand même pas de te
-préparer pour la prochaine bataille!
+préparer pour la prochaine bataille !
 Il faut penser à nous acheter de
 nouveaux équipements pour le combat.[end]</data>
     </text>
@@ -514,19 +514,19 @@ nouveaux équipements pour le combat.[end]</data>
         <refs>
             <ref>0x70f</ref>
         </refs>
-        <data>C'est ce que je pensais aussi!
+        <data>C'est ce que je pensais aussi !
 Je vois que nous avons les mêmes
-points de vue![end]</data>
+points de vue ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x718</ref>
         </refs>
-        <data>Ce n'est pas original?!
+        <data>Ce n'est pas original ?!
 Je pensais pourtant avoir eu une très
-bonne idée. Hahahahaha!
+bonne idée. Hahahahaha !
 Très bien,préparons-nous pour le
-prochain assaut![end]</data>
+prochain assaut ![end]</data>
     </text>
     <text>
         <refs>
@@ -537,7 +537,7 @@ Guh huh huh...
  
 Je ne suis pas différent des autres
 puisque j'ai toujours des souhaits
-comme tout le monde!
+comme tout le monde !
 Guh huh huh...
 Je n'ai plus rien...[end]</data>
     </text>
@@ -547,7 +547,7 @@ Je n'ai plus rien...[end]</data>
         </refs>
         <data>FRUNZE:
 Cette fois,c'est décidé!
-Ma vengeance sera terrible!
+Ma vengeance sera terrible !
 J'ai décidé cela tout seul et j'en ai
 même des frissons...[end]</data>
     </text>
@@ -561,19 +561,19 @@ La Restauration de Mahal...
 La Restauration de Kana...
 [0xa8]Grognement[0xa9]
  
-Ce n'est pas fini!
+Ce n'est pas fini !
 [0xa8]Grognement[0xa9]
  
-Je ne vis que pour ça!
+Je ne vis que pour ça !
 [0xa8]Grognement[0xa9]
  
 Maintenant continuons...
 [0xa8]Grognement[0xa9]
  
-Je n'abandonnerai pas!
+Je n'abandonnerai pas !
 [0xa8]Grognement[0xa9]
  
-Je ne serai pas vaincu!
+Je ne serai pas vaincu !
 [0xa8]Grognement[0xa9]
  
 Je ferai de mon mieux...[end]</data>
