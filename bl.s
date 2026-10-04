@@ -15,10 +15,12 @@ DEBUG := 0
 VRAM_128k := 0
 .if DEBUG {
 ; enable debug mode
-    *=0xc0ffad
+    .alloc at 0xc0ffad {
     .dw 0x0000
-    *=0xc0ffae
+    }
+    .alloc at 0xc0ffae {
     .dw 0x00ff
+    }
 }
 
 .if VRAM_128k {
@@ -29,12 +31,14 @@ VRAM_128k := 0
     */
 
 
-    *=0xda01c6
+    .alloc at 0xda01c6 {
     lda.b #0xfe
 
 ; clear vram
-    *=0xda02c2
+    }
+    .alloc at 0xda02c2 {
     ldx #0xffff
+    }
 }
 
 *=0xe61b40

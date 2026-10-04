@@ -1,9 +1,9 @@
 
 ; move this function inside the shift-jis lookup table might break a thing or two
 
-*=0xEE4AE8
+.alloc at 0xEE4AE8 {
 draw_inline_string_patched:
-{
+    {
     inline_string_bank_reloc = 0xfd
 
     php
@@ -72,7 +72,7 @@ _end:
     pla
     plp
     rts
-}
+    }
 
 ;.EE:4A1E draw_inline_string:                     ; CODE XREF: .EE:6F6Cp
 ;.EE:4A1E                                         ; .EE:loc_EE6FABp ...
@@ -170,3 +170,4 @@ _end:
 ;.EE:4AC0                 PLP
 ;.EE:4AC1                 RTS
 ;.EE:4AC1 ; End of function draw_inline_string
+}

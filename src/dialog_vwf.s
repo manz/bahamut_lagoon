@@ -1,11 +1,11 @@
 ; copy__char_counter
 
-*=0xDA3E9F
+.alloc at 0xDA3E9F {
     jmp.w copy_counter
 
 copy_counter_return:
-
-*=0xDA3CC5
+}
+.alloc at 0xDA3CC5 {
     pla
     jmp.l vwf_char
 
@@ -21,3 +21,4 @@ copy_counter:
     cmp 0x095F
     pla
     jmp.w copy_counter_return
+}

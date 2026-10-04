@@ -11,7 +11,7 @@ battle_vwf_position = 0x7EBE00
 ;.C0:7B1F                 STX     D, word_7E001C
 ;.C0:7B21                 STZ     D, word_7E001E+1
 
-*=0xC07B1A
+.alloc at 0xC07B1A {
     jsr.l battle_vwf_init
     nop
 
@@ -20,13 +20,13 @@ battle_vwf_position = 0x7EBE00
 
     nop
     nop
-
-*=0xC009B7
+}
+.alloc at 0xC009B7 {
 init_battle_vwf:
     jsr.l battle_vwf_init
     rts
-
-*=0xC009D2
+}
+.alloc at 0xC009D2 {
     jmp.l battle_vwf_char
 
 return_from_battle_vwf_char:
@@ -34,14 +34,14 @@ return_from_battle_vwf_char:
 
 ; computes wram pointer from 0x1A (char count)
 ; nukes it because we use 0x18 to store just that.
-
-*=0xC07BDE
+}
+.alloc at 0xC07BDE {
     rts
-
-*=0xC00961
+}
+.alloc at 0xC00961 {
     jsr.l battle_vwf_init
-
-*=0xC07B46
+}
+.alloc at 0xC07B46 {
     jmp.l battle_vwf_new_line
 
 battle_vwf_new_line_return:
@@ -56,10 +56,10 @@ battle_vwf_window_pause:
     bra battle_vwf_new_line_return
 
 battle_secure_patch:
-
-*=0xC07B25
-    ; check if we are past the end of the window
-    ;    .C0:7B25                 CMP     #$3D ; '='
+}
+.alloc at 0xC07B25 {
+; check if we are past the end of the window
+;    .C0:7B25                 CMP     #$3D ; '='
     cmp.b #0x1e * 3
 
 ;.C0:0959                 STA     D,$1B
@@ -67,10 +67,11 @@ battle_secure_patch:
 ;.C0:095E                 LDX     #0
 ;.C0:0961                 STX     D,$1C
 ;.C0:0963                 STZ     D,$1F
-
-*=0xC09BE1
+}
+.alloc at 0xC09BE1 {
     rts
 
 wait_for_something__long:
     jsr.w 0xC006AC  ; noqa: OP001 - .w truncates the long target to an in-bank jsr
     rtl
+}

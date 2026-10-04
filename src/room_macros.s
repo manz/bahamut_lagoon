@@ -1,9 +1,10 @@
-; Bahamut Lagoon Room Script Macro Library
-; Generated automatically from opcodes_map.py
-; Use with a816 assembler
-
-; 0x00: jump
 .macro jump(address) {
+    """
+    Bahamut Lagoon Room Script Macro Library
+    Generated automatically from opcodes_map.py
+    Use with a816 assembler
+    0x00: jump
+    """
     .db 0x00
     .dw address
 }

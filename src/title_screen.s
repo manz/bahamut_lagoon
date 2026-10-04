@@ -1,14 +1,15 @@
 
 ; patch sprite params
 {
-    *=0xD5F595
+    .alloc at 0xD5F595 {
     .dw new_game_sprite_struct & 0xffff
     .dw load_game_sprite_struct & 0xffff
     .dw temporally_play_sprite_struct & 0xffff
-
-    *=0xD5F5CD
+    }
+    .alloc at 0xD5F5CD {
     .dw ex_play_sprite_struct & 0xffff
-    *=0xD5F6FF
+    }
+    .alloc at 0xD5F6FF {
 temporally_play_sprite_struct:
     .db 5
 
@@ -46,8 +47,8 @@ temporally_play_sprite_struct:
     .db 0
     .db 0x3f
 another_end:
-
-    *=0xD5FFDE
+    }
+    .alloc at 0xD5FFDE {
 new_game_sprite_struct:
     .db 0x4  ; array length
 
@@ -85,6 +86,7 @@ load_game_sprite_struct:
     .db 0xF8
     .db 0x0f
     .db 0x3f  ; sprite id
+    }
 }
 
 ;.D5:F6FF                 .BYTE   2

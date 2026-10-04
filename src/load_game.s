@@ -18,7 +18,7 @@
 ;nop
 ;nop
 
-*=0xEE5409
+.alloc at 0xEE5409 {
     jmp.l load_game.vwf_entry_point
 
 ;*=0xEE554B
@@ -143,3 +143,4 @@
 ;.EE:5622                 ADC     #8
 ;.EE:5625                 STA     word_7E19FF+1 ; orig=0x001A00
 ;.EE:5629                 JSL     sub_EE440B
+}
