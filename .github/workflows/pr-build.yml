@@ -1,0 +1,115 @@
+name: PR Build
+
+on:
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04-arm
+    
+    steps:
+    - uses: actions/checkout@v7
+    
+    - uses: astral-sh/setup-uv@v10.2.0
+      with:
+        python-version: '3.14'
+        enable-cache: true
+    - name: Install Requirements
+      run: uv sync --locked
+
+    - name: Check formatting and lint
+      run: make check
+
+    - name: Decrypt base ROM
+      env:
+        BAHAMUT_PASSWORD: ${{ secrets.BAHAMUT_PASSWORD }}
+      run: |
+        mkdir -p build
+        gpg --quiet --batch --yes --decrypt --passphrase="$BAHAMUT_PASSWORD" bl.sfc.gz.gpg | gunzip > build/bl.sfc
+
+    - name: Build patch
+      run: uv run ./build.py
+
+    - name: Verify IPS produced
+      run: test -s build/bl.ips
+
+    - name: Run tests
+      run: uv run pytest utils
+
+    - name: Upload IPS artifact
+      if: success()
+      uses: actions/upload-artifact@v7
+      with:
+        name: bl-ips-pr-${{ github.event.number }}
+        path: build/bl.ips
+        retention-days: 30
+
+    - name: Update PR comment with download link
+      if: success()
+      uses: actions/github-script@v8
+      with:
+        script: |
+          const artifactName = `bl-ips-pr-${{ github.event.number }}`;
+          const runUrl = `${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}`;
+          const commentIdentifier = '<!-- BL-IPS-BUILD-COMMENT -->';
+          
+          const body = `${commentIdentifier}
+          🎮 **Bahamut Lagoon IPS Build Ready!**
+
+          Your patch has been built successfully! Download the IPS file from the artifacts:
+
+          📦 **Artifact:** \`${artifactName}\`  
+          🔗 **Download:** [Click here to go to the build page](${runUrl})
+
+          The artifact will be available for 30 days.
+          *Last updated: ${{ github.event.pull_request.head.sha }}*`;
+
+          // Find existing comment
+          const comments = await github.rest.issues.listComments({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+          });
+
+          const existingComment = comments.data.find(comment => 
+            comment.body.includes(commentIdentifier)
+          );
+
+          if (existingComment) {
+            // Update existing comment
+            await github.rest.issues.updateComment({
+              comment_id: existingComment.id,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: body
+            });
+          } else {
+            // Create new comment
+            await github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: body
+            });
+          }
+
+    - name: Drop stale IPS comment on failure
+      if: failure()
+      uses: actions/github-script@v8
+      with:
+        script: |
+          const commentIdentifier = '<!-- BL-IPS-BUILD-COMMENT -->';
+          const comments = await github.rest.issues.listComments({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+          });
+          const stale = comments.data.find(c => c.body.includes(commentIdentifier));
+          if (stale) {
+            await github.rest.issues.deleteComment({
+              comment_id: stale.id,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+            });
+          }

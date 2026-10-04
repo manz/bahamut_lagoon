@@ -1,0 +1,34 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  release:
+    runs-on: ubuntu-24.04-arm
+    permissions:
+      contents: write
+
+    steps:
+    - uses: actions/checkout@v7
+    - uses: astral-sh/setup-uv@v10.2.0
+      with:
+        python-version: '3.14'
+        enable-cache: true
+    - name: Install Requirements
+      run: uv sync --locked
+    - name: Decrypt base ROM
+      env:
+        BAHAMUT_PASSWORD: ${{ secrets.BAHAMUT_PASSWORD }}
+      run: |
+        mkdir -p build
+        gpg --quiet --batch --yes --decrypt --passphrase="$BAHAMUT_PASSWORD" bl.sfc.gz.gpg | gunzip > build/bl.sfc
+    - name: Build patch
+      run: uv run ./build.py
+    - name: Create Release
+      uses: softprops/action-gh-release@v2
+      with:
+        files: build/bl.ips
+        generate_release_notes: true

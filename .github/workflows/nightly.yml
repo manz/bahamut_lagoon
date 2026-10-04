@@ -1,0 +1,42 @@
+name: Nightly Release
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+jobs:
+  nightly:
+    runs-on: ubuntu-24.04-arm
+    permissions:
+      contents: write
+
+    steps:
+    - uses: actions/checkout@v7
+    - uses: astral-sh/setup-uv@v10.2.0
+      with:
+        python-version: '3.14'
+        enable-cache: true
+    - name: Install Requirements
+      run: uv sync --locked
+    - name: Decrypt base ROM
+      env:
+        BAHAMUT_PASSWORD: ${{ secrets.BAHAMUT_PASSWORD }}
+      run: |
+        mkdir -p build
+        gpg --quiet --batch --yes --decrypt --passphrase="$BAHAMUT_PASSWORD" bl.sfc.gz.gpg | gunzip > build/bl.sfc
+    - name: Build patch
+      run: uv run ./build.py
+    - name: Create Nightly Release
+      uses: softprops/action-gh-release@v2
+      with:
+        tag_name: nightly-${{ github.run_number }}
+        name: Nightly Build ${{ github.run_number }}
+        files: build/bl.ips
+        prerelease: true
+        body: |
+          Nightly build #${{ github.run_number }}
+          
+          Built from commit: ${{ github.sha }}
+          
+          This is an automated nightly build and may be unstable.
