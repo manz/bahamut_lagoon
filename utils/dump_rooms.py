@@ -20,7 +20,7 @@ logger = logging.getLogger("rooms.dialog")
 def battle_decompress_block(rom):
     size = rom.read(2)
     size = struct.unpack("<H", size)[0]
-    print(hex(size))
+    logger.debug("block size %#x", size)
     data = rom.read(size)
     decompressed = bytearray()
     decompressed = lz_decompress(data, decompressed)
@@ -111,7 +111,7 @@ def get_dialog_room(rom, room_id, table, lang="jp", disasm=False):
     room.id = room_id
     room.compressed_size = rom.tell() - rom_offset(ptr[0] + (ptr[1] << 8) + (ptr[2] << 16))
     if disasm:
-        room = live_disasm(room_id, decompressed, table, lang, display_program=True)
+        room = live_disasm(room_id, decompressed, table, lang, display_program=logger.isEnabledFor(logging.DEBUG))
     return room
 
 
@@ -212,7 +212,7 @@ def build_text_patch(rom, table, writer, reloc_address):
     room_compressed = {}
 
     for file in files:
-        logger.error(file)
+        logger.debug(file)
         match = xmlfile_re.match(file)
         if match:
             room_id = int(match.group(1))
@@ -227,8 +227,8 @@ def build_text_patch(rom, table, writer, reloc_address):
                 updated_room = room.update_text(tree)
 
                 if len(updated_room) >= 0x6000:
-                    logger.error(
-                        f"Un compressed Room {room_id} is bigger than the ram buffer 0x6000 storing it uncompressed"
+                    logger.info(
+                        "Room %d exceeds the 0x6000 RAM buffer once decompressed: storing it uncompressed", room_id
                     )
                     room_id_high = 1 << (room_id & 0x07)
                     room_id_low = room_id >> 3
@@ -236,7 +236,9 @@ def build_text_patch(rom, table, writer, reloc_address):
                     rom.seek(compressed_byte_address)
                     compressed_byte = room_compressed.get(compressed_byte_address, struct.unpack("B", rom.read(1))[0])
                     room_compressed[compressed_byte_address] = compressed_byte & ~room_id_high
-                    logger.error(f"{compressed_byte:02b} {room_compressed[compressed_byte_address]:02b}")
+                    logger.debug(
+                        "compressed flags %02b -> %02b", compressed_byte, room_compressed[compressed_byte_address]
+                    )
                     updated_room_data = updated_room
                 else:
                     updated_room_data = compress_room(updated_room)
@@ -257,7 +259,7 @@ def build_text_patch(rom, table, writer, reloc_address):
     for address, value in room_compressed.items():
         writer.write_block(struct.pack("B", value), address)
 
-    print(f"Ends at {address + 0xC00000:#02x}")
+    logger.debug("Dialog rooms end at %#x", address + 0xC00000)
     return address
 
 

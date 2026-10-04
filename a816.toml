@@ -1,5 +1,5 @@
 entrypoint = "bl.s"
-module-paths = ["src"]
+module-paths = ["build/obj", "src"]
 include-paths = ["src", "."]
 board = "SHVC-1J3M-20"  # HiROM + 8 KB battery SRAM
 rom_size = 0x400000     # 3 MB image expanded to 4 MB (banks F0-FF)

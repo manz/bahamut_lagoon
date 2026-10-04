@@ -1,9 +1,12 @@
 #!/usr/bin/env python
 
+import logging
 import os
 
 import numpy as np
 from PIL import Image
+
+logger = logging.getLogger(__name__)
 
 
 def get_char(image, char, char_width, char_height):
@@ -52,11 +55,11 @@ def convert_font(font_file, empty_chars=None):
 
         if char_index in empty_chars:
             max_width = empty_chars[char_index]
-            print(f"{char_index:#02x}={max_width:#02x}")
+            logger.debug("%#04x=%#04x", char_index, max_width)
             data += bytes([max_width])
         else:
             max_width = get_max_width(get_char(image, char_index, 8, 16))
-            print(f"{char_index:#02x}={max_width:#02x}")
+            logger.debug("%#04x=%#04x", char_index, max_width)
             data += bytes([max_width])
 
         char_index += 1
