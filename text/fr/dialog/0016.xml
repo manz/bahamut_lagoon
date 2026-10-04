@@ -21,8 +21,8 @@
         <data>               [character][0x1]...
  
   
-     Assume le nom de Dragoon!
-           Réveille-toi!
+     Assume le nom de Dragoon !
+           Réveille-toi !
  
   Tu n'as pas de temps à perdre.[end]</data>
     </text>
@@ -58,7 +58,7 @@ Hein... huuum...[end]</data>
             <ref>0x224</ref>
         </refs>
         <data> 
-Que faites-vous tous ici?![end]</data>
+Que faites-vous tous ici ?![end]</data>
     </text>
     <text>
         <refs>
@@ -75,14 +75,14 @@ rencontre.[end]</data>
             <ref>0x231</ref>
         </refs>
         <data>ZORA:
-Tout va bien,Princesse?[end]</data>
+Tout va bien,Princesse ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x279</ref>
         </refs>
         <data>ZORA:
-C'est impossible!
+C'est impossible !
 Vous ne pouvez pas y aller.
 J'irai moi-même au combat pour aller
 chercher ce dragon à votre place.[end]</data>
@@ -95,17 +95,17 @@ chercher ce dragon à votre place.[end]</data>
 Au fait,Princesse,nous avons de
 bonnes nouvelles.
 Nous avons vaincu l'Empereur Sauzer.
-Bientôt,notre Kana revivra![end]</data>
+Bientôt,notre Kana revivra ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2dc</ref>
         </refs>
         <data>COMMANDANT:
-Palpaleos a aussi été vaincu!
+Palpaleos a aussi été vaincu !
 C'est la dure réalité de la guerre.
 Princesse [character][0x1],vous devez être
-épuisée![end]</data>
+épuisée ![end]</data>
     </text>
     <text>
         <refs>
@@ -118,7 +118,7 @@ Princesse [character][0x1],vous devez être
             <ref>0x29d</ref>
         </refs>
         <data>[character][0x1]:
-Je dois y aller par moi-même!
+Je dois y aller par moi-même !
  
 Le Dragon Sacré Jormungand m'a dit
 qu'il avait certaines choses à me
@@ -129,14 +129,14 @@ révéler.[end]</data>
             <ref>0x31c</ref>
         </refs>
         <data>Princesse [character][0x1]!
-Que vous arrive-t-il?[end]</data>
+Que vous arrive-t-il ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x369</ref>
         </refs>
         <data>[character][0x1]... Je suis là...
-Ne vous inquiétez pas![end]</data>
+Ne vous inquiétez pas ![end]</data>
     </text>
     <text>
         <refs>
@@ -145,7 +145,7 @@ Ne vous inquiétez pas![end]</data>
         <data>PALPALEOS:
 En effet,j'ai été vaincu par les
 Rebelles mais je suis encore en vie.
-Ils ont vraiment gagné en force![end]</data>
+Ils ont vraiment gagné en force ![end]</data>
     </text>
     <text>
         <refs>
@@ -167,7 +167,7 @@ Commandant...[end]</data>
         </refs>
         <data>Ma tendre [character][0x1],je ne peux même pas
 réaliser mon souhait le plus cher...
-Etre avec vous![end]</data>
+Etre avec vous ![end]</data>
     </text>
     <text>
         <refs>
@@ -188,11 +188,11 @@ côtés.[end]</data>
             <ref>0x40d</ref>
         </refs>
         <data>GARUDA:
-Hahahahaha!
-Fille,la dénommée Dragoon!
-Est-ce là ton ambition?
+Hahahahaha !
+Fille,la dénommée Dragoon !
+Est-ce là ton ambition ?
 Ce TRES petit rêve ou dois-je dire ce
-MINUSCULE rêve?![end]</data>
+MINUSCULE rêve ?![end]</data>
     </text>
     <text>
         <refs>
@@ -200,7 +200,7 @@ MINUSCULE rêve?![end]</data>
         </refs>
         <data>[character][0x1]:
 Ce petit rêve...
-Mais je ne peux même pas le réaliser![end]</data>
+Mais je ne peux même pas le réaliser ![end]</data>
     </text>
     <text>
         <refs>
@@ -208,7 +208,7 @@ Mais je ne peux même pas le réaliser![end]</data>
         </refs>
         <data>GARUDA:
 Pourquoi penses-tu cela,
-fille au petit rêve?
+fille au petit rêve ?
 Si notre pouvoir est entre tes mains,
 tout ce que tu désires sera contrôlé
 par ton esprit.[end]</data>
@@ -231,7 +231,7 @@ ils ne pourront changer...[end]</data>
             <ref>0x43d</ref>
         </refs>
         <data>GARUDA:
-Ne sois pas déçue,fille au petit rêve!
+Ne sois pas déçue,fille au petit rêve !
  
 Tu connais maintenant nos sentiments
 et tu peux nous contrôler.
@@ -244,7 +244,7 @@ coeurs.[end]</data>
         <refs>
             <ref>0x447</ref>
         </refs>
-        <data>Tu veux parler de l'Empereur?
+        <data>Tu veux parler de l'Empereur ?
 Mais il est maintenant...[end]</data>
     </text>
     <text>
@@ -252,14 +252,14 @@ Mais il est maintenant...[end]</data>
             <ref>0x451</ref>
         </refs>
         <data>GARUDA:
-Non!
+Non !
 Je peux sentir sa faible vie.
 Il n'est pas mort...
 L'homme de tes rêves,lui aussi se
 porte bien.
-Ne t'inquiète pas!
+Ne t'inquiète pas !
 N'est-ce pas cela que tu désirais
-savoir?[end]</data>
+savoir ?[end]</data>
     </text>
     <text>
         <refs>

@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<texts base="0x9c" room_id="4">
+    <text>
+        <refs>
+            <ref>0x3e</ref>
+        </refs>
+        <data>PALPALEOS
+[0xa8]Je te fais confiance Zonbelud[0xd8][0xfc][0x1][end][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x28</ref>
+        </refs>
+        <data>ce Zonbelud[0xd8][0xfc][0x1][end][end]</data>
+    </text>
+</texts>

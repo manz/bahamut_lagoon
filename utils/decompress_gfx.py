@@ -9,21 +9,18 @@ def compress_asset(data):
     compressed = bytearray()
     k = 0
     while k < len(data):
-        back_reference = find_back_reference(data,
-                                             k,
-                                             search_patterns=True,
-                                             buffer_size=0x7ff,
-                                             max_length=0x3f,
-                                             min_length=3)
+        back_reference = find_back_reference(
+            data, k, search_patterns=True, buffer_size=0x7FF, max_length=0x3F, min_length=3
+        )
         if back_reference:
             reference, length = back_reference
             # data_2    data_1
             # aaaa aaaa | aa ll llll
 
-            if reference > 0x3ff:
-                compressed += b'\x1b'
+            if reference > 0x3FF:
+                compressed += b"\x1b"
             else:
-                compressed += b'\x1a'
+                compressed += b"\x1a"
 
             # reference = k - reference
 
@@ -36,14 +33,14 @@ def compress_asset(data):
             k += length
         else:
             # put byte in compressed stream
-            if data[k] in [0x1a, 0x1b]:
-                compressed += struct.pack('B', data[k]) + b'\x00\x00'
+            if data[k] in [0x1A, 0x1B]:
+                compressed += struct.pack("B", data[k]) + b"\x00\x00"
             else:
                 compressed.append(data[k])
             k += 1
 
-    compressed += b'\x1a\x00\x01'
-    return b'\x01' + compressed
+    compressed += b"\x1a\x00\x01"
+    return b"\x01" + compressed
 
 
 def decompress_asset(rom_file):
@@ -56,7 +53,7 @@ def decompress_asset(rom_file):
 
         control_byte = rom_file.read(1)[0]
 
-        if control_byte in [0x1a, 0x1b]:
+        if control_byte in [0x1A, 0x1B]:
             data_1 = rom_file.read(1)[0]
             data_2 = rom_file.read(1)[0]
             word = (data_2 << 8) | data_1
@@ -72,10 +69,10 @@ def decompress_asset(rom_file):
                 # data_2    data_1
                 # aaaa aaaa aa ll llll
                 # low       hi   len
-                length = data_1 & 0x3f
-                pointer = (data_2 & 0xff) | ((data_1 & 0xc0) << 2)
+                length = data_1 & 0x3F
+                pointer = (data_2 & 0xFF) | ((data_1 & 0xC0) << 2)
 
-                if control_byte == 0x1b:
+                if control_byte == 0x1B:
                     pointer |= 0x400
 
                 back_pointer = len(decompressed) - pointer
@@ -88,20 +85,23 @@ def decompress_asset(rom_file):
 
 
 decompress_gfx_xrefs = [
-    0xee7d46, 0xee850b, 0xee8548, 0xee855d, 0xee8572, 0xee8593,
-    0xeed8a3, 0xeed8b0, 0xeed8bd,
-    0xee850b]
-
-lz_compressed_gfxs = [
-    0xcc2d80,
-    0xe87432,
-    0xe883ec,
-    0xe89a4f
+    0xEE7D46,
+    0xEE850B,
+    0xEE8548,
+    0xEE855D,
+    0xEE8572,
+    0xEE8593,
+    0xEED8A3,
+    0xEED8B0,
+    0xEED8BD,
+    0xEE850B,
 ]
+
+lz_compressed_gfxs = [0xCC2D80, 0xE87432, 0xE883EC, 0xE89A4F]
 
 
 def lz_decompress_gfx(rom):
-    size = struct.unpack('<H', rom_file.read(2))[0]
+    size = struct.unpack("<H", rom_file.read(2))[0]
     # print(f'size {size:#0{6}x}')
     data = rom_file.read(size)
     decompressed = lz_decompress(data)
@@ -135,18 +135,18 @@ def lz_decompress_gfx(rom):
 def lz_compress_gfx(data):
     compressed_data = lz_compress(data, search_patterns=False)
     compressed_length = len(compressed_data)
-    return struct.pack('<H', compressed_length) + compressed_data + b'\x00'
+    return struct.pack("<H", compressed_length) + compressed_data + b"\x00"
 
 
-if __name__ == '__main__':
-    with open('../bl.sfc', 'rb') as rom_file:
+if __name__ == "__main__":
+    with open("../bl.sfc", "rb") as rom_file:
         for decompress_gfx_xref in decompress_gfx_xrefs:
             rom_file.seek(snes_to_rom(decompress_gfx_xref + 4))
-            low = struct.unpack('<H', rom_file.read(2))[0]
-            high = struct.unpack('>H', rom_file.read(2))[0]
+            low = struct.unpack("<H", rom_file.read(2))[0]
+            high = struct.unpack(">H", rom_file.read(2))[0]
 
             address = low | (high << 8)
             rom_file.seek(snes_to_rom(address))
-            print(f'address = {address:#06x}')
-            with open(f'/tmp/{address:06x}.bin', 'wb') as f:
+            print(f"address = {address:#06x}")
+            with open(f"/tmp/{address:06x}.bin", "wb") as f:
                 f.write(decompress_asset(rom_file))

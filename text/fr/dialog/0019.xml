@@ -5,16 +5,16 @@
             <ref>0x100</ref>
         </refs>
         <data>MATELIGHT:
-La Princesse [character][0x1] est en retard!
-Tu en connais la raison,Commandant?
-Devrions-nous l'attendre?[end]</data>
+La Princesse [character][0x1] est en retard !
+Tu en connais la raison,Commandant ?
+Devrions-nous l'attendre ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x10f</ref>
         </refs>
         <data>COMMANDANT:
-Tu es si impatient!
+Tu es si impatient !
  
 Je sais que toi et [character][0x0] êtes tout les
 deux très triste.[end]</data>
@@ -25,7 +25,7 @@ deux très triste.[end]</data>
         </refs>
         <data>MATELIGHT:
 Ce Général Palpaleos n'est qu'un
-ennemi!
+ennemi !
 Il est le bras droit de Sauzer et
 n'est donc que le mal incarné!
 C'est [character][0x0] qui devrait être félicité![end]</data>
@@ -35,11 +35,11 @@ C'est [character][0x0] qui devrait être félicité![end]</data>
             <ref>0x147</ref>
         </refs>
         <data>COMMANDANT:
-Que dis-tu Matelight?!
-Palpaleos est un bon Général!
-Et [character][0x1] l'a choisi!
+Que dis-tu Matelight ?!
+Palpaleos est un bon Général !
+Et [character][0x1] l'a choisi !
 Et c'est ce à quoi tu dois prêter
-attention!
+attention !
 Tu devrais respecter sa décision...[end]</data>
     </text>
     <text>
@@ -48,7 +48,7 @@ Tu devrais respecter sa décision...[end]</data>
         </refs>
         <data>COMMANDANT:
 Matelight,as-tu déjà pensé au vrai
-sens de la Guerre?[end]</data>
+sens de la Guerre ?[end]</data>
     </text>
     <text>
         <refs>
@@ -66,9 +66,9 @@ malheureusement immuables.
  
 J'ai rejoint les Rebelles pour une
 seule raison...
-Mon épouse Céline!
+Mon épouse Céline !
 J'ai vaincu Restatto pour libérer Mahal
-mais c'était avant tout pour elle![end]</data>
+mais c'était avant tout pour elle ![end]</data>
     </text>
     <text>
         <refs>
@@ -82,24 +82,24 @@ J'en ai souffert...[end]</data>
         <refs>
             <ref>0x1ab</ref>
         </refs>
-        <data>Mais je suis Capitaine!
+        <data>Mais je suis Capitaine !
  
   
 Les positions ennemies sont ma
-destination!
+destination !
  
 Mener des Légions entières et être le
-premier sont mes buts![end]</data>
+premier sont mes buts ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1d1</ref>
         </refs>
         <data>Mais t'es-t-il seulement arrivé de faire
-attention au visage de tes ennemis?
+attention au visage de tes ennemis ?
  
 Le visage de ces soldats...
-derrière leur casque![end]</data>
+derrière leur casque ![end]</data>
     </text>
     <text>
         <refs>
@@ -107,9 +107,9 @@ derrière leur casque![end]</data>
         </refs>
         <data>Tu n'y as sûrement jamais prêté
 attention...
-Ces visages sont pour nous le mal!
+Ces visages sont pour nous le mal !
 Dès que je brandis ma hache pour
-combattre,je ne vois que ça![end]</data>
+combattre,je ne vois que ça ![end]</data>
     </text>
     <text>
         <refs>
@@ -120,7 +120,7 @@ que des ennemis car ils aiment aussi
 leur épouse.
 Ils respectent leur Empire et tout ce
 qui s'y rattache.
-Comprends-tu ce que je dis?
+Comprends-tu ce que je dis ?
 Je combats...
 Je vais à la guerre...[end]</data>
     </text>
@@ -139,7 +139,7 @@ Je vais à la guerre...[end]</data>
         </refs>
         <data>Je dois avouer que je crais parfois
 les conséquences de cette guerre.
-J'espère qu'elle se finisse vite![end]</data>
+J'espère qu'elle se finisse vite ![end]</data>
     </text>
     <text>
         <refs>
@@ -147,12 +147,12 @@ J'espère qu'elle se finisse vite![end]</data>
         </refs>
         <data>MARCHAND:
 Les militaires sont sur le champ de
-bataille!
+bataille !
 Le général Palpaleos croit ou du moins
-estime que c'est la bataille finale!
+estime que c'est la bataille finale !
  
 Tout les Généraux de l'Empire
-encerclent le château![end]</data>
+encerclent le château ![end]</data>
     </text>
     <text>
         <refs>
@@ -160,8 +160,8 @@ encerclent le château![end]</data>
         </refs>
         <data>EPOUSE:
 Même si l'Empereur Sauzer est malade,
-ils n'abandonneront jamais!
-Allez-vous y aller?![end]</data>
+ils n'abandonneront jamais !
+Allez-vous y aller ?![end]</data>
     </text>
     <text>
         <refs>
@@ -171,7 +171,7 @@ Allez-vous y aller?![end]</data>
             <ref>0x12b7</ref>
         </refs>
         <data>Regardez et achetez ce que vous
-voulez![end]</data>
+voulez ![end]</data>
     </text>
     <text>
         <refs>
@@ -192,21 +192,21 @@ voulez![end]</data>
             <ref>0x8a</ref>
         </refs>
         <data>           Chapitre [0xb0][0xb8]
-        -Adieu Matelight!-[end]</data>
+        -Adieu Matelight !-[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xbf2</ref>
         </refs>
         <data>MATELIGHT:
-[character][0x0],que devrais-je faire?[end]</data>
+[character][0x0],que devrais-je faire ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xbf6</ref>
         </refs>
-        <data> Tu dois combattre!
- Tu ne mourras pas![end1]</data>
+        <data> Tu dois combattre !
+ Tu ne mourras pas ![end1]</data>
     </text>
     <text>
         <refs>
@@ -214,13 +214,13 @@ voulez![end]</data>
         </refs>
         <data>SENDACK:
 La princesse est-elle vraiment
-heureuse?
+heureuse ?
 Les Dragons Sacrés sont venus ici de
 leur plein gré mais que va-t-il advenir
-d'eux?
+d'eux ?
 Vous êtes toujours à dire que je suis
 très vieux et sans force mais ils sont
-aussi venus avec moi![end]</data>
+aussi venus avec moi ![end]</data>
     </text>
     <text>
         <refs>
@@ -228,7 +228,7 @@ aussi venus avec moi![end]</data>
         </refs>
         <data>COMMANDANT:
 Réponds-moi,[character][0x0]...
-As-tu compris tes erreurs?[end]</data>
+As-tu compris tes erreurs ?[end]</data>
     </text>
     <text>
         <refs>
@@ -238,40 +238,40 @@ As-tu compris tes erreurs?[end]</data>
 L'ennemi est dirigé par les puissants
 généraux impériaux.
 Selon moi,nous ne les battrons que si
-nous les vainquons un à un![end]</data>
+nous les vainquons un à un ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc82</ref>
         </refs>
-        <data>Sauzer,regarde-moi!
-J'ai rejoint les Rebelles![end]</data>
+        <data>Sauzer,regarde-moi !
+J'ai rejoint les Rebelles ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xcb3</ref>
         </refs>
         <data>PALPALEOS:
-[character][0x0],allons combattre ensemble!
-Aller combattre ensemble?[end]</data>
+[character][0x0],allons combattre ensemble !
+Aller combattre ensemble ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xcb7</ref>
         </refs>
-        <data> Je me prépare...Palpaleos!
- Allons combattre...Palpaleos!
- [0xa8]C'est ce que j'attends![0xa9][end1]</data>
+        <data> Je me prépare...Palpaleos !
+ Allons combattre...Palpaleos !
+ [0xa8]C'est ce que j'attends ![0xa9][end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x985</ref>
         </refs>
         <data>DOCTEUR DRAGON:
-La Restauration de Kana!
-Merci beaucoup,beaucoup!
+La Restauration de Kana !
+Merci beaucoup,beaucoup !
 Au fait,sais-tu comment l'on conçoit
-les enfants?[end]</data>
+les enfants ?[end]</data>
     </text>
     <text>
         <refs>
@@ -295,20 +295,20 @@ conçoivent différemment de celles des
         </refs>
         <data>C'est en ce moment la saison des
 amours pour les dragons.
-Observe attentivement,inculte![end]</data>
+Observe attentivement,inculte ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9f2</ref>
         </refs>
         <data>Oooh... Oooh...
-Il n'obéit pas![end]</data>
+Il n'obéit pas ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa0a</ref>
         </refs>
-        <data>Tu as vu!
+        <data>Tu as vu !
 c'est à cause de la saison des amours.[end]</data>
     </text>
     <text>
@@ -317,7 +317,7 @@ c'est à cause de la saison des amours.[end]</data>
         </refs>
         <data>N'aie crainte [character][0x0]!
 Il faut être ferme et savoir donner
-de vrais ordres![end]</data>
+de vrais ordres ![end]</data>
     </text>
     <text>
         <refs>
@@ -335,14 +335,14 @@ intérêt pour toi.[end]</data>
             <ref>0xa37</ref>
         </refs>
         <data>Au fait,je me demandais si tu en
-savais tant que ça sur les enfants?[end]</data>
+savais tant que ça sur les enfants ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa3b</ref>
         </refs>
-        <data> DOCTEUR... silence!
- J'en sais beaucoup... DOCTEUR![end1]</data>
+        <data> DOCTEUR... silence !
+ J'en sais beaucoup... DOCTEUR ![end1]</data>
     </text>
     <text>
         <refs>
@@ -351,14 +351,14 @@ savais tant que ça sur les enfants?[end]</data>
         <data>DOCTEUR DRAGON:
 Ainsi les rumeurs des matelots étaient
 sûrement fondées.
-[0xa8]Hahahahaha,il n'y connaît rien![0xa9][end]</data>
+[0xa8]Hahahahaha,il n'y connaît rien ![0xa9][end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa47</ref>
         </refs>
         <data>DOCTEUR DRAGON:
-[0xa8]Hornet a gagné la pari![0xa9][end]</data>
+[0xa8]Hornet a gagné la pari ![0xa9][end]</data>
     </text>
     <text>
         <refs>
@@ -368,10 +368,10 @@ sûrement fondées.
 choississes un dragon père et un
 dragon mère.
 Est-ce que tu as déjà choisi un
-dragon mâle et une femelle?
+dragon mâle et une femelle ?
  
 Si tu veux,tu peux les nourrir avant
-de les choisir![end]</data>
+de les choisir ![end]</data>
     </text>
     <text>
         <refs>
@@ -379,7 +379,7 @@ de les choisir![end]</data>
             <ref>0xa7a</ref>
             <ref>0xa8d</ref>
         </refs>
-        <data>D'accord!
+        <data>D'accord !
 Il faut que tu choississes un
 dragon père et un dragon mère.[end]</data>
     </text>
@@ -387,7 +387,7 @@ dragon père et un dragon mère.[end]</data>
         <refs>
             <ref>0xad3</ref>
         </refs>
-        <data>Tu veux accoupler ces dragons?[end]</data>
+        <data>Tu veux accoupler ces dragons ?[end]</data>
     </text>
     <text>
         <refs>
@@ -401,9 +401,9 @@ dragon père et un dragon mère.[end]</data>
             <ref>0xae9</ref>
         </refs>
         <data>Ce charmant couple donnera un bel
-enfant!
+enfant !
 tu as fait un très bon choix,[character][0x0].
-Repartons maintenant tous FARENHEIT!
+Repartons maintenant tous FARENHEIT !
  
   
 Je suis sûr que nous allons nous
@@ -467,13 +467,13 @@ Ah...![end]</data>
         </refs>
         <data>Capitaine de l'Escadron Dragon de
 Kana,vous n'admirez jamais les étoiles,
-la nuit?
+la nuit ?
 Le ciel est vraiment paisible,ici,loin
 de toutes guerres.
  
 [0xa8]Il n'a aucune expérience ce [character][0x0]?
  Il ne savait même rien sur les
- dragons![0xa9][end]</data>
+ dragons ![0xa9][end]</data>
     </text>
     <text>
         <refs>
@@ -483,16 +483,16 @@ de toutes guerres.
 [0xa8]Un enfant...?[0xa9]
  
 [character][0x0],aimerais-tu escorter [character][0x1]
-jusqu'à la salle du trône?
-Qui de nous deux ira?[end]</data>
+jusqu'à la salle du trône ?
+Qui de nous deux ira ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd3b</ref>
             <ref>0xdc5</ref>
         </refs>
-        <data> J'irai!
- Je te laisses... l'honneur![end1]</data>
+        <data> J'irai !
+ Je te laisses... l'honneur ![end1]</data>
     </text>
     <text>
         <refs>
@@ -507,7 +507,7 @@ Bien sûr,je ne la laisserai pas seule.[end]</data>
         <refs>
             <ref>0xdbb</ref>
         </refs>
-        <data>Très bien!
+        <data>Très bien !
 [character][0x1] doit aller mettre sa robe
 d'impératrice.[end]</data>
     </text>
@@ -518,29 +518,29 @@ d'impératrice.[end]</data>
         <data>[character][0x1]:
 Hé! Attendez...
  
-Merci![end]</data>
+Merci ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xdc1</ref>
         </refs>
-        <data>L'emmèneras-tu au château de Kana?[end]</data>
+        <data>L'emmèneras-tu au château de Kana ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1301</ref>
         </refs>
         <data>MARCHAND:
-J'ai vu Matelight!
-Il avait l'air très sérieux!
-Il courait puis il a disparu!
-Que de manières![end]</data>
+J'ai vu Matelight !
+Il avait l'air très sérieux !
+Il courait puis il a disparu !
+Que de manières ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x131b</ref>
         </refs>
-        <data>Voulez-vous quelque chose?
+        <data>Voulez-vous quelque chose ?
 En ce moment,j'ai de très bons objets
 à vendre.[end]</data>
     </text>
@@ -551,11 +551,11 @@ En ce moment,j'ai de très bons objets
         <data>EPOUSE:
 Bikkebakke nous a vendu contre notre
 volonté des champignons.
-Je ne voulais pas de tout ça!
-Regardez mon mari!
-Je ne lui ressemble pas,moi!
-Où est-il?!
-Il est reparti au château![end]</data>
+Je ne voulais pas de tout ça !
+Regardez mon mari !
+Je ne lui ressemble pas,moi !
+Où est-il ?!
+Il est reparti au château ![end]</data>
     </text>
     <text>
         <refs>
@@ -579,13 +579,13 @@ Il est reparti au château![end]</data>
             <ref>0x1365</ref>
         </refs>
         <data>MARCHAND:
-Hoho!
+Hoho !
  
 Aujourd'hui comme toujours,j'ai de
 nombreuses choses à vendre.
-Ma femme aime travailler!
+Ma femme aime travailler !
 Capitaine [character][0x0],voulez-vous nous
-acheter quelque chose?[end]</data>
+acheter quelque chose ?[end]</data>
     </text>
     <text>
         <refs>
@@ -593,17 +593,17 @@ acheter quelque chose?[end]</data>
             <ref>0x1375</ref>
         </refs>
         <data>EPOUSE:
-N'achetez rien!
+N'achetez rien !
  
 C'est la Libération de Kana et de la
-femme,aujourd'hui!
-Voici quelques présents![end]</data>
+femme,aujourd'hui !
+Voici quelques présents ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x138b</ref>
         </refs>
-        <data>Maintenant les festivités![end]</data>
+        <data>Maintenant les festivités ![end]</data>
     </text>
     <text>
         <refs>
@@ -628,10 +628,10 @@ Voici quelques présents![end]</data>
             <ref>0x615</ref>
         </refs>
         <data>[0xaa]UN TERRIBLE LIVRE EROTIQUE[0xab]
-[0xaa]PRINCESSE???[0xab]
+[0xaa]PRINCESSE ???[0xab]
  
 Ce sont les plus beaux cadeaux que
-nous puissions vous offrir![end]</data>
+nous puissions vous offrir ![end]</data>
     </text>
     <text>
         <refs>
@@ -663,8 +663,8 @@ Notre cher chez-nous.[end]</data>
             <ref>0x7ac</ref>
         </refs>
         <data>ENFANT:
-Qui êtes-vous?!
-Vous êtes dans notre repère![end]</data>
+Qui êtes-vous ?!
+Vous êtes dans notre repère ![end]</data>
     </text>
     <text>
         <refs>
@@ -672,9 +672,9 @@ Vous êtes dans notre repère![end]</data>
         </refs>
         <data>RUSH:
 Ces enfants seront un jour nos
-successeurs!
+successeurs !
 Ils finiront par combattre pour
-défendre Kana![end]</data>
+défendre Kana ![end]</data>
     </text>
     <text>
         <refs>
@@ -689,7 +689,7 @@ mis un terme à cette guerre.[end]</data>
             <ref>0x7d8</ref>
         </refs>
         <data>RUSH:
-Est-ce que vous êtes forts?[end]</data>
+Est-ce que vous êtes forts ?[end]</data>
     </text>
     <text>
         <refs>
@@ -699,14 +699,14 @@ Est-ce que vous êtes forts?[end]</data>
 Quand nous serons grands,nous
 voudrions être Capitaine ou chevaliers
 de la Cavalerie de Kana.
-C'est notre rêve!
+C'est notre rêve !
  
 Un jour,au sein d'Orelus,nous
 parcourerons le monde sur des
 dragons.
 Nous avons nommé ce chien du nom
 d'un des dragons de votre escadron.
-Il s'appelle SALAMANDO![end]</data>
+Il s'appelle SALAMANDO ![end]</data>
     </text>
     <text>
         <refs>
@@ -714,25 +714,25 @@ Il s'appelle SALAMANDO![end]</data>
         </refs>
         <data>TAURUS:
 Nous devons continuer notre combat.
-Retournons à FARENHEIT!
+Retournons à FARENHEIT !
 Cependant,Bikkebakke est trop heureux
 d'être revenu.
 Il est inquiet mais ce serait terrible
-d'arrêter maintenant,n'est-ce pas?[end]</data>
+d'arrêter maintenant,n'est-ce pas ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x839</ref>
         </refs>
         <data>BIKKEBAKKE:
-[character][0x0],mon frère!
+[character][0x0],mon frère !
 Je... je suis inutile.
 Je ne sers plus à rien.
 Ca te fait sourire...?!
  
 [character][0x0],serais-tu prêt à organiser un
-un grand commerce de champignons?
-Il y en a tant dans le monde!
+un grand commerce de champignons ?
+Il y en a tant dans le monde !
 Tant...[end]</data>
     </text>
     <text>
@@ -757,8 +757,8 @@ je serai mis de côté.[end]</data>
             <ref>0x87f</ref>
         </refs>
         <data>RUSH:
-Nous serons toujours avec toi!
-Cesse de faire l'imbécile![end]</data>
+Nous serons toujours avec toi !
+Cesse de faire l'imbécile ![end]</data>
     </text>
     <text>
         <refs>
@@ -766,9 +766,9 @@ Cesse de faire l'imbécile![end]</data>
         </refs>
         <data>TAURUS:
 Nous ne te remercierons jamais assez
-pour ce que tu fais!
+pour ce que tu fais !
 Viens et rentre avec nous à
-FARENHEIT![end]</data>
+FARENHEIT ![end]</data>
     </text>
     <text>
         <refs>
@@ -782,27 +782,27 @@ Oh mes amis...[end]</data>
             <ref>0x8cb</ref>
         </refs>
         <data>MATELIGHT:
-C'est terrible!
-Sendack est inconscient![end]</data>
+C'est terrible !
+Sendack est inconscient ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8ee</ref>
         </refs>
         <data>DOCTEUR DRAGON:
-C'est terrible!
+C'est terrible !
  
 FARENHEIT est en ce moment au dessus
-de l'Empire![end]</data>
+de l'Empire ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8fc</ref>
         </refs>
         <data>MATELIGHT:
-Allons-y!
-Hâtons-nous!
+Allons-y !
+Hâtons-nous !
 Je crois que la lutte finale contre
-l'Empire Granbelos arrive à grands pas![end]</data>
+l'Empire Granbelos arrive à grands pas ![end]</data>
     </text>
 </texts>

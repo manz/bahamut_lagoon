@@ -17,7 +17,7 @@
         <refs>
             <ref>0x92</ref>
         </refs>
-        <data> Pourquoi est-il surnommé ainsi?[end1]</data>
+        <data> Pourquoi est-il surnommé ainsi ?[end1]</data>
     </text>
     <text>
         <refs>
@@ -82,25 +82,25 @@
             <ref>0x20e</ref>
         </refs>
         <data>MATELIGHT:
-Héééhooo!
-Il y a quelqu'un?[end]</data>
+Héééhooo !
+Il y a quelqu'un ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x21e</ref>
         </refs>
-        <data>Est-ce que quelqu'un habite ici?
+        <data>Est-ce que quelqu'un habite ici ?
 Quelle calamité s'est abattue sur ce
-peuple?![end]</data>
+peuple ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x23e</ref>
         </refs>
-        <data>C'est inutile!
-Il n'y a personne!
+        <data>C'est inutile !
+Il n'y a personne !
 L'Empire a dû terriblement
-contre-attaquer![end]</data>
+contre-attaquer ![end]</data>
     </text>
     <text>
         <refs>
@@ -115,15 +115,15 @@ Tout est si...[end]</data>
             <ref>0x26c</ref>
         </refs>
         <data>MATELIGHT:
-Cet Empire de malheur!
-Pourquoi fait-il tout cela?![end]</data>
+Cet Empire de malheur !
+Pourquoi fait-il tout cela ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x27f</ref>
         </refs>
         <data>SENDACK:
-Au fait,où est Commandant?
+Au fait,où est Commandant ?
 J'ai une vague impression...
 Je crois qu'il ne va pas bien...[end]</data>
     </text>
@@ -142,27 +142,27 @@ Va voir si tu trouves quelqu'un ici,
             <ref>0x751</ref>
         </refs>
         <data>DON JUAN:
-Les Rebelles?
-Lukia!
-Est-ce toi Lukia?![end]</data>
+Les Rebelles ?
+Lukia !
+Est-ce toi Lukia ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x764</ref>
         </refs>
         <data>LUKIA:
-Don Juan!
-Tu es en vie?[end]</data>
+Don Juan !
+Tu es en vie ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x772</ref>
         </refs>
         <data>DON JUAN:
-Pourquoi cette question?!
+Pourquoi cette question ?!
  
 Au fait,pourquoi avais-tu quitté Mahal,
-Lukia?
+Lukia ?
  
 Quant à moi,je dois avouer qu'après
 tout ces souvenirs,tu m'as beaucoup
@@ -172,24 +172,24 @@ manqué...[end]</data>
         <refs>
             <ref>0x791</ref>
         </refs>
-        <data>Tu es heureuse de me voir!
-Oh,ne réponds pas!
-J'en suis certain!
+        <data>Tu es heureuse de me voir !
+Oh,ne réponds pas !
+J'en suis certain !
 Et même si ce n'était que mon ombre,
-tu serais heureuse![end]</data>
+tu serais heureuse ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x77f</ref>
         </refs>
         <data>LUKIA:
-Don Juan,plus un mot!
-Tais-toi,s'il te plaît!
+Don Juan,plus un mot !
+Tais-toi,s'il te plaît !
 Rassembler le plus de force possible
 est pour le moment mon principal but.
-C'est ma seule préoccupation!
+C'est ma seule préoccupation !
 Nous combattons l'Empire.
-Joins-toi à nous![end]</data>
+Joins-toi à nous ![end]</data>
     </text>
     <text>
         <refs>
@@ -197,8 +197,8 @@ Joins-toi à nous![end]</data>
         </refs>
         <data>DON JUAN:
 ... ... ...
-Ai-je raison,Lukia?
-Tu n'as jamais pu m'oublier?
+Ai-je raison,Lukia ?
+Tu n'as jamais pu m'oublier ?
 Tu n'as eu de cesse de penser à
 moi.[end]</data>
     </text>
@@ -208,14 +208,14 @@ moi.[end]</data>
         </refs>
         <data>Chaque jour,tu t'es inquiétée pour
 moi.
-N'ai-je pas raison?
+N'ai-je pas raison ?
 Tu es revenue à Mahal pour une seule
 chose...
-Pour moi,Don Juan!
-Simplement pour me revoir!
-Ai-je raison?
+Pour moi,Don Juan !
+Simplement pour me revoir !
+Ai-je raison ?
 Je suis devant toi,maintenant.
-Je suis tout à toi!
+Je suis tout à toi !
 Et il n'y a que moi dans ton coeur.
  
 Je peux voir et lire au delà du vitrail
@@ -226,9 +226,9 @@ de ton coeur que tu n'aimes que moi.[end]</data>
             <ref>0x7b7</ref>
         </refs>
         <data>LUKIA:
-Tu te trompes,Don Juan!
+Tu te trompes,Don Juan !
  
-Je ne veux plus t'entendre![end]</data>
+Je ne veux plus t'entendre ![end]</data>
     </text>
     <text>
         <refs>
@@ -247,8 +247,8 @@ Je suis très attiré par toi.[end]</data>
             <ref>0x7d1</ref>
         </refs>
         <data>LUKIA:
-Arrête de te lamenter!
-Que veux-tu dire?![end]</data>
+Arrête de te lamenter !
+Que veux-tu dire ?![end]</data>
     </text>
     <text>
         <refs>
@@ -302,19 +302,19 @@ Lukia...[end]</data>
         <refs>
             <ref>0x85d</ref>
         </refs>
-        <data>Où es-tu en ce moment?[end]</data>
+        <data>Où es-tu en ce moment ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x865</ref>
         </refs>
-        <data>Que fais-tu en ce moment?[end]</data>
+        <data>Que fais-tu en ce moment ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x877</ref>
         </refs>
-        <data>Te portes-tu bien?[end]</data>
+        <data>Te portes-tu bien ?[end]</data>
     </text>
     <text>
         <refs>
@@ -355,7 +355,7 @@ sans ton amour...[end]</data>
             <ref>0x909</ref>
         </refs>
         <data>LUKIA:
-Idiot![end]</data>
+Idiot ![end]</data>
     </text>
     <text>
         <refs>
@@ -363,24 +363,24 @@ Idiot![end]</data>
             <ref>0xaf6</ref>
         </refs>
         <data>DON JUAN:
-Ouah!
-A l'aide! Au secours!
-Je ne mentais pas![end]</data>
+Ouah !
+A l'aide ! Au secours !
+Je ne mentais pas ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x940</ref>
         </refs>
-        <data>Hé,toi là-bas! Le voyageur!
+        <data>Hé,toi là-bas ! Le voyageur !
 Il faut absolument que tu fasses
-quelque chose!
-Pourrais-tu au moins venir me sauver?[end]</data>
+quelque chose !
+Pourrais-tu au moins venir me sauver ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x949</ref>
         </refs>
-        <data>Secourir Don Juan?[end]</data>
+        <data>Secourir Don Juan ?[end]</data>
     </text>
     <text>
         <refs>
@@ -395,8 +395,8 @@ Pourrais-tu au moins venir me sauver?[end]</data>
             <ref>0xb44</ref>
         </refs>
         <data>DON JUAN:
-A l'aide!
-Ne m'abandonnez pas!
+A l'aide !
+Ne m'abandonnez pas !
 Je ne mentais pas...[end]</data>
     </text>
     <text>
@@ -406,16 +406,16 @@ Je ne mentais pas...[end]</data>
         <data>DON JUAN:
 Humpf humpf...
 M... merci...
-Tu m'as secouru!
-Je ne connais même pas ton nom?![end]</data>
+Tu m'as secouru !
+Je ne connais même pas ton nom ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x983</ref>
         </refs>
-        <data>T... t... toi!
+        <data>T... t... toi !
 Tu es [character][0x0],le Capitaine de l'Escadron
-Dragon de Kana![end]</data>
+Dragon de Kana ![end]</data>
     </text>
     <text>
         <refs>
@@ -456,13 +456,13 @@ avait rejoint les Rebelles.[end]</data>
             <ref>0x9d6</ref>
         </refs>
         <data>Que dirais-tu si Don Juan,le Na[0x25]f et
-Fidèle serviteur,vous rejoignait?[end]</data>
+Fidèle serviteur,vous rejoignait ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9e3</ref>
         </refs>
-        <data> Tu peux toujours ramper!
+        <data> Tu peux toujours ramper !
  Si c'est ce que tu veux...[end1]</data>
     </text>
     <text>
@@ -470,9 +470,9 @@ Fidèle serviteur,vous rejoignait?[end]</data>
             <ref>0xa03</ref>
         </refs>
         <data>DON JUAN:
-Très bien!
-Ma force ne t'est pas nécessaire?
-Je suis pourtant Don Juan!
+Très bien !
+Ma force ne t'est pas nécessaire ?
+Je suis pourtant Don Juan !
 Et VOUS avez besoin de moi.[end]</data>
     </text>
     <text>
@@ -486,49 +486,49 @@ Et VOUS avez besoin de moi.[end]</data>
             <ref>0x9f0</ref>
         </refs>
         <data>DON JUAN
-C'est... C'est vrai?!
-C'est génial!
-Fêtons ça![end]</data>
+C'est... C'est vrai ?!
+C'est génial !
+Fêtons ça ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa20</ref>
         </refs>
         <data>JEANNE:
-DON JUAN![end]</data>
+DON JUAN ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa4d</ref>
         </refs>
         <data>DON JUAN:
-Hoho! C'est toi Jeanne!
-Tu es une magnifique Armure Lumière!
-Comment vas-tu?
-Hum Hum!
-Il fait beau aujourd'hui?![end]</data>
+Hoho ! C'est toi Jeanne !
+Tu es une magnifique Armure Lumière !
+Comment vas-tu ?
+Hum Hum !
+Il fait beau aujourd'hui ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa64</ref>
         </refs>
         <data>JEANNE:
-Pas un mot de plus,épave![end]</data>
+Pas un mot de plus,épave ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa70</ref>
         </refs>
-        <data>Ecoute cela!
+        <data>Ecoute cela !
 Commandant est revenu au Palais pour
-vaincre Restatto![end]</data>
+vaincre Restatto ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa83</ref>
         </refs>
         <data>DON JUAN:
-Restatto? L'Empire?
+Restatto ? L'Empire ?
 Ooooh...
 Ne crains rien,car Don Juan a rejoint
 les Rebelles.[end]</data>
@@ -538,8 +538,8 @@ les Rebelles.[end]</data>
             <ref>0xa8c</ref>
         </refs>
         <data>JEANNE:
-Qu'as-tu dit?!
-Qu'est-ce que tu as fait?![end]</data>
+Qu'as-tu dit ?!
+Qu'est-ce que tu as fait ?![end]</data>
     </text>
     <text>
         <refs>
@@ -547,26 +547,26 @@ Qu'est-ce que tu as fait?![end]</data>
         </refs>
         <data>Matelight,de Kana,est déjà parti en
 direction du champ de bataille,je vais
-le rejoindre!
-Tu ferais mieux d'en faire autant![end]</data>
+le rejoindre !
+Tu ferais mieux d'en faire autant ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xaa3</ref>
         </refs>
         <data>DON JUAN:
-Comment me trouves-tu?!
+Comment me trouves-tu ?!
 Jeanne,réponds-moi...
 Tu as vu mon splendide visage,
-n'est-ce pas?[end]</data>
+n'est-ce pas ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xaaf</ref>
         </refs>
-        <data>Qu'en penses-tu?
+        <data>Qu'en penses-tu ?
 Suis-je assez beau pour pouvoir aller
-au coeur du combat?
+au coeur du combat ?
 Je suis certain que tu ne peux
 répondre puisque ton coeur s'emballe
 à la seule vue de mon visage.[end]</data>
@@ -583,10 +583,10 @@ le vitrail de ton coeur.[end]</data>
             <ref>0xaf0</ref>
         </refs>
         <data>JEANNE:
-Tu es ennuyant!
+Tu es ennuyant !
  
 Tu m'as déjà dit cela,il y a peu de
-temps![end]</data>
+temps ![end]</data>
     </text>
     <text>
         <refs>
@@ -594,9 +594,9 @@ temps![end]</data>
         </refs>
         <data>JEANNE:
 Nous nous en allons et toi,restes ici,
-tu y es bien!
+tu y es bien !
 Ou alors prépare-toi et viens avec
-nous![end]</data>
+nous ![end]</data>
     </text>
     <text>
         <refs>
@@ -605,14 +605,14 @@ nous![end]</data>
         <data>DON JUAN:
 Capitaine [character][0x0]!
 Encore une fois,tu ne voudrais pas
-m'aider?[end]</data>
+m'aider ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb33</ref>
         </refs>
         <data>Aider Don Juan,
-le Na[0x25]f et Fidèle serviteur?[end]</data>
+le Na[0x25]f et Fidèle serviteur ?[end]</data>
     </text>
     <text>
         <refs>
@@ -627,7 +627,7 @@ le Na[0x25]f et Fidèle serviteur?[end]</data>
         </refs>
         <data>DON JUAN:
 Cette charmante Jeanne...
-Elle est folle de moi!
+Elle est folle de moi !
 Comme tu as pu t'en apercevoir,
 il est difficile d'être célèbre et adulé![end]</data>
     </text>
@@ -636,7 +636,7 @@ il est difficile d'être célèbre et adulé![end]</data>
             <ref>0x523</ref>
         </refs>
         <data>LUKIA:
-Allez tout le monde![end]</data>
+Allez tout le monde ![end]</data>
     </text>
     <text>
         <refs>
@@ -644,7 +644,7 @@ Allez tout le monde![end]</data>
         </refs>
         <data>MARCHAND ENVOYE AU CHAMP DE
 BATAILLE:
-Courage,courage![end]</data>
+Courage,courage ![end]</data>
     </text>
     <text>
         <refs>
@@ -665,17 +665,17 @@ Courage,courage![end]</data>
             <ref>0x530</ref>
         </refs>
         <data>DON JUAN:
-Ces dragons sont repoussants![end]</data>
+Ces dragons sont repoussants ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xbc5</ref>
         </refs>
-        <data>Hoho!
+        <data>Hoho !
 J'avais entendu une rumeur sur
 l'Escadron Dragon de Kana.
-A l'évidence,elle est vraie!
-Ils sont vraiment repoussants![end]</data>
+A l'évidence,elle est vraie !
+Ils sont vraiment repoussants ![end]</data>
     </text>
     <text>
         <refs>
@@ -701,13 +701,13 @@ Ils sont vraiment repoussants![end]</data>
         </refs>
         <data>SENDACK:
 Il fait si froid ici...
-Partons-nous combattre?[end]</data>
+Partons-nous combattre ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x418</ref>
         </refs>
-        <data> Préparons-nous!
- Allons combattre![end1]</data>
+        <data> Préparons-nous !
+ Allons combattre ![end1]</data>
     </text>
 </texts>

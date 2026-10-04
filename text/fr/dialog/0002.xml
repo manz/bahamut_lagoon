@@ -12,7 +12,7 @@
             <ref>0xbe</ref>
         </refs>
         <data>PALPALEOS:
-Dormez-vous,Princesse?[end]</data>
+Dormez-vous,Princesse ?[end]</data>
     </text>
     <text>
         <refs>
@@ -20,8 +20,8 @@ Dormez-vous,Princesse?[end]</data>
         </refs>
         <data>SAUZER:
 Je me doutais que tu serais ici
-mon cher Palpaleos!
-Tu ne peux également pas dormir?[end]</data>
+mon cher Palpaleos !
+Tu ne peux également pas dormir ?[end]</data>
     </text>
     <text>
         <refs>
@@ -35,8 +35,8 @@ C'est cela,Empereur...[end]</data>
             <ref>0x12c</ref>
         </refs>
         <data>SAUZER:
-Est-ce pour la même raison?
-La Légende dont nous rêvons?!
+Est-ce pour la même raison ?
+La Légende dont nous rêvons ?!
 Elle est maintenant ici et elles est à
 nous...[end]</data>
     </text>
@@ -52,18 +52,18 @@ A Campbell,le Continent Verdoyant...[end]</data>
             <ref>0x154</ref>
         </refs>
         <data>SAUZER:
-Effectivement!
+Effectivement !
  
 Cette fille nous amènera probablement
-vers la Légende![end]</data>
+vers la Légende ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x164</ref>
         </refs>
-        <data>Je ne devrais pas l'appeler fille!
+        <data>Je ne devrais pas l'appeler fille !
 Princesse [character][0x1],
-quelle magnifique personne vous êtes![end]</data>
+quelle magnifique personne vous êtes ![end]</data>
     </text>
     <text>
         <refs>
@@ -95,9 +95,9 @@ Tu sembles être si fatigué.[end]</data>
         <refs>
             <ref>0x298</ref>
         </refs>
-        <data>Nous contrôlons les cieux!
+        <data>Nous contrôlons les cieux !
 Nous n'avons malheureusement pas
-encore tout![end]</data>
+encore tout ![end]</data>
     </text>
     <text>
         <refs>
@@ -114,8 +114,8 @@ Sauzer...[end]</data>
 Je me souviens d'une légende...
  
 La légende de Kana...
-Est-elle un conte?
-La connais-tu Palpaleos?[end]</data>
+Est-elle un conte ?
+La connais-tu Palpaleos ?[end]</data>
     </text>
     <text>
         <refs>
@@ -130,21 +130,21 @@ La légende de leur Dragon Sacré?![end]</data>
         </refs>
         <data>SAUZER:
 Penses-tu qu'un jour,je serai
-l'homme légendaire?[end]</data>
+l'homme légendaire ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2e1</ref>
         </refs>
         <data>Je suis déjà l'Empereur qui contrôle
-le ciel![end]</data>
+le ciel ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2f6</ref>
         </refs>
         <data>La légende de Kana est dorénavant ma
-seule ambition!
+seule ambition !
  
 Seulement après cela,je serai satisfait.[end]</data>
     </text>
@@ -152,7 +152,7 @@ Seulement après cela,je serai satisfait.[end]</data>
         <refs>
             <ref>0x301</ref>
         </refs>
-        <data>Et,j'aurai la victoire![end]</data>
+        <data>Et,j'aurai la victoire ![end]</data>
     </text>
     <text>
         <refs>
@@ -166,7 +166,7 @@ La victoire vers une Ere Nouvelle...[end]</data>
             <ref>0x317</ref>
         </refs>
         <data>SAUZER:
-Oui,vers une Ere Nouvelle!
+Oui,vers une Ere Nouvelle !
  
 S'il te plaît,Palpaleos,
 reste quelques temps avec moi...[end][end]</data>

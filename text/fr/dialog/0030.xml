@@ -6,7 +6,7 @@
         </refs>
         <data>TAURUS:
 Les forces de Granbelos sont trop
-puissantes!
+puissantes !
 Nous devrions battre en retraite...[end]</data>
     </text>
     <text>
@@ -23,7 +23,7 @@ Nous devrions battre en retraite...[end]</data>
         <data>RUSH:
 Les Commandants de l'Empire sont si
 forts...
-Je... n'avais jamais... eu si peur![end]</data>
+Je... n'avais jamais... eu si peur ![end]</data>
     </text>
     <text>
         <refs>
@@ -38,12 +38,12 @@ La Princesse [character][0x1]![end]</data>
         </refs>
         <data>SAUZER:
 La Princesse de Kana...
-Une Dragoon!
+Une Dragoon !
 Aurait-elle des pouvoirs plus puissants
-que ceux du Dragon Sacré Bahamut?!
+que ceux du Dragon Sacré Bahamut ?!
  
 Ou est-ce simplement une légende,
-Roi de Kana?[end]</data>
+Roi de Kana ?[end]</data>
     </text>
     <text>
         <refs>
@@ -51,14 +51,14 @@ Roi de Kana?[end]</data>
         </refs>
         <data>SAUZER:
 Nous allons prendre la Princesse de
-Kana avec nous![end]</data>
+Kana avec nous ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x553</ref>
         </refs>
         <data>                   [character][0x0]!
-                   Matelight![end]</data>
+                   Matelight ![end]</data>
     </text>
     <text>
         <refs>
@@ -68,17 +68,17 @@ Kana avec nous![end]</data>
 ...?!
  
 [character][0x0],le Chef de l'Escadron Dragon
-de Kana?![end]</data>
+de Kana ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5e8</ref>
         </refs>
         <data>ROI DE KANA:
-La Légende!
+La Légende !
  
 Comment se fait-il que tu la
-connaisses?[end]</data>
+connaisses ?[end]</data>
     </text>
     <text>
         <refs>
@@ -87,24 +87,24 @@ connaisses?[end]</data>
         <data>SAUZER:
 Sachez,Roi de Kana,que seules les
 époques choisissent la personne qui
-les dirigera!
+les dirigera !
 J'ai été moi-même choisi et je suis
-l'élu![end]</data>
+l'élu ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x604</ref>
         </refs>
         <data>ROI DE KANA:
-Tu sembles te surestimer Sauzer![end]</data>
+Tu sembles te surestimer Sauzer ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x612</ref>
         </refs>
-        <data>Le Dragon Sacré ne se réveillera pas!
+        <data>Le Dragon Sacré ne se réveillera pas !
 Et nous ne te laisserons pas avoir son
-pouvoir![end]</data>
+pouvoir ![end]</data>
     </text>
     <text>
         <refs>
@@ -112,15 +112,15 @@ pouvoir![end]</data>
         </refs>
         <data>SAUZER:
 Ainsi Bahamut ne s'est pas réveillé,
-n'est-ce pas?
+n'est-ce pas ?
 Je suppose qu'il n'est simplement pas
-encore l'heure!
+encore l'heure !
  
 Cependant,d'ici là,le monde entier
-sera à moi!
+sera à moi !
  
 Dès aujourd'hui,une nouvelle ère
-commence![end]</data>
+commence ![end]</data>
     </text>
     <text>
         <refs>

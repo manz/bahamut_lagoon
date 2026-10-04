@@ -13,8 +13,8 @@
         </refs>
         <data>MATELIGHT:
 Les troupes de Sauzer ont été
-vaincues!
-La Princesse [character][0x1] va être soulagée![end]</data>
+vaincues !
+La Princesse [character][0x1] va être soulagée ![end]</data>
     </text>
     <text>
         <refs>
@@ -31,15 +31,15 @@ C'est la dure réalité de la guerre.[end]</data>
         <data>MATELIGHT:
 [character][0x0],
 va te renseigner sur le Dragon Sacré!
-Nous,nous retournons à FARENHEIT![end]</data>
+Nous,nous retournons à FARENHEIT ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1f5</ref>
         </refs>
         <data>[character][0x4]!
-Viens!
-Qu'est-ce que tu fais?![end]</data>
+Viens !
+Qu'est-ce que tu fais ?![end]</data>
     </text>
     <text>
         <refs>
@@ -58,9 +58,9 @@ seul.[end]</data>
         </refs>
         <data>BIKKEBAKKE:
 J'aime ce désert mais j'aime aussi les
-desserts!
-Hahahahahahaha!
-Hahahahahahaha![end]</data>
+desserts !
+Hahahahahahaha !
+Hahahahahahaha ![end]</data>
     </text>
     <text>
         <refs>
@@ -86,11 +86,11 @@ Tout cela me perturbe...[end]</data>
             <ref>0xbd1</ref>
         </refs>
         <data>Ici,c'est un endroit civilisé,on ne
-rentre pas comme ça chez nous!
+rentre pas comme ça chez nous !
 [0xa8]censuré[0xa9]!
-Respecte les traditions!
+Respecte les traditions !
 Apprends les bonnes manières et tâche
-de ne plus revenir![end]</data>
+de ne plus revenir ![end]</data>
     </text>
     <text>
         <refs>
@@ -100,7 +100,7 @@ de ne plus revenir![end]</data>
 d'abord falloir que nous parlions.
 Oui... et bien...
 Merci d'avoir libéré Dafira.
-Ah,ceci?
+Ah,ceci ?
 Cela n'a aucune valeur mais c'est
 pour te remercier pour ton acte de
 bravoure.[end]</data>
@@ -118,28 +118,28 @@ Obtenu [0xb0][0xaf] [0xaa]LONGUE EPEE[0xab].[end]</data>
         <refs>
             <ref>0xc29</ref>
         </refs>
-        <data>Ah,c'est lamentable!
-Apprends les bonnes manières![end]</data>
+        <data>Ah,c'est lamentable !
+Apprends les bonnes manières ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xbe2</ref>
         </refs>
-        <data>Hahahahaha,c'est affligeant![end]</data>
+        <data>Hahahahaha,c'est affligeant ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x99e</ref>
         </refs>
-        <data>Partez!
-Partez![end]</data>
+        <data>Partez !
+Partez ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9fd</ref>
         </refs>
-        <data>Je suis satisfait Chin!
-Le palais royal est rempli de femmes!
+        <data>Je suis satisfait Chin !
+Le palais royal est rempli de femmes !
 Haha,je vais être occupé.[end]</data>
     </text>
     <text>
@@ -147,21 +147,21 @@ Haha,je vais être occupé.[end]</data>
             <ref>0x861</ref>
             <ref>0x849</ref>
         </refs>
-        <data>Hiii![end]</data>
+        <data>Hiii ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9ca</ref>
         </refs>
-        <data>Vous voici!
-Chin![end]</data>
+        <data>Vous voici !
+Chin ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9f3</ref>
         </refs>
-        <data>Merci!
-Venez vous reposer Chin![end]</data>
+        <data>Merci !
+Venez vous reposer Chin ![end]</data>
     </text>
     <text>
         <refs>
@@ -178,34 +178,34 @@ c'est.[end]</data>
         <refs>
             <ref>0x7cd</ref>
         </refs>
-        <data>Oh,serais-tu un explorateur?[end]</data>
+        <data>Oh,serais-tu un explorateur ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7ec</ref>
         </refs>
-        <data>Doucement!
-Quel est le mot de passe?[end]</data>
+        <data>Doucement !
+Quel est le mot de passe ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7f0</ref>
         </refs>
-        <data> C'est la Révolution!
- Je suis une Superstar![end1]</data>
+        <data> C'est la Révolution !
+ Je suis une Superstar ![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x7fa</ref>
         </refs>
-        <data>Tu as faux![end]</data>
+        <data>Tu as faux ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x81f</ref>
         </refs>
-        <data>Viens!
-Entre![end]</data>
+        <data>Viens !
+Entre ![end]</data>
     </text>
     <text>
         <refs>
@@ -215,10 +215,10 @@ Entre![end]</data>
 Ca y est,ça y est[0xd8]
  
 DON JUAN:
-Bonjour,demoiselle du désert!
+Bonjour,demoiselle du désert !
 Don Juan,votre très dévoué seigneur,
 est venu enfouir vos larmes dans le
-sable![end]</data>
+sable ![end]</data>
     </text>
     <text>
         <refs>
@@ -236,16 +236,16 @@ nom de Don Juan et enfin,j'attendrai
 Puis,moi,le leader des Révolutionnaires,
 vous promet de vous ramener chez
 vous.
-Où ça?
-Où aimeriez-vous aller?[end]</data>
+Où ça ?
+Où aimeriez-vous aller ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa33</ref>
         </refs>
         <data>DON JUAN:
-Je suis Don Juan!
-Je suis l'un des Rebelles!
+Je suis Don Juan !
+Je suis l'un des Rebelles !
 Je suis à bout de souffle et je veux
 aussi aller me reposer.[end]</data>
     </text>
@@ -254,18 +254,18 @@ aussi aller me reposer.[end]</data>
             <ref>0xa61</ref>
         </refs>
         <data>DON JUAN:
-Que veut-il?
+Que veut-il ?
 Je suis pourtant un gentleman...
 Est-ce que c'est privé?
 Tu n'aimerais pas y entrer [character][0x0]?
-Quoi?!
-Tu n'aurais rien à y faire?![end]</data>
+Quoi ?!
+Tu n'aurais rien à y faire ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9b0</ref>
         </refs>
-        <data>            Honneur au Roi![end]</data>
+        <data>            Honneur au Roi ![end]</data>
     </text>
     <text>
         <refs>
@@ -273,7 +273,7 @@ Tu n'aurais rien à y faire?![end]</data>
         </refs>
         <data>MARCHAND ENVOYE AU CHAMP DE
 BATAILLE:
-Haha,tout juste marié,femme au foyer!
+Haha,tout juste marié,femme au foyer !
 Ca commence toujours comme ça.[end]</data>
     </text>
     <text>
@@ -283,9 +283,9 @@ Ca commence toujours comme ça.[end]</data>
             <ref>0x755</ref>
             <ref>0xabd</ref>
         </refs>
-        <data>Attrape le Roi!
+        <data>Attrape le Roi !
 Nous te faisons confiance,
-c'est à toi de le faire![end]</data>
+c'est à toi de le faire ![end]</data>
     </text>
     <text>
         <refs>
@@ -303,8 +303,8 @@ Le Roi de Dafira avait dit qu'il était
 protégé par un Dragon Sacré.
 Il a ajouté qu'il s'appelait Jormungand
 et qu'il était au Sud du désert.
-Hahahaha!
-Allez,va attrapper ce Roi![end]</data>
+Hahahaha !
+Allez,va attrapper ce Roi ![end]</data>
     </text>
     <text>
         <refs>
@@ -312,22 +312,22 @@ Allez,va attrapper ce Roi![end]</data>
         </refs>
         <data>ZEROSHIN:
 Finis ce travail calmement et
-proprement![end]</data>
+proprement ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xadc</ref>
         </refs>
         <data>SAJIN:
-Vite... le Roi!
-Attrape-le![end]</data>
+Vite... le Roi !
+Attrape-le ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x858</ref>
         </refs>
         <data>LIBERO:
-Altesse,résignez-vous!
+Altesse,résignez-vous !
  
 Demain à Dafira sera mis en place un
 gouvernement formé de révolutionnaires
@@ -335,15 +335,15 @@ pour la liberté!
 Notre leader est...
 le seigneur [character][0x0]!
 Nous vous l'annonçons en ces lieux:
-Dès à présent,Dafira est un pays libre!
-Une nouvelle ère commence![end]</data>
+Dès à présent,Dafira est un pays libre !
+Une nouvelle ère commence ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x834</ref>
         </refs>
         <data>Nous avons eu pour instruction
-d'attraper le Roi!
+d'attraper le Roi !
 C'est ta responsabilité![end]</data>
     </text>
     <text>
@@ -352,7 +352,7 @@ C'est ta responsabilité![end]</data>
         </refs>
         <data>Chin... Chin...
 Chin s'est exilé...
-Nous sommes tous libres![end]</data>
+Nous sommes tous libres ![end]</data>
     </text>
     <text>
         <refs>
@@ -366,19 +366,19 @@ Nous sommes tous libres![end]</data>
         <refs>
             <ref>0x953</ref>
         </refs>
-        <data>       Rush devint un adulte![end]</data>
+        <data>       Rush devint un adulte ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x959</ref>
         </refs>
-        <data>      Taurus devint un adulte![end]</data>
+        <data>      Taurus devint un adulte ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x95f</ref>
         </refs>
-        <data>    Bikkebakke devint un adulte![end]</data>
+        <data>    Bikkebakke devint un adulte ![end]</data>
     </text>
     <text>
         <refs>
@@ -391,7 +391,7 @@ Nous sommes tous libres![end]</data>
             <ref>0x737</ref>
         </refs>
         <data>HOMME SUSPECT:
-Tu es une Superstar?[end]</data>
+Tu es une Superstar ?[end]</data>
     </text>
     <text>
         <refs>
@@ -414,25 +414,25 @@ Tu es une Superstar?[end]</data>
 été qu'une Superstar d'une nuit[0xd8]
  
 Tu es recruté pour faire parti des
-Libérateurs!
+Libérateurs !
  
 Le mot de passe est...
-[0xaa]Je suis une Superstar![0xab][end]</data>
+[0xaa]Je suis une Superstar ![0xab][end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa70</ref>
         </refs>
-        <data>Il fait très chaud!
+        <data>Il fait très chaud !
 Connais-tu les rumeurs qui courent sur
-les Rebelles?
-Je t'en dirai une pour [0xb0][0xaf][0xaf] Po![end]</data>
+les Rebelles ?
+Je t'en dirai une pour [0xb0][0xaf][0xaf] Po ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa74</ref>
         </refs>
-        <data> En apprendre une!
+        <data> En apprendre une !
  Ne pas écouter.[end1]</data>
     </text>
     <text>
@@ -450,14 +450,14 @@ bientôt avec la Princesse [character][0x1]![end]</data>
         <data>Il paraît que les matelots de
 FARENHEIT ont une mauvaise réputation.
 Et il parait que Bikkebakke vole des
-champignons et qu'il les revend![end]</data>
+champignons et qu'il les revend ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xaa1</ref>
         </refs>
         <data>Il semblerait qu'Ekaterina ait tout
-laissé tombé dans sa vie!
+laissé tombé dans sa vie !
 Est-ce à cause du [0xaa]UNIUJI[0xab]?![end]</data>
     </text>
     <text>
@@ -465,18 +465,18 @@ Est-ce à cause du [0xaa]UNIUJI[0xab]?![end]</data>
             <ref>0xaa8</ref>
         </refs>
         <data>Il paraît que les grognements de
-Sergent sont une maladie!
+Sergent sont une maladie !
 On dit aussi que la Princesse risque
-de l'attraper!
-Quelle horreur![end]</data>
+de l'attraper !
+Quelle horreur ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xab1</ref>
         </refs>
-        <data>Il n'y a plus rien à savoir!
+        <data>Il n'y a plus rien à savoir !
 Il n'y a rien à dire... sur le célèbre
-Commandant![end]</data>
+Commandant ![end]</data>
     </text>
     <text>
         <refs>

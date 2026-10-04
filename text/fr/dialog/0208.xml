@@ -8,24 +8,24 @@
 Cette lance est différente de la
 mienne mais elle est aussi comme
 la mienne.
-Il est à plaindre!
-Je m'en souviendrai![end]</data>
+Il est à plaindre !
+Je m'en souviendrai ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x242</ref>
         </refs>
         <data>FILS DE ZORA:
-C'est propre!
-Tout est propre![end]</data>
+C'est propre !
+Tout est propre ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x166</ref>
         </refs>
         <data>BARECK:
-Bienvenue!
-Je suis un magasin d'armures![end]</data>
+Bienvenue !
+Je suis un magasin d'armures ![end]</data>
     </text>
     <text>
         <refs>
@@ -39,11 +39,11 @@ Je suis un magasin d'armures![end]</data>
             <ref>0x179</ref>
         </refs>
         <data>BARECK:
-Passons à la minute pratique!
-Mais ça ne concerne pas les combats!
+Passons à la minute pratique !
+Mais ça ne concerne pas les combats !
 Euh... c'est sur... euuh...
 Dès que tu vois une charmante femme,
-ne bats pas en retraite trop vite![end]</data>
+ne bats pas en retraite trop vite ![end]</data>
     </text>
     <text>
         <refs>
@@ -51,18 +51,18 @@ ne bats pas en retraite trop vite![end]</data>
         </refs>
         <data>FRUNZE:
 Il me semble que Reeve a perdu
-quelque chose!
-Quelque chose de splendide!
-Lan Lan Lan... Hahaha![end]</data>
+quelque chose !
+Quelque chose de splendide !
+Lan Lan Lan... Hahaha ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1da</ref>
         </refs>
         <data>REEVE:
-Ce n'est pas intelligent!
-Pourquoi?
-Je n'avais jamais changé de lance!
+Ce n'est pas intelligent !
+Pourquoi ?
+Je n'avais jamais changé de lance !
 Je regrette le mienne...[end]</data>
     </text>
     <text>
@@ -86,7 +86,7 @@ amitié.[end]</data>
 Ah,[character][0x0][0xd8]
 Merci beaucoup[0xd8]
 Au moins,ici,je sens que je suis
-respecté comme un vrai Lancier!
+respecté comme un vrai Lancier !
 Je crois que je suis devenu un vrai
 homme.[end]</data>
     </text>
@@ -124,7 +124,7 @@ homme nouveau.
         <refs>
             <ref>0x249</ref>
         </refs>
-        <data>Super![end]</data>
+        <data>Super ![end]</data>
     </text>
     <text>
         <refs>
@@ -148,6 +148,6 @@ Il faut vivre,vivre,vivre...[end]</data>
         <refs>
             <ref>0x1c7</ref>
         </refs>
-        <data>Obtenu [0xaa]SERGENT???[0xab].[end][end]</data>
+        <data>Obtenu [0xaa]SERGENT ???[0xab].[end][end]</data>
     </text>
 </texts>

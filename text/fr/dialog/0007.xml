@@ -17,8 +17,8 @@ Je suis originaire de cette ville...
 C'est pour cette raison que ce lagon
 m'est si cher...
  
-La Princesse ira-t-elle au château?
-En tout cas,j'irai m'y promener![end]</data>
+La Princesse ira-t-elle au château ?
+En tout cas,j'irai m'y promener ![end]</data>
     </text>
     <text>
         <refs>
@@ -31,36 +31,36 @@ En tout cas,j'irai m'y promener![end]</data>
             <ref>0x2a1</ref>
         </refs>
         <data>MATELIGHT:
-Tu as l'air très optimiste!
+Tu as l'air très optimiste !
  
 Avant même de pouvoir y aller,
 il faudra chasser de Campbell l'Empire
-Granbelos![end]</data>
+Granbelos ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2af</ref>
         </refs>
         <data>ZORA:
-Je comprends![end]</data>
+Je comprends ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2c4</ref>
         </refs>
         <data>MATELIGHT:
-Au fait,Zora!
+Au fait,Zora !
  
 J'ai entendu dire que tu avais dit des
 choses inappropriées à la Princesse.
-Est-ce vrai?[end]</data>
+Est-ce vrai ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2e0</ref>
         </refs>
         <data>ZORA:
-C'est vrai!
+C'est vrai !
 Qui t'en a parlé?[end]</data>
     </text>
     <text>
@@ -68,10 +68,10 @@ Qui t'en a parlé?[end]</data>
             <ref>0x2fd</ref>
         </refs>
         <data>MATELIGHT:
-Quoi?!
-Ce n'est pas possible!
-Tu n'en as pas le droit!
-C'est absolument incroyable![end]</data>
+Quoi ?!
+Ce n'est pas possible !
+Tu n'en as pas le droit !
+C'est absolument incroyable ![end]</data>
     </text>
     <text>
         <refs>
@@ -79,11 +79,11 @@ C'est absolument incroyable![end]</data>
         </refs>
         <data>ZORA:
 N'es-tu pas en train de faire la même
-chose avec moi?
-Alors?
-Que vas-tu me faire maintenant?
-Dis-le Matelight!
-J'en ai assez entendu![end]</data>
+chose avec moi ?
+Alors ?
+Que vas-tu me faire maintenant ?
+Dis-le Matelight !
+J'en ai assez entendu ![end]</data>
     </text>
     <text>
         <refs>
@@ -100,7 +100,7 @@ Mince...[end]</data>
  
   
 La prochaine fois,j'irai passer ma
-colère sur Commandant![end]</data>
+colère sur Commandant ![end]</data>
     </text>
     <text>
         <refs>
@@ -108,10 +108,10 @@ colère sur Commandant![end]</data>
         </refs>
         <data>COMMANDANT:
 Ce sera bientôt la libération de
-Campbell!
+Campbell !
 J'espère que le service des magasins
 n'y est pas négligeant autrement je
-les détruirez tous![end]</data>
+les détruirez tous ![end]</data>
     </text>
     <text>
         <refs>
@@ -126,7 +126,7 @@ changé...[end]</data>
             <ref>0x23a</ref>
         </refs>
         <data>TAURUS:
-Quel secret Bikkebakke cache-t-il?[end]</data>
+Quel secret Bikkebakke cache-t-il ?[end]</data>
     </text>
     <text>
         <refs>
@@ -150,15 +150,15 @@ Err...[end]</data>
         </refs>
         <data>ANASTASIA:
 Pourrais-tu demander à Hornet ce
-qu'il aime le plus?
- Va lui demander toi-même!
+qu'il aime le plus ?
+ Va lui demander toi-même !
  Oui,je peux...[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x449</ref>
         </refs>
-        <data>Je m'en souviendrai,sois-en sûr![end][end]</data>
+        <data>Je m'en souviendrai,sois-en sûr ![end][end]</data>
     </text>
     <text>
         <refs>
@@ -171,33 +171,33 @@ qu'il aime le plus?
             <ref>0x255</ref>
         </refs>
         <data>HORNET:
-...? Quoi?
+...? Quoi ?
  
- Me dire ce que tu aimes!
- Me dire ce que tu hais![end1]</data>
+ Me dire ce que tu aimes !
+ Me dire ce que tu hais ![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x262</ref>
         </refs>
-        <data>Ce que j'aime?
+        <data>Ce que j'aime ?
 J'aime le [0xaa]Vin Doux[0xab]![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x26d</ref>
         </refs>
-        <data>Ce que je n'aime pas?
+        <data>Ce que je n'aime pas ?
 Hoho,je crois que c'est le [0xaa]Uniuji[0xab].
-Ca me donne plein de boutons![end]</data>
+Ca me donne plein de boutons ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x45b</ref>
         </refs>
         <data>ANASTASIA:
-Alors! alors!
-Qu'aime-t-il?
+Alors ! alors !
+Qu'aime-t-il ?
  [0xaa]Vin Doux[0xab]
  [0xaa]Uniuji[0xab][end1]</data>
     </text>
@@ -205,15 +205,15 @@ Qu'aime-t-il?
         <refs>
             <ref>0x47c</ref>
         </refs>
-        <data>Je vois![end]</data>
+        <data>Je vois ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x486</ref>
         </refs>
         <data>ANASTASIA:
-Je te l'avais dit,Ekaterina!
-Viens,allons-y![end]</data>
+Je te l'avais dit,Ekaterina !
+Viens,allons-y ![end]</data>
     </text>
     <text>
         <refs>
@@ -239,7 +239,7 @@ Docteur Dragon pour aller combattre.[end]</data>
         </refs>
         <data>LUKIA:
 Est-ce que nous allons à Campbell pour
-la Légende des Dragons Sacrés?
+la Légende des Dragons Sacrés ?
 J'espère que la chance tournera à
 notre avantage avec la Légende.[end]</data>
     </text>
@@ -262,7 +262,7 @@ le puissant pouvoir du Dragon Sacré.[end]</data>
 un vieil homme comme moi aies pu
 acquérir tant de puissance.
 Tu t'y perdrais...
-Haha!
+Haha !
 Je dis encore des balivernes.[end]</data>
     </text>
     <text>
@@ -272,7 +272,7 @@ Je dis encore des balivernes.[end]</data>
         </refs>
         <data>SENDACK:
 Persévère en ce que tu crois être
-bon![end]</data>
+bon ![end]</data>
     </text>
     <text>
         <refs>
@@ -280,7 +280,7 @@ bon![end]</data>
         </refs>
         <data>MATELIGHT:
 Sendack peut résister à trois
-personnes![end]</data>
+personnes ![end]</data>
     </text>
     <text>
         <refs>
@@ -298,7 +298,7 @@ parfait...[end]</data>
             <ref>0x416</ref>
         </refs>
         <data>[character][0x1]:
-Je... vais bien!
+Je... vais bien !
  
 Tous ensemble,nous irons à Campbell.[end]</data>
     </text>
@@ -337,7 +337,7 @@ Mais nous irons sur ce lagon...[end]</data>
         <data>[character][0x1]:
 [character][0x0]!
  
-Garde cela secret!
+Garde cela secret !
 Ne t'inquiète pas pour moi...[end]</data>
     </text>
     <text>
@@ -347,7 +347,7 @@ Ne t'inquiète pas pour moi...[end]</data>
         <data>[character][0x1]:
 [character][0x0]!
  
-Mon... corps... est lourd!
+Mon... corps... est lourd !
 Trop lourd pour que je puisse
 bouger...[end]</data>
     </text>
@@ -356,7 +356,7 @@ bouger...[end]</data>
             <ref>0x3a3</ref>
         </refs>
         <data>[character][0x0],je n'arrive pas à voir ce...
-qui se passe ici![end]</data>
+qui se passe ici ![end]</data>
     </text>
     <text>
         <refs>
@@ -385,41 +385,41 @@ Tends-moi... la main...[end]</data>
             <ref>0x4ed</ref>
         </refs>
         <data>MANYO:
-manyo!
-[0xa8]mélodia est venue![0xa9][end]</data>
+manyo !
+[0xa8]mélodia est venue ![0xa9][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4f7</ref>
         </refs>
         <data>MUNYO:
-munyo!
-[0xa8]nous dansons tous ensemble![0xa9][end]</data>
+munyo !
+[0xa8]nous dansons tous ensemble ![0xa9][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x501</ref>
         </refs>
         <data>MELODIA:
-Je suis comme un Petit Démon!
-Je le suis de plus en plus!
+Je suis comme un Petit Démon !
+Je le suis de plus en plus !
  C'est vrai,c'est bien...
- Tu ennuies les commerçants![end1]</data>
+ Tu ennuies les commerçants ![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x50e</ref>
         </refs>
-        <data>Ha ha!
-Allez! Tout le monde danse!
+        <data>Ha ha !
+Allez ! Tout le monde danse !
 Allez [character][0x0]![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x517</ref>
         </refs>
-        <data>Tout va bien!
-Mélodia a prévenu tout le monde![end]</data>
+        <data>Tout va bien !
+Mélodia a prévenu tout le monde ![end]</data>
     </text>
     <text>
         <refs>

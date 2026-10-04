@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<texts base="0x1c2" room_id="9">
+    <text>
+        <refs>
+            <ref>0xfb</ref>
+        </refs>
+        <data>RESTATTO
+[0xa8]Tu as voulu nous prendre par
+ surprise?![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x10c</ref>
+        </refs>
+        <data>prendre par
+ surprise?![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3e</ref>
+        </refs>
+        <data>se?![end]S</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x28</ref>
+        </refs>
+        <data>urs[0xd8][end] </data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x33</ref>
+        </refs>
+        <data>
+          Vaincre Restatto[end]R</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x37</ref>
+        </refs>
+        <data>ATTO
+[0xa8]HIHIHIHIHIHIHIHIHI![0xfc][0x1]
+ Vous êtes les Rebelles?![0xfc][0x1][end]C</data>
+    </text>
+</texts>

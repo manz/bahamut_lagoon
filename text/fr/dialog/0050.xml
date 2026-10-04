@@ -14,7 +14,7 @@
             <ref>0x332</ref>
         </refs>
         <data>BIKKEBAKKE:
-Des champignons?![end]</data>
+Des champignons ?![end]</data>
     </text>
     <text>
         <refs>
@@ -49,16 +49,16 @@ colère du Dragon Sacré?![end]</data>
 Capitaine [character][0x0],
 je me sens si lourd...
 Le Dragon Sacré est dans une telle
-furie![end]</data>
+furie ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x587</ref>
         </refs>
         <data>PALPALEOS:
-Gudruff!
-Quel est ce lieu?
-Et l'Empereur Sauzer?[end]</data>
+Gudruff !
+Quel est ce lieu ?
+Et l'Empereur Sauzer ?[end]</data>
     </text>
     <text>
         <refs>
@@ -74,12 +74,12 @@ Il est terriblement déçu...[end]</data>
         </refs>
         <data>Gufufufufu[0xd8]
 En effet,il doit supporter la dure
-trahison de Palpaleos!
+trahison de Palpaleos !
 Avant que je ne le contrôle,
 ses derniers mots furent...
  
 [0xaa]Ne pardonne pas à Palpaleos sa
- trahison![0xab]
+ trahison ![0xab]
 Assumez Général...
 Gufufufufu[0xd8][end]</data>
     </text>
@@ -99,11 +99,11 @@ Pourquoi... Sauzer...?[end]</data>
 Pourquoi...?
 Tu devrais le lui demander...
 Je vois aussi que vous êtes tous là!
-Alors vous mourrez tous!
+Alors vous mourrez tous !
  
 Gufufu,vous tomberez dans le ciel avec
-ce Dragon Sacré cauchemardesque!
-Adieu![end]</data>
+ce Dragon Sacré cauchemardesque !
+Adieu ![end]</data>
     </text>
     <text>
         <refs>
@@ -146,9 +146,9 @@ comme Matelight et Commmandant à tes
 côtés.
  
 Sendack,
-ne fais pas l'impossible!
-Ne va pas trop vite!
-Prends un peu de repos!
+ne fais pas l'impossible !
+Ne va pas trop vite !
+Prends un peu de repos !
 Tout le monde t'aime.
  
 [character][0x0],
@@ -176,7 +176,7 @@ Tout est fermé[0xd8][end]</data>
         <data>COMMANDANT:
 Ma moustache me le dit[0xd8]
 Est-ce ça la colère des Dragons
-Sacrés?
+Sacrés ?
 C'est si pénible[0xd8][end]</data>
     </text>
     <text>
@@ -184,9 +184,9 @@ C'est si pénible[0xd8][end]</data>
             <ref>0x2d8</ref>
         </refs>
         <data>MATELIGHT:
-[character][0x0],que se passe-t-il?
+[character][0x0],que se passe-t-il ?
 Toi,tu peux...
-Oh,ma tête![end]</data>
+Oh,ma tête ![end]</data>
     </text>
     <text>
         <refs>
@@ -262,7 +262,7 @@ Venez par ici,je vous en prie.[end]</data>
 Je connais la colère et la peine des
 Dragons Sacrés.
 Je vais vous donner le coeur et la
-mémoire d'Hypérion!
+mémoire d'Hypérion !
  
 Princesse [character][0x1],
 sauvez le Ciel d'Orelus.[end]</data>

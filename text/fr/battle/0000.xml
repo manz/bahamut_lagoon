@@ -1,0 +1,129 @@
+<?xml version="1.0" ?>
+<texts base="0x4da" room_id="0">
+    <text>
+        <refs>
+            <ref>0x64</ref>
+        </refs>
+        <data>MATELIGHT:
+Des Soldats impériaux...[0xfc][0x1]
+Nous devons les arrêter ici...[end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x75</ref>
+        </refs>
+        <data>evons les arrêter ici...[end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x90</ref>
+        </refs>
+        <data>arrêter ici...[end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa3</ref>
+        </refs>
+        <data>eau si
+nous utilisons une magie de Gel.[0xfc][0x1]
+N'oublies pas de commander les Dragons.[end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xf8</ref>
+        </refs>
+        <data>el.[0xfc][0x1]
+N'oublies pas de commander les Dragons.[end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xd9</ref>
+        </refs>
+        <data>ander les Dragons.[end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x26b</ref>
+        </refs>
+        <data>ndition de la Victoire[0xfc][0x1]
+        Détruire l'équipe ennemi[end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xc5</ref>
+        </refs>
+        <data>étruire l'équipe ennemi[end]A</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x387</ref>
+        </refs>
+        <data>de Kana est proche[0xd8][end]M</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x392</ref>
+        </refs>
+        <data>MATELIGHT:
+Que se passe-t-il?!
+Dépêchons-nous[0xd8][end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x465</ref>
+        </refs>
+        <data>ous[0xd8][end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x46c</ref>
+        </refs>
+        <data>pont de glace peut fondre
+avec une magie de feu[0xd8][end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4bd</ref>
+        </refs>
+        <data>eut fondre
+avec une magie de feu[0xd8][end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4c9</ref>
+        </refs>
+        <data>ont de glace ne peut être
+détruit si nous marchons dessus[0xd8][end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x220</ref>
+        </refs>
+        <data>i nous marchons dessus[0xd8][end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3c6</ref>
+        </refs>
+        <data>ais tous les tuer...[end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x68</ref>
+        </refs>
+        <data>[0x20]tout le monde...[0xfc][0x1]
+Plus que [0xb1] personnes à combattre![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x94</ref>
+        </refs>
+        <data>us que [0xb1] personnes à combattre![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3ca</ref>
+        </refs>
+        <data>nes à combattre![end1][end]</data>
+    </text>
+</texts>

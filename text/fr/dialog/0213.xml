@@ -12,7 +12,7 @@ s'achever.
  
 Tu veux maintenant être l'élu,
 l'homme légendaire...
-Jusqu'où veux-tu aller?[end]</data>
+Jusqu'où veux-tu aller ?[end]</data>
     </text>
     <text>
         <refs>
@@ -22,10 +22,10 @@ Jusqu'où veux-tu aller?[end]</data>
 des Dragons Sacrés.
  
 Penses-tu vraiment pouvoir faire une
-telle chose?
+telle chose ?
  
-Oui,une nouvelle ère viendra!
-Mais CE NE SERA PAS la tienne![end]</data>
+Oui,une nouvelle ère viendra !
+Mais CE NE SERA PAS la tienne ![end]</data>
     </text>
     <text>
         <refs>
@@ -42,7 +42,7 @@ Où suis-je...?[end]</data>
         <data>PALPALEOS:
 Sauzer...
 Vous êtes dans votre chambre.
-Vous ne vous en souvenez pas?
+Vous ne vous en souvenez pas ?
 Le pouvoir du Dragon Sacré a été
 libéré.[end]</data>
     </text>
@@ -52,10 +52,10 @@ libéré.[end]</data>
         </refs>
         <data>SAUZER:
 Je...
-J'ai été atteint par ce pouvoir?
+J'ai été atteint par ce pouvoir ?
 La Princesse [character][0x1]...
 contrôle-t-elle le Dragon Sacré?
-Se porte-t-elle bien?[end]</data>
+Se porte-t-elle bien ?[end]</data>
     </text>
     <text>
         <refs>
@@ -73,9 +73,9 @@ nous a été reprise.[end]</data>
         </refs>
         <data>SAUZER:
 Je suis désolé Palpaleos.
-Où sont partis les Rebelles?
+Où sont partis les Rebelles ?
 Vont-ils à la recherche des Dragons
-Sacrés?[end]</data>
+Sacrés ?[end]</data>
     </text>
     <text>
         <refs>
@@ -83,7 +83,7 @@ Sacrés?[end]</data>
         </refs>
         <data>PALPALEOS:
 Reposez-vous un peu...
-Nous défendrons Granbelos pour vous![end]</data>
+Nous défendrons Granbelos pour vous ![end]</data>
     </text>
     <text>
         <refs>
@@ -100,17 +100,17 @@ Qu'a dit Valitra à la Princesse [character][0x1]?[end]</data>
             <ref>0x261</ref>
         </refs>
         <data>Ce doit être à moi d'ouvrir la Porte
-vers la nouvelle ère!
-Pas à elle!
+vers la nouvelle ère !
+Pas à elle !
 Oui,Palpaleos...
 Ne laisse pas les Rebelles aller plus
-loin!
+loin !
 Bientôt,je saurais comment connaître
 le coeur des Dragons Sacrés.
  
 La Légende des Dragons Sacrés,
 la Nouvelle Ere...
-Ils seront MIENS![end]</data>
+Ils seront MIENS ![end]</data>
     </text>
     <text>
         <refs>
@@ -139,7 +139,7 @@ pour l'amour de Granbelos...[end]</data>
         </refs>
         <data> 
 Est-ce cet homme que nous avons
-choisi?[end]</data>
+choisi ?[end]</data>
     </text>
     <text>
         <refs>
@@ -170,10 +170,10 @@ Des monstres... repoussants...
 Les gardiens du Dragon Sacré!
 Bienvenue à tous...
 Je vous suis reconnaissant de m'avoir
-choisi!
+choisi !
 Mais avant d'y aller...
 j'aimerais savoir une chose...
-Pourquoi m'avoir choisi?[end]</data>
+Pourquoi m'avoir choisi ?[end]</data>
     </text>
     <text>
         <refs>
@@ -197,7 +197,7 @@ Tu connais la souffrance de la Guerre...[end]</data>
         </refs>
         <data>Ainsi,tu es le mieux à même d'ouvrir
 Porte vers une Nouvelle Ere...
-Celle de la paix!
+Celle de la paix !
 Cependant,l'élu doit avoir une très
 grande force...
  
@@ -235,7 +235,7 @@ Il est... dans mon esprit...[end]</data>
         <refs>
             <ref>0x70d</ref>
         </refs>
-        <data>Tout n'est que... vengeance![end]</data>
+        <data>Tout n'est que... vengeance ![end]</data>
     </text>
     <text>
         <refs>
@@ -243,10 +243,10 @@ Il est... dans mon esprit...[end]</data>
         </refs>
         <data>PALPALEOS:
 Avez-vous remarqué le changement
-dans le ciel?
+dans le ciel ?
 Empereur Sauzer,
 comprenez-vous ce qui se trame dans
-le ciel?[end]</data>
+le ciel ?[end]</data>
     </text>
     <text>
         <refs>
@@ -263,7 +263,7 @@ dernière fois...[end]</data>
             <ref>0x81c</ref>
         </refs>
         <data>PALPALEOS:
-Pour la dernière fois?![end]</data>
+Pour la dernière fois ?![end]</data>
     </text>
     <text>
         <refs>
@@ -271,10 +271,10 @@ Pour la dernière fois?![end]</data>
         </refs>
         <data>SAUZER:
 Il est si brillant...
-J'avais oublié cela!
+J'avais oublié cela !
 Il est brillant grâce aux rêves et à la
 Légende...
-Le ciel est à moi![end]</data>
+Le ciel est à moi ![end]</data>
     </text>
     <text>
         <refs>
@@ -291,9 +291,9 @@ Sauzer...?![end]</data>
         </refs>
         <data>SAUZER:
 Palpaleos...
-Est-ce que je fais erreur?
-Suis-je humain?
-Suis-je leur Empereur?[end]</data>
+Est-ce que je fais erreur ?
+Suis-je humain ?
+Suis-je leur Empereur ?[end]</data>
     </text>
     <text>
         <refs>
@@ -319,8 +319,8 @@ Mon dieu... qu'ai-je créé?![end]</data>
         <refs>
             <ref>0x8e3</ref>
         </refs>
-        <data>Tout est à moi!
-Tout ce que je désirais est à moi![end]</data>
+        <data>Tout est à moi !
+Tout ce que je désirais est à moi ![end]</data>
     </text>
     <text>
         <refs>
@@ -328,31 +328,31 @@ Tout ce que je désirais est à moi![end]</data>
         </refs>
         <data>Palpaleos...
 Aurais-tu une chose à laquelle tu
-tiens?
+tiens ?
 Une chose pour laquelle tu trahirais
-voire tuerais l'Empereur de Granbelos?[end]</data>
+voire tuerais l'Empereur de Granbelos ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x901</ref>
         </refs>
-        <data>Général Palpaleos!
-Partez... partez à Kana!
+        <data>Général Palpaleos !
+Partez... partez à Kana !
  
 Rejoignez les Rebelles et combattez
 armées pour protéger le ciel...
-Pour protéger Orelus![end]</data>
+Pour protéger Orelus ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x928</ref>
         </refs>
-        <data>C'est un ordre de l'Empereur!
-Ne le discute pas Palpaleos!
+        <data>C'est un ordre de l'Empereur !
+Ne le discute pas Palpaleos !
  
 Malgré cela,tu seras toujours la
 personne qui ait le plus compté pour
-pour moi![end]</data>
+pour moi ![end]</data>
     </text>
     <text>
         <refs>
@@ -365,6 +365,6 @@ Comprenez-vous la profondeur de
 l'ombre...
  
 La profondeur de l'ombre de mon
-coeur?[end]</data>
+coeur ?[end]</data>
     </text>
 </texts>

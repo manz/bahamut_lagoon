@@ -27,13 +27,13 @@ vous protéger toi et Mahal...[end]</data>
         <refs>
             <ref>0x87</ref>
         </refs>
-        <data>Ai-je été très lâche?[end]</data>
+        <data>Ai-je été très lâche ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x91</ref>
         </refs>
-        <data>Pourquoi n'ai-je pu vous aider?[end]</data>
+        <data>Pourquoi n'ai-je pu vous aider ?[end]</data>
     </text>
     <text>
         <refs>
@@ -46,7 +46,7 @@ changées...[end]</data>
         <refs>
             <ref>0xab</ref>
         </refs>
-        <data>J'ai aujourd'hui réalisé ton souhait![end]</data>
+        <data>J'ai aujourd'hui réalisé ton souhait ![end]</data>
     </text>
     <text>
         <refs>
@@ -84,7 +84,7 @@ je n'aurais jamais dû te perdre...[end]</data>
         <refs>
             <ref>0xe6</ref>
         </refs>
-        <data>J'ai honte d'être un soldat![end]</data>
+        <data>J'ai honte d'être un soldat ![end]</data>
     </text>
     <text>
         <refs>
@@ -103,6 +103,6 @@ je n'aurais jamais dû te perdre...[end]</data>
             <ref>0x108</ref>
         </refs>
         <data>A toi et à mes soldats...
-De me pardonner d'avoir été si inutile![end]</data>
+De me pardonner d'avoir été si inutile ![end]</data>
     </text>
 </texts>

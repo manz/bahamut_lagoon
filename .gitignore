@@ -1,0 +1,48 @@
+rooms_*
+rooms
+seekndestroy
+build/
+debug_src
+*.asm
+*.id[01b]
+*.nam
+*.til
+*am.bin
+*.sig
+*.log
+*.bst
+*.sfc
+*.smc
+*.srm
+*.oops
+*.ips
+.idea
+text2
+
+# tools
+*.app
+uips
+
+# virtualenv
+VE_bl
+
+**__pycache__
+
+# temporary rule
+#text
+#text2/*
+#text2/prepare_chars_for_ocr.sh
+
+# never publish ROM data, dumps or local tooling state
+*.sfc.gz
+*.ram
+*.bsz
+*.sym
+*.kintsuki/
+a.out
+parser.out
+build.c
+.*/
+!.github/
+xcuserdata/
+assets/vwf.bin

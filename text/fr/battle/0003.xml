@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<texts base="0x9c" room_id="3">
+    <text>
+        <refs>
+            <ref>0x28</ref>
+        </refs>
+        <data>[0xa8]Mourrez[0xd8][0xfc][0x1]
+ Mourrez[0xd8][0xfc][0x1]
+ Mourrez tous[0xd8][0xfc][0x1][end][0xa8]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2c</ref>
+        </refs>
+        <data>us[0xd8][0xfc][0x1][end][0xa8]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x35</ref>
+        </refs>
+        <data>aux sont confus[0xd8][0xfc][0x1][end] </data>
+    </text>
+</texts>

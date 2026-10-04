@@ -19,27 +19,27 @@
             <ref>0x647</ref>
             <ref>0x837</ref>
         </refs>
-        <data>Vous voulez acheter?[end]</data>
+        <data>Vous voulez acheter ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x58d</ref>
         </refs>
         <data>Hé hé!
-Va les nourrir![end]</data>
+Va les nourrir ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x595</ref>
         </refs>
-        <data>Alors![end]</data>
+        <data>Alors ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6cb</ref>
         </refs>
-        <data>Bienvenue!
-C'est le magasin d'armes![end]</data>
+        <data>Bienvenue !
+C'est le magasin d'armes ![end]</data>
     </text>
     <text>
         <refs>
@@ -55,12 +55,12 @@ C'est le magasin d'armes![end]</data>
         <data>Très bien,je vais pouvoir vous les
 apprendre car de toute manière je ne
 fais dans la vie que du commerce,
-et ça m'ennuie un peu!
+et ça m'ennuie un peu !
 Commençons par des choses
 spéciales...
 La magie noire a différents attributs
 tels que le Feu,l'Eau ou encore la
-Foudre!
+Foudre !
 Et si vous jetez l'un de ces attributs
 sur un ennemi,il sera à sa mort changé
 en armes ou objets.
@@ -73,23 +73,23 @@ l'eau.
 Ainsi vous économisez de l'argent et
 vous pouvez nourrir plus souvent vos
 dragons.
-C'est un bon plan,non?[end]</data>
+C'est un bon plan,non ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7d9</ref>
             <ref>0x7eb</ref>
         </refs>
-        <data>Approchez!
-Bienvenue!
-Vous voulez des objets?![end]</data>
+        <data>Approchez !
+Bienvenue !
+Vous voulez des objets ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8a3</ref>
             <ref>0x8b5</ref>
         </refs>
-        <data>Je vends des armures!
+        <data>Je vends des armures !
 Regardez,je vous en prie...[end]</data>
     </text>
     <text>
@@ -113,15 +113,15 @@ Regardez,je vous en prie...[end]</data>
             <ref>0x5ec</ref>
         </refs>
         <data>DOCTEUR DRAGON:
-Tu as une réunion![end]</data>
+Tu as une réunion ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5f3</ref>
         </refs>
         <data>DOCTEUR DRAGON:
-Les Dragons t'attendent!
-Hahaha! Par ici![end]</data>
+Les Dragons t'attendent !
+Hahaha ! Par ici ![end]</data>
     </text>
     <text>
         <refs>
@@ -132,7 +132,7 @@ n'enlevez pas vos habits...
 Voyons...
 C... c'est...
 un magasin d'équipement...
-Nous sommes respectables![end]</data>
+Nous sommes respectables ![end]</data>
     </text>
     <text>
         <refs>
@@ -170,10 +170,10 @@ Nous sommes respectables![end]</data>
             <ref>0x5dc</ref>
         </refs>
         <data>DOCTEUR DRAGON:
-Veux-tu sortir?
+Veux-tu sortir ?
  
 [character][0x4] est très heureux car nous
-avons vu beaucoup d'éclairs![end]</data>
+avons vu beaucoup d'éclairs ![end]</data>
     </text>
     <text>
         <refs>
@@ -183,7 +183,7 @@ avons vu beaucoup d'éclairs![end]</data>
         </refs>
         <data>Les magasins de FARENHEIT sont
 toujours ouverts même s'il pleut ou
-que le temps est très mauvais![end]</data>
+que le temps est très mauvais ![end]</data>
     </text>
     <text>
         <refs>
@@ -199,9 +199,9 @@ que... que...
         </refs>
         <data>MATELOT:
 Il y a longtemps,tu m'as sauvé...
-Et je t'en remercie!
+Et je t'en remercie !
 Maintenant je peux de nouveau avoir
-des rêves!
+des rêves !
  
 Chaque jour,je peux m'occuper des
 dragons.
@@ -215,15 +215,15 @@ allait très bien se passer.[end]</data>
         </refs>
         <data>MATELOT:
 Je vais aider mes associés...
-Je vais y aller!
-Parfois,ce type repart en dragon!
-Tout le monde l'a vu![end]</data>
+Je vais y aller !
+Parfois,ce type repart en dragon !
+Tout le monde l'a vu ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x580</ref>
         </refs>
-        <data>Ho ho![end]</data>
+        <data>Ho ho ![end]</data>
     </text>
     <text>
         <refs>
@@ -247,10 +247,10 @@ Tout le monde l'a vu![end]</data>
         </refs>
         <data>DOCTEUR DRAGON:
 Les dragons sont bruyants et plein
-d'éclat!
+d'éclat !
 La Princesse est revenue,c'est pour
 cette raison qu'ils sont heureux.
-Va les nourrir![end]</data>
+Va les nourrir ![end]</data>
     </text>
     <text>
         <refs>
@@ -259,8 +259,8 @@ Va les nourrir![end]</data>
             <ref>0x79e</ref>
         </refs>
         <data>La Princesse [character][0x1] est revenue et
-j'ai de nouveaux articles!
-Qu'aimeriez-vous?[end]</data>
+j'ai de nouveaux articles !
+Qu'aimeriez-vous ?[end]</data>
     </text>
     <text>
         <refs>
@@ -270,31 +270,31 @@ Qu'aimeriez-vous?[end]</data>
 [character][0x7] et un matelot sont partis
 en reconnaissance.
 Heureusement qu'il y a un rayon de
-soleil!
+soleil !
  
 Veux-tu aller nourrir les autres
-dragons?![end]</data>
+dragons ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x871</ref>
         </refs>
         <data>Aimeriez-vous plusieurs sortes
-d'armures?[end]</data>
+d'armures ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x875</ref>
         </refs>
-        <data> Vous voulez en voir plein?!
- Vous voulez de belles armures?!
- Vous voulez acheter?![end1]</data>
+        <data> Vous voulez en voir plein ?!
+ Vous voulez de belles armures ?!
+ Vous voulez acheter ?![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x88a</ref>
         </refs>
-        <data>Ce n'est pas original?
+        <data>Ce n'est pas original ?
 Je m'en doutais...[end]</data>
     </text>
     <text>
@@ -307,14 +307,14 @@ Je m'en doutais...[end]</data>
         <refs>
             <ref>0x6a0</ref>
         </refs>
-        <data>Ah! Ces Petits Démons...[end]</data>
+        <data>Ah ! Ces Petits Démons...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x795</ref>
         </refs>
-        <data>Les Petits Démons sont trop bruyants!
-Ah,bienvenue![end]</data>
+        <data>Les Petits Démons sont trop bruyants !
+Ah,bienvenue ![end]</data>
     </text>
     <text>
         <refs>
@@ -343,10 +343,10 @@ Ah,bienvenue![end]</data>
         </refs>
         <data>DOCTEUR DRAGON:
 Rush est parti avec SALAMANDO,
-il y a un instant!
-Sais-tu où il va?
+il y a un instant !
+Sais-tu où il va ?
 [character][0x7],lui,est parti en
-reconnaissance![end]</data>
+reconnaissance ![end]</data>
     </text>
     <text>
         <refs>
@@ -356,9 +356,9 @@ reconnaissance![end]</data>
 me parler de mon magasin.
  
 Il semblerait que je ne vende que des
-objets inutiles!
+objets inutiles !
  
-C'est facile à dire pour lui!
+C'est facile à dire pour lui !
 Il me faut de l'argent afin de
 renouveler mes stocks.
 Matelight pourrait le faire rapidement
@@ -371,13 +371,13 @@ société et a donc plus de ressources.[end]</data>
         </refs>
         <data>J'ai beaucoup de travail et de
 relations...
-Ne l'oubliez pas![end]</data>
+Ne l'oubliez pas ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x78c</ref>
         </refs>
-        <data>Tout va bien!
+        <data>Tout va bien !
 Sans les Petits Démons,
 c'est si paisible.[end]</data>
     </text>
@@ -387,14 +387,14 @@ c'est si paisible.[end]</data>
         </refs>
         <data>DOCTEUR DRAGON:
 Il y a un charmant bébé!
-Viens vite![end]</data>
+Viens vite ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x66f</ref>
         </refs>
         <data>Veux-tu voir le Fort impérial,
-Trafalgar?[end]</data>
+Trafalgar ?[end]</data>
     </text>
     <text>
         <refs>
@@ -417,7 +417,7 @@ Guerre.[end]</data>
         </refs>
         <data>Les Petits Démons s'entraînent avec le
 feu...
-Tout cela est dangereux![end]</data>
+Tout cela est dangereux ![end]</data>
     </text>
     <text>
         <refs>
@@ -452,14 +452,14 @@ Tout cela est dangereux![end]</data>
  de vrais démons depuis leur
  révolution.
  il leur faudrait une bonne
- correction![0xa9][end]</data>
+ correction ![0xa9][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x673</ref>
         </refs>
-        <data> Oui,s'il vous plaît!
- Je préfère faire des achats![end1]</data>
+        <data> Oui,s'il vous plaît !
+ Je préfère faire des achats ![end1]</data>
     </text>
     <text>
         <refs>
@@ -478,21 +478,21 @@ Tout cela est dangereux![end]</data>
         </refs>
         <data>Nous voulons vivre en paix.
 Nous voulons la paix pour le monde
-entier,pour Orelus![end]</data>
+entier,pour Orelus ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x666</ref>
         </refs>
         <data>Hihi Hihi Hihi[0xd8]
-Vous voulez des armures?![end]</data>
+Vous voulez des armures ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x77a</ref>
         </refs>
         <data>Je m'en souviendrai,de ça...
-Je dois surveiller le magasin![end]</data>
+Je dois surveiller le magasin ![end]</data>
     </text>
     <text>
         <refs>
@@ -508,20 +508,20 @@ lettre,la voici...[end]</data>
         <data>Obtenu [0xaa]LETTRE[0xab].
  
   
-Veux-tu la lire?[end]</data>
+Veux-tu la lire ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7d2</ref>
         </refs>
         <data>J'avais presque oublié [character][0x0] et sa
-guerre!
+guerre !
  
 C'est soudain pour nous,
 toutes ces préparations pour le
 mariage.
 Mais après cela,nous serons enfin
-ensemble,comme un vrai couple!
+ensemble,comme un vrai couple !
 -Femme du Marchand envoyé au champs
  de bataille-[end]</data>
     </text>
@@ -545,8 +545,8 @@ Je suis seul comme toujours...[end]</data>
             <ref>0x9b9</ref>
         </refs>
         <data>SAJIN:
-C'est bruyant ici!
-C'est à cause de qui?[end]</data>
+C'est bruyant ici !
+C'est à cause de qui ?[end]</data>
     </text>
     <text>
         <refs>
@@ -571,15 +571,15 @@ Je crois que je vais aller m'entraîner.[end]</data>
             <ref>0x9e9</ref>
         </refs>
         <data>ZEROSHIN:
-Pourquoi n'ai-je toujours pas d'amis?
-Je vais m'entraîner à sourire![end]</data>
+Pourquoi n'ai-je toujours pas d'amis ?
+Je vais m'entraîner à sourire ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9ef</ref>
         </refs>
         <data>ZEROSHIN:
-Ils sont tous si vaniteux?!
+Ils sont tous si vaniteux ?!
 Je suis toujours seul et Saijin n'est
 pas très causant.
 Je suis solitaire...
@@ -591,7 +591,7 @@ Je me sens seul...[end]</data>
         </refs>
         <data>ZEROSHIN:
 J'aimerais repartir...
-Je n'ai toujours pas d'amis!
+Je n'ai toujours pas d'amis !
 Je savais que vivre ici ne m'aurait
 pas éloigné de la guerre.[end]</data>
     </text>
@@ -622,9 +622,9 @@ fait pour Orelus.[end]</data>
         </refs>
         <data>C'est un message des Petits Démons.
  
-monyo! manyo! munyo!
+monyo ! manyo ! munyo !
 [0xa8]nous sommes des petis démons
- qui font face à la mort![0xa9][end]</data>
+ qui font face à la mort ![0xa9][end]</data>
     </text>
     <text>
         <refs>

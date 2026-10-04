@@ -1,11 +1,11 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0xc37" room_id="45">
     <text>
         <refs>
             <ref>0xa5</ref>
         </refs>
-        <data>     -Pays des Sables Chauds-
-             -Dafira-[end1]</data>
+        <data>             -Pays des Sables Chauds-
+                    -Dafira-[end1]</data>
     </text>
     <text>
         <refs>
@@ -87,7 +87,7 @@ Tout cela me perturbe...[end]</data>
         </refs>
         <data>Ici,c'est un endroit civilisé,on ne
 rentre pas comme ça chez nous!
-[0xa8]censuré[0xa9]!
+``censuré''!
 Respecte les traditions!
 Apprends les bonnes manières et tâche
 de ne plus revenir![end]</data>

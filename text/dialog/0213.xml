@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0xa59" room_id="213">
     <text>
         <refs>
@@ -92,7 +92,7 @@ Nous défendrons Granbelos pour vous![end]</data>
         <data>SAUZER:
 La personne qui connaît le coeur des
 Dragons Sacrés ouvrira la Porte vers
-une Ere Nouvelle.
+une Ère Nouvelle.
 Qu'a dit Valitra à la Princesse [character][0x1]?[end]</data>
     </text>
     <text>

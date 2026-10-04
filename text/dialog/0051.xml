@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0x30a" room_id="51">
     <text>
         <refs>
@@ -154,7 +154,7 @@ des Dragons Sacrés?[end]</data>
         <data>BAHAMUT:
 La personne qui connaît le coeur des
 Dragons Sacrés ouvrira la Porte vers
-une Ere Nouvelle.[end]</data>
+une Ère Nouvelle.[end]</data>
     </text>
     <text>
         <refs>

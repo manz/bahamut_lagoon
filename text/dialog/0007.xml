@@ -1,11 +1,11 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0x9aa" room_id="7">
     <text>
         <refs>
             <ref>0x63</ref>
         </refs>
-        <data>          Chapitre [0xb6]
-   -La Légende des Dragons-[end]</data>
+        <data>                   Chapitre [0xb6]
+             -La Légende des Dragons-[end]</data>
     </text>
     <text>
         <refs>
@@ -386,7 +386,7 @@ Tends-moi... la main...[end]</data>
         </refs>
         <data>MANYO:
 manyo!
-[0xa8]mélodia est venue![0xa9][end]</data>
+``mélodia est venue!''[end]</data>
     </text>
     <text>
         <refs>
@@ -394,7 +394,7 @@ manyo!
         </refs>
         <data>MUNYO:
 munyo!
-[0xa8]nous dansons tous ensemble![0xa9][end]</data>
+``nous dansons tous ensemble!''[end]</data>
     </text>
     <text>
         <refs>

@@ -1,8 +1,9 @@
 import hashlib
 import struct
+from typing import Optional
 
 
-def lz_decompress(data, decompressed=None):
+def lz_decompress(data: bytes, decompressed: Optional[bytearray] = None) -> bytearray:
     if decompressed is None:
         decompressed = bytearray()
 
@@ -10,7 +11,7 @@ def lz_decompress(data, decompressed=None):
     while k < len(data):
         control_byte = data[k]
         if control_byte == 0x00:
-            raw_data = data[k + 1:k + 9]
+            raw_data = data[k + 1 : k + 9]
             decompressed += raw_data
             k += 9
         else:
@@ -18,10 +19,9 @@ def lz_decompress(data, decompressed=None):
             for i in range(8):
                 if k < len(data) - 1:
                     if (control_byte >> i) & 1:
-
                         back_pointer = (data[k] | (data[k + 1] << 8)) & 0x0FFF
                         length = ((data[k + 1] >> 4) & 0x0F) + 3
-
+                        # print(f'{back_pointer:#0{6}}x, {length:#0{6}x}')
                         back_pointer = len(decompressed) - back_pointer
 
                         for l in range(length):
@@ -34,7 +34,7 @@ def lz_decompress(data, decompressed=None):
     return decompressed
 
 
-def lz_decompress_battle(data, decompressed=None):
+def lz_decompress_battle(data: bytes, decompressed: Optional[bytearray] = None) -> bytearray:
     if decompressed is None:
         decompressed = bytearray()
 
@@ -42,7 +42,7 @@ def lz_decompress_battle(data, decompressed=None):
     while k < len(data):
         control_byte = data[k]
         if control_byte == 0x00:
-            raw_data = data[k + 1:k + 9]
+            raw_data = data[k + 1 : k + 9]
             decompressed += raw_data
             k += 9
         else:
@@ -50,7 +50,6 @@ def lz_decompress_battle(data, decompressed=None):
             for i in range(8):
                 if k < len(data):
                     if (control_byte >> i) & 1:
-
                         back_pointer = (data[k] | (data[k + 1] << 8)) & 0x0FFF
                         length = ((data[k + 1] >> 4) & 0x0F) + 3
 
@@ -84,12 +83,12 @@ def find_pattern(buffer, temp_buffer):
 
 
 def find_back_reference(data, position, search_patterns, buffer_size=4095, max_length=18, min_length=2):
-    buffer = data[max(position - buffer_size, 0):position]
+    buffer = data[max(position - buffer_size, 0) : position]
     retval = None
 
-    temp_buffer = data[position:position + max_length]
+    temp_buffer = data[position : position + max_length]
 
-    back_buffer = data[max(0, position - max_length): position]
+    back_buffer = data[max(0, position - max_length) : position]
 
     if search_patterns:
         repeating = find_pattern(back_buffer, temp_buffer)
@@ -127,9 +126,7 @@ def lz_compress(data, search_patterns=True):
             if back_reference and back_reference[1] > 2:
                 block[0] |= 1 << k
                 pointer = (back_reference[0]) + ((back_reference[1] - 3) << 12)
-                block += struct.pack('<H', pointer)
-                # if back_reference[0] < back_reference[1]:
-                #     print(hex(pos), 'comp', back_reference[0], back_reference[1])
+                block += struct.pack("<H", pointer)
                 pos += back_reference[1]
             else:
                 try:
@@ -141,9 +138,3 @@ def lz_compress(data, search_patterns=True):
         compressed += block
 
     return compressed
-
-
-def get_sha(data):
-    m = hashlib.sha1()
-    m.update(data)
-    return m.digest()

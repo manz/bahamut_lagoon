@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0x8b6" room_id="64">
     <text>
         <refs>
@@ -278,7 +278,7 @@ Comment se nomme-t-il?[end]</data>
             <ref>0x3de</ref>
         </refs>
         <data>Viens!
-[0xa8]S'il te plaît...[0xa9][end]</data>
+``S'il te plaît...''[end]</data>
     </text>
     <text>
         <refs>

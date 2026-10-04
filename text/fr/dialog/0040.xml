@@ -16,7 +16,7 @@
         <refs>
             <ref>0xa8</ref>
         </refs>
-        <data>       Restatto a été vaincu![end]</data>
+        <data>       Restatto a été vaincu ![end]</data>
     </text>
     <text>
         <refs>
@@ -28,7 +28,7 @@
         <refs>
             <ref>0xb0</ref>
         </refs>
-        <data>     Me pardonnerez-vous un jour?[end]</data>
+        <data>     Me pardonnerez-vous un jour ?[end]</data>
     </text>
     <text>
         <refs>
@@ -50,7 +50,7 @@
         <refs>
             <ref>0xf8</ref>
         </refs>
-        <data>            Cé... Céline?![end]</data>
+        <data>            Cé... Céline ?![end]</data>
     </text>
     <text>
         <refs>
@@ -84,7 +84,7 @@
         <refs>
             <ref>0x128</ref>
         </refs>
-        <data>          T'en souviens-tu?[end]</data>
+        <data>          T'en souviens-tu ?[end]</data>
     </text>
     <text>
         <refs>
@@ -93,8 +93,8 @@
         <data>    L'Arc-en-Ciel n'apparaissait
         jamais,donc tu étais
        toujours si furieux...
-   [0xaa]L'Arc-en-Ciel ne vient pas!
-      Il ne vient pas! Mince...[0xab][end]</data>
+   [0xaa]L'Arc-en-Ciel ne vient pas !
+      Il ne vient pas ! Mince...[0xab][end]</data>
     </text>
     <text>
         <refs>
@@ -116,21 +116,21 @@
             <ref>0x146</ref>
         </refs>
         <data>     Tu es maintenant devenu un
-        très grand chevalier![end]</data>
+        très grand chevalier ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x14f</ref>
         </refs>
         <data>     [character][0x0] et Matelight de Kana
-   sont également très puissants![end]</data>
+   sont également très puissants ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x153</ref>
         </refs>
         <data>         Toutefois,pour moi,
-     tu es le plus fantastique!
+     tu es le plus fantastique !
                 Hihihi...[end]</data>
     </text>
     <text>
@@ -177,7 +177,7 @@
     te le dire... te l'annoncer...
  
       Mais il aurait fallu que
-           tu m'écoutes![end]</data>
+           tu m'écoutes ![end]</data>
     </text>
     <text>
         <refs>
@@ -214,17 +214,17 @@
             <ref>0x199</ref>
         </refs>
         <data>         Tu as fait venir
-           l'Arc-en-Ciel![end]</data>
+           l'Arc-en-Ciel ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1a2</ref>
         </refs>
         <data>         Il est encore là,
-         il n'est pas mort!
+         il n'est pas mort !
  
        C'est toi qui l'as fait
-             apparaître!
+             apparaître !
  
          Cet Arc-en-Ciel...
                Ainsi...
@@ -236,7 +236,7 @@
         </refs>
         <data>      L'Arc-en-Ciel est venu,
         et selon les dires,
-   j'ai droit à un souhait,non?[end]</data>
+   j'ai droit à un souhait,non ?[end]</data>
     </text>
     <text>
         <refs>
@@ -249,7 +249,7 @@
      tout les peuples du monde
               entier.
      Un monde libre de toutes
-              guerres![end]</data>
+              guerres ![end]</data>
     </text>
     <text>
         <refs>
@@ -267,8 +267,8 @@
         <refs>
             <ref>0x1ef</ref>
         </refs>
-        <data>              Céline!
+        <data>              Céline !
             Ton souhait...
-    C'est moi qui le réaliserai![end]</data>
+    C'est moi qui le réaliserai ![end]</data>
     </text>
 </texts>

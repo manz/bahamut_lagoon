@@ -4,7 +4,7 @@
         <refs>
             <ref>0xa3</ref>
         </refs>
-        <data>            Aaaaaaaah![end]</data>
+        <data>            Aaaaaaaah ![end]</data>
     </text>
     <text>
         <refs>
@@ -12,31 +12,31 @@
         </refs>
         <data>SENDACK:
 Princesse [character][0x1]!
-Ne vous levez-vous pas?![end]</data>
+Ne vous levez-vous pas ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf2</ref>
         </refs>
         <data>[character][0x1]:
-Hihi!
+Hihi !
 Tu exagères...
 C'est facile à dire mais il fait un peu
-froid,ici![end]</data>
+froid,ici ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x102</ref>
         </refs>
         <data>[character][0x1]:
-Et Matelight?[end]</data>
+Et Matelight ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x106</ref>
         </refs>
         <data>SENDACK:
-Oh Matelight!
+Oh Matelight !
  
 Il est encore occupé à parler tout
 seul et à se plaindre dans la salle
@@ -47,7 +47,7 @@ du trône.[end]</data>
             <ref>0x114</ref>
         </refs>
         <data>[character][0x1]:
-C'est tout lui ça,n'est-ce pas?
+C'est tout lui ça,n'est-ce pas ?
  
 Il se plaint car à son goût trop de
 gens de Kana viennent ici chaque jour.[end]</data>
@@ -59,9 +59,9 @@ gens de Kana viennent ici chaque jour.[end]</data>
         <data>Ma Reine...
 Ma Princesse [character][0x1]...
 Nous sommes enfin revenus chez nous.
-Kana n'a plus à s'inquiéter!
+Kana n'a plus à s'inquiéter !
 Matelight vous défendra autant que
-possible,je le jure!
+possible,je le jure !
 [character][0x0] est devenu un homme incroyable
 et il est l'un de mes meilleurs amis.[end]</data>
     </text>

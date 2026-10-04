@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0x297" room_id="208">
     <text>
         <refs>
@@ -108,17 +108,17 @@ il faudra que tu en parles à Matelight.[end]</data>
             <ref>0x1a3</ref>
         </refs>
         <data>SERGENT:
-[0xa8]Grognement[0xa9]
+``Grognement''
 J'aimerais retourner à Mahal...
 Mais il y a encore beaucoup de choses
 à faire.
-[0xa8]Grognement[0xa9]
+``Grognement''
 Et tout d'abord,il nous faut penser au
 renouvellement des armures.
-[0xa8]Grognement[0xa9]
+``Grognement''
 Elles peuvent facilement rendre un
 homme nouveau.
-[0xa8]Grognement[0xa9][end]</data>
+``Grognement''[end]</data>
     </text>
     <text>
         <refs>
@@ -132,15 +132,15 @@ homme nouveau.
         </refs>
         <data>SERGENT:
 La restauration de Mahal...
-[0xa8]Grognement[0xa9]
+``Grognement''
 Je vais me plonger dans le sujet...
-[0xa8]Grognement[0xa9]
+``Grognement''
  
 En aucun cas quelque chose ne doit
 être oublié...
-[0xa8]Grognement[0xa9]
+``Grognement''
 Commandant est originaire de
-[0xa8]Grognement[0xa9]Mahal et va aider
+``Grognement''Mahal et va aider
 à la restauration.
 Il faut vivre,vivre,vivre...[end]</data>
     </text>

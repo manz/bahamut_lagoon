@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<texts base="0x1eb" room_id="23">
+    <text>
+        <refs>
+            <ref>0x28</ref>
+        </refs>
+        <data>able![end] </data>
+    </text>
+</texts>

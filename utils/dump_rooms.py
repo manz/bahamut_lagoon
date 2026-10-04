@@ -14,14 +14,14 @@ from utils.vm.opcodes_map import opcode_table, opcode_names
 from utils.vm.room import Room, prettify
 import xml.etree.ElementTree as ET
 
-logger = logging.getLogger('rooms.dialog')
+logger = logging.getLogger("rooms.dialog")
 
 
 def battle_decompress_block(rom):
     origin = rom.tell()
 
     size = rom.read(2)
-    size = struct.unpack('<H', size)[0]
+    size = struct.unpack("<H", size)[0]
     print(hex(size))
     data = rom.read(size)
     decompressed = bytearray()
@@ -39,7 +39,7 @@ def battle_decompress_block(rom):
     while True:
         control = rom.read(1)
 
-        if control[0] & 0x3f:
+        if control[0] & 0x3F:
             next_end = rom.read(2)
             control_byte = rom.peek(1)
 
@@ -54,7 +54,7 @@ def battle_decompress_block(rom):
 
 def decompress_block(rom):
     size = rom.read(2)
-    size = struct.unpack('<H', size)[0]
+    size = struct.unpack("<H", size)[0]
 
     data = rom.read(size)
     decompressed = bytearray()
@@ -72,9 +72,9 @@ def decompress_block(rom):
     while True:
         control = rom.read(1)
 
-        if control[0] & 0x3f:
+        if control[0] & 0x3F:
             next_end = rom.read(2)
-            next_end = struct.unpack('<H', next_end)[0]
+            next_end = struct.unpack("<H", next_end)[0]
             control_byte = rom.peek(1)
 
             next_size = get_size(control[0], control_byte[0])
@@ -88,7 +88,7 @@ def decompress_block(rom):
 
 def compress_room(data):
     compressed = lz_compress(data)
-    size_header = struct.pack('<H', len(compressed))
+    size_header = struct.pack("<H", len(compressed))
     return size_header + compressed
 
 
@@ -97,10 +97,10 @@ def is_compressed(rom, room_id):
     room_id_low = room_id >> 3
 
     rom.seek(snes_to_rom(0xDA8300) + room_id_low)
-    return (struct.unpack('B', rom.read(1))[0] & room_id_high) != 0
+    return (struct.unpack("B", rom.read(1))[0] & room_id_high) != 0
 
 
-def get_dialog_room(rom, room_id, table, lang='jp', disasm=False):
+def get_dialog_room(rom, room_id, table, lang="jp", disasm=False):
     """used for rebuild script"""
     rom.seek(snes_to_rom(0xDA8000) + (room_id * 3))
     ptr = rom.read(3)
@@ -113,15 +113,16 @@ def get_dialog_room(rom, room_id, table, lang='jp', disasm=False):
     room.id = room_id
     room.compressed_size = rom.tell() - snes_to_rom(ptr[0] + (ptr[1] << 8) + (ptr[2] << 16))
     if disasm:
-        room = live_disasm(room_id, decompressed, table, lang)
+        room = live_disasm(room_id, decompressed, table, lang, display_program=True)
     return room
 
 
 def dump_room(rom, room, table, output_dir, lang=None):
     rom.seek(room["address"])
-    room_id = room['id']
-    print(f'room: {room_id}')
-    if room['compressed']:
+    room_id = room["id"]
+    print(f"room: {room_id}")
+
+    if room["compressed"]:
         decompressed = decompress_block(rom)
         # else:
         #     # Might be not necessary but for completion it is implemented
@@ -129,10 +130,14 @@ def dump_room(rom, room, table, output_dir, lang=None):
         #     decompressed = rom.read(room['size'])
 
         room = live_disasm(room_id, decompressed, table, lang=lang)
-        room.program.display_program()
+
+        with open(f"/tmp/{room_id}.txt", "wt") as f:
+            room.program.display_program(f)
+        #  with open(f'/tmp/{room_id}.raw', 'wt') as f:
+        #      room.program.dump_as_json(f)
         texts = room.dump_text()
         if texts:
-            with open(os.path.join(output_dir, f'{room_id:04d}.xml'), 'wt', encoding='utf-8') as output:
+            with open(os.path.join(output_dir, f"{room_id:04d}.xml"), "wt", encoding="utf-8") as output:
                 output.write(prettify(texts))
 
 
@@ -171,29 +176,46 @@ DANGER = []
 def dump_rooms(rom, table, lang, output_dir, room_id=None):
     room_table = build_room_address_table(rom)
     if room_id:
-        rooms = [room for room in room_table if room['id'] == room_id]
+        rooms = [room for room in room_table if room["id"] == room_id]
     else:
-        rooms = sorted(room_table, key=lambda r: r['id'])
+        rooms = sorted(room_table, key=lambda r: r["id"])
 
     for room in rooms:
-        if room['id'] not in DANGER:
-            dump_room(rom, room,
-                      table,
-                      output_dir,
-                      lang=lang)
+        if room["id"] not in DANGER:
+            dump_room(rom, room, table, output_dir, lang=lang)
 
 
 def format_dialogs(tree):
     texts = tree.getroot()
     for text in texts:
-        if text.get('center') == 'true':
-            data = text.find('data')
+        if text.get("center") == "true":
+            data = text.find("data")
             tmp = data.text
 
 
+# 2a animate luminosity ?
+# 0x71 : 0x2a __opcode(0x0 0xf 0x40 0x0)
+# start, end, time (frame count ?) and something
+# 0x76 : 0x3f pause(0x40)
+room_patches = {
+    # 0: [
+    #     # [0x71, 0x9e],
+    #     [0x72, 0x0],
+    #     [0x73, 0xF],
+    #     [0x74, 0x40],
+    #     [0x75, 0xF],
+    #     # [0x98, 0x9e],
+    #     # [0x99, 0x9e],
+    #     # [0xb9b, 0x9e],
+    #     # [0xb9c, 0x9e],
+    #     # [0xb9d, 0x9e]
+    # ]
+}
+
+
 def build_text_patch(rom, table, writer, reloc_address):
-    xmlfile_re = re.compile('(\d+)\.xml')
-    dialog_dir = os.path.join(os.path.dirname(__file__), '../text/dialog')
+    xmlfile_re = re.compile("(\d+)\.xml")
+    dialog_dir = os.path.join(os.path.dirname(__file__), "../text/dialog")
     files = os.listdir(dialog_dir)
     address = reloc_address
     files = sorted(files, key=lambda name: int(name[:4], 10))
@@ -206,41 +228,46 @@ def build_text_patch(rom, table, writer, reloc_address):
             room_id = int(match.group(1))
 
             if is_compressed(rom, room_id):
-                room = get_dialog_room(rom, room_id, table, 'jp', disasm=True)
+                room = get_dialog_room(rom, room_id, table, "jp", disasm=True)
 
                 tree = ET.parse(os.path.join(dialog_dir, file))
+
+                room.apply_patches(room_patches.get(room_id))
+
                 updated_room = room.update_text(tree)
 
                 if len(updated_room) >= 0x6000:
-                    logger.error(f'Un compressed Room {room_id} is bigger than the ram buffer 0x6000'
-                                 ' storing it uncompressed')
+                    logger.error(
+                        f"Un compressed Room {room_id} is bigger than the ram buffer 0x6000" " storing it uncompressed"
+                    )
                     room_id_high = 1 << (room_id & 0x07)
                     room_id_low = room_id >> 3
                     compressed_byte_address = snes_to_rom(0xDA8300) + room_id_low
                     rom.seek(compressed_byte_address)
-                    compressed_byte = room_compressed.get(compressed_byte_address, struct.unpack('B', rom.read(1))[0])
+                    compressed_byte = room_compressed.get(compressed_byte_address, struct.unpack("B", rom.read(1))[0])
                     room_compressed[compressed_byte_address] = compressed_byte & ~room_id_high
-                    logger.error(f'{compressed_byte:02b} {room_compressed[compressed_byte_address]:02b}')
+                    logger.error(f"{compressed_byte:02b} {room_compressed[compressed_byte_address]:02b}")
                     updated_room_data = updated_room
                 else:
                     updated_room_data = compress_room(updated_room)
 
-                if address & 0xff0000 != (address + len(updated_room_data)) & 0xff0000:
-                    address = (address & 0xff0000) + 0x10000
+                if address & 0xFF0000 != (address + len(updated_room_data)) & 0xFF0000:
+                    address = (address & 0xFF0000) + 0x10000
 
                 writer.write_block(updated_room_data, address)
 
                 value = rom_to_snes(address, RomType.high_rom)
 
-                writer.write_block(struct.pack('<HB', value & 0xFFFF, (value >> 16) & 0xFF),
-                                   snes_to_rom(0xDA8000) + (room_id * 3))
+                writer.write_block(
+                    struct.pack("<HB", value & 0xFFFF, (value >> 16) & 0xFF), snes_to_rom(0xDA8000) + (room_id * 3)
+                )
 
                 address += len(updated_room_data) + 1
 
     for address, value in room_compressed.items():
-        writer.write_block(struct.pack('B', value), address)
+        writer.write_block(struct.pack("B", value), address)
 
-    print(f'Ends at {address + 0xC00000:#02x}')
+    print(f"Ends at {address + 0xC00000:#02x}")
     return address
 
 
@@ -250,34 +277,34 @@ def build_room_address_table(rom):
         rom.seek(snes_to_rom(0xDA8000) + (room_id * 3))
         ptr = rom.read(3)
         address = ptr[0] + (ptr[1] << 8) + (ptr[2] << 16)
-        table.append({'id': room_id, 'address': snes_to_rom(address), 'compressed': is_compressed(rom, room_id)})
+        table.append({"id": room_id, "address": snes_to_rom(address), "compressed": is_compressed(rom, room_id)})
 
-    sorted_table = sorted(table, key=lambda r: r['address'])
+    sorted_table = sorted(table, key=lambda r: r["address"])
 
     for k in range(len(sorted_table) - 1):
         room = sorted_table[k]
         next_room = sorted_table[k + 1]
-        if not room['compressed']:
-            room['size'] = next_room['address'] - room['address']
+        if not room["compressed"]:
+            room["size"] = next_room["address"] - room["address"]
 
-    sorted_table[0xFE]['size'] = 0x1e22f3 - 0x1e22a0
-    return sorted(sorted_table, key=lambda r: room['id'])
+    sorted_table[0xFE]["size"] = 0x1E22F3 - 0x1E22A0
+    return sorted(sorted_table, key=lambda r: room["id"])
 
 
 def output_dir(lang):
-    return os.path.join(os.path.dirname(__file__), f'../text/{lang}/dialog')
+    return os.path.join(os.path.dirname(__file__), f"../text/{lang}/dialog")
 
 
-def dump_rooms_for_lang(lang):
-    table_path = os.path.join(os.path.dirname(__file__), '../text/table')
+def dump_rooms_for_lang(lang, room_id=None):
+    table_path = os.path.join(os.path.dirname(__file__), "../text/table")
 
-    table = Table(os.path.join(table_path, f'{lang}.tbl'))
+    table = Table(os.path.join(table_path, f"{lang}.tbl"))
 
-    with open(os.path.join(os.path.dirname(__file__), f'../bl_{lang}.sfc'), 'rb') as rom_file:
-        dump_rooms(rom_file, table, lang, output_dir=output_dir(lang))
+    with open(os.path.join(os.path.dirname(__file__), f"../bl_{lang}.sfc"), "rb") as rom_file:
+        dump_rooms(rom_file, table, lang, output_dir=output_dir(lang), room_id=room_id)
 
 
-if __name__ == '__main__':
-    dump_rooms_for_lang('fr')
-    dump_rooms_for_lang('en')
+if __name__ == "__main__":
+    dump_rooms_for_lang("en", room_id=0)
+    # dump_rooms_for_lang('en')
     # dump_rooms_for_lang('jp')

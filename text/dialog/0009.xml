@@ -1,11 +1,11 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0xd22" room_id="9">
     <text>
         <refs>
             <ref>0x47</ref>
         </refs>
-        <data>          Chapitre [0xb8]
- -Mahal,le Continent Miracle-[end]</data>
+        <data>                   Chapitre [0xb8]
+            -Mahal,le Continent Miracle-[end]</data>
     </text>
     <text>
         <refs>
@@ -26,8 +26,7 @@ Ce jour où j'ai quitté Mahal...[end]</data>
         <refs>
             <ref>0x9b</ref>
         </refs>
-        <data>C'était l'époque où Mahal fut
-assiégée...[end]</data>
+        <data>C'était l'époque où Mahal fut assiégée...[end]</data>
     </text>
     <text>
         <refs>
@@ -40,8 +39,7 @@ HIHIHIHIHIHIHIHIHIHIHI![end]</data>
         <refs>
             <ref>0xfe</ref>
         </refs>
-        <data>Pour moi,Mahal n'est qu'une partie de
-plaisir.[end]</data>
+        <data>Pour moi,Mahal n'est qu'une partie de plaisir.[end]</data>
     </text>
     <text>
         <refs>
@@ -533,8 +531,8 @@ les ennemis![end]</data>
         <refs>
             <ref>0xacd</ref>
         </refs>
-        <data>         Chapitre [0xb0][0xb2]
--Godrand,la Cité de la Magie-[end]</data>
+        <data>                   Chapitre [0xb0][0xb2]
+           -Godrand,la Cité de la Magie-[end]</data>
     </text>
     <text>
         <refs>
@@ -583,16 +581,16 @@ Hein?![end]</data>
             <ref>0xb51</ref>
         </refs>
         <data>manyo!
-[0xa8]allez! allez!
- à godrand! allez![0xa9][end]</data>
+``allez! allez!
+ à godrand! allez!''[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb8e</ref>
         </refs>
         <data>munyo!
-[0xa8]allez! allez!
- a godrand![0xa9][end]</data>
+``allez! allez!
+ a godrand!''[end]</data>
     </text>
     <text>
         <refs>
