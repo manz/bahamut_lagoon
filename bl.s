@@ -57,4 +57,3 @@ end_of_code:
 
 ;*=0xC0FFD8					; Set BW-RAM Size
 ;  .db 0x07					; Setting BW-RAM size to 128 kB.
-

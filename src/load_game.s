@@ -19,7 +19,7 @@
 ;nop
 
 *=0xEE5409
-  jmp.l load_game.vwf_entry_point
+    jmp.l load_game.vwf_entry_point
 
 ;*=0xEE554B
 ;  ldy.w
@@ -36,6 +36,7 @@
 ;.EE:5557                 CMP     #$FF
 ;.EE:555A                 BNE     loc_EE555F
 ;.EE:555C
+
 ;.EE:555C loc_EE555C:
 ;.EE:555C                 JMP     loc_EE55BB
 ;.EE:555F ; ---------------------------------------------------------------------------
@@ -75,6 +76,7 @@
 ;.EE:5597                 STA     D, word_7E0518
 ;.EE:5599                 LDA     #$ED
 ;.EE:559C
+
 ;.EE:559C loc_EE559C:
 ;.EE:559C                 STA     D, word_7E051A
 ;.EE:559E                 LDA     D, word_7E0512
@@ -89,6 +91,7 @@
 ;.EE:55B1                 LDA     D, word_7E0512
 ;.EE:55B3                 CMP     #$A
 ;.EE:55B6
+
 ;.EE:55B6 loc_EE55B6:
 ;.EE:55B6                 BCS     loc_EE55BB
 ;.EE:55B8                 JMP     loc_EE554B

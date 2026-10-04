@@ -43,7 +43,7 @@
 .macro yes_no(text_addr, yes_addr, no_addr) {
     .db 0x08
     .dw text_addr
-    .dw yes_addr  
+    .dw yes_addr
     .dw no_addr
 }
 
@@ -52,7 +52,7 @@
     .db 0x09
     .dw text_addr
     .dw choice1
-    .dw choice2  
+    .dw choice2
     .dw choice3
     .dw choice4
 }

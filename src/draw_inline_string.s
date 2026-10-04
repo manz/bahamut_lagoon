@@ -1,9 +1,10 @@
 
 ; move this function inside the shift-jis lookup table might break a thing or two
+
 *=0xEE4AE8
 draw_inline_string_patched:
 {
-inline_string_bank_reloc=0xfd
+    inline_string_bank_reloc = 0xfd
 
     php
     rep #0x20
@@ -23,9 +24,9 @@ inline_string_bank_reloc=0xfd
     pla
     inc
     inc
-    sta 0x09, s ; sets the return address past the pointer where a bra waits for us.
+    sta 0x09, s  ; sets the return address past the pointer where a bra waits for us.
 
-    ; read pointer from stack return address
+; read pointer from stack return address
     lda.w 0x0002, y
     tax
 

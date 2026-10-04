@@ -4,14 +4,15 @@
 
 ; String length for chapter titles (We may use a smaller font 8x8 for example)
 ; let the string end with 0xff
+
 *=0xee55b3
 CHAPTER_LENGTH:
-;;.EE:55B3                 CMP     #$A
+    ;;.EE:55B3                 CMP     #$A
     nop
     nop
     nop
-;
-;;.EE:55B6                 BCS     loc_EE55BB
+    ;
+    ;;.EE:55B6                 BCS     loc_EE55BB
     nop
     nop
 
@@ -19,10 +20,10 @@ CHAPTER_LENGTH:
 ;    cmp.w #0x0f
 
 
-
 ; nukes the odd/even char for japanese chars 12px.
+
 *=0xee51F4
-;.EE:51F4                 AND     #1
+    ;.EE:51F4                 AND     #1
     nop
     nop
     nop
@@ -32,6 +33,7 @@ CHAPTER_LENGTH:
     nop
 
 ; replaces the copy_without shift
+
 *=0xee5283
 __BREAKPOINT_copy_without_shift:
     php
@@ -69,12 +71,13 @@ loop:
     dec 0x00
     bne loop
 }
-    plp
-    rts
+plp
+rts
 
 ; Used to compute the char address in font [naming]
+
 *=0xEE558A
-    lda.w #17 ; char height
+    lda.w #17  ; char height
 
 ; FIXME: Remove when char_offset_table is patched in place
 ;*=0xEE55A2
@@ -83,14 +86,16 @@ loop:
 ;    lda.l char_offset_table, x
 
 ; change character pixel width for cursor position computation in naming screen.
+
 *=0xeedbf5
-;.EE:DBF5                 LDA     #0xC
+    ;.EE:DBF5                 LDA     #0xC
     lda #0x0008
 
 
 ; save screen
 ; need to shift
 ;.EE:5448                 LDA     #0x18 [messages]
+
 *=0xee5448
     lda.w #17
 
@@ -117,9 +122,9 @@ char_offset_table:
     .dw 0x20 * 13
     .dw 0x20 * 14
     .dw 0x20 * 15
-;    .dw 0x400
-;    .dw 0x420
-;    .dw 0x440
+    ;    .dw 0x400
+    ;    .dw 0x420
+    ;    .dw 0x440
 
 ;.EE:548C word_EE548C:    .WORD 0                 ; DATA XREF: .EE:5460r
 ;.EE:548E                 .WORD 0x20

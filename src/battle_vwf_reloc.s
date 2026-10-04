@@ -1,4 +1,4 @@
-read_base_address=assets_vwf_bin
+read_base_address = assets_vwf_bin
 
 
 battle_dma_transfer:
@@ -8,7 +8,7 @@ battle_dma_transfer:
     pha
     plb
 
-    jsr.l wait_for_something__long ; vblank ?
+    jsr.l wait_for_something__long  ; vblank ?
 
     rep #0x21
     lda.l battle_vwf_position
@@ -58,7 +58,6 @@ battle_vwf_init:
 
 battle_vwf_new_line:
 {
-
     rep #0x20
     lda.l battle_vwf_position
 
@@ -67,13 +66,13 @@ battle_vwf_new_line:
     lda.w #0x1e << 3
     bra end
 
-    line2:
+line2:
     cmp.w #0x3c << 3
     bpl line3
     lda.w #0x3c << 3
     bra end
 
-    line3:
+line3:
     lda.w #0x0000
     bra change_window
     bra end
@@ -168,7 +167,7 @@ raw_copy_loop:
 add_letter_length:
     pha
     phx
-    ; do the dma transfer before incrementing battle_dma_transfer
+; do the dma transfer before incrementing battle_dma_transfer
     jsr.l battle_dma_transfer
     plx
     pla

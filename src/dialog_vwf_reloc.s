@@ -1,8 +1,8 @@
-write_base_address_low=0xE280 + 0x20
-position=0x095f
+write_base_address_low = 0xE280 + 0x20
+position = 0x095f
 
 .macro do_shadow_dialog(delta, write_buffer) {
-    ; input: A, trashes: A
+; input: A, trashes: A
     pha
     rep #0x20
     and.w #0x00ff
@@ -97,36 +97,36 @@ shift_copy:
     lda #0x10
     {
 shift_copy_loop:
-        pha
-        lda.l read_base_address, x
-        sta.l 0x004203
-        nop
-        nop
-        rep #0x20
-        lda.l 0x004216
-        sep #0x20
+    pha
+    lda.l read_base_address, x
+    sta.l 0x004203
+    nop
+    nop
+    rep #0x20
+    lda.l 0x004216
+    sep #0x20
 
-        ora.w write_base_address_low + 0x20, y
-        sta.w write_base_address_low + 0x20, y
-        jsr.w make_shadow_20
+    ora.w write_base_address_low + 0x20, y
+    sta.w write_base_address_low + 0x20, y
+    jsr.w make_shadow_20
 
-        ;reloads the line data
-        rep #0x20
-        lda.l 0x004216
-        sep #0x20
-        xba
+;reloads the line data
+    rep #0x20
+    lda.l 0x004216
+    sep #0x20
+    xba
 
-        ora.w write_base_address_low, y
-        sta.w write_base_address_low, y
-        jsr.w make_shadow_0
+    ora.w write_base_address_low, y
+    sta.w write_base_address_low, y
+    jsr.w make_shadow_0
 
-        inx
-        iny
-        iny
+    inx
+    iny
+    iny
 
-        pla
-        dec
-        bne shift_copy_loop
+    pla
+    dec
+    bne shift_copy_loop
     }
     plx
     jmp.w add_letter_length
@@ -136,20 +136,20 @@ raw_copy:
     lda #0x10
     {
 raw_copy_loop:
-        pha
-        lda.l read_base_address, x
+    pha
+    lda.l read_base_address, x
 
-        ora.w write_base_address_low, y
-        sta.w write_base_address_low, y
+    ora.w write_base_address_low, y
+    sta.w write_base_address_low, y
 
-        jsr.w make_shadow_0
-        inx
-        iny
-        iny
+    jsr.w make_shadow_0
+    inx
+    iny
+    iny
 
-        pla
-        dec
-        bne raw_copy_loop
+    pla
+    dec
+    bne raw_copy_loop
     }
     plx
 
@@ -169,7 +169,7 @@ add_letter_length:
     jmp.l return_from_vwf_char
 
 shift_table:
-    .db 0x00 ; for debug purposes
+    .db 0x00  ; for debug purposes
     .db 0x80
     .db 0x40
     .db 0x20
@@ -179,10 +179,9 @@ shift_table:
     .db 0x02
 
 make_shadow_0:
-        do_shadow_dialog(0, write_base_address_low)
-        rts
+    do_shadow_dialog(0, write_base_address_low)
+    rts
 make_shadow_20:
-        do_shadow_dialog(0x20, write_base_address_low)
-        rts
+    do_shadow_dialog(0x20, write_base_address_low)
+    rts
 }
-
