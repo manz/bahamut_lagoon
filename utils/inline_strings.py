@@ -179,12 +179,12 @@ def dragon_find_address(rom_file, xref):
         # print(data)
         if state == "find_sta":
             if data[0] == b"\x85":
-                if data[1] in (b"\x60", b"\x5F", b"\x5E"):
+                if data[1] in (b"\x60", b"\x5f", b"\x5e"):
                     state = "find_lda"
                     current_byte_addr = ord(data[1])
 
         if state == "find_lda":
-            if data[0] == b"\xA9":
+            if data[0] == b"\xa9":
                 address_part[current_byte_addr] = ord(data[1])
                 byte_addr[current_byte_addr] = rom_file.tell() - 1
                 if len(address_part.keys()) < 3:
@@ -454,7 +454,7 @@ def dump_battle_commands_strings(rom_file):
             if ptr not in strings:
                 data_string = b""
                 byte = b""
-                while byte not in (b"\xFF", b"\xFE"):
+                while byte not in (b"\xff", b"\xfe"):
                     byte = rom_file.read(1)
                     data_string += byte
                 strings[ptr] = data_string
@@ -496,9 +496,7 @@ def insert_battle_commands_strings(writer, address):
         pointer = pointer_table[key]
         pointer_table_bytes += struct.pack("<H", pointer)
 
-    writer.write_block(
-        bytes([rom_address(address) >> 16]), rom_offset(int(root.get("bank_addr"), 16))
-    )
+    writer.write_block(bytes([rom_address(address) >> 16]), rom_offset(int(root.get("bank_addr"), 16)))
     writer.write_block(pointer_table_bytes, rom_offset(int(root.get("pointers"), 16)))
     writer.write_block(text_data, address)
 
@@ -588,7 +586,7 @@ def dump_item_descriptions(rom_file, pointer_base=None, text_base=None, lang="jp
             if ptr not in strings:
                 data_string = b""
                 byte = b""
-                while byte not in (b"\xFF", b"\xFE"):
+                while byte not in (b"\xff", b"\xfe"):
                     byte = rom_file.read(1)
                     data_string += byte
                 strings[ptr] = data_string

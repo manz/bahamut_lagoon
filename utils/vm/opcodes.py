@@ -86,13 +86,11 @@ class OpcodeProtocol(Protocol):
 
 
 class CommentLambda(Protocol):
-    def __call__(self, room: Room) -> str:
-        ...
+    def __call__(self, room: Room) -> str: ...
 
 
 class DataLambda(Protocol):
-    def __call__(self, room: Room) -> bytes:
-        ...
+    def __call__(self, room: Room) -> bytes: ...
 
 
 class Opcode:

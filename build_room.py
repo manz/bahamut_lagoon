@@ -46,7 +46,7 @@ def patch_room_into_rom(room_bin, rom_file, room_offset):
 def main():
     """Build and optionally patch test room"""
     import sys
-    
+
     # Allow specifying which room to build
     if len(sys.argv) > 1:
         room_name = sys.argv[1]

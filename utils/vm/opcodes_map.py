@@ -112,8 +112,10 @@ opcode_table: OpcodeTable = {
     ),
     0x2A: Opcode(
         5,
-        comment_lambda=lambda r: f"animate_brightness(start={r.get_byte(1):#02x}, "
-        f"end={r.get_byte(2):#02x}, time={r.get_byte(3):#02x}, unknown={r.get_byte(4):#02x})",
+        comment_lambda=lambda r: (
+            f"animate_brightness(start={r.get_byte(1):#02x}, "
+            f"end={r.get_byte(2):#02x}, time={r.get_byte(3):#02x}, unknown={r.get_byte(4):#02x})"
+        ),
     ),
     0x2B: Opcode(2),
     0x2C: Opcode(5),

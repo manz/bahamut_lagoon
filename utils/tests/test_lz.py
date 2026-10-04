@@ -13,7 +13,7 @@ class LZCompressionTestCase(TestCase):
 
     def test_find_pattern_repeat_sequence(self):
         pattern_to_find = b"\x00\x01\x03\x04"
-        data = b"\x00\x01\x03\x04\x00\x01\x03\x04\x00" b"\x01\x03\x04\x00\x01\x03\x04\x00\x01"
+        data = b"\x00\x01\x03\x04\x00\x01\x03\x04\x00\x01\x03\x04\x00\x01\x03\x04\x00\x01"
 
         pattern = find_pattern(pattern_to_find, data)
         self.assertEqual(pattern[0], 4)
@@ -29,7 +29,7 @@ class LZCompressionTestCase(TestCase):
         self.assertEqual(pattern[1], 18)
 
     def test_compress(self):
-        data = b"\x00\x01\x03\x04\x00\x01\x03\x04\x00" b"\x01\x03\x04\x00\x01\x03\x04\x00\x01"
+        data = b"\x00\x01\x03\x04\x00\x01\x03\x04\x00\x01\x03\x04\x00\x01\x03\x04\x00\x01"
 
         compressed = lz_compress(data)
         decompressed = lz_decompress(compressed)

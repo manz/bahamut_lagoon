@@ -238,7 +238,7 @@ def build_text_patch(rom, table, writer, reloc_address):
 
                 if len(updated_room) >= 0x6000:
                     logger.error(
-                        f"Un compressed Room {room_id} is bigger than the ram buffer 0x6000" " storing it uncompressed"
+                        f"Un compressed Room {room_id} is bigger than the ram buffer 0x6000 storing it uncompressed"
                     )
                     room_id_high = 1 << (room_id & 0x07)
                     room_id_low = room_id >> 3

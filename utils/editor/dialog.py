@@ -351,7 +351,7 @@ class DialogEditorApp(App):
         high_layout = BoxLayout(orientation="vertical")
 
         layout = BoxLayout(orientation="horizontal")
-        text_input = TextInput(text="", multiline=True, size_hint=(1, 1)) #, height=500)
+        text_input = TextInput(text="", multiline=True, size_hint=(1, 1))  # , height=500)
 
         def on_text(instance, value):
             text_render.text = value
