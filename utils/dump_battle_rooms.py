@@ -2,7 +2,7 @@ import re
 import struct
 import os
 
-from a816.cpu.cpu_65c816 import snes_to_rom, rom_to_snes, RomType
+from utils.cartridge import rom_address, rom_offset
 from script import Table
 
 from utils.dump_rooms import compress_room
@@ -112,10 +112,10 @@ def extract_string_from_block(lang, table, data, index):
 
 
 def get_battle_room(rom, room_id, table, lang):
-    table_entry = snes_to_rom(0xC7140F)
+    table_entry = rom_offset(0xC7140F)
     rom.seek(table_entry + (room_id * 3))
     ptr = rom.read(3)
-    address = snes_to_rom(ptr[0] + (ptr[1] << 8) + (ptr[2] << 16))
+    address = rom_offset(ptr[0] + (ptr[1] << 8) + (ptr[2] << 16))
 
     rom.seek(address)
     try:
@@ -136,10 +136,10 @@ def debug_dump_first_battle_room_data():
     with open(os.path.join(os.path.dirname(__file__), f"../bl_{lang}.sfc"), "rb") as rom:
 
         def get_pointer(room_id):
-            table_entry = snes_to_rom(0xC7140F)
+            table_entry = rom_offset(0xC7140F)
             rom.seek(table_entry + (room_id * 3))
             ptr = rom.read(3)
-            return snes_to_rom(ptr[0] + (ptr[1] << 8) + (ptr[2] << 16))
+            return rom_offset(ptr[0] + (ptr[1] << 8) + (ptr[2] << 16))
 
         room_0_pointer = get_pointer(0)
         room_1_pointer = get_pointer(1)
@@ -151,10 +151,10 @@ def debug_dump_first_battle_room_data():
 
 
 def dump_battle_room(rom, room_id, table, lang, output_dir):
-    table_entry = snes_to_rom(0xC7140F)
+    table_entry = rom_offset(0xC7140F)
     rom.seek(table_entry + (room_id * 3))
     ptr = rom.read(3)
-    address = snes_to_rom(ptr[0] + (ptr[1] << 8) + (ptr[2] << 16))
+    address = rom_offset(ptr[0] + (ptr[1] << 8) + (ptr[2] << 16))
 
     rom.seek(address)
     try:
@@ -210,14 +210,14 @@ def build_battle_text_patch(rom, table, writer, reloc_address):
 
             writer.write_block(compressed, address)
 
-            value = rom_to_snes(address, RomType.high_rom)
+            value = rom_address(address)
             logger.error(
                 f"[{value:#x}] room {room_id} length {len(compressed):#x}\t"
                 f"(uncompressed {len(updated_room):#x}, original {len(room.room):#x})"
             )
 
             writer.write_block(
-                struct.pack("<HB", value & 0xFFFF, (value >> 16) & 0xFF), snes_to_rom(0xC7140F) + (room_id * 3)
+                struct.pack("<HB", value & 0xFFFF, (value >> 16) & 0xFF), rom_offset(0xC7140F) + (room_id * 3)
             )
             address += len(compressed) + 1
 

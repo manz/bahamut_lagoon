@@ -5,11 +5,12 @@ import os
 import struct
 from pathlib import Path
 
-from a816.cpu.cpu_65c816 import RomType, rom_to_snes, snes_to_rom
 from a816.module_builder import build_with_imports
 from a816.writers import IPSWriter, Writer
 from script import Table
-from utils.decompress_gfx import lz_compress_gfx, compress_asset
+
+from utils.cartridge import rom_address, rom_offset
+from utils.decompress_gfx import compress_asset, lz_compress_gfx
 from utils.dump_battle_rooms import build_battle_text_patch
 from utils.dump_rooms import build_text_patch
 from utils.inline_strings import (
@@ -66,13 +67,13 @@ class DebugWriter(IPSWriter):
     def write_block_header(self, block: bytes, block_address: int) -> None:
         super().write_block_header(block, block_address)
         print(
-            f"DEBUGIPS: {rom_to_snes(block_address, RomType.high_rom):#x} {len(block):#x}"
+            f"DEBUGIPS: {rom_address(block_address):#x} {len(block):#x}"
         )
 
 
 def build_rooms_partials(writer: Writer, table: Table) -> None:
     with open("bl.sfc", "rb") as rom:
-        address = build_text_patch(rom, table, writer, snes_to_rom(0xF00000))
+        address = build_text_patch(rom, table, writer, rom_offset(0xF00000))
         print(f"Relocated dialog rooms end at {address + 0xC00000:#0x}")
 
         address = build_battle_text_patch(rom, table, writer, address)
@@ -116,16 +117,16 @@ if __name__ == "__main__":
             # get address for draw_inline_string_patched for code generation.
             draw_inline_string_ref = symbols["draw_inline_string_patched"]
 
-            insert_dragon_feed_inline_strings(writer, snes_to_rom(0xFC0000))
+            insert_dragon_feed_inline_strings(writer, rom_offset(0xFC0000))
             end_of_battle_commands = insert_battle_commands_strings(
-                writer, snes_to_rom(0xFD0000)
+                writer, rom_offset(0xFD0000)
             )
             end_of_inline_strings = insert_inline_strings(
-                writer, snes_to_rom(end_of_battle_commands + 1), draw_inline_string_ref
+                writer, rom_offset(end_of_battle_commands + 1), draw_inline_string_ref
             )
 
             end_of_message_strings = insert_messages_strings(
-                writer, snes_to_rom(end_of_inline_strings + 1)
+                writer, rom_offset(end_of_inline_strings + 1)
             )
 
             def insert_compressed_asset(
@@ -134,7 +135,7 @@ if __name__ == "__main__":
                 with open(asset_filename, "rb") as asset:
                     data = asset.read()
                     compressed = compressor(data)
-                    writer.write_block(compressed, snes_to_rom(insert_addr + 1))
+                    writer.write_block(compressed, rom_offset(insert_addr + 1))
                     # .D5:E6B9                 LDA     #$9A4F
                     # .D5:E6BC                 STA     D, $28
                     # .D5:E6BE                 SEP     #$20 ; ' '
@@ -142,16 +143,14 @@ if __name__ == "__main__":
                     # .D5:E6C0                 LDA     #$E8 ; 'Þ'
                     writer.write_block(
                         struct.pack("<H", insert_addr + 1 & 0xFFFF),
-                        snes_to_rom(low_addr),
+                        rom_offset(low_addr),
                     )
                     writer.write_block(
                         struct.pack("B", (insert_addr + 1) >> 16),
-                        snes_to_rom(bank_addr),
+                        rom_offset(bank_addr),
                     )
 
-                    return rom_to_snes(
-                        snes_to_rom(insert_addr) + 1 + len(compressed), RomType.high_rom
-                    )
+                    return rom_address(rom_offset(insert_addr) + 1 + len(compressed))
 
             next_insert = insert_compressed_asset(
                 writer,
@@ -175,15 +174,15 @@ if __name__ == "__main__":
             # with open('src_assets/e89a4f.bin', 'rb') as asset:
             #     data = asset.read()
             #     compressed = lz_compress_gfx(data)
-            #     writer.write_block(compressed, snes_to_rom(end_of_message_strings + 1))
+            #     writer.write_block(compressed, rom_offset(end_of_message_strings + 1))
             #
             # # .D5:E6B9                 LDA     #$9A4F
             # # .D5:E6BC                 STA     D, $28
             # # .D5:E6BE                 SEP     #$20 ; ' '
             # # .D5:E6C0 .A8
             # # .D5:E6C0                 LDA     #$E8 ; 'Þ'
-            # writer.write_block(struct.pack('<H', end_of_message_strings + 1 & 0xFFFF), snes_to_rom(0xD5E6B9 + 1))
-            # writer.write_block(struct.pack('B', (end_of_message_strings + 1) >> 16), snes_to_rom(0xD5E6C0 + 1))
+            # writer.write_block(struct.pack('<H', end_of_message_strings + 1 & 0xFFFF), rom_offset(0xD5E6B9 + 1))
+            # writer.write_block(struct.pack('B', (end_of_message_strings + 1) >> 16), rom_offset(0xD5E6C0 + 1))
 
             insert_char_names(writer)
             insert_battle_fixed(writer)

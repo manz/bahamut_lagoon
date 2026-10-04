@@ -1,9 +1,9 @@
 import io
 from unittest.case import TestCase
 
-from a816.cpu.cpu_65c816 import snes_to_rom
 from a816.program import Program
 
+from utils.cartridge import rom_address
 from utils.inline_strings import dragon_find_address
 
 
@@ -30,7 +30,8 @@ class InlineStringTestCase(TestCase):
         self.assertIsNone(error)
         program.resolve_labels(nodes)
         program.emit(nodes, writer)
-        xref = snes_to_rom(program.resolver.current_scope["xref"])
+        # the block assembled at 0x8000 stands for ROM offset 0
+        xref = rom_address(program.resolver.current_scope["xref"] - 0x8000)
         bytes_io = io.BytesIO(writer.data[0])
         return xref, bytes_io
 

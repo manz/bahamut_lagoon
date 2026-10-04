@@ -1,5 +1,5 @@
 import struct
-from a816.cpu.cpu_65c816 import snes_to_rom
+from utils.cartridge import rom_offset
 import xml.etree.ElementTree as ET
 
 from script import Table
@@ -9,7 +9,7 @@ from utils.vm.room import prettify
 
 
 def dump_inline_string(rom_file, root, xref):
-    rom_file.seek(snes_to_rom(xref) + 3)
+    rom_file.seek(rom_offset(xref) + 3)
     raw_string = b""
     while rom_file.peek(2)[:2] != b"\xff\xff":
         raw = rom_file.read(2)

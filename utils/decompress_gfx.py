@@ -1,5 +1,5 @@
 import struct
-from a816.cpu.cpu_65c816 import snes_to_rom
+from utils.cartridge import rom_offset
 from io import BytesIO
 
 from utils.lz import lz_decompress, lz_compress, find_back_reference
@@ -141,12 +141,12 @@ def lz_compress_gfx(data):
 if __name__ == "__main__":
     with open("../bl.sfc", "rb") as rom_file:
         for decompress_gfx_xref in decompress_gfx_xrefs:
-            rom_file.seek(snes_to_rom(decompress_gfx_xref + 4))
+            rom_file.seek(rom_offset(decompress_gfx_xref + 4))
             low = struct.unpack("<H", rom_file.read(2))[0]
             high = struct.unpack(">H", rom_file.read(2))[0]
 
             address = low | (high << 8)
-            rom_file.seek(snes_to_rom(address))
+            rom_file.seek(rom_offset(address))
             print(f"address = {address:#06x}")
             with open(f"/tmp/{address:06x}.bin", "wb") as f:
                 f.write(decompress_asset(rom_file))
