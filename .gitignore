@@ -45,3 +45,4 @@ build.c
 .*/
 !.github/
 xcuserdata/
+assets/vwf.bin
