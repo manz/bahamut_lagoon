@@ -13,7 +13,7 @@ classifiers = [
 ]
 
 requires-python = ">=3.13"
-dependencies = ["a816", "pillow", "numpy"]
+dependencies = ["a816==1.1.0a36", "pillow", "numpy"]
 
 [project.urls]
 Homepage = "https://github.com/manz/a816"
