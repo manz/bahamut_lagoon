@@ -1,311 +1,142 @@
-.scope load_game {
-*=0xEE51EF
-display_char_load_game:
-{
-  php
-  position = 0x12
-  write_base_address_low = 0x0020
-  jsr.w compute_char_position
+;.EE:545C                 LDA     D, word_7E0512
+;.EE:545E                 ASL
+;.EE:545F                 TAX
+;.EE:5460                 LDA     word_EE548C, X
+;.EE:5464                 CLC
+;.EE:5465                 ADC     #$7800
 
-  lda.w position
-  pha
-  and #0x3ff8
-  asl
-  asl
-  tay
-  pla
-  and.w #0x0007
-  sep #0x20
+;*=0xee545c
+;lda.w #0x7800
+;nop
+;nop
+;nop
+;nop
+;nop
+;nop
+;nop
+;nop
+;nop
+;nop
 
-  bne shift_copy
-  jmp.w raw_copy
-end:
-  jsr.w add_letter_length
-  plp
-  rts
+*=0xEE5409
+  jmp.l load_game.vwf_entry_point
 
-shift_copy:
-  phx
-  tax
-  lda.l shift_table, x
-  phx
-  lda #0x10
-{
-shift_copy_loop:
-    pha
-    lda.l read_base_address, x
-    sta.l 0x004203
-    nop
-    nop
-    rep #0x20
-    lda.l 0x004216
-    sep #0x20
+;*=0xEE554B
+;  ldy.w
 
-    ora.w write_base_address_low + 0x20, y
-    sta.w write_base_address_low + 0x20, y
-   ;jsr.w make_shadow_20
-
-    ;reloads the line data
-    rep #0x20
-    lda.l 0x004216
-    sep #0x20
-    xba
-
-    ora.w write_base_address_low, y
-    sta.w write_base_address_low, y
-    ;jsr.w make_shadow_0
-
-    inx
-    iny
-    iny
-
-    pla
-    dec
-    bne shift_copy_loop
-  }
-    plx
-    bra end
-
-raw_copy:
-  bra end
-
-add_letter_length:
-    lda.l read_base_address + 16, x
-    rep #0x20
-    and.w #0x00ff
-
-    clc
-    adc.w position
-;    inc
-    sta.w position
-
-    plb
-    sep #0x20
-
-    rts
-
-compute_char_position:
-  pha
-  sta.l 0x004202
-  lda #17
-  sta.l 0x004203
-  nop
-  nop
-  rep #0x20
-  lda.l 0x004216
-  tax
-  pla
-  rts
-}
-}
-;
-;.EE:51EF display_char_load_game:                                               ; CODE XREF: sub_EE515C:loc_EE5172↑p
-;.EE:51EF                                                                       ; .EE:55AC↓p
-;.EE:51EF                 PHP                                                   ; Also used in the seller screen, and the "team menu"
-;.EE:51EF                                                                       ; They already share the display_inline_string function
-;.EE:51EF                                                                       ; It should belong to the same team.
-;.EE:51F0                 REP     #$20 ; ' '
-;.EE:51F2                 LDA     D, word_7E0512
-;.EE:51F4                 AND     #1
-;.EE:51F7                 BEQ     loc_EE51FB
-;.EE:51F9                 BRA     loc_EE5200
-;.EE:51FB ; ---------------------------------------------------------------------------
-;.EE:51FB
-;.EE:51FB loc_EE51FB:                                                           ; CODE XREF: display_char_load_game+8↑j
-;.EE:51FB                 JSR     sub_EE5207
-;.EE:51FE                 BRA     loc_EE5205
-;.EE:5200 ; ---------------------------------------------------------------------------
-;.EE:5200
-;.EE:5200 loc_EE5200:                                                           ; CODE XREF: display_char_load_game+A↑j
-;.EE:5200                 JSR     sub_EE5283
-;.EE:5203                 BRA     loc_EE5205
-;.EE:5205 ; ---------------------------------------------------------------------------
-;.EE:5205
-;.EE:5205 loc_EE5205:                                                           ; CODE XREF: display_char_load_game+F↑j
-;.EE:5205                                                                       ; display_char_load_game+14↑j
-;.EE:5205                 PLP
-;.EE:5206                 RTS
-;.EE:5206 ; End of function display_char_load_game
-;.EE:5206
-;.EE:5207 .A16
-;.EE:5207 .I16
-;.EE:5207
-;.EE:5207 ; =============== S U B R O U T I N E =======================================
-;.EE:5207
-;.EE:5207
-;.EE:5207 sub_EE5207:                                                           ; CODE XREF: display_char_load_game:loc_EE51FB↑p
-;.EE:5207                 PHP
-;.EE:5208                 SEP     #$20 ; ' '
-;.EE:520A .A8
-;.EE:520A                 LDA     #$7E ; '~'
-;.EE:520C                 PHA
-;.EE:520D                 PLB
-;.EE:520E                 LDA     #$C
-;.EE:5210                 STA     D, word_7E0500
-;.EE:5212                 LDY     #0
-;.EE:5215                 LDX     D, word_7E051C
-;.EE:5217
-;.EE:5217 loc_EE5217:                                                           ; CODE XREF: sub_EE5207+77↓j
-;.EE:5217                 LDA     [D, word_7E0518], Y
-;.EE:5219                 LSR
-;.EE:521A                 STA     Native_mode_RESET, X
-;.EE:521D                 STA     Native_mode_RESET+1, X
-;.EE:5220                 INY
-;.EE:5221                 LDA     [D, word_7E0518], Y
-;.EE:5223                 LSR
-;.EE:5224                 STA     word_7E0020, X
-;.EE:5227                 STA     word_7E0020+1, X
-;.EE:522A                 INY
-;.EE:522B                 DEY
-;.EE:522C                 DEY
-;.EE:522D                 LDA     [D, word_7E0518], Y
-;.EE:522F                 EOR     #$FF
-;.EE:5231                 AND     Native_mode_RESET, X
-;.EE:5234                 STA     Native_mode_RESET, X
-;.EE:5237                 LDA     [D, word_7E0518], Y
-;.EE:5239                 EOR     #$FF
-;.EE:523B                 AND     Native_mode_RESET+1, X
-;.EE:523E                 STA     Native_mode_RESET+1, X
-;.EE:5241                 LDA     [D, word_7E0518], Y
-;.EE:5243                 ORA     Native_mode_RESET, X
-;.EE:5246                 STA     Native_mode_RESET, X
-;.EE:5249                 INY
-;.EE:524A                 LDA     [D, word_7E0518], Y
-;.EE:524C                 EOR     #$FF
-;.EE:524E                 AND     word_7E0020, X
-;.EE:5251                 STA     word_7E0020, X
-;.EE:5254                 LDA     [D, word_7E0518], Y
-;.EE:5256                 EOR     #$FF
-;.EE:5258                 AND     word_7E0020+1, X
-;.EE:525B                 STA     word_7E0020+1, X
-;.EE:525E                 LDA     [D, word_7E0518], Y
-;.EE:5260                 ORA     word_7E0020, X
-;.EE:5263                 STA     word_7E0020, X
-;.EE:5266                 INY
-;.EE:5267                 INX
-;.EE:5268                 INX
-;.EE:5269                 LDA     D, word_7E0500
-;.EE:526B                 CMP     #5
-;.EE:526D                 BNE     loc_EE527A
-;.EE:526F                 REP     #$20 ; ' '
-;.EE:5271 .A16
-;.EE:5271                 LDA     D, word_7E051C
-;.EE:5273                 CLC
-;.EE:5274                 ADC     #$200
-;.EE:5277                 TAX
-;.EE:5278                 SEP     #$20 ; ' '
-;.EE:527A .A8
-;.EE:527A
-;.EE:527A loc_EE527A:                                                           ; CODE XREF: sub_EE5207+66↑j
-;.EE:527A                 DEC     D, word_7E0500
-;.EE:527C                 BEQ     loc_EE5281
-;.EE:527E                 JMP     loc_EE5217
-;.EE:5281 ; ---------------------------------------------------------------------------
-;.EE:5281
-;.EE:5281 loc_EE5281:                                                           ; CODE XREF: sub_EE5207+75↑j
-;.EE:5281                 PLP
-;.EE:5282 .A16
-;.EE:5282                 RTS
-;.EE:5282 ; End of function sub_EE5207
-;.EE:5282
-;.EE:5283 .A16
-;.EE:5283 .I16
-;.EE:5283
-;.EE:5283 ; =============== S U B R O U T I N E =======================================
-;.EE:5283
-;.EE:5283
-;.EE:5283 sub_EE5283:                                                           ; CODE XREF: display_char_load_game:loc_EE5200↑p
-;.EE:5283                 PHP
-;.EE:5284                 SEP     #$20 ; ' '
-;.EE:5286 .A8
-;.EE:5286                 LDA     #$7E ; '~'
-;.EE:5288                 PHA
-;.EE:5289                 PLB
-;.EE:528A                 LDA     #$C
-;.EE:528C                 STA     D, word_7E0500
-;.EE:528E                 LDY     #0
-;.EE:5291                 LDX     D, word_7E051C
-;.EE:5293
-;.EE:5293 loc_EE5293:                                                           ; CODE XREF: sub_EE5283+A5↓j
-;.EE:5293                 LDA     [D, word_7E0518], Y
-;.EE:5295                 STA     D, word_7E0502
-;.EE:5297                 STA     D, word_7E0504
-;.EE:5299                 ASL     D, word_7E0504
-;.EE:529B                 ASL     D, word_7E0504
-;.EE:529D                 ASL     D, word_7E0504
-;.EE:529F                 ASL     D, word_7E0504
-;.EE:52A1                 LSR     D, word_7E0502
-;.EE:52A3                 LSR     D, word_7E0502
-;.EE:52A5                 LSR     D, word_7E0502
-;.EE:52A7                 LSR     D, word_7E0502
-;.EE:52A9                 INY
-;.EE:52AA                 LDA     [D, word_7E0518], Y
-;.EE:52AC                 LSR
-;.EE:52AD                 LSR
-;.EE:52AE                 LSR
-;.EE:52AF                 LSR
-;.EE:52B0                 ORA     D, word_7E0504
-;.EE:52B2                 STA     D, word_7E0504
-;.EE:52B4                 INY
-;.EE:52B5                 LDA     D, word_7E0502
-;.EE:52B7                 LSR
-;.EE:52B8                 ORA     Native_mode_RESET, X
-;.EE:52BB                 STA     Native_mode_RESET, X
-;.EE:52BE                 LDA     D, word_7E0504
-;.EE:52C0                 LSR
-;.EE:52C1                 ORA     word_7E0020, X
-;.EE:52C4                 STA     word_7E0020, X
-;.EE:52C7                 LDA     D, word_7E0502
-;.EE:52C9                 LSR
-;.EE:52CA                 ORA     Native_mode_RESET+1, X
-;.EE:52CD                 STA     Native_mode_RESET+1, X
-;.EE:52D0                 LDA     D, word_7E0504
-;.EE:52D2                 LSR
-;.EE:52D3                 ORA     word_7E0020+1, X
-;.EE:52D6                 STA     word_7E0020+1, X
-;.EE:52D9                 LDA     D, word_7E0502
-;.EE:52DB                 EOR     #$FF
-;.EE:52DD                 AND     Native_mode_RESET, X
-;.EE:52E0                 STA     Native_mode_RESET, X
-;.EE:52E3                 LDA     D, word_7E0502
-;.EE:52E5                 EOR     #$FF
-;.EE:52E7                 AND     Native_mode_RESET+1, X
-;.EE:52EA                 STA     Native_mode_RESET+1, X
-;.EE:52ED                 LDA     D, word_7E0502
-;.EE:52EF                 ORA     Native_mode_RESET, X
-;.EE:52F2                 STA     Native_mode_RESET, X
-;.EE:52F5                 LDA     D, word_7E0504
-;.EE:52F7                 EOR     #$FF
-;.EE:52F9                 AND     word_7E0020, X
-;.EE:52FC                 STA     word_7E0020, X
-;.EE:52FF                 LDA     D, word_7E0504
-;.EE:5301                 EOR     #$FF
-;.EE:5303                 AND     word_7E0020+1, X
-;.EE:5306                 STA     word_7E0020+1, X
-;.EE:5309                 LDA     D, word_7E0504
-;.EE:530B                 ORA     word_7E0020, X
-;.EE:530E                 STA     word_7E0020, X
-;.EE:5311                 INX
-;.EE:5312                 INX
-;.EE:5313                 LDA     D, word_7E0500
-;.EE:5315                 CMP     #5
-;.EE:5317                 BNE     loc_EE5324
-;.EE:5319                 REP     #$20 ; ' '
-;.EE:531B .A16
-;.EE:531B                 LDA     D, word_7E051C
-;.EE:531D                 CLC
-;.EE:531E                 ADC     #$200
-;.EE:5321                 TAX
-;.EE:5322                 SEP     #$20 ; ' '
-;.EE:5324 .A8
-;.EE:5324
-;.EE:5324 loc_EE5324:                                                           ; CODE XREF: sub_EE5283+94↑j
-;.EE:5324                 DEC     D, word_7E0500
-;.EE:5326                 BEQ     loc_EE532B
-;.EE:5328                 JMP     loc_EE5293
-;.EE:532B ; ---------------------------------------------------------------------------
-;.EE:532B
-;.EE:532B loc_EE532B:                                                           ; CODE XREF: sub_EE5283+A3↑j
-;.EE:532B                 PLP
-;.EE:532C .A16
-;.EE:532C                 RTS
+;.EE:554B loc_EE554B:                                                           ; CODE XREF: .EE:552E↑j
+;.EE:554B                                                                       ; .EE:553F↑j
+;.EE:554B                                                                       ; .EE:5586↓j
+;.EE:554B                                                                       ; .EE:55B8↓j
+;.EE:554B                 LDY     D, word_7E0512
+;.EE:554D                 LDA     [D, word_7E0514], Y
+;.EE:554F                 AND     #$FF
+;.EE:5552                 CMP     #$F0
+;.EE:5555                 BCC     loc_EE5588
+;.EE:5557                 CMP     #$FF
+;.EE:555A                 BNE     loc_EE555F
+;.EE:555C
+;.EE:555C loc_EE555C:
+;.EE:555C                 JMP     loc_EE55BB
+;.EE:555F ; ---------------------------------------------------------------------------
+;.EE:555F
+;.EE:555F loc_EE555F:                                                           ; CODE XREF: .EE:555A↑j
+;.EE:555F                 LDX     #0
+;.EE:5562                 CMP     #$F0
+;.EE:5565                 BEQ     loc_EE5582
+;.EE:5567                 LDX     #$1800
+;.EE:556A                 CMP     #$F1
+;.EE:556D                 BEQ     loc_EE5582
+;.EE:556F                 LDX     #$3000
+;.EE:5572                 CMP     #$F2
+;.EE:5575                 BEQ     loc_EE5582
+;.EE:5577                 LDX     #$4800
+;.EE:557A                 CMP     #$F3
+;.EE:557D                 BEQ     loc_EE5582
+;.EE:557F                 LDX     #0
+;.EE:5582
+;.EE:5582 loc_EE5582:                                                           ; CODE XREF: .EE:5565↑j
+;.EE:5582                                                                       ; .EE:556D↑j
+;.EE:5582                                                                       ; .EE:5575↑j
+;.EE:5582                                                                       ; .EE:557D↑j
+;.EE:5582                 STX     D, word_7E051E
+;.EE:5584                 INC     D, word_7E0514
+;.EE:5586                 BRA     loc_EE554B
+;.EE:5588 ; ---------------------------------------------------------------------------
+;.EE:5588
+;.EE:5588 loc_EE5588:                                                           ; CODE XREF: .EE:5555↑j
+;.EE:5588                 STA     D, word_7E0500                                ; save current char
+;.EE:558A                 LDA     #$18
+;.EE:558D                 JSR     multiply_8_16
+;.EE:5590                 CLC
+;.EE:5591                 ADC     D, word_7E051E
+;.EE:5593                 CLC
+;.EE:5594                 ADC     #0
+;.EE:5597                 STA     D, word_7E0518
+;.EE:5599                 LDA     #$ED
+;.EE:559C
+;.EE:559C loc_EE559C:
+;.EE:559C                 STA     D, word_7E051A
+;.EE:559E                 LDA     D, word_7E0512
+;.EE:55A0                 ASL
+;.EE:55A1                 TAX
+;.EE:55A2                 LDA     word_EE548C, X
+;.EE:55A6                 CLC
+;.EE:55A7                 ADC     #$7800
+;.EE:55AA                 STA     D, word_7E051C
+;.EE:55AC                 JSR     display_char_load_game
+;.EE:55AF                 INC     D, word_7E0512
+;.EE:55B1                 LDA     D, word_7E0512
+;.EE:55B3                 CMP     #$A
+;.EE:55B6
+;.EE:55B6 loc_EE55B6:
+;.EE:55B6                 BCS     loc_EE55BB
+;.EE:55B8                 JMP     loc_EE554B
+;.EE:55BB ; ---------------------------------------------------------------------------
+;.EE:55BB
+;.EE:55BB loc_EE55BB:                                                           ; CODE XREF: .EE:loc_EE555C↑j
+;.EE:55BB                                                                       ; .EE:loc_EE55B6↑j
+;.EE:55BB                 LDA     D, word_7E051C                                ; manipulates 0x7e051c value in A register but does not care for the result?
+;.EE:55BD                 SEC
+;.EE:55BE                 SBC     #$7800
+;.EE:55C1                 LSR
+;.EE:55C2                 CLC
+;.EE:55C3                 LDA     D, unk_7E0532+2
+;.EE:55C5                 STA     D, word_7E0500
+;.EE:55C7                 LDA     word_7E19FF+1 ; orig=0x001A00
+;.EE:55CB                 TAX
+;.EE:55CC                 LDA     #$8000
+;.EE:55CF                 STA     word_7E0006, X ; orig=0x0006
+;.EE:55D3                 LDA     D, word_7E0500
+;.EE:55D5                 STA     word_7E0002+1, X ; orig=0x0003
+;.EE:55D9                 LDA     #$200
+;.EE:55DC                 STA     word_7E0004+1, X ; orig=0x0005
+;.EE:55E0                 LDA     #$7E ; '~'
+;.EE:55E3                 XBA
+;.EE:55E4                 STA     Native_mode_RESET+1, X ; orig=0x0001
+;.EE:55E8                 LDA     #$7800
+;.EE:55EB                 STA     Native_mode_RESET, X ; orig=0x0000
+;.EE:55EF                 TXA
+;.EE:55F0                 CLC
+;.EE:55F1                 ADC     #8
+;.EE:55F4                 TAX
+;.EE:55F5                 LDA     #$8000
+;.EE:55F8                 STA     word_7E0006, X ; orig=0x0006
+;.EE:55FC                 LDA     D, word_7E0500
+;.EE:55FE                 CLC
+;.EE:55FF                 ADC     #$100
+;.EE:5602                 STA     word_7E0002+1, X ; orig=0x0003
+;.EE:5606                 LDA     #$200
+;.EE:5609                 STA     word_7E0004+1, X ; orig=0x0005
+;.EE:560D                 LDA     #$7E ; '~'
+;.EE:5610                 XBA
+;.EE:5611                 STA     Native_mode_RESET+1, X ; orig=0x0001
+;.EE:5615                 LDA     #$7800
+;.EE:5618                 CLC
+;.EE:5619                 ADC     #$200
+;.EE:561C                 STA     Native_mode_RESET, X ; orig=0x0000
+;.EE:5620                 TXA
+;.EE:5621                 CLC
+;.EE:5622                 ADC     #8
+;.EE:5625                 STA     word_7E19FF+1 ; orig=0x001A00
+;.EE:5629                 JSL     sub_EE440B

@@ -1,5 +1,6 @@
-git+https://github.com/manz/a816.git@dev/handwritten-parser
+a816==1.0.2
 pillow
 numpy
 Cython
 kivy
+#PyGobject

@@ -1,3 +1,4 @@
+
 ; patch sprite params
 {
 *=0xD5F595

@@ -21,7 +21,6 @@ position=0x095f
     sta.w write_buffer + 1 + delta, y
     rep #0x20
     pla
-;    pha
 ; shadow right
 
     ror

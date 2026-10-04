@@ -1,12 +1,3 @@
-.macro test_macro(arg_1) {
-    .dw arg_1
-}
-label1:
-label11:
-label111:
-label1111:
-
-.dw l
 *=0xC009EC
     jmp 0x09F5
 

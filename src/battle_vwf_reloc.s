@@ -194,5 +194,4 @@ shift_table:
     .db 0x08
     .db 0x04
     .db 0x02
-end_of_code:
 }
