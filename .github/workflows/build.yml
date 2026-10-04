@@ -4,9 +4,8 @@ on:
   push:
     branches:
       - master
-  create:
     tags:
-
+      - '*'
   pull_request:
 
 jobs:
@@ -14,26 +13,22 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Setup Python 3.7
-      uses: actions/setup-python@v1
-      with:
-        python-version: '3.7'
-    - uses: actions/cache@v1
-      with:
-        path: ~/.cache/pip
-        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-        restore-keys: |
-          ${{ runner.os }}-pip-
-    - name: Install Requirements
-      if: steps.cache-requirements.outputs.cache-hit != 'true'
-      run: pip install -r requirements.txt
-    - name: Build patch
-      run: ./build.sh
-      env:
-        BAHAMUT_PASSWORD: ${{ secrets.BAHAMUT_PASSWORD }}
-    - name: Upload nightly patch artifact
-      uses: actions/upload-artifact@v1
-      with:
-        name: bl-nightly
-        path: bl.ips
+      - uses: actions/checkout@v7
+      - name: Setup uv and Python 3.14
+        uses: astral-sh/setup-uv@v10.2.0
+        with:
+          python-version: '3.14'
+          enable-cache: true
+      - name: Install dependencies
+        run: uv sync --locked
+      - name: Build patch
+        run: uv run ./build.sh
+        env:
+          BAHAMUT_PASSWORD: ${{ secrets.BAHAMUT_PASSWORD }}
+      - name: Run tests
+        run: uv run --with pytest pytest utils
+      - name: Upload nightly patch artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: bl-nightly
+          path: bl.ips

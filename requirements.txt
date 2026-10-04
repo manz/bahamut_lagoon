@@ -1,6 +1,0 @@
-a816==1.0.2
-pillow
-numpy
-Cython
-kivy
-#PyGobject
