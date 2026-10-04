@@ -49,7 +49,7 @@ class InlineStringTestCase(TestCase):
         jsr.w 0x0000
         """
         )
-        address, byte_addr = dragon_find_address(bytes_io, xref)
+        address, _byte_addr = dragon_find_address(bytes_io, xref)
 
         self.assertEqual(0xC1DB1D, address)
 
@@ -68,6 +68,6 @@ class InlineStringTestCase(TestCase):
         jsr.w 0x0000
         """
         )
-        address, byte_addr = dragon_find_address(bytes_io, xref)
+        address, _byte_addr = dragon_find_address(bytes_io, xref)
 
         self.assertEqual(0xC1DB1D, address)

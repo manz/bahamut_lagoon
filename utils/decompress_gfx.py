@@ -46,10 +46,7 @@ def decompress_asset(rom_file):
     decompressed = bytearray()
     # skip_first_byte
     _ = rom_file.read(1)
-    pos = rom_file.tell()
     while True:
-        current_pos = rom_file.tell() - pos
-
         control_byte = rom_file.read(1)[0]
 
         if control_byte in [0x1A, 0x1B]:
@@ -118,7 +115,7 @@ def lz_decompress_gfx(rom):
         control = rom.read(1)
 
         if control[0] != 0:
-            next_end = rom.read(2)
+            rom.read(2)
             control_byte = rom.peek(1)
 
             next_size = get_size(control[0], control_byte[0])

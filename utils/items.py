@@ -16,7 +16,7 @@ def dump_inline_string(rom_file, root, xref):
             raw_string += b"\x20"
 
     jap_text = raw_string.decode("shift-jis")
-    string = ET.SubElement(inline, "string")
+    string = ET.SubElement(root, "string")
     string.set("ref", hex(xref))
     string.text = jap_text
 

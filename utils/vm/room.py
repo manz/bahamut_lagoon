@@ -55,11 +55,10 @@ class Room:
         if address in self.jump_addresses:
             raise AlreadyVisitedError()
 
-        if self.debug_outside_jump_protection:
-            if address > len(self.room):
-                print(f"Outside jump to {address:02x}")
+        if self.debug_outside_jump_protection and address > len(self.room):
+            print(f"Outside jump to {address:02x}")
 
-                raise AlreadyVisitedError()
+            raise AlreadyVisitedError()
 
         self.pc = address
         self.jump_addresses.append(address)
@@ -102,8 +101,7 @@ class Room:
             root = ET.Element("texts")
             root.set("room_id", str(self.id))
             root.set("base", hex(sorted_program_keys[0]))
-            index = 0
-            for key in sorted_program_keys:
+            for index, key in enumerate(sorted_program_keys):
                 text = ET.SubElement(root, "text")
 
                 refs = ET.SubElement(text, "refs")
@@ -119,7 +117,6 @@ class Room:
                     data.text = override_strings[index]
                 else:
                     data.text = self.table.to_text(bytes(text_program[key][0][1])).replace("\\s", " ")
-                index += 1
 
             return root
         return None

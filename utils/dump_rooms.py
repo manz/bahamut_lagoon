@@ -18,8 +18,6 @@ logger = logging.getLogger("rooms.dialog")
 
 
 def battle_decompress_block(rom):
-    origin = rom.tell()
-
     size = rom.read(2)
     size = struct.unpack("<H", size)[0]
     print(hex(size))
@@ -40,7 +38,7 @@ def battle_decompress_block(rom):
         control = rom.read(1)
 
         if control[0] & 0x3F:
-            next_end = rom.read(2)
+            rom.read(2)
             control_byte = rom.peek(1)
 
             next_size = get_size(control[0], control_byte[0])
@@ -183,14 +181,6 @@ def dump_rooms(rom, table, lang, output_dir, room_id=None):
     for room in rooms:
         if room["id"] not in DANGER:
             dump_room(rom, room, table, output_dir, lang=lang)
-
-
-def format_dialogs(tree):
-    texts = tree.getroot()
-    for text in texts:
-        if text.get("center") == "true":
-            data = text.find("data")
-            tmp = data.text
 
 
 # 2a animate luminosity ?

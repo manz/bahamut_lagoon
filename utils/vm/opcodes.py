@@ -140,7 +140,7 @@ class StateOpcode:
             ]
             index = byte >> 3
             value = convert_table[byte & 7]
-            return "var: 0x%02x: value %s" % (index, bin(value))
+            return f"var: 0x{index:02x}: value {bin(value)}"
 
         room.program.put_opcode(
             room.pc,
@@ -194,7 +194,7 @@ class TextOpcode:
     def apply(self, room: Room) -> int:
         text_addr = room.get_word(1)
 
-        bytes_len, text = get_string_from_room(room, text_addr, room.table)
+        _bytes_len, text = get_string_from_room(room, text_addr, room.table)
         room.program.put_opcode(room.pc, room.get_byte(), ("data", ("reference", text_addr)), text, size=3)
 
         room.put_text_reference(room.pc + 1, text_addr, text)
@@ -206,7 +206,7 @@ class YesNoChoiceOpcode:
     def apply(self, room: Room) -> int:
         text_addr = room.get_word(1)
 
-        bytes_len, text = get_string_from_room(room, text_addr, room.table)
+        _bytes_len, text = get_string_from_room(room, text_addr, room.table)
         room.put_text_reference(room.pc + 1, text_addr, text)
         room.program.put_opcode(
             room.pc,

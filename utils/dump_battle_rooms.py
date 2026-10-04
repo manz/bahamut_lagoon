@@ -75,7 +75,6 @@ def walk_battle_room(room_id, decompressed, table, lang):
     room = Room(decompressed_program, battle_opcode_table, battle_opcode_names, table, lang=lang)
     room.debug_outside_jump_protection = True
     room.id = room_id
-    ptr_table = []
     for k in range(0x0C + 2):
         room.pc = 0
         try:
@@ -166,7 +165,6 @@ def dump_battle_room(rom, room_id, table, lang, output_dir):
     else:
         try:
             room = walk_battle_room(room_id, decompressed, table, lang)
-            program = room.program
             # override_strings = None
             # if room.lang == 'fr':
             #     text_program = room.program.filter(lambda _, e: e[0][0] == 'text')
@@ -254,7 +252,7 @@ def debug_compress_battle_room(lang="jp"):
     table = Table(os.path.join(table_path, f"{lang}.tbl"))
 
     with open(os.path.join(os.path.dirname(__file__), f"../bl_{lang}.sfc"), "rb") as rom_file:
-        address, data, room = get_battle_room(rom_file, 0, table, "jp")
+        _address, data, room = get_battle_room(rom_file, 0, table, "jp")
         battle_room_data = data + room.room
 
         compressed = compress_room(battle_room_data)

@@ -176,20 +176,17 @@ def dragon_find_address(rom_file, xref):
     for delta in range(2, 80):
         data = read_word_backwards_from_xref(rom_file, rom_offset(xref), delta)
         # print(data)
-        if state == "find_sta":
-            if data[0] == b"\x85":
-                if data[1] in (b"\x60", b"\x5f", b"\x5e"):
-                    state = "find_lda"
-                    current_byte_addr = ord(data[1])
+        if state == "find_sta" and data[0] == b"\x85" and data[1] in (b"\x60", b"\x5f", b"\x5e"):
+            state = "find_lda"
+            current_byte_addr = ord(data[1])
 
-        if state == "find_lda":
-            if data[0] == b"\xa9":
-                address_part[current_byte_addr] = ord(data[1])
-                byte_addr[current_byte_addr] = rom_file.tell() - 1
-                if len(address_part.keys()) < 3:
-                    state = "find_sta"
-                else:
-                    break
+        if state == "find_lda" and data[0] == b"\xa9":
+            address_part[current_byte_addr] = ord(data[1])
+            byte_addr[current_byte_addr] = rom_file.tell() - 1
+            if len(address_part.keys()) < 3:
+                state = "find_sta"
+            else:
+                break
 
     if {0x60, 0x5F, 0x5E} == set(address_part.keys()):
         return address_part[0x60] << 16 | address_part[0x5F] << 8 | address_part[0x5E], byte_addr
@@ -373,14 +370,14 @@ def dump_message_strings(rom_file):
                     data_string += read
                 strings[ptr] = data_string
 
-        for addr in strings:
+        for addr, raw in strings.items():
             string = ET.SubElement(battle, "string")
             refs = ET.SubElement(string, "refs")
             for ref in references[addr]:
                 ref_element = ET.SubElement(refs, "ref")
                 ref_element.text = hex(ref)
             data = ET.SubElement(string, "data")
-            data.text = japanese_table.to_text(strings[addr]).replace(r"\s", " ")
+            data.text = japanese_table.to_text(raw).replace(r"\s", " ")
 
         messages_jp.write(prettify(battle))
 
@@ -458,14 +455,14 @@ def dump_battle_commands_strings(rom_file):
                     data_string += byte
                 strings[ptr] = data_string
 
-        for addr in strings:
+        for addr, raw in strings.items():
             string = ET.SubElement(battle, "string")
             refs = ET.SubElement(string, "refs")
             for ref in references[addr]:
                 ref_element = ET.SubElement(refs, "ref")
                 ref_element.text = hex(ref)
             data = ET.SubElement(string, "data")
-            data.text = jp_fixed_table.to_text(bytes(strings[addr]))
+            data.text = jp_fixed_table.to_text(bytes(raw))
 
         battle_jp.write(prettify(battle))
 
@@ -590,14 +587,14 @@ def dump_item_descriptions(rom_file, pointer_base=None, text_base=None, lang="jp
                     data_string += byte
                 strings[ptr] = data_string
 
-        for addr in strings:
+        for addr, raw in strings.items():
             string = ET.SubElement(items, "string")
             refs = ET.SubElement(string, "refs")
             for ref in references[addr]:
                 ref_element = ET.SubElement(refs, "ref")
                 ref_element.text = hex(ref)
             data = ET.SubElement(string, "data")
-            data.text = jp_fixed_table.to_text(bytes(strings[addr]))
+            data.text = jp_fixed_table.to_text(bytes(raw))
 
         items_jp.write(prettify(items))
 

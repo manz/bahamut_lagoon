@@ -175,7 +175,8 @@ class TextRender(Widget):
             arr = array("B", buffer.flatten())
             # now blit the array
             self._texture.blit_buffer(arr, colorfmt="luminance", bufferfmt="ubyte")
-        except Exception:
+        except (ValueError, IndexError):
+            # text overflowing the preview buffer: keep the last rendering
             pass
 
     def update_canvas(self, *args):
@@ -188,7 +189,7 @@ class TextRender(Widget):
         preview_display = (preview_width, hi * preview_width // wi)
 
         display_width = ws - preview_display[0]
-        display_height = hi * display_width // wi
+        hi * display_width // wi
 
         with self.canvas:
             x, y = self.pos

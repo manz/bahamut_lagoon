@@ -9,10 +9,8 @@ from PIL import Image
 def get_char(image, char, char_width, char_height):
     shape = image.shape
     width = shape[1]
-    height = shape[0]
 
     x_char_count = width / char_width
-    y_char_count = height / char_height
 
     line = int(char / x_char_count)
     column = int(char % x_char_count)

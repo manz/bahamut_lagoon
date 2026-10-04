@@ -114,7 +114,7 @@ class Program:
 
         class BytesEncoder(json.JSONEncoder):
             def default(self, obj):
-                if isinstance(obj, bytearray) or isinstance(obj, bytes):
+                if isinstance(obj, (bytearray, bytes)):
                     return obj.decode("unicode-escape")
                 return json.JSONEncoder.default(self, obj)
 
@@ -137,7 +137,7 @@ class Program:
             for address in sorted(self._program.keys()):
                 output.seek(address)
 
-                data, comment, size = self._program[address]
+                data, _comment, _size = self._program[address]
 
                 if data[0] == "reference":
                     output.write(struct.pack("<H", data[1]))
@@ -152,7 +152,7 @@ class Program:
     def opcode_frequency(self):
         frequency = {}
         for address in sorted(self._program.keys()):
-            data, comment, size = self._program[address]
+            data, _comment, _size = self._program[address]
 
             if data[0] == "opcode":
                 if data[2] in frequency:

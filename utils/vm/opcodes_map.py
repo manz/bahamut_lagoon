@@ -1,4 +1,3 @@
-
 from utils.vm.opcodes import (
     BattleOptionalJump,
     ConditionalJump,
