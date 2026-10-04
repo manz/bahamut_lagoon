@@ -11,12 +11,12 @@ export VERSION
 all: | bl.ips  ## Builds everything
 
 .PHONY: format
-format: ## Runs black to format the python code
-	$(Q) hatch run tests:format
+format: ## Formats the python code
+	$(Q) uv run ruff format build.py utils
 
 .PHONY: tests
 tests: ## Runs unit tests
-	$(Q) hatch run tests:tests
+	$(Q) uv run pytest utils
 
 .PHONY: clean
 clean: ## Cleanup everything
@@ -37,8 +37,7 @@ assets/vwf.bin: $(wildcard fonts/vwf*.png) ## Builds the font asset
 
 .PHONY: env
 env: ## Builds development virtualenv
-	$(Q) hatch env remove tests
-	$(Q) hatch env create tests
+	$(Q) uv sync
 
 .PHONY: help
 help: ## Display help

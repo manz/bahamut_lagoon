@@ -3,13 +3,14 @@ import argparse
 import logging
 import os
 import struct
+from pathlib import Path
 
-from a816.cpu.cpu_65c816 import RomType, rom_to_snes, snes_to_rom
-from a816.program import Program
-from a816.symbols import high_rom_bus
+from a816.module_builder import build_with_imports
 from a816.writers import IPSWriter, Writer
 from script import Table
-from utils.decompress_gfx import lz_compress_gfx, compress_asset
+
+from utils.cartridge import rom_address, rom_offset
+from utils.decompress_gfx import compress_asset, lz_compress_gfx
 from utils.dump_battle_rooms import build_battle_text_patch
 from utils.dump_rooms import build_text_patch
 from utils.inline_strings import (
@@ -29,61 +30,50 @@ class Context:
 logger = logging.getLogger(__name__)
 
 
-def build_patch(input, output):
+CODE_IPS = Path("build/code.ips")
 
+
+def build_code(source: str) -> dict[str, int]:
+    """Assemble the a816 sources into CODE_IPS and return their symbols."""
     obj_dir = Path("build/obj")
     if obj_dir.exists():
         for o in obj_dir.glob("*.o"):
             o.unlink()
-
-    out_path = Path(output)
-    if out_path.exists():
-        out_path.unlink()
+    CODE_IPS.unlink(missing_ok=True)
 
     result = build_with_imports(
-        main_source=Path(input),
-        output_file=Path(output),
+        main_source=Path(source),
+        output_file=CODE_IPS,
         output_format="ips",
-        module_paths=[Path("build/obj"), Path("src")],
-        output_dir=Path("build/obj"),
-        # symbols={"LANG": lang},
-        include_paths=[Path("src"), Path(".")],
+        output_dir=obj_dir,
         overlap_mode="warn",
     )
-
     if result.exit_code != 0:
-        logger.error("Build failed.")
-        return result.exit_code
-
-    if not out_path.exists():
-        logger.error("Build reported success but %s was not produced.", out_path)
-        return 1
-
-    if result.program is not None:
-        result.program.exports_symbol_file("./build/ff4.sym")
+        raise SystemExit("\n".join(result.diagnostics) or "a816 build failed")
+    if not CODE_IPS.exists():
+        raise SystemExit(f"a816 reported success but {CODE_IPS} was not produced")
+    return result.symbol_map
 
 
-def build_assembly(input: str, output: str, writer: Writer) -> Program:
-    asm = Program()
-    asm.resolver.rom_type = RomType.high_rom
-    # asm.resolver.current_scope.add_symbol("DEBUG", 1)
-    # asm.resolver.current_scope.add_symbol("VRAM_128k", 1)
-
-    asm.assemble_with_emitter(input, writer)
-    return asm
+def ips_records(path: Path) -> bytes:
+    """The records of an IPS file, without its PATCH header and EOF trailer."""
+    data = path.read_bytes()
+    if not (data.startswith(b"PATCH") and data.endswith(b"EOF")):
+        raise ValueError(f"{path} is not an IPS patch")
+    return data[5:-3]
 
 
 class DebugWriter(IPSWriter):
     def write_block_header(self, block: bytes, block_address: int) -> None:
         super().write_block_header(block, block_address)
         print(
-            f"DEBUGIPS: {rom_to_snes(block_address, RomType.high_rom):#x} {len(block):#x}"
+            f"DEBUGIPS: {rom_address(block_address):#x} {len(block):#x}"
         )
 
 
 def build_rooms_partials(writer: Writer, table: Table) -> None:
     with open("bl.sfc", "rb") as rom:
-        address = build_text_patch(rom, table, writer, snes_to_rom(0xF00000))
+        address = build_text_patch(rom, table, writer, rom_offset(0xF00000))
         print(f"Relocated dialog rooms end at {address + 0xC00000:#0x}")
 
         address = build_battle_text_patch(rom, table, writer, address)
@@ -122,22 +112,21 @@ if __name__ == "__main__":
             else:
                 build_rooms_partials(writer, table)
 
-            program = build_assembly("bl.s", "./bl.ips", writer)
+            symbols = build_code("bl.s")
+            f.write(ips_records(CODE_IPS))
             # get address for draw_inline_string_patched for code generation.
-            draw_inline_string_ref = program.resolver.current_scope[
-                "draw_inline_string_patched"
-            ]
+            draw_inline_string_ref = symbols["draw_inline_string_patched"]
 
-            insert_dragon_feed_inline_strings(writer, snes_to_rom(0xFC0000))
+            insert_dragon_feed_inline_strings(writer, rom_offset(0xFC0000))
             end_of_battle_commands = insert_battle_commands_strings(
-                writer, snes_to_rom(0xFD0000)
+                writer, rom_offset(0xFD0000)
             )
             end_of_inline_strings = insert_inline_strings(
-                writer, snes_to_rom(end_of_battle_commands + 1), draw_inline_string_ref
+                writer, rom_offset(end_of_battle_commands + 1), draw_inline_string_ref
             )
 
             end_of_message_strings = insert_messages_strings(
-                writer, snes_to_rom(end_of_inline_strings + 1)
+                writer, rom_offset(end_of_inline_strings + 1)
             )
 
             def insert_compressed_asset(
@@ -146,7 +135,7 @@ if __name__ == "__main__":
                 with open(asset_filename, "rb") as asset:
                     data = asset.read()
                     compressed = compressor(data)
-                    writer.write_block(compressed, snes_to_rom(insert_addr + 1))
+                    writer.write_block(compressed, rom_offset(insert_addr + 1))
                     # .D5:E6B9                 LDA     #$9A4F
                     # .D5:E6BC                 STA     D, $28
                     # .D5:E6BE                 SEP     #$20 ; ' '
@@ -154,16 +143,14 @@ if __name__ == "__main__":
                     # .D5:E6C0                 LDA     #$E8 ; 'Þ'
                     writer.write_block(
                         struct.pack("<H", insert_addr + 1 & 0xFFFF),
-                        snes_to_rom(low_addr),
+                        rom_offset(low_addr),
                     )
                     writer.write_block(
                         struct.pack("B", (insert_addr + 1) >> 16),
-                        snes_to_rom(bank_addr),
+                        rom_offset(bank_addr),
                     )
 
-                    return rom_to_snes(
-                        snes_to_rom(insert_addr) + 1 + len(compressed), RomType.high_rom
-                    )
+                    return rom_address(rom_offset(insert_addr) + 1 + len(compressed))
 
             next_insert = insert_compressed_asset(
                 writer,
@@ -187,15 +174,15 @@ if __name__ == "__main__":
             # with open('src_assets/e89a4f.bin', 'rb') as asset:
             #     data = asset.read()
             #     compressed = lz_compress_gfx(data)
-            #     writer.write_block(compressed, snes_to_rom(end_of_message_strings + 1))
+            #     writer.write_block(compressed, rom_offset(end_of_message_strings + 1))
             #
             # # .D5:E6B9                 LDA     #$9A4F
             # # .D5:E6BC                 STA     D, $28
             # # .D5:E6BE                 SEP     #$20 ; ' '
             # # .D5:E6C0 .A8
             # # .D5:E6C0                 LDA     #$E8 ; 'Þ'
-            # writer.write_block(struct.pack('<H', end_of_message_strings + 1 & 0xFFFF), snes_to_rom(0xD5E6B9 + 1))
-            # writer.write_block(struct.pack('B', (end_of_message_strings + 1) >> 16), snes_to_rom(0xD5E6C0 + 1))
+            # writer.write_block(struct.pack('<H', end_of_message_strings + 1 & 0xFFFF), rom_offset(0xD5E6B9 + 1))
+            # writer.write_block(struct.pack('B', (end_of_message_strings + 1) >> 16), rom_offset(0xD5E6C0 + 1))
 
             insert_char_names(writer)
             insert_battle_fixed(writer)

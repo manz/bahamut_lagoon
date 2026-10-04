@@ -26,7 +26,7 @@ jobs:
         env:
           BAHAMUT_PASSWORD: ${{ secrets.BAHAMUT_PASSWORD }}
       - name: Run tests
-        run: uv run --with pytest pytest utils
+        run: uv run pytest utils
       - name: Upload nightly patch artifact
         uses: actions/upload-artifact@v7
         with:

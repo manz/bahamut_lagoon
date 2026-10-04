@@ -5,7 +5,7 @@ import os
 import math
 import re
 
-from a816.cpu.cpu_65c816 import snes_to_rom, rom_to_snes, RomType
+from utils.cartridge import rom_address, rom_offset
 from script import Table
 
 from utils.disasm import live_disasm
@@ -96,22 +96,22 @@ def is_compressed(rom, room_id):
     room_id_high = 1 << (room_id & 0x07)
     room_id_low = room_id >> 3
 
-    rom.seek(snes_to_rom(0xDA8300) + room_id_low)
+    rom.seek(rom_offset(0xDA8300) + room_id_low)
     return (struct.unpack("B", rom.read(1))[0] & room_id_high) != 0
 
 
 def get_dialog_room(rom, room_id, table, lang="jp", disasm=False):
     """used for rebuild script"""
-    rom.seek(snes_to_rom(0xDA8000) + (room_id * 3))
+    rom.seek(rom_offset(0xDA8000) + (room_id * 3))
     ptr = rom.read(3)
 
-    rom.seek(snes_to_rom(ptr[0] + (ptr[1] << 8) + (ptr[2] << 16)))
+    rom.seek(rom_offset(ptr[0] + (ptr[1] << 8) + (ptr[2] << 16)))
 
     decompressed = decompress_block(rom)
 
     room = Room(decompressed, opcode_table, opcode_names, table, lang)
     room.id = room_id
-    room.compressed_size = rom.tell() - snes_to_rom(ptr[0] + (ptr[1] << 8) + (ptr[2] << 16))
+    room.compressed_size = rom.tell() - rom_offset(ptr[0] + (ptr[1] << 8) + (ptr[2] << 16))
     if disasm:
         room = live_disasm(room_id, decompressed, table, lang, display_program=True)
     return room
@@ -242,7 +242,7 @@ def build_text_patch(rom, table, writer, reloc_address):
                     )
                     room_id_high = 1 << (room_id & 0x07)
                     room_id_low = room_id >> 3
-                    compressed_byte_address = snes_to_rom(0xDA8300) + room_id_low
+                    compressed_byte_address = rom_offset(0xDA8300) + room_id_low
                     rom.seek(compressed_byte_address)
                     compressed_byte = room_compressed.get(compressed_byte_address, struct.unpack("B", rom.read(1))[0])
                     room_compressed[compressed_byte_address] = compressed_byte & ~room_id_high
@@ -256,10 +256,10 @@ def build_text_patch(rom, table, writer, reloc_address):
 
                 writer.write_block(updated_room_data, address)
 
-                value = rom_to_snes(address, RomType.high_rom)
+                value = rom_address(address)
 
                 writer.write_block(
-                    struct.pack("<HB", value & 0xFFFF, (value >> 16) & 0xFF), snes_to_rom(0xDA8000) + (room_id * 3)
+                    struct.pack("<HB", value & 0xFFFF, (value >> 16) & 0xFF), rom_offset(0xDA8000) + (room_id * 3)
                 )
 
                 address += len(updated_room_data) + 1
@@ -274,10 +274,10 @@ def build_text_patch(rom, table, writer, reloc_address):
 def build_room_address_table(rom):
     table = []
     for room_id in range(0xFF):
-        rom.seek(snes_to_rom(0xDA8000) + (room_id * 3))
+        rom.seek(rom_offset(0xDA8000) + (room_id * 3))
         ptr = rom.read(3)
         address = ptr[0] + (ptr[1] << 8) + (ptr[2] << 16)
-        table.append({"id": room_id, "address": snes_to_rom(address), "compressed": is_compressed(rom, room_id)})
+        table.append({"id": room_id, "address": rom_offset(address), "compressed": is_compressed(rom, room_id)})
 
     sorted_table = sorted(table, key=lambda r: r["address"])
 

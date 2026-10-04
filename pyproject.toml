@@ -1,44 +1,18 @@
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
-
 [project]
 name = "bahamut_lagoon"
 version = "0.0.0.dev0"
 readme = "README.md"
-classifiers = [
-    "Intended Audience :: Developers",
-    "Operating System :: OS Independent",
-    "Programming Language :: Python :: 3.10",
-]
-
 requires-python = ">=3.13"
-dependencies = ["a816==1.1.0a36", "pillow", "numpy"]
+dependencies = ["a816==1.1.0a40", "pillow", "numpy"]
 
 [project.urls]
-Homepage = "https://github.com/manz/a816"
+Homepage = "https://github.com/manz/bahamut_lagoon"
 
-[tool.hatch.version]
-source = "env"
-variable = "VERSION"
+[dependency-groups]
+dev = ["pytest", "ruff"]
 
-[tool.hatch.envs.tests]
-extra-dependencies = [
-    "black==23.7.0",
-    "pytest",
-    "ruff"
-]
+[tool.uv]
+package = false
 
-          [tool.hatch.build.targets.wheel]
-      packages = ["src/foo"]
-
-[tool.hatch.envs.tests.scripts]
-check_format = "black --check utils build.py --color --diff"
-format = "black -l120 build.py utils"
-tests = "pytest utils"
-all = ["check_format"]
-
-
-[tool.black]
+[tool.ruff]
 line-length = 120
-target-version = ['py310']
