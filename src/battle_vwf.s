@@ -72,5 +72,5 @@ battle_secure_patch:
     rts
 
 wait_for_something__long:
-    jsr.w 0xC006AC
+    jsr.w 0xC006AC  ; noqa: OP001 - .w truncates the long target to an in-bank jsr
     rtl

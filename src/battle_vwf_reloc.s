@@ -18,13 +18,13 @@ battle_dma_transfer:
     sta.b 0x10
     asl
     clc
-    adc.w #0xD000
-    sta.w 0x4302
+    adc #0xD000
+    sta 0x4302
 
     lda.b 0x10
     clc
-    adc.w #0x4180
-    sta.w 0x2116
+    adc #0x4180
+    sta 0x2116
 
     sep #0x20
 

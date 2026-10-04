@@ -49,10 +49,10 @@ _loop:
     beq _end
 
     ora.l 0x001862
-    sta.w 0xc400, y
+    sta 0xc400, y
 
     lda.w #0x0000
-    sta.w 0xc3c0, y
+    sta 0xc3c0, y
 
     iny
     iny

@@ -34,7 +34,7 @@ VRAM_128k := 0
 
 ; clear vram
     *=0xda02c2
-    ldx.w #0xffff
+    ldx #0xffff
 }
 
 *=0xe61b40

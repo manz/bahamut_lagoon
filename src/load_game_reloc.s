@@ -27,7 +27,7 @@ loop:
     lda.w position
 
     pha
-    and.w #0xfff8
+    and #0xfff8
     asl
     asl
     tay
@@ -50,8 +50,8 @@ raw_copy:
 raw_copy_loop:
     pha
     lda.l assets_vwf_bin, x
-    sta.w 0x7800, y
-    sta.w 0x7801, y
+    sta 0x7800, y
+    sta 0x7801, y
     lda.l assets_vwf_bin + 8, x
     sta.w 0x7800 + 0x20, y
     sta.w 0x7801 + 0x20, y
@@ -97,8 +97,8 @@ shift_copy_loop:
     sep #0x20
     xba
 
-    ora.w 0x7800, y
-    sta.w 0x7800, y
+    ora 0x7800, y
+    sta 0x7800, y
     sta.w 0x7800 + 1, y
 
     inx

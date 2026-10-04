@@ -63,7 +63,7 @@ loop:
     ldx 0x1c
 loop:
     lda [0x18], y
-    sta.w 0x0200, x
+    sta 0x0200, x
     iny
     inx
     inx

@@ -18,6 +18,6 @@ copy_counter:
     adc 1, s
     asl
     asl
-    cmp.w 0x095F
+    cmp 0x095F
     pla
     jmp.w copy_counter_return
