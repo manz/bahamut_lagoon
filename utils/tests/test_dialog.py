@@ -13,7 +13,7 @@ class DialogTestCase(TestCase):
         self.table = Table(os.path.join(root_dir, "./text/table/jp.tbl"))
 
     def test_get_room_0(self):
-        with open(os.path.join(root_dir, "bl.sfc"), "rb") as rom:
+        with open(os.path.join(root_dir, "build/bl.sfc"), "rb") as rom:
             room = get_dialog_room(rom, 0, self.table, lang="jp", disasm=True)
             self.assertEqual(room.id, 0)
             self.assertIsNotNone(room.room)

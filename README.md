@@ -1,16 +1,18 @@
 # Bahamut Lagoon
 ## Requirements
-python 3.6
+[uv](https://docs.astral.sh/uv/); `uv sync` installs Python and the locked dependencies.
 
 ## Rom
+Place an unheadered Bahamut Lagoon (J) ROM at `build/bl.sfc`:
 ```ShellSession
-$ shasum bl.sfc
-c8bca249ebd481dfd7bb851c7846844ab70d3003  bl.sfc
+$ shasum build/bl.sfc
+c8bca249ebd481dfd7bb851c7846844ab70d3003  build/bl.sfc
 ```
 
 ## Usage
 ```ShellSession
-$ ./build.py
+$ make          # build/bl.ips, then the tests
+$ make check    # formatting and lint
 ```
 
 ## Texts

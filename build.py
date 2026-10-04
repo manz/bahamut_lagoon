@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
-import argparse
 import logging
-import os
 import struct
+import sys
 from pathlib import Path
 
 from a816.module_builder import build_with_imports
-from a816.writers import IPSWriter, Writer
+from a816.writers import IPSWriter
 from script import Table
 
 from utils.cartridge import rom_address, rom_offset
@@ -22,15 +21,17 @@ from utils.inline_strings import (
     insert_messages_strings,
 )
 
-
-class Context:
-    table: Table
-
-
 logger = logging.getLogger(__name__)
 
 
+ROM = Path("build/bl.sfc")
+IPS = Path("build/bl.ips")
+SYMBOLS = Path("build/bl.sym")
 CODE_IPS = Path("build/code.ips")
+ROOMS_PARTIAL = Path("build/rooms.partial")
+VWF_FONT = Path("assets/vwf.bin")  # incbin'd by bl.s
+VWF_FONT_SOURCE = Path("fonts/fft.png")
+TABLE = Path("text/table/mz.tbl")
 
 
 def build_code(source: str) -> dict[str, int]:
@@ -52,6 +53,8 @@ def build_code(source: str) -> dict[str, int]:
         raise SystemExit("\n".join(result.diagnostics) or "a816 build failed")
     if not CODE_IPS.exists():
         raise SystemExit(f"a816 reported success but {CODE_IPS} was not produced")
+    if result.program is not None:
+        result.program.exports_symbol_file(str(SYMBOLS))
     return result.symbol_map
 
 
@@ -63,14 +66,24 @@ def ips_records(path: Path) -> bytes:
     return data[5:-3]
 
 
-class DebugWriter(IPSWriter):
-    def write_block_header(self, block: bytes, block_address: int) -> None:
-        super().write_block_header(block, block_address)
-        print(f"DEBUGIPS: {rom_address(block_address):#x} {len(block):#x}")
+def assets_need_refresh(sources: list[Path], destination: Path) -> bool:
+    """Whether destination is missing or older than any of its sources."""
+    if not destination.exists():
+        return True
+    built = destination.stat().st_mtime
+    return any(source.stat().st_mtime > built for source in sources)
 
 
-def build_rooms_partials(writer: Writer, table: Table) -> None:
-    with open("bl.sfc", "rb") as rom:
+def build_vwf_font() -> None:
+    from utils.font import char_length_override, convert_font
+
+    VWF_FONT.parent.mkdir(exist_ok=True)
+    VWF_FONT.write_bytes(convert_font(str(VWF_FONT_SOURCE), empty_chars=char_length_override))
+
+
+def build_rooms_partial(table: Table) -> None:
+    with ROOMS_PARTIAL.open("wb") as partial, ROM.open("rb") as rom:
+        writer = IPSWriter(partial)
         address = build_text_patch(rom, table, writer, rom_offset(0xF00000))
         print(f"Relocated dialog rooms end at {address + 0xC00000:#0x}")
 
@@ -78,103 +91,78 @@ def build_rooms_partials(writer: Writer, table: Table) -> None:
         print(f"Relocated battle rooms end at {address + 0xC00000:#0x}")
 
 
-partials_builder = {"rooms": build_rooms_partials}
+def insert_compressed_asset(writer, asset_filename, insert_addr, low_addr, bank_addr, compressor):
+    with open(asset_filename, "rb") as asset:
+        compressed = compressor(asset.read())
+    writer.write_block(compressed, rom_offset(insert_addr + 1))
+    # .D5:E6B9                 LDA     #$9A4F
+    # .D5:E6BC                 STA     D, $28
+    # .D5:E6BE                 SEP     #$20 ; ' '
+    # .D5:E6C0 .A8
+    # .D5:E6C0                 LDA     #$E8 ; 'Þ'
+    writer.write_block(struct.pack("<H", insert_addr + 1 & 0xFFFF), rom_offset(low_addr))
+    writer.write_block(struct.pack("B", (insert_addr + 1) >> 16), rom_offset(bank_addr))
+    return rom_address(rom_offset(insert_addr) + 1 + len(compressed))
+
+
+def build_ips() -> None:
+    with IPS.open("wb") as f:
+        writer = IPSWriter(f)
+        writer.begin()
+        f.write(ROOMS_PARTIAL.read_bytes())
+
+        symbols = build_code("bl.s")
+        f.write(ips_records(CODE_IPS))
+        # get address for draw_inline_string_patched for code generation.
+        draw_inline_string_ref = symbols["draw_inline_string_patched"]
+
+        insert_dragon_feed_inline_strings(writer, rom_offset(0xFC0000))
+        end_of_battle_commands = insert_battle_commands_strings(writer, rom_offset(0xFD0000))
+        end_of_inline_strings = insert_inline_strings(
+            writer, rom_offset(end_of_battle_commands + 1), draw_inline_string_ref
+        )
+        end_of_message_strings = insert_messages_strings(writer, rom_offset(end_of_inline_strings + 1))
+
+        next_insert = insert_compressed_asset(
+            writer,
+            "src_assets/e89a4f.bin",
+            insert_addr=end_of_message_strings,
+            low_addr=0xD5E6B9 + 1,
+            bank_addr=0xD5E6C0 + 1,
+            compressor=lz_compress_gfx,
+        )
+        # .EE:850F                 .WORD $20
+        # .EE:8511                 .BYTE $EE
+        insert_compressed_asset(
+            writer,
+            "src_assets/ee0020.bin",
+            insert_addr=next_insert,
+            low_addr=0xEE850F,
+            bank_addr=0xEE8511,
+            compressor=compress_asset,
+        )
+
+        insert_char_names(writer)
+        insert_battle_fixed(writer)
+
+        writer.end()
+
+
+def main() -> int:
+    if not ROM.is_file() or ROM.stat().st_size == 0:
+        logger.error("%s missing. Place an unheadered Bahamut Lagoon (J) ROM there.", ROM)
+        return 1
+
+    if assets_need_refresh([VWF_FONT_SOURCE], VWF_FONT):
+        build_vwf_font()
+
+    room_sources = [TABLE, *Path("text/dialog").glob("*.xml"), *Path("text/battle").glob("*.xml")]
+    if assets_need_refresh(room_sources, ROOMS_PARTIAL):
+        build_rooms_partial(Table(str(TABLE)))
+
+    build_ips()
+    return 0
+
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Build patch.")
-
-    parser.add_argument("--debug", dest="debug", action="store_true", help="Turns debug on")
-
-    parser.add_argument("--rooms", action="store_true", help="build rooms partial")
-
-    args = parser.parse_args()
-
-    lang = "mz"
-    table_path = os.path.join(os.path.dirname(__file__), "text/table")
-    table = Table(os.path.join(table_path, f"{lang}.tbl"))
-
-    if args.rooms:
-        with open("rooms.partial", "wb") as partial:
-            writer = IPSWriter(partial)
-            build_rooms_partials(writer, table)
-    else:
-        with open("bl.ips", "wb") as f:
-            writer = IPSWriter(f)
-            writer.begin()
-
-            if os.path.exists("rooms.partial"):
-                with open("rooms.partial", "rb") as partial:
-                    f.write(partial.read())
-            else:
-                build_rooms_partials(writer, table)
-
-            symbols = build_code("bl.s")
-            f.write(ips_records(CODE_IPS))
-            # get address for draw_inline_string_patched for code generation.
-            draw_inline_string_ref = symbols["draw_inline_string_patched"]
-
-            insert_dragon_feed_inline_strings(writer, rom_offset(0xFC0000))
-            end_of_battle_commands = insert_battle_commands_strings(writer, rom_offset(0xFD0000))
-            end_of_inline_strings = insert_inline_strings(
-                writer, rom_offset(end_of_battle_commands + 1), draw_inline_string_ref
-            )
-
-            end_of_message_strings = insert_messages_strings(writer, rom_offset(end_of_inline_strings + 1))
-
-            def insert_compressed_asset(writer, asset_filename, insert_addr, low_addr, bank_addr, compressor):
-                with open(asset_filename, "rb") as asset:
-                    data = asset.read()
-                    compressed = compressor(data)
-                    writer.write_block(compressed, rom_offset(insert_addr + 1))
-                    # .D5:E6B9                 LDA     #$9A4F
-                    # .D5:E6BC                 STA     D, $28
-                    # .D5:E6BE                 SEP     #$20 ; ' '
-                    # .D5:E6C0 .A8
-                    # .D5:E6C0                 LDA     #$E8 ; 'Þ'
-                    writer.write_block(
-                        struct.pack("<H", insert_addr + 1 & 0xFFFF),
-                        rom_offset(low_addr),
-                    )
-                    writer.write_block(
-                        struct.pack("B", (insert_addr + 1) >> 16),
-                        rom_offset(bank_addr),
-                    )
-
-                    return rom_address(rom_offset(insert_addr) + 1 + len(compressed))
-
-            next_insert = insert_compressed_asset(
-                writer,
-                "src_assets/e89a4f.bin",
-                insert_addr=end_of_message_strings,
-                low_addr=0xD5E6B9 + 1,
-                bank_addr=0xD5E6C0 + 1,
-                compressor=lz_compress_gfx,
-            )
-            # .EE:850F                 .WORD $20
-            # .EE:8511                 .BYTE $EE
-            insert_compressed_asset(
-                writer,
-                "src_assets/ee0020.bin",
-                insert_addr=next_insert,
-                low_addr=0xEE850F,
-                bank_addr=0xEE8511,
-                compressor=compress_asset,
-            )
-            # too much ? maybe
-            # with open('src_assets/e89a4f.bin', 'rb') as asset:
-            #     data = asset.read()
-            #     compressed = lz_compress_gfx(data)
-            #     writer.write_block(compressed, rom_offset(end_of_message_strings + 1))
-            #
-            # # .D5:E6B9                 LDA     #$9A4F
-            # # .D5:E6BC                 STA     D, $28
-            # # .D5:E6BE                 SEP     #$20 ; ' '
-            # # .D5:E6C0 .A8
-            # # .D5:E6C0                 LDA     #$E8 ; 'Þ'
-            # writer.write_block(struct.pack('<H', end_of_message_strings + 1 & 0xFFFF), rom_offset(0xD5E6B9 + 1))
-            # writer.write_block(struct.pack('B', (end_of_message_strings + 1) >> 16), rom_offset(0xD5E6C0 + 1))
-
-            insert_char_names(writer)
-            insert_battle_fixed(writer)
-
-            writer.end()
+    sys.exit(main())
