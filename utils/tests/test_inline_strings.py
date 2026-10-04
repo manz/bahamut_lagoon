@@ -26,7 +26,8 @@ class InlineStringTestCase(TestCase):
         writer = StubWriter()
         program = Program()
 
-        nodes = program.parser.parse(input_program)
+        error, nodes = program.parser.parse(input_program)
+        self.assertIsNone(error)
         program.resolve_labels(nodes)
         program.emit(nodes, writer)
         xref = snes_to_rom(program.resolver.current_scope["xref"])

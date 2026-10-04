@@ -16,8 +16,8 @@ class LZCompressionTestCase(TestCase):
         data = b"\x00\x01\x03\x04\x00\x01\x03\x04\x00" b"\x01\x03\x04\x00\x01\x03\x04\x00\x01"
 
         pattern = find_pattern(pattern_to_find, data)
-        self.assertEquals(pattern[0], 4)
-        self.assertEquals(pattern[1], 18)
+        self.assertEqual(pattern[0], 4)
+        self.assertEqual(pattern[1], 18)
 
     def test_find_pattern_repeat_last(self):
         pattern_to_find = bytearray(b"r\x05\x08\x8b\x8d\x00")
