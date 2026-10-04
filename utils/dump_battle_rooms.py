@@ -1,18 +1,18 @@
+import logging
+import os
 import re
 import struct
-import os
+import xml.etree.ElementTree as ET
 
-from utils.cartridge import rom_address, rom_offset
 from script import Table
 
+from utils.cartridge import rom_address, rom_offset
 from utils.dump_rooms import compress_room
 from utils.lz import lz_decompress_battle
 from utils.vm import AlreadyVisitedError
 from utils.vm.executor import walk_event_chain
-from utils.vm.opcodes_map import battle_opcode_table, battle_opcode_names
+from utils.vm.opcodes_map import battle_opcode_names, battle_opcode_table
 from utils.vm.room import Room, prettify
-import xml.etree.ElementTree as ET
-import logging
 
 logger = logging.getLogger("rooms.battle")
 
@@ -76,7 +76,7 @@ def walk_battle_room(room_id, decompressed, table, lang):
     room.debug_outside_jump_protection = True
     room.id = room_id
     ptr_table = []
-    for k in range(0, 0x0C + 2):
+    for k in range(0x0C + 2):
         room.pc = 0
         try:
             addr = room.get_word(k * 2)
@@ -192,7 +192,7 @@ def dump_battle_room(rom, room_id, table, lang, output_dir):
 
 
 def build_battle_text_patch(rom, table, writer, reloc_address):
-    xmlfile_re = re.compile("(\d+)\.xml")
+    xmlfile_re = re.compile(r"(\d+)\.xml")
     dialog_dir = os.path.join(os.path.dirname(__file__), "../text/battle")
     files = os.listdir(dialog_dir)
     address = reloc_address

@@ -1,10 +1,10 @@
 import os
 import struct
+
 import freetype
 import numpy
 from PIL import Image
 from script import Table
-
 
 # def byte_to_bit_array(c):
 #     retval = []
@@ -19,7 +19,7 @@ from utils.dump_assets import byte_to_bit_array
 def get_char(glyph):
     char = []
     letter = glyph.bitmap.buffer
-    for k in range(0, len(letter) - 1):
+    for k in range(len(letter) - 1):
         if k % 2:
             char.append(byte_to_bit_array(letter[k + 1] << 8 | letter[k]))
 

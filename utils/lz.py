@@ -1,9 +1,7 @@
-import hashlib
 import struct
-from typing import Optional
 
 
-def lz_decompress(data: bytes, decompressed: Optional[bytearray] = None) -> bytearray:
+def lz_decompress(data: bytes, decompressed: bytearray | None = None) -> bytearray:
     if decompressed is None:
         decompressed = bytearray()
 
@@ -34,7 +32,7 @@ def lz_decompress(data: bytes, decompressed: Optional[bytearray] = None) -> byte
     return decompressed
 
 
-def lz_decompress_battle(data: bytes, decompressed: Optional[bytearray] = None) -> bytearray:
+def lz_decompress_battle(data: bytes, decompressed: bytearray | None = None) -> bytearray:
     if decompressed is None:
         decompressed = bytearray()
 
@@ -67,7 +65,7 @@ def lz_decompress_battle(data: bytes, decompressed: Optional[bytearray] = None) 
 
 def find_pattern(buffer, temp_buffer):
     if len(buffer) > 0:
-        for pattern_index in range(0, len(buffer)):
+        for pattern_index in range(len(buffer)):
             pattern = buffer[pattern_index:]
 
             index = 0

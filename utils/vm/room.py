@@ -1,15 +1,15 @@
 import os
 import struct
-from typing import Optional, cast, Dict
+import xml.etree.ElementTree as ET
+from typing import cast
+from xml.dom import minidom
 from xml.etree.ElementTree import ElementTree
 
 from script import Table
 
 from utils.vm import AlreadyVisitedError
-from .program import Program
 
-import xml.etree.ElementTree as ET
-from xml.dom import minidom
+from .program import Program
 
 text_path = os.path.join(os.path.dirname(__file__), "../../text")
 
@@ -22,7 +22,7 @@ def prettify(elem):
 
 
 class Room:
-    def __init__(self, room: bytearray, opcode_table, opcode_names, table: Table, lang: Optional[str] = None) -> None:
+    def __init__(self, room: bytearray, opcode_table, opcode_names, table: Table, lang: str | None = None) -> None:
         self.table = table
         self.room = room + b"\xff" * 5
         self.lang = lang
@@ -88,7 +88,7 @@ class Room:
         data = self.room[self.pc + delta : self.pc + size]
         return data
 
-    def get_text_base(self) -> Optional[int]:
+    def get_text_base(self) -> int | None:
         text_program = self.program.filter(lambda _, e: e[0][0] == "text")
         sorted_program_keys = sorted(text_program.keys())
         if len(sorted_program_keys) > 0:
@@ -124,7 +124,7 @@ class Room:
             return root
         return None
 
-    def _apply_patches(self, base: int, patches: Dict[int, int], text_data: bytes) -> bytes:
+    def _apply_patches(self, base: int, patches: dict[int, int], text_data: bytes) -> bytes:
         patched_room: bytearray = self.room[:base] + text_data
 
         for address, pointer in patches.items():

@@ -1,8 +1,7 @@
 import struct
-from utils.cartridge import rom_offset
-from io import BytesIO
 
-from utils.lz import lz_decompress, lz_compress, find_back_reference
+from utils.cartridge import rom_offset
+from utils.lz import find_back_reference, lz_compress, lz_decompress
 
 
 def compress_asset(data):
@@ -77,7 +76,7 @@ def decompress_asset(rom_file):
 
                 back_pointer = len(decompressed) - pointer
 
-                for l in range(0, length):
+                for l in range(length):
                     decompressed += bytes([decompressed[back_pointer + l]])
         else:
             decompressed += bytes([control_byte])

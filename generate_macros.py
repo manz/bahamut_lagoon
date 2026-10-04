@@ -4,6 +4,7 @@ Generate a816 macro library for Bahamut Lagoon room opcodes
 """
 
 import os
+
 from utils.vm.opcodes_map import opcode_names, opcode_table
 
 

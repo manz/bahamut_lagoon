@@ -4,9 +4,7 @@ Build room assembly files with a816 and patch into ROM
 """
 
 import os
-import subprocess
-import struct
-import a816
+
 from a816.program import Program
 
 

@@ -1,18 +1,18 @@
 #!/usr/bin/env python
 import logging
-import struct
-import os
 import math
+import os
 import re
+import struct
+import xml.etree.ElementTree as ET
 
-from utils.cartridge import rom_address, rom_offset
 from script import Table
 
+from utils.cartridge import rom_address, rom_offset
 from utils.disasm import live_disasm
-from utils.lz import lz_decompress, lz_compress
-from utils.vm.opcodes_map import opcode_table, opcode_names
+from utils.lz import lz_compress, lz_decompress
+from utils.vm.opcodes_map import opcode_names, opcode_table
 from utils.vm.room import Room, prettify
-import xml.etree.ElementTree as ET
 
 logger = logging.getLogger("rooms.dialog")
 
@@ -214,7 +214,7 @@ room_patches = {
 
 
 def build_text_patch(rom, table, writer, reloc_address):
-    xmlfile_re = re.compile("(\d+)\.xml")
+    xmlfile_re = re.compile(r"(\d+)\.xml")
     dialog_dir = os.path.join(os.path.dirname(__file__), "../text/dialog")
     files = os.listdir(dialog_dir)
     address = reloc_address

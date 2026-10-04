@@ -1,4 +1,4 @@
-from typing import Protocol, Optional
+from typing import Protocol
 
 from script import Table
 
@@ -95,7 +95,7 @@ class DataLambda(Protocol):
 
 class Opcode:
     def __init__(
-        self, size: int, data_lambda: Optional[DataLambda] = None, comment_lambda: Optional[CommentLambda] = None
+        self, size: int, data_lambda: DataLambda | None = None, comment_lambda: CommentLambda | None = None
     ) -> None:
         self.size = size
         self.data_lambda = data_lambda
@@ -188,7 +188,7 @@ class Opcode18:
 
 
 class TextOpcode:
-    def __init__(self, size: Optional[int] = 3) -> None:
+    def __init__(self, size: int | None = 3) -> None:
         self.size = size
 
     def apply(self, room: Room) -> int:

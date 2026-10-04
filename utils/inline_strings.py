@@ -1,8 +1,7 @@
 import struct
-
-from a816.cpu.cpu_65c816 import RomType
 import xml.etree.ElementTree as ET
 
+from a816.cpu.cpu_65c816 import RomType
 from a816.program import Program
 from a816.writers import Writer
 from script import Table
@@ -374,14 +373,14 @@ def dump_message_strings(rom_file):
                     data_string += read
                 strings[ptr] = data_string
 
-        for addr in strings.keys():
+        for addr in strings:
             string = ET.SubElement(battle, "string")
             refs = ET.SubElement(string, "refs")
             for ref in references[addr]:
                 ref_element = ET.SubElement(refs, "ref")
                 ref_element.text = hex(ref)
             data = ET.SubElement(string, "data")
-            data.text = japanese_table.to_text(strings[addr]).replace("\s", " ")
+            data.text = japanese_table.to_text(strings[addr]).replace(r"\s", " ")
 
         messages_jp.write(prettify(battle))
 
@@ -403,7 +402,7 @@ def insert_messages_strings(writer, address):
         for ref in refs:
             pointer_id = int(ref.text, 16)
             pointer_table[pointer_id] = text_addr & 0xFFFF
-        text_data += mz_table.to_bytes(data.text.replace(" ", "\s")) + b"\xff"
+        text_data += mz_table.to_bytes(data.text.replace(" ", r"\s")) + b"\xff"
 
     pointer_table_bytes = b""
     for key in sorted(pointer_table):
@@ -459,7 +458,7 @@ def dump_battle_commands_strings(rom_file):
                     data_string += byte
                 strings[ptr] = data_string
 
-        for addr in strings.keys():
+        for addr in strings:
             string = ET.SubElement(battle, "string")
             refs = ET.SubElement(string, "refs")
             for ref in references[addr]:
@@ -591,7 +590,7 @@ def dump_item_descriptions(rom_file, pointer_base=None, text_base=None, lang="jp
                     data_string += byte
                 strings[ptr] = data_string
 
-        for addr in strings.keys():
+        for addr in strings:
             string = ET.SubElement(items, "string")
             refs = ET.SubElement(string, "refs")
             for ref in references[addr]:

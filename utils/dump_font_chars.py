@@ -1,7 +1,8 @@
-from PIL import Image
-import tesserocr
-from utils.dump_assets import bytes_to_char
 import numpy as np
+import tesserocr
+from PIL import Image
+
+from utils.dump_assets import bytes_to_char
 
 
 def get_char_from_image(image):
@@ -20,7 +21,7 @@ def dump_font_chars(data):
         char_data = data[k * ch : (k + 1) * ch]
         expanded_data = bytes_to_char(char_data)
         image = Image.fromarray(np.uint8(expanded_data) * 255)
-        print("{:x}".format(k))
+        print(f"{k:x}")
         print(get_char_from_image(image))
         k += 1
 

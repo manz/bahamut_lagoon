@@ -1,16 +1,14 @@
-import math
-import numpy as np
-import struct
-
 import os
-from PIL import Image
 from io import BytesIO
+
+import numpy as np
+from PIL import Image
 
 
 def byte_to_bit_array(c):
     retval = []
     k = 16
-    for i in range(0, 16):
+    for i in range(16):
         v = ((c & (1 << (k - i))) >> (k - i)) & 0xFF
         retval.append(v)
     return retval
@@ -68,9 +66,9 @@ def extract_font_char_for_ocr(data):
 
 def dump_vwf(data):
     font = None
-    for i in range(0, 64):
+    for i in range(64):
         line = None
-        for k in range(0, 16):
+        for k in range(16):
             char_index = i * 16 + k
 
             char_data = data[char_index * 24 : (char_index + 1) * 24]
