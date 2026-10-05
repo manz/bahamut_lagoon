@@ -11,10 +11,9 @@ PY ?= $(shell [ -x .venv/bin/python ] && echo .venv/bin/python || echo python3)
 
 ROM = build/bl.sfc
 IPS = build/bl.ips
-# Prune hidden directories: they never hold our sources, and .venv matches
-# too, so the .s files a816 ships stay out. -o binds looser than -not, so
-# the extension test needs its own group or pruned paths come along.
-SOURCES = $(shell find . -path './.*' -prune -o \( -name '*.s' -o -name '*.i' \) -print)
+# Only the tracked sources: the checkout also holds scratch asm (debug_src/,
+# old experiments) that is neither built nor kept to the gate.
+SOURCES = bl.s $(wildcard src/*.s src/*.i)
 TEXTS = $(wildcard text/*.xml text/dialog/*.xml text/battle/*.xml text/table/*.tbl)
 
 # uv format fetches its own ruff: run the one pinned in the dev group.
@@ -49,14 +48,17 @@ tests: $(IPS)  ## Run the full suite against a freshly built patch
 test: tests  ## Alias for `tests`
 
 .PHONY: check
-check:  ## Verify Python formatting and run the ruff lints
+check:  ## Verify formatting and run the a816 fluff and ruff lints
 	$(info $(M) Checking sources...)
+	$(Q) uv run a816 format --check $(SOURCES)
+	$(Q) uv run a816 check $(SOURCES)
 	$(Q) $(UV_FORMAT) --check
 	$(Q) uv run ruff check
 
 .PHONY: format
-format:  ## Rewrite Python sources in ruff's canonical form
+format:  ## Rewrite sources in a816 and ruff canonical form
 	$(info $(M) Formatting sources...)
+	$(Q) uv run a816 format $(SOURCES)
 	$(Q) $(UV_FORMAT)
 	$(Q) uv run ruff check --fix
 
