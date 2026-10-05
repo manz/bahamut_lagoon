@@ -1,10 +1,11 @@
-; Naming screen
+"""Naming screen: chapter title strings in an 8x16 font (not built yet)."""
 
 ; 8x16
 
 ; String length for chapter titles (We may use a smaller font 8x8 for example)
 ; let the string end with 0xff
-*=0xee55b3
+
+.alloc at 0xee55b3 {
 CHAPTER_LENGTH:
 ;;.EE:55B3                 CMP     #$A
     nop
@@ -19,9 +20,9 @@ CHAPTER_LENGTH:
 ;    cmp.w #0x0f
 
 
-
 ; nukes the odd/even char for japanese chars 12px.
-*=0xee51F4
+}
+.alloc at 0xee51F4 {
 ;.EE:51F4                 AND     #1
     nop
     nop
@@ -32,7 +33,8 @@ CHAPTER_LENGTH:
     nop
 
 ; replaces the copy_without shift
-*=0xee5283
+}
+.alloc at 0xee5283 {
 __BREAKPOINT_copy_without_shift:
     php
     sep #0x20
@@ -43,7 +45,7 @@ __BREAKPOINT_copy_without_shift:
     sta 0x00
     ldy.w #0
     ldx 0x1c
-{
+    {
 loop:
     lda [0x18], y
     sta.w 0x0000, x
@@ -54,27 +56,28 @@ loop:
 
     dec 0x00
     bne loop
-}
-{
+    }
+    {
     lda #8
     sta 0x00
     ldx 0x1c
 loop:
     lda [0x18], y
-    sta.w 0x0200, x
+    sta 0x0200, x
     iny
     inx
     inx
 
     dec 0x00
     bne loop
-}
+    }
     plp
     rts
 
 ; Used to compute the char address in font [naming]
-*=0xEE558A
-    lda.w #17 ; char height
+}
+.alloc at 0xEE558A {
+    lda.w #17  ; char height
 
 ; FIXME: Remove when char_offset_table is patched in place
 ;*=0xEE55A2
@@ -83,7 +86,8 @@ loop:
 ;    lda.l char_offset_table, x
 
 ; change character pixel width for cursor position computation in naming screen.
-*=0xeedbf5
+}
+.alloc at 0xeedbf5 {
 ;.EE:DBF5                 LDA     #0xC
     lda #0x0008
 
@@ -91,15 +95,16 @@ loop:
 ; save screen
 ; need to shift
 ;.EE:5448                 LDA     #0x18 [messages]
-*=0xee5448
+}
+.alloc at 0xee5448 {
     lda.w #17
 
 ; FIXME: Remove when char_offset_table is patched in place
 ;*=0xee5460
 ; .EE:5460                 LDA     word_EE548C, X [messages]
 ;   lda.l char_offset_table, x
-
-*=0xEE548C
+}
+.alloc at 0xEE548C {
 char_offset_table:
     .dw 0
     .dw 0x20
@@ -207,3 +212,4 @@ char_offset_table:
 ;    jsr.l display_string.entrypoint
 ;    pla
 ;    jmp.w 0xee5484 & 0xffff
+}

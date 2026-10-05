@@ -1,9 +1,11 @@
+"""Inline menu strings drawn from the relocated string bank (FD)."""
 
 ; move this function inside the shift-jis lookup table might break a thing or two
-*=0xEE4AE8
+
+.alloc at 0xEE4AE8 {
 draw_inline_string_patched:
-{
-inline_string_bank_reloc=0xfd
+    {
+    inline_string_bank_reloc = 0xfd
 
     php
     rep #0x20
@@ -23,9 +25,9 @@ inline_string_bank_reloc=0xfd
     pla
     inc
     inc
-    sta 0x09, s ; sets the return address past the pointer where a bra waits for us.
+    sta 0x09, s  ; sets the return address past the pointer where a bra waits for us.
 
-    ; read pointer from stack return address
+; read pointer from stack return address
     lda.w 0x0002, y
     tax
 
@@ -48,10 +50,10 @@ _loop:
     beq _end
 
     ora.l 0x001862
-    sta.w 0xc400, y
+    sta 0xc400, y
 
     lda.w #0x0000
-    sta.w 0xc3c0, y
+    sta 0xc3c0, y
 
     iny
     iny
@@ -71,7 +73,7 @@ _end:
     pla
     plp
     rts
-}
+    }
 
 ;.EE:4A1E draw_inline_string:                     ; CODE XREF: .EE:6F6Cp
 ;.EE:4A1E                                         ; .EE:loc_EE6FABp ...
@@ -169,3 +171,4 @@ _end:
 ;.EE:4AC0                 PLP
 ;.EE:4AC1                 RTS
 ;.EE:4AC1 ; End of function draw_inline_string
+}

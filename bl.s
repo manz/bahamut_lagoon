@@ -1,3 +1,5 @@
+"""Bahamut Lagoon French translation patch: hooks, relocated code and fonts."""
+
 .include "src/dialog_vwf.s"
 .include "src/battle_vwf.s"
 .include "src/dragon_feed.s"
@@ -12,16 +14,18 @@
 
 
 DEBUG := 0
-VRAM_128k := 0
+VRAM_128K := 0
 .if DEBUG {
 ; enable debug mode
-    *=0xc0ffad
+    .alloc at 0xc0ffad {
     .dw 0x0000
-    *=0xc0ffae
+    }
+    .alloc at 0xc0ffae {
     .dw 0x00ff
+    }
 }
 
-.if VRAM_128k {
+.if VRAM_128K {
     /*
 ; Enables 128k vram to see if it works
 ; it looks like DMA transfers and Background addresses are computed correctly
@@ -29,27 +33,31 @@ VRAM_128k := 0
     */
 
 
-    *=0xda01c6
+    .alloc at 0xda01c6 {
     lda.b #0xfe
 
 ; clear vram
-    *=0xda02c2
-    ldx.w #0xffff
+    }
+    .alloc at 0xda02c2 {
+    ldx #0xffff
+    }
 }
 
-*=0xe61b40
-.incbin "src_assets/8x8_battle.dat"
+.alloc at 0xe61b40 {
+    .incbin "src_assets/8x8_battle.dat"
+}
 
-*=0xc8a000
-.incbin "src_assets/8x8_font.dat"  ; reclaim japansese characters space for code
+.alloc at 0xc8a000 {
+    .incbin "src_assets/8x8_font.dat"  ; reclaim japanese characters space for code
+}
 
-*=0xed0000
-.incbin "assets/vwf.bin"
-.include "src/dialog_vwf_reloc.s"
-.include "src/battle_vwf_reloc.s"
-.include "src/load_game_reloc.s"
-
+.alloc at 0xed0000 {
+    .incbin "assets/vwf.bin"
+    .include "src/dialog_vwf_reloc.s"
+    .include "src/battle_vwf_reloc.s"
+    .include "src/load_game_reloc.s"
 end_of_code:
+}
 
 ;*=0xC0FFD5					; Edit Internal ROM Header
 ;  .db 0x23					; ROM Mapper: SA1ROM
@@ -57,4 +65,3 @@ end_of_code:
 
 ;*=0xC0FFD8					; Set BW-RAM Size
 ;  .db 0x07					; Setting BW-RAM size to 128 kB.
-

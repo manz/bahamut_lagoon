@@ -1,14 +1,17 @@
-read_base_address=assets_vwf_bin
+"""Battle message variable-width font routines, relocated to bank ED."""
+
+read_base_address = assets_vwf_bin
 
 
 battle_dma_transfer:
+"""Wait for vblank, then DMA the battle text buffer ($7E:D000) to VRAM at the current line."""
 {
     phb
     lda.b #0x00
     pha
     plb
 
-    jsr.l wait_for_something__long ; vblank ?
+    jsr.l wait_for_something__long  ; vblank ?
 
     rep #0x21
     lda.l battle_vwf_position
@@ -18,13 +21,13 @@ battle_dma_transfer:
     sta.b 0x10
     asl
     clc
-    adc.w #0xD000
-    sta.w 0x4302
+    adc #0xD000
+    sta 0x4302
 
     lda.b 0x10
     clc
-    adc.w #0x4180
-    sta.w 0x2116
+    adc #0x4180
+    sta 0x2116
 
     sep #0x20
 
@@ -40,6 +43,7 @@ battle_dma_transfer:
 }
 
 battle_vwf_init:
+"""Reset the battle text position and the engine's char counters."""
     pha
     phx
     php
@@ -57,8 +61,8 @@ battle_vwf_init:
     rtl
 
 battle_vwf_new_line:
+"""Move to the next of the three battle text lines; after the third, pause the window."""
 {
-
     rep #0x20
     lda.l battle_vwf_position
 
@@ -67,13 +71,13 @@ battle_vwf_new_line:
     lda.w #0x1e << 3
     bra end
 
-    line2:
+line2:
     cmp.w #0x3c << 3
     bpl line3
     lda.w #0x3c << 3
     bra end
 
-    line3:
+line3:
     lda.w #0x0000
     bra change_window
     bra end
@@ -89,6 +93,7 @@ end:
 }
 
 battle_vwf_char:
+"""Draw the char in $1E into the battle text buffer at the current pixel position."""
 {
     phb
     lda #0x7E
@@ -168,7 +173,7 @@ raw_copy_loop:
 add_letter_length:
     pha
     phx
-    ; do the dma transfer before incrementing battle_dma_transfer
+; do the dma transfer before incrementing battle_dma_transfer
     jsr.l battle_dma_transfer
     plx
     pla

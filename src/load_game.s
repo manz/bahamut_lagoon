@@ -1,3 +1,5 @@
+"""Load game screen: hooks the save slot names into the variable-width font."""
+
 ;.EE:545C                 LDA     D, word_7E0512
 ;.EE:545E                 ASL
 ;.EE:545F                 TAX
@@ -18,8 +20,8 @@
 ;nop
 ;nop
 
-*=0xEE5409
-  jmp.l load_game.vwf_entry_point
+.alloc at 0xEE5409 {
+    jmp.l load_game.vwf_entry_point
 
 ;*=0xEE554B
 ;  ldy.w
@@ -36,6 +38,7 @@
 ;.EE:5557                 CMP     #$FF
 ;.EE:555A                 BNE     loc_EE555F
 ;.EE:555C
+
 ;.EE:555C loc_EE555C:
 ;.EE:555C                 JMP     loc_EE55BB
 ;.EE:555F ; ---------------------------------------------------------------------------
@@ -75,6 +78,7 @@
 ;.EE:5597                 STA     D, word_7E0518
 ;.EE:5599                 LDA     #$ED
 ;.EE:559C
+
 ;.EE:559C loc_EE559C:
 ;.EE:559C                 STA     D, word_7E051A
 ;.EE:559E                 LDA     D, word_7E0512
@@ -89,6 +93,7 @@
 ;.EE:55B1                 LDA     D, word_7E0512
 ;.EE:55B3                 CMP     #$A
 ;.EE:55B6
+
 ;.EE:55B6 loc_EE55B6:
 ;.EE:55B6                 BCS     loc_EE55BB
 ;.EE:55B8                 JMP     loc_EE554B
@@ -96,7 +101,8 @@
 ;.EE:55BB
 ;.EE:55BB loc_EE55BB:                                                           ; CODE XREF: .EE:loc_EE555C↑j
 ;.EE:55BB                                                                       ; .EE:loc_EE55B6↑j
-;.EE:55BB                 LDA     D, word_7E051C                                ; manipulates 0x7e051c value in A register but does not care for the result?
+;.EE:55BB                 LDA     D, word_7E051C
+; manipulates 0x7e051c value in A register but does not care for the result?
 ;.EE:55BD                 SEC
 ;.EE:55BE                 SBC     #$7800
 ;.EE:55C1                 LSR
@@ -140,3 +146,4 @@
 ;.EE:5622                 ADC     #8
 ;.EE:5625                 STA     word_7E19FF+1 ; orig=0x001A00
 ;.EE:5629                 JSL     sub_EE440B
+}

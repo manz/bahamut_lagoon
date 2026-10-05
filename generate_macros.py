@@ -26,14 +26,24 @@ def get_opcode_size(opcode_num):
     return 1
 
 
+def with_docstring(macro: str, doc: str) -> str:
+    """Put doc as the first line of the macro body, where a816 reads macro docstrings."""
+    if not macro.startswith(".macro"):
+        return macro
+    signature, body = macro.split("\n", 1)
+    return f'{signature}\n    """{doc}"""\n{body}'
+
+
 def generate_macro_library():
     """Generate the complete a816 macro library"""
 
-    header = """; Bahamut Lagoon Room Script Macro Library
-; Generated automatically from opcodes_map.py
-; Use with a816 assembler
-
-"""
+    header = (
+        '"""\n'
+        "Bahamut Lagoon room script macro library.\n"
+        "\n"
+        "Generated from utils/vm/opcodes_map.py by generate_macros.py: edit the generator, not this file.\n"
+        '"""\n\n\n'
+    )
 
     # Generate macros for each opcode
     macros = []
@@ -48,68 +58,68 @@ def generate_macro_library():
         if size == 1:
             # No parameters
             macro = f""".macro {macro_name}() {{
-    .db ${opcode_num:02X}
+    .db 0x{opcode_num:02X}
 }}
 """
         elif size == 2:
             # One parameter
             macro = f""".macro {macro_name}(param1) {{
-    .db ${opcode_num:02X}, param1
+    .db 0x{opcode_num:02X}, param1
 }}
 """
         elif size == 3:
             # Two parameters or address
             if opcode_num in [0x00, 0x05]:  # Jump opcodes
                 macro = f""".macro {macro_name}(address) {{
-    .db ${opcode_num:02X}
+    .db 0x{opcode_num:02X}
     .dw address
 }}
 """
             elif opcode_num in [0x37]:  # Text display
                 macro = f""".macro {macro_name}(text_address) {{
-    .db ${opcode_num:02X}
+    .db 0x{opcode_num:02X}
     .dw text_address
 }}
 """
             else:
                 macro = f""".macro {macro_name}(param1, param2) {{
-    .db ${opcode_num:02X}, param1, param2
+    .db 0x{opcode_num:02X}, param1, param2
 }}
 """
         elif size == 4:
             # Three parameters
             macro = f""".macro {macro_name}(param1, param2, param3) {{
-    .db ${opcode_num:02X}, param1, param2, param3
+    .db 0x{opcode_num:02X}, param1, param2, param3
 }}
 """
         elif size == 5:
             # Four parameters
             macro = f""".macro {macro_name}(param1, param2, param3, param4) {{
-    .db ${opcode_num:02X}, param1, param2, param3, param4
+    .db 0x{opcode_num:02X}, param1, param2, param3, param4
 }}
 """
         elif size == "variable":
             # Variable size opcodes (choices, etc.)
             if opcode_num == 0x08:  # yes_no
                 macro = f""".macro {macro_name}(text_addr, yes_addr, no_addr) {{
-    .db ${opcode_num:02X}
+    .db 0x{opcode_num:02X}
     .dw text_addr
-    .dw yes_addr  
+    .dw yes_addr
     .dw no_addr
 }}
 """
             elif opcode_num == 0x09:  # multiple_choice
                 macro = f""".macro {macro_name}(text_addr, choice1, choice2, choice3, choice4) {{
-    .db ${opcode_num:02X}
+    .db 0x{opcode_num:02X}
     .dw text_addr
     .dw choice1
-    .dw choice2  
+    .dw choice2
     .dw choice3
     .dw choice4
 }}
 """
             else:
-                macro = f"""; {macro_name} - variable size opcode ${opcode_num:02X}
+                macro = f"""; {macro_name} - variable size opcode 0x{opcode_num:02X}
 ; Manual implementation required
 """
         else:
@@ -117,12 +127,11 @@ def generate_macro_library():
             params = ", ".join([f"param{i + 1}" for i in range(size - 1)])
             param_bytes = ", ".join([f"param{i + 1}" for i in range(size - 1)])
             macro = f""".macro {macro_name}({params}) {{
-    .db ${opcode_num:02X}, {param_bytes}
+    .db 0x{opcode_num:02X}, {param_bytes}
 }}
 """
 
-        macros.append(f"; ${opcode_num:02X}: {name}")
-        macros.append(macro)
+        macros.append(with_docstring(macro, f"Room opcode 0x{opcode_num:02X}: {name}."))
 
     return header + "\n".join(macros)
 
