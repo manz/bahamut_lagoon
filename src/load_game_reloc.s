@@ -1,6 +1,12 @@
 """Load game screen variable-width font routines, relocated to bank ED."""
 
-.scope load_game {
+.include "src/ed_reloc.i"
+
+.import "vwf_font"
+
+
+.alloc load_game_reloc in ed_reloc {
+    .scope load_game {
     """Save slot names drawn with the variable-width font."""
     vwf_return = 0xee5484
     position = 0x51c
@@ -117,7 +123,7 @@ shift_copy_loop:
     bra copy_return
 
 add_letter_length:
-    lda.l read_base_address + 16, x
+    lda.l assets_vwf_bin + 16, x
 ; lda.w #0x0008
     and.w #0x00ff
 
@@ -136,4 +142,5 @@ shift_table:
     .db 0x08
     .db 0x04
     .db 0x02
+    }
 }

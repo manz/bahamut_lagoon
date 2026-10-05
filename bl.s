@@ -9,6 +9,10 @@
 .import "load_game"
 .import "draw_inline_string"
 .import "vm"
+.import "vwf_font"
+.import "dialog_vwf_reloc"
+.import "battle_vwf_reloc"
+.import "load_game_reloc"
 
 
 DEBUG := 0
@@ -49,13 +53,6 @@ VRAM_128K := 0
     .incbin "src_assets/8x8_font.dat"  ; reclaim japanese characters space for code
 }
 
-.alloc at 0xed0000 {
-    .incbin "assets/vwf.bin"
-    .include "src/dialog_vwf_reloc.s"
-    .include "src/battle_vwf_reloc.s"
-    .include "src/load_game_reloc.s"
-end_of_code:
-}
 
 ;*=0xC0FFD5					; Edit Internal ROM Header
 ;  .db 0x23					; ROM Mapper: SA1ROM
