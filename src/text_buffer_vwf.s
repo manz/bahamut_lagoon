@@ -2,8 +2,9 @@
 Variable-width text for the 4bpp text buffer at 7E7800: the load screen chapter titles and the messages table.
 
 Both vanilla loops draw 12px glyphs from the original font in bank ED, which the patch overwrote. They now hand
-the string to draw_string, which renders vwf.bin glyphs the way the game shades its own: plane 1 is the glyph,
-plane 0 the glyph and its shadow (one pixel right and down), so colour 3 on colour 1.
+the string to draw_string, which renders vwf.bin glyphs the way the game shades its own: plane 0 is the glyph
+and its shadow (one pixel right and down), plane 1 the shadow alone, so the letter in colour 1 over a colour 3
+shadow.
 """
 
 
@@ -276,14 +277,19 @@ _row:
     sep #0x20
     lda.l assets_vwf_bin, x
     sta _glyph_row
-    jsr.w shifted  ; plane 1: the glyph
-    pha
-    sep #0x20
-    lda _glyph_row
     lsr
+    ora _shadow  ; the shadow: one pixel right of this row, and the row above
+    pha
+    lda _glyph_row
+    eor #0xFF
+    and 1, s
+    jsr.w shifted  ; plane 1: the shadow where the glyph isn't
+    sta _low_halves
+    sep #0x20
+    pla
     ora _glyph_row
-    ora _shadow
     jsr.w shifted  ; plane 0: the glyph and its shadow
+    pei (_low_halves)
     sta _low_halves
     sep #0x20
     lda _glyph_row
