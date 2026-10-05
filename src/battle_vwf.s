@@ -8,7 +8,6 @@
 ; 0x1A used to store char count
 ; 0x18 WRAM Pointer
 
-battle_vwf_position = 0x7EBE00
 
 ;.C0:7B1A battle_string_manip:                    ; CODE XREF: sub_C074E5+8p
 ;.C0:7B1A                 STZ     D, byte_7E00FA
