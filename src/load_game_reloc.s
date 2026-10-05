@@ -1,4 +1,7 @@
+"""Load game screen variable-width font routines, relocated to bank ED."""
+
 .scope load_game {
+    """Save slot names drawn with the variable-width font."""
     vwf_return = 0xee5484
     position = 0x51c
 vwf_entry_point:
@@ -121,7 +124,7 @@ add_letter_length:
     sec
     adc.w position
     sta.w position
-__BP_position_update:
+    _bp_position_update:  ; breakpoint anchor
     rts
 
 shift_table:

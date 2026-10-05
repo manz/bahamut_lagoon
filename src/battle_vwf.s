@@ -1,3 +1,4 @@
+"""Battle message variable-width font: hooks into the battle text renderer."""
 
 ; 0xFA char count
 ; 0x1A used to store char count

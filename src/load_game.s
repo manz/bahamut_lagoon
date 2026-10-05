@@ -1,3 +1,5 @@
+"""Load game screen: hooks the save slot names into the variable-width font."""
+
 ;.EE:545C                 LDA     D, word_7E0512
 ;.EE:545E                 ASL
 ;.EE:545F                 TAX
@@ -99,7 +101,8 @@
 ;.EE:55BB
 ;.EE:55BB loc_EE55BB:                                                           ; CODE XREF: .EE:loc_EE555C↑j
 ;.EE:55BB                                                                       ; .EE:loc_EE55B6↑j
-;.EE:55BB                 LDA     D, word_7E051C                                ; manipulates 0x7e051c value in A register but does not care for the result?
+;.EE:55BB                 LDA     D, word_7E051C
+; manipulates 0x7e051c value in A register but does not care for the result?
 ;.EE:55BD                 SEC
 ;.EE:55BE                 SBC     #$7800
 ;.EE:55C1                 LSR

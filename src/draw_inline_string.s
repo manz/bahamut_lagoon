@@ -1,3 +1,4 @@
+"""Inline menu strings drawn from the relocated string bank (FD)."""
 
 ; move this function inside the shift-jis lookup table might break a thing or two
 

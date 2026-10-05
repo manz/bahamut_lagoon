@@ -1,7 +1,10 @@
+"""Battle message variable-width font routines, relocated to bank ED."""
+
 read_base_address = assets_vwf_bin
 
 
 battle_dma_transfer:
+"""Wait for vblank, then DMA the battle text buffer ($7E:D000) to VRAM at the current line."""
 {
     phb
     lda.b #0x00
@@ -40,6 +43,7 @@ battle_dma_transfer:
 }
 
 battle_vwf_init:
+"""Reset the battle text position and the engine's char counters."""
     pha
     phx
     php
@@ -57,6 +61,7 @@ battle_vwf_init:
     rtl
 
 battle_vwf_new_line:
+"""Move to the next of the three battle text lines; after the third, pause the window."""
 {
     rep #0x20
     lda.l battle_vwf_position
@@ -88,6 +93,7 @@ end:
 }
 
 battle_vwf_char:
+"""Draw the char in $1E into the battle text buffer at the current pixel position."""
 {
     phb
     lda #0x7E

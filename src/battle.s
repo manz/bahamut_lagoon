@@ -1,3 +1,5 @@
+"""Battle menu layout fixes: wider command windows for the French strings."""
+
 ;.C0:E0D6                 LDA     #6
 
 .alloc at 0xc0e0d6 {

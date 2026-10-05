@@ -1,8 +1,14 @@
+"""Dialog variable-width font routines, relocated to bank ED."""
+
 write_base_address_low = 0xE280 + 0x20
 position = 0x095f
 
 .macro do_shadow_dialog(delta, write_buffer) {
-; input: A, trashes: A
+    """
+Add the drop shadow (bottom and right) of the font row in A to write_buffer.
+
+    Input: A. Trashes: A.
+    """
     pha
     rep #0x20
     and.w #0x00ff
@@ -56,6 +62,7 @@ position = 0x095f
 
 
 vwf_char:
+"""Draw the dialog char in A at the current pixel position, with its shadow."""
 {
     phb
     pha

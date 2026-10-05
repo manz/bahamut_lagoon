@@ -1,3 +1,5 @@
+"""Bahamut Lagoon French translation patch: hooks, relocated code and fonts."""
+
 .include "src/dialog_vwf.s"
 .include "src/battle_vwf.s"
 .include "src/dragon_feed.s"
@@ -12,7 +14,7 @@
 
 
 DEBUG := 0
-VRAM_128k := 0
+VRAM_128K := 0
 .if DEBUG {
 ; enable debug mode
     .alloc at 0xc0ffad {
@@ -23,7 +25,7 @@ VRAM_128k := 0
     }
 }
 
-.if VRAM_128k {
+.if VRAM_128K {
     /*
 ; Enables 128k vram to see if it works
 ; it looks like DMA transfers and Background addresses are computed correctly

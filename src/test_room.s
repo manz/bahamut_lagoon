@@ -1,11 +1,16 @@
-; Test room for opcode testing
-; Simple room that displays text and exits
+"""
+Test room for opcode testing: displays text and exits.
+
+Built with build_room.py, not part of the patch.
+"""
+
 
 .include "src/room_macros.s"
 .table "./text/table/fr.tbl"
 ; Room header
 
 room_start:
+"""Room header: pointers to the entry point and the actors table."""
     .dw main_entry  ; Entry point
     .dw actors_table  ; Actors table
     .dw 0x0000  ; Room 4 (unused)
@@ -16,6 +21,7 @@ room_start:
 ; Main room logic
 
 main_entry:
+"""Room entry point: the script the interpreter runs."""
     ; Set up scene
     setup_scene_background(0x15)
     setup_scene_mask(0x00, 0x00)
@@ -43,10 +49,12 @@ main_entry:
 ; Actors table (empty for test)
 
 actors_table:
+"""Actors placed in the room."""
     .dw 0xFFFF
 
 ; Text data
 
 test_text:
+"""Text shown by the test script."""
     .text "Hello from a816 room!"
     .db 0xFF

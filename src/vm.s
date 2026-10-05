@@ -1,4 +1,4 @@
-; Implements nop opcode in dialog room interpreter.
+"""Dialog room interpreter: implements opcode 9E as a nop."""
 
 .alloc at 0xDA7816 {
 opcode_9E:

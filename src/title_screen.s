@@ -1,3 +1,4 @@
+"""Title screen: sprite lists for the translated menu entries."""
 
 ; patch sprite params
 {

@@ -1,4 +1,4 @@
-; Naming screen
+"""Naming screen: chapter title strings in an 8x16 font (not built yet)."""
 
 ; 8x16
 

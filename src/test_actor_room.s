@@ -1,5 +1,9 @@
-; Test room for unknown actor opcodes
-; Tests hypotheses for 0x16, 0x47, and other actor-related opcodes
+"""
+Test room for unknown actor opcodes (0x16, 0x47 and other actor-related ones).
+
+Built with build_room.py, not part of the patch.
+"""
+
 
 .include "src/room_macros.s"
 .table "./text/table/fr.tbl"
@@ -7,6 +11,7 @@
 ; Room header
 
 room_start:
+"""Room header: pointers to the entry point and the actors table."""
     .dw main_entry  ; Entry point
     .dw actors_table  ; Actors table
     .dw 0x0000  ; Room 4 (unused)
@@ -17,6 +22,7 @@ room_start:
 ; Main room logic
 
 main_entry:
+"""Room entry point: the script the interpreter runs."""
     ; Set up scene
     setup_scene_background(0x15)
     setup_scene_mask(0x00, 0x00)
@@ -96,6 +102,7 @@ main_entry:
 ; Actors table (minimal setup)
 
 actors_table:
+"""Actors placed in the room."""
     ; Actor 5 data (player character)
     .db 0x05, 0xFF, 0x80, 0x80, 0x02, 0x08, 0x00
     ; Actor 6 data (companion)
@@ -106,16 +113,19 @@ actors_table:
 ; Text data
 
 test_text:
+"""Text shown by the test script."""
     .text "Testing actor opcodes..."
     .text "Actor facing and visibility."
     .db 0xFF
 
 test_text2:
+"""Second text shown by the test script."""
     .text "Action trigger test!"
     .text "Did 0x38 work?"
     .db 0xFF
 
 end_text:
+"""Text shown before the room exits."""
     .text "Test complete!"
     .text "Observe actor behavior."
     .db 0xFF
