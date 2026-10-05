@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import argparse
+import io
 import logging
 import struct
 import sys
@@ -15,6 +16,8 @@ from utils.decompress_gfx import compress_asset, lz_compress_gfx
 from utils.dump_battle_rooms import build_battle_text_patch
 from utils.dump_rooms import build_text_patch
 from utils.inline_strings import (
+    InlineStringHook,
+    inline_string_hooks_source,
     insert_battle_commands_strings,
     insert_battle_fixed,
     insert_char_names,
@@ -31,6 +34,7 @@ ROOMS_PARTIAL = Path("build/rooms.partial")
 VWF_FONT = Path("assets/vwf.bin")  # incbin'd by bl.s
 VWF_FONT_SOURCE = Path("fonts/fft.png")
 TABLE = Path("text/table/mz.tbl")
+INLINE_STRING_HOOKS = Path("build/gen/inline_string_hooks.s")  # generated module bl.s imports
 
 
 @dataclass(frozen=True)
@@ -62,8 +66,8 @@ RELEASE = Variant("bl", debug=False)
 DEBUG = Variant("bl-debug", debug=True)
 
 
-def build_code(source: str, variant: Variant) -> dict[str, int]:
-    """Assemble the a816 sources into the variant's code IPS and return their symbols."""
+def build_code(source: str, variant: Variant) -> None:
+    """Assemble the a816 sources into the variant's code IPS."""
     variant.code_ips.unlink(missing_ok=True)
 
     result = build_with_imports(
@@ -72,7 +76,7 @@ def build_code(source: str, variant: Variant) -> dict[str, int]:
         output_format="ips",
         output_dir=variant.obj_dir,
         symbols={"DEBUG": int(variant.debug)},
-        overlap_mode="warn",
+        overlap_mode="error",
     )
     if result.exit_code != 0:
         raise SystemExit("\n".join(result.diagnostics) or "a816 build failed")
@@ -80,7 +84,6 @@ def build_code(source: str, variant: Variant) -> dict[str, int]:
         raise SystemExit(f"a816 reported success but {variant.code_ips} was not produced")
     if result.program is not None:
         result.program.exports_symbol_file(str(variant.symbols))
-    return result.symbol_map
 
 
 def ips_records(path: Path) -> bytes:
@@ -130,46 +133,57 @@ def insert_compressed_asset(writer, asset_filename, insert_addr, low_addr, bank_
     return rom_address(rom_offset(insert_addr) + 1 + len(compressed))
 
 
+def insert_text(writer: IPSWriter) -> list[InlineStringHook]:
+    """Write the relocated strings and graphics; return the inline string call hooks the code must carry."""
+    insert_dragon_feed_inline_strings(writer, rom_offset(0xFC0000))
+    end_of_battle_commands = insert_battle_commands_strings(writer, rom_offset(0xFD0000))
+    end_of_inline_strings, hooks = insert_inline_strings(writer, rom_offset(end_of_battle_commands + 1))
+    end_of_message_strings = insert_messages_strings(writer, rom_offset(end_of_inline_strings + 1))
+
+    next_insert = insert_compressed_asset(
+        writer,
+        "src_assets/e89a4f.bin",
+        insert_addr=end_of_message_strings,
+        low_addr=0xD5E6B9 + 1,
+        bank_addr=0xD5E6C0 + 1,
+        compressor=lz_compress_gfx,
+    )
+    # .EE:850F                 .WORD $20
+    # .EE:8511                 .BYTE $EE
+    insert_compressed_asset(
+        writer,
+        "src_assets/ee0020.bin",
+        insert_addr=next_insert,
+        low_addr=0xEE850F,
+        bank_addr=0xEE8511,
+        compressor=compress_asset,
+    )
+
+    insert_char_names(writer)
+    insert_battle_fixed(writer)
+    return hooks
+
+
+def write_if_changed(path: Path, text: str) -> None:
+    """Leave an unchanged file alone, so a816's object cache stays valid."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    if not path.exists() or path.read_text() != text:
+        path.write_text(text)
+
+
 def build_ips(variant: Variant) -> None:
+    # The text goes first: its layout decides the inline string pointers the code's call hooks carry.
+    text = io.BytesIO()
+    hooks = insert_text(IPSWriter(text))
+    write_if_changed(INLINE_STRING_HOOKS, inline_string_hooks_source(hooks))
+    build_code("bl.s", variant)
+
     with variant.ips.open("wb") as f:
         writer = IPSWriter(f)
         writer.begin()
         f.write(ROOMS_PARTIAL.read_bytes())
-
-        symbols = build_code("bl.s", variant)
         f.write(ips_records(variant.code_ips))
-        # get address for draw_inline_string_patched for code generation.
-        draw_inline_string_ref = symbols["draw_inline_string_patched"]
-
-        insert_dragon_feed_inline_strings(writer, rom_offset(0xFC0000))
-        end_of_battle_commands = insert_battle_commands_strings(writer, rom_offset(0xFD0000))
-        end_of_inline_strings = insert_inline_strings(
-            writer, rom_offset(end_of_battle_commands + 1), draw_inline_string_ref
-        )
-        end_of_message_strings = insert_messages_strings(writer, rom_offset(end_of_inline_strings + 1))
-
-        next_insert = insert_compressed_asset(
-            writer,
-            "src_assets/e89a4f.bin",
-            insert_addr=end_of_message_strings,
-            low_addr=0xD5E6B9 + 1,
-            bank_addr=0xD5E6C0 + 1,
-            compressor=lz_compress_gfx,
-        )
-        # .EE:850F                 .WORD $20
-        # .EE:8511                 .BYTE $EE
-        insert_compressed_asset(
-            writer,
-            "src_assets/ee0020.bin",
-            insert_addr=next_insert,
-            low_addr=0xEE850F,
-            bank_addr=0xEE8511,
-            compressor=compress_asset,
-        )
-
-        insert_char_names(writer)
-        insert_battle_fixed(writer)
-
+        f.write(text.getvalue())
         writer.end()
 
 
