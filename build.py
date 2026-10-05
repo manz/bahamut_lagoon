@@ -38,9 +38,6 @@ TABLE = Path("text/table/mz.tbl")
 def build_code(source: str) -> dict[str, int]:
     """Assemble the a816 sources into CODE_IPS and return their symbols."""
     obj_dir = Path("build/obj")
-    if obj_dir.exists():
-        for o in obj_dir.glob("*.o"):
-            o.unlink()
     CODE_IPS.unlink(missing_ok=True)
 
     result = build_with_imports(
