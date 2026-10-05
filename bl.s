@@ -15,15 +15,11 @@
 .import "load_game_reloc"
 
 
-DEBUG := 0
 VRAM_128K := 0
 .if DEBUG {
 ; enable debug mode
     .alloc at 0xc0ffad {
-    .dw 0x0000
-    }
-    .alloc at 0xc0ffae {
-    .dw 0x00ff
+    .db 0x00, 0xff
     }
 }
 

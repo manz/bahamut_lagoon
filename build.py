@@ -3,6 +3,7 @@ import argparse
 import logging
 import struct
 import sys
+from dataclasses import dataclass
 from pathlib import Path
 
 from a816.module_builder import build_with_imports
@@ -26,33 +27,59 @@ logger = logging.getLogger(__name__)
 
 
 ROM = Path("build/bl.sfc")
-IPS = Path("build/bl.ips")
-SYMBOLS = Path("build/bl.sym")
-CODE_IPS = Path("build/code.ips")
 ROOMS_PARTIAL = Path("build/rooms.partial")
 VWF_FONT = Path("assets/vwf.bin")  # incbin'd by bl.s
 VWF_FONT_SOURCE = Path("fonts/fft.png")
 TABLE = Path("text/table/mz.tbl")
 
 
-def build_code(source: str) -> dict[str, int]:
-    """Assemble the a816 sources into CODE_IPS and return their symbols."""
-    obj_dir = Path("build/obj")
-    CODE_IPS.unlink(missing_ok=True)
+@dataclass(frozen=True)
+class Variant:
+    """One patch build: the release patch, or the same with the game's debug mode on."""
+
+    stem: str
+    debug: bool
+
+    @property
+    def ips(self) -> Path:
+        return Path(f"build/{self.stem}.ips")
+
+    @property
+    def symbols(self) -> Path:
+        return Path(f"build/{self.stem}.sym")
+
+    @property
+    def code_ips(self) -> Path:
+        return Path(f"build/{self.stem}-code.ips")
+
+    @property
+    def obj_dir(self) -> Path:
+        # One object cache per variant: DEBUG changes what the sources assemble to.
+        return Path(f"build/obj/{self.stem}")
+
+
+RELEASE = Variant("bl", debug=False)
+DEBUG = Variant("bl-debug", debug=True)
+
+
+def build_code(source: str, variant: Variant) -> dict[str, int]:
+    """Assemble the a816 sources into the variant's code IPS and return their symbols."""
+    variant.code_ips.unlink(missing_ok=True)
 
     result = build_with_imports(
         main_source=Path(source),
-        output_file=CODE_IPS,
+        output_file=variant.code_ips,
         output_format="ips",
-        output_dir=obj_dir,
+        output_dir=variant.obj_dir,
+        symbols={"DEBUG": int(variant.debug)},
         overlap_mode="warn",
     )
     if result.exit_code != 0:
         raise SystemExit("\n".join(result.diagnostics) or "a816 build failed")
-    if not CODE_IPS.exists():
-        raise SystemExit(f"a816 reported success but {CODE_IPS} was not produced")
+    if not variant.code_ips.exists():
+        raise SystemExit(f"a816 reported success but {variant.code_ips} was not produced")
     if result.program is not None:
-        result.program.exports_symbol_file(str(SYMBOLS))
+        result.program.exports_symbol_file(str(variant.symbols))
     return result.symbol_map
 
 
@@ -103,14 +130,14 @@ def insert_compressed_asset(writer, asset_filename, insert_addr, low_addr, bank_
     return rom_address(rom_offset(insert_addr) + 1 + len(compressed))
 
 
-def build_ips() -> None:
-    with IPS.open("wb") as f:
+def build_ips(variant: Variant) -> None:
+    with variant.ips.open("wb") as f:
         writer = IPSWriter(f)
         writer.begin()
         f.write(ROOMS_PARTIAL.read_bytes())
 
-        symbols = build_code("bl.s")
-        f.write(ips_records(CODE_IPS))
+        symbols = build_code("bl.s", variant)
+        f.write(ips_records(variant.code_ips))
         # get address for draw_inline_string_patched for code generation.
         draw_inline_string_ref = symbols["draw_inline_string_patched"]
 
@@ -148,6 +175,7 @@ def build_ips() -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Build the Bahamut Lagoon patch into build/.")
+    parser.add_argument("--debug", action="store_true", help="build build/bl-debug.ips with debug mode on")
     parser.add_argument("-v", "--verbose", action="count", default=0, help="-v for progress, -vv for room dumps")
     args = parser.parse_args()
     level = (logging.WARNING, logging.INFO, logging.DEBUG)[min(args.verbose, 2)]
@@ -164,7 +192,7 @@ def main() -> int:
     if assets_need_refresh(room_sources, ROOMS_PARTIAL):
         build_rooms_partial(Table(str(TABLE)))
 
-    build_ips()
+    build_ips(DEBUG if args.debug else RELEASE)
     return 0
 
 
