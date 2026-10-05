@@ -76,7 +76,7 @@ def build_code(source: str, variant: Variant) -> None:
         output_format="ips",
         output_dir=variant.obj_dir,
         symbols={"DEBUG": int(variant.debug)},
-        overlap_mode="warn",
+        overlap_mode="error",
     )
     if result.exit_code != 0:
         raise SystemExit("\n".join(result.diagnostics) or "a816 build failed")
