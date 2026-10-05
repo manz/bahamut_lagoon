@@ -19,6 +19,7 @@ WRMPYB = 0x4203
 RDMPY = 0x4216
 DMA_QUEUE_TAIL = 0x001A00  ; next free 8-byte entry of the game's DMA queue, drained in NMI (EE41DB)
 MESSAGE_TILES = 0x7C00  ; VRAM word of the message window tiles
+TASK_YIELD = 0xEE440B  ; the game's cooperative task switch
 MESSAGE_SPRITES = 0x7E6E20  ; OAM shadow of the message sprites: x, y, tile, attribute
 MESSAGE_SPRITES_MAX = 15  ; 16px each from x 0x18, so the last stays left of x 256
 
@@ -47,14 +48,7 @@ page of the 12px font and are skipped. Clobbers $00-$01 and $18-$1F.
     plb
     plb
 
-    ldx.w #TEXT_BUFFER_SIZE - 2
-_clear:
-    stz.w TEXT_BUFFER, x
-    dex
-    dex
-    bpl _clear
-
-    stz _position
+    jsr.w clear_buffer
     ldy 0x12
 _next_char:
     lda [0x14], y
@@ -70,49 +64,135 @@ _skip:
     iny
     bra _next_char
 _done:
-; Leave $12 and $1C as the vanilla loop does: the index of the terminator, and the buffer address of the
-; last column drawn.
-    sty 0x12
-    lda _position
-    beq _empty
-    dec
-    lsr
-    lsr
-    lsr
-    jsr.w column_offset
-_empty:
-    clc
-    adc.w #TEXT_BUFFER
-    sta 0x1C
     plb
     plp
     rtl
 
+clear_buffer:
+"""Zero the text buffer and put the pen back at x = 0. Expects DB 7E and 16-bit registers."""
+    ldx.w #TEXT_BUFFER_SIZE - 2
+_clear:
+    stz.w TEXT_BUFFER, x
+    dex
+    dex
+    bpl _clear
+    stz _position
+    rts
+
 draw_message:
 """
-draw_string for the messages table, then queue the buffer for the message window tiles. The vanilla loop uploads
-each glyph from its char routine (EE515C), which no longer runs.
+Type a message of the messages table, like the vanilla loop: one glyph a frame, each uploaded to the message window
+tiles and shown by growing the message sprites, the work its char routine (EE515C, EE532D) did. Message 0x275
+appears at once, as in vanilla.
 """
 
 
-    jsr.l draw_string
     php
+    phb
     rep #0x30
-    lda.w #0x000
-    ldy.w #MESSAGE_TILES
-    jsr.w queue_upload
-    lda.w #0x200
-    ldy.w #MESSAGE_TILES + 0x100
-    jsr.w queue_upload
-    lda.w #0x400
-    ldy.w #MESSAGE_TILES + 0x200
-    jsr.w queue_upload
-    lda.w #0x600
-    ldy.w #MESSAGE_TILES + 0x300
-    jsr.w queue_upload
+    pea 0x7E7E
+    plb
+    plb
+    jsr.w clear_buffer
+    ldy 0x12
+_next_glyph:
+    lda [0x14], y
+    and.w #0x00FF
+    cmp.w #0x00FF
+    beq _typed
+    cmp.w #0x00F0
+    bcs _no_glyph
+    phy
+    pha
+    jsr.w wait_for_uploads
+    lda _position
+    lsr
+    lsr
+    lsr
+    tay  ; the pen's column: the glyph touches it and the next one
+    pla
+    phy
+    jsr.w draw_char
+    pla
+    pha
+    jsr.w queue_column
+    pla
+    inc
+    jsr.w queue_column
     jsr.w place_message_sprites
+    jsr.w yield
+    ply
+_no_glyph:
+    iny
+    bra _next_glyph
+_typed:
+    plb
     plp
     rtl
+
+wait_for_uploads:
+"""Yield until the game has drained the uploads already queued (00182E clear), as EE515C does."""
+    lda 0x32
+    cmp.w #0x275
+    beq _drained
+_busy:
+    lda.l 0x00182E
+    beq _drained
+    jsr.l TASK_YIELD
+    bra _busy
+_drained:
+    rts
+
+yield:
+"""Let a frame pass between glyphs, as the vanilla loop does, except for message 0x275."""
+    lda 0x32
+    cmp.w #0x275
+    beq _no_yield
+    jsr.l TASK_YIELD
+_no_yield:
+    rts
+
+queue_column:
+"""Queue the upload of column A (top and bottom tile) to the message window tiles."""
+    jsr.w column_offset
+    pha
+    jsr.w queue_tile
+    pla
+    clc
+    adc.w #0x200
+    jmp.w queue_tile
+
+queue_tile:
+"""
+Queue one tile at text buffer offset A for VRAM word MESSAGE_TILES + A / 2, through the game's DMA queue, building
+the entry as EE515C does.
+"""
+
+
+    pha
+    lsr
+    clc
+    adc.w #MESSAGE_TILES
+    tay
+    lda.l DMA_QUEUE_TAIL
+    tax
+    lda.w #0x8000
+    sta.l 0x000006, x
+    tya
+    sta.l 0x000003, x
+    lda.w #0x0020
+    sta.l 0x000005, x
+    lda.w #0x7E00
+    sta.l 0x000001, x
+    pla
+    clc
+    adc.w #TEXT_BUFFER
+    sta.l 0x000000, x
+    txa
+    clc
+    adc.w #8
+    sta.l DMA_QUEUE_TAIL
+    rts
 
 place_message_sprites:
 """
@@ -152,29 +232,6 @@ _sprite:
     dey
     bne _sprite
 _no_sprites:
-    rts
-
-queue_upload:
-"""Queue 0x200 bytes of the text buffer from offset A to VRAM word Y, as EE515C and EE55BB build their entries."""
-    pha
-    lda.l DMA_QUEUE_TAIL
-    tax
-    lda.w #0x8000
-    sta.l 0x000006, x
-    tya
-    sta.l 0x000003, x
-    lda.w #0x0200
-    sta.l 0x000005, x
-    lda.w #0x7E00
-    sta.l 0x000001, x
-    pla
-    clc
-    adc.w #TEXT_BUFFER
-    sta.l 0x000000, x
-    txa
-    clc
-    adc.w #8
-    sta.l DMA_QUEUE_TAIL
     rts
 
 draw_char:
