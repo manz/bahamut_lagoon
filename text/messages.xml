@@ -1685,7 +1685,7 @@
         <refs>
             <ref>0x26d</ref>
         </refs>
-        <data>Please choose a saved game.[end]</data>
+        <data>Quelle partie voulez-vous charger?[end]</data>
     </string>
     <string>
         <refs>
