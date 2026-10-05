@@ -13,6 +13,7 @@
 .import "dialog_vwf_reloc"
 .import "battle_vwf_reloc"
 .import "load_game_reloc"
+.import "debug_menu"
 
 
 VRAM_128K := 0
