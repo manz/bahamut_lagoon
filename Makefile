@@ -49,9 +49,9 @@ $(DEBUG_IPS): $(IPS)
 	$(Q) test -s $(DEBUG_IPS)
 
 .PHONY: tests
-tests: $(IPS)  ## Run the full suite against a freshly built patch
+tests: $(IPS) $(DEBUG_IPS)  ## Run the full suite against freshly built patches
 	$(info $(M) Running tests...)
-	$(Q) $(PY) -m pytest utils
+	$(Q) $(PY) -m pytest
 
 .PHONY: test
 test: tests  ## Alias for `tests`
