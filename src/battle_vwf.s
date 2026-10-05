@@ -1,5 +1,9 @@
 """Battle message variable-width font: hooks into the battle text renderer."""
 
+.extern battle_vwf_init
+.extern battle_vwf_char
+.extern battle_vwf_new_line
+
 ; 0xFA char count
 ; 0x1A used to store char count
 ; 0x18 WRAM Pointer

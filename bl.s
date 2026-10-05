@@ -1,16 +1,14 @@
 """Bahamut Lagoon French translation patch: hooks, relocated code and fonts."""
 
-.include "src/dialog_vwf.s"
-.include "src/battle_vwf.s"
-.include "src/dragon_feed.s"
-
-.include "src/battle.s"
-
-.include "src/title_screen.s"
-;.include 'src/naming_screen.s'
-.include "src/load_game.s"
-.include "src/draw_inline_string.s"
-.include "src/vm.s"
+.import "dialog_vwf"
+.import "battle_vwf"
+.import "dragon_feed"
+.import "battle"
+.import "title_screen"
+;.import "naming_screen"
+.import "load_game"
+.import "draw_inline_string"
+.import "vm"
 
 
 DEBUG := 0

@@ -1,5 +1,7 @@
 """Load game screen: hooks the save slot names into the variable-width font."""
 
+.extern load_game.vwf_entry_point
+
 ;.EE:545C                 LDA     D, word_7E0512
 ;.EE:545E                 ASL
 ;.EE:545F                 TAX
