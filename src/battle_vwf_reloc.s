@@ -1,6 +1,7 @@
 """Battle message variable-width font routines, relocated to bank ED."""
 
 .include "src/ed_reloc.i"
+.include "src/wram.i"
 
 .import "vwf_font"
 .extern wait_for_something__long
@@ -8,6 +9,8 @@
 .extern battle_vwf_new_line_return
 .extern return_from_battle_vwf_char
 
+
+.reserve battle_vwf_position 2 at 0x7EBE00 in wram  ; battle text pixel position
 
 .alloc battle_vwf_reloc in ed_reloc {
 battle_dma_transfer:

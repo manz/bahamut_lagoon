@@ -1,19 +1,21 @@
 """Load game screen variable-width font routines, relocated to bank ED."""
 
 .include "src/ed_reloc.i"
+.include "src/wram.i"
 
 .import "vwf_font"
 
+
+.reserve load_game_vwf_position 2 at 0x7E051C in wram  ; save slot name pixel position
 
 .alloc load_game_reloc in ed_reloc {
     .scope load_game {
     """Save slot names drawn with the variable-width font."""
     vwf_return = 0xee5484
-    position = 0x51c
 vwf_entry_point:
     ldy.b 0x0512
     lda.w #0x0000
-    sta.w position
+    sta.w load_game_vwf_position
 loop:
     lda [0x14], y
     and.w #0x00ff
@@ -33,7 +35,7 @@ loop:
 
     phy
 
-    lda.w position
+    lda.w load_game_vwf_position
 
     pha
     and #0xfff8
@@ -128,8 +130,8 @@ add_letter_length:
     and.w #0x00ff
 
     sec
-    adc.w position
-    sta.w position
+    adc.w load_game_vwf_position
+    sta.w load_game_vwf_position
     _bp_position_update:  ; breakpoint anchor
     rts
 

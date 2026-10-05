@@ -1,6 +1,7 @@
 """Dialog variable-width font: hooks into the dialog room text renderer."""
 
 .extern vwf_char
+.extern dialog_vwf_position
 
 ; copy__char_counter
 
@@ -22,7 +23,7 @@ copy_counter:
     adc 1, s
     asl
     asl
-    cmp 0x095F
+    cmp.w dialog_vwf_position
     pla
     jmp.w copy_counter_return
 }

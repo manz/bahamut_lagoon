@@ -1,13 +1,14 @@
 """Dialog variable-width font routines, relocated to bank ED."""
 
 .include "src/ed_reloc.i"
+.include "src/wram.i"
 
 .import "vwf_font"
 .extern return_from_vwf_char
 
 
 write_base_address_low = 0xE280 + 0x20
-position = 0x095f
+.reserve dialog_vwf_position 2 at 0x7E095F in wram  ; dialog text pixel position
 
 .macro do_shadow_dialog(delta, write_buffer) {
     """
@@ -86,7 +87,7 @@ vwf_char:
     lda.l 0x004216
     tax
 
-    lda.w position
+    lda.w dialog_vwf_position
     pha
     and #0x3ff8
     asl
@@ -172,9 +173,9 @@ add_letter_length:
     and.w #0x00ff
 
     clc
-    adc.w position
+    adc.w dialog_vwf_position
 ;    inc
-    sta.w position
+    sta.w dialog_vwf_position
 
     plb
     sep #0x20
