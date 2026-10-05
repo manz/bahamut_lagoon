@@ -46,3 +46,6 @@ build.c
 !.github/
 xcuserdata/
 assets/vwf.bin
+
+# kintsuki golden mismatches
+tests/goldens/*.actual.png
