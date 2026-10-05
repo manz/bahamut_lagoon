@@ -41,19 +41,21 @@ VRAM_128k := 0
     }
 }
 
-*=0xe61b40
-.incbin "src_assets/8x8_battle.dat"
+.alloc at 0xe61b40 {
+    .incbin "src_assets/8x8_battle.dat"
+}
 
-*=0xc8a000
-.incbin "src_assets/8x8_font.dat"  ; reclaim japansese characters space for code
+.alloc at 0xc8a000 {
+    .incbin "src_assets/8x8_font.dat"  ; reclaim japanese characters space for code
+}
 
-*=0xed0000
-.incbin "assets/vwf.bin"
-.include "src/dialog_vwf_reloc.s"
-.include "src/battle_vwf_reloc.s"
-.include "src/load_game_reloc.s"
-
+.alloc at 0xed0000 {
+    .incbin "assets/vwf.bin"
+    .include "src/dialog_vwf_reloc.s"
+    .include "src/battle_vwf_reloc.s"
+    .include "src/load_game_reloc.s"
 end_of_code:
+}
 
 ;*=0xC0FFD5					; Edit Internal ROM Header
 ;  .db 0x23					; ROM Mapper: SA1ROM
