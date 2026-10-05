@@ -6,6 +6,8 @@ ff4 goldens do: a cold boot leaves WRAM to the emulator's RNG, and the game read
 title cursor, the debug scenario number).
 """
 
+import os
+import re
 from collections.abc import Callable, Iterator
 from pathlib import Path
 
@@ -18,6 +20,8 @@ ROM = REPO / "build/bl.sfc"
 DEBUG_IPS = REPO / "build/bl-debug.ips"
 SYMBOLS = REPO / "build/bl-debug.sym"
 SAVESTATES = Path(__file__).parent / "savestates"
+GOLDENS = Path(__file__).parent / "goldens"
+SYMBOL_LINE = re.compile(r"(?P<bank>[0-9a-f]{2}):\s*(?P<offset>[0-9a-f]+) (?P<label>\S+)$")
 DEBUG_TABLE = REPO / "text/table/debug.tbl"
 
 TILEMAP = 0x7EC000  # WRAM copy of the 32x32 BG tilemap the debug screens draw into
@@ -27,11 +31,17 @@ COLUMNS = 32
 def symbol(name: str) -> int:
     """Bus address of a label in the debug build's symbol file."""
     for line in SYMBOLS.read_text().splitlines():
-        address, _, label = line.partition(" ")
-        if label == name:
-            bank, _, offset = address.partition(":")
-            return int(bank, 16) << 16 | int(offset, 16)
+        match = SYMBOL_LINE.match(line)  # "ed:1101 battle_dma_transfer", offsets space-padded: "fe:   0 draw_string"
+        if match and match["label"] == name:
+            return int(match["bank"], 16) << 16 | int(match["offset"], 16)
     raise KeyError(name)
+
+
+def _pixels(path: Path) -> bytes:
+    from PIL import Image
+
+    with Image.open(path) as image:
+        return image.convert("RGB").tobytes()
 
 
 class Console:
@@ -84,6 +94,20 @@ class Console:
                 return
             self.emu.run_frames(5)
         pytest.fail(f"gave up after {limit} frames; screen:\n" + "\n".join(self.screen()))
+
+    def matches_golden(self, name: str) -> bool:
+        """Compare the screen with tests/goldens/<name>.png; UPDATE_GOLDENS=1 rewrites it, a mismatch leaves
+        <name>.actual.png next to it."""
+        golden = GOLDENS / f"{name}.png"
+        actual = GOLDENS / f"{name}.actual.png"
+        self.emu.screenshot(str(actual))
+        if os.environ.get("UPDATE_GOLDENS") == "1" or not golden.exists():
+            actual.replace(golden)
+            return True
+        same = _pixels(actual) == _pixels(golden)
+        if same:
+            actual.unlink()
+        return same
 
     def count_calls(self, name: str) -> list[int]:
         """Record every execution of a label; returns the live list of frame numbers."""
