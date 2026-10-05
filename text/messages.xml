@@ -1450,193 +1450,193 @@
         <refs>
             <ref>0x240</ref>
         </refs>
-        <data>The Fall of               Kahna Castle[end]</data>
+        <data>La Chute de Kana[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x241</ref>
         </refs>
-        <data>The Beginning[end]</data>
+        <data>Les Prémices[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x242</ref>
         </refs>
-        <data>The Legend we            Dreamed of...[end]</data>
+        <data>La légende de nos rêves[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x243</ref>
         </refs>
-        <data>The Green Continent of   Campbell[end]</data>
+        <data>Campbell, le continent vert[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x244</ref>
         </refs>
-        <data>Full of Regret[end]</data>
+        <data>Rongés de regrets[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x245</ref>
         </refs>
-        <data>Emperor Sauzer[end]</data>
+        <data>L'empereur Sauzer[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x246</ref>
         </refs>
-        <data>It's Not a Dream, is it...[end]</data>
+        <data>Ce n'est pas un rêve...[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x247</ref>
         </refs>
-        <data>The Legend of the        Holy Dragons[end]</data>
+        <data>La légende des Dragons Sacrés[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x248</ref>
         </refs>
-        <data>Mid-Air Dragon Battle[end]</data>
+        <data>Bataille aérienne[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x249</ref>
         </refs>
-        <data>Mahal, the Continent of   Miracles[end]</data>
+        <data>Mahal, le continent miracle[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x24a</ref>
         </refs>
-        <data>Rainbow Bridge[end]</data>
+        <data>Le pont Arc-en-ciel[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x24b</ref>
         </refs>
-        <data>Leviathan[end]</data>
+        <data>Leviathan, Dragon Sacré[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x24c</ref>
         </refs>
-        <data>The Spy Operation[end]</data>
+        <data>Opération espionnage[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x24d</ref>
         </refs>
-        <data>The Magic City of         Godland[end]</data>
+        <data>Godland, la cité magique[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x24e</ref>
         </refs>
-        <data>When the Bird-Dragon    Awakens...[end]</data>
+        <data>L'éveil du dragon-oiseau[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x24f</ref>
         </refs>
-        <data>Showdown in the          Burning Sands[end]</data>
+        <data>Duel des sables brûlants[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x250</ref>
         </refs>
-        <data>The Holy Dragon Jormungand[end]</data>
+        <data>Jormungand, Dragon Sacré[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x251</ref>
         </refs>
-        <data>A Door to a New Era[end]</data>
+        <data>Vers une ère nouvelle[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x252</ref>
         </refs>
-        <data>The Promised Land[end]</data>
+        <data>La Terre promise[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x253</ref>
         </refs>
-        <data>Farewell, Matelite![end]</data>
+        <data>Adieu, Matelite!![end]</data>
     </string>
     <string>
         <refs>
             <ref>0x254</ref>
         </refs>
-        <data>The Sky of Sadness[end]</data>
+        <data>Un ciel de tristesse[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x255</ref>
         </refs>
-        <data>The Holy Dragon          Bahamut[end]</data>
+        <data>Bahamut, Dragon Sacré[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x256</ref>
         </refs>
-        <data>The Final Battle[end]</data>
+        <data>L'ultime bataille[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x257</ref>
         </refs>
-        <data>Destruction[end]</data>
+        <data>Anéantissement[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x258</ref>
         </refs>
-        <data>To the Homeland...[end]</data>
+        <data>Retour au pays...[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x259</ref>
         </refs>
-        <data>Eternal Travelers[end]</data>
+        <data>Les voyageurs éternels[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x25a</ref>
         </refs>
-        <data>Alexander, King of the    Holy Dragons[end]</data>
+        <data>Alexander, roi des Dragons[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x25b</ref>
         </refs>
-        <data>We, Who Cannot See into  Tomorrow[end]</data>
+        <data>Sans voir demain[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x25c</ref>
         </refs>
-        <data>Granbelos Fortress[end]</data>
+        <data>La forteresse de Granbelos[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x25d</ref>
         </refs>
-        <data>Easy Dungeon[end]</data>
+        <data>Donjon facile[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x25e</ref>
         </refs>
-        <data>Hard Dungeon[end]</data>
+        <data>Donjon difficile[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x25f</ref>
         </refs>
-        <data>Situation Critical[end]</data>
+        <data>Situation critique[end]</data>
     </string>
     <string>
         <refs>
