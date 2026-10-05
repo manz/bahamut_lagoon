@@ -1,11 +1,18 @@
 """Battle message variable-width font routines, relocated to bank ED."""
 
-read_base_address = assets_vwf_bin
+.include "src/ed_reloc.i"
+
+.import "vwf_font"
+.extern wait_for_something__long
+.extern battle_vwf_window_pause
+.extern battle_vwf_new_line_return
+.extern return_from_battle_vwf_char
 
 
+.alloc battle_vwf_reloc in ed_reloc {
 battle_dma_transfer:
 """Wait for vblank, then DMA the battle text buffer ($7E:D000) to VRAM at the current line."""
-{
+    {
     phb
     lda.b #0x00
     pha
@@ -40,7 +47,7 @@ battle_dma_transfer:
     sta 0x420b
     plb
     rtl
-}
+    }
 
 battle_vwf_init:
 """Reset the battle text position and the engine's char counters."""
@@ -62,7 +69,7 @@ battle_vwf_init:
 
 battle_vwf_new_line:
 """Move to the next of the three battle text lines; after the third, pause the window."""
-{
+    {
     rep #0x20
     lda.l battle_vwf_position
 
@@ -90,11 +97,11 @@ end:
     sta.l battle_vwf_position
     sep #0x20
     jmp.l battle_vwf_new_line_return
-}
+    }
 
 battle_vwf_char:
 """Draw the char in $1E into the battle text buffer at the current pixel position."""
-{
+    {
     phb
     lda #0x7E
     pha
@@ -199,4 +206,5 @@ shift_table:
     .db 0x08
     .db 0x04
     .db 0x02
+    }
 }

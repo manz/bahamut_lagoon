@@ -1,5 +1,11 @@
 """Dialog variable-width font routines, relocated to bank ED."""
 
+.include "src/ed_reloc.i"
+
+.import "vwf_font"
+.extern return_from_vwf_char
+
+
 write_base_address_low = 0xE280 + 0x20
 position = 0x095f
 
@@ -60,10 +66,10 @@ Add the drop shadow (bottom and right) of the font row in A to write_buffer.
     pla
 }
 
-
+.alloc dialog_vwf_reloc in ed_reloc {
 vwf_char:
 """Draw the dialog char in A at the current pixel position, with its shadow."""
-{
+    {
     phb
     pha
     lda #0x7e
@@ -105,7 +111,7 @@ shift_copy:
     {
 shift_copy_loop:
     pha
-    lda.l read_base_address, x
+    lda.l assets_vwf_bin, x
     sta.l 0x004203
     nop
     nop
@@ -144,7 +150,7 @@ raw_copy:
     {
 raw_copy_loop:
     pha
-    lda.l read_base_address, x
+    lda.l assets_vwf_bin, x
 
     ora.w write_base_address_low, y
     sta.w write_base_address_low, y
@@ -161,7 +167,7 @@ raw_copy_loop:
     plx
 
 add_letter_length:
-    lda.l read_base_address + 16, x
+    lda.l assets_vwf_bin + 16, x
     rep #0x20
     and.w #0x00ff
 
@@ -191,4 +197,5 @@ make_shadow_0:
 make_shadow_20:
     do_shadow_dialog(0x20, write_base_address_low)
     rts
+    }
 }

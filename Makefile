@@ -11,6 +11,7 @@ PY ?= $(shell [ -x .venv/bin/python ] && echo .venv/bin/python || echo python3)
 
 ROM = build/bl.sfc
 IPS = build/bl.ips
+DEBUG_IPS = build/bl-debug.ips
 # Only the tracked sources: the checkout also holds scratch asm (debug_src/,
 # old experiments) that is neither built nor kept to the gate.
 SOURCES = bl.s $(wildcard src/*.s src/*.i)
@@ -39,10 +40,18 @@ $(IPS): $(SOURCES) $(TEXTS) fonts/fft.png build.py
 	$(Q) $(PY) ./build.py $(BUILD_FLAGS)
 	$(Q) test -s $(IPS)
 
+.PHONY: debug
+debug: $(DEBUG_IPS)  ## Assemble the patch with the game's debug mode on
+
+$(DEBUG_IPS): $(IPS)
+	$(info $(M) Building debug patch...)
+	$(Q) $(PY) ./build.py --debug $(BUILD_FLAGS)
+	$(Q) test -s $(DEBUG_IPS)
+
 .PHONY: tests
-tests: $(IPS)  ## Run the full suite against a freshly built patch
+tests: $(IPS) $(DEBUG_IPS)  ## Run the full suite against freshly built patches
 	$(info $(M) Running tests...)
-	$(Q) $(PY) -m pytest utils
+	$(Q) $(PY) -m pytest
 
 .PHONY: test
 test: tests  ## Alias for `tests`
@@ -65,7 +74,7 @@ format:  ## Rewrite sources in a816 and ruff canonical form
 .PHONY: clean
 clean:  ## Remove build products, keeping the base ROM
 	$(info $(M) cleaning ...)
-	$(Q) rm -f $(IPS) build/bl.sym build/code.ips build/rooms.partial assets/vwf.bin
+	$(Q) rm -f build/bl*.ips build/bl*.sym build/rooms.partial assets/vwf.bin
 	$(Q) rm -rf build/obj __pycache__ .pytest_cache
 
 .PHONY: help

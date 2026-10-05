@@ -1,27 +1,26 @@
 """Bahamut Lagoon French translation patch: hooks, relocated code and fonts."""
 
-.include "src/dialog_vwf.s"
-.include "src/battle_vwf.s"
-.include "src/dragon_feed.s"
+.import "dialog_vwf"
+.import "battle_vwf"
+.import "dragon_feed"
+.import "battle"
+.import "title_screen"
+;.import "naming_screen"
+.import "load_game"
+.import "draw_inline_string"
+.import "vm"
+.import "vwf_font"
+.import "dialog_vwf_reloc"
+.import "battle_vwf_reloc"
+.import "load_game_reloc"
+.import "debug_menu"
 
-.include "src/battle.s"
 
-.include "src/title_screen.s"
-;.include 'src/naming_screen.s'
-.include "src/load_game.s"
-.include "src/draw_inline_string.s"
-.include "src/vm.s"
-
-
-DEBUG := 0
 VRAM_128K := 0
 .if DEBUG {
 ; enable debug mode
     .alloc at 0xc0ffad {
-    .dw 0x0000
-    }
-    .alloc at 0xc0ffae {
-    .dw 0x00ff
+    .db 0x00, 0xff
     }
 }
 
@@ -51,13 +50,6 @@ VRAM_128K := 0
     .incbin "src_assets/8x8_font.dat"  ; reclaim japanese characters space for code
 }
 
-.alloc at 0xed0000 {
-    .incbin "assets/vwf.bin"
-    .include "src/dialog_vwf_reloc.s"
-    .include "src/battle_vwf_reloc.s"
-    .include "src/load_game_reloc.s"
-end_of_code:
-}
 
 ;*=0xC0FFD5					; Edit Internal ROM Header
 ;  .db 0x23					; ROM Mapper: SA1ROM

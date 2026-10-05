@@ -1,5 +1,7 @@
 """Dialog variable-width font: hooks into the dialog room text renderer."""
 
+.extern vwf_char
+
 ; copy__char_counter
 
 .alloc at 0xDA3E9F {
