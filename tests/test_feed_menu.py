@@ -10,6 +10,12 @@ Before those two, the list read the descriptions in the wrong bank and stalled o
 def test_feed_menu_describes_the_selected_item(console):
     glyphs = console.count_calls("description_char")
     console.load("feed-menu")
+    console.tap(console.button.B)
+    console.emu.run_frames(60)
+    console.tap(console.button.B)  # out of the menu: the savestate's header was drawn before the patch
+    console.emu.run_frames(90)
+    console.tap(console.button.A)  # back in: the header redrawn
+    console.emu.run_frames(90)
     console.tap(console.button.A)  # Nourrir: the item list
     console.emu.run_frames(90)
     console.tap(console.button.DOWN)
