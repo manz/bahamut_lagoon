@@ -82,13 +82,13 @@
         <refs>
             <ref>0x12</ref>
         </refs>
-        <data>Temporary Save[0xff]</data>
+        <data>Sauv. rapide[0xff]</data>
     </string>
     <string>
         <refs>
             <ref>0x13</ref>
         </refs>
-        <data>Sound Mode[0xff]</data>
+        <data>Mode audio[0xff]</data>
     </string>
     <string>
         <refs>
@@ -100,7 +100,7 @@
         <refs>
             <ref>0x15</ref>
         </refs>
-        <data>Stereo[0xff]</data>
+        <data>Stéréo[0xff]</data>
     </string>
     <string>
         <refs>
@@ -112,6 +112,6 @@
         <refs>
             <ref>0x17</ref>
         </refs>
-        <data>Quit[0xff]</data>
+        <data>Quitter[0xff]</data>
     </string>
 </battle>
