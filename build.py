@@ -9,6 +9,8 @@ from pathlib import Path
 
 from a816.module_builder import build_with_imports
 from a816.writers import IPSWriter
+from katsuji import build as katsuji_build
+from katsuji import config as katsuji_config
 from script import Table
 
 from utils.cartridge import rom_address, rom_offset
@@ -33,6 +35,7 @@ ROM = Path("build/bl.sfc")
 ROOMS_PARTIAL = Path("build/rooms.partial")
 VWF_FONT = Path("assets/vwf.bin")  # incbin'd by bl.s
 VWF_FONT_SOURCE = Path("fonts/fft.png")
+KATSUJI_CONFIG = Path("katsuji.toml")  # the 8x8 font (assets/small_font.dat)
 TABLE = Path("text/table/mz.tbl")
 INLINE_STRING_HOOKS = Path("build/gen/inline_string_hooks.s")  # generated module bl.s imports
 
@@ -201,6 +204,7 @@ def main() -> int:
 
     if assets_need_refresh([VWF_FONT_SOURCE], VWF_FONT):
         build_vwf_font()
+    katsuji_build.build(katsuji_config.load(KATSUJI_CONFIG))
 
     room_sources = [TABLE, *Path("text/dialog").glob("*.xml"), *Path("text/battle").glob("*.xml")]
     if assets_need_refresh(room_sources, ROOMS_PARTIAL):

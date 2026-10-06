@@ -32,7 +32,7 @@ build: $(IPS)  ## Assemble the IPS patch
 # something `make -B` tries to remake, and it is an input we can only ask
 # the user to provide. CI decrypts bl.sfc.gz.gpg into place with a
 # secret passphrase.
-$(IPS): $(SOURCES) $(TEXTS) fonts/fft.png build.py
+$(IPS): $(SOURCES) $(TEXTS) fonts/fft.png fonts/8x8vwf.png katsuji.toml build.py
 	$(Q) test -s $(ROM) || { \
 		echo "$(ROM) missing. Place an unheadered Bahamut Lagoon (J) ROM there."; \
 		exit 1; }
@@ -74,7 +74,7 @@ format:  ## Rewrite sources in a816 and ruff canonical form
 .PHONY: clean
 clean:  ## Remove build products, keeping the base ROM
 	$(info $(M) cleaning ...)
-	$(Q) rm -f build/bl*.ips build/bl*.sym build/rooms.partial assets/vwf.bin
+	$(Q) rm -f build/bl*.ips build/bl*.sym build/rooms.partial assets/vwf.bin assets/small_font.dat
 	$(Q) rm -rf build/obj __pycache__ .pytest_cache
 
 .PHONY: help
