@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0x17bb" room_id="210">
     <text>
         <refs>
@@ -25,7 +25,7 @@
         <refs>
             <ref>0x58d</ref>
         </refs>
-        <data>Hé hé!
+        <data>Hé hé !
 Va les nourrir ![end]</data>
     </text>
     <text>
@@ -97,16 +97,16 @@ Regardez,je vous en prie...[end]</data>
             <ref>0x8fc</ref>
         </refs>
         <data>monyo[0xd8]
-[0xa8]nous apprenons tout
- exactement et rapidement[0xd8][0xa9][end]</data>
+``nous apprenons tout
+ exactement et rapidement[0xd8]''[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x93d</ref>
         </refs>
         <data>manyo[0xd8]
-[0xa8]nous,les petits démons,nous
- adorons danser[0xd8][0xa9][end]</data>
+``nous,les petits démons,nous
+ adorons danser[0xd8]''[end]</data>
     </text>
     <text>
         <refs>
@@ -139,31 +139,31 @@ Nous sommes respectables ![end]</data>
             <ref>0x8f5</ref>
         </refs>
         <data>monyo[0xd8]
-[0xa8]les petits démons ont eu
- peur de la foudre[0xd8][0xa9][end]</data>
+``les petits démons ont eu
+ peur de la foudre[0xd8]''[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x936</ref>
         </refs>
         <data>manyo[0xd8]
-[0xa8]nous n'avons pas eu peur...[0xa9][end]</data>
+``nous n'avons pas eu peur...''[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x965</ref>
         </refs>
         <data>munyo[0xd8]
-[0xa8]les petits démons n'ont pas
- peur du noir[0xd8][0xa9][end]</data>
+``les petits démons n'ont pas
+ peur du noir[0xd8]''[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x987</ref>
         </refs>
         <data>WAGAHAI:
-[0xa8]les petits démons vivent et
- combattent dans l'ombre.[0xa9][end]</data>
+``les petits démons vivent et
+ combattent dans l'ombre.''[end]</data>
     </text>
     <text>
         <refs>
@@ -191,7 +191,7 @@ que le temps est très mauvais ![end]</data>
         </refs>
         <data>P... peu... peu...
 que... que...
-[0xa8]Besoin de quelque chose...[0xa9][end]</data>
+``Besoin de quelque chose...''[end]</data>
     </text>
     <text>
         <refs>
@@ -230,16 +230,16 @@ Tout le monde l'a vu ![end]</data>
             <ref>0x8eb</ref>
         </refs>
         <data>monyo[0xd8]
-[0xa8][character][0x1] est une si grande
- femme être-humain[0xd8][0xa9][end]</data>
+``[character][0x1] est une si grande
+ femme être-humain[0xd8]''[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x92c</ref>
         </refs>
         <data>manyo manyo...
-[0xa8]nous semons le désordre près
- des magasins.[0xa9][end]</data>
+``nous semons le désordre près
+ des magasins.''[end]</data>
     </text>
     <text>
         <refs>
@@ -321,21 +321,21 @@ Ah,bienvenue ![end]</data>
             <ref>0x8e1</ref>
         </refs>
         <data>monyo monyo[0xd8]
-[0xa8]hola hola[0xd8][0xa9][end]</data>
+``hola hola[0xd8]''[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x922</ref>
         </refs>
         <data>manyo manyo[0xd8]
- [0xa8]frappez frappez[0xd8][0xa9][end]</data>
+ ``frappez frappez[0xd8]''[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x95b</ref>
         </refs>
         <data>munyo[0xd8]
-[0xa8]nous imitons les enfants[0xd8][0xa9][end]</data>
+``nous imitons les enfants[0xd8]''[end]</data>
     </text>
     <text>
         <refs>
@@ -386,7 +386,7 @@ c'est si paisible.[end]</data>
             <ref>0x5ab</ref>
         </refs>
         <data>DOCTEUR DRAGON:
-Il y a un charmant bébé!
+Il y a un charmant bébé !
 Viens vite ![end]</data>
     </text>
     <text>
@@ -424,35 +424,35 @@ Tout cela est dangereux ![end]</data>
             <ref>0x8d7</ref>
         </refs>
         <data>monyo monyo...
-[0xa8]est-ce que tu as nourri tes
- dragons...?[0xa9][end]</data>
+``est-ce que tu as nourri tes
+ dragons... ?''[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x918</ref>
         </refs>
         <data>manyo[0xd8]
-[0xa8]ici,enfants petits démons,
- mais nous gagnerons[0xd8][0xa9][end]</data>
+``ici,enfants petits démons,
+ mais nous gagnerons[0xd8]''[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x951</ref>
         </refs>
         <data>munyo[0xd8]
-[0xa8]nous avons mangé des
- champignons[0xd8][0xa9][end]</data>
+``nous avons mangé des
+ champignons[0xd8]''[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x980</ref>
         </refs>
         <data>WAGAHAI:
-[0xa8]les petits démons sont devenus
+``les petits démons sont devenus
  de vrais démons depuis leur
  révolution.
  il leur faudrait une bonne
- correction ![0xa9][end]</data>
+ correction !''[end]</data>
     </text>
     <text>
         <refs>
@@ -466,11 +466,11 @@ Tout cela est dangereux ![end]</data>
             <ref>0x979</ref>
         </refs>
         <data>WAGAHAI:
-[0xa8]ils essaient de voler des
+``ils essaient de voler des
  objets...
  les petits démons ambitionnent
  de créer un empire en agissant
- ainsi...[0xa9][end]</data>
+ ainsi...''[end]</data>
     </text>
     <text>
         <refs>
@@ -623,8 +623,8 @@ fait pour Orelus.[end]</data>
         <data>C'est un message des Petits Démons.
  
 monyo ! manyo ! munyo !
-[0xa8]nous sommes des petis démons
- qui font face à la mort ![0xa9][end]</data>
+``nous sommes des petis démons
+ qui font face à la mort !''[end]</data>
     </text>
     <text>
         <refs>

@@ -205,7 +205,7 @@ room_patches = {
 
 def build_text_patch(rom, table, writer, reloc_address):
     xmlfile_re = re.compile(r"(\d+)\.xml")
-    dialog_dir = os.path.join(os.path.dirname(__file__), "../text/dialog")
+    dialog_dir = os.path.join(os.path.dirname(__file__), "../text/fr/dialog")
     files = os.listdir(dialog_dir)
     address = reloc_address
     files = sorted(files, key=lambda name: int(name[:4], 10))

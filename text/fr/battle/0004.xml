@@ -2,15 +2,17 @@
 <texts base="0x9c" room_id="4">
     <text>
         <refs>
-            <ref>0x3e</ref>
+            <ref>0x28</ref>
         </refs>
-        <data>PALPALEOS
-[0xa8]Je te fais confiance Zonbelud[0xd8][0xfc][0x1][end][end]</data>
+        <data>``Condition de victoire :''[0xfc][0x28]
+``Vaincre Zomberd''[end]</data>
     </text>
     <text>
         <refs>
-            <ref>0x28</ref>
+            <ref>0x3e</ref>
         </refs>
-        <data>ce Zonbelud[0xd8][0xfc][0x1][end][end]</data>
+        <data>PALPALEOS: J'ai d'autres affaires à
+régler... Zomberd ! Je te laisse
+le commandement.[end1][end]</data>
     </text>
 </texts>

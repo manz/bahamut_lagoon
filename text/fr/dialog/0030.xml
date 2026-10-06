@@ -1,12 +1,10 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0x69b" room_id="30">
     <text>
         <refs>
             <ref>0x3eb</ref>
         </refs>
-        <data>TAURUS:
-Les forces de Granbelos sont trop
-puissantes !
+        <data>Taurus: Les forces de Granbelos sont trop puissantes !
 Nous devrions battre en retraite...[end]</data>
     </text>
     <text>
@@ -65,7 +63,7 @@ Kana avec nous ![end]</data>
             <ref>0x5b3</ref>
         </refs>
         <data>PALPALEOS:
-...?!
+... ?!
  
 [character][0x0],le Chef de l'Escadron Dragon
 de Kana ?![end]</data>

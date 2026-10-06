@@ -422,7 +422,7 @@ def dump_message_strings(rom_file):
 
 def insert_messages_strings(writer, address):
     mz_table = Table("./text/table/mz.tbl")
-    tree = ET.parse("./text/messages.xml")
+    tree = ET.parse("./text/fr/messages.xml")
     root = tree.getroot()
 
     text_data = b""

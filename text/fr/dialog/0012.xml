@@ -1,11 +1,11 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0x16a8" room_id="12">
     <text>
         <refs>
             <ref>0xa4</ref>
         </refs>
-        <data>         Chapitre [0xb0][0xb1]
--La stratégie de l'espionnage-[end]</data>
+        <data>                   Chapitre [0xb0][0xb1]
+            -La stratégie de l'espionnage-[end]</data>
     </text>
     <text>
         <refs>
@@ -52,14 +52,14 @@ Nous devrions avoir le choix.[end]</data>
             <ref>0x14f</ref>
         </refs>
         <data>MATELIGHT:
-J'ai trouvé![end]</data>
+J'ai trouvé ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x194</ref>
         </refs>
         <data>DON JUAN:
-Moi,Don Juan,le Na[0x25]f et Fidèle
+Moi,Don Juan,le Naïf et Fidèle
 Serviteur !
 Je pourrais approcher de très
 nombreuses femmes ![end]</data>
@@ -117,7 +117,7 @@ Si tu es prêt,choisis l'heureux élu ![end]</data>
         <data>DON JUAN:
 D'accord...
  
-La na[0x25]veté de Don Juan lui permettra
+La naïveté de Don Juan lui permettra
 d'approcher [0xb0][0xaf][0xaf] femmes de l'Empire !
 C'est parti ![end]</data>
     </text>
@@ -169,7 +169,7 @@ Commandant sera l'espion ![end]</data>
             <ref>0x2d9</ref>
         </refs>
         <data>COMMANDANT:
-...![end]</data>
+... ![end]</data>
     </text>
     <text>
         <refs>
@@ -467,9 +467,9 @@ Non ?! J'en étais sûr ![end]</data>
         <refs>
             <ref>0x8e1</ref>
         </refs>
-        <data>[0xa8]SAUZER:
+        <data>``SAUZER:
 Je deviendrai l'homme de la Légende,
-même sans le pouvoir de la Princesse ![0xa9][end]</data>
+même sans le pouvoir de la Princesse !''[end]</data>
     </text>
     <text>
         <refs>
@@ -519,7 +519,7 @@ Allons au champ de bataille ![end]</data>
         <data>COMMANDANT:
 Sincèrement,chaque cité recèle de
 nombreuses informations.
-Le monde doit être libéré!
+Le monde doit être libéré !
 Mais moi,je serais toujours seul.[end]</data>
     </text>
     <text>
@@ -603,7 +603,7 @@ Rien du tout...[end]</data>
         </refs>
         <data>HORNET:
 Il semble que [character][0x7]
-soit arrivé!
+soit arrivé !
 Ce monstre volant dans le ciel doit
 être... l'Arme Secrète de Granbelos ![end]</data>
     </text>

@@ -1,11 +1,11 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0xc41" room_id="10">
     <text>
         <refs>
             <ref>0x70</ref>
         </refs>
-        <data>        Chapitre [0xb0][0xaf]
-   -Le Pont Arc-en-Ciel-[end1]</data>
+        <data>                   Chapitre [0xb0][0xaf]
+              -Le Pont Arc-en-Ciel-[end1]</data>
     </text>
     <text>
         <refs>
@@ -81,8 +81,9 @@
         <refs>
             <ref>0x20e</ref>
         </refs>
-        <data>MATELIGHT:
-Héééhooo !
+        <data>MATELIGHT: Héééhooo !
+
+
 Il y a quelqu'un ?[end]</data>
     </text>
     <text>
@@ -90,8 +91,9 @@ Il y a quelqu'un ?[end]</data>
             <ref>0x21e</ref>
         </refs>
         <data>Est-ce que quelqu'un habite ici ?
-Quelle calamité s'est abattue sur ce
-peuple ?![end]</data>
+
+
+Quelle calamité s'est abattue sur ce peuple ?![end]</data>
     </text>
     <text>
         <refs>
@@ -99,31 +101,34 @@ peuple ?![end]</data>
         </refs>
         <data>C'est inutile !
 Il n'y a personne !
-L'Empire a dû terriblement
-contre-attaquer ![end]</data>
+
+L'Empire a dû terriblement contre-attaquer ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x255</ref>
         </refs>
-        <data>LUKIA:
-... ... ...!
+        <data>LUKIA: ... ... ... !
+
+
 Tout est si...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x26c</ref>
         </refs>
-        <data>MATELIGHT:
-Cet Empire de malheur !
+        <data>MATELIGHT: Cet Empire de malheur !
+
+
 Pourquoi fait-il tout cela ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x27f</ref>
         </refs>
-        <data>SENDACK:
-Au fait,où est Commandant ?
+        <data>SENDACK: Au fait,où est Commandant ?
+
+
 J'ai une vague impression...
 Je crois qu'il ne va pas bien...[end]</data>
     </text>
@@ -131,18 +136,18 @@ Je crois qu'il ne va pas bien...[end]</data>
         <refs>
             <ref>0x291</ref>
         </refs>
-        <data>MATELIGHT:
-Je crois que je vais aller voir où il
-est passé!
-Va voir si tu trouves quelqu'un ici,
-[character][0x0]![end]</data>
+        <data>MATELIGHT: Je crois que je vais aller voir où il
+est passé !
+
+Va voir si tu trouves quelqu'un ici,[character][0x0]![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x751</ref>
         </refs>
-        <data>DON JUAN:
-Les Rebelles ?
+        <data>DON JUAN: Les Rebelles ?
+
+
 Lukia !
 Est-ce toi Lukia ?![end]</data>
     </text>
@@ -150,44 +155,52 @@ Est-ce toi Lukia ?![end]</data>
         <refs>
             <ref>0x764</ref>
         </refs>
-        <data>LUKIA:
-Don Juan !
+        <data>LUKIA: Don Juan !
+
+
 Tu es en vie ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x772</ref>
         </refs>
-        <data>DON JUAN:
-Pourquoi cette question ?!
+        <data>DON JUAN: Pourquoi cette question ?!
  
-Au fait,pourquoi avais-tu quitté Mahal,
-Lukia ?
+
+Au fait,pourquoi avais-tu quitté Mahal,Lukia ?
  
-Quant à moi,je dois avouer qu'après
-tout ces souvenirs,tu m'as beaucoup
-manqué...[end]</data>
+
+Quant à moi,je dois avouer qu'après tout ces souvenirs,
+tu m'as beaucoup manqué...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x791</ref>
         </refs>
         <data>Tu es heureuse de me voir !
+
+
 Oh,ne réponds pas !
 J'en suis certain !
-Et même si ce n'était que mon ombre,
-tu serais heureuse ![end]</data>
+
+Et même si ce n'était que mon ombre,tu serais heureuse ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x77f</ref>
         </refs>
-        <data>LUKIA:
-Don Juan,plus un mot !
+        <data>LUKIA: Don Juan,plus un mot !
+
+
 Tais-toi,s'il te plaît !
-Rassembler le plus de force possible
-est pour le moment mon principal but.
+
+
+Rassembler le plus de force possible est pour le moment
+mon principal but.
+
 C'est ma seule préoccupation !
+
+
 Nous combattons l'Empire.
 Joins-toi à nous ![end]</data>
     </text>
@@ -195,107 +208,115 @@ Joins-toi à nous ![end]</data>
         <refs>
             <ref>0x78d</ref>
         </refs>
-        <data>DON JUAN:
-... ... ...
+        <data>DON JUAN: ... ... ...
+
+
 Ai-je raison,Lukia ?
+
+
 Tu n'as jamais pu m'oublier ?
-Tu n'as eu de cesse de penser à
-moi.[end]</data>
+
+
+Tu n'as eu de cesse de penser à moi.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7a3</ref>
         </refs>
-        <data>Chaque jour,tu t'es inquiétée pour
-moi.
+        <data>Chaque jour,tu t'es inquiétée pour moi.
+`
+
 N'ai-je pas raison ?
-Tu es revenue à Mahal pour une seule
-chose...
+Tu es revenue à Mahal pour une seule chose...
+
 Pour moi,Don Juan !
 Simplement pour me revoir !
 Ai-je raison ?
 Je suis devant toi,maintenant.
 Je suis tout à toi !
+
 Et il n'y a que moi dans ton coeur.
- 
-Je peux voir et lire au delà du vitrail
-de ton coeur que tu n'aimes que moi.[end]</data>
+
+
+Je peux voir et lire au delà du vitrail de ton coeur que
+tu n'aimes que moi.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7b7</ref>
         </refs>
-        <data>LUKIA:
-Tu te trompes,Don Juan !
+        <data>LUKIA: Tu te trompes,Don Juan !
  
+
 Je ne veux plus t'entendre ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7c4</ref>
         </refs>
-        <data>DON JUAN:
-Lukia...
+        <data>DON JUAN: Lukia...
+
+
 je suis très embarrassé...
-Autrefois,j'ai probablement souvent
-menti mais aujourd'hui je ne peux
-nier l'évidence.
+
+
+Autrefois,j'ai probablement souvent menti mais aujourd'hui
+je ne peux nier l'évidence.
+
 Je suis très attiré par toi.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7d1</ref>
         </refs>
-        <data>LUKIA:
-Arrête de te lamenter !
+        <data>LUKIA: Arrête de te lamenter !
+
+
 Que veux-tu dire ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7df</ref>
         </refs>
-        <data>DON JUAN:
-Regarde les lacs de Mahal...[end]</data>
+        <data>DON JUAN: Regarde les lacs de Mahal...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7e5</ref>
         </refs>
-        <data>DON JUAN:
-Auparavant,nous regardions souvent
-ces Lacs.[end]</data>
+        <data>Don Juan: Auparavant,nous regardions souvent ces Lacs.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7ef</ref>
         </refs>
         <data>Lukia...
-Nous y regardions tendrement nos
-visages à leur surface.[end]</data>
+
+
+Nous y regardions tendrement nos visages à leur surface.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7fd</ref>
         </refs>
-        <data>LUKIA:
-Tu dis n'importe quoi...
+        <data>Lukia: Tu dis n'importe quoi...
+
+
 Je ne me souviens pas de ça...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x80b</ref>
         </refs>
-        <data>DON JUAN:
-Lukia,lorsque la nuit vient,je ne vois
-à la surface de l'eau que le sourire
-de ton visage.
+        <data>Don Juan: Lukia,lorsque la nuit vient,je ne vois à la 
+surface de l'eau que le sourire de ton visage.
  
-  
 Et alors...
  
   
 Je chante ces mots,ces paroles...
 Juste pour toi...
+
 Lukia...[end]</data>
     </text>
     <text>
@@ -320,15 +341,13 @@ Lukia...[end]</data>
         <refs>
             <ref>0x87f</ref>
         </refs>
-        <data>Moi,je vais bien mais je suis si
-nostalgique...[end]</data>
+        <data>Moi,je vais bien mais je suis si nostalgique...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x88c</ref>
         </refs>
-        <data>Mon coeur est aujourd'hui aussi bleu
-que ces lacs.[end]</data>
+        <data>Mon coeur est aujourd'hui aussi bleu que ces lacs.[end]</data>
     </text>
     <text>
         <refs>
@@ -340,30 +359,28 @@ que ces lacs.[end]</data>
         <refs>
             <ref>0x8a3</ref>
         </refs>
-        <data>Je ne peux oublier ton adorable
-sourire.[end]</data>
+        <data>Je ne peux oublier ton adorable sourire.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8a7</ref>
         </refs>
-        <data>Jour après jour,je me sens si seul
-sans ton amour...[end]</data>
+        <data>Jour après jour,je me sens si seul sans ton amour...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x909</ref>
         </refs>
-        <data>LUKIA:
-Idiot ![end]</data>
+        <data>Lukia: Idiot ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x914</ref>
             <ref>0xaf6</ref>
         </refs>
-        <data>DON JUAN:
-Ouah !
+        <data>Don Juan: Ouah !
+
+
 A l'aide ! Au secours !
 Je ne mentais pas ![end]</data>
     </text>
@@ -372,8 +389,11 @@ Je ne mentais pas ![end]</data>
             <ref>0x940</ref>
         </refs>
         <data>Hé,toi là-bas ! Le voyageur !
-Il faut absolument que tu fasses
-quelque chose !
+
+
+Il faut absolument que tu fasses quelque chose !
+
+
 Pourrais-tu au moins venir me sauver ?[end]</data>
     </text>
     <text>
@@ -394,18 +414,24 @@ Pourrais-tu au moins venir me sauver ?[end]</data>
             <ref>0x95a</ref>
             <ref>0xb44</ref>
         </refs>
-        <data>DON JUAN:
-A l'aide !
+        <data>Don Juan: A l'aide !
+
+
 Ne m'abandonnez pas !
+
+
 Je ne mentais pas...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x96d</ref>
         </refs>
-        <data>DON JUAN:
-Humpf humpf...
+        <data>Don Juan: Humpf humpf...
+
+
 M... merci...
+
+
 Tu m'as secouru !
 Je ne connais même pas ton nom ?![end]</data>
     </text>
@@ -414,8 +440,7 @@ Je ne connais même pas ton nom ?![end]</data>
             <ref>0x983</ref>
         </refs>
         <data>T... t... toi !
-Tu es [character][0x0],le Capitaine de l'Escadron
-Dragon de Kana ![end]</data>
+Tu es [character][0x0],le Capitaine de l'Escadron Dragon de Kana ![end]</data>
     </text>
     <text>
         <refs>
@@ -428,22 +453,22 @@ Dragon de Kana ![end]</data>
             <ref>0x997</ref>
         </refs>
         <data>Moi,je suis Don Juan de Mahal.
+
+
 Don Juan,le Na[0x25]f et Fidèle serviteur.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x99d</ref>
         </refs>
-        <data>Certaines personnes me donnent ces
-qualificatifs mais je crois qu'aucun
-d'eux ne me convient.[end]</data>
+        <data>Certaines personnes me donnent ces qualificatifs mais
+je crois qu'aucun d'eux ne me convient.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9aa</ref>
         </refs>
-        <data>J'ai entendu dire que Commandant
-avait rejoint les Rebelles.[end]</data>
+        <data>J'ai entendu dire que Commandant avait rejoint les Rebelles.[end]</data>
     </text>
     <text>
         <refs>
@@ -455,7 +480,7 @@ avait rejoint les Rebelles.[end]</data>
         <refs>
             <ref>0x9d6</ref>
         </refs>
-        <data>Que dirais-tu si Don Juan,le Na[0x25]f et
+        <data>Que dirais-tu si Don Juan,le Naïf et
 Fidèle serviteur,vous rejoignait ?[end]</data>
     </text>
     <text>
@@ -469,9 +494,12 @@ Fidèle serviteur,vous rejoignait ?[end]</data>
         <refs>
             <ref>0xa03</ref>
         </refs>
-        <data>DON JUAN:
-Très bien !
+        <data>Don Juan: Très bien !
+
+
 Ma force ne t'est pas nécessaire ?
+
+
 Je suis pourtant Don Juan !
 Et VOUS avez besoin de moi.[end]</data>
     </text>
@@ -485,8 +513,9 @@ Et VOUS avez besoin de moi.[end]</data>
         <refs>
             <ref>0x9f0</ref>
         </refs>
-        <data>DON JUAN
-C'est... C'est vrai ?!
+        <data>Don Juan: C'est... C'est vrai ?!
+
+
 C'est génial !
 Fêtons ça ![end]</data>
     </text>
@@ -494,8 +523,7 @@ Fêtons ça ![end]</data>
         <refs>
             <ref>0xa20</ref>
         </refs>
-        <data>JEANNE:
-DON JUAN ![end]</data>
+        <data>Jeanne: Don Juan ![end]</data>
     </text>
     <text>
         <refs>
@@ -612,7 +640,7 @@ m'aider ?[end]</data>
             <ref>0xb33</ref>
         </refs>
         <data>Aider Don Juan,
-le Na[0x25]f et Fidèle serviteur ?[end]</data>
+le Naïf et Fidèle serviteur ?[end]</data>
     </text>
     <text>
         <refs>
@@ -629,7 +657,7 @@ le Na[0x25]f et Fidèle serviteur ?[end]</data>
 Cette charmante Jeanne...
 Elle est folle de moi !
 Comme tu as pu t'en apercevoir,
-il est difficile d'être célèbre et adulé![end]</data>
+il est difficile d'être célèbre et adulé ![end]</data>
     </text>
     <text>
         <refs>

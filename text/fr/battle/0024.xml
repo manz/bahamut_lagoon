@@ -4,7 +4,7 @@
         <refs>
             <ref>0x28</ref>
         </refs>
-        <data>      Condition de la Victoire[0xfc][0x1]
-            Vaincre Beltim[end][0x0]</data>
+        <data>``Condition de victoire :''[0xfc][0x28]
+``Vaincre Veltim''[end][end]</data>
     </text>
 </texts>

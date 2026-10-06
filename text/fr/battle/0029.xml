@@ -2,16 +2,16 @@
 <texts base="0x56" room_id="29">
     <text>
         <refs>
-            <ref>0x3b</ref>
+            <ref>0x2f</ref>
         </refs>
-        <data>      Condition de la Victoire[0xfc][0x1]
-           Vaincre le Boss[end] </data>
+        <data>``Condition de victoire :''[0xfc][0x28]
+``Vaincre tous les ennemis''[end]</data>
     </text>
     <text>
         <refs>
-            <ref>0x2f</ref>
+            <ref>0x3b</ref>
         </refs>
-        <data>
-           Vaincre le Boss[end] </data>
+        <data>``Condition de victoire :''[0xfc][0x28]
+``Vaincre le chef''[end][end]</data>
     </text>
 </texts>

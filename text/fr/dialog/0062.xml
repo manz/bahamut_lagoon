@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0x580" room_id="62">
     <text>
         <refs>
@@ -26,8 +26,8 @@ J'en suis enchanté...[end]</data>
             <ref>0x253</ref>
         </refs>
         <data>Grrrrr...
-[0xa8]Il vaut mieux le laisser ou
- il va faire une crise.[0xa9][end]</data>
+``Il vaut mieux le laisser ou
+ il va faire une crise.''[end]</data>
     </text>
     <text>
         <refs>
@@ -168,7 +168,7 @@ As-tu pris une résolution ?[end]</data>
         </refs>
         <data>Il t'appartient de savoir si tu veux
 devenir une Superstar en ramenant ici
-la liberté!
+la liberté !
 Nous mettrons notre plan à éxécution,
 ce soir !
  
@@ -188,14 +188,14 @@ Renaissance de Dafira.[end]</data>
         </refs>
         <data>Je ne me fais aucun souci,les assassins
 seront ce soir au rendez-vous.
-Mais où sont-ils,ces deux-là?[end]</data>
+Mais où sont-ils,ces deux-là ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x333</ref>
         </refs>
-        <data>Hé! Partenaire !
-Tu m'as trouvé![end]</data>
+        <data>Hé ! Partenaire !
+Tu m'as trouvé ![end]</data>
     </text>
     <text>
         <refs>
@@ -252,7 +252,7 @@ avec l'Option tant de Po par tête.[end]</data>
             <ref>0x39e</ref>
         </refs>
         <data> En différé.
- Option [0xa8][0xb2][0xaf][0xaf][0xaf] Po par tête[0xa9].[end1]</data>
+ Option ``[0xb2][0xaf][0xaf][0xaf] Po par tête''.[end1]</data>
     </text>
     <text>
         <refs>
@@ -281,7 +281,7 @@ de ton menu.[end]</data>
         </refs>
         <data>ZEROSHIN:
 Je suis occupé,tu me permets d'avoir
-un peu d'intimité?![end]</data>
+un peu d'intimité ?![end]</data>
     </text>
     <text>
         <refs>

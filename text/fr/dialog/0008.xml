@@ -1,11 +1,11 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0xfc8" room_id="8">
     <text>
         <refs>
             <ref>0xac</ref>
         </refs>
-        <data>          Chapitre [0xb7]
--Combat de l'air des Dragons-[end]</data>
+        <data>                   Chapitre [0xb7]
+         -Combat des Dragons en plein air-[end]</data>
     </text>
     <text>
         <refs>
@@ -29,7 +29,7 @@
             <ref>0x11d</ref>
         </refs>
         <data>Et les heures passèrent...
-Combien de temps s'est-il écoulé?[end]</data>
+Combien de temps s'est-il écoulé ?[end]</data>
     </text>
     <text>
         <refs>
@@ -326,7 +326,7 @@ Ils étaient... délicieux ?[end]</data>
             <ref>0x7e7</ref>
         </refs>
         <data>[character][0x1]:
-Tu as aimé?![end]</data>
+Tu as aimé ?![end]</data>
     </text>
     <text>
         <refs>
@@ -496,7 +496,7 @@ Vous pourriez blesser quelqu'un ![end]</data>
             <ref>0x778</ref>
         </refs>
         <data> Merci,merci beaucoup !
- Je suis très occupé![end1]</data>
+ Je suis très occupé ![end1]</data>
     </text>
     <text>
         <refs>

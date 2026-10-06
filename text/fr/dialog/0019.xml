@@ -1,11 +1,12 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0x1454" room_id="19">
     <text>
         <refs>
             <ref>0x100</ref>
         </refs>
-        <data>MATELIGHT:
-La Princesse [character][0x1] est en retard !
+        <data>Matelite: La Princesse [character][0x1] est en retard !
+
+
 Tu en connais la raison,Commandant ?
 Devrions-nous l'attendre ?[end]</data>
     </text>
@@ -27,8 +28,8 @@ deux très triste.[end]</data>
 Ce Général Palpaleos n'est qu'un
 ennemi !
 Il est le bras droit de Sauzer et
-n'est donc que le mal incarné!
-C'est [character][0x0] qui devrait être félicité![end]</data>
+n'est donc que le mal incarné !
+C'est [character][0x0] qui devrait être félicité ![end]</data>
     </text>
     <text>
         <refs>
@@ -261,7 +262,7 @@ Aller combattre ensemble ?[end]</data>
         </refs>
         <data> Je me prépare...Palpaleos !
  Allons combattre...Palpaleos !
- [0xa8]C'est ce que j'attends ![0xa9][end1]</data>
+ ``C'est ce que j'attends !''[end1]</data>
     </text>
     <text>
         <refs>
@@ -351,14 +352,14 @@ savais tant que ça sur les enfants ?[end]</data>
         <data>DOCTEUR DRAGON:
 Ainsi les rumeurs des matelots étaient
 sûrement fondées.
-[0xa8]Hahahahaha,il n'y connaît rien ![0xa9][end]</data>
+``Hahahahaha,il n'y connaît rien !''[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa47</ref>
         </refs>
         <data>DOCTEUR DRAGON:
-[0xa8]Hornet a gagné la pari ![0xa9][end]</data>
+``Hornet a gagné la pari !''[end]</data>
     </text>
     <text>
         <refs>
@@ -444,22 +445,22 @@ de Kana.[end]</data>
             <ref>0xf9e</ref>
         </refs>
         <data> Nourrir.
- Accoupler [0xa8]sous réserve[0xa9].[end1]</data>
+ Accoupler ``sous réserve''.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xcef</ref>
         </refs>
         <data>PALPALEOS:
-Ah...![end]</data>
+Ah... ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xcf8</ref>
         </refs>
-        <data> Ah...?!
+        <data> Ah... ?!
  Je vous ennuie... désolé...
- [0xa8]Humpf[0xd8][0xa9][end1]</data>
+ ``Humpf[0xd8]''[end1]</data>
     </text>
     <text>
         <refs>
@@ -471,16 +472,16 @@ la nuit ?
 Le ciel est vraiment paisible,ici,loin
 de toutes guerres.
  
-[0xa8]Il n'a aucune expérience ce [character][0x0]?
+``Il n'a aucune expérience ce [character][0x0]?
  Il ne savait même rien sur les
- dragons ![0xa9][end]</data>
+ dragons !''[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd37</ref>
         </refs>
         <data>PALPALEOS:
-[0xa8]Un enfant...?[0xa9]
+``Un enfant... ?''
  
 [character][0x0],aimerais-tu escorter [character][0x1]
 jusqu'à la salle du trône ?
@@ -516,7 +517,7 @@ d'impératrice.[end]</data>
             <ref>0xd87</ref>
         </refs>
         <data>[character][0x1]:
-Hé! Attendez...
+Hé ! Attendez...
  
 Merci ![end]</data>
     </text>
@@ -728,7 +729,7 @@ d'arrêter maintenant,n'est-ce pas ?[end]</data>
 [character][0x0],mon frère !
 Je... je suis inutile.
 Je ne sers plus à rien.
-Ca te fait sourire...?!
+Ca te fait sourire... ?!
  
 [character][0x0],serais-tu prêt à organiser un
 un grand commerce de champignons ?

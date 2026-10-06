@@ -40,365 +40,365 @@
         <refs>
             <ref>0x2</ref>
         </refs>
-        <data>ATTRIBUT:EAU.[end]</data>
+        <data>Épée d'Eau[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x3</ref>
         </refs>
-        <data>EPEE FOUDRE.[end]</data>
+        <data>Épée de Foudre[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x4</ref>
         </refs>
-        <data>ATTRIBUT:FEU.[end]</data>
+        <data>Épée de Feu[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x6</ref>
         </refs>
-        <data>EPEE POISON.[end]</data>
+        <data>Épée empoisonnée[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x7</ref>
         </refs>
-        <data>EPEE SACREE.[end]</data>
+        <data>Épée Sacrée[end]</data>
     </string>
     <string>
         <refs>
             <ref>0xa</ref>
         </refs>
-        <data>IDEALE[end]</data>
+        <data>Épée ultime[end]</data>
     </string>
     <string>
         <refs>
             <ref>0xc</ref>
         </refs>
-        <data>ATTRIBUT:FEU.[end]</data>
+        <data>Hache de Feu[end]</data>
     </string>
     <string>
         <refs>
             <ref>0xe</ref>
         </refs>
-        <data>ATTRIBUT:TERRE[end]</data>
+        <data>Hache de Terre[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x12</ref>
             <ref>0xf</ref>
         </refs>
-        <data>ATTRIBUT:SACRE[end]</data>
+        <data>Hache Sacrée[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x11</ref>
         </refs>
-        <data>ATTRIBUT:MORT.[end]</data>
+        <data>Hache de Mort[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x15</ref>
         </refs>
-        <data>PROVOQUE SOMME.[end]</data>
+        <data>Rapière de Sommeil[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x16</ref>
         </refs>
-        <data>DAGUE POISON.[end]</data>
+        <data>Rapière empoisonnée[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x18</ref>
         </refs>
-        <data>ATTRIBUT MORT[end]</data>
+        <data>Rapière de Mort[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x19</ref>
         </refs>
-        <data>ATTEINTE [0xb0][0xaf][0xaf][0xd9].[end]</data>
+        <data>Rapière précise à 100[0x25][end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1a</ref>
         </refs>
-        <data>DRAINE LES HP.[end]</data>
+        <data>Rapière Absorbe-PV[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1b</ref>
         </refs>
-        <data>IDEALE.[end]</data>
+        <data>Rapière ultime[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1d</ref>
         </refs>
-        <data>ATTRIBUT:EAU.[end]</data>
+        <data>Lance d'Eau[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1e</ref>
         </refs>
-        <data>MORTIFERE.[end]</data>
+        <data>Lance de Mort[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x20</ref>
         </refs>
-        <data>LANCE DE FEU.[end]</data>
+        <data>Lance de Feu[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x21</ref>
         </refs>
-        <data>LANCE FOUDRE.[end]</data>
+        <data>Lance de Foudre[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x22</ref>
         </refs>
-        <data>LANCE SACREE.[end]</data>
+        <data>Lance Sacrée[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x23</ref>
         </refs>
-        <data>IDEALE[end]</data>
+        <data>Lance ultime[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x25</ref>
         </refs>
-        <data>BATON FEU.[end]</data>
+        <data>Bâton de Feu[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x26</ref>
         </refs>
-        <data>BATON D'EAU.[end]</data>
+        <data>Bâton d'Eau[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x27</ref>
         </refs>
-        <data>BATON FOUDRE[end]</data>
+        <data>Bâton de Foudre[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x28</ref>
         </refs>
-        <data>BATON SOIN.[end]</data>
+        <data>Bâton de soin[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x2e</ref>
         </refs>
-        <data>KATANA POISON.[end]</data>
+        <data>Katana empoisonné[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x30</ref>
         </refs>
-        <data>KATANA FOUDRE.[end]</data>
+        <data>Katana de Foudre[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x33</ref>
         </refs>
-        <data>ARMURE D'EAU.[end]</data>
+        <data>Armure lourde d'Eau[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x40</ref>
             <ref>0x34</ref>
         </refs>
-        <data>ARMURE FOUDRE.[end]</data>
+        <data>Armure lourde de Foudre[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x35</ref>
             <ref>0x3f</ref>
         </refs>
-        <data>ARMURE DE FEU.[end]</data>
+        <data>Armure lourde de Feu[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x37</ref>
         </refs>
-        <data>CONTRE-POISON.[end]</data>
+        <data>Armure lourde anti-poison[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x38</ref>
         </refs>
-        <data>ANTI-LAPIN[0xae]POISON.[end]</data>
+        <data>Armure lourde anti-lapin[0x2f]poison[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x3b</ref>
             <ref>0x3c</ref>
         </refs>
-        <data>ANTI-MALADIE.[end]</data>
+        <data>Armure lourde anti-altérations[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x3d</ref>
         </refs>
-        <data>ANTI-FEU[0xae]FOUDRE.[end]</data>
+        <data>Armure lourde de Feu[0x2f]Foudre[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x42</ref>
         </refs>
-        <data>L.ARMURE D'EAU.[end]</data>
+        <data>Armure légère d'Eau[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x43</ref>
         </refs>
-        <data>L.ARMURE DE FEU.[end]</data>
+        <data>Armure légère de Feu[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x44</ref>
         </refs>
-        <data>L.ARMURE FOUDRE.[end]</data>
+        <data>Armure légère de Foudre[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x46</ref>
         </refs>
-        <data>ANTI-LAPIN[0xae]POISON[0xae]MORT.[end]</data>
+        <data>Armure légère anti-lapin[0x2f]poison[0x2f]mort[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x47</ref>
         </refs>
-        <data>ANTI-LAPIN[0xae]SOMME[0xae]MORT.[end]</data>
+        <data>Armure légère anti-lapin[0x2f]sommeil[0x2f]poison[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x48</ref>
         </refs>
-        <data>ANTI-POI[0xae]MORT[0xae]PETRIFIE.[end]</data>
+        <data>Armure légère anti-poison[0x2f]pétrif.[0x2f]mort[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x49</ref>
         </refs>
-        <data>ANTI-MALADIE.[end]</data>
+        <data>Armure légère anti-altérations[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x4b</ref>
         </refs>
-        <data>ABSORBE LES ATTAQUES.[end]</data>
+        <data>Absorbe toutes les attaques élémentaires[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x4d</ref>
         </refs>
-        <data>ROBE DE TERRE.[end]</data>
+        <data>Robe de Terre[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x4e</ref>
         </refs>
-        <data>ROBE DE FEU.[end]</data>
+        <data>Robe de Feu[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x50</ref>
         </refs>
-        <data>ROBE D'EAU.[end]</data>
+        <data>Robe d'Eau[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x51</ref>
         </refs>
-        <data>ROBE FOUDRE.[end]</data>
+        <data>Robe de Foudre[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x52</ref>
         </refs>
-        <data>ANTI-POI[0xae]SOM[0xae]PETR.[end]</data>
+        <data>Robe anti-poison[0x2f]sommeil[0x2f]pétrif.[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x53</ref>
         </refs>
-        <data>ANTI POI[0xae]SOM[0xae]PETR[0xae]MORT.[end]</data>
+        <data>Robe anti-poison[0x2f]sommeil[0x2f]pétrif.[0x2f]mort[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x54</ref>
         </refs>
-        <data>ANTI-LAP[0xae]SOM[0xae]PETR.[end]</data>
+        <data>Robe anti-lapin[0x2f]sommeil[0x2f]pétrif.[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x55</ref>
         </refs>
-        <data>RESTAURE [0xb0][0xaf][0xaf] HP. [end]</data>
+        <data>Rend 100 PV - un allié[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x56</ref>
         </refs>
-        <data>RESTAURE [0xb0][0xaf][0xaf][0xaf] HP.[end]</data>
+        <data>Rend 1000 PV - un allié[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x57</ref>
         </refs>
-        <data>[0xb0][0xaf][0xaf][0xaf] HP A TOUS.[end]</data>
+        <data>Rend 1000 PV - tous les alliés[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x58</ref>
         </refs>
-        <data>RESTAURE [0xb4][0xaf] MP.[end]</data>
+        <data>Rend 50 PM - un allié[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x59</ref>
         </refs>
-        <data>RESTAURE [0xb4][0xaf][0xaf] MP.[end]</data>
+        <data>Rend 500 PM - un allié[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x5a</ref>
         </refs>
-        <data>HP[0xae]MP RESTAURES.[end]</data>
+        <data>Rend tous les PV et PM - un allié[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x5b</ref>
         </refs>
-        <data>RANIME [0xb0] EQUIPIER.[end]</data>
+        <data>Ressuscite - un allié[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x5c</ref>
         </refs>
-        <data>EQUIPIERS RANIMES.[end]</data>
+        <data>Ressuscite - tous les alliés[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x5d</ref>
         </refs>
-        <data>GUERIT UN ALLIE.[end]</data>
+        <data>Soigne les altérations - un allié[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x5e</ref>
         </refs>
-        <data>TOUS SAINS.[end]</data>
+        <data>Soigne les altérations - tous les alliés[end]</data>
     </string>
     <string>
         <refs>
@@ -407,19 +407,19 @@
             <ref>0x78</ref>
             <ref>0x5f</ref>
         </refs>
-        <data>DOMMAGE FEU.[end]</data>
+        <data>Magie de Feu - tous les ennemis[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x60</ref>
         </refs>
-        <data>DOMMAGE D'EAU.[end]</data>
+        <data>Magie d'Eau - tous les ennemis[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x61</ref>
         </refs>
-        <data>MAGIE FOUDRE.[end]</data>
+        <data>Magie de Foudre - tous les ennemis[end]</data>
     </string>
     <string>
         <refs>
@@ -428,25 +428,25 @@
             <ref>0x7b</ref>
             <ref>0x7a</ref>
         </refs>
-        <data>EMPOISONNE.[end]</data>
+        <data>Magie de Poison - tous les ennemis[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x63</ref>
         </refs>
-        <data>SOIGNE ALLIES.[end]</data>
+        <data>Magie de Soin - tous les alliés[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x64</ref>
         </refs>
-        <data>DOMMAGE TERRE.[end]</data>
+        <data>Magie de Terre - tous les ennemis[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x65</ref>
         </refs>
-        <data>DOMMAGE SACRE.[end]</data>
+        <data>Magie Sacrée - tous les ennemis[end]</data>
     </string>
     <string>
         <refs>
@@ -454,7 +454,7 @@
             <ref>0x66</ref>
             <ref>0x77</ref>
         </refs>
-        <data>DOMMAGE OMBRE.[end]</data>
+        <data>Magie des Ténèbres - tous les ennemis[end]</data>
     </string>
     <string>
         <refs>
@@ -462,14 +462,14 @@
             <ref>0x7e</ref>
             <ref>0x67</ref>
         </refs>
-        <data>????[end]</data>
+        <data>???[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x68</ref>
             <ref>0x69</ref>
         </refs>
-        <data>ENDORT [0xb0] ENNEMI.[end]</data>
+        <data>Magie de Sommeil - un ennemi[end]</data>
     </string>
     <string>
         <refs>
@@ -478,7 +478,7 @@
             <ref>0x6c</ref>
             <ref>0x6d</ref>
         </refs>
-        <data>ENDORT ENNEMIS.[end]</data>
+        <data>Magie de Sommeil - tous les ennemis[end]</data>
     </string>
     <string>
         <refs>
@@ -487,31 +487,31 @@
             <ref>0x73</ref>
             <ref>0x6e</ref>
         </refs>
-        <data>SOIGNE [0xb0] ALLIE.[end]</data>
+        <data>Effet de soin - un allié[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x71</ref>
         </refs>
-        <data>SOIGNE UNE MALADIE.[end]</data>
+        <data>Soigne l'état - un allié[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x75</ref>
         </refs>
-        <data>BLESSE ADV.[end]</data>
+        <data>Dégâts - un ennemi[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x76</ref>
         </refs>
-        <data>MORT A [0xb0] ENNEMI[end]</data>
+        <data>Magie de Mort - un ennemi[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x7d</ref>
         </refs>
-        <data>FORTIFIE ALLIE.[end]</data>
+        <data>Magie de Résurrection - tous les alliés[end]</data>
     </string>
     <string>
         <refs>
@@ -614,14 +614,14 @@
             <ref>0xa1</ref>
             <ref>0x97</ref>
         </refs>
-        <data>MAGIE DE FEU.[end]</data>
+        <data>Attaque de Feu - un ennemi[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x98</ref>
             <ref>0xa2</ref>
         </refs>
-        <data>MAGIE D'EAU.[end]</data>
+        <data>Attaque d'Eau - un ennemi[end]</data>
     </string>
     <string>
         <refs>
@@ -629,42 +629,42 @@
             <ref>0xa3</ref>
             <ref>0xb5</ref>
         </refs>
-        <data>MAGIE DE FOUDRE.[end]</data>
+        <data>Attaque de Foudre - un ennemi[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x9a</ref>
             <ref>0xa4</ref>
         </refs>
-        <data>MAGIE DE POISON.[end]</data>
+        <data>Attaque de Poison - un ennemi[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x9b</ref>
             <ref>0xa5</ref>
         </refs>
-        <data>ABSORBE LES HP.[end]</data>
+        <data>Attaque Absorbe-PV - un ennemi[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x9c</ref>
             <ref>0xa6</ref>
         </refs>
-        <data>MAGIE DE TERRE.[end]</data>
+        <data>Attaque de Terre - un ennemi[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x9d</ref>
             <ref>0xa7</ref>
         </refs>
-        <data>MAGIE SACREE.[end]</data>
+        <data>Attaque Sacrée - un ennemi[end]</data>
     </string>
     <string>
         <refs>
             <ref>0xa8</ref>
             <ref>0x9e</ref>
         </refs>
-        <data>MAGIE D'OMBRE.[end]</data>
+        <data>Attaque des Ténèbres - un ennemi[end]</data>
     </string>
     <string>
         <refs>
@@ -680,7 +680,7 @@
             <ref>0x117</ref>
             <ref>0x9f</ref>
         </refs>
-        <data>TECHNIQUE COMBAT.[end]</data>
+        <data>Attaque Neutre - un ennemi[end]</data>
     </string>
     <string>
         <refs>
@@ -688,7 +688,7 @@
             <ref>0xc2</ref>
             <ref>0xab</ref>
         </refs>
-        <data>MAGIE DE FEU.[end]</data>
+        <data>Attaque de Feu - tous les ennemis[end]</data>
     </string>
     <string>
         <refs>
@@ -696,7 +696,7 @@
             <ref>0xc3</ref>
             <ref>0xac</ref>
         </refs>
-        <data>MAGIE D'EAU.[end]</data>
+        <data>Attaque d'Eau - tous les ennemis[end]</data>
     </string>
     <string>
         <refs>
@@ -704,7 +704,7 @@
             <ref>0xc4</ref>
             <ref>0xad</ref>
         </refs>
-        <data>MAGIE DE FOUDRE.[end]</data>
+        <data>Attaque de Foudre - tous les ennemis[end]</data>
     </string>
     <string>
         <refs>
@@ -712,7 +712,7 @@
             <ref>0xc5</ref>
             <ref>0xae</ref>
         </refs>
-        <data>MAGIE DE POISON.[end]</data>
+        <data>Attaque de Poison - tous les ennemis[end]</data>
     </string>
     <string>
         <refs>
@@ -720,7 +720,7 @@
             <ref>0xc6</ref>
             <ref>0xaf</ref>
         </refs>
-        <data>ABSORBE LES HP.[end]</data>
+        <data>Attaque Absorbe-PV - tous les ennemis[end]</data>
     </string>
     <string>
         <refs>
@@ -728,7 +728,7 @@
             <ref>0xbd</ref>
             <ref>0xc7</ref>
         </refs>
-        <data>MAGIE DE TERRE.[end]</data>
+        <data>Attaque de Terre - tous les ennemis[end]</data>
     </string>
     <string>
         <refs>
@@ -736,7 +736,7 @@
             <ref>0xb1</ref>
             <ref>0xbe</ref>
         </refs>
-        <data>MAGIE SACREE.[end]</data>
+        <data>Attaque Sacrée - tous les ennemis[end]</data>
     </string>
     <string>
         <refs>
@@ -745,7 +745,7 @@
             <ref>0x11d</ref>
             <ref>0xbf</ref>
         </refs>
-        <data>MAGIE D'OMBRE.[end]</data>
+        <data>Attaque des Ténèbres - tous les ennemis[end]</data>
     </string>
     <string>
         <refs>
@@ -757,7 +757,7 @@
             <ref>0xb3</ref>
             <ref>0xb4</ref>
         </refs>
-        <data>MAGIE UNIUNI.[end]</data>
+        <data>Attaque Neutre - tous les ennemis[end]</data>
     </string>
     <string>
         <refs>
@@ -766,7 +766,7 @@
             <ref>0xf6</ref>
             <ref>0xef</ref>
         </refs>
-        <data>MAGIE DE FEU.[end]</data>
+        <data>Magie de Feu - tous les ennemis[end]</data>
     </string>
     <string>
         <refs>
@@ -775,27 +775,27 @@
             <ref>0x10c</ref>
             <ref>0xcd</ref>
         </refs>
-        <data>MAGIE D'EAU.[end]</data>
+        <data>Magie d'Eau - tous les ennemis[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x10d</ref>
             <ref>0xce</ref>
         </refs>
-        <data>MAGIE FOUDRE.[end]</data>
+        <data>Magie de Foudre - tous les ennemis[end]</data>
     </string>
     <string>
         <refs>
             <ref>0xd9</ref>
             <ref>0xcf</ref>
         </refs>
-        <data>MAGIE DE MORT.[end]</data>
+        <data>Magie de Mort - un ennemi[end]</data>
     </string>
     <string>
         <refs>
             <ref>0xd0</ref>
         </refs>
-        <data>MAGIE SOMMEIL.[end]</data>
+        <data>Magie de Sommeil - tous les ennemis[end]</data>
     </string>
     <string>
         <refs>
@@ -806,7 +806,7 @@
             <ref>0xf4</ref>
             <ref>0xdb</ref>
         </refs>
-        <data>MAGIE DE TERRE[end]</data>
+        <data>Magie de Terre - tous les ennemis[end]</data>
     </string>
     <string>
         <refs>
@@ -814,13 +814,13 @@
             <ref>0xde</ref>
             <ref>0x10f</ref>
         </refs>
-        <data>SOIGNE ALLIES.[end]</data>
+        <data>Magie de Soin - tous les alliés[end]</data>
     </string>
     <string>
         <refs>
             <ref>0xd3</ref>
         </refs>
-        <data>MAGIE DE MORT.[end]</data>
+        <data>Magie de Mort - tous les ennemis[end]</data>
     </string>
     <string>
         <refs>
@@ -839,31 +839,31 @@
             <ref>0xf7</ref>
             <ref>0xf8</ref>
         </refs>
-        <data>ATTAQUE DRAGON.[end]</data>
+        <data>Magie Neutre - tous les ennemis[end]</data>
     </string>
     <string>
         <refs>
             <ref>0xd6</ref>
         </refs>
-        <data>SOIGNE LES ALLIES.[end]</data>
+        <data>Magie de Soin - un[0x2f]tous les alliés[end]</data>
     </string>
     <string>
         <refs>
             <ref>0xd7</ref>
         </refs>
-        <data>GUERIT DU POISON.[end]</data>
+        <data>Soigne l'état - un allié[end]</data>
     </string>
     <string>
         <refs>
             <ref>0xd8</ref>
         </refs>
-        <data>ENDORT L'ENNEMI.[end]</data>
+        <data>Magie de Sommeil - un ennemi[end]</data>
     </string>
     <string>
         <refs>
             <ref>0xda</ref>
         </refs>
-        <data>RANIME UN ALLIE.[end]</data>
+        <data>Magie de Résurrection - un allié[end]</data>
     </string>
     <string>
         <refs>
@@ -876,44 +876,44 @@
             <ref>0x11c</ref>
             <ref>0x11e</ref>
         </refs>
-        <data>MAGIE SACREE.[end]</data>
+        <data>Magie Sacrée - tous les ennemis[end]</data>
     </string>
     <string>
         <refs>
             <ref>0xdd</ref>
         </refs>
-        <data>MAGIE D'OMBRE.[end]</data>
+        <data>Magie des Ténèbres - un ennemi[end]</data>
     </string>
     <string>
         <refs>
             <ref>0xdf</ref>
         </refs>
-        <data>MAGIE DE FEU.[end]</data>
+        <data>Magie de Feu - un[0x2f]tous les ennemis[end]</data>
     </string>
     <string>
         <refs>
             <ref>0xe0</ref>
         </refs>
-        <data>MAGIE D'EAU.[end]</data>
+        <data>Magie d'Eau - un[0x2f]tous les ennemis[end]</data>
     </string>
     <string>
         <refs>
             <ref>0xe1</ref>
         </refs>
-        <data>MAGIE DE FOUDRE.[end]</data>
+        <data>Magie de Foudre - un[0x2f]tous les ennemis[end]</data>
     </string>
     <string>
         <refs>
             <ref>0xe2</ref>
             <ref>0x10e</ref>
         </refs>
-        <data>MAGIE POISON.[end]</data>
+        <data>Magie de Poison - tous les ennemis[end]</data>
     </string>
     <string>
         <refs>
             <ref>0xe3</ref>
         </refs>
-        <data>ABSORBE LES HP.[end]</data>
+        <data>Magie Absorbe-PV - un ennemi[end]</data>
     </string>
     <string>
         <refs>
@@ -925,13 +925,13 @@
             <ref>0x11b</ref>
             <ref>0x11f</ref>
         </refs>
-        <data>MAGIE D'OMBRE.[end]</data>
+        <data>Magie des Ténèbres - tous les ennemis[end]</data>
     </string>
     <string>
         <refs>
             <ref>0xe8</ref>
         </refs>
-        <data>FORTIFIE ALLIES.[end]</data>
+        <data>Magie de Renforcement - un allié[end]</data>
     </string>
     <string>
         <refs>
@@ -939,7 +939,7 @@
             <ref>0xfa</ref>
             <ref>0xfb</ref>
         </refs>
-        <data>HASARD!![end]</data>
+        <data>Il va se passer quelque chose![end]</data>
     </string>
     <string>
         <refs>
@@ -948,19 +948,19 @@
             <ref>0x106</ref>
             <ref>0x107</ref>
         </refs>
-        <data>DANSE HASARD.[end]</data>
+        <data>Coup critique aléatoire - un ennemi[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x112</ref>
         </refs>
-        <data>MORT!!![end]</data>
+        <data>Se transforme en quelque chose[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x124</ref>
         </refs>
-        <data>MAGIE SACREE.[end]</data>
+        <data>Magie Sacrée - un ennemi[end]</data>
     </string>
     <string>
         <refs>
@@ -1100,179 +1100,179 @@
         <refs>
             <ref>0x195</ref>
         </refs>
-        <data>GENRE:FOUDRE [0xb0][0xae][0xb1][end]</data>
+        <data>Attaque de Foudre : ✚1, ⏱2[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x196</ref>
             <ref>0x197</ref>
         </refs>
-        <data>GENRE:UNIUNI [0xb0][0xae][0xb1][end]</data>
+        <data>Attaque Neutre : ✚1, ⏱2[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x198</ref>
         </refs>
-        <data>GENRE:FEU [0xb1][0xae][0xb0][end]</data>
+        <data>Attaque de Feu : ✚2, ⏱1[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x199</ref>
         </refs>
-        <data>GENRE:GEL [0xb1][0xae][0xb0][end]</data>
+        <data>Attaque d'Eau : ✚2, ⏱1[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x19a</ref>
         </refs>
-        <data>GENRE:FOUDRE [0xb1][0xae][0xb0][end]</data>
+        <data>Attaque de Foudre : ✚2, ⏱1[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x19b</ref>
         </refs>
-        <data>GENRE:POISON [0xb0][0xae][0xb1][end]</data>
+        <data>Attaque de Poison : ✚2, ⏱1[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x19c</ref>
         </refs>
-        <data>GENRE:DRAINE [0xb1][0xae][0xb0][end]</data>
+        <data>Attaque Absorbe-PV : ✚2, ⏱1[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x19d</ref>
         </refs>
-        <data>GENRE:TERRE [0xb1][0xae][0xb0][end]</data>
+        <data>Attaque de Terre : ✚2, ⏱1[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x19e</ref>
         </refs>
-        <data>GENRE:SACRE [0xb1][0xae][0xb0][end]</data>
+        <data>Attaque Sacrée : ✚2, ⏱1[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x19f</ref>
         </refs>
-        <data>GENRE:OMBRE [0xb1][0xae][0xb0][end]</data>
+        <data>Attaque des Ténèbres : ✚2, ⏱1[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1a0</ref>
             <ref>0x1a1</ref>
         </refs>
-        <data>GENRE:UNIUNI [0xb1][0xae][0xb0][end]</data>
+        <data>Attaque Neutre : ✚2, ⏱1[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1a2</ref>
         </refs>
-        <data>GENRE:FEU [0xb4][0xae][0xb1][end]</data>
+        <data>Attaque de Feu : ✚5, ⏱2[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1a3</ref>
         </refs>
-        <data>GENRE:GEL [0xb4][0xae][0xb1][end]</data>
+        <data>Attaque d'Eau : ✚5, ⏱2[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1a4</ref>
         </refs>
-        <data>GENRE:FOUDRE [0xb4][0xae][0xb1][end]</data>
+        <data>Attaque de Foudre : ✚5, ⏱2[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1a5</ref>
         </refs>
-        <data>GENRE:POISON [0xb4][0xae][0xb1][end]</data>
+        <data>Attaque de Poison : ✚5, ⏱2[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1a6</ref>
         </refs>
-        <data>GENRE:DRAINE [0xb4][0xae][0xb0][end]</data>
+        <data>Attaque Absorbe-PV : ✚5, ⏱1[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1a7</ref>
         </refs>
-        <data>GENRE:TERRE [0xb4][0xae][0xb1][end]</data>
+        <data>Attaque de Terre : ✚5, ⏱2[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1a8</ref>
         </refs>
-        <data>GENRE:SACRE [0xb4][0xae][0xb1][end]</data>
+        <data>Attaque Sacrée : ✚5, ⏱2[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1a9</ref>
         </refs>
-        <data>GENRE:OMBRE [0xb4][0xae][0xb1][end]</data>
+        <data>Attaque des Ténèbres : ✚5, ⏱2[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1aa</ref>
             <ref>0x1ab</ref>
         </refs>
-        <data>GENRE:UNIUNI [0xb4][0xae][0xb1][end]</data>
+        <data>Attaque Neutre : ✚5, ⏱2[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1ac</ref>
         </refs>
-        <data>GENRE:FLAMME [0xaf][0xae][0xb2][end]</data>
+        <data>Magie de Feu : ✚0, ⏱3[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1ad</ref>
         </refs>
-        <data>GENRE:EAU [0xaf][0xae][0xb2][end]</data>
+        <data>Magie d'Eau : ✚0, ⏱3[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1ae</ref>
         </refs>
-        <data>GENRE:FOUDRE [0xaf][0xae][0xb2][end]</data>
+        <data>Magie de Foudre : ✚0, ⏱3[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1af</ref>
         </refs>
-        <data>GENRE:MORT [0xaf][0xae][0xb1][end]</data>
+        <data>Magie de Mort : ✚0, ⏱3[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1b0</ref>
         </refs>
-        <data>GENRE:SOMME [0xaf][0xae][0xb4][end]</data>
+        <data>Magie de Sommeil : ✚0, ⏱5[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1b1</ref>
         </refs>
-        <data>GENRE:TERRE [0xb0][0xae][0xb1][end]</data>
+        <data>Magie de Terre : ✚1, ⏱2[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1b2</ref>
         </refs>
-        <data>GENRE:SOIN [0xaf][0xae][0xb2] [end]</data>
+        <data>Magie de Soin : ✚0, ⏱3[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1b3</ref>
         </refs>
-        <data>GENRE:MORT [0xaf][0xae][0xb3][end]</data>
+        <data>Magie de Mort : ✚0, ⏱4[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1b4</ref>
             <ref>0x1b5</ref>
         </refs>
-        <data>GENRE:UNIUNI [0xaf][0xae][0xb1][end]</data>
+        <data>Magie Neutre : ✚0, ⏱2[end]</data>
     </string>
     <string>
         <refs>
@@ -1280,31 +1280,31 @@
             <ref>0x1b6</ref>
             <ref>0x1ef</ref>
         </refs>
-        <data>GENRE:VIE [0xb4][0xae][0xb1][end]</data>
+        <data>Magie de Soin : ✚5, ⏱2[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1b7</ref>
         </refs>
-        <data>GENRE:SOIN [0xb4][0xae][0xb1][end]</data>
+        <data>Soin d'état : ✚5, ⏱2[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1b8</ref>
         </refs>
-        <data>GENRE:SOMME [0xb4][0xae][0xb0][end]</data>
+        <data>Magie de Sommeil : ✚5, ⏱1[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1b9</ref>
         </refs>
-        <data>GENRE:MORT [0xb4][0xae][0xb0][end]</data>
+        <data>Magie de Mort : ✚5, ⏱1[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1ba</ref>
         </refs>
-        <data>GENRE:RANIME [0xb4][0xae][0xb0][end]</data>
+        <data>Magie de Résurrection : ✚5, ⏱1[end]</data>
     </string>
     <string>
         <refs>
@@ -1314,7 +1314,7 @@
             <ref>0x1d4</ref>
             <ref>0x1bb</ref>
         </refs>
-        <data>GENRE:TERRE [0xb4][0xae][0xb1][end]</data>
+        <data>Magie de Terre : ✚5, ⏱2[end]</data>
     </string>
     <string>
         <refs>
@@ -1328,7 +1328,7 @@
             <ref>0x1fc</ref>
             <ref>0x1fe</ref>
         </refs>
-        <data>GENRE:SACRE [0xb4][0xae][0xb2][end]</data>
+        <data>Magie Sacrée : ✚5, ⏱3[end]</data>
     </string>
     <string>
         <refs>
@@ -1341,41 +1341,41 @@
             <ref>0x1bd</ref>
             <ref>0x1ff</ref>
         </refs>
-        <data>GENRE:OMBRE [0xb4][0xae][0xb2][end]</data>
+        <data>Magie des Ténèbres : ✚5, ⏱3[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1eb</ref>
             <ref>0x1bf</ref>
         </refs>
-        <data>GENRE:FEU [0xb4][0xae][0xb1][end]</data>
+        <data>Magie de Feu : ✚5, ⏱2[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1c0</ref>
             <ref>0x1ec</ref>
         </refs>
-        <data>GENRE:GEL [0xb4][0xae][0xb1][end]</data>
+        <data>Magie d'Eau : ✚5, ⏱2[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1c1</ref>
             <ref>0x1ed</ref>
         </refs>
-        <data>GENRE:FOUDRE [0xb4][0xae][0xb1][end]</data>
+        <data>Magie de Foudre : ✚5, ⏱2[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1c2</ref>
             <ref>0x1ee</ref>
         </refs>
-        <data>GENRE:POISON [0xb4][0xae][0xb1][end]</data>
+        <data>Magie de Poison : ✚5, ⏱2[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1c3</ref>
         </refs>
-        <data>GENRE:DRAINE [0xb4][0xae][0xb0][end]</data>
+        <data>Magie Absorbe-PV : ✚5, ⏱1[end]</data>
     </string>
     <string>
         <refs>
@@ -1384,13 +1384,13 @@
             <ref>0x1f1</ref>
             <ref>0x1c7</ref>
         </refs>
-        <data>GENRE:UNIUNI [0xb4][0xae][0xb1][end]</data>
+        <data>Magie Neutre : ✚5, ⏱2[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1c8</ref>
         </refs>
-        <data>GENRE:FORCE [0xb4][0xae][0xb0][end]</data>
+        <data>Magie de Renforcement : ✚5, ⏱2[end]</data>
     </string>
     <string>
         <refs>
@@ -1399,35 +1399,35 @@
             <ref>0x1d5</ref>
             <ref>0x1ce</ref>
         </refs>
-        <data>GENRE:DRAGON [0xb4][0xae][0xb2][end]</data>
+        <data>Magie Neutre : ✚5, ⏱3[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1d2</ref>
             <ref>0x1cb</ref>
         </refs>
-        <data>GENRE:GEL [0xb4][0xae][0xb3][end]</data>
+        <data>Magie d'Eau : ✚5, ⏱3[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1d3</ref>
             <ref>0x1cc</ref>
         </refs>
-        <data>GENRE:DRAGON [0xb4][0xae][0xb4][end]</data>
+        <data>Magie Neutre : ✚5, ⏱5[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1d6</ref>
             <ref>0x1cf</ref>
         </refs>
-        <data>GENRE:FEU [0xb4][0xae][0xb4][end]</data>
+        <data>Magie de Feu : ✚5, ⏱5[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x1d0</ref>
             <ref>0x1d7</ref>
         </refs>
-        <data>GENRE:DRAGON [0xb4][0xae][0xb5][end]</data>
+        <data>Magie Neutre : ✚5, ⏱6[end]</data>
     </string>
     <string>
         <refs>
@@ -1435,7 +1435,7 @@
             <ref>0x1da</ref>
             <ref>0x1db</ref>
         </refs>
-        <data>GENRE:HASARD [0xaf][0xae][0xb3][end]</data>
+        <data>Magie Aléatoire : ✚0, ⏱4[end]</data>
     </string>
     <string>
         <refs>
@@ -1444,199 +1444,199 @@
             <ref>0x1e6</ref>
             <ref>0x1e7</ref>
         </refs>
-        <data>GENRE:UNIUNI [0xb4][0xae][0xb0][end]</data>
+        <data>Magie Neutre : ✚5, ⏱1[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x240</ref>
         </refs>
-        <data>KANA...  [end]</data>
+        <data>La Chute de Kana[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x241</ref>
         </refs>
-        <data>TED...[end]</data>
+        <data>Le Commencement[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x242</ref>
         </refs>
-        <data>LA LEGENDE...  [end]</data>
+        <data>La Légende Dont Nous Rêvons[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x243</ref>
         </refs>
-        <data>CAMPBELL...   [end]</data>
+        <data>Campbell,le Continent Verdoyant[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x244</ref>
         </refs>
-        <data>CHAGRIN... [end]</data>
+        <data>Il y a beaucoup de regrets[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x245</ref>
         </refs>
-        <data>EMPEREUR[end]</data>
+        <data>L'Empereur Sauzer[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x246</ref>
         </refs>
-        <data>UN REVE...?  [end]</data>
+        <data>Ce n'est pas un rêve...[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x247</ref>
         </refs>
-        <data>LEGENDE...[end]</data>
+        <data>La Légende des Dragons[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x248</ref>
         </refs>
-        <data>AERIEN!![end]</data>
+        <data>Combat aérien de Dragons[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x249</ref>
         </refs>
-        <data>LAGON MAHAL... [end]</data>
+        <data>Mahal,le Continent Miracle[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x24a</ref>
         </refs>
-        <data>LE PONT... [end]</data>
+        <data>Le Pont Arc-en-Ciel[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x24b</ref>
         </refs>
-        <data>LEVIATHAN... [end]</data>
+        <data>Le Dragon Sacré Léviathan[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x24c</ref>
         </refs>
-        <data>ESPION?! [end]</data>
+        <data>La stratégie de l'espionnage[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x24d</ref>
         </refs>
-        <data>GODRAND...   [end]</data>
+        <data>Godrand,la Cité de la Magie[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x24e</ref>
         </refs>
-        <data>EVEIL DE GARUDA[end]</data>
+        <data>Le réveil du Dragon Oiseau[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x24f</ref>
         </refs>
-        <data>SABLE... [end]</data>
+        <data>Duel dans les Sables Chauds[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x250</ref>
         </refs>
-        <data>JORMUNGAND...[end]</data>
+        <data>Le Dragon Sacré Jormungand[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x251</ref>
         </refs>
-        <data>NOUVELLE ERE... [end]</data>
+        <data>La Porte de la Nouvelle Ere[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x252</ref>
         </refs>
-        <data>LA PLACE[end]</data>
+        <data>La Place Promise[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x253</ref>
         </refs>
-        <data>ADIEU!!   [end]</data>
+        <data>Adieu Matelight![end]</data>
     </string>
     <string>
         <refs>
             <ref>0x254</ref>
         </refs>
-        <data>TRISTE... [end]</data>
+        <data>Le Ciel de la Tristesse[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x255</ref>
         </refs>
-        <data>BAHAMUT! [end]</data>
+        <data>Le Dragon Sacré Bahamut[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x256</ref>
         </refs>
-        <data>FINALE!![end]</data>
+        <data>La Bataille Finale Décisive[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x257</ref>
         </refs>
-        <data>FIN...[end]</data>
+        <data>L'Effondrement[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x258</ref>
         </refs>
-        <data>PATRIE[end]</data>
+        <data>Vers la Patrie[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x259</ref>
         </refs>
-        <data>VAGABOND[end]</data>
+        <data>Voyageur Pour l'Eternité[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x25a</ref>
         </refs>
-        <data>ALEXANDRE...   [end]</data>
+        <data>Alexandre,Roi Dragon Sacré[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x25b</ref>
         </refs>
-        <data>LENDEMAIN...  [end]</data>
+        <data>Sans voir demain[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x25c</ref>
         </refs>
-        <data>GRANBELO[end]</data>
+        <data>La forteresse de Granbelos[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x25d</ref>
         </refs>
-        <data>FACILE!  [end]</data>
+        <data>Donjon facile[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x25e</ref>
         </refs>
-        <data>DIFFICILE![end]</data>
+        <data>Donjon difficile[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x25f</ref>
         </refs>
-        <data>FORTERESSE[end]</data>
+        <data>Situation critique[end]</data>
     </string>
     <string>
         <refs>
@@ -1655,85 +1655,86 @@
         <refs>
             <ref>0x268</ref>
         </refs>
-        <data>ACHETER?[end]</data>
+        <data>Que voulez-vous acheter?[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x269</ref>
         </refs>
-        <data>ACHETER CA?[end]</data>
+        <data>Combien en voulez-vous?[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x26a</ref>
         </refs>
-        <data>PAS ASSEZ![end]</data>
+        <data>Vous n'avez pas assez d'argent.[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x26b</ref>
         </refs>
-        <data>EN AS TROP![end]</data>
+        <data>Vous ne pouvez pas en porter plus.[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x26c</ref>
         </refs>
-        <data>MERCI![end]</data>
+        <data>Merci beaucoup.[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x26d</ref>
         </refs>
-        <data>CHARGER?[end]</data>
+        <data>Quelle partie voulez-vous charger?[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x26e</ref>
         </refs>
-        <data>
-[end]</data>
+        <data>      Sauvegarder la partie?[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x26f</ref>
         </refs>
-        <data>SAUVEGARDE?[end]</data>
+        <data>       Choisissez un emplacement.[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x270</ref>
         </refs>
-        <data>SAUVER SUR CE JEU?[end]</data>
+        <data>Écraser cette sauvegarde?[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x271</ref>
         </refs>
-        <data>RIEN.[end]</data>
+        <data>              Aucune donnée.[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x272</ref>
         </refs>
-        <data>QUITTER?[end]</data>
+        <data>[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x273</ref>
         </refs>
-        <data>QUE VENDRE?[end]</data>
+        <data>Que voulez-vous vendre?[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x274</ref>
         </refs>
-        <data>VENDRE CA?[end]</data>
+        <data>Combien voulez-vous en vendre?[end]</data>
     </string>
+    <!-- 0x275: the Dragon screen's stat labels; each [0xf5] moves the pen to the pixel after it, centring the
+         label over its number (8 + 24 * column) -->
     <string>
         <refs>
             <ref>0x275</ref>
         </refs>
-        <data>[0xf1]û[0xf0] [0xf1][0x25][0xf0] [0xf3][0x6e][0xf0] [0xf1][0x2a][0xf0] [0xf1][0x27][0xf0] [0xf1][0x28][0xf0] [0xf1]r[0xf0] [0xf1][0x29][0xf0] [0xf1]ù[0xf0] [0xf1]w[end]</data>
+        <data>[0xf5][0x02]Att[0xf5][0x19]Déf[0xf5][0x33]Vit[0xf5][0x4a]Mag[0xf5][0x62]Feu[0xf5][0x7a]Eau[0xf5][0x92]Fou[0xf5][0xaa]Ter[0xf5][0xc1]Soin[0xf5][0xdb]Poi[end]</data>
     </string>
 </messages>

@@ -276,7 +276,7 @@ class DialogEditorApp(App):
         self.tree = None
         self.current_file_index = 0
 
-        self.dialog_dir = kwargs.get("dialog_dir", os.path.join(os.path.dirname(__file__), "../../text/dialog"))
+        self.dialog_dir = kwargs.get("dialog_dir", os.path.join(os.path.dirname(__file__), "../../text/fr/dialog"))
         self.message_files = sorted(os.listdir(self.dialog_dir))
 
         self.load_current_file()

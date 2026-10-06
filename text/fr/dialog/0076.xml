@@ -1,12 +1,12 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0x1f59" room_id="76">
     <text>
         <refs>
             <ref>0x79</ref>
         </refs>
         <data>
-           Chapitre [0xb1][0xb0]
-    -Le Dragon Sacré Bahamut-[end]</data>
+                   Chapitre [0xb1][0xb0]
+            -Le Dragon Sacré Bahamut-[end]</data>
     </text>
     <text>
         <refs>
@@ -97,7 +97,7 @@ entre eux !
 J'en suis persuadé...
  
 Peut-être est-ce là que se trouve la
-source de toute la vérité?![end]</data>
+source de toute la vérité ?![end]</data>
     </text>
     <text>
         <refs>
@@ -119,7 +119,7 @@ Rien d'autre ![end]</data>
             <ref>0x858</ref>
         </refs>
         <data>Ils sont tous pareils !
-Ils se ha[0x25]ssent...
+Ils se haïssent...
 Ils sont blessés...[end]</data>
     </text>
     <text>
@@ -157,7 +157,7 @@ cessent-ils pas de combattre ?[end]</data>
             <ref>0x8a2</ref>
         </refs>
         <data>L'origine de tout cela est Bahamut !
-Bahamut le gardien de Kana est ha[0x25]
+Bahamut le gardien de Kana est haï
 par tous ses semblables ![end]</data>
     </text>
     <text>
@@ -263,7 +263,7 @@ dérangé...[end]</data>
 Je ne comprends pas !
  
 Les corps des Dragons Sacrés ne sont
-pas là!
+pas là !
  
 Ils vivent tous dans le coeur de la
 Princesse !
@@ -362,7 +362,7 @@ Elle est soudainement tombée ![end]</data>
         <data>FILS DE ZORA:
 Il faut nettoyer !
  
-Interdit de passer par là![end]</data>
+Interdit de passer par là ![end]</data>
     </text>
     <text>
         <refs>
@@ -885,7 +885,7 @@ Sauzer...[end]</data>
         <data>SAUZER:
 Je ne suis rien d'autre qu'un être
 humain...
-C'est la triste vérité![end]</data>
+C'est la triste vérité ![end]</data>
     </text>
     <text>
         <refs>
@@ -1107,7 +1107,7 @@ J'ai discuté avec Bahamut ![end]</data>
             <ref>0xd5f</ref>
         </refs>
         <data>MATELIGHT:
-Bahamut est réveillé?[end]</data>
+Bahamut est réveillé ?[end]</data>
     </text>
     <text>
         <refs>
@@ -1193,9 +1193,9 @@ Partons combattre ![end]</data>
         <refs>
             <ref>0x1d8</ref>
         </refs>
-        <data> 
-           Chapitre [0xb1][0xb1]
-  -La Bataille Finale Décisive-[end]</data>
+        <data>
+                   Chapitre [0xb1][0xb1]
+            -La Bataille Finale Décisive-[end]</data>
     </text>
     <text>
         <refs>
@@ -1658,7 +1658,7 @@ Nous y sommes enfin ![end]</data>
         </refs>
         <data>HORNET:
 Préparons-nous à l'offensive !
-Au dessus ? En dessous ? Où?[end]</data>
+Au dessus ? En dessous ? Où ?[end]</data>
     </text>
     <text>
         <refs>
@@ -1682,7 +1682,7 @@ Ta fin est proche...[end]</data>
         </refs>
         <data>MATELIGHT:
 Granbelos !
-Nous voilà![end]</data>
+Nous voilà ![end]</data>
     </text>
     <text>
         <refs>
@@ -1828,7 +1828,7 @@ Nous y sommes enfin malgré quelques
 pertes de contrôle !
 Nous avons dû subir quelques dégâts
 avec toute cette fumée gâchant la
-visibilité![end]</data>
+visibilité ![end]</data>
     </text>
     <text>
         <refs>
@@ -1934,7 +1934,7 @@ Ils forment un beau couple ![end]</data>
             <ref>0x463</ref>
         </refs>
         <data>
-           Chapitre [0xb1][0xb3]
-        -Vers la Patrie-[end][end]</data>
+                  Chapitre [0xb1][0xb3]
+                -Vers la Patrie-[end][end]</data>
     </text>
 </texts>

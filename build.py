@@ -209,7 +209,7 @@ def main() -> int:
         build_vwf_font()
     katsuji_build.build(katsuji_config.load(KATSUJI_CONFIG))
 
-    room_sources = [TABLE, *Path("text/dialog").glob("*.xml"), *Path("text/battle").glob("*.xml")]
+    room_sources = [TABLE, *Path("text/fr/dialog").glob("*.xml"), *Path("text/fr/battle").glob("*.xml")]
     if assets_need_refresh(room_sources, ROOMS_PARTIAL):
         build_rooms_partial(Table(str(TABLE)))
 

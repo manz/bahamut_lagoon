@@ -2,27 +2,28 @@
 <texts base="0xaa" room_id="27">
     <text>
         <refs>
+            <ref>0x28</ref>
+        </refs>
+        <data>``Condition de victoire :''[0xfc][0x28]
+``Vaincre tous les ennemis''[end]</data>
+    </text>
+    <text>
+        <refs>
             <ref>0x45</ref>
         </refs>
-        <data>[0xa8]L'attaque n'a aucun effet?![end1][end]</data>
+        <data>Nos attaques ne lui font rien ![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4c</ref>
         </refs>
-        <data>ucun effet?![end1][end]</data>
-    </text>
-    <text>
-        <refs>
-            <ref>0x28</ref>
-        </refs>
-        <data>vaincre les autres têtes, avant?![end1][end]</data>
+        <data>Il faut d'abord abattre les autres
+têtes ![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9c</ref>
         </refs>
-        <data>     Condition de la Victoire[0xfc][0x1]
-      Vaincre l'équipe ennemie[end][0xa8]</data>
+        <data>Attaquez celle-là ![0xfc][0x28][end1][end]</data>
     </text>
 </texts>

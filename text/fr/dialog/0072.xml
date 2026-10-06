@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0x1bd" room_id="72">
     <text>
         <refs>
@@ -86,7 +86,7 @@ et a plus d'une corde à son arc !
 Il faut le convaincre mais je sais que
 ce sera difficile.
  
-Quelle calamité!
+Quelle calamité !
 Bon,tentons la flatterie ![end]</data>
     </text>
 </texts>

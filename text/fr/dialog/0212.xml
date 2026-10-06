@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0x830" room_id="212">
     <text>
         <refs>
@@ -42,7 +42,7 @@ Tu tombes bien ![end]</data>
             <ref>0x68a</ref>
         </refs>
         <data>Bienvenue !
-J'ai tout abandonné![end]</data>
+J'ai tout abandonné ![end]</data>
     </text>
     <text>
         <refs>

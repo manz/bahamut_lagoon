@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0x356" room_id="246">
     <text>
         <refs>
@@ -46,14 +46,14 @@ Ecoute,tu as l'air surpris ![end]</data>
             <ref>0x1fa</ref>
         </refs>
         <data>DON JUAN:
-Qui... moi...?
+Qui... moi... ?
 Jamais... jamais...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x20a</ref>
         </refs>
-        <data>Je ne suis que Don Juan le Na[0x25]f et
+        <data>Je ne suis que Don Juan le Naïf et
 Fidèle Serviteur,non ?![end]</data>
     </text>
     <text>
@@ -79,7 +79,7 @@ Est-ce vrai ?![end]</data>
             <ref>0x264</ref>
         </refs>
         <data>LUKIA:
-Héhéhéhéhé!
+Héhéhéhéhé !
 Il finira par accepter face au pouvoir
 dissuasif de Sergent ![end]</data>
     </text>
@@ -173,7 +173,7 @@ Moi je le crois capable ![end]</data>
             <ref>0x33a</ref>
         </refs>
         <data>DON JUAN:
-Don Juan le Na[0x25]f et Fidèle Serviteur
+Don Juan le Naïf et Fidèle Serviteur
 le croit aussi ![end]</data>
     </text>
     <text>

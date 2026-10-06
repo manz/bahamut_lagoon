@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0x9dd" room_id="14">
     <text>
         <refs>
@@ -179,7 +179,7 @@ soyez venus ici.
  
 C'est intolérable que vous vous soyez
 mêlés à notre combat.
-Mais vous avez gagné!
+Mais vous avez gagné !
 C'est le principal ![end][end]</data>
     </text>
     <text>
@@ -202,7 +202,7 @@ Tu es un ange si tendre ![end]</data>
             <ref>0x8ca</ref>
         </refs>
         <data>Moi,je ne suis qu'un coeur solaitaire,
-je suis Don Juan ton Na[0x25]f et Fidèle
+je suis Don Juan ton Naïf et Fidèle
 serviteur.[end]</data>
     </text>
     <text>
@@ -233,7 +233,7 @@ de Kana ?![end]</data>
             <ref>0x907</ref>
         </refs>
         <data>DON JUAN:
-Hé! Attends une minute !
+Hé ! Attends une minute !
 J'ai l'impression que tu le connais ?[end]</data>
     </text>
     <text>
@@ -298,7 +298,7 @@ séparation !
 de bonheur !
  
 - [0xb2] Petits Démons sont source
-de nouveauté![end]</data>
+de nouveauté ![end]</data>
     </text>
     <text>
         <refs>

@@ -1,11 +1,11 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0xc37" room_id="45">
     <text>
         <refs>
             <ref>0xa5</ref>
         </refs>
-        <data>     -Pays des Sables Chauds-
-             -Dafira-[end1]</data>
+        <data>             -Pays des Sables Chauds-
+                    -Dafira-[end1]</data>
     </text>
     <text>
         <refs>
@@ -30,7 +30,7 @@ C'est la dure réalité de la guerre.[end]</data>
         </refs>
         <data>MATELIGHT:
 [character][0x0],
-va te renseigner sur le Dragon Sacré!
+va te renseigner sur le Dragon Sacré !
 Nous,nous retournons à FARENHEIT ![end]</data>
     </text>
     <text>
@@ -87,7 +87,7 @@ Tout cela me perturbe...[end]</data>
         </refs>
         <data>Ici,c'est un endroit civilisé,on ne
 rentre pas comme ça chez nous !
-[0xa8]censuré[0xa9]!
+``censuré'' !
 Respecte les traditions !
 Apprends les bonnes manières et tâche
 de ne plus revenir ![end]</data>
@@ -211,7 +211,7 @@ Entre ![end]</data>
         <refs>
             <ref>0x7c0</ref>
         </refs>
-        <data>Héhé! [character][0x0]!
+        <data>Héhé ! [character][0x0]!
 Ca y est,ça y est[0xd8]
  
 DON JUAN:
@@ -256,7 +256,7 @@ aussi aller me reposer.[end]</data>
         <data>DON JUAN:
 Que veut-il ?
 Je suis pourtant un gentleman...
-Est-ce que c'est privé?
+Est-ce que c'est privé ?
 Tu n'aimerais pas y entrer [character][0x0]?
 Quoi ?!
 Tu n'aurais rien à y faire ?![end]</data>
@@ -292,7 +292,7 @@ c'est à toi de le faire ![end]</data>
             <ref>0x76a</ref>
         </refs>
         <data>RUSH:
-La Révolution de la Liberté![end]</data>
+La Révolution de la Liberté ![end]</data>
     </text>
     <text>
         <refs>
@@ -331,7 +331,7 @@ Altesse,résignez-vous !
  
 Demain à Dafira sera mis en place un
 gouvernement formé de révolutionnaires
-pour la liberté!
+pour la liberté !
 Notre leader est...
 le seigneur [character][0x0]!
 Nous vous l'annonçons en ces lieux:
@@ -344,7 +344,7 @@ Une nouvelle ère commence ![end]</data>
         </refs>
         <data>Nous avons eu pour instruction
 d'attraper le Roi !
-C'est ta responsabilité![end]</data>
+C'est ta responsabilité ![end]</data>
     </text>
     <text>
         <refs>

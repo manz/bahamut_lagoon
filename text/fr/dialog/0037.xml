@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0x90d" room_id="37">
     <text>
         <refs>
@@ -19,7 +19,7 @@ l'Empire ![end]</data>
             <ref>0xca</ref>
         </refs>
         <data>MATELIGHT:
-Hein...?[end]</data>
+Hein... ?[end]</data>
     </text>
     <text>
         <refs>
@@ -112,7 +112,7 @@ personne.
 Le Général m'a dit:
 [0xaa]Tu seras un homme puissant[0xab],
 et il a raison !
-Héhéhé![end]</data>
+Héhéhé ![end]</data>
     </text>
     <text>
         <refs>
@@ -381,7 +381,7 @@ Légende des Dragons Sacrés.[end]</data>
         </refs>
         <data>La personne qui connaît le coeur des
 Dragons Sacrés ouvrira la Porte vers
-une Ere Nouvelle.
+une Ère Nouvelle.
 Cependant,il y a une suite très peu
 connue...
 C'est celle-ci...
@@ -396,7 +396,7 @@ n'amènera que désastre dans le ciel.[end]</data>
 La personne qui connaît le coeur des
 Dragons Sacrés...
 Ouvrira la Porte vers...
-Une Ere Nouvelle...
+Une Ère Nouvelle...
 Quoi ?!
 Alors ce serait [character][0x1]![end]</data>
     </text>
@@ -461,7 +461,7 @@ J'espère qu'elle ne s'affaiblira pas.[end]</data>
         </refs>
         <data>La personne qui connaît le coeur des
 Dragons Sacrés ouvrira la porte vers
-une Ere nouvelle.[end]</data>
+une Ère Nouvelle.[end]</data>
     </text>
     <text>
         <refs>

@@ -1,12 +1,11 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0x71b" room_id="31">
     <text>
         <refs>
             <ref>0x90</ref>
         </refs>
-        <data>MATELIGHT:
-Il y a quelqu'un ?!
-Je suis Matelight ![end]</data>
+        <data>Matelite: Il y a quelqu'un ?!
+Je suis Matelite ![end]</data>
     </text>
     <text>
         <refs>

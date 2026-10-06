@@ -1,30 +1,27 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0x15d3" room_id="6">
     <text>
         <refs>
             <ref>0x5f</ref>
         </refs>
-        <data>          Chapitre [0xb5]
-  -Ce n'est pas un rêve...-[end]</data>
+        <data>                   Chapitre [0xb5]
+             -Ce n'est pas un rêve...-[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x131</ref>
         </refs>
         <data>[character][0x1] est enfin revenue !
-Le rêve de la restauration de Kana
-est proche !
-J'ai de plus en plus envie de
-commander durant les combats afin que
-la victoire soit plus rapide ![end]</data>
+Le rêve de la restauration de Kana est proche !
+
+J'ai de plus en plus envie de commander durant les combats
+afin que la victoire soit plus rapide ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2b2</ref>
         </refs>
-        <data>COMMANDANT:
-Trouves-tu que ma moustache fait
-ringard ?[end]</data>
+        <data>Taicho: Trouves-tu que ma moustache fasse ringard ?[end]</data>
     </text>
     <text>
         <refs>
@@ -33,8 +30,8 @@ ringard ?[end]</data>
         <data>Fantastique !
  
   
-C'est merveilleux pour moi de
-rencontrer la Princesse [character][0x1]![end]</data>
+C'est merveilleux pour moi de rencontrer la 
+Princesse [character][0x1]![end]</data>
     </text>
     <text>
         <refs>
@@ -158,7 +155,7 @@ Mélodia,va dans ta chambre ![end]</data>
             <ref>0x59d</ref>
         </refs>
         <data>MELODIA:
-[0xa8]Intense sourire moqueur[0xa9][end]</data>
+``Intense sourire moqueur''[end]</data>
     </text>
     <text>
         <refs>
@@ -378,7 +375,7 @@ Ce n'était pas effrayant au moins ?![end]</data>
             <ref>0x71a</ref>
         </refs>
         <data>[character][0x1]:
-Un mauvais rêve...?
+Un mauvais rêve... ?
 Non,pas exactement ![end]</data>
     </text>
     <text>
@@ -484,7 +481,7 @@ Oui,le Dragon Sacré Valitra ![end]</data>
         </refs>
         <data>SENDACK:
 Quoi !
-Le Dragon Sacré![end]</data>
+Le Dragon Sacré ![end]</data>
     </text>
     <text>
         <refs>
@@ -592,7 +589,7 @@ Sacré Valitra ![end]</data>
         <data>SENDACK:
 Il n'y a aucune différence si vous lui
 avez parlé dans vos rêves plutôt
-qu'en réalité!
+qu'en réalité !
 Notre défunt Roi de Kana m'avait déjà
 parlé de cela...[end]</data>
     </text>
@@ -654,8 +651,8 @@ même mieux de votre part ![end]</data>
         </refs>
         <data>ZORA:
 Peur de votre rêve ?
-Peur du Dragon Sacré?
-Peur de la réalité?
+Peur du Dragon Sacré ?
+Peur de la réalité ?
 Voyons Princesse,levez-vous,
 et soyez forte !
 Une fois que votre coeur aura cessé
@@ -722,7 +719,7 @@ Capitaine ![end]</data>
         </refs>
         <data>Princesse !
 [character][0x0] est le Capitaine de l'Escadron !
-Il est très occupé!
+Il est très occupé !
 Il a beaucoup trop de choses à faire.
 Mais moi,je suis libre !
  
@@ -819,10 +816,10 @@ serait ![end]</data>
             <ref>0x365</ref>
         </refs>
         <data>SENDACK:
-[0xa8]Chuchotement...[0xa9]
-[0xa8]Chuchotement...[0xa9]
-[0xa8]La Princesse est déjà plus
- énergique.[0xa9][end]</data>
+``Chuchotement...''
+``Chuchotement...''
+``La Princesse est déjà plus
+ énergique.''[end]</data>
     </text>
     <text>
         <refs>
@@ -838,7 +835,7 @@ commence à me battre...[end]</data>
         <refs>
             <ref>0x927</ref>
         </refs>
-        <data>Zora a bien parlé![end]</data>
+        <data>Zora a bien parlé ![end]</data>
     </text>
     <text>
         <refs>
@@ -907,7 +904,7 @@ temps à te parler.[end]</data>
         </refs>
         <data> Bien sûr !
  Evidemment Commandant !
- monyo ! [0xa8]détestable ![0xa9][end1]</data>
+ monyo ! ``détestable !''[end1]</data>
     </text>
     <text>
         <refs>
@@ -1037,7 +1034,7 @@ et connaît donc la Légende ![end]</data>
         </refs>
         <data>SENDACK:
 Vous comprenez mieux pourquoi Sauzer
-la connaît déjà!
+la connaît déjà !
 Tout le monde se la transmet ![end]</data>
     </text>
     <text>
@@ -1200,7 +1197,7 @@ Allons-y [character][0x0]![end]</data>
 Je ressens une étrange force en moi.
  
 Serait-ce possible que ce soit celle du
-Dragon Sacré?[end]</data>
+Dragon Sacré ?[end]</data>
     </text>
     <text>
         <refs>

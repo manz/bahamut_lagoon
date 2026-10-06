@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0x6d8" room_id="41">
     <text>
         <refs>
@@ -21,7 +21,7 @@ Ah ![end]</data>
         </refs>
         <data>SENDACK:
 Vous sentez-vous bien ?
-Princesse...?![end]</data>
+Princesse... ?![end]</data>
     </text>
     <text>
         <refs>
@@ -142,7 +142,7 @@ bien ![end]</data>
             <ref>0x1ea</ref>
         </refs>
         <data>MATELIGHT:
-Que s'est-il passé?!
+Que s'est-il passé ?!
 Qu'allons-nous faire ?![end]</data>
     </text>
     <text>
@@ -163,14 +163,14 @@ Princesse ![end]</data>
         <refs>
             <ref>0x24f</ref>
         </refs>
-        <data>Que... qu'est-ce...?[end]</data>
+        <data>Que... qu'est-ce... ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x298</ref>
         </refs>
         <data>MATELIGHT:
-Hééééé!
+Hééééé !
 A qui crois-tu avoir affaire ?
 Je suis Matelight !
 Je t'ordonne de laisser [character][0x1]
@@ -236,7 +236,7 @@ Tenez bon ![end]</data>
         </refs>
         <data>[character][0x1]:
 Le Dragon Sacré Léviathan...
-Leur colère...? Leur peine...?[end]</data>
+Leur colère... ? Leur peine... ?[end]</data>
     </text>
     <text>
         <refs>
@@ -250,7 +250,7 @@ sont aussi tristes...[end]</data>
             <ref>0x446</ref>
         </refs>
         <data>SENDACK:
-Colère... tristesse...?
+Colère... tristesse... ?
 Quel peut en être le sens ?
 Vraiment,je ne comprends pas.
 Ils sont tristes ![end]</data>
