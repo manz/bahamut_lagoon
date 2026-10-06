@@ -38,9 +38,18 @@ POOL_SLOTS = 75
 SLOT_STALE = 0x01  ; not drawn since its row was last drawn
 ALL_RUNS = 0x0F
 
-; dirty: a bit per run of pool_runs to upload. slot_run: run * 2. source: the upload's source in panel_pool_tiles.
-; copy_end: Y as the engine's copy leaves it.
+; line_strip, line_chars, line_cells: the line being composed (a field may render past it), its characters (BLANK
+; past them) and where small_vwf drew. pool_owner: tilemap row + 1 holding the slot, 0 when free. pool_cell: the line
+; cell the slot draws. pool_flags: SLOT_STALE. dirty: a bit per run of pool_runs to upload. slot_run: run * 2.
+; source: the upload's source in pool_tiles. copy_end: Y as the engine's copy leaves it.
 .struct PanelVwf {
+    byte[( LINE_CELLS + COPY_CELLS ) * TILE_BYTES] line_strip
+    byte[LINE_CELLS] line_chars
+    byte[LINE_CELLS] line_cells
+    byte[POOL_SLOTS * TILE_BYTES] pool_tiles
+    word[POOL_SLOTS] pool_owner
+    byte[POOL_SLOTS] pool_cell
+    byte[POOL_SLOTS] pool_flags
     byte dirty
     word cell
     word row
@@ -53,13 +62,6 @@ ALL_RUNS = 0x0F
 }
 
 .reserve panel as PanelVwf in sram_work
-.reserve panel_line_strip ( LINE_CELLS + COPY_CELLS ) * TILE_BYTES in sram_work  ; a field may render past the line
-.reserve panel_line_chars LINE_CELLS in sram_work  ; a field's characters, BLANK past them
-.reserve panel_line_cells LINE_CELLS in sram_work  ; 1 where small_vwf drew the cell
-.reserve panel_pool_tiles POOL_SLOTS * TILE_BYTES in sram_work
-.reserve panel_pool_owner POOL_SLOTS * 2 in sram_work  ; tilemap row + 1 holding the slot, 0 when free
-.reserve panel_pool_cell POOL_SLOTS in sram_work  ; the line cell the slot draws
-.reserve panel_pool_flags POOL_SLOTS in sram_work  ; SLOT_STALE
 
 
 ; panel_copy_string: phb / lda $10 / pha / plb.
@@ -182,7 +184,7 @@ _keep:
     lda.l small_vwf_tiles, x
     phx
     tyx
-    sta.l panel_line_strip, x
+    sta.l panel.line_strip, x
     plx
     inx
     iny
@@ -223,7 +225,7 @@ _fill:
     lda.l small_vwf_text, x
 _char:
     tyx
-    sta.l panel_line_chars, x
+    sta.l panel.line_chars, x
     xba  ; the character waits in B
     lda.l panel.cell
     cmp.l small_vwf.cells
@@ -231,7 +233,7 @@ _char:
     bcs _drawn_flag
     inc
 _drawn_flag:
-    sta.l panel_line_cells, x
+    sta.l panel.line_cells, x
     bne _placeholder_cell
     xba
     cmp #BLANK
@@ -266,26 +268,26 @@ _age:
     asl
     phx
     tax
-    lda.l panel_pool_owner, x
+    lda.l panel.pool_owner, x
     plx
     cmp.l panel.row
     bne _other_row
     sep #0x20
-    lda.l panel_pool_flags, x
+    lda.l panel.pool_flags, x
     bne _release
     lda #SLOT_STALE
-    sta.l panel_pool_flags, x
+    sta.l panel.pool_flags, x
     bra _other_row
 _release:
     lda #0x00
-    sta.l panel_pool_flags, x
+    sta.l panel.pool_flags, x
     rep #0x20
     txa
     asl
     phx
     tax
     lda.w #0x0000
-    sta.l panel_pool_owner, x
+    sta.l panel.pool_owner, x
     plx
 _other_row:
     dex
@@ -334,13 +336,13 @@ _placeholder:
     lda.b 0x10
     cmp #PANEL_ATTR
     beq _panel_cell
-    lda.l panel_line_chars, x  ; a window: the character, in the engine's font
+    lda.l panel.line_chars, x  ; a window: the character, in the engine's font
     plx
     cmp #BLANK
     beq _draw_blank
     bra _draw_char
 _panel_cell:
-    lda.l panel_line_cells, x
+    lda.l panel.line_cells, x
     bne _drawn
     plx
     lda #BLANK
@@ -374,7 +376,7 @@ _find_slot:
 """The slot (16-bit A, carry set) of panel.row's panel.cell, else a free one taken for it; carry clear: none."""
     ldx.w #( POOL_SLOTS - 1 ) * 2
 _find_own:
-    lda.l panel_pool_owner, x
+    lda.l panel.pool_owner, x
     cmp.l panel.row
     bne _not_own
     phx
@@ -382,7 +384,7 @@ _find_own:
     lsr
     tax
     sep #0x20
-    lda.l panel_pool_cell, x
+    lda.l panel.pool_cell, x
     eor.l panel.cell
     rep #0x20
     plx  ; pulling X sets the flags: test the cell after
@@ -394,7 +396,7 @@ _not_own:
     bpl _find_own
     ldx.w #( POOL_SLOTS - 1 ) * 2
 _find_free:
-    lda.l panel_pool_owner, x
+    lda.l panel.pool_owner, x
     beq _take
     dex
     dex
@@ -403,7 +405,7 @@ _find_free:
     rts
 _take:
     lda.l panel.row
-    sta.l panel_pool_owner, x
+    sta.l panel.pool_owner, x
 _have:
     txa
     lsr
@@ -415,9 +417,9 @@ _fill_slot:
     tax
     sep #0x20
     lda.l panel.cell
-    sta.l panel_pool_cell, x
+    sta.l panel.pool_cell, x
     lda #0x00
-    sta.l panel_pool_flags, x
+    sta.l panel.pool_flags, x
     sta.l panel.changed
     rep #0x20
     txa
@@ -439,11 +441,11 @@ _fill_slot:
 _copy:
     phx
     tyx
-    lda.l panel_line_strip, x
+    lda.l panel.line_strip, x
     plx
-    cmp.l panel_pool_tiles, x
+    cmp.l panel.pool_tiles, x
     beq _same
-    sta.l panel_pool_tiles, x
+    sta.l panel.pool_tiles, x
     lda #0x01
     sta.l panel.changed
 _same:
@@ -517,10 +519,10 @@ _save:
     sta.l 0x004300
     lda #0x18
     sta.l 0x004301
-    lda #panel_pool_tiles >> 16
+    lda #panel.pool_tiles >> 16
     sta.l 0x004304
     rep #0x20
-    lda.w #panel_pool_tiles & 0xFFFF
+    lda.w #panel.pool_tiles & 0xFFFF
     sta.l panel.source
     ldx.w #0x0000
 _run_upload:
