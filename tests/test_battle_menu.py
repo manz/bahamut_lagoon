@@ -1,6 +1,8 @@
 """
-The menu before a battle, mid-game (savestate on Sortie): the Infos descriptions page used to freeze, drawing
-enough names that the BG3 run collection started over endlessly.
+The menu before a battle, mid-game (savestate on Sortie): the Dragon screen and the Infos descriptions page used to
+freeze. The Dragon screen typed message 0x275 at once, four DMA queue entries a glyph, until the queue ran over the
+sound driver's variables at 1D00 and the next sound waited forever; the descriptions page drew enough names that the
+BG3 run collection started over endlessly.
 """
 
 
@@ -17,6 +19,12 @@ def cursor_moves(console, button: int) -> bool:
     console.tap(button)
     console.emu.run_frames(60)
     return bytes(console.emu.oam_read_range()) != before
+
+
+def test_dragon_screen_answers(console):
+    open_menu_entry(console, 4)  # Dragon
+    assert cursor_moves(console, console.button.RIGHT)
+    assert console.matches_golden("battle-menu-dragons")
 
 
 def test_infos_descriptions_answer(console):

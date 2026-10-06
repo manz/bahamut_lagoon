@@ -22,6 +22,7 @@ DMA_QUEUE_TAIL = 0x001A00  ; next free 8-byte entry of the game's DMA queue, dra
 MESSAGE_TILES = 0x7C00  ; VRAM word of the message window tiles
 TASK_YIELD = 0xEE440B  ; the game's cooperative task switch
 MESSAGE_SPRITES = 0x7E6E20  ; OAM shadow of the message sprites: x, y, tile, attribute
+MESSAGE_AT_ONCE = 0x275  ; drawn without a frame between glyphs (25 spaces: it clears the window)
 MESSAGE_SPRITES_MAX = 15  ; 16px each from x 0x18, so the last stays left of x 256
 
 ; Direct-page scratch: the words both vanilla 12px loops use as scratch themselves. $12-$16 (index and string
@@ -84,7 +85,8 @@ draw_message:
 """
 Type a message of the messages table, like the vanilla loop: one glyph a frame, each uploaded to the message window
 tiles and shown by growing the message sprites, the work its char routine (EE515C, EE532D) did. Message 0x275
-appears at once, as in vanilla.
+appears at once, as in vanilla, its whole buffer queued as one upload: a glyph's four would overrun the DMA queue
+into the sound driver's variables at 1D00.
 """
 
 
@@ -115,11 +117,7 @@ _next_glyph:
     phy
     jsr.w draw_char
     pla
-    pha
-    jsr.w queue_column
-    pla
-    inc
-    jsr.w queue_column
+    jsr.w queue_glyph
     jsr.w place_message_sprites
     jsr.w yield
     ply
@@ -127,14 +125,36 @@ _no_glyph:
     iny
     bra _next_glyph
 _typed:
+    lda 0x32
+    cmp.w #MESSAGE_AT_ONCE
+    bne _queued
+    lda.w #0x0000  ; the whole buffer: the window's tiles follow its layout
+    ldx.w #TEXT_BUFFER_SIZE
+    jsr.w queue_upload
+_queued:
     plb
     plp
     rtl
 
+queue_glyph:
+"""Queue the two columns a glyph touches, A and the next; MESSAGE_AT_ONCE goes up whole once typed."""
+    pha
+    lda 0x32
+    cmp.w #MESSAGE_AT_ONCE
+    beq _later
+    lda 0x01, s
+    jsr.w queue_column
+    pla
+    inc
+    jmp.w queue_column
+_later:
+    pla
+    rts
+
 wait_for_uploads:
 """Yield until the game has drained the uploads already queued (00182E clear), as EE515C does."""
     lda 0x32
-    cmp.w #0x275
+    cmp.w #MESSAGE_AT_ONCE
     beq _drained
 _busy:
     lda.l 0x00182E
@@ -147,7 +167,7 @@ _drained:
 yield:
 """Let a frame pass between glyphs, as the vanilla loop does, except for message 0x275."""
     lda 0x32
-    cmp.w #0x275
+    cmp.w #MESSAGE_AT_ONCE
     beq _no_yield
     jsr.l TASK_YIELD
 _no_yield:
@@ -164,12 +184,14 @@ queue_column:
     jmp.w queue_tile
 
 queue_tile:
+"""Queue one tile at text buffer offset A for VRAM word MESSAGE_TILES + A / 2."""
+    ldx.w #0x0020
+queue_upload:
 """
-Queue one tile at text buffer offset A for VRAM word MESSAGE_TILES + A / 2, through the game's DMA queue, building
+Queue X bytes from text buffer offset A for VRAM word MESSAGE_TILES + A / 2, through the game's DMA queue, building
 the entry as EE515C does.
 """
-
-
+    phx
     pha
     lsr
     clc
@@ -181,7 +203,7 @@ the entry as EE515C does.
     sta.l 0x000006, x
     tya
     sta.l 0x000003, x
-    lda.w #0x0020
+    lda 0x03, s  ; the byte count
     sta.l 0x000005, x
     lda.w #0x7E00
     sta.l 0x000001, x
@@ -193,6 +215,7 @@ the entry as EE515C does.
     clc
     adc.w #8
     sta.l DMA_QUEUE_TAIL
+    plx
     rts
 
 place_message_sprites:
@@ -217,7 +240,7 @@ _count:
     tay
     lda.w #0xC818  ; y 0xC8, x 0x18
     ldx 0x32
-    cpx.w #0x275
+    cpx.w #MESSAGE_AT_ONCE
     bne _place
     lda.w #0xC014  ; message 0x275 sits higher, as in EE532D
 _place:
