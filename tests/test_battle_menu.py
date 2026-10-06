@@ -39,3 +39,14 @@ def test_infos_descriptions_answer(console):
 def test_map_titles_the_chapter(console):
     open_menu_entry(console, 1)  # Carte
     assert console.matches_golden("battle-menu-map")
+
+
+def test_map_unit_info_draws_with_the_small_vwf(console):
+    open_menu_entry(console, 1)  # Carte
+    console.tap(console.button.A)  # past the chapter title
+    console.emu.run_frames(90)
+    for button in (console.button.UP,) * 4 + (console.button.LEFT,):
+        console.tap(button)  # onto the enemy at the top left
+    console.tap(console.button.A)  # its box: C0A9B8, copied and drawn through the battle panel's VWF
+    console.emu.run_frames(120)
+    assert console.matches_golden("battle-menu-unit-info")

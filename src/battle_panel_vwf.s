@@ -112,6 +112,24 @@ FIRST_WINDOW_RUN = 4 * 2
     nop
 }
 
+; The map's message box copy (C0AB4B: bank A, string Y into the line, its characters in $08, which size the box):
+; through panel_copy_string, so the box draws the VWF and fits its cells.
+.alloc at 0xC0AB4B {
+    sta.b 0x10
+    jsl.l panel_count_chars
+    ldx.w #LINE
+    jsr.w 0xE089
+    jsl.l panel_end_box_line
+    rts
+}
+
+; Its draw loop (C0AB2A: ldx #0 / lda $000720, x) indexes the line from 0; put_char's hook takes X as a line
+; position, as panel_draw_line passes it: the same bytes from LINE.
+.alloc at 0xC0AB2A {
+    ldx.w #LINE
+    lda.l 0x000100, x
+}
+
 ; The window font upload's last transfer (sta $420B / rts) writes over the window slots.
 .alloc at 0xC0C537 {
     jml.l panel_window_font_reloaded
@@ -722,6 +740,70 @@ _next_window_run:
     bra _window_upload
 _window_done:
     rts
+
+panel_count_chars:
+"""$08: the characters of string Y in bank $10 before its FF, counted as C0AB4B did (F0-F3 switch font pages)."""
+    phb
+    phy
+    lda.b 0x10
+    pha
+    plb
+    stz.b 0x08
+_count_char:
+    lda.w 0x0000, y
+    iny
+    cmp #0xFF
+    beq _counted
+    cmp #0xF4
+    bcs _counts
+    cmp #0xF0
+    bcs _count_char
+_counts:
+    inc.b 0x08
+    bra _count_char
+_counted:
+    ply
+    plb
+    rtl
+
+panel_end_box_line:
+"""
+End the line after the cells the copy drew and leave their count, plus the arrow's cell, in $08: small_vwf's when
+it rendered the string, else the characters up to the first blank.
+"""
+    rep #0x10
+    lda.l small_vwf.chars
+    cmp #MIN_CHARS
+    bcc _font_cells
+    lda.l small_vwf.cells
+    rep #0x20
+    and.w #0x00FF
+    clc
+    adc.w #LINE
+    tax
+    sep #0x20
+    bra _box_end
+_font_cells:
+    ldx.w #LINE
+_box_cell:
+    lda.b 0x00, x
+    cmp #BLANK
+    beq _box_end
+    cmp #0xFF
+    beq _box_end
+    inx
+    cpx.w #LINE + LINE_CELLS
+    bcc _box_cell
+_box_end:
+    lda #0xFF
+    sta.b 0x00, x
+    rep #0x20
+    txa
+    sec
+    sbc.w #LINE - 1  ; and a cell for the box's prompt arrow, which sits in the last one
+    sep #0x20
+    sta.b 0x08
+    rtl
 
 panel_window_font_reloaded:
 """The window font upload overwrites the window slots: upload them again, one run an NMI."""
