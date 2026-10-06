@@ -266,7 +266,7 @@ draw_char:
     phx
     tax
     sep #0x20
-    lda.l _multipliers, x
+    lda.l vwf_shift_multipliers, x
     plx
     sta _multiplier
     stz _shadow
@@ -388,7 +388,7 @@ column_offset:
     adc _low_halves
     rts
 
-_multipliers:
+vwf_shift_multipliers:
     .db 0x80, 0x40, 0x20, 0x10, 0x08, 0x04, 0x02, 0x01
 }
 
