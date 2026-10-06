@@ -38,6 +38,11 @@ MENU_SHADOW = 0x7EC400
 MENU_BG2_CELLS = 0x1000  ; shadow offsets from here are BG2
 MENU_DMA_QUEUE_TAIL = 0x001A00
 MENU_BLANK = 0xEF
+MENU_ROW = 0x40  ; shadow bytes a tilemap row
+MENU_SHADOW_DIRTY = 0x00185A  ; 1: the engine uploads the shadow
+MENU_INLINE_BANK = 0xFD  ; the relocated inline strings (build.py)
+MENU_INLINE_RIGHT = 0x80  ; a segment header's flags (utils/inline_strings.py)
+MENU_INLINE_CELL = 0x40
 MENU_TILE_2BPP = 16
 MENU_TILE_4BPP = 32
 MENU_ITEM_RECORDS = 0xEF3CA0
@@ -58,17 +63,20 @@ MENU_BG3_RIGHT_VRAM = 0x5400
 MENU_BG3_SLOTS = MENU_BG3_MAP_SLOTS + 56
 MENU_BG3_BLANK_CODES = 11  ; 0x15-0x1F, then the kana from 0x33
 MENU_BG3_VRAM = 0x4000
-MENU_BG3_RUNS = 32
+MENU_BG3_RUNS = 64
 MENU_BG3_SHOWN_CELLS = 58 * 32  ; the BG3 map rows a menu shows
 MENU_STAGING_TILES = 160  ; 4bpp tiles a drain can carry
 MENU_MAX_CELLS = 12  ; small_vwf's
+MENU_MAX_CHARS = 16  ; small_vwf's
 MENU_RECORD = 8  ; the name records draw_fixed_name draws, an item's past its icon
 
 ; bg2_owner: the shadow cell a slot draws, plus 1; 0 when free (cells are even). bg2_next: where the next run search
 ; starts. run_*: the BG3 runs, by record (bank 0: free), their cells and slots; bg3_used: 1 for a slot a run holds,
 ; bg3_shown its mark in a pass over the shadow. key: the record being drawn. staged: staging bytes waiting for the
 ; drain. entry, entry_source: the last queue entry and the staging address it carries, to tell a drain. field: the
-; cells the engine's draw covers. The rest is scratch.
+; cells the engine's draw covers. span: the cells a right-aligned string ends in (0: left-aligned), taken from
+; request_span, which a caller sets for one draw. inline, inline_base, inline_segment: the inline string being drawn,
+; the cell it starts at and its next segment. The rest is scratch.
 .struct MenuVwf {
     byte[MENU_STAGING_TILES * MENU_TILE_4BPP] staging
     word[MENU_BG2_SLOTS] bg2_owner
@@ -86,6 +94,11 @@ MENU_RECORD = 8  ; the name records draw_fixed_name draws, an item's past its ic
     word entry
     word entry_source
     word field
+    word span
+    word request_span
+    word inline
+    word inline_base
+    word inline_segment
     word cell
     word slot
     word index
@@ -102,6 +115,11 @@ MENU_RECORD = 8  ; the name records draw_fixed_name draws, an item's past its ic
     jml.l menu_draw_fixed_name
 }
 
+; draw_menu_string (bank A, string Y, FF-terminated: the EE bank's placeholders and labels): php / phb / phx / sep.
+.alloc at 0xEE4CAA {
+    jml.l menu_draw_menu_string
+}
+
 ; draw_menu_string's level label (the party lists): LV -> NV.
 .alloc at 0xEEA760 {
     .db 0xC6  ; N (text/table/mz.tbl)
@@ -116,6 +134,11 @@ menu_draw_fixed_name:
     pha
     phx
     phy
+    lda.l menu.request_span
+    sta.l menu.span
+    lda.w #0x0000
+    sta.l menu.request_span
+    lda 0x05, s  ; the bank, pushed first
     sep #0x20
     sta.l small_vwf.source + 2
     rep #0x20
@@ -138,6 +161,10 @@ menu_draw_fixed_name:
     bcs _whole_field
     lda #MENU_RECORD  ; a field shorter than its record: read the record whole, to see the name overflow
 _whole_field:
+    cmp #MENU_MAX_CHARS + 1
+    bcc _chars
+    lda #MENU_MAX_CHARS
+_chars:
     sta.l small_vwf.max_chars
     lda.l menu.field
     cmp #MENU_MAX_CELLS + 1
@@ -148,6 +175,7 @@ _cells:
     jsl.l small_vwf_render
     lda.l small_vwf.chars
     beq _vanilla  ; nothing to draw
+    jsr.w _align
     jsr.w _drain_check
     jsr.w _free_field
     lda.l MENU_TEXT_CURSOR
@@ -182,6 +210,154 @@ _vanilla:
     phx
     sep #0x20
     jml.l 0xEE4D24
+
+menu_draw_menu_string:
+"""draw_menu_string: draw_fixed_name's, uncapped (up to small_vwf's characters). Keeps X."""
+    php
+    rep #0x10
+    phx
+    ldx.w #MENU_MAX_CHARS + 1
+    jsl.l menu_draw_fixed_name
+    plx
+    plp
+    rtl
+
+menu_draw_inline_string:
+"""
+X (16-bit): an inline string's record in bank MENU_INLINE_BANK (utils/inline_strings.py, inline_record), drawn at
+the text cursor: its field blanked, each segment through draw_fixed_name at its cell (a right-aligned one ends at
+the field's end; a lone character is its font tile, centred like the digits around it), the cursor past the field.
+Any register sizes; keeps P, not A, X or Y.
+"""
+    php
+    rep #0x30
+    txa
+    sta.l menu.inline
+    inc
+    sta.l menu.inline_segment
+    lda.l MENU_TEXT_CURSOR
+    sta.l menu.inline_base
+    jsr.w _blank_inline
+_inline_segment:
+    rep #0x30
+    lda.l menu.inline_segment
+    tax
+    lda.l MENU_INLINE_BANK << 16, x
+    and.w #0x00FF
+    cmp.w #0x00FF
+    beq _inline_done
+    inx
+    phx  ; the segment's codes
+    bit.w #MENU_INLINE_CELL
+    bne _inline_cell
+    bit.w #MENU_INLINE_RIGHT
+    beq _inline_left
+    lda.l menu.inline
+    tax
+    lda.l MENU_INLINE_BANK << 16, x
+    and.w #0x00FF
+    sta.l menu.request_span
+    lda.w #0x0000  ; from the field's first cell
+_inline_left:
+    asl
+    clc
+    adc.l menu.inline_base
+    sta.l MENU_TEXT_CURSOR
+    ply
+    jsr.w _skip_segment
+    lda.w #MENU_INLINE_BANK
+    ldx.w #MENU_MAX_CHARS + 1
+    jsl.l menu_draw_fixed_name
+    bra _inline_segment
+_inline_cell:
+    and.w #MENU_INLINE_CELL - 1
+    asl
+    clc
+    adc.l menu.inline_base
+    tay  ; Y: the cell
+    plx
+    lda.l MENU_INLINE_BANK << 16, x
+    and.w #0x00FF
+    ora.l MENU_TEXT_ATTR
+    phx
+    tyx
+    sta.l MENU_SHADOW, x
+    ply
+    jsr.w _skip_segment
+    bra _inline_segment
+_inline_done:
+    jsr.w _inline_width
+    asl
+    clc
+    adc.l menu.inline_base
+    sta.l MENU_TEXT_CURSOR
+    sep #0x20
+    lda #0x01
+    sta.l MENU_SHADOW_DIRTY
+    plp
+    rtl
+
+_skip_segment:
+"""menu.inline_segment: past segment Y's codes and their FF. Keeps Y."""
+    tyx
+_skip_code:
+    lda.l MENU_INLINE_BANK << 16, x
+    inx
+    and.w #0x00FF
+    cmp.w #0x00FF
+    bne _skip_code
+    txa
+    sta.l menu.inline_segment
+    rts
+
+_inline_width:
+"""The inline string's field width in cells (16-bit A)."""
+    lda.l menu.inline
+    tax
+    lda.l MENU_INLINE_BANK << 16, x
+    and.w #0x00FF
+    rts
+
+_blank_inline:
+"""Blank the inline string's field and clear the row above, as vanilla's spaces do."""
+    jsr.w _inline_width
+    beq _blanked
+    tay
+    lda.l menu.inline_base
+    tax
+_blank_cell:
+    lda.w #MENU_BLANK
+    ora.l MENU_TEXT_ATTR
+    sta.l MENU_SHADOW, x
+    lda.w #0x0000
+    sta.l MENU_SHADOW - MENU_ROW, x
+    inx
+    inx
+    dey
+    bne _blank_cell
+_blanked:
+    rts
+
+_align:
+"""A right-aligned string (menu.span): its field is its rendered cells, the cursor moved for them to end the span."""
+    rep #0x30
+    lda.l menu.span
+    beq _aligned
+    sep #0x20
+    lda.l small_vwf.cells
+    rep #0x20
+    and.w #0x00FF
+    sta.l menu.field
+    lda.l menu.span
+    sec
+    sbc.l menu.field
+    bcc _aligned
+    asl
+    clc
+    adc.l MENU_TEXT_CURSOR
+    sta.l MENU_TEXT_CURSOR
+_aligned:
+    rts
 
 _item_icon:
 """An item record (MENU_ITEM_RECORDS + id * 9): draw its icon as a cell and move the string and field past it."""

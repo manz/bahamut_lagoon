@@ -2,9 +2,12 @@ import io
 from unittest.case import TestCase
 
 from a816.program import Program
+from script import Table
 
 from utils.cartridge import rom_address
-from utils.inline_strings import dragon_find_address
+from utils.inline_strings import INLINE_CELL, INLINE_RIGHT, dragon_find_address, inline_record
+
+TABLE = Table("text/table/mz.tbl")
 
 
 class StubWriter:
@@ -71,3 +74,28 @@ class InlineStringTestCase(TestCase):
         address, _byte_addr = dragon_find_address(bytes_io, xref)
 
         self.assertEqual(0xC1DB1D, address)
+
+
+class InlineRecordTestCase(TestCase):
+    def test_a_label_is_its_width_then_one_segment(self):
+        self.assertEqual(inline_record(TABLE, "NV"), bytes([2, 0, *TABLE.to_bytes("NV"), 0xFF, 0xFF]))
+
+    def test_padding_is_not_stored(self):
+        self.assertEqual(inline_record(TABLE, "Atk.", 8), bytes([8, 0, *TABLE.to_bytes("Atk."), 0xFF, 0xFF]))
+
+    def test_one_space_stays_in_its_segment(self):
+        self.assertEqual(inline_record(TABLE, "Coût MP")[1:3], bytes([0, *TABLE.to_bytes("C")]))
+
+    def test_runs_of_spaces_place_segments(self):
+        record = inline_record(TABLE, "TEMPS   :  :", 14)
+        colon = 0x30  # small_font's
+        self.assertEqual(record[-7:], bytes([INLINE_CELL | 8, colon, 0xFF, INLINE_CELL | 11, colon, 0xFF, 0xFF]))
+
+    def test_leading_spaces_start_the_segment_later(self):
+        self.assertEqual(inline_record(TABLE, "  ..")[1], 2)
+
+    def test_one_character_is_a_font_cell(self):
+        self.assertEqual(inline_record(TABLE, "/")[1], INLINE_CELL)
+
+    def test_right_aligned_segment(self):
+        self.assertEqual(inline_record(TABLE, "Tour", 9, "right")[:2], bytes([9, INLINE_RIGHT]))

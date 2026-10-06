@@ -1,12 +1,12 @@
 <?xml version="1.0" ?>
 <inline>
-    <string jump_to="0xee6f7b" ref="0xee6f6c">Equipe </string>
+    <string jump_to="0xee6f7b" ref="0xee6f6c" width="7">Equipe</string>
     <string jump_to="0xee6fb6" ref="0xee6fab">MP:</string>
     <string jump_to="0xee6fc3" ref="0xee6fb8">SP:</string>
     <string jump_to="0xee6fef" ref="0xee6fe4">MP:</string>
     <string jump_to="0xee6ffc" ref="0xee6ff1">SP:</string>
-    <string jump_to="0xee7027" ref="0xee7020">／</string>
-    <string jump_to="0xee706c" ref="0xee7065">／</string>
+    <string jump_to="0xee7027" ref="0xee7020">/</string>
+    <string jump_to="0xee706c" ref="0xee7065">/</string>
     <string jump_to="0xee70b1" ref="0xee70a6">MP:</string>
     <string jump_to="0xee70be" ref="0xee70b3">SP:</string>
     <string jump_to="0xee712e" ref="0xee7123">MP:</string>
@@ -19,9 +19,9 @@
     <string jump_to="0xee81d3" ref="0xee81c6">Objets</string>
     <string jump_to="0xee81e4" ref="0xee81d9">Equiper</string>
     <string jump_to="0xee81f9" ref="0xee81ea">Infos</string>
-    <string jump_to="0xee8214" ref="0xee81ff">     Tour</string>
-    <string jump_to="0xee8235" ref="0xee821a">        Piro</string>
-    <string jump_to="0xee824c" ref="0xee823b">  ．  ．</string>
+    <string jump_to="0xee8214" ref="0xee81ff" width="9" align="right">Tour</string>
+    <string jump_to="0xee8235" ref="0xee821a" width="12" align="right">Piro</string>
+    <string jump_to="0xee824c" ref="0xee823b">  .  .</string>
     <string jump_to="0xee8273" ref="0xee8262">Escale</string>
     <string jump_to="0xee829a" ref="0xee8287">Chapitre</string>
     <string jump_to="0xee8346" ref="0xee8339">Organisation</string>
@@ -35,11 +35,11 @@
     <string jump_to="0xee8d96" ref="0xee8d83">NO ITEM</string>
     <string jump_to="0xee8f80" ref="0xee8f77">NV</string>
     <string jump_to="0xee8fdb" ref="0xee8fd0">PV:</string>
-    <string jump_to="0xee9000" ref="0xee8ff9">／</string>
+    <string jump_to="0xee9000" ref="0xee8ff9">/</string>
     <string jump_to="0xee9556" ref="0xee954d">NV</string>
     <string jump_to="0xee95d7" ref="0xee95ce">NV</string>
     <string jump_to="0xee9633" ref="0xee9628">PV:</string>
-    <string jump_to="0xee9658" ref="0xee9651">／</string>
+    <string jump_to="0xee9658" ref="0xee9651">/</string>
     <string jump_to="0xee9694" ref="0xee9687">EXP:</string>
     <string jump_to="0xee96df" ref="0xee96d0">NEXT:</string>
     <string jump_to="0xee973d" ref="0xee9734">Arme</string>
@@ -48,18 +48,18 @@
     <string jump_to="0xee97ec" ref="0xee97df">Déf.</string>
     <string jump_to="0xee9826" ref="0xee9819">Vit.</string>
     <string jump_to="0xee9860" ref="0xee9853">Mag.</string>
-    <string jump_to="0xee98e9" ref="0xee98da">（   ）</string>
+    <string jump_to="0xee98e9" ref="0xee98da">(   )</string>
     <string jump_to="0xeea51f" ref="0xeea512">Autre</string>
     <string jump_to="0xeea64d" ref="0xeea640">PAGE</string>
-    <string jump_to="0xeea661" ref="0xeea65a">／</string>
+    <string jump_to="0xeea661" ref="0xeea65a">/</string>
     <string jump_to="0xeea75a" ref="0xeea74d">Autre</string>
     <string jump_to="0xeeac55" ref="0xeeac42">INCONNU</string>
     <string jump_to="0xeeaddc" ref="0xeeadd3">NV</string>
     <string jump_to="0xeeae15" ref="0xeeae0a">PV:</string>
-    <string jump_to="0xeeae3a" ref="0xeeae33">／</string>
+    <string jump_to="0xeeae3a" ref="0xeeae33">/</string>
     <string jump_to="0xeeae81" ref="0xeeae76">MP:</string>
-    <string jump_to="0xeeaeb2" ref="0xeeaeab">／</string>
-    <string jump_to="0xeeaee9" ref="0xeeaee2">／</string>
+    <string jump_to="0xeeaeb2" ref="0xeeaeab">/</string>
+    <string jump_to="0xeeaee9" ref="0xeeaee2">/</string>
     <string jump_to="0xeeaf13" ref="0xeeaf06">Att.</string>
     <string jump_to="0xeeaf45" ref="0xeeaf38">Déf.</string>
     <string jump_to="0xeeaf77" ref="0xeeaf6a">Vit.</string>
@@ -68,11 +68,11 @@
     <string jump_to="0xeeb059" ref="0xeeb04c">Intel.</string>
     <string jump_to="0xeeb70e" ref="0xeeb705">NV</string>
     <string jump_to="0xeeb773" ref="0xeeb768">PV:</string>
-    <string jump_to="0xeeb797" ref="0xeeb790">／</string>
-    <string jump_to="0xeeb7e2" ref="0xeeb7cd">Atk.    </string>
-    <string jump_to="0xeeb815" ref="0xeeb800">Def.    </string>
-    <string jump_to="0xeeb848" ref="0xeeb833">Vit.    </string>
-    <string jump_to="0xeeb87b" ref="0xeeb866">Mag.    </string>
+    <string jump_to="0xeeb797" ref="0xeeb790">/</string>
+    <string jump_to="0xeeb7e2" ref="0xeeb7cd" width="8">Atk.</string>
+    <string jump_to="0xeeb815" ref="0xeeb800" width="8">Def.</string>
+    <string jump_to="0xeeb848" ref="0xeeb833" width="8">Vit.</string>
+    <string jump_to="0xeeb87b" ref="0xeeb866" width="8">Mag.</string>
     <string jump_to="0xeeb8d7" ref="0xeeb8ce">Arme</string>
     <string jump_to="0xeeb913" ref="0xeeb908">Armure</string>
     <string jump_to="0xeec1b6" ref="0xeec1a5">Coût MP</string>
@@ -87,7 +87,7 @@
     <string jump_to="0xeed417" ref="0xeed404">PAS DE DONNEES</string>
     <string jump_to="0xeed58a" ref="0xeed577">Chapitre</string>
     <string jump_to="0xeed5ba" ref="0xeed5a9">EXPLAY</string>
-    <string jump_to="0xeed5f4" ref="0xeed5d5">TEMPS   :  :  </string>
+    <string jump_to="0xeed5f4" ref="0xeed5d5" width="14">TEMPS   :  :</string>
     <string jump_to="0xeedad6" ref="0xeedaa7">Hira  Kata  Autre Fin</string>
     <string jump_to="0xeedd93" ref="0xeedd7a">Equiped jobs</string>
     <string jump_to="0xeedda9" ref="0xeedda0">Achat</string>
@@ -100,10 +100,10 @@
     <string jump_to="0xeee53a" ref="0xeee523">NOMBRE EQUIPE</string>
     <string jump_to="0xeee6c9" ref="0xeee6b6">NO ITEM</string>
     <string jump_to="0xeee6d8" ref="0xeee6cb">PAGE</string>
-    <string jump_to="0xeee6ec" ref="0xeee6e5">／</string>
+    <string jump_to="0xeee6ec" ref="0xeee6e5">/</string>
     <string jump_to="0xeeefbb" ref="0xeeefa8">NO ITEM</string>
     <string jump_to="0xeeefca" ref="0xeeefbd">PAGE</string>
-    <string jump_to="0xeeefde" ref="0xeeefd7">／</string>
+    <string jump_to="0xeeefde" ref="0xeeefd7">/</string>
     <string jump_to="0xeef0bd" ref="0xeef0b4">PV</string>
     <string jump_to="0xeef0cc" ref="0xeef0c3">PM</string>
     <string jump_to="0xeef11c" ref="0xeef111">Humeur</string>
