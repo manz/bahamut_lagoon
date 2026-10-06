@@ -33,3 +33,16 @@ def test_start_menu_draws_whole_strings_in_the_vanilla_column(console):
     console.run_until(lambda: bool(lines), limit=300)
     console.emu.run_frames(60)
     assert console.matches_golden("battle-start-menu")
+
+
+def test_quick_save_messages_are_french(console):
+    console.load("battle-map")
+    console.tap(console.button.START)
+    console.emu.run_frames(60)
+    console.tap(console.button.DOWN)
+    console.tap(console.button.A)  # Sauv. rapide: the engine's own question, moved out of bank C0
+    console.emu.run_frames(100)
+    assert console.matches_golden("battle-save-prompt")
+    console.tap(console.button.A)  # Oui
+    console.emu.run_frames(100)
+    assert console.matches_golden("battle-save-done")

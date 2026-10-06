@@ -34,3 +34,8 @@ def test_infos_descriptions_answer(console):
     console.emu.run_frames(150)
     assert cursor_moves(console, console.button.DOWN)
     assert console.matches_golden("battle-menu-descriptions")
+
+
+def test_map_titles_the_chapter(console):
+    open_menu_entry(console, 1)  # Carte
+    assert console.matches_golden("battle-menu-map")
