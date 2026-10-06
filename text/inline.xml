@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <inline>
-    <string jump_to="0xee6f7b" ref="0xee6f6c" width="7">Equipe</string>
+    <string jump_to="0xee6f7b" ref="0xee6f6c" width="7">Équipe</string>
     <string jump_to="0xee6fb6" ref="0xee6fab">MP:</string>
     <string jump_to="0xee6fc3" ref="0xee6fb8">SP:</string>
     <string jump_to="0xee6fef" ref="0xee6fe4">MP:</string>
@@ -17,7 +17,7 @@
     <string jump_to="0xee7fdb" ref="0xee7fd0">PV:</string>
     <string jump_to="0xee81c0" ref="0xee81b5">Magies</string>
     <string jump_to="0xee81d3" ref="0xee81c6">Objets</string>
-    <string jump_to="0xee81e4" ref="0xee81d9">Equiper</string>
+    <string jump_to="0xee81e4" ref="0xee81d9">Équiper</string>
     <string jump_to="0xee81f9" ref="0xee81ea">Infos</string>
     <string jump_to="0xee8214" ref="0xee81ff" width="9" align="right">Tour</string>
     <string jump_to="0xee8235" ref="0xee821a" width="12" align="right">Piro</string>
@@ -28,7 +28,7 @@
     <string jump_to="0xee8359" ref="0xee834c">Dragon</string>
     <string jump_to="0xee836c" ref="0xee835f">Aptitude</string>
     <string jump_to="0xee8388" ref="0xee8379">Infos</string>
-    <string jump_to="0xee8399" ref="0xee838e">Equiper</string>
+    <string jump_to="0xee8399" ref="0xee838e">Équiper</string>
     <string jump_to="0xee83aa" ref="0xee839f">Carte</string>
     <string jump_to="0xee83bf" ref="0xee83b0">Sortie</string>
     <string jump_to="0xee83e2" ref="0xee83d5">Escale</string>
@@ -89,10 +89,10 @@
     <string jump_to="0xeed5ba" ref="0xeed5a9">EXPLAY</string>
     <string jump_to="0xeed5f4" ref="0xeed5d5" width="14">TEMPS   :  :</string>
     <string jump_to="0xeedad6" ref="0xeedaa7">Hira  Kata  Autre Fin</string>
-    <string jump_to="0xeedd93" ref="0xeedd7a">Equiped jobs</string>
+    <string jump_to="0xeedd93" ref="0xeedd7a" width="12">Équipable par</string>
     <string jump_to="0xeedda9" ref="0xeedda0">Achat</string>
     <string jump_to="0xeeddb8" ref="0xeeddaf">Vente</string>
-    <string jump_to="0xeeddc9" ref="0xeeddbe">Equiper</string>
+    <string jump_to="0xeeddc9" ref="0xeeddbe">Équiper</string>
     <string jump_to="0xeeddde" ref="0xeeddcf">Infos</string>
     <string jump_to="0xeee3d9" ref="0xeee3d2">x</string>
     <string jump_to="0xeee417" ref="0xeee40c">Piro</string>
@@ -123,8 +123,8 @@
     <string jump_to="0xeef2e1" ref="0xeef2d4">Foudre</string>
     <string jump_to="0xeef2f4" ref="0xeef2e7">Soin</string>
     <string jump_to="0xeef303" ref="0xeef2fa">Poison</string>
-    <string jump_to="0xeef32f" ref="0xeef31c">Equipment list</string>
-    <string jump_to="0xeef35a" ref="0xeef345">Dragon Oyaji's</string>
-    <string jump_to="0xeef36f" ref="0xeef35a">Item description</string>
+    <string jump_to="0xeef32f" ref="0xeef31c" width="14">Équipements</string>
+    <string jump_to="0xeef35a" ref="0xeef345" width="8">Dr Dragon :</string>
+    <string jump_to="0xeef36f" ref="0xeef35a" width="16">Descriptions</string>
     <string jump_to="0xeefa0b" ref="0xeef9fc">BONUS</string>
 </inline>

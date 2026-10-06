@@ -2,7 +2,7 @@ from unittest import TestCase
 
 from script import Table
 
-from utils.name_tables import NAME_TABLES, item_records, long_names_source, read_names, short_record
+from utils.name_tables import NAME_TABLES, encode, item_records, long_names_source, read_names, short_record
 
 TABLE = Table("text/table/mz.tbl")
 
@@ -56,3 +56,8 @@ class ItemRecordsTestCase(TestCase):
 
     def test_short_name_ends_with_ff_after_the_icon(self):
         self.assertEqual(item_records(TABLE)[0:7], bytes([0xEF, *TABLE.to_bytes("Aucun"), 0xFF]))
+
+
+class EncodeTestCase(TestCase):
+    def test_accented_capitals_fold_to_their_letters(self):
+        self.assertEqual(encode(TABLE, "Épée"), TABLE.to_bytes("Epée"))

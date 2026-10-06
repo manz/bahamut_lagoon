@@ -37,7 +37,7 @@
         <refs>
             <ref>0x6</ref>
         </refs>
-        <data>Equipe[0xff]</data>
+        <data>Équipe[0xff]</data>
     </string>
     <string>
         <refs>

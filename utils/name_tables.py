@@ -43,8 +43,12 @@ def read_names(source: Path) -> list[str]:
     return [(string.text or "").removesuffix("[0xff]") for string in ET.parse(source).getroot()]
 
 
+SMALL_FONT_FOLD = str.maketrans("ÀÂÇÈÉÊËÎÏÔÙÛ", "AACEEEEIIOUU")  # small_font has no accented capitals
+
+
 def encode(table: Table, name: str) -> bytes:
-    return table.to_bytes(name.replace(" ", r"\s"))
+    """A name in the 8x8 text codes, accented capitals folded to the letters small_font draws."""
+    return table.to_bytes(name.translate(SMALL_FONT_FOLD).replace(" ", r"\s"))
 
 
 def short_record(codes: bytes) -> bytes:
