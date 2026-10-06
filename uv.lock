@@ -4,14 +4,14 @@ requires-python = ">=3.13"
 
 [[package]]
 name = "a816"
-version = "1.1.0a44"
+version = "1.1.0a46"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "lsprotocol" },
     { name = "pygls" },
 ]
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/2e/e0/f6a81781c84b615a9b52412c9b870e5279bd5406270da010047d544e13e8/a816-1.1.0a44-py3-none-any.whl", hash = "sha256:a7df3f08aa760bdfc3bd1d61ddee374284d842b571c36a67f43c798e21a2c948", size = 338636, upload-time = "2026-10-05T18:36:27.147Z" },
+    { url = "https://files.pythonhosted.org/packages/b5/12/175fcc61d961711c0317102eed6578ae4c0593aca464c4e06feac2684b88/a816-1.1.0a46-py3-none-any.whl", hash = "sha256:1d67a678a5dd11b3ccc0a6cd8a137e1dbfd10be95ed50168e04676070febc188", size = 342246, upload-time = "2026-10-06T13:09:44.308Z" },
 ]
 
 [[package]]
@@ -43,7 +43,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
-    { name = "a816", specifier = "==1.1.0a44" },
+    { name = "a816", specifier = "==1.1.0a46" },
     { name = "katsuji", specifier = "==0.1.1" },
     { name = "numpy" },
     { name = "pillow" },
