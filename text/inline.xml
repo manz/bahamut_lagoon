@@ -69,8 +69,8 @@
     <string jump_to="0xeeb70e" ref="0xeeb705">NV</string>
     <string jump_to="0xeeb773" ref="0xeeb768">PV:</string>
     <string jump_to="0xeeb797" ref="0xeeb790">/</string>
-    <string jump_to="0xeeb7e2" ref="0xeeb7cd" width="8">Atk.</string>
-    <string jump_to="0xeeb815" ref="0xeeb800" width="8">Def.</string>
+    <string jump_to="0xeeb7e2" ref="0xeeb7cd" width="8">Att.</string>
+    <string jump_to="0xeeb815" ref="0xeeb800" width="8">Déf.</string>
     <string jump_to="0xeeb848" ref="0xeeb833" width="8">Vit.</string>
     <string jump_to="0xeeb87b" ref="0xeeb866" width="8">Mag.</string>
     <string jump_to="0xeeb8d7" ref="0xeeb8ce">Arme</string>
