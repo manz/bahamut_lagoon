@@ -520,36 +520,6 @@ def dump_battle_fixed(rom_file):
         battle_fixed_jp.write(prettify(fixed))
 
 
-def insert_battle_fixed(writer, address=None):
-    length = 8
-    address = address or rom_offset(0xEF5920)
-    jp_fixed_table = Table("./text/table/battle.tbl")
-    tree = ET.parse("./text/battle-fixed.xml")
-    root = tree.getroot()
-
-    text_data = b""
-
-    for string in root:
-        data = jp_fixed_table.to_bytes(string.text)[:length]
-        if len(data) < length:
-            data += b"\xff"
-
-        data = data.ljust(length, b"\xfe")
-        text_data += data
-
-    writer.write_block(text_data, address)
-
-
-# def dump_items_descriptions_jp(rom_file):
-#     pointer_table = rom_offset(0xEE35F1)
-#
-#     for k in range(255):
-#         rom_file.seek(pointer_table + k * 2)
-#
-#         pointer = struct.unpack('<H', rom_file.read(2))[0]
-#         rom_file.seek(rom_offset(0xEE0000 + pointer))
-
-
 def dump_item_descriptions(rom_file, pointer_base=None, text_base=None, lang="jp"):
     jp_fixed_table = Table(f"../text/table/{lang}.tbl")
     pointer_base = pointer_base or 0xEE35F1

@@ -2,7 +2,7 @@ from unittest import TestCase
 
 from script import Table
 
-from utils.name_tables import NAME_TABLES, long_names_source, read_names, short_record
+from utils.name_tables import NAME_TABLES, item_records, long_names_source, read_names, short_record
 
 TABLE = Table("text/table/mz.tbl")
 
@@ -46,3 +46,13 @@ class LongNamesSourceTestCase(TestCase):
         self.assertIn("_class_names_0:\n    .db 0x", source)
         line = source.split("_class_names_0:\n")[1].splitlines()[0]
         self.assertTrue(line.endswith(", 0xFF"))
+
+
+class ItemRecordsTestCase(TestCase):
+    def test_a_record_is_the_icon_then_the_cut_name(self):
+        records = item_records(TABLE)
+        self.assertEqual(len(records), 128 * 9)
+        self.assertEqual(records[9], 0xD5)  # Epée longue, a sword
+
+    def test_short_name_ends_with_ff_after_the_icon(self):
+        self.assertEqual(item_records(TABLE)[0:7], bytes([0xEF, *TABLE.to_bytes("Aucun"), 0xFF]))

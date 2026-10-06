@@ -1,131 +1,131 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <item_names pointers="0xef3ca0">
-    <string icon="0xef">そうびなし</string>
-    <string icon="0xd5">ロングソ-ド</string>
-    <string icon="0xd5">アイスブランド</string>
-    <string icon="0xd5">スパ-クブレイド</string>
-    <string icon="0xd5">フレイムタン</string>
-    <string icon="0xd5">バスタ-ドソ-ド</string>
-    <string icon="0xd5">アポカリプス</string>
-    <string icon="0xd5">エクスカリバ-</string>
-    <string icon="0xd5">シャルンホルスト</string>
-    <string icon="0xd5">グナイゼナウ</string>
-    <string icon="0xd5">ドレッドノ-ト</string>
-    <string icon="0xd6">バトルアクス</string>
-    <string icon="0xd6">バ-ニングアクス</string>
-    <string icon="0xd6">クレッセント</string>
-    <string icon="0xd6">グランドスラム</string>
-    <string icon="0xd6">ニュルニム</string>
-    <string icon="0xd6">メガバスタ-</string>
-    <string icon="0xd6">デストロイヤ-</string>
-    <string icon="0xd6">アイアンデュ-ク</string>
-    <string icon="0xd6">マテじるしオノ</string>
-    <string icon="0xd7">レイピア</string>
-    <string icon="0xd7">セイレ-ン</string>
-    <string icon="0xd7">カッサンドラ</string>
-    <string icon="0xd7">マインゴ-シュ</string>
-    <string icon="0xd7">シグル-ン</string>
-    <string icon="0xd7">エタンダ-ル</string>
-    <string icon="0xd7">ヴァンピネラ</string>
-    <string icon="0xd7">プリンツオイゲン</string>
-    <string icon="0xd8">ハルベルト</string>
-    <string icon="0xd8">コキュ-トス</string>
-    <string icon="0xd8">エクスキュ-タ-</string>
-    <string icon="0xd8">ハ-プ-ン</string>
-    <string icon="0xd8">アルスヴィズ</string>
-    <string icon="0xd8">ブリュ-ナグ</string>
-    <string icon="0xd8">ロンギヌス</string>
-    <string icon="0xd8">インビンシブル</string>
-    <string icon="0xd9">ロッド</string>
-    <string icon="0xd9">ファイアロッド</string>
-    <string icon="0xd9">フリ-ズロッド</string>
-    <string icon="0xd9">サンダ-ロッド</string>
-    <string icon="0xd9">ドラッグロッド</string>
-    <string icon="0xd9">マスタ-ロッド</string>
-    <string icon="0xd9">アソウルト</string>
-    <string icon="0xd9">ジハ-ド</string>
-    <string icon="0xd9">エンプレスカ-ナ</string>
-    <string icon="0xda">カットラス</string>
-    <string icon="0xda">カラミティアス</string>
-    <string icon="0xda">デルタダガ-</string>
-    <string icon="0xda">ク-ゲルブリッツ</string>
-    <string icon="0xda">デリンジャ-</string>
-    <string icon="0xdb">プレ-トメイル</string>
-    <string icon="0xdb">アイスア-マ-</string>
-    <string icon="0xdb">ダイヤア-マ-</string>
-    <string icon="0xdb">フレイムメイル</string>
-    <string icon="0xdb">マクシミリアン</string>
-    <string icon="0xdb">ブラックバ-ン</string>
-    <string icon="0xdb">ステルスア-マ-</string>
-    <string icon="0xdb">ビガ-ズア-マ-</string>
-    <string icon="0xdb">アルマダメイル</string>
-    <string icon="0xdb">チョバムア-マ-</string>
-    <string icon="0xdb">レコンキスタ</string>
-    <string icon="0xdb">パクスカ-ナ</string>
-    <string icon="0xdb">マテじるしヨロイ</string>
-    <string icon="0xdb">ブラックプリンス</string>
-    <string icon="0xdb">インペラト-ル</string>
-    <string icon="0xdc">レザ-ア-マ-</string>
-    <string icon="0xdc">アイスジャケット</string>
-    <string icon="0xdc">フレイムベスト</string>
-    <string icon="0xdc">ダイヤジャケット</string>
-    <string icon="0xdc">ブリガンダイン</string>
-    <string icon="0xdc">スレイプニル</string>
-    <string icon="0xdc">バトルドレス</string>
-    <string icon="0xdc">マッハベスト</string>
-    <string icon="0xdc">マ-シャルネイ</string>
-    <string icon="0xdc">パワ-ドス-ツ</string>
-    <string icon="0xdc">エネルギ-ス-ツ</string>
-    <string icon="0xdd">シルクロ-ブ</string>
-    <string icon="0xdd">ガイア-ド</string>
-    <string icon="0xdd">バ-ニング</string>
-    <string icon="0xdd">ニンバスロ-ブ</string>
-    <string icon="0xdd">アウロ-ラ</string>
-    <string icon="0xdd">サンダ-ラ</string>
-    <string icon="0xdd">ダ-クフォ-ス</string>
-    <string icon="0xdd">カイザ-リン</string>
-    <string icon="0xdd">ロイヤルガウン</string>
-    <string icon="0xde">ドラッグ</string>
-    <string icon="0xde">ハイドラッグ</string>
-    <string icon="0xde">ロイヤルドラッグ</string>
-    <string icon="0xde">マジックジン</string>
-    <string icon="0xde">ハイマジックジン</string>
-    <string icon="0xde">エリクサ-</string>
-    <string icon="0xde">リタンシブル</string>
-    <string icon="0xde">リタンシブルSP</string>
-    <string icon="0xde">ばんのうやく</string>
-    <string icon="0xde">ばんのうやくSP</string>
-    <string icon="0xe0">ほのおのくさ</string>
-    <string icon="0xe0">こおりのくさ</string>
-    <string icon="0xe0">いかずちのくさ</string>
-    <string icon="0xe0">どくのくさ</string>
-    <string icon="0xe0">いのちのくさ</string>
-    <string icon="0xe0">だいちのくさ</string>
-    <string icon="0xe0">せいなるくさ</string>
-    <string icon="0xe0">あんこくのくさ</string>
-    <string icon="0xe0">こうかいにっし</string>
-    <string icon="0xe0">しゅうさいノ-ト</string>
-    <string icon="0xe0">むずかしぼん</string>
-    <string icon="0xe0">てんさいノ-ト</string>
-    <string icon="0xe0">せんりゃくろん</string>
-    <string icon="0xe0">エッチぼん</string>
-    <string icon="0xe0">すごいエッチぼん</string>
-    <string icon="0xe0">ポエムにっき</string>
-    <string icon="0xe0">あまいワイン</string>
-    <string icon="0xe0">てづくりクッキ-</string>
-    <string icon="0xe0">たんすのアレ</string>
-    <string icon="0xe0">あまあまハニ-</string>
-    <string icon="0xe0">あまいおもいで</string>
-    <string icon="0xe0">ス-パ-ウオッカ</string>
-    <string icon="0xe0">にがいおもいで</string>
-    <string icon="0xe0">しっぱいクッキ-</string>
-    <string icon="0xe0">ドラゴンのふん</string>
-    <string icon="0xe0">にがいワイン</string>
-    <string icon="0xe0">どくどくキノコ</string>
-    <string icon="0xe0">けばけばキノコ</string>
-    <string icon="0xe0">ぐろぐろキノコ</string>
-    <string icon="0xe0">うにうじ</string>
-    <string icon="0xe0">おうじょの???</string>
-    <string icon="0xe0">グンソ-の???</string>
-    <string icon="0xe0">おてがみ</string>
+    <string icon="0xef" jp="そうびなし">Aucun</string>
+    <string icon="0xd5" jp="ロングソ-ド">Epée longue</string>
+    <string icon="0xd5" jp="アイスブランド">Lame de glace</string>
+    <string icon="0xd5" jp="スパ-クブレイド">Lame-éclair</string>
+    <string icon="0xd5" jp="フレイムタン">Langue de feu</string>
+    <string icon="0xd5" jp="バスタ-ドソ-ド">Epée bâtarde</string>
+    <string icon="0xd5" jp="アポカリプス">Apocalypse</string>
+    <string icon="0xd5" jp="エクスカリバ-">Excalibur</string>
+    <string icon="0xd5" jp="シャルンホルスト">Scharnhorst</string>
+    <string icon="0xd5" jp="グナイゼナウ">Gneisenau</string>
+    <string icon="0xd5" jp="ドレッドノ-ト">Dreadnought</string>
+    <string icon="0xd6" jp="バトルアクス">Hache</string>
+    <string icon="0xd6" jp="バ-ニングアクス">Hache ardente</string>
+    <string icon="0xd6" jp="クレッセント">Croissant</string>
+    <string icon="0xd6" jp="グランドスラム">Grand Chelem</string>
+    <string icon="0xd6" jp="ニュルニム">Nurnim</string>
+    <string icon="0xd6" jp="メガバスタ-">Méga Buster</string>
+    <string icon="0xd6" jp="デストロイヤ-">Destroyer</string>
+    <string icon="0xd6" jp="アイアンデュ-ク">Iron Duke</string>
+    <string icon="0xd6" jp="マテじるしオノ">Hache Matelite</string>
+    <string icon="0xd7" jp="レイピア">Rapière</string>
+    <string icon="0xd7" jp="セイレ-ン">Sirène</string>
+    <string icon="0xd7" jp="カッサンドラ">Cassandre</string>
+    <string icon="0xd7" jp="マインゴ-シュ">Main-gauche</string>
+    <string icon="0xd7" jp="シグル-ン">Sigrun</string>
+    <string icon="0xd7" jp="エタンダ-ル">Etendard</string>
+    <string icon="0xd7" jp="ヴァンピネラ">Vampinella</string>
+    <string icon="0xd7" jp="プリンツオイゲン">Prinz Eugen</string>
+    <string icon="0xd8" jp="ハルベルト">Hallebarde</string>
+    <string icon="0xd8" jp="コキュ-トス">Cocyte</string>
+    <string icon="0xd8" jp="エクスキュ-タ-">Exécuteur</string>
+    <string icon="0xd8" jp="ハ-プ-ン">Harpon</string>
+    <string icon="0xd8" jp="アルスヴィズ">Alsvid</string>
+    <string icon="0xd8" jp="ブリュ-ナグ">Brionac</string>
+    <string icon="0xd8" jp="ロンギヌス">Longinus</string>
+    <string icon="0xd8" jp="インビンシブル">Invincible</string>
+    <string icon="0xd9" jp="ロッド">Bâton</string>
+    <string icon="0xd9" jp="ファイアロッド">Bâton de feu</string>
+    <string icon="0xd9" jp="フリ-ズロッド">Bâton de glace</string>
+    <string icon="0xd9" jp="サンダ-ロッド">Bâton foudre</string>
+    <string icon="0xd9" jp="ドラッグロッド">Bâton de soin</string>
+    <string icon="0xd9" jp="マスタ-ロッド">Bâton maître</string>
+    <string icon="0xd9" jp="アソウルト">Assaut</string>
+    <string icon="0xd9" jp="ジハ-ド">Guerre sainte</string>
+    <string icon="0xd9" jp="エンプレスカ-ナ">Impératrice</string>
+    <string icon="0xda" jp="カットラス">Coutelas</string>
+    <string icon="0xda" jp="カラミティアス">Calamitas</string>
+    <string icon="0xda" jp="デルタダガ-">Dague delta</string>
+    <string icon="0xda" jp="ク-ゲルブリッツ">Kugelblitz</string>
+    <string icon="0xda" jp="デリンジャ-">Derringer</string>
+    <string icon="0xdb" jp="プレ-トメイル">Armure plates</string>
+    <string icon="0xdb" jp="アイスア-マ-">Armure de glace</string>
+    <string icon="0xdb" jp="ダイヤア-マ-">Armure diamant</string>
+    <string icon="0xdb" jp="フレイムメイル">Armure de feu</string>
+    <string icon="0xdb" jp="マクシミリアン">Maximilien</string>
+    <string icon="0xdb" jp="ブラックバ-ン">Blackburn</string>
+    <string icon="0xdb" jp="ステルスア-マ-">Armure furtive</string>
+    <string icon="0xdb" jp="ビガ-ズア-マ-">Armure Bigger</string>
+    <string icon="0xdb" jp="アルマダメイル">Armure Armada</string>
+    <string icon="0xdb" jp="チョバムア-マ-">Armure Chobham</string>
+    <string icon="0xdb" jp="レコンキスタ">Reconquista</string>
+    <string icon="0xdb" jp="パクスカ-ナ">Pax Kana</string>
+    <string icon="0xdb" jp="マテじるしヨロイ">Armure Matelite</string>
+    <string icon="0xdb" jp="ブラックプリンス">Prince Noir</string>
+    <string icon="0xdb" jp="インペラト-ル">Imperator</string>
+    <string icon="0xdc" jp="レザ-ア-マ-">Armure de cuir</string>
+    <string icon="0xdc" jp="アイスジャケット">Veste de glace</string>
+    <string icon="0xdc" jp="フレイムベスト">Gilet de feu</string>
+    <string icon="0xdc" jp="ダイヤジャケット">Veste diamant</string>
+    <string icon="0xdc" jp="ブリガンダイン">Brigandine</string>
+    <string icon="0xdc" jp="スレイプニル">Sleipnir</string>
+    <string icon="0xdc" jp="バトルドレス">Tenue de combat</string>
+    <string icon="0xdc" jp="マッハベスト">Gilet Mach</string>
+    <string icon="0xdc" jp="マ-シャルネイ">Maréchal Ney</string>
+    <string icon="0xdc" jp="パワ-ドス-ツ">Exosquelette</string>
+    <string icon="0xdc" jp="エネルギ-ス-ツ">Tenue énergie</string>
+    <string icon="0xdd" jp="シルクロ-ブ">Robe de soie</string>
+    <string icon="0xdd" jp="ガイア-ド">Gaiard</string>
+    <string icon="0xdd" jp="バ-ニング">Ardente</string>
+    <string icon="0xdd" jp="ニンバスロ-ブ">Robe Nimbus</string>
+    <string icon="0xdd" jp="アウロ-ラ">Aurore</string>
+    <string icon="0xdd" jp="サンダ-ラ">Sandara</string>
+    <string icon="0xdd" jp="ダ-クフォ-ス">Force noire</string>
+    <string icon="0xdd" jp="カイザ-リン">Kaiserin</string>
+    <string icon="0xdd" jp="ロイヤルガウン">Robe royale</string>
+    <string icon="0xde" jp="ドラッグ">Remède</string>
+    <string icon="0xde" jp="ハイドラッグ">Super remède</string>
+    <string icon="0xde" jp="ロイヤルドラッグ">Remède royal</string>
+    <string icon="0xde" jp="マジックジン">Gin magique</string>
+    <string icon="0xde" jp="ハイマジックジン">Super gin</string>
+    <string icon="0xde" jp="エリクサ-">Elixir</string>
+    <string icon="0xde" jp="リタンシブル">Résurrect</string>
+    <string icon="0xde" jp="リタンシブルSP">Résurrect SP</string>
+    <string icon="0xde" jp="ばんのうやく">Panacée</string>
+    <string icon="0xde" jp="ばんのうやくSP">Panacée SP</string>
+    <string icon="0xe0" jp="ほのおのくさ">Herbe de feu</string>
+    <string icon="0xe0" jp="こおりのくさ">Herbe de glace</string>
+    <string icon="0xe0" jp="いかずちのくさ">Herbe foudre</string>
+    <string icon="0xe0" jp="どくのくさ">Herbe toxique</string>
+    <string icon="0xe0" jp="いのちのくさ">Herbe de vie</string>
+    <string icon="0xe0" jp="だいちのくさ">Herbe de terre</string>
+    <string icon="0xe0" jp="せいなるくさ">Herbe sacrée</string>
+    <string icon="0xe0" jp="あんこくのくさ">Herbe noire</string>
+    <string icon="0xe0" jp="こうかいにっし">Journal de bord</string>
+    <string icon="0xe0" jp="しゅうさいノ-ト">Notes d'élève</string>
+    <string icon="0xe0" jp="むずかしぼん">Livre ardu</string>
+    <string icon="0xe0" jp="てんさいノ-ト">Notes de génie</string>
+    <string icon="0xe0" jp="せんりゃくろん">Traité tactique</string>
+    <string icon="0xe0" jp="エッチぼん">Livre osé</string>
+    <string icon="0xe0" jp="すごいエッチぼん">Livre très osé</string>
+    <string icon="0xe0" jp="ポエムにっき">Carnet de poèmes</string>
+    <string icon="0xe0" jp="あまいワイン">Vin doux</string>
+    <string icon="0xe0" jp="てづくりクッキ-">Biscuits maison</string>
+    <string icon="0xe0" jp="たんすのアレ">Truc du tiroir</string>
+    <string icon="0xe0" jp="あまあまハニ-">Miel sucré</string>
+    <string icon="0xe0" jp="あまいおもいで">Doux souvenir</string>
+    <string icon="0xe0" jp="ス-パ-ウオッカ">Super vodka</string>
+    <string icon="0xe0" jp="にがいおもいで">Souvenir amer</string>
+    <string icon="0xe0" jp="しっぱいクッキ-">Biscuits ratés</string>
+    <string icon="0xe0" jp="ドラゴンのふん">Crotte de dragon</string>
+    <string icon="0xe0" jp="にがいワイン">Vin amer</string>
+    <string icon="0xe0" jp="どくどくキノコ">Champi toxique</string>
+    <string icon="0xe0" jp="けばけばキノコ">Champi criard</string>
+    <string icon="0xe0" jp="ぐろぐろキノコ">Champi gluant</string>
+    <string icon="0xe0" jp="うにうじ">Asticot uni</string>
+    <string icon="0xe0" jp="おうじょの???">??? princesse</string>
+    <string icon="0xe0" jp="グンソ-の???">??? de Gunso</string>
+    <string icon="0xe0" jp="おてがみ">Lettre</string>
 </item_names>

@@ -31,7 +31,10 @@ NAME_TABLES = (
     NameTable("enemy_names", Path("text/enemies.xml"), 0xEF1F50),
     NameTable("class_names", Path("text/classes.xml"), 0xEF6360),
     NameTable("dragon_names", Path("text/dragons.xml"), 0xEF63D8),
+    NameTable("spell_names", Path("text/spells.xml"), 0xEF5920),
 )
+ITEM_NAMES = Path("text/items.xml")
+ITEM_RECORDS = 0xEF3CA0  # icon, then the name cut to a record
 
 
 def read_names(source: Path) -> list[str]:
@@ -54,6 +57,18 @@ def insert_short_names(writer, table: Table) -> None:
     for name_table in NAME_TABLES:
         records = b"".join(short_record(encode(table, name)) for name in read_names(name_table.source))
         writer.write_block(records, rom_offset(name_table.address))
+
+
+def item_records(table: Table, source: Path = ITEM_NAMES) -> bytes:
+    """Item name records: the icon code, then the name as short_record cuts it."""
+    records = b""
+    for string in ET.parse(source).getroot():
+        records += bytes([int(string.get("icon"), 16)]) + short_record(encode(table, string.text or ""))
+    return records
+
+
+def insert_item_names(writer, table: Table) -> None:
+    writer.write_block(item_records(table), rom_offset(ITEM_RECORDS))
 
 
 def long_names_source(table: Table) -> str:

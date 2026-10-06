@@ -21,12 +21,11 @@ from utils.inline_strings import (
     InlineStringHook,
     inline_string_hooks_source,
     insert_battle_commands_strings,
-    insert_battle_fixed,
     insert_dragon_feed_inline_strings,
     insert_inline_strings,
     insert_messages_strings,
 )
-from utils.name_tables import insert_short_names, long_names_source
+from utils.name_tables import insert_item_names, insert_short_names, long_names_source
 
 logger = logging.getLogger(__name__)
 
@@ -164,7 +163,7 @@ def insert_text(writer: IPSWriter) -> list[InlineStringHook]:
     )
 
     insert_short_names(writer, Table(str(TABLE)))
-    insert_battle_fixed(writer)
+    insert_item_names(writer, Table(str(TABLE)))
     return hooks
 
 
