@@ -50,3 +50,12 @@ def test_map_unit_info_draws_with_the_small_vwf(console):
     console.tap(console.button.A)  # its box: C0A9B8, copied and drawn through the battle panel's VWF
     console.emu.run_frames(120)
     assert console.matches_golden("battle-menu-unit-info")
+
+
+def test_dragon_team_names_keep_their_neighbours(console):
+    open_menu_entry(console, 4)  # Dragon
+    console.tap(console.button.A)
+    console.emu.run_frames(150)
+    console.tap(console.button.DOWN)  # team 4: Matelite's field reaches the column Défense starts in
+    console.emu.run_frames(60)
+    assert console.matches_golden("battle-menu-dragon-team")
