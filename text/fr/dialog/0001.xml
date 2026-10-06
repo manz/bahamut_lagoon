@@ -139,7 +139,7 @@ Content de te revoir ![end]</data>
         <refs>
             <ref>0x46b</ref>
         </refs>
-        <data>Zora Où est [character][0x0] ?![end]</data>
+        <data>Zora: Où est [character][0x0] ?![end]</data>
     </text>
     <text>
         <refs>

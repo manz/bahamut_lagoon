@@ -26,16 +26,16 @@ Vous ne parvenez pas à trouver le sommeil ?[end]</data>
         <refs>
             <ref>0x11f</ref>
         </refs>
-        <data>[character][0xa]: Votre Majesté Impériale à vu juste...[end]</data>
+        <data>[character][0xa]: Votre Majesté Impériale a vu juste...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x12c</ref>
         </refs>
-        <data>Sauzer: Est-ce la la Légende dont nous rêvons qui vous
+        <data>Sauzer: Est-ce la Légende dont nous rêvons qui vous
 empêche de dormir ?
 
-Maintenant elle est à nôtre portée...[end]</data>
+Maintenant elle est à notre portée...[end]</data>
     </text>
     <text>
         <refs>
