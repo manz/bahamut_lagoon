@@ -33,6 +33,7 @@ draws a kana with a dakuten mark instead, and 0x33-0x5F are the kana themselves)
 LINE = 0x0620
 LINE_CELLS = 30
 COPY_CELLS = 12  ; small_vwf's cells: a longer field is blank past them
+MAX_CHARS = 16  ; small_vwf's
 PLACEHOLDER = 0x01
 BLANK = 0xEF
 TILE_BYTES = 16
@@ -71,6 +72,7 @@ FIRST_WINDOW_RUN = 4 * 2
     word slot
     word slot_run
     byte slot_code
+    byte changed
     word source
     word window_source
     word copy_end
@@ -126,9 +128,10 @@ engine wrote it.
     bcc _vanilla_copy
     cpx.w #LINE + LINE_CELLS
     bcs _vanilla_copy
+    lda #MAX_CHARS  ; the field's cells bound it, not its characters
+    sta.l small_vwf.max_chars
     lda.b 0x08
     beq _vanilla_copy
-    sta.l small_vwf.max_chars
     cmp #COPY_CELLS
     bcc _cells
     lda #COPY_CELLS
@@ -492,8 +495,12 @@ _fill_slot:
     lda #TILE_2BPP
     sta.l tile_pool.format
     jsl.l tile_blit
-    bcc _unchanged
-    jsr.w _window_copy
+    lda #0x00
+    rol
+    sta.l panel.changed
+    jsr.w _window_copy  ; even unchanged: a blank cell's window copy still needs its colour 4
+    lda.l panel.changed
+    beq _unchanged
     rep #0x20
     lda.l panel.slot_run
     tax
@@ -506,7 +513,7 @@ _unchanged:
     rts
 
 _window_copy:
-"""A changed window slot (panel.slot) gets its 4bpp copy, over the window's colour 4."""
+"""A window slot (panel.slot) gets its 4bpp copy, over the window's colour 4; panel.changed when it changed."""
     rep #0x30
     lda.l panel.slot
     sec
@@ -536,6 +543,10 @@ _window_copy:
     lda #TILE_4BPP_FILL
     sta.l tile_pool.format
     jsl.l tile_blit
+    lda #0x00
+    rol
+    ora.l panel.changed
+    sta.l panel.changed
 _not_window:
     sep #0x20
     rts
