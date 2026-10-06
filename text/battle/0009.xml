@@ -4,41 +4,41 @@
         <refs>
             <ref>0x28</ref>
         </refs>
-        <data>Lestat: Heeheehee!![0xfc][0x18]
-So, you're the mighty Resistance I've
-heard so much about.[end1][end]</data>
+        <data>RESTATTO: Hihihi!![0xfc][0x18]
+Alors c'est vous, la fameuse Résistance
+dont on m'a tant parlé.[end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x33</ref>
         </refs>
-        <data>Taicho: Lestat![0xfc][0x18] So, now we meet at last![end1][end]</data>
+        <data>COMMANDANT: Restatto![0xfc][0x18] Enfin, nous nous rencontrons![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x37</ref>
         </refs>
-        <data>The malice of those killed by you...[0xfc][0x28]
-You will now taste it for yourself!![end1][end]</data>
+        <data>La rancune de ceux que tu as tués...[0xfc][0x28]
+Tu vas y goûter à ton tour!![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3e</ref>
         </refs>
-        <data>“Condition for Victory:”[0xfc][0x28]
-“Defeat of Lestat”[end]</data>
+        <data>``Condition de victoire :''[0xfc][0x28]
+``Vaincre Restatto''[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfb</ref>
         </refs>
-        <data>Lestat: Try to stay afloat, the force
-of the water could drown you![end1][end]</data>
+        <data>RESTATTO: Tâchez de rester à flot, la force
+de l'eau pourrait vous noyer![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x10c</ref>
         </refs>
-        <data>Granbelos soldier: HELP MEEEeeeeeee.....[end][end]</data>
+        <data>SOLDAT DE GRANBELOS: A L'AIIIIIIDE.....[end][end]</data>
     </text>
 </texts>

@@ -4,7 +4,7 @@
         <refs>
             <ref>0x28</ref>
         </refs>
-        <data>“Condition for Victory:”[0xfc][0x28]
-“Defeat of the King of Pain”[end][end]</data>
+        <data>``Condition de victoire :''[0xfc][0x28]
+``Vaincre le Roi de la Douleur''[end][end]</data>
     </text>
 </texts>

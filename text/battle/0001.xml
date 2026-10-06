@@ -4,70 +4,70 @@
         <refs>
             <ref>0xba</ref>
         </refs>
-        <data>Everybody get inside!![0xfc][0x18][end1][end]</data>
+        <data>Tout le monde à l'intérieur!![0xfc][0x18][end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2c</ref>
         </refs>
-        <data>Matelite: Looks like the Imperial army's
-still around!![end1][end]</data>
+        <data>MATELIGHT: On dirait que l'armée impériale
+est toujours là!![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x30</ref>
         </refs>
-        <data>We're gonna kick the crap out of them
-and take back Kahna's flagship!![end1][end]</data>
+        <data>On va leur flanquer une raclée et reprendre
+le vaisseau amiral de Kana!![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x37</ref>
         </refs>
-        <data>Enemy approaching!!
-The Resistance is attacking?![end]</data>
+        <data>L'ennemi approche!!
+La Résistance attaque?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x40</ref>
         </refs>
-        <data>Yo, I'm the boss here!!
-I won the position in the
-javelin-throwing competition!![end]</data>
+        <data>Hé, c'est moi le chef ici!!
+J'ai gagné ma place au concours
+de lancer de javelot!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4b</ref>
         </refs>
-        <data>“Condition for Victory:”
-“Defeat of the boss”[end]</data>
+        <data>``Condition de victoire :''
+``Vaincre le chef''[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x99</ref>
         </refs>
-        <data>Take good care of your dragons!!
-Use the dragon commands properly...[end1][end]</data>
+        <data>Prenez bien soin de vos dragons!!
+Utilisez les ordres aux dragons avec soin...[end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9d</ref>
         </refs>
-        <data>Don't forget about [0xfc][0x18][0x22]Come[0x22] and [0x22]Wait[0x22]!![end1][end]</data>
+        <data>N'oubliez pas [0xfc][0x18]``Reviens'' et ``Attends''!![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa4</ref>
         </refs>
-        <data>If our dragons are slain in battle, we
-won't be able to use our magic and
-techs! So be careful!![end1][end]</data>
+        <data>Si nos dragons tombent au combat, nous ne
+pourrons plus utiliser nos magies et nos
+techniques! Alors prudence!![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb3</ref>
         </refs>
-        <data>Matelite: OK!![0xfc][0x20] I'm taking charge of the
-ship!![end1][end]</data>
+        <data>MATELIGHT: Bien!![0xfc][0x20] Je prends le commandement
+du vaisseau!![end1][end]</data>
     </text>
 </texts>

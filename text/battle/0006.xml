@@ -4,14 +4,14 @@
         <refs>
             <ref>0x28</ref>
         </refs>
-        <data>“Condition for Victory:”[0xfc][0x28]
-“Defeat of Zomberd”[end]</data>
+        <data>``Condition de victoire :''[0xfc][0x28]
+``Vaincre Zomberd''[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7b</ref>
         </refs>
-        <data>Zomberd: Ahaha!! You fell into my trap,
-Resistance scum![end1][end]</data>
+        <data>ZOMBERD: Ahaha!! Vous êtes tombés dans mon
+piège, racaille de la Résistance![end1][end]</data>
     </text>
 </texts>

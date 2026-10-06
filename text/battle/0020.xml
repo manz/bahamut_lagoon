@@ -4,77 +4,77 @@
         <refs>
             <ref>0x2e</ref>
         </refs>
-        <data>Matelite: So, this is the Empire's
-floating fortress?![end1][end]</data>
+        <data>MATELIGHT: Voici donc la forteresse
+volante de l'Empire?![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3b</ref>
         </refs>
-        <data>[character][0x1]: There's a Holy Dragon
-here...[0xfc][0x18] A Holy Dragon with tremendous
-power...![end1][end]</data>
+        <data>[character][0x1]: Il y a un Dragon Sacré
+ici...[0xfc][0x18] Un Dragon Sacré d'une
+puissance immense...![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x48</ref>
         </refs>
-        <data>Taicho: The fortress utilizes the power
-of a Holy Dragon?[0xfc][0x18] That is amazing!![end1][end]</data>
+        <data>COMMANDANT: La forteresse utilise la
+puissance d'un Dragon Sacré?[0xfc][0x18] Incroyable!![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x55</ref>
         </refs>
-        <data>Palpaleos: Sauzer...[0xfc][0x18]
-Are you here as well...?[end1][end]</data>
+        <data>PALPALEOS: Sauzer...[0xfc][0x18]
+Es-tu ici, toi aussi...?[end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5e</ref>
         </refs>
-        <data>“Condition for Victory:”[0xfc][0x28]
-“Defeat of Irvine”[end]</data>
+        <data>``Condition de victoire :''[0xfc][0x28]
+``Vaincre Irvine''[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9e</ref>
         </refs>
-        <data>Taicho: What are those on the floor?[0xfc][0x15]
-They appear suspicious!![end1][end]</data>
+        <data>COMMANDANT: Qu'y a-t-il sur le sol?[0xfc][0x15]
+Cela semble louche!![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa8</ref>
         </refs>
-        <data>Matelite: They've got nothing to do
-with us defeating the enemy!!
-[0xfc][0x18]Just attack!![end1][end]</data>
+        <data>MATELIGHT: Cela n'a rien à voir avec la
+défaite de l'ennemi!!
+[0xfc][0x18]Attaquez, c'est tout!![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0xaf</ref>
         </refs>
-        <data>Are they not some sort of trap?[end1][end]</data>
+        <data>Ne serait-ce pas un piège?[end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0xba</ref>
         </refs>
-        <data>There's something on the floor![end1][end]</data>
+        <data>Il y a quelque chose sur le sol![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc1</ref>
         </refs>
-        <data>Be careful, everyone.[end1][end]</data>
+        <data>Soyez prudents, tous.[end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0xbff</ref>
         </refs>
-        <data>There's something in the back room!![0xfc][0x18]
-A Holy Dragon...?[0xfc][0x18] I have a bad feeling
-about this... But let's check it out...[end1][end]</data>
+        <data>Il y a quelque chose dans la salle du fond!![0xfc][0x18]
+Un Dragon Sacré...?[0xfc][0x18] J'ai un mauvais
+pressentiment... Mais allons voir...[end1][end]</data>
     </text>
 </texts>

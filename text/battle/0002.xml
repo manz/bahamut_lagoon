@@ -4,64 +4,64 @@
         <refs>
             <ref>0x2c</ref>
         </refs>
-        <data>Matelite: Princess [character][0x1] is in the
-fortress up ahead!![end1][end]</data>
+        <data>MATELIGHT: La Princesse [character][0x1] est dans
+la forteresse, droit devant!![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x30</ref>
         </refs>
-        <data>Right!![end1][end]</data>
+        <data>Compris!![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3d</ref>
         </refs>
-        <data>Princess [character][0x1]!![0xfc][0x18]
-Matelite is on his way!![end1][end]</data>
+        <data>Princesse [character][0x1]!![0xfc][0x18]
+Matelight arrive!![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x48</ref>
         </refs>
-        <data>Let's go, everybody!![0xfc][0x18]
-This time we'll show them what we're
-made of!![end1][end]</data>
+        <data>En avant, tout le monde!![0xfc][0x18]
+Cette fois, montrons-leur de quoi nous
+sommes capables!![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4f</ref>
         </refs>
-        <data>Matelite: If we defeat an enemy with
-an indirect attack, we only get half the
-money!![end1][end]</data>
+        <data>MATELIGHT: Si on vainc un ennemi avec une
+attaque indirecte, on ne touche que la
+moitié de l'argent!![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5a</ref>
         </refs>
-        <data>Taicho: We are poor! We need money!![0xfc][0x18]
-Money, money, money!![end1][end]</data>
+        <data>COMMANDANT: Nous sommes pauvres! Il nous faut
+de l'argent!![0xfc][0x18] De l'argent, de l'argent!![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x65</ref>
         </refs>
-        <data>Matelite: Crush them in head-on
-attacks!![0xfc][0x18] And take no prisoners!![end1][end]</data>
+        <data>MATELIGHT: Écrasez-les en attaque
+directe!![0xfc][0x18] Et pas de quartier!![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x74</ref>
         </refs>
-        <data>Sendak: The green continent of
-Campbell...[0xfc][0x30] Something is in the air...[0xfc][0x18][end1][end]</data>
+        <data>SENDACK: Le continent verdoyant de
+Campbell...[0xfc][0x30] Il y a quelque chose dans l'air...[0xfc][0x18][end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7f</ref>
         </refs>
-        <data>“Condition for Victory:”[0xfc][0x28]
-“Defeat of the boss”[end][end]</data>
+        <data>``Condition de victoire :''[0xfc][0x28]
+``Vaincre le chef''[end][end]</data>
     </text>
 </texts>
