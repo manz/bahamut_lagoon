@@ -1226,12 +1226,12 @@ _not_slot:
     bpl _scan_cell
     ldx.w #MENU_BG3_RUNS - 1
 _check_run:
+    txa
+    sta.l menu.run  ; before the free test: _next_run3 steps down from it
     sep #0x20
     lda.l menu.run_bank, x
     rep #0x20
     beq _next_run3
-    txa
-    sta.l menu.run
     jsr.w _run_shown
     bcs _next_run3
     jsr.w _free_run3

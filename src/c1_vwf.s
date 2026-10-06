@@ -42,10 +42,12 @@ C1_NO_RECORD = 0xFF
 
 ; slot_owner: the shadow cell a slot draws, plus 1; 0 when free (cells are even). type: the name type C12EC0 copied,
 ; C1_NO_RECORD when none; id its id. field: the cells the engine's draw covers. index: 1 when an icon came first.
-; dirty: a bit per run. The rest is scratch.
+; dirty: a bit per run. slot_generation: the generation a slot's tile last went up in; generation counts the
+; chunked uploads, which may write over the slots. The rest is scratch.
 .struct C1Vwf {
     byte[C1_SLOTS * C1_TILE_4BPP] tiles
     word[C1_SLOTS] slot_owner
+    byte[C1_SLOTS] slot_generation
     word type
     word id
     word field
@@ -56,10 +58,17 @@ C1_NO_RECORD = 0xFF
     word key
     byte dirty
     byte changed
+    byte generation
 }
 
 .reserve c1 as C1Vwf in sram_c1
 
+
+; C1081C, the chunked VRAM upload (the screen's font, 0x400 bytes a frame): rep #0x20 / lda $0924.
+.alloc at 0xC1081C {
+    jml.l c1_chunk_upload
+    nop
+}
 
 ; C12EC0: sep #0x20 / pha / lda #0x70.
 .alloc at 0xC12EC0 {
@@ -371,6 +380,17 @@ _fill_slot:
     jsl.l tile_blit
     rol
     sta.l c1.changed
+    rep #0x30
+    lda.l c1.slot
+    tax
+    sep #0x20
+    lda.l c1.generation
+    cmp.l c1.slot_generation, x
+    beq _same_generation
+    sta.l c1.slot_generation, x
+    lda #0x01  ; an upload wrote over the slot's VRAM since: upload it again
+    sta.l c1.changed
+_same_generation:
     lda.l c1.changed
     beq _unchanged
     lda.l c1.slot
@@ -388,6 +408,18 @@ _run_bit:
 _unchanged:
     rep #0x30
     rts
+
+c1_chunk_upload:
+"""A chunked upload may write over the slots: every slot counts as changed at its next draw."""
+    php
+    sep #0x20
+    lda.l c1.generation
+    inc
+    sta.l c1.generation
+    plp
+    rep #0x20
+    lda.w 0x0924
+    jml.l 0xC10821
 
 c1_upload:
 """
