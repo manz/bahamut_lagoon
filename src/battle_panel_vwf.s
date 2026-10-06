@@ -23,8 +23,11 @@ draws a kana with a dakuten mark instead, and 0x33-0x5F are the kana themselves)
 
 .include "src/expansion.i"
 .include "src/sram_work.i"
+.include "src/tile_pool.i"
 .extern small_vwf_render
 .extern small_vwf
+.extern tile_blit
+.extern tile_pool
 
 
 LINE = 0x0620
@@ -68,10 +71,8 @@ FIRST_WINDOW_RUN = 4 * 2
     word slot
     word slot_run
     byte slot_code
-    byte changed
     word source
     word window_source
-    word rows
     word copy_end
 }
 
@@ -466,44 +467,32 @@ _fill_slot:
     sta.l panel.pool_cell, x
     lda #0x00
     sta.l panel.pool_flags, x
-    sta.l panel.changed
     rep #0x20
     txa
     asl
     asl
     asl
     asl
-    tax
+    clc
+    adc.w #panel.pool_tiles & 0xFFFF
+    sta.l tile_pool.destination
     lda.l panel.cell
     asl
     asl
     asl
     asl
-    phy
-    tay
+    clc
+    adc.w #panel.line_strip & 0xFFFF
+    sta.l tile_pool.source
     sep #0x20
-    lda #TILE_BYTES
-    sta.l small_vwf.rows
-_copy:
-    phx
-    tyx
-    lda.l panel.line_strip, x
-    plx
-    cmp.l panel.pool_tiles, x
-    beq _same
-    sta.l panel.pool_tiles, x
-    lda #0x01
-    sta.l panel.changed
-_same:
-    inx
-    iny
-    lda.l small_vwf.rows
-    dec
-    sta.l small_vwf.rows
-    bne _copy
-    ply
-    lda.l panel.changed
-    beq _unchanged
+    lda #panel.line_strip >> 16
+    sta.l tile_pool.source + 2
+    lda #panel.pool_tiles >> 16
+    sta.l tile_pool.destination + 2
+    lda #TILE_2BPP
+    sta.l tile_pool.format
+    jsl.l tile_blit
+    bcc _unchanged
     jsr.w _window_copy
     rep #0x20
     lda.l panel.slot_run
@@ -517,12 +506,8 @@ _unchanged:
     rts
 
 _window_copy:
-"""
-A changed window slot (panel.slot) gets its 4bpp copy: planes 0 and 1, plane 2 where both are clear, plane 3
-clear.
-"""
+"""A changed window slot (panel.slot) gets its 4bpp copy, over the window's colour 4."""
     rep #0x30
-    phy
     lda.l panel.slot
     sec
     sbc.w #POOL_SLOTS
@@ -532,39 +517,26 @@ clear.
     asl
     asl
     asl
-    tay  ; Y: the 4bpp tile
+    clc
+    adc.w #panel.window_tiles & 0xFFFF
+    sta.l tile_pool.destination
     lda.l panel.slot
     asl
     asl
     asl
     asl
-    tax  ; X: the 2bpp tile
-    lda.w #TILE_BYTES / 2
-    sta.l panel.rows
-_window_row:
-    lda.l panel.pool_tiles, x
-    phx
-    tyx
-    sta.l panel.window_tiles, x
+    clc
+    adc.w #panel.pool_tiles & 0xFFFF
+    sta.l tile_pool.source
     sep #0x20
-    ora.l panel.window_tiles + 1, x
-    eor #0xFF
-    sta.l panel.window_tiles + TILE_BYTES, x
-    lda #0x00
-    sta.l panel.window_tiles + TILE_BYTES + 1, x
-    rep #0x20
-    plx
-    inx
-    inx
-    iny
-    iny
-    lda.l panel.rows
-    dec
-    sta.l panel.rows
-    bne _window_row
+    lda #panel.pool_tiles >> 16
+    sta.l tile_pool.source + 2
+    lda #panel.window_tiles >> 16
+    sta.l tile_pool.destination + 2
+    lda #TILE_4BPP_FILL
+    sta.l tile_pool.format
+    jsl.l tile_blit
 _not_window:
-    rep #0x10
-    ply
     sep #0x20
     rts
 

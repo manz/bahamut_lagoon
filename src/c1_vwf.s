@@ -17,8 +17,11 @@ runs first.
 
 .include "src/expansion.i"
 .include "src/sram_work.i"
+.include "src/tile_pool.i"
 .extern small_vwf_render
 .extern small_vwf
+.extern tile_blit
+.extern tile_pool
 
 
 C1_SHADOW = 0x7E4800
@@ -32,7 +35,6 @@ C1_SLOTS = 173
 C1_KANA_SLOTS = 45  ; tiles 0x33-0x5F, then 0x170-0x17F, then 0x100-0x16F
 C1_BLANK_SLOTS = 16
 C1_TILE_4BPP = 32
-C1_TILE_2BPP = 16
 C1_MIN_CHARS = 3
 C1_MAX_CELLS = 12
 C1_ITEM_RECORDS = 0xEF3CA0
@@ -52,7 +54,6 @@ C1_NO_RECORD = 0xFF
     word slot
     word rows
     word key
-    byte plane
     byte dirty
     byte changed
 }
@@ -342,55 +343,34 @@ _hidden_tiles:
 
 _fill_slot:
 """Slot c1.slot draws rendered cell c1.rows as a 4bpp tile; its run goes dirty when the tile changes."""
+    lda.l c1.rows
+    asl
+    asl
+    asl
+    asl
+    clc
+    adc.w #small_vwf.tiles & 0xFFFF
+    sta.l tile_pool.source
     lda.l c1.slot
     asl
     asl
     asl
     asl
     asl
-    tax  ; X: the slot's tile
-    lda.l c1.rows
-    asl
-    asl
-    asl
-    asl
-    tay  ; Y: the rendered cell
+    clc
+    adc.w #c1.tiles & 0xFFFF
+    sta.l tile_pool.destination
     sep #0x20
+    lda #small_vwf.tiles >> 16
+    sta.l tile_pool.source + 2
+    lda #c1.tiles >> 16
+    sta.l tile_pool.destination + 2
+    lda #TILE_4BPP_FILL
+    sta.l tile_pool.format
     lda #0x00
+    jsl.l tile_blit
+    rol
     sta.l c1.changed
-    rep #0x20
-_fill_row:
-    phx
-    tyx
-    lda.l small_vwf.tiles, x  ; a row's planes 0 and 1
-    plx
-    cmp.l c1.tiles, x
-    beq _row_same
-    sta.l c1.tiles, x
-    pha
-    sep #0x20
-    lda #0x01
-    sta.l c1.changed
-    rep #0x20
-    pla
-_row_same:
-    sep #0x20
-    sta.l c1.plane  ; plane 0
-    xba
-    ora.l c1.plane  ; | plane 1
-    eor #0xFF
-    sta.l c1.tiles + C1_TILE_2BPP, x  ; plane 2: the background
-    lda #0x00
-    sta.l c1.tiles + C1_TILE_2BPP + 1, x
-    rep #0x20
-    inx
-    inx
-    iny
-    iny
-    tya
-    and.w #C1_TILE_2BPP - 1
-    bne _fill_row
-    sep #0x20
     lda.l c1.changed
     beq _unchanged
     lda.l c1.slot
