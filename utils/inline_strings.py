@@ -7,6 +7,7 @@ from a816.writers import Writer
 from script import Table
 
 from utils.cartridge import rom_address, rom_offset
+from utils.name_tables import SMALL_FONT_FOLD, encode
 from utils.vm.room import prettify
 
 draw_inline_string_xrefs = [
@@ -308,7 +309,7 @@ SMALL_FONT_COLON = "[0x30]"  # small_font draws ":" at battle.tbl's code; mz.tbl
 
 
 def encode_inline(table: Table, text: str) -> bytes:
-    return table.to_bytes(text.replace(" ", r"\s").replace(":", SMALL_FONT_COLON))
+    return encode(table, text.replace(":", SMALL_FONT_COLON))
 
 
 def inline_record(table: Table, text: str, width: int | None = None, align: str | None = None) -> bytes:
@@ -522,7 +523,7 @@ def insert_battle_commands_strings(writer, address):
             pointer_id = int(ref.text, 16)
             pointer_table[pointer_id] = text_addr & 0xFFFF
         # print(jp_fixed_table.to_bytes(data.text))
-        text_data += jp_fixed_table.to_bytes(data.text)
+        text_data += jp_fixed_table.to_bytes(data.text.translate(SMALL_FONT_FOLD))
 
     pointer_table_bytes = b""
     for key in sorted(pointer_table):
