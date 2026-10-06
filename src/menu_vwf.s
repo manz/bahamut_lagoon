@@ -115,6 +115,11 @@ MENU_RECORD = 8  ; the name records draw_fixed_name draws, an item's past its ic
     jml.l menu_draw_fixed_name
 }
 
+; clear_menu_shadow (every screen's setup, which may clear the VRAM the runs' pixels sit in): php / phb / rep #0x20.
+.alloc at 0xEE50CA {
+    jml.l menu_shadow_cleared
+}
+
 ; draw_menu_string (bank A, string Y, FF-terminated: the EE bank's placeholders and labels): php / phb / phx / sep.
 .alloc at 0xEE4CAA {
     jml.l menu_draw_menu_string
@@ -210,6 +215,33 @@ _vanilla:
     phx
     sep #0x20
     jml.l 0xEE4D24
+
+menu_shadow_cleared:
+"""clear_menu_shadow: a new screen, so no BG3 run's pixels can be trusted; free them all, then clear as vanilla."""
+    php
+    rep #0x30
+    pha
+    phx
+    sep #0x20
+    lda #0x00
+    ldx.w #MENU_BG3_RUNS - 1
+_forget_run:
+    sta.l menu.run_bank, x
+    dex
+    bpl _forget_run
+    ldx.w #MENU_BG3_SLOTS - 1
+_forget_slot:
+    sta.l menu.bg3_used, x
+    dex
+    bpl _forget_slot
+    rep #0x30
+    plx
+    pla
+    plp
+    php
+    phb
+    rep #0x20
+    jml.l 0xEE50CE
 
 menu_draw_menu_string:
 """draw_menu_string: draw_fixed_name's, uncapped (up to small_vwf's characters). Keeps X."""
