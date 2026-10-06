@@ -17,9 +17,12 @@ glyph over the window background, colour 4) for the window font; their dirty run
 the tilemap that shows them, and only once a window line changed them or the window font came back, so never over the
 map tiles the window font replaces.
 
-The panel slots are 8x8 font codes no text draws once the battle text is French: the kana (below 0x33 the engine
-draws a kana with a dakuten mark instead, and 0x33-0x5F are the kana themselves), around the frame tiles (0x10,
-0x1A) and the colour fills (0x2D-0x2F) the battle uses. The window slots are the window font's kana.
+The panel slots are 8x8 font codes no text draws once the battle text is French: the dakuten kana below 0x33 (the
+engine draws a kana with a mark instead), around the frame tiles (0x10, 0x1A) and the colour fills (0x2D-0x2F), and
+lowercase letters and accents past 0x6B, which only the VWF draws now. The battle message VWF (battle_vwf_reloc)
+draws its lines over 0x30 on: its first line, 0x30-0x6B, shows with the panel; its others overwrite the slots while
+the dialogue hides the panel, so the panel uploads its slots again when it next draws a line. The window slots are
+the window font's kana.
 """
 
 .include "src/expansion.i"
@@ -34,7 +37,11 @@ draws a kana with a dakuten mark instead, and 0x33-0x5F are the kana themselves)
 LINE = 0x0620
 LINE_CELLS = 30
 COPY_CELLS = 12  ; small_vwf's cells: a longer field is blank past them
-MAX_CHARS = 16  ; small_vwf's
+MAX_CHARS = 24  ; small_vwf's
+MESSAGE_SPELL_COPY = 0xD6E5  ; the return addresses, less one, of the copies that write a battle message's
+MESSAGE_DRAGON_COPY = 0xA7A4  ; name: a spell's, a dragon's
+MESSAGE_RANGE = 0xD5  ; the range icon's first half: a spell message's $10 for its range
+BOX_MARGIN = 2  ; cells a map message box adds past its text: a blank and the prompt arrow
 PLACEHOLDER = 0x01
 BLANK = 0xEF
 TILE_BYTES = 16
@@ -55,7 +62,8 @@ FIRST_WINDOW_RUN = 4 * 2
 ; past them) and where small_vwf drew. pool_owner: tilemap row + 1 holding the slot, 0 when free. pool_cell: the line
 ; cell the slot draws. pool_flags: SLOT_STALE. window_tiles: the window slots in 4bpp. dirty: a bit per run of
 ; _pool_runs to upload. first, last: the slot range a placeholder takes from. slot_run: run * 2. source,
-; window_source: the upload's sources. copy_end: Y as the engine's copy leaves it.
+; window_source: the upload's sources. copy_end: Y as the engine's copy leaves it. message_end: the line
+; position past the last battle message's name.
 .struct PanelVwf {
     byte[( LINE_CELLS + COPY_CELLS ) * TILE_BYTES] line_strip
     byte[LINE_CELLS] line_chars
@@ -77,9 +85,11 @@ FIRST_WINDOW_RUN = 4 * 2
     word source
     word window_source
     word copy_end
+    word message_end
 }
 
 .reserve panel as PanelVwf in sram_work
+.reserve panel_slots_overwritten 1 in sram_work  ; set by the battle message VWF past its first line
 
 
 ; panel_copy_string: phb / lda $10 / pha / plb.
@@ -111,6 +121,32 @@ FIRST_WINDOW_RUN = 4 * 2
     jml.l panel_font_reloaded
     nop
     nop
+}
+
+; A spell in a battle message (C0D6D0: its name; then, from C0D6E7 or C0D6EB, its level or range at the first blank
+; of the line's first eight cells: F3 78 F0, Lv in the 12px font, or D5, its range icon, then the number). The name
+; is whole and may hold spaces, so the icon goes past it, as the dialogue font spells it.
+.alloc at 0xC0D6F5 {
+    jsl.l panel_message_icon
+    jml.l 0xC0D717
+}
+
+; The map's message box copy (C0AB4B: bank A, string Y into the line, its characters in $08, which size the box):
+; through panel_copy_string, so the box draws the VWF and fits its cells.
+.alloc at 0xC0AB4B {
+    sta.b 0x10
+    jsl.l panel_count_chars
+    ldx.w #LINE
+    jsr.w 0xE089
+    jsl.l panel_end_box_line
+    rts
+}
+
+; Its draw loop (C0AB2A: ldx #0 / lda $000720, x) indexes the line from 0; put_char's hook takes X as a line
+; position, as panel_draw_line passes it: the same bytes from LINE.
+.alloc at 0xC0AB2A {
+    ldx.w #LINE
+    lda.l 0x000100, x
 }
 
 ; The window font upload's last transfer (sta $420B / rts) writes over the window slots.
@@ -145,6 +181,10 @@ _cells:
     sta.l small_vwf.source
     sep #0x20
     jsl.l small_vwf_render
+    jsr.w _for_a_message
+    bcc _for_a_line
+    jmp.w _message_copy
+_for_a_line:
     lda.l small_vwf.chars
     cmp #MIN_CHARS
     bcc _vanilla_copy  ; a short label: the font draws it, the pool stays free
@@ -162,6 +202,73 @@ _vanilla_copy:
     pha
     plb
     jml.l 0xC0E08E
+
+_for_a_message:
+"""Carry set when the copy's caller writes a battle message, which the dialogue font draws, not a panel line."""
+    rep #0x20
+    lda 0x03, s  ; past this jsr: the engine caller's return address, less one
+    cmp.w #MESSAGE_SPELL_COPY
+    beq _message
+    cmp.w #MESSAGE_DRAGON_COPY
+    beq _message
+    sep #0x20
+    clc
+    rts
+_message:
+    sep #0x20
+    sec
+    rts
+
+_message_copy:
+"""
+A battle message's name, which small_vwf just resolved: its full codes, then blanks up to the field's end and one
+past them, X on that last one, as the engine's copy pads.
+"""
+    jsr.w _copy_end
+    rep #0x20
+    lda.w #0x0000
+    sta.l panel.cell
+    sep #0x20
+_message_char:
+    phx
+    rep #0x20
+    lda.l panel.cell
+    tax
+    sep #0x20
+    lda.l small_vwf.text, x
+    plx
+    cmp #0xFF
+    beq _message_pad
+    sta.b 0x00, x
+    inx
+    lda.l panel.cell
+    inc
+    sta.l panel.cell
+    bra _message_char
+_message_pad:
+    rep #0x20
+    txa
+    sta.l panel.message_end
+    sep #0x20
+_message_blank:
+    lda.l panel.cell
+    cmp.b 0x08
+    bcs _message_end
+    lda #BLANK
+    sta.b 0x00, x
+    inx
+    lda.l panel.cell
+    inc
+    sta.l panel.cell
+    bra _message_blank
+_message_end:
+    lda #BLANK
+    sta.b 0x00, x
+    rep #0x20
+    lda.l panel.copy_end
+    tay
+    sep #0x20
+    jml.l 0xC0E0A2  ; the copy routine's rts
 
 _copy_end:
 """Where the engine's copy leaves Y: past $08 bytes, or past the FF before them (FE is a character to it)."""
@@ -278,8 +385,20 @@ _filled:
     rts
 
 panel_line_hook:
-"""The row about to be drawn ($16): free its slots the last drawing left stale, mark the others stale."""
+"""
+The row about to be drawn ($16): free its slots the last drawing left stale, mark the others stale; after a battle
+message's later lines wrote over the slots, upload them all again.
+"""
     sta.b 0x10
+    lda.l panel_slots_overwritten
+    beq _slots_kept
+    lda #0x00
+    sta.l panel_slots_overwritten
+    lda.l panel.dirty
+    ora #ALL_RUNS
+    sta.l panel.dirty
+    lda.b 0x10
+_slots_kept:
     rep #0x30
     phx
     lda.b 0x16
@@ -724,6 +843,96 @@ _next_window_run:
 _window_done:
     rts
 
+panel_count_chars:
+"""$08: the characters of string Y in bank $10 before its FF, counted as C0AB4B did (F0-F3 switch font pages)."""
+    phb
+    phy
+    lda.b 0x10
+    pha
+    plb
+    stz.b 0x08
+_count_char:
+    lda.w 0x0000, y
+    iny
+    cmp #0xFF
+    beq _counted
+    cmp #0xF4
+    bcs _counts
+    cmp #0xF0
+    bcs _count_char
+_counts:
+    inc.b 0x08
+    bra _count_char
+_counted:
+    ply
+    plb
+    rtl
+
+panel_end_box_line:
+"""
+End the line after the cells the copy drew and leave their count, plus BOX_MARGIN, in $08: small_vwf's when it
+rendered the string, else the characters up to the first blank.
+"""
+    rep #0x10
+    lda.l small_vwf.chars
+    cmp #MIN_CHARS
+    bcc _font_cells
+    lda.l small_vwf.cells
+    rep #0x20
+    and.w #0x00FF
+    clc
+    adc.w #LINE
+    tax
+    sep #0x20
+    bra _box_end
+_font_cells:
+    ldx.w #LINE
+_box_cell:
+    lda.b 0x00, x
+    cmp #BLANK
+    beq _box_end
+    cmp #0xFF
+    beq _box_end
+    inx
+    cpx.w #LINE + LINE_CELLS
+    bcc _box_cell
+_box_end:
+    lda #0xFF
+    sta.b 0x00, x
+    rep #0x20
+    txa
+    sec
+    sbc.w #LINE - BOX_MARGIN  ; and room before the box's prompt arrow, which sits in the last cell
+    sep #0x20
+    sta.b 0x08
+    rtl
+
+panel_message_icon:
+"""Past the name the last message copy wrote: a blank, then Nv for a level ($10 = F3) or the range icon (D5)."""
+    rep #0x20
+    lda.l panel.message_end
+    tax
+    sep #0x20
+    lda #BLANK
+    sta.b 0x00, x
+    inx
+    lda.b 0x10
+    cmp #MESSAGE_RANGE
+    beq _range
+    lda #0xC6  ; N
+    sta.b 0x00, x
+    inx
+    lda #0x75  ; v
+    bra _icon_end
+_range:
+    sta.b 0x00, x  ; the icon's two halves, D5 D6
+    inx
+    inc
+_icon_end:
+    sta.b 0x00, x
+    inx
+    rtl
+
 panel_window_font_reloaded:
 """The window font upload overwrites the window slots: upload them again at the next NMI."""
     sta.l 0x00420B
@@ -751,7 +960,7 @@ _pool_runs:
     .db 0x0D, 3
     .db 0x11, 9
     .db 0x1B, 18
-    .db 0x33, 45
+    .db 0x6C, 45  ; past the battle message's first line (0x30-0x6B)
     .db 0x33, 15  ; the windows'
     .db 0x42, 15
     .db 0x51, 15

@@ -13,6 +13,7 @@ from katsuji import build as katsuji_build
 from katsuji import config as katsuji_config
 from script import Table
 
+from utils.battle_messages import insert_battle_messages
 from utils.cartridge import rom_address, rom_offset
 from utils.decompress_gfx import compress_asset, lz_compress_gfx
 from utils.dump_battle_rooms import build_battle_text_patch
@@ -142,11 +143,12 @@ def insert_text(writer: IPSWriter) -> list[InlineStringHook]:
     end_of_battle_commands = insert_battle_commands_strings(writer, rom_offset(0xFD0000))
     end_of_inline_strings, hooks = insert_inline_strings(writer, rom_offset(end_of_battle_commands + 1))
     end_of_message_strings = insert_messages_strings(writer, rom_offset(end_of_inline_strings + 1))
+    end_of_battle_messages = insert_battle_messages(writer, rom_offset(end_of_message_strings + 1))
 
     next_insert = insert_compressed_asset(
         writer,
         "src_assets/e89a4f.bin",
-        insert_addr=end_of_message_strings,
+        insert_addr=end_of_battle_messages,
         low_addr=0xD5E6B9 + 1,
         bank_addr=0xD5E6C0 + 1,
         compressor=lz_compress_gfx,
