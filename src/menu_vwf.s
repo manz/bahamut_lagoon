@@ -6,8 +6,9 @@ shadow at 7EC400 + text_cursor ($1860), tile = code | attribute ($1862). The sha
 over the 2bpp menu font at VRAM 0x4000; the rest is BG2 over a 4bpp copy at 0x1000. Item records start with their
 icon, drawn as a cell of its own here before the name.
 
-A name longer than its field (a full name past its record) renders through small_vwf; the others fit and stay in
-the font. On BG2 its cells take a run of slots from VRAM 0x2000-0x2FFF, blank in the menus (BG2 tiles 0x100-0x1FF).
+On BG2 a name renders through small_vwf whenever that saves a cell (labels like "NV" follow names closely); on BG3,
+where slots are fewer, only when it is longer than its field (a full name past its record). On BG2 its cells take a
+run of slots from VRAM 0x2000-0x2FFF, blank in the menus (BG2 tiles 0x100-0x1FF).
 BG3 cannot reach below its 0x4000 base: its cells take first the last rows of its own 32x64 map, 58-63, which no
 menu scrolls to (the boxes at the bottom scroll it by 224 and 241 lines, down to row 57): BG3 tiles 0x1E8-0x1FF,
 whose pixels go into the shadow there, for the engine's upload of the shadow to carry. Then font codes no French
@@ -53,6 +54,7 @@ MENU_BG3_RUNS = 16
 MENU_BG3_SHOWN_CELLS = 58 * 32  ; the BG3 map rows a menu shows
 MENU_STAGING_TILES = 160  ; 4bpp tiles a drain can carry
 MENU_MAX_CELLS = 12  ; small_vwf's
+MENU_RECORD = 8  ; the name records draw_fixed_name draws, an item's past its icon
 
 ; bg2_owner: the shadow cell a slot draws, plus 1; 0 when free (cells are even). bg2_next: where the next run search
 ; starts. run_*: the BG3 runs, by record (bank 0: free), their cells and slots; bg3_used: 1 for a slot a run holds,
@@ -119,16 +121,32 @@ menu_draw_fixed_name:
     sep #0x20
     lda.l menu.field
     beq _vanilla
+    cmp #MENU_RECORD
+    bcs _whole_field
+    lda #MENU_RECORD  ; a field shorter than its record: read the record whole, to see the name overflow
+_whole_field:
     sta.l small_vwf.max_chars
+    lda.l menu.field
     cmp #MENU_MAX_CELLS + 1
     bcc _cells
     lda #MENU_MAX_CELLS
 _cells:
     sta.l small_vwf.max_cells
     jsl.l small_vwf_render
+    rep #0x20
+    lda.l MENU_TEXT_CURSOR
+    cmp.w #MENU_BG2_CELLS
+    sep #0x20
+    bcc _bg3_fits
+    lda.l small_vwf.cells  ; BG2 has slots to spare: render whenever it saves a cell
+    cmp.l small_vwf.chars
+    bcs _vanilla
+    bra _render
+_bg3_fits:
     lda.l menu.field
     cmp.l small_vwf.chars
     bcs _vanilla  ; it fits: the font draws it
+_render:
     jsr.w _drain_check
     jsr.w _free_field
     lda.l MENU_TEXT_CURSOR
