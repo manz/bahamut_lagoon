@@ -23,7 +23,8 @@ PAD = 0xFE
 class NameTable:
     label: str
     source: Path
-    address: int  # bus address of record 0
+    address: int  # bus address of record 0's name
+    record: int = RECORD  # bytes from one record to the next
 
 
 NAME_TABLES = (
@@ -35,6 +36,7 @@ NAME_TABLES = (
 )
 ITEM_NAMES = Path("text/items.xml")
 ITEM_RECORDS = 0xEF3CA0  # icon, then the name cut to a record
+ITEM_TABLE = NameTable("item_names", ITEM_NAMES, ITEM_RECORDS + 1, 1 + RECORD)  # the names, past each icon
 
 
 def read_names(source: Path) -> list[str]:
@@ -72,16 +74,18 @@ def insert_item_names(writer, table: Table) -> None:
 
 
 def long_names_source(table: Table) -> str:
-    """The a816 module of full names: a descriptor per table (record 0, count, pointers), then the strings."""
+    """The a816 module of full names: a descriptor per table (record 0, count, pointers, record size), then the
+    strings."""
     descriptors = []
     pointers = []
     strings = []
-    for name_table in NAME_TABLES:
+    for name_table in (*NAME_TABLES, ITEM_TABLE):
         names = read_names(name_table.source)
         descriptors += [
             f"    .dl 0x{name_table.address:06X}",
             f"    .dw {len(names)}",
             f"    .dw _{name_table.label}",
+            f"    .db {name_table.record}",
         ]
         pointers.append(f"_{name_table.label}:")
         for index, name in enumerate(names):

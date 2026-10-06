@@ -16,7 +16,7 @@ instead of the record's eight codes.
 
 SMALL_VWF_MAX_CELLS = 12
 SMALL_VWF_MAX_CHARS = 16
-LONG_NAME_TABLE = 7  ; long_name_tables entries: record 0 (long), count (word), pointers (word)
+LONG_NAME_TABLE = 8  ; long_name_tables entries: record 0 (long), count (word), pointers (word), record size (byte)
 SHADOW_GAP = 1  ; the shadow takes the gap katsuji leaves after a glyph: one more pixel keeps letters apart
 
 ; source: the string, FF or FE ends it. max_cells: out of SMALL_VWF_MAX_CELLS. cells: the cells the ink and its
@@ -132,9 +132,8 @@ _table:
     sec
     sbc.w long_name_tables, x
     bcc _next_table
-    lsr
-    lsr
-    lsr
+    jsr.w _record_index
+    bcs _next_table  ; not at a record's start
     cmp.w long_name_tables + 3, x
     bcs _next_table
     asl
@@ -158,6 +157,28 @@ _next_table:
     bra _table
 _redirected:
     plb
+    rts
+
+_record_index:
+"""
+A: offset into table X (16-bit) -> A: the record, carry clear; carry set past a record's start. The
+hardware divider takes the record size.
+"""
+    sta.l 0x004204
+    sep #0x20
+    lda.w long_name_tables + 7, x
+    sta.l 0x004206
+    rep #0x20
+    nop  ; the quotient is ready 16 cycles on
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    lda.l 0x004216  ; the remainder
+    cmp.w #0x0001
+    lda.l 0x004214
     rts
 
 _clear_ink:
