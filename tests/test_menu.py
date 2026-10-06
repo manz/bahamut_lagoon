@@ -28,3 +28,18 @@ def test_equip_labels_draw_with_the_small_vwf(console):
     console.tap(console.button.A)  # Byuu: Atk. to Mag. in 8-cell fields, --- placeholders
     console.emu.run_frames(120)
     assert console.matches_golden("menu-equip")
+
+
+def test_infos_equipment_list_draws_with_the_small_vwf(console):
+    console.load("menu-organisation")
+    names = console.count_calls("menu_draw_fixed_name")
+    console.tap(console.button.B)
+    console.run_until(lambda: bool(names), limit=1200)
+    console.emu.run_frames(90)
+    for _ in range(3):
+        console.tap(console.button.UP)  # Infos
+    console.tap(console.button.A)
+    console.emu.run_frames(120)
+    console.tap(console.button.A)  # the equipment list, its options below
+    console.emu.run_frames(120)
+    assert console.matches_golden("menu-infos")

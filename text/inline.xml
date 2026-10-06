@@ -123,8 +123,8 @@
     <string jump_to="0xeef2e1" ref="0xeef2d4">Foudre</string>
     <string jump_to="0xeef2f4" ref="0xeef2e7">Soin</string>
     <string jump_to="0xeef303" ref="0xeef2fa">Poison</string>
-    <string jump_to="0xeef32f" ref="0xeef31c">Equipment list</string>
+    <string jump_to="0xeef32f" ref="0xeef31c" width="14">Equipements</string>
     <string jump_to="0xeef35a" ref="0xeef345">Dragon Oyaji's</string>
-    <string jump_to="0xeef36f" ref="0xeef35a">Item description</string>
+    <string jump_to="0xeef36f" ref="0xeef35a" width="16">Descriptions</string>
     <string jump_to="0xeefa0b" ref="0xeef9fc">BONUS</string>
 </inline>
