@@ -13,7 +13,7 @@ it.
 .include "src/wram.i"
 
 .import "vwf_font"
-.extern vwf_shift_multipliers  ; text_buffer_vwf's; an import would bring its private locals into this scope (a816 #196)
+.import "text_buffer_vwf"
 
 ; Not written by the debug event, battle, load screen or feed menu runs traced in kintsuki: the end of the
 ; largest run of WRAM none of them touch (7FD8F0-7FEFFF).

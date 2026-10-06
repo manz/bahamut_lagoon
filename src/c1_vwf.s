@@ -24,30 +24,30 @@ runs first.
 .extern tile_pool
 
 
-C1_SHADOW = 0x7E4800
-C1_SHADOW_CELLS = 0x400
-C1_FONT_VRAM = 0x4000
-C1_TILE_MAP = 0xC1CB4B  ; code -> tile
-C1_ATTR = 0x3800
-C1_BLANK_TILE = 0x12
-C1_BUFFER = 0x000870  ; where C12EC0 copies a name
-C1_SLOTS = 173
-C1_KANA_SLOTS = 45  ; tiles 0x33-0x5F, then 0x170-0x17F, then 0x100-0x16F
-C1_BLANK_SLOTS = 16
-C1_TILE_4BPP = 32
-C1_MIN_CHARS = 3
-C1_MAX_CELLS = 12
-C1_ITEM_RECORDS = 0xEF3CA0
-C1_NO_RECORD = 0xFF
+_SHADOW = 0x7E4800
+_SHADOW_CELLS = 0x400
+_FONT_VRAM = 0x4000
+_TILE_MAP = 0xC1CB4B  ; code -> tile
+_ATTR = 0x3800
+_BLANK_TILE = 0x12
+_BUFFER = 0x000870  ; where C12EC0 copies a name
+_SLOTS = 173
+_KANA_SLOTS = 45  ; tiles 0x33-0x5F, then 0x170-0x17F, then 0x100-0x16F
+_BLANK_SLOTS = 16
+_TILE_4BPP = 32
+_MIN_CHARS = 3
+_MAX_CELLS = 12
+_ITEM_RECORDS = 0xEF3CA0
+_NO_RECORD = 0xFF
 
 ; slot_owner: the shadow cell a slot draws, plus 1; 0 when free (cells are even). type: the name type C12EC0 copied,
-; C1_NO_RECORD when none; id its id. field: the cells the engine's draw covers. index: 1 when an icon came first.
+; _NO_RECORD when none; id its id. field: the cells the engine's draw covers. index: 1 when an icon came first.
 ; dirty: a bit per run. slot_generation: the generation a slot's tile last went up in; generation counts the
 ; chunked uploads, which may write over the slots. The rest is scratch.
 .struct C1Vwf {
-    byte[C1_SLOTS * C1_TILE_4BPP] tiles
-    word[C1_SLOTS] slot_owner
-    byte[C1_SLOTS] slot_generation
+    byte[_SLOTS * _TILE_4BPP] tiles
+    word[_SLOTS] slot_owner
+    byte[_SLOTS] slot_generation
     word type
     word id
     word field
@@ -86,10 +86,10 @@ C1_NO_RECORD = 0xFF
     .db 0xEF
 }
 .alloc at 0xC19D4E {
-    .db C1_BLANK_TILE
+    .db _BLANK_TILE
 }
 .alloc at 0xC19D66 {
-    .db C1_BLANK_TILE
+    .db _BLANK_TILE
 }
 
 ; C109A4, the shadow upload callback: sep #0x20 / lsr $3C.
@@ -128,20 +128,20 @@ character count, X past the string, as the engine leaves them; P as it came.
     plx
     sep #0x20
     lda.l c1.field
-    cmp #C1_MIN_CHARS
+    cmp #_MIN_CHARS
     bcc _vanilla
     jsr.w _item_icon
     lda.l c1.field
     sta.l small_vwf.max_chars
-    cmp #C1_MAX_CELLS + 1
+    cmp #_MAX_CELLS + 1
     bcc _cells
-    lda #C1_MAX_CELLS
+    lda #_MAX_CELLS
 _cells:
     sta.l small_vwf.max_cells
     jsl.l small_vwf_render
     jsr.w _draw_cells
     rep #0x30
-    lda.w #C1_NO_RECORD
+    lda.w #_NO_RECORD
     sta.l c1.type
     lda.l c1.field
     clc
@@ -151,7 +151,7 @@ _cells:
     jml.l 0xC12E04  ; sty $10 / rts
 _vanilla:
     rep #0x30
-    lda.w #C1_NO_RECORD
+    lda.w #_NO_RECORD
     sta.l c1.type
     plp
     tdc
@@ -171,7 +171,7 @@ _string_source:
     cmp.w #4 + 1
     bcs _own_source
     lda.b 0x5E
-    cmp.w #C1_BUFFER & 0xFFFF
+    cmp.w #_BUFFER & 0xFFFF
     bne _own_source
     lda.l c1.type
     asl
@@ -224,19 +224,19 @@ _item_icon:
     cmp.w #3
     bne _no_icon
     lda.b 0x5E
-    cmp.w #C1_BUFFER & 0xFFFF
+    cmp.w #_BUFFER & 0xFFFF
     bne _no_icon
     phx
     lda.l small_vwf.source
     tax
-    lda.l C1_ITEM_RECORDS & 0xFF0000, x
+    lda.l _ITEM_RECORDS & 0xFF0000, x
     and.w #0x00FF
     tax
-    lda.l C1_TILE_MAP, x
+    lda.l _TILE_MAP, x
     and.w #0x00FF
-    ora.w #C1_ATTR
+    ora.w #_ATTR
     plx
-    sta.l C1_SHADOW, x
+    sta.l _SHADOW, x
     inx
     inx
     lda.l small_vwf.source
@@ -272,10 +272,10 @@ _cell:
     plx
     bcs _put
 _blank:
-    lda.w #C1_BLANK_TILE
+    lda.w #_BLANK_TILE
 _put:
-    ora.w #C1_ATTR
-    sta.l C1_SHADOW, x
+    ora.w #_ATTR
+    sta.l _SHADOW, x
     inx
     inx
     lda.l c1.rows
@@ -290,7 +290,7 @@ _slot_for_cell:
     lda.l c1.cell
     inc
     sta.l c1.key
-    ldx.w #( C1_SLOTS - 1 ) * 2
+    ldx.w #( _SLOTS - 1 ) * 2
 _own:
     lda.l c1.slot_owner, x
     cmp.l c1.key
@@ -305,7 +305,7 @@ _free:
     phx
     dec
     tax
-    lda.l C1_SHADOW, x
+    lda.l _SHADOW, x
     and.w #0x03FF
     sta.l c1.slot
     plx
@@ -316,7 +316,7 @@ _free:
     bne _found  ; its cell shows something else
     inx
     inx
-    cpx.w #C1_SLOTS * 2
+    cpx.w #_SLOTS * 2
     bcc _free
     clc
     rts
@@ -334,20 +334,20 @@ _found:
 
 _slot_tile:
 """Slot A (16-bit) -> its tile (16-bit A). Keeps X."""
-    cmp.w #C1_KANA_SLOTS
+    cmp.w #_KANA_SLOTS
     bcs _blank_tiles
     clc
     adc.w #0x33
     rts
 _blank_tiles:
-    cmp.w #C1_KANA_SLOTS + C1_BLANK_SLOTS
+    cmp.w #_KANA_SLOTS + _BLANK_SLOTS
     bcs _hidden_tiles
     clc
-    adc.w #0x170 - C1_KANA_SLOTS
+    adc.w #0x170 - _KANA_SLOTS
     rts
 _hidden_tiles:
     clc
-    adc.w #0x100 - C1_KANA_SLOTS - C1_BLANK_SLOTS
+    adc.w #0x100 - _KANA_SLOTS - _BLANK_SLOTS
     rts
 
 _fill_slot:
@@ -394,11 +394,11 @@ _same_generation:
     lda.l c1.changed
     beq _unchanged
     lda.l c1.slot
-    cmp #C1_KANA_SLOTS
+    cmp #_KANA_SLOTS
     lda #0x01
     bcc _run_bit
     lda.l c1.slot
-    cmp #C1_KANA_SLOTS + C1_BLANK_SLOTS
+    cmp #_KANA_SLOTS + _BLANK_SLOTS
     lda #0x02
     bcc _run_bit
     lda #0x04
@@ -485,15 +485,15 @@ _record_tables:
 _run_bits:
     .db 0x01, 0x00, 0x02, 0x00, 0x04, 0x00, 0x00
 _run_vram:
-    .dw C1_FONT_VRAM + 0x33 * 16
-    .dw C1_FONT_VRAM + 0x170 * 16
-    .dw C1_FONT_VRAM + 0x100 * 16
+    .dw _FONT_VRAM + 0x33 * 16
+    .dw _FONT_VRAM + 0x170 * 16
+    .dw _FONT_VRAM + 0x100 * 16
 _run_source:
     .dw c1.tiles & 0xFFFF
-    .dw ( c1.tiles + C1_KANA_SLOTS * C1_TILE_4BPP ) & 0xFFFF
-    .dw ( c1.tiles + ( C1_KANA_SLOTS + C1_BLANK_SLOTS ) * C1_TILE_4BPP ) & 0xFFFF
+    .dw ( c1.tiles + _KANA_SLOTS * _TILE_4BPP ) & 0xFFFF
+    .dw ( c1.tiles + ( _KANA_SLOTS + _BLANK_SLOTS ) * _TILE_4BPP ) & 0xFFFF
 _run_bytes:
-    .dw C1_KANA_SLOTS * C1_TILE_4BPP
-    .dw C1_BLANK_SLOTS * C1_TILE_4BPP
-    .dw ( C1_SLOTS - C1_KANA_SLOTS - C1_BLANK_SLOTS ) * C1_TILE_4BPP
+    .dw _KANA_SLOTS * _TILE_4BPP
+    .dw _BLANK_SLOTS * _TILE_4BPP
+    .dw ( _SLOTS - _KANA_SLOTS - _BLANK_SLOTS ) * _TILE_4BPP
 }
