@@ -13,8 +13,9 @@ the tiles wait in a line strip and the characters in a line copy. Drawn, a place
 and cell had, or a free one, from the panel's slots or the windows'; a row's slots its last drawing left unused are
 freed when the row is drawn again. Changed pixels mark the slot's run of codes dirty and the battle NMI uploads dirty
 runs whole, a transfer each: slot by slot, the bookkeeping alone outlasts vblank. Window slots keep a 4bpp copy (the
-glyph over the window background, colour 4) for the window font; their runs go up one an NMI, and only once a window
-line changed them or the window font came back, so never over the map tiles the window font replaces.
+glyph over the window background, colour 4) for the window font; their dirty runs all go up at the next NMI, with
+the tilemap that shows them, and only once a window line changed them or the window font came back, so never over the
+map tiles the window font replaces.
 
 The panel slots are 8x8 font codes no text draws once the battle text is French: the dakuten kana below 0x33 (the
 engine draws a kana with a mark instead), around the frame tiles (0x10, 0x1A) and the colour fills (0x2D-0x2F), and
@@ -765,7 +766,7 @@ _window_run:
 _uploaded:
     sep #0x20
     lda.l panel.dirty
-    and #WINDOW_RUNS  ; the window runs left for the next NMIs
+    and #WINDOW_RUNS  ; the panel runs are up; _upload_window_run cleared the window runs it sent
     sta.l panel.dirty
     ldx.w #0x0000
 _restore:
@@ -794,7 +795,7 @@ _transfer:
     rts
 
 _upload_window_run:
-"""The first dirty window run from X on, if any: its 4bpp tiles to the window font; its bit cleared."""
+"""Every dirty window run from X on: its 4bpp tiles to the window font, in the NMI the window's tilemap goes up."""
     lda.w #panel.window_tiles & 0xFFFF
     sta.l panel.window_source
 _window_upload:
@@ -830,7 +831,7 @@ _window_upload:
     asl
     clc
     adc.w #WINDOW_VRAM
-    jmp.w _transfer  ; one window run an NMI
+    jsr.w _transfer
 _next_window_run:
     tya
     clc
@@ -933,7 +934,7 @@ _icon_end:
     rtl
 
 panel_window_font_reloaded:
-"""The window font upload overwrites the window slots: upload them again, one run an NMI."""
+"""The window font upload overwrites the window slots: upload them again at the next NMI."""
     sta.l 0x00420B
     php
     sep #0x20
