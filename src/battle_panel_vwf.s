@@ -33,7 +33,7 @@ draws a kana with a dakuten mark instead, and 0x33-0x5F are the kana themselves)
 LINE = 0x0620
 LINE_CELLS = 30
 COPY_CELLS = 12  ; small_vwf's cells: a longer field is blank past them
-MAX_CHARS = 16  ; small_vwf's
+MAX_CHARS = 24  ; small_vwf's
 PLACEHOLDER = 0x01
 BLANK = 0xEF
 TILE_BYTES = 16
