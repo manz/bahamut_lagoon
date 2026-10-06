@@ -4,23 +4,31 @@ The 8x8 variable-width renderer every fixed-cell name goes through.
 small_vwf_render packs a string with the katsuji font (assets/small_font.dat, ff4's 8x8 menu font on the 8x8 text
 codes) into SMALL_VWF_MAX_CELLS 2bpp tiles, styled as the game's 8x8 font: the letter in colour 1, its shadow one
 pixel right and one down in colour 3. Each caller binds the tiles to its own VRAM and tilemap.
+
+Handed the record of an 8-byte name table, it draws the full name from long_name_tables (build/gen/long_names.s)
+instead of the record's eight codes.
 """
 
 .include "src/expansion.i"
 .include "src/sram_work.i"
+.extern long_name_tables
 
 
-SMALL_VWF_MAX_CELLS = 8
-SMALL_VWF_MAX_CHARS = 8
+SMALL_VWF_MAX_CELLS = 12
+SMALL_VWF_MAX_CHARS = 16
+LONG_NAME_TABLE = 7  ; long_name_tables entries: record 0 (long), count (word), pointers (word)
 SHADOW_GAP = 1  ; the shadow takes the gap katsuji leaves after a glyph: one more pixel keeps letters apart
 
 ; source: the string, FF or FE ends it. max_cells: out of SMALL_VWF_MAX_CELLS. cells: the cells the ink and its
-; shadow reach. pen: the pixel column of the next glyph. count, glyph, shift, rows: scratch.
+
+; shadow reach. chars: the characters drawn. pen: the pixel column of the next glyph. count, glyph, shift, rows:
+; scratch.
 .struct SmallVwf {
     long source
     byte max_chars
     byte max_cells
     byte cells
+    byte chars
     byte count
     word pen
     word glyph
@@ -76,6 +84,7 @@ _shade:
 
 _copy_text:
 """Copy the string into small_vwf_text, FF-terminated (FE padding ends it too)."""
+    jsr.w _redirect
     sep #0x20
     lda.l small_vwf.max_chars
     sta.l small_vwf.count
@@ -101,6 +110,54 @@ _copy:
 _copy_end:
     lda #0xFF
     sta.l small_vwf_text, x
+    txa
+    sta.l small_vwf.chars
+    rts
+
+_redirect:
+"""A record of a long_name_tables table gives its full name: source moves there, max_chars to the maximum."""
+    phb
+    phk
+    plb
+    rep #0x30
+    ldx.w #0x0000
+_table:
+    sep #0x20
+    lda.w long_name_tables + 2, x
+    beq _redirected  ; record 0 at 0x000000 ends the list
+    cmp.l small_vwf.source + 2
+    bne _next_table
+    rep #0x20
+    lda.l small_vwf.source
+    sec
+    sbc.w long_name_tables, x
+    bcc _next_table
+    lsr
+    lsr
+    lsr
+    cmp.w long_name_tables + 3, x
+    bcs _next_table
+    asl
+    adc.w long_name_tables + 5, x
+    tay
+    lda.w 0x0000, y
+    sta.l small_vwf.source
+    sep #0x20
+    phk
+    pla
+    sta.l small_vwf.source + 2
+    lda #SMALL_VWF_MAX_CHARS
+    sta.l small_vwf.max_chars
+    bra _redirected
+_next_table:
+    rep #0x20
+    txa
+    clc
+    adc.w #LONG_NAME_TABLE
+    tax
+    bra _table
+_redirected:
+    plb
     rts
 
 _clear_ink:
