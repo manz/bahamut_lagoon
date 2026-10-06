@@ -35,43 +35,43 @@ in order, so a screen's names mostly make one). The staging buffer starts over o
 .extern tile_pool
 
 
-MENU_TEXT_CURSOR = 0x001860
-MENU_TEXT_ATTR = 0x001862
-MENU_SHADOW = 0x7EC400
-MENU_BG2_CELLS = 0x1000  ; shadow offsets from here are BG2
-MENU_DMA_QUEUE_TAIL = 0x001A00
-MENU_BLANK = 0xEF
-MENU_ROW = 0x40  ; shadow bytes a tilemap row
-MENU_SHADOW_DIRTY = 0x00185A  ; 1: the engine uploads the shadow
-MENU_INLINE_BANK = 0xFD  ; the relocated inline strings (build.py)
-MENU_INLINE_RIGHT = 0x80  ; a segment header's flags (utils/inline_strings.py)
-MENU_INLINE_CELL = 0x40
-MENU_TILE_2BPP = 16
-MENU_TILE_4BPP = 32
-MENU_ITEM_RECORDS = 0xEF3CA0
-MENU_ITEM_RECORD = 9
-MENU_ITEMS = 128
-MENU_BG2_SLOTS = 256
-MENU_BG2_TILE = 0x100  ; BG2 tile of slot 0
-MENU_BG2_VRAM = 0x2000
-MENU_TEXT_BUFFER_SLOT = 0x20  ; BG2 tiles 0x120-0x17F: the load and save screens' chapter titles (text_buffer_vwf)
-MENU_TEXT_BUFFER_SLOTS = 0x60
-MENU_BG3_RIGHT_TILE = 0x280  ; BG2's map, right half: slots 0-127
-MENU_BG3_RIGHT_SLOTS = 128
-MENU_BG3_ROWS_TILE = 0x1E8  ; BG3's map, rows 58-63: the next 24
-MENU_BG3_ROWS_SLOTS = 24
-MENU_BG3_MAP_SLOTS = MENU_BG3_RIGHT_SLOTS + MENU_BG3_ROWS_SLOTS
-MENU_BG3_SHADOW_TILE = 0x100  ; the BG3 tile at shadow offset 0 (VRAM 0x4800); a row tile's pixels: 16 bytes a tile on
-MENU_BG3_RIGHT_VRAM = 0x5400
-MENU_BG3_SLOTS = MENU_BG3_MAP_SLOTS + 56
-MENU_BG3_BLANK_CODES = 11  ; 0x15-0x1F, then the kana from 0x33
-MENU_BG3_VRAM = 0x4000
-MENU_BG3_RUNS = 64
-MENU_BG3_SHOWN_CELLS = 58 * 32  ; the BG3 map rows a menu shows
-MENU_STAGING_TILES = 160  ; 4bpp tiles a drain can carry
-MENU_MAX_CELLS = 12  ; small_vwf's
-MENU_MAX_CHARS = 16  ; small_vwf's
-MENU_RECORD = 8  ; the name records draw_fixed_name draws, an item's past its icon
+_TEXT_CURSOR = 0x001860
+_TEXT_ATTR = 0x001862
+_SHADOW = 0x7EC400
+_BG2_CELLS = 0x1000  ; shadow offsets from here are BG2
+_DMA_QUEUE_TAIL = 0x001A00
+_BLANK = 0xEF
+_ROW = 0x40  ; shadow bytes a tilemap row
+_SHADOW_DIRTY = 0x00185A  ; 1: the engine uploads the shadow
+_INLINE_BANK = 0xFD  ; the relocated inline strings (build.py)
+_INLINE_RIGHT = 0x80  ; a segment header's flags (utils/inline_strings.py)
+_INLINE_CELL = 0x40
+_TILE_2BPP = 16
+_TILE_4BPP = 32
+_ITEM_RECORDS = 0xEF3CA0
+_ITEM_RECORD = 9
+_ITEMS = 128
+_BG2_SLOTS = 256
+_BG2_TILE = 0x100  ; BG2 tile of slot 0
+_BG2_VRAM = 0x2000
+_TEXT_BUFFER_SLOT = 0x20  ; BG2 tiles 0x120-0x17F: the load and save screens' chapter titles (text_buffer_vwf)
+_TEXT_BUFFER_SLOTS = 0x60
+_BG3_RIGHT_TILE = 0x280  ; BG2's map, right half: slots 0-127
+_BG3_RIGHT_SLOTS = 128
+_BG3_ROWS_TILE = 0x1E8  ; BG3's map, rows 58-63: the next 24
+_BG3_ROWS_SLOTS = 24
+_BG3_MAP_SLOTS = _BG3_RIGHT_SLOTS + _BG3_ROWS_SLOTS
+_BG3_SHADOW_TILE = 0x100  ; the BG3 tile at shadow offset 0 (VRAM 0x4800); a row tile's pixels: 16 bytes a tile on
+_BG3_RIGHT_VRAM = 0x5400
+_BG3_SLOTS = _BG3_MAP_SLOTS + 56
+_BG3_BLANK_CODES = 11  ; 0x15-0x1F, then the kana from 0x33
+_BG3_VRAM = 0x4000
+_BG3_RUNS = 64
+_BG3_SHOWN_CELLS = 58 * 32  ; the BG3 map rows a menu shows
+_STAGING_TILES = 160  ; 4bpp tiles a drain can carry
+_MAX_CELLS = 12  ; small_vwf's
+_MAX_CHARS = 16  ; small_vwf's
+_RECORD = 8  ; the name records draw_fixed_name draws, an item's past its icon
 
 ; bg2_owner: the shadow cell a slot draws, plus 1; 0 when free (cells are even). bg2_next: where the next run search
 ; starts. run_*: the BG3 runs, by record (bank 0: free), their cells and slots; bg3_used: 1 for a slot a run holds,
@@ -81,14 +81,14 @@ MENU_RECORD = 8  ; the name records draw_fixed_name draws, an item's past its ic
 ; request_span, which a caller sets for one draw. inline, inline_base, inline_segment: the inline string being drawn,
 ; the cell it starts at and its next segment. The rest is scratch.
 .struct MenuVwf {
-    byte[MENU_STAGING_TILES * MENU_TILE_4BPP] staging
-    word[MENU_BG2_SLOTS] bg2_owner
-    word[MENU_BG3_RUNS] run_record
-    byte[MENU_BG3_RUNS] run_bank
-    byte[MENU_BG3_RUNS] run_cells
-    byte[MENU_BG3_RUNS * MENU_MAX_CELLS] run_slots
-    byte[MENU_BG3_SLOTS] bg3_used
-    byte[MENU_BG3_SLOTS] bg3_shown
+    byte[_STAGING_TILES * _TILE_4BPP] staging
+    word[_BG2_SLOTS] bg2_owner
+    word[_BG3_RUNS] run_record
+    byte[_BG3_RUNS] run_bank
+    byte[_BG3_RUNS] run_cells
+    byte[_BG3_RUNS * _MAX_CELLS] run_slots
+    byte[_BG3_SLOTS] bg3_used
+    byte[_BG3_SLOTS] bg3_shown
     word key
     word key_bank
     word run
@@ -165,19 +165,19 @@ menu_draw_fixed_name:
     sep #0x20
     lda.l menu.field
     beq _vanilla
-    cmp #MENU_RECORD
+    cmp #_RECORD
     bcs _whole_field
-    lda #MENU_RECORD  ; a field shorter than its record: read the record whole, to see the name overflow
+    lda #_RECORD  ; a field shorter than its record: read the record whole, to see the name overflow
 _whole_field:
-    cmp #MENU_MAX_CHARS + 1
+    cmp #_MAX_CHARS + 1
     bcc _chars
-    lda #MENU_MAX_CHARS
+    lda #_MAX_CHARS
 _chars:
     sta.l small_vwf.max_chars
     lda.l menu.field
-    cmp #MENU_MAX_CELLS + 1
+    cmp #_MAX_CELLS + 1
     bcc _cells
-    lda #MENU_MAX_CELLS
+    lda #_MAX_CELLS
 _cells:
     sta.l small_vwf.max_cells
     jsl.l small_vwf_render
@@ -186,8 +186,8 @@ _cells:
     jsr.w _align
     jsr.w _drain_check
     jsr.w _free_field
-    lda.l MENU_TEXT_CURSOR
-    cmp.w #MENU_BG2_CELLS
+    lda.l _TEXT_CURSOR
+    cmp.w #_BG2_CELLS
     bcc _bg3
     jsr.w _draw_bg2
     bra _done
@@ -227,12 +227,12 @@ menu_shadow_cleared:
     phx
     sep #0x20
     lda #0x00
-    ldx.w #MENU_BG3_RUNS - 1
+    ldx.w #_BG3_RUNS - 1
 _forget_run:
     sta.l menu.run_bank, x
     dex
     bpl _forget_run
-    ldx.w #MENU_BG3_SLOTS - 1
+    ldx.w #_BG3_SLOTS - 1
 _forget_slot:
     sta.l menu.bg3_used, x
     dex
@@ -251,7 +251,7 @@ menu_draw_menu_string:
     php
     rep #0x10
     phx
-    ldx.w #MENU_MAX_CHARS + 1
+    ldx.w #_MAX_CHARS + 1
     jsl.l menu_draw_fixed_name
     plx
     plp
@@ -259,7 +259,7 @@ menu_draw_menu_string:
 
 menu_draw_inline_string:
 """
-X (16-bit): an inline string's record in bank MENU_INLINE_BANK (utils/inline_strings.py, inline_record), drawn at
+X (16-bit): an inline string's record in bank _INLINE_BANK (utils/inline_strings.py, inline_record), drawn at
 the text cursor: its field blanked, each segment through draw_fixed_name at its cell (a right-aligned one ends at
 the field's end; a lone character is its font tile, centred like the digits around it), the cursor past the field.
 Any register sizes; keeps P, not A, X or Y.
@@ -270,26 +270,26 @@ Any register sizes; keeps P, not A, X or Y.
     sta.l menu.inline
     inc
     sta.l menu.inline_segment
-    lda.l MENU_TEXT_CURSOR
+    lda.l _TEXT_CURSOR
     sta.l menu.inline_base
     jsr.w _blank_inline
 _inline_segment:
     rep #0x30
     lda.l menu.inline_segment
     tax
-    lda.l MENU_INLINE_BANK << 16, x
+    lda.l _INLINE_BANK << 16, x
     and.w #0x00FF
     cmp.w #0x00FF
     beq _inline_done
     inx
     phx  ; the segment's codes
-    bit.w #MENU_INLINE_CELL
+    bit.w #_INLINE_CELL
     bne _inline_cell
-    bit.w #MENU_INLINE_RIGHT
+    bit.w #_INLINE_RIGHT
     beq _inline_left
     lda.l menu.inline
     tax
-    lda.l MENU_INLINE_BANK << 16, x
+    lda.l _INLINE_BANK << 16, x
     and.w #0x00FF
     sta.l menu.request_span
     lda.w #0x0000  ; from the field's first cell
@@ -297,26 +297,26 @@ _inline_left:
     asl
     clc
     adc.l menu.inline_base
-    sta.l MENU_TEXT_CURSOR
+    sta.l _TEXT_CURSOR
     ply
     jsr.w _skip_segment
-    lda.w #MENU_INLINE_BANK
-    ldx.w #MENU_MAX_CHARS + 1
+    lda.w #_INLINE_BANK
+    ldx.w #_MAX_CHARS + 1
     jsl.l menu_draw_fixed_name
     bra _inline_segment
 _inline_cell:
-    and.w #MENU_INLINE_CELL - 1
+    and.w #_INLINE_CELL - 1
     asl
     clc
     adc.l menu.inline_base
     tay  ; Y: the cell
     plx
-    lda.l MENU_INLINE_BANK << 16, x
+    lda.l _INLINE_BANK << 16, x
     and.w #0x00FF
-    ora.l MENU_TEXT_ATTR
+    ora.l _TEXT_ATTR
     phx
     tyx
-    sta.l MENU_SHADOW, x
+    sta.l _SHADOW, x
     ply
     jsr.w _skip_segment
     bra _inline_segment
@@ -325,10 +325,10 @@ _inline_done:
     asl
     clc
     adc.l menu.inline_base
-    sta.l MENU_TEXT_CURSOR
+    sta.l _TEXT_CURSOR
     sep #0x20
     lda #0x01
-    sta.l MENU_SHADOW_DIRTY
+    sta.l _SHADOW_DIRTY
     plp
     rtl
 
@@ -336,7 +336,7 @@ _skip_segment:
 """menu.inline_segment: past segment Y's codes and their FF. Keeps Y."""
     tyx
 _skip_code:
-    lda.l MENU_INLINE_BANK << 16, x
+    lda.l _INLINE_BANK << 16, x
     inx
     and.w #0x00FF
     cmp.w #0x00FF
@@ -349,7 +349,7 @@ _inline_width:
 """The inline string's field width in cells (16-bit A)."""
     lda.l menu.inline
     tax
-    lda.l MENU_INLINE_BANK << 16, x
+    lda.l _INLINE_BANK << 16, x
     and.w #0x00FF
     rts
 
@@ -361,11 +361,11 @@ _blank_inline:
     lda.l menu.inline_base
     tax
 _blank_cell:
-    lda.w #MENU_BLANK
-    ora.l MENU_TEXT_ATTR
-    sta.l MENU_SHADOW, x
+    lda.w #_BLANK
+    ora.l _TEXT_ATTR
+    sta.l _SHADOW, x
     lda.w #0x0000
-    sta.l MENU_SHADOW - MENU_ROW, x
+    sta.l _SHADOW - _ROW, x
     inx
     inx
     dey
@@ -389,27 +389,27 @@ _align:
     bcc _aligned
     asl
     clc
-    adc.l MENU_TEXT_CURSOR
-    sta.l MENU_TEXT_CURSOR
+    adc.l _TEXT_CURSOR
+    sta.l _TEXT_CURSOR
 _aligned:
     rts
 
 _item_icon:
-"""An item record (MENU_ITEM_RECORDS + id * 9): draw its icon as a cell and move the string and field past it."""
+"""An item record (_ITEM_RECORDS + id * 9): draw its icon as a cell and move the string and field past it."""
     sep #0x20
     lda.l small_vwf.source + 2
-    cmp #MENU_ITEM_RECORDS >> 16
+    cmp #_ITEM_RECORDS >> 16
     bne _no_icon
     rep #0x20
     lda.l small_vwf.source
     sec
-    sbc.w #MENU_ITEM_RECORDS & 0xFFFF
+    sbc.w #_ITEM_RECORDS & 0xFFFF
     bcc _no_icon
-    cmp.w #MENU_ITEMS * MENU_ITEM_RECORD
+    cmp.w #_ITEMS * _ITEM_RECORD
     bcs _no_icon
     sta.l 0x004204
     sep #0x20
-    lda #MENU_ITEM_RECORD
+    lda #_ITEM_RECORD
     sta.l 0x004206
     rep #0x20
     nop  ; the remainder is ready 16 cycles on
@@ -424,18 +424,18 @@ _item_icon:
     bne _no_icon
     lda.l small_vwf.source
     tax
-    lda.l MENU_ITEM_RECORDS & 0xFF0000, x
+    lda.l _ITEM_RECORDS & 0xFF0000, x
     and.w #0x00FF
-    ora.l MENU_TEXT_ATTR
+    ora.l _TEXT_ATTR
     pha
-    lda.l MENU_TEXT_CURSOR
+    lda.l _TEXT_CURSOR
     tax
     pla
-    sta.l MENU_SHADOW, x
+    sta.l _SHADOW, x
     txa
     inc
     inc
-    sta.l MENU_TEXT_CURSOR
+    sta.l _TEXT_CURSOR
     lda.l small_vwf.source
     inc
     sta.l small_vwf.source
@@ -485,7 +485,7 @@ _drain_check:
     rep #0x30
     lda.l menu.entry
     beq _drained
-    cmp.l MENU_DMA_QUEUE_TAIL
+    cmp.l _DMA_QUEUE_TAIL
     bcs _drained
     tax
     lda.l 0x000000, x
@@ -509,13 +509,13 @@ _free_cell:
     bcs _freed
     asl
     clc
-    adc.l MENU_TEXT_CURSOR
+    adc.l _TEXT_CURSOR
     tax
-    lda.l MENU_SHADOW, x
+    lda.l _SHADOW, x
     and.w #0x03FF
     sec
-    sbc.w #MENU_BG2_TILE
-    cmp.w #MENU_BG2_SLOTS
+    sbc.w #_BG2_TILE
+    cmp.w #_BG2_SLOTS
     bcs _not_bg2
     asl
     tax
@@ -542,7 +542,7 @@ _draw_bg2:
     asl
     clc
     adc.l menu.staged
-    cmp.w #MENU_STAGING_TILES * MENU_TILE_4BPP + 1
+    cmp.w #_STAGING_TILES * _TILE_4BPP + 1
     bcs _bg2_full  ; the drain carries no more this frame
     jsr.w _find_run
     bcc _bg2_full
@@ -557,7 +557,7 @@ _bg2_cell:
     bcs _bg2_drawn
     asl
     clc
-    adc.l MENU_TEXT_CURSOR
+    adc.l _TEXT_CURSOR
     tax  ; X: the cell
     lda.l menu.index
     cmp.l menu.count
@@ -574,13 +574,13 @@ _bg2_cell:
     plx
     pla
     clc
-    adc.w #MENU_BG2_TILE
+    adc.w #_BG2_TILE
     bra _bg2_put
 _bg2_blank:
-    lda.w #MENU_BLANK
+    lda.w #_BLANK
 _bg2_put:
-    ora.l MENU_TEXT_ATTR
-    sta.l MENU_SHADOW, x
+    ora.l _TEXT_ATTR
+    sta.l _SHADOW, x
     lda.l menu.index
     inc
     sta.l menu.index
@@ -597,13 +597,13 @@ when none.
 """
     lda.l menu.bg2_next
     sta.l menu.slot
-    lda.w #MENU_BG2_SLOTS
+    lda.w #_BG2_SLOTS
     sta.l menu.tries
 _try_run:
     lda.l menu.slot
     clc
     adc.l menu.count
-    cmp.w #MENU_BG2_SLOTS + 1
+    cmp.w #_BG2_SLOTS + 1
     bcc _run_fits
     lda.w #0x0000
     sta.l menu.slot
@@ -626,7 +626,7 @@ _taken:
     lda.l menu.slot
     sec  ; past the taken slot
     adc.l menu.index
-    cmp.w #MENU_BG2_SLOTS
+    cmp.w #_BG2_SLOTS
     bcc _next_try
     lda.w #0x0000
 _next_try:
@@ -641,7 +641,7 @@ _run_found:
     lda.l menu.slot
     clc
     adc.l menu.count
-    cmp.w #MENU_BG2_SLOTS
+    cmp.w #_BG2_SLOTS
     bcc _next_start
     lda.w #0x0000
 _next_start:
@@ -655,9 +655,9 @@ _bg2_free:
 Slot A (16-bit): carry set when free, or when its cell no longer shows it (then freed); never one of the text
 buffer's.
 """
-    cmp.w #MENU_TEXT_BUFFER_SLOT
+    cmp.w #_TEXT_BUFFER_SLOT
     bcc _not_text_buffer
-    cmp.w #MENU_TEXT_BUFFER_SLOT + MENU_TEXT_BUFFER_SLOTS
+    cmp.w #_TEXT_BUFFER_SLOT + _TEXT_BUFFER_SLOTS
     bcc _in_use
 _not_text_buffer:
     asl
@@ -667,11 +667,11 @@ _not_text_buffer:
     phx
     dec
     tax
-    lda.l MENU_SHADOW, x
+    lda.l _SHADOW, x
     plx
     and.w #0x03FF
     sec
-    sbc.w #MENU_BG2_TILE
+    sbc.w #_BG2_TILE
     asl
     sta.l menu.tile
     txa
@@ -734,10 +734,10 @@ _blit_cell:
     lda.l tile_pool.format
     and.w #0x00FF
     beq _blit_2bpp
-    lda.w #MENU_TILE_4BPP
+    lda.w #_TILE_4BPP
     bra _blit_next
 _blit_2bpp:
-    lda.w #MENU_TILE_2BPP
+    lda.w #_TILE_2BPP
 _blit_next:
     clc
     adc.l tile_pool.destination
@@ -752,7 +752,7 @@ _blit_next:
     rts
 
 _queue_run:
-"""Queue the staged run for VRAM MENU_BG2_VRAM + slot * 16, as the engine builds its entries (EE515C)."""
+"""Queue the staged run for VRAM _BG2_VRAM + slot * 16, as the engine builds its entries (EE515C)."""
     lda.l menu.count
     asl
     asl
@@ -766,7 +766,7 @@ _queue_run:
     asl
     asl
     clc
-    adc.w #MENU_BG2_VRAM
+    adc.w #_BG2_VRAM
     jsr.w _extend
     bcs _extended
     jmp.w _queue
@@ -783,7 +783,7 @@ it; carry set when it did. The staging buffer moves past the bytes.
     beq _no_extend
     clc
     adc.w #8
-    cmp.l MENU_DMA_QUEUE_TAIL
+    cmp.l _DMA_QUEUE_TAIL
     bne _no_extend  ; another entry came after, or the queue drained
     lda.l menu.entry
     tax
@@ -810,7 +810,7 @@ it; carry set when it did. The staging buffer moves past the bytes.
     lda.l menu.entry  ; drained meanwhile? then the run goes in an entry of its own
     clc
     adc.w #8
-    cmp.l MENU_DMA_QUEUE_TAIL
+    cmp.l _DMA_QUEUE_TAIL
     bne _no_extend_after
     lda.l menu.staged
     clc
@@ -827,7 +827,7 @@ _no_extend:
 _queue:
 """Queue menu.tile staged bytes for VRAM word A; the staging buffer moves past them."""
     pha
-    lda.l MENU_DMA_QUEUE_TAIL
+    lda.l _DMA_QUEUE_TAIL
     tax
     sta.l menu.entry
     lda.w #0x8000
@@ -846,7 +846,7 @@ _queue:
     txa
     clc
     adc.w #8
-    sta.l MENU_DMA_QUEUE_TAIL
+    sta.l _DMA_QUEUE_TAIL
     lda.l menu.staged
     clc
     adc.l menu.tile
@@ -876,7 +876,7 @@ _bg3_cell:
     bcs _bg3_drawn
     asl
     clc
-    adc.l MENU_TEXT_CURSOR
+    adc.l _TEXT_CURSOR
     sta.l menu.cell
     sep #0x20
     lda.l menu.index
@@ -889,14 +889,14 @@ _bg3_cell:
 _bg3_blank:
     jsr.w _starts_name
     bcs _bg3_drawn  ; the field ends where another name begins
-    lda.w #MENU_BLANK
+    lda.w #_BLANK
 _bg3_put:
-    ora.l MENU_TEXT_ATTR
+    ora.l _TEXT_ATTR
     pha
     lda.l menu.cell
     tax
     pla
-    sta.l MENU_SHADOW, x
+    sta.l _SHADOW, x
     lda.l menu.index
     inc
     sta.l menu.index
@@ -911,12 +911,12 @@ eight codes covers a field wider than its full name, whose blanks would wipe a n
 """
     lda.l menu.cell
     tax
-    lda.l MENU_SHADOW, x
+    lda.l _SHADOW, x
     and.w #0x03FF
     jsr.w _code_slot
     bcc _no_name
     sta.l menu.tile
-    ldx.w #MENU_BG3_RUNS - 1
+    ldx.w #_BG3_RUNS - 1
 _first_slot:
     sep #0x20
     lda.l menu.run_bank, x
@@ -972,7 +972,7 @@ _find_bg3_run:
 The run of menu.key with small_vwf.cells cells: menu.run, carry set, its map pixels written again (the shadow may
 have been cleared). Carry clear when none.
 """
-    ldx.w #MENU_BG3_RUNS - 1
+    ldx.w #_BG3_RUNS - 1
 _find_run3:
     sep #0x20
     lda.l menu.run_bank, x
@@ -1015,9 +1015,9 @@ _map_pixels:
     rep #0x20
     bcs _map_pixels_done
     jsr.w _run_slot
-    cmp.w #MENU_BG3_RIGHT_SLOTS
+    cmp.w #_BG3_RIGHT_SLOTS
     bcc _not_map_slot  ; the right half keeps its pixels in VRAM
-    cmp.w #MENU_BG3_MAP_SLOTS
+    cmp.w #_BG3_MAP_SLOTS
     bcs _not_map_slot
     jsr.w _map_bg3_cell
 _not_map_slot:
@@ -1033,7 +1033,7 @@ _take_bg3_run:
 A free run with free slots for small_vwf.cells cells (map slots first, font slots while the staging buffer has
 room), filled and recorded: menu.run, carry set; carry clear when short.
 """
-    ldx.w #MENU_BG3_RUNS - 1
+    ldx.w #_BG3_RUNS - 1
 _free_run:
     sep #0x20
     lda.l menu.run_bank, x
@@ -1109,7 +1109,7 @@ queued; carry set. Carry clear when no block or no staging room.
     sta.l menu.tile  ; bytes
     clc
     adc.l menu.staged
-    cmp.w #MENU_STAGING_TILES * MENU_TILE_4BPP + 1
+    cmp.w #_STAGING_TILES * _TILE_4BPP + 1
     bcs _no_block
     lda.w #0x0000
     sta.l menu.slot
@@ -1117,7 +1117,7 @@ _block_at:
     lda.l menu.slot
     clc
     adc.l menu.count
-    cmp.w #MENU_BG3_RIGHT_SLOTS + 1
+    cmp.w #_BG3_RIGHT_SLOTS + 1
     bcs _no_block
     lda.w #0x0000
     sta.l menu.index
@@ -1182,7 +1182,7 @@ _block_staged:
     asl
     asl
     clc
-    adc.w #MENU_BG3_RIGHT_VRAM
+    adc.w #_BG3_RIGHT_VRAM
     jsr.w _extend
     bcs _block_queued
     jsr.w _queue
@@ -1195,7 +1195,7 @@ _take_bg3_slot:
 A free slot for cell menu.index of run menu.run, past the right half: recorded, used, filled (row pixels, or
 staged and queued).
 """
-    ldx.w #MENU_BG3_RIGHT_SLOTS
+    ldx.w #_BG3_RIGHT_SLOTS
 _slot3:
     sep #0x20
     lda.l menu.bg3_used, x
@@ -1204,12 +1204,12 @@ _slot3:
     inx
     bra _slot3
 _slot3_free:
-    cpx.w #MENU_BG3_MAP_SLOTS
+    cpx.w #_BG3_MAP_SLOTS
     bcc _slot3_take
     lda.l menu.staged
     clc
-    adc.w #MENU_TILE_2BPP
-    cmp.w #MENU_STAGING_TILES * MENU_TILE_4BPP + 1
+    adc.w #_TILE_2BPP
+    cmp.w #_STAGING_TILES * _TILE_4BPP + 1
     bcc _slot3_take
     inx  ; no staging room for a font slot: the count left room in a later map slot
     bra _slot3
@@ -1226,7 +1226,7 @@ _slot3_take:
     sta.l menu.run_slots, x
     rep #0x20
     pla
-    cmp.w #MENU_BG3_MAP_SLOTS
+    cmp.w #_BG3_MAP_SLOTS
     bcs _font_slot3
     jmp.w _map_bg3_cell
 _font_slot3:
@@ -1238,12 +1238,12 @@ _font_slot3:
     asl
     asl
     clc
-    adc.w #MENU_BG3_VRAM
+    adc.w #_BG3_VRAM
     jmp.w _queue
 
 _collect_bg3:
 """Mark the slots the BG3 shadow shows, then free every run showing none of its slots."""
-    ldx.w #MENU_BG3_SLOTS - 1
+    ldx.w #_BG3_SLOTS - 1
     sep #0x20
     lda #0x00
 _unmark:
@@ -1251,9 +1251,9 @@ _unmark:
     dex
     bpl _unmark
     rep #0x20
-    ldx.w #( MENU_BG3_SHOWN_CELLS - 1 ) * 2
+    ldx.w #( _BG3_SHOWN_CELLS - 1 ) * 2
 _scan_cell:
-    lda.l MENU_SHADOW, x
+    lda.l _SHADOW, x
     and.w #0x03FF
     jsr.w _code_slot
     bcc _not_slot
@@ -1268,7 +1268,7 @@ _not_slot:
     dex
     dex
     bpl _scan_cell
-    ldx.w #MENU_BG3_RUNS - 1
+    ldx.w #_BG3_RUNS - 1
 _check_run:
     txa
     sta.l menu.run  ; before the free test: _next_run3 steps down from it
@@ -1348,31 +1348,31 @@ _run3_freed:
 
 _code_slot:
 """BG3 tile A -> its slot (A, carry set); carry clear for a tile no slot uses. Keeps X."""
-    cmp.w #MENU_BG3_RIGHT_TILE
+    cmp.w #_BG3_RIGHT_TILE
     bcc _not_right_tile
     sec
-    sbc.w #MENU_BG3_RIGHT_TILE
-    cmp.w #MENU_BG3_RIGHT_SLOTS
+    sbc.w #_BG3_RIGHT_TILE
+    cmp.w #_BG3_RIGHT_SLOTS
     bcs _no_slot
     sec
     rts
 _not_right_tile:
-    cmp.w #MENU_BG3_ROWS_TILE
+    cmp.w #_BG3_ROWS_TILE
     bcc _not_map_tile
     sec
-    sbc.w #MENU_BG3_ROWS_TILE
-    cmp.w #MENU_BG3_ROWS_SLOTS
+    sbc.w #_BG3_ROWS_TILE
+    cmp.w #_BG3_ROWS_SLOTS
     bcs _no_slot
-    adc.w #MENU_BG3_RIGHT_SLOTS  ; carry clear
+    adc.w #_BG3_RIGHT_SLOTS  ; carry clear
     sec
     rts
 _not_map_tile:
     cmp.w #0x15
     bcc _no_slot
-    cmp.w #0x15 + MENU_BG3_BLANK_CODES
+    cmp.w #0x15 + _BG3_BLANK_CODES
     bcs _maybe_kana
     clc
-    adc.w #MENU_BG3_MAP_SLOTS - 0x15
+    adc.w #_BG3_MAP_SLOTS - 0x15
     sec
     rts
 _maybe_kana:
@@ -1381,7 +1381,7 @@ _maybe_kana:
     cmp.w #0x60
     bcs _no_slot
     clc
-    adc.w #MENU_BG3_MAP_SLOTS + MENU_BG3_BLANK_CODES - 0x33
+    adc.w #_BG3_MAP_SLOTS + _BG3_BLANK_CODES - 0x33
     sec
     rts
 _no_slot:
@@ -1392,18 +1392,18 @@ _bg3_free_count:
 """menu.count: the BG3 slots no run holds; font slots only while the staging buffer has room for a whole name."""
     lda.w #0x0000
     sta.l menu.count
-    ldx.w #MENU_BG3_RIGHT_SLOTS
+    ldx.w #_BG3_RIGHT_SLOTS
 _count_slot:
     sep #0x20
     lda.l menu.bg3_used, x
     rep #0x20
     bne _count_next
-    cpx.w #MENU_BG3_MAP_SLOTS
+    cpx.w #_BG3_MAP_SLOTS
     bcc _count_it
     lda.l menu.staged
     clc
-    adc.w #MENU_TILE_2BPP * MENU_MAX_CELLS
-    cmp.w #MENU_STAGING_TILES * MENU_TILE_4BPP + 1
+    adc.w #_TILE_2BPP * _MAX_CELLS
+    cmp.w #_STAGING_TILES * _TILE_4BPP + 1
     bcs _count_next
 _count_it:
     lda.l menu.count
@@ -1411,7 +1411,7 @@ _count_it:
     sta.l menu.count
 _count_next:
     inx
-    cpx.w #MENU_BG3_SLOTS
+    cpx.w #_BG3_SLOTS
     bcc _count_slot
     rts
 
@@ -1419,18 +1419,18 @@ _map_bg3_cell:
 """Copy rendered cell menu.index into map slot A's pixels in the shadow."""
     jsr.w _bg3_code
     sec
-    sbc.w #MENU_BG3_SHADOW_TILE
+    sbc.w #_BG3_SHADOW_TILE
     asl
     asl
     asl
     asl
     clc
-    adc.w #MENU_SHADOW & 0xFFFF
+    adc.w #_SHADOW & 0xFFFF
     pha
     sep #0x20
     lda #TILE_2BPP
     sta.l tile_pool.format
-    lda #MENU_SHADOW >> 16
+    lda #_SHADOW >> 16
     sta.l tile_pool.destination + 2
     rep #0x20
     pla
@@ -1439,33 +1439,33 @@ _map_bg3_cell:
 
 _bg3_code:
 """BG3 slot A (16-bit) -> its tile (16-bit A): a map tile, a blank font code or a kana. Keeps X."""
-    cmp.w #MENU_BG3_RIGHT_SLOTS
+    cmp.w #_BG3_RIGHT_SLOTS
     bcs _not_right
     clc
-    adc.w #MENU_BG3_RIGHT_TILE
+    adc.w #_BG3_RIGHT_TILE
     rts
 _not_right:
-    cmp.w #MENU_BG3_MAP_SLOTS
+    cmp.w #_BG3_MAP_SLOTS
     bcs _font_code
     clc
-    adc.w #MENU_BG3_ROWS_TILE - MENU_BG3_RIGHT_SLOTS
+    adc.w #_BG3_ROWS_TILE - _BG3_RIGHT_SLOTS
     rts
 _font_code:
     sec
-    sbc.w #MENU_BG3_MAP_SLOTS
-    cmp.w #MENU_BG3_BLANK_CODES
+    sbc.w #_BG3_MAP_SLOTS
+    cmp.w #_BG3_BLANK_CODES
     bcs _kana
     clc
     adc.w #0x15
     rts
 _kana:
     clc
-    adc.w #0x33 - MENU_BG3_BLANK_CODES
+    adc.w #0x33 - _BG3_BLANK_CODES
     rts
 
 _stage_bg3_cell:
 """Stage rendered cell menu.index as a 2bpp tile at menu.staged; menu.tile its bytes."""
-    lda.w #MENU_TILE_2BPP
+    lda.w #_TILE_2BPP
     sta.l menu.tile
     ldy.w #0x0001
     ldx.w #TILE_2BPP
@@ -1490,21 +1490,21 @@ _plain:
 _plain_char:
     lda.l menu.tile
     beq _plain_put
-    lda.w #MENU_BLANK
+    lda.w #_BLANK
     bra _plain_attr
 _plain_put:
     lda.l small_vwf.text, x
     and.w #0x00FF
 _plain_attr:
-    ora.l MENU_TEXT_ATTR
+    ora.l _TEXT_ATTR
     pha
     lda.l menu.index
     asl
     clc
-    adc.l MENU_TEXT_CURSOR
+    adc.l _TEXT_CURSOR
     tax
     pla
-    sta.l MENU_SHADOW, x
+    sta.l _SHADOW, x
     lda.l menu.index
     inc
     sta.l menu.index
@@ -1514,7 +1514,7 @@ _advance:
     lda.l menu.field
     asl
     clc
-    adc.l MENU_TEXT_CURSOR
-    sta.l MENU_TEXT_CURSOR
+    adc.l _TEXT_CURSOR
+    sta.l _TEXT_CURSOR
     rts
 }
