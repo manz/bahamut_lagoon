@@ -1729,10 +1729,12 @@
         </refs>
         <data>Combien voulez-vous en vendre?[end]</data>
     </string>
+    <!-- 0x275: the Dragon screen's stat labels; each [0xf5] moves the pen to the pixel after it, centring the
+         label over its number (8 + 24 * column) -->
     <string>
         <refs>
             <ref>0x275</ref>
         </refs>
-        <data>                         [end]</data>
+        <data>[0xf5][0x02]Att[0xf5][0x19]Déf[0xf5][0x33]Vit[0xf5][0x4a]Mag[0xf5][0x62]Feu[0xf5][0x7a]Eau[0xf5][0x92]Fou[0xf5][0xaa]Ter[0xf5][0xc1]Soin[0xf5][0xdb]Poi[end]</data>
     </string>
 </messages>

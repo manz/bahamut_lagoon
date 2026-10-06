@@ -22,7 +22,8 @@ DMA_QUEUE_TAIL = 0x001A00  ; next free 8-byte entry of the game's DMA queue, dra
 MESSAGE_TILES = 0x7C00  ; VRAM word of the message window tiles
 TASK_YIELD = 0xEE440B  ; the game's cooperative task switch
 MESSAGE_SPRITES = 0x7E6E20  ; OAM shadow of the message sprites: x, y, tile, attribute
-MESSAGE_AT_ONCE = 0x275  ; drawn without a frame between glyphs (25 spaces: it clears the window)
+MESSAGE_AT_ONCE = 0x275  ; drawn without a frame between glyphs: the Dragon screen's stat labels
+MESSAGE_PEN = 0xF5  ; then the pen's pixel: lays a message out in columns
 MESSAGE_SPRITES_MAX = 15  ; 16px each from x 0x18, so the last stays left of x 256
 
 ; Direct-page scratch: the words both vanilla 12px loops use as scratch themselves. $12-$16 (index and string
@@ -86,7 +87,7 @@ draw_message:
 Type a message of the messages table, like the vanilla loop: one glyph a frame, each uploaded to the message window
 tiles and shown by growing the message sprites, the work its char routine (EE515C, EE532D) did. Message 0x275
 appears at once, as in vanilla, its whole buffer queued as one upload: a glyph's four would overrun the DMA queue
-into the sound driver's variables at 1D00.
+into the sound driver's variables at 1D00. MESSAGE_PEN, then a byte, moves the pen to that pixel.
 """
 
 
@@ -103,6 +104,8 @@ _next_glyph:
     and.w #0x00FF
     cmp.w #0x00FF
     beq _typed
+    cmp.w #MESSAGE_PEN
+    beq _pen
     cmp.w #0x00F0
     bcs _no_glyph
     phy
@@ -122,6 +125,13 @@ _next_glyph:
     jsr.w yield
     ply
 _no_glyph:
+    iny
+    bra _next_glyph
+_pen:
+    iny
+    lda [0x14], y
+    and.w #0x00FF
+    sta _position
     iny
     bra _next_glyph
 _typed:
