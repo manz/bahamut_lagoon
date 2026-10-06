@@ -208,19 +208,6 @@ def dump_char_names(rom_file):
         char_names_jp.write(prettify(char_names))
 
 
-def insert_char_names(writer, address=None):
-    jp_fixed_table = Table("./text/table/mz.tbl")
-    address = address or rom_offset(0xEF0380)
-    data = b""
-    tree = ET.parse("./text/names.xml")
-    root = tree.getroot()
-
-    for string in root:
-        data += jp_fixed_table.to_bytes(string.text)[:8].ljust(8, b"\xfe")
-
-    writer.write_block(data, address)
-
-
 def dump_dragon_feed_inline_strings(rom_file):
     jp_fixed_table = Table("../text/table/dragon_feed_table.tbl")
 

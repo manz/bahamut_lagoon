@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<names address="0xef6360">
+    <string jp="ナイト">Chevalier</string>
+    <string jp="ヘビ-ア-マ-">Cuirassier</string>
+    <string jp="ライトア-マ-">Fantassin</string>
+    <string jp="アサシン">Assassin</string>
+    <string jp="パレスア-マ-">Garde royal</string>
+    <string jp="ランサ-">Lancier</string>
+    <string jp="クロスナイト">Croisé</string>
+    <string jp="プリ-スト">Prêtre</string>
+    <string jp="ウィザ-ド">Mage</string>
+    <string jp="ワ-ロック">Sorcier</string>
+    <string jp="ドラグナ-">Dragonnier</string>
+    <string jp="プチデビル">Diablotin</string>
+    <string jp="ウッサ-">Ussa</string>
+    <string jp="ドラゴン">Dragon</string>
+</names>

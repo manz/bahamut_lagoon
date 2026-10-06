@@ -22,11 +22,11 @@ from utils.inline_strings import (
     inline_string_hooks_source,
     insert_battle_commands_strings,
     insert_battle_fixed,
-    insert_char_names,
     insert_dragon_feed_inline_strings,
     insert_inline_strings,
     insert_messages_strings,
 )
+from utils.name_tables import insert_short_names, long_names_source
 
 logger = logging.getLogger(__name__)
 
@@ -38,6 +38,7 @@ VWF_FONT_SOURCE = Path("fonts/fft.png")
 KATSUJI_CONFIG = Path("katsuji.toml")  # the 8x8 font (assets/small_font.dat)
 TABLE = Path("text/table/mz.tbl")
 INLINE_STRING_HOOKS = Path("build/gen/inline_string_hooks.s")  # generated module bl.s imports
+LONG_NAMES = Path("build/gen/long_names.s")  # generated module small_vwf reads
 
 
 @dataclass(frozen=True)
@@ -162,7 +163,7 @@ def insert_text(writer: IPSWriter) -> list[InlineStringHook]:
         compressor=compress_asset,
     )
 
-    insert_char_names(writer)
+    insert_short_names(writer, Table(str(TABLE)))
     insert_battle_fixed(writer)
     return hooks
 
@@ -179,6 +180,7 @@ def build_ips(variant: Variant) -> None:
     text = io.BytesIO()
     hooks = insert_text(IPSWriter(text))
     write_if_changed(INLINE_STRING_HOOKS, inline_string_hooks_source(hooks))
+    write_if_changed(LONG_NAMES, long_names_source(Table(str(TABLE))))
     build_code("bl.s", variant)
 
     with variant.ips.open("wb") as f:
