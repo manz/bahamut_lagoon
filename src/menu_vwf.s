@@ -7,7 +7,8 @@ over the 2bpp menu font at VRAM 0x4000; the rest is BG2 over a 4bpp copy at 0x10
 icon, drawn as a cell of its own here before the name.
 
 Every name renders through small_vwf, for one font across a list; the font draws it only when no slots are left. On
-BG2 its cells take a run of slots from VRAM 0x2000-0x2FFF, blank in the menus (BG2 tiles 0x100-0x1FF).
+BG2 its cells take a run of slots from VRAM 0x2000-0x2FFF, blank in the menus (BG2 tiles 0x100-0x1FF), but for the
+tiles the load and save screens upload their chapter titles to (0x120-0x17F).
 BG3 cannot reach below its 0x4000 base: a name takes first a block of the right half of BG2's 64x64 map, which BG2
 never scrolls to and no shadow upload covers (BG3 tiles 0x280-0x2FF, staged and queued like BG2's runs); else cells
 one by one from the last rows of BG3's own 32x64 map, 58-63 (the boxes at the bottom scroll it by 224 and 241 lines,
@@ -45,6 +46,8 @@ MENU_ITEMS = 128
 MENU_BG2_SLOTS = 256
 MENU_BG2_TILE = 0x100  ; BG2 tile of slot 0
 MENU_BG2_VRAM = 0x2000
+MENU_TEXT_BUFFER_SLOT = 0x20  ; BG2 tiles 0x120-0x17F: the load and save screens' chapter titles (text_buffer_vwf)
+MENU_TEXT_BUFFER_SLOTS = 0x60
 MENU_BG3_RIGHT_TILE = 0x280  ; BG2's map, right half: slots 0-127
 MENU_BG3_RIGHT_SLOTS = 128
 MENU_BG3_ROWS_TILE = 0x1E8  ; BG3's map, rows 58-63: the next 24
@@ -432,7 +435,15 @@ _next_start:
     rts
 
 _bg2_free:
-"""Slot A (16-bit): carry set when free, or when its cell no longer shows it (then freed)."""
+"""
+Slot A (16-bit): carry set when free, or when its cell no longer shows it (then freed); never one of the text
+buffer's.
+"""
+    cmp.w #MENU_TEXT_BUFFER_SLOT
+    bcc _not_text_buffer
+    cmp.w #MENU_TEXT_BUFFER_SLOT + MENU_TEXT_BUFFER_SLOTS
+    bcc _in_use
+_not_text_buffer:
     asl
     tax
     lda.l menu.bg2_owner, x
