@@ -15,7 +15,7 @@ instead of the record's eight codes.
 
 
 SMALL_VWF_MAX_CELLS = 12
-SMALL_VWF_MAX_CHARS = 16
+SMALL_VWF_MAX_CHARS = 24
 LONG_NAME_TABLE = 8  ; long_name_tables entries: record 0 (long), count (word), pointers (word), record size (byte)
 SHADOW_GAP = 1  ; the shadow takes the gap katsuji leaves after a glyph: one more pixel keeps letters apart
 

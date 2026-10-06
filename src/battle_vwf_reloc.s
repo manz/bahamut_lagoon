@@ -8,6 +8,7 @@
 .extern battle_vwf_window_pause
 .extern battle_vwf_new_line_return
 .extern return_from_battle_vwf_char
+.extern panel_slots_overwritten
 
 
 .reserve battle_vwf_position 2 at 0x7EBE00 in wram  ; battle text pixel position
@@ -71,8 +72,14 @@ battle_vwf_init:
     rtl
 
 battle_vwf_new_line:
-"""Move to the next of the three battle text lines; after the third, pause the window."""
+"""
+Move to the next of the three battle text lines; after the third, pause the window. The lines past the first draw
+over the battle panel's slots.
+"""
     {
+    sep #0x20
+    lda #0x01
+    sta.l panel_slots_overwritten
     rep #0x20
     lda.l battle_vwf_position
 

@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<battle_messages>
+    <string address="0xc0ecea" jp="てきのユニットです." refs="0xc0354e">Unité ennemie.</string>
+    <string address="0xc0ecf6" jp="ドラゴンユニットです." refs="0xc03541">Unité dragon.</string>
+    <string address="0xc0ed03" jp="NPCユニットです." refs="0xc03553">Unité PNJ.</string>
+    <string address="0xc0ed0f" jp="パ-ティ-ユニットです." refs="0xc03532">Unité alliée.</string>
+    <string address="0xc0ed1c" jp="こうどうずみユニットです." refs="0xc0353c">Unité ayant déjà agi.</string>
+    <string address="0xc0eed6" jp="うごけません." refs="0xc03537">Impossible de bouger.</string>
+    <string address="0xc0ed4c" jp="コマンド" refs="0xc0db81" font="small">Ordre</string>
+    <string address="0xc0ed52" jp="こい!" refs="0xc0db94" font="small">Viens!</string>
+    <string address="0xc0ed56" jp="いけ!" refs="0xc0db9d" font="small">Fonce!</string>
+    <string address="0xc0ed5a" jp="まて!" refs="0xc0dba4" font="small">Reste!</string>
+    <string address="0xc0ed94" jp="よりみち" refs="0xc0a0b1" count="0xc0a0b7" kind="prefix">Escale </string>
+    <string address="0xc0ed99" jp="シナリオタ-ンはい" refs="0xc0a0c5" count="0xc0a0cb" kind="prefix">Chapitre </string>
+    <string address="0xc0ed9d" jp="タ-ンはい" refs="0xc0a0e1" count="0xc0a0e4" kind="prefix"> Tour </string>
+    <string address="0xc0edbd" jp="バトルをしますか?" refs="0xc02c69" count="0xc02c6c">Commencer la bataille ?</string>
+    <string address="0xc0edef" jp="はレベルアップ." refs="0xc0a75b"> passe un niveau !</string>
+    <string address="0xc0eebe" jp="ここにいるとおぼれます.(3)" refs="0xc08fe8" count="0xc08feb" digit="0xc08ff1">Noyade si l'unité reste (#)</string>
+    <string address="0xc0eece" jp="おぼれました." refs="0xc08fd6" count="0xc08fd9">L'unité s'est noyée.</string>
+    <string address="0xc0eee4" jp="ゲ-ムをセ-ブしますか?" refs="0xc036d4" count="0xc036d7">Sauvegarder la partie ?</string>
+    <string address="0xc0eef1" jp="テンポラリ-にセ-ブしました." refs="0xc036fe" count="0xc03701">Sauvegarde rapide faite.</string>
+    <string address="0xc0efdc" jp="懐用不可です." refs="0xc0370a" count="0xc03701">Utilisation impossible.</string>
+    <string address="0xc0ef10" jp="プレイヤ-フェイズを終了します." refs="0xc036a3" count="0xc036a6">Fin de la phase du joueur.</string>
+    <string address="0xc0ef37" jp="このパ-ティ-と戦いますか?" refs="0xc09c2c" count="0xc09c2f">Combattre ce groupe ?</string>
+    <string address="0xc0ef48" jp="輻動先を指定してください." refs="0xc0932d" count="0xc09330">Choisissez la destination.</string>
+    <string address="0xc0ef5a" jp="謹物による回復" refs="0xc08e4c" count="0xc08e4f">Soins par remède</string>
+    <string address="0xc0ef65" jp="毒のダメ-ジ" refs="0xc08b58" count="0xc08b8b">Dégâts du poison</string>
+    <string address="0xc0ef6e" jp="炎のダメ-ジ" refs="0xc08b6b" count="0xc08b8b">Dégâts du feu</string>
+    <string address="0xc0efee" jp="漕岩のダメ-ジ" refs="0xc08b7e" count="0xc08b8b">Dégâts de la lave</string>
+    <string address="0xc0ef9e" jp="アイテムを入手しました." refs="0xc061d6" count="0xc08b8b">Objet obtenu.</string>
+    <string address="0xc0efad" jp="お金を入手しました." refs="0xc061c3" count="0xc08b8b">Piro obtenus.</string>
+    <string address="0xc0ef83" jp="パ-ティ-の経験値十" refs="0xc0a70c" digits="0xc0a71b">Exp. du groupe : </string>
+    <string address="0xc0ef91" jp="全員の経験値十" refs="0xc08861" digits="0xc08884">Exp. de tous : </string>
+    <string address="0xc0efbc" jp="に進化しました." refs="0xc0a7bc"> : nouvelle forme !</string>
+    <string address="0xc0efe7" jp="を入手." refs="0xc07739"> obtenu.</string>
+    <string address="0xc0efc8" jp="章の蛤めからやりなおしますか?" refs="0xc0a1b3" count="0xc0a1b6">Recommencer le chapitre ?</string>
+</battle_messages>
