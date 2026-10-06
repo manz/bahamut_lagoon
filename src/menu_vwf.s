@@ -28,8 +28,11 @@ in order, so a screen's names mostly make one). The staging buffer starts over o
 
 .include "src/expansion.i"
 .include "src/sram_work.i"
+.include "src/tile_pool.i"
 .extern small_vwf_render
 .extern small_vwf
+.extern tile_blit
+.extern tile_pool
 
 
 MENU_TEXT_CURSOR = 0x001860
@@ -684,40 +687,68 @@ _in_use:
     rts
 
 _stage_run:
-"""Copy the rendered cells as 4bpp tiles (planes 2 and 3 clear) into the staging buffer at menu.staged."""
-    lda.l menu.staged
-    tax
-    ldy.w #0x0000
-    lda.l menu.count
-    asl
-    asl
-    asl
-    asl
-    sta.l menu.tile  ; 2bpp bytes to copy
-_stage:
-    tya
-    cmp.l menu.tile
-    bcs _staged
-    phx
-    tyx
-    lda.l small_vwf.tiles, x  ; a row's planes 0 and 1
-    plx
-    sta.l menu.staging, x
+"""Stage the rendered cells as 4bpp tiles (planes 2 and 3 clear) at menu.staged."""
     lda.w #0x0000
-    sta.l menu.staging + MENU_TILE_2BPP, x
-    inx
-    inx
-    iny
-    iny
-    tya
-    and.w #MENU_TILE_2BPP - 1
-    bne _stage
+    sta.l menu.index
+    lda.l menu.count
+    tay
+    ldx.w #TILE_4BPP
+    jmp.w _blit_to_staging
+
+_blit_to_staging:
+"""Y (16-bit) rendered cells from menu.index as format X at menu.staged. Keeps menu.index."""
+    sep #0x20
     txa
+    sta.l tile_pool.format
+    lda #menu.staging >> 16
+    sta.l tile_pool.destination + 2
+    rep #0x20
+    lda.l menu.staged
     clc
-    adc.w #MENU_TILE_2BPP  ; past the upper planes
-    tax
-    bra _stage
-_staged:
+    adc.w #menu.staging & 0xFFFF
+    jmp.w _blit_cells
+
+_blit_cells:
+"""
+Y (16-bit, not 0) rendered cells from menu.index into the tiles from A (16-bit), one after the other; the caller
+sets tile_pool.destination's bank and tile_pool.format. Keeps menu.index.
+"""
+    rep #0x30
+    sta.l tile_pool.destination
+    lda.l menu.index
+    pha
+    sep #0x20
+    lda #small_vwf.tiles >> 16
+    sta.l tile_pool.source + 2
+    rep #0x20
+_blit_cell:
+    lda.l menu.index
+    asl
+    asl
+    asl
+    asl
+    clc
+    adc.w #small_vwf.tiles & 0xFFFF
+    sta.l tile_pool.source
+    jsl.l tile_blit
+    lda.l tile_pool.format
+    and.w #0x00FF
+    beq _blit_2bpp
+    lda.w #MENU_TILE_4BPP
+    bra _blit_next
+_blit_2bpp:
+    lda.w #MENU_TILE_2BPP
+_blit_next:
+    clc
+    adc.l tile_pool.destination
+    sta.l tile_pool.destination
+    lda.l menu.index
+    inc
+    sta.l menu.index
+    dey
+    bne _blit_cell
+    pla
+    sta.l menu.index
     rts
 
 _queue_run:
@@ -1095,23 +1126,12 @@ _block_mark:
     sta.l menu.index
     bra _block_mark
 _block_marked:
-    lda.l menu.staged
-    tax
-    ldy.w #0x0000
-_block_stage:
-    tya
-    cmp.l menu.tile
-    bcs _block_staged
-    phx
-    tyx
-    lda.l small_vwf.tiles, x
-    plx
-    sta.l menu.staging, x
-    inx
-    inx
-    iny
-    iny
-    bra _block_stage
+    lda.w #0x0000
+    sta.l menu.index
+    lda.l menu.count
+    tay
+    ldx.w #TILE_2BPP
+    jsr.w _blit_to_staging
 _block_staged:
     lda.l menu.slot
     asl
@@ -1360,30 +1380,18 @@ _map_bg3_cell:
     asl
     asl
     asl
-    tax
-    lda.l menu.index
-    asl
-    asl
-    asl
-    asl
-    tay
-    lda.w #MENU_TILE_2BPP / 2
-    sta.l menu.tile
-_map_copy:
-    phx
-    tyx
-    lda.l small_vwf.tiles, x
-    plx
-    sta.l MENU_SHADOW, x
-    inx
-    inx
-    iny
-    iny
-    lda.l menu.tile
-    dec
-    sta.l menu.tile
-    bne _map_copy
-    rts
+    clc
+    adc.w #MENU_SHADOW & 0xFFFF
+    pha
+    sep #0x20
+    lda #TILE_2BPP
+    sta.l tile_pool.format
+    lda #MENU_SHADOW >> 16
+    sta.l tile_pool.destination + 2
+    rep #0x20
+    pla
+    ldy.w #0x0001
+    jmp.w _blit_cells
 
 _bg3_code:
 """BG3 slot A (16-bit) -> its tile (16-bit A): a map tile, a blank font code or a kana. Keeps X."""
@@ -1413,30 +1421,11 @@ _kana:
 
 _stage_bg3_cell:
 """Stage rendered cell menu.index as a 2bpp tile at menu.staged; menu.tile its bytes."""
-    lda.l menu.staged
-    tax
-    lda.l menu.index
-    asl
-    asl
-    asl
-    asl
-    tay
     lda.w #MENU_TILE_2BPP
     sta.l menu.tile
-_stage3:
-    phx
-    tyx
-    lda.l small_vwf.tiles, x
-    plx
-    sta.l menu.staging, x
-    inx
-    inx
-    iny
-    iny
-    tya
-    and.w #MENU_TILE_2BPP - 1
-    bne _stage3
-    rts
+    ldy.w #0x0001
+    ldx.w #TILE_2BPP
+    jmp.w _blit_to_staging
 
 _draw_plain_cells:
 """No room for a run: the field's characters in the font, blanks past the string's end."""
