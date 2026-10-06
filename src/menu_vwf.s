@@ -102,6 +102,11 @@ MENU_RECORD = 8  ; the name records draw_fixed_name draws, an item's past its ic
     jml.l menu_draw_fixed_name
 }
 
+; draw_menu_string's level label (the party lists): LV -> NV.
+.alloc at 0xEEA760 {
+    .db 0xC6  ; N (text/table/mz.tbl)
+}
+
 
 .alloc menu_vwf in expansion {
 menu_draw_fixed_name:
