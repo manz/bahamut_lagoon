@@ -1,10 +1,10 @@
 """
-Scenario 00's unit panel, from the last line of the opening dialogue: the names draw through small_vwf into the
-panel's six cells.
+Scenario 00's unit panel, from the last line of the opening dialogue: names and classes draw through small_vwf,
+full names past their eight-code records ("Anastasia", "Ekaterina").
 """
 
 
-def test_panel_names_draw_with_the_small_vwf(console):
+def test_panel_text_draws_with_the_small_vwf(console):
     console.load("battle-panel")
     names = console.count_calls("panel_put_char_hook")
     console.tap(console.button.A)
