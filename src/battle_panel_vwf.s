@@ -16,9 +16,12 @@ runs whole, a transfer each: slot by slot, the bookkeeping alone outlasts vblank
 glyph over the window background, colour 4) for the window font; their runs go up one an NMI, and only once a window
 line changed them or the window font came back, so never over the map tiles the window font replaces.
 
-The panel slots are 8x8 font codes no text draws once the battle text is French: the kana (below 0x33 the engine
-draws a kana with a dakuten mark instead, and 0x33-0x5F are the kana themselves), around the frame tiles (0x10,
-0x1A) and the colour fills (0x2D-0x2F) the battle uses. The window slots are the window font's kana.
+The panel slots are 8x8 font codes no text draws once the battle text is French: the dakuten kana below 0x33 (the
+engine draws a kana with a mark instead), around the frame tiles (0x10, 0x1A) and the colour fills (0x2D-0x2F), and
+lowercase letters and accents past 0x6B, which only the VWF draws now. The battle message VWF (battle_vwf_reloc)
+draws its lines over 0x30 on: its first line, 0x30-0x6B, shows with the panel; its others overwrite the slots while
+the dialogue hides the panel, so the panel uploads its slots again when it next draws a line. The window slots are
+the window font's kana.
 """
 
 .include "src/expansion.i"
@@ -85,6 +88,7 @@ FIRST_WINDOW_RUN = 4 * 2
 }
 
 .reserve panel as PanelVwf in sram_work
+.reserve panel_slots_overwritten 1 in sram_work  ; set by the battle message VWF past its first line
 
 
 ; panel_copy_string: phb / lda $10 / pha / plb.
@@ -380,8 +384,20 @@ _filled:
     rts
 
 panel_line_hook:
-"""The row about to be drawn ($16): free its slots the last drawing left stale, mark the others stale."""
+"""
+The row about to be drawn ($16): free its slots the last drawing left stale, mark the others stale; after a battle
+message's later lines wrote over the slots, upload them all again.
+"""
     sta.b 0x10
+    lda.l panel_slots_overwritten
+    beq _slots_kept
+    lda #0x00
+    sta.l panel_slots_overwritten
+    lda.l panel.dirty
+    ora #ALL_RUNS
+    sta.l panel.dirty
+    lda.b 0x10
+_slots_kept:
     rep #0x30
     phx
     lda.b 0x16
@@ -943,7 +959,7 @@ _pool_runs:
     .db 0x0D, 3
     .db 0x11, 9
     .db 0x1B, 18
-    .db 0x33, 45
+    .db 0x6C, 45  ; past the battle message's first line (0x30-0x6B)
     .db 0x33, 15  ; the windows'
     .db 0x42, 15
     .db 0x51, 15
