@@ -1,0 +1,15 @@
+# Fonts katsuji builds for the patch: `katsuji build`, or `build.py`, which calls it first.
+
+# ff4's 8x8 menu font, its cells moved to the 8x8 text codes (text/table/mz.tbl shares them with battle.tbl).
+[fonts.small]
+png = "fonts/8x8vwf.png"
+cell = [8, 8]
+table = "text/table/mz.tbl"
+output = "assets/small_font.dat"
+widths = { "0xEF" = 3 }
+kerning-candidates = [
+    "Ya", "Pa", "Fa", "Fe", "Fo", "Fu", "Ta", "Te",
+    "To", "Tu", "Tr", "Ts", "ra", "re", "ro", "Aï",
+    "ïe", "aî", "ît", "pa", "at", "ta", "te", "nt",
+    "fa", "fe", "fo", "fu", "fi", "st", "va",
+]
