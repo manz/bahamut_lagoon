@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0xdc5" room_id="211">
     <text>
         <refs>
@@ -79,7 +79,7 @@ Es-tu prêt à aller combattre ?[end]</data>
         <refs>
             <ref>0x5d2</ref>
         </refs>
-        <data> Rester là!
+        <data> Rester là !
  Aller combattre ![end1]</data>
     </text>
     <text>
@@ -94,7 +94,7 @@ Il veut devenir Papa...[end]</data>
         <refs>
             <ref>0x586</ref>
         </refs>
-        <data> Papa...?
+        <data> Papa... ?
  Excrément...[end1]</data>
     </text>
     <text>
@@ -240,7 +240,7 @@ Tu es notre sauveur ![end]</data>
             <ref>0xd12</ref>
         </refs>
         <data>[0xaa]SHARUN[0xab]
-[0xa8]Rend plus fort un Chevalier-Croix[0xa9]
+``Rend plus fort un Chevalier-Croix''
  
 Obtenu
 [0xaa]EFFROI[0xab]
@@ -251,8 +251,8 @@ Obtenu
             <ref>0xd2e</ref>
         </refs>
         <data>Obtenu [0xaa]ERADIK[0xab]
-[0xaa]TSARINE [0xa8][0xb1][0xa9][0xab]
-[0xaa]MARSHALL [0xa8][0xb1][0xa9][0xab]
+[0xaa]TSARINE ``[0xb1]''[0xab]
+[0xaa]MARSHALL ``[0xb1]''[0xab]
 [0xaa]PRINCE EUGEN[0xab]
 [0xaa]LIVRE SUPER-PORNO[0xab].[end]</data>
     </text>

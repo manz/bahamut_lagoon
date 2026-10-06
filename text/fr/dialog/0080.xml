@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0"?>
 <texts base="0xaf8" room_id="80">
     <text>
         <refs>
@@ -14,7 +14,7 @@ Je... nous... avons gagné...[end]</data>
         </refs>
         <data>MATELIGHT:
 Princesse [character][0x1]!
-Nous l'avons tué![end]</data>
+Nous l'avons tué ![end]</data>
     </text>
     <text>
         <refs>
@@ -31,7 +31,7 @@ Et le Peuple Dragon ?[end]</data>
 C'est impossible !
  
 Les êtres-dragons d'Alexandre sont
-encore là![end]</data>
+encore là ![end]</data>
     </text>
     <text>
         <refs>
@@ -70,7 +70,7 @@ Nous n'avons plus beaucoup de temps ![end]</data>
         </refs>
         <data>SENDACK:
 La résurrection d'Alexandre est pire
-qu'une menace,c'est une calamité![end]</data>
+qu'une menace,c'est une calamité ![end]</data>
     </text>
     <text>
         <refs>
@@ -107,7 +107,6 @@ Matelight ! Sendack ![end]</data>
         </refs>
         <data>[character][0x1]:
 Nous sommes les Compagnons d'Orelus !
- 
   
 Grâce à la volonté de tout le monde
 et avec ma volonté nous pouvons en

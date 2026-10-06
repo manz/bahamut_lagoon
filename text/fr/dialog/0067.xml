@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0x72c" room_id="67">
     <text>
         <refs>
@@ -63,7 +63,7 @@ Donnez-nous le signal ![end]</data>
         </refs>
         <data>HORNET:
 En route !
-Nous n'avons rien oublié?!
+Nous n'avons rien oublié ?!
 Le nouveau nom du bateau a été
 choisi ?[end]</data>
     </text>

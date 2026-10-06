@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0x5f4" room_id="13">
     <text>
         <refs>

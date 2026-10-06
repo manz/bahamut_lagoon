@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0x162" room_id="39">
     <text>
         <refs>
@@ -8,7 +8,7 @@
             <ref>0xd6</ref>
             <ref>0x9d</ref>
         </refs>
-        <data>               Céline...[end]</data>
+        <data>                     Céline...[end]</data>
     </text>
     <text>
         <refs>

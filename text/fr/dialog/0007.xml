@@ -1,11 +1,11 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0x9aa" room_id="7">
     <text>
         <refs>
             <ref>0x63</ref>
         </refs>
-        <data>          Chapitre [0xb6]
-   -La Légende des Dragons-[end]</data>
+        <data>                   Chapitre [0xb6]
+             -La Légende des Dragons-[end]</data>
     </text>
     <text>
         <refs>
@@ -61,7 +61,7 @@ Est-ce vrai ?[end]</data>
         </refs>
         <data>ZORA:
 C'est vrai !
-Qui t'en a parlé?[end]</data>
+Qui t'en a parlé ?[end]</data>
     </text>
     <text>
         <refs>
@@ -96,7 +96,7 @@ Mince...[end]</data>
         <refs>
             <ref>0x33d</ref>
         </refs>
-        <data>J'ai été humilié!
+        <data>J'ai été humilié !
  
   
 La prochaine fois,j'irai passer ma
@@ -171,7 +171,7 @@ qu'il aime le plus ?
             <ref>0x255</ref>
         </refs>
         <data>HORNET:
-...? Quoi ?
+... ? Quoi ?
  
  Me dire ce que tu aimes !
  Me dire ce que tu hais ![end1]</data>
@@ -221,7 +221,7 @@ Viens,allons-y ![end]</data>
         </refs>
         <data>EKATERINA:
 [character][0x0]...
-Merci d'avoir dit la vérité![end]</data>
+Merci d'avoir dit la vérité ![end]</data>
     </text>
     <text>
         <refs>
@@ -386,7 +386,7 @@ Tends-moi... la main...[end]</data>
         </refs>
         <data>MANYO:
 manyo !
-[0xa8]mélodia est venue ![0xa9][end]</data>
+``mélodia est venue !''[end]</data>
     </text>
     <text>
         <refs>
@@ -394,7 +394,7 @@ manyo !
         </refs>
         <data>MUNYO:
 munyo !
-[0xa8]nous dansons tous ensemble ![0xa9][end]</data>
+``nous dansons tous ensemble !''[end]</data>
     </text>
     <text>
         <refs>

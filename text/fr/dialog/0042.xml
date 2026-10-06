@@ -1,46 +1,46 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0xc26" room_id="42">
     <text>
         <refs>
             <ref>0x141</ref>
         </refs>
-        <data>          -Empire Granbelos-[end1]</data>
+        <data>                -Empire Granbelos-[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x17f</ref>
         </refs>
-        <data>        Peuple de l'Empire,
-      L'Empereur Sauzer a été
-     confronté avec son propre
-      corps,à la Légende des
-          Dragons Sacrés.[end]</data>
+        <data>                Peuple de l'Empire,
+              L'Empereur Sauzer a été
+             confronté avec son propre
+              corps,à la Légende des
+                 Dragons Sacrés.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1a2</ref>
         </refs>
-        <data>           Maintenant,
-       il est tombé malade.
-   Mais ne vous inquiétez pas...[end]</data>
+        <data>                   Maintenant,
+                il est tombé malade.
+             Mais ne vous inquiétez pas...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1c5</ref>
         </refs>
-        <data>      NOTRE Empereur connaît
-   le COEUR des Dragons Sacrés.[end]</data>
+        <data>             NOTRE Empereur connaît
+           le COEUR des Dragons Sacrés.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1e0</ref>
         </refs>
-        <data>    Il a l'ambition d'ouvrir la
-     Porte d'une Ere Nouvelle...
- 
-      Cette Ere sera celle de
-        l'Empire Granbelos,
-     celle de NOTRE Empereur ![end]</data>
+        <data>              Il a l'ambition d'ouvrir la
+             Porte d'une Ère Nouvelle...
+
+              Cette Ere sera celle de
+                l'Empire Granbelos,
+             celle de NOTRE Empereur ![end]</data>
     </text>
     <text>
         <refs>
@@ -84,7 +84,7 @@ Tout sera à Gudruff ![end]</data>
         <data>DON JUAN:
 Salut les filles,
 je suis l'inoubliable Don Juan !
-Vous combattez aussi...?!
+Vous combattez aussi... ?!
 Le champ de bataille risque d'abîmer
 votre joli sourire !
 En tout cas,ce n'est pas moi qui vous
@@ -97,17 +97,17 @@ et il a le plus grand coeur au monde ![end]</data>
         <refs>
             <ref>0x4a8</ref>
         </refs>
-        <data>             Don Juan
-    et la [0xb3][0xb7]e femme courtisée ![end]</data>
+        <data>                    Don Juan
+             et la [0xb3][0xb7]e femme courtisée ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4f5</ref>
         </refs>
         <data>DON JUAN:
-Salut Lady au cheveux rouges !
+Salut Lady aux cheveux rouges !
  
-Je suis le Na[0x25]f et Inoubliable
+Je suis le Naïf et Inoubliable
 Don Juan !
  
 Pourquoi ne t'échapperais-tu pas de
@@ -120,8 +120,8 @@ la Princesse de mes rêves.[end]</data>
         <refs>
             <ref>0x5c3</ref>
         </refs>
-        <data>             Don Juan
-    et la [0xb5][0xb8]e femme courtisée ![end]</data>
+        <data>                    Don Juan
+             et la [0xb5][0xb8]e femme courtisée ![end]</data>
     </text>
     <text>
         <refs>
@@ -158,7 +158,7 @@ Quel est ton passe-temps ?[end]</data>
         <refs>
             <ref>0x600</ref>
         </refs>
-        <data>Les chaînes...?!
+        <data>Les chaînes... ?!
  
   
 Général Barbalea...
@@ -176,7 +176,7 @@ s'entraîne dur...
  
   
 Je suis ton homme ?!
-Je suis Don Juan,le Na[0x25]f et le
+Je suis Don Juan,le Naïf et le
 Fidèle.
 Tu as pris mes mensurations ?
 On pourrait discuter ensemble pendant
@@ -186,29 +186,29 @@ un entraînement ?[end]</data>
         <refs>
             <ref>0x6a9</ref>
         </refs>
-        <data>             Don Juan
-   et la [0xb0][0xaf][0xaf]e femme courtisée[0xd8][end]</data>
+        <data>                    Don Juan
+           et la [0xb0][0xaf][0xaf]e femme courtisée[0xd8][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6b7</ref>
         </refs>
-        <data> Don Juan s'était maintenant fait une
-    réputation au sein de l'Empire
-            Granbelos.[end]</data>
+        <data>         Don Juan s'était maintenant fait une
+            réputation au sein de l'Empire
+                    Granbelos.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x758</ref>
         </refs>
         <data>PALPALEOS:
-Qui est là?![end]</data>
+Qui est là ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x76a</ref>
         </refs>
-        <data>Qui êtes-vous...?!
+        <data>Qui êtes-vous... ?!
 Il me semble reconnaître cette
 moustache.[end]</data>
     </text>
@@ -216,97 +216,95 @@ moustache.[end]</data>
         <refs>
             <ref>0x77b</ref>
         </refs>
-        <data>COMMANDANT:
-Je... je suis un voyageur...
+        <data>[character][0x10]: Je... je suis un voyageur...
  
-Je suis un marchand envoyé au champ
-de bataille !
+
+Je suis un marchand envoyé au champ de bataille !
 Vous avez dû faire erreur.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x78d</ref>
         </refs>
-        <data>PALPALEOS:
-...?
+        <data>[character][0xa]: ... ?
  
+
 J'ai déjà entendu cette voix.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7a6</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>[character][0x10]:
 C'est la première fois que nous nous
 rencontrons...
-Général... Palpaleos...[end]</data>
+Général... [character][0xa]...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7b3</ref>
         </refs>
-        <data>PALPALEOS:
-Vous dites être un voyageur !
+        <data>[character][0xa]: Vous dites être un voyageur !
+
+
 D'accord...
+
+
 Puis-je vous parler de mes sentiments ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7dc</ref>
         </refs>
-        <data>PALPALEOS:
-... ... ... ...
+        <data>[character][0xa]: ... ... ... ...
+
  
-Je suis loin de la femme que j'aime et
-ici,je ne peux me contenter que de
-souvenirs.
+Je suis loin de la femme que j'aime et ici,je ne peux
+me contenter que de souvenirs.
+
 Comprenez-vous mes sentiments ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7f9</ref>
         </refs>
-        <data>COMMANDANT:
-Je les comprends...
+        <data>[character][0x10]: Je les comprends...
+
  
-Moi-même,je suis très loin de ma femme
-et mon enfant.[end]</data>
+Moi-même,je suis très loin de ma femme et mon enfant.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x806</ref>
         </refs>
-        <data>PALPALEOS:
-Je sens une intense tristesse en vous !
+        <data>[character][0x10]: Je sens une intense tristesse en vous !
  
-Quelle est la personne que vous avez
-perdue ?[end]</data>
+
+Quelle est la personne que vous avez perdue ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x812</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>[character][0x10]:
 Céline,ma femme...
  
 Aussi,je n'ai été qu'un lâche.
 J'y repense souvent...
  
-Céline,j'avais encore tant de choses à
-te dire.
+Céline,j'avais encore tant de choses à te dire.
  
-Maintenant,il ne me reste que des
-souvenirs.[end]</data>
+
+Maintenant,il ne me reste que des souvenirs.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x81e</ref>
         </refs>
-        <data>PALPALEOS:
-Je vous envie...
+        <data>[character][0xa]: Je vous envie...
  
-Ces souvenirs vous font vivre,
-n'est-ce pas ?[end]</data>
+
+Ces souvenirs vous font vivre,n'est-ce pas ?[end]</data>
     </text>
     <text>
         <refs>
@@ -314,32 +312,33 @@ n'est-ce pas ?[end]</data>
             <ref>0x84b</ref>
             <ref>0x7cb</ref>
         </refs>
-        <data>COMMANDANT:
-... ... ...[end]</data>
+        <data>[character][0x10]: ... ... ...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x83f</ref>
         </refs>
-        <data>PALPALEOS:
-Vous voyagez en bravant les dangers...[end]</data>
+        <data>[character][0xa]: Vous voyagez en bravant les dangers...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x864</ref>
         </refs>
-        <data>PALPALEOS:
-Arrêtons cette mascarade ![end]</data>
+        <data>[character][0xa]: Arrêtons cette mascarade ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x87f</ref>
         </refs>
         <data>Je vous ai reconnu voyageur...
-Vous êtes un des Rebelles que j'ai
-déjà rencontré sur un lagon.
-Si vous le voulez,j'aimerais que vous
-transmettiez un message.
+
+
+Vous êtes un des Rebelles que j'ai déjà rencontré sur
+un lagon.
+
+Si vous le voulez,j'aimerais que vous transmettiez un 
+message.
+
 Vous connaissez sûrement une femme...
 Du nom de... [character][0x1]...[end]</data>
     </text>
@@ -347,31 +346,28 @@ Du nom de... [character][0x1]...[end]</data>
         <refs>
             <ref>0x88f</ref>
         </refs>
-        <data>Vous et moi avons perdu quelque
-chose...[end]</data>
+        <data>Vous et moi avons perdu quelque chose...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8a5</ref>
         </refs>
-        <data>COMMANDANT:
-Je lui parlerai de vous...[end]</data>
+        <data>[character][0x10]: Je lui parlerai de vous...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8b2</ref>
         </refs>
-        <data>PALPALEOS:
-Voyageur,un jour,vous pourrez
-certainement vous arrêter...[end]</data>
+        <data>[character][0xa]: Voyageur,un jour,vous pourrez certainement
+vous arrêter...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8c4</ref>
         </refs>
-        <data>COMMANDANT:
-Nous nous reverrons sur le champ de
-bataille.
+        <data>[character][0x10]: Nous nous reverrons sur le champ de bataille.
+
+
 Adieu ![end]</data>
     </text>
     <text>
@@ -381,25 +377,26 @@ Adieu ![end]</data>
             <ref>0x3e9</ref>
             <ref>0x93f</ref>
         </refs>
-        <data>       -Château de Granbelos-[end]</data>
+        <data>              -Château de Granbelos-[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x984</ref>
         </refs>
-        <data>LEGION:
-Empereur Gudruff !
+        <data>Légion: Empereur Gudruff !
+
+ 
 Où est le corps de Sauzer ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9d5</ref>
         </refs>
-        <data>GUDRUFF:
-Son corps...?
+        <data>GUDRUFF: Son corps... ?
  
+
 GUFUFUFUFU !
- 
+
   
 Tu finiras comme Sauzer ![end]</data>
     </text>
@@ -407,49 +404,50 @@ Tu finiras comme Sauzer ![end]</data>
         <refs>
             <ref>0xa30</ref>
         </refs>
-        <data>GUDRUFF:
-GUFUFUFUFU !
+        <data>GUDRUFF: GUFUFUFUFU !
 Préparez-vous !
+
 Le peuple de l'Empire attend !
-Il veut des funérailles pour son
-Empereur ![end]</data>
+
+
+Il veut des funérailles pour son Empereur ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xaf3</ref>
         </refs>
-        <data>       La mort de l'Empereur...
- 
-  
-       La mort d'un être aimé...
- 
-  
-          Tout le monde le
-            connaissait...[end]</data>
+        <data>              La mort de l'Empereur...
+
+
+              La mort d'un être aimé...
+
+
+                 Tout le monde le
+                   connaissait...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xafd</ref>
         </refs>
-        <data>        Il créa et régna sur
-       l'Empire de Granbelos.
- 
-     Nous avons perdu quelqu'un
-     de cher mais l'ordre doit
-               régner...[end]</data>
+        <data>               Il créa et régna sur
+               l'Empire de Granbelos.
+
+             Nous avons perdu quelqu'un
+              de cher mais l'ordre doit
+                     régner...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x561</ref>
         </refs>
-        <data>   -Général Pelsona de Granbelos-
-      Passe-temps:le nettoyage.[end]</data>
+        <data>           -Général Pelsona de Granbelos-
+             Passe-temps:le nettoyage.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x646</ref>
         </refs>
-        <data>   -Général Arbain de Granbelos-
-     Passe-temps:l'entraînement.[end]</data>
+        <data>           -Général Arbain de Granbelos-
+             Passe-temps:l'entraînement.[end]</data>
     </text>
 </texts>

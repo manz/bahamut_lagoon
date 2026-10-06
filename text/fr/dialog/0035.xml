@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0x803" room_id="35">
     <text>
         <refs>
@@ -93,11 +93,11 @@ Ils ne veulent que son don ![end]</data>
             <ref>0x3bc</ref>
         </refs>
         <data>SAUZER:
-Qui avons-nous là?
+Qui avons-nous là ?
 Seraient-ce les Rebelles ?!
 Mon dieu,vous osez me faire l'honneur
 de votre présence ?!
-J'en suis honoré! Hahahahaha !
+J'en suis honoré ! Hahahahaha !
 Le pouvoir de votre Princesse vous
 intéresse également ?[end]</data>
     </text>
@@ -324,7 +324,7 @@ père.[end]</data>
         </refs>
         <data>RUSH:
 [character][0x1] est capable de parler au Dragon
-Sacré![end]</data>
+Sacré ![end]</data>
     </text>
     <text>
         <refs>

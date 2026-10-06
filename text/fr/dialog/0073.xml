@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0x923" room_id="73">
     <text>
         <refs>
@@ -92,7 +92,7 @@ dragons.[end]</data>
         <refs>
             <ref>0x479</ref>
         </refs>
-        <data>Hola ! Hé là!
+        <data>Hola ! Hé là !
 Tu suis toujours ce que je dis ?
  
 Les dragons sont toujours amicaux.
@@ -229,7 +229,7 @@ pour toi ![end]</data>
         <refs>
             <ref>0x64c</ref>
         </refs>
-        <data>Le voilà!
+        <data>Le voilà !
 Il est venu de lui-même !
 Chose peu commune aux dragons ![end]</data>
     </text>

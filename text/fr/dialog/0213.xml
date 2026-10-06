@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0xa59" room_id="213">
     <text>
         <refs>
@@ -32,8 +32,8 @@ Mais CE NE SERA PAS la tienne ![end]</data>
             <ref>0x1a1</ref>
         </refs>
         <data>SAUZER:
-Que...?
-Où suis-je...?[end]</data>
+Que... ?
+Où suis-je... ?[end]</data>
     </text>
     <text>
         <refs>
@@ -54,7 +54,7 @@ libéré.[end]</data>
 Je...
 J'ai été atteint par ce pouvoir ?
 La Princesse [character][0x1]...
-contrôle-t-elle le Dragon Sacré?
+contrôle-t-elle le Dragon Sacré ?
 Se porte-t-elle bien ?[end]</data>
     </text>
     <text>
@@ -92,7 +92,7 @@ Nous défendrons Granbelos pour vous ![end]</data>
         <data>SAUZER:
 La personne qui connaît le coeur des
 Dragons Sacrés ouvrira la Porte vers
-une Ere Nouvelle.
+une Ère Nouvelle.
 Qu'a dit Valitra à la Princesse [character][0x1]?[end]</data>
     </text>
     <text>
@@ -167,7 +167,7 @@ perdus...[end]</data>
         </refs>
         <data>SAUZER:
 Des monstres... repoussants...
-Les gardiens du Dragon Sacré!
+Les gardiens du Dragon Sacré !
 Bienvenue à tous...
 Je vous suis reconnaissant de m'avoir
 choisi !
@@ -283,7 +283,7 @@ Le ciel est à moi ![end]</data>
             <ref>0x89d</ref>
         </refs>
         <data>PALPALEOS:
-Sauzer...?![end]</data>
+Sauzer... ?![end]</data>
     </text>
     <text>
         <refs>
@@ -313,7 +313,7 @@ l'Empereur.[end]</data>
 Maintenant,chaque enfant naissant en
 son sein n'a qu'un esprit de combat.
 Ils prennent le même chemin que moi.
-Mon dieu... qu'ai-je créé?![end]</data>
+Mon dieu... qu'ai-je créé ?![end]</data>
     </text>
     <text>
         <refs>

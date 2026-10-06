@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0x8b6" room_id="64">
     <text>
         <refs>
@@ -174,20 +174,20 @@ Merci...[end]</data>
             <ref>0x25d</ref>
             <ref>0x327</ref>
         </refs>
-        <data>Hé![end]</data>
+        <data>Hé ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2ca</ref>
         </refs>
-        <data>Qui est là?!
-Pourquoi m'as-tu réveillé?[end]</data>
+        <data>Qui est là ?!
+Pourquoi m'as-tu réveillé ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2e1</ref>
         </refs>
-        <data>Héhé!
+        <data>Héhé !
 Tu es un membre de l'Escadron Dragon
 de Kana ?
 Dans ce cas-là,Nettoyage ![end]</data>
@@ -278,7 +278,7 @@ Comment se nomme-t-il ?[end]</data>
             <ref>0x3de</ref>
         </refs>
         <data>Viens !
-[0xa8]S'il te plaît...[0xa9][end]</data>
+``S'il te plaît...''[end]</data>
     </text>
     <text>
         <refs>

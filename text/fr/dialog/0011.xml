@@ -1,102 +1,100 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0xc4a" room_id="11">
     <text>
         <refs>
             <ref>0x6b9</ref>
         </refs>
-        <data>SENDACK:
-Excellent !
+        <data>SENDACK: Excellent !
 Ecoute ce que j'ai appris...
-La Princesse a fait un rêve dans lequel
-se trouvait le Dragon Sacré Léviathan !
+
+La Princesse a fait un rêve dans lequel se trouvait le
+Dragon Sacré Léviathan !
  
 Il serait dans une ville voisine...
 Un endroit rempli de lacs !
  
-Matelight et Commandant sont partis en
-avance pour tenter de trouver ce lieu.
+Matelight et Commandant sont partis en avance pour
+tenter de trouver ce lieu.
  
-Commandant y est allé pour se changer
-les idées car il ne voulait plus penser
-aux évènements tragiques de Mahal.
-Quant à Matelight,il disait aller signer
-des autographes mais en fait il voulait
-être avec la Princesse.[end]</data>
+Commandant y est allé pour se changer les idées car
+il ne voulait plus penser aux évènements tragiques de Mahal.
+
+Quant à Matelight,il disait aller signer des autographes
+mais en fait il voulait être avec la Princesse.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7d5</ref>
         </refs>
-        <data>SENDACK:
-Va-t-on bientôt partir combattre dans
-ce lieu rempli de lacs ?[end]</data>
+        <data>SENDACK: Va-t-on bientôt partir combattre dans ce 
+lieu rempli de lacs ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6bd</ref>
         </refs>
-        <data> Je me prépare,Sendack.
- Allons combattre,Sendack ![end1]</data>
+        <data>  Je me prépare,Sendack.
+  Allons combattre,Sendack ![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x868</ref>
         </refs>
-        <data>MARCHAND ENVOYE AU CHAMP DE
-BATAILLE:
-Pourquoi est-ce que je regarde le
-paysage ?!
+        <data>Marchand envoyé au champ de bataille:
+Pourquoi est-ce que je regarde le paysage ?!
+
 C'est ma passion...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x86c</ref>
         </refs>
-        <data> J'aimerais des armes.
- J'aimerais des armures.
- J'aimerais des objets.[end1]</data>
+        <data>  J'aimerais des armes.
+  J'aimerais des armures.
+  J'aimerais des objets.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x7e9</ref>
         </refs>
-        <data>BIKKEBAKKE:
-Elle a un champignon sur le dos !
+        <data>BIKKEBAKKE: Elle a un champignon sur le dos !
+
+
 Cette pieuvre en a un sur le dos !
+
+
 [character][0x0],veux-tu l'attraper ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x64e</ref>
         </refs>
-        <data>SERGENT:
-[0xa8]Grognement[0xa9]J'avais oublié les
-sensations d'un lit bien de chez soi...
-Mais il va falloir bientôt retourner à
-FARENHEIT.
-[0xa8]Grognement[0xa9][end]</data>
+        <data>SERGENT: ``Grognement'' J'avais oublié les sensations
+d'un lit bien de chez soi...
+
+Mais il va falloir bientôt retourner à FARENHEIT.
+``Grognement''[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x858</ref>
         </refs>
-        <data>LUKIA:
-Don Juan...[end]</data>
+        <data>LUKIA: Don Juan...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x816</ref>
         </refs>
-        <data>Oh,ce matin,je n'ai déjà pas trouvé
-beaucoup de champignons toxiques !
+        <data>Oh,ce matin,je n'ai déjà pas trouvé beaucoup
+de champignons toxiques !
+
 Alors,s'il te plaît... attrape-la ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x250</ref>
         </refs>
-        <data>BIKKEBAKKE:
-Ah !
+        <data>BIKKEBAKKE: Ah !
 Je vais t'attraper !
 Prends ma main ![end]</data>
     </text>
@@ -104,28 +102,27 @@ Prends ma main ![end]</data>
         <refs>
             <ref>0x29d</ref>
         </refs>
-        <data>LUKIA:
-Don Juan !
+        <data>LUKIA: Don Juan !
  
-Que faisais-tu dans ma chambre,
-ce matin ?!
+
+Que faisais-tu dans ma chambre, ce matin ?!
  
-Et qu'as-tu été raconter à la
-Princesse ?![end]</data>
+
+Et qu'as-tu été raconter à la Princesse ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x348</ref>
         </refs>
-        <data>LUKIA:
-Don Juan,tu as voulu faire boire du
+        <data>LUKIA: Don Juan,tu as voulu faire boire du
 [0xaa]VIN DOUX[0xab] à [character][0x1]...
-J'espère que tu avais vu ton reflet
-dans les lacs de Mahal,cette nuit.
+
+J'espère que tu avais vu ton reflet dans les lacs
+de Mahal,cette nuit.
  
-Don Juan,le Na[0x25]f,le Misérable,tu lui as
-parlé d'un Dragon Sacré dans un
-rempli de lacs !
+Don Juan,le Naïf,le Misérable,tu lui as parlé
+d'un Dragon Sacré dans un rempli de lacs !
+
 Tu voulais certainement dire...
 les Ruines ![end]</data>
     </text>
@@ -223,8 +220,8 @@ Tu veux des champignons ?[end]</data>
         <refs>
             <ref>0x54</ref>
         </refs>
-        <data>         Chapitre [0xb0][0xb0]
- -Le Dragon Sacré Léviathan-[end]</data>
+        <data>                   Chapitre [0xb0][0xb0]
+           -Le Dragon Sacré Léviathan-[end]</data>
     </text>
     <text>
         <refs>
@@ -236,7 +233,7 @@ Tu veux des champignons ?[end]</data>
         <refs>
             <ref>0xa9</ref>
         </refs>
-        <data> Qui est là?[end1]</data>
+        <data> Qui est là ?[end1]</data>
     </text>
     <text>
         <refs>
@@ -325,7 +322,7 @@ Je vais me noyer ![end]</data>
         </refs>
         <data>DON JUAN:
 Ouf Ouf...
-Tu m'as sauvé! Merci ![end]</data>
+Tu m'as sauvé ! Merci ![end]</data>
     </text>
     <text>
         <refs>

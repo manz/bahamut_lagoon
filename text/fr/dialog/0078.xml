@@ -1,11 +1,11 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0x9b0" room_id="78">
     <text>
         <refs>
             <ref>0x95</ref>
         </refs>
         <data>MATELIGHT:
-Hé! Le Peuple Dragon !
+Hé ! Le Peuple Dragon !
 Nous allons entrer[0xd8]
 Nous venons défendre Orelus !
 Vous serez bientôt libérés !
@@ -220,7 +220,7 @@ Notre but est proche...[end]</data>
             <ref>0x261</ref>
         </refs>
         <data>MATELIGHT:
-Alexandre doit sûrement être ressuscité!
+Alexandre doit sûrement être ressuscité !
 Soyons tous prêt ![end]</data>
     </text>
     <text>
@@ -229,7 +229,7 @@ Soyons tous prêt ![end]</data>
         </refs>
         <data>SENDACK:
 [character][0x0],est-ce utile... de vaincre...
-Alexandre ressuscité?[end]</data>
+Alexandre ressuscité ?[end]</data>
     </text>
     <text>
         <refs>
@@ -299,7 +299,7 @@ nous rentrerons chez nous ![end]</data>
         </refs>
         <data>TAURUS:
 Capitaine [character][0x0]!
-Assurez-vous de n'avoir rien oublié!
+Assurez-vous de n'avoir rien oublié !
 N'oubliez pas de vous occuper des
 dragons.[end]</data>
     </text>

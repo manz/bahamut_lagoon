@@ -15,7 +15,7 @@ DEBUG_IPS = build/bl-debug.ips
 # Only the tracked sources: the checkout also holds scratch asm (debug_src/,
 # old experiments) that is neither built nor kept to the gate.
 SOURCES = bl.s $(wildcard src/*.s src/*.i)
-TEXTS = $(wildcard text/*.xml text/dialog/*.xml text/battle/*.xml text/table/*.tbl)
+TEXTS = $(wildcard text/*.xml text/fr/*.xml text/fr/dialog/*.xml text/fr/battle/*.xml text/table/*.tbl)
 
 # uv format fetches its own ruff: run the one pinned in the dev group.
 RUFF_VERSION = $(shell uv run ruff --version | cut -d' ' -f2)

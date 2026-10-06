@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0x63e" room_id="16">
     <text>
         <refs>
@@ -111,7 +111,7 @@ Princesse [character][0x1],vous devez être
         <refs>
             <ref>0x302</ref>
         </refs>
-        <data>... ... ... ...![end]</data>
+        <data>... ... ... ... ![end]</data>
     </text>
     <text>
         <refs>

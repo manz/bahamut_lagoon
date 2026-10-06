@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0xcde" room_id="66">
     <text>
         <refs>
@@ -24,7 +24,7 @@ Tu es vraiment à envier...[end]</data>
         </refs>
         <data>MATELIGHT:
 [character][0x0]!
-...![0xfc][0x10][end1]</data>
+... ![0xfc][0x10][end1]</data>
     </text>
     <text>
         <refs>
@@ -241,7 +241,7 @@ jusqu'à ce qu'il fasse nuit ?[end]</data>
         </refs>
         <data>[character][0x1]:
 Est-il vrai que vous pouvez m'emmener
-n'importe où?[end]</data>
+n'importe où ?[end]</data>
     </text>
     <text>
         <refs>

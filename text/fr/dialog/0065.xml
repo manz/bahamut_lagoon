@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0x6b0" room_id="65">
     <text>
         <refs>
@@ -200,7 +200,7 @@ Dragon de Kana ?![end]</data>
             <ref>0x2e8</ref>
         </refs>
         <data>JOY:
-Tu peux entrer sans clé!
+Tu peux entrer sans clé !
 Je t'en prie,vas-y...[end]</data>
     </text>
     <text>
@@ -309,7 +309,7 @@ Je sais,Sendack ![end]</data>
         </refs>
         <data>Je comprends tes soucis.
 Ne t'inquiète pas !
-Nous sommes du bon côté!
+Nous sommes du bon côté !
 Nous ne devrions pas nous
 inquiéter...
 [character][0x0],nous devrions nous reposer.

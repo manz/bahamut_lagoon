@@ -2,70 +2,72 @@
 <texts base="0xc6" room_id="1">
     <text>
         <refs>
-            <ref>0x2c</ref>
-        </refs>
-        <data>MATELIGHT
-[0xa8]Il y a encore des soldats de
- l'Empire[0xd8][end1][end]</data>
-    </text>
-    <text>
-        <refs>
-            <ref>0x37</ref>
-        </refs>
-        <data>T
-[0xa8]Pas question[0xd8]
- Ils n'effraient personne[0xd8][end][0xa8]</data>
-    </text>
-    <text>
-        <refs>
-            <ref>0x40</ref>
-        </refs>
-        <data>aient personne[0xd8][end][0xa8]</data>
-    </text>
-    <text>
-        <refs>
-            <ref>0x4b</ref>
-        </refs>
-        <data> proche[0xd8]!
- Allons-nous attaquer les Rebelles!?[end][0xa8]</data>
-    </text>
-    <text>
-        <refs>
-            <ref>0x99</ref>
-        </refs>
-        <data>es Rebelles!?[end][0xa8]</data>
-    </text>
-    <text>
-        <refs>
-            <ref>0xa4</ref>
-        </refs>
-        <data>Qu'ils viennent à moi[0xd8][end] </data>
-    </text>
-    <text>
-        <refs>
-            <ref>0xb3</ref>
-        </refs>
-        <data>ons sont importants[0xd8]
- Donnes-leur des ordres...[end1][end]</data>
-    </text>
-    <text>
-        <refs>
             <ref>0xba</ref>
         </refs>
-        <data>r des ordres...[end1][end]</data>
+        <data>Tout le monde à l'intérieur !![0xfc][0x18][end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2c</ref>
+        </refs>
+        <data>MATELIGHT: On dirait que l'armée impériale
+est toujours là !![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x30</ref>
         </refs>
-        <data>agie atteint aussi les
- Dragons!
- Sois prudents[0xd8][end][0xa8]</data>
+        <data>On va leur flanquer une raclée et reprendre
+le vaisseau amiral de Kana !![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x37</ref>
+        </refs>
+        <data>L'ennemi approche !!
+La Résistance attaque ?![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x40</ref>
+        </refs>
+        <data>Hé, c'est moi le chef ici !!
+J'ai gagné ma place au concours
+de lancer de javelot !![end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4b</ref>
+        </refs>
+        <data>``Condition de victoire :''
+``Vaincre le chef''[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x99</ref>
+        </refs>
+        <data>Prenez bien soin de vos dragons !!
+Utilisez les ordres aux dragons avec soin...[end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9d</ref>
         </refs>
-        <data>ents[0xd8][end][0xa8]</data>
+        <data>N'oubliez pas [0xfc][0x18]``Reviens'' et ``Attends'' !![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xa4</ref>
+        </refs>
+        <data>Si nos dragons tombent au combat, nous ne
+pourrons plus utiliser nos magies et nos
+techniques ! Alors prudence !![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb3</ref>
+        </refs>
+        <data>MATELIGHT: Bien !![0xfc][0x20] Je prends le commandement
+du vaisseau !![end1][end]</data>
     </text>
 </texts>

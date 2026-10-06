@@ -4,50 +4,45 @@
         <refs>
             <ref>0x2c</ref>
         </refs>
-        <data>MATELIGHT
-[0xa8]Ici se trouve le Dragon Sacré
- du désert[0xd8][end1][end]</data>
+        <data>MATELIGHT: Voici le temple du désert !![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x37</ref>
         </refs>
-        <data> le Dragon Sacré
- du désert[0xd8][end1][end]</data>
+        <data>SENDACK: Princesse...[0xfc][0x20] je le sens aussi.[0xfc][0x30]
+Le Dragon Sacré Jormungand nous appelle.[end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x68</ref>
         </refs>
-        <data>... [0xfc][0x1]qu'y a-t-il?![0xfc][0x1]
- Le Dragon Sacré Yulmungald
- vous appelle...[end1][end]</data>
-    </text>
-    <text>
-        <refs>
-            <ref>0x7e</ref>
-        </refs>
-        <data>ré Yulmungald
- vous appelle...[end1][end]</data>
-    </text>
-    <text>
-        <refs>
-            <ref>0x89</ref>
-        </refs>
-        <data> Dragon Sacré Yulmungald[0xfc][0x1]
- me réclame...[end1][end]</data>
-    </text>
-    <text>
-        <refs>
-            <ref>0x6c</ref>
-        </refs>
-        <data>[0xfc][0x1]
- J'irai partout où vous irez![end1][end]</data>
+        <data>[character][0x1]: Jormungand...[0xfc][0x18] m'appelle.[end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x47</ref>
         </refs>
-        <data>rtout où vous irez![end1][end]</data>
+        <data>``Condition de victoire :''[0xfc][0x28]
+``Vaincre la Cage des Ames''[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6c</ref>
+        </refs>
+        <data>Restez tous ici...[end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x7e</ref>
+        </refs>
+        <data>MATELIGHT: Princesse [character][0x1]...[0xfc][0x18]
+Je ne vous quitterai pas ![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x89</ref>
+        </refs>
+        <data>RUSH: On est tous dans le même bateau !![end1][end]</data>
     </text>
 </texts>

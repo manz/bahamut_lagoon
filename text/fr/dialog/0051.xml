@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0x30a" room_id="51">
     <text>
         <refs>
@@ -135,7 +135,7 @@ partie de toi...[end]</data>
             <ref>0x170</ref>
         </refs>
         <data>[character][0x1]:
-Moi... Une Dragoon...?[end]</data>
+Moi... Une Dragoon... ?[end]</data>
     </text>
     <text>
         <refs>
@@ -154,7 +154,7 @@ des Dragons Sacrés ?[end]</data>
         <data>BAHAMUT:
 La personne qui connaît le coeur des
 Dragons Sacrés ouvrira la Porte vers
-une Ere Nouvelle.[end]</data>
+une Ère Nouvelle.[end]</data>
     </text>
     <text>
         <refs>
@@ -176,7 +176,7 @@ C'est ta destinée...[end]</data>
             <ref>0x1a2</ref>
         </refs>
         <data>[character][0x1]:
-Votre résurrection...?
+Votre résurrection... ?
 Allez-vous encore guerroyer ?[end]</data>
     </text>
     <text>

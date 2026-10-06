@@ -2,74 +2,76 @@
 <texts base="0xcb" room_id="17">
     <text>
         <refs>
-            <ref>0x76</ref>
+            <ref>0x3f</ref>
         </refs>
-        <data>      Condition de la Vicoire[0xfc][0x1]
-          Vaincre Diktator[end]M</data>
+        <data>COMMANDANT: Ce sont des créatures que je
+n'ai jamais vues !![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x32</ref>
         </refs>
-        <data>        Vaincre Diktator[end]M</data>
-    </text>
-    <text>
-        <refs>
-            <ref>0x3f</ref>
-        </refs>
-        <data>ola[0xd8][0xfc][0x1]
- Le ciel[0xd8][end1][end]</data>
-    </text>
-    <text>
-        <refs>
-            <ref>0x50</ref>
-        </refs>
-        <data>NT
-[0xa8]Montrons à ces types ce dont
- nous sommes capables[0xd8][end1][end]</data>
-    </text>
-    <text>
-        <refs>
-            <ref>0x64</ref>
-        </refs>
-        <data>es capables[0xd8][end1][end]</data>
-    </text>
-    <text>
-        <refs>
-            <ref>0xab</ref>
-        </refs>
-        <data>[0xfc][0x1]
- Les Dragons Sacrés sont perplexes...[0xfc][0x1][end1][end]</data>
-    </text>
-    <text>
-        <refs>
-            <ref>0xb4</ref>
-        </refs>
-        <data>crés sont perplexes...[0xfc][0x1][end1][end]</data>
-    </text>
-    <text>
-        <refs>
-            <ref>0xbd</ref>
-        </refs>
-        <data>lexes...[0xfc][0x1][end1][end]</data>
-    </text>
-    <text>
-        <refs>
-            <ref>0x57</ref>
-        </refs>
-        <data> prudents... [0xfc][0x1][character][0x1]![0xfc][0x1]
- Je ne cromprends rien non plus...[0xfc][0x1][end1][end]</data>
-    </text>
-    <text>
-        <refs>
-            <ref>0x6b</ref>
-        </refs>
-        <data>mprends rien non plus...[0xfc][0x1][end1][end]</data>
+        <data>MATELIGHT: Que sont ces monstres,
+bon sang ?![0xfc][0x15] Ils sont sortis d'un trou
+dans le ciel !![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x43</ref>
         </refs>
-        <data>us...[0xfc][0x1][end1][end]</data>
+        <data>Ce ne sont pas des monstres d'Orelus ![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x50</ref>
+        </refs>
+        <data>[character][0x1]: Prudence, [0xfc][0x10][character][0x0].[0xfc][0x20]
+Les Dragons Sacrés sont troublés eux aussi...[end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x57</ref>
+        </refs>
+        <data>Que sont-ils ?[0xfc][0x10] Je n'ai jamais vu de
+tels monstres...[0xfc][0x20][end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x64</ref>
+        </refs>
+        <data>SENDACK: Prudence, [0xfc][0x10][character][0x0].[0xfc][0x20]
+J'ignore ce qu'ils sont...[end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6b</ref>
+        </refs>
+        <data>Au nom de Kana, que sont-ils ?[end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x76</ref>
+        </refs>
+        <data>``Condition de victoire :''[0xfc][0x28]
+``Vaincre Dictory''[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xab</ref>
+        </refs>
+        <data>MATELIGHT: Regardez !![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xb4</ref>
+        </refs>
+        <data>Le ciel se referme !![end1][end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0xbd</ref>
+        </refs>
+        <data>Attention !![0xfc][0x18]
+Tout le monde dans [character][0x9], vite !![end1][end]</data>
     </text>
 </texts>

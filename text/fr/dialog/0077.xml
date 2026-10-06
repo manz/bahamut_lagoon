@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0xecb" room_id="77">
     <text>
         <refs>
@@ -25,7 +25,7 @@ Nous sommes originaires d'Orelus.[end]</data>
         <refs>
             <ref>0x749</ref>
         </refs>
-        <data>... ... ... ... ...?!
+        <data>... ... ... ... ... ?!
 Je sens l'esprit des Dragons Sacrés.[end]</data>
     </text>
     <text>
@@ -142,8 +142,8 @@ pour le peuple dragon.[end]</data>
             <ref>0x9ed</ref>
         </refs>
         <data>MATELIGHT:
-Hé! Par ici l'enfant !
-Tu as perdu un Dragon Sacré!
+Hé ! Par ici l'enfant !
+Tu as perdu un Dragon Sacré !
 C'est vrai que tu es un petit
 être-dragon ?[end][end]</data>
     </text>
@@ -284,7 +284,7 @@ revenir.[end]</data>
 nombreux être-dragons mais tous ne
 purent être sauvés !
 Certains moururent dans le trou noir,
-d'autres eurent le coeur transformé!
+d'autres eurent le coeur transformé !
 Cela nous fut insupportable ![end]</data>
     </text>
     <text>
@@ -339,7 +339,7 @@ Assez ! Assez[0xd8][end]</data>
         </refs>
         <data>LEVIATHAN:
 Peuple Dragon...
-N'est-il pas encore arrivé?[end]</data>
+N'est-il pas encore arrivé ?[end]</data>
     </text>
     <text>
         <refs>
@@ -379,7 +379,7 @@ daigne combattre pour nous...[end]</data>
             <ref>0xb09</ref>
         </refs>
         <data>MATELIGHT:
-Hé! Les Dragons Sacrés !
+Hé ! Les Dragons Sacrés !
  
 Vous nous emmenez en terres
 inconnues ![end]</data>
@@ -553,14 +553,14 @@ Toutes ces lumières sont effrayantes.[end]</data>
             <ref>0x692</ref>
         </refs>
         <data>RUSH:
-Je suis marchand...?[end]</data>
+Je suis marchand... ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6c8</ref>
         </refs>
         <data>TAURUS:
-Il était si sceptique...?[end]</data>
+Il était si sceptique... ?[end]</data>
     </text>
     <text>
         <refs>
@@ -854,7 +854,7 @@ joie car c'est aussi notre retour...[end]</data>
         <refs>
             <ref>0x986</ref>
         </refs>
-        <data>... ... ... ...?
+        <data>... ... ... ... ?
 [character][0x0],qu'en dis-tu ?[end]</data>
     </text>
     <text>

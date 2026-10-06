@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0x390" room_id="209">
     <text>
         <refs>
@@ -31,7 +31,7 @@ miroir...[end]</data>
 Donne-moi mon verre...
  
 Pourquoi veux-tu... Hic...
-me le reprendre...?[end]</data>
+me le reprendre... ?[end]</data>
     </text>
     <text>
         <refs>
@@ -57,7 +57,7 @@ Tu le sais ?![end]</data>
             <ref>0x2cc</ref>
         </refs>
         <data> Quoi ?
- Désolé... je suis occupé![end1]</data>
+ Désolé... je suis occupé ![end1]</data>
     </text>
     <text>
         <refs>
@@ -88,7 +88,7 @@ Je vais mourir de rire ![end]</data>
         <data>Des Excréments !
 J'espère qu'il n'y en a plus dans ce
 bateau.
-O-HOHOHOHOHO...!
+O-HOHOHOHOHO... !
 Il faut que je me lève ![end]</data>
     </text>
     <text>
@@ -158,7 +158,7 @@ calmer ses ardeurs.[end]</data>
         </refs>
         <data>NELBO:
 Si Don Juan ose faire un geste déplacé,
-il se mange un coup bien placé![end]</data>
+il se mange un coup bien placé ![end]</data>
     </text>
     <text>
         <refs>

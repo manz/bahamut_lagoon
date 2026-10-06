@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0x86a" room_id="215">
     <text>
         <refs>
@@ -38,7 +38,7 @@ mais si tu veux... frappe-moi[0xd8]
             <ref>0x6e5</ref>
         </refs>
         <data>DIANA:
-Tu n'as rien remarqué?
+Tu n'as rien remarqué ?
  
 Tu as vu de quelle manière parle les
 lanciers depuis quelques temps ?
@@ -80,7 +80,7 @@ Mélodia aime beaucoup tout ce qu'aime
         <refs>
             <ref>0x548</ref>
         </refs>
-        <data>Héhéhéhéhé!
+        <data>Héhéhéhéhé !
 Je suis soulagée !
 SOULAGEE !
 Au fait,sache que Lukia m'a confié
@@ -212,7 +212,7 @@ Bareck a dit quelque chose ?
             <ref>0x421</ref>
         </refs>
         <data>S'il en parle,c'est une bonne chose !
-Héhéhéhéhé![end]</data>
+Héhéhéhéhé ![end]</data>
     </text>
     <text>
         <refs>
@@ -261,7 +261,7 @@ Huhu... Huhuhu... Huhuhuhu...[end]</data>
         </refs>
         <data>EKATERINA:
 Je ne cesse de me regarder pour
-contempler ma beauté!
+contempler ma beauté !
 Soyons franche,Ekaterina !
 Je veux que la guerre prenne fin une
 fois pour toute !
@@ -599,7 +599,7 @@ très mignon comme ça ?[end]</data>
         <data>NELBO:
 Amuse-toi avec ce gentleman...
 Il est marrant,non ?
-[0xa8]Il a l'air idiot ![0xa9][end]</data>
+``Il a l'air idiot !''[end]</data>
     </text>
     <text>
         <refs>

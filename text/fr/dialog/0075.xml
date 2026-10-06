@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0x69d" room_id="75">
     <text>
         <refs>
@@ -128,7 +128,7 @@ l'empire ![end]</data>
             <ref>0x39a</ref>
         </refs>
         <data>SENDACK:
-... ... ...?![end]</data>
+... ... ... ?![end]</data>
     </text>
     <text>
         <refs>
@@ -226,7 +226,7 @@ stratégie militaire ?[end]</data>
             <ref>0x49a</ref>
         </refs>
         <data>PALPALEOS:
-Je suis désolé!
+Je suis désolé !
 Cela ne vous intéresse sûrement pas ![end]</data>
     </text>
     <text>
@@ -243,7 +243,7 @@ bases de cet art.[end]</data>
         <refs>
             <ref>0x550</ref>
         </refs>
-        <data>Serais-tu la fille...?
+        <data>Serais-tu la fille... ?
 Tu comprendras la Légende et le coeur
 des Dragons Sacrés.[end]</data>
     </text>
@@ -278,7 +278,7 @@ Je suis une fille ordinaire.[end]</data>
             <ref>0x4f4</ref>
         </refs>
         <data>[character][0x1]:
-Qui est là?
+Qui est là ?
 Qui êtes-vous ?[end]</data>
     </text>
     <text>
@@ -293,7 +293,7 @@ je suis un Dragon Sacré.[end]</data>
             <ref>0x548</ref>
         </refs>
         <data>[character][0x1]:
-Valitra,le Dragon Sacré?[end]</data>
+Valitra,le Dragon Sacré ?[end]</data>
     </text>
     <text>
         <refs>

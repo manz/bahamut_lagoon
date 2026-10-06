@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0x900" room_id="214">
     <text>
         <refs>
@@ -69,7 +69,7 @@ Lance haute ![end]</data>
             <ref>0x7fb</ref>
         </refs>
         <data>REEVE:
-Frunze est encore couché!
+Frunze est encore couché !
  
 J'aimerais qu'il y ait un autre lancier
 dans ce bateau ![end]</data>
@@ -101,7 +101,7 @@ Cette histoire se réglera entre lanciers ![end]</data>
         </refs>
         <data> 
 SERGENT:
-Phew[0xd8][0xa8]Grognement[0xa9]
+Phew[0xd8]``Grognement''
  
 C'est exténuant de porter une lourde
 armure.[end]</data>
@@ -118,7 +118,7 @@ armure.[end]</data>
         </refs>
         <data>SERGENT:
 Parlons seul à seul...
-[0xa8]Grognement[0xa9]
+``Grognement''
 Est-ce que Commandant te semble être
 toujours le même ?
  
@@ -131,16 +131,16 @@ toujours le même ?
         </refs>
         <data>Commandant était plus autoritaire et
 plus dur,autrefois.
-[0xa8]Grognement[0xa9]
+``Grognement''
 Le Capitaine de la cavalerie de Mahal
 pouvait briser tout le monde.
-[0xa8]Grognement[0xa9]
+``Grognement''
 Je peux parler très longtemps de mon
 Capitaine.
  
 Dès que j'en ai l'occasion,je parle
 énormément de tout et de rien.
-[0xa8]Grognement[0xa9][end]</data>
+``Grognement''[end]</data>
     </text>
     <text>
         <refs>
@@ -212,7 +212,7 @@ sourire de [character][0x1],et alors,je me dis:
 Fais de ton mieux,Rush !
 Mais le Général Palpaleos est arrivé et
 la plupart de mes rêves ont disparu.
- Tu es obstiné!
+ Tu es obstiné !
  C'est triste...[end1]</data>
     </text>
     <text>
@@ -289,10 +289,10 @@ garde ça secret.[end]</data>
         </refs>
         <data>SERGENT:
 [character][0x0]!
-[0xa8]Grognement[0xa9]
+``Grognement''
 Il est mieux pour tous de retourner
 vivre à Orelus !
-[0xa8]Grognement[0xa9]
+``Grognement''
 Il y a tant de choses à y faire ![end]</data>
     </text>
     <text>
@@ -377,9 +377,9 @@ commercer,je ne peux plus m'arrêter ![end]</data>
         <refs>
             <ref>0x633</ref>
         </refs>
-        <data> Champignons[0xa8]peu de profit[0xa9]
- Objets     [0xa8]Proportion [0xb0][0xd9][0xa9]
- Livres     [0xa8]Les matelots[0xa9][end1]</data>
+        <data> Champignons``peu de profit''
+ Objets     ``Proportion [0xb0][0xd9]''
+ Livres     ``Les matelots''[end1]</data>
     </text>
     <text>
         <refs>
@@ -387,10 +387,10 @@ commercer,je ne peux plus m'arrêter ![end]</data>
         </refs>
         <data>SERGENT:
 Aah...
-[0xa8]Grognement[0xa9]
+``Grognement''
 Quelque chose sur ce bateau est très
 bruyant...
-[0xa8]Grognement[0xa9]
+``Grognement''
 C'est toujours la même chose...
 Chantonnons...[end]</data>
     </text>
@@ -431,17 +431,17 @@ Il faut craindre mes vengeances.[end]</data>
             <ref>0x79c</ref>
         </refs>
         <data>De nombreux lacs,Mahal...
-[0xa8]Grognement[0xa9]
+``Grognement''
  
 Le Pont Arc-en-Ciel...
 Ouvrez les barrages...
-Regardez tous ! [0xa8]Grognement[0xa9]
+Regardez tous ! ``Grognement''
 Pêchez les pieuvres !
-Soyez heureux ! [0xa8]Grognement[0xa9]
+Soyez heureux ! ``Grognement''
  
-Aaaah Mahal[0xa8]Grognement[0xa9]
+Aaaah Mahal``Grognement''
 Erigeons tous ensemble le plus beau de
-tout les palais ! [0xa8]Grognement[0xa9][end]</data>
+tout les palais ! ``Grognement''[end]</data>
     </text>
     <text>
         <refs>
@@ -504,7 +504,7 @@ Tu dois avoir la tête ailleurs depuis
 que tu as un ennemi dans tes histoires
 sentimentales.
 Il faut dire aussi que tu es souvent
-très occupé!
+très occupé !
 N'oublie quand même pas de te
 préparer pour la prochaine bataille !
 Il faut penser à nous acheter de
@@ -546,7 +546,7 @@ Je n'ai plus rien...[end]</data>
             <ref>0x84c</ref>
         </refs>
         <data>FRUNZE:
-Cette fois,c'est décidé!
+Cette fois,c'est décidé !
 Ma vengeance sera terrible !
 J'ai décidé cela tout seul et j'en ai
 même des frissons...[end]</data>
@@ -557,24 +557,24 @@ même des frissons...[end]</data>
         </refs>
         <data>SERGENT:
 La Restauration de Mahal...
-[0xa8]Grognement[0xa9]
+``Grognement''
 La Restauration de Kana...
-[0xa8]Grognement[0xa9]
+``Grognement''
  
 Ce n'est pas fini !
-[0xa8]Grognement[0xa9]
+``Grognement''
  
 Je ne vis que pour ça !
-[0xa8]Grognement[0xa9]
+``Grognement''
  
 Maintenant continuons...
-[0xa8]Grognement[0xa9]
+``Grognement''
  
 Je n'abandonnerai pas !
-[0xa8]Grognement[0xa9]
+``Grognement''
  
 Je ne serai pas vaincu !
-[0xa8]Grognement[0xa9]
+``Grognement''
  
 Je ferai de mon mieux...[end]</data>
     </text>

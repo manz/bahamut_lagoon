@@ -1,11 +1,10 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0x3b8" room_id="17">
     <text>
         <refs>
             <ref>0xbe</ref>
         </refs>
-        <data>LEVIATHAN:
-Pourquoi es-tu si impatient,Jormungand ?[end]</data>
+        <data>Leviathan: Pourquoi es-tu si impatient,Jormungand ?[end]</data>
     </text>
     <text>
         <refs>
@@ -72,7 +71,7 @@ Cela fait une éternité...[end]</data>
         <data>VALITRA:
 Si la Porte de la Nouvelle Ere n'est
 pas ouverte,cette fille...
-Non,nous aussi...![end]</data>
+Non,nous aussi... ![end]</data>
     </text>
     <text>
         <refs>
@@ -87,31 +86,31 @@ Peut-elle vraiment être une Dragoon ?[end]</data>
         <refs>
             <ref>0x1c4</ref>
         </refs>
-        <data>           Chapitre [0xb0][0xb6]
-  -La Porte de la Nouvelle Ere-[end]</data>
+        <data>                   Chapitre [0xb0][0xb6]
+           -La Porte de la Nouvelle Ere-[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x223</ref>
         </refs>
         <data>monyo !
-[0xa8]rush a un message verbal à
- transmettre.[0xa9][end]</data>
+``rush a un message verbal à
+ transmettre.''[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x22f</ref>
         </refs>
         <data>manyo !
-[0xa8]donc petits démons vont vous
- l'annoncer en ces lieux.[0xa9][end]</data>
+``donc petits démons vont vous
+ l'annoncer en ces lieux.''[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x23b</ref>
         </refs>
         <data>munyo !
-[0xa8]allez ! récite[0xd8][0xa9][end]</data>
+``allez ! récite[0xd8]''[end]</data>
     </text>
     <text>
         <refs>
@@ -134,41 +133,41 @@ Cependant,ne t'inquiète pas pour
             <ref>0x253</ref>
         </refs>
         <data>manyo !
-[0xa8]nous n'aimons pas ce qui se
- passe ! rush cause des ennuis ![0xa9][end]</data>
+``nous n'aimons pas ce qui se
+ passe ! rush cause des ennuis !''[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x25f</ref>
         </refs>
         <data>munyo !
-[0xa8]les petits démons récitent
- toujours en minuscules ![0xa9][end]</data>
+``les petits démons récitent
+ toujours en minuscules !''[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x26b</ref>
         </refs>
         <data>monyo !
-[0xa8]oui,c'est véridique !
- ce n'est pas une légende ![0xa9][end]</data>
+``oui,c'est véridique !
+ ce n'est pas une légende !''[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x277</ref>
         </refs>
         <data>manyo !
-[0xa8]petit démon et petit démon,
- nous repartons.[0xa9][end]</data>
+``petit démon et petit démon,
+ nous repartons.''[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x283</ref>
         </refs>
         <data>munyo !
-[0xa8]prenez soin de vous,[character][0x1]![0xa9]
-[0xa8]petits démons vous souhaitent
- une mort sacrée.[0xa9][end]</data>
+``prenez soin de vous,[character][0x1]!''
+``petits démons vous souhaitent
+ une mort sacrée.''[end]</data>
     </text>
     <text>
         <refs>

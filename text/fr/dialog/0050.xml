@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" standalone="yes"?>
 <texts base="0x601" room_id="50">
     <text>
         <refs>
@@ -39,7 +39,7 @@ Je ne suis qu'un homme faible.[end]</data>
         </refs>
         <data>RUSH:
 Cette intense puissance serait la
-colère du Dragon Sacré?![end]</data>
+colère du Dragon Sacré ?![end]</data>
     </text>
     <text>
         <refs>
@@ -65,7 +65,7 @@ Et l'Empereur Sauzer ?[end]</data>
             <ref>0x59e</ref>
         </refs>
         <data>GUDRUFF:
-L'Empereur Sauzer...?
+L'Empereur Sauzer... ?
 Il est terriblement déçu...[end]</data>
     </text>
     <text>
@@ -89,16 +89,16 @@ Gufufufufu[0xd8][end]</data>
         </refs>
         <data>PALPALEOS:
 C'est ridicule[0xd8]
-Pourquoi... Sauzer...?[end]</data>
+Pourquoi... Sauzer... ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5d7</ref>
         </refs>
         <data>GUDRUFF:
-Pourquoi...?
+Pourquoi... ?
 Tu devrais le lui demander...
-Je vois aussi que vous êtes tous là!
+Je vois aussi que vous êtes tous là !
 Alors vous mourrez tous !
  
 Gufufu,vous tomberez dans le ciel avec
@@ -121,7 +121,7 @@ Garuda...
 Jormungand...
  
   
-Vous êtes tous là!
+Vous êtes tous là !
 Ainsi,l'heure de la revanche est
 arrivée.[end]</data>
     </text>
@@ -196,7 +196,7 @@ Oh,ma tête ![end]</data>
 Je ne le crois pas...
  
 Rien n'est vrai...
-Moi... un lâche...?!
+Moi... un lâche... ?!
  
 Ce serait plutôt à moi de lui dire ça.[end]</data>
     </text>

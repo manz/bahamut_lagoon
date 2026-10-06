@@ -28,7 +28,7 @@ class NameTable:
 
 
 NAME_TABLES = (
-    NameTable("char_names", Path("text/names.xml"), 0xEF0380),
+    NameTable("char_names", Path("text/fr/names.xml"), 0xEF0380),
     NameTable("enemy_names", Path("text/enemies.xml"), 0xEF1F50),
     NameTable("class_names", Path("text/classes.xml"), 0xEF6360),
     NameTable("dragon_names", Path("text/dragons.xml"), 0xEF63D8),
