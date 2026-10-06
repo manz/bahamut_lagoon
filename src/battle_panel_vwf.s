@@ -1,5 +1,6 @@
 """
-The battle unit panel's text through small_vwf: every string the C0 engine copies into a panel line.
+The battle engine's text through small_vwf: every string the C0 engine copies into a line of the unit panel or a
+window (the command window, the spell and skill lists).
 
 The engine composes a line in a buffer (LINE, direct page; D = 0x0100), copying each string with panel_copy_string
 (C0E089: bank $10, string Y, $08 cells, at X), then draws it a cell at a time (panel_draw_line, then panel_put_char)
@@ -7,15 +8,17 @@ with the line's attribute in $10. Attribute 0x22 is the unit panel on BG3: tile 
 0x4000. Attribute 0x23 is a BG1 window (the command window, the message box): tile 0x300 + code, a 4bpp font the
 engine loads at 0x3000 only while such a window is up, over the map's own tiles.
 
-A copy that small_vwf draws in fewer cells renders: its cells take PLACEHOLDER, the tiles wait in a line strip and
-the characters in a line copy. Drawn on the panel, a placeholder takes the pool slot its tilemap row and cell had,
-or a free one; a row's slots its last drawing left unused are freed when the row is drawn again. Changed pixels mark
-the slot's run of codes dirty and the battle NMI uploads dirty runs whole, a transfer each: slot by slot, the
-bookkeeping alone outlasts vblank. Drawn in a window, a placeholder is the character again, in the engine's font.
+A copy of three characters or more renders (two-letter labels like LV keep the font): its cells take PLACEHOLDER,
+the tiles wait in a line strip and the characters in a line copy. Drawn, a placeholder takes the slot its tilemap row
+and cell had, or a free one, from the panel's slots or the windows'; a row's slots its last drawing left unused are
+freed when the row is drawn again. Changed pixels mark the slot's run of codes dirty and the battle NMI uploads dirty
+runs whole, a transfer each: slot by slot, the bookkeeping alone outlasts vblank. Window slots keep a 4bpp copy (the
+glyph over the window background, colour 4) for the window font; their runs go up one an NMI, and only once a window
+line changed them or the window font came back, so never over the map tiles the window font replaces.
 
-The pool tiles are 8x8 font codes no text draws once the battle text is French: the kana (below 0x33 the engine
+The panel slots are 8x8 font codes no text draws once the battle text is French: the kana (below 0x33 the engine
 draws a kana with a dakuten mark instead, and 0x33-0x5F are the kana themselves), around the frame tiles (0x10,
-0x1A) and the colour fills (0x2D-0x2F) the battle uses.
+0x1A) and the colour fills (0x2D-0x2F) the battle uses. The window slots are the window font's kana.
 """
 
 .include "src/expansion.i"
@@ -32,23 +35,34 @@ BLANK = 0xEF
 TILE_BYTES = 16
 FONT_VRAM = 0x4000  ; BG3 tile 0x200, 8x8 code 0x00
 PANEL_ATTR = 0x22
-POOL_SLOTS = 75
+POOL_SLOTS = 75  ; the panel's, then the windows'
+WINDOW_SLOTS = 45
+ALL_SLOTS = POOL_SLOTS + WINDOW_SLOTS
+WINDOW_VRAM = 0x3000  ; BG1 tile 0x300, 8x8 code 0x00, 4bpp
+WINDOW_TILE_BYTES = 32
+MIN_CHARS = 3  ; shorter copies (LV, HP) keep the font
 SLOT_STALE = 0x01  ; not drawn since its row was last drawn
-ALL_RUNS = 0x0F
+ALL_RUNS = 0x0F  ; the panel's
+WINDOW_RUNS = 0x70
+FIRST_WINDOW_RUN = 4 * 2
 
 ; line_strip, line_chars, line_cells: the line being composed (a field may render past it), its characters (BLANK
 ; past them) and where small_vwf drew. pool_owner: tilemap row + 1 holding the slot, 0 when free. pool_cell: the line
-; cell the slot draws. pool_flags: SLOT_STALE. dirty: a bit per run of _pool_runs to upload. slot_run: run * 2.
-; source: the upload's source in pool_tiles. copy_end: Y as the engine's copy leaves it.
+; cell the slot draws. pool_flags: SLOT_STALE. window_tiles: the window slots in 4bpp. dirty: a bit per run of
+; _pool_runs to upload. first, last: the slot range a placeholder takes from. slot_run: run * 2. source,
+; window_source: the upload's sources. copy_end: Y as the engine's copy leaves it.
 .struct PanelVwf {
     byte[( LINE_CELLS + COPY_CELLS ) * TILE_BYTES] line_strip
     byte[LINE_CELLS] line_chars
     byte[LINE_CELLS] line_cells
-    byte[POOL_SLOTS * TILE_BYTES] pool_tiles
-    word[POOL_SLOTS] pool_owner
-    byte[POOL_SLOTS] pool_cell
-    byte[POOL_SLOTS] pool_flags
+    byte[ALL_SLOTS * TILE_BYTES] pool_tiles
+    word[ALL_SLOTS] pool_owner
+    byte[ALL_SLOTS] pool_cell
+    byte[ALL_SLOTS] pool_flags
+    byte[WINDOW_SLOTS * WINDOW_TILE_BYTES] window_tiles
     byte dirty
+    word first
+    word last
     word cell
     word row
     word slot
@@ -56,6 +70,8 @@ ALL_RUNS = 0x0F
     byte slot_code
     byte changed
     word source
+    word window_source
+    word rows
     word copy_end
 }
 
@@ -93,6 +109,11 @@ ALL_RUNS = 0x0F
     nop
 }
 
+; The window font upload's last transfer (sta $420B / rts) writes over the window slots.
+.alloc at 0xC0C537 {
+    jml.l panel_window_font_reloaded
+}
+
 
 .alloc battle_panel_vwf in expansion {
 panel_copy_hook:
@@ -119,9 +140,9 @@ _cells:
     sta.l small_vwf.source
     sep #0x20
     jsl.l small_vwf_render
-    lda.l small_vwf.cells
-    cmp.l small_vwf.chars
-    bcs _vanilla_copy  ; no cell saved: the font draws it, the pool stays free
+    lda.l small_vwf.chars
+    cmp #MIN_CHARS
+    bcc _vanilla_copy  ; a short label: the font draws it, the pool stays free
     jsr.w _copy_end
     jsr.w _keep_cells
     jsr.w _fill_cells
@@ -259,7 +280,7 @@ panel_line_hook:
     lda.b 0x16
     jsr.w _row_owner
     sta.l panel.row
-    ldx.w #POOL_SLOTS - 1
+    ldx.w #ALL_SLOTS - 1
 _age:
     rep #0x20
     txa
@@ -330,15 +351,21 @@ _placeholder:
     sbc.w #LINE + 1
     sta.l panel.cell
     tax
+    rep #0x20
+    lda.w #0x0000
+    sta.l panel.first
+    lda.w #POOL_SLOTS
+    sta.l panel.last
     sep #0x20
     lda.b 0x10
     cmp #PANEL_ATTR
     beq _panel_cell
-    lda.l panel.line_chars, x  ; a window: the character, in the engine's font
-    plx
-    cmp #BLANK
-    beq _draw_blank
-    bra _draw_char
+    rep #0x20
+    lda.w #POOL_SLOTS  ; a window: its own slots
+    sta.l panel.first
+    lda.w #ALL_SLOTS
+    sta.l panel.last
+    sep #0x20
 _panel_cell:
     lda.l panel.line_cells, x
     bne _drawn
@@ -371,8 +398,14 @@ _slot_found:
     jml.l 0xC0CAED
 
 _find_slot:
-"""The slot (16-bit A, carry set) of panel.row's panel.cell, else a free one taken for it; carry clear: none."""
-    ldx.w #( POOL_SLOTS - 1 ) * 2
+"""
+The slot (16-bit A, carry set) of panel.row's panel.cell in panel.first..last, else a free one taken for it;
+carry clear: none.
+"""
+    lda.l panel.last
+    dec
+    asl
+    tax
 _find_own:
     lda.l panel.pool_owner, x
     cmp.l panel.row
@@ -389,16 +422,31 @@ _find_own:
     and.w #0x00FF
     beq _have
 _not_own:
-    dex
-    dex
-    bpl _find_own
-    ldx.w #( POOL_SLOTS - 1 ) * 2
+    jsr.w _slot_before
+    bcs _find_own
+    lda.l panel.last
+    dec
+    asl
+    tax
 _find_free:
     lda.l panel.pool_owner, x
     beq _take
+    jsr.w _slot_before
+    bcs _find_free
+    clc
+    rts
+
+_slot_before:
+"""X (slot * 2) steps to the slot before; carry clear when it was panel.first."""
+    txa
+    lsr
+    cmp.l panel.first
+    beq _past_first
     dex
     dex
-    bpl _find_free
+    sec
+    rts
+_past_first:
     clc
     rts
 _take:
@@ -456,6 +504,7 @@ _same:
     ply
     lda.l panel.changed
     beq _unchanged
+    jsr.w _window_copy
     rep #0x20
     lda.l panel.slot_run
     tax
@@ -465,6 +514,58 @@ _same:
     sta.l panel.dirty
 _unchanged:
     rep #0x30
+    rts
+
+_window_copy:
+"""
+A changed window slot (panel.slot) gets its 4bpp copy: planes 0 and 1, plane 2 where both are clear, plane 3
+clear.
+"""
+    rep #0x30
+    phy
+    lda.l panel.slot
+    sec
+    sbc.w #POOL_SLOTS
+    bcc _not_window
+    asl
+    asl
+    asl
+    asl
+    asl
+    tay  ; Y: the 4bpp tile
+    lda.l panel.slot
+    asl
+    asl
+    asl
+    asl
+    tax  ; X: the 2bpp tile
+    lda.w #TILE_BYTES / 2
+    sta.l panel.rows
+_window_row:
+    lda.l panel.pool_tiles, x
+    phx
+    tyx
+    sta.l panel.window_tiles, x
+    sep #0x20
+    ora.l panel.window_tiles + 1, x
+    eor #0xFF
+    sta.l panel.window_tiles + TILE_BYTES, x
+    lda #0x00
+    sta.l panel.window_tiles + TILE_BYTES + 1, x
+    rep #0x20
+    plx
+    inx
+    inx
+    iny
+    iny
+    lda.l panel.rows
+    dec
+    sta.l panel.rows
+    bne _window_row
+_not_window:
+    rep #0x10
+    ply
+    sep #0x20
     rts
 
 _slot_code:
@@ -527,6 +628,8 @@ _run_upload:
     lda.l _pool_runs, x
     and.w #0x00FF
     beq _uploaded
+    cpx.w #FIRST_WINDOW_RUN
+    bcs _window_run
     lda.l _pool_runs + 1, x
     and.w #0x00FF
     asl
@@ -546,15 +649,7 @@ _run_upload:
     asl
     clc
     adc.w #FONT_VRAM
-    sta.l 0x002116
-    lda.l panel.source
-    sta.l 0x004302
-    tya
-    sta.l 0x004305
-    sep #0x20
-    lda #0x01
-    sta.l 0x00420B
-    rep #0x20
+    jsr.w _transfer
 _next_run:
     tya
     clc
@@ -563,9 +658,12 @@ _next_run:
     inx
     inx
     bra _run_upload
+_window_run:
+    jsr.w _upload_window_run
 _uploaded:
     sep #0x20
-    lda #0x00
+    lda.l panel.dirty
+    and #WINDOW_RUNS  ; the window runs left for the next NMIs
     sta.l panel.dirty
     ldx.w #0x0000
 _restore:
@@ -579,6 +677,79 @@ _restore:
     plx
     pla
     rts
+
+_transfer:
+"""DMA Y bytes from panel.source to VRAM word A on channel 0 (16-bit A)."""
+    sta.l 0x002116
+    lda.l panel.source
+    sta.l 0x004302
+    tya
+    sta.l 0x004305
+    sep #0x20
+    lda #0x01
+    sta.l 0x00420B
+    rep #0x20
+    rts
+
+_upload_window_run:
+"""The first dirty window run from X on, if any: its 4bpp tiles to the window font; its bit cleared."""
+    lda.w #panel.window_tiles & 0xFFFF
+    sta.l panel.window_source
+_window_upload:
+    lda.l _pool_runs, x
+    and.w #0x00FF
+    beq _window_done
+    lda.l _pool_runs + 1, x
+    and.w #0x00FF
+    asl
+    asl
+    asl
+    asl
+    asl
+    tay  ; Y: the run's bytes
+    sep #0x20
+    lda.l _run_bits, x
+    and.l panel.dirty
+    rep #0x20
+    beq _next_window_run
+    sep #0x20
+    lda.l _run_bits, x
+    eor #0xFF
+    and.l panel.dirty
+    sta.l panel.dirty
+    rep #0x20
+    lda.l panel.window_source
+    sta.l panel.source
+    lda.l _pool_runs, x
+    and.w #0x00FF
+    asl
+    asl
+    asl
+    asl
+    clc
+    adc.w #WINDOW_VRAM
+    jmp.w _transfer  ; one window run an NMI
+_next_window_run:
+    tya
+    clc
+    adc.l panel.window_source
+    sta.l panel.window_source
+    inx
+    inx
+    bra _window_upload
+_window_done:
+    rts
+
+panel_window_font_reloaded:
+"""The window font upload overwrites the window slots: upload them again, one run an NMI."""
+    sta.l 0x00420B
+    php
+    sep #0x20
+    lda.l panel.dirty
+    ora #WINDOW_RUNS
+    sta.l panel.dirty
+    plp
+    jml.l 0xC006E1  ; an rts in the engine's bank: back to the window font's caller
 
 panel_font_reloaded:
 """The font upload overwrites the slots: upload them all again at the next NMI."""
@@ -597,8 +768,11 @@ _pool_runs:
     .db 0x11, 9
     .db 0x1B, 18
     .db 0x33, 45
+    .db 0x33, 15  ; the windows'
+    .db 0x42, 15
+    .db 0x51, 15
     .db 0x00
 _run_bits:
 ; A run's bit in panel.dirty, by run * 2.
-    .db 0x01, 0x00, 0x02, 0x00, 0x04, 0x00, 0x08, 0x00
+    .db 0x01, 0x00, 0x02, 0x00, 0x04, 0x00, 0x08, 0x00, 0x10, 0x00, 0x20, 0x00, 0x40, 0x00
 }
