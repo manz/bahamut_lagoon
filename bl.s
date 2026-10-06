@@ -13,6 +13,8 @@
 .import "battle_vwf_reloc"
 .import "text_buffer_vwf"
 .import "load_screen"
+.import "item_descriptions"
+.import "description_vwf"
 .import "debug_menu"
 .import "sram_work"
 .import "small_vwf"
