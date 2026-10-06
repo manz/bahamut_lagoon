@@ -89,7 +89,7 @@
     <string jump_to="0xeed5ba" ref="0xeed5a9">EXPLAY</string>
     <string jump_to="0xeed5f4" ref="0xeed5d5" width="14">TEMPS   :  :</string>
     <string jump_to="0xeedad6" ref="0xeedaa7">Hira  Kata  Autre Fin</string>
-    <string jump_to="0xeedd93" ref="0xeedd7a">Equiped jobs</string>
+    <string jump_to="0xeedd93" ref="0xeedd7a" width="12">Équipable par</string>
     <string jump_to="0xeedda9" ref="0xeedda0">Achat</string>
     <string jump_to="0xeeddb8" ref="0xeeddaf">Vente</string>
     <string jump_to="0xeeddc9" ref="0xeeddbe">Équiper</string>
@@ -124,7 +124,7 @@
     <string jump_to="0xeef2f4" ref="0xeef2e7">Soin</string>
     <string jump_to="0xeef303" ref="0xeef2fa">Poison</string>
     <string jump_to="0xeef32f" ref="0xeef31c" width="14">Équipements</string>
-    <string jump_to="0xeef35a" ref="0xeef345">Dragon Oyaji's</string>
+    <string jump_to="0xeef35a" ref="0xeef345" width="8">Dr Dragon :</string>
     <string jump_to="0xeef36f" ref="0xeef35a" width="16">Descriptions</string>
     <string jump_to="0xeefa0b" ref="0xeef9fc">BONUS</string>
 </inline>
