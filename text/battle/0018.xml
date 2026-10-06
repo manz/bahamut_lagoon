@@ -4,27 +4,27 @@
         <refs>
             <ref>0x32</ref>
         </refs>
-        <data>Matelite: Protect the Church of
-Memories!![end1][end]</data>
+        <data>MATELIGHT: Protégez l'Eglise des
+Souvenirs!![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3d</ref>
         </refs>
-        <data>Taicho: Look, an Imperial general...[0xfc][0x18]
-It is General Palpaleos![end1][end]</data>
+        <data>COMMANDANT: Regardez, un général impérial...[0xfc][0x18]
+C'est le Général Palpaleos![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x46</ref>
         </refs>
-        <data>“Condition for Victory:”[0xfc][0x28]
-“Defeat of Ixsett”[end]</data>
+        <data>``Condition de victoire :''[0xfc][0x28]
+``Vaincre Ixsett''[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xac</ref>
         </refs>
-        <data>To the Church of Memories!![end1][end]</data>
+        <data>A l'Eglise des Souvenirs!![end1][end]</data>
     </text>
 </texts>

@@ -4,15 +4,15 @@
         <refs>
             <ref>0x28</ref>
         </refs>
-        <data>“Condition for Victory:”[0xfc][0x28]
-“Defeat of Radia”[end]</data>
+        <data>``Condition de victoire :''[0xfc][0x28]
+``Vaincre Radia''[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x417</ref>
         </refs>
-        <data>So, this is Godland...[0xfc][0x20]
-It certainly appears to be different
-from the other lagoons.[end1][end]</data>
+        <data>Voici donc Godrand...[0xfc][0x20]
+Ce lagon semble bien différent
+des autres.[end1][end]</data>
     </text>
 </texts>

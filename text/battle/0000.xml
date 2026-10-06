@@ -19,7 +19,7 @@ Je ne m'attendais pas à ce qu'ils nous attaquent ici...[end1][end]</data>
         <refs>
             <ref>0x75</ref>
         </refs>
-        <data>“Inspire!!”[end]</data>
+        <data>``Inspire!!''[end]</data>
     </text>
     <text>
         <refs>
@@ -38,8 +38,8 @@ aurons besoin de la geler en utilisant la magie.[end1]</data>
         <refs>
             <ref>0xa3</ref>
         </refs>
-        <data>“Condition de la victoire:”[0xfc][0x28]
-“Défaire tout les ennemis”[end]</data>
+        <data>``Condition de la victoire:''[0xfc][0x28]
+``Défaire tout les ennemis''[end]</data>
     </text>
     <text>
         <refs>
@@ -103,7 +103,7 @@ Donnez-lui un ordre !![end1][end]</data>
             <ref>0x3ca</ref>
         </refs>
         <data>N'oubliez pas les commandes
-[0x22]Come[0x22] et [0x22]Wait[0x22] !![end1][end]</data>
+``Come'' et ``Wait'' !![end1][end]</data>
     </text>
     <text>
         <refs>
