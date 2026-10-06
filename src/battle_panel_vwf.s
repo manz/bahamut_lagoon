@@ -22,8 +22,6 @@ draws a kana with a dakuten mark instead, and 0x33-0x5F are the kana themselves)
 .include "src/sram_work.i"
 .extern small_vwf_render
 .extern small_vwf
-.extern small_vwf_text
-.extern small_vwf_tiles
 
 
 LINE = 0x0620
@@ -181,7 +179,7 @@ _keep_cells:
     ldx.w #0x0000
     sep #0x20
 _keep:
-    lda.l small_vwf_tiles, x
+    lda.l small_vwf.tiles, x
     phx
     tyx
     sta.l panel.line_strip, x
@@ -222,7 +220,7 @@ _fill:
     cmp.l small_vwf.chars
     lda #BLANK
     bcs _char
-    lda.l small_vwf_text, x
+    lda.l small_vwf.text, x
 _char:
     tyx
     sta.l panel.line_chars, x
