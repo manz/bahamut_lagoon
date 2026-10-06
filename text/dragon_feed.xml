@@ -14,7 +14,7 @@
     <string ref_5e="0x19004" ref_5f="0x19008" ref_60="0x1900c" xref="0xc1900f">RAM[0xef]SAUVER[0xff]</string>
     <string ref_5e="0x1901f" ref_5f="0x19023" ref_60="0x19027" xref="0xc1902a">RETOUR[0xff]</string>
     <string ref_5e="0x19a79" ref_5f="0x19a7d" ref_60="0x19a81" xref="0xc19a85">Intelligence[0xff]</string>
-    <string ref_5e="0x19aa4" ref_5f="0x19aa8" ref_60="0x19aac" xref="0xc19ab0">Gladness[0xff]</string>
+    <string ref_5e="0x19aa4" ref_5f="0x19aa8" ref_60="0x19aac" xref="0xc19ab0">Joie[0xff]</string>
     <string ref_5e="0x19b27" ref_5f="0x19b2b" ref_60="0x19b2f" xref="0xc19b32">Nourrir[0xff]</string>
     <string ref_5e="0x19b3a" ref_5f="0x19b3e" ref_60="0x19b42" xref="0xc19b45">Sortir[0xff]</string>
 </dragon_feed>

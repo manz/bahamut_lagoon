@@ -1,3 +1,4 @@
+import re
 import struct
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass
@@ -208,19 +209,6 @@ def dump_char_names(rom_file):
         char_names_jp.write(prettify(char_names))
 
 
-def insert_char_names(writer, address=None):
-    jp_fixed_table = Table("./text/table/mz.tbl")
-    address = address or rom_offset(0xEF0380)
-    data = b""
-    tree = ET.parse("./text/names.xml")
-    root = tree.getroot()
-
-    for string in root:
-        data += jp_fixed_table.to_bytes(string.text)[:8].ljust(8, b"\xfe")
-
-    writer.write_block(data, address)
-
-
 def dump_dragon_feed_inline_strings(rom_file):
     jp_fixed_table = Table("../text/table/dragon_feed_table.tbl")
 
@@ -312,19 +300,57 @@ class InlineStringHook:
 HOOK_SIZE = 5  # jsr.w draw_inline_string_patched + .dw pointer
 
 
+INLINE_END = 0xFF
+INLINE_RIGHT = 0x80  # a segment header's flag: the segment ends at the field's end
+INLINE_CELL = 0x40  # a segment header's flag: one character, drawn as its font tile, centred in its cell
+INLINE_SEGMENT = re.compile(r"\S+(?: \S+)*")  # words one space apart; longer runs of spaces lay segments out
+SMALL_FONT_COLON = "[0x30]"  # small_font draws ":" at battle.tbl's code; mz.tbl's 0x88 is blank there
+
+
+def encode_inline(table: Table, text: str) -> bytes:
+    return table.to_bytes(text.replace(" ", r"\s").replace(":", SMALL_FONT_COLON))
+
+
+def inline_record(table: Table, text: str, width: int | None = None, align: str | None = None) -> bytes:
+    """
+    An inline string as draw_inline_string_patched reads it: the field's width in cells, then its segments, each a
+    header (the start cell, or INLINE_RIGHT; INLINE_CELL for one character), its codes and FF, then FF. Spaces are
+    not stored: runs of them place the segments, and the field's width covers the cells after the text.
+    """
+    if align == "right":
+        segments = [(INLINE_RIGHT, text.strip())]
+    else:
+        segments = [(match.start(), match.group()) for match in INLINE_SEGMENT.finditer(text)]
+    record = bytes([width if width is not None else len(text)])
+    for header, text_codes in segments:
+        codes = encode_inline(table, text_codes)
+        if len(codes) == 1 and header != INLINE_RIGHT:
+            header |= INLINE_CELL
+        record += bytes([header]) + codes + bytes([INLINE_END])
+    return record + bytes([INLINE_END])
+
+
 def insert_inline_strings(writer: Writer, address: int) -> tuple[int, list[InlineStringHook]]:
-    """Write the inline strings at ROM offset address; return their end bus address and the call hooks to emit."""
-    jp_fixed_table = Table("./text/table/battle.tbl")
+    """
+    Write the inline strings at ROM offset address, identical records once (menu_vwf shares a record's tiles);
+    return their end bus address and the call hooks to emit.
+    """
+    table = Table("./text/table/mz.tbl")
     root = ET.parse("./text/inline.xml").getroot()
 
     text_data = b""
+    offsets: dict[bytes, int] = {}
     hooks = []
     for string in root:
         xref = int(string.get("ref"), 16)
         jump_to = int(string.get("jump_to"), 16)
-        pointer = rom_address(address + len(text_data)) & 0xFFFF
+        width = string.get("width")
+        record = inline_record(table, string.text or "", int(width) if width else None, string.get("align"))
+        if record not in offsets:
+            offsets[record] = len(text_data)
+            text_data += record
+        pointer = rom_address(address + offsets[record]) & 0xFFFF
         hooks.append(InlineStringHook(xref, pointer, max(jump_to - xref - HOOK_SIZE, 0)))
-        text_data += jp_fixed_table.to_bytes(string.text) + b"\xff"
 
     writer.write_block(text_data, address)
     return rom_address(address + len(text_data)), hooks
@@ -531,36 +557,6 @@ def dump_battle_fixed(rom_file):
             string = ET.SubElement(fixed, "string")
             string.text = jp_fixed_table.to_text(data)
         battle_fixed_jp.write(prettify(fixed))
-
-
-def insert_battle_fixed(writer, address=None):
-    length = 8
-    address = address or rom_offset(0xEF5920)
-    jp_fixed_table = Table("./text/table/battle.tbl")
-    tree = ET.parse("./text/battle-fixed.xml")
-    root = tree.getroot()
-
-    text_data = b""
-
-    for string in root:
-        data = jp_fixed_table.to_bytes(string.text)[:length]
-        if len(data) < length:
-            data += b"\xff"
-
-        data = data.ljust(length, b"\xfe")
-        text_data += data
-
-    writer.write_block(text_data, address)
-
-
-# def dump_items_descriptions_jp(rom_file):
-#     pointer_table = rom_offset(0xEE35F1)
-#
-#     for k in range(255):
-#         rom_file.seek(pointer_table + k * 2)
-#
-#         pointer = struct.unpack('<H', rom_file.read(2))[0]
-#         rom_file.seek(rom_offset(0xEE0000 + pointer))
 
 
 def dump_item_descriptions(rom_file, pointer_base=None, text_base=None, lang="jp"):
