@@ -34,6 +34,7 @@ LINE = 0x0620
 LINE_CELLS = 30
 COPY_CELLS = 12  ; small_vwf's cells: a longer field is blank past them
 MAX_CHARS = 24  ; small_vwf's
+BOX_MARGIN = 2  ; cells a map message box adds past its text: a blank and the prompt arrow
 PLACEHOLDER = 0x01
 BLANK = 0xEF
 TILE_BYTES = 16
@@ -768,8 +769,8 @@ _counted:
 
 panel_end_box_line:
 """
-End the line after the cells the copy drew and leave their count, plus the arrow's cell, in $08: small_vwf's when
-it rendered the string, else the characters up to the first blank.
+End the line after the cells the copy drew and leave their count, plus BOX_MARGIN, in $08: small_vwf's when it
+rendered the string, else the characters up to the first blank.
 """
     rep #0x10
     lda.l small_vwf.chars
@@ -800,7 +801,7 @@ _box_end:
     rep #0x20
     txa
     sec
-    sbc.w #LINE - 1  ; and a cell for the box's prompt arrow, which sits in the last one
+    sbc.w #LINE - BOX_MARGIN  ; and room before the box's prompt arrow, which sits in the last cell
     sep #0x20
     sta.b 0x08
     rtl
