@@ -887,6 +887,8 @@ _bg3_cell:
     jsr.w _bg3_code
     bra _bg3_put
 _bg3_blank:
+    jsr.w _starts_name
+    bcs _bg3_drawn  ; the field ends where another name begins
     lda.w #MENU_BLANK
 _bg3_put:
     ora.l MENU_TEXT_ATTR
@@ -901,6 +903,48 @@ _bg3_put:
     bra _bg3_cell
 _bg3_drawn:
     jmp.w _advance
+
+_starts_name:
+"""
+Carry set when shadow cell menu.cell shows a BG3 run's first slot: another name begins there. A record cut to its
+eight codes covers a field wider than its full name, whose blanks would wipe a name drawn next to it.
+"""
+    lda.l menu.cell
+    tax
+    lda.l MENU_SHADOW, x
+    and.w #0x03FF
+    jsr.w _code_slot
+    bcc _no_name
+    sta.l menu.tile
+    ldx.w #MENU_BG3_RUNS - 1
+_first_slot:
+    sep #0x20
+    lda.l menu.run_bank, x
+    rep #0x20
+    beq _next_first_slot
+    phx
+    txa
+    asl
+    asl
+    sta.l menu.tries  ; run * 4
+    asl
+    clc
+    adc.l menu.tries  ; run * 12
+    tax
+    lda.l menu.run_slots, x
+    plx
+    and.w #0x00FF
+    cmp.l menu.tile
+    beq _name_starts
+_next_first_slot:
+    dex
+    bpl _first_slot
+_no_name:
+    clc
+    rts
+_name_starts:
+    sec
+    rts
 
 _run_slot:
 """Run menu.run's slot for cell menu.index (16-bit A)."""

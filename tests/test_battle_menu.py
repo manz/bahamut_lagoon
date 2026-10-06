@@ -34,3 +34,12 @@ def test_infos_descriptions_answer(console):
     console.emu.run_frames(150)
     assert cursor_moves(console, console.button.DOWN)
     assert console.matches_golden("battle-menu-descriptions")
+
+
+def test_dragon_team_names_keep_their_neighbours(console):
+    open_menu_entry(console, 4)  # Dragon
+    console.tap(console.button.A)
+    console.emu.run_frames(150)
+    console.tap(console.button.DOWN)  # team 4: Matelite's field reaches the column Défense starts in
+    console.emu.run_frames(60)
+    assert console.matches_golden("battle-menu-dragon-team")
