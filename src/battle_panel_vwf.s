@@ -38,7 +38,7 @@ ALL_RUNS = 0x0F
 
 ; line_strip, line_chars, line_cells: the line being composed (a field may render past it), its characters (BLANK
 ; past them) and where small_vwf drew. pool_owner: tilemap row + 1 holding the slot, 0 when free. pool_cell: the line
-; cell the slot draws. pool_flags: SLOT_STALE. dirty: a bit per run of pool_runs to upload. slot_run: run * 2.
+; cell the slot draws. pool_flags: SLOT_STALE. dirty: a bit per run of _pool_runs to upload. slot_run: run * 2.
 ; source: the upload's source in pool_tiles. copy_end: Y as the engine's copy leaves it.
 .struct PanelVwf {
     byte[( LINE_CELLS + COPY_CELLS ) * TILE_BYTES] line_strip
@@ -460,7 +460,7 @@ _same:
     lda.l panel.slot_run
     tax
     sep #0x20
-    lda.l run_bits, x
+    lda.l _run_bits, x
     ora.l panel.dirty
     sta.l panel.dirty
 _unchanged:
@@ -472,16 +472,16 @@ _slot_code:
     ldx.w #0x0000
     sep #0x20
 _run:
-    cmp.l pool_runs + 1, x
+    cmp.l _pool_runs + 1, x
     bcc _in_run
     sec
-    sbc.l pool_runs + 1, x
+    sbc.l _pool_runs + 1, x
     inx
     inx
     bra _run
 _in_run:
     clc
-    adc.l pool_runs, x
+    adc.l _pool_runs, x
     rts
 
 panel_nmi_upload:
@@ -524,10 +524,10 @@ _save:
     sta.l panel.source
     ldx.w #0x0000
 _run_upload:
-    lda.l pool_runs, x
+    lda.l _pool_runs, x
     and.w #0x00FF
     beq _uploaded
-    lda.l pool_runs + 1, x
+    lda.l _pool_runs + 1, x
     and.w #0x00FF
     asl
     asl
@@ -535,11 +535,11 @@ _run_upload:
     asl
     tay  ; Y: the run's bytes
     sep #0x20
-    lda.l run_bits, x
+    lda.l _run_bits, x
     and.l panel.dirty
     rep #0x20
     beq _next_run
-    lda.l pool_runs, x
+    lda.l _pool_runs, x
     and.w #0x00FF
     asl
     asl
@@ -591,14 +591,14 @@ panel_font_reloaded:
     lda.l 0xC70020
     jml.l 0xC0B420
 
-pool_runs:
+_pool_runs:
 ; The pool's runs of free codes, slot after slot: first code, length; 0 ends them.
     .db 0x0D, 3
     .db 0x11, 9
     .db 0x1B, 18
     .db 0x33, 45
     .db 0x00
-run_bits:
+_run_bits:
 ; A run's bit in panel.dirty, by run * 2.
     .db 0x01, 0x00, 0x02, 0x00, 0x04, 0x00, 0x08, 0x00
 }
