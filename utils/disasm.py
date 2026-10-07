@@ -124,6 +124,15 @@ def disassemble(room: Room, display_program: bool | None = False) -> None:
             room.pc = ptr
             walk_event_chain(room)
 
+    if header_length > 0xC:
+        room.pc = 0
+        ptr = room.get_word(0xC)
+        room.program.put_reference(0xC, ptr, comment="room c")
+
+        if ptr > 0:
+            room.pc = ptr
+            walk_event_chain(room)
+
     new_events = set(room.program.actors)
     if len(new_events) > 0:
         while True:

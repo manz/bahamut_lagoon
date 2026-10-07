@@ -173,17 +173,14 @@ class Opcode13:
         return i + 1
 
 
-class Opcode18:
+class ActorList:
+    """Actor ids up to and including the FF that ends the list."""
+
     def apply(self, room: Room) -> int:
-        i = 2
-        data = [room.get_byte(1)]
+        i = 1
         while room.get_byte(i) != 0xFF:
-            data.append(room.get_byte(i))
             i += 1
-        data.append(0xFF)
-        room.program.put_opcode(
-            room.pc, room.get_byte(), ("data", ("raw", room.get_data(1, len(data) + 1))), size=i + 1
-        )
+        room.program.put_opcode(room.pc, room.get_byte(), ("data", ("raw", room.get_data(1, i + 1))), size=i + 1)
         return i + 1
 
 
@@ -291,14 +288,20 @@ class Jump(Opcode):
 
 
 class ConditionalJump(Jump):
+    """`operands` condition bytes, then the room address taken when the condition holds."""
+
+    def __init__(self, operands: int = 1) -> None:
+        super().__init__()
+        self.operands = operands
+        self.size = operands + 3
+
     def apply(self, room: Room) -> int:
         current_pc = room.pc
-        condition = room.get_byte(1)
+        size = self.size
+        conditions = [("byte", room.get_byte(1 + k)) for k in range(self.operands)]
 
-        jump_addr = room.get_word(2)
-        room.program.put_opcode(
-            current_pc, room.get_byte(), ("data", ("byte", condition), ("reference", jump_addr)), size=4
-        )
+        jump_addr = room.get_word(1 + self.operands)
+        room.program.put_opcode(current_pc, room.get_byte(), ("data", *conditions, ("reference", jump_addr)), size=size)
 
         room.save_pc()
         try:
@@ -308,27 +311,7 @@ class ConditionalJump(Jump):
             pass
         room.restore_pc()
 
-        return 4
-
-
-class ConditionalJumpToSubRoutine:
-    def apply(self, room: Room) -> int:
-        room.save_pc()
-        jump_addr = room.get_word(2)
-        room.program.put_opcode(
-            room.pc, room.get_byte(), ("data", ("byte", room.get_byte(1)), ("reference", room.get_word(2))), size=4
-        )
-        try:
-            if jump_addr < len(room.room):
-                room.push_addr(room.pc + 4)
-                room.jump_to(jump_addr)
-                walk_event_chain(room)
-            else:
-                print("jump outside room ? {}", hex(jump_addr))
-        except AlreadyVisitedError:
-            room.pop_addr()
-        room.restore_pc()
-        return 4
+        return size
 
 
 class JumpToSubRoutine:
@@ -394,20 +377,4 @@ class IfElseOpcode:
         except AlreadyVisitedError:
             pass
         room.restore_pc()
-        return 5
-
-
-class NinetySixOpcode:
-    def apply(self, room: Room) -> int:
-        room.program.put_opcode(
-            room.pc,
-            room.get_byte(),
-            ("data", ("byte", room.get_byte(1)), ("byte", room.get_byte(2)), ("word", room.get_word(3))),
-            size=5,
-        )
-        room.program.put_label(room.get_word(3))
-
-        jump_addr = room.get_word(3)
-
-        room.jump_to(jump_addr)
         return 5
