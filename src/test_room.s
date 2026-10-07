@@ -23,27 +23,27 @@ room_start:
 main_entry:
 """Room entry point: the script the interpreter runs."""
     ; Set up scene
-    setup_scene_background(0x15)
-    setup_scene_mask(0x00, 0x00)
+    load_map(0x15)
+    set_camera(0x00, 0x00)
 
 ; Fade in
-    set_screen_status(0x01)
-    animate_brightness(0x00, 0x0F, 0x20, 0x00)
-    pause(0x20)
+    set_screen(0x01)
+    fade_brightness(0x00, 0x0F, 0x20, 0x00)
+    wait_frames(0x20)
 
 ; Show test text
     set_window_position(0x0A, 0x06)
-    set_window_style(0x01)
+    open_window(0x01)
     display_text(test_text)
     close_window()
 
 ; Wait a bit
-    pause(0x60)
+    wait_frames(0x60)
 
 ; Fade out and exit
-    animate_brightness(0x0F, 0x00, 0x20, 0x00)
-    pause(0x20)
-    set_screen_status(0x00)
+    fade_brightness(0x0F, 0x00, 0x20, 0x00)
+    wait_frames(0x20)
+    set_screen(0x00)
     exit()
 
 ; Actors table (empty for test)
