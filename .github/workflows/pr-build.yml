@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-24.04-arm
+    runs-on: ubuntu-26.04-arm
     
     steps:
     - uses: actions/checkout@v7
@@ -50,7 +50,7 @@ jobs:
 
     - name: Update PR comment with download link
       if: success()
-      uses: actions/github-script@v8
+      uses: actions/github-script@v9
       with:
         script: |
           const artifactName = `bl-ips-pr-${{ github.event.number }}`;
@@ -99,7 +99,7 @@ jobs:
 
     - name: Drop stale IPS comment on failure
       if: failure()
-      uses: actions/github-script@v8
+      uses: actions/github-script@v9
       with:
         script: |
           const commentIdentifier = '<!-- BL-IPS-BUILD-COMMENT -->';
