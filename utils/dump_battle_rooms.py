@@ -192,7 +192,7 @@ def dump_battle_room(rom, room_id, table, lang, output_dir):
 def build_battle_text_patch(rom, table, writer, reloc_address):
     xmlfile_re = re.compile(r"(\d+)\.xml")
     dialog_dir = os.path.join(os.path.dirname(__file__), "../text/fr/battle")
-    files = os.listdir(dialog_dir)
+    files = sorted(os.listdir(dialog_dir))
     address = reloc_address
 
     for file in files:
