@@ -256,8 +256,8 @@ def build_text_patch(rom, table, writer, reloc_address):
 
                 address += len(updated_room_data) + 1
 
-    for address, value in room_compressed.items():
-        writer.write_block(struct.pack("B", value), address)
+    for flag_address, value in room_compressed.items():
+        writer.write_block(struct.pack("B", value), flag_address)
 
     logger.debug("Dialog rooms end at %#x", address + 0xC00000)
     return address
