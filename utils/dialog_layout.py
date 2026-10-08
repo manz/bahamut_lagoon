@@ -41,6 +41,11 @@ TERMINATORS = re.compile(r"\[end1?\]")
 SPEAKER_LABEL = re.compile(r"[^ ].*:")  # "Yoyo:" or "[character][0x1]:" alone on its line
 HEADING = re.compile(r"-[^ ].*-")  # "-Aller-": a heading the following lines explain
 GLUED = re.compile(r"[?!;:»]")  # French puts a space before these: it must not break the line
+RIGHT_OF_CENTRE = 10  # pixels: an indented line set further right than this is right-aligned (a signature)
+COMMA = re.compile(r",(?=[^\s\d\]])|(?<=\D),(?=\d)")  # a comma touching the next word (not 1,5)
+ELLIPSIS = re.compile(r"(\.\.\.+)(?=[^\s.?!,;:\]»])")  # an ellipsis touching the next word
+TIGHT = re.compile(r"(?<=[^\s\]?!;])([?!;]+)")  # ? ! ; with no space before (not after a code)
+SPACES = re.compile(r"(?<=\S)  +(?=\S)")
 BLOCK = "\x00"  # between the line groups _wrap_line returns: a group never splits over two windows
 SENTENCE_END = re.compile(r"[.!?…](\[end1?\])?$")
 
@@ -88,14 +93,18 @@ class DialogLayout:
         return self.wrapper.measure(self.encode(line))
 
     def reflow(self, text: str, page_lines: int | None = None) -> str:
-        """`text` laid out to the window: each paragraph's lines joined and wrapped again by sentences.
+        """`text` set in French typography (`typeset`), then laid out to the window: each paragraph's lines joined
+        and wrapped again by sentences.
 
-        Kept as written: blank lines, spaces only or not (they separate paragraphs), lines starting with a space (cards, choices), a
-        speaker label or a -heading- alone on its line, and texts ending in [end1] (a choice follows them). Lines
-        starting with two spaces or more are centred. Given the window's `page_lines`, a block of lines that would
-        run past the window's last line starts the next window instead (`paginate`)."""
+        Kept as written: blank lines, spaces only or not (they separate paragraphs), a speaker label or a -heading-
+        alone on its line, lines starting with one space (choices) or two and more (placed: `place`), and texts
+        ending in [end1] (a choice follows them). Given the window's `page_lines`, a block of lines that would run
+        past the window's last line starts the next window instead (`paginate`)."""
         if text.endswith("[end1]"):
-            return text
+            return typeset(text)
+        lines = [typeset(line) for line in text.split("\n")]
+        indented = [line for line in lines if line.startswith("  ") and line.strip()]
+        block_indent = len(indented) > 1 and len({len(line) - len(line.lstrip(" ")) for line in indented}) == 1
         blocks: list[list[str]] = []
         paragraph: list[str] = []
 
@@ -104,13 +113,13 @@ class DialogLayout:
                 blocks.extend(line.split("\n") for line in self._wrap_line(" ".join(paragraph)).split(BLOCK))
                 paragraph.clear()
 
-        for line in text.split("\n"):
+        for line in lines:
             if not line.strip():
                 close_paragraph()
                 blocks.append([""])  # a spacer, spaces or not, draws nothing
             elif line.startswith(" ") or SPEAKER_LABEL.fullmatch(line) or HEADING.fullmatch(line):
                 close_paragraph()
-                blocks.append([self.centre(line)])
+                blocks.append([line if block_indent else self.place(line)])
             else:
                 paragraph.append(line)
         close_paragraph()
@@ -118,15 +127,24 @@ class DialogLayout:
             blocks = paginate(blocks, page_lines)
         return "\n".join(line for block in blocks for line in block)
 
-    def centre(self, line: str) -> str:
-        """A line starting with two spaces or more, re-indented to sit in the middle of the window (a space is the
-        indent's unit, so within half a space); other lines as they are."""
+    def place(self, line: str) -> str:
+        """A line starting with two spaces or more, re-indented in the window: right-aligned when it was set well
+        right of the middle (a signature, -SENDACK-), else centred; within half a space, the indent's unit. Lines
+        starting with one space (choices) or none stay as they are."""
         if not line.startswith("  "):
             return line
         text = line.lstrip(" ")
         space = self.wrapper.measure(bytes([SPACE]))
-        margin = max(0, self.line_width - self.default_width(text)) // 2
-        return " " * round(margin / space) + text
+        width = self.default_width(text)
+        was_right_of_centre = (len(line) - len(text)) * space + width / 2 - self.line_width / 2 > RIGHT_OF_CENTRE
+        margin = self.line_width - width if was_right_of_centre else (self.line_width - width) // 2
+        return " " * (max(0, margin) // space if was_right_of_centre else round(max(0, margin) / space)) + text
+
+    def centre(self, line: str) -> str:
+        """`line` centred whatever its indentation (two spaces or more)."""
+        if not line.startswith("  "):
+            return line
+        return self.place("  " + line.lstrip(" "))
 
     def default_width(self, line: str) -> int:
         """`line`'s width with every name at its default spelling: where it sits, not how wide it may grow."""
@@ -211,6 +229,17 @@ class DialogLayout:
             width = self.width(line)
             if width > self.line_width:
                 yield line, width
+
+
+def typeset(line: str) -> str:
+    """`line` in French typography: a space after a comma and after an ellipsis that runs into a word, a space
+    before ? ! ;, single spaces between words; the leading indentation is left alone."""
+    indent = line[: len(line) - len(line.lstrip(" "))]
+    text = line[len(indent) :]
+    text = COMMA.sub(", ", text)
+    text = ELLIPSIS.sub(r"\1 ", text)
+    text = TIGHT.sub(r" \1", text)
+    return indent + SPACES.sub(" ", text)
 
 
 def paginate(blocks: list[list[str]], page_lines: int) -> list[list[str]]:

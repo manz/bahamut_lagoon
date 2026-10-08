@@ -2,7 +2,15 @@ import os
 import re
 from unittest.case import TestCase
 
-from utils.dialog_layout import LINE_WIDTH, NAME_CODES, NAME_LETTERS, RENAMEABLE, default_layout, script_overflows
+from utils.dialog_layout import (
+    LINE_WIDTH,
+    NAME_CODES,
+    NAME_LETTERS,
+    RENAMEABLE,
+    default_layout,
+    script_overflows,
+    typeset,
+)
 
 root_dir = os.path.join(os.path.dirname(__file__), "../..")
 
@@ -107,6 +115,14 @@ class DialogLayoutTestCase(TestCase):
         lines = self.layout.reflow("Un. Deux. Trois.\n \nQuatre.[end]", page_lines=1).split("\n")
         self.assertNotIn("", lines)
 
+    def test_a_line_set_right_of_centre_is_right_aligned(self):
+        lines = self.layout.reflow("Personne ne doit entrer !\n                      -Matelight-[end]").split("\n")
+        self.assertGreater(self.layout.width(lines[1]), LINE_WIDTH - self.layout.width(" ") - 1)
+
+    def test_lines_sharing_one_indent_are_kept(self):
+        letter = "    Comment te portes-tu ?\n    Où es-tu ?[end]"
+        self.assertEqual(self.layout.reflow(letter), letter)
+
     def test_a_blank_line_does_not_open_a_window(self):
         lines = self.layout.reflow("Un.\nDeux ?\n\nTrois.[end]", page_lines=1).split("\n")
         self.assertNotIn("", lines)
@@ -138,3 +154,30 @@ class DialogLayoutTestCase(TestCase):
     def test_reflow_keeps_every_word(self):
         text = "Capitaine [character][0x0] !\nVoulez-vous attaquer sans\nsavoir ?[end]"
         self.assertEqual(re.split(r"\s+", self.layout.reflow(text)), re.split(r"\s+", text))
+
+
+class TypesetTestCase(TestCase):
+    def test_a_comma_is_followed_by_a_space(self):
+        self.assertEqual(typeset("Pour une fois,écoute-moi"), "Pour une fois, écoute-moi")
+
+    def test_a_decimal_comma_is_left_alone(self):
+        self.assertEqual(typeset("1,5 lagon"), "1,5 lagon")
+
+    def test_a_comma_before_a_name_gets_its_space(self):
+        self.assertEqual(typeset("Merci,[character][0x0]."), "Merci, [character][0x0].")
+
+    def test_an_ellipsis_running_into_a_word_gets_a_space(self):
+        self.assertEqual(typeset("Je...je"), "Je... je")
+
+    def test_an_ellipsis_before_punctuation_stays_tight(self):
+        self.assertEqual(typeset("Quoi...?"), "Quoi... ?")
+
+    def test_question_and_exclamation_marks_get_their_space(self):
+        self.assertEqual(typeset("Viens!"), "Viens !")
+
+    def test_runs_of_spaces_collapse_but_not_the_indentation(self):
+        self.assertEqual(typeset("    Un  deux"), "    Un deux")
+
+    def test_typesetting_twice_changes_nothing(self):
+        once = typeset("Pour une fois,écoute...moi!")
+        self.assertEqual(typeset(once), once)
