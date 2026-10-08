@@ -41,6 +41,7 @@ TERMINATORS = re.compile(r"\[end1?\]")
 SPEAKER_LABEL = re.compile(r"[^ ].*:")  # "Yoyo:" or "[character][0x1]:" alone on its line
 HEADING = re.compile(r"-[^ ].*-")  # "-Aller-": a heading the following lines explain
 GLUED = re.compile(r"[?!;:»]")  # French puts a space before these: it must not break the line
+SENTENCE_END = re.compile(r"[.!?…](\[end1?\])?$")
 
 
 def dialog_font(config_path: Path = KATSUJI_CONFIG) -> VwfFont:
@@ -106,24 +107,77 @@ class DialogLayout:
         return "\n".join(out)
 
     def _wrap_line(self, line: str) -> str:
-        """`line` broken at spaces, katsuji's way: a word that would pass the width starts a new line."""
+        """`line` laid out by sentences: sentences share a line while they fit, a sentence that does not fit after
+        the line so far starts its own, and one wider than the window breaks at spaces, katsuji's way (a word that
+        would pass the width starts a new line), its last line taking no further sentence."""
         lines: list[str] = []
         current = ""
+        for sentence in self._sentences(line):
+            candidate = f"{current} {sentence}" if current else sentence
+            if self.width(candidate) <= self.line_width:
+                current = candidate
+                continue
+            if current:
+                lines.append(current)
+            if self.width(sentence) <= self.line_width:
+                current = sentence
+            else:
+                lines += self._break_words(sentence)
+                current = ""
+        if current:
+            lines.append(current)
+        return "\n".join(lines)
+
+    @staticmethod
+    def _words(text: str) -> list[str]:
+        """Words, with a French ? ! ; : » kept on the word before it."""
         words: list[str] = []
-        for word in line.split(" "):
+        for word in text.split(" "):
             if words and GLUED.match(word):
                 words[-1] += f" {word}"
             else:
                 words.append(word)
-        for word in words:
+        return words
+
+    def _sentences(self, text: str) -> list[str]:
+        """`text` cut after each word ending a sentence (. ! ? or …, before a terminator)."""
+        sentences: list[str] = []
+        current: list[str] = []
+        for word in self._words(text):
+            current.append(word)
+            if SENTENCE_END.search(word):
+                sentences.append(" ".join(current))
+                current = []
+        if current:
+            sentences.append(" ".join(current))
+        return sentences
+
+    def _break_words(self, sentence: str) -> list[str]:
+        """`sentence` broken at spaces into as few lines as the window allows, balanced: the narrowest width that
+        still needs no more lines, so the last line is not left with a word or two."""
+        lines = self._greedy(sentence, self.line_width)
+        narrow, wide = 1, self.line_width
+        while narrow < wide:
+            middle = (narrow + wide) // 2
+            if len(self._greedy(sentence, middle)) <= len(lines):
+                wide = middle
+            else:
+                narrow = middle + 1
+        return self._greedy(sentence, wide)
+
+    def _greedy(self, sentence: str, width: int) -> list[str]:
+        """Words fill each line up to `width`; a word that would pass it starts the next."""
+        lines: list[str] = []
+        current = ""
+        for word in self._words(sentence):
             candidate = f"{current} {word}" if current else word
-            if current and self.width(candidate) > self.line_width:
+            if current and self.width(candidate) > width:
                 lines.append(current)
                 current = word
             else:
                 current = candidate
         lines.append(current)
-        return "\n".join(lines)
+        return lines
 
     def overflows(self, text: str) -> Iterator[tuple[str, int]]:
         """The lines of `text` wider than the window, with their width."""

@@ -46,10 +46,26 @@ class DialogLayoutTestCase(TestCase):
         widths = [self.layout.width(line) for line in self.layout.reflow(LONG_LINE).split("\n")]
         self.assertLessEqual(max(widths), LINE_WIDTH)
 
-    def test_a_line_is_filled_before_it_breaks(self):
-        first, second = self.layout.reflow(LONG_LINE).split("\n")
-        next_word = second.split(" ")[0]
-        self.assertGreater(self.layout.width(f"{first} {next_word}"), LINE_WIDTH)
+    def test_a_long_sentence_takes_as_few_lines_as_filling_would(self):
+        lines = self.layout.reflow(LONG_LINE).split("\n")
+        self.assertEqual(len(lines), 2)
+
+    def test_a_long_sentence_is_balanced_over_its_lines(self):
+        widths = [self.layout.width(line) for line in self.layout.reflow(LONG_LINE).split("\n")]
+        self.assertLess(max(widths) - min(widths), LINE_WIDTH // 3)
+
+    def test_short_sentences_share_a_line(self):
+        self.assertEqual(
+            self.layout.reflow("C'est inutile !\nIl n'y a personne ![end]"), "C'est inutile ! Il n'y a personne ![end]"
+        )
+
+    def test_a_sentence_that_does_not_fit_after_the_line_starts_its_own(self):
+        text = "Capitaine Truth ! Voulez-vous attaquer sans être certain de savoir ce que vous allez faire ?[end]"
+        self.assertTrue(self.layout.reflow(text).startswith("Capitaine Truth !\n"))
+
+    def test_the_tail_of_a_wrapped_sentence_takes_no_other_sentence(self):
+        text = "Voulez-vous attaquer sans être certain de savoir ce que vous allez faire ? Et ensuite ?[end]"
+        self.assertTrue(self.layout.reflow(text).endswith("\nEt ensuite ?[end]"))
 
     def test_a_question_mark_stays_with_its_word(self):
         text = "Bikkebakke: Veux-tu connaître les noms les plus populaires de tout le royaume ?[end]"
