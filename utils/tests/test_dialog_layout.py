@@ -2,7 +2,7 @@ import os
 import re
 from unittest.case import TestCase
 
-from utils.dialog_layout import LINE_WIDTH, default_layout, script_overflows
+from utils.dialog_layout import LINE_WIDTH, NAME_CODES, NAME_LETTERS, RENAMEABLE, default_layout, script_overflows
 
 root_dir = os.path.join(os.path.dirname(__file__), "../..")
 
@@ -19,8 +19,16 @@ class DialogLayoutTestCase(TestCase):
         finally:
             os.chdir(cwd)
 
-    def test_a_name_measures_as_its_default_spelling(self):
-        self.assertEqual(self.layout.width("[character][0x0]"), self.layout.width("Byuu"))
+    def test_a_fixed_name_measures_as_names_xml_spells_it(self):
+        self.assertEqual(self.layout.width("[character][0xa]"), self.layout.width("Palparos"))
+
+    def test_a_party_name_measures_as_eight_of_the_widest_letter(self):
+        widest = max(self.layout.width(letter) for letter in NAME_LETTERS)
+        self.assertEqual(self.layout.width("[character][0x0]"), widest * NAME_CODES)
+
+    def test_every_party_name_takes_the_worst_case(self):
+        widths = {self.layout.width(f"[character][{index:#x}]") for index in range(RENAMEABLE)}
+        self.assertEqual(len(widths), 1)
 
     def test_terminators_take_no_width(self):
         self.assertEqual(self.layout.width("Salut ![end]"), self.layout.width("Salut !"))

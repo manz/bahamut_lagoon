@@ -6,8 +6,9 @@ line holds 240 pixels. Lines go to a 256-pixel buffer and wrap nowhere: a longer
 turn by themselves once a window's lines are full (`DA3E1A`), so only the width matters: the build reflows each
 paragraph to it.
 
-A `[character][n]` prints name n of text/fr/names.xml (party members can be renamed, the default is measured), cut
-to the 8 codes the engine copies (`DA3BDE`).
+A `[character][n]` prints a name cut to the 8 codes the engine copies (`DA3BDE`). Names 0-9 come from the party
+records at 7E2B00, which the player renames: they are measured as 8 of the widest letter one could type. The others
+are fixed, measured as text/fr/names.xml spells them.
 """
 
 import re
@@ -31,6 +32,8 @@ NAMES = Path("text/fr/names.xml")
 DIALOGS = Path("text/fr/dialog")
 LINE_WIDTH = 240  # 30 tiles between the frame's corners
 NAME_CODES = 8
+RENAMEABLE = 0x0A  # names below this come from the party records (7E2B00), the player's choice
+NAME_LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzÀÂÇÈÉÊËÎÏÔÙÛàâçèéêëîïôùû"
 SPACE = 0xEF
 NEWLINE = 0xFE
 CHARACTER = re.compile(r"\[character\]\[0x([0-9a-fA-F]+)\]")
@@ -62,6 +65,8 @@ class DialogLayout:
         self.table = table
         self.wrapper = Wrapper([font], Controls(space=SPACE, newline=NEWLINE))
         self.names = [table.to_bytes(name.replace(" ", r"\s"))[:NAME_CODES] for name in names]
+        widest = max(NAME_LETTERS, key=lambda letter: self.wrapper.measure(table.to_bytes(letter)))
+        self.names[:RENAMEABLE] = [table.to_bytes(widest * NAME_CODES)] * RENAMEABLE
         self.line_width = line_width
 
     def encode(self, line: str) -> bytes:
