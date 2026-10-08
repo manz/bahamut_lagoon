@@ -32,7 +32,11 @@ build: $(IPS)  ## Assemble the IPS patch
 # something `make -B` tries to remake, and it is an input we can only ask
 # the user to provide. CI decrypts bl.sfc.gz.gpg into place with a
 # secret passphrase.
-$(IPS): $(SOURCES) $(TEXTS) fonts/fft.png fonts/8x8vwf.png katsuji.toml build.py
+# Both patches take every input: chained on bl.ips, the debug one stayed stale when the two landed in the same
+# second (make 3.81 compares whole seconds).
+PATCH_INPUTS = $(SOURCES) $(TEXTS) fonts/fft.png fonts/8x8vwf.png katsuji.toml build.py $(wildcard utils/*.py utils/vm/*.py)
+
+$(IPS): $(PATCH_INPUTS)
 	$(Q) test -s $(ROM) || { \
 		echo "$(ROM) missing. Place an unheadered Bahamut Lagoon (J) ROM there."; \
 		exit 1; }
@@ -43,7 +47,7 @@ $(IPS): $(SOURCES) $(TEXTS) fonts/fft.png fonts/8x8vwf.png katsuji.toml build.py
 .PHONY: debug
 debug: $(DEBUG_IPS)  ## Assemble the patch with the game's debug mode on
 
-$(DEBUG_IPS): $(IPS)
+$(DEBUG_IPS): $(PATCH_INPUTS)
 	$(info $(M) Building debug patch...)
 	$(Q) $(PY) ./build.py --debug $(BUILD_FLAGS)
 	$(Q) test -s $(DEBUG_IPS)
