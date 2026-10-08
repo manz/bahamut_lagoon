@@ -55,6 +55,8 @@ WINDOW_SLOTS = 45
 ALL_SLOTS = POOL_SLOTS + WINDOW_SLOTS
 WINDOW_VRAM = 0x3000  ; BG1 tile 0x300, 8x8 code 0x00, 4bpp
 WINDOW_TILE_BYTES = 32
+ROSTER_NAME_CELLS = 7
+ROSTER_CLASS_CELLS = 7
 MIN_CHARS = 3  ; shorter copies (LV, HP) keep the font
 SLOT_STALE = 0x01  ; not drawn since its row was last drawn
 ALL_RUNS = 0x0F  ; the panel's
@@ -150,6 +152,22 @@ FIRST_WINDOW_RUN = 4 * 2
 .alloc at 0xC0AB2A {
     ldx.w #LINE
     lda.l 0x000100, x
+}
+
+; The unit roster's rows (C0DDDF): the name took 6 cells, the class 8 from the 7th; the class goes a cell right in 7
+; (the widest, Garde royal, fits) so a name takes 7, Fils de Zora among them. Its status icons (C0DF87) still start
+; at the 7th, past a 7-cell name.
+.alloc at 0xC0E068 {
+    .db ROSTER_NAME_CELLS  ; a party name (lda #0x06 / sta $08)
+}
+
+.alloc at 0xC0E07F {
+    .db ROSTER_NAME_CELLS  ; a fixed name (lda #0x06)
+}
+
+.alloc at 0xC0E036 {
+    .dw LINE + ROSTER_NAME_CELLS + 1  ; the class (ldx #0x0627 / lda #0x08)
+    .db 0xA9, ROSTER_CLASS_CELLS
 }
 
 ; The window font upload's last transfer (sta $420B / rts) writes over the window slots.
