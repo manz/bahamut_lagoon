@@ -38,6 +38,9 @@ LINE = 0x0620
 LINE_CELLS = 30
 COPY_CELLS = 12  ; small_vwf's cells: a longer field is blank past them
 MAX_CHARS = 24  ; small_vwf's
+PARTY_NAMES = 0x2B00  ; bank 7E: the party's names, 8 codes each, FF-terminated only when shorter
+PARTY_NAMES_END = PARTY_NAMES + 10 * PARTY_NAME_CODES
+PARTY_NAME_CODES = 8
 MESSAGE_SPELL_COPY = 0xD6E5  ; the return addresses, less one, of the copies that write a battle message's
 MESSAGE_DRAGON_COPY = 0xA7A4  ; name: a spell's, a dragon's
 MESSAGE_RANGE = 0xD5  ; the range icon's first half: a spell message's $10 for its range
@@ -167,6 +170,16 @@ engine wrote it.
     bcs _vanilla_copy
     lda #MAX_CHARS  ; the field's cells bound it, not its characters
     sta.l small_vwf.max_chars
+    lda.b 0x10
+    cmp #0x7E
+    bne _not_a_party_name
+    cpy.w #PARTY_NAMES
+    bcc _not_a_party_name
+    cpy.w #PARTY_NAMES_END
+    bcs _not_a_party_name
+    lda #PARTY_NAME_CODES  ; an 8-letter name has no FF: the next name follows
+    sta.l small_vwf.max_chars
+_not_a_party_name:
     lda.b 0x08
     beq _vanilla_copy
     cmp #COPY_CELLS

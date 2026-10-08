@@ -87,3 +87,12 @@ def test_enemy_spell_banner_names_the_spell(console):
     console.tap(console.button.A)  # end the phase: an enemy casts, its spell's name and level in a message
     console.emu.run_frames(160)
     assert console.matches_golden("battle-enemy-spell")
+
+
+def test_dragon_orders_and_its_full_name(console):
+    open_command_window(console)
+    for button in (console.button.DOWN, console.button.DOWN, console.button.A):
+        console.tap(button)
+        console.emu.run_frames(20)
+    console.emu.run_frames(40)
+    assert console.matches_golden("battle-dragon-orders")  # an 8-letter party name stops at its 8 codes
