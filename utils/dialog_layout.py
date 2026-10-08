@@ -48,6 +48,7 @@ NAME_CODE = re.compile(r"\[character\]\[0x[0-9a-fA-F]+\]$")
 GLYPH_CODE = re.compile(r"\[0x[0-9a-fA-F]+\]$")
 SPEAKER = re.compile(r"(\[character\]\[0x[0-9a-fA-F]+\]|[^\s:.?!,]+(?: [^\s:.?!,]+){0,2}):")  # "Roi de Kana:"
 SPACES = re.compile(r"(?<=\S)  +(?=\S)")
+LIST_ITEM = re.compile(r"(\d+|\[0x(af|b[0-8])\])+ ?[-.)]")  # "1- ", "[0xb0]- ": an item, a line of its own
 BLOCK = "\x00"  # between the line groups _wrap_line returns: a group never splits over two windows
 SENTENCE_END = re.compile(r"[.!?…](\[end1?\])?$")
 
@@ -94,16 +95,17 @@ class DialogLayout:
     def width(self, line: str) -> int:
         return self.wrapper.measure(self.encode(line))
 
-    def reflow(self, text: str, page_lines: int | None = None) -> str:
+    def reflow(self, text: str, page_lines: int | None = None, keep_lines: bool = False) -> str:
         """`text` set in French typography (`typeset`), then laid out to the window: each paragraph's lines joined
         and wrapped again by sentences.
 
         Kept as written: blank lines, spaces only or not (they separate paragraphs), a speaker label or a -heading-
         alone on its line, lines starting with one space (choices) or two and more (placed: `place`), and texts
-        ending in [end1] (a choice follows them). Given the window's `page_lines`, a block of lines that would run
-        past the window's last line starts the next window instead (`paginate`)."""
-        if text.endswith("[end1]"):
-            return typeset(text)
+        ending in [end1] (a choice follows them) or given `keep_lines` (a choice's prompt, its options a line each).
+        A numbered line (1- or [0xb0]-) is a paragraph of its own. Given the window's `page_lines`, a block of lines
+        that would run past the window's last line starts the next window instead (`paginate`)."""
+        if keep_lines or text.endswith("[end1]"):
+            return "\n".join(typeset(line) for line in text.split("\n"))
         lines = [typeset(line) for line in text.split("\n")]
         indented = [line for line in lines if line.startswith("  ") and line.strip()]
         block_indent = len(indented) > 1 and len({len(line) - len(line.lstrip(" ")) for line in indented}) == 1
@@ -122,6 +124,10 @@ class DialogLayout:
             elif line.startswith(" ") or SPEAKER_LABEL.fullmatch(line) or HEADING.fullmatch(line):
                 close_paragraph()
                 blocks.append([line if block_indent else self.place(line)])
+            elif LIST_ITEM.match(line):
+                close_paragraph()
+                paragraph.append(line)
+                close_paragraph()
             else:
                 paragraph.append(line)
         close_paragraph()

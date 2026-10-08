@@ -123,6 +123,14 @@ class DialogLayoutTestCase(TestCase):
         letter = "    Comment te portes-tu ?\n    Où es-tu ?[end]"
         self.assertEqual(self.layout.reflow(letter), letter)
 
+    def test_numbered_lines_stay_one_a_line(self):
+        ranking = "[0xb0]- SALAMANDO\n[0xb1]- POCHI\n[0xb2]- TANAKA[end]"
+        self.assertEqual(self.layout.reflow(ranking), ranking)
+
+    def test_a_choice_prompt_keeps_its_lines(self):
+        prompt = "Que fais-tu ?\nAttaquer\nFuir[end]"
+        self.assertEqual(self.layout.reflow(prompt, keep_lines=True), prompt)
+
     def test_a_blank_line_does_not_open_a_window(self):
         lines = self.layout.reflow("Un.\nDeux ?\n\nTrois.[end]", page_lines=1).split("\n")
         self.assertNotIn("", lines)
