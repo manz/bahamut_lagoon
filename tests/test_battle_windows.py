@@ -96,3 +96,18 @@ def test_dragon_orders_and_its_full_name(console):
         console.emu.run_frames(20)
     console.emu.run_frames(40)
     assert console.matches_golden("battle-dragon-orders")  # an 8-letter party name stops at its 8 codes
+
+
+ROSTER_UNIT = 0x7E21C0  # the roster's first row: Matelite's unit record
+UNIT_NAME = 0x11
+SON_OF_ZORA = 0x14  # text/fr/names.xml: Fils de Zora, the widest name
+
+
+def test_the_roster_fits_the_widest_name_and_class(console):
+    console.load("battle-map")
+    console.tap(console.button.R)
+    console.emu.run_frames(120)
+    console.emu.write(ROSTER_UNIT + UNIT_NAME, SON_OF_ZORA)
+    console.tap(console.button.A)
+    console.emu.run_frames(90)
+    assert console.matches_golden("battle-roster")  # Fils de Zora and Garde royal whole, a gap before LV
