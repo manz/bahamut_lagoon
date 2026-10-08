@@ -43,8 +43,10 @@ HEADING = re.compile(r"-[^ ].*-")  # "-Aller-": a heading the following lines ex
 GLUED = re.compile(r"[?!;:»]")  # French puts a space before these: it must not break the line
 RIGHT_OF_CENTRE = 10  # pixels: an indented line set further right than this is right-aligned (a signature)
 COMMA = re.compile(r",(?=[^\s\d\]])|(?<=\D),(?=\d)")  # a comma touching the next word (not 1,5)
-ELLIPSIS = re.compile(r"(\.\.\.+)(?=[^\s.?!,;:\]»])")  # an ellipsis touching the next word
-TIGHT = re.compile(r"(?<=[^\s\]?!;])([?!;]+)")  # ? ! ; with no space before (not after a code)
+ELLIPSIS = re.compile(r"(\.\.\.+)(?![\s.?!,;:\]»]|\[end|$)")  # an ellipsis touching the next word
+NAME_CODE = re.compile(r"\[character\]\[0x[0-9a-fA-F]+\]$")
+GLYPH_CODE = re.compile(r"\[0x[0-9a-fA-F]+\]$")
+SPEAKER = re.compile(r"(\[character\]\[0x[0-9a-fA-F]+\]|[^\s:.?!,]+(?: [^\s:.?!,]+){0,2}):")  # "Roi de Kana:"
 SPACES = re.compile(r"(?<=\S)  +(?=\S)")
 BLOCK = "\x00"  # between the line groups _wrap_line returns: a group never splits over two windows
 SENTENCE_END = re.compile(r"[.!?…](\[end1?\])?$")
@@ -233,13 +235,31 @@ class DialogLayout:
 
 def typeset(line: str) -> str:
     """`line` in French typography: a space after a comma and after an ellipsis that runs into a word, a space
-    before ? ! ;, single spaces between words; the leading indentation is left alone."""
+    before ? ! ; and before : (not after a speaker's name opening the line), single spaces between words. A glyph
+    code ([0xd8]) keeps what follows it tight, a name ([character][0x0]) does not. The indentation is left alone."""
     indent = line[: len(line) - len(line.lstrip(" "))]
     text = line[len(indent) :]
     text = COMMA.sub(", ", text)
     text = ELLIPSIS.sub(r"\1 ", text)
-    text = TIGHT.sub(r" \1", text)
+    text = _space_before(text, "?!;")
+    speaker = SPEAKER.match(text)
+    head, rest = (text[: speaker.end()], text[speaker.end() :]) if speaker else ("", text)
+    text = head + _space_before(rest, ":")
     return indent + SPACES.sub(" ", text)
+
+
+def _space_before(text: str, marks: str) -> str:
+    """A space before each run of `marks` that touches the word before it; after a glyph code, none."""
+    out = []
+    for index, char in enumerate(text):
+        if char in marks and index and text[index - 1] not in " " + marks:
+            before = text[:index]
+            if before.endswith("]") and GLYPH_CODE.search(before) and not NAME_CODE.search(before):
+                out.append(char)
+                continue
+            out.append(" ")
+        out.append(char)
+    return "".join(out)
 
 
 def paginate(blocks: list[list[str]], page_lines: int) -> list[list[str]]:

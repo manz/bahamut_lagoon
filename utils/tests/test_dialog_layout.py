@@ -178,6 +178,24 @@ class TypesetTestCase(TestCase):
     def test_runs_of_spaces_collapse_but_not_the_indentation(self):
         self.assertEqual(typeset("    Un  deux"), "    Un deux")
 
+    def test_an_ellipsis_before_the_terminator_stays_tight(self):
+        self.assertEqual(typeset("Vint alors la nuit...[end]"), "Vint alors la nuit...[end]")
+
+    def test_a_name_gets_a_space_before_an_exclamation_mark(self):
+        self.assertEqual(typeset("le seigneur [character][0x0]!"), "le seigneur [character][0x0] !")
+
+    def test_a_glyph_code_keeps_what_follows_tight(self):
+        self.assertEqual(typeset("Princesse[0xd8]!"), "Princesse[0xd8]!")
+
+    def test_a_colon_in_a_sentence_gets_its_space(self):
+        self.assertEqual(typeset("Nous vous l'annonçons en ces lieux:"), "Nous vous l'annonçons en ces lieux :")
+
+    def test_a_speaker_colon_stays_as_the_script_writes_it(self):
+        self.assertEqual(typeset("Roi de Kana: Bonjour."), "Roi de Kana: Bonjour.")
+
+    def test_a_named_speaker_colon_stays_too(self):
+        self.assertEqual(typeset("[character][0x1]: Merci."), "[character][0x1]: Merci.")
+
     def test_typesetting_twice_changes_nothing(self):
         once = typeset("Pour une fois,écoute...moi!")
         self.assertEqual(typeset(once), once)
