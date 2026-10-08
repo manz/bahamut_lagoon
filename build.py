@@ -33,9 +33,7 @@ logger = logging.getLogger(__name__)
 
 ROM = Path("build/bl.sfc")
 ROOMS_PARTIAL = Path("build/rooms.partial")
-VWF_FONT = Path("assets/vwf.bin")  # incbin'd by bl.s
-VWF_FONT_SOURCE = Path("fonts/fft.png")
-KATSUJI_CONFIG = Path("katsuji.toml")  # the 8x8 font (assets/small_font.dat)
+KATSUJI_CONFIG = Path("katsuji.toml")  # every font: assets/vwf.bin (dialogue) and assets/small_font.dat (8x8)
 TABLE = Path("text/table/mz.tbl")
 INLINE_STRING_HOOKS = Path("build/gen/inline_string_hooks.s")  # generated module bl.s imports
 LONG_NAMES = Path("build/gen/long_names.s")  # generated module small_vwf reads
@@ -104,13 +102,6 @@ def assets_need_refresh(sources: list[Path], destination: Path) -> bool:
         return True
     built = destination.stat().st_mtime
     return any(source.stat().st_mtime > built for source in sources)
-
-
-def build_vwf_font() -> None:
-    from utils.font import char_length_override, convert_font
-
-    VWF_FONT.parent.mkdir(exist_ok=True)
-    VWF_FONT.write_bytes(convert_font(str(VWF_FONT_SOURCE), empty_chars=char_length_override))
 
 
 def build_rooms_partial(table: Table) -> None:
@@ -205,8 +196,6 @@ def main() -> int:
         logger.error("%s missing. Place an unheadered Bahamut Lagoon (J) ROM there.", ROM)
         return 1
 
-    if assets_need_refresh([VWF_FONT_SOURCE], VWF_FONT):
-        build_vwf_font()
     katsuji_build.build(katsuji_config.load(KATSUJI_CONFIG))
 
     room_sources = [TABLE, *Path("text/fr/dialog").glob("*.xml"), *Path("text/fr/battle").glob("*.xml")]
