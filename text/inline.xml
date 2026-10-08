@@ -88,7 +88,7 @@
     <string jump_to="0xeed58a" ref="0xeed577">Chapitre</string>
     <string jump_to="0xeed5ba" ref="0xeed5a9">EXPLAY</string>
     <string jump_to="0xeed5f4" ref="0xeed5d5" width="14">TEMPS   :  :</string>
-    <string jump_to="0xeedad6" ref="0xeedaa7">Maj.  Min.  Autre Fin</string>
+    <string jump_to="0xeedad6" ref="0xeedaa7">Maj.  Min.  Autre  Fin</string>
     <string jump_to="0xeedd93" ref="0xeedd7a" width="12">Équipable par</string>
     <string jump_to="0xeedda9" ref="0xeedda0">Achat</string>
     <string jump_to="0xeeddb8" ref="0xeeddaf">Vente</string>

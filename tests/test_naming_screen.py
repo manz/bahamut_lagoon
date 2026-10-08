@@ -3,8 +3,14 @@ The naming screen, opened from scenario 00's opening: Byuu's name above its page
 three pages of French characters drawn in the menu font. The tests continue from each other, in file order.
 """
 
+from pathlib import Path
+
+from katsuji.formats import VwfFont
+
 NAMING_CURSOR = 0xEE468E  # update_naming_cursor_pos: runs while the screen takes input
 NAME = 0x7E9E00  # the name being edited, FF-terminated
+CURSOR_X = 0x0010D6  # the name cursor object's x
+NAME_X = 0x3A  # its x before the first character
 
 
 def test_the_name_and_the_page_labels_do_not_overlap(console):
@@ -36,3 +42,10 @@ def test_a_letter_types_its_code(console):
     console.emu.run_frames(20)
     name = bytes(console.emu.read_range(NAME, 8))
     assert name[: name.index(0xFF)].endswith(bytes([0xB9]))  # A
+
+
+def test_the_name_cursor_follows_the_name_s_width(console):
+    font = VwfFont.decode(Path("assets/vwf.bin").read_bytes())
+    name = bytes(console.emu.read_range(NAME, 8))
+    width = sum(font.widths[code] + 1 for code in name[: name.index(0xFF)])
+    assert console.emu.read16(CURSOR_X) == NAME_X + width
