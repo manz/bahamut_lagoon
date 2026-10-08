@@ -4,7 +4,11 @@ Generate a816 macro library for Bahamut Lagoon room opcodes
 """
 
 import os
+import subprocess
+import sys
+from pathlib import Path
 
+from utils.vm.opcodes import ActorList, ConditionalJump, Opcode13
 from utils.vm.opcodes_map import opcode_names, opcode_table
 
 
@@ -55,7 +59,28 @@ def generate_macro_library():
         # Clean up macro name (remove special chars, make valid identifier)
         macro_name = name.replace("?", "").replace("-", "_").replace(" ", "_")
 
-        if size == 1:
+        opcode_obj = opcode_table.get(opcode_num)
+        if isinstance(opcode_obj, ConditionalJump):
+            # Condition bytes, then the address taken when the condition holds
+            conditions = [f"param{i + 1}" for i in range(opcode_obj.operands)]
+            macro = f""".macro {macro_name}({", ".join([*conditions, "address"])}) {{
+    .db 0x{opcode_num:02X}, {", ".join(conditions)}
+    .dw address
+}}
+"""
+        elif isinstance(opcode_obj, Opcode13):
+            # One actor and one motion step; end is FF (or FE)
+            macro = f""".macro {macro_name}(actor, motion, end) {{
+    .db 0x{opcode_num:02X}, actor, motion, end
+}}
+"""
+        elif isinstance(opcode_obj, ActorList):
+            # One actor, then the FF that ends the actor list
+            macro = f""".macro {macro_name}(actor, end) {{
+    .db 0x{opcode_num:02X}, actor, end
+}}
+"""
+        elif size == 1:
             # No parameters
             macro = f""".macro {macro_name}() {{
     .db 0x{opcode_num:02X}
@@ -145,6 +170,8 @@ def main():
 
     with open(output_file, "w") as f:
         f.write(macros)
+    # The a816 formatter wraps long macro signatures the way `make check` expects
+    subprocess.run([str(Path(sys.executable).parent / "a816"), "format", output_file], check=True)
 
     print(f"Generated room macro library: {output_file}")
     print(f"Total opcodes: {len(opcode_names)}")
