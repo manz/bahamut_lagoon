@@ -11,6 +11,8 @@ NAMING_CURSOR = 0xEE468E  # update_naming_cursor_pos: runs while the screen take
 NAME = 0x7E9E00  # the name being edited, FF-terminated
 CURSOR_X = 0x0010D6  # the name cursor object's x
 NAME_X = 0x3A  # its x before the first character
+PAGE_CURSOR_X = 0x001056  # the page cursor object's x
+LABEL_STOPS = [52, 116, 180, 220]  # 4 pixels before Majuscules, Minuscules, Autre, Fin
 
 
 def test_the_name_and_the_page_labels_do_not_overlap(console):
@@ -20,6 +22,14 @@ def test_the_name_and_the_page_labels_do_not_overlap(console):
     console.press_until(console.button.A, lambda: bool(opened), limit=10)
     console.emu.run_frames(60)
     assert console.matches_golden("naming-capitals")
+
+
+def test_the_page_cursor_stops_before_each_label(console):
+    stops = []
+    for _ in LABEL_STOPS:
+        stops.append(console.emu.read16(PAGE_CURSOR_X))
+        console.tap(console.button.RIGHT)
+    assert stops == LABEL_STOPS
 
 
 def test_the_lower_case_page(console):

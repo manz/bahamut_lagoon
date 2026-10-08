@@ -312,16 +312,23 @@ def encode_inline(table: Table, text: str) -> bytes:
     return encode(table, text.replace(":", SMALL_FONT_COLON))
 
 
-def inline_record(table: Table, text: str, width: int | None = None, align: str | None = None) -> bytes:
+def inline_record(
+    table: Table, text: str, width: int | None = None, align: str | None = None, cells: list[int] | None = None
+) -> bytes:
     """
     An inline string as draw_inline_string_patched reads it: the field's width in cells, then its segments, each a
     header (the start cell, or INLINE_RIGHT; INLINE_CELL for one character), its codes and FF, then FF. Spaces are
-    not stored: runs of them place the segments, and the field's width covers the cells after the text.
+    not stored: runs of them place the segments, and the field's width covers the cells after the text. `cells`, one
+    per segment, places them instead: a word drawn narrower than its letters count needs it.
     """
     if align == "right":
         segments = [(INLINE_RIGHT, text.strip())]
     else:
         segments = [(match.start(), match.group()) for match in INLINE_SEGMENT.finditer(text)]
+        if cells is not None:
+            if len(cells) != len(segments):
+                raise ValueError(f"{text!r}: {len(segments)} segments for {len(cells)} cells")
+            segments = [(cell, segment) for cell, (_, segment) in zip(cells, segments, strict=True)]
     record = bytes([width if width is not None else len(text)])
     for header, text_codes in segments:
         codes = encode_inline(table, text_codes)
@@ -346,7 +353,8 @@ def insert_inline_strings(writer: Writer, address: int) -> tuple[int, list[Inlin
         xref = int(string.get("ref"), 16)
         jump_to = int(string.get("jump_to"), 16)
         width = string.get("width")
-        record = inline_record(table, string.text or "", int(width) if width else None, string.get("align"))
+        cells = [int(cell) for cell in string.get("cells", "").split()] or None
+        record = inline_record(table, string.text or "", int(width) if width else None, string.get("align"), cells)
         if record not in offsets:
             offsets[record] = len(text_data)
             text_data += record
