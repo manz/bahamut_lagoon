@@ -58,19 +58,19 @@
         <refs>
             <ref>0xe</ref>
         </refs>
-        <data>Reviens![0xff]</data>
+        <data>Viens![0xff]</data>
     </string>
     <string>
         <refs>
             <ref>0xf</ref>
         </refs>
-        <data>Attaque![0xff]</data>
+        <data>Fonce![0xff]</data>
     </string>
     <string>
         <refs>
             <ref>0x10</ref>
         </refs>
-        <data>Attends![0xff]</data>
+        <data>Reste![0xff]</data>
     </string>
     <string>
         <refs>
