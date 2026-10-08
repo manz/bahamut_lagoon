@@ -27,6 +27,7 @@ from utils.inline_strings import (
     insert_messages_strings,
 )
 from utils.name_tables import insert_item_names, insert_short_names, long_names_source
+from utils.naming_screen import naming_font_tiles, naming_grids_source
 
 logger = logging.getLogger(__name__)
 
@@ -37,6 +38,7 @@ KATSUJI_CONFIG = Path("katsuji.toml")  # every font: assets/vwf.bin (dialogue) a
 TABLE = Path("text/table/mz.tbl")
 INLINE_STRING_HOOKS = Path("build/gen/inline_string_hooks.s")  # generated module bl.s imports
 LONG_NAMES = Path("build/gen/long_names.s")  # generated module small_vwf reads
+NAMING_GRIDS = Path("build/gen/naming_grids.s")  # generated module: the naming screen's pages
 
 
 @dataclass(frozen=True)
@@ -114,9 +116,9 @@ def build_rooms_partial(table: Table) -> None:
         logger.info("Relocated battle rooms end at %#x", address + 0xC00000)
 
 
-def insert_compressed_asset(writer, asset_filename, insert_addr, low_addr, bank_addr, compressor):
-    with open(asset_filename, "rb") as asset:
-        compressed = compressor(asset.read())
+def insert_compressed_asset(writer, asset, insert_addr, low_addr, bank_addr, compressor):
+    """Compress `asset` (a file, or its bytes) into the ROM and point the loader at it."""
+    compressed = compressor(asset if isinstance(asset, bytes) else Path(asset).read_bytes())
     writer.write_block(compressed, rom_offset(insert_addr + 1))
     # .D5:E6B9                 LDA     #$9A4F
     # .D5:E6BC                 STA     D, $28
@@ -148,7 +150,7 @@ def insert_text(writer: IPSWriter) -> list[InlineStringHook]:
     # .EE:8511                 .BYTE $EE
     insert_compressed_asset(
         writer,
-        "src_assets/ee0020.bin",
+        naming_font_tiles(Table(str(TABLE))),  # src_assets/ee0020.bin, its grid glyphs redrawn
         insert_addr=next_insert,
         low_addr=0xEE850F,
         bank_addr=0xEE8511,
@@ -173,6 +175,7 @@ def build_ips(variant: Variant) -> None:
     hooks = insert_text(IPSWriter(text))
     write_if_changed(INLINE_STRING_HOOKS, inline_string_hooks_source(hooks))
     write_if_changed(LONG_NAMES, long_names_source(Table(str(TABLE))))
+    write_if_changed(NAMING_GRIDS, naming_grids_source(ROM.read_bytes(), Table(str(TABLE))))
     build_code("bl.s", variant)
 
     with variant.ips.open("wb") as f:

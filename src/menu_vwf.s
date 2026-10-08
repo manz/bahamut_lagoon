@@ -8,7 +8,8 @@ icon, drawn as a cell of its own here before the name.
 
 Every name renders through small_vwf, for one font across a list; the font draws it only when no slots are left. On
 BG2 its cells take a run of slots from VRAM 0x2000-0x2FFF, blank in the menus (BG2 tiles 0x100-0x1FF), but for the
-tiles the load and save screens upload their chapter titles to (0x120-0x17F).
+tiles the naming screen draws the name into (0x100-0x11F) and the load and save screens upload their chapter titles
+to (0x120-0x17F).
 BG3 cannot reach below its 0x4000 base: a name takes first a block of the right half of BG2's 64x64 map, which BG2
 never scrolls to and no shadow upload covers (BG3 tiles 0x280-0x2FF, staged and queued like BG2's runs); else cells
 one by one from the last rows of BG3's own 32x64 map, 58-63 (the boxes at the bottom scroll it by 224 and 241 lines,
@@ -54,8 +55,8 @@ _ITEMS = 128
 _BG2_SLOTS = 256
 _BG2_TILE = 0x100  ; BG2 tile of slot 0
 _BG2_VRAM = 0x2000
-_TEXT_BUFFER_SLOT = 0x20  ; BG2 tiles 0x120-0x17F: the load and save screens' chapter titles (text_buffer_vwf)
-_TEXT_BUFFER_SLOTS = 0x60
+_TEXT_BUFFER_SLOT = 0x00  ; BG2 tiles 0x100-0x11F: the naming screen's name; 0x120-0x17F: the load and save
+_TEXT_BUFFER_SLOTS = 0x80  ; screens' chapter titles (text_buffer_vwf)
 _BG3_RIGHT_TILE = 0x280  ; BG2's map, right half: slots 0-127
 _BG3_RIGHT_SLOTS = 128
 _BG3_ROWS_TILE = 0x1E8  ; BG3's map, rows 58-63: the next 24
