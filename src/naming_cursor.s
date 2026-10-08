@@ -7,6 +7,9 @@ the pixel draw_string leaves after it.
 
 The page cursor (EED7D9) stopped every 48 pixels, the Japanese labels' spacing; it now stops at each French label
 (text/inline.xml places them, cells 0 8 16 21 from x 56), 4 pixels before it.
+
+Byuu's and Yoyo's names stopped at 6 characters (EEDB00), the dragons' at 8; the records hold 8 for all of them,
+and the dialog, menus and panel draw 8, so all take 8.
 """
 
 .include "src/expansion.i"
@@ -17,7 +20,7 @@ NAME = 0x7E9E00  ; the name being typed
 NAME_X = 0x3A  ; the cursor's x before the first character
 CURSOR_X = 0x0010D6  ; the cursor object's x and y offset, as EEDBEE wrote them
 CURSOR_Y = 0x0010D8
-CURSOR_Y_OFFSET = 0xFFFC
+CURSOR_Y_OFFSET = 0x0000  ; vanilla -4: the arrow sat above the name
 GLYPH_HEIGHT = 16  ; vwf.bin: 16 rows of 1bpp, then the advance width
 _length = 0xCC  ; the caller's direct page: characters in the name
 _page = 0xC0  ; the caller's direct page: the label under the page cursor, 0-3
@@ -47,6 +50,10 @@ place_page_cursor:
 compute_naming_screen_cursor_position:
     jsl.l naming_cursor_position
     rts
+}
+
+.alloc at 0xEEDB0D {
+    .db 8  ; was 6: Byuu's and Yoyo's names take 8 characters, as the dragons' do
 }
 
 .alloc naming_cursor in expansion {
