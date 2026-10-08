@@ -204,6 +204,29 @@ room_patches = {
 }
 
 
+class WindowHeights:
+    """The lines each text's window holds: op 34's second operand, in tile rows (two a line), from the closest
+    op 34 before the text's opcode; 3 lines, the size most scenes set, when none comes before it."""
+
+    DEFAULT_LINES = 3
+    SET_WINDOW = 0x34
+
+    def __init__(self, room) -> None:
+        self.room = room.room
+        self.sets = sorted(
+            address
+            for address, (data, _comment, _size) in room.program._program.items()
+            if data[0] == "opcode" and data[2] == self.SET_WINDOW
+        )
+
+    def lines(self, refs: list[int]) -> int:
+        heights = []
+        for ref in refs:
+            before = [address for address in self.sets if address < ref]
+            heights.append(max(1, self.room[before[-1] + 2] // 2) if before else self.DEFAULT_LINES)
+        return min(heights, default=self.DEFAULT_LINES)
+
+
 def build_text_patch(rom, table, writer, reloc_address):
     xmlfile_re = re.compile(r"(\d+)\.xml")
     dialog_dir = os.path.join(os.path.dirname(__file__), "../text/fr/dialog")
@@ -223,9 +246,12 @@ def build_text_patch(rom, table, writer, reloc_address):
                 room = get_dialog_room(rom, room_id, table, "jp", disasm=True)
 
                 tree = ET.parse(os.path.join(dialog_dir, file))
-                for data in tree.getroot().iter("data"):
-                    if data.text:
-                        data.text = layout.reflow(data.text)
+                windows = WindowHeights(room)
+                for text in tree.getroot():
+                    data = text.find("data")
+                    if data is not None and data.text:
+                        refs = [int(ref.text, 16) for ref in text.iter("ref") if ref.text]
+                        data.text = layout.reflow(data.text, page_lines=windows.lines(refs))
 
                 room.apply_patches(room_patches.get(room_id))
 

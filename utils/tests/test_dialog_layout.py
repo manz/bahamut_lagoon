@@ -74,9 +74,35 @@ class DialogLayoutTestCase(TestCase):
     def test_blank_lines_separate_paragraphs(self):
         self.assertEqual(self.layout.reflow("Un.\n\nDeux.[end]"), "Un.\n\nDeux.[end]")
 
-    def test_lines_starting_with_a_space_are_kept(self):
-        card = "                    Prologue\n                La Chute de Kana[end]"
-        self.assertEqual(self.layout.reflow(card), card)
+    def test_a_line_starting_with_one_space_is_kept(self):
+        choice = " Oui\n Non"
+        self.assertEqual(self.layout.reflow(choice + "[end]"), choice + "[end]")
+
+    def test_a_line_starting_with_two_spaces_is_centred(self):
+        line = self.layout.reflow("  Prologue[end]")
+        left = self.layout.width(line[: len(line) - len(line.lstrip(" "))])
+        right = LINE_WIDTH - left - self.layout.width("Prologue")
+        self.assertLessEqual(abs(left - right), self.layout.width(" "))
+
+    def test_a_centred_name_sits_at_its_default_width(self):
+        def indent(line: str) -> int:
+            return len(line) - len(line.lstrip(" "))
+
+        self.assertEqual(indent(self.layout.centre("  -[character][0x0]-")), indent(self.layout.centre("  -Byuu-")))
+
+    def test_a_block_that_would_cross_the_window_starts_the_next(self):
+        text = "Un.\nVoulez-vous attaquer sans être certain de savoir ce que vous allez faire demain matin ?[end]"
+        lines = self.layout.reflow(text, page_lines=2).split("\n")
+        self.assertEqual(lines[:2], ["Un.", ""])
+
+    def test_a_speaker_label_stays_with_its_text_across_windows(self):
+        text = "Un.\n\nYoyo:\nVoulez-vous attaquer sans être certain de savoir ce que vous allez faire ?[end]"
+        lines = self.layout.reflow(text, page_lines=3).split("\n")
+        self.assertEqual(lines[3], "Yoyo:")
+
+    def test_a_blank_line_does_not_open_a_window(self):
+        lines = self.layout.reflow("Un.\nDeux ?\n\nTrois.[end]", page_lines=1).split("\n")
+        self.assertNotIn("", lines)
 
     def test_a_speaker_label_keeps_its_own_line(self):
         self.assertEqual(

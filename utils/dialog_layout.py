@@ -41,6 +41,7 @@ TERMINATORS = re.compile(r"\[end1?\]")
 SPEAKER_LABEL = re.compile(r"[^ ].*:")  # "Yoyo:" or "[character][0x1]:" alone on its line
 HEADING = re.compile(r"-[^ ].*-")  # "-Aller-": a heading the following lines explain
 GLUED = re.compile(r"[?!;:»]")  # French puts a space before these: it must not break the line
+BLOCK = "\x00"  # between the line groups _wrap_line returns: a group never splits over two windows
 SENTENCE_END = re.compile(r"[.!?…](\[end1?\])?$")
 
 
@@ -66,45 +67,67 @@ class DialogLayout:
         self.table = table
         self.wrapper = Wrapper([font], Controls(space=SPACE, newline=NEWLINE))
         self.names = [table.to_bytes(name.replace(" ", r"\s"))[:NAME_CODES] for name in names]
+        self.default_names = list(self.names)
         widest = max(NAME_LETTERS, key=lambda letter: self.wrapper.measure(table.to_bytes(letter)))
         self.names[:RENAMEABLE] = [table.to_bytes(widest * NAME_CODES)] * RENAMEABLE
         self.line_width = line_width
 
-    def encode(self, line: str) -> bytes:
-        """The line's codes, names spelled out and terminators dropped."""
+    def encode(self, line: str, names: list[bytes] | None = None) -> bytes:
+        """The line's codes, names spelled out (at their widest unless `names` says) and terminators dropped."""
+        names = self.names if names is None else names
         codes = b""
         position = 0
         line = TERMINATORS.sub("", line)
         for match in CHARACTER.finditer(line):
             codes += self.table.to_bytes(line[position : match.start()].replace(" ", r"\s"))
-            codes += self.names[int(match[1], 16)]
+            codes += names[int(match[1], 16)]
             position = match.end()
         return codes + self.table.to_bytes(line[position:].replace(" ", r"\s"))
 
     def width(self, line: str) -> int:
         return self.wrapper.measure(self.encode(line))
 
-    def reflow(self, text: str) -> str:
-        """`text` laid out to the window: each paragraph's lines joined and wrapped again.
+    def reflow(self, text: str, page_lines: int | None = None) -> str:
+        """`text` laid out to the window: each paragraph's lines joined and wrapped again by sentences.
 
-        Kept as written: blank lines (they separate paragraphs), lines starting with a space (centred cards,
-        choices), a speaker label or a -heading- alone on its line, and texts ending in [end1] (a choice follows
-        them)."""
+        Kept as written: blank lines (they separate paragraphs), lines starting with a space (cards, choices), a
+        speaker label or a -heading- alone on its line, and texts ending in [end1] (a choice follows them). Lines
+        starting with two spaces or more are centred. Given the window's `page_lines`, a block of lines that would
+        run past the window's last line starts the next window instead (`paginate`)."""
         if text.endswith("[end1]"):
             return text
-        out: list[str] = []
+        blocks: list[list[str]] = []
         paragraph: list[str] = []
+
+        def close_paragraph() -> None:
+            if paragraph:
+                blocks.extend(line.split("\n") for line in self._wrap_line(" ".join(paragraph)).split(BLOCK))
+                paragraph.clear()
+
         for line in text.split("\n"):
             if not line or line.startswith(" ") or SPEAKER_LABEL.fullmatch(line) or HEADING.fullmatch(line):
-                if paragraph:
-                    out.append(self._wrap_line(" ".join(paragraph)))
-                    paragraph = []
-                out.append(line)
+                close_paragraph()
+                blocks.append([self.centre(line)])
             else:
                 paragraph.append(line)
-        if paragraph:
-            out.append(self._wrap_line(" ".join(paragraph)))
-        return "\n".join(out)
+        close_paragraph()
+        if page_lines is not None:
+            blocks = paginate(blocks, page_lines)
+        return "\n".join(line for block in blocks for line in block)
+
+    def centre(self, line: str) -> str:
+        """A line starting with two spaces or more, re-indented to sit in the middle of the window (a space is the
+        indent's unit, so within half a space); other lines as they are."""
+        if not line.startswith("  "):
+            return line
+        text = line.lstrip(" ")
+        space = self.wrapper.measure(bytes([SPACE]))
+        margin = max(0, self.line_width - self.default_width(text)) // 2
+        return " " * round(margin / space) + text
+
+    def default_width(self, line: str) -> int:
+        """`line`'s width with every name at its default spelling: where it sits, not how wide it may grow."""
+        return self.wrapper.measure(self.encode(line, self.default_names))
 
     def _wrap_line(self, line: str) -> str:
         """`line` laid out by sentences: sentences share a line while they fit, a sentence that does not fit after
@@ -122,11 +145,11 @@ class DialogLayout:
             if self.width(sentence) <= self.line_width:
                 current = sentence
             else:
-                lines += self._break_words(sentence)
+                lines.append("\n".join(self._break_words(sentence)))
                 current = ""
         if current:
             lines.append(current)
-        return "\n".join(lines)
+        return BLOCK.join(lines)
 
     @staticmethod
     def _words(text: str) -> list[str]:
@@ -185,6 +208,36 @@ class DialogLayout:
             width = self.width(line)
             if width > self.line_width:
                 yield line, width
+
+
+def paginate(blocks: list[list[str]], page_lines: int) -> list[list[str]]:
+    """`blocks` (groups of lines) laid over windows of `page_lines` lines. The engine turns the window once it is
+    full (`DA3E1A`, the player presses A), so a group that would cross into the next window is pushed there by
+    blank lines; a speaker label stays with the group after it; a blank line that would open a window is dropped."""
+    out: list[list[str]] = []
+    row = 0
+    pending_label: list[str] = []
+    for block in blocks:
+        if block == [""] and not pending_label:
+            if row % page_lines == 0 and out:
+                continue
+            out.append(block)
+            row += 1
+            continue
+        if len(block) == 1 and SPEAKER_LABEL.fullmatch(block[0]) and not pending_label:
+            pending_label = block
+            continue
+        lines = pending_label + block
+        pending_label = []
+        used = row % page_lines
+        if used and used + len(lines) > page_lines and len(lines) <= page_lines:
+            out.append([""] * (page_lines - used))
+            row += page_lines - used
+        out.append(lines)
+        row += len(lines)
+    if pending_label:
+        out.append(pending_label)
+    return out
 
 
 def default_layout() -> DialogLayout:
