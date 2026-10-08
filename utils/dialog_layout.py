@@ -206,7 +206,8 @@ class DialogLayout:
 
     def _break_words(self, sentence: str) -> list[str]:
         """`sentence` broken at spaces into as few lines as the window allows, balanced: the narrowest width that
-        still needs no more lines, so the last line is not left with a word or two."""
+        still needs no more lines, so the last line is not left with a word or two, but no narrower than two thirds
+        of the window, so a sentence just over one line does not become two half-empty ones."""
         lines = self._greedy(sentence, self.line_width)
         narrow, wide = 1, self.line_width
         while narrow < wide:
@@ -215,7 +216,7 @@ class DialogLayout:
                 wide = middle
             else:
                 narrow = middle + 1
-        return self._greedy(sentence, wide)
+        return self._greedy(sentence, max(wide, self.line_width * 2 // 3))
 
     def _greedy(self, sentence: str, width: int) -> list[str]:
         """Words fill each line up to `width`; a word that would pass it starts the next."""
