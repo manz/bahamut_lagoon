@@ -7,7 +7,7 @@ dependencies = [
     "a816==1.1.0a52",
     "pillow",
     "numpy",
-    "katsuji==0.1.1",
+    "katsuji==0.2.0",
 ]
 
 [project.urls]
