@@ -175,7 +175,7 @@ class TextRender(Widget):
             arr = array("B", buffer.flatten())
             # now blit the array
             self._texture.blit_buffer(arr, colorfmt="luminance", bufferfmt="ubyte")
-        except (ValueError, IndexError):
+        except ValueError, IndexError:
             # text overflowing the preview buffer: keep the last rendering
             pass
 
