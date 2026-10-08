@@ -75,4 +75,154 @@ C'est très important...[end]</data>
         <data>[character][0xa]: [character][0x0],s'il te plaît,puis-je m'appuyer
 sur ton épaule... ?[end]</data>
     </text>
+    <text>
+        <refs>
+            <ref>0x1dc</ref>
+        </refs>
+        <data>[character][0x0],
+arriveras-tu à comprendre ce que j'ai
+à te dire ?
+Parfois,tu te rends compte que tu as
+oublié quelque chose au commencement.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1f7</ref>
+        </refs>
+        <data>Moi-même,j'ai laissé seule une personne
+que je ne pouvais oublier.
+ 
+C'est pour cette raison que je suis
+revenu dans cette Eglise.
+ 
+J'aurais tant aimé pouvoir arrêter le
+temps.
+ 
+Je voulais recupérer la personne que
+j'avais abandonnée.
+ 
+Et je voulais concrétiser le souhait
+que je n'avais pu réaliser...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x212</ref>
+        </refs>
+        <data>[character][0x0],
+tu as aussi des souvenirs.
+Chacun tente de les revivre.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x22e</ref>
+        </refs>
+        <data>Non,ne me dis pas que tu ne
+comprends rien.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x24a</ref>
+        </refs>
+        <data>C'est le champ de bataille !
+ 
+C'est le champ de bataille entre toi et
+moi.
+ 
+Cependant,aucun de nous ne connaît
+encore le vainqueur.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x266</ref>
+        </refs>
+        <data>Toi et moi avons aussi des ennemis
+communs.
+ 
+Sauzer...
+Matelight...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x282</ref>
+        </refs>
+        <data>Je vais maintenant marcher par
+moi-même vers l'autel.
+ 
+[character][0x1] et moi resterons un moment ici.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2e5</ref>
+        </refs>
+        <data>[character][0x1]:
+[character][0x0],je ne peux que te remercier.
+ 
+Toutefois,je ne peux revenir en
+arrière.
+La joie des jours d'antan...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x2fa</ref>
+        </refs>
+        <data>La guerre...
+Les Dragons Sacrés...
+La Princesse...
+J'ai été très heureuse avec toi !
+Tu dois sûrement comprendre où je
+veux en venir.
+Je te le demande [character][0x0]...
+Je me le demande...
+ 
+Est-ce que tu comprends cela ?[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x30d</ref>
+        </refs>
+        <data> Il me semble !
+ Je ne comprends pas ![end1]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x315</ref>
+        </refs>
+        <data>Je crois qu'avec le temps,tu finiras
+par comprendre ce que je suis en
+train de dire.[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x32d</ref>
+        </refs>
+        <data>Peut-être qu'être adulte n'est pas si
+bien qu'on l'a souvent pensé...
+ 
+Chaque personne peut blesser quelqu'un
+ou perdre quelque chose...
+ 
+Toutefois,nous ne remarquons souvent
+rien...
+ 
+Et plus le temps passe,plus on oublie...[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x342</ref>
+        </refs>
+        <data>Nous ne pouvons pas voir le futur mais
+la véritable chose que nous ne pouvons
+voir,c'est nous-même...
+Comment pourrions-nous nous voir ou
+même nous ressentir ?
+ 
+Les sentiments d'une personne,
+ses souvenirs...
+ 
+Oui,c'est à travers les autres que
+nous nous voyons !
+ 
+Et ainsi,nous souhaitons être une
+meilleure personne...[end]</data>
+    </text>
 </texts>
