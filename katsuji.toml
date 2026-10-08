@@ -13,3 +13,11 @@ kerning-candidates = [
     "ïe", "aî", "ît", "pa", "at", "ta", "te", "nt",
     "fa", "fe", "fo", "fu", "fi", "st", "va",
 ]
+
+# The 8x16 dialogue font: dialog, battle messages, item descriptions and the load screen draw it (assets/vwf.bin).
+[fonts.dialog]
+png = "fonts/fft.png"
+cell = [8, 16]
+table = "text/table/mz.tbl"
+output = "assets/vwf.bin"
+widths = { "0xEF" = 4, "0xA3" = 5, "0xD5" = 7, "0xD6" = 4, "0xD7" = 7, "0xD8" = 6 }
