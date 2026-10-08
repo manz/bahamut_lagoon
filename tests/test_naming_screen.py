@@ -59,3 +59,10 @@ def test_the_name_cursor_follows_the_name_s_width(console):
     name = bytes(console.emu.read_range(NAME, 8))
     width = sum(font.widths[code] + 1 for code in name[: name.index(0xFF)])
     assert console.emu.read16(CURSOR_X) == NAME_X + width
+
+
+def test_byuu_s_name_takes_eight_characters(console):
+    for _ in range(10):
+        console.tap(console.button.A)
+    name = bytes(console.emu.read_range(NAME, 9))
+    assert name.index(0xFF) == 8  # Byuu and Yoyo stopped at 6, the Japanese limit
