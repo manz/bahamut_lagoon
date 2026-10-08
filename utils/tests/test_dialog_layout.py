@@ -100,6 +100,13 @@ class DialogLayoutTestCase(TestCase):
         lines = self.layout.reflow(text, page_lines=3).split("\n")
         self.assertEqual(lines[3], "Yoyo:")
 
+    def test_a_line_of_spaces_is_a_blank_line(self):
+        self.assertEqual(self.layout.reflow("Un.\n  \nDeux.[end]"), "Un.\n\nDeux.[end]")
+
+    def test_a_line_of_spaces_does_not_open_a_window(self):
+        lines = self.layout.reflow("Un. Deux. Trois.\n \nQuatre.[end]", page_lines=1).split("\n")
+        self.assertNotIn("", lines)
+
     def test_a_blank_line_does_not_open_a_window(self):
         lines = self.layout.reflow("Un.\nDeux ?\n\nTrois.[end]", page_lines=1).split("\n")
         self.assertNotIn("", lines)

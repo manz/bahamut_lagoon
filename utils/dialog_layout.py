@@ -90,7 +90,7 @@ class DialogLayout:
     def reflow(self, text: str, page_lines: int | None = None) -> str:
         """`text` laid out to the window: each paragraph's lines joined and wrapped again by sentences.
 
-        Kept as written: blank lines (they separate paragraphs), lines starting with a space (cards, choices), a
+        Kept as written: blank lines, spaces only or not (they separate paragraphs), lines starting with a space (cards, choices), a
         speaker label or a -heading- alone on its line, and texts ending in [end1] (a choice follows them). Lines
         starting with two spaces or more are centred. Given the window's `page_lines`, a block of lines that would
         run past the window's last line starts the next window instead (`paginate`)."""
@@ -105,7 +105,10 @@ class DialogLayout:
                 paragraph.clear()
 
         for line in text.split("\n"):
-            if not line or line.startswith(" ") or SPEAKER_LABEL.fullmatch(line) or HEADING.fullmatch(line):
+            if not line.strip():
+                close_paragraph()
+                blocks.append([""])  # a spacer, spaces or not, draws nothing
+            elif line.startswith(" ") or SPEAKER_LABEL.fullmatch(line) or HEADING.fullmatch(line):
                 close_paragraph()
                 blocks.append([self.centre(line)])
             else:
