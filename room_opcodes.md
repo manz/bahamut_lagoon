@@ -14,18 +14,32 @@ Read from the field VM handlers in bank DA (`opcode_runner` DA3F00, `opcode_tabl
 
 ## Room header (`room_entry_point` DA14F1 and `room_02`…`room_0C`)
 
-| Offset | Run by | Contents |
+The entry word doubles as the header length: slots at or past it are absent.
+
+| Offset | Run when | Contents |
 |---|---|---|
-| 00 | `room_entry_point` | entry script |
-| 02 | `room_02` | actor table: words to 7-byte actor entries, `FFFF` ends, at most 0x17 |
-| 04 | `room_04` | 5-byte entries, script at +3; picked by `$0325` |
-| 06 | `room_06` | word table of scripts, indexed by the actor talked to (`$0322`) |
-| 08 | `room_08` | script |
-| 0A | `room_0A` | 7-byte entries, script at +5; picked by `$0328` |
-| 0C | `room_0C` | script |
+| 00 | the room loads (`room_entry_point`) | entry script |
+| 02 | | actor table: words to 7-byte actor entries, `FFFF` ends, at most 0x17 |
+| 04 | A is pressed facing a tile (`room_04`, `$3D` bit 3) | 5-byte entries: tile x, y, mode, script. Mode bit 1 set = not examinable |
+| 06 | A is pressed facing an actor (`room_player_events`, `$0324`), or an actor whose behaviour has bit 2 walks into the player (`room_06`, `$0322`) | word table of scripts, one per actor |
+| 08 | the timer runs out (`room_08`, `$3D` bit 1): op 40 sets the frame count, op 41 starts it | script |
+| 0A | A is pressed facing the edge of a box, while op 60 has enabled it (`room_0A`, `$40` bit 4) | 7-byte entries: x1, y1, x2, y2, mode, script |
+| 0C | START is pressed, once op 7C has enabled it (`room_0C`, `$41` bit 4) | script |
+
+The A-button checks need player control (`$3C` bit 4, set by 11, cleared while 42 holds control). The faced tile
+is the one 16 px ahead along the actor's facing (`DA5049`). The per-frame dispatcher (DA0420-DA054A) also serves
+43 (room change), 45 (sub-screen by `$0327`, table DA054B), 46 (leave the field engine) and 5A (`jml D58000`).
 
 Actor entry (`DA15BA`): sprite (F8+ = party slot from 7E2118), palette (FF = the sprite's default from DA7B50),
-x and y in tiles, facing (bits 0-1, stored ×8) and flags (bits 6-7), speed (→ 7EB808), behaviour (→ 7EB800).
+x and y in tiles, facing (bits 0-1, stored ×8) and flags (bits 6-7), speed (→ 7EB808), behaviour (→ 7EB800:
+bit 0 cannot be talked to, bit 2 starts its slot-06 script on contact).
+
+## Coverage
+
+With every jump followed, the walker reaches 98.5% of the 83 compressed rooms' bytes. What stays unreached:
+room 248's credit text (op 85), code left after an `exit` or an unconditional jump with nothing pointing at it
+(rooms 66 at 0xa8a, 214 at 0x65e, and the repeated `24 …` tile runs in rooms 6, 7, 15, 18, 20, 76), and their
+texts. None of it is referenced, so the French build overwriting it changes nothing.
 
 ## State the opcodes touch
 
