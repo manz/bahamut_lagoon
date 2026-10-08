@@ -201,7 +201,14 @@ def main() -> int:
 
     katsuji_build.build(katsuji_config.load(KATSUJI_CONFIG))
 
-    room_sources = [TABLE, *Path("text/fr/dialog").glob("*.xml"), *Path("text/fr/battle").glob("*.xml")]
+    # The dialogue font, the names and the layout code decide where dialog lines wrap (utils/dialog_layout.py)
+    layout_sources = [KATSUJI_CONFIG, Path("fonts/fft.png"), Path("text/fr/names.xml"), *Path("utils").glob("*.py")]
+    room_sources = [
+        TABLE,
+        *layout_sources,
+        *Path("text/fr/dialog").glob("*.xml"),
+        *Path("text/fr/battle").glob("*.xml"),
+    ]
     if assets_need_refresh(room_sources, ROOMS_PARTIAL):
         build_rooms_partial(Table(str(TABLE)))
 

@@ -9,6 +9,7 @@ import xml.etree.ElementTree as ET
 from script import Table
 
 from utils.cartridge import rom_address, rom_offset
+from utils.dialog_layout import default_layout
 from utils.disasm import live_disasm
 from utils.lz import lz_compress, lz_decompress
 from utils.vm.opcodes_map import opcode_names, opcode_table
@@ -210,6 +211,7 @@ def build_text_patch(rom, table, writer, reloc_address):
     address = reloc_address
     files = sorted(files, key=lambda name: int(name[:4], 10))
     room_compressed = {}
+    layout = default_layout()
 
     for file in files:
         logger.debug(file)
@@ -221,6 +223,9 @@ def build_text_patch(rom, table, writer, reloc_address):
                 room = get_dialog_room(rom, room_id, table, "jp", disasm=True)
 
                 tree = ET.parse(os.path.join(dialog_dir, file))
+                for data in tree.getroot().iter("data"):
+                    if data.text:
+                        data.text = layout.reflow(data.text)
 
                 room.apply_patches(room_patches.get(room_id))
 
