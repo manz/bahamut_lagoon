@@ -112,7 +112,7 @@ shift_copy:
     {
 shift_copy_loop:
     pha
-    lda.l assets_vwf_bin, x
+    lda.l vwf_font, x
     sta.l 0x004203
     nop
     nop
@@ -151,7 +151,7 @@ raw_copy:
     {
 raw_copy_loop:
     pha
-    lda.l assets_vwf_bin, x
+    lda.l vwf_font, x
 
     ora.w write_base_address_low, y
     sta.w write_base_address_low, y
@@ -168,7 +168,7 @@ raw_copy_loop:
     plx
 
 add_letter_length:
-    lda.l assets_vwf_bin + 16, x
+    lda.l vwf_font + 16, x
     rep #0x20
     and.w #0x00ff
 

@@ -83,7 +83,7 @@ _next:
     adc 0x01, s  ; 17 bytes a glyph
     tax
     pla
-    lda.l assets_vwf_bin + GLYPH_HEIGHT, x
+    lda.l vwf_font + GLYPH_HEIGHT, x
     and.w #0x00FF
     sec  ; and the pixel after it
     adc 0x03, s
