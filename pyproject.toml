@@ -4,17 +4,17 @@ version = "0.0.0.dev0"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
-    "a816==1.1.0rc2",
+    "a816==1.1.0rc3",
     "pillow",
     "numpy",
-    "katsuji==0.2.1",
+    "katsuji==0.2.2",
 ]
 
 [project.urls]
 Homepage = "https://github.com/manz/bahamut_lagoon"
 
 [dependency-groups]
-dev = ["kintsuki[visual]==0.0.0a18", "pytest", "ruff==0.16.10"]
+dev = ["kintsuki[visual]==0.0.0a18", "pytest", "ruff==0.17.0"]
 
 [tool.uv]
 package = false
