@@ -76,26 +76,38 @@ class InlineStringTestCase(TestCase):
         self.assertEqual(0xC1DB1D, address)
 
 
+def record(text: str, width: int | None = None, align: str | None = None, ids: dict | None = None) -> bytes:
+    return inline_record(TABLE, text, {} if ids is None else ids, width, align)
+
+
 class InlineRecordTestCase(TestCase):
     def test_a_label_is_its_width_then_one_segment(self):
-        self.assertEqual(inline_record(TABLE, "NV"), bytes([2, 0, *TABLE.to_bytes("NV"), 0xFF, 0xFF]))
+        self.assertEqual(record("NV"), bytes([2, 0, *TABLE.to_bytes("NV"), 0xFF, 0, 0, 0xFF]))
 
     def test_padding_is_not_stored(self):
-        self.assertEqual(inline_record(TABLE, "Atk.", 8), bytes([8, 0, *TABLE.to_bytes("Atk."), 0xFF, 0xFF]))
+        self.assertEqual(record("Atk.", 8), bytes([8, 0, *TABLE.to_bytes("Atk."), 0xFF, 0, 0, 0xFF]))
 
     def test_one_space_stays_in_its_segment(self):
-        self.assertEqual(inline_record(TABLE, "Coût MP")[1:3], bytes([0, *TABLE.to_bytes("C")]))
+        self.assertEqual(record("Coût MP")[1:3], bytes([0, *TABLE.to_bytes("C")]))
 
     def test_runs_of_spaces_place_segments(self):
-        record = inline_record(TABLE, "TEMPS   :  :", 14)
         colon = 0x30  # small_font's
-        self.assertEqual(record[-7:], bytes([INLINE_CELL | 8, colon, 0xFF, INLINE_CELL | 11, colon, 0xFF, 0xFF]))
+        self.assertEqual(
+            record("TEMPS   :  :", 14)[-11:],
+            bytes([INLINE_CELL | 8, colon, 0xFF, 1, 0, INLINE_CELL | 11, colon, 0xFF, 1, 0, 0xFF]),
+        )
 
     def test_leading_spaces_start_the_segment_later(self):
-        self.assertEqual(inline_record(TABLE, "  ..")[1], 2)
+        self.assertEqual(record("  ..")[1], 2)
 
     def test_one_character_is_a_font_cell(self):
-        self.assertEqual(inline_record(TABLE, "/")[1], INLINE_CELL)
+        self.assertEqual(record("/")[1], INLINE_CELL)
 
     def test_right_aligned_segment(self):
-        self.assertEqual(inline_record(TABLE, "Tour", 9, "right")[:2], bytes([9, INLINE_RIGHT]))
+        self.assertEqual(record("Tour", 9, "right")[:2], bytes([9, INLINE_RIGHT]))
+
+    def test_identical_segments_share_an_id(self):
+        ids: dict[bytes, int] = {}
+        record("NV", ids=ids)
+        self.assertEqual(record("Atk.  NV", 8, ids=ids)[-3:-1], bytes([0, 0]))
+        self.assertEqual(list(ids), [TABLE.to_bytes("NV"), TABLE.to_bytes("Atk.")])

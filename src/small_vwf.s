@@ -6,8 +6,8 @@ codes) into SMALL_VWF_MAX_CELLS 2bpp tiles, styled as the game's 8x8 font: the l
 pixel right and one down in colour 3. Each caller binds the tiles to its own VRAM and tilemap.
 
 Handed the record of an 8-byte name table, it draws the full name from long_name_tables (build/gen/long_names.s)
-instead of the record's eight codes: build.py renders those names at build time (utils/small_vwf_bake.py), so their
-tiles are copied, not composed.
+instead of the record's eight codes. build.py renders those names, and the inline strings' segments, at build time
+(utils/small_vwf_bake.py): their tiles are copied, not composed.
 """
 
 .include "src/expansion.i"
@@ -22,9 +22,10 @@ LONG_NAME_TABLE = 10
 ; a baked entry, 4 bytes: its tiles' offset in small_vwf_baked_tiles (word), its cells (byte), 0
 SHADOW_GAP = 1  ; the shadow takes the gap katsuji leaves after a glyph: one more pixel keeps letters apart
 
-; source: the string, FF or FE ends it. baked: the baked entry of a long_name_tables name, else 0. max_cells: out of
-; SMALL_VWF_MAX_CELLS. cells: the cells the ink and its shadow reach; the tiles past them are clear. chars: the
-; characters drawn. pen: the pixel column of the next glyph. count, glyph, shift and rows are scratch.
+; source: the string, FF or FE ends it. baked: the string's baked entry, for one render: a caller's, or a
+; long_name_tables record's; 0 composes it. max_cells: out of SMALL_VWF_MAX_CELLS. cells: the cells the ink and its
+; shadow reach; the tiles past them are clear. chars: the characters drawn. pen: the pixel column of the next glyph.
+; count, glyph, shift and rows are scratch.
 ; text: the string, FF-terminated. ink: 1bpp, cell after cell, with a spill cell. tiles: the 2bpp output.
 .struct SmallVwf {
     long source
@@ -97,6 +98,7 @@ _shade:
     jsr.w _shade_tiles
 _rendered:
     rep #0x30
+    stz.w small_vwf.baked  ; the next string's own
     ply
     plx
     pla
@@ -145,9 +147,7 @@ entry.
     phk
     plb
     rep #0x30
-    lda.w #0x0000
-    sta.l small_vwf.baked
-    tax
+    ldx.w #0x0000
 _table:
     sep #0x20
     lda.w long_name_tables + 2, x

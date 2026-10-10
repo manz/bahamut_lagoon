@@ -31,6 +31,7 @@ in order, so a screen's names mostly make one). The staging buffer starts over o
 .include "src/sram_work.i"
 .include "src/tile_pool.i"
 .extern small_vwf_render
+.extern small_vwf_inline_baked
 .extern small_vwf
 .extern tile_blit
 .extern tile_pool
@@ -79,8 +80,9 @@ _RECORD = 8  ; the name records draw_fixed_name draws, an item's past its icon
 ; bg3_shown its mark in a pass over the shadow. key: the record being drawn. staged: staging bytes waiting for the
 ; drain. entry, entry_source: the last queue entry and the staging address it carries, to tell a drain. field: the
 ; cells the engine's draw covers. span: the cells a right-aligned string ends in (0: left-aligned), taken from
-; request_span, which a caller sets for one draw. inline, inline_base, inline_segment: the inline string being drawn,
-; the cell it starts at and its next segment. The rest is scratch.
+; request_span, which a caller sets for one draw. baked: the string's baked entry for small_vwf (0: none), likewise
+; from request_baked. inline, inline_base, inline_segment: the inline string being drawn, the cell it starts at and
+; its next segment; segment_baked: the baked entry of the segment last skipped. The rest is scratch.
 .struct MenuVwf {
     byte[_STAGING_TILES * _TILE_4BPP] staging
     word[_BG2_SLOTS] bg2_owner
@@ -109,6 +111,9 @@ _RECORD = 8  ; the name records draw_fixed_name draws, an item's past its icon
     word count
     word tries
     word tile
+    word baked
+    word request_baked
+    word segment_baked
 }
 
 .reserve menu as MenuVwf in sram_menu
@@ -145,8 +150,11 @@ menu_draw_fixed_name:
     phy
     lda.l menu.request_span
     sta.l menu.span
+    lda.l menu.request_baked
+    sta.l menu.baked
     lda.w #0x0000
     sta.l menu.request_span
+    sta.l menu.request_baked
     lda 0x05, s  ; the bank, pushed first
     sep #0x20
     sta.l small_vwf.source + 2
@@ -181,6 +189,10 @@ _chars:
     lda #_MAX_CELLS
 _cells:
     sta.l small_vwf.max_cells
+    rep #0x20
+    lda.l menu.baked
+    sta.l small_vwf.baked
+    sep #0x20
     jsl.l small_vwf_render
     lda.l small_vwf.chars
     beq _vanilla  ; nothing to draw
@@ -301,6 +313,8 @@ _inline_left:
     sta.l _TEXT_CURSOR
     ply
     jsr.w _skip_segment
+    lda.l menu.segment_baked
+    sta.l menu.request_baked
     lda.w #_INLINE_BANK
     ldx.w #_MAX_CHARS + 1
     jsl.l menu_draw_fixed_name
@@ -334,7 +348,10 @@ _inline_done:
     rtl
 
 _skip_segment:
-"""menu.inline_segment: past segment Y's codes and their FF. Keeps Y."""
+"""
+menu.inline_segment: past segment Y's codes, their FF and its baked id; menu.segment_baked: the id's entry in
+small_vwf_inline_baked. Keeps Y.
+"""
     tyx
 _skip_code:
     lda.l _INLINE_BANK << 16, x
@@ -342,6 +359,14 @@ _skip_code:
     and.w #0x00FF
     cmp.w #0x00FF
     bne _skip_code
+    lda.l _INLINE_BANK << 16, x
+    asl
+    asl
+    clc
+    adc.w #small_vwf_inline_baked & 0xFFFF
+    sta.l menu.segment_baked
+    inx
+    inx
     txa
     sta.l menu.inline_segment
     rts

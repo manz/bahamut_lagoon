@@ -306,6 +306,7 @@ INLINE_RIGHT = 0x80  # a segment header's flag: the segment ends at the field's 
 INLINE_CELL = 0x40  # a segment header's flag: one character, drawn as its font tile, centred in its cell
 INLINE_SEGMENT = re.compile(r"\S+(?: \S+)*")  # words one space apart; longer runs of spaces lay segments out
 SMALL_FONT_COLON = "[0x30]"  # small_font draws ":" at battle.tbl's code; mz.tbl's 0x88 is blank there
+INLINE_CHARS = 16  # the codes menu_vwf draws of a segment (its _MAX_CHARS)
 
 
 def encode_inline(table: Table, text: str) -> bytes:
@@ -313,13 +314,19 @@ def encode_inline(table: Table, text: str) -> bytes:
 
 
 def inline_record(
-    table: Table, text: str, width: int | None = None, align: str | None = None, cells: list[int] | None = None
+    table: Table,
+    text: str,
+    ids: dict[bytes, int],
+    width: int | None = None,
+    align: str | None = None,
+    cells: list[int] | None = None,
 ) -> bytes:
     """
     An inline string as draw_inline_string_patched reads it: the field's width in cells, then its segments, each a
-    header (the start cell, or INLINE_RIGHT; INLINE_CELL for one character), its codes and FF, then FF. Spaces are
-    not stored: runs of them place the segments, and the field's width covers the cells after the text. `cells`, one
-    per segment, places them instead: a word drawn narrower than its letters count needs it.
+    header (the start cell, or INLINE_RIGHT; INLINE_CELL for one character), its codes and FF and its baked id (word),
+    then FF. Spaces are not stored: runs of them place the segments, and the field's width covers the cells after the
+    text. `cells`, one per segment, places them instead: a word drawn narrower than its letters count needs it. `ids`
+    numbers the segments' codes, one id for identical codes across records: the order build.py bakes them in.
     """
     if align == "right":
         segments = [(INLINE_RIGHT, text.strip())]
@@ -334,27 +341,29 @@ def inline_record(
         codes = encode_inline(table, text_codes)
         if len(codes) == 1 and header != INLINE_RIGHT:
             header |= INLINE_CELL
-        record += bytes([header]) + codes + bytes([INLINE_END])
+        baked_id = ids.setdefault(codes[:INLINE_CHARS], len(ids))
+        record += bytes([header]) + codes + bytes([INLINE_END]) + baked_id.to_bytes(2, "little")
     return record + bytes([INLINE_END])
 
 
-def insert_inline_strings(writer: Writer, address: int) -> tuple[int, list[InlineStringHook]]:
+def insert_inline_strings(writer: Writer, address: int) -> tuple[int, list[InlineStringHook], list[bytes]]:
     """
     Write the inline strings at ROM offset address, identical records once (menu_vwf shares a record's tiles);
-    return their end bus address and the call hooks to emit.
+    return their end bus address, the call hooks to emit and the segments' codes by baked id.
     """
     table = Table("./text/table/mz.tbl")
     root = ET.parse("./text/inline.xml").getroot()
 
     text_data = b""
     offsets: dict[bytes, int] = {}
+    ids: dict[bytes, int] = {}
     hooks = []
     for string in root:
         xref = int(string.get("ref"), 16)
         jump_to = int(string.get("jump_to"), 16)
         width = string.get("width")
         cells = [int(cell) for cell in string.get("cells", "").split()] or None
-        record = inline_record(table, string.text or "", int(width) if width else None, string.get("align"), cells)
+        record = inline_record(table, string.text or "", ids, int(width) if width else None, string.get("align"), cells)
         if record not in offsets:
             offsets[record] = len(text_data)
             text_data += record
@@ -362,7 +371,7 @@ def insert_inline_strings(writer: Writer, address: int) -> tuple[int, list[Inlin
         hooks.append(InlineStringHook(xref, pointer, max(jump_to - xref - HOOK_SIZE, 0)))
 
     writer.write_block(text_data, address)
-    return rom_address(address + len(text_data)), hooks
+    return rom_address(address + len(text_data)), hooks, list(ids)
 
 
 def inline_string_hooks_source(hooks: list[InlineStringHook]) -> str:

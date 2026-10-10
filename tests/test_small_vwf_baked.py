@@ -1,39 +1,31 @@
 """
-Baked names against the game's own renderer: every long_name_tables name, composed by small_vwf_render from a copy
-of its codes in WRAM and copied from its baked entry when handed its record, gives the tiles build.py baked
-(utils/small_vwf_bake.py), byte for byte.
+Baked strings against the game's own renderer: every long_name_tables name and inline string segment, composed by
+small_vwf_render from a copy of its codes in WRAM and copied from its baked entry (a name's record, a segment's id),
+gives the tiles build.py baked (utils/small_vwf_bake.py), byte for byte.
 """
-
-import re
-from pathlib import Path
 
 import pytest
 from script import Table
 
-from tests.conftest import symbol
+from tests.conftest import small_vwf_fields, symbol
+from utils.cartridge import rom_offset
+from utils.inline_strings import insert_inline_strings
 from utils.name_tables import ITEM_TABLE, NAME_TABLES, encode, read_names
 from utils.small_vwf_bake import FONT, MAX_CELLS, MAX_CHARS, TILE, render
 
 SCRATCH = 0x7FF000  # WRAM the codes are copied to: off the baked path
 STUB = 0x7FF100  # WRAM the calling stub goes to
-FIELD_SIZES = {"byte": 1, "word": 2, "long": 3}
-FIELD = re.compile(r"^\s+(byte|word|long)(?:\[(.+)\])? (\w+)$")
-CONSTANT = re.compile(r"^(\w+) = (\d+)", re.MULTILINE)
+BAKED_ENTRY = 4
 
 
-def small_vwf_fields() -> dict[str, int]:
-    """SmallVwf's field offsets, read from its .struct."""
-    source = Path("src/small_vwf.s").read_text()
-    constants = {name: value for name, value in CONSTANT.findall(source)}
-    body = source.split(".struct SmallVwf {")[1].split("}")[0]
-    offsets, offset = {}, 0
-    for line in body.splitlines():
-        match = FIELD.match(line)
-        if match:
-            offsets[match[3]] = offset
-            count = eval(match[2], {}, {k: int(v) for k, v in constants.items()}) if match[2] else 1
-            offset += FIELD_SIZES[match[1]] * count
-    return offsets
+class Discard:
+    def write_block(self, data: bytes, address: int) -> None:
+        pass
+
+
+def segments() -> list[bytes]:
+    """The inline string segments' codes, by baked id."""
+    return insert_inline_strings(Discard(), rom_offset(0xFD0000))[2]
 
 
 def names() -> list[tuple[str, int, bytes]]:
@@ -57,11 +49,12 @@ def call(emu, routine: int) -> None:
 def renderer(console):
     console.load("menu-organisation")
     small_vwf = symbol("small_vwf")
-    fields = small_vwf_fields()
+    fields = small_vwf_fields()[0]
     emu = console.emu
 
-    def render_at(source: int, max_cells: int = MAX_CELLS) -> tuple[bytes, int]:
+    def render_at(source: int, max_cells: int = MAX_CELLS, baked: int = 0) -> tuple[bytes, int]:
         emu.write_range(small_vwf + fields["source"], source.to_bytes(3, "little"))
+        emu.write_range(small_vwf + fields["baked"], baked.to_bytes(2, "little"))
         emu.write(small_vwf + fields["max_chars"], MAX_CHARS)  # a record's redirect sets it too
         emu.write(small_vwf + fields["max_cells"], max_cells)
         call(emu, symbol("small_vwf_render"))
@@ -84,3 +77,14 @@ def test_baked_names_match_the_bake(renderer):
     for label, record, codes in names():
         for max_cells in (MAX_CELLS, 3):
             assert renderer(record, max_cells) == render(font, codes, max_cells), (label, max_cells)
+
+
+def test_inline_segments_match_the_bake(console, renderer):
+    font = FONT.read_bytes()
+    entries = symbol("small_vwf_inline_baked") & 0xFFFF
+    for baked_id, codes in enumerate(segments()):
+        console.emu.write_range(SCRATCH, codes + b"\xff")
+        for max_cells in (MAX_CELLS, 2):
+            expected = render(font, codes, max_cells)
+            assert renderer(SCRATCH, max_cells) == expected, (codes, max_cells)
+            assert renderer(SCRATCH, max_cells, entries + baked_id * BAKED_ENTRY) == expected, (codes, max_cells)
