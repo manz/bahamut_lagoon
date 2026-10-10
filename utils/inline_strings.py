@@ -522,13 +522,16 @@ def dump_battle_commands_strings(rom_file):
         battle_jp.write(prettify(battle))
 
 
-def insert_battle_commands_strings(writer, address):
+def insert_battle_commands_strings(writer, address) -> tuple[int, list[tuple[int, bytes]]]:
+    """Write the battle commands' strings at ROM offset `address`; return their end bus address and each string's bus
+    address and codes (no FF), for the bake."""
     jp_fixed_table = Table("./text/table/battle.tbl")
     tree = ET.parse("./text/battle.xml")
     root = tree.getroot()
 
     text_data = b""
     pointer_table = {}
+    strings = []
 
     for string in root:
         refs = string.find("refs")
@@ -539,8 +542,9 @@ def insert_battle_commands_strings(writer, address):
         for ref in refs:
             pointer_id = int(ref.text, 16)
             pointer_table[pointer_id] = text_addr & 0xFFFF
-        # print(jp_fixed_table.to_bytes(data.text))
-        text_data += jp_fixed_table.to_bytes(data.text.translate(SMALL_FONT_FOLD))
+        codes = jp_fixed_table.to_bytes(data.text.translate(SMALL_FONT_FOLD))
+        strings.append((text_addr, codes.split(bytes([INLINE_END]))[0]))
+        text_data += codes
 
     pointer_table_bytes = b""
     for key in sorted(pointer_table):
@@ -551,7 +555,7 @@ def insert_battle_commands_strings(writer, address):
     writer.write_block(pointer_table_bytes, rom_offset(int(root.get("pointers"), 16)))
     writer.write_block(text_data, address)
 
-    return rom_address(len(text_data) + address)
+    return rom_address(len(text_data) + address), strings
 
 
 def dump_fixed(rom_file, address, count, destination):

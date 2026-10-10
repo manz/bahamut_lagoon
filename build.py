@@ -131,14 +131,14 @@ def insert_compressed_asset(writer, asset, insert_addr, low_addr, bank_addr, com
     return rom_address(rom_offset(insert_addr) + 1 + len(compressed))
 
 
-def insert_text(writer: IPSWriter) -> tuple[list[InlineStringHook], list[bytes]]:
-    """Write the relocated strings and graphics; return the inline string call hooks the code must carry and the
-    inline segments' codes by baked id."""
+def insert_text(writer: IPSWriter) -> tuple[list[InlineStringHook], list[bytes], list[tuple[int, bytes]]]:
+    """Write the relocated strings and graphics; return the inline string call hooks the code must carry, the inline
+    segments' codes by baked id and the static strings the battle panel draws (bus address, codes)."""
     insert_dragon_feed_inline_strings(writer, rom_offset(0xFC0000))
-    end_of_battle_commands = insert_battle_commands_strings(writer, rom_offset(0xFD0000))
+    end_of_battle_commands, commands = insert_battle_commands_strings(writer, rom_offset(0xFD0000))
     end_of_inline_strings, hooks, segments = insert_inline_strings(writer, rom_offset(end_of_battle_commands + 1))
     end_of_message_strings = insert_messages_strings(writer, rom_offset(end_of_inline_strings + 1))
-    end_of_battle_messages = insert_battle_messages(writer, rom_offset(end_of_message_strings + 1))
+    end_of_battle_messages, panel_messages = insert_battle_messages(writer, rom_offset(end_of_message_strings + 1))
 
     next_insert = insert_compressed_asset(
         writer,
@@ -161,7 +161,7 @@ def insert_text(writer: IPSWriter) -> tuple[list[InlineStringHook], list[bytes]]
 
     insert_short_names(writer, Table(str(TABLE)))
     insert_item_names(writer, Table(str(TABLE)))
-    return hooks, segments
+    return hooks, segments, commands + panel_messages
 
 
 def write_if_changed(path: Path, data: str | bytes) -> None:
@@ -175,9 +175,9 @@ def write_if_changed(path: Path, data: str | bytes) -> None:
 def build_ips(variant: Variant) -> None:
     # The text goes first: its layout decides the inline string pointers the code's call hooks carry.
     text = io.BytesIO()
-    hooks, segments = insert_text(IPSWriter(text))
+    hooks, segments, statics = insert_text(IPSWriter(text))
     write_if_changed(INLINE_STRING_HOOKS, inline_string_hooks_source(hooks))
-    long_names, baked_tiles = long_names_source(Table(str(TABLE)), SMALL_FONT.read_bytes(), segments)
+    long_names, baked_tiles = long_names_source(Table(str(TABLE)), SMALL_FONT.read_bytes(), segments, statics)
     write_if_changed(LONG_NAMES, long_names)
     write_if_changed(BAKED_TILES, baked_tiles)
     write_if_changed(NAMING_GRIDS, naming_grids_source(ROM.read_bytes(), Table(str(TABLE))))
