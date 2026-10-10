@@ -75,8 +75,10 @@ _NO_RECORD = 0xFF
     jml.l c1_name_copy
 }
 
-; C12DDA, past the cell C12E49 computed: tdc / tay / lda [$5E], y.
-.alloc at 0xC12DDF {
+; C12DDA: sep #0x20 / jsr C12E49 / tdc / tay, then the loop at C12DE1 (lda [$5E], y), which the fallback and the
+; loop's own bra come back to. C12E49 sets M itself, so the sep goes: the hook fits before the loop.
+.alloc at 0xC12DDA {
+    jsr.w 0x2E49
     jml.l c1_draw_string
 }
 
