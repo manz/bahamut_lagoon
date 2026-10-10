@@ -329,9 +329,13 @@ _scanned:
     rts
 
 _keep_cells:
-"""Copy the rendered tiles into the line strip at the field's cell (X - LINE)."""
+"""
+Copy the rendered cells into the line strip at the field's cell (X - LINE): only those small_vwf drew, the ones
+_fill_cells marks drawn. Keeps X and DB.
+"""
     rep #0x30
     phx
+    phb
     txa
     sec
     sbc.w #LINE
@@ -339,20 +343,23 @@ _keep_cells:
     asl
     asl
     asl
-    tay  ; Y: strip byte
-    ldx.w #0x0000
+    clc
+    adc.w #panel.line_strip & 0xFFFF
+    tay  ; Y: the strip at the field
+    lda.l small_vwf.cells
+    and.w #0x00FF
+    beq _kept
+    asl
+    asl
+    asl
+    asl
+    dec  ; the bytes to move, less one
+    ldx.w #small_vwf.tiles & 0xFFFF
+    mvn SRAM_WORK_START >> 16, SRAM_WORK_START >> 16  ; small_vwf and panel, both in sram_work
+_kept:
+    plb
+    plx
     sep #0x20
-_keep:
-    lda.l small_vwf.tiles, x
-    phx
-    tyx
-    sta.l panel.line_strip, x
-    plx
-    inx
-    iny
-    cpx.w #COPY_CELLS * TILE_BYTES
-    bcc _keep
-    plx
     rts
 
 _fill_cells:
