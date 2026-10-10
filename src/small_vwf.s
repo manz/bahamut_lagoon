@@ -14,6 +14,7 @@ panel's static strings at build time (utils/small_vwf_bake.py): their tiles are 
 .include "src/sram_work.i"
 .extern long_name_tables
 .extern small_vwf_static_baked
+.extern small_vwf_baked_tiles
 
 
 SMALL_VWF_MAX_CELLS = 12
@@ -48,17 +49,6 @@ SHADOW_GAP = 1  ; the shadow takes the gap katsuji leaves after a glyph: one mor
 }
 
 .reserve small_vwf as SmallVwf in sram_work
-
-
-; build.py's baked tiles (utils/small_vwf_bake.py), offsets in long_name_tables' entries point into them.
-.pool small_vwf_baked {
-    range 0xFB0000 0xFBFFFF
-    strategy order
-}
-
-.alloc small_vwf_baked_tiles in small_vwf_baked {
-    .incbin "build/gen/small_vwf_baked.bin"
-}
 
 
 .alloc small_vwf_code in expansion {
