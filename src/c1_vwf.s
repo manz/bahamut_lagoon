@@ -39,6 +39,7 @@ _MIN_CHARS = 3
 _MAX_CELLS = 12
 _ITEM_RECORDS = 0xEF3CA0
 _NO_RECORD = 0xFF
+_RENAMEABLE = 0x0A  ; characters below this are the party's (7E2B00), named by the player: no record
 
 ; slot_owner: the shadow cell a slot draws, plus 1; 0 when free (cells are even). type: the name type C12EC0 copied,
 ; _NO_RECORD when none; id its id. field: the cells the engine's draw covers. index: 1 when an icon came first.
@@ -161,17 +162,26 @@ _vanilla:
     jml.l 0xC12DE1
 
 _string_source:
-"""small_vwf.source: [$5E], or the record of the name C12EC0 just copied there (enemies, spells, items)."""
+"""
+small_vwf.source: [$5E], or the record of the name C12EC0 just copied there (characters past the party's, enemies,
+spells, items, dragons): small_vwf draws a record's full name.
+"""
     lda.b 0x5E
     sta.l small_vwf.source
     lda.b 0x60
     and.w #0x00FF
     sta.l small_vwf.source + 2
     lda.l c1.type
-    cmp.w #1
+    bne _not_character
+    lda.l c1.id
+    and.w #0x00FF
+    cmp.w #_RENAMEABLE
     bcc _own_source
+    bra _has_record
+_not_character:
     cmp.w #4 + 1
     bcs _own_source
+_has_record:
     lda.b 0x5E
     cmp.w #_BUFFER & 0xFFFF
     bne _own_source
@@ -478,8 +488,8 @@ _clean:
     rtl
 
 _record_tables:
-; By type * 2: record 0 of the names C12EC0 copies (bank EF); characters have none here.
-    .dw 0x0000
+; By type * 2: record 0 of the names C12EC0 copies (bank EF).
+    .dw 0x0380  ; characters
     .dw 0x1F50  ; enemies
     .dw 0x5920  ; spells
     .dw 0x3CA0  ; items, 9 bytes a record

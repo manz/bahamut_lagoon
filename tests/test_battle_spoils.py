@@ -19,14 +19,15 @@ def test_combat_spoils_return_to_the_map(console):
         DRAW_STRING,
         lambda pc, value: spoils.append(emu.frame_count) if emu.read(0x60) == SPOILS_BANK else None,
     )
-    golden = False
-    for _ in range(60):  # a minute: the fight, its spoils, the rest of the enemies' turn
+    for _ in range(30):  # the fight, up to its spoils
+        if spoils:
+            break
+        console.tap(console.button.A)
+    console.emu.run_frames(30)
+    assert console.matches_golden("battle-spoils")
+    for _ in range(60):  # the rest of the enemies' turn
         if emu.read(AI_TURN) == 0:
             break
         console.tap(console.button.A)
         console.emu.run_frames(28)
-        if spoils and not golden:
-            golden = console.matches_golden("battle-spoils")
-    assert spoils
-    assert golden
     assert emu.read(AI_TURN) == 0
