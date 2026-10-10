@@ -58,8 +58,8 @@ def renderer(console):
         emu.write(small_vwf + fields["max_chars"], MAX_CHARS)  # a record's redirect sets it too
         emu.write(small_vwf + fields["max_cells"], max_cells)
         call(emu, symbol("small_vwf_render"))
-        tiles = bytes(emu.read_range(small_vwf + fields["tiles"], MAX_CELLS * TILE))
-        return tiles, emu.read(small_vwf + fields["cells"])
+        cells = emu.read(small_vwf + fields["cells"])
+        return bytes(emu.read_range(small_vwf + fields["tiles"], cells * TILE)), cells
 
     return render_at
 
@@ -69,14 +69,14 @@ def test_composed_names_match_the_bake(console, renderer):
     for label, _, codes in names():
         console.emu.write_range(SCRATCH, codes + b"\xff")
         for max_cells in (MAX_CELLS, 3):
-            assert renderer(SCRATCH, max_cells) == render(font, codes, max_cells), (label, max_cells)
+            assert renderer(SCRATCH, max_cells) == drawn(font, codes, max_cells), (label, max_cells)
 
 
 def test_baked_names_match_the_bake(renderer):
     font = FONT.read_bytes()
     for label, record, codes in names():
         for max_cells in (MAX_CELLS, 3):
-            assert renderer(record, max_cells) == render(font, codes, max_cells), (label, max_cells)
+            assert renderer(record, max_cells) == drawn(font, codes, max_cells), (label, max_cells)
 
 
 def test_inline_segments_match_the_bake(console, renderer):
@@ -85,6 +85,12 @@ def test_inline_segments_match_the_bake(console, renderer):
     for baked_id, codes in enumerate(segments()):
         console.emu.write_range(SCRATCH, codes + b"\xff")
         for max_cells in (MAX_CELLS, 2):
-            expected = render(font, codes, max_cells)
+            expected = drawn(font, codes, max_cells)
             assert renderer(SCRATCH, max_cells) == expected, (codes, max_cells)
             assert renderer(SCRATCH, max_cells, entries + baked_id * BAKED_ENTRY) == expected, (codes, max_cells)
+
+
+def drawn(font: bytes, codes: bytes, max_cells: int) -> tuple[bytes, int]:
+    """The bake's tiles as callers read them: the cells drawn."""
+    tiles, cells = render(font, codes, max_cells)
+    return tiles[: cells * TILE], cells

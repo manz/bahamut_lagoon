@@ -24,7 +24,7 @@ SHADOW_GAP = 1  ; the shadow takes the gap katsuji leaves after a glyph: one mor
 
 ; source: the string, FF or FE ends it. baked: the string's baked entry, for one render: a caller's, or a
 ; long_name_tables record's; 0 composes it. max_cells: out of SMALL_VWF_MAX_CELLS. cells: the cells the ink and its
-; shadow reach; the tiles past them are clear. chars: the characters drawn. pen: the pixel column of the next glyph.
+; shadow reach; callers read no tile past them. chars: the characters drawn. pen: the pixel column of the next glyph.
 ; count, glyph, shift and rows are scratch.
 ; text: the string, FF-terminated. ink: 1bpp, cell after cell, with a spill cell. tiles: the 2bpp output.
 .struct SmallVwf {
@@ -305,7 +305,7 @@ _measured:
     rts
 
 _copy_baked:
-"""The tiles of the baked entry A (16-bit, DB small_vwf's): its cells, max_cells at most, then clear ones."""
+"""The tiles of the baked entry A (16-bit, DB small_vwf's): its cells, max_cells at most."""
     rep #0x30
     tax
     sep #0x20
@@ -317,7 +317,7 @@ _baked_cells:
     sta.w small_vwf.cells
     rep #0x20
     and.w #0x00FF
-    beq _no_baked_tiles
+    beq _baked
     asl
     asl
     asl
@@ -331,19 +331,13 @@ _baked_cells:
     ldy.w #small_vwf.tiles & 0xFFFF
     pla
     mvn small_vwf_baked_tiles >> 16, small_vwf >> 16
-    tya
-    sec
-    sbc.w #small_vwf.tiles & 0xFFFF
-    tay
-    bra _clear_tiles
-_no_baked_tiles:
-    ldy.w #0x0000
-    bra _clear_tiles
+_baked:
+    rts
 
 _shade_tiles:
 """
 2bpp tiles from the ink, over the cells it reaches: shadow = (ink >> 1 | ink of the row above) & ~ink; plane 0 =
-ink | shadow, plane 1 = shadow. The rest are clear.
+ink | shadow, plane 1 = shadow.
 """
     rep #0x30
     lda.w small_vwf.cells
@@ -356,7 +350,7 @@ ink | shadow, plane 1 = shadow. The rest are clear.
     ldx.w #0x0000  ; ink byte
     ldy.w #0x0000  ; tile byte
     cpx.w small_vwf.shift
-    beq _clear_tiles
+    beq _shaded
 _shade_byte:
     lda.w small_vwf.ink, x
     lsr
@@ -386,19 +380,7 @@ _no_above:
     inx
     cpx.w small_vwf.shift
     bne _shade_byte
-
-_clear_tiles:
-"""Clear the tiles from byte Y (16-bit) on."""
-    rep #0x20
-_clear_tile_word:
-    cpy.w #SMALL_VWF_MAX_CELLS * 16
-    bcs _tiles_cleared
-    lda.w #0x0000
-    sta.w small_vwf.tiles, y
-    iny
-    iny
-    bra _clear_tile_word
-_tiles_cleared:
+_shaded:
     rts
 
 small_font:
