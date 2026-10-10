@@ -139,6 +139,15 @@ def long_names_source(
             *entries,
             "}",
             "",
+            ".pool small_vwf_baked {",
+            "    range 0xFB0000 0xFBFFFF",
+            "    strategy order",
+            "}",
+            "",
+            ".alloc small_vwf_baked_tiles in small_vwf_baked {",
+            f'    .incbin "{BAKED_TILES}"',
+            "}",
+            "",
         ]
     )
     return source, bytes(blob)
