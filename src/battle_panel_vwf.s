@@ -68,7 +68,8 @@ FIRST_WINDOW_RUN = 4 * 2
 ; cell the slot draws. pool_flags: SLOT_STALE. window_tiles: the window slots in 4bpp. dirty: a bit per run of
 ; _pool_runs to upload. first, last: the slot range a placeholder takes from. slot_run: run * 2. source,
 ; window_source: the upload's sources. copy_end: Y as the engine's copy leaves it. message_end: the line
-; position past the last battle message's name.
+; position past the last battle message's name. hint: slot * 2 _find_slot tries first. first_index, last_index: first
+; and last as slot * 2. line_row, kept: the row whose line is being drawn and the slots it kept.
 .struct PanelVwf {
     byte[( LINE_CELLS + COPY_CELLS ) * TILE_BYTES] line_strip
     byte[LINE_CELLS] line_chars
@@ -91,6 +92,11 @@ FIRST_WINDOW_RUN = 4 * 2
     word window_source
     word copy_end
     word message_end
+    word hint
+    word first_index
+    word last_index
+    word line_row
+    word kept
 }
 
 .reserve panel as PanelVwf in sram_work
@@ -424,8 +430,8 @@ _filled:
 
 panel_line_hook:
 """
-The row about to be drawn ($16): free its slots the last drawing left stale, mark the others stale; after a battle
-message's later lines wrote over the slots, upload them all again.
+The row about to be drawn ($16): free its slots the last drawing left stale, mark the others stale and count them
+(panel.line_row, panel.kept); after a battle message's later lines wrote over the slots, upload them all again.
 """
     sta.b 0x10
     lda.l panel_slots_overwritten
@@ -442,6 +448,9 @@ _slots_kept:
     lda.b 0x16
     jsr.w _row_owner
     sta.l panel.row
+    sta.l panel.line_row
+    lda.w #0x0000
+    sta.l panel.kept
     ldx.w #ALL_SLOTS - 1
 _age:
     rep #0x20
@@ -458,6 +467,10 @@ _age:
     bne _release
     lda #SLOT_STALE
     sta.l panel.pool_flags, x
+    rep #0x20
+    lda.l panel.kept
+    inc
+    sta.l panel.kept
     bra _other_row
 _release:
     lda #0x00
@@ -562,16 +575,101 @@ _slot_found:
 _find_slot:
 """
 The slot (16-bit A, carry set) of panel.row's panel.cell in panel.first..last, else a free one taken for it;
-carry clear: none.
+carry clear: none. A row's cells take slots downwards in order, so the slot before the last one found is tried first,
+for its own and for a free one; a row that kept no slot when its line started owns none for its cells.
 """
+    lda.l panel.first
+    asl
+    sta.l panel.first_index
     lda.l panel.last
     dec
     asl
+    sta.l panel.last_index
+    lda.l panel.hint
+    cmp.l panel.first_index
+    bcc _scan_own  ; outside the range: no hint
+    tax
+    cmp.l panel.last_index
+    beq _try_hint
+    bcs _scan_own
+_try_hint:
+    jsr.w _owns
+    beq _have
+_scan_own:
+    lda.l panel.line_row
+    cmp.l panel.row
+    bne _own_anywhere
+    lda.l panel.kept
+    beq _own_none
+_own_anywhere:
+    lda.l panel.last_index
     tax
 _find_own:
     lda.l panel.pool_owner, x
     cmp.l panel.row
     bne _not_own
+    jsr.w _owns_cell
+    beq _have
+_not_own:
+    dex
+    dex
+    bmi _own_none
+    txa
+    cmp.l panel.first_index
+    bcs _find_own
+_own_none:
+    lda.l panel.hint
+    cmp.l panel.first_index
+    bcc _free_from_last
+    cmp.l panel.last_index
+    beq _free_from_hint
+    bcs _free_from_last
+_free_from_hint:
+    tax
+    jsr.w _free_below
+    bcs _take
+_free_from_last:
+    lda.l panel.last_index
+    tax
+    jsr.w _free_below
+    bcs _take
+    rts
+_take:
+    lda.l panel.row
+    sta.l panel.pool_owner, x
+_have:
+    txa
+    dec
+    dec
+    sta.l panel.hint  ; the next cell's slot, likely
+    txa
+    lsr
+    sec
+    rts
+
+_free_below:
+"""A free slot from X (slot * 2) down to panel.first: X on it, carry set; carry clear: none."""
+    lda.l panel.pool_owner, x
+    beq _free_found
+    dex
+    dex
+    bmi _no_free
+    txa
+    cmp.l panel.first_index
+    bcs _free_below
+_no_free:
+    clc
+    rts
+_free_found:
+    sec
+    rts
+
+_owns:
+"""Zero (16-bit A) when slot X (slot * 2) is panel.row's panel.cell. Keeps X."""
+    lda.l panel.pool_owner, x
+    cmp.l panel.row
+    bne _owned
+_owns_cell:
     phx
     txa
     lsr
@@ -582,42 +680,7 @@ _find_own:
     rep #0x20
     plx  ; pulling X sets the flags: test the cell after
     and.w #0x00FF
-    beq _have
-_not_own:
-    jsr.w _slot_before
-    bcs _find_own
-    lda.l panel.last
-    dec
-    asl
-    tax
-_find_free:
-    lda.l panel.pool_owner, x
-    beq _take
-    jsr.w _slot_before
-    bcs _find_free
-    clc
-    rts
-
-_slot_before:
-"""X (slot * 2) steps to the slot before; carry clear when it was panel.first."""
-    txa
-    lsr
-    cmp.l panel.first
-    beq _past_first
-    dex
-    dex
-    sec
-    rts
-_past_first:
-    clc
-    rts
-_take:
-    lda.l panel.row
-    sta.l panel.pool_owner, x
-_have:
-    txa
-    lsr
-    sec
+_owned:
     rts
 
 _fill_slot:
