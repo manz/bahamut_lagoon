@@ -82,7 +82,8 @@ _RECORD = 8  ; the name records draw_fixed_name draws, an item's past its icon
 ; cells the engine's draw covers. span: the cells a right-aligned string ends in (0: left-aligned), taken from
 ; request_span, which a caller sets for one draw. baked: the string's baked entry for small_vwf (0: none), likewise
 ; from request_baked. inline, inline_base, inline_segment: the inline string being drawn, the cell it starts at and
-; its next segment; segment_baked: the baked entry of the segment last skipped. The rest is scratch.
+; its next segment; segment_baked: the baked entry of the segment last skipped. bg3_next: where the next right-half
+; block search starts. The rest is scratch.
 .struct MenuVwf {
     byte[_STAGING_TILES * _TILE_4BPP] staging
     word[_BG2_SLOTS] bg2_owner
@@ -114,6 +115,7 @@ _RECORD = 8  ; the name records draw_fixed_name draws, an item's past its icon
     word baked
     word request_baked
     word segment_baked
+    word bg3_next
 }
 
 .reserve menu as MenuVwf in sram_menu
@@ -251,6 +253,8 @@ _forget_slot:
     dex
     bpl _forget_slot
     rep #0x30
+    lda.w #0x0000
+    sta.l menu.bg3_next
     plx
     pla
     plp
@@ -973,22 +977,18 @@ _name_starts:
     rts
 
 _run_slot:
-"""Run menu.run's slot for cell menu.index (16-bit A)."""
+"""Run menu.run's slot for cell menu.index (16-bit A); X: its entry in menu.run_slots."""
     lda.l menu.run
     asl
     asl
+    pha  ; run * 4
+    asl
     clc
-    adc.l menu.run
-    adc.l menu.run
-    adc.l menu.run
-    adc.l menu.run
-    adc.l menu.run
-    adc.l menu.run
-    adc.l menu.run
-    adc.l menu.run  ; run * 12
+    adc 0x01, s  ; run * 12
     clc
     adc.l menu.index
     tax
+    pla
     lda.l menu.run_slots, x
     and.w #0x00FF
     rts
@@ -1137,41 +1137,20 @@ queued; carry set. Carry clear when no block or no staging room.
     adc.l menu.staged
     cmp.w #_STAGING_TILES * _TILE_4BPP + 1
     bcs _no_block
-    lda.w #0x0000
-    sta.l menu.slot
-_block_at:
-    lda.l menu.slot
-    clc
-    adc.l menu.count
-    cmp.w #_BG3_RIGHT_SLOTS + 1
-    bcs _no_block
-    lda.w #0x0000
-    sta.l menu.index
-_block_slot:
-    lda.l menu.index
-    cmp.l menu.count
+    lda.l menu.bg3_next
+    jsr.w _right_block_from
     bcs _block_found
-    clc
-    adc.l menu.slot
-    tax
-    sep #0x20
-    lda.l menu.bg3_used, x
-    rep #0x20
-    bne _block_taken
-    lda.l menu.index
-    inc
-    sta.l menu.index
-    bra _block_slot
-_block_taken:
-    lda.l menu.slot
-    sec
-    adc.l menu.index
-    sta.l menu.slot
-    bra _block_at
+    lda.w #0x0000  ; then from the start, once
+    jsr.w _right_block_from
+    bcs _block_found
 _no_block:
     clc
     rts
 _block_found:
+    sta.l menu.slot
+    clc
+    adc.l menu.count
+    sta.l menu.bg3_next
     jsr.w _record_run
     lda.w #0x0000
     sta.l menu.index
@@ -1214,6 +1193,45 @@ _block_staged:
     jsr.w _queue
 _block_queued:
     sec
+    rts
+
+_right_block_from:
+"""The first menu.count free right-half slots in a row from slot A on: the first in A, carry set; carry clear: none."""
+    phb
+    pea.w ( SRAM_MENU_START >> 16 ) * 0x0101
+    plb
+    plb
+    tax  ; X: the block's first slot
+_block_at:
+    rep #0x20
+    txa
+    clc
+    adc.w menu.count
+    cmp.w #_BG3_RIGHT_SLOTS + 1
+    bcs _block_none
+    phx
+    lda.w menu.count
+    tay
+    sep #0x20
+_block_slot:
+    lda.w menu.bg3_used, x
+    bne _block_taken
+    inx
+    dey
+    bne _block_slot
+    rep #0x20
+    pla
+    plb
+    sec
+    rts
+_block_taken:
+    rep #0x20
+    pla
+    inx  ; past the used slot
+    bra _block_at
+_block_none:
+    plb
+    clc
     rts
 
 _take_bg3_slot:
