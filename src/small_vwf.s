@@ -6,17 +6,20 @@ codes) into SMALL_VWF_MAX_CELLS 2bpp tiles, styled as the game's 8x8 font: the l
 pixel right and one down in colour 3. Each caller binds the tiles to its own VRAM and tilemap.
 
 Handed the record of an 8-byte name table, it draws the full name from long_name_tables (build/gen/long_names.s)
-instead of the record's eight codes. build.py renders those names, and the inline strings' segments, at build time
-(utils/small_vwf_bake.py): their tiles are copied, not composed.
+instead of the record's eight codes. build.py renders those names, the inline strings' segments and the battle
+panel's static strings at build time (utils/small_vwf_bake.py): their tiles are copied, not composed.
 """
 
 .include "src/expansion.i"
 .include "src/sram_work.i"
 .extern long_name_tables
+.extern small_vwf_static_baked
 
 
 SMALL_VWF_MAX_CELLS = 12
 SMALL_VWF_MAX_CHARS = 24
+STATIC_BANK = 0xFD  ; build.py's battle commands and messages: small_vwf_static_baked has their entries
+STATIC_ENTRY = 8  ; the address's low word, the length, 0, then the baked entry
 ; long_name_tables entries: record 0 (long), count (word), pointers (word), record size (byte), baked entries (word)
 LONG_NAME_TABLE = 10
 ; a baked entry, 4 bytes: its tiles' offset in small_vwf_baked_tiles (word), its cells (byte), 0
@@ -76,7 +79,11 @@ how many cells it reaches. Any register sizes; all registers, DB and P are kept.
     plb
     rep #0x20
     lda.w small_vwf.baked
+    bne _baked_given
+    jsr.w _static_baked
+    lda.w small_vwf.baked
     beq _compose
+_baked_given:
     jsr.w _copy_baked
     bra _rendered
 _compose:
@@ -302,6 +309,42 @@ _measure:
     lda.w small_vwf.max_cells
 _measured:
     sta.w small_vwf.cells
+    rts
+
+_static_baked:
+"""A static string of STATIC_BANK copied whole (not cut by max_chars): baked to its small_vwf_static_baked entry."""
+    sep #0x20
+    lda.w small_vwf.source + 2
+    cmp #STATIC_BANK
+    bne _no_static
+    rep #0x30
+    ldx.w #0x0000
+    lda.l small_vwf_static_baked
+    tay  ; entries left
+    beq _no_static
+_static:
+    lda.l small_vwf_static_baked + 2, x
+    cmp.w small_vwf.source
+    beq _static_found
+    txa
+    clc
+    adc.w #STATIC_ENTRY
+    tax
+    dey
+    bne _static
+_no_static:
+    rep #0x20
+    rts
+_static_found:
+    sep #0x20
+    lda.l small_vwf_static_baked + 4, x
+    cmp.w small_vwf.chars
+    rep #0x20
+    bne _no_static  ; cut short: the composed string differs
+    txa
+    clc
+    adc.w #( small_vwf_static_baked & 0xFFFF ) + 6
+    sta.w small_vwf.baked
     rts
 
 _copy_baked:

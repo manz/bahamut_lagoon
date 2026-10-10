@@ -1,7 +1,7 @@
 """
-Baked strings against the game's own renderer: every long_name_tables name and inline string segment, composed by
-small_vwf_render from a copy of its codes in WRAM and copied from its baked entry (a name's record, a segment's id),
-gives the tiles build.py baked (utils/small_vwf_bake.py), byte for byte.
+Baked strings against the game's own renderer: every long_name_tables name, inline string segment and static battle
+string, composed by small_vwf_render from a copy of its codes in WRAM and copied from its baked entry (a name's record,
+a segment's id, a static string's address), gives the tiles build.py baked (utils/small_vwf_bake.py), byte for byte.
 """
 
 import pytest
@@ -16,11 +16,19 @@ from utils.small_vwf_bake import FONT, MAX_CELLS, MAX_CHARS, TILE, render
 SCRATCH = 0x7FF000  # WRAM the codes are copied to: off the baked path
 STUB = 0x7FF100  # WRAM the calling stub goes to
 BAKED_ENTRY = 4
+PEN_UNTOUCHED = 0xBEEF  # composing moves small_vwf.pen; a baked copy leaves it
 
 
 class Discard:
     def write_block(self, data: bytes, address: int) -> None:
         pass
+
+
+def statics() -> list[tuple[int, bytes]]:
+    """The static strings the battle panel draws, at the addresses build.py lays them out at."""
+    from build import insert_text
+
+    return insert_text(Discard())[2]
 
 
 def segments() -> list[bytes]:
@@ -94,3 +102,15 @@ def drawn(font: bytes, codes: bytes, max_cells: int) -> tuple[bytes, int]:
     """The bake's tiles as callers read them: the cells drawn."""
     tiles, cells = render(font, codes, max_cells)
     return tiles[: cells * TILE], cells
+
+
+def test_static_strings_match_the_bake(console, renderer):
+    font = FONT.read_bytes()
+    for address, codes in statics():
+        console.emu.write_range(SCRATCH, codes + b"\xff")
+        expected = drawn(font, codes, MAX_CELLS)
+        assert renderer(SCRATCH) == expected, codes
+        pen = symbol("small_vwf") + small_vwf_fields()[0]["pen"]
+        console.emu.write_range(pen, PEN_UNTOUCHED.to_bytes(2, "little"))
+        assert renderer(address) == expected, (hex(address), codes)
+        assert console.emu.read16(pen) == PEN_UNTOUCHED, ("composed, not copied", hex(address), codes)

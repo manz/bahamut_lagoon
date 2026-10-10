@@ -17,6 +17,7 @@ by the battle dialogue font.
 """
 
 import xml.etree.ElementTree as ET
+from collections.abc import Iterator
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -80,14 +81,31 @@ def copy_count(message: BattleMessage, codes: bytes) -> int:
     return len(codes) - 1 if message.kind == "prefix" else len(codes)
 
 
+def laid_out(table: Table, messages: list[BattleMessage], address: int) -> Iterator[tuple[BattleMessage, int, bytes]]:
+    """Each message, its bus address laid out from `address`, and its codes."""
+    for message in messages:
+        codes = encode_message(table, message)
+        yield message, address, codes
+        address += len(codes)
+
+
+def static_strings(table: Table, messages: list[BattleMessage], address: int) -> list[tuple[int, bytes]]:
+    """The panel's whole messages, as laid out from `address`: their bus addresses and codes (no FF). A message the
+    engine writes a digit into is not static."""
+    return [
+        (at, codes[:-1])
+        for message, at, codes in laid_out(table, messages, address)
+        if message.small and DIGIT not in message.text
+    ]
+
+
 def patches(table: Table, messages: list[BattleMessage], address: int) -> tuple[bytes, dict[int, bytes]]:
     """The strings laid out from bus address `address`, and the code patches: ROM bus address -> bytes."""
     data = b""
     code: dict[int, bytes] = {site: bytes([address >> 16]) for site in BANK_SITES}
     counts: dict[int, int] = {}
-    for message in messages:
-        codes = encode_message(table, message)
-        pointer = (address + len(data)) & 0xFFFF
+    for message, at, codes in laid_out(table, messages, address):
+        pointer = at & 0xFFFF
         for ref in message.refs:
             code[ref + 1] = pointer.to_bytes(2, "little")
         if message.count is not None:
@@ -102,14 +120,16 @@ def patches(table: Table, messages: list[BattleMessage], address: int) -> tuple[
     return data, code
 
 
-def insert_battle_messages(writer, offset: int) -> int:
-    """Write the messages at ROM offset `offset` and patch their loaders; return the bus address past them."""
+def insert_battle_messages(writer, offset: int) -> tuple[int, list[tuple[int, bytes]]]:
+    """Write the messages at ROM offset `offset` and patch their loaders; return the bus address past them and the
+    panel's static strings (static_strings)."""
     table = Table("./text/table/mz.tbl")
     address = rom_address(offset)
-    data, code = patches(table, read_messages(), address)
+    messages = read_messages()
+    data, code = patches(table, messages, address)
     if (address + len(data) - 1) >> 16 != address >> 16:
         raise ValueError("the battle messages must stay in one bank: their loaders take a single bank")
     writer.write_block(data, offset)
     for site, block in code.items():
         writer.write_block(block, rom_offset(site))
-    return address + len(data)
+    return address + len(data), static_strings(table, messages, address)
