@@ -6,7 +6,8 @@ codes) into SMALL_VWF_MAX_CELLS 2bpp tiles, styled as the game's 8x8 font: the l
 pixel right and one down in colour 3. Each caller binds the tiles to its own VRAM and tilemap.
 
 Handed the record of an 8-byte name table, it draws the full name from long_name_tables (build/gen/long_names.s)
-instead of the record's eight codes.
+instead of the record's eight codes. build.py renders those names, and the inline strings' segments, at build time
+(utils/small_vwf_bake.py): their tiles are copied, not composed.
 """
 
 .include "src/expansion.i"
@@ -16,15 +17,19 @@ instead of the record's eight codes.
 
 SMALL_VWF_MAX_CELLS = 12
 SMALL_VWF_MAX_CHARS = 24
-LONG_NAME_TABLE = 8  ; long_name_tables entries: record 0 (long), count (word), pointers (word), record size (byte)
+; long_name_tables entries: record 0 (long), count (word), pointers (word), record size (byte), baked entries (word)
+LONG_NAME_TABLE = 10
+; a baked entry, 4 bytes: its tiles' offset in small_vwf_baked_tiles (word), its cells (byte), 0
 SHADOW_GAP = 1  ; the shadow takes the gap katsuji leaves after a glyph: one more pixel keeps letters apart
 
-; source: the string, FF or FE ends it. max_cells: out of SMALL_VWF_MAX_CELLS. cells: the cells the ink and its
-; shadow reach. chars: the characters drawn. pen: the pixel column of the next glyph. count, glyph, shift and rows
-; are scratch.
+; source: the string, FF or FE ends it. baked: the string's baked entry, for one render: a caller's, or a
+; long_name_tables record's; 0 composes it. max_cells: out of SMALL_VWF_MAX_CELLS. cells: the cells the ink and its
+; shadow reach; callers read no tile past them. chars: the characters drawn. pen: the pixel column of the next glyph.
+; count, glyph, shift and rows are scratch.
 ; text: the string, FF-terminated. ink: 1bpp, cell after cell, with a spill cell. tiles: the 2bpp output.
 .struct SmallVwf {
     long source
+    word baked
     byte max_chars
     byte max_cells
     byte cells
@@ -40,6 +45,17 @@ SHADOW_GAP = 1  ; the shadow takes the gap katsuji leaves after a glyph: one mor
 }
 
 .reserve small_vwf as SmallVwf in sram_work
+
+
+; build.py's baked tiles (utils/small_vwf_bake.py), offsets in long_name_tables' entries point into them.
+.pool small_vwf_baked {
+    range 0xFB0000 0xFBFFFF
+    strategy order
+}
+
+.alloc small_vwf_baked_tiles in small_vwf_baked {
+    .incbin "build/gen/small_vwf_baked.bin"
+}
 
 
 .alloc small_vwf_code in expansion {
@@ -58,6 +74,12 @@ how many cells it reaches. Any register sizes; all registers, DB and P are kept.
     pea.w ( SRAM_WORK_START >> 16 ) * 0x0101
     plb
     plb
+    rep #0x20
+    lda.w small_vwf.baked
+    beq _compose
+    jsr.w _copy_baked
+    bra _rendered
+_compose:
     jsr.w _clear_ink
     stz.w small_vwf.pen
     ldx.w #0x0000
@@ -74,7 +96,9 @@ _next_char:
 _shade:
     jsr.w _measure
     jsr.w _shade_tiles
+_rendered:
     rep #0x30
+    stz.w small_vwf.baked  ; the next string's own
     ply
     plx
     pla
@@ -115,7 +139,10 @@ _copy_end:
     rts
 
 _redirect:
-"""A record of a long_name_tables table gives its full name: source moves there, max_chars to the maximum."""
+"""
+A record of a long_name_tables table gives its full name: source moves there, max_chars to the maximum, baked to its
+entry.
+"""
     phb
     phk
     plb
@@ -136,6 +163,12 @@ _table:
     bcs _next_table  ; not at a record's start
     cmp.w long_name_tables + 3, x
     bcs _next_table
+    pha
+    asl
+    asl
+    adc.w long_name_tables + 8, x
+    sta.l small_vwf.baked
+    pla
     asl
     adc.w long_name_tables + 5, x
     tay
@@ -271,15 +304,53 @@ _measured:
     sta.w small_vwf.cells
     rts
 
+_copy_baked:
+"""The tiles of the baked entry A (16-bit, DB small_vwf's): its cells, max_cells at most."""
+    rep #0x30
+    tax
+    sep #0x20
+    lda.l ( long_name_tables & 0xFF0000 ) + 2, x
+    cmp.w small_vwf.max_cells
+    bcc _baked_cells
+    lda.w small_vwf.max_cells
+_baked_cells:
+    sta.w small_vwf.cells
+    rep #0x20
+    and.w #0x00FF
+    beq _baked
+    asl
+    asl
+    asl
+    asl
+    dec
+    pha  ; the bytes to move, less one
+    lda.l long_name_tables & 0xFF0000, x
+    clc
+    adc.w #small_vwf_baked_tiles & 0xFFFF
+    tax
+    ldy.w #small_vwf.tiles & 0xFFFF
+    pla
+    mvn small_vwf_baked_tiles >> 16, small_vwf >> 16
+_baked:
+    rts
+
 _shade_tiles:
 """
-2bpp tiles from the ink: shadow = (ink >> 1 | ink of the row above) & ~ink; plane 0 = ink | shadow, plane 1 =
-shadow.
+2bpp tiles from the ink, over the cells it reaches: shadow = (ink >> 1 | ink of the row above) & ~ink; plane 0 =
+ink | shadow, plane 1 = shadow.
 """
+    rep #0x30
+    lda.w small_vwf.cells
+    and.w #0x00FF
+    asl
+    asl
+    asl
+    sta.w small_vwf.shift  ; the ink bytes to shade
     sep #0x20
-    rep #0x10
     ldx.w #0x0000  ; ink byte
     ldy.w #0x0000  ; tile byte
+    cpx.w small_vwf.shift
+    beq _shaded
 _shade_byte:
     lda.w small_vwf.ink, x
     lsr
@@ -307,8 +378,9 @@ _no_above:
     iny
     iny
     inx
-    cpx.w #SMALL_VWF_MAX_CELLS * 8
+    cpx.w small_vwf.shift
     bne _shade_byte
+_shaded:
     rts
 
 small_font:
