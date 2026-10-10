@@ -153,7 +153,7 @@ shift_copy:
     phx
 
 shift_copy_loop:
-    lda.l assets_vwf_bin, x
+    lda.l vwf_font, x
     sta.l 0x004203
     nop
     nop
@@ -178,7 +178,7 @@ raw_copy:
     sta 0x08
     phx
 raw_copy_loop:
-    lda.l assets_vwf_bin, x
+    lda.l vwf_font, x
     sta.w 0x0000 + 0xD000, y
     inx
     iny
@@ -194,7 +194,7 @@ add_letter_length:
     jsr.l battle_dma_transfer
     plx
     pla
-    lda.l assets_vwf_bin + 16, x
+    lda.l vwf_font + 16, x
     plb
 
     rep #0x20

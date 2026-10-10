@@ -112,7 +112,7 @@ _in_line:
 
 _row:
     sep #0x20
-    lda.l assets_vwf_bin, x
+    lda.l vwf_font, x
     sta _glyph_row
     jsr.w _shifted  ; plane 0: the letter
     sta _letter
@@ -148,7 +148,7 @@ _row:
     bne _row
 
     rep #0x20
-    lda.l assets_vwf_bin, x  ; the advance width follows the rows
+    lda.l vwf_font, x  ; the advance width follows the rows
     and.w #0x00FF
     sec  ; and one pixel of spacing
     adc.l description_vwf_pen
@@ -182,7 +182,7 @@ _measure:
     clc
     adc 0x12
     tax
-    lda.l assets_vwf_bin + GLYPH_HEIGHT, x
+    lda.l vwf_font + GLYPH_HEIGHT, x
     and.w #0x00FF
     sec  ; and one pixel of spacing
     adc 0x10

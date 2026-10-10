@@ -308,7 +308,7 @@ draw_char:
 
 _row:
     sep #0x20
-    lda.l assets_vwf_bin, x
+    lda.l vwf_font, x
     sta _glyph_row
     lsr
     ora _shadow  ; the shadow: one pixel right of this row, and the row above
@@ -378,7 +378,7 @@ _row:
 
 _advance:
     rep #0x20
-    lda.l assets_vwf_bin, x  ; the advance width follows the rows
+    lda.l vwf_font, x  ; the advance width follows the rows
     and.w #0x00FF
     sec  ; and one pixel of spacing
     adc _position
