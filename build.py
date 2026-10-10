@@ -26,8 +26,9 @@ from utils.inline_strings import (
     insert_inline_strings,
     insert_messages_strings,
 )
-from utils.name_tables import insert_item_names, insert_short_names, long_names_source
+from utils.name_tables import BAKED_TILES, insert_item_names, insert_short_names, long_names_source
 from utils.naming_screen import naming_font_tiles, naming_grids_source
+from utils.small_vwf_bake import FONT as SMALL_FONT
 
 logger = logging.getLogger(__name__)
 
@@ -162,11 +163,12 @@ def insert_text(writer: IPSWriter) -> list[InlineStringHook]:
     return hooks
 
 
-def write_if_changed(path: Path, text: str) -> None:
+def write_if_changed(path: Path, data: str | bytes) -> None:
     """Leave an unchanged file alone, so a816's object cache stays valid."""
+    data = data.encode() if isinstance(data, str) else data
     path.parent.mkdir(parents=True, exist_ok=True)
-    if not path.exists() or path.read_text() != text:
-        path.write_text(text)
+    if not path.exists() or path.read_bytes() != data:
+        path.write_bytes(data)
 
 
 def build_ips(variant: Variant) -> None:
@@ -174,7 +176,9 @@ def build_ips(variant: Variant) -> None:
     text = io.BytesIO()
     hooks = insert_text(IPSWriter(text))
     write_if_changed(INLINE_STRING_HOOKS, inline_string_hooks_source(hooks))
-    write_if_changed(LONG_NAMES, long_names_source(Table(str(TABLE))))
+    long_names, baked_tiles = long_names_source(Table(str(TABLE)), SMALL_FONT.read_bytes())
+    write_if_changed(LONG_NAMES, long_names)
+    write_if_changed(BAKED_TILES, baked_tiles)
     write_if_changed(NAMING_GRIDS, naming_grids_source(ROM.read_bytes(), Table(str(TABLE))))
     build_code("bl.s", variant)
 
