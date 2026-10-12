@@ -361,7 +361,7 @@ _fill_cells marks drawn. Keeps X and DB.
     asl
     dec  ; the bytes to move, less one
     ldx.w #small_vwf.tiles & 0xFFFF
-    mvn SRAM_WORK_START >> 16, SRAM_WORK_START >> 16  ; small_vwf and panel, both in sram_work
+    mvn small_vwf >> 16, panel >> 16
 _kept:
     plb
     plx
