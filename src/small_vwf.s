@@ -12,18 +12,16 @@ panel's static strings at build time (utils/small_vwf_bake.py): their tiles are 
 
 .include "src/expansion.i"
 .include "src/sram_work.i"
+.include "src/name_tables.i"
 .extern long_name_tables
 .extern small_vwf_static_baked
+.extern small_vwf_static_entries
 .extern small_vwf_baked_tiles
 
 
 SMALL_VWF_MAX_CELLS = 12
 SMALL_VWF_MAX_CHARS = 24
 STATIC_BANK = 0xFD  ; build.py's battle commands and messages: small_vwf_static_baked has their entries
-STATIC_ENTRY = 8  ; the address's low word, the length, 0, then the baked entry
-; long_name_tables entries: record 0 (long), count (word), pointers (word), record size (byte), baked entries (word)
-LONG_NAME_TABLE = 10
-; a baked entry, 4 bytes: its tiles' offset in small_vwf_baked_tiles (word), its cells (byte), 0
 SHADOW_GAP = 1  ; the shadow takes the gap katsuji leaves after a glyph: one more pixel keeps letters apart
 
 ; source: the string, FF or FE ends it. baked: the string's baked entry, for one render: a caller's, or a
@@ -147,27 +145,27 @@ entry.
     ldx.w #0x0000
 _table:
     sep #0x20
-    lda.w long_name_tables + 2, x
+    lda.w long_name_tables + LongNameTable.record + 2, x
     beq _redirected  ; record 0 at 0x000000 ends the list
     cmp.l small_vwf.source + 2
     bne _next_table
     rep #0x20
     lda.l small_vwf.source
     sec
-    sbc.w long_name_tables, x
+    sbc.w long_name_tables + LongNameTable.record, x
     bcc _next_table
     jsr.w _record_index
     bcs _next_table  ; not at a record's start
-    cmp.w long_name_tables + 3, x
+    cmp.w long_name_tables + LongNameTable.count, x
     bcs _next_table
     pha
     asl
     asl
-    adc.w long_name_tables + 8, x
+    adc.w long_name_tables + LongNameTable.baked, x
     sta.l small_vwf.baked
     pla
     asl
-    adc.w long_name_tables + 5, x
+    adc.w long_name_tables + LongNameTable.pointers, x
     tay
     lda.w 0x0000, y
     sta.l small_vwf.source
@@ -182,7 +180,7 @@ _next_table:
     rep #0x20
     txa
     clc
-    adc.w #LONG_NAME_TABLE
+    adc.w #LongNameTable.__size
     tax
     bra _table
 _redirected:
@@ -196,7 +194,7 @@ hardware divider takes the record size.
 """
     sta.l 0x004204
     sep #0x20
-    lda.w long_name_tables + 7, x
+    lda.w long_name_tables + LongNameTable.record_size, x
     sta.l 0x004206
     rep #0x20
     nop  ; the quotient is ready 16 cycles on
@@ -313,12 +311,12 @@ _static_baked:
     tay  ; entries left
     beq _no_static
 _static:
-    lda.l small_vwf_static_baked + 2, x
+    lda.l small_vwf_static_entries + StaticBaked.address, x
     cmp.w small_vwf.source
     beq _static_found
     txa
     clc
-    adc.w #STATIC_ENTRY
+    adc.w #StaticBaked.__size
     tax
     dey
     bne _static
@@ -327,13 +325,13 @@ _no_static:
     rts
 _static_found:
     sep #0x20
-    lda.l small_vwf_static_baked + 4, x
+    lda.l small_vwf_static_entries + StaticBaked.length, x
     cmp.w small_vwf.chars
     rep #0x20
     bne _no_static  ; cut short: the composed string differs
     txa
     clc
-    adc.w #( small_vwf_static_baked & 0xFFFF ) + 6
+    adc.w #( small_vwf_static_entries & 0xFFFF ) + StaticBaked.baked
     sta.w small_vwf.baked
     rts
 
@@ -342,7 +340,7 @@ _copy_baked:
     rep #0x30
     tax
     sep #0x20
-    lda.l ( long_name_tables & 0xFF0000 ) + 2, x
+    lda.l ( long_name_tables & 0xFF0000 ) + BakedEntry.cells, x
     cmp.w small_vwf.max_cells
     bcc _baked_cells
     lda.w small_vwf.max_cells
@@ -357,7 +355,7 @@ _baked_cells:
     asl
     dec
     pha  ; the bytes to move, less one
-    lda.l long_name_tables & 0xFF0000, x
+    lda.l ( long_name_tables & 0xFF0000 ) + BakedEntry.offset, x
     clc
     adc.w #small_vwf_baked_tiles & 0xFFFF
     tax
