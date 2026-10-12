@@ -1069,4 +1069,6 @@ _pool_runs:
 _run_bits:
 ; A run's bit in panel.dirty, by run * 2.
     .db 0x01, 0x00, 0x02, 0x00, 0x04, 0x00, 0x08, 0x00, 0x10, 0x00, 0x20, 0x00, 0x40, 0x00
+_run_bits_end:
+    .assert _run_bits - _pool_runs - 1 == _run_bits_end - _run_bits, "a dirty bit for every pool run"
 }

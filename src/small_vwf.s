@@ -336,6 +336,7 @@ _static_found:
     rts
 
 _copy_baked:
+    .assert BakedEntry.__size == 4, "_redirect and menu_vwf's _skip_segment index baked entries by two shifts"
 """The tiles of the baked entry A (16-bit, DB small_vwf's): its cells, max_cells at most."""
     rep #0x30
     tax
