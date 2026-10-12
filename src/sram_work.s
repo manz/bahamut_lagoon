@@ -2,13 +2,14 @@
 Extend cart SRAM to 32 KB and clear the pages past the saves at power-on (see sram_work.i).
 """
 
+.import "@std/snes/header"
 .include "src/expansion.i"
 .include "src/sram_work.i"
 
 
-; Header SRAM size, log2 KB: 3 (8 KB) -> 5 (32 KB).
-.alloc at 0xC0FFD8 {
-    .db 0x05
+; Log2 KB: 3 (8 KB) -> 5 (32 KB).
+.patch SnesHeader at SNES_HEADER_BASE {
+    sram_size = 5
 }
 
 ; Reset: clc / xce / jml 0xC00000. Clear the work pages on the way.
