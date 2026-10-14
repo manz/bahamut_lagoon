@@ -21,6 +21,7 @@ from collections.abc import Iterator
 from dataclasses import dataclass
 from pathlib import Path
 
+from a816.writers import Writer
 from script import Table
 
 from utils.cartridge import rom_address, rom_offset
@@ -120,7 +121,7 @@ def patches(table: Table, messages: list[BattleMessage], address: int) -> tuple[
     return data, code
 
 
-def insert_battle_messages(writer, offset: int) -> tuple[int, list[tuple[int, bytes]]]:
+def insert_battle_messages(writer: Writer, offset: int) -> tuple[int, list[tuple[int, bytes]]]:
     """Write the messages at ROM offset `offset` and patch their loaders; return the bus address past them and the
     panel's static strings (static_strings)."""
     table = Table("./text/table/mz.tbl")

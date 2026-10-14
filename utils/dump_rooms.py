@@ -5,7 +5,10 @@ import os
 import re
 import struct
 import xml.etree.ElementTree as ET
+from io import BufferedReader
+from typing import NotRequired, TypedDict
 
+from a816.writers import Writer
 from script import Table
 
 from utils.cartridge import rom_address, rom_offset
@@ -18,15 +21,21 @@ from utils.vm.room import Room, prettify
 logger = logging.getLogger("rooms.dialog")
 
 
-def battle_decompress_block(rom):
-    size = rom.read(2)
-    size = struct.unpack("<H", size)[0]
+class RoomEntry(TypedDict):
+    id: int
+    address: int  # ROM offset
+    compressed: bool
+    size: NotRequired[int]  # uncompressed rooms only
+
+
+def battle_decompress_block(rom: BufferedReader) -> bytearray:
+    size: int = struct.unpack("<H", rom.read(2))[0]
     logger.debug("block size %#x", size)
     data = rom.read(size)
     decompressed = bytearray()
     decompressed = lz_decompress(data, decompressed)
 
-    def get_size(count, control_byte):
+    def get_size(count: int, control_byte: int) -> int:
         size = 0
         for i in range(count):
             if (control_byte >> i) & 1:
@@ -51,15 +60,14 @@ def battle_decompress_block(rom):
     return decompressed
 
 
-def decompress_block(rom):
-    size = rom.read(2)
-    size = struct.unpack("<H", size)[0]
+def decompress_block(rom: BufferedReader) -> bytearray:
+    size: int = struct.unpack("<H", rom.read(2))[0]
 
     data = rom.read(size)
     decompressed = bytearray()
     decompressed = lz_decompress(data, decompressed)
 
-    def get_size(count, control_byte):
+    def get_size(count: int, control_byte: int) -> int:
         size = 0
         for i in range(count):
             if (control_byte >> i) & 1:
@@ -72,8 +80,7 @@ def decompress_block(rom):
         control = rom.read(1)
 
         if control[0] & 0x3F:
-            next_end = rom.read(2)
-            next_end = struct.unpack("<H", next_end)[0]
+            rom.read(2)  # the next block's end
             control_byte = rom.peek(1)
 
             next_size = get_size(control[0], control_byte[0])
@@ -85,21 +92,22 @@ def decompress_block(rom):
     return decompressed
 
 
-def compress_room(data):
-    compressed = lz_compress(data)
+def compress_room(data: bytes | bytearray) -> bytes:
+    compressed = lz_compress(bytes(data))
     size_header = struct.pack("<H", len(compressed))
     return size_header + compressed
 
 
-def is_compressed(rom, room_id):
+def is_compressed(rom: BufferedReader, room_id: int) -> bool:
     room_id_high = 1 << (room_id & 0x07)
     room_id_low = room_id >> 3
 
     rom.seek(rom_offset(0xDA8300) + room_id_low)
-    return (struct.unpack("B", rom.read(1))[0] & room_id_high) != 0
+    flags: int = struct.unpack("B", rom.read(1))[0]
+    return (flags & room_id_high) != 0
 
 
-def get_dialog_room(rom, room_id, table, lang="jp", disasm=False):
+def get_dialog_room(rom: BufferedReader, room_id: int, table: Table, lang: str = "jp", disasm: bool = False) -> Room:
     """used for rebuild script"""
     rom.seek(rom_offset(0xDA8000) + (room_id * 3))
     ptr = rom.read(3)
@@ -116,12 +124,14 @@ def get_dialog_room(rom, room_id, table, lang="jp", disasm=False):
     return room
 
 
-def dump_room(rom, room, table, output_dir, lang=None):
-    rom.seek(room["address"])
-    room_id = room["id"]
+def dump_room(
+    rom: BufferedReader, room_entry: RoomEntry, table: Table, output_dir: str, lang: str | None = None
+) -> None:
+    rom.seek(room_entry["address"])
+    room_id = room_entry["id"]
     print(f"room: {room_id}")
 
-    if room["compressed"]:
+    if room_entry["compressed"]:
         decompressed = decompress_block(rom)
         # else:
         #     # Might be not necessary but for completion it is implemented
@@ -164,15 +174,15 @@ def dump_room(rom, room, table, output_dir, lang=None):
 # .DA:1589                 RTS
 
 
-def math_pow_2(a):
+def math_pow_2(a: int) -> int:
     a = a & 0x0F
     return int(math.pow(2, a))
 
 
-DANGER = []
+DANGER: list[int] = []
 
 
-def dump_rooms(rom, table, lang, output_dir, room_id=None):
+def dump_rooms(rom: BufferedReader, table: Table, lang: str, output_dir: str, room_id: int | None = None) -> None:
     room_table = build_room_address_table(rom)
     if room_id:
         rooms = [room for room in room_table if room["id"] == room_id]
@@ -188,7 +198,7 @@ def dump_rooms(rom, table, lang, output_dir, room_id=None):
 # 0x71 : 0x2a __opcode(0x0 0xf 0x40 0x0)
 # start, end, time (frame count ?) and something
 # 0x76 : 0x3f pause(0x40)
-room_patches = {
+room_patches: dict[int, list[tuple[int, int]]] = {
     # 0: [
     #     # [0x71, 0x9e],
     #     [0x72, 0x0],
@@ -213,7 +223,7 @@ class WindowHeights:
     SET_WINDOW = 0x34
     CHOICES = (0x08, 0x09)
 
-    def __init__(self, room) -> None:
+    def __init__(self, room: Room) -> None:
         self.room = room.room
         self.sets = sorted(
             address
@@ -230,20 +240,20 @@ class WindowHeights:
         return any(ref in self.prompts for ref in refs)
 
     def lines(self, refs: list[int]) -> int:
-        heights = []
+        heights: list[int] = []
         for ref in refs:
             before = [address for address in self.sets if address < ref]
             heights.append(max(1, self.room[before[-1] + 2] // 2) if before else self.DEFAULT_LINES)
         return min(heights, default=self.DEFAULT_LINES)
 
 
-def build_text_patch(rom, table, writer, reloc_address):
+def build_text_patch(rom: BufferedReader, table: Table, writer: Writer, reloc_address: int) -> int:
     xmlfile_re = re.compile(r"(\d+)\.xml")
     dialog_dir = os.path.join(os.path.dirname(__file__), "../text/fr/dialog")
     files = os.listdir(dialog_dir)
     address = reloc_address
     files = sorted(files, key=lambda name: int(name[:4], 10))
-    room_compressed = {}
+    room_compressed: dict[int, int] = {}
     layout = default_layout()
 
     for file in files:
@@ -306,8 +316,8 @@ def build_text_patch(rom, table, writer, reloc_address):
     return address
 
 
-def build_room_address_table(rom):
-    table = []
+def build_room_address_table(rom: BufferedReader) -> list[RoomEntry]:
+    table: list[RoomEntry] = []
     for room_id in range(0xFF):
         rom.seek(rom_offset(0xDA8000) + (room_id * 3))
         ptr = rom.read(3)
@@ -326,11 +336,11 @@ def build_room_address_table(rom):
     return sorted(sorted_table, key=lambda r: room["id"])
 
 
-def output_dir(lang):
+def output_dir(lang: str) -> str:
     return os.path.join(os.path.dirname(__file__), f"../text/{lang}/dialog")
 
 
-def dump_rooms_for_lang(lang, room_id=None):
+def dump_rooms_for_lang(lang: str, room_id: int | None = None) -> None:
     table_path = os.path.join(os.path.dirname(__file__), "../text/table")
 
     table = Table(os.path.join(table_path, f"{lang}.tbl"))

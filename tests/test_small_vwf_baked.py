@@ -4,14 +4,19 @@ string, composed by small_vwf_render from a copy of its codes in WRAM and copied
 a segment's id, a static string's address), gives the tiles build.py baked (utils/small_vwf_bake.py), byte for byte.
 """
 
+from typing import TYPE_CHECKING, Protocol
+
 import pytest
 from script import Table
 
-from tests.conftest import small_vwf_fields, symbol
+from tests.conftest import Console, small_vwf_fields, symbol
 from utils.cartridge import rom_offset
 from utils.inline_strings import insert_inline_strings
 from utils.name_tables import ITEM_TABLE, NAME_TABLES, encode, read_names
 from utils.small_vwf_bake import FONT, MAX_CELLS, MAX_CHARS, TILE, render
+
+if TYPE_CHECKING:
+    from kintsuki import Emu
 
 SCRATCH = 0x7FF000  # WRAM the codes are copied to: off the baked path
 STUB = 0x7FF100  # WRAM the calling stub goes to
@@ -19,8 +24,23 @@ BAKED_ENTRY = 4
 PEN_UNTOUCHED = 0xBEEF  # composing moves small_vwf.pen; a baked copy leaves it
 
 
+class Renderer(Protocol):
+    def __call__(self, source: int, max_cells: int = MAX_CELLS, baked: int = 0) -> tuple[bytes, int]: ...
+
+
 class Discard:
-    def write_block(self, data: bytes, address: int) -> None:
+    """A Writer that keeps nothing: the tests want what insert_text returns, not the bytes."""
+
+    def begin(self) -> None:
+        pass
+
+    def write_block_header(self, block: bytes, block_address: int) -> None:
+        pass
+
+    def write_block(self, block: bytes, block_address: int) -> None:
+        pass
+
+    def end(self) -> None:
         pass
 
 
@@ -45,7 +65,7 @@ def names() -> list[tuple[str, int, bytes]]:
     ]
 
 
-def call(emu, routine: int) -> None:
+def call(emu: Emu, routine: int) -> None:
     """jsl routine from a stub in WRAM and run to its return. The CPU coroutine is rebuilt first: a savestate stops it
     mid-instruction, and new registers would not take."""
     emu.rearm_cpu()
@@ -54,7 +74,7 @@ def call(emu, routine: int) -> None:
 
 
 @pytest.fixture(scope="module")
-def renderer(console):
+def renderer(console: Console) -> Renderer:
     console.load("menu-organisation")
     small_vwf = symbol("small_vwf")
     fields = small_vwf_fields()[0]
@@ -72,7 +92,7 @@ def renderer(console):
     return render_at
 
 
-def test_composed_names_match_the_bake(console, renderer):
+def test_composed_names_match_the_bake(console: Console, renderer: Renderer) -> None:
     font = FONT.read_bytes()
     for label, _, codes in names():
         console.emu.write_range(SCRATCH, codes + b"\xff")
@@ -80,14 +100,14 @@ def test_composed_names_match_the_bake(console, renderer):
             assert renderer(SCRATCH, max_cells) == drawn(font, codes, max_cells), (label, max_cells)
 
 
-def test_baked_names_match_the_bake(renderer):
+def test_baked_names_match_the_bake(renderer: Renderer) -> None:
     font = FONT.read_bytes()
     for label, record, codes in names():
         for max_cells in (MAX_CELLS, 3):
             assert renderer(record, max_cells) == drawn(font, codes, max_cells), (label, max_cells)
 
 
-def test_inline_segments_match_the_bake(console, renderer):
+def test_inline_segments_match_the_bake(console: Console, renderer: Renderer) -> None:
     font = FONT.read_bytes()
     entries = symbol("small_vwf_inline_baked") & 0xFFFF
     for baked_id, codes in enumerate(segments()):
@@ -104,7 +124,7 @@ def drawn(font: bytes, codes: bytes, max_cells: int) -> tuple[bytes, int]:
     return tiles[: cells * TILE], cells
 
 
-def test_static_strings_match_the_bake(console, renderer):
+def test_static_strings_match_the_bake(console: Console, renderer: Renderer) -> None:
     font = FONT.read_bytes()
     for address, codes in statics():
         console.emu.write_range(SCRATCH, codes + b"\xff")

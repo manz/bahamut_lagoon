@@ -1,7 +1,7 @@
 import struct
 
 
-def lz_decompress(data: bytes, decompressed: bytearray | None = None) -> bytearray:
+def lz_decompress(data: bytes | bytearray, decompressed: bytearray | None = None) -> bytearray:
     if decompressed is None:
         decompressed = bytearray()
 
@@ -32,7 +32,7 @@ def lz_decompress(data: bytes, decompressed: bytearray | None = None) -> bytearr
     return decompressed
 
 
-def lz_decompress_battle(data: bytes, decompressed: bytearray | None = None) -> bytearray:
+def lz_decompress_battle(data: bytes | bytearray, decompressed: bytearray | None = None) -> bytearray:
     if decompressed is None:
         decompressed = bytearray()
 
@@ -63,7 +63,7 @@ def lz_decompress_battle(data: bytes, decompressed: bytearray | None = None) -> 
     return decompressed
 
 
-def find_pattern(buffer, temp_buffer):
+def find_pattern(buffer: bytes | bytearray, temp_buffer: bytes | bytearray) -> tuple[int, int] | None:
     if len(buffer) > 0:
         for pattern_index in range(len(buffer)):
             pattern = buffer[pattern_index:]
@@ -80,9 +80,16 @@ def find_pattern(buffer, temp_buffer):
     return None
 
 
-def find_back_reference(data, position, search_patterns, buffer_size=4095, max_length=18, min_length=2):
+def find_back_reference(
+    data: bytes | bytearray,
+    position: int,
+    search_patterns: bool,
+    buffer_size: int = 4095,
+    max_length: int = 18,
+    min_length: int = 2,
+) -> tuple[int, int] | None:
     buffer = data[max(position - buffer_size, 0) : position]
-    retval = None
+    retval: tuple[int, int] | None = None
 
     temp_buffer = data[position : position + max_length]
 
@@ -111,7 +118,7 @@ def find_back_reference(data, position, search_patterns, buffer_size=4095, max_l
     return None
 
 
-def lz_compress(data, search_patterns=True):
+def lz_compress(data: bytes | bytearray, search_patterns: bool = True) -> bytearray:
     pos = 0
     compressed = bytearray()
     while pos < len(data):

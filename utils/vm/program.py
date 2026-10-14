@@ -1,23 +1,35 @@
 import json
 import struct
+from collections.abc import Callable
 from sys import stdout
-from typing import Literal
+from typing import BinaryIO, Literal, TextIO
+
+type Operand = tuple[Literal["byte", "word", "reference"], int] | tuple[Literal["raw"], bytes | bytearray]
+type Operands = tuple[Literal["data"], *tuple[Operand, ...]]
+type OpcodeElement = tuple[Literal["opcode"], str, int, Operands | None]
+type TextElement = tuple[Literal["text"], bytes]
+type ReferenceElement = tuple[Literal["reference"], int]
+type Element = OpcodeElement | TextElement | ReferenceElement | Operands
+type Entry = tuple[Element, str | None, int]
+type Listing = dict[int, Entry]
 
 
 class Program:
     def __init__(self, opcode_names: dict[int, str]) -> None:
-        self._program = {}
-        self._labels = set()
-        self._actors = set()
-        self._data = {}
-        self._text_pointers = {}
+        self._program: Listing = {}
+        self._labels: set[int] = set()
+        self._actors: set[int] = set()
+        self._data: dict[int, bytes] = {}
+        self._text_pointers: dict[int, set[int]] = {}
         self._opcode_names = opcode_names
 
     @property
-    def actors(self):
+    def actors(self) -> set[int]:
         return self._actors
 
-    def put_opcode(self, addr, opcode, data, comment=None, size=None) -> None:
+    def put_opcode(
+        self, addr: int, opcode: int, data: Operands | None, comment: str | None = None, *, size: int
+    ) -> None:
         if self._program.get(addr) is None:
             opcode_name = self._opcode_names.get(opcode, "__opcode")
             self._put(addr, ("opcode", opcode_name, opcode, data), comment, size)
@@ -26,7 +38,7 @@ class Program:
             # if opcode == 0x12:
             #     self._actors.add(data[1][1][0])
 
-    def filter(self, condition):
+    def filter(self, condition: Callable[[int, Entry], bool]) -> Listing:
         retval = {}
         for key in sorted(self._program.keys()):
             element = self._program[key]
@@ -35,30 +47,30 @@ class Program:
                 retval[key] = element
         return retval
 
-    def put_text_data(self, address, data, decoded) -> None:
+    def put_text_data(self, address: int, data: bytes, decoded: str) -> None:
         self._put(address, ("text", data), decoded, len(data))
 
-    def put_data(self, address, data) -> None:
+    def put_data(self, address: int, data: bytes) -> None:
         self._put(address, ("data", ("raw", data)), None, len(data))
 
-    def put_reference(self, address, reference, comment=None) -> None:
+    def put_reference(self, address: int, reference: int, comment: str | None = None) -> None:
         self.put_label(reference)
         self._put(address, ("reference", reference), comment, 2)
 
-    def put_text_pointer(self, text_reference, pointer) -> None:
+    def put_text_pointer(self, text_reference: int, pointer: int) -> None:
         if text_reference in self._text_pointers:
             self._text_pointers[text_reference].add(pointer)
         else:
             self._text_pointers[text_reference] = {pointer}
 
-    def _put(self, address, data, comment, size) -> None:
+    def _put(self, address: int, data: Element, comment: str | None, size: int) -> None:
         self._program[address] = (data, comment, size)
 
-    def put_label(self, address) -> None:
+    def put_label(self, address: int) -> None:
         self._labels.add(address)
 
-    def display_program_part(self, out, program) -> None:
-        def format_data(data):
+    def display_program_part(self, out: TextIO, program: Listing) -> None:
+        def format_data(data: Operands | Operand | None) -> str:
             if data:
                 retval = []
                 if data[0] == "data":
@@ -77,17 +89,16 @@ class Program:
             else:
                 return ""
 
-        def format_opcode(opcode_tuple) -> str:
-            name, opcode, data = opcode_tuple
+        def format_opcode(opcode_tuple: OpcodeElement) -> str:
+            _, name, opcode, data = opcode_tuple
             return f"{opcode:#02x} {name}({format_data(data)})"
 
-        def format_element(element: tuple[Literal["opcode", "reference", "text"], ...]) -> str:
-            element_type = element[0]
-            if element_type == "opcode":
-                return format_opcode(element[1:])
-            elif element_type == "reference":
+        def format_element(element: Element) -> str:
+            if element[0] == "opcode":
+                return format_opcode(element)
+            elif element[0] == "reference":
                 return f"reference({element[1]:#02x})"
-            elif element_type == "text":
+            elif element[0] == "text":
                 return "text"
             else:
                 return str(element)
@@ -96,7 +107,8 @@ class Program:
             if key in self._labels:
                 out.write(f"__0x{key:02x}:\n")
             element = format_element(program[key][0])
-            comment = program[key][1].replace("\n", " ") if program[key][1] else None
+            raw_comment = program[key][1]
+            comment = raw_comment.replace("\n", " ") if raw_comment else None
 
             if comment:
                 comment = comment.replace("\\s", " ")
@@ -104,24 +116,24 @@ class Program:
             else:
                 out.write(f"{key:#04x} : {element}\n")
 
-    def display_program(self, out=None):
+    def display_program(self, out: TextIO | None = None) -> None:
         out = out or stdout
 
         self.display_program_part(out, self._program)
 
-    def dump_as_json(self, out=None):
+    def dump_as_json(self, out: TextIO | None = None) -> None:
         out = out or stdout
 
         class BytesEncoder(json.JSONEncoder):
-            def default(self, obj):
+            def default(self, obj: object) -> object:
                 if isinstance(obj, (bytearray, bytes)):
                     return obj.decode("unicode-escape")
                 return json.JSONEncoder.default(self, obj)
 
         out.write(json.dumps(self._program, cls=BytesEncoder))
 
-    def compile(self, output_file):
-        def serialize_data(output, data):
+    def compile(self, output_file: str) -> None:
+        def serialize_data(output: BinaryIO, data: Operands | Operand | None) -> None:
             if data:
                 if data[0] == "data":
                     for d in data[1:]:
@@ -149,8 +161,8 @@ class Program:
                 elif data[0] == "text":
                     output.write(data[1])
 
-    def opcode_frequency(self):
-        frequency = {}
+    def opcode_frequency(self) -> None:
+        frequency: dict[int, int] = {}
         for address in sorted(self._program.keys()):
             data, _comment, _size = self._program[address]
 
@@ -165,7 +177,7 @@ class Program:
         for opcode, freq in sorted_items:
             print("{opcode:#04x} : {freq}")
 
-    def check_for_gaps(self):
+    def check_for_gaps(self) -> None:
         """Never worked that well"""
         start = 0
         end = 0

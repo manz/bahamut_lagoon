@@ -3,8 +3,10 @@ Scenario 00's battle, reached from the debug menu: jump to scenario 00, skip its
 opens with Matelite's lines in the battle message window.
 """
 
+from tests.conftest import Console
 
-def test_battle_text_draws_with_the_pooled_vwf(console):
+
+def test_battle_text_draws_with_the_pooled_vwf(console: Console) -> None:
     console.load("debug-scenario-jump")
     console.press_until(console.button.DOWN, lambda: console.shows("JUMP TO SCENARIO  00"))
     console.press_until(console.button.A, lambda: console.shows("SKIP EVENT"))

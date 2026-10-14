@@ -4,8 +4,10 @@ windows whose strings draw through small_vwf into the window font. So is the STA
 their Japanese character counts but not their cells.
 """
 
+from tests.conftest import Console
 
-def open_command_window(console):
+
+def open_command_window(console: Console) -> None:
     console.load("battle-map")
     lines = console.count_calls("panel_put_char_hook")
     console.tap(console.button.A)
@@ -13,12 +15,12 @@ def open_command_window(console):
     console.emu.run_frames(60)
 
 
-def test_command_window_draws_with_the_small_vwf(console):
+def test_command_window_draws_with_the_small_vwf(console: Console) -> None:
     open_command_window(console)
     assert console.matches_golden("battle-commands")
 
 
-def test_skill_window_draws_with_the_small_vwf(console):
+def test_skill_window_draws_with_the_small_vwf(console: Console) -> None:
     open_command_window(console)
     for button in (console.button.A, console.button.UP, console.button.A, console.button.A):
         console.tap(button)
@@ -26,7 +28,7 @@ def test_skill_window_draws_with_the_small_vwf(console):
     assert console.matches_golden("battle-skills")
 
 
-def test_start_menu_draws_whole_strings_in_the_vanilla_column(console):
+def test_start_menu_draws_whole_strings_in_the_vanilla_column(console: Console) -> None:
     console.load("battle-map")
     lines = console.count_calls("panel_put_char_hook")
     console.tap(console.button.START)
@@ -40,7 +42,7 @@ WINDOW_SLOTS = range(0x333, 0x360)  # BG1 tiles of the window slots: the window 
 WINDOW_MAP = 0x4800
 
 
-def stale_window_cells(console, font: dict[int, bytes]) -> int:
+def stale_window_cells(console: Console, font: dict[int, bytes]) -> int:
     """Window slot tiles the BG1 map shows while they still hold the font's kana: their pixels came late."""
     vram = bytes(console.emu.vram_read_range(0, 0x10000))
     shown = {(vram[(WINDOW_MAP + cell) * 2] | vram[(WINDOW_MAP + cell) * 2 + 1] << 8) & 0x3FF for cell in range(0x400)}
@@ -52,7 +54,7 @@ def window_tile(vram: bytes, tile: int) -> bytes:
     return vram[word * 2 : word * 2 + 32]
 
 
-def test_window_slots_go_up_with_their_tilemap(console):
+def test_window_slots_go_up_with_their_tilemap(console: Console) -> None:
     console.load("battle-map")
     vram = bytes(console.emu.vram_read_range(0, 0x10000))
     font = {tile: window_tile(vram, tile) for tile in WINDOW_SLOTS}
@@ -66,7 +68,7 @@ def test_window_slots_go_up_with_their_tilemap(console):
     assert stale == 0
 
 
-def test_quick_save_messages_are_french(console):
+def test_quick_save_messages_are_french(console: Console) -> None:
     console.load("battle-map")
     console.tap(console.button.START)
     console.emu.run_frames(60)
@@ -79,7 +81,7 @@ def test_quick_save_messages_are_french(console):
     assert console.matches_golden("battle-save-done")
 
 
-def test_enemy_spell_banner_names_the_spell(console):
+def test_enemy_spell_banner_names_the_spell(console: Console) -> None:
     console.load("battle-map")
     for button in (console.button.A, console.button.A, console.button.DOWN, console.button.A, console.button.UP):
         console.tap(button)  # move Byuu's party, then onto Fin
@@ -89,7 +91,7 @@ def test_enemy_spell_banner_names_the_spell(console):
     assert console.matches_golden("battle-enemy-spell")
 
 
-def test_dragon_orders_and_its_full_name(console):
+def test_dragon_orders_and_its_full_name(console: Console) -> None:
     open_command_window(console)
     for button in (console.button.DOWN, console.button.DOWN, console.button.A):
         console.tap(button)
@@ -103,7 +105,7 @@ UNIT_NAME = 0x11
 SON_OF_ZORA = 0x14  # text/fr/names.xml: Fils de Zora, the widest name
 
 
-def test_the_roster_fits_the_widest_name_and_class(console):
+def test_the_roster_fits_the_widest_name_and_class(console: Console) -> None:
     console.load("battle-map")
     console.tap(console.button.R)
     console.emu.run_frames(120)

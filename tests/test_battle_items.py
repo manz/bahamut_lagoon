@@ -3,8 +3,10 @@ Scenario 00's battle, Equipe then Objets: the item list the menu engine draws ov
 eight cells through small_vwf.
 """
 
+from tests.conftest import Console
 
-def test_battle_item_list_draws_with_the_small_vwf(console):
+
+def test_battle_item_list_draws_with_the_small_vwf(console: Console) -> None:
     console.load("battle-items")
     names = console.count_calls("menu_draw_fixed_name")
     console.tap(console.button.A)

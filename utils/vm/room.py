@@ -1,7 +1,7 @@
 import os
 import struct
 import xml.etree.ElementTree as ET
-from typing import cast
+from typing import TYPE_CHECKING, cast
 from xml.dom import minidom
 from xml.etree.ElementTree import ElementTree
 
@@ -9,12 +9,15 @@ from script import Table
 
 from utils.vm import AlreadyVisitedError
 
-from .program import Program
+from .program import Entry, Program
+
+if TYPE_CHECKING:
+    from .opcodes import OpcodeProtocol
 
 text_path = os.path.join(os.path.dirname(__file__), "../../text")
 
 
-def prettify(elem):
+def prettify(elem: ET.Element) -> str:
     """Return a pretty-printed XML string for the Element."""
     unformatted_xml = ET.tostring(elem, "utf-8")
     parsed = minidom.parseString(unformatted_xml)
@@ -22,22 +25,30 @@ def prettify(elem):
 
 
 class Room:
-    def __init__(self, room: bytearray, opcode_table, opcode_names, table: Table, lang: str | None = None) -> None:
+    def __init__(
+        self,
+        room: bytearray,
+        opcode_table: dict[int, OpcodeProtocol],
+        opcode_names: dict[int, str],
+        table: Table,
+        lang: str | None = None,
+    ) -> None:
         self.table = table
         self.room = room + b"\xff" * 5
         self.lang = lang
         self.pc = 0
-        self.texts = {}
-        self.references = {}
-        self.stack = []
-        self.code = {}
-        self.jump_addresses = []
+        self.texts: dict[int, str] = {}
+        self.references: dict[int, set[int]] = {}
+        self.stack: list[int] = []
+        self.code: dict[int, bytes] = {}
+        self.jump_addresses: list[int] = []
         self.program = Program(opcode_names)
-        self._pc = []
+        self._pc: list[int] = []
         self.opcode_table = opcode_table
         self.opcode_names = opcode_names
         self.id = 0
         self.debug_outside_jump_protection = False
+        self.compressed_size = 0
 
     def save_pc(self) -> None:
         self._pc.append(self.pc)
@@ -83,19 +94,19 @@ class Room:
         word = self.room[self.pc + delta : self.pc + delta + 2]
         return cast(int, struct.unpack("<H", word)[0])
 
-    def get_data(self, delta: int = 0, size: int = 1) -> bytes:
+    def get_data(self, delta: int = 0, size: int = 1) -> bytearray:
         data = self.room[self.pc + delta : self.pc + size]
         return data
 
     def get_text_base(self) -> int | None:
-        text_program = self.program.filter(lambda _, e: e[0][0] == "text")
+        text_program = self.program.filter(_is_text)
         sorted_program_keys = sorted(text_program.keys())
         if len(sorted_program_keys) > 0:
             return sorted_program_keys[0]
         return None
 
-    def dump_text(self, override_strings=None):
-        text_program = self.program.filter(lambda _, e: e[0][0] == "text")
+    def dump_text(self, override_strings: list[str] | None = None) -> ET.Element | None:
+        text_program = self.program.filter(_is_text)
         sorted_program_keys = sorted(text_program.keys())
         if len(sorted_program_keys) > 0:
             root = ET.Element("texts")
@@ -116,12 +127,15 @@ class Room:
                 if override_strings:
                     data.text = override_strings[index]
                 else:
-                    data.text = self.table.to_text(bytes(text_program[key][0][1])).replace("\\s", " ")
+                    element = text_program[key][0]
+                    if element[0] != "text":
+                        raise TypeError(f"{key:#x} is not a text")
+                    data.text = self.table.to_text(bytes(element[1])).replace("\\s", " ")
 
             return root
         return None
 
-    def _apply_patches(self, base: int, patches: dict[int, int], text_data: bytes) -> bytes:
+    def _apply_patches(self, base: int, patches: dict[int, int], text_data: bytes) -> bytearray:
         patched_room: bytearray = self.room[:base] + text_data
 
         for address, pointer in patches.items():
@@ -130,39 +144,56 @@ class Room:
 
         return patched_room
 
-    def apply_patches(self, patches):
+    def apply_patches(self, patches: list[tuple[int, int]] | None) -> None:
         if patches is not None:
             for patch in patches:
                 print(f"{patch[0]:#x}: {patch[1]:#x}")
                 self.room[patch[0]] = patch[1]
 
-    def get_base_from_tree(self, tree: ElementTree) -> int:
+    def get_base_from_tree(self, tree: ElementTree[ET.Element]) -> int:
         texts = tree.getroot()
 
         return int(texts.attrib["base"], 16)
 
-    def update_text(self, tree: ElementTree) -> bytes:
+    def update_text(self, tree: ElementTree[ET.Element]) -> bytes:
         texts = tree.getroot()
 
         base = int(texts.attrib["base"], 16)
-        patches = {}
+        patches: dict[int, int] = {}
 
         text_data = b""
         for text in texts:
-            refs = text.find("refs")
+            for ref in child(text, "refs"):
+                patches[int(element_text(ref), 16)] = base + len(text_data)
 
-            for ref in refs:
-                patches[int(ref.text, 16)] = base + len(text_data)
-
-            data = text.find("data")
+            data = child(text, "data")
             if data.text:
                 encoded_text = self.table.to_bytes(data.text.replace(" ", r"\s"))
                 text_data += encoded_text
 
-        return self._apply_patches(base, patches, text_data)
+        return bytes(self._apply_patches(base, patches, text_data))
 
 
-def hexdump(data):
+def _is_text(_address: int, entry: Entry) -> bool:
+    return entry[0][0] == "text"
+
+
+def child(element: ET.Element, tag: str) -> ET.Element:
+    """element's first `tag` child; raise when it has none."""
+    found = element.find(tag)
+    if found is None:
+        raise ValueError(f"<{element.tag}> has no <{tag}>")
+    return found
+
+
+def element_text(element: ET.Element) -> str:
+    """element's text; raise when it has none."""
+    if element.text is None:
+        raise ValueError(f"<{element.tag}> has no text")
+    return element.text
+
+
+def hexdump(data: bytes) -> None:
     pos = 0
     line = data[:0x10]
     while line != b"":
