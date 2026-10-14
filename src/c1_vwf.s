@@ -131,6 +131,7 @@ character count, X past the string, as the engine leaves them; P as it came.
     jsr.w _string_source
     jsr.w _field_cells
     plx
+    jsr.w _fit_window
     sep #0x20
     lda.l c1.field
     cmp #_MIN_CHARS
@@ -227,6 +228,35 @@ _counted:
     rep #0x20
     tya
     sta.l c1.field
+    rts
+
+_fit_window:
+"""
+c1.field down to the cells before the first window frame tile from X. The engine lays a field out from the name's
+codes; small_vwf draws a French name in fewer cells and blanks the rest of the field, and those blanks would run
+over the border of a window sized for the Japanese name. X kept.
+"""
+    rep #0x30
+    phx
+    ldy.w #0x0000
+_fit_cell:
+    tya
+    cmp.l c1.field
+    bcs _fitted
+    lda.l _SHADOW, x
+    and.w #0x03FF
+    dec
+    cmp.w #_FRAME_TILES
+    bcc _frame_reached
+    inx
+    inx
+    iny
+    bra _fit_cell
+_frame_reached:
+    tya
+    sta.l c1.field
+_fitted:
+    plx
     rts
 
 _item_icon:
