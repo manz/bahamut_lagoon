@@ -1,0 +1,128 @@
+@DATE@
+
+BAHAMUT LAGOON @VERSION@
+
+----------------------------------------------------------------
+***********************Table des matières***********************
+----------------------------------------------------------------
+
+1.	L'HISTOIRE DE BAHAMUT LAGOON
+2.	L'HISTORIQUE DE LA TRADUCTION
+3.	CONTENU DE L'ARCHIVE ET UTILISATION
+4.	TOUT CE QUI A ÉTÉ FAIT
+5.	L'ÉQUIPE DE LA TRADUCTION
+6.	CONTACTS
+7.	REMARQUES LÉGALES
+
+----------------------------------------------------------------
+1.  L'HISTOIRE DE BAHAMUT LAGOON
+----------------------------------------------------------------
+
+Le royaume de Kahna est tombé sous les coups de l'Empire de
+Granbelos et de son empereur Sauzer, qui convoite le pouvoir
+des dragons divins. La princesse Yoyo est captive. Byuu, jeune
+capitaine de l'escadron des dragons, rassemble les survivants
+de Kahna et leurs dragons pour reprendre le royaume et sauver
+la princesse...
+
+Sorti en 1996 sur Super Famicom, uniquement au Japon, Bahamut
+Lagoon est un jeu de stratégie et de rôle signé Square.
+
+----------------------------------------------------------------
+2.  L'HISTORIQUE DE LA TRADUCTION
+----------------------------------------------------------------
+
+Le script français des dialogues vient de la bêta 4 de la
+traduction de Terminus Traduction, signée Le Noble Bahamut.
+
+Le hacking commence en 2017 (github.com/manz/bahamut_lagoon) :
+police à chasse variable des dialogues, extraction des salles
+de dialogue. Le projet reprend en 2026 et s'étend aux menus,
+aux combats, à l'écran de nom et à tous les écrans du jeu.
+Cette version est une alpha : le jeu n'a pas encore été joué
+de bout en bout en français, il reste sans doute des coquilles
+et des bugs. Signalez-les (voir 6).
+
+----------------------------------------------------------------
+3.  CONTENU DE L'ARCHIVE ET UTILISATION
+----------------------------------------------------------------
+
+Normalement, l'archive ZIP doit contenir :
+
+bl.ips		- Le patch IPS de Bahamut Lagoon version française
+		  @VERSION@ à appliquer sur la rom japonaise originale.
+
+LISEZMOI.txt	- Le fichier que vous êtes en train de lire
+
+Utilisez le patch sur la rom japonaise Bahamut Lagoon
+(sans en-tête, 3 Mo) UNIQUEMENT :
+  CRC32  1B83C440
+  SHA-1  c8bca249ebd481dfd7bb851c7846844ab70d3003
+
+La rom patchée fait 4 Mo.
+
+----------------------------------------------------------------
+4.  TOUT CE QUI A ÉTÉ FAIT
+----------------------------------------------------------------
+
+@VERSION@ :
+
+- Traduction intégrale : dialogues, messages de combat, menus,
+  objets, magies, classes, dragons, ennemis.
+- Police à chasse variable dans les dialogues, les
+  descriptions d'objets et les combats.
+- Petite police à chasse variable pour les noms des menus, du
+  panneau de combat et des scènes de combat.
+- Noms complets des objets, magies et personnages.
+- Typographie française dans les dialogues.
+- Écran de nom pour les noms français.
+- Correction d'un bug d'affichage du jeu original (ligne en
+  trop sous l'écran d'état).
+
+La liste complète des changements accompagne la publication
+sur GitHub.
+
+----------------------------------------------------------------
+5.  L'ÉQUIPE DE LA TRADUCTION
+----------------------------------------------------------------
+
+   Le Noble Bahamut : Traduction française des dialogues
+                      (Terminus Traduction, bêta 4).
+   ManZ             : Hacking, outils.
+
+----------------------------------------------------------------
+6.  CONTACTS
+----------------------------------------------------------------
+
+Une remarque, une question ou une correction à apporter à la
+traduction de Bahamut Lagoon @VERSION@ (indiquez la version,
+l'endroit du jeu et, si possible, une capture ou une
+sauvegarde) :
+
+Bugs et coquilles - https://github.com/manz/bahamut_lagoon/issues
+
+Le projet - https://github.com/manz/bahamut_lagoon
+
+----------------------------------------------------------------
+7.  REMARQUES LÉGALES
+----------------------------------------------------------------
+
+Le patch de traduction française de Bahamut Lagoon n'est pas
+officiel et n'est pas supporté par les concepteurs du jeu.
+
+Ce patch est gratuit et peut être distribué gratuitement tant
+qu'il n'est pas modifié, appliqué ou distribué avec une rom,
+et que l'archive originale n'est pas modifiée non plus. Ni
+argent, biens ou services ne peuvent être demandés pour ce
+patch, dans sa forme originale ou appliquée.
+
+Tous ceux qui utilisent ce patch le font à leurs propres
+risques. Aucune personne citée dans cette documentation ne
+pourra être tenue responsable de n'importe quels dommages
+provenant de son usage.
+
+----------------------------------------------------------------
+
+Merci d'avoir lu jusqu'au bout et à bientôt !
+
+ManZ
