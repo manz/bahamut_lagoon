@@ -61,6 +61,9 @@ Utilisez le patch sur la rom japonaise Bahamut Lagoon
 
 La rom patchée fait 4 Mo.
 
+La version du patch s'affiche en haut à droite de l'écran
+Charger Partie.
+
 ----------------------------------------------------------------
 4.  TOUT CE QUI A ÉTÉ FAIT
 ----------------------------------------------------------------

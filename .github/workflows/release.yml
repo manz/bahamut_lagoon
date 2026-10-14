@@ -26,7 +26,7 @@ jobs:
         mkdir -p build
         gpg --quiet --batch --yes --decrypt --passphrase="$BAHAMUT_PASSWORD" bl.sfc.gz.gpg | gunzip > build/bl.sfc
     - name: Build patch
-      run: uv run ./build.py
+      run: BL_VERSION=${{ github.ref_name }} uv run ./build.py
     - name: Package
       run: |
         mkdir -p dist
