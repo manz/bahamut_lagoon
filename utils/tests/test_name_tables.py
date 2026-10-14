@@ -40,7 +40,7 @@ class LongNamesSourceTestCase(TestCase):
         source = long_names_source(TABLE, FONT, [TABLE.to_bytes("NV")])[0]
         for name_table in NAME_TABLES:
             with self.subTest(table=name_table.label):
-                self.assertIn(f"    .dl 0x{name_table.address:06X}", source)
+                self.assertIn(f"        record = 0x{name_table.address:06X}\n", source)
 
     def test_strings_end_with_ff(self):
         source = long_names_source(TABLE, FONT, [TABLE.to_bytes("NV")])[0]
@@ -51,19 +51,19 @@ class LongNamesSourceTestCase(TestCase):
     def test_every_name_has_a_baked_entry(self):
         source = long_names_source(TABLE, FONT, [TABLE.to_bytes("NV")])[0]
         entries = source.split("_class_names_baked:\n")[1].splitlines()
-        self.assertRegex(entries[0], r"^    \.dw 0x[0-9A-F]{4}$")
-        self.assertRegex(entries[1], r"^    \.db \d+, 0$")
+        self.assertRegex(entries[0], r"^    \.istruct BakedEntry \{ offset = 0x[0-9A-F]{4}, cells = \d+ \}$")
 
     def test_identical_names_share_their_tiles(self):
         source, blob = long_names_source(TABLE, FONT, [TABLE.to_bytes("NV")])
-        offsets = [line for line in source.splitlines() if line.startswith("    .dw 0x")]
+        offsets = [line for line in source.splitlines() if line.startswith("    .istruct BakedEntry")]
         self.assertLess(len(blob), len(offsets) * 12 * 16)
         self.assertLess(len(set(offsets)), len(offsets))
 
     def test_inline_segments_follow_the_names(self):
         source = long_names_source(TABLE, FONT, [TABLE.to_bytes("NV")])[0]
         self.assertRegex(
-            source.split("small_vwf_inline_baked:\n")[1], r"^    \.dw 0x[0-9A-F]{4}\n    \.db 2, 0\n"
+            source.split("small_vwf_inline_baked:\n")[1],
+            r"^    \.istruct BakedEntry \{ offset = 0x[0-9A-F]{4}, cells = 2 \}\n",
         )  # two 4-pixel glyphs and their gaps
 
 

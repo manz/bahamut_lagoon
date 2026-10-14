@@ -492,7 +492,7 @@ _record_tables:
     .dw 0x0380  ; characters
     .dw 0x1F50  ; enemies
     .dw 0x5920  ; spells
-    .dw 0x3CA0  ; items, 9 bytes a record
+    .dw _ITEM_RECORDS & 0xFFFF  ; 9 bytes a record
     .dw 0x63D8  ; dragons
 _run_bits:
     .db 0x01, 0x00, 0x02, 0x00, 0x04, 0x00, 0x00
@@ -508,4 +508,7 @@ _run_bytes:
     .dw _KANA_SLOTS * _TILE_4BPP
     .dw _BLANK_SLOTS * _TILE_4BPP
     .dw ( _SLOTS - _KANA_SLOTS - _BLANK_SLOTS ) * _TILE_4BPP
+    .assert _KANA_SLOTS == 0x60 - 0x33, "the kana run is tiles 0x33-0x5F"
+    .assert _BLANK_SLOTS == 0x180 - 0x170, "the blank run is tiles 0x170-0x17F"
+    .assert _SLOTS - _KANA_SLOTS - _BLANK_SLOTS == 0x170 - 0x100, "the last run is tiles 0x100-0x16F"
 }

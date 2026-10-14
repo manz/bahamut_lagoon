@@ -64,6 +64,7 @@ end_event:
 .alloc at 0xC0AFA3 {
     cpx.w #jump_to_scenario_end & 0xFFFF
 }
+.assert 6 + jump_to_scenario_end - jump_to_scenario <= 24, "the scenario jump label runs into the scenario number"
 
 ; Event / unit numbers.
 .alloc at 0xC0CF4B {
