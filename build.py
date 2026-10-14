@@ -45,10 +45,11 @@ NAMING_GRIDS = Path("build/gen/naming_grids.s")  # generated module: the naming 
 
 @dataclass(frozen=True)
 class Variant:
-    """One patch build: the release patch, or the same with the game's debug mode on."""
+    """One patch build: the release patch, the same with checks (src/checks.i), or with the game's debug mode on."""
 
     stem: str
     debug: bool
+    checks: bool = False
 
     @property
     def ips(self) -> Path:
@@ -69,7 +70,8 @@ class Variant:
 
 
 RELEASE = Variant("bl", debug=False)
-DEBUG = Variant("bl-debug", debug=True)
+CHECKS = Variant("bl-checks", debug=False, checks=True)
+DEBUG = Variant("bl-debug", debug=True, checks=True)
 
 
 def build_code(source: str, variant: Variant) -> None:
@@ -81,7 +83,7 @@ def build_code(source: str, variant: Variant) -> None:
         output_file=variant.code_ips,
         output_format="ips",
         output_dir=variant.obj_dir,
-        symbols={"DEBUG": int(variant.debug)},
+        symbols={"DEBUG": int(variant.debug), "CHECKS": int(variant.checks)},
         overlap_mode="error",
     )
     if result.exit_code != 0:
@@ -202,7 +204,9 @@ def build_ips(variant: Variant) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Build the Bahamut Lagoon patch into build/.")
-    parser.add_argument("--debug", action="store_true", help="build build/bl-debug.ips with debug mode on")
+    variants = parser.add_mutually_exclusive_group()
+    variants.add_argument("--debug", action="store_true", help="build build/bl-debug.ips with debug mode and checks on")
+    variants.add_argument("--checks", action="store_true", help="build build/bl-checks.ips: the release with checks on")
     parser.add_argument("-v", "--verbose", action="count", default=0, help="-v for progress, -vv for room dumps")
     args = parser.parse_args()
     level = (logging.WARNING, logging.INFO, logging.DEBUG)[min(args.verbose, 2)]
@@ -225,7 +229,7 @@ def main() -> int:
     if assets_need_refresh(room_sources, ROOMS_PARTIAL):
         build_rooms_partial(Table(str(TABLE)))
 
-    build_ips(DEBUG if args.debug else RELEASE)
+    build_ips(DEBUG if args.debug else CHECKS if args.checks else RELEASE)
     return 0
 
 

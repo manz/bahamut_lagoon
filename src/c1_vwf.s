@@ -16,6 +16,7 @@ runs first.
 """
 
 .include "src/expansion.i"
+.include "src/checks.i"
 .include "src/sram_work.i"
 .include "src/tile_pool.i"
 .extern small_vwf_render
@@ -30,6 +31,7 @@ _FONT_VRAM = 0x4000
 _TILE_MAP = 0xC1CB4B  ; code -> tile
 _ATTR = 0x3800
 _BLANK_TILE = 0x12
+_FRAME_TILES = 3  ; tiles 0x01-0x03: a window's corner, edge and side
 _BUFFER = 0x000870  ; where C12EC0 copies a name
 _SLOTS = 173
 _KANA_SLOTS = 45  ; tiles 0x33-0x5F, then 0x170-0x17F, then 0x100-0x16F
@@ -129,6 +131,7 @@ character count, X past the string, as the engine leaves them; P as it came.
     jsr.w _string_source
     jsr.w _field_cells
     plx
+    jsr.w _fit_window
     sep #0x20
     lda.l c1.field
     cmp #_MIN_CHARS
@@ -227,6 +230,35 @@ _counted:
     sta.l c1.field
     rts
 
+_fit_window:
+"""
+c1.field down to the cells before the first window frame tile from X. The engine lays a field out from the name's
+codes; small_vwf draws a French name in fewer cells and blanks the rest of the field, and those blanks would run
+over the border of a window sized for the Japanese name. X kept.
+"""
+    rep #0x30
+    phx
+    ldy.w #0x0000
+_fit_cell:
+    tya
+    cmp.l c1.field
+    bcs _fitted
+    lda.l _SHADOW, x
+    and.w #0x03FF
+    dec
+    cmp.w #_FRAME_TILES
+    bcc _frame_reached
+    inx
+    inx
+    iny
+    bra _fit_cell
+_frame_reached:
+    tya
+    sta.l c1.field
+_fitted:
+    plx
+    rts
+
 _item_icon:
 """An item's record starts with its icon: draw it as a cell, then the name past it. c1.index: 1 for an icon."""
     rep #0x30
@@ -248,6 +280,9 @@ _item_icon:
     and.w #0x00FF
     ora.w #_ATTR
     plx
+    .if CHECKS {
+    jsr.w _check_frame
+    }
     sta.l _SHADOW, x
     inx
     inx
@@ -287,6 +322,9 @@ _blank:
     lda.w #_BLANK_TILE
 _put:
     ora.w #_ATTR
+    .if CHECKS {
+    jsr.w _check_frame
+    }
     sta.l _SHADOW, x
     inx
     inx
@@ -296,6 +334,24 @@ _put:
     bra _cell
 _drawn:
     rts
+
+    .if CHECKS {
+_check_frame:
+"""CHECKS: stop (CHECK_C1_FRAME) when the cell at X holds a window frame tile. 16-bit A; A and P kept."""
+    php
+    pha
+    lda.l _SHADOW, x
+    and.w #0x03FF
+    dec
+    cmp.w #_FRAME_TILES
+    bcs _not_frame
+    lda.w #CHECK_C1_FRAME
+    stp
+_not_frame:
+    pla
+    plp
+    rts
+    }
 
 _slot_for_cell:
 """A slot for c1.cell, filled with rendered cell c1.rows: A = its tile, carry set; clear when none."""
