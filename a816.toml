@@ -6,3 +6,4 @@ rom_size = 0x400000     # 3 MB image expanded to 4 MB (banks F0-FF)
 
 [defines]
 DEBUG = 0  # build.py --debug sets 1
+CHECKS = 0  # build.py --checks and --debug set 1: src/checks.i

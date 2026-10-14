@@ -16,6 +16,7 @@ runs first.
 """
 
 .include "src/expansion.i"
+.include "src/checks.i"
 .include "src/sram_work.i"
 .include "src/tile_pool.i"
 .extern small_vwf_render
@@ -30,6 +31,7 @@ _FONT_VRAM = 0x4000
 _TILE_MAP = 0xC1CB4B  ; code -> tile
 _ATTR = 0x3800
 _BLANK_TILE = 0x12
+_FRAME_TILES = 3  ; tiles 0x01-0x03: a window's corner, edge and side
 _BUFFER = 0x000870  ; where C12EC0 copies a name
 _SLOTS = 173
 _KANA_SLOTS = 45  ; tiles 0x33-0x5F, then 0x170-0x17F, then 0x100-0x16F
@@ -248,6 +250,9 @@ _item_icon:
     and.w #0x00FF
     ora.w #_ATTR
     plx
+    .if CHECKS {
+    jsr.w _check_frame
+    }
     sta.l _SHADOW, x
     inx
     inx
@@ -287,6 +292,9 @@ _blank:
     lda.w #_BLANK_TILE
 _put:
     ora.w #_ATTR
+    .if CHECKS {
+    jsr.w _check_frame
+    }
     sta.l _SHADOW, x
     inx
     inx
@@ -296,6 +304,24 @@ _put:
     bra _cell
 _drawn:
     rts
+
+    .if CHECKS {
+_check_frame:
+"""CHECKS: stop (CHECK_C1_FRAME) when the cell at X holds a window frame tile. 16-bit A; A and P kept."""
+    php
+    pha
+    lda.l _SHADOW, x
+    and.w #0x03FF
+    dec
+    cmp.w #_FRAME_TILES
+    bcs _not_frame
+    lda.w #CHECK_C1_FRAME
+    stp
+_not_frame:
+    pla
+    plp
+    rts
+    }
 
 _slot_for_cell:
 """A slot for c1.cell, filled with rendered cell c1.rows: A = its tile, carry set; clear when none."""

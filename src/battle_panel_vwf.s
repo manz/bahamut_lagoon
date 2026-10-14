@@ -26,6 +26,7 @@ the window font's kana.
 """
 
 .include "src/expansion.i"
+.include "src/checks.i"
 .include "src/sram_work.i"
 .include "src/tile_pool.i"
 .extern small_vwf_render
@@ -50,6 +51,9 @@ BLANK = 0xEF
 TILE_BYTES = 16
 FONT_VRAM = 0x4000  ; BG3 tile 0x200, 8x8 code 0x00
 PANEL_ATTR = 0x22
+WINDOW_ATTR = 0x23  ; a BG1 window's line
+FRAME_FIRST = 0xE0  ; a window's or the panel's corner, edge and side codes
+FRAME_LAST = 0xE2
 POOL_SLOTS = 75  ; the panel's, then the windows'
 WINDOW_SLOTS = 45
 ALL_SLOTS = POOL_SLOTS + WINDOW_SLOTS
@@ -509,6 +513,9 @@ panel_put_char_hook:
 A: the character, X: past it in the line, Y: its tilemap cell. On the panel a placeholder becomes a pool tile, in
 a window the character it stands for.
 """
+    .if CHECKS {
+    jsr.w _check_frame
+    }
     cmp #BLANK
     bne _not_blank
 _draw_blank:
@@ -571,6 +578,47 @@ _slot_found:
     lda.l panel.slot_code
     plx
     jml.l 0xC0CAED
+
+    .if CHECKS {
+_check_frame:
+"""
+CHECKS: stop (CHECK_PANEL_FRAME) when the tilemap cell Y (bank 7E, as put_char writes it) holds a window or panel
+frame and A, the character put there, is not one. 8-bit A; A and P kept.
+"""
+    php
+    pha
+    sep #0x20
+    cmp #FRAME_FIRST
+    bcc _not_frame_char
+    cmp #FRAME_LAST + 1
+    bcc _frame_kept  ; a frame redrawn
+_not_frame_char:
+    phb
+    pea 0x7E7E
+    plb
+    plb
+    lda.w 0x0001, y
+    and #0x3F  ; the flips aside
+    cmp #PANEL_ATTR
+    beq _frame_attr
+    cmp #WINDOW_ATTR
+    bne _no_frame
+_frame_attr:
+    lda.w 0x0000, y
+    cmp #FRAME_FIRST
+    bcc _no_frame
+    cmp #FRAME_LAST + 1
+    bcs _no_frame
+    rep #0x20
+    lda.w #CHECK_PANEL_FRAME
+    stp
+_no_frame:
+    plb
+_frame_kept:
+    pla
+    plp
+    rts
+    }
 
 _find_slot:
 """
