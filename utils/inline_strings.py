@@ -1,3 +1,4 @@
+import os
 import re
 import struct
 import xml.etree.ElementTree as ET
@@ -298,9 +299,18 @@ class InlineStringHook:
     xref: int  # bus address of the vanilla call
     pointer: int  # low word of the relocated string's bus address
     padding: int  # nops from the end of the hook to the vanilla return address
+    cursor: int | None = None  # a text cursor to set first: a string the game never drew, in a hook's padding
 
 
 HOOK_SIZE = 5  # jsr.w draw_inline_string_patched + .dw pointer
+CURSOR_SIZE = 6  # lda.w #cursor + jsr.w set_text_cursor
+SET_TEXT_CURSOR = 0x495B  # bank EE: A, the byte offset in the tilemap from the line base
+VERSION = "@VERSION@"  # in inline.xml: the release's version
+
+
+def release_version() -> str:
+    """The version the build shows: the release tag in CI (BL_VERSION), "dev" otherwise."""
+    return os.environ.get("BL_VERSION") or "dev"
 
 
 INLINE_END = 0xFF
@@ -365,12 +375,19 @@ def insert_inline_strings(writer: Writer, address: int) -> tuple[int, list[Inlin
         jump_to = int(string.attrib["jump_to"], 16)
         width = string.get("width")
         cells = [int(cell) for cell in string.get("cells", "").split()] or None
-        record = inline_record(table, string.text or "", ids, int(width) if width else None, string.get("align"), cells)
+        text = (string.text or "").replace(VERSION, release_version())
+        record = inline_record(table, text, ids, int(width) if width else None, string.get("align"), cells)
         if record not in offsets:
             offsets[record] = len(text_data)
             text_data += record
         pointer = rom_address(address + offsets[record]) & 0xFFFF
-        hooks.append(InlineStringHook(xref, pointer, max(jump_to - xref - HOOK_SIZE, 0)))
+        cursor = int(string.attrib["cursor"], 16) if "cursor" in string.attrib else None
+        size = HOOK_SIZE + (CURSOR_SIZE if cursor is not None else 0)
+        if jump_to - xref < size:
+            raise ValueError(
+                f"inline string at {xref:06X}: {size} bytes of hook, {jump_to - xref} before {jump_to:06X}"
+            )
+        hooks.append(InlineStringHook(xref, pointer, jump_to - xref - size, cursor))
 
     writer.write_block(text_data, address)
     return rom_address(address + len(text_data)), hooks, list(ids)
@@ -387,6 +404,10 @@ def inline_string_hooks_source(hooks: list[InlineStringHook]) -> str:
         lines += [
             "",
             f".alloc at 0x{hook.xref:06X} {{",
+        ]
+        if hook.cursor is not None:
+            lines += [f"    lda.w #0x{hook.cursor:04X}", f"    jsr.w 0x{SET_TEXT_CURSOR:04X}  ; set_text_cursor"]
+        lines += [
             "    jsr.w draw_inline_string_patched",
             f"    .dw 0x{hook.pointer:04X}",
         ]

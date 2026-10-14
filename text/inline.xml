@@ -82,7 +82,8 @@
     <string jump_to="0xeed2f1" ref="0xeed2e2">Sortie</string>
     <string jump_to="0xeed309" ref="0xeed300">Oui</string>
     <string jump_to="0xeed31a" ref="0xeed30f">Non</string>
-    <string jump_to="0xeed3e5" ref="0xeed3d2">PAS DE DONNEES</string>
+    <string jump_to="0xeed3d7" ref="0xeed3d2">PAS DE DONNEES</string>
+    <string jump_to="0xeed3e5" ref="0xeed3d7" cursor="0x0068" width="10" align="right">@VERSION@</string>
     <string jump_to="0xeed3fe" ref="0xeed3eb">PAS DE DONNEES</string>
     <string jump_to="0xeed417" ref="0xeed404">PAS DE DONNEES</string>
     <string jump_to="0xeed58a" ref="0xeed577">Chapitre</string>

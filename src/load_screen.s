@@ -4,6 +4,9 @@ Load screen save slot header, laid out for the French labels.
 The vanilla code places each piece with `lda #offset` / `jsr 0x495B` (byte offset in the slot's BG2 tilemap, two
 bytes a tile), then prints it. "Chapitre" is one letter longer than "CHAPTER", and "TEMPS   :  :  " carries the
 time's colons for a start one tile left of "TIME".
+
+The release's version (build.py: BL_VERSION, "dev" by default) is an inline string of text/inline.xml drawn top right,
+in the padding the first "PAS DE DONNEES" hook leaves.
 """
 
 

@@ -1,11 +1,21 @@
 import io
+import os
+from unittest import mock
 from unittest.case import TestCase
 
 from a816.program import Program
 from script import Table
 
 from utils.cartridge import rom_address
-from utils.inline_strings import INLINE_CELL, INLINE_RIGHT, dragon_find_address, inline_record
+from utils.inline_strings import (
+    INLINE_CELL,
+    INLINE_RIGHT,
+    InlineStringHook,
+    dragon_find_address,
+    inline_record,
+    inline_string_hooks_source,
+    release_version,
+)
 
 TABLE = Table("text/table/mz.tbl")
 
@@ -117,3 +127,27 @@ class InlineRecordTestCase(TestCase):
         record("NV", ids=ids)
         self.assertEqual(record("Atk.  NV", 8, ids=ids)[-3:-1], bytes([0, 0]))
         self.assertEqual(list(ids), [TABLE.to_bytes("NV"), TABLE.to_bytes("Atk.")])
+
+
+class InlineStringHooksTestCase(TestCase):
+    def test_a_hook_draws_the_record_then_pads_to_the_return(self) -> None:
+        source = inline_string_hooks_source([InlineStringHook(0xEED3D2, 0x02A5, 2)])
+        self.assertIn(
+            ".alloc at 0xEED3D2 {\n    jsr.w draw_inline_string_patched\n    .dw 0x02A5\n    nop\n    nop\n}", source
+        )
+
+    def test_a_hook_with_a_cursor_sets_it_first(self) -> None:
+        source = inline_string_hooks_source([InlineStringHook(0xEED3D7, 0x02B9, 3, 0x0068)])
+        self.assertIn(
+            "    lda.w #0x0068\n    jsr.w 0x495B  ; set_text_cursor\n    jsr.w draw_inline_string_patched", source
+        )
+
+
+class ReleaseVersionTestCase(TestCase):
+    def test_the_release_tag_is_the_version(self) -> None:
+        with mock.patch.dict(os.environ, {"BL_VERSION": "v1.0.0a0"}):
+            self.assertEqual(release_version(), "v1.0.0a0")
+
+    def test_a_local_build_is_dev(self) -> None:
+        with mock.patch.dict(os.environ, {"BL_VERSION": ""}):
+            self.assertEqual(release_version(), "dev")
