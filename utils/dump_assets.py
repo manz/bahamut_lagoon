@@ -1,10 +1,12 @@
+from collections.abc import Callable
 from io import BytesIO
+from typing import BinaryIO
 
 import numpy as np
 from PIL import Image
 
 
-def byte_to_bit_array(c):
+def byte_to_bit_array(c: int) -> list[int]:
     retval = []
     k = 16
     for i in range(16):
@@ -13,7 +15,7 @@ def byte_to_bit_array(c):
     return retval
 
 
-def bytes_to_char(char_data):
+def bytes_to_char(char_data: bytes) -> list[list[int]]:
     data = []
     k = 0
     # for z in range(2):
@@ -33,24 +35,17 @@ def bytes_to_char(char_data):
     return data
 
 
-def dump_vwf(data):
-    font = None
+def dump_vwf(data: bytes) -> bytes:
+    lines = []
     for i in range(64):
-        line = None
+        chars = []
         for k in range(16):
             char_index = i * 16 + k
 
             char_data = data[char_index * 24 : (char_index + 1) * 24]
-            char = bytes_to_char(char_data)
-
-            if line is not None:
-                line = np.concatenate([line, char], 1)
-            else:
-                line = char
-        if font is not None:
-            font = np.concatenate([font, line], 0)
-        else:
-            font = line
+            chars.append(bytes_to_char(char_data))
+        lines.append(np.concatenate(chars, 1))
+    font = np.concatenate(lines, 0)
 
     im = Image.fromarray(np.uint8(font * 255))
     bio = BytesIO()
@@ -59,10 +54,10 @@ def dump_vwf(data):
     return bio.getvalue()
 
 
-asset_processor = {"vwf": dump_vwf, "raw": lambda data: data}
+asset_processor: dict[str, Callable[[bytes], bytes]] = {"vwf": dump_vwf, "raw": lambda data: data}
 
 
-def dump_asset(asset_type, rom, address, size, output_file):
+def dump_asset(asset_type: str, rom: BinaryIO, address: int, size: int, output_file: str) -> None:
     with open(output_file, "wb") as output:
         rom.seek(address)
         data = rom.read(size)
@@ -72,7 +67,7 @@ def dump_asset(asset_type, rom, address, size, output_file):
         output.write(image_data)
 
 
-def process_asset_list(rom, assets):
+def process_asset_list(rom: BinaryIO, assets: list[tuple[str, int, int, str]]) -> None:
     for asset in assets:
         args = (rom,) + asset[1:]
         dump_asset(asset[0], *args)

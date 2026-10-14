@@ -4,6 +4,7 @@ from script import Table
 
 from . import AlreadyVisitedError
 from .executor import walk_event_chain
+from .program import Operand
 from .room import Room
 
 
@@ -20,14 +21,14 @@ def bl_prefix_lookup_chars(data_string: bytes) -> bytes:
     return bytes(retval)
 
 
-def get_string_from_room(room: Room, address: int, table: Table):
+def get_string_from_room(room: Room, address: int, table: Table) -> tuple[int, str]:
     pos = address
     room_data = room.room
     while True:
         if pos >= len(room_data):
             pos = len(room_data)
             break
-        if room_data[pos : pos + 2] in (b"\xff\xff", b"\xfd\xff"):
+        if bytes(room_data[pos : pos + 2]) in (b"\xff\xff", b"\xfd\xff"):
             pos += 2
             break
         elif room_data[pos] in (0xFF, 0xFD):
@@ -48,7 +49,7 @@ def get_string_from_room(room: Room, address: int, table: Table):
     return pos - address, decoded_text
 
 
-def decode_actor_motion(data):
+def decode_actor_motion(data: list[int]) -> str:
     motions = {
         0x00: "up",
         0x10: "down",
@@ -90,7 +91,7 @@ class CommentLambda(Protocol):
 
 
 class DataLambda(Protocol):
-    def __call__(self, room: Room) -> bytes: ...
+    def __call__(self, room: Room) -> bytes | bytearray: ...
 
 
 class Opcode:
@@ -185,7 +186,7 @@ class ActorList:
 
 
 class TextOpcode:
-    def __init__(self, size: int | None = 3) -> None:
+    def __init__(self, size: int = 3) -> None:
         self.size = size
 
     def apply(self, room: Room) -> int:
@@ -235,7 +236,7 @@ class YesNoChoiceOpcode:
 
 class MultipleChoiceTextOpcode:
     @staticmethod
-    def _extract_choice(room: Room, original_pc: int, delta: int):
+    def _extract_choice(room: Room, original_pc: int, delta: int) -> None:
         room.pc = original_pc
         room.save_pc()
         try:
@@ -298,10 +299,11 @@ class ConditionalJump(Jump):
     def apply(self, room: Room) -> int:
         current_pc = room.pc
         size = self.size
-        conditions = [("byte", room.get_byte(1 + k)) for k in range(self.operands)]
+        operands: list[Operand] = [("byte", room.get_byte(1 + k)) for k in range(self.operands)]
 
         jump_addr = room.get_word(1 + self.operands)
-        room.program.put_opcode(current_pc, room.get_byte(), ("data", *conditions, ("reference", jump_addr)), size=size)
+        operands.append(("reference", jump_addr))
+        room.program.put_opcode(current_pc, room.get_byte(), ("data", *operands), size=size)
 
         room.save_pc()
         try:

@@ -4,11 +4,12 @@ Build room assembly files with a816 and patch into ROM
 """
 
 import os
+from pathlib import Path
 
 from a816.program import Program
 
 
-def build_room(asm_file, output_bin):
+def build_room(asm_file: str, output_bin: Path) -> bool:
     """Assemble room file with a816"""
 
     program = Program()
@@ -18,7 +19,7 @@ def build_room(asm_file, output_bin):
     return exit_code == 0
 
 
-def patch_room_into_rom(room_bin, rom_file, room_offset):
+def patch_room_into_rom(room_bin: str, rom_file: str, room_offset: int) -> bool:
     """Patch assembled room into ROM at specified offset"""
     if not os.path.exists(room_bin):
         print(f"Error: Room binary {room_bin} not found")
@@ -41,7 +42,7 @@ def patch_room_into_rom(room_bin, rom_file, room_offset):
     return True
 
 
-def main():
+def main() -> None:
     """Build and optionally patch test room"""
     import sys
 
@@ -58,7 +59,7 @@ def main():
     os.makedirs("build", exist_ok=True)
 
     # Build room
-    if build_room(asm_file, bin_file):
+    if build_room(asm_file, Path(bin_file)):
         print(f"Room built successfully: {bin_file}")
 
         # Show hex dump of result

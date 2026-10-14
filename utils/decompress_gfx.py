@@ -1,10 +1,12 @@
 import struct
+from io import BufferedReader
+from typing import BinaryIO
 
 from utils.cartridge import rom_offset
 from utils.lz import find_back_reference, lz_compress, lz_decompress
 
 
-def compress_asset(data):
+def compress_asset(data: bytes) -> bytes:
     compressed = bytearray()
     k = 0
     while k < len(data):
@@ -42,7 +44,7 @@ def compress_asset(data):
     return b"\x01" + compressed
 
 
-def decompress_asset(rom_file):
+def decompress_asset(rom_file: BinaryIO) -> bytearray:
     decompressed = bytearray()
     # skip_first_byte
     _ = rom_file.read(1)
@@ -96,13 +98,13 @@ decompress_gfx_xrefs = [
 lz_compressed_gfxs = [0xCC2D80, 0xE87432, 0xE883EC, 0xE89A4F]
 
 
-def lz_decompress_gfx(rom):
-    size = struct.unpack("<H", rom_file.read(2))[0]
+def lz_decompress_gfx(rom: BufferedReader) -> bytearray:
+    size = struct.unpack("<H", rom.read(2))[0]
     # print(f'size {size:#0{6}x}')
-    data = rom_file.read(size)
+    data = rom.read(size)
     decompressed = lz_decompress(data)
 
-    def get_size(count, control_byte):
+    def get_size(count: int, control_byte: int) -> int:
         size = 0
         for i in range(count):
             if (control_byte >> i) & 1:
@@ -128,7 +130,7 @@ def lz_decompress_gfx(rom):
     return decompressed
 
 
-def lz_compress_gfx(data):
+def lz_compress_gfx(data: bytes) -> bytes:
     compressed_data = lz_compress(data, search_patterns=False)
     compressed_length = len(compressed_data)
     return struct.pack("<H", compressed_length) + compressed_data + b"\x00"

@@ -12,6 +12,7 @@ import os
 import re
 from collections.abc import Callable, Iterator
 from pathlib import Path
+from typing import TYPE_CHECKING
 
 import pytest
 from script import Table
@@ -19,6 +20,9 @@ from script import Table
 from utils.ips import apply_ips
 from utils.name_tables import read_names
 from utils.save_names import DEFAULT_NAMES, NAME_COUNT, TABLE, name_record, rename
+
+if TYPE_CHECKING:
+    from kintsuki import Button, Emu
 
 REPO = Path(__file__).resolve().parents[1]
 ROM = REPO / "build/bl.sfc"
@@ -74,7 +78,7 @@ def _pixels(path: Path) -> bytes:
 class Console:
     """Drives the emulator and reads the debug screens back as text."""
 
-    def __init__(self, emu, button) -> None:
+    def __init__(self, emu: Emu, button: type[Button]) -> None:
         self.emu = emu
         self.button = button
         self.chars = {}
@@ -106,9 +110,7 @@ class Console:
                 return
             self.tap(button)
             self.emu.run_frames(4)
-        self.emu.screenshot(
-            "/private/tmp/claude-501/-Users-manz-PyCharmProjects-bahamut-lagoon/d69b7309-07a4-48a8-8abc-9d7b5180c1fc/scratchpad/press-fail.png"
-        )
+        self.emu.screenshot(str(GOLDENS / "press-fail.actual.png"))
         pytest.fail(f"{button} pressed {limit} times without reaching the screen:\n" + "\n".join(self.screen()))
 
     def screen(self) -> list[str]:
@@ -151,7 +153,7 @@ class Console:
 
 
 @pytest.fixture(scope="session")
-def console(tmp_path_factory) -> Iterator[Console]:
+def console(tmp_path_factory: pytest.TempPathFactory) -> Iterator[Console]:
     kintsuki = pytest.importorskip("kintsuki")
     if not ROM.exists() or not DEBUG_IPS.exists():
         pytest.skip("needs build/bl.sfc and build/bl-debug.ips (./build.py --debug)")

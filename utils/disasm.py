@@ -1,12 +1,14 @@
 import struct
 
+from script import Table
+
 from utils.vm import NoMoreEventsForPlayer
 from utils.vm.executor import walk_event_chain
 from utils.vm.opcodes_map import opcode_names, opcode_table
 from utils.vm.room import Room
 
 
-def walk_events_for_player_event(room, player_event_id):
+def walk_events_for_player_event(room: Room, player_event_id: int) -> None:
     room.pc = 0
     event_table_offset = room.get_word(6)
     room.program.put_reference(6, event_table_offset, comment="player events")
@@ -29,7 +31,7 @@ def walk_events_for_player_event(room, player_event_id):
         raise NoMoreEventsForPlayer()
 
 
-def check_02(room):
+def check_02(room: Room) -> None:
     room.save_pc()
     room.pc = 0
     data_table_index = room.get_word(2)
@@ -47,12 +49,12 @@ def check_02(room):
             break
         room.pc = d
         data = room.get_data(0, 7)
-        room.program.put_data(d, data)
+        room.program.put_data(d, bytes(data))
         room.program.actors.add(k)
     room.restore_pc()
 
 
-def check_0a(room):
+def check_0a(room: Room) -> None:
     room.save_pc()
     room.pc = 0x0A
 
@@ -61,7 +63,7 @@ def check_0a(room):
         room.pc = index
         while room.get_word() != 0xFFFF:
             room.save_pc()
-            room.program.put_data(room.pc, room.get_data(size=7))
+            room.program.put_data(room.pc, bytes(room.get_data(size=7)))
             room.pc = room.get_word(5)
             walk_event_chain(room)
             room.restore_pc()
@@ -70,14 +72,14 @@ def check_0a(room):
     room.restore_pc()
 
 
-def check_04(room):
+def check_04(room: Room) -> None:
     room.save_pc()
     room.pc = 0x04
     room.pc = room.get_word()
 
     while room.get_word() != 0xFFFF:
         room.save_pc()
-        room.program.put_data(room.pc, room.get_data(size=5))
+        room.program.put_data(room.pc, bytes(room.get_data(size=5)))
         room.pc = room.get_word(3)
         walk_event_chain(room)
         room.restore_pc()
@@ -148,7 +150,9 @@ def disassemble(room: Room, display_program: bool | None = False) -> None:
         room.program.display_program()
 
 
-def live_disasm(room_id, data, table, lang=None, display_program=False):
+def live_disasm(
+    room_id: int, data: bytearray, table: Table, lang: str | None = None, display_program: bool = False
+) -> Room:
     room = Room(data, opcode_table, opcode_names, table, lang=lang)
     room.id = room_id
     disassemble(room, display_program=display_program)

@@ -4,8 +4,10 @@ on BG3 (the unit's dragon) and BG2 (the party). The equip screens add draw_menu_
 inline labels laid out in fields wider than their text.
 """
 
+from tests.conftest import Console
 
-def test_organisation_names_draw_with_the_small_vwf(console):
+
+def test_organisation_names_draw_with_the_small_vwf(console: Console) -> None:
     console.load("menu-organisation")
     names = console.count_calls("menu_draw_fixed_name")
     console.tap(console.button.B)
@@ -14,7 +16,7 @@ def test_organisation_names_draw_with_the_small_vwf(console):
     assert console.matches_golden("menu-organisation")
 
 
-def test_equip_labels_draw_with_the_small_vwf(console):
+def test_equip_labels_draw_with_the_small_vwf(console: Console) -> None:
     console.load("menu-organisation")
     names = console.count_calls("menu_draw_fixed_name")
     console.tap(console.button.B)
@@ -30,7 +32,7 @@ def test_equip_labels_draw_with_the_small_vwf(console):
     assert console.matches_golden("menu-equip")
 
 
-def test_infos_equipment_list_draws_with_the_small_vwf(console):
+def test_infos_equipment_list_draws_with_the_small_vwf(console: Console) -> None:
     console.load("menu-organisation")
     names = console.count_calls("menu_draw_fixed_name")
     console.tap(console.button.B)

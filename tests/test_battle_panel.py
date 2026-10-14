@@ -3,8 +3,10 @@ Scenario 00's unit panel, from the last line of the opening dialogue: names and 
 full names past their eight-code records ("Anastasia", "Ekaterina").
 """
 
+from tests.conftest import Console
 
-def test_panel_text_draws_with_the_small_vwf(console):
+
+def test_panel_text_draws_with_the_small_vwf(console: Console) -> None:
     console.load("battle-panel")
     names = console.count_calls("panel_put_char_hook")
     console.tap(console.button.A)

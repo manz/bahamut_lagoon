@@ -7,6 +7,8 @@ from pathlib import Path
 
 from katsuji.formats import VwfFont
 
+from tests.conftest import Console
+
 NAMING_CURSOR = 0xEE468E  # update_naming_cursor_pos: runs while the screen takes input
 NAME = 0x7E9E00  # the name being edited, FF-terminated
 CURSOR_X = 0x0010D6  # the name cursor object's x
@@ -15,7 +17,7 @@ PAGE_CURSOR_X = 0x001056  # the page cursor object's x
 LABEL_STOPS = [52, 116, 180, 220]  # 4 pixels before Majuscules, Minuscules, Autre, Fin
 
 
-def test_the_name_and_the_page_labels_do_not_overlap(console):
+def test_the_name_and_the_page_labels_do_not_overlap(console: Console) -> None:
     console.load("before-naming")
     opened = []
     console.emu.add_exec_callback(NAMING_CURSOR, NAMING_CURSOR, lambda pc, value: opened.append(pc))
@@ -24,7 +26,7 @@ def test_the_name_and_the_page_labels_do_not_overlap(console):
     assert console.matches_golden("naming-capitals")
 
 
-def test_the_page_cursor_stops_before_each_label(console):
+def test_the_page_cursor_stops_before_each_label(console: Console) -> None:
     stops = []
     for _ in LABEL_STOPS:
         stops.append(console.emu.read16(PAGE_CURSOR_X))
@@ -32,21 +34,21 @@ def test_the_page_cursor_stops_before_each_label(console):
     assert stops == LABEL_STOPS
 
 
-def test_the_lower_case_page(console):
+def test_the_lower_case_page(console: Console) -> None:
     console.tap(console.button.RIGHT)
     console.tap(console.button.A)
     console.emu.run_frames(30)
     assert console.matches_golden("naming-lower-case")
 
 
-def test_the_punctuation_page(console):
+def test_the_punctuation_page(console: Console) -> None:
     console.tap(console.button.RIGHT)
     console.tap(console.button.A)
     console.emu.run_frames(30)
     assert console.matches_golden("naming-punctuation")
 
 
-def test_a_letter_types_its_code(console):
+def test_a_letter_types_its_code(console: Console) -> None:
     for button in (console.button.LEFT, console.button.LEFT, console.button.A, console.button.DOWN, console.button.A):
         console.tap(button)
     console.emu.run_frames(20)
@@ -54,14 +56,14 @@ def test_a_letter_types_its_code(console):
     assert name[: name.index(0xFF)].endswith(bytes([0xB9]))  # A
 
 
-def test_the_name_cursor_follows_the_name_s_width(console):
+def test_the_name_cursor_follows_the_name_s_width(console: Console) -> None:
     font = VwfFont.decode(Path("assets/vwf.bin").read_bytes())
     name = bytes(console.emu.read_range(NAME, 8))
     width = sum(font.widths[code] + 1 for code in name[: name.index(0xFF)])
     assert console.emu.read16(CURSOR_X) == NAME_X + width
 
 
-def test_byuu_s_name_takes_eight_characters(console):
+def test_byuu_s_name_takes_eight_characters(console: Console) -> None:
     for _ in range(10):
         console.tap(console.button.A)
     name = bytes(console.emu.read_range(NAME, 9))

@@ -4,14 +4,16 @@ Debug mode, in English: the scenario jump, then the start-event menu, then scena
 The tests continue from each other on the shared console, in file order.
 """
 
+from tests.conftest import Console
 
-def test_scenario_jump_is_in_english(console):
+
+def test_scenario_jump_is_in_english(console: Console) -> None:
     console.load("debug-scenario-jump")  # blank cart: New Game straight from the title
     assert console.shows("JUMP TO SCENARIO")
     console.press_until(console.button.DOWN, lambda: console.shows("JUMP TO SCENARIO  00"))
 
 
-def test_scenario_jump_opens_the_start_event_menu_in_english(console):
+def test_scenario_jump_opens_the_start_event_menu_in_english(console: Console) -> None:
     console.press_until(console.button.A, lambda: console.shows("START EVENT"))
     assert console.shows("START EVENT 00")
     screen = console.screen()
@@ -19,7 +21,7 @@ def test_scenario_jump_opens_the_start_event_menu_in_english(console):
         assert any(line in row for row in screen), line
 
 
-def test_opening_event_draws_dialog_with_the_pooled_vwf(console):
+def test_opening_event_draws_dialog_with_the_pooled_vwf(console: Console) -> None:
     calls = console.count_calls("vwf_char")
     console.tap(console.button.A)
     for _ in range(80):

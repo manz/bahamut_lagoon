@@ -5,12 +5,14 @@ instruction, so the fallback jumped into the hook's own operand and the copy ran
 came back to the map.
 """
 
+from tests.conftest import Console
+
 AI_TURN = 0x7E0510  # 1 while the dragons and the enemies act, 0 on the player's turn
 DRAW_STRING = 0xC12DDA  # C1 engine: draw [$5E]
 SPOILS_BANK = 0xFC  # the relocated dragon feed strings, "GP" among them (build.py)
 
 
-def test_combat_spoils_return_to_the_map(console):
+def test_combat_spoils_return_to_the_map(console: Console) -> None:
     console.load("battle-exp")
     spoils: list[int] = []
     emu = console.emu

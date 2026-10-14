@@ -4,11 +4,12 @@ import io
 import logging
 import struct
 import sys
+from collections.abc import Callable
 from dataclasses import dataclass
 from pathlib import Path
 
 from a816.module_builder import build_with_imports
-from a816.writers import IPSWriter
+from a816.writers import IPSWriter, Writer
 from katsuji import build as katsuji_build
 from katsuji import config as katsuji_config
 from script import Table
@@ -117,7 +118,14 @@ def build_rooms_partial(table: Table) -> None:
         logger.info("Relocated battle rooms end at %#x", address + 0xC00000)
 
 
-def insert_compressed_asset(writer, asset, insert_addr, low_addr, bank_addr, compressor):
+def insert_compressed_asset(
+    writer: Writer,
+    asset: str | bytes,
+    insert_addr: int,
+    low_addr: int,
+    bank_addr: int,
+    compressor: Callable[[bytes], bytes],
+) -> int:
     """Compress `asset` (a file, or its bytes) into the ROM and point the loader at it."""
     compressed = compressor(asset if isinstance(asset, bytes) else Path(asset).read_bytes())
     writer.write_block(compressed, rom_offset(insert_addr + 1))
@@ -131,7 +139,7 @@ def insert_compressed_asset(writer, asset, insert_addr, low_addr, bank_addr, com
     return rom_address(rom_offset(insert_addr) + 1 + len(compressed))
 
 
-def insert_text(writer: IPSWriter) -> tuple[list[InlineStringHook], list[bytes], list[tuple[int, bytes]]]:
+def insert_text(writer: Writer) -> tuple[list[InlineStringHook], list[bytes], list[tuple[int, bytes]]]:
     """Write the relocated strings and graphics; return the inline string call hooks the code must carry, the inline
     segments' codes by baked id and the static strings the battle panel draws (bus address, codes)."""
     insert_dragon_feed_inline_strings(writer, rom_offset(0xFC0000))

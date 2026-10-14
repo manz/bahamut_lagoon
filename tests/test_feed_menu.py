@@ -7,8 +7,10 @@ Before those two, the list read the descriptions in the wrong bank and stalled o
 "wait for a key".
 """
 
+from tests.conftest import Console
 
-def test_feed_menu_describes_the_selected_item(console):
+
+def test_feed_menu_describes_the_selected_item(console: Console) -> None:
     glyphs = console.count_calls("description_char")
     console.load("feed-menu")
     console.tap(console.button.B)
@@ -27,7 +29,7 @@ def test_feed_menu_describes_the_selected_item(console):
     assert console.matches_golden("feed-menu")
 
 
-def test_feed_menu_redraws_its_names_after_the_field(console):
+def test_feed_menu_redraws_its_names_after_the_field(console: Console) -> None:
     console.load("feed-menu")
     console.tap(console.button.B)
     console.emu.run_frames(60)

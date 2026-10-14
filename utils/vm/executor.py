@@ -2,7 +2,7 @@ from . import DEBUG_OPCODES_TRACING, AlreadyVisitedError
 from .room import Room
 
 
-def walk_event_chain(room: Room) -> None:
+def walk_event_chain(room: Room) -> int:
     while True:
         try:
             opcode = room.get_byte()
@@ -12,7 +12,7 @@ def walk_event_chain(room: Room) -> None:
             if opcode == 0xFF:
                 if DEBUG_OPCODES_TRACING:
                     print("[", hex(room.pc), "]", ":", opcode_name + "(", hex(opcode), ")")
-                room.program.put_opcode(room.pc, 0xFF, [], size=1, comment="exit")
+                room.program.put_opcode(room.pc, 0xFF, None, size=1, comment="exit")
                 break
 
             if DEBUG_OPCODES_TRACING:

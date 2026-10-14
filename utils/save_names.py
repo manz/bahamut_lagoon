@@ -35,7 +35,8 @@ def name_record(table: Table, name: str) -> bytes:
 
 
 def checksum(sram: bytes) -> int:
-    return sum(struct.unpack_from(f"<{CHECKSUM_WORDS}H", sram)) & 0xFFFF
+    words: tuple[int, ...] = struct.unpack_from(f"<{CHECKSUM_WORDS}H", sram)
+    return sum(words) & 0xFFFF
 
 
 def used_slots(sram: bytes) -> list[int]:

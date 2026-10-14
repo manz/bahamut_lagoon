@@ -2,13 +2,15 @@ import re
 import struct
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass
+from io import BufferedReader
+from typing import BinaryIO
 
 from a816.writers import Writer
 from script import Table
 
 from utils.cartridge import rom_address, rom_offset
 from utils.name_tables import SMALL_FONT_FOLD, encode
-from utils.vm.room import prettify
+from utils.vm.room import child, element_text, prettify
 
 draw_inline_string_xrefs = [
     15626092,
@@ -163,16 +165,16 @@ feed_dragon_strings_xref = [
 ]
 
 
-def read_word_backwards_from_xref(rom_file, xref, delta):
+def read_word_backwards_from_xref(rom_file: BinaryIO, xref: int, delta: int) -> tuple[bytes, bytes]:
     rom_file.seek(xref - delta)
     return rom_file.read(1), rom_file.read(1)
 
 
-def dragon_find_address(rom_file, xref):
-    address_part = {}
+def dragon_find_address(rom_file: BinaryIO, xref: int) -> tuple[int, dict[int, int]]:
+    address_part: dict[int, int] = {}
     state = "find_sta"
-    current_byte_addr = None
-    byte_addr = {}
+    current_byte_addr = 0
+    byte_addr: dict[int, int] = {}
 
     for delta in range(2, 80):
         data = read_word_backwards_from_xref(rom_file, rom_offset(xref), delta)
@@ -195,7 +197,7 @@ def dragon_find_address(rom_file, xref):
         raise RuntimeError("unable to find the required addresses part.")
 
 
-def dump_char_names(rom_file):
+def dump_char_names(rom_file: BinaryIO) -> None:
     jp_fixed_table = Table("../text/table/dragon_feed_table.tbl")
 
     with open("../text/jp/names.xml", "wt", encoding="utf-8") as char_names_jp:
@@ -210,7 +212,7 @@ def dump_char_names(rom_file):
         char_names_jp.write(prettify(char_names))
 
 
-def dump_dragon_feed_inline_strings(rom_file):
+def dump_dragon_feed_inline_strings(rom_file: BinaryIO) -> None:
     jp_fixed_table = Table("../text/table/dragon_feed_table.tbl")
 
     with open("../text/jp/dragon_feed.xml", "wt", encoding="utf-8") as dragon_feed_jp:
@@ -242,7 +244,7 @@ def dump_dragon_feed_inline_strings(rom_file):
         dragon_feed_jp.write(prettify(dragon_feed))
 
 
-def insert_dragon_feed_inline_strings(writer: Writer, address: int):
+def insert_dragon_feed_inline_strings(writer: Writer, address: int) -> None:
     jp_fixed_table = Table("./text/table/dragon_feed_table_mz.tbl")
 
     tree = ET.parse("./text/dragon_feed.xml")
@@ -252,17 +254,17 @@ def insert_dragon_feed_inline_strings(writer: Writer, address: int):
 
     for string in root:
         text_addr = rom_address(len(text_data) + address)
-        text_data += jp_fixed_table.to_bytes(string.text)
+        text_data += jp_fixed_table.to_bytes(element_text(string))
 
         # patches LDAs for 24 bits address
-        writer.write_block(bytes([(text_addr >> 16) & 0xFF]), int(string.get("ref_60"), 16))
-        writer.write_block(bytes([(text_addr >> 8) & 0xFF]), int(string.get("ref_5f"), 16))
-        writer.write_block(bytes([text_addr & 0xFF]), int(string.get("ref_5e"), 16))
+        writer.write_block(bytes([(text_addr >> 16) & 0xFF]), int(string.attrib["ref_60"], 16))
+        writer.write_block(bytes([(text_addr >> 8) & 0xFF]), int(string.attrib["ref_5f"], 16))
+        writer.write_block(bytes([text_addr & 0xFF]), int(string.attrib["ref_5e"], 16))
 
     writer.write_block(text_data, address)
 
 
-def dump_inline_string(rom_file, root, xref):
+def dump_inline_string(rom_file: BufferedReader, root: ET.Element, xref: int) -> None:
     rom_file.seek(rom_offset(xref) + 3)
     raw_string = b""
     while rom_file.peek(2)[:2] != b"\xff\xff":
@@ -279,7 +281,7 @@ def dump_inline_string(rom_file, root, xref):
     string.text = jap_text
 
 
-def dump_inline_strings(rom_file):
+def dump_inline_strings(rom_file: BufferedReader) -> None:
     with open("../text/jp/inline.xml", "wt", encoding="utf-8") as inline_jp:
         inline = ET.Element("inline")
 
@@ -359,8 +361,8 @@ def insert_inline_strings(writer: Writer, address: int) -> tuple[int, list[Inlin
     ids: dict[bytes, int] = {}
     hooks = []
     for string in root:
-        xref = int(string.get("ref"), 16)
-        jump_to = int(string.get("jump_to"), 16)
+        xref = int(string.attrib["ref"], 16)
+        jump_to = int(string.attrib["jump_to"], 16)
         width = string.get("width")
         cells = [int(cell) for cell in string.get("cells", "").split()] or None
         record = inline_record(table, string.text or "", ids, int(width) if width else None, string.get("align"), cells)
@@ -393,26 +395,26 @@ def inline_string_hooks_source(hooks: list[InlineStringHook]) -> str:
     return "\n".join(lines) + "\n"
 
 
-def dump_message_strings(rom_file):
+def dump_message_strings(rom_file: BinaryIO) -> None:
     with open("../text/en/messages.xml", "wt", encoding="utf-8") as messages_jp:
         battle = ET.Element("messages")
         battle.set("pointers", hex(0xEE35F1))
 
         japanese_table = Table("../text/table/en.tbl")
-        references = {}
+        references: dict[int, set[int]] = {}
 
-        def put_reference(addr, index):
+        def put_reference(addr: int, index: int) -> None:
             if addr in references:
                 references[addr].add(index)
             else:
                 references[addr] = {index}
 
-        strings = {}
+        strings: dict[int, bytes] = {}
 
         for pointer_id in range(630):
             rom_file.seek(rom_offset(0xEE35F1 + pointer_id * 2))
 
-            ptr = struct.unpack("<H", rom_file.read(2))[0]
+            ptr: int = struct.unpack("<H", rom_file.read(2))[0]
             put_reference(ptr, pointer_id)
             if ptr not in strings:
                 rom_file.seek(rom_offset(0xED0000 + ptr))
@@ -437,24 +439,24 @@ def dump_message_strings(rom_file):
         messages_jp.write(prettify(battle))
 
 
-def insert_messages_strings(writer, address):
+def insert_messages_strings(writer: Writer, address: int) -> int:
     mz_table = Table("./text/table/mz.tbl")
     tree = ET.parse("./text/fr/messages.xml")
     root = tree.getroot()
 
     text_data = b""
-    pointer_table = {}
+    pointer_table: dict[int, int] = {}
 
     for string in root:
-        refs = string.find("refs")
-        data = string.find("data")
+        refs = child(string, "refs")
+        data = child(string, "data")
 
         text_addr = rom_address(len(text_data) + address)
 
         for ref in refs:
-            pointer_id = int(ref.text, 16)
+            pointer_id = int(element_text(ref), 16)
             pointer_table[pointer_id] = text_addr & 0xFFFF
-        text_data += mz_table.to_bytes(data.text.replace(" ", r"\s")) + b"\xff"
+        text_data += mz_table.to_bytes(element_text(data).replace(" ", r"\s")) + b"\xff"
 
     pointer_table_bytes = b""
     for key in sorted(pointer_table):
@@ -472,33 +474,33 @@ def insert_messages_strings(writer, address):
     # .C0:D8AD                 LDA     word_EE0000, X
     writer.write_block(bytes([rom_address(address) >> 16]), rom_offset(0xC0D8AD + 3))
 
-    writer.write_block(pointer_table_bytes, rom_offset(int(root.get("pointers"), 16)))
+    writer.write_block(pointer_table_bytes, rom_offset(int(root.attrib["pointers"], 16)))
     writer.write_block(text_data, address)
 
     return rom_address(len(text_data) + address)
 
 
-def dump_battle_commands_strings(rom_file):
+def dump_battle_commands_strings(rom_file: BinaryIO) -> None:
     jp_fixed_table = Table("../text/table/battle_jp.tbl")
     with open("../text/jp/battle.xml", "wt", encoding="utf-8") as battle_jp:
         battle = ET.Element("battle")
         battle.set("pointers", hex(0xC0E121))
         battle.set("bank_addr", hex(0xC0E0FF))
 
-        references = {}
+        references: dict[int, set[int]] = {}
 
-        def put_reference(addr, index):
+        def put_reference(addr: int, index: int) -> None:
             if addr in references:
                 references[addr].add(index)
             else:
                 references[addr] = {index}
 
-        strings = {}
+        strings: dict[int, bytes] = {}
 
         for k in range(24):
             rom_file.seek(rom_offset(0xC0E121 + k * 2))
 
-            ptr = struct.unpack("<H", rom_file.read(2))[0]
+            ptr: int = struct.unpack("<H", rom_file.read(2))[0]
             rom_file.seek(rom_offset(0xC00000 + ptr))
             put_reference(ptr, k)
 
@@ -522,7 +524,7 @@ def dump_battle_commands_strings(rom_file):
         battle_jp.write(prettify(battle))
 
 
-def insert_battle_commands_strings(writer, address) -> tuple[int, list[tuple[int, bytes]]]:
+def insert_battle_commands_strings(writer: Writer, address: int) -> tuple[int, list[tuple[int, bytes]]]:
     """Write the battle commands' strings at ROM offset `address`; return their end bus address and each string's bus
     address and codes (no FF), for the bake."""
     jp_fixed_table = Table("./text/table/battle.tbl")
@@ -530,19 +532,19 @@ def insert_battle_commands_strings(writer, address) -> tuple[int, list[tuple[int
     root = tree.getroot()
 
     text_data = b""
-    pointer_table = {}
-    strings = []
+    pointer_table: dict[int, int] = {}
+    strings: list[tuple[int, bytes]] = []
 
     for string in root:
-        refs = string.find("refs")
-        data = string.find("data")
+        refs = child(string, "refs")
+        data = child(string, "data")
 
         text_addr = rom_address(len(text_data) + address)
 
         for ref in refs:
-            pointer_id = int(ref.text, 16)
+            pointer_id = int(element_text(ref), 16)
             pointer_table[pointer_id] = text_addr & 0xFFFF
-        codes = jp_fixed_table.to_bytes(data.text.translate(SMALL_FONT_FOLD))
+        codes = jp_fixed_table.to_bytes(element_text(data).translate(SMALL_FONT_FOLD))
         strings.append((text_addr, codes.split(bytes([INLINE_END]))[0]))
         text_data += codes
 
@@ -551,18 +553,18 @@ def insert_battle_commands_strings(writer, address) -> tuple[int, list[tuple[int
         pointer = pointer_table[key]
         pointer_table_bytes += struct.pack("<H", pointer)
 
-    writer.write_block(bytes([rom_address(address) >> 16]), rom_offset(int(root.get("bank_addr"), 16)))
-    writer.write_block(pointer_table_bytes, rom_offset(int(root.get("pointers"), 16)))
+    writer.write_block(bytes([rom_address(address) >> 16]), rom_offset(int(root.attrib["bank_addr"], 16)))
+    writer.write_block(pointer_table_bytes, rom_offset(int(root.attrib["pointers"], 16)))
     writer.write_block(text_data, address)
 
     return rom_address(len(text_data) + address), strings
 
 
-def dump_fixed(rom_file, address, count, destination):
+def dump_fixed(rom_file: BinaryIO, address: int, count: int, destination: str) -> None:
     pass
 
 
-def dump_battle_fixed(rom_file):
+def dump_battle_fixed(rom_file: BinaryIO) -> None:
     length = 8
     address = rom_offset(0xEF5920)
 
@@ -581,7 +583,9 @@ def dump_battle_fixed(rom_file):
         battle_fixed_jp.write(prettify(fixed))
 
 
-def dump_item_descriptions(rom_file, pointer_base=None, text_base=None, lang="jp"):
+def dump_item_descriptions(
+    rom_file: BinaryIO, pointer_base: int | None = None, text_base: int | None = None, lang: str = "jp"
+) -> None:
     jp_fixed_table = Table(f"../text/table/{lang}.tbl")
     pointer_base = pointer_base or 0xEE35F1
     text_base = text_base or 0xEE0000
@@ -591,20 +595,20 @@ def dump_item_descriptions(rom_file, pointer_base=None, text_base=None, lang="jp
         items.set("pointers", hex(pointer_base))
         # battle.set('bank_addr', hex(0xC0E0FF))
 
-        references = {}
+        references: dict[int, set[int]] = {}
 
-        def put_reference(addr, index):
+        def put_reference(addr: int, index: int) -> None:
             if addr in references:
                 references[addr].add(index)
             else:
                 references[addr] = {index}
 
-        strings = {}
+        strings: dict[int, bytes] = {}
 
         for k in range(512):
             rom_file.seek(rom_offset(pointer_base + k * 2))
 
-            ptr = struct.unpack("<H", rom_file.read(2))[0]
+            ptr: int = struct.unpack("<H", rom_file.read(2))[0]
             rom_file.seek(rom_offset(text_base + ptr))
             put_reference(ptr, k)
 

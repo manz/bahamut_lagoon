@@ -44,7 +44,7 @@ LOWER = ["abcde", "fghij", "klmno", "pqrst", "uvwxy", "z"]
 DIGITS = ["12345", "67890"]
 ACCENTS = ["éèêëà", "âçîïô", "ûù"]
 PUNCTUATION = ["-.,'!", "?"]
-LAYOUT = (
+LAYOUT: tuple[tuple[list[str], list[str]], ...] = (
     (UPPER, DIGITS),  # Hira: capitals
     (LOWER, ACCENTS),  # Kata: lower case
     (PUNCTUATION, []),  # Autre
@@ -192,9 +192,9 @@ def styled_tile(glyph: bytes, width: int) -> bytes:
             if row & (0x80 >> x):
                 pixels[y][x] = INK
     tile = bytearray()
-    for row in pixels:
-        tile.append(sum(1 << (7 - x) for x in range(8) if row[x] & 1))
-        tile.append(sum(1 << (7 - x) for x in range(8) if row[x] & 2))
+    for pixel_row in pixels:
+        tile.append(sum(1 << (7 - x) for x in range(8) if pixel_row[x] & 1))
+        tile.append(sum(1 << (7 - x) for x in range(8) if pixel_row[x] & 2))
     return bytes(tile)
 
 

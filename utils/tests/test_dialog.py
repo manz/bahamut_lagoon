@@ -12,24 +12,22 @@ root_dir = os.path.join(os.path.dirname(__file__), "../..")
 
 
 class DialogTestCase(TestCase):
-    def setUp(self):
+    def setUp(self) -> None:
         self.table = Table(os.path.join(root_dir, "./text/table/jp.tbl"))
 
-    def test_get_room_0(self):
+    def test_get_room_0(self) -> None:
         with open(os.path.join(root_dir, "build/bl.sfc"), "rb") as rom:
             room = get_dialog_room(rom, 0, self.table, lang="jp", disasm=True)
             self.assertEqual(room.id, 0)
             self.assertIsNotNone(room.room)
             texts = room.dump_text()
+            if texts is None:
+                self.fail("room 0 has no text")
 
-            yes_no_text = texts.find("text")
-            yes_no_text_data = yes_no_text.find("data")
-            yes_no_text_refs = yes_no_text.find("refs")
+            self.assertEqual(texts.findtext("text/data"), " はい\n いいえ[end1]")
+            self.assertEqual(int(texts.findtext("text/refs/ref", ""), 16), 0x9FB)
 
-            self.assertEqual(yes_no_text_data.text, " はい\n いいえ[end1]")
-            self.assertEqual(int(yes_no_text_refs[0].text, 16), 0x9FB)
-
-    def test_text_patch_returns_the_end_of_the_relocated_rooms(self):
+    def test_text_patch_returns_the_end_of_the_relocated_rooms(self) -> None:
         # A room too big for the RAM buffer is stored uncompressed, which patches the compression flags; the battle
         # rooms are packed right after the returned address, so it must not be one of those flag addresses.
         start = rom_offset(0xF00000)

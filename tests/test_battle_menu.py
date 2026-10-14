@@ -5,8 +5,10 @@ sound driver's variables at 1D00 and the next sound waited forever; the descript
 BG3 run collection started over endlessly.
 """
 
+from tests.conftest import Console
 
-def open_menu_entry(console, ups: int) -> None:
+
+def open_menu_entry(console: Console, ups: int) -> None:
     console.load("before-battle-menu")
     for _ in range(ups):
         console.tap(console.button.UP)
@@ -14,20 +16,20 @@ def open_menu_entry(console, ups: int) -> None:
     console.emu.run_frames(240)
 
 
-def cursor_moves(console, button: int) -> bool:
+def cursor_moves(console: Console, button: int) -> bool:
     before = bytes(console.emu.oam_read_range())
     console.tap(button)
     console.emu.run_frames(60)
     return bytes(console.emu.oam_read_range()) != before
 
 
-def test_dragon_screen_answers(console):
+def test_dragon_screen_answers(console: Console) -> None:
     open_menu_entry(console, 4)  # Dragon
     assert cursor_moves(console, console.button.RIGHT)
     assert console.matches_golden("battle-menu-dragons")
 
 
-def test_infos_descriptions_answer(console):
+def test_infos_descriptions_answer(console: Console) -> None:
     open_menu_entry(console, 3)  # Infos
     console.tap(console.button.DOWN)
     console.tap(console.button.A)  # Descriptions
@@ -36,12 +38,12 @@ def test_infos_descriptions_answer(console):
     assert console.matches_golden("battle-menu-descriptions")
 
 
-def test_map_titles_the_chapter(console):
+def test_map_titles_the_chapter(console: Console) -> None:
     open_menu_entry(console, 1)  # Carte
     assert console.matches_golden("battle-menu-map")
 
 
-def test_map_unit_info_draws_with_the_small_vwf(console):
+def test_map_unit_info_draws_with_the_small_vwf(console: Console) -> None:
     open_menu_entry(console, 1)  # Carte
     console.tap(console.button.A)  # past the chapter title
     console.emu.run_frames(90)
@@ -52,7 +54,7 @@ def test_map_unit_info_draws_with_the_small_vwf(console):
     assert console.matches_golden("battle-menu-unit-info")
 
 
-def test_dragon_team_names_keep_their_neighbours(console):
+def test_dragon_team_names_keep_their_neighbours(console: Console) -> None:
     open_menu_entry(console, 4)  # Dragon
     console.tap(console.button.A)
     console.emu.run_frames(150)

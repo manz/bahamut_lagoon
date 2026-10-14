@@ -11,21 +11,24 @@ TABLE = Table("text/table/mz.tbl")
 
 
 class StubWriter:
-    def __init__(self):
-        self.data = []
+    def __init__(self) -> None:
+        self.data: list[bytes] = []
 
-    def begin(self):
+    def begin(self) -> None:
         pass
 
-    def write_block(self, block, block_address):
+    def write_block_header(self, block: bytes, block_address: int) -> None:
+        pass
+
+    def write_block(self, block: bytes, block_address: int) -> None:
         self.data.append(block)
 
-    def end(self):
+    def end(self) -> None:
         pass
 
 
 class InlineStringTestCase(TestCase):
-    def _build_program(self, input_program):
+    def _build_program(self, input_program: str) -> tuple[int, io.BytesIO]:
         writer = StubWriter()
         program = Program()
 
@@ -34,11 +37,14 @@ class InlineStringTestCase(TestCase):
         program.resolve_labels(nodes)
         program.emit(nodes, writer)
         # the block assembled at 0x8000 stands for ROM offset 0
-        xref = rom_address(program.resolver.current_scope["xref"] - 0x8000)
+        xref_label = program.resolver.current_scope["xref"]
+        if not isinstance(xref_label, int):
+            self.fail(f"xref resolved to {xref_label!r}")
+        xref = rom_address(xref_label - 0x8000)
         bytes_io = io.BytesIO(writer.data[0])
         return xref, bytes_io
 
-    def test_dragon_find_address(self):
+    def test_dragon_find_address(self) -> None:
         xref, bytes_io = self._build_program(
             """
         *=0x8000
@@ -56,7 +62,7 @@ class InlineStringTestCase(TestCase):
 
         self.assertEqual(0xC1DB1D, address)
 
-    def test_dragon_find_address_with_phx(self):
+    def test_dragon_find_address_with_phx(self) -> None:
         xref, bytes_io = self._build_program(
             """
         *=0x8000
@@ -76,37 +82,37 @@ class InlineStringTestCase(TestCase):
         self.assertEqual(0xC1DB1D, address)
 
 
-def record(text: str, width: int | None = None, align: str | None = None, ids: dict | None = None) -> bytes:
+def record(text: str, width: int | None = None, align: str | None = None, ids: dict[bytes, int] | None = None) -> bytes:
     return inline_record(TABLE, text, {} if ids is None else ids, width, align)
 
 
 class InlineRecordTestCase(TestCase):
-    def test_a_label_is_its_width_then_one_segment(self):
+    def test_a_label_is_its_width_then_one_segment(self) -> None:
         self.assertEqual(record("NV"), bytes([2, 0, *TABLE.to_bytes("NV"), 0xFF, 0, 0, 0xFF]))
 
-    def test_padding_is_not_stored(self):
+    def test_padding_is_not_stored(self) -> None:
         self.assertEqual(record("Atk.", 8), bytes([8, 0, *TABLE.to_bytes("Atk."), 0xFF, 0, 0, 0xFF]))
 
-    def test_one_space_stays_in_its_segment(self):
+    def test_one_space_stays_in_its_segment(self) -> None:
         self.assertEqual(record("Coût MP")[1:3], bytes([0, *TABLE.to_bytes("C")]))
 
-    def test_runs_of_spaces_place_segments(self):
+    def test_runs_of_spaces_place_segments(self) -> None:
         colon = 0x30  # small_font's
         self.assertEqual(
             record("TEMPS   :  :", 14)[-11:],
             bytes([INLINE_CELL | 8, colon, 0xFF, 1, 0, INLINE_CELL | 11, colon, 0xFF, 1, 0, 0xFF]),
         )
 
-    def test_leading_spaces_start_the_segment_later(self):
+    def test_leading_spaces_start_the_segment_later(self) -> None:
         self.assertEqual(record("  ..")[1], 2)
 
-    def test_one_character_is_a_font_cell(self):
+    def test_one_character_is_a_font_cell(self) -> None:
         self.assertEqual(record("/")[1], INLINE_CELL)
 
-    def test_right_aligned_segment(self):
+    def test_right_aligned_segment(self) -> None:
         self.assertEqual(record("Tour", 9, "right")[:2], bytes([9, INLINE_RIGHT]))
 
-    def test_identical_segments_share_an_id(self):
+    def test_identical_segments_share_an_id(self) -> None:
         ids: dict[bytes, int] = {}
         record("NV", ids=ids)
         self.assertEqual(record("Atk.  NV", 8, ids=ids)[-3:-1], bytes([0, 0]))

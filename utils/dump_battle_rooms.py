@@ -3,7 +3,9 @@ import os
 import re
 import struct
 import xml.etree.ElementTree as ET
+from io import BufferedReader
 
+from a816.writers import Writer
 from script import Table
 
 from utils.cartridge import rom_address, rom_offset
@@ -17,15 +19,14 @@ from utils.vm.room import Room, prettify
 logger = logging.getLogger("rooms.battle")
 
 
-def decompress_block(rom):
-    size = rom.read(2)
-    size = struct.unpack("<H", size)[0]
+def decompress_block(rom: BufferedReader) -> bytearray:
+    size: int = struct.unpack("<H", rom.read(2))[0]
     logger.debug("block size %#x", size)
     data = rom.read(size)
     decompressed = bytearray()
     decompressed = lz_decompress_battle(data, decompressed)
 
-    def get_size(count, control_byte):
+    def get_size(count: int, control_byte: int) -> int:
         size = 0
         for i in range(count):
             if (control_byte >> i) & 1:
@@ -50,8 +51,8 @@ def decompress_block(rom):
     return decompressed
 
 
-def simulate_run(decompressed, run_opcode_addresses):
-    opcodes = {}
+def simulate_run(decompressed: bytes, run_opcode_addresses: list[int]) -> None:
+    opcodes: dict[int, int] = {}
     sorted_run_to_first_text = sorted(run_opcode_addresses)
     for k in range(len(sorted_run_to_first_text)):
         op_addr = sorted_run_to_first_text[k]
@@ -68,8 +69,8 @@ def simulate_run(decompressed, run_opcode_addresses):
         print(f"{opcode:#02x}: Opcode({opcodes[key]}),")
 
 
-def walk_battle_room(room_id, decompressed, table, lang):
-    addr = struct.unpack("<H", decompressed[:2])[0]
+def walk_battle_room(room_id: int, decompressed: bytearray, table: Table, lang: str | None) -> Room:
+    addr: int = struct.unpack("<H", decompressed[:2])[0]
 
     decompressed_program = decompressed[addr:]
     room = Room(decompressed_program, battle_opcode_table, battle_opcode_names, table, lang=lang)
@@ -91,7 +92,7 @@ def walk_battle_room(room_id, decompressed, table, lang):
     return room
 
 
-def extract_string_from_block(lang, table, data, index):
+def extract_string_from_block(lang: str | None, table: Table, data: bytes, index: int) -> tuple[int, str]:
     pos = index
     while True:
         if pos >= len(data):
@@ -110,7 +111,7 @@ def extract_string_from_block(lang, table, data, index):
     return pos, table.to_text(text_data).replace("\\s", " ")
 
 
-def get_battle_room(rom, room_id, table, lang):
+def get_battle_room(rom: BufferedReader, room_id: int, table: Table, lang: str | None) -> tuple[int, bytearray, Room]:
     table_entry = rom_offset(0xC7140F)
     rom.seek(table_entry + (room_id * 3))
     ptr = rom.read(3)
@@ -119,22 +120,22 @@ def get_battle_room(rom, room_id, table, lang):
     rom.seek(address)
     try:
         decompressed = decompress_block(rom)
-        addr = struct.unpack("<H", decompressed[:2])[0]
+        addr: int = struct.unpack("<H", decompressed[:2])[0]
         decompressed_data = decompressed[:addr]
         decompressed_program = decompressed[addr:]
 
         room = Room(decompressed_program, battle_opcode_table, battle_opcode_names, table, lang=lang)
     except IndexError as e:
         print(f"Unable to decompress: {e}")
-    else:
-        return address, decompressed_data, room
+        raise
+    return address, decompressed_data, room
 
 
-def debug_dump_first_battle_room_data():
+def debug_dump_first_battle_room_data() -> None:
     lang = "jp"
     with open(os.path.join(os.path.dirname(__file__), f"../bl_{lang}.sfc"), "rb") as rom:
 
-        def get_pointer(room_id):
+        def get_pointer(room_id: int) -> int:
             table_entry = rom_offset(0xC7140F)
             rom.seek(table_entry + (room_id * 3))
             ptr = rom.read(3)
@@ -149,7 +150,7 @@ def debug_dump_first_battle_room_data():
             f.write(data)
 
 
-def dump_battle_room(rom, room_id, table, lang, output_dir):
+def dump_battle_room(rom: BufferedReader, room_id: int, table: Table, lang: str | None, output_dir: str) -> None:
     table_entry = rom_offset(0xC7140F)
     rom.seek(table_entry + (room_id * 3))
     ptr = rom.read(3)
@@ -189,7 +190,7 @@ def dump_battle_room(rom, room_id, table, lang, output_dir):
             pass
 
 
-def build_battle_text_patch(rom, table, writer, reloc_address):
+def build_battle_text_patch(rom: BufferedReader, table: Table, writer: Writer, reloc_address: int) -> int:
     xmlfile_re = re.compile(r"(\d+)\.xml")
     dialog_dir = os.path.join(os.path.dirname(__file__), "../text/fr/battle")
     files = sorted(os.listdir(dialog_dir))
@@ -222,11 +223,11 @@ def build_battle_text_patch(rom, table, writer, reloc_address):
     return address
 
 
-def output_dir(lang):
+def output_dir(lang: str) -> str:
     return os.path.join(os.path.dirname(__file__), f"../text/{lang}/battle")
 
 
-def dump_rooms_for_lang(lang):
+def dump_rooms_for_lang(lang: str) -> None:
     table_path = os.path.join(os.path.dirname(__file__), "../text/table")
 
     table = Table(os.path.join(table_path, f"{lang}.tbl"))
@@ -235,7 +236,7 @@ def dump_rooms_for_lang(lang):
             dump_battle_room(rom_file, room_id, table, lang, output_dir=output_dir(lang))
 
 
-def debug_dump_room(lang="jp"):
+def debug_dump_room(lang: str = "jp") -> None:
     table_path = os.path.join(os.path.dirname(__file__), "../text/table")
 
     table = Table(os.path.join(table_path, f"{lang}.tbl"))
@@ -246,7 +247,7 @@ def debug_dump_room(lang="jp"):
         dump_battle_room(rom_file, room_id, table, lang, output_dir=output_dir(lang))
 
 
-def debug_compress_battle_room(lang="jp"):
+def debug_compress_battle_room(lang: str = "jp") -> None:
     table_path = os.path.join(os.path.dirname(__file__), "../text/table")
 
     table = Table(os.path.join(table_path, f"{lang}.tbl"))

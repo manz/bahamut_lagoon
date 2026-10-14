@@ -14,7 +14,12 @@ dependencies = [
 Homepage = "https://github.com/manz/bahamut_lagoon"
 
 [dependency-groups]
-dev = ["kintsuki[visual]==0.0.0a18", "pytest", "ruff==0.17.0"]
+dev = [
+    "kintsuki[visual]==0.0.0a18",
+    "mypy==2.4.0",
+    "pytest",
+    "ruff==0.17.0",
+]
 
 [tool.uv]
 package = false
@@ -25,3 +30,14 @@ pythonpath = ["."]
 
 [tool.ruff]
 line-length = 120
+
+[tool.mypy]
+strict = true
+explicit_package_bases = true
+disallow_any_explicit = true
+files = ["build.py", "build_room.py", "convert.py", "generate_macros.py", "utils", "tests"]
+
+[[tool.mypy.overrides]]
+# a816's script/ and kintsuki are annotated but ship no py.typed marker yet: read their sources.
+module = ["script", "script.*", "kintsuki", "kintsuki.*"]
+follow_untyped_imports = true

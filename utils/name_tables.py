@@ -7,9 +7,11 @@ name in its place.
 """
 
 import xml.etree.ElementTree as ET
+from collections.abc import Sequence
 from dataclasses import dataclass
 from pathlib import Path
 
+from a816.writers import Writer
 from script import Table
 
 from utils.cartridge import rom_offset
@@ -61,7 +63,7 @@ def short_record(codes: bytes) -> bytes:
     return record.ljust(RECORD, bytes([PAD]))
 
 
-def insert_short_names(writer, table: Table) -> None:
+def insert_short_names(writer: Writer, table: Table) -> None:
     for name_table in NAME_TABLES:
         records = b"".join(short_record(encode(table, name)) for name in read_names(name_table.source))
         writer.write_block(records, rom_offset(name_table.address))
@@ -71,11 +73,14 @@ def item_records(table: Table, source: Path = ITEM_NAMES) -> bytes:
     """Item name records: the icon code, then the name as short_record cuts it."""
     records = b""
     for string in ET.parse(source).getroot():
-        records += bytes([int(string.get("icon"), 16)]) + short_record(encode(table, string.text or ""))
+        icon = string.get("icon")
+        if icon is None:
+            raise ValueError(f"item name {string.text!r} has no icon")
+        records += bytes([int(icon, 16)]) + short_record(encode(table, string.text or ""))
     return records
 
 
-def insert_item_names(writer, table: Table) -> None:
+def insert_item_names(writer: Writer, table: Table) -> None:
     writer.write_block(item_records(table), rom_offset(ITEM_RECORDS))
 
 
@@ -88,7 +93,7 @@ def baked_entry(baked: Baked) -> list[str]:
 
 
 def long_names_source(
-    table: Table, font: bytes, segments: list[bytes], statics: list[tuple[int, bytes]] = ()
+    table: Table, font: bytes, segments: list[bytes], statics: Sequence[tuple[int, bytes]] = ()
 ) -> tuple[str, bytes]:
     """The a816 module of full names: a descriptor per table (record 0, count, pointers, record size, baked tiles),
     then the strings and each name's baked entry (offset in small_vwf_baked_tiles, cells), then the inline string
@@ -126,11 +131,11 @@ def long_names_source(
     for baked in bake(font, segments, blob, offsets):
         entries += baked_entry(baked)
     entries += ["small_vwf_static_baked:", f"    .dw {len(statics)}", "small_vwf_static_entries:"]
-    for (address, codes), baked in zip(
-        statics, bake(font, [codes for _, codes in statics], blob, offsets), strict=True
+    for (address, static_codes), baked in zip(
+        statics, bake(font, [static_codes for _, static_codes in statics], blob, offsets), strict=True
     ):
         entries.append(
-            f"    .istruct StaticBaked {{ address = 0x{address & 0xFFFF:04X}, length = {len(codes)},"
+            f"    .istruct StaticBaked {{ address = 0x{address & 0xFFFF:04X}, length = {len(static_codes)},"
             f" baked = {{ {baked_fields(baked)} }} }}"
         )
     source = "\n".join(

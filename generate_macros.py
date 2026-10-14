@@ -7,16 +7,17 @@ import os
 import subprocess
 import sys
 from pathlib import Path
+from typing import Literal
 
-from utils.vm.opcodes import ActorList, ConditionalJump, Opcode13
+from utils.vm.opcodes import ActorList, ConditionalJump, Opcode, Opcode13, TextOpcode
 from utils.vm.opcodes_map import opcode_names, opcode_table
 
 
-def get_opcode_size(opcode_num):
+def get_opcode_size(opcode_num: int) -> int | Literal["variable"]:
     """Get the size of an opcode from the opcode table"""
     if opcode_num in opcode_table:
         opcode_obj = opcode_table[opcode_num]
-        if hasattr(opcode_obj, "size"):
+        if isinstance(opcode_obj, (Opcode, TextOpcode)):
             return opcode_obj.size
         # For complex opcodes, return a default or check specific cases
         if opcode_num in [0x00, 0x01, 0x02, 0x03, 0x04, 0x05]:  # Jump opcodes
@@ -38,7 +39,7 @@ def with_docstring(macro: str, doc: str) -> str:
     return f'{signature}\n    """{doc}"""\n{body}'
 
 
-def generate_macro_library():
+def generate_macro_library() -> str:
     """Generate the complete a816 macro library"""
 
     header = (
@@ -123,7 +124,7 @@ def generate_macro_library():
     .db 0x{opcode_num:02X}, param1, param2, param3, param4
 }}
 """
-        elif size == "variable":
+        elif isinstance(size, str):  # "variable"
             # Variable size opcodes (choices, etc.)
             if opcode_num == 0x08:  # yes_no
                 macro = f""".macro {macro_name}(text_addr, yes_addr, no_addr) {{
@@ -161,7 +162,7 @@ def generate_macro_library():
     return header + "\n".join(macros)
 
 
-def main():
+def main() -> None:
     """Generate and save the macro library"""
     macros = generate_macro_library()
 
