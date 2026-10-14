@@ -12,8 +12,6 @@ PY ?= $(shell [ -x .venv/bin/python ] && echo .venv/bin/python || echo python3)
 ROM = build/bl.sfc
 IPS = build/bl.ips
 DEBUG_IPS = build/bl-debug.ips
-# Only the tracked sources: the checkout also holds scratch asm (debug_src/,
-# old experiments) that is neither built nor kept to the gate.
 SOURCES = bl.s $(wildcard src/*.s src/*.i)
 TEXTS = $(wildcard text/*.xml text/fr/*.xml text/fr/dialog/*.xml text/fr/battle/*.xml text/table/*.tbl)
 
@@ -63,15 +61,15 @@ test: tests  ## Alias for `tests`
 .PHONY: check
 check:  ## Verify formatting and run the a816 fluff and ruff lints
 	$(info $(M) Checking sources...)
-	$(Q) uv run a816 format --check $(SOURCES)
-	$(Q) uv run a816 check $(SOURCES)
+	$(Q) uv run a816 format --check
+	$(Q) uv run a816 check
 	$(Q) $(UV_FORMAT) --check
 	$(Q) uv run ruff check
 
 .PHONY: format
 format:  ## Rewrite sources in a816 and ruff canonical form
 	$(info $(M) Formatting sources...)
-	$(Q) uv run a816 format $(SOURCES)
+	$(Q) uv run a816 format
 	$(Q) $(UV_FORMAT)
 	$(Q) uv run ruff check --fix
 
