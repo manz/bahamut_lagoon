@@ -66,7 +66,8 @@ main_entry:
     .db 0x16, 0x06, 0x01  ; Set facing for actor 6
 
 ; Test movement with facing
-    actor_move(0x5, 0x30, 0xFF)  ; Move actor 5 right
+    actor_move(0x5)  ; Move actor 5 right
+    .db 0x30, 0xFF
     wait_actor_move(0x5)
     .db 0x16, 0x05, 0x03  ; Face right after moving
 

@@ -60,14 +60,13 @@ Generated from utils/vm/opcodes_map.py by generate_macros.py: edit the generator
     .dw no_addr
 }
 
-.macro multiple_choice(text_addr, choice1, choice2, choice3, choice4) {
+.macro multiple_choice(text_addr, choice1, choice2, choice3) {
     """Room opcode 0x09: multiple_choice."""
     .db 0x09
     .dw text_addr
     .dw choice1
     .dw choice2
     .dw choice3
-    .dw choice4
 }
 
 .macro loop_start(param1, param2) {
@@ -80,14 +79,14 @@ Generated from utils/vm/opcodes_map.py by generate_macros.py: edit the generator
     .db 0x0B
 }
 
-.macro set_flag() {
+.macro set_flag(flag) {
     """Room opcode 0x0C: set_flag."""
-    .db 0x0C
+    .db 0x0C, flag
 }
 
-.macro clear_flag() {
+.macro clear_flag(flag) {
     """Room opcode 0x0D: clear_flag."""
-    .db 0x0D
+    .db 0x0D, flag
 }
 
 .macro actor_set_frame(param1, param2) {
@@ -115,14 +114,14 @@ Generated from utils/vm/opcodes_map.py by generate_macros.py: edit the generator
     .db 0x12, param1, param2, param3
 }
 
-.macro actor_move(actor, motion, end) {
+.macro actor_move(actor) {
     """Room opcode 0x13: actor_move."""
-    .db 0x13, actor, motion, end
+    .db 0x13, actor
 }
 
-.macro actors_hold(actor, end) {
+.macro actors_hold() {
     """Room opcode 0x14: actors_hold."""
-    .db 0x14, actor, end
+    .db 0x14
 }
 
 .macro set_follower(param1, param2) {
@@ -140,9 +139,9 @@ Generated from utils/vm/opcodes_map.py by generate_macros.py: edit the generator
     .db 0x17, param1, param2
 }
 
-.macro actors_release(actor, end) {
+.macro actors_release() {
     """Room opcode 0x18: actors_release."""
-    .db 0x18, actor, end
+    .db 0x18
 }
 
 .macro actor_set_palette(param1, param2) {
@@ -421,9 +420,11 @@ Generated from utils/vm/opcodes_map.py by generate_macros.py: edit the generator
     .db 0x4F, param1
 }
 
-.macro random_branch() {
+.macro random_branch(first, second) {
     """Room opcode 0x50: random_branch."""
     .db 0x50
+    .dw first
+    .dw second
 }
 
 .macro load_palette(param1, param2, param3, param4) {
