@@ -7,6 +7,10 @@ Built with build_room.py, not part of the patch.
 
 .include "src/room_macros.s"
 .table "./text/table/fr.tbl"
+
+.alloc at 0x008000 {
+; file offset 0 of the room image
+    @= 0x000000  ; labels count from the room's start, as the VM reads its words
 ; Room header
 
 room_start:
@@ -22,7 +26,7 @@ room_start:
 
 main_entry:
 """Room entry point: the script the interpreter runs."""
-    ; Set up scene
+; Set up scene
     load_map(0x15)
     set_camera(0x00, 0x00)
 
@@ -58,3 +62,4 @@ test_text:
 """Text shown by the test script."""
     .text "Hello from a816 room!"
     .db 0xFF
+}

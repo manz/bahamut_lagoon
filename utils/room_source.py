@@ -26,8 +26,8 @@ NO_MACRO = "no macro fits"  # an opcode written raw: its macro's layout disagree
 HEADER = [
     f'.include "{MACROS}"',
     "",
-    "*= 0x008000  ; file offset 0 of a LoROM image",
-    "@= 0x7F0000  ; WRAM, where rooms run: a word keeps the room offset the VM reads",
+    ".alloc at 0x008000 {  ; file offset 0 of the room image",
+    "@= 0x000000  ; labels count from the room's start, as the VM reads its words",
     "",
 ]
 
@@ -150,7 +150,7 @@ class RoomSource:
 
 
 def room_source(room: Room, macros: dict[int, Macro]) -> str:
-    return "\n".join(RoomSource(room, macros).lines()) + "\n"
+    return "\n".join([*RoomSource(room, macros).lines(), "}"]) + "\n"
 
 
 def assemble_room(source: Path, output: Path, obj_dir: Path) -> list[str]:
