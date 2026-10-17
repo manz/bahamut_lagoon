@@ -34,6 +34,7 @@ class Room:
         lang: str | None = None,
     ) -> None:
         self.table = table
+        self.data = bytes(room)  # the room as decompressed
         self.room = room + b"\xff" * 5
         self.lang = lang
         self.pc = 0

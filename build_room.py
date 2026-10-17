@@ -6,17 +6,15 @@ Build room assembly files with a816 and patch into ROM
 import os
 from pathlib import Path
 
-from a816.program import Program
+from utils.room_source import assemble_room
 
 
 def build_room(asm_file: str, output_bin: Path) -> bool:
     """Assemble room file with a816"""
-
-    program = Program()
-
-    exit_code = program.assemble(asm_file, output_bin)
-
-    return exit_code == 0
+    diagnostics = assemble_room(Path(asm_file), output_bin, output_bin.parent / "room_obj")
+    for diagnostic in diagnostics:
+        print(diagnostic)
+    return not diagnostics
 
 
 def patch_room_into_rom(room_bin: str, rom_file: str, room_offset: int) -> bool:

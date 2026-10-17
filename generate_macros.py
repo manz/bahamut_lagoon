@@ -9,7 +9,7 @@ import sys
 from pathlib import Path
 from typing import Literal
 
-from utils.vm.opcodes import ActorList, ConditionalJump, Opcode, Opcode13, TextOpcode
+from utils.vm.opcodes import ActorList, ConditionalJump, IfElseOpcode, Opcode, Opcode13, StateOpcode, TextOpcode
 from utils.vm.opcodes_map import opcode_names, opcode_table
 
 
@@ -70,15 +70,29 @@ def generate_macro_library() -> str:
 }}
 """
         elif isinstance(opcode_obj, Opcode13):
-            # One actor and one motion step; end is FF (or FE)
-            macro = f""".macro {macro_name}(actor, motion, end) {{
-    .db 0x{opcode_num:02X}, actor, motion, end
+            # The actor; its motion steps follow as `.db`, ended by FF (or FE)
+            macro = f""".macro {macro_name}(actor) {{
+    .db 0x{opcode_num:02X}, actor
 }}
 """
         elif isinstance(opcode_obj, ActorList):
-            # One actor, then the FF that ends the actor list
-            macro = f""".macro {macro_name}(actor, end) {{
-    .db 0x{opcode_num:02X}, actor, end
+            # The opcode; the actor ids follow as `.db`, ended by FF
+            macro = f""".macro {macro_name}() {{
+    .db 0x{opcode_num:02X}
+}}
+"""
+        elif isinstance(opcode_obj, StateOpcode):
+            # One flag: its word index (high five bits) and bit (low three)
+            macro = f""".macro {macro_name}(flag) {{
+    .db 0x{opcode_num:02X}, flag
+}}
+"""
+        elif isinstance(opcode_obj, IfElseOpcode):
+            # Two script addresses, one taken at random
+            macro = f""".macro {macro_name}(first, second) {{
+    .db 0x{opcode_num:02X}
+    .dw first
+    .dw second
 }}
 """
         elif size == 1:
@@ -135,13 +149,12 @@ def generate_macro_library() -> str:
 }}
 """
             elif opcode_num == 0x09:  # multiple_choice
-                macro = f""".macro {macro_name}(text_addr, choice1, choice2, choice3, choice4) {{
+                macro = f""".macro {macro_name}(text_addr, choice1, choice2, choice3) {{
     .db 0x{opcode_num:02X}
     .dw text_addr
     .dw choice1
     .dw choice2
     .dw choice3
-    .dw choice4
 }}
 """
             else:
