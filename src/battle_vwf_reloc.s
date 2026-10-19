@@ -2,6 +2,7 @@
 
 .include "src/ed_reloc.i"
 .include "src/wram.i"
+.include "src/expansion.i"
 
 .import "vwf_font"
 .extern wait_for_something__long
@@ -12,6 +13,11 @@
 
 
 .reserve battle_vwf_position 2 at 0x7EBE00 in wram  ; battle text pixel position
+
+_BUFFER = 0x7ED000  ; the engine's 2bpp text buffer, three lines of 0x1E 8x16 columns
+_VRAM = 0x4180  ; word address of the buffer's first column
+_LINE_BYTES = 0x1E * 0x20
+_LINES = 3
 
 .alloc battle_vwf_reloc in ed_reloc {
 battle_dma_transfer:
@@ -216,5 +222,71 @@ shift_table:
     .db 0x08
     .db 0x04
     .db 0x02
+    }
+}
+
+.alloc battle_vwf_page in expansion {
+battle_vwf_clear_window:
+"""
+Blank the three text lines, in the buffer and in VRAM, once the window pause is over. The engine's pause (C09B98)
+scrolls the buffer up a line for its own text, which went on at the last line; the VWF starts the next page at the
+top, where the scrolled line would show until the pen wrote over each of its columns.
+"""
+    {
+    php
+    phb
+    rep #0x30
+    lda.w #0x0000
+    ldx.w #_LINE_BYTES * _LINES - 2
+clear:
+    sta.l _BUFFER, x
+    dex
+    dex
+    bpl clear
+
+    sep #0x20
+    lda.b #0x00
+    pha
+    plb
+    ldx.w #0x0000
+upload:
+    phx
+    jsr.l wait_for_something__long  ; a line a frame, inside vblank
+    plx
+    lda.b #0x80
+    sta 0x2115
+    lda.b #0x01
+    sta 0x4300
+    lda.b #0x18
+    sta 0x4301
+    lda.b #_BUFFER >> 16
+    sta 0x4304
+    rep #0x20
+    txa
+    lsr
+    clc
+    adc.w #_VRAM
+    sta 0x2116
+    txa
+    clc
+    adc.w #_BUFFER & 0xFFFF
+    sta 0x4302
+    lda.w #_LINE_BYTES
+    sta 0x4305
+    sep #0x20
+    lda.b #0x01
+    sta 0x420B
+    rep #0x20
+    txa
+    clc
+    adc.w #_LINE_BYTES
+    tax
+    sep #0x20
+    cpx.w #_LINE_BYTES * _LINES
+    bne upload
+
+    plb
+    plp
+    rtl
     }
 }

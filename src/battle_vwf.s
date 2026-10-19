@@ -3,6 +3,7 @@
 .extern battle_vwf_init
 .extern battle_vwf_char
 .extern battle_vwf_new_line
+.extern battle_vwf_clear_window
 
 ; 0xFA char count
 ; 0x1A used to store char count
@@ -56,6 +57,7 @@ battle_vwf_new_line_return:
 battle_vwf_window_pause:
     phx
     jsr.w 0xC09B98 & 0xFFFF
+    jsr.l battle_vwf_clear_window
     plx
     bra battle_vwf_new_line_return
 
