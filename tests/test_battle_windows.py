@@ -126,3 +126,11 @@ def test_command_window_tilemap_goes_up_whole(console: Console) -> None:
     emu = console.emu
     # the window's slots upload in the same NMI: past a budget, the engine's 2 KB tilemap upload ran out of vblank
     assert bytes(emu.vram_read_range(BG1_MAP_VRAM, BG1_MAP_BYTES)) == bytes(emu.read_range(BG1_SHADOW, BG1_MAP_BYTES))
+
+
+def test_coup_fatal_list_draws_both_skills_whole(console: Console) -> None:
+    console.load("battle-coup-fatal")  # Byuu's command window on Coup fatal
+    console.tap(console.button.A)
+    console.emu.run_frames(20)
+    # Frappe de feu and Frappe de soin on one row: drawn as two lines, each its own slots
+    assert console.matches_golden("battle-coup-fatal")

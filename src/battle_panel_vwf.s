@@ -44,6 +44,7 @@ PARTY_NAMES_END = PARTY_NAMES + 10 * PARTY_NAME_CODES
 PARTY_NAME_CODES = 8
 MESSAGE_SPELL_COPY = 0xD6E5  ; the return addresses, less one, of the copies that write a battle message's
 MESSAGE_DRAGON_COPY = 0xA7A4  ; name: a spell's, a dragon's
+SKILL_LIST_COPY = 0xD6AF  ; the Coup fatal list's call to the spell copy's helper (C0D6D0), less one: a panel line
 MESSAGE_RANGE = 0xD5  ; the range icon's first half: a spell message's $10 for its range
 BOX_MARGIN = 2  ; cells a map message box adds past its text: a blank and the prompt arrow
 PLACEHOLDER = 0x01
@@ -68,13 +69,14 @@ WINDOW_RUNS = 0x70
 FIRST_WINDOW_RUN = 4 * 2
 UPLOAD_BUDGET = 0x400  ; bytes of runs an NMI uploads: a window's tilemap must still go up in vblank
 
-; line_strip, line_chars, line_cells: the line being composed (a field may render past it), its characters (BLANK
-; past them) and where small_vwf drew. pool_owner: tilemap row + 1 holding the slot, 0 when free. pool_cell: the line
-; cell the slot draws. pool_flags: SLOT_STALE. window_tiles: the window slots in 4bpp. dirty: a bit per run of
-; _pool_runs to upload. first, last: the slot range a placeholder takes from. slot_run: run * 2. source,
-; window_source: the upload's sources. copy_end: Y as the engine's copy leaves it. message_end: the line
-; position past the last battle message's name. hint: slot * 2 _find_slot tries first. first_index, last_index: first
-; and last as slot * 2. line_row, kept: the row whose line is being drawn and the slots it kept.
+; line_strip, line_chars, line_cells: the line being composed (a field may render past it), its characters (BLANK past
+; them) and where small_vwf drew. pool_owner: tilemap row + 1 holding the slot, 0 when free. pool_cell: the tilemap
+; column the slot draws (a row can show two lines: the Coup fatal list's two skills). pool_flags: SLOT_STALE.
+; window_tiles: the window slots in 4bpp. dirty: a bit per run of _pool_runs to upload. first, last: the slot range a
+; placeholder takes from. slot_run: run * 2. source, window_source: the upload's sources. copy_end: Y as the engine's
+; copy leaves it. message_end: the line position past the last battle message's name. hint: slot * 2 _find_slot tries
+; first. first_index, last_index: first and last as slot * 2. line_row, kept: the row whose line is being drawn and the
+; slots it kept. column: the placeholder's tilemap column.
 .struct PanelVwf {
     byte[( LINE_CELLS + COPY_CELLS ) * TILE_BYTES] line_strip
     byte[LINE_CELLS] line_chars
@@ -102,6 +104,7 @@ UPLOAD_BUDGET = 0x400  ; bytes of runs an NMI uploads: a window's tilemap must s
     word last_index
     word line_row
     word kept
+    byte column
 }
 
 .reserve panel as PanelVwf in sram_work
@@ -250,12 +253,17 @@ _for_a_message:
     rep #0x20
     lda 0x03, s  ; past this jsr: the engine caller's return address, less one
     cmp.w #MESSAGE_SPELL_COPY
-    beq _message
+    beq _spell
     cmp.w #MESSAGE_DRAGON_COPY
     beq _message
+_line:
     sep #0x20
     clc
     rts
+_spell:
+    lda 0x05, s  ; the helper's caller: the Coup fatal list draws its skills with it too
+    cmp.w #SKILL_LIST_COPY
+    beq _line
 _message:
     sep #0x20
     sec
@@ -558,6 +566,12 @@ _panel_cell:
 _drawn:
     rep #0x20
     tya
+    lsr
+    sep #0x20
+    and #0x1F
+    sta.l panel.column
+    rep #0x20
+    tya
     jsr.w _row_owner
     sta.l panel.row
     jsr.w _find_slot
@@ -623,7 +637,7 @@ _frame_kept:
 
 _find_slot:
 """
-The slot (16-bit A, carry set) of panel.row's panel.cell in panel.first..last, else a free one taken for it;
+The slot (16-bit A, carry set) of panel.row's panel.column in panel.first..last, else a free one taken for it;
 carry clear: none. A row's cells take slots downwards in order, so the slot before the last one found is tried first,
 for its own and for a free one; a row that kept no slot when its line started owns none for its cells.
 """
@@ -714,7 +728,7 @@ _free_found:
     rts
 
 _owns:
-"""Zero (16-bit A) when slot X (slot * 2) is panel.row's panel.cell. Keeps X."""
+"""Zero (16-bit A) when slot X (slot * 2) is panel.row's panel.column. Keeps X."""
     lda.l panel.pool_owner, x
     cmp.l panel.row
     bne _owned
@@ -725,7 +739,7 @@ _owns_cell:
     tax
     sep #0x20
     lda.l panel.pool_cell, x
-    eor.l panel.cell
+    eor.l panel.column
     rep #0x20
     plx  ; pulling X sets the flags: test the cell after
     and.w #0x00FF
@@ -733,10 +747,13 @@ _owned:
     rts
 
 _fill_slot:
-"""Slot A (16-bit) draws strip cell panel.cell: fresh again, its run dirty when its pixels change. Keeps Y."""
+"""
+Slot A (16-bit) draws strip cell panel.cell at panel.column: fresh again, its run dirty when its pixels change. Keeps
+Y.
+"""
     tax
     sep #0x20
-    lda.l panel.cell
+    lda.l panel.column
     sta.l panel.pool_cell, x
     lda #0x00
     sta.l panel.pool_flags, x
