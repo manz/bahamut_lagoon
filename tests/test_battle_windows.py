@@ -113,3 +113,39 @@ def test_the_roster_fits_the_widest_name_and_class(console: Console) -> None:
     console.tap(console.button.A)
     console.emu.run_frames(90)
     assert console.matches_golden("battle-roster")  # Fils de Zora and Garde royal whole, a gap before LV
+
+
+BG1_SHADOW = 0x7E4000  # the map's BG1 tilemap in WRAM, the windows drawn into it
+BG1_MAP_VRAM = 0x4800 * 2  # its VRAM copy, a byte address
+BG1_MAP_BYTES = 0x800
+
+
+def test_command_window_tilemap_goes_up_whole(console: Console) -> None:
+    console.load("battle-command-window-upload")  # a unit picked on the map, its command window about to open
+    console.tap(console.button.A)
+    emu = console.emu
+    # the window's slots upload in the same NMI: past a budget, the engine's 2 KB tilemap upload ran out of vblank
+    assert bytes(emu.vram_read_range(BG1_MAP_VRAM, BG1_MAP_BYTES)) == bytes(emu.read_range(BG1_SHADOW, BG1_MAP_BYTES))
+
+
+def test_coup_fatal_list_draws_both_skills_whole(console: Console) -> None:
+    console.load("battle-coup-fatal")  # Byuu's command window on Coup fatal
+    console.tap(console.button.A)
+    console.emu.run_frames(20)
+    # Frappe de feu and Frappe de soin on one row: drawn as two lines, each its own slots
+    assert console.matches_golden("battle-coup-fatal")
+
+
+def test_scene_spell_menu_describes_the_spell(console: Console) -> None:
+    console.load("battle-scene-spell-menu")  # the combat scene's spell menu, Byuu's Ondes
+    for button in (console.button.UP, console.button.DOWN):  # each spell's description, from the messages
+        console.tap(button)
+        console.emu.run_frames(30)
+        assert console.matches_golden(f"battle-scene-spell-{'up' if button == console.button.UP else 'down'}")
+
+
+def test_combat_scene_spell_banner_names_the_spell_whole(console: Console) -> None:
+    console.load("combat-scene-spell-banner")  # a combat scene about to show the cast spell's banner
+    console.emu.run_frames(31)
+    # the full name, " Nv" for the level icon, the level, centred: it read "Cri striy5"
+    assert console.matches_golden("combat-scene-spell-banner")

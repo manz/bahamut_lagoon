@@ -29,8 +29,8 @@
     <string address="0xc0efee" jp="漕岩のダメ-ジ" refs="0xc08b7e" count="0xc08b8b">Dégâts de la lave</string>
     <string address="0xc0ef9e" jp="アイテムを入手しました." refs="0xc061d6" count="0xc08b8b">Objet obtenu.</string>
     <string address="0xc0efad" jp="お金を入手しました." refs="0xc061c3" count="0xc08b8b">Piro obtenus.</string>
-    <string address="0xc0ef83" jp="パ-ティ-の経験値十" refs="0xc0a70c" digits="0xc0a71b">Exp. du groupe : </string>
-    <string address="0xc0ef91" jp="全員の経験値十" refs="0xc08861" digits="0xc08884">Exp. de tous : </string>
+    <string address="0xc0ef83" jp="パ-ティ-の経験値十" refs="0xc0a70c" digits="0xc0a71b">Expérience du groupe : </string>
+    <string address="0xc0ef91" jp="全員の経験値十" refs="0xc08861" digits="0xc08884">Expérience de tous : </string>
     <string address="0xc0efbc" jp="に進化しました." refs="0xc0a7bc"> : nouvelle forme !</string>
     <string address="0xc0efe7" jp="を入手." refs="0xc07739"> obtenu.</string>
     <string address="0xc0efc8" jp="章の蛤めからやりなおしますか?" refs="0xc0a1b3" count="0xc0a1b6">Recommencer le chapitre ?</string>

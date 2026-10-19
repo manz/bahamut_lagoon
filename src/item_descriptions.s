@@ -1,9 +1,11 @@
 """
-Item descriptions (feed menu, item menus): their reader in bank C1 had the messages' bank hardcoded.
+Item and spell descriptions (feed menu, item menus, the combat scene's spell menu): their readers in bank C1 had the
+messages' bank hardcoded.
 
 The descriptions are entries of the messages table (pointers at EE35F1), which build.py relocates to bank FD and
-repoints in the three vanilla readers it knows (EE5404, EE553A, C0D8AD). This reader, at C14305, loads bank EE as
-a constant for both the pointer table ($2A) and the strings ($60), so it read the relocated offsets in bank EE.
+repoints in the three vanilla readers it knows (EE5404, EE553A, C0D8AD). These readers, at C14305 (items, through
+EE3020) and C1434D (spells, through EE3022), load bank EE as a constant for both the pointer table ($2A) and the
+strings ($60), so they read the relocated offsets in bank EE: the spell menu showed code bytes as text.
 """
 
 
@@ -23,6 +25,14 @@ set_item_description_banks:
 }
 
 .alloc at 0xC14311 {
+    jsr.l set_item_description_banks
+    nop
+    nop
+    nop
+    nop
+}
+
+.alloc at 0xC14355 {
     jsr.l set_item_description_banks
     nop
     nop

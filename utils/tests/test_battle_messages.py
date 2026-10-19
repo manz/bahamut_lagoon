@@ -2,7 +2,7 @@ from unittest import TestCase
 
 from script import Table
 
-from utils.battle_messages import BANK_SITES, LINE, LINE_BUS, BattleMessage, patches, read_messages
+from utils.battle_messages import BANK_SITES, LINE, LINE_BUS, LINE_CELLS, BattleMessage, patches, read_messages
 
 TABLE = Table("text/table/mz.tbl")
 ADDRESS = 0xFD8000
@@ -52,3 +52,12 @@ class MessagesTestCase(TestCase):
                 text = message.text.replace("#", "0")
                 codes = TABLE.to_bytes(text.replace(" ", r"\s"))
                 self.assertEqual(TABLE.to_text(codes).replace(r"\s", " "), text)
+
+    def test_a_line_past_the_buffer_is_refused(self) -> None:
+        with self.assertRaises(ValueError):
+            patches(TABLE, [BattleMessage("x" * LINE_CELLS, (0xC01000,))], ADDRESS)
+
+    def test_a_number_needs_its_digits_room(self) -> None:
+        text = "x" * (LINE_CELLS - 5)  # its FF and 5 digits: one byte over
+        with self.assertRaises(ValueError):
+            patches(TABLE, [BattleMessage(text, (0xC01000,), digits=0xC01010)], ADDRESS)

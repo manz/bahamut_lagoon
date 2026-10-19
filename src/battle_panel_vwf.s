@@ -44,6 +44,7 @@ PARTY_NAMES_END = PARTY_NAMES + 10 * PARTY_NAME_CODES
 PARTY_NAME_CODES = 8
 MESSAGE_SPELL_COPY = 0xD6E5  ; the return addresses, less one, of the copies that write a battle message's
 MESSAGE_DRAGON_COPY = 0xA7A4  ; name: a spell's, a dragon's
+SKILL_LIST_COPY = 0xD6AF  ; the Coup fatal list's call to the spell copy's helper (C0D6D0), less one: a panel line
 MESSAGE_RANGE = 0xD5  ; the range icon's first half: a spell message's $10 for its range
 BOX_MARGIN = 2  ; cells a map message box adds past its text: a blank and the prompt arrow
 PLACEHOLDER = 0x01
@@ -66,14 +67,16 @@ SLOT_STALE = 0x01  ; not drawn since its row was last drawn
 ALL_RUNS = 0x0F  ; the panel's
 WINDOW_RUNS = 0x70
 FIRST_WINDOW_RUN = 4 * 2
+UPLOAD_BUDGET = 0x400  ; bytes of runs an NMI uploads: a window's tilemap must still go up in vblank
 
-; line_strip, line_chars, line_cells: the line being composed (a field may render past it), its characters (BLANK
-; past them) and where small_vwf drew. pool_owner: tilemap row + 1 holding the slot, 0 when free. pool_cell: the line
-; cell the slot draws. pool_flags: SLOT_STALE. window_tiles: the window slots in 4bpp. dirty: a bit per run of
-; _pool_runs to upload. first, last: the slot range a placeholder takes from. slot_run: run * 2. source,
-; window_source: the upload's sources. copy_end: Y as the engine's copy leaves it. message_end: the line
-; position past the last battle message's name. hint: slot * 2 _find_slot tries first. first_index, last_index: first
-; and last as slot * 2. line_row, kept: the row whose line is being drawn and the slots it kept.
+; line_strip, line_chars, line_cells: the line being composed (a field may render past it), its characters (BLANK past
+; them) and where small_vwf drew. pool_owner: tilemap row + 1 holding the slot, 0 when free. pool_cell: the tilemap
+; column the slot draws (a row can show two lines: the Coup fatal list's two skills). pool_flags: SLOT_STALE.
+; window_tiles: the window slots in 4bpp. dirty: a bit per run of _pool_runs to upload. first, last: the slot range a
+; placeholder takes from. slot_run: run * 2. source, window_source: the upload's sources. copy_end: Y as the engine's
+; copy leaves it. message_end: the line position past the last battle message's name. hint: slot * 2 _find_slot tries
+; first. first_index, last_index: first and last as slot * 2. line_row, kept: the row whose line is being drawn and the
+; slots it kept. column: the placeholder's tilemap column.
 .struct PanelVwf {
     byte[( LINE_CELLS + COPY_CELLS ) * TILE_BYTES] line_strip
     byte[LINE_CELLS] line_chars
@@ -101,6 +104,7 @@ FIRST_WINDOW_RUN = 4 * 2
     word last_index
     word line_row
     word kept
+    byte column
 }
 
 .reserve panel as PanelVwf in sram_work
@@ -249,12 +253,17 @@ _for_a_message:
     rep #0x20
     lda 0x03, s  ; past this jsr: the engine caller's return address, less one
     cmp.w #MESSAGE_SPELL_COPY
-    beq _message
+    beq _spell
     cmp.w #MESSAGE_DRAGON_COPY
     beq _message
+_line:
     sep #0x20
     clc
     rts
+_spell:
+    lda 0x05, s  ; the helper's caller: the Coup fatal list draws its skills with it too
+    cmp.w #SKILL_LIST_COPY
+    beq _line
 _message:
     sep #0x20
     sec
@@ -557,6 +566,12 @@ _panel_cell:
 _drawn:
     rep #0x20
     tya
+    lsr
+    sep #0x20
+    and #0x1F
+    sta.l panel.column
+    rep #0x20
+    tya
     jsr.w _row_owner
     sta.l panel.row
     jsr.w _find_slot
@@ -622,7 +637,7 @@ _frame_kept:
 
 _find_slot:
 """
-The slot (16-bit A, carry set) of panel.row's panel.cell in panel.first..last, else a free one taken for it;
+The slot (16-bit A, carry set) of panel.row's panel.column in panel.first..last, else a free one taken for it;
 carry clear: none. A row's cells take slots downwards in order, so the slot before the last one found is tried first,
 for its own and for a free one; a row that kept no slot when its line started owns none for its cells.
 """
@@ -713,7 +728,7 @@ _free_found:
     rts
 
 _owns:
-"""Zero (16-bit A) when slot X (slot * 2) is panel.row's panel.cell. Keeps X."""
+"""Zero (16-bit A) when slot X (slot * 2) is panel.row's panel.column. Keeps X."""
     lda.l panel.pool_owner, x
     cmp.l panel.row
     bne _owned
@@ -724,7 +739,7 @@ _owns_cell:
     tax
     sep #0x20
     lda.l panel.pool_cell, x
-    eor.l panel.cell
+    eor.l panel.column
     rep #0x20
     plx  ; pulling X sets the flags: test the cell after
     and.w #0x00FF
@@ -732,10 +747,13 @@ _owned:
     rts
 
 _fill_slot:
-"""Slot A (16-bit) draws strip cell panel.cell: fresh again, its run dirty when its pixels change. Keeps Y."""
+"""
+Slot A (16-bit) draws strip cell panel.cell at panel.column: fresh again, its run dirty when its pixels change. Keeps
+Y.
+"""
     tax
     sep #0x20
-    lda.l panel.cell
+    lda.l panel.column
     sta.l panel.pool_cell, x
     lda #0x00
     sta.l panel.pool_flags, x
@@ -852,7 +870,11 @@ _clean:
     rtl
 
 _upload_runs:
-"""DMA each dirty run on channel 0 to the panel font, keeping the channel's registers."""
+"""
+DMA the dirty runs on channel 0, keeping the channel's registers: the window runs first, whose tilemap the engine
+uploads after this NMI, then the panel's, UPLOAD_BUDGET bytes at most. A run past the budget stays dirty for the next
+NMI: past it, the engine's own uploads (a window's 2 KB tilemap) would run out of vblank.
+"""
     rep #0x30
     pha
     phx
@@ -873,15 +895,16 @@ _save:
     lda #panel.pool_tiles >> 16
     sta.l 0x004304
     rep #0x20
+    lda.w #UPLOAD_BUDGET
+    pha  ; 1,s: the bytes left
+    ldx.w #FIRST_WINDOW_RUN
+    jsr.w _upload_window_run
     lda.w #panel.pool_tiles & 0xFFFF
     sta.l panel.source
     ldx.w #0x0000
 _run_upload:
-    lda.l _pool_runs, x
-    and.w #0x00FF
-    beq _uploaded
     cpx.w #FIRST_WINDOW_RUN
-    bcs _window_run
+    bcs _uploaded
     lda.l _pool_runs + 1, x
     and.w #0x00FF
     asl
@@ -894,6 +917,16 @@ _run_upload:
     and.l panel.dirty
     rep #0x20
     beq _next_run
+    tya
+    cmp 0x01, s
+    beq _fits
+    bcs _next_run  ; over the budget: the next NMI
+_fits:
+    eor.w #0xFFFF
+    sec
+    adc 0x01, s
+    sta 0x01, s
+    jsr.w _run_sent
     lda.l _pool_runs, x
     and.w #0x00FF
     asl
@@ -910,13 +943,9 @@ _next_run:
     inx
     inx
     bra _run_upload
-_window_run:
-    jsr.w _upload_window_run
 _uploaded:
+    pla
     sep #0x20
-    lda.l panel.dirty
-    and #WINDOW_RUNS  ; the panel runs are up; _upload_window_run cleared the window runs it sent
-    sta.l panel.dirty
     ldx.w #0x0000
 _restore:
     pla
@@ -927,6 +956,18 @@ _restore:
     rep #0x30
     ply
     plx
+    pla
+    rts
+
+_run_sent:
+"""Clear run X's dirty bit (16-bit A kept)."""
+    pha
+    sep #0x20
+    lda.l _run_bits, x
+    eor #0xFF
+    and.l panel.dirty
+    sta.l panel.dirty
+    rep #0x20
     pla
     rts
 
@@ -944,7 +985,10 @@ _transfer:
     rts
 
 _upload_window_run:
-"""Every dirty window run from X on: its 4bpp tiles to the window font, in the NMI the window's tilemap goes up."""
+"""
+Every dirty window run from X on, within the budget at 3,s: its 4bpp tiles to the window font, in the NMI the
+window's tilemap goes up.
+"""
     lda.w #panel.window_tiles & 0xFFFF
     sta.l panel.window_source
 _window_upload:
@@ -964,12 +1008,16 @@ _window_upload:
     and.l panel.dirty
     rep #0x20
     beq _next_window_run
-    sep #0x20
-    lda.l _run_bits, x
-    eor #0xFF
-    and.l panel.dirty
-    sta.l panel.dirty
-    rep #0x20
+    tya
+    cmp 0x03, s
+    beq _window_fits
+    bcs _next_window_run  ; over the budget: the next NMI
+_window_fits:
+    eor.w #0xFFFF
+    sec
+    adc 0x03, s
+    sta 0x03, s
+    jsr.w _run_sent
     lda.l panel.window_source
     sta.l panel.source
     lda.l _pool_runs, x
