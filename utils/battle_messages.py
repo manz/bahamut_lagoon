@@ -32,6 +32,8 @@ END = 0xFF
 LINE = 0x0620  # the battle line, seen through D = 0x100 by its number writers
 LINE_BUS = 0x0720  # the battle line, as C0A113 addresses it
 DIGIT = "#"  # stands for the digit the engine writes into the line
+LINE_CELLS = 30  # the battle line's bytes, its FF included
+NUMBER_DIGITS = 5  # C0DF53 writes a 16-bit number's significant digits
 SMALL_FONT_COLON = "[0x30]"
 
 # The bank operand of every loader: C0A113's copy, C0A942's, C0A9B8's caller and the two panel copy groups.
@@ -82,6 +84,11 @@ def copy_count(message: BattleMessage, codes: bytes) -> int:
     return len(codes) - 1 if message.kind == "prefix" else len(codes)
 
 
+def line_bytes(message: BattleMessage, codes: bytes) -> int:
+    """The battle line bytes the message takes at most: its codes and FF, and the number written after it."""
+    return len(codes) + (NUMBER_DIGITS if message.digits is not None else 0)
+
+
 def laid_out(table: Table, messages: list[BattleMessage], address: int) -> Iterator[tuple[BattleMessage, int, bytes]]:
     """Each message, its bus address laid out from `address`, and its codes."""
     for message in messages:
@@ -106,6 +113,8 @@ def patches(table: Table, messages: list[BattleMessage], address: int) -> tuple[
     code: dict[int, bytes] = {site: bytes([address >> 16]) for site in BANK_SITES}
     counts: dict[int, int] = {}
     for message, at, codes in laid_out(table, messages, address):
+        if line_bytes(message, codes) > LINE_CELLS:
+            raise ValueError(f"{message.text!r} takes {line_bytes(message, codes)} bytes of the {LINE_CELLS}-byte line")
         pointer = at & 0xFFFF
         for ref in message.refs:
             code[ref + 1] = pointer.to_bytes(2, "little")
