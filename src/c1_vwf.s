@@ -8,11 +8,15 @@ the name's record here, so that the draw renders the record (and its full name) 
 characters.
 
 A string of three characters or more renders; its cells take slots: the font's kana (tiles 0x33-0x5F, which only
-kana codes map to), the blank tiles 0x170-0x17F, then the graphics at 0x100-0x16F this screen does not show (the
-engine loads the font again with each screen), over the 4bpp font the engine loads at VRAM 0x4000 (the glyph
-over the window background, colour 4). A slot belongs to a shadow cell and is free again once that cell shows
-something else. Changed slots mark their run dirty; the engine's shadow upload callback (C109A4) carries the dirty
-runs first.
+kana codes map to), the blank tiles 0x170-0x17F, then 0x100-0x16B, the yellow copy of the font's 0x60-0xCB which
+only kana names showed in yellow (the combat scene shows 0x16C-0x16D), over the 4bpp font the engine loads at VRAM
+0x4000 (the glyph over the window background, colour 4). A slot belongs to a shadow cell and is free again once
+that cell shows something else. Changed slots mark their run dirty; the engine's shadow upload callback (C109A4)
+carries the dirty runs first.
+
+The combat scene shows the active character's name in yellow: C1312A moves each of its tiles to the yellow copy
+(+0xA0). A slot keeps its number instead and its ink turns yellow (colour 5), _YELLOW in its owner, until the name
+goes back to white: the cell goes on showing its own slot, so no other string takes it.
 """
 
 .include "src/expansion.i"
@@ -33,9 +37,12 @@ _ATTR = 0x3800
 _BLANK_TILE = 0x12
 _FRAME_TILES = 3  ; tiles 0x01-0x03: a window's corner, edge and side
 _BUFFER = 0x000870  ; where C12EC0 copies a name
-_SLOTS = 173
-_KANA_SLOTS = 45  ; tiles 0x33-0x5F, then 0x170-0x17F, then 0x100-0x16F
+_SLOTS = 173  ; the struct's arrays: 0x100-0x16F once, kept so that saved SRAM keeps its layout
+_KANA_SLOTS = 45  ; tiles 0x33-0x5F, then 0x170-0x17F, then 0x100-0x16B
 _BLANK_SLOTS = 16
+_HIDDEN_SLOTS = 0x6C
+_POOL_SLOTS = _KANA_SLOTS + _BLANK_SLOTS + _HIDDEN_SLOTS
+_YELLOW = 0x8000  ; in slot_owner: the owner's name is yellow, its slots' ink colour 5
 _TILE_4BPP = 32
 _MIN_CHARS = 3
 _MAX_CELLS = 12
@@ -43,9 +50,9 @@ _ITEM_RECORDS = 0xEF3CA0
 _NO_RECORD = 0xFF
 _RENAMEABLE = 0x0A  ; characters below this are the party's (7E2B00), named by the player: no record
 
-; slot_owner: the shadow cell a slot draws, plus 1; 0 when free (cells are even). type: the name type C12EC0 copied,
-; _NO_RECORD when none; id its id. field: the cells the engine's draw covers. index: 1 when an icon came first.
-; dirty: a bit per run. slot_generation: the generation a slot's tile last went up in; generation counts the
+; slot_owner: the shadow cell a slot draws, plus 1, and _YELLOW; 0 when free (cells are even). type: the name type
+; C12EC0 copied, _NO_RECORD when none; id its id. field: the cells the engine's draw covers. index: 1 when an icon
+; came first. dirty: a bit per run. slot_generation: the generation a slot's tile last went up in; generation counts the
 ; chunked uploads, which may write over the slots. The rest is scratch.
 .struct C1Vwf {
     byte[_SLOTS * _TILE_4BPP] tiles
@@ -95,6 +102,11 @@ _RENAMEABLE = 0x0A  ; characters below this are the party's (7E2B00), named by t
 }
 .alloc at 0xC19D66 {
     .db _BLANK_TILE
+}
+
+; C1312A, the combat scene names' recolouring, per cell: pha / and #0x03FF.
+.alloc at 0xC1312A {
+    jml.l c1_recolour
 }
 
 ; C109A4, the shadow upload callback: sep #0x20 / lsr $3C.
@@ -358,11 +370,12 @@ _slot_for_cell:
     lda.l c1.cell
     inc
     sta.l c1.key
-    ldx.w #( _SLOTS - 1 ) * 2
+    ldx.w #( _POOL_SLOTS - 1 ) * 2
 _own:
     lda.l c1.slot_owner, x
+    and.w #~_YELLOW & 0xFFFF
     cmp.l c1.key
-    beq _found
+    beq _found_own
     dex
     dex
     bpl _own
@@ -371,6 +384,7 @@ _free:
     lda.l c1.slot_owner, x
     beq _found
     phx
+    and.w #~_YELLOW & 0xFFFF
     dec
     tax
     lda.l _SHADOW, x
@@ -384,13 +398,14 @@ _free:
     bne _found  ; its cell shows something else
     inx
     inx
-    cpx.w #_SLOTS * 2
+    cpx.w #_POOL_SLOTS * 2
     bcc _free
     clc
     rts
 _found:
-    lda.l c1.key
+    lda.l c1.key  ; a new owner: white until C1312A says otherwise
     sta.l c1.slot_owner, x
+_found_own:
     txa
     lsr
     sta.l c1.slot
@@ -398,6 +413,86 @@ _found:
     lda.l c1.slot
     jsr.w _slot_tile
     sec
+    rts
+
+_tile_slot:
+"""Tile A (16-bit) -> its slot (16-bit A), carry set; carry clear when it is not a slot's. Keeps X."""
+    cmp.w #0x33
+    bcc _no_slot
+    cmp.w #0x33 + _KANA_SLOTS
+    bcs _past_kana
+    sec
+    sbc.w #0x33
+    sec
+    rts
+_past_kana:
+    cmp.w #0x100
+    bcc _no_slot
+    cmp.w #0x100 + _HIDDEN_SLOTS
+    bcs _past_hidden
+    sec
+    sbc.w #0x100 - _KANA_SLOTS - _BLANK_SLOTS
+    sec
+    rts
+_past_hidden:
+    cmp.w #0x170
+    bcc _no_slot
+    cmp.w #0x170 + _BLANK_SLOTS
+    bcs _no_slot
+    sec
+    sbc.w #0x170 - _KANA_SLOTS
+    sec
+    rts
+_no_slot:
+    clc
+    rts
+
+_paint_slot:
+"""
+Slot c1.slot's ink (colour 1: plane 0 alone) in colour 5 (plane 2 too) when its owner has _YELLOW, else back to
+colour 1; the shadow and the background stay.
+"""
+    rep #0x30
+    lda.l c1.slot
+    asl
+    tax
+    lda.l c1.slot_owner, x
+    php  ; N: _YELLOW
+    lda.l c1.slot
+    asl
+    asl
+    asl
+    asl
+    asl
+    tax
+    ldy.w #0x0008
+    plp
+    sep #0x20
+    bpl _white_row
+_yellow_row:
+    lda.l c1.tiles + 1, x
+    eor #0xFF
+    and.l c1.tiles, x
+    ora.l c1.tiles + 16, x
+    sta.l c1.tiles + 16, x
+    inx
+    inx
+    dey
+    bne _yellow_row
+    rep #0x30
+    rts
+_white_row:
+    lda.l c1.tiles + 1, x
+    eor #0xFF
+    and.l c1.tiles, x
+    eor #0xFF
+    and.l c1.tiles + 16, x
+    sta.l c1.tiles + 16, x
+    inx
+    inx
+    dey
+    bne _white_row
+    rep #0x30
     rts
 
 _slot_tile:
@@ -448,6 +543,7 @@ _fill_slot:
     jsl.l tile_blit
     rol
     sta.l c1.changed
+    jsr.w _paint_slot
     rep #0x30
     lda.l c1.slot
     tax
@@ -461,6 +557,8 @@ _fill_slot:
 _same_generation:
     lda.l c1.changed
     beq _unchanged
+_mark_dirty:
+    sep #0x20
     lda.l c1.slot
     cmp #_KANA_SLOTS
     lda #0x01
@@ -476,6 +574,48 @@ _run_bit:
 _unchanged:
     rep #0x30
     rts
+
+c1_recolour:
+"""
+C1312A, per cell of a name changing colour (16-bit A: its entry, X: the cell, $14 bit 0: to yellow): the font's tiles
+go to their yellow copy and back, the engine's way; a slot the cell owns keeps its number and turns its own ink.
+Other slot tiles stay as they are. Ends as C1312A's pla / and #0xFC00 / ora $10 does, or goes on at its cmp #0x0030
+with A and $10 the tile.
+"""
+    pha
+    and.w #0x03FF
+    sta.b 0x10
+    jsr.w _tile_slot
+    bcs _slot_cell
+    lda.b 0x10
+    jml.l 0xC13130
+_slot_cell:
+    phx
+    sta.l c1.slot
+    asl
+    tax
+    lda.l c1.slot_owner, x
+    and.w #~_YELLOW & 0xFFFF
+    dec
+    cmp 0x01, s
+    bne _kept  ; another cell's slot, or a free one
+    lda.l c1.slot_owner, x
+    and.w #~_YELLOW & 0xFFFF
+    sta.l c1.key
+    lda.b 0x14
+    lsr
+    lda.l c1.key
+    bcc _to_white
+    ora.w #_YELLOW
+_to_white:
+    cmp.l c1.slot_owner, x
+    beq _kept
+    sta.l c1.slot_owner, x
+    jsr.w _paint_slot
+    jsr.w _mark_dirty
+_kept:
+    plx
+    jml.l 0xC1315C
 
 c1_chunk_upload:
 """A chunked upload may write over the slots: every slot counts as changed at its next draw."""
@@ -563,8 +703,9 @@ _run_source:
 _run_bytes:
     .dw _KANA_SLOTS * _TILE_4BPP
     .dw _BLANK_SLOTS * _TILE_4BPP
-    .dw ( _SLOTS - _KANA_SLOTS - _BLANK_SLOTS ) * _TILE_4BPP
+    .dw _HIDDEN_SLOTS * _TILE_4BPP
     .assert _KANA_SLOTS == 0x60 - 0x33, "the kana run is tiles 0x33-0x5F"
     .assert _BLANK_SLOTS == 0x180 - 0x170, "the blank run is tiles 0x170-0x17F"
-    .assert _SLOTS - _KANA_SLOTS - _BLANK_SLOTS == 0x170 - 0x100, "the last run is tiles 0x100-0x16F"
+    .assert _SLOTS - _KANA_SLOTS - _BLANK_SLOTS == 0x170 - 0x100, "the struct keeps 0x100-0x16F's slots"
+    .assert 0x100 + _HIDDEN_SLOTS == 0x16C, "the last run stops before 0x16C, which the combat scene shows"
 }
