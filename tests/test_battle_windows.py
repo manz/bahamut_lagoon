@@ -132,7 +132,7 @@ def test_coup_fatal_list_draws_both_skills_whole(console: Console) -> None:
     console.load("battle-coup-fatal")  # Byuu's command window on Coup fatal
     console.tap(console.button.A)
     console.emu.run_frames(20)
-    # Frappe de feu and Frappe de soin on one row: drawn as two lines, each its own slots
+    # Frappe de feu and Frappe vampire on one row: drawn as two lines, each its own slots
     assert console.matches_golden("battle-coup-fatal")
 
 
