@@ -1,15 +1,15 @@
 <?xml version="1.0" ?>
 <inline>
     <string jump_to="0xee6f7b" ref="0xee6f6c" width="7">Équipe</string>
-    <string jump_to="0xee6fb6" ref="0xee6fab">MP:</string>
+    <string jump_to="0xee6fb6" ref="0xee6fab">PM:</string>
     <string jump_to="0xee6fc3" ref="0xee6fb8">SP:</string>
-    <string jump_to="0xee6fef" ref="0xee6fe4">MP:</string>
+    <string jump_to="0xee6fef" ref="0xee6fe4">PM:</string>
     <string jump_to="0xee6ffc" ref="0xee6ff1">SP:</string>
     <string jump_to="0xee7027" ref="0xee7020">/</string>
     <string jump_to="0xee706c" ref="0xee7065">/</string>
-    <string jump_to="0xee70b1" ref="0xee70a6">MP:</string>
+    <string jump_to="0xee70b1" ref="0xee70a6">PM:</string>
     <string jump_to="0xee70be" ref="0xee70b3">SP:</string>
-    <string jump_to="0xee712e" ref="0xee7123">MP:</string>
+    <string jump_to="0xee712e" ref="0xee7123">PM:</string>
     <string jump_to="0xee713b" ref="0xee7130">SP:</string>
     <string jump_to="0xee7bb0" ref="0xee7b9b">Équipes triées</string>
     <string jump_to="0xee7bc5" ref="0xee7bb6">par aptitude.</string>
@@ -57,7 +57,7 @@
     <string jump_to="0xeeaddc" ref="0xeeadd3">NV</string>
     <string jump_to="0xeeae15" ref="0xeeae0a">PV:</string>
     <string jump_to="0xeeae3a" ref="0xeeae33">/</string>
-    <string jump_to="0xeeae81" ref="0xeeae76">MP:</string>
+    <string jump_to="0xeeae81" ref="0xeeae76">PM:</string>
     <string jump_to="0xeeaeb2" ref="0xeeaeab">/</string>
     <string jump_to="0xeeaee9" ref="0xeeaee2">/</string>
     <string jump_to="0xeeaf13" ref="0xeeaf06">Att.</string>
@@ -75,7 +75,7 @@
     <string jump_to="0xeeb87b" ref="0xeeb866" width="8">Mag.</string>
     <string jump_to="0xeeb8d7" ref="0xeeb8ce">Arme</string>
     <string jump_to="0xeeb913" ref="0xeeb908">Armure</string>
-    <string jump_to="0xeec1b6" ref="0xeec1a5">Coût MP</string>
+    <string jump_to="0xeec1b6" ref="0xeec1a5">Coût PM</string>
     <string jump_to="0xeecbd1" ref="0xeecbb8">En réserve</string>
     <string jump_to="0xeed2ad" ref="0xeed29c">Sauver</string>
     <string jump_to="0xeed2d0" ref="0xeed2bf">Quitter</string>
