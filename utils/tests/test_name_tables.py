@@ -2,7 +2,17 @@ from unittest import TestCase
 
 from script import Table
 
-from utils.name_tables import NAME_TABLES, encode, item_records, long_names_source, read_names, short_record
+from utils.name_tables import (
+    NAME_TABLES,
+    SPELL_WIDTH,
+    encode,
+    item_records,
+    long_names_source,
+    read_names,
+    short_record,
+    width,
+)
+from utils.small_vwf_bake import FONT as SMALL_FONT
 
 TABLE = Table("text/table/mz.tbl")
 FONT = bytes([0xF0] * 8 + [4]) * 256  # every glyph a 4-pixel bar
@@ -29,6 +39,17 @@ class NameTablesTestCase(TestCase):
 
     def test_names_drop_the_ff_suffix(self) -> None:
         self.assertEqual(read_names(NAME_TABLES[0].source)[0], "Byuu")
+
+
+class SpellWidthTestCase(TestCase):
+    def test_a_width_counts_each_glyph_and_its_gap(self) -> None:
+        self.assertEqual(width(FONT, b"\x01\x02\xff\x03"), 10)
+
+    def test_every_spell_name_fits(self) -> None:
+        font = SMALL_FONT.read_bytes()
+        for name in read_names(NAME_TABLES[-1].source):
+            with self.subTest(name=name):
+                self.assertLessEqual(width(font, encode(TABLE, name)), SPELL_WIDTH)
 
 
 class LongNamesSourceTestCase(TestCase):
