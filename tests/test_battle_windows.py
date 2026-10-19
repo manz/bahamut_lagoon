@@ -134,3 +134,11 @@ def test_coup_fatal_list_draws_both_skills_whole(console: Console) -> None:
     console.emu.run_frames(20)
     # Frappe de feu and Frappe de soin on one row: drawn as two lines, each its own slots
     assert console.matches_golden("battle-coup-fatal")
+
+
+def test_scene_spell_menu_describes_the_spell(console: Console) -> None:
+    console.load("battle-scene-spell-menu")  # the combat scene's spell menu, Byuu's Ondes
+    for button in (console.button.UP, console.button.DOWN):  # each spell's description, from the messages
+        console.tap(button)
+        console.emu.run_frames(30)
+        assert console.matches_golden(f"battle-scene-spell-{'up' if button == console.button.UP else 'down'}")
