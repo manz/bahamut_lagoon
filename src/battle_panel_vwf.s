@@ -66,6 +66,7 @@ SLOT_STALE = 0x01  ; not drawn since its row was last drawn
 ALL_RUNS = 0x0F  ; the panel's
 WINDOW_RUNS = 0x70
 FIRST_WINDOW_RUN = 4 * 2
+UPLOAD_BUDGET = 0x400  ; bytes of runs an NMI uploads: a window's tilemap must still go up in vblank
 
 ; line_strip, line_chars, line_cells: the line being composed (a field may render past it), its characters (BLANK
 ; past them) and where small_vwf drew. pool_owner: tilemap row + 1 holding the slot, 0 when free. pool_cell: the line
@@ -852,7 +853,11 @@ _clean:
     rtl
 
 _upload_runs:
-"""DMA each dirty run on channel 0 to the panel font, keeping the channel's registers."""
+"""
+DMA the dirty runs on channel 0, keeping the channel's registers: the window runs first, whose tilemap the engine
+uploads after this NMI, then the panel's, UPLOAD_BUDGET bytes at most. A run past the budget stays dirty for the next
+NMI: past it, the engine's own uploads (a window's 2 KB tilemap) would run out of vblank.
+"""
     rep #0x30
     pha
     phx
@@ -873,15 +878,16 @@ _save:
     lda #panel.pool_tiles >> 16
     sta.l 0x004304
     rep #0x20
+    lda.w #UPLOAD_BUDGET
+    pha  ; 1,s: the bytes left
+    ldx.w #FIRST_WINDOW_RUN
+    jsr.w _upload_window_run
     lda.w #panel.pool_tiles & 0xFFFF
     sta.l panel.source
     ldx.w #0x0000
 _run_upload:
-    lda.l _pool_runs, x
-    and.w #0x00FF
-    beq _uploaded
     cpx.w #FIRST_WINDOW_RUN
-    bcs _window_run
+    bcs _uploaded
     lda.l _pool_runs + 1, x
     and.w #0x00FF
     asl
@@ -894,6 +900,16 @@ _run_upload:
     and.l panel.dirty
     rep #0x20
     beq _next_run
+    tya
+    cmp 0x01, s
+    beq _fits
+    bcs _next_run  ; over the budget: the next NMI
+_fits:
+    eor.w #0xFFFF
+    sec
+    adc 0x01, s
+    sta 0x01, s
+    jsr.w _run_sent
     lda.l _pool_runs, x
     and.w #0x00FF
     asl
@@ -910,13 +926,9 @@ _next_run:
     inx
     inx
     bra _run_upload
-_window_run:
-    jsr.w _upload_window_run
 _uploaded:
+    pla
     sep #0x20
-    lda.l panel.dirty
-    and #WINDOW_RUNS  ; the panel runs are up; _upload_window_run cleared the window runs it sent
-    sta.l panel.dirty
     ldx.w #0x0000
 _restore:
     pla
@@ -927,6 +939,18 @@ _restore:
     rep #0x30
     ply
     plx
+    pla
+    rts
+
+_run_sent:
+"""Clear run X's dirty bit (16-bit A kept)."""
+    pha
+    sep #0x20
+    lda.l _run_bits, x
+    eor #0xFF
+    and.l panel.dirty
+    sta.l panel.dirty
+    rep #0x20
     pla
     rts
 
@@ -944,7 +968,10 @@ _transfer:
     rts
 
 _upload_window_run:
-"""Every dirty window run from X on: its 4bpp tiles to the window font, in the NMI the window's tilemap goes up."""
+"""
+Every dirty window run from X on, within the budget at 3,s: its 4bpp tiles to the window font, in the NMI the
+window's tilemap goes up.
+"""
     lda.w #panel.window_tiles & 0xFFFF
     sta.l panel.window_source
 _window_upload:
@@ -964,12 +991,16 @@ _window_upload:
     and.l panel.dirty
     rep #0x20
     beq _next_window_run
-    sep #0x20
-    lda.l _run_bits, x
-    eor #0xFF
-    and.l panel.dirty
-    sta.l panel.dirty
-    rep #0x20
+    tya
+    cmp 0x03, s
+    beq _window_fits
+    bcs _next_window_run  ; over the budget: the next NMI
+_window_fits:
+    eor.w #0xFFFF
+    sec
+    adc 0x03, s
+    sta 0x03, s
+    jsr.w _run_sent
     lda.l panel.window_source
     sta.l panel.source
     lda.l _pool_runs, x

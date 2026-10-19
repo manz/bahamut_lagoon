@@ -113,3 +113,16 @@ def test_the_roster_fits_the_widest_name_and_class(console: Console) -> None:
     console.tap(console.button.A)
     console.emu.run_frames(90)
     assert console.matches_golden("battle-roster")  # Fils de Zora and Garde royal whole, a gap before LV
+
+
+BG1_SHADOW = 0x7E4000  # the map's BG1 tilemap in WRAM, the windows drawn into it
+BG1_MAP_VRAM = 0x4800 * 2  # its VRAM copy, a byte address
+BG1_MAP_BYTES = 0x800
+
+
+def test_command_window_tilemap_goes_up_whole(console: Console) -> None:
+    console.load("battle-command-window-upload")  # a unit picked on the map, its command window about to open
+    console.tap(console.button.A)
+    emu = console.emu
+    # the window's slots upload in the same NMI: past a budget, the engine's 2 KB tilemap upload ran out of vblank
+    assert bytes(emu.vram_read_range(BG1_MAP_VRAM, BG1_MAP_BYTES)) == bytes(emu.read_range(BG1_SHADOW, BG1_MAP_BYTES))
