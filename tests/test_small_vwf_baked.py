@@ -2,7 +2,7 @@
 Baked strings against the game's own renderer: every long_name_tables name, inline string segment and static battle
 string, composed by small_vwf_render from a copy of its codes in WRAM and copied from its baked entry (a name's record,
 a segment's id, a static string's address), gives the tiles build.py baked (utils/small_vwf_bake.py), byte for byte:
-composed without kerning, as the game's renderer has none, copied with the font's pair table, as the bake kerns.
+composed without kerning, as the game's renderer has none, copied kerned on the font's glyphs, as the bake kerns.
 """
 
 from typing import TYPE_CHECKING, Protocol
@@ -121,7 +121,7 @@ def test_inline_segments_match_the_bake(console: Console, renderer: Renderer) ->
 
 def drawn(font: bytes, codes: bytes, max_cells: int, kerned: bool = False) -> tuple[bytes, int]:
     """The bake's tiles as callers read them: the cells drawn, kerned as baked ones are."""
-    tiles, cells = render(font, codes, max_cells, kerning(font) if kerned else None)
+    tiles, cells = render(font, codes, max_cells, kerning(font, [codes]) if kerned else None)
     return tiles[: cells * TILE], cells
 
 

@@ -5,6 +5,10 @@ from utils.small_vwf_bake import MAX_CELLS, TILE, bake, kerning, render
 BAR = bytes([0x80] * 8 + [1])  # code 1: a one-pixel column, one pixel wide
 WIDE = bytes([0xFF] * 8 + [8])  # every other code: a full cell
 FONT = b"".join(BAR if code == 1 else WIDE for code in range(256))
+TEE = bytes([0xF8] + [0x20] * 7 + [5])  # a T: a bar over a stem
+LOW = bytes([0] * 4 + [0xE0] * 4 + [3])  # a small block, ink in the lower half only
+BLANK = bytes(8) + bytes([3])
+KERNED = FONT[: 3 * 9] + TEE + LOW + BLANK + FONT[6 * 9 :]  # codes 3 (T), 4 (low) and 5 (blank)
 
 
 class RenderTestCase(TestCase):
@@ -48,20 +52,25 @@ class RenderTestCase(TestCase):
 
 
 class KerningTestCase(TestCase):
-    def test_the_pair_table_follows_the_glyphs(self) -> None:
-        font = FONT + bytes([2, 0, 0x60, 0x61, 1, 0x62, 0x63, 2, 11])
-        self.assertEqual(kerning(font), {(0x60, 0x61): 1, (0x62, 0x63): 2})
+    def test_a_low_glyph_tucks_under_a_tee(self) -> None:
+        self.assertGreater(kerning(KERNED, [b"\x03\x04"])[(3, 4)], 0)
 
-    def test_a_font_without_pairs_kerns_nothing(self) -> None:
-        self.assertEqual(kerning(FONT), {})
+    def test_glyphs_that_would_touch_keep_the_advance(self) -> None:
+        self.assertEqual(kerning(KERNED, [b"\x01\x01"]), {})
+
+    def test_a_blank_glyph_keeps_the_advance(self) -> None:
+        self.assertEqual(kerning(KERNED, [b"\x03\x05\x04"]), {})
+
+    def test_pairs_past_the_end_code_are_not_fitted(self) -> None:
+        self.assertEqual(kerning(KERNED, [b"\x03\xff\x04"]), {})
 
 
 class BakeTestCase(TestCase):
-    def test_names_are_kerned_with_the_font_s_pairs(self) -> None:
-        font = FONT + bytes([1, 0, 1, 1, 1])
+    def test_names_are_kerned_on_the_font_s_glyphs(self) -> None:
         blob = bytearray()
-        bake(font, [b"\x01\x01"], blob, {})
-        self.assertEqual(blob, render(font, b"\x01\x01", pairs={(1, 1): 1})[0][:TILE])
+        entries = bake(KERNED, [b"\x03\x04"], blob, {})
+        tiles, cells = render(KERNED, b"\x03\x04", pairs=kerning(KERNED, [b"\x03\x04"]))
+        self.assertEqual(blob[entries[0].offset :], tiles[: cells * TILE])
 
     def test_entries_point_at_each_names_tiles(self) -> None:
         blob = bytearray()

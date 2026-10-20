@@ -4,30 +4,49 @@ small_vwf's tiles for every fixed name, rendered at build time.
 render() is src/small_vwf.s in Python, step for step: the same glyph records, pen and shadow, so a name rendered
 without kerning is byte for byte what the game would compose. The game copies a baked name's tiles instead of drawing
 its glyphs and shading them; only names it reads from RAM (the party's) still render there. A baked string is also
-kerned with the font's pair table (katsuji's collision-fitted kerning-candidates), which the game's renderer skips.
+kerned, which the game's renderer skips: katsuji's auto mode fits every pair the strings hold on the font's glyphs.
 """
 
-from collections.abc import Mapping
+from collections.abc import Iterable, Mapping
 from dataclasses import dataclass
+from itertools import pairwise
 from pathlib import Path
+
+import numpy as np
+from katsuji import Atlas, find_kerning
 
 MAX_CELLS = 12  # SMALL_VWF_MAX_CELLS
 MAX_CHARS = 24  # SMALL_VWF_MAX_CHARS
 SHADOW_GAP = 1
 GLYPH = 9  # small_font.dat: 8 rows of 1bpp, then the advance width
 GLYPHS = 256
-KERNING_PAIR = 3  # small_font.dat after the glyphs: a word count, then (left, right, pixels tighter) per pair
+ATLAS_COLUMNS = 16
+END = 0xFE  # 0xFE and 0xFF end a string
 TILE = 16  # a 2bpp tile
 BANK = 0x10000
 FONT = Path("assets/small_font.dat")
 
 
-def kerning(font: bytes) -> dict[tuple[int, int], int]:
-    """small_font.dat's pair table: pixels to take off the advance between two codes."""
-    table = GLYPHS * GLYPH
-    count = int.from_bytes(font[table : table + 2], "little")
-    pairs = font[table + 2 : table + 2 + count * KERNING_PAIR]
-    return {(pairs[i], pairs[i + 1]): pairs[i + 2] for i in range(0, len(pairs), KERNING_PAIR)}
+def kerning(font: bytes, strings: Iterable[bytes]) -> dict[tuple[int, int], int]:
+    """Pixels to take off the advance between two codes, fitted on the glyphs (katsuji's collision kerning, as its
+    `autohint`) for every pair in `strings`. A blank glyph's pair keeps its advance: a space must not close up."""
+    atlas = _atlas(font)
+    inked = {code for code in range(GLYPHS) if atlas.glyph(code).any()}
+    pairs = {pair for codes in strings for pair in pairwise(_drawn(codes)) if pair[0] in inked and pair[1] in inked}
+    return find_kerning(atlas, pairs)
+
+
+def _drawn(codes: bytes) -> bytes:
+    """The codes render() draws: up to MAX_CHARS, before an end code."""
+    end = next((index for index, code in enumerate(codes) if code >= END), len(codes))
+    return codes[: min(end, MAX_CHARS)]
+
+
+def _atlas(font: bytes) -> Atlas:
+    """small_font.dat's glyphs as an 8x8 atlas, code `c` in cell `c`."""
+    rows = np.frombuffer(font[: GLYPHS * GLYPH], dtype=np.uint8).reshape(GLYPHS, GLYPH)[:, :8]
+    cells = np.unpackbits(rows, axis=1).reshape(GLYPHS // ATLAS_COLUMNS, ATLAS_COLUMNS, 8, 8)
+    return Atlas(cells.transpose(0, 2, 1, 3).reshape(GLYPHS // ATLAS_COLUMNS * 8, ATLAS_COLUMNS * 8), 8, 8)
 
 
 def render(
@@ -39,7 +58,7 @@ def render(
     pen = 0
     previous = None
     for code in codes[:MAX_CHARS]:
-        if code >= 0xFE:
+        if code >= END:
             break
         at = pen - (pairs or {}).get((previous, code), 0) if previous is not None else pen
         cell = at >> 3
@@ -75,9 +94,9 @@ class Baked:
 
 def bake(font: bytes, names: list[bytes], blob: bytearray, offsets: dict[bytes, int]) -> list[Baked]:
     """Append each name's tiles to `blob`, once for identical tiles (`offsets` remembers them across calls); their
-    entries. The blob must stay within a bank: the game reads it with one block move. Names are kerned with the
-    font's pair table."""
-    pairs = kerning(font)
+    entries. The blob must stay within a bank: the game reads it with one block move. Names are kerned on the font's
+    glyphs."""
+    pairs = kerning(font, names)
     entries = []
     for codes in names:
         tiles, cells = render(font, codes, pairs=pairs)

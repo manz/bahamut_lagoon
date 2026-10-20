@@ -7,12 +7,6 @@ cell = [8, 8]
 table = "text/table/mz.tbl"
 output = "assets/small_font.dat"
 widths = { "0xEF" = 3 }
-kerning-candidates = [
-    "Ya", "Pa", "Fa", "Fe", "Fo", "Fu", "Ta", "Te",
-    "To", "Tu", "Tr", "Ts", "ra", "re", "ro", "Aï",
-    "ïe", "aî", "ît", "pa", "at", "ta", "te", "nt",
-    "fa", "fe", "fo", "fu", "fi", "st", "va",
-]
 
 # The 8x16 dialogue font: dialog, battle messages, item descriptions and the load screen draw it (assets/vwf.bin).
 [fonts.dialog]
