@@ -71,132 +71,132 @@ Add the drop shadow (bottom and right) of the font row in A to write_buffer.
 vwf_char:
 """Draw the dialog char in A at the current pixel position, with its shadow."""
     {
-    phb
-    pha
-    lda #0x7e
-    pha
-    plb
-    pla
-    sta.l 0x004202
-    lda #17
-    sta.l 0x004203
-    nop
-    nop
+        phb
+        pha
+        lda #0x7e
+        pha
+        plb
+        pla
+        sta.l 0x004202
+        lda #17
+        sta.l 0x004203
+        nop
+        nop
 
-    rep #0x20
-    lda.l 0x004216
-    tax
+        rep #0x20
+        lda.l 0x004216
+        tax
 
-    lda.w dialog_vwf_position
-    pha
-    and #0x3ff8
-    asl
-    asl
-    tay
-    pla
-    and.w #0x0007
-    sep #0x20
+        lda.w dialog_vwf_position
+        pha
+        and #0x3ff8
+        asl
+        asl
+        tay
+        pla
+        and.w #0x0007
+        sep #0x20
 
-    bne shift_copy
-    jmp.w raw_copy
+        bne shift_copy
+        jmp.w raw_copy
 
 shift_copy:
-    phx
-    tax
-    lda.l shift_table, x
-    plx
-    sta.l 0x004202
+        phx
+        tax
+        lda.l shift_table, x
+        plx
+        sta.l 0x004202
 
-    phx
-    lda #0x10
-    {
+        phx
+        lda #0x10
+        {
 shift_copy_loop:
-    pha
-    lda.l vwf_font, x
-    sta.l 0x004203
-    nop
-    nop
-    rep #0x20
-    lda.l 0x004216
-    sep #0x20
+            pha
+            lda.l vwf_font, x
+            sta.l 0x004203
+            nop
+            nop
+            rep #0x20
+            lda.l 0x004216
+            sep #0x20
 
-    ora.w write_base_address_low + 0x20, y
-    sta.w write_base_address_low + 0x20, y
-    jsr.w make_shadow_20
+            ora.w write_base_address_low + 0x20, y
+            sta.w write_base_address_low + 0x20, y
+            jsr.w make_shadow_20
 
 ;reloads the line data
-    rep #0x20
-    lda.l 0x004216
-    sep #0x20
-    xba
+            rep #0x20
+            lda.l 0x004216
+            sep #0x20
+            xba
 
-    ora.w write_base_address_low, y
-    sta.w write_base_address_low, y
-    jsr.w make_shadow_0
+            ora.w write_base_address_low, y
+            sta.w write_base_address_low, y
+            jsr.w make_shadow_0
 
-    inx
-    iny
-    iny
+            inx
+            iny
+            iny
 
-    pla
-    dec
-    bne shift_copy_loop
-    }
-    plx
-    jmp.w add_letter_length
+            pla
+            dec
+            bne shift_copy_loop
+        }
+        plx
+        jmp.w add_letter_length
 
 raw_copy:
-    phx
-    lda #0x10
-    {
+        phx
+        lda #0x10
+        {
 raw_copy_loop:
-    pha
-    lda.l vwf_font, x
+            pha
+            lda.l vwf_font, x
 
-    ora.w write_base_address_low, y
-    sta.w write_base_address_low, y
+            ora.w write_base_address_low, y
+            sta.w write_base_address_low, y
 
-    jsr.w make_shadow_0
-    inx
-    iny
-    iny
+            jsr.w make_shadow_0
+            inx
+            iny
+            iny
 
-    pla
-    dec
-    bne raw_copy_loop
-    }
-    plx
+            pla
+            dec
+            bne raw_copy_loop
+        }
+        plx
 
 add_letter_length:
-    lda.l vwf_font + 16, x
-    rep #0x20
-    and.w #0x00ff
+        lda.l vwf_font + 16, x
+        rep #0x20
+        and.w #0x00ff
 
-    clc
-    adc.w dialog_vwf_position
+        clc
+        adc.w dialog_vwf_position
 ;    inc
-    sta.w dialog_vwf_position
+        sta.w dialog_vwf_position
 
-    plb
-    sep #0x20
+        plb
+        sep #0x20
 
-    jmp.l return_from_vwf_char
+        jmp.l return_from_vwf_char
 
 shift_table:
-    .db 0x00  ; for debug purposes
-    .db 0x80
-    .db 0x40
-    .db 0x20
-    .db 0x10
-    .db 0x08
-    .db 0x04
-    .db 0x02
+        .db 0x00  ; for debug purposes
+        .db 0x80
+        .db 0x40
+        .db 0x20
+        .db 0x10
+        .db 0x08
+        .db 0x04
+        .db 0x02
 
 make_shadow_0:
-    do_shadow_dialog(0, write_base_address_low)
-    rts
+        do_shadow_dialog(0, write_base_address_low)
+        rts
 make_shadow_20:
-    do_shadow_dialog(0x20, write_base_address_low)
-    rts
+        do_shadow_dialog(0x20, write_base_address_low)
+        rts
     }
 }

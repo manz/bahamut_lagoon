@@ -47,29 +47,29 @@ __BREAKPOINT_copy_without_shift:
     ldx 0x1c
     {
 loop:
-    lda [0x18], y
-    sta.w 0x0000, x
+        lda [0x18], y
+        sta.w 0x0000, x
 
-    iny
-    inx
-    inx
+        iny
+        inx
+        inx
 
-    dec 0x00
-    bne loop
+        dec 0x00
+        bne loop
     }
     {
-    lda #8
-    sta 0x00
-    ldx 0x1c
+        lda #8
+        sta 0x00
+        ldx 0x1c
 loop:
-    lda [0x18], y
-    sta 0x0200, x
-    iny
-    inx
-    inx
+        lda [0x18], y
+        sta 0x0200, x
+        iny
+        inx
+        inx
 
-    dec 0x00
-    bne loop
+        dec 0x00
+        bne loop
     }
     plp
     rts

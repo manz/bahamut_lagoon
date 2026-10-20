@@ -5,6 +5,10 @@ on:
   push:
     branches:
       - master
+
+concurrency:
+  group: nightly
+
 jobs:
   nightly:
     runs-on: ubuntu-26.04-arm
@@ -13,30 +17,20 @@ jobs:
 
     steps:
     - uses: actions/checkout@v7
-    - uses: astral-sh/setup-uv@v10.3.0
+    - uses: manz/a816/actions/setup@v1.1.7
+    - uses: manz/a816/actions/decrypt-rom@v1.1.7
       with:
-        python-version: '3.14'
-        enable-cache: true
-    - name: Install Requirements
-      run: uv sync --locked
-    - name: Decrypt base ROM
-      env:
-        BAHAMUT_PASSWORD: ${{ secrets.BAHAMUT_PASSWORD }}
-      run: |
-        mkdir -p build
-        gpg --quiet --batch --yes --decrypt --passphrase="$BAHAMUT_PASSWORD" bl.sfc.gz.gpg | gunzip > build/bl.sfc
+        passphrase: ${{ secrets.BAHAMUT_PASSWORD }}
+        encrypted: bl.sfc.gz.gpg
+        to: build/bl.sfc
     - name: Build patch
-      run: BL_VERSION=nightly-${{ github.run_number }} uv run ./build.py
-    - name: Create Nightly Release
-      uses: softprops/action-gh-release@v3
+      env:
+        BL_VERSION: nightly-${{ github.run_number }}  # the Load screen shows it: testers quote it in bug reports
+      run: uv run ./build.py
+    - uses: manz/a816/actions/seal@v1.1.7
       with:
-        tag_name: nightly-${{ github.run_number }}
-        name: Nightly Build ${{ github.run_number }}
+        rom: build/bl.sfc
+        patches: build/bl.ips
+    - uses: manz/a816/actions/nightly@v1.1.7
+      with:
         files: build/bl.ips
-        prerelease: true
-        body: |
-          Nightly build #${{ github.run_number }}
-          
-          Built from commit: ${{ github.sha }}
-          
-          This is an automated nightly build and may be unstable.

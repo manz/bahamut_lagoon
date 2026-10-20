@@ -293,7 +293,7 @@ _item_icon:
     ora.w #_ATTR
     plx
     .if CHECKS {
-    jsr.w _check_frame
+        jsr.w _check_frame
     }
     sta.l _SHADOW, x
     inx
@@ -335,7 +335,7 @@ _blank:
 _put:
     ora.w #_ATTR
     .if CHECKS {
-    jsr.w _check_frame
+        jsr.w _check_frame
     }
     sta.l _SHADOW, x
     inx
@@ -350,19 +350,19 @@ _drawn:
     .if CHECKS {
 _check_frame:
 """CHECKS: stop (CHECK_C1_FRAME) when the cell at X holds a window frame tile. 16-bit A; A and P kept."""
-    php
-    pha
-    lda.l _SHADOW, x
-    and.w #0x03FF
-    dec
-    cmp.w #_FRAME_TILES
-    bcs _not_frame
-    lda.w #CHECK_C1_FRAME
-    stp
+        php
+        pha
+        lda.l _SHADOW, x
+        and.w #0x03FF
+        dec
+        cmp.w #_FRAME_TILES
+        bcs _not_frame
+        lda.w #CHECK_C1_FRAME
+        stp
 _not_frame:
-    pla
-    plp
-    rts
+        pla
+        plp
+        rts
     }
 
 _slot_for_cell:

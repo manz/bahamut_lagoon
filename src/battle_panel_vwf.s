@@ -523,7 +523,7 @@ A: the character, X: past it in the line, Y: its tilemap cell. On the panel a pl
 a window the character it stands for.
 """
     .if CHECKS {
-    jsr.w _check_frame
+        jsr.w _check_frame
     }
     cmp #BLANK
     bne _not_blank
@@ -600,39 +600,39 @@ _check_frame:
 CHECKS: stop (CHECK_PANEL_FRAME) when the tilemap cell Y (bank 7E, as put_char writes it) holds a window or panel
 frame and A, the character put there, is not one. 8-bit A; A and P kept.
 """
-    php
-    pha
-    sep #0x20
-    cmp #FRAME_FIRST
-    bcc _not_frame_char
-    cmp #FRAME_LAST + 1
-    bcc _frame_kept  ; a frame redrawn
+        php
+        pha
+        sep #0x20
+        cmp #FRAME_FIRST
+        bcc _not_frame_char
+        cmp #FRAME_LAST + 1
+        bcc _frame_kept  ; a frame redrawn
 _not_frame_char:
-    phb
-    pea 0x7E7E
-    plb
-    plb
-    lda.w 0x0001, y
-    and #0x3F  ; the flips aside
-    cmp #PANEL_ATTR
-    beq _frame_attr
-    cmp #WINDOW_ATTR
-    bne _no_frame
+        phb
+        pea 0x7E7E
+        plb
+        plb
+        lda.w 0x0001, y
+        and #0x3F  ; the flips aside
+        cmp #PANEL_ATTR
+        beq _frame_attr
+        cmp #WINDOW_ATTR
+        bne _no_frame
 _frame_attr:
-    lda.w 0x0000, y
-    cmp #FRAME_FIRST
-    bcc _no_frame
-    cmp #FRAME_LAST + 1
-    bcs _no_frame
-    rep #0x20
-    lda.w #CHECK_PANEL_FRAME
-    stp
+        lda.w 0x0000, y
+        cmp #FRAME_FIRST
+        bcc _no_frame
+        cmp #FRAME_LAST + 1
+        bcs _no_frame
+        rep #0x20
+        lda.w #CHECK_PANEL_FRAME
+        stp
 _no_frame:
-    plb
+        plb
 _frame_kept:
-    pla
-    plp
-    rts
+        pla
+        plp
+        rts
     }
 
 _find_slot:

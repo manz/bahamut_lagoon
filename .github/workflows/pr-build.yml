@@ -7,112 +7,51 @@ on:
 jobs:
   build:
     runs-on: ubuntu-26.04-arm
-    
+    permissions:
+      contents: read
+      issues: write
+      pull-requests: write
+
     steps:
     - uses: actions/checkout@v7
-    
-    - uses: astral-sh/setup-uv@v10.3.0
+    - uses: manz/a816/actions/setup@v1.1.7
+
+    - name: Check Python formatting, lint and types
+      run: make check-python
+
+    - id: rom
+      uses: manz/a816/actions/decrypt-rom@v1.1.7
       with:
-        python-version: '3.14'
-        enable-cache: true
-    - name: Install Requirements
-      run: uv sync --locked
-
-    - name: Check formatting and lint
-      run: make check
-
-    - name: Decrypt base ROM
-      env:
-        BAHAMUT_PASSWORD: ${{ secrets.BAHAMUT_PASSWORD }}
-      run: |
-        mkdir -p build
-        gpg --quiet --batch --yes --decrypt --passphrase="$BAHAMUT_PASSWORD" bl.sfc.gz.gpg | gunzip > build/bl.sfc
+        passphrase: ${{ secrets.BAHAMUT_PASSWORD }}
+        encrypted: bl.sfc.gz.gpg
+        to: build/bl.sfc
 
     - name: Build patch
+      if: steps.rom.outputs.available == 'true'
       run: uv run ./build.py
 
     - name: Build debug patch
+      if: steps.rom.outputs.available == 'true'
       run: uv run ./build.py --debug
 
-    - name: Verify IPS produced
-      run: test -s build/bl.ips
-
     - name: Run tests
+      if: steps.rom.outputs.available == 'true'
       run: uv run pytest
 
-    - name: Upload IPS artifact
-      if: success()
-      uses: actions/upload-artifact@v7
+    - if: steps.rom.outputs.available == 'true'  # build/gen, which the sources include, comes from the build
+      uses: manz/a816/actions/lint@v1.1.7
+
+    - if: steps.rom.outputs.available == 'true'
+      uses: manz/a816/actions/seal@v1.1.7
       with:
-        name: bl-ips-pr-${{ github.event.number }}
-        path: build/bl.ips
-        retention-days: 30
+        rom: build/bl.sfc
+        patches: build/bl.ips
 
-    - name: Update PR comment with download link
-      if: success()
-      uses: actions/github-script@v9
+    - if: always() && steps.rom.outputs.available == 'true'
+      uses: manz/a816/actions/pr-artifact@v1.1.7
       with:
-        script: |
-          const artifactName = `bl-ips-pr-${{ github.event.number }}`;
-          const runUrl = `${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}`;
-          const commentIdentifier = '<!-- BL-IPS-BUILD-COMMENT -->';
-          
-          const body = `${commentIdentifier}
-          🎮 **Bahamut Lagoon IPS Build Ready!**
-
-          Your patch has been built successfully! Download the IPS file from the artifacts:
-
-          📦 **Artifact:** \`${artifactName}\`  
-          🔗 **Download:** [Click here to go to the build page](${runUrl})
-
-          The artifact will be available for 30 days.
-          *Last updated: ${{ github.event.pull_request.head.sha }}*`;
-
-          // Find existing comment
-          const comments = await github.rest.issues.listComments({
-            issue_number: context.issue.number,
-            owner: context.repo.owner,
-            repo: context.repo.repo,
-          });
-
-          const existingComment = comments.data.find(comment => 
-            comment.body.includes(commentIdentifier)
-          );
-
-          if (existingComment) {
-            // Update existing comment
-            await github.rest.issues.updateComment({
-              comment_id: existingComment.id,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: body
-            });
-          } else {
-            // Create new comment
-            await github.rest.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: body
-            });
-          }
-
-    - name: Drop stale IPS comment on failure
-      if: failure()
-      uses: actions/github-script@v9
-      with:
-        script: |
-          const commentIdentifier = '<!-- BL-IPS-BUILD-COMMENT -->';
-          const comments = await github.rest.issues.listComments({
-            issue_number: context.issue.number,
-            owner: context.repo.owner,
-            repo: context.repo.repo,
-          });
-          const stale = comments.data.find(c => c.body.includes(commentIdentifier));
-          if (stale) {
-            await github.rest.issues.deleteComment({
-              comment_id: stale.id,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-            });
-          }
+        name: bl-ips
+        files: build/bl.ips
+        marker: BL-IPS-BUILD-COMMENT
+        title: Bahamut Lagoon IPS
+        outcome: ${{ job.status }}

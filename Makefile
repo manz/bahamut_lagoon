@@ -59,10 +59,14 @@ tests: $(IPS) $(DEBUG_IPS)  ## Run the full suite against freshly built patches
 test: tests  ## Alias for `tests`
 
 .PHONY: check
-check:  ## Verify formatting, run the a816 fluff and ruff lints, and type-check
-	$(info $(M) Checking sources...)
+check: check-python  ## Verify formatting, run the a816 fluff and ruff lints, and type-check
+	$(info $(M) Checking a816 sources...)
 	$(Q) uv run a816 format --check
 	$(Q) uv run a816 check
+
+.PHONY: check-python
+check-python:  ## Verify Python formatting, run the ruff lints, and type-check (CI's a816 lint covers the rest)
+	$(info $(M) Checking Python sources...)
 	$(Q) $(UV_FORMAT) --check
 	$(Q) uv run ruff check
 	$(Q) uv run mypy
