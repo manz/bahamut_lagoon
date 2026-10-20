@@ -318,7 +318,7 @@ opcode_table: OpcodeTable = {
     0x82: Opcode(5),
     0x83: Opcode(4),
     0x84: Opcode(1),
-    0x85: Opcode(5),
+    0x85: TextOpcode(5),  # draw_credit_line(x, y, text)
     0x86: Opcode(1),
     0x87: Opcode(1),
     0x88: Opcode(2),
