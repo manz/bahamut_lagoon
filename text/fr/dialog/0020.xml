@@ -136,7 +136,7 @@ Le Capitaine de FARENHEIT...[end]</data>
         <refs>
             <ref>0x469</ref>
         </refs>
-        <data>A savoir,le vieux magicien,Sendack ![end]</data>
+        <data>À savoir,le vieux magicien,Sendack ![end]</data>
     </text>
     <text>
         <refs>
@@ -366,7 +366,7 @@ vas-tu l'attendre ?[end]</data>
             <ref>0xc31</ref>
         </refs>
         <data>RUSH:
-A force d'entraînement et en
+À force d'entraînement et en
 échangeant les membres de tes
 équipes,tu trouveras sûrement un
 équilibre des forces.[end]</data>
@@ -509,7 +509,7 @@ Lan... Lan... Lanciers ![end]</data>
             <ref>0x1032</ref>
         </refs>
         <data>BARECK:
-A côté de moi,c'est Sergent.
+À côté de moi,c'est Sergent.
 Nous avons toujours été très proches.[end]</data>
     </text>
     <text>
@@ -1163,7 +1163,7 @@ plus que le No [0xb2].[end]</data>
             <ref>0xdff</ref>
         </refs>
         <data>HORNET:
-Etre père...
+Être père...
 ``Grand sourire''[end]</data>
     </text>
     <text>
@@ -1240,7 +1240,7 @@ Lisons-le ![end]</data>
             <ref>0x247</ref>
         </refs>
         <data>SENDACK:
-Etant donné mon état de santé,
+Étant donné mon état de santé,
 [character][0x0] sera mon Capitaine Adjoint.
 Mais voici le plus important ![end]</data>
     </text>
@@ -1264,7 +1264,7 @@ Adjoint,alors fais de ton mieux.[end]</data>
         <refs>
             <ref>0x423</ref>
         </refs>
-        <data>A présent,il se repose mais la guerre
+        <data>À présent,il se repose mais la guerre
 n'a pas cessé et nous sommes en plein
 coeur de celle-ci !
 Il vous faut aussi savoir que Sendack
@@ -1335,7 +1335,7 @@ Et moi ?![end]</data>
             <ref>0x180d</ref>
         </refs>
         <data>MATELIGHT:
-A vous,Général Palpaleos ![end]</data>
+À vous,Général Palpaleos ![end]</data>
     </text>
     <text>
         <refs>

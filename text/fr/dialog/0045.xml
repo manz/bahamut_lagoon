@@ -212,7 +212,7 @@ Entre ![end]</data>
             <ref>0x7c0</ref>
         </refs>
         <data>Héhé ! [character][0x0]!
-Ca y est,ça y est[0xd8]
+Ça y est,ça y est[0xd8]
  
 DON JUAN:
 Bonjour,demoiselle du désert !
@@ -274,7 +274,7 @@ Tu n'aurais rien à y faire ?![end]</data>
         <data>MARCHAND ENVOYE AU CHAMP DE
 BATAILLE:
 Haha,tout juste marié,femme au foyer !
-Ca commence toujours comme ça.[end]</data>
+Ça commence toujours comme ça.[end]</data>
     </text>
     <text>
         <refs>

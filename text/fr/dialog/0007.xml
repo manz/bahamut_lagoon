@@ -189,7 +189,7 @@ J'aime le [0xaa]Vin Doux[0xab]![end]</data>
         </refs>
         <data>Ce que je n'aime pas ?
 Hoho,je crois que c'est le [0xaa]Uniuji[0xab].
-Ca me donne plein de boutons ![end]</data>
+Ça me donne plein de boutons ![end]</data>
     </text>
     <text>
         <refs>
@@ -286,7 +286,7 @@ personnes ![end]</data>
         <refs>
             <ref>0x1cc</ref>
         </refs>
-        <data>A l'aube de la libération de Campbell,
+        <data>À l'aube de la libération de Campbell,
 je commanderai les troupes car étant
 supérieur,j'ai droit à un traitement
 de faveur...
