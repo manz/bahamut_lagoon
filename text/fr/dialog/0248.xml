@@ -1,0 +1,495 @@
+<?xml version='1.0' encoding='utf-8'?>
+<texts room_id="248" base="0x711">
+    <text>
+        <refs>
+            <ref>0xfe</ref>
+        </refs>
+        <data>presente[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x103</ref>
+        </refs>
+        <data>par[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x108</ref>
+        </refs>
+        <data>square co ltd[end]</data>
+    </text>
+    <text x="12">
+        <refs>
+            <ref>0x10d</ref>
+        </refs>
+        <data>equipe de[end]</data>
+    </text>
+    <text x="10">
+        <refs>
+            <ref>0x112</ref>
+        </refs>
+        <data>developpement[end]</data>
+    </text>
+    <text x="9">
+        <refs>
+            <ref>0x117</ref>
+        </refs>
+        <data>bahamut lagoon[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x184</ref>
+        </refs>
+        <data>chef de projet[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x189</ref>
+        </refs>
+        <data>HITOSHI SASAKI[end]</data>
+    </text>
+    <text x="14">
+        <refs>
+            <ref>0x18e</ref>
+        </refs>
+        <data>conception du jeu[end]</data>
+    </text>
+    <text x="21">
+        <refs>
+            <ref>0x193</ref>
+        </refs>
+        <data>et[end]</data>
+    </text>
+    <text x="14">
+        <refs>
+            <ref>0x198</ref>
+        </refs>
+        <data>graphiste en chef[end]</data>
+    </text>
+    <text x="21">
+        <refs>
+            <ref>0x19d</ref>
+        </refs>
+        <data>et[end]</data>
+    </text>
+    <text x="14">
+        <refs>
+            <ref>0x1a2</ref>
+        </refs>
+        <data>illustrations[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1ce</ref>
+        </refs>
+        <data>directeur[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1d3</ref>
+        </refs>
+        <data>KAZUSHIGE NOJIMA[end]</data>
+    </text>
+    <text x="12">
+        <refs>
+            <ref>0x1d8</ref>
+        </refs>
+        <data>intrigue et scripts[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1dd</ref>
+        </refs>
+        <data>producteur[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x1e2</ref>
+        </refs>
+        <data>TADASHI NOMURA[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x24a</ref>
+        </refs>
+        <data>programmeurs principaux[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x24f</ref>
+        </refs>
+        <data>KAZUHISA MURAKAMI[end]</data>
+    </text>
+    <text x="12">
+        <refs>
+            <ref>0x254</ref>
+        </refs>
+        <data>exploration[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x259</ref>
+        </refs>
+        <data>HIROSHI ONO[end]</data>
+    </text>
+    <text x="12">
+        <refs>
+            <ref>0x25e</ref>
+        </refs>
+        <data>combats[end]</data>
+    </text>
+    <text x="12">
+        <refs>
+            <ref>0x263</ref>
+        </refs>
+        <data>evenements[end]</data>
+    </text>
+    <text x="12">
+        <refs>
+            <ref>0x268</ref>
+        </refs>
+        <data>elevage des dragons[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x26d</ref>
+        </refs>
+        <data>et[end]</data>
+    </text>
+    <text x="12">
+        <refs>
+            <ref>0x272</ref>
+        </refs>
+        <data>outils internes[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x302</ref>
+        </refs>
+        <data>intrigue et scripts[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x307</ref>
+        </refs>
+        <data>MOTOMU TORIYAMA[end]</data>
+    </text>
+    <text x="12">
+        <refs>
+            <ref>0x30c</ref>
+        </refs>
+        <data>joyeux anniversaire[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x311</ref>
+        </refs>
+        <data>conception tactique[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x316</ref>
+        </refs>
+        <data>TAKATSUGU NAKAZAWA[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x31b</ref>
+        </refs>
+        <data>conception des cartes[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x320</ref>
+        </refs>
+        <data>NAOYA KAWAHIRA[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x48c</ref>
+        </refs>
+        <data>musique[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x491</ref>
+        </refs>
+        <data>NORIKO MATSUEDA[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x496</ref>
+        </refs>
+        <data>conception sonore[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x49b</ref>
+        </refs>
+        <data>TERUAKI SUGAWARA[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4a0</ref>
+        </refs>
+        <data>programmeur audio[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4a5</ref>
+        </refs>
+        <data>HIDENORI SUZUKI[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4aa</ref>
+        </refs>
+        <data>conception du[end]</data>
+    </text>
+    <text x="16">
+        <refs>
+            <ref>0x4af</ref>
+        </refs>
+        <data>systeme sonore[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4b4</ref>
+        </refs>
+        <data>square suzuki[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x3ff</ref>
+        </refs>
+        <data>directeur adjoint[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x404</ref>
+        </refs>
+        <data>TAKESHI ENDO[end]</data>
+    </text>
+    <text x="9">
+        <refs>
+            <ref>0x409</ref>
+        </refs>
+        <data>conception des combats[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x40e</ref>
+        </refs>
+        <data>evenements et cartes[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x413</ref>
+        </refs>
+        <data>SATORU TSUJI[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x34c</ref>
+        </refs>
+        <data>programmeur special[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x351</ref>
+        </refs>
+        <data>TETSUJI IWASAKI[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x356</ref>
+        </refs>
+        <data>effets[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x35b</ref>
+        </refs>
+        <data>menus[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x360</ref>
+        </refs>
+        <data>etc[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x365</ref>
+        </refs>
+        <data>graphiste des effets speciaux[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x36a</ref>
+        </refs>
+        <data>KUNIO ASAHARA[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4e0</ref>
+        </refs>
+        <data>graphistes des personnages[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4e5</ref>
+        </refs>
+        <data>FUMIYASU SASAKI[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4ea</ref>
+        </refs>
+        <data>MURASAKI IRIGUCHI[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4ef</ref>
+        </refs>
+        <data>graphiste des monstres[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x4f4</ref>
+        </refs>
+        <data>SHIN NAGASAWA[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x582</ref>
+        </refs>
+        <data>graphiste des decors[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x587</ref>
+        </refs>
+        <data>RENA SASAKI[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x58c</ref>
+        </refs>
+        <data>graphistes des cartes[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x591</ref>
+        </refs>
+        <data>TAKAHIRO YAMASHITA[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x596</ref>
+        </refs>
+        <data>TOMOE INAZAWA[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5c2</ref>
+        </refs>
+        <data>remerciements[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5c7</ref>
+        </refs>
+        <data>KENICHI SHINODA[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5cc</ref>
+        </refs>
+        <data>TAKATO ITOU[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5d1</ref>
+        </refs>
+        <data>HIROMI MASUDA[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5d6</ref>
+        </refs>
+        <data>HIROYOSHI HAMADA[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x607</ref>
+        </refs>
+        <data>remerciements[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x60c</ref>
+        </refs>
+        <data>JUN SAITOU[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x611</ref>
+        </refs>
+        <data>KIYOMI TANIKAWA[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x616</ref>
+        </refs>
+        <data>HISAKO SUZUKI[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x61b</ref>
+        </refs>
+        <data>KENICHI OHKO[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x620</ref>
+        </refs>
+        <data>MIYABI ITO[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x625</ref>
+        </refs>
+        <data>KOUICHIRO MATSUMOTO[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x5db</ref>
+        </refs>
+        <data>YOSHITAKA HIROTA[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6a4</ref>
+        </refs>
+        <data>superviseur[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6a9</ref>
+        </refs>
+        <data>HIRONOBU SAKAGUCHI[end]</data>
+    </text>
+    <text x="6">
+        <refs>
+            <ref>0x6d5</ref>
+        </refs>
+        <data>producteur executif[end]</data>
+    </text>
+    <text>
+        <refs>
+            <ref>0x6da</ref>
+        </refs>
+        <data>TETSUO MIZUNO[end]</data>
+    </text>
+</texts>
