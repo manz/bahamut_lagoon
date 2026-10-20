@@ -33,7 +33,7 @@
 .if DEBUG {
 ; enable debug mode
     .alloc at 0xc0ffad {
-    .db 0x00, 0xff
+        .db 0x00, 0xff
     }
 }
 
