@@ -12,6 +12,8 @@ from a816.writers import Writer
 from script import Table
 
 from utils.cartridge import rom_address, rom_offset
+from utils.credits import CREDITS_ROOMS, credits_script
+from utils.credits import TABLE as CREDITS_TABLE
 from utils.dialog_layout import default_layout
 from utils.disasm import live_disasm
 from utils.lz import lz_compress, lz_decompress
@@ -255,6 +257,7 @@ def build_text_patch(rom: BufferedReader, table: Table, writer: Writer, reloc_ad
     files = sorted(files, key=lambda name: int(name[:4], 10))
     room_compressed: dict[int, int] = {}
     layout = default_layout()
+    credits_table = Table(str(CREDITS_TABLE))
 
     for file in files:
         logger.debug(file)
@@ -263,13 +266,16 @@ def build_text_patch(rom: BufferedReader, table: Table, writer: Writer, reloc_ad
             room_id = int(match.group(1))
 
             if is_compressed(rom, room_id):
-                room = get_dialog_room(rom, room_id, table, "jp", disasm=True)
+                credits = room_id in CREDITS_ROOMS
+                room = get_dialog_room(rom, room_id, credits_table if credits else table, "jp", disasm=True)
 
                 tree = ET.parse(os.path.join(dialog_dir, file))
                 windows = WindowHeights(room)
                 for text in tree.getroot():
                     data = text.find("data")
-                    if data is not None and data.text:
+                    if data is not None and data.text and credits:
+                        data.text = credits_script(data.text)
+                    elif data is not None and data.text:
                         refs = [int(ref.text, 16) for ref in text.iter("ref") if ref.text]
                         data.text = layout.reflow(
                             data.text, page_lines=windows.lines(refs), keep_lines=windows.is_choice(refs)
