@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from utils.small_vwf_bake import MAX_CELLS, TILE, bake, render
+from utils.small_vwf_bake import MAX_CELLS, TILE, bake, kerning, render
 
 BAR = bytes([0x80] * 8 + [1])  # code 1: a one-pixel column, one pixel wide
 WIDE = bytes([0xFF] * 8 + [8])  # every other code: a full cell
@@ -39,8 +39,30 @@ class RenderTestCase(TestCase):
     def test_a_long_string_stops_at_the_cells(self) -> None:
         self.assertEqual(render(FONT, b"\x02" * 30)[1], MAX_CELLS)
 
+    def test_a_kerned_pair_takes_its_pixels_off_the_advance(self) -> None:
+        tiles, _ = render(FONT, b"\x01\x01", pairs={(1, 1): 1})
+        self.assertEqual(tiles[0], 0xE0)  # ink at 0 and 1, the second glyph's shadow at 2
+
+    def test_other_pairs_keep_the_advance(self) -> None:
+        self.assertEqual(render(FONT, b"\x01\x01", pairs={(1, 2): 1}), render(FONT, b"\x01\x01"))
+
+
+class KerningTestCase(TestCase):
+    def test_the_pair_table_follows_the_glyphs(self) -> None:
+        font = FONT + bytes([2, 0, 0x60, 0x61, 1, 0x62, 0x63, 2, 11])
+        self.assertEqual(kerning(font), {(0x60, 0x61): 1, (0x62, 0x63): 2})
+
+    def test_a_font_without_pairs_kerns_nothing(self) -> None:
+        self.assertEqual(kerning(FONT), {})
+
 
 class BakeTestCase(TestCase):
+    def test_names_are_kerned_with_the_font_s_pairs(self) -> None:
+        font = FONT + bytes([1, 0, 1, 1, 1])
+        blob = bytearray()
+        bake(font, [b"\x01\x01"], blob, {})
+        self.assertEqual(blob, render(font, b"\x01\x01", pairs={(1, 1): 1})[0][:TILE])
+
     def test_entries_point_at_each_names_tiles(self) -> None:
         blob = bytearray()
         entries = bake(FONT, [b"\x01", b"\x02"], blob, {})

@@ -1,7 +1,8 @@
 """
 Baked strings against the game's own renderer: every long_name_tables name, inline string segment and static battle
 string, composed by small_vwf_render from a copy of its codes in WRAM and copied from its baked entry (a name's record,
-a segment's id, a static string's address), gives the tiles build.py baked (utils/small_vwf_bake.py), byte for byte.
+a segment's id, a static string's address), gives the tiles build.py baked (utils/small_vwf_bake.py), byte for byte:
+composed without kerning, as the game's renderer has none, copied with the font's pair table, as the bake kerns.
 """
 
 from typing import TYPE_CHECKING, Protocol
@@ -13,7 +14,7 @@ from tests.conftest import Console, small_vwf_fields, symbol
 from utils.cartridge import rom_offset
 from utils.inline_strings import insert_inline_strings
 from utils.name_tables import ITEM_TABLE, NAME_TABLES, encode, read_names
-from utils.small_vwf_bake import FONT, MAX_CELLS, MAX_CHARS, TILE, render
+from utils.small_vwf_bake import FONT, MAX_CELLS, MAX_CHARS, TILE, kerning, render
 
 if TYPE_CHECKING:
     from kintsuki import Emu
@@ -104,7 +105,7 @@ def test_baked_names_match_the_bake(renderer: Renderer) -> None:
     font = FONT.read_bytes()
     for label, record, codes in names():
         for max_cells in (MAX_CELLS, 3):
-            assert renderer(record, max_cells) == drawn(font, codes, max_cells), (label, max_cells)
+            assert renderer(record, max_cells) == drawn(font, codes, max_cells, kerned=True), (label, max_cells)
 
 
 def test_inline_segments_match_the_bake(console: Console, renderer: Renderer) -> None:
@@ -113,14 +114,14 @@ def test_inline_segments_match_the_bake(console: Console, renderer: Renderer) ->
     for baked_id, codes in enumerate(segments()):
         console.emu.write_range(SCRATCH, codes + b"\xff")
         for max_cells in (MAX_CELLS, 2):
-            expected = drawn(font, codes, max_cells)
-            assert renderer(SCRATCH, max_cells) == expected, (codes, max_cells)
-            assert renderer(SCRATCH, max_cells, entries + baked_id * BAKED_ENTRY) == expected, (codes, max_cells)
+            assert renderer(SCRATCH, max_cells) == drawn(font, codes, max_cells), (codes, max_cells)
+            baked = drawn(font, codes, max_cells, kerned=True)
+            assert renderer(SCRATCH, max_cells, entries + baked_id * BAKED_ENTRY) == baked, (codes, max_cells)
 
 
-def drawn(font: bytes, codes: bytes, max_cells: int) -> tuple[bytes, int]:
-    """The bake's tiles as callers read them: the cells drawn."""
-    tiles, cells = render(font, codes, max_cells)
+def drawn(font: bytes, codes: bytes, max_cells: int, kerned: bool = False) -> tuple[bytes, int]:
+    """The bake's tiles as callers read them: the cells drawn, kerned as baked ones are."""
+    tiles, cells = render(font, codes, max_cells, kerning(font) if kerned else None)
     return tiles[: cells * TILE], cells
 
 
@@ -128,9 +129,8 @@ def test_static_strings_match_the_bake(console: Console, renderer: Renderer) -> 
     font = FONT.read_bytes()
     for address, codes in statics():
         console.emu.write_range(SCRATCH, codes + b"\xff")
-        expected = drawn(font, codes, MAX_CELLS)
-        assert renderer(SCRATCH) == expected, codes
+        assert renderer(SCRATCH) == drawn(font, codes, MAX_CELLS), codes
         pen = symbol("small_vwf") + small_vwf_fields()[0]["pen"]
         console.emu.write_range(pen, PEN_UNTOUCHED.to_bytes(2, "little"))
-        assert renderer(address) == expected, (hex(address), codes)
+        assert renderer(address) == drawn(font, codes, MAX_CELLS, kerned=True), (hex(address), codes)
         assert console.emu.read16(pen) == PEN_UNTOUCHED, ("composed, not copied", hex(address), codes)
