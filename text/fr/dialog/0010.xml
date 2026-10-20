@@ -170,7 +170,7 @@ Tu es en vie ?[end]</data>
 Au fait,pourquoi avais-tu quitté Mahal,Lukia ?
  
 
-Quant à moi,je dois avouer qu'après tout ces souvenirs,
+Quant à moi,je dois avouer qu'après tous ces souvenirs,
 tu m'as beaucoup manqué...[end]</data>
     </text>
     <text>
@@ -237,7 +237,7 @@ Je suis tout à toi !
 Et il n'y a que moi dans ton coeur.
 
 
-Je peux voir et lire au delà du vitrail de ton coeur que
+Je peux voir et lire au-delà du vitrail de ton coeur que
 tu n'aimes que moi.[end]</data>
     </text>
     <text>
@@ -454,7 +454,7 @@ Tu es [character][0x0],le Capitaine de l'Escadron Dragon de Kana ![end]</data>
         <data>Moi,je suis Don Juan de Mahal.
 
 
-Don Juan,le Na[0x25]f et Fidèle serviteur.[end]</data>
+Don Juan,le Naïf et Fidèle serviteur.[end]</data>
     </text>
     <text>
         <refs>
@@ -546,7 +546,7 @@ Pas un mot de plus,épave ![end]</data>
         <refs>
             <ref>0xa70</ref>
         </refs>
-        <data>Ecoute cela !
+        <data>Écoute cela !
 Commandant est revenu au Palais pour
 vaincre Restatto ![end]</data>
     </text>
@@ -620,7 +620,7 @@ temps ![end]</data>
             <ref>0xb08</ref>
         </refs>
         <data>JEANNE:
-Nous nous en allons et toi,restes ici,
+Nous nous en allons et toi,reste ici,
 tu y es bien !
 Ou alors prépare-toi et viens avec
 nous ![end]</data>

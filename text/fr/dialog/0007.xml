@@ -110,8 +110,8 @@ colère sur Commandant ![end]</data>
 Ce sera bientôt la libération de
 Campbell !
 J'espère que le service des magasins
-n'y est pas négligeant autrement je
-les détruirez tous ![end]</data>
+n'y est pas négligent autrement je
+les détruirai tous ![end]</data>
     </text>
     <text>
         <refs>
@@ -249,7 +249,7 @@ notre avantage avec la Légende.[end]</data>
         </refs>
         <data>SENDACK:
 Le cri de Valitra ressemble à celui de
-quelqu'un qui se fait tué.
+quelqu'un qui se fait tuer.
 Sache aussi que lorsque je suis proche
 de la Princesse,je peux aussi utiliser
 le puissant pouvoir du Dragon Sacré.[end]</data>
@@ -259,7 +259,7 @@ le puissant pouvoir du Dragon Sacré.[end]</data>
             <ref>0x1fa</ref>
         </refs>
         <data>N'essaie pas de comprendre comment
-un vieil homme comme moi aies pu
+un vieil homme comme moi ait pu
 acquérir tant de puissance.
 Tu t'y perdrais...
 Haha !
@@ -326,7 +326,7 @@ Tous ensemble,nous irons à Campbell.[end]</data>
 [character][0x0]...
  
 Il me semble que les Dragons Sacrés
-n'aient pas l'air de vouloir que je
+n'ont pas l'air de vouloir que je
 connaisse la Légende...
 Mais nous irons sur ce lagon...[end]</data>
     </text>

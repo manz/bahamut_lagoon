@@ -263,7 +263,7 @@ A quoi penses-tu [character][0xf] ?[end]</data>
 [character][0xb] tente d'utiliser la ruse pour nous attrister !
 
 
-C'est notre Nouvelle Ere !
+C'est notre Nouvelle Ère !
 
 
 Nous avons décidé d'être forts !
@@ -340,7 +340,7 @@ Très bien,allons parler à [character][0xb][0xd8][end]</data>
         <refs>
             <ref>0x8a2</ref>
         </refs>
-        <data>[character][0x1]: La porte de la Nouvelle Ère est ouverte...
+        <data>[character][0x1]: La Porte de la Nouvelle Ère est ouverte...
 Il semblerait que les Dragons Sacrés l'aient ouverte...
 
 Mais pourquoi si tôt ?![end]</data>

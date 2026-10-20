@@ -12,7 +12,7 @@
         </refs>
         <data>SENDACK:
 Princesse [character][0x1]!
-Ne vous levez-vous pas ?![end]</data>
+Ne vous levez pas ?![end]</data>
     </text>
     <text>
         <refs>
@@ -105,7 +105,7 @@ et il est l'un de mes meilleurs amis.[end]</data>
         <refs>
             <ref>0x1db</ref>
         </refs>
-        <data>Ces lagons dispersés dans orelus seront
+        <data>Ces lagons dispersés dans Orelus seront
 bientôt unis en une seule nation grâce
 à des accords de paix.[end1]</data>
     </text>

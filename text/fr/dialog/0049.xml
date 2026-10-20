@@ -72,7 +72,7 @@ Alors,ne pensons plus à ça ![end]</data>
 Bikkebakke a encore transporté ses
 champignons quelque part.
 Le cours des champignons a chuté,
-il y a quelques temps.
+il y a quelque temps.
 Est-il inquiet pour cela ?[end]</data>
     </text>
     <text>
@@ -122,7 +122,7 @@ Etre à la rue est sûrement ce qui
 m'attend si nous perdons la guerre.
 Par contre,si nous la gagnons,
 les nouveaux bâtiments seront
-étincellants.
+étincelants.
 Par conséquent,une bonne fin m'évitera
 la chute ![end]</data>
     </text>
@@ -146,7 +146,7 @@ Oui et même très puissant[0xd8]
 ``Chuchotement''
 J'entends la voix des Dragons Sacrés !
 Tout n'est pas encore fini !
-La Nouvelle Ere n'est pas encore
+La Nouvelle Ère n'est pas encore
 venue...
  
 Ces propos me rendent très inquiet.
@@ -187,7 +187,7 @@ Moi,pessimiste ? Nonnnnnn ![end]</data>
         <data>Anastasia,elle,est depuis peu une amie
 très intime de Bareck.
 Bientôt un vieux couple !
-Moi ?! Et bien,je suis seule ![end]</data>
+Moi ?! Eh bien,je suis seule ![end]</data>
     </text>
     <text>
         <refs>
@@ -280,7 +280,7 @@ Matelight,où es-tu ?[end]</data>
         <refs>
             <ref>0x461</ref>
         </refs>
-        <data>Ecoutez-moi,s'il vous plaît.
+        <data>Écoutez-moi,s'il vous plaît.
  
   
 C'est aujourd'hui,en ce lieu,que
@@ -354,7 +354,7 @@ signifieront la fin de notre quête ![end]</data>
         <data>Le Monde d'Orelus...
 Le Ciel d'Orelus...
 Une véritable paix !
-Voilà ce que sera la Nouvelle Ere !
+Voilà ce que sera la Nouvelle Ère !
 Jusqu'à ce que cet instant arrive,
 nous continuerons à livrer bataille !
 Dressons-nous,brandissons nos armes
@@ -427,7 +427,7 @@ Impératrice [character][0x1]![end]</data>
         <data>[character][0x1]:
 Et toi... [character][0x0]?
  
-Livreras-tu bataille pour une Ere
+Livreras-tu bataille pour une Ère
 Nouvelle ?![end]</data>
     </text>
     <text>
@@ -488,7 +488,7 @@ du trou noir.[end]</data>
         <data>PALPALEOS:
 L'Empire est maintenant sous l'influence
 politique du Général Gudruff !
-Il utilisera toute les forces possibles
+Il utilisera toutes les forces possibles
 pour mener son peuple à la victoire.[end]</data>
     </text>
     <text>
@@ -496,7 +496,7 @@ pour mener son peuple à la victoire.[end]</data>
             <ref>0x5d9</ref>
         </refs>
         <data>Mais le cours du temps va changer:
-la Nouvelle Ere se présente à nous.
+la Nouvelle Ère se présente à nous.
 Alors,prenons-la[0xd8]
 La Légende des Dragons Sacrés se
 finira par notre victoire ![end]</data>
@@ -712,7 +712,7 @@ Elle est élégante et elle est puissante...[end]</data>
         </refs>
         <data>COMMANDANT:
 Elle est splendide puisqu'elle porte la
-robe que lui a donné Matelight ![end]</data>
+robe que lui a donnée Matelight ![end]</data>
     </text>
     <text>
         <refs>

@@ -17,8 +17,8 @@ Devrions-nous l'attendre ?[end]</data>
         <data>COMMANDANT:
 Tu es si impatient !
  
-Je sais que toi et [character][0x0] êtes tout les
-deux très triste.[end]</data>
+Je sais que toi et [character][0x0] êtes tous les
+deux très tristes.[end]</data>
     </text>
     <text>
         <refs>
@@ -96,7 +96,7 @@ premier sont mes buts ![end]</data>
         <refs>
             <ref>0x1d1</ref>
         </refs>
-        <data>Mais t'es-t-il seulement arrivé de faire
+        <data>Mais t'est-il seulement arrivé de faire
 attention au visage de tes ennemis ?
  
 Le visage de ces soldats...
@@ -138,9 +138,9 @@ Je vais à la guerre...[end]</data>
         <refs>
             <ref>0x204</ref>
         </refs>
-        <data>Je dois avouer que je crais parfois
+        <data>Je dois avouer que je crains parfois
 les conséquences de cette guerre.
-J'espère qu'elle se finisse vite ![end]</data>
+J'espère qu'elle se finira vite ![end]</data>
     </text>
     <text>
         <refs>
@@ -152,7 +152,7 @@ bataille !
 Le général Palpaleos croit ou du moins
 estime que c'est la bataille finale !
  
-Tout les Généraux de l'Empire
+Tous les Généraux de l'Empire
 encerclent le château ![end]</data>
     </text>
     <text>
@@ -366,7 +366,7 @@ sûrement fondées.
             <ref>0xa76</ref>
         </refs>
         <data>Très bien,il faut maintenant que tu
-choississes un dragon père et un
+choisisses un dragon père et un
 dragon mère.
 Est-ce que tu as déjà choisi un
 dragon mâle et une femelle ?
@@ -381,7 +381,7 @@ de les choisir ![end]</data>
             <ref>0xa8d</ref>
         </refs>
         <data>D'accord !
-Il faut que tu choississes un
+Il faut que tu choisisses un
 dragon père et un dragon mère.[end]</data>
     </text>
     <text>
@@ -403,8 +403,8 @@ dragon père et un dragon mère.[end]</data>
         </refs>
         <data>Ce charmant couple donnera un bel
 enfant !
-tu as fait un très bon choix,[character][0x0].
-Repartons maintenant tous FARENHEIT !
+Tu as fait un très bon choix,[character][0x0].
+Repartons maintenant tous à FARENHEIT !
  
   
 Je suis sûr que nous allons nous
@@ -493,7 +493,7 @@ Qui de nous deux ira ?[end]</data>
             <ref>0xdc5</ref>
         </refs>
         <data> J'irai !
- Je te laisses... l'honneur ![end1]</data>
+ Je te laisse... l'honneur ![end1]</data>
     </text>
     <text>
         <refs>
@@ -642,7 +642,7 @@ nous puissions vous offrir ![end]</data>
 Nous sommes enfin revenus chez nous.
 Rien n'a changé...
 Les nuages,le portail,la région...
-Nous devrons vaincre tout nos ennemis
+Nous devrons vaincre tous nos ennemis
 pour défendre ce très cher endroit.[end]</data>
     </text>
     <text>
@@ -665,7 +665,7 @@ Notre cher chez-nous.[end]</data>
         </refs>
         <data>ENFANT:
 Qui êtes-vous ?!
-Vous êtes dans notre repère ![end]</data>
+Vous êtes dans notre repaire ![end]</data>
     </text>
     <text>
         <refs>
@@ -703,7 +703,7 @@ de la Cavalerie de Kana.
 C'est notre rêve !
  
 Un jour,au sein d'Orelus,nous
-parcourerons le monde sur des
+parcourrons le monde sur des
 dragons.
 Nous avons nommé ce chien du nom
 d'un des dragons de votre escadron.
@@ -732,7 +732,7 @@ Je ne sers plus à rien.
 Ca te fait sourire... ?!
  
 [character][0x0],serais-tu prêt à organiser un
-un grand commerce de champignons ?
+grand commerce de champignons ?
 Il y en a tant dans le monde !
 Tant...[end]</data>
     </text>
@@ -793,7 +793,7 @@ Sendack est inconscient ![end]</data>
         <data>DOCTEUR DRAGON:
 C'est terrible !
  
-FARENHEIT est en ce moment au dessus
+FARENHEIT est en ce moment au-dessus
 de l'Empire ![end]</data>
     </text>
     <text>

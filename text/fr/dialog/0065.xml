@@ -87,7 +87,7 @@ Vous êtes faible !
 Même si vous êtes la soeur de notre
 défunt Roi de Kana et l'Impératrice
 de Campbell,je ne pourrai pas vous
-vous pardonner ![end]</data>
+pardonner ![end]</data>
     </text>
     <text>
         <refs>
@@ -104,7 +104,7 @@ Matelight,je ne changerai pas d'avis.[end]</data>
 Oh !
 Vous,Impératrice,vous préférez mourir
 dans l'ombre,comme nourriture à
-à dragon,plutôt que de faire face à
+dragon,plutôt que de faire face à
 l'ennemi ![end]</data>
     </text>
     <text>
@@ -321,7 +321,7 @@ nécessaire ![end]</data>
             <ref>0x111</ref>
         </refs>
         <data>[character][0x1]:
-Désolé [character][0x0]!
+Désolée [character][0x0]!
 Seulement deux personnes.[end]</data>
     </text>
     <text>
@@ -333,7 +333,7 @@ Seulement deux personnes.[end]</data>
  
 Allons au bar,en ville,pour boire un
 peu de vin.
-Un pause me fera du bien ![end]</data>
+Une pause me fera du bien ![end]</data>
     </text>
     <text>
         <refs>
@@ -384,7 +384,7 @@ permis de prospérer.[end]</data>
             <ref>0x332</ref>
         </refs>
         <data>Je veux rester enfermée à clef encore
-quelques temps...
+quelque temps...
  
 C'est une forme de résistance créée
 par l'Impératrice.
@@ -394,7 +394,7 @@ ne veux pas la tromper !
  
 Avec toutes vos questions,vous allez
 ennuyer l'Impératrice mais sachez que
-que tout est plus compliqué que vous
+tout est plus compliqué que vous
 n'avez l'air de le penser.[end]</data>
     </text>
     <text>

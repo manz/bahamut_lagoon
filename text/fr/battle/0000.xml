@@ -39,7 +39,7 @@ aurons besoin de la geler en utilisant la magie.[end1]</data>
             <ref>0xa3</ref>
         </refs>
         <data>``Condition de la victoire:''[0xfc][0x28]
-``Défaire tout les ennemis''[end]</data>
+``Défaire tous les ennemis''[end]</data>
     </text>
     <text>
         <refs>
@@ -80,8 +80,8 @@ feu, alors faites attention !![end1][end]</data>
         <refs>
             <ref>0x387</ref>
         </refs>
-        <data>Matelite: Je ne pensais jamais que je serai fait en si peu
-de temps ...[end1][end]</data>
+        <data>Matelite: Je ne pensais jamais que je serais fait en si peu
+de temps...[end1][end]</data>
     </text>
     <text>
         <refs>
@@ -122,7 +122,7 @@ Donnez-lui un ordre !![end1][end]</data>
             <ref>0x4bd</ref>
         </refs>
         <data>Le Roi, est... !![0xfc][0x30]
-Les généraux Granbelos ont pénétrés dans le château !![end1][end]</data>
+Les généraux Granbelos ont pénétré dans le château !![end1][end]</data>
     </text>
     <text>
         <refs>

@@ -29,7 +29,7 @@ Je ne pouvais pas...[end]</data>
             <ref>0x6b</ref>
         </refs>
         <data>Les autres Dragons sont en moi !
-Fais leur face Bahamut !
+Fais-leur face Bahamut !
  
 Si tu as de la colère...
 Si tu as de la haine...
@@ -142,7 +142,7 @@ Moi... Une Dragoon... ?[end]</data>
             <ref>0x17f</ref>
         </refs>
         <data>[character][0x1]:
-S'il te plaît,Bahamut,fais moi
+S'il te plaît,Bahamut,fais-moi
 l'honneur de répondre...
 Quel est le vrai sens de la Légende
 des Dragons Sacrés ?[end]</data>
@@ -160,7 +160,7 @@ une Ère Nouvelle.[end]</data>
         <refs>
             <ref>0x192</ref>
         </refs>
-        <data>Cette Nouvelle Ere est celle de la
+        <data>Cette Nouvelle Ère est celle de la
 résurrection des Dragons Sacrés.[end]</data>
     </text>
     <text>
@@ -184,7 +184,7 @@ Allez-vous encore guerroyer ?[end]</data>
             <ref>0x1ab</ref>
         </refs>
         <data>BAHAMUT:
-Nous n'en sommes pas sûr...
+Nous n'en sommes pas sûrs...
 Ce n'est maintenant plus le passé...
 Dorénavant,la personne qui nous dirige,
 c'est toi [character][0x1]...[end]</data>
@@ -210,7 +210,7 @@ Lie nos coeurs ensemble...[end]</data>
         <data>Rencontre la haine...
 Lie ces coeurs emplis de colère et
 blessés...
-Alors,la Porte de la Nouvelle Ere
+Alors,la Porte de la Nouvelle Ère
 s'ouvrira...
 Peux-tu faire cela Dragoon ?[end]</data>
     </text>

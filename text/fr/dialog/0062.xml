@@ -169,10 +169,10 @@ As-tu pris une résolution ?[end]</data>
         <data>Il t'appartient de savoir si tu veux
 devenir une Superstar en ramenant ici
 la liberté !
-Nous mettrons notre plan à éxécution,
+Nous mettrons notre plan à exécution,
 ce soir !
  
-Cette nuit se sera l'avènement de la
+Cette nuit ce sera l'avènement de la
 Renaissance de Dafira.[end]</data>
     </text>
     <text>
@@ -212,7 +212,7 @@ En [0xb0][0xb4] fois grand maximum,ok ?[end]</data>
             <ref>0x437</ref>
         </refs>
         <data>ZEROSHIN:
-Maman,excuse-moi pour tout les soucis
+Maman,excuse-moi pour tous les soucis
 que je te cause.
 Dès que mon travail sera fini,je crois
 que je n'aurai plus rien à faire.[end]</data>
@@ -265,7 +265,7 @@ de ton menu.[end]</data>
         <refs>
             <ref>0x3b0</ref>
         </refs>
-        <data> Sombre Meutre de Matelight.
+        <data> Sombre Meurtre de Matelight.
  Meurtre de [character][0x1].
  Meurtre d'un matelot.[end1]</data>
     </text>
@@ -344,7 +344,7 @@ dans ses jarres.[end]</data>
             <ref>0x4b5</ref>
         </refs>
         <data>Obtenu [0xaa]CHOSE SUR L'ETAGERE[0xab].
-Il y a en [0xb0][0xb0].[end]</data>
+Il y en a [0xb0][0xb0].[end]</data>
     </text>
     <text>
         <refs>

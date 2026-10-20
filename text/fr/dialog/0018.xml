@@ -18,7 +18,7 @@ Que s'est-il passé ?[end]</data>
             <ref>0x11d</ref>
         </refs>
         <data>VALITRA:
-La Porte de la Nouvelle Ere serait-elle
+La Porte de la Nouvelle Ère serait-elle
 ouverte ?[end]</data>
     </text>
     <text>
@@ -250,10 +250,10 @@ soit ouverte.[end]</data>
             <ref>0x3fc</ref>
         </refs>
         <data>Ce trou,dans le ciel...
-Ce serait la Porte de la Nouvelle Ere ?
+Ce serait la Porte de la Nouvelle Ère ?
  
 Serait-ce les Dragons Sacrés qui
-l'aient ouvertes ?
+l'aient ouverte ?
  
 Non,ils ont dit qu'ils le feraient ![end]</data>
     </text>
@@ -269,9 +269,9 @@ Ainsi,je...[end]</data>
             <ref>0x41d</ref>
         </refs>
         <data>MATELIGHT:
-Mon dieu !
+Mon Dieu !
 Ce à quoi je pensais serait donc vrai !
-Je vais vous rapeller la suite de cette
+Je vais vous rappeler la suite de cette
 Légende !
  
 Une personne au coeur faible amènera
@@ -311,7 +311,7 @@ au coeur faible.[end]</data>
         <refs>
             <ref>0x594</ref>
         </refs>
-        <data>Mon dieu ![end1]</data>
+        <data>Mon Dieu ![end1]</data>
     </text>
     <text>
         <refs>
@@ -368,7 +368,7 @@ Je n'arrive pas à me calmer.[end]</data>
         <data>Je ne peux pas car si l'on regarde
 leur puissance,elle est extraordinaire.
 Ils désespèrent sur leur sort.
-Leur colère serait-elle dûe à leur
+Leur colère serait-elle due à leur
 désespoir ?
 Les arrêter est impossible,
 ils nous sont supérieurs ![end]</data>
@@ -378,7 +378,7 @@ ils nous sont supérieurs ![end]</data>
             <ref>0x1111</ref>
         </refs>
         <data>TAURUS:
-La Porte de la Nouvelle Ere est-elle
+La Porte de la Nouvelle Ère est-elle
 vraiment ouverte ?
 Si tel est le cas,le monde entier sera
 différent à cause de ce trou noir ?![end]</data>
@@ -413,7 +413,7 @@ Vous êtes... étrange ![end]</data>
             <ref>0x6b5</ref>
         </refs>
         <data>MATELIGHT:
-La Porte de la Nouvelle Ere n'a pas
+La Porte de la Nouvelle Ère n'a pas
 été ouverte ?![end]</data>
     </text>
     <text>
@@ -448,7 +448,7 @@ au coeur faible,je peux vous le dire ![end]</data>
         <data>[character][0x1],vous n'êtes pas seule !
 Nous sommes tous à vos côtés !
  
-si des démons du monde du trou noir
+Si des démons du monde du trou noir
 sortent par cette Porte,nous vous
 défendrons tous !
 C'est notre manière de vivre et rien
@@ -538,7 +538,7 @@ Commandant ?![end]</data>
             <ref>0x82c</ref>
         </refs>
         <data>Princesse [character][0x1],
-Je vous comprends...
+je vous comprends...
  
 Aujourd'hui,je suis un homme lassant
 et aux valeurs dépassées.
@@ -751,11 +751,11 @@ sur le pont.[end]</data>
         <data>-Résultat de la reconnaissance du ciel-
  
 Des monstres du monde du trou noir
-sont proches de l'Eglise des Souvenirs
+sont proches de l'Église des Souvenirs
 et se livrent à des actes violents.
 En ce moment,des troupes de l'Empire
 Granbelos préparent une offensive à
-à l'Eglise Souvenirs.
+l'Église des Souvenirs.
 Le Général Palpaleos est présent.
 Malheureusement,nous n'avons pas eu
 d'autres informations dans ces

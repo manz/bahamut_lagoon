@@ -34,7 +34,7 @@ C'était facile à voir ![end]</data>
             <ref>0x12f</ref>
         </refs>
         <data>[character][0xc]: Il faudrait pouvoir l'atteindre avant
-L'Empire afin que nous puissions échanger 
+l'Empire afin que nous puissions échanger 
 ce Dragon contre [character][0x1] ![end]</data>
     </text>
     <text>
@@ -95,7 +95,7 @@ L'ennemi semble être très puissant.[end]</data>
             <ref>0x2a2</ref>
         </refs>
         <data>[character][0x26]: Maintenant,il ne fait aucun doute que princesse
-soit ici.
+est ici.
 
 Elle doit être en danger ![end]</data>
     </text>
@@ -122,7 +122,7 @@ A... allons-y ![end]</data>
         <refs>
             <ref>0xac</ref>
         </refs>
-        <data>Quelque soit le danger,il faut y aller !
+        <data>Quel que soit le danger,il faut y aller !
 Qu'en penses-tu ?
 
   Effectivement !
@@ -153,7 +153,7 @@ Je vais pouvoir trouver différents champignons.[end]</data>
             <ref>0x6d</ref>
         </refs>
         <data>[character][0xe]: Sauzer !
-Comment avez-vous pû emmener la princesse dans cette
+Comment avez-vous pu emmener la princesse dans cette
 horrible forêt ?[end]</data>
     </text>
     <text>

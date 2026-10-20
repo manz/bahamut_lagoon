@@ -54,7 +54,7 @@ Veux-tu rentrer ?[end]</data>
             <ref>0x5bd</ref>
         </refs>
         <data>DOCTEUR DRAGON:
-Ecoute le vent...
+Écoute le vent...
 Tends bien l'oreille [character][0x0]!
 Entends les voix apportées par le
 vent...[end]</data>
@@ -123,7 +123,7 @@ grand-père de ce bébé dragon.[end]</data>
         </refs>
         <data>DOCTEUR DRAGON:
 C'est dangereux,dangereux !
-Tu les a effrayés...[end]</data>
+Tu les as effrayés...[end]</data>
     </text>
     <text>
         <refs>
@@ -151,7 +151,7 @@ Il vous aime...
 était jeune.
  
 J'étais un vrai père pour lui !
-j'étais pourtant enfant et SALAMAND
+J'étais pourtant enfant et SALAMAND
 était si grand.
 C'est à partir de cet instant que je
 décidai de devenir un Docteur Dragon.
@@ -310,7 +310,7 @@ du futur...[end]</data>
         <data>Le futur du ciel d'Orelus...
  
   
-Tout les Lagons ont disparu...
+Tous les Lagons ont disparu...
  
   
 L'ère des êtres humains est finie...[end]</data>
@@ -407,13 +407,13 @@ Bikkebakke ?[end]</data>
         <refs>
             <ref>0xd8a</ref>
         </refs>
-        <data>[0xaa]CHAMPIGON GUROGURO[0xab].[end]</data>
+        <data>[0xaa]CHAMPIGNON GUROGURO[0xab].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd9f</ref>
         </refs>
-        <data>[0xaa]CHAMPIGON CRIARD[0xab].[end]</data>
+        <data>[0xaa]CHAMPIGNON CRIARD[0xab].[end]</data>
     </text>
     <text>
         <refs>

@@ -4,7 +4,7 @@
         <refs>
             <ref>0x32</ref>
         </refs>
-        <data>MATELIGHT: Protégez l'Eglise des
+        <data>MATELIGHT: Protégez l'Église des
 Souvenirs !![end1][end]</data>
     </text>
     <text>
@@ -25,6 +25,6 @@ C'est le Général Palpaleos ![end1][end]</data>
         <refs>
             <ref>0xac</ref>
         </refs>
-        <data>A l'Eglise des Souvenirs !![end1][end]</data>
+        <data>A l'Église des Souvenirs !![end1][end]</data>
     </text>
 </texts>

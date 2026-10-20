@@ -270,7 +270,7 @@ les cieux.[end]</data>
             <ref>0xeee</ref>
         </refs>
         <data>Manyo: manyo !
-``mourrir au combat !''[end]</data>
+``mourir au combat !''[end]</data>
     </text>
     <text>
         <refs>
@@ -337,7 +337,7 @@ Marche arrière...[end]</data>
         <refs>
             <ref>0xc6d</ref>
         </refs>
-        <data>Commandant: Essait-il de mordre ?
+        <data>Commandant: Essaie-t-il de mordre ?
 
 
 Il me fait peur...[end]</data>
@@ -377,7 +377,7 @@ L'ouvrir tout de même ?[end]</data>
         <refs>
             <ref>0xfc9</ref>
         </refs>
-        <data>Tu as trouvé [0xaa]CHOSE SUR L'ÉTAGERE[0xab].[end]</data>
+        <data>Tu as trouvé [0xaa]CHOSE SUR L'ÉTAGÈRE[0xab].[end]</data>
     </text>
     <text>
         <refs>
@@ -419,7 +419,7 @@ L'ouvrir tout de même ?[end]</data>
     Comment te portes-tu ?
     Où es-tu en ce moment dans le ciel ?
  
-    Plusieurs hivers se sont succédés
+    Plusieurs hivers se sont succédé
     depuis la guerre.[end]</data>
     </text>
     <text>
@@ -427,7 +427,7 @@ L'ouvrir tout de même ?[end]</data>
             <ref>0x720</ref>
         </refs>
         <data>    Kana a disparu...
-    Depuis l'Empire Granbelos a conquis
+    Depuis,l'Empire Granbelos a conquis
     le monde entier.
  
     Ces batailles appartiennent

@@ -91,7 +91,7 @@ d'antan.[end]</data>
         <refs>
             <ref>0x6c0</ref>
         </refs>
-        <data>Tu as vaincu Zonbeld !
+        <data>Tu as vaincu Zomberd !
 Tu dois être le Capitaine de l'Escadron
 Dragon mais tu as l'air si jeune.[end]</data>
     </text>
@@ -192,7 +192,7 @@ moyen ![end]</data>
             <ref>0x5e4</ref>
         </refs>
         <data>[character][0x1]:
-[character][0x0],allons-nous en !
+[character][0x0],allons-nous-en !
 Je... veux partir...
 C'est cela... partons...
 ensemble...[end]</data>
@@ -298,7 +298,7 @@ Capitaine [character][0x0]?[end]</data>
         <refs>
             <ref>0x75a</ref>
         </refs>
-        <data>Regardez moi ça...[end]</data>
+        <data>Regardez-moi ça...[end]</data>
     </text>
     <text>
         <refs>
@@ -442,7 +442,7 @@ des Dragons Sacrés.[end]</data>
         <data>Je n'aurais peut-être pas dû parler
 de la personne au coeur faible.
  
-Si Sauzer apprends que je leur ai
+Si Sauzer apprend que je leur ai
 divulgué la légende,il sera inutile
 de secourir Campbell !
 Non,je peux penser à gagner son
