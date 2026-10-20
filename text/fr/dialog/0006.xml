@@ -38,7 +38,7 @@ Princesse [character][0x1]![end]</data>
             <ref>0x2c3</ref>
         </refs>
         <data>[character][0x0],il faut toujours faire attention
-à son apparence extérieur !
+à son apparence extérieure !
  
 Je me sers souvent de la bave de
 dragon pour faire tenir ma moustache.[end]</data>
@@ -199,7 +199,7 @@ fois de plus un cauchemar.[end]</data>
             <ref>0x5af</ref>
         </refs>
         <data>ZORA:
-Je te confies la princesse ![end]</data>
+Je te confie la princesse ![end]</data>
     </text>
     <text>
         <refs>
@@ -403,7 +403,7 @@ souvenirs.[end]</data>
         <data>ZORA:
 Hé,tout le monde !
 La Princesse doit être très fatiguée.
-Aussi,pourquoi n'iriez-vous pas
+Aussi,pourquoi ne feriez-vous pas
 une petite pause ?[end]</data>
     </text>
     <text>
@@ -455,8 +455,8 @@ Et qu'y avait-il ?[end]</data>
 J'ai entendu quelques mots dans ce
 rêve...
 Cependant,je ne comprends pas le
-sens de tout les mots que j'y ai
-entendu.
+sens de tous les mots que j'y ai
+entendus.
 Pouvez-vous m'aider ?[end]</data>
     </text>
     <text>
@@ -489,7 +489,7 @@ Le Dragon Sacré ![end]</data>
         </refs>
         <data>[character][0x1]:
 Oui,le Dragon Sacré Valitra m'a
-prévenu...[end]</data>
+prévenue...[end]</data>
     </text>
     <text>
         <refs>
@@ -903,7 +903,7 @@ temps à te parler.[end]</data>
             <ref>0xa21</ref>
         </refs>
         <data> Bien sûr !
- Evidemment Commandant !
+ Évidemment Commandant !
  monyo ! ``détestable !''[end1]</data>
     </text>
     <text>
@@ -1015,7 +1015,7 @@ J'aimerais en savoir plus...[end]</data>
         <data>SENDACK:
 Je vois !
  
-N'as-tu jamais rencontré l'Empératrice
+N'as-tu jamais rencontré l'Impératrice
 de Campbell ?![end]</data>
     </text>
     <text>
@@ -1071,7 +1071,7 @@ Campbell ?[end]</data>
             <ref>0x1dc</ref>
         </refs>
         <data>MATELIGHT:
-Et bien... Princesse [character][0x1]...
+Eh bien... Princesse [character][0x1]...
  
 Il y a là-bas de nombreuses troupes
 impériales ![end]</data>

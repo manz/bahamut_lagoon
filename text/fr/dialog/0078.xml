@@ -24,7 +24,7 @@ Tu as entendu ![end]</data>
             <ref>0xae</ref>
         </refs>
         <data>COMMANDANT:
-Je crois qu'Alexandre nous a entendu ![end]</data>
+Je crois qu'Alexandre nous a entendus ![end]</data>
     </text>
     <text>
         <refs>
@@ -76,7 +76,7 @@ attaquera ?[end]</data>
         </refs>
         <data>MATELIGHT:
 [character][0x0],
-choisit le meilleur cri de guerre !
+choisis le meilleur cri de guerre !
  Combattons avec courage !
  Je m'en remets au destin ![end1]</data>
     </text>
@@ -221,7 +221,7 @@ Notre but est proche...[end]</data>
         </refs>
         <data>MATELIGHT:
 Alexandre doit sûrement être ressuscité !
-Soyons tous prêt ![end]</data>
+Soyons tous prêts ![end]</data>
     </text>
     <text>
         <refs>

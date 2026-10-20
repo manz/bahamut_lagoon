@@ -171,7 +171,7 @@ Princesse ![end]</data>
         </refs>
         <data>MATELIGHT:
 Hééééé !
-A qui crois-tu avoir affaire ?
+À qui crois-tu avoir affaire ?
 Je suis Matelight !
 Je t'ordonne de laisser [character][0x1]
 tranquille ![end]</data>
@@ -205,7 +205,7 @@ Tu veux que je soigne tes blessures ?[end]</data>
 Notre tristesse...
 Notre colère...
 Approche...
-Ecoute nos voix...
+Écoute nos voix...
 Vois nos larmes...[end]</data>
     </text>
     <text>
@@ -270,7 +270,7 @@ Les Dragons Sacrés sont comme nous ![end]</data>
         <data>Ils ont des sentiments,un coeur et
 de la colère autant que de la peine !
 Ma désillusion,mes sentiments,ma haine
-et ma tristesse sont dûes à la chute
+et ma tristesse sont dues à la chute
 de Kana.[end]</data>
     </text>
     <text>

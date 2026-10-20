@@ -220,9 +220,12 @@ def main() -> int:
 
     # The dialogue font, the names and the layout code decide where dialog lines wrap (utils/dialog_layout.py)
     layout_sources = [KATSUJI_CONFIG, Path("fonts/fft.png"), Path("text/fr/names.xml"), *Path("utils").glob("*.py")]
+    # The directories too: their mtime moves when a room's script is removed, which no remaining file shows.
     room_sources = [
         TABLE,
         *layout_sources,
+        Path("text/fr/dialog"),
+        Path("text/fr/battle"),
         *Path("text/fr/dialog").glob("*.xml"),
         *Path("text/fr/battle").glob("*.xml"),
     ]

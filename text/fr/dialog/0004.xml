@@ -72,7 +72,7 @@ Tu veux que j'aille secourir seul la princesse puis tu
 me rejoindras !
 
 C'est ça ton idée,n'est-ce pas ?
-Et bien,ça ne marche pas avec moi !
+Eh bien,ça ne marche pas avec moi !
 Nous entrerons l'un après l'autre ![end]</data>
     </text>
     <text>
@@ -89,7 +89,7 @@ Nous entrerons l'un après l'autre ![end]</data>
 
 
 Tu veux être le seul héros ?
-Et bien,ça ne marche pas avec moi !
+Eh bien,ça ne marche pas avec moi !
 
 Tu passeras après moi !
 
@@ -132,7 +132,7 @@ Hihihihihi ![end]</data>
         <refs>
             <ref>0x369</ref>
         </refs>
-        <data>Légion: Chef Zonbeld !
+        <data>Légion: Chef Zomberd !
 Je n'aurais pas dû m'endormir ![end]</data>
     </text>
     <text>
@@ -174,7 +174,7 @@ C'est un plan pour me piéger ![end]</data>
         <refs>
             <ref>0x213</ref>
         </refs>
-        <data>[character][0xb]: Ca avance lentement mais sûrement...
+        <data>[character][0xb]: Ça avance lentement mais sûrement...
 Dépêchons-nous !
 Trouve vite un passage ![end]</data>
     </text>
@@ -263,7 +263,7 @@ Nous devons y aller ![end]</data>
  
 
 Utilise la force et montre-lui ce qu'est
-une vraie scéance de torture ![end]</data>
+une vraie séance de torture ![end]</data>
     </text>
     <text>
         <refs>
@@ -290,7 +290,7 @@ libérer.[end]</data>
             <ref>0x22f</ref>
         </refs>
         <data>[character][0x1]...
-Aurait-elle été torturé ?
+Aurait-elle été torturée ?
  
 Mon esprit me joue des tours ![end]</data>
     </text>
@@ -346,7 +346,7 @@ Besoin de quelque chose ?![end][end]</data>
  
 
   Attendre.
-  A l'attaque ![end1]</data>
+  À l'attaque ![end1]</data>
     </text>
     <text>
         <refs>

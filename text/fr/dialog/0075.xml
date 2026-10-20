@@ -6,7 +6,7 @@
         </refs>
         <data>SAUZER:
 Regarde Palpaleos !
-Ca ne fait aucun doute !
+Ça ne fait aucun doute !
 C'est le pouvoir des Dragons Sacrés
 et la Princesse leur parle.
  
@@ -150,7 +150,7 @@ Et vous nous avez rejoints !
  
   
 [character][0x0],je dois avouer que c'est toi
-qui l'a ramenée ![end]</data>
+qui l'as ramenée ![end]</data>
     </text>
     <text>
         <refs>
@@ -299,7 +299,7 @@ Valitra,le Dragon Sacré ?[end]</data>
         <refs>
             <ref>0x574</ref>
         </refs>
-        <data>Quelle genre de fille es-tu ?
+        <data>Quel genre de fille es-tu ?
 Toi,la fille au coeur faible,tu peux
 parler aux Dragons Sacrés.[end]</data>
     </text>

@@ -94,7 +94,7 @@ C'est vrai...
  
 Très bien Commandant,tu vas surveiller
 le ciel quelques instants.
-Ca m'ennuie un peu,moi ![end]</data>
+Ça m'ennuie un peu,moi ![end]</data>
     </text>
     <text>
         <refs>
@@ -187,7 +187,7 @@ face à FARENHEIT ![end]</data>
             <ref>0xe9f</ref>
         </refs>
         <data>Certains se dirigent aussi vers Mahal !
-C'est dangereux ! Dangeureux ![end]</data>
+C'est dangereux ! Dangereux ![end]</data>
     </text>
     <text>
         <refs>
@@ -225,7 +225,7 @@ de cette mer de nuages ![end]</data>
             <ref>0xa19</ref>
         </refs>
         <data>RUSH:
-Allons combattre les dragons Impériaux !
+Allons combattre les dragons impériaux !
 Tu grimpes sur SALAMAND ?[end]</data>
     </text>
     <text>
@@ -503,7 +503,7 @@ Vous pourriez blesser quelqu'un ![end]</data>
             <ref>0x7d4</ref>
         </refs>
         <data> Vraiment délicieux !
- Ca avait un goût de dragon...[end1]</data>
+ Ça avait un goût de dragon...[end1]</data>
     </text>
     <text>
         <refs>
@@ -524,7 +524,7 @@ Vous pourriez blesser quelqu'un ![end]</data>
             <ref>0x6ee</ref>
         </refs>
         <data> Tu peux être très utile.
- Non,résigne-toi,Vieil homme.[end1]</data>
+ Non,résigne-toi,vieil homme.[end1]</data>
     </text>
     <text>
         <refs>

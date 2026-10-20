@@ -38,7 +38,7 @@
         <data>              Il a l'ambition d'ouvrir la
              Porte d'une Ère Nouvelle...
 
-              Cette Ere sera celle de
+              Cette Ère sera celle de
                 l'Empire Granbelos,
              celle de NOTRE Empereur ![end]</data>
     </text>
@@ -58,8 +58,8 @@ Hahahahaha !
 L'homme qui devait faire ce discours
 aurait dû être un fin politique comme
 moi,Gudruff !
-Cette Nouvelle Ere sera MA Nouvelle
-Ere !
+Cette Nouvelle Ère sera MA Nouvelle
+Ère !
  
 Je briserai Sauzer et notre peuple
 comprendra sûrement ce coup de force ![end]</data>
@@ -139,7 +139,7 @@ bateau !
 Il se nomme FARENHEIT...
 Mais si tu t'envoles avec moi,
 je lui donnerai ton nom !
-Mais tout d'abord,dis-le moi !
+Mais tout d'abord,dis-le-moi !
 Quel est-il ?[end]</data>
     </text>
     <text>
@@ -149,7 +149,7 @@ Quel est-il ?[end]</data>
         <data>Général Barbalea !
  
   
-Ca alors...
+Ça alors...
 Si ton intérêt est le mien,
 je suis ton homme !
 Quel est ton passe-temps ?[end]</data>
@@ -330,7 +330,7 @@ Ces souvenirs vous font vivre,n'est-ce pas ?[end]</data>
         <refs>
             <ref>0x87f</ref>
         </refs>
-        <data>Je vous ai reconnu voyageur...
+        <data>Je vous ai reconnu,voyageur...
 
 
 Vous êtes un des Rebelles que j'ai déjà rencontré sur

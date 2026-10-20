@@ -186,16 +186,24 @@ class ActorList:
 
 
 class TextOpcode:
+    """An opcode whose last operand is a room-relative text pointer, after size - 3 byte operands (draw_credit_line's
+    x and y)."""
+
     def __init__(self, size: int = 3) -> None:
         self.size = size
 
     def apply(self, room: Room) -> int:
-        text_addr = room.get_word(1)
+        pointer = self.size - 2
+        text_addr = room.get_word(pointer)
 
         _bytes_len, text = get_string_from_room(room, text_addr, room.table)
-        room.program.put_opcode(room.pc, room.get_byte(), ("data", ("reference", text_addr)), text, size=3)
+        operands: tuple[Operand, ...] = (
+            *(("byte", room.get_byte(offset)) for offset in range(1, pointer)),
+            ("reference", text_addr),
+        )
+        room.program.put_opcode(room.pc, room.get_byte(), ("data", *operands), text, size=self.size)
 
-        room.put_text_reference(room.pc + 1, text_addr, text)
+        room.put_text_reference(room.pc + pointer, text_addr, text)
 
         return self.size
 

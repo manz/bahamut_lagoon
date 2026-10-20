@@ -32,7 +32,7 @@ d'informations.[end]</data>
             <ref>0xe8</ref>
         </refs>
         <data>MATELIGHT:
-Evidemment,Commandant !
+Évidemment,Commandant !
 Nous allons envoyer un espion infiltrer
 l'Empire.[end]</data>
     </text>
@@ -220,8 +220,8 @@ escapade militaire ![end]</data>
         <data>DON JUAN:
 Les guerrières impériales sont très
 dures à faire parler.
-Je dois aussi vous avouer que nombres
-d'entres elles sont célibataires !
+Je dois aussi vous avouer que nombre
+d'entre elles sont célibataires !
  
 Et Don Juan,le plus beau,le magnifique,
 a aussi les mots pour les attirer ![end]</data>
@@ -259,7 +259,7 @@ le château de Granbelos.
  
 Traiter avec une femme est simple pour
 un espion hors du commun,tendre et
-beau-parleur.
+beau parleur.
 Admirez cet espion !
 Il n'est autre que moi...
 Don Juan ![end]</data>
@@ -281,7 +281,7 @@ J'ai quand même appris les prénoms
 de certaines !
  
 J'ai maintenant la sensation que MOI
-seul détienne...
+seul détiens...
 l'intelligence supérieure ![end]</data>
     </text>
     <text>
@@ -410,7 +410,7 @@ profite.
  
 Ce doit être le chaos au sein de
 l'Empire.
-Et cela a dû les afflaiblir.
+Et cela a dû les affaiblir.
 C'est une chance pour nous !
 Mais,ce n'est pas en restant ici qu'on
 avancera ![end]</data>
@@ -446,7 +446,7 @@ J'ai également remarqué que certains
 Généraux de l'Empire se réjouissaient
 de la maladie de leur Empereur.
 Je suspecte énormément l'un de ses
-bras-droit,le Général Gudruff,de
+bras droits,le Général Gudruff,de
 vouloir tenter une sécession !
 Lui et Restatto avaient l'air d'être
 de grands chefs.[end]</data>
@@ -520,7 +520,7 @@ Allons au champ de bataille ![end]</data>
 Sincèrement,chaque cité recèle de
 nombreuses informations.
 Le monde doit être libéré !
-Mais moi,je serais toujours seul.[end]</data>
+Mais moi,je serai toujours seul.[end]</data>
     </text>
     <text>
         <refs>
@@ -586,7 +586,7 @@ Laissons parler Sendack ![end]</data>
         <data>COMMANDANT:
 Je me souviens de tout !
  
-J'espère que mes recherches vont
+J'espère que mes recherches seront
 utiles ![end]</data>
     </text>
     <text>
@@ -760,7 +760,7 @@ Tu dois tout savoir...[end]</data>
         <data>[character][0x0]...
  
   
-Admirer le ciel,la nuit,ne te rapelle
+Admirer le ciel,la nuit,ne te rappelle
 pas certains... souvenirs ?
 De si nombreuses choses...
 Je suis toujours si seule lorsque je

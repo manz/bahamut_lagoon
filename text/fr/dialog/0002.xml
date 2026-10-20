@@ -41,7 +41,7 @@ Maintenant elle est à notre portée...[end]</data>
         <refs>
             <ref>0x13e</ref>
         </refs>
-        <data>[character][0xa]: A Campbell,le Continent Verdoyant...[end]</data>
+        <data>[character][0xa]: À Campbell,le Continent Verdoyant...[end]</data>
     </text>
     <text>
         <refs>
@@ -154,16 +154,16 @@ Seulement après cela,je serai satisfait.[end]</data>
         <refs>
             <ref>0x30c</ref>
         </refs>
-        <data>Palpaleos: La victoire vers une Ere Nouvelle...[end]</data>
+        <data>Palpaleos: La victoire vers une Ère Nouvelle...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x317</ref>
         </refs>
-        <data>Sauzer: Oui,vers une Ere Nouvelle !
+        <data>Sauzer: Oui,vers une Ère Nouvelle !
  
 
-S'il te plaît,[character][0xa],reste quelques temps avec
+S'il te plaît,[character][0xa],reste quelque temps avec
 moi...[end][end]</data>
     </text>
 </texts>

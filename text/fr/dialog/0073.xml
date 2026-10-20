@@ -60,7 +60,7 @@ Ici ! Ici ![end]</data>
             <ref>0x403</ref>
         </refs>
         <data>Les dragons mangent souvent mais ne
-soit pas non plus trop excessif avec
+sois pas non plus trop excessif avec
 la nourriture.[end]</data>
     </text>
     <text>
@@ -92,7 +92,7 @@ dragons.[end]</data>
         <refs>
             <ref>0x479</ref>
         </refs>
-        <data>Hola ! Hé là !
+        <data>Holà ! Hé là !
 Tu suis toujours ce que je dis ?
  
 Les dragons sont toujours amicaux.
@@ -132,7 +132,7 @@ apparences ![end]</data>
         </refs>
         <data>Le changement de race dépend de la
 force mais aussi des aliments que tu
-lui a donné.
+lui as donnés.
 Cependant,fais très attention à la
 fameuse caractéristique [0xaa]mutation[0xab]![end]</data>
     </text>
@@ -153,7 +153,7 @@ mais c'est à toi de les découvrir.[end]</data>
         <refs>
             <ref>0x55e</ref>
         </refs>
-        <data>Saches que les dragons comprennent
+        <data>Sache que les dragons comprennent
 ces sentiments.[end]</data>
     </text>
     <text>
@@ -190,7 +190,7 @@ plupart de tes sentiments ![end]</data>
         <refs>
             <ref>0x5a4</ref>
         </refs>
-        <data>Je concluerai en disant qu'il faut bien
+        <data>Je conclurai en disant qu'il faut bien
 les éduquer !
 Tu as compris,[character][0x0]?![end]</data>
     </text>
@@ -251,7 +251,7 @@ Est-ce que tu veux rentrer ?[end]</data>
         <refs>
             <ref>0x4e8</ref>
         </refs>
-        <data>Et bien dis donc !
+        <data>Eh bien dis donc !
 Tu as du mal à suivre ![end]</data>
     </text>
     <text>

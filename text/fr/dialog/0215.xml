@@ -40,8 +40,8 @@ mais si tu veux... frappe-moi[0xd8]
         <data>DIANA:
 Tu n'as rien remarqué ?
  
-Tu as vu de quelle manière parle les
-lanciers depuis quelques temps ?
+Tu as vu de quelle manière parlent les
+lanciers depuis quelque temps ?
  
  Que veux-tu dire ?
  Je n'ai pas vu de différence ![end1]</data>
@@ -63,8 +63,8 @@ une Garde Lumière,peut marcher loin.[end]</data>
         <data>MELODIA:
 [character][0x0],
 est-ce que tu aimes [character][0x1]?
- Evidemment,quelle question !
- Et bien...[end1]</data>
+ Évidemment,quelle question !
+ Eh bien...[end1]</data>
     </text>
     <text>
         <refs>
@@ -82,7 +82,7 @@ Mélodia aime beaucoup tout ce qu'aime
         </refs>
         <data>Héhéhéhéhé !
 Je suis soulagée !
-SOULAGEE !
+SOULAGÉE !
 Au fait,sache que Lukia m'a confié
 qu'elle adorait sortir avec des hommes
 bien vêtus ![end]</data>
@@ -109,7 +109,7 @@ Elle n'a jamais été si bruyante.
  
 Tu peux me considérer comme quelqu'un
 de nostalgique mais je peux t'assurer
-que c'était bien plus calme auvant ![end]</data>
+que c'était bien plus calme avant ![end]</data>
     </text>
     <text>
         <refs>
@@ -154,11 +154,11 @@ Hahaha,je lui en enverrai ![end]</data>
 L'argent et la nourriture sont toujours
 suffisants.
 Durant une bataille,regarde toujours
-la force que tu as gagné.
+la force que tu as gagnée.
  
 Seul l'argent compte pour les guerriers
 lents comme Bareck.
-Ils ne sont satisfait que par ça.[end]</data>
+Ils ne sont satisfaits que par ça.[end]</data>
     </text>
     <text>
         <refs>
@@ -264,7 +264,7 @@ Je ne cesse de me regarder pour
 contempler ma beauté !
 Soyons franche,Ekaterina !
 Je veux que la guerre prenne fin une
-fois pour toute !
+fois pour toutes !
 Houlala,j'ai des idées trop préconçues
 et c'est donc inutile de penser !
 Bon,on change d'optique et tout le
@@ -320,7 +320,7 @@ Il m'a dit qu'on aura une grande
 sensation lorsque nos visages se
 reflèteront dans les lacs de Mahal.
 Cependant,je ne dois pas oublier mon
-mon amie Joy.[end]</data>
+amie Joy.[end]</data>
     </text>
     <text>
         <refs>
@@ -455,7 +455,7 @@ Je ne vendrai pas de magies illégales.[end]</data>
 Est-ce bientôt la fin de la guerre ?
  
  Je ne sais pas...
- Et bien...[end1]</data>
+ Eh bien...[end1]</data>
     </text>
     <text>
         <refs>
@@ -700,7 +700,7 @@ noire ou la magie de soin !
 Tu peux faire augmenter leur Défense,
 leur Attaque,leur pouvoir de Poison,
 leur pouvoir de Soin,et aussi ceux de
-de Feu,d'Eau,et de Foudre !
+Feu,d'Eau,et de Foudre !
 C'est ce qui conviendrait parfaitement
 à Bareck !
 Les sorcières peuvent aussi augmenter
@@ -717,7 +717,7 @@ ne sont que des brutes.[end]</data>
         <data>ANASTASIA:
 Aujourd'hui je suis allée me promener
 mais je n'ai rien découvert de très
-d'intéressant.
+intéressant.
 Par contre,qui tu sais marche
 lentement... lentement...[end]</data>
     </text>
@@ -726,9 +726,9 @@ lentement... lentement...[end]</data>
             <ref>0x787</ref>
         </refs>
         <data>LUKIA:
-La Porte de la Nouvelle Ere est
+La Porte de la Nouvelle Ère est
 ouverte...
-Qu'allons-nous bien trouver au delà de
+Qu'allons-nous bien trouver au-delà de
 cette Porte ?[end]</data>
     </text>
     <text>

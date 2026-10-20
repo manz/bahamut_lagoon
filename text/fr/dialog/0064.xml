@@ -335,7 +335,7 @@ d'un tel dragon ![end]</data>
             <ref>0x46d</ref>
         </refs>
         <data>ZORA:
-Ecoute [character][0x0]!
+Écoute [character][0x0]!
  
 Est-ce que mon fils et ce dragon
 pourraient avoir une place sur le
@@ -378,7 +378,7 @@ Viens ici ![end]</data>
         <refs>
             <ref>0x4a6</ref>
         </refs>
-        <data>A FARENHEIT,
+        <data>À FARENHEIT,
 tu sauras de très nombreuses choses.[end]</data>
     </text>
     <text>
@@ -426,7 +426,7 @@ donnera de l'argent ![end]</data>
             <ref>0x51f</ref>
         </refs>
         <data>Hihi,hihihi !
-Ca me fait bien rire !
+Ça me fait bien rire !
 Hihihi,hihi ![end]</data>
     </text>
     <text>
@@ -536,7 +536,7 @@ de bataille ![end]</data>
         <refs>
             <ref>0x617</ref>
         </refs>
-        <data> Réveler...
+        <data> Révéler...
  Faire attention ![end1]</data>
     </text>
     <text>

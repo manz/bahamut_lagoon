@@ -92,7 +92,7 @@ Confidence: **H** the handler leaves no doubt, **M** the effect is clear but its
 | 37 | display_text | 3 | text | | H |
 | 38 | clear_window_text | 1 | | clears the text buffer and DMAs it, if a window is open | M |
 | 7B | display_credit | 3 | text | | M |
-| 85 | draw_credit_line | 5 | x, y, text | credits text in the A=1 alphabet (room 248) | M |
+| 85 | draw_credit_line | 5 | x, y, text | one FF-terminated line of text/table/intro.tbl codes into the tilemap buffer 7E6000 + y * 64 + x * 2 (DA6D88, DA7571): small capitals one tile, capitals (1D on) two rows. Room 248, the ending credits | H |
 
 ### Flags, items, money, units
 

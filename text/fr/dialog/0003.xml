@@ -11,7 +11,7 @@
         <refs>
             <ref>0x66</ref>
         </refs>
-        <data>Matelite: Les forces ennemis sont visibles de
+        <data>Matelite: Les forces ennemies sont visibles de
 très loin ![end]</data>
     </text>
     <text>
@@ -114,10 +114,10 @@ attaquera plus fort les ennemis !
 Les armures le rendent moins craintif donc il attaquera
 plus souvent les ennemis !
 
-Soit généreux en les nourrissant, surtout si c'est leur
+Sois généreux en les nourrissant, surtout si c'est leur
 nourriture favorite.
 
-Mais ne soit pas trop excessif !
+Mais ne sois pas trop excessif !
 Il vaut mieux de bonnes quantités constantes plutôt que 
 de les goinfrer.
 Si ton dragon est heureux,il fera alors des rotations.
@@ -125,9 +125,9 @@ Si ton dragon est heureux,il fera alors des rotations.
 
 Ce dernier conseil te sera aussi utile:
 augmenter l'esprit et l'intelligence les rendra plus 
-compétent en magie.
+compétents en magie.
 Ce sont toutes les bases !
-A toi de réussir ![end]</data>
+À toi de réussir ![end]</data>
     </text>
     <text>
         <refs>
@@ -139,7 +139,7 @@ A toi de réussir ![end]</data>
         <refs>
             <ref>0x562</ref>
         </refs>
-        <data>Je suis un marchand envoyé au champs de bataille !
+        <data>Je suis un marchand envoyé au champ de bataille !
 Tu veux commercer avec moi ?[end][end]</data>
     </text>
     <text>

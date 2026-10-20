@@ -110,8 +110,8 @@ colère sur Commandant ![end]</data>
 Ce sera bientôt la libération de
 Campbell !
 J'espère que le service des magasins
-n'y est pas négligeant autrement je
-les détruirez tous ![end]</data>
+n'y est pas négligent autrement je
+les détruirai tous ![end]</data>
     </text>
     <text>
         <refs>
@@ -189,7 +189,7 @@ J'aime le [0xaa]Vin Doux[0xab]![end]</data>
         </refs>
         <data>Ce que je n'aime pas ?
 Hoho,je crois que c'est le [0xaa]Uniuji[0xab].
-Ca me donne plein de boutons ![end]</data>
+Ça me donne plein de boutons ![end]</data>
     </text>
     <text>
         <refs>
@@ -249,7 +249,7 @@ notre avantage avec la Légende.[end]</data>
         </refs>
         <data>SENDACK:
 Le cri de Valitra ressemble à celui de
-quelqu'un qui se fait tué.
+quelqu'un qui se fait tuer.
 Sache aussi que lorsque je suis proche
 de la Princesse,je peux aussi utiliser
 le puissant pouvoir du Dragon Sacré.[end]</data>
@@ -259,7 +259,7 @@ le puissant pouvoir du Dragon Sacré.[end]</data>
             <ref>0x1fa</ref>
         </refs>
         <data>N'essaie pas de comprendre comment
-un vieil homme comme moi aies pu
+un vieil homme comme moi ait pu
 acquérir tant de puissance.
 Tu t'y perdrais...
 Haha !
@@ -286,7 +286,7 @@ personnes ![end]</data>
         <refs>
             <ref>0x1cc</ref>
         </refs>
-        <data>A l'aube de la libération de Campbell,
+        <data>À l'aube de la libération de Campbell,
 je commanderai les troupes car étant
 supérieur,j'ai droit à un traitement
 de faveur...
@@ -326,7 +326,7 @@ Tous ensemble,nous irons à Campbell.[end]</data>
 [character][0x0]...
  
 Il me semble que les Dragons Sacrés
-n'aient pas l'air de vouloir que je
+n'ont pas l'air de vouloir que je
 connaisse la Légende...
 Mais nous irons sur ce lagon...[end]</data>
     </text>

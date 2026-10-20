@@ -49,7 +49,7 @@ HIHIHIHIHIHIHIHIHIHIHI ![end]</data>
 Sortez soldats de Mahal !
 Où êtes-vous ?!
 Où es-tu Commandant ?
-Sort !
+Sors !
 HIHIHIHIHIHIHI ![end]</data>
     </text>
     <text>
@@ -475,7 +475,7 @@ tu es un garçon chanceux...[end]</data>
         <refs>
             <ref>0xa3a</ref>
         </refs>
-        <data>Etre avec la femme qu'on aime est
+        <data>Être avec la femme qu'on aime est
 la meilleure chose dans la vie d'un
 homme.
 Tu devrais prendre soin d'elle.[end]</data>
@@ -503,7 +503,7 @@ homme inutile,tout comme moi...[end]</data>
             <ref>0x6f8</ref>
         </refs>
         <data>TAURUS:
-Voici,la carte de Mahal...[end]</data>
+Voici la carte de Mahal...[end]</data>
     </text>
     <text>
         <refs>
@@ -569,7 +569,7 @@ Ma chère ville de Godrand ![end]</data>
         <refs>
             <ref>0xb3f</ref>
         </refs>
-        <data>Les Petis Démons sont contents !
+        <data>Les Petits Démons sont contents !
  
   
 Les Petits Démons vont revoir
@@ -739,7 +739,7 @@ Tu n'as rien ressenti ?![end]</data>
         </refs>
         <data>TAURUS:
 Heuuu...
-Et bien...[end]</data>
+Eh bien...[end]</data>
     </text>
     <text>
         <refs>

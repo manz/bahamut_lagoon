@@ -15,7 +15,7 @@ Qu'aimerais-tu ?[end]</data>
         </refs>
         <data>BIKKEBAKKE:
 [character][0x0],vieux frère...
-Sil te plaît,coopère !
+S'il te plaît,coopère !
  Coopérer.
  L'écouter parler.[end1]</data>
     </text>
@@ -30,7 +30,7 @@ Nous pouvons donc rentrer à la maison !
 Ainsi,je pourrai me consacrer à
 l'économie et à l'argent !
 Toi,moi,Taurus et Rush nous briserons
-la délinquence à Kana.
+la délinquance à Kana.
  
 Nous dormirons près du pont du Portail
 du Château avec tous les chiens comme
@@ -188,7 +188,7 @@ Anastasia devrait savoir que la plupart
 des victoires sont remportées grâce à
 nous.
 C'est grâce à nos attaques directes
-qu'elle peut savourer tant de victoire.
+qu'elle peut savourer tant de victoires.
 Hein ! Quoi ?
 Tu ne m'écoutes plus ?
 Tu rejoins tes quartiers ?
@@ -273,7 +273,7 @@ Nous devrons faire beaucoup d'efforts
 pour ne pas nous disputer.
  
  Félicitations !
- Tout mes voeux de bonheur ![end1]</data>
+ Tous mes voeux de bonheur ![end1]</data>
     </text>
     <text>
         <refs>
@@ -330,8 +330,8 @@ Tout ira bien,n'est-ce pas ?[end]</data>
         <data>FILS DE ZORA:
 Quoi ?!
 Tu veux connaître mon nom ?
- Dis-le moi !
- Ca m'est égal...[end1]</data>
+ Dis-le-moi !
+ Ça m'est égal...[end1]</data>
     </text>
     <text>
         <refs>
@@ -441,7 +441,7 @@ Soyez heureux ! ``Grognement''
  
 Aaaah Mahal``Grognement''
 Erigeons tous ensemble le plus beau de
-tout les palais ! ``Grognement''[end]</data>
+tous les palais ! ``Grognement''[end]</data>
     </text>
     <text>
         <refs>
@@ -482,13 +482,13 @@ vous.[end]</data>
             <ref>0x6e9</ref>
         </refs>
         <data>BARECK:
-Il faut que tu me dise ce que tu
+Il faut que tu me dises ce que tu
 penses de ma nouvelle idée !
 Crois-tu qu'une bataille entre les
 sorcières et les guerriers soit
 possible ?!
 Ainsi,lorsque le combat sera fini,
-nous pourrons signer une trève.
+nous pourrons signer une trêve.
  
  C'est splendide !
  C'est absolument inutile ![end1]</data>

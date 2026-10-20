@@ -103,9 +103,9 @@ Et vous êtes ?[end]</data>
         </refs>
         <data>SENDACK:
 Un être-dragon ?!
-Dites-nous en plus !
+Dites-nous-en plus !
 La résurrection doit se faire entre les
-êtres-dragon et les Dragons Sacrés !
+êtres-dragons et les Dragons Sacrés !
 Qu'est-il nécessaire de faire ?[end][end]</data>
     </text>
     <text>
@@ -127,7 +127,7 @@ l'esprit éternels.
 S'il meurt...
 Alors son corps meurt...
  
-A l'endroit où repose son corps
+À l'endroit où repose son corps
 flotte dans les airs son esprit.
  
 L'esprit du Dragon Sacré vient alors
@@ -261,7 +261,7 @@ Le Dragon Sacré Alexandre ![end]</data>
         <data>Il y a longtemps Bahamut et les autres
 Dragons Sacrés partirent pour Orelus
 et trop occupés,ils cessèrent de nous
-nous protéger ![end]</data>
+protéger ![end]</data>
     </text>
     <text>
         <refs>
@@ -280,8 +280,8 @@ revenir.[end]</data>
         <refs>
             <ref>0xa4e</ref>
         </refs>
-        <data>le Divin Alexandre prit avec lui de
-nombreux être-dragons mais tous ne
+        <data>Le Divin Alexandre prit avec lui de
+nombreux êtres-dragons mais tous ne
 purent être sauvés !
 Certains moururent dans le trou noir,
 d'autres eurent le coeur transformé !
@@ -315,7 +315,7 @@ Répondez à notre appel...[end]</data>
         <data>BAHAMUT:
 Nous sommes revenus pour la
 Résurrection...
-Sortez car la Nouvelle Ere est arrivée.
+Sortez car la Nouvelle Ère est arrivée.
 Nous sommes revenus par la Porte.[end]</data>
     </text>
     <text>
@@ -411,7 +411,7 @@ Allons-y !
 Nous allons vous aider Dragons Sacrés !
 Grâce à ma force,nous allons gagner !
  
-Ils vont voir de quel bois,
+Ils vont voir de quel bois
 on se chauffe...
 Nous partons combattre ![end]</data>
     </text>
@@ -449,13 +449,13 @@ Est-ce que tu es prêt ?
 Je ne sais pas si l'aide des dragons
 est nécessaire...
  Je n'en suis pas sûr !
- Seul ton aide est inutile ![end1]</data>
+ Seule ton aide est inutile ![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x5f0</ref>
         </refs>
-        <data>Je crois que mes connaissance en
+        <data>Je crois que mes connaissances en
 stratégie te sont inutiles,alors...[end]</data>
     </text>
     <text>
@@ -464,7 +464,7 @@ stratégie te sont inutiles,alors...[end]</data>
         </refs>
         <data>[character][0x0]!
 Tout cela est inutile !
-Il semble que tu es jaloux ![end]</data>
+Il semble que tu sois jaloux ![end]</data>
     </text>
     <text>
         <refs>
@@ -641,7 +641,7 @@ N'allez pas vous faire tuer,
 quelqu'un vous attend !
 Vous n'avez pas intérêt à rendre
 [character][0x1] triste !
-Je ne vous le pardonnerait pas ![end]</data>
+Je ne vous le pardonnerai pas ![end]</data>
     </text>
     <text>
         <refs>
@@ -661,7 +661,7 @@ pour le détruire !
 Moi,je suis né pour vivre donc je
 dois assurer mon existence !
  
-Ca a été si soudain mais j'ai décidé
+Ça a été si soudain mais j'ai décidé
 d'arrêter mon travail de marchand !
  
 Je ne suis plus un marchand envoyé
@@ -685,7 +685,7 @@ C'est pour vous ![end]</data>
         <data>J'ai vu que vous aviez des capacités
 de marchand.
  
-Etant très actif,j'ai immédiatement
+Étant très actif,j'ai immédiatement
 pensé à vous.
  
 J'ai eu un grand succès mais j'ai
@@ -805,7 +805,7 @@ savoir.[end]</data>
         </refs>
         <data>SENDACK:
 Altair...
-Ca... m'effraie...[end]</data>
+Ça... m'effraie...[end]</data>
     </text>
     <text>
         <refs>

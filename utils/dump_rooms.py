@@ -12,7 +12,9 @@ from a816.writers import Writer
 from script import Table
 
 from utils.cartridge import rom_address, rom_offset
-from utils.dialog_layout import default_layout
+from utils.credits import CREDITS_ROOMS, ENDING_CREDITS_ROOMS, credits_script, place_credit_lines
+from utils.credits import TABLE as CREDITS_TABLE
+from utils.dialog_layout import DialogLayout, default_layout
 from utils.disasm import live_disasm
 from utils.lz import lz_compress, lz_decompress
 from utils.vm.opcodes_map import opcode_names, opcode_table
@@ -247,6 +249,24 @@ class WindowHeights:
         return min(heights, default=self.DEFAULT_LINES)
 
 
+def prepare_texts(room: Room, texts: ET.Element, layout: DialogLayout) -> None:
+    """The room's French texts as it draws them: the ending credits placed, the attract credits stepped, the dialog
+    reflowed to its windows."""
+    if room.id in ENDING_CREDITS_ROOMS:
+        place_credit_lines(room, texts)
+        return
+    windows = WindowHeights(room)
+    for text in texts:
+        data = text.find("data")
+        if data is None or not data.text:
+            continue
+        if room.id in CREDITS_ROOMS:
+            data.text = credits_script(data.text)
+        else:
+            refs = [int(ref.text, 16) for ref in text.iter("ref") if ref.text]
+            data.text = layout.reflow(data.text, page_lines=windows.lines(refs), keep_lines=windows.is_choice(refs))
+
+
 def build_text_patch(rom: BufferedReader, table: Table, writer: Writer, reloc_address: int) -> int:
     xmlfile_re = re.compile(r"(\d+)\.xml")
     dialog_dir = os.path.join(os.path.dirname(__file__), "../text/fr/dialog")
@@ -255,6 +275,7 @@ def build_text_patch(rom: BufferedReader, table: Table, writer: Writer, reloc_ad
     files = sorted(files, key=lambda name: int(name[:4], 10))
     room_compressed: dict[int, int] = {}
     layout = default_layout()
+    credits_table = Table(str(CREDITS_TABLE))
 
     for file in files:
         logger.debug(file)
@@ -263,17 +284,11 @@ def build_text_patch(rom: BufferedReader, table: Table, writer: Writer, reloc_ad
             room_id = int(match.group(1))
 
             if is_compressed(rom, room_id):
-                room = get_dialog_room(rom, room_id, table, "jp", disasm=True)
+                credits = room_id in CREDITS_ROOMS | ENDING_CREDITS_ROOMS
+                room = get_dialog_room(rom, room_id, credits_table if credits else table, "jp", disasm=True)
 
                 tree = ET.parse(os.path.join(dialog_dir, file))
-                windows = WindowHeights(room)
-                for text in tree.getroot():
-                    data = text.find("data")
-                    if data is not None and data.text:
-                        refs = [int(ref.text, 16) for ref in text.iter("ref") if ref.text]
-                        data.text = layout.reflow(
-                            data.text, page_lines=windows.lines(refs), keep_lines=windows.is_choice(refs)
-                        )
+                prepare_texts(room, tree.getroot(), layout)
 
                 room.apply_patches(room_patches.get(room_id))
 

@@ -15,9 +15,10 @@ from a816.writers import Writer
 from script import Table
 
 from utils.cartridge import rom_offset
-from utils.small_vwf_bake import Baked, bake
+from utils.small_vwf_bake import GLYPH, SHADOW_GAP, Baked, bake
 
 RECORD = 8
+SPELL_WIDTH = 75  # pixels: Frappe de foudre, the widest spell name the lists and the banner fit (docs/glossary.md)
 END = 0xFF
 PAD = 0xFE
 
@@ -53,6 +54,16 @@ SMALL_FONT_FOLD = str.maketrans("ÀÂÇÈÉÊËÎÏÔÙÛ", "AACEEEEIIOUU")  # s
 def encode(table: Table, name: str) -> bytes:
     """A name in the 8x8 text codes, accented capitals folded to the letters small_font draws."""
     return table.to_bytes(name.translate(SMALL_FONT_FOLD).replace(" ", r"\s"))
+
+
+def width(font: bytes, codes: bytes) -> int:
+    """The pixels small_vwf's pen moves over `codes` up to their end, the shadow's gap after each glyph included."""
+    pen = 0
+    for code in codes:
+        if code >= PAD:
+            break
+        pen += font[code * GLYPH + 8] + SHADOW_GAP
+    return pen
 
 
 def short_record(codes: bytes) -> bytes:

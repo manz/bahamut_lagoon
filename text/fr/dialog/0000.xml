@@ -102,7 +102,7 @@ Qu'aimeriez-vous savoir,Capitaine ?[end]</data>
             <ref>0x3fa</ref>
         </refs>
         <data>Taurus: Si l'Escadron Dragon ne stoppe pas l'Empire,
-celui-ci aura bientôt envahi tout les lagons.
+celui-ci aura bientôt envahi tous les lagons.
 
 Si nous perdons cette bataille...
 Ce sera...[end]</data>
@@ -137,7 +137,7 @@ manière dont se déroule la bataille.[end]</data>
         <refs>
             <ref>0x9ce</ref>
         </refs>
-        <data>Le second Escadron est parti vers la  base aérienne de
+        <data>Le second Escadron est parti vers la base aérienne de
 l'Empire pour tenter de le stopper.
 
 Dépêchons-nous d'aller au Château de Kana !
@@ -306,7 +306,7 @@ dans une telle situation.
 Bahamut devrait être en train de protéger Kana !
 
 
-Qu'attend-t-il ?![end]</data>
+Qu'attend-il ?![end]</data>
     </text>
     <text>
         <refs>

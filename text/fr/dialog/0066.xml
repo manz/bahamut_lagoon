@@ -14,7 +14,7 @@ C'est difficile[0xd8][end]</data>
         <refs>
             <ref>0xc02</ref>
         </refs>
-        <data>Vite,fais le pour moi !
+        <data>Vite,fais-le pour moi !
 Tu es vraiment à envier...[end]</data>
     </text>
     <text>
@@ -98,7 +98,7 @@ Quel étrange sentiment,n'est-ce pas ?[end]</data>
 C'est ici,[character][0x0]!
 C'est cette église...
 Je vais te parler de ses souvenirs.
-Sais-tu pourquoi elle est si connues ?[end]</data>
+Sais-tu pourquoi elle est si connue ?[end]</data>
     </text>
     <text>
         <refs>
@@ -197,7 +197,7 @@ partie des souvenirs de cette église ?[end]</data>
         <refs>
             <ref>0xb9a</ref>
         </refs>
-        <data>Il faut néabmoins que les deux
+        <data>Il faut néanmoins que les deux
 personnes se le promettent...
  
 Matelight risque d'aller voir mon père
@@ -347,7 +347,7 @@ Autrefois,de nombreux amoureux vinrent
 à cette église pour se marier et être
 heureux.
 C'est pour cela qu'elle est aujourd'hui
-appelée l'Eglise des Souvenirs ![end]</data>
+appelée l'Église des Souvenirs ![end]</data>
     </text>
     <text>
         <refs>

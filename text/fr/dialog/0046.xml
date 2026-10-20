@@ -43,7 +43,7 @@ Tu as besoin de moi,n'est-ce pas ?[end]</data>
         </refs>
         <data>[character][0x1]:
 Ne tente rien [character][0x0]!
-A partir d'ici,je dois y aller seule.[end]</data>
+À partir d'ici,je dois y aller seule.[end]</data>
     </text>
     <text>
         <refs>
@@ -161,10 +161,10 @@ souvenirs.
 Les souvenirs des Dragons Sacrés...
  
   
-La porte de la Nouvelle Ere...
+La porte de la Nouvelle Ère...
 Nous détestons en entendre parler !
  
 Cependant,il sera un jour où la
-Nouvelle Ere surgira.[end]</data>
+Nouvelle Ère surgira.[end]</data>
     </text>
 </texts>

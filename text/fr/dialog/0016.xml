@@ -36,7 +36,7 @@
    Je te dirai ce que je veux te
           faire savoir.
  
-   Nous,les Dragons Sacrés avons
+   Nous,les Dragons Sacrés,avons
       énormément besoin de toi.[end]</data>
     </text>
     <text>
@@ -151,7 +151,7 @@ Ils ont vraiment gagné en force ![end]</data>
         <refs>
             <ref>0x3ad</ref>
         </refs>
-        <data>[character][0x0]..
+        <data>[character][0x0]...
 Matelight...
 Commandant...[end]</data>
     </text>
@@ -167,7 +167,7 @@ Commandant...[end]</data>
         </refs>
         <data>Ma tendre [character][0x1],je ne peux même pas
 réaliser mon souhait le plus cher...
-Etre avec vous ![end]</data>
+Être avec vous ![end]</data>
     </text>
     <text>
         <refs>
@@ -179,7 +179,7 @@ Etre avec vous ![end]</data>
         <refs>
             <ref>0x3d1</ref>
         </refs>
-        <data>Si la Nouvelle Ere s'ouvre à nous,
+        <data>Si la Nouvelle Ère s'ouvre à nous,
 j'aimerais être à tout jamais à vos
 côtés.[end]</data>
     </text>
@@ -191,7 +191,7 @@ côtés.[end]</data>
 Hahahahaha !
 Fille,la dénommée Dragoon !
 Est-ce là ton ambition ?
-Ce TRES petit rêve ou dois-je dire ce
+Ce TRÈS petit rêve ou dois-je dire ce
 MINUSCULE rêve ?![end]</data>
     </text>
     <text>
@@ -268,8 +268,8 @@ savoir ?[end]</data>
         <data>[character][0x1]:
 Garuda...
  
-Si je réalise tout mes désirs,il est une
-chose que j'aimerais avoir par dessus
+Si je réalise tous mes désirs,il est une
+chose que j'aimerais avoir par-dessus
 tout...[end]</data>
     </text>
     <text>

@@ -222,7 +222,7 @@ vaincu que leur colère se consumera
 pour toujours...
 Est-ce...
 Est-ce cela...
-le sens de la Nouvelle Ere ?[end]</data>
+le sens de la Nouvelle Ère ?[end]</data>
     </text>
     <text>
         <refs>
@@ -230,8 +230,8 @@ le sens de la Nouvelle Ere ?[end]</data>
         </refs>
         <data>Si tel est le cas...
 L'autre côté de la Porte est en
-lui-même la Nouvelle Ere...
-Cette Nouvelle Ere est-elle pour
+lui-même la Nouvelle Ère...
+Cette Nouvelle Ère est-elle pour
 nous ?
 Ou est-elle simplement pour eux ?[end]</data>
     </text>
@@ -376,13 +376,13 @@ Amenons-la à la cabine ![end][end]</data>
             <ref>0x96e</ref>
         </refs>
         <data>SENDACK:
-Tout les Dragons Sacrés sont furieux
+Tous les Dragons Sacrés sont furieux
 contre le Dragon protecteur de Kana,
 Bahamut.
  
   
 Et si nous ouvrons la Porte de la
-Nouvelle Ere,n'y aura-t-il pas de
+Nouvelle Ère,n'y aura-t-il pas de
 nouveau une guerre entre eux ?[end]</data>
     </text>
     <text>
@@ -495,7 +495,7 @@ La Porte au-delà de notre monde ?[end]</data>
         <data>MATELIGHT:
 Le Passage du Ciel ?!
  
-Alors à travers ce trou noir au dessus
+Alors à travers ce trou noir au-dessus
 de Kana se trouve Altair ?!
  
 Vous,les Dragons Sacrés,ne pouvez pas
@@ -513,10 +513,10 @@ NOUS SOMMES d'ALTAIR...[end]</data>
             <ref>0x125c</ref>
         </refs>
         <data>[character][0x1]:
-Altair se trouve sûrement au delà du
+Altair se trouve sûrement au-delà du
 Passage du Ciel mais les Dragons
 Sacrés ne peuvent y aller par
-eux-même !
+eux-mêmes !
 Ils sont donc tristes...
 C'est pour cela qu'ils sont aussi si
 furieux ![end]</data>
@@ -595,7 +595,7 @@ Mais elle semble parfois si seule...[end]</data>
             <ref>0x1477</ref>
         </refs>
         <data>PALPALEOS:
-Lorsque nous avons attaquer Kana,
+Lorsque nous avons attaqué Kana,
 nous avons tiré beaucoup de profits
 des combats.
 Nos soldats ont cependant vendu une
@@ -752,7 +752,7 @@ n'est-ce pas ?[end]</data>
             <ref>0x69c</ref>
         </refs>
         <data>MATELIGHT:
-Ca m'inquiète que Palpaleos ait amené
+Ça m'inquiète que Palpaleos ait amené
 l'Empereur Sauzer à FARENHEIT !
 Je suis sûr que la Princesse se pose
 aussi des questions ![end]</data>
@@ -820,7 +820,7 @@ Je crois que cet homme est résigné
         </refs>
         <data>SENDACK:
 Les Dragons Sacrés...
-La Porte de la Nouvelle Ere...
+La Porte de la Nouvelle Ère...
 Mon esprit est confus...[end]</data>
     </text>
     <text>
@@ -868,7 +868,7 @@ Ce ciel infini...[end]</data>
         <data>SAUZER:
 Mon rêve ne se réalisera pas.
 
-Même si la Nouvelle Ere n'est pas pour
+Même si la Nouvelle Ère n'est pas pour
 moi,j'aurais aimé la voir.[end]</data>
     </text>
     <text>
@@ -1164,8 +1164,8 @@ Es-tu prêt,[character][0x0]?
         </refs>
         <data>MATELIGHT:
 Une prière silencieuse pour Sauzer ?!
-Etait-il si différent ?
-Il voulait aussi une Nouvelle Ere ![end]</data>
+Était-il si différent ?
+Il voulait aussi une Nouvelle Ère ![end]</data>
     </text>
     <text>
         <refs>
@@ -1236,7 +1236,7 @@ Tout va bien ?![end]</data>
         </refs>
         <data>MATELIGHT:
 La Porte est ouverte !
-La Porte de la Nouvelle Ere ![end]</data>
+La Porte de la Nouvelle Ère ![end]</data>
     </text>
     <text>
         <refs>
@@ -1250,7 +1250,7 @@ Qu'est-ce qui ne va pas ?[end]</data>
         <refs>
             <ref>0x132b</ref>
         </refs>
-        <data>La Porte de la Nouvelle Ere...
+        <data>La Porte de la Nouvelle Ère...
 Attends,[character][0x0][0xd8]
  
 Le coeur des Dragons Sacrés va me la
@@ -1274,7 +1274,7 @@ Elle se trouve à...[end]</data>
             <ref>0x138c</ref>
         </refs>
         <data>[character][0x1]:
-Elle se situe au dessus de Granbelos ![end]</data>
+Elle se situe au-dessus de Granbelos ![end]</data>
     </text>
     <text>
         <refs>
@@ -1309,7 +1309,7 @@ tyrannie.[end]</data>
             <ref>0x13c3</ref>
         </refs>
         <data>PALPALEOS:
-La Nouvelle Ere approche et le peuple
+La Nouvelle Ère approche et le peuple
 de Granbelos doit aussi en profiter.[end]</data>
     </text>
     <text>
@@ -1317,7 +1317,7 @@ de Granbelos doit aussi en profiter.[end]</data>
             <ref>0x13d2</ref>
         </refs>
         <data>PALPALEOS:
-Une Nouvelle Ere où le peuple de
+Une Nouvelle Ère où le peuple de
 Granbelos serait en paix,
 libre de toutes guerres...[end]</data>
     </text>
@@ -1658,7 +1658,7 @@ Nous y sommes enfin ![end]</data>
         </refs>
         <data>HORNET:
 Préparons-nous à l'offensive !
-Au dessus ? En dessous ? Où ?[end]</data>
+Au-dessus ? En dessous ? Où ?[end]</data>
     </text>
     <text>
         <refs>
@@ -1750,7 +1750,7 @@ Je réfléchis...[end]</data>
             <ref>0xaa9</ref>
         </refs>
         <data>SENDACK:
-Depuis quand Matelight s'entend-t-il
+Depuis quand Matelight s'entend-il
 bien avec Palpaleos ?
 Je ne sais plus quoi penser ![end]</data>
     </text>
@@ -1774,7 +1774,7 @@ Je me souviens de tant de choses !
         <refs>
             <ref>0x6e0</ref>
         </refs>
-        <data>Je me réjouis des ces si beaux
+        <data>Je me réjouis de ces si beaux
 souvenirs ![end]</data>
     </text>
     <text>
@@ -1855,7 +1855,7 @@ l'oeuvre ?[end]</data>
 Que veux-tu faire ?
  
  Je me prépare !
- Atterissons ![end1]</data>
+ Atterrissons ![end1]</data>
     </text>
     <text>
         <refs>

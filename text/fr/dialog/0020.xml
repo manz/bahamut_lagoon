@@ -136,7 +136,7 @@ Le Capitaine de FARENHEIT...[end]</data>
         <refs>
             <ref>0x469</ref>
         </refs>
-        <data>A savoir,le vieux magicien,Sendack ![end]</data>
+        <data>À savoir,le vieux magicien,Sendack ![end]</data>
     </text>
     <text>
         <refs>
@@ -317,7 +317,7 @@ pour les combats.[end]</data>
             <ref>0xc26</ref>
         </refs>
         <data>RUSH:
-Parfois Matelight peut être trsè en
+Parfois Matelight peut être très en
 colère.
 J'ai un mauvais pressentiment ![end]</data>
     </text>
@@ -366,7 +366,7 @@ vas-tu l'attendre ?[end]</data>
             <ref>0xc31</ref>
         </refs>
         <data>RUSH:
-A force d'entraînement et en
+À force d'entraînement et en
 échangeant les membres de tes
 équipes,tu trouveras sûrement un
 équilibre des forces.[end]</data>
@@ -436,7 +436,7 @@ très grands amis.
 Quand il vit le ciel,il eut l'ambition et
 le rêve de le conquérir pour lui !
  
-Il était aussi exité que ce couple de
+Il était aussi excité que ce couple de
 lanciers.[end]</data>
     </text>
     <text>
@@ -509,7 +509,7 @@ Lan... Lan... Lanciers ![end]</data>
             <ref>0x1032</ref>
         </refs>
         <data>BARECK:
-A côté de moi,c'est Sergent.
+À côté de moi,c'est Sergent.
 Nous avons toujours été très proches.[end]</data>
     </text>
     <text>
@@ -544,7 +544,7 @@ Veux-tu parler à ma voisine ?[end]</data>
 Ah...
  
 Euuh...
-Et bien...
+Eh bien...
  
 Bon... bonjour ![end]</data>
     </text>
@@ -585,7 +585,7 @@ J'ai plutôt l'air sévère...[end]</data>
             <ref>0xe23</ref>
         </refs>
         <data>MELODIA:
-[character][0x0],va-y !
+[character][0x0],vas-y !
 Serre-moi dans tes bras ![end]</data>
     </text>
     <text>
@@ -625,7 +625,7 @@ Voudrais-tu y jeter un coup d'oeil ?[end]</data>
         </refs>
         <data>ZORA:
 La cabine du Capitaine se trouve
-bderrière toi.
+derrière toi.
 La plupart des discussions et des
 décisions y sont traitées.[end]</data>
     </text>
@@ -763,7 +763,7 @@ As-tu tout compris sur le système de
         <refs>
             <ref>0x149d</ref>
         </refs>
-        <data>Jamais je n'aurai cru que j'aurais dû
+        <data>Jamais je n'aurais cru que j'aurais dû
 faire,un jour,de l'enseignement...[end]</data>
     </text>
     <text>
@@ -919,7 +919,7 @@ Allons-y,[character][0x0]![end]</data>
             <ref>0xd83</ref>
         </refs>
         <data>TAURUS:
-N'est-ce pas elle que tu as perdu ?
+N'est-ce pas elle que tu as perdue ?
 Il faut secourir la Princesse.
 Elle est retenue prisonnière dans un
 fort à Campbell ![end]</data>
@@ -974,8 +974,8 @@ As-tu déjà entendu parler des
         <refs>
             <ref>0x132b</ref>
         </refs>
-        <data> Parle-en moi...
- J'y ai déjà été entrainé ![end1]</data>
+        <data> Parle-m'en...
+ J'y ai déjà été entraîné ![end1]</data>
     </text>
     <text>
         <refs>
@@ -1001,7 +1001,7 @@ nombreuses [0xaa]formations raisonnables[0xab].[end]</data>
 Notre nouveau combat va commencer !
 Matelight va nous faire un discours !
 Un jour,
-Nous deviendrons très importants.[end]</data>
+nous deviendrons très importants.[end]</data>
     </text>
     <text>
         <refs>
@@ -1025,7 +1025,7 @@ C'est super,[character][0x0]![end]</data>
         </refs>
         <data>TAURUS:
 C'est la dernière bataille contre
-l'Empire et leur machine de malheur:
+l'Empire et sa machine de malheur:
 Trafalgar !
  
   
@@ -1090,7 +1090,7 @@ Veux-tu parler à Ekaterina ?[end]</data>
         </refs>
         <data>EKATERINA:
 Ah... euh...
-Et bien...
+Eh bien...
 As... as-tu remarqué ?
 Ici,il n'y a pas de bave de dragon.[end]</data>
     </text>
@@ -1124,7 +1124,7 @@ Absolument personne ne peut entrer !
 Seuls les amis le peuvent.
  
 Tu ne fais plus partie que de ce que
-l'on apelle les souvenirs.
+l'on appelle les souvenirs.
  
 Je pressens un nouveau mariage dans
 l'air.
@@ -1163,7 +1163,7 @@ plus que le No [0xb2].[end]</data>
             <ref>0xdff</ref>
         </refs>
         <data>HORNET:
-Etre père...
+Être père...
 ``Grand sourire''[end]</data>
     </text>
     <text>
@@ -1202,7 +1202,7 @@ Tu as perdu quelque chose ?[end]</data>
         </refs>
         <data>PALPALEOS:
 Matelight doit vous parler !
-Soyez tous calme ![end]</data>
+Soyez tous calmes ![end]</data>
     </text>
     <text>
         <refs>
@@ -1218,7 +1218,7 @@ Mais la guerre n'est pas encore finie ![end]</data>
             <ref>0x214</ref>
         </refs>
         <data>MATELIGHT:
-Ecoutez-moi !
+Écoutez-moi !
  
 Le Capitaine Sendack se sent mieux.
 Toutefois,il ne se sent plus apte à
@@ -1240,7 +1240,7 @@ Lisons-le ![end]</data>
             <ref>0x247</ref>
         </refs>
         <data>SENDACK:
-Etant donné mon état de santé,
+Étant donné mon état de santé,
 [character][0x0] sera mon Capitaine Adjoint.
 Mais voici le plus important ![end]</data>
     </text>
@@ -1264,13 +1264,13 @@ Adjoint,alors fais de ton mieux.[end]</data>
         <refs>
             <ref>0x423</ref>
         </refs>
-        <data>A présent,il se repose mais la guerre
+        <data>À présent,il se repose mais la guerre
 n'a pas cessé et nous sommes en plein
 coeur de celle-ci !
 Il vous faut aussi savoir que Sendack
 participera sûrement à la prochaine
 bataille !
-Faites en sorte qu'il puisse êtes fier
+Faites en sorte qu'il puisse être fier
 de vous ![end]</data>
     </text>
     <text>
@@ -1335,7 +1335,7 @@ Et moi ?![end]</data>
             <ref>0x180d</ref>
         </refs>
         <data>MATELIGHT:
-A vous,Général Palpaleos ![end]</data>
+À vous,Général Palpaleos ![end]</data>
     </text>
     <text>
         <refs>
