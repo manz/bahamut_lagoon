@@ -113,14 +113,14 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "a816", specifier = "==1.1.3" },
-    { name = "katsuji", specifier = "==0.2.3" },
+    { name = "katsuji", specifier = "==0.3.0" },
     { name = "numpy" },
     { name = "pillow" },
 ]
 
 [package.metadata.requires-dev]
 dev = [
-    { name = "kintsuki", extras = ["visual"], specifier = "==0.0.0a18" },
+    { name = "kintsuki", extras = ["visual"], specifier = "==0.0.0a19" },
     { name = "mypy", specifier = "==2.4.0" },
     { name = "pytest" },
     { name = "ruff", specifier = "==0.17.1" },
@@ -159,25 +159,25 @@ wheels = [
 
 [[package]]
 name = "katsuji"
-version = "0.2.3"
+version = "0.3.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "a816" },
     { name = "numpy" },
     { name = "pillow" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/39/96/a8e1524a286435bd9b8e4b28a4cb2eb3306e2f473511e773698087ed041b/katsuji-0.2.3.tar.gz", hash = "sha256:c3808db673a29a18a8b0c7e8e94300f80347df51a2128a38cd3a5a5e28bc26f8", size = 98316, upload-time = "2026-10-10T06:25:42.428Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/37/ac/2a1546035b5a150bfd67dad38770ce6f8748b0f4375e37e163788ca87da2/katsuji-0.3.0.tar.gz", hash = "sha256:81e56a96ffa1845f2301d204064c3785bb8600ef0f4b9006340b97b179ddda55", size = 104189, upload-time = "2026-10-19T12:35:19.734Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/d9/13/febbd67903c0dd5537506bc096875300a7ba1217db731fc99185fa5fa589/katsuji-0.2.3-py3-none-any.whl", hash = "sha256:3d403f710e8241da56e76b867385dfb348284e98c462dfc98d5107b77011b854", size = 28595, upload-time = "2026-10-10T06:25:43.256Z" },
+    { url = "https://files.pythonhosted.org/packages/75/76/40232e8442ca1d595fa14e2c0999748e138f3ee574ca4fcdbacd161a030e/katsuji-0.3.0-py3-none-any.whl", hash = "sha256:8b51a6e5f73ce4cf894c448e3506caaa4e4e61d714bf94c7f82f072b098f1e67", size = 33003, upload-time = "2026-10-19T12:35:18.299Z" },
 ]
 
 [[package]]
 name = "kintsuki"
-version = "0.0.0a18"
+version = "0.0.0a19"
 source = { registry = "https://pypi.org/simple" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/95/63/bae12253814a810c7d41fd24e6fefe60dd4091c6f05ca234faa065e2e845/kintsuki-0.0.0a18-py3-none-macosx_11_0_arm64.whl", hash = "sha256:df6d65f6cdea1b8555188c89ec84c5535af3b4f04cd213c3441647b449727c37", size = 839074, upload-time = "2026-10-08T08:00:42.269Z" },
-    { url = "https://files.pythonhosted.org/packages/a7/8b/b8223e7e796b5442f99f0eb12149d342c55df3e86855244149405d74c868/kintsuki-0.0.0a18-py3-none-manylinux_2_39_aarch64.whl", hash = "sha256:67203d5b907b911d86a70fe3198f865e26c28b4a89f8b55cd5eccfc6b3a4f758", size = 786457, upload-time = "2026-10-08T08:00:43.807Z" },
+    { url = "https://files.pythonhosted.org/packages/6b/5b/dd6a1169b4989173ac0ca2470df6ffaaf3b9207e728f0f92330beb5d0c79/kintsuki-0.0.0a19-py3-none-macosx_11_0_arm64.whl", hash = "sha256:a3828fa856635409e2a05d15e6831f43d2c727bbe76bdbf467916f33660f97c5", size = 844491, upload-time = "2026-10-20T08:23:19.327Z" },
+    { url = "https://files.pythonhosted.org/packages/f8/11/165afae49145d5377cb80175ab705b369f3ffe70099f43ed52e6bb4baa63/kintsuki-0.0.0a19-py3-none-manylinux_2_39_aarch64.whl", hash = "sha256:f2db08f186eea81b58bbf16b70188970451659d048bdf3552ce5309ee64dfa07", size = 793167, upload-time = "2026-10-20T08:23:20.716Z" },
 ]
 
 [package.optional-dependencies]
