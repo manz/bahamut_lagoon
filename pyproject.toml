@@ -15,7 +15,7 @@ Homepage = "https://github.com/manz/bahamut_lagoon"
 
 [dependency-groups]
 dev = [
-    "kintsuki[visual]==0.0.0a19",
+    "kintsuki[visual]==0.0.0a20",
     "mypy==2.4.0",
     "pytest",
     "ruff==0.17.1",
