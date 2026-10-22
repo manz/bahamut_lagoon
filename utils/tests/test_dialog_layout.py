@@ -137,6 +137,10 @@ class DialogLayoutTestCase(TestCase):
         prompt = "Que fais-tu ?\nAttaquer\nFuir[end]"
         self.assertEqual(self.layout.reflow(prompt, keep_lines=True), prompt)
 
+    def test_a_choice_option_is_set_two_spaces_in(self) -> None:
+        prompt = "Que fais-tu ?\n Attaquer\n   Fuir[end]"
+        self.assertEqual(self.layout.reflow(prompt, keep_lines=True), "Que fais-tu ?\n  Attaquer\n  Fuir[end]")
+
     def test_a_wrapped_line_fills_two_thirds_of_the_window(self) -> None:
         first = self.layout.reflow("Bikkebakke: Veux-tu connaître les noms les plus populaires ?[end]").split("\n")[0]
         self.assertGreaterEqual(self.layout.width(first), LINE_WIDTH * 2 // 3 - self.layout.width("noms "))

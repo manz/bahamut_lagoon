@@ -43,6 +43,8 @@ CHARACTER = re.compile(r"\[character\]\[0x([0-9a-fA-F]+)\]")
 TERMINATORS = re.compile(r"\[end1?\]")
 SPEAKER_LABEL = re.compile(r"[^ ].*:")  # "Yoyo:" or "[character][0x1]:" alone on its line
 HEADING = re.compile(r"-[^ ].*-")  # "-Aller-": a heading the following lines explain
+OPTION = re.compile(r"^ +(?=\S)", re.MULTILINE)  # a choice's option: its line opens on a space
+OPTION_INDENT = "  "  # two spaces, 10 pixels: the options stand clear of the cursor
 LIST_ITEM = re.compile(r"(\d+|\[0x(af|b[0-8])\])+ ?[-.)]")  # "1- ", "[0xb0]- ": an item, a line of its own
 MARKUP = Markup(
     tag=r"\[character\]\[0x[0-9a-f]+\]|\[[^\]]*\]",  # a name, a glyph ([0xd8]) or a control ([end])
@@ -123,8 +125,10 @@ class DialogLayout:
     def reflow(self, text: str, page_lines: int | None = None, keep_lines: bool = False) -> str:
         """`text` typeset and laid out to the window (katsuji's TextLayout: paragraphs reflowed by sentences, lines
         placed, blocks kept within a window of `page_lines`). A text ending in [end1] (a choice follows it), or given
-        `keep_lines` (a choice's prompt, its options a line each), is typeset only."""
-        if keep_lines or text.endswith("[end1]"):
+        `keep_lines` (a choice's prompt, its options a line each, set OPTION_INDENT in), is typeset only."""
+        if keep_lines:
+            return typeset(OPTION.sub(OPTION_INDENT, text))
+        if text.endswith("[end1]"):
             return typeset(text)
         return self.layout.reflow(text, page_lines)
 
@@ -147,7 +151,8 @@ def script_overflows(layout: DialogLayout, dialogs: Path = DIALOGS) -> Iterator[
     for path in sorted(dialogs.glob("*.xml")):
         for text in ET.parse(path).getroot():
             refs = " ".join(ref.text or "" for ref in text.iter("ref"))
-            for line, width in layout.overflows(layout.reflow(text.findtext("data") or "")):
+            data = text.findtext("data") or ""
+            for line, width in layout.overflows(layout.reflow(data, keep_lines=data.endswith("[end1]"))):
                 yield Overflow(path.stem, refs, line, width)
 
 
