@@ -11,7 +11,7 @@ Je suis Matelite ![end]</data>
         <refs>
             <ref>0xa9</ref>
         </refs>
-        <data>Taicho: Je suis Commandant !
+        <data>Taicho: Je suis Taicho !
  
 Tout va bien,nous sommes enfin
 arrivés ![end]</data>
@@ -22,14 +22,14 @@ arrivés ![end]</data>
         </refs>
         <data>Matelite: Personne pour nous féliciter ?!
 C'est impoli !
-Commandant,allons voir ce qui se passe
+Taicho,allons voir ce qui se passe
 ici ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4a3</ref>
         </refs>
-        <data>Matelite: C'est ici,Commandant ![end]</data>
+        <data>Matelite: C'est ici,Taicho ![end]</data>
     </text>
     <text>
         <refs>

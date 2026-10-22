@@ -101,7 +101,7 @@ armure.[end]</data>
         <refs>
             <ref>0x7d2</ref>
         </refs>
-        <data>Obtenu [0xaa]Sergent ???[0xab].[end]</data>
+        <data>Obtenu [0xaa]Gunso ???[0xab].[end]</data>
     </text>
     <text>
         <refs>
@@ -109,7 +109,7 @@ armure.[end]</data>
         </refs>
         <data>Gunso: Parlons seul à seul...
 ``Grognement''
-Est-ce que Commandant te semble être
+Est-ce que Taicho te semble être
 toujours le même ?
  
  Je pense...
@@ -119,7 +119,7 @@ toujours le même ?
         <refs>
             <ref>0x771</ref>
         </refs>
-        <data>Commandant était plus autoritaire et
+        <data>Taicho était plus autoritaire et
 plus dur,autrefois.
 ``Grognement''
 Le Capitaine de la cavalerie de Mahal
@@ -383,7 +383,7 @@ N'accoste pas les gens comme ça.[end]</data>
             <ref>0x845</ref>
         </refs>
         <data>Frunze: Reeve a mangé un mélange de
-[0xaa]SERGENT ???[0xab] et de [0xaa]UNIUJI[0xab].
+[0xaa]Gunso ???[0xab] et de [0xaa]UNIUJI[0xab].
 Il a mal à l'estomac...
 Je lui ai moi-même préparé ce cocktail
 pour avoir trahi mon amitié.
@@ -395,7 +395,7 @@ Il faut craindre mes vengeances.[end]</data>
         <refs>
             <ref>0x789</ref>
         </refs>
-        <data>Demander à Sergent ce qu'il fredonne ?
+        <data>Demander à Gunso ce qu'il fredonne ?
  
   
  Demander.

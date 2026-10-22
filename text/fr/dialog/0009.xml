@@ -47,7 +47,7 @@ Ce jour où j'ai quitté Mahal...[end]</data>
         <data>Qu'est-ce qui ne va pas ?
 Sortez soldats de Mahal !
 Où êtes-vous ?!
-Où es-tu Commandant ?
+Où es-tu Taicho ?
 Sors !
 HIHIHIHIHIHIHI ![end]</data>
     </text>
@@ -99,7 +99,7 @@ rapidement face à tant d'ennemis ![end]</data>
             <ref>0x1b9</ref>
         </refs>
         <data>Soldat: Nous allons le faire pour vous,
-Capitaine Commandant.
+Capitaine Taicho.
 Nous combattrons Lestat et dès
 qu'une opportunité se présentera
 vous le tuerez.[end]</data>
@@ -115,7 +115,7 @@ Qui commande ici ?![end]</data>
         <refs>
             <ref>0x1ec</ref>
         </refs>
-        <data>C'est moi,Commandant !
+        <data>C'est moi,Taicho !
 Capitaine de l'armée de Mahal ![end]</data>
     </text>
     <text>
@@ -244,7 +244,7 @@ mère-patrie sera libérée ![end]</data>
         <refs>
             <ref>0x336</ref>
         </refs>
-        <data>S'il te plaît Commandant,reste en vie
+        <data>S'il te plaît Taicho,reste en vie
 et attends ce jour pour nous...
  
 Notre chère... Mahal...[end]</data>
@@ -272,8 +272,8 @@ vain ![end]</data>
         <refs>
             <ref>0x36c</ref>
         </refs>
-        <data>Céline: Sergent,ceci est ma dernière volonté:
-Fuis Mahal et dis à Commandant
+        <data>Céline: Gunso,ceci est ma dernière volonté:
+Fuis Mahal et dis à Taicho
 d'attendre le jour...
 Le jour de la libération ![end]</data>
     </text>
@@ -307,7 +307,7 @@ magie ![end]</data>
         <refs>
             <ref>0x455</ref>
         </refs>
-        <data>Où est Commandant ?!
+        <data>Où est Taicho ?!
 Où est le guerrier No [0xb0] de Mahal ?
 Me craindrait-il ?![end]</data>
     </text>
@@ -322,7 +322,7 @@ Me craindrait-il ?![end]</data>
             <ref>0x4c1</ref>
         </refs>
         <data>Lestat: HIHIHIHIHIHIHIHI !
-Commandant !
+Taicho !
 Où est-il ?!
 Le guerrier No [0xb0] a eu peur de moi et
 s'est enfui ?!
@@ -704,7 +704,7 @@ différents du peuple de Kana...[end]</data>
         <refs>
             <ref>0xcb7</ref>
         </refs>
-        <data>Commandant combat pour sa femme
+        <data>Taicho combat pour sa femme
 décédée...[end]</data>
     </text>
     <text>

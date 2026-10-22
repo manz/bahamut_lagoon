@@ -53,7 +53,7 @@ Combien de temps s'est-il écoulé ?[end]</data>
         <refs>
             <ref>0xe0</ref>
         </refs>
-        <data>Matelite: Commandant !
+        <data>Matelite: Taicho !
  
 Nous atterrirons bientôt sur Mahal et
 ta patrie sera libre ![end]</data>
@@ -68,7 +68,7 @@ ta patrie sera libre ![end]</data>
         <refs>
             <ref>0xfc</ref>
         </refs>
-        <data>Matelite: Oui,Commandant !
+        <data>Matelite: Oui,Taicho !
 Regarde ce ciel...
 C'est relaxant,n'est-ce pas ?![end]</data>
     </text>
@@ -86,7 +86,7 @@ l'odeur de ses lacs ![end]</data>
         </refs>
         <data>Matelite: C'est vrai...
  
-Très bien Commandant,tu vas surveiller
+Très bien Taicho,tu vas surveiller
 le ciel quelques instants.
 Ça m'ennuie un peu,moi ![end]</data>
     </text>

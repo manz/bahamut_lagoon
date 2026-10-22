@@ -199,7 +199,7 @@ Son armure est brillante...
 Hein ?
 Ce n'est pas [character][0x1]!
 C'est...
-Commandant[0xd8]
+Taicho[0xd8]
 Il a choisi la meilleure place !
 Il me gâche la vue ![end]</data>
     </text>
@@ -319,7 +319,7 @@ C'est moi Matelite ![end]</data>
         <refs>
             <ref>0x6d7</ref>
         </refs>
-        <data>Taicho: Et je suis Commandant,
+        <data>Taicho: Et je suis Taicho,
 Capitaine de la Cavalerie de Mahal ![end]</data>
     </text>
     <text>
@@ -513,7 +513,7 @@ L'empire n'a qu'à bien se tenir ![end]</data>
         </refs>
         <data>Matelite: Oui !
 Allons prévenir tout le monde !
-Viens,Commandant ![end]</data>
+Viens,Taicho ![end]</data>
     </text>
     <text>
         <refs>
@@ -831,7 +831,7 @@ temps à te parler.[end]</data>
             <ref>0xa21</ref>
         </refs>
         <data> Bien sûr !
- Évidemment Commandant !
+ Évidemment Taicho !
  monyo ! ``détestable !''[end1]</data>
     </text>
     <text>
@@ -845,7 +845,7 @@ On dirait vraiment lui ![end]</data>
         <refs>
             <ref>0xa6f</ref>
         </refs>
-        <data>Tu imites Commandant !
+        <data>Tu imites Taicho !
 Tu le fais très bien ![end]</data>
     </text>
     <text>

@@ -11,7 +11,7 @@
         <refs>
             <ref>0xce</ref>
         </refs>
-        <data>Matelite: Commandant !
+        <data>Matelite: Taicho !
  
 Nous ne savons rien du tout sur ce
 qui se passe au sein de l'Empire.[end]</data>
@@ -29,7 +29,7 @@ d'informations.[end]</data>
         <refs>
             <ref>0xe8</ref>
         </refs>
-        <data>Matelite: Évidemment,Commandant !
+        <data>Matelite: Évidemment,Taicho !
 Nous allons envoyer un espion infiltrer
 l'Empire.[end]</data>
     </text>
@@ -151,7 +151,7 @@ fou ?!
  
 Je suis une célébrité,je suis donc trop
 reconnaissable.
-Commandant sera l'espion ![end]</data>
+Taicho sera l'espion ![end]</data>
     </text>
     <text>
         <refs>
@@ -523,7 +523,7 @@ tout ce que tu as dit est véridique ![end]</data>
         </refs>
         <data>Matelite: Très bien !
 Je n'ai qu'un mot à dire...
-Commandant,j'aimerais que tu jures
+Taicho,j'aimerais que tu jures
 que tout ce que tu as dit est vrai ![end]</data>
     </text>
     <text>

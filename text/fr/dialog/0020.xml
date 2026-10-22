@@ -192,31 +192,30 @@ Aaah,tout ce bruit ![end]</data>
         <refs>
             <ref>0x501</ref>
         </refs>
-        <data>MATELITE
-Commandant,pouvez-vous leur dire qui
-vous êtes ?[end]</data>
+        <data>Matelite: Et toi, Taicho...
+qu'est-ce qui te conviendrait ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x512</ref>
         </refs>
-        <data>Taicho: Je suis le Capitaine de l'armée de
-Mahal,Commandant ![end]</data>
+        <data>Taicho: Je suis Taicho, donc je serai
+capitaine, affirmatif !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x526</ref>
         </refs>
-        <data>Matelite: Capitaine Commandant ![end]</data>
+        <data>Matelite: Taicho sera capitaine !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x537</ref>
         </refs>
-        <data>Matelite: Allez tout le monde !
+        <data>Matelite: Écoutez-moi bien, tous !!
  
-Je vais vous soumettre des ordres et
-vous devrez y obéir ![end]</data>
+Désormais, vous agirez dans la
+discipline et dans l'ordre !![end]</data>
     </text>
     <text>
         <refs>
@@ -483,7 +482,7 @@ Lan... Lan... Lanciers ![end]</data>
         <refs>
             <ref>0x1032</ref>
         </refs>
-        <data>Barclay: À côté de moi,c'est Sergent.
+        <data>Barclay: À côté de moi,c'est Gunso.
 Nous avons toujours été très proches.[end]</data>
     </text>
     <text>
@@ -522,7 +521,7 @@ Bon... bonjour ![end]</data>
         <refs>
             <ref>0x104b</ref>
         </refs>
-        <data>Gunso: ``Grognement''Je suis Sergent.
+        <data>Gunso: ``Grognement''Je suis Gunso.
 ``Grognement''
 Droite face,droite,droite...
 Gauche face,gauche,gauche...
@@ -623,7 +622,7 @@ Donc exercice de [0xaa]formation[0xab]![end]</data>
         <refs>
             <ref>0x12ec</ref>
         </refs>
-        <data>Matelite: Capitaine Commandant,je suis fatigué !
+        <data>Matelite: Capitaine Taicho,je suis fatigué !
 Expliquez-leur ![end]</data>
     </text>
     <text>
@@ -1238,7 +1237,7 @@ pour Orelus ![end]</data>
         <refs>
             <ref>0x17a0</ref>
         </refs>
-        <data>Matelite: Commandant !
+        <data>Matelite: Taicho !
  
 L'honneur revient à une seule
 personne:
@@ -1276,6 +1275,6 @@ l'Empire ![end]</data>
         <refs>
             <ref>0x1671</ref>
         </refs>
-        <data>Obtenu [0xaa]SERGENT ???[0xab].[end][end]</data>
+        <data>Obtenu [0xaa]Gunso ???[0xab].[end][end]</data>
     </text>
 </texts>

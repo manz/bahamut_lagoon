@@ -266,7 +266,7 @@ le désastre dans les cieux.[end]</data>
         <data>La Porte... La Porte !
 La Porte est quelque part...
  
-Viens,COMMANDANT !
+Viens,Taicho !
 Il faut se préparer pour la prochaine
 bataille ![end]</data>
     </text>
@@ -297,7 +297,7 @@ au coeur faible.[end]</data>
         <refs>
             <ref>0x478</ref>
         </refs>
-        <data>Matelite: Silence,Commandant !
+        <data>Matelite: Silence,Taicho !
 Ne dis rien à personne !
 Sortez tous ![end]</data>
     </text>
@@ -479,20 +479,20 @@ Je vaincs tout le monde ![end]</data>
         <data>Je suis le Bahamut des êtres humains
 d'Orelus !
  
-Et Commandant...[end]</data>
+Et Taicho...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7c0</ref>
         </refs>
-        <data>[character][0x1]: Commandant est Léviathan ou alors
+        <data>[character][0x1]: Taicho est Léviathan ou alors
 Jormungand ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7d7</ref>
         </refs>
-        <data>Matelite: Commandant ?![end]</data>
+        <data>Matelite: Taicho ?![end]</data>
     </text>
     <text>
         <refs>
@@ -650,7 +650,7 @@ loin d'être vieux ![end]</data>
             <ref>0x927</ref>
         </refs>
         <data>Je vais aller chercher mon ami,
-Commandant ![end]</data>
+Taicho ![end]</data>
     </text>
     <text>
         <refs>

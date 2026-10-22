@@ -13,10 +13,10 @@ Dragon Sacré Léviathan !
 Il serait dans une ville voisine...
 Un endroit rempli de lacs !
  
-Matelite et Commandant sont partis en avance pour
+Matelite et Taicho sont partis en avance pour
 tenter de trouver ce lieu.
  
-Commandant y est allé pour se changer les idées car
+Taicho y est allé pour se changer les idées car
 il ne voulait plus penser aux évènements tragiques de Mahal.
 
 Quant à Matelite,il disait aller signer des autographes
@@ -196,7 +196,7 @@ Ou bien,il y a aussi [character][0x0]?![end]</data>
             <ref>0x661</ref>
             <ref>0xab6</ref>
         </refs>
-        <data>Obtenu [0xaa]SERGENT ???[0xab].[end]</data>
+        <data>Obtenu [0xaa]Gunso ???[0xab].[end]</data>
     </text>
     <text>
         <refs>
@@ -367,7 +367,7 @@ Donfan a de gros ennuis ![end]</data>
         <refs>
             <ref>0xa41</ref>
         </refs>
-        <data>Obtenu de Sergent:
+        <data>Obtenu de Gunso:
 [0xb5] [0xaa]CHOSE SUR L'ETAGERE[0xab].[end]</data>
     </text>
     <text>
@@ -382,7 +382,7 @@ Donfan a de gros ennuis ![end]</data>
         <refs>
             <ref>0x9fa</ref>
         </refs>
-        <data>Obtenu de Sergent:
+        <data>Obtenu de Gunso:
 [0xb1] [0xaa]LIVRE DE STRATEGIE[0xab]
 [0xb0] [0xaa]NOTE DE PRODIGE[0xab].[end]</data>
     </text>

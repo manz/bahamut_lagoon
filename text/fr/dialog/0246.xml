@@ -58,7 +58,7 @@ Fidèle Serviteur,non ?![end]</data>
         <data>Ruki: Tu te trompes Donfan !
  
 En ce qui concerne le futur Roi de ce
-pays,je crois que Commandant sera le
+pays,je crois que Taicho sera le
 plus apte.[end]</data>
     </text>
     <text>
@@ -73,7 +73,7 @@ plus apte.[end]</data>
         </refs>
         <data>Ruki: Héhéhéhéhé !
 Il finira par accepter face au pouvoir
-dissuasif de Sergent ![end]</data>
+dissuasif de Gunso ![end]</data>
     </text>
     <text>
         <refs>
@@ -81,7 +81,7 @@ dissuasif de Sergent ![end]</data>
         </refs>
         <data>Donfan: Hahahahaha !
  
-Il semble que Commandant ne pourra
+Il semble que Taicho ne pourra
 rien refuser ![end]</data>
     </text>
     <text>
@@ -101,7 +101,7 @@ Jeanne nous y attend ![end]</data>
         <refs>
             <ref>0x2c2</ref>
         </refs>
-        <data>Taicho: Sergent... Pourquoi serait-ce moi leur
+        <data>Taicho: Gunso... Pourquoi serait-ce moi leur
 nouveau Roi ?[end]</data>
     </text>
     <text>
@@ -127,7 +127,7 @@ accepter la décision de notre peuple.[end]</data>
         </refs>
         <data>Gunso: Que dites-vous ?!
  
-Commandant !
+Taicho !
 Sachez que malgré tout nous serons
 toujours,vous et moi,Capitaines[0xd8][end]</data>
     </text>
