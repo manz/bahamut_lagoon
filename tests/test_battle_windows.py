@@ -1,10 +1,12 @@
 """
 Scenario 00's player phase on the battle map: the command window, and a unit's skill list after moving, are BG1
 windows whose strings draw through small_vwf into the window font. So is the START menu, whose strings outgrow
-their Japanese character counts but not their cells.
+their Japanese character counts but not their cells. A later map's START menu checks its tilemap's DMA timing.
 """
 
-from tests.conftest import Console
+from kintsuki import CallbackKind
+
+from tests.conftest import Console, symbol
 
 
 def open_command_window(console: Console) -> None:
@@ -149,3 +151,31 @@ def test_combat_scene_spell_banner_names_the_spell_whole(console: Console) -> No
     console.emu.run_frames(31)
     # the full name, " Nv" for the level icon, the level, centred: it read "Cri striy5"
     assert console.matches_golden("combat-scene-spell-banner")
+
+
+MDMAEN = 0x00420B
+WINDOW_TILEMAP_LATEST = 257 - 13  # a 2 KB DMA takes 13 lines and must end before line 257 (src/vblank.i)
+
+
+def test_start_menu_tilemap_ends_in_vblank(console: Console) -> None:
+    """
+    The main loop sends a window's 2 KB tilemap right after the battle NMI, whose panel runs can make it start too late
+    to end in vblank: a console a hair slower than ares drops its tail, a menu line cut short (panel_window_tilemap).
+    """
+    console.load("battle-map-cave")
+    emu = console.emu
+    sender = symbol("panel_window_tilemap")
+    starts: list[int] = []
+
+    def triggered(address: int, value: int) -> None:
+        if sender <= emu.get_state().pc < sender + 0x80:
+            starts.append(emu.live_counters().v)
+
+    callback = emu.add_write_callback(MDMAEN, MDMAEN, triggered)
+    try:
+        console.tap(console.button.START)
+        emu.run_frames(60)
+    finally:
+        emu.remove_callback(CallbackKind.WRITE, callback)
+    assert starts
+    assert max(starts) <= WINDOW_TILEMAP_LATEST
