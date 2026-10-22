@@ -40,8 +40,8 @@
     <string jump_to="0xee95d7" ref="0xee95ce">Nv</string>
     <string jump_to="0xee9633" ref="0xee9628">PV:</string>
     <string jump_to="0xee9658" ref="0xee9651">/</string>
-    <string jump_to="0xee9694" ref="0xee9687">EXP:</string>
-    <string jump_to="0xee96df" ref="0xee96d0">NEXT:</string>
+    <string jump_to="0xee9694" ref="0xee9687" width="4">Exp.:</string>
+    <string jump_to="0xee96df" ref="0xee96d0" width="5">Suiv.:</string>
     <string jump_to="0xee973d" ref="0xee9734">Arme</string>
     <string jump_to="0xee976d" ref="0xee9762">Armure</string>
     <string jump_to="0xee97b2" ref="0xee97a5">Att.</string>
@@ -115,10 +115,10 @@
     <string jump_to="0xeef179" ref="0xeef16c">Affin.</string>
     <string jump_to="0xeef229" ref="0xeef21c">Bas</string>
     <string jump_to="0xeef243" ref="0xeef23a">Haut</string>
-    <string jump_to="0xeef278" ref="0xeef26d">STR</string>
-    <string jump_to="0xeef289" ref="0xeef27e">VIT</string>
-    <string jump_to="0xeef29a" ref="0xeef28f">DEX</string>
-    <string jump_to="0xeef2ad" ref="0xeef2a0">MIND</string>
+    <string jump_to="0xeef278" ref="0xeef26d" width="3">For.</string>
+    <string jump_to="0xeef289" ref="0xeef27e" width="3">Endu.</string>
+    <string jump_to="0xeef29a" ref="0xeef28f" width="3">Adr.</string>
+    <string jump_to="0xeef2ad" ref="0xeef2a0" width="4">Esprit</string>
     <string jump_to="0xeef2bf" ref="0xeef2b8">Feu</string>
     <string jump_to="0xeef2ce" ref="0xeef2c5">Eau</string>
     <string jump_to="0xeef2e1" ref="0xeef2d4">Foudre</string>
