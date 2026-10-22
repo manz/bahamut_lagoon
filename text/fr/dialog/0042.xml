@@ -165,7 +165,7 @@ Cette moustache me dit quelque chose...[end]</data>
         <refs>
             <ref>0x77b</ref>
         </refs>
-        <data>Taicho: ...J... je suis un voyageur,affirmatif... Un m... marchand ambulant des champs de bataille,affirmatif... Je me suis trompé de chambre,affirmatif...[end]</data>
+        <data>Taicho: ...J... je suis un voyageur... Un m... marchand ambulant des champs de bataille... Je me suis trompé de chambre,affirmatif...[end]</data>
     </text>
     <text>
         <refs>
@@ -199,7 +199,7 @@ Je pensais à une femme... qui est désormais bien loin de moi.
         <refs>
             <ref>0x7f9</ref>
         </refs>
-        <data>Taicho: Je crois comprendre,affirmatif...
+        <data>Taicho: Je crois comprendre...
  
 Moi aussi,j'ai une femme qui est désormais bien loin,affirmatif...[end]</data>
     </text>
@@ -257,7 +257,7 @@ Elle s'appelle... Yoyo.[end]</data>
         <refs>
             <ref>0x88f</ref>
         </refs>
-        <data>Dis-lui... [0xaa]Je t'oublierai...[0xab][end]</data>
+        <data>Dis-lui... ``Je t'oublierai...''[end]</data>
     </text>
     <text>
         <refs>

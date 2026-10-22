@@ -30,7 +30,7 @@ Byuu, encore, ce serait un moindre mal ![end]</data>
         <refs>
             <ref>0x147</ref>
         </refs>
-        <data>Taicho: Le général Palparos est quelqu'un de bien, affirmatif !
+        <data>Taicho: Le général Palparos est quelqu'un de bien !
  
 C'est l'homme que la princesse Yoyo a choisi...
  
@@ -506,7 +506,7 @@ Si j'ai pu épouser ma femme, c'est grâce à vous, Byuu, qui m'avez tant achet�
         <refs>
             <ref>0x609</ref>
         </refs>
-        <data>Obtenu la [0xaa]Panoplie ultime du Croisé[0xab]
+        <data>Obtenu la ``Panoplie ultime du Croisé''
 (Gneisenau, Imperator,
 Prince Noir)[end]</data>
     </text>
@@ -514,15 +514,15 @@ Prince Noir)[end]</data>
         <refs>
             <ref>0x60f</ref>
         </refs>
-        <data>[0xaa]Iron Duke[0xab]
-[0xaa]Pax Kana[0xab][end]</data>
+        <data>``Iron Duke''
+``Pax Kana''[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x615</ref>
         </refs>
-        <data>[0xaa]Livre très osé[0xab]
-[0xaa]??? princesse[0xab]
+        <data>``Livre très osé''
+``??? princesse''
  
 ... Tous ces objets vous ont été offerts.[end]</data>
     </text>

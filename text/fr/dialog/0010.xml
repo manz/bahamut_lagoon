@@ -406,7 +406,7 @@ Alors Donfan se fera un plaisir de vous prêter main-forte ![end]</data>
         <refs>
             <ref>0x6fa</ref>
         </refs>
-        <data>Obtenu [0xb4] [0xaa]Vin doux[0xab].[end]</data>
+        <data>Obtenu [0xb4] ``Vin doux''.[end]</data>
     </text>
     <text>
         <refs>
@@ -559,19 +559,19 @@ Ce sont donc les fameux dragons de guerre de Kana ! Eh bien, ils ne sont pas rie
         <refs>
             <ref>0x6ab</ref>
         </refs>
-        <data>Obtenu [0xaa]Robe Nimbus[0xab].[end]</data>
+        <data>Obtenu ``Robe Nimbus''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6c2</ref>
         </refs>
-        <data>Obtenu [0xaa]Main-gauche[0xab].[end]</data>
+        <data>Obtenu ``Main-gauche''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6df</ref>
         </refs>
-        <data>Obtenu [0xb5] [0xaa]Herbe de terre[0xab].[end]</data>
+        <data>Obtenu [0xb5] ``Herbe de terre''.[end]</data>
     </text>
     <text>
         <refs>

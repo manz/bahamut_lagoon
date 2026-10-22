@@ -592,43 +592,43 @@ Ils ont beau être petits, ce sont de vraies faucheuses. J'aimerais bien que que
         <refs>
             <ref>0x49c</ref>
         </refs>
-        <data>Obtenu [0xaa]Armure furtive[0xab].[end]</data>
+        <data>Obtenu ``Armure furtive''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4ad</ref>
         </refs>
-        <data>Obtenu [0xb6] [0xaa]Carnet de poèmes[0xab].[end]</data>
+        <data>Obtenu [0xb6] ``Carnet de poèmes''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4c5</ref>
         </refs>
-        <data>Obtenu [0xaa]Herbe sacrée[0xab].[end]</data>
+        <data>Obtenu ``Herbe sacrée''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4d9</ref>
         </refs>
-        <data>Obtenu [0xaa]Assaut[0xab].[end]</data>
+        <data>Obtenu ``Assaut''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4ea</ref>
         </refs>
-        <data>Obtenu [0xaa]Bâton maître[0xab].[end]</data>
+        <data>Obtenu ``Bâton maître''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4fb</ref>
         </refs>
-        <data>Obtenu [0xaa]Souvenir amer[0xab].[end]</data>
+        <data>Obtenu ``Souvenir amer''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x50c</ref>
         </refs>
-        <data>Obtenu [0xaa]Élixir[0xab].[end]</data>
+        <data>Obtenu ``Élixir''.[end]</data>
     </text>
     <text>
         <refs>

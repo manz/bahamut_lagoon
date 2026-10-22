@@ -40,7 +40,7 @@ Chérie... reviens...[end]</data>
         </refs>
         <data>Depuis que l'armée impériale est repartie, le harem du roi est de retour !
  
-Maman... elle est partie au harem. Elle a même emporté le [0xaa]Truc du tiroir[0xab], pour lui porter chance ![end]</data>
+Maman... elle est partie au harem. Elle a même emporté le ``Truc du tiroir'', pour lui porter chance ![end]</data>
     </text>
     <text>
         <refs>
@@ -263,7 +263,7 @@ Aujourd'hui... j'ai tenu la promesse que je t'avais faite... affirmatif.[end]</d
         </refs>
         <data>Terrine...
  
-Un soldat ne doit jamais dire ``et si...'', mais pour cette fois, je n'ai pas envie d'être un soldat, affirmatif ! Terrine...
+Un soldat ne doit jamais dire ``et si...'', mais pour cette fois, je n'ai pas envie d'être un soldat ! Terrine...
  
 Terrine... Je suis triste, affirmatiiiiiif !![end]</data>
     </text>
@@ -284,7 +284,7 @@ Terrine... Je suis triste, affirmatiiiiiif !![end]</data>
         <refs>
             <ref>0x4b5</ref>
         </refs>
-        <data>Obtenu une caisse de [0xaa]Truc du tiroir[0xab].
+        <data>Obtenu une caisse de ``Truc du tiroir''.
  
 Elle en contenait [0xb0][0xb0].[end]</data>
     </text>
@@ -311,24 +311,24 @@ Elle en contenait [0xb0][0xb0].[end]</data>
         <refs>
             <ref>0x517</ref>
         </refs>
-        <data>Obtenu [0xaa]Calamitas[0xab].[end]</data>
+        <data>Obtenu ``Calamitas''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4ca</ref>
         </refs>
-        <data>Obtenu [0xb4] [0xaa]Super remède[0xab].[end]</data>
+        <data>Obtenu [0xb4] ``Super remède''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4e5</ref>
         </refs>
-        <data>Obtenu [0xb4] [0xaa]Super vodka[0xab].[end]</data>
+        <data>Obtenu [0xb4] ``Super vodka''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x500</ref>
         </refs>
-        <data>Obtenu [0xaa]Livre ardu[0xab], [0xaa]Traité tactique[0xab], [0xaa]Notes de génie[0xab] et [0xaa]Livre très osé[0xab].[end]</data>
+        <data>Obtenu ``Livre ardu'', ``Traité tactique'', ``Notes de génie'' et ``Livre très osé''.[end]</data>
     </text>
 </texts>

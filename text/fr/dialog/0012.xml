@@ -19,7 +19,7 @@ Je pense qu'il est temps d'espionner ce que trame l'Empire par ici ![end]</data>
         <refs>
             <ref>0xda</ref>
         </refs>
-        <data>Taicho: D'accord, affirmatif !
+        <data>Taicho: D'accord !
  
 Il nous faut plein d'informations, affirmatif ![end]</data>
     </text>
@@ -327,7 +327,7 @@ L'Empire était en plein chaos, affirmatif ![end]</data>
         <refs>
             <ref>0x8b0</ref>
         </refs>
-        <data>Je me suis mêlé à la foule du discours, et personne ne m'a remarqué, affirmatif !
+        <data>Je me suis mêlé à la foule du discours, et personne ne m'a remarqué !
  
 Le peuple de l'Empire était venu, inquiet de la maladie de l'Empereur Sauzer !
  
@@ -355,7 +355,7 @@ Gudolf est le chef de ce Lestat...[end]</data>
             <ref>0x8f2</ref>
             <ref>0x973</ref>
         </refs>
-        <data>Taicho: Sauzer a appris d'une façon ou d'une autre le coeur des Dragons Sacrés, affirmatif ! Il se passe quelque chose... Je n'en sais pas plus, affirmatif ![end]</data>
+        <data>Taicho: Sauzer a appris d'une façon ou d'une autre le coeur des Dragons Sacrés ! Il se passe quelque chose... Je n'en sais pas plus, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
@@ -369,7 +369,7 @@ Je me suis infiltré dans le château de Granbelos pour chercher Lestat, affirma
         <refs>
             <ref>0x914</ref>
         </refs>
-        <data>Quelle rage, affirmatif... Pas d'arme, et en face, quatre généraux... Je n'ai pu que me cacher... Cet affront, je le leur ferai payer au combat ! Avec vous, Matelite, affirmatif ![end]</data>
+        <data>Quelle rage... Pas d'arme, et en face, quatre généraux... Je n'ai pu que me cacher... Cet affront, je le leur ferai payer au combat ! Avec vous, Matelite, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
@@ -428,7 +428,7 @@ Je me suis infiltré dans le château de Granbelos pour chercher Lestat, affirma
         <refs>
             <ref>0x840</ref>
         </refs>
-        <data>Taicho: Je vous ai rapporté un souvenir, affirmatif !
+        <data>Taicho: Je vous ai rapporté un souvenir !
  
 Il vous sera utile pour vos recherches sur l'``armure signée Matelite'', affirmatif ![end]</data>
     </text>
@@ -514,7 +514,7 @@ Il n'y a plus qu'à foncer dans son corps avec les dragons pour la combattre, j'
         <refs>
             <ref>0xc2c</ref>
         </refs>
-        <data>Taicho: J'ai le coeur qui bat, affirmatif...
+        <data>Taicho: J'ai le coeur qui bat...
  
 Byuu... je passe devant, affirmatif ![end]</data>
     </text>
@@ -631,7 +631,7 @@ Regarde, on pourrait presque toucher le ciel...[end]</data>
         <refs>
             <ref>0x14f4</ref>
         </refs>
-        <data>Taicho: Byuu... désolé de vous déranger, affirmatif ! Mais... je dois vous parler, affirmatif !
+        <data>Taicho: Byuu... désolé de vous déranger ! Mais... je dois vous parler, affirmatif !
  
 Au château de Granbelos, j'ai fait une promesse d'homme à homme...[end]</data>
     </text>
@@ -639,7 +639,7 @@ Au château de Granbelos, j'ai fait une promesse d'homme à homme...[end]</data>
         <refs>
             <ref>0x153e</ref>
         </refs>
-        <data>Je vous l'ai caché, affirmatif...
+        <data>Je vous l'ai caché...
  
 J'ai une information à transmettre à la princesse Yoyo...
  
@@ -671,7 +671,7 @@ Et dans cette pièce, il y avait...
         <refs>
             <ref>0x12ea</ref>
         </refs>
-        <data>Obtenu [0xaa]??? princesse[0xab] !![end]</data>
+        <data>Obtenu ``??? princesse'' !![end]</data>
     </text>
     <text>
         <refs>

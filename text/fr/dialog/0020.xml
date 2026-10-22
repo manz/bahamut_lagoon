@@ -37,7 +37,7 @@
         <refs>
             <ref>0x149</ref>
         </refs>
-        <data>Taicho: Silence, affirmatif !!
+        <data>Taicho: Silence !!
  
 Écoutez sans un mot le précieux discours de Matelite, affirmatif !![end]</data>
     </text>
@@ -407,9 +407,9 @@ Ah... Byuu... Ne vous en faites pas... C'est tout le temps comme ça... Mais... 
         <refs>
             <ref>0xfb5</ref>
         </refs>
-        <data>Obtenu [0xb4] [0xaa]Remède[0xab]
-[0xb4] [0xaa]Panacée[0xab]
-[0xb4] [0xaa]Revivifiant[0xab].[end]</data>
+        <data>Obtenu [0xb4] ``Remède''
+[0xb4] ``Panacée''
+[0xb4] ``Revivifiant''.[end]</data>
     </text>
     <text>
         <refs>
@@ -557,7 +557,7 @@ C'est moi qui explique... affirmatif ?[end]</data>
         <refs>
             <ref>0x1313</ref>
         </refs>
-        <data>Taicho: Me voilà bien, affirmatif... L'``Organisation'', ce n'est pas mon fort...
+        <data>Taicho: Me voilà bien... L'``Organisation'', ce n'est pas mon fort...
  
 L'``Organisation'', ça consiste à former des escouades solides, affirmatif...[end]</data>
     </text>
@@ -584,7 +584,7 @@ L'``Organisation'', ça consiste à former des escouades solides, affirmatif...[
         <refs>
             <ref>0x13be</ref>
         </refs>
-        <data>Dans ce cas, on fait venir Ruki, une Fantassin, et on la place à côté de soi, affirmatif !!
+        <data>Dans ce cas, on fait venir Ruki, une Fantassin, et on la place à côté de soi !!
 Et voilà, l'escouade se déplace vite, affirmatif !![end]</data>
     </text>
     <text>
@@ -603,7 +603,7 @@ Et voilà, l'escouade se déplace vite, affirmatif !![end]</data>
         <refs>
             <ref>0x146e</ref>
         </refs>
-        <data>Et voilà, tout va bien, affirmatif !
+        <data>Et voilà, tout va bien !
 Byuu a sûrement compris, affirmatif ![end]</data>
     </text>
     <text>
@@ -629,25 +629,25 @@ celle-ci...[end]</data>
         <refs>
             <ref>0x149d</ref>
         </refs>
-        <data>Z... zut, affirmatif... J'ai mal expliqué, affirmatif... On recommence, affirmatif...[end]</data>
+        <data>Z... zut... J'ai mal expliqué... On recommence, affirmatif...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x14bc</ref>
         </refs>
-        <data>Ou... ouf, affirmatif !! J'ai l'impression d'être devenu plus intelligent, moi aussi, affirmatif...[end]</data>
+        <data>Ou... ouf !! J'ai l'impression d'être devenu plus intelligent, moi aussi, affirmatif...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc06</ref>
         </refs>
-        <data>Aïe, affirmatif... L'``Organisation'', les dragons... je suis nul pour les deux, affirmatif...[end]</data>
+        <data>Aïe... L'``Organisation'', les dragons... je suis nul pour les deux, affirmatif...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc0d</ref>
         </refs>
-        <data>Matelite a passé la nuit sans dormir à répéter son discours, affirmatif... Laissons-le tranquille, affirmatif...[end]</data>
+        <data>Matelite a passé la nuit sans dormir à répéter son discours... Laissons-le tranquille, affirmatif...[end]</data>
     </text>
     <text>
         <refs>
@@ -791,14 +791,14 @@ Mais ça, il vaudrait peut-être mieux éviter.
         <refs>
             <ref>0x132b</ref>
         </refs>
-        <data> Explique-moi, affirmatif !!
+        <data> Explique-moi !!
  Je connais, affirmatif !![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x15f3</ref>
         </refs>
-        <data>Ouf, affirmatif... Pour l'``Organisation'', il suffit d'utiliser ``Aptitude'', affirmatif...[end]</data>
+        <data>Ouf... Pour l'``Organisation'', il suffit d'utiliser ``Aptitude'', affirmatif...[end]</data>
     </text>
     <text>
         <refs>
@@ -927,7 +927,7 @@ Hé hé hé...[end]</data>
         <refs>
             <ref>0xc14</ref>
         </refs>
-        <data>Taicho: Je suis mis à l'écart, affirmatif...
+        <data>Taicho: Je suis mis à l'écart...
  
 Matelite... m'a rétrogradé numéro 3, affirmatif...[end]</data>
     </text>
@@ -1070,7 +1070,7 @@ Ce sera un combat pour le monde d'Orelus tout entier !![end]</data>
             <ref>0x1899</ref>
         </refs>
         <data>Oh !!
-Le drapeau de l'Armée de salut d'Orelus !![end]</data>
+Le drapeau de l'Armée du salut d'Orelus !![end]</data>
     </text>
     <text>
         <refs>
@@ -1082,6 +1082,6 @@ Le drapeau de l'Armée de salut d'Orelus !![end]</data>
         <refs>
             <ref>0x1671</ref>
         </refs>
-        <data>Obtenu [0xaa]??? de Gunso[0xab].[end][end]</data>
+        <data>Obtenu ``??? de Gunso''.[end][end]</data>
     </text>
 </texts>

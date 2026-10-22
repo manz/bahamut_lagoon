@@ -436,7 +436,7 @@ Voici ! [0xb0][0xaf][0xaf][0xaf] Piro ![end]</data>
         <refs>
             <ref>0x62c</ref>
         </refs>
-        <data>Taicho: Quel château sinistre, affirmatif... Ça sent le danger à plein nez, affirmatif.[end]</data>
+        <data>Taicho: Quel château sinistre... Ça sent le danger à plein nez, affirmatif.[end]</data>
     </text>
     <text>
         <refs>
@@ -586,7 +586,7 @@ Et alors, le succès est assuré ![end]</data>
         <refs>
             <ref>0x633</ref>
         </refs>
-        <data>Taicho: Les dragons ne sont pas comme d'habitude, affirmatif ! Ils sont agités, affirmatif ![end]</data>
+        <data>Taicho: Les dragons ne sont pas comme d'habitude ! Ils sont agités, affirmatif ![end]</data>
     </text>
     <text>
         <refs>

@@ -92,8 +92,8 @@
         <data>         L'arc-en-ciel ne venait jamais,
      et toi,si impatient,tu t'énervais...
  
-     [0xaa]Pas d'arc-en-ciel,affirmatif !
-       Toujours pas,affirmatif !![0xab]
+     ``Pas d'arc-en-ciel !
+       Toujours pas,affirmatif !!''
                 ...comme ça.[end]</data>
     </text>
     <text>
@@ -192,8 +192,8 @@
             <ref>0x177</ref>
         </refs>
         <data>         J'avais choisi les prénoms.
-     Un garçon,ce serait [0xaa]Shogun[0xab].
-          Une fille,[0xaa]Chiko[0xab].[end]</data>
+     Un garçon,ce serait ``Shogun''.
+          Une fille,``Chiko''.[end]</data>
     </text>
     <text>
         <refs>

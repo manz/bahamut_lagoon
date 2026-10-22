@@ -6,7 +6,7 @@
         </refs>
         <data>                    Yoyo...
  
-        Toi qui deviendras Dragonnier.
+        Toi qui deviendras Dragonnière.
        Tu es enfin parvenue jusqu'ici.
  
                N'hésite pas.
@@ -50,7 +50,7 @@ Fermez cette porte... C'est moi que vous voulez,n'est-ce pas...
         <refs>
             <ref>0x2a3</ref>
         </refs>
-        <data>Taicho: Yoyo n'est pas dans son état normal,affirmatif ! Byuu... je compte sur toi,affirmatif... !![end]</data>
+        <data>Taicho: Yoyo n'est pas dans son état normal ! Byuu... je compte sur toi,affirmatif... !![end]</data>
     </text>
     <text>
         <refs>
@@ -77,7 +77,7 @@ Fermez cette porte... C'est moi que vous voulez,n'est-ce pas...
         </refs>
         <data>                    Yoyo...
  
-        Toi qui deviendras Dragonnier.[end]</data>
+        Toi qui deviendras Dragonnière.[end]</data>
     </text>
     <text>
         <refs>

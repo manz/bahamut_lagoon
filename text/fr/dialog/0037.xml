@@ -83,7 +83,7 @@ La Princesse n'a pas l'air bien. Allons vite voir la reine.[end]</data>
         <refs>
             <ref>0x6d5</ref>
         </refs>
-        <data>Le Général Palparos était gentil ! Il m'a dit: [0xaa]Deviens un homme fort ![0xab] Héhé ![end]</data>
+        <data>Le Général Palparos était gentil ! Il m'a dit: ``Deviens un homme fort !'' Héhé ![end]</data>
     </text>
     <text>
         <refs>
@@ -276,10 +276,10 @@ Quand vous voudrez retourner sur Fareneit,dites-le-moi.[end]</data>
         <refs>
             <ref>0x47f</ref>
         </refs>
-        <data>[0xaa]Qui connaît le coeur des Dragons Sacrés ouvrira la Porte de la Nouvelle Ère.[0xab]
+        <data>``Qui connaît le coeur des Dragons Sacrés ouvrira la Porte de la Nouvelle Ère.''
  
 Et la légende ajoute toujours ces mots... Les voici...
-[0xaa]Le coeur faible attire le malheur depuis les cieux.[0xab][end]</data>
+``Le coeur faible attire le malheur depuis les cieux.''[end]</data>
     </text>
     <text>
         <refs>
@@ -363,30 +363,30 @@ La chute de Kana... la mort du Roi de Kana... la souffrance de Yoyo... Ah... Et 
         <refs>
             <ref>0x8c3</ref>
         </refs>
-        <data>Obtenu [0xaa]Herbe de vie[0xab].[end]</data>
+        <data>Obtenu ``Herbe de vie''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8d4</ref>
         </refs>
-        <data>Obtenu [0xaa]Miel sucré[0xab].[end]</data>
+        <data>Obtenu ``Miel sucré''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8e5</ref>
         </refs>
-        <data>Obtenu [0xaa]Champi toxique[0xab].[end]</data>
+        <data>Obtenu ``Champi toxique''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8f6</ref>
         </refs>
-        <data>Obtenu [0xaa]Uniasticot[0xab].[end]</data>
+        <data>Obtenu ``Uniasticot''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x907</ref>
         </refs>
-        <data>Obtenu [0xaa]Panacée[0xab].[end]</data>
+        <data>Obtenu ``Panacée''.[end]</data>
     </text>
 </texts>

@@ -4,7 +4,7 @@
         <refs>
             <ref>0x1b7</ref>
         </refs>
-        <data>Matelite !! Où allez-vous avec cette tête si sérieuse,affirmatif !! Le château de Kana,ce n'est pas par là,affirmatif !
+        <data>Matelite !! Où allez-vous avec cette tête si sérieuse !! Le château de Kana,ce n'est pas par là !
  
 Vous permettez ? C'est moi qui entre le premier,affirmatif !![end]</data>
     </text>
@@ -18,7 +18,7 @@ Vous permettez ? C'est moi qui entre le premier,affirmatif !![end]</data>
         <refs>
             <ref>0x219</ref>
         </refs>
-        <data>Taicho: Les statues de dragons ont de l'allure,affirmatif !! Tout neuf,tout brillant,affirmatif !![end]</data>
+        <data>Taicho: Les statues de dragons ont de l'allure !! Tout neuf,tout brillant,affirmatif !![end]</data>
     </text>
     <text>
         <refs>
@@ -100,7 +100,7 @@ Il en est tout abattu.[end]</data>
         </refs>
         <data>Sendak: Je suis un vieux costaud !! Non,un vieux costaud,affirmatif !! (Psst... psst...)
  
-Les Dragons Sacrés ont une voix effrayante... [0xaa]Ce n'est pas fini...[0xab] [0xaa]La Nouvelle Ère n'est pas encore venue...[0xab] Des trucs comme ça... Ça m'embête qu'ils me le disent à moi...[end]</data>
+Les Dragons Sacrés ont une voix effrayante... ``Ce n'est pas fini...'' ``La Nouvelle Ère n'est pas encore venue...'' Des trucs comme ça... Ça m'embête qu'ils me le disent à moi...[end]</data>
     </text>
     <text>
         <refs>
@@ -184,7 +184,7 @@ Allez... viens,viens !![end]</data>
         <refs>
             <ref>0x441</ref>
         </refs>
-        <data>Taicho: Matelite est porté disparu,affirmatif !! Peu importe,affirmatif !!
+        <data>Taicho: Matelite est porté disparu !! Peu importe,affirmatif !!
  
 Il n'est même pas là le soir de la Restauration de Kana,au moment le plus important...
  
@@ -534,7 +534,7 @@ Vous tous !! Merci !![end]</data>
         <refs>
             <ref>0xba</ref>
         </refs>
-        <data>Taicho: Elle a été digne,affirmatif... Elle est devenue forte,affirmatif...[end]</data>
+        <data>Taicho: Elle a été digne... Elle est devenue forte,affirmatif...[end]</data>
     </text>
     <text>
         <refs>

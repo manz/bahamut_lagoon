@@ -57,7 +57,7 @@
         </refs>
         <data>Gufufufu... !! La trahison de messire Palparos l'a durement touché,on dirait !! À la fin,il m'a serré la main et m'a dit ceci...
  
-[0xaa]Quoi qu'il arrive,ne pardonne pas au traître Palparos !![0xab]
+``Quoi qu'il arrive,ne pardonne pas au traître Palparos !!''
  
 Voilà... Gufufufu !![end]</data>
     </text>
@@ -135,7 +135,7 @@ Toi,tu pourras... apaiser notre colère...[end]</data>
         <refs>
             <ref>0x2ed</ref>
         </refs>
-        <data>Taicho: Ma moustache se hérisse,affirmatif !! C'est donc ça,la colère des Dragons Sacrés... J'étouffe,affirmatif... !![end]</data>
+        <data>Taicho: Ma moustache se hérisse !! C'est donc ça,la colère des Dragons Sacrés... J'étouffe,affirmatif... !![end]</data>
     </text>
     <text>
         <refs>
@@ -179,7 +179,7 @@ Je ne peux pas recevoir ce que vous ressentez,vous,les Dragons Sacrés...[end]</
            nous,les Dragons Sacrés...
            vers la terre du repos...
  
-                Dragonnier...
+                Dragonnière...
      toi qui guides les Dragons Sacrés...
  
        La Nouvelle Ère vous y attend...

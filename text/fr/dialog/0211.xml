@@ -154,7 +154,7 @@ Toi aussi, Byuu, prends bien soin de Papi.[end]</data>
         <refs>
             <ref>0xcf6</ref>
         </refs>
-        <data>Deux cadeaux pendent au bout de la figure de proue. Ils sont sur le point de tomber. L'un est le [0xaa]Cadeau de Hornet[0xab], l'autre le [0xaa]Cadeau des matelots[0xab].
+        <data>Deux cadeaux pendent au bout de la figure de proue. Ils sont sur le point de tomber. L'un est le ``Cadeau de Hornet'', l'autre le ``Cadeau des matelots''.
  
 Lequel choisis-tu ?[end]</data>
     </text>
@@ -162,8 +162,8 @@ Lequel choisis-tu ?[end]</data>
         <refs>
             <ref>0xcfa</ref>
         </refs>
-        <data> [0xaa]Cadeau de Hornet[0xab]
- [0xaa]Cadeau des matelots[0xab][end1]</data>
+        <data> ``Cadeau de Hornet''
+ ``Cadeau des matelots''[end1]</data>
     </text>
     <text>
         <refs>
@@ -196,21 +196,21 @@ On a cassé notre tirelire pour vous faire plaisir. Courage, Byuu !![end]</data>
         <refs>
             <ref>0xd12</ref>
         </refs>
-        <data>Obtenu [0xaa]Scharnhorst[0xab] (l'épée suprême du Croisé),
+        <data>Obtenu ``Scharnhorst'' (l'épée suprême du Croisé),
  
-[0xaa]Dreadnought[0xab] et [0xaa]Derringer[0xab].[end]</data>
+``Dreadnought'' et ``Derringer''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd2e</ref>
         </refs>
-        <data>Obtenu [0xaa]Destroyer[0xab], [0xaa]Kaiserin[0xab] (x[0xb1]), [0xaa]Maréchal Ney[0xab] (x[0xb1]), [0xaa]Prinz Eugen[0xab] et [0xaa]Livre très osé[0xab].[end]</data>
+        <data>Obtenu ``Destroyer'', ``Kaiserin'' (x[0xb1]), ``Maréchal Ney'' (x[0xb1]), ``Prinz Eugen'' et ``Livre très osé''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xafd</ref>
         </refs>
-        <data>Obtenu [0xaa]Crotte de dragon[0xab].[end]</data>
+        <data>Obtenu ``Crotte de dragon''.[end]</data>
     </text>
     <text>
         <refs>
@@ -329,19 +329,19 @@ Pas touche !! -Bikebake-[end]</data>
         <refs>
             <ref>0xd75</ref>
         </refs>
-        <data>Obtenu [0xaa]Champi toxique[0xab].[end]</data>
+        <data>Obtenu ``Champi toxique''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd8a</ref>
         </refs>
-        <data>Obtenu [0xaa]Champi glauque[0xab].[end]</data>
+        <data>Obtenu ``Champi glauque''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd9f</ref>
         </refs>
-        <data>Obtenu [0xaa]Champi criard[0xab].[end]</data>
+        <data>Obtenu ``Champi criard''.[end]</data>
     </text>
     <text>
         <refs>

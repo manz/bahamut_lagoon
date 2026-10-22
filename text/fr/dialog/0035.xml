@@ -64,7 +64,7 @@ J'aurais tant voulu te parler encore...[end]</data>
         <refs>
             <ref>0x239</ref>
         </refs>
-        <data>C'est cruel... Juste un [0xaa]À suivre ![0xab] et c'est tout...[end]</data>
+        <data>C'est cruel... Juste un ``À suivre !'' et c'est tout...[end]</data>
     </text>
     <text>
         <refs>

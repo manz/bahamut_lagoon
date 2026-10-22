@@ -141,13 +141,13 @@ Hornet ce qu'il aime ?
         <refs>
             <ref>0x262</ref>
         </refs>
-        <data>Ce que j'aime... Le [0xaa]Vin doux[0xab], par exemple.[end]</data>
+        <data>Ce que j'aime... Le ``Vin doux'', par exemple.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x26d</ref>
         </refs>
-        <data>Ce que je déteste ? Oh, l'[0xaa]Uniasticot[0xab]... Rien que d'y penser, j'en ai la chair de poule.[end]</data>
+        <data>Ce que je déteste ? Oh, l'``Uniasticot''... Rien que d'y penser, j'en ai la chair de poule.[end]</data>
     </text>
     <text>
         <refs>
@@ -155,8 +155,8 @@ Hornet ce qu'il aime ?
         </refs>
         <data>Anastasia: Alors, alors ? Qu'est-ce
 qu'il aime, Hornet ?
- [0xaa]Vin doux[0xab]
- [0xaa]Uniasticot[0xab][end1]</data>
+ ``Vin doux''
+ ``Uniasticot''[end1]</data>
     </text>
     <text>
         <refs>
@@ -330,18 +330,18 @@ serait bien qu'il y en ait plus !
         <refs>
             <ref>0x76a</ref>
         </refs>
-        <data>Tu as obtenu [0xaa]Vin amer[0xab].[end]</data>
+        <data>Tu as obtenu ``Vin amer''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x794</ref>
         </refs>
-        <data>Tu as obtenu [0xaa]Souvenir amer[0xab].[end]</data>
+        <data>Tu as obtenu ``Souvenir amer''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x77b</ref>
         </refs>
-        <data>Tu as obtenu [0xaa]Journal de bord[0xab].[end]</data>
+        <data>Tu as obtenu ``Journal de bord''.[end]</data>
     </text>
 </texts>

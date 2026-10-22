@@ -242,7 +242,7 @@ Allez !! Taicho !! Préparons-nous au combat !![end]</data>
         <refs>
             <ref>0x44e</ref>
         </refs>
-        <data>Taicho: Matelite... n'a pas l'air d'avoir compris, affirmatif... Et si je lui expliquais, affirmatif...[end]</data>
+        <data>Taicho: Matelite... n'a pas l'air d'avoir compris... Et si je lui expliquais, affirmatif...[end]</data>
     </text>
     <text>
         <refs>
@@ -666,7 +666,7 @@ Tu t'en souviens encore... ? Notre promesse...[end]</data>
         <refs>
             <ref>0x109a</ref>
         </refs>
-        <data>Taicho: Matelite... s'est tu, affirmatif... Il m'a juste dit ``toi, tu es la queue'', et plus un mot, affirmatif...
+        <data>Taicho: Matelite... s'est tu... Il m'a juste dit ``toi, tu es la queue'', et plus un mot...
  
 Il prépare sûrement quelque chose... Méfiance, affirmatif...[end]</data>
     </text>
@@ -699,6 +699,6 @@ Il prépare sûrement quelque chose... Méfiance, affirmatif...[end]</data>
         <refs>
             <ref>0x1288</ref>
         </refs>
-        <data>Obtenu [0xaa]??? princesse[0xab].[end]</data>
+        <data>Obtenu ``??? princesse''.[end]</data>
     </text>
 </texts>

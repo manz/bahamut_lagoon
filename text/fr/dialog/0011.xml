@@ -87,7 +87,7 @@ Et tu as volé le... truc de la princesse Yoyo, aussi ![end]</data>
         <refs>
             <ref>0x348</ref>
         </refs>
-        <data>Ruki: Donfan ! Tu as fait boire du [0xaa]Vin doux[0xab] à la princesse Yoyo...
+        <data>Ruki: Donfan ! Tu as fait boire du ``Vin doux'' à la princesse Yoyo...
  
 ``Vos yeux brillent comme le ciel nocturne qui se reflète sur le lac de Mahal. Donfan, le dur au coeur pur, va vous montrer le lac souterrain du Dragon Sacré...''
  
@@ -142,7 +142,7 @@ Voyons, euh, comment dire... Que dirais-tu de Bikebake ? Ou de Byuu, là, à cô
             <ref>0x661</ref>
             <ref>0xab6</ref>
         </refs>
-        <data>Obtenu [0xaa]??? de Gunso[0xab].[end]</data>
+        <data>Obtenu ``??? de Gunso''.[end]</data>
     </text>
     <text>
         <refs>
@@ -259,62 +259,62 @@ Voyons, euh, comment dire... Que dirais-tu de Bikebake ? Ou de Byuu, là, à cô
         <refs>
             <ref>0xac7</ref>
         </refs>
-        <data>Obtenu [0xaa]Robe Nimbus[0xab].[end]</data>
+        <data>Obtenu ``Robe Nimbus''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xad8</ref>
         </refs>
-        <data>Obtenu [0xaa]Main-gauche[0xab].[end]</data>
+        <data>Obtenu ``Main-gauche''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xae9</ref>
         </refs>
-        <data>Obtenu [0xb5] [0xaa]Herbe de terre[0xab].[end]</data>
+        <data>Obtenu [0xb5] ``Herbe de terre''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x672</ref>
         </refs>
         <data>La pieuvre a recraché...
-Obtenu [0xaa]Épée bâtarde[0xab]
-et [0xaa]Aurore[0xab].[end]</data>
+Obtenu ``Épée bâtarde''
+et ``Aurore''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xafe</ref>
         </refs>
-        <data>Obtenu [0xb4] [0xaa]Vin doux[0xab].[end]</data>
+        <data>Obtenu [0xb4] ``Vin doux''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa2c</ref>
         </refs>
         <data>Obtenu de Ruki:
-[0xb2] [0xaa]Truc du tiroir[0xab].[end]</data>
+[0xb2] ``Truc du tiroir''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa41</ref>
         </refs>
         <data>Obtenu de Gunso:
-[0xb5] [0xaa]Truc du tiroir[0xab].[end]</data>
+[0xb5] ``Truc du tiroir''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa11</ref>
         </refs>
         <data>Obtenu, entamés par Ruki:
-[0xb2] [0xaa]Vin amer[0xab]
-[0xb1] [0xaa]Super vodka[0xab].[end]</data>
+[0xb2] ``Vin amer''
+[0xb1] ``Super vodka''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9fa</ref>
         </refs>
         <data>Obtenu de Gunso:
-[0xb1] [0xaa]Traité tactique[0xab]
-[0xb0] [0xaa]Notes d'élève[0xab].[end]</data>
+[0xb1] ``Traité tactique''
+[0xb0] ``Notes d'élève''.[end]</data>
     </text>
 </texts>

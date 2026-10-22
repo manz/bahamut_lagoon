@@ -68,13 +68,13 @@ Nous allons... bientôt... décoller. La Porte... va s'ouvrir... Les Dragons Sac
         <refs>
             <ref>0x135</ref>
         </refs>
-        <data>Bahamut: Dragonnier... Yoyo...[end]</data>
+        <data>Bahamut: Dragonnière... Yoyo...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x146</ref>
         </refs>
-        <data>Yoyo: Dragonnier ? Je suis donc Dragonnier ?[end]</data>
+        <data>Yoyo: Dragonnière ? Je suis donc Dragonnière ?[end]</data>
     </text>
     <text>
         <refs>
@@ -104,7 +104,7 @@ Nous allons... bientôt... décoller. La Porte... va s'ouvrir... Les Dragons Sac
         <refs>
             <ref>0x170</ref>
         </refs>
-        <data>Yoyo: Je suis... Dragonnier...[end]</data>
+        <data>Yoyo: Je suis... Dragonnière...[end]</data>
     </text>
     <text>
         <refs>
@@ -128,7 +128,7 @@ Nous allons... bientôt... décoller. La Porte... va s'ouvrir... Les Dragons Sac
         <refs>
             <ref>0x196</ref>
         </refs>
-        <data>Nous mener jusqu'à cette ère... Dragonnier,telle est ta destinée...[end]</data>
+        <data>Nous mener jusqu'à cette ère... Dragonnière,telle est ta destinée...[end]</data>
     </text>
     <text>
         <refs>
@@ -160,7 +160,7 @@ Nous allons... bientôt... décoller. La Porte... va s'ouvrir... Les Dragons Sac
         </refs>
         <data>Nos coeurs... qui se haïssent... Nos coeurs... unis en un seul...
  
-Alors... la Porte... s'ouvrira entièrement... Dragonnier... en es-tu capable ?[end]</data>
+Alors... la Porte... s'ouvrira entièrement... Dragonnière... en es-tu capable ?[end]</data>
     </text>
     <text>
         <refs>

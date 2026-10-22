@@ -80,19 +80,19 @@ Pas touche !! -Bikebake-[end]</data>
         <refs>
             <ref>0x7e0</ref>
         </refs>
-        <data>Obtenu [0xaa]Champi toxique[0xab].[end]</data>
+        <data>Obtenu ``Champi toxique''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7f5</ref>
         </refs>
-        <data>Obtenu [0xaa]Champi glauque[0xab].[end]</data>
+        <data>Obtenu ``Champi glauque''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x80a</ref>
         </refs>
-        <data>Obtenu [0xaa]Champi criard[0xab].[end]</data>
+        <data>Obtenu ``Champi criard''.[end]</data>
     </text>
     <text>
         <refs>

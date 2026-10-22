@@ -81,9 +81,9 @@ Ah,voici une babiole... Pour vous remercier d'avoir libéré Dafira...[end]</dat
         <refs>
             <ref>0xc1a</ref>
         </refs>
-        <data>La [0xaa]babiole[0xab] contenait...
+        <data>La ``babiole'' contenait...
  
-[0xb0][0xaf] [0xaa]Épée longue[0xab] !![end]</data>
+[0xb0][0xaf] ``Épée longue'' !![end]</data>
     </text>
     <text>
         <refs>
@@ -211,7 +211,7 @@ C'est-à-dire,euh,euh... c'est un certain Byuu qui tient la bourse. On met ça s
         <refs>
             <ref>0x7d7</ref>
         </refs>
-        <data>Marchand ambulant: Ah... à peine mariés... et ma femme m'a déjà fait ceci,et puis cela...[end]</data>
+        <data>Marchand: Ah... à peine mariés... et ma femme m'a déjà fait ceci,et puis cela...[end]</data>
     </text>
     <text>
         <refs>
@@ -333,7 +333,7 @@ Dès à présent,Dafira devient un pays libre !! Une nouvelle ère commence !![e
 Le Groupe Révolutionnaire de la Liberté recrute !
  
 Le mot de passe est...
-[0xaa]Dès aujourd'hui,je suis un tombeur !![0xab][end]</data>
+``Dès aujourd'hui,je suis un tombeur !!''[end]</data>
     </text>
     <text>
         <refs>
@@ -366,7 +366,7 @@ Le mot de passe est...
         <refs>
             <ref>0xaa1</ref>
         </refs>
-        <data>Ekaterina encore éconduite !! Le mystère des [0xaa]Uniasticot[0xab] qu'elle ne cesse d'offrir ?![end]</data>
+        <data>Ekaterina encore éconduite !! Le mystère des ``Uniasticot'' qu'elle ne cesse d'offrir ?![end]</data>
     </text>
     <text>
         <refs>
@@ -386,30 +386,30 @@ On le craint !![end]</data>
         <refs>
             <ref>0xb4e</ref>
         </refs>
-        <data>Obtenu [0xaa]Gilet Mach[0xab].[end]</data>
+        <data>Obtenu ``Gilet Mach''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb85</ref>
         </refs>
-        <data>Obtenu [0xaa]Bâton maître[0xab].[end]</data>
+        <data>Obtenu ``Bâton maître''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb74</ref>
         </refs>
-        <data>Obtenu [0xaa]Force noire[0xab].[end]</data>
+        <data>Obtenu ``Force noire''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb5f</ref>
         </refs>
-        <data>Ramassé [0xb4] [0xaa]Super gin[0xab].[end]</data>
+        <data>Ramassé [0xb4] ``Super gin''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb39</ref>
         </refs>
-        <data>Obtenu [0xb0] [0xaa]Uniasticot[0xab].[end][end]</data>
+        <data>Obtenu [0xb0] ``Uniasticot''.[end][end]</data>
     </text>
 </texts>

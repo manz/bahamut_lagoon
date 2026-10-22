@@ -143,7 +143,11 @@ against the JP text; the reason kept is the one that decided it.
   - Gunso, Barclay, Nerbo, Frederica, Ekaterina to Byuu: vous (さん, honorific verbs); Byuu to them: tu.
   - Truth to Byuu and to Matelite: vous; Matelite to Truth: tu. Taicho to Matelite: vous (どの); Matelite to Taicho:
     tu. Gunso to Taicho: vous; Taicho to Gunso: tu.
-  - Palparos and Sauzer: tu. Palparos to Byuu and to Yoyo: tu; Yoyo to Palparos: tu. Sauzer to Yoyo: vous.
+  - Palparos and Sauzer: tu. Palparos to Byuu: tu. Palparos and Yoyo: tu in private; vous where his JP turns to
+    keigo in public (王女, ください: 0035 0x49e) and in the 0066 church flashback until « cessez de m'appeler
+    princesse », and in her captivity (0075). Sauzer to Yoyo: vous. Matelite to Palparos: tu (あんた).
+  - Truth and Rush: tu (peers; Rush says おまえ). Zora to Yoyo: vous (姫さま). Hornet to Yoyo: vous. Zora's son to
+    Byuu: vous.
   - Enemies to one rebel: tu; to the rebels: vous. The King, the Holy Dragons and Bahamut to humans: tu; Yoyo to
     the Holy Dragons: vous. Shops to Byuu: vous; the Patronne: tu.
 - タイチョー's joke (0020 0x512, « I'm Taicho, so I'm the captain »). **Decision: keep the circular logic, drop the
@@ -151,6 +155,15 @@ against the JP text; the reason kept is the one that decided it.
   隊長 is capitaine; Commandant and Sergent go, Taicho and Gunso are names.
 - ドラゴンおやじ. **Decision: Père Dragon.** He raised Salamand as a father and the gag makes him the grandpa;
   « le père » carries both. おかみさん stays Patronne.
+- 救世軍 and 解放軍. **Decision: l'Armée du salut d'Orelus for 救世軍 (its JP name is the Salvation Army's),
+  l'armée de libération for 解放軍,** the name Matelite turns down for Rebelles (0020 0x226).
+- 竜人. **Decision: homme-dragon, hommes-dragons**, not être-dragon or Peuple Dragon.
+- 戦場をかける商人 and the other merchants. **Decision: Marchand:** as the label; 妻子を守る商人 is « Marchand père de
+  famille: ».
+- Quotes. **Decision: ``…''** (codes 86 and 87), not the 「」 glyphs.
+- Choice options. **Decision: set two spaces (10 px) in**, by the build (utils/dialog_layout.py OPTION_INDENT).
+- でアリマス. **Decision: « affirmatif » once a speech at most**, on its last sentence; none in grief.
+- ドラグナー for Yoyo. **Decision: Dragonnière**; Dragonnier stays for the class and the generic « celui qui ».
 - フェイズしゅうりょう. **Decision: Fin de phase.** ターン is the turn (Tour), フェイズ half of it; the confirmation
   already says « Fin de la phase du joueur ».
 

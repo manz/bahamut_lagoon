@@ -74,7 +74,7 @@
         <refs>
             <ref>0xe0</ref>
         </refs>
-        <data>Un soldat n'a pas le droit de dire [0xaa]si[0xab],mais...[end]</data>
+        <data>Un soldat n'a pas le droit de dire ``si'',mais...[end]</data>
     </text>
     <text>
         <refs>

@@ -82,7 +82,7 @@ Notre amitié...[end]</data>
         <refs>
             <ref>0x7d2</ref>
         </refs>
-        <data>Obtenu [0xaa]??? de Gunso[0xab].[end]</data>
+        <data>Obtenu ``??? de Gunso''.[end]</data>
     </text>
     <text>
         <refs>
@@ -169,7 +169,7 @@ Ah, tiens, prends ça. C'était mon porte-bonheur, mais bon.[end]</data>
         <refs>
             <ref>0x5bb</ref>
         </refs>
-        <data>Obtenu [0xaa]??? princesse[0xab].[end]</data>
+        <data>Obtenu ``??? princesse''.[end]</data>
     </text>
     <text>
         <refs>
@@ -292,7 +292,7 @@ Je vais peut-être fredonner un petit air.)[end]</data>
         </refs>
         <data>Frunze: ...............
  
-J'ai mis du [0xaa]??? de Gunso[0xab] et de l'[0xaa]Uniasticot[0xab] dans le repas de Reeve. Son ventre doit être dans un de ces états... Voilà ce qu'on gagne à trahir l'amitié...
+J'ai mis du ``??? de Gunso'' et de l'``Uniasticot'' dans le repas de Reeve. Son ventre doit être dans un de ces états... Voilà ce qu'on gagne à trahir l'amitié...
  
  
 Mes coups deviennent de plus en plus sournois... Moi... j'ai peur de moi-même...[end]</data>

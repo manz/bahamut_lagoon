@@ -332,7 +332,7 @@ Si Bahamut se réveille, la lutte des Dragons Sacrés commencera dans le cœur d
         <refs>
             <ref>0xa2e</ref>
         </refs>
-        <data>Taicho: C'est grave, affirmatif !
+        <data>Taicho: C'est grave !
  
 La princesse Yoyo va mal, affirmatif ![end]</data>
     </text>
@@ -469,7 +469,7 @@ Quand nous avons pris Kana, nous avons emporté beaucoup de choses comme butin d
         <refs>
             <ref>0x1489</ref>
         </refs>
-        <data>Obtenu [0xaa]Impératrice[0xab] et [0xaa]Robe royale[0xab].[end]</data>
+        <data>Obtenu ``Impératrice'' et ``Robe royale''.[end]</data>
     </text>
     <text>
         <refs>
@@ -1046,7 +1046,7 @@ Même le peuple de l'Empire, qui n'a connu que la guerre, devrait enfin connaît
             <ref>0x131c</ref>
         </refs>
         <data> Où est la porte ?
- La discipline de l'armée de libération
+ La discipline de l'Armée du salut
  Capitaine par intérim,c'est dur[end1]</data>
     </text>
     <text>
@@ -1207,7 +1207,7 @@ Mais... je suis prêt à en assumer la responsabilité.[end]</data>
         </refs>
         <data>Truth: Ça suffit !
  
-Je suis membre de l'armée de libération d'Orelus. Alors je me battrai ! Je me battrai au péril de ma vie ![end]</data>
+Je suis membre de l'Armée du salut d'Orelus. Alors je me battrai ! Je me battrai au péril de ma vie ![end]</data>
     </text>
     <text>
         <refs>
@@ -1303,9 +1303,9 @@ Je suis membre de l'armée de libération d'Orelus. Alors je me battrai ! Je me 
         <refs>
             <ref>0x3b6</ref>
         </refs>
-        <data>Taicho: Je l'ai vu, affirmatif !
+        <data>Taicho: Je l'ai vu !
  
-Une attaque par-dessous, affirmatif ! C'est l'Empire de Granbelos, affirmatif ![end]</data>
+Une attaque par-dessous ! C'est l'Empire de Granbelos, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
@@ -1353,7 +1353,7 @@ Pourrez-vous combattre le pays qui vous a vu naître et grandir, affirmatif ?[en
         <refs>
             <ref>0x754</ref>
         </refs>
-        <data>Taicho: Mieux vaut ne pas approcher Matelite, affirmatif. La princesse Yoyo et le général l'agacent, affirmatif.[end]</data>
+        <data>Taicho: Mieux vaut ne pas approcher Matelite. La princesse Yoyo et le général l'agacent, affirmatif.[end]</data>
     </text>
     <text>
         <refs>
@@ -1482,7 +1482,7 @@ Alors que personne ne sait ce qui va se passer...[end]</data>
         <refs>
             <ref>0x75e</ref>
         </refs>
-        <data>(Céline... Je suis venu si loin, affirmatif... Mais même ici, des combats m'attendent, affirmatif...)[end]</data>
+        <data>(Céline... Je suis venu si loin... Mais même ici, des combats m'attendent, affirmatif...)[end]</data>
     </text>
     <text>
         <refs>

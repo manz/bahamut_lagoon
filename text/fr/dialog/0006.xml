@@ -908,25 +908,25 @@ Où avez-vous appris les bases de la stratégie ?[end]</data>
         <refs>
             <ref>0x1173</ref>
         </refs>
-        <data>Tu as obtenu [0xaa]??? princesse[0xab].[end]</data>
+        <data>Tu as obtenu ``??? princesse''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x11f6</ref>
         </refs>
-        <data>Tu as obtenu [0xaa]Biscuits ratés[0xab].[end]</data>
+        <data>Tu as obtenu ``Biscuits ratés''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1207</ref>
         </refs>
-        <data>Tu as obtenu [0xaa]Truc du tiroir[0xab].[end]</data>
+        <data>Tu as obtenu ``Truc du tiroir''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1218</ref>
         </refs>
-        <data>Tu as obtenu [0xaa]Uniasticot[0xab].[end]</data>
+        <data>Tu as obtenu ``Uniasticot''.[end]</data>
     </text>
     <text>
         <refs>

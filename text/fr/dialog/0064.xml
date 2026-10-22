@@ -432,7 +432,7 @@ Des armes et armures au nom de Matelite ! Byuu, achète-en, toi aussi ![end]</da
         <refs>
             <ref>0x627</ref>
         </refs>
-        <data> Obtenu [0xaa]Lettre[0xab].[end]</data>
+        <data> Obtenu ``Lettre''.[end]</data>
     </text>
     <text>
         <refs>
@@ -445,54 +445,54 @@ Des armes et armures au nom de Matelite ! Byuu, achète-en, toi aussi ![end]</da
         <refs>
             <ref>0x8b1</ref>
         </refs>
-        <data>Marchand: Byuu... Le [0xaa]Vin doux[0xab], c'est cadeau.[end]</data>
+        <data>Marchand: Byuu... Le ``Vin doux'', c'est cadeau.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x832</ref>
         </refs>
-        <data>Obtenu [0xaa]Livre osé[0xab].[end]</data>
+        <data>Obtenu ``Livre osé''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x843</ref>
         </refs>
-        <data>Obtenu [0xaa]Biscuits maison[0xab].[end]</data>
+        <data>Obtenu ``Biscuits maison''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x854</ref>
         </refs>
-        <data>Obtenu [0xaa]Panacée[0xab].[end]</data>
+        <data>Obtenu ``Panacée''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x865</ref>
         </refs>
-        <data>Obtenu [0xaa]Truc du tiroir[0xab].[end]</data>
+        <data>Obtenu ``Truc du tiroir''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x876</ref>
         </refs>
-        <data>Obtenu [0xaa]Livre ardu[0xab].[end]</data>
+        <data>Obtenu ``Livre ardu''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x887</ref>
         </refs>
-        <data>Obtenu [0xaa]Notes d'élève[0xab].[end]</data>
+        <data>Obtenu ``Notes d'élève''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x898</ref>
         </refs>
-        <data>Obtenu [0xaa]Doux souvenir[0xab].[end]</data>
+        <data>Obtenu ``Doux souvenir''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8a9</ref>
         </refs>
-        <data>Obtenu [0xaa]Vin doux[0xab].[end]</data>
+        <data>Obtenu ``Vin doux''.[end]</data>
     </text>
 </texts>

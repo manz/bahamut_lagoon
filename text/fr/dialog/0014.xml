@@ -308,19 +308,19 @@ Serait-ce les Dragons Sacrés qui nous guident... ?[end]</data>
         <refs>
             <ref>0x83b</ref>
         </refs>
-        <data>Obtenu [0xaa]Brionac[0xab].[end]</data>
+        <data>Obtenu ``Brionac''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x84c</ref>
         </refs>
-        <data>Obtenu [0xb5] [0xaa]Miel sucré[0xab].[end]</data>
+        <data>Obtenu [0xb5] ``Miel sucré''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x861</ref>
         </refs>
-        <data>Obtenu [0xaa]Herbe noire[0xab].[end]</data>
+        <data>Obtenu ``Herbe noire''.[end]</data>
     </text>
     <text>
         <refs>

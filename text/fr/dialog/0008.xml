@@ -252,7 +252,7 @@ Protégez bien le Fareneit ![end]</data>
         <refs>
             <ref>0x774</ref>
         </refs>
-        <data>Tu as reçu [0xaa]Biscuits maison de Yoyo[0xab].
+        <data>Tu as reçu ``Biscuits maison de Yoyo''.
  
 Tu les manges ?[end]</data>
     </text>
@@ -326,7 +326,7 @@ Tu les manges ?[end]</data>
         <refs>
             <ref>0x32b</ref>
         </refs>
-        <data>Tu as reçu [0xaa]Biscuits faits avec amour par Sendak[0xab].
+        <data>Tu as reçu ``Biscuits faits avec amour par Sendak''.
  
 Tu les manges ?[end]</data>
     </text>

@@ -148,7 +148,7 @@ Byuu... tu es rentré ? J'ai des tonnes de choses à te demander.[end]</data>
  
 Tiens, je te donne ça...
  
-Tu as obtenu [0xaa]Objets divers[0xab].[end]</data>
+Tu as obtenu ``Objets divers''.[end]</data>
     </text>
     <text>
         <refs>
@@ -301,7 +301,7 @@ Les souvenirs ont beau être nombreux, ils ne font que du mal...[end]</data>
         <refs>
             <ref>0xc89</ref>
         </refs>
-        <data>Taicho: Seigneur Matelite, monter un dragon vous rend donc si heureux ? Vous pleuriez de joie, affirmatif !
+        <data>Taicho: Seigneur Matelite, monter un dragon vous rend donc si heureux ? Vous pleuriez de joie !
  
 Moi, j'ai peur, affirmatif... Il m'a léché la moustache ![end]</data>
     </text>
@@ -309,7 +309,7 @@ Moi, j'ai peur, affirmatif... Il m'a léché la moustache ![end]</data>
         <refs>
             <ref>0x1014</ref>
         </refs>
-        <data>Tu as obtenu [0xaa]Le trésor de Matelite[0xab].
+        <data>Tu as obtenu ``Le trésor de Matelite''.
  
 Il est solidement scellé. L'ouvrir ?[end]</data>
     </text>
@@ -317,43 +317,43 @@ Il est solidement scellé. L'ouvrir ?[end]</data>
         <refs>
             <ref>0x102c</ref>
         </refs>
-        <data>Tu as obtenu [0xaa]Souvenir de la princesse Yoyo[0xab].[end]</data>
+        <data>Tu as obtenu ``Souvenir de la princesse Yoyo''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfc9</ref>
         </refs>
-        <data>Tu as obtenu [0xaa]Truc du tiroir[0xab].[end]</data>
+        <data>Tu as obtenu ``Truc du tiroir''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfde</ref>
         </refs>
-        <data>Tu as obtenu [0xaa]Vin doux[0xab].[end]</data>
+        <data>Tu as obtenu ``Vin doux''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xffa</ref>
         </refs>
-        <data>Tu as obtenu [0xaa]Livre osé[0xab].[end]</data>
+        <data>Tu as obtenu ``Livre osé''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfb4</ref>
         </refs>
-        <data>Tu as obtenu [0xaa]Uniasticot[0xab].[end]</data>
+        <data>Tu as obtenu ``Uniasticot''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf9f</ref>
         </refs>
-        <data>Tu as obtenu [0xaa]Notes de génie[0xab].[end]</data>
+        <data>Tu as obtenu ``Notes de génie''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf86</ref>
         </refs>
-        <data>Tu as trouvé [0xb4] [0xaa]Gin magique[0xab].[end]</data>
+        <data>Tu as trouvé [0xb4] ``Gin magique''.[end]</data>
     </text>
     <text>
         <refs>
