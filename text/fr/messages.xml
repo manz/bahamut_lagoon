@@ -493,7 +493,7 @@
         <refs>
             <ref>0x71</ref>
         </refs>
-        <data>Soigne l'état - un allié[end]</data>
+        <data>Soigne les altérations - un allié[end]</data>
     </string>
     <string>
         <refs>
@@ -851,7 +851,7 @@
         <refs>
             <ref>0xd7</ref>
         </refs>
-        <data>Soigne l'état - un allié[end]</data>
+        <data>Soigne les altérations - un allié[end]</data>
     </string>
     <string>
         <refs>
@@ -939,7 +939,7 @@
             <ref>0xfa</ref>
             <ref>0xfb</ref>
         </refs>
-        <data>Il va se passer quelque chose![end]</data>
+        <data>Il va se passer quelque chose ![end]</data>
     </string>
     <string>
         <refs>
@@ -1286,7 +1286,7 @@
         <refs>
             <ref>0x1b7</ref>
         </refs>
-        <data>Soin d'état : ✚5, ⏱2[end]</data>
+        <data>Soin des altérations : ✚5, ⏱2[end]</data>
     </string>
     <string>
         <refs>
@@ -1456,31 +1456,31 @@
         <refs>
             <ref>0x241</ref>
         </refs>
-        <data>Le Commencement[end]</data>
+        <data>Les prémices[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x242</ref>
         </refs>
-        <data>La Légende Dont Nous Rêvons[end]</data>
+        <data>La légende dont nous rêvions[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x243</ref>
         </refs>
-        <data>Campbell,le Continent Verdoyant[end]</data>
+        <data>Campbell, le continent verdoyant[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x244</ref>
         </refs>
-        <data>Il y a beaucoup de regrets[end]</data>
+        <data>Rongés par les regrets[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x245</ref>
         </refs>
-        <data>L'Empereur Sauzer[end]</data>
+        <data>L'empereur Sauzer[end]</data>
     </string>
     <string>
         <refs>
@@ -1492,25 +1492,25 @@
         <refs>
             <ref>0x247</ref>
         </refs>
-        <data>La Légende des Dragons[end]</data>
+        <data>La légende des Dragons Sacrés[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x248</ref>
         </refs>
-        <data>Combat aérien de Dragons[end]</data>
+        <data>Combat aérien de dragons[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x249</ref>
         </refs>
-        <data>Mahal,le Continent Miracle[end]</data>
+        <data>Mahal, le continent des miracles[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x24a</ref>
         </refs>
-        <data>Le Pont Arc-en-Ciel[end]</data>
+        <data>Le pont arc-en-ciel[end]</data>
     </string>
     <string>
         <refs>
@@ -1528,7 +1528,7 @@
         <refs>
             <ref>0x24d</ref>
         </refs>
-        <data>Godland,la Cité de la Magie[end]</data>
+        <data>Godland, la cité de la magie[end]</data>
     </string>
     <string>
         <refs>
@@ -1540,7 +1540,7 @@
         <refs>
             <ref>0x24f</ref>
         </refs>
-        <data>Duel dans les Sables Chauds[end]</data>
+        <data>Duel dans les sables brûlants[end]</data>
     </string>
     <string>
         <refs>
@@ -1552,7 +1552,7 @@
         <refs>
             <ref>0x251</ref>
         </refs>
-        <data>La Porte de la Nouvelle Ère[end]</data>
+        <data>La porte d'une ère nouvelle[end]</data>
     </string>
     <string>
         <refs>
@@ -1564,13 +1564,13 @@
         <refs>
             <ref>0x253</ref>
         </refs>
-        <data>Adieu Matelite![end]</data>
+        <data>Adieu, Matelite !![end]</data>
     </string>
     <string>
         <refs>
             <ref>0x254</ref>
         </refs>
-        <data>Le Ciel de la Tristesse[end]</data>
+        <data>Le ciel de la tristesse[end]</data>
     </string>
     <string>
         <refs>
@@ -1582,31 +1582,31 @@
         <refs>
             <ref>0x256</ref>
         </refs>
-        <data>La Bataille Finale Décisive[end]</data>
+        <data>L'ultime bataille[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x257</ref>
         </refs>
-        <data>L'Effondrement[end]</data>
+        <data>L'effondrement[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x258</ref>
         </refs>
-        <data>Vers la Patrie[end]</data>
+        <data>Vers le pays natal...[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x259</ref>
         </refs>
-        <data>Voyageur Pour l'Eternité[end]</data>
+        <data>Voyageurs éternels[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x25a</ref>
         </refs>
-        <data>Alexandre,Roi Dragon Sacré[end]</data>
+        <data>Alexandre, roi des Dragons Sacrés[end]</data>
     </string>
     <string>
         <refs>
@@ -1655,13 +1655,13 @@
         <refs>
             <ref>0x268</ref>
         </refs>
-        <data>Que voulez-vous acheter?[end]</data>
+        <data>Que voulez-vous acheter ?[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x269</ref>
         </refs>
-        <data>Combien en voulez-vous?[end]</data>
+        <data>Combien en voulez-vous ?[end]</data>
     </string>
     <string>
         <refs>
@@ -1685,13 +1685,13 @@
         <refs>
             <ref>0x26d</ref>
         </refs>
-        <data>Quelle partie voulez-vous charger?[end]</data>
+        <data>Quelle partie voulez-vous charger ?[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x26e</ref>
         </refs>
-        <data>      Sauvegarder la partie?[end]</data>
+        <data>      Sauvegarder la partie ?[end]</data>
     </string>
     <string>
         <refs>
@@ -1703,7 +1703,7 @@
         <refs>
             <ref>0x270</ref>
         </refs>
-        <data>Écraser cette sauvegarde?[end]</data>
+        <data>Écraser cette sauvegarde ?[end]</data>
     </string>
     <string>
         <refs>
@@ -1721,13 +1721,13 @@
         <refs>
             <ref>0x273</ref>
         </refs>
-        <data>Que voulez-vous vendre?[end]</data>
+        <data>Que voulez-vous vendre ?[end]</data>
     </string>
     <string>
         <refs>
             <ref>0x274</ref>
         </refs>
-        <data>Combien voulez-vous en vendre?[end]</data>
+        <data>Combien voulez-vous en vendre ?[end]</data>
     </string>
     <!-- 0x275: the Dragon screen's stat labels; each [0xf5] moves the pen to the pixel after it, centring the
          label over its number (8 + 24 * column) -->

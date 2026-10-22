@@ -97,7 +97,7 @@
     <string jp="なぞのまほう">Magie mystère</string>
     <string jp="フレイムゲイズ">Regard de feu</string>
     <string jp="アイスマジック">Magie de glace</string>
-    <string jp="サンダ-ゲイル">Orage</string>
+    <string jp="サンダ-ゲイル">Orage de foudre</string>
     <string jp="バイオニクス">Bionique</string>
     <string jp="ヒルドラッグ">Sangsue</string>
     <string jp="ア-スクエイク">Séisme</string>
@@ -166,14 +166,14 @@
     <string jp="あんこくけん">Lame noire</string>
     <string jp="ナイトメア100">Cauchemar 100</string>
     <string jp="グランドトライン">Grand trigone</string>
-    <string jp="あんこくのちから">Force noire</string>
+    <string jp="あんこくのちから">Pouvoir noir</string>
     <string jp="カイゼルブレイド">Lame Kaiser</string>
     <string jp="ラグナレック">Ragnarok</string>
     <string jp="マグマスト-ム">Tempête de lave</string>
     <string jp="エクスカリバ-">Excalibur</string>
     <string jp="タイフ-ン">Typhon</string>
     <string jp="テンペスト">Ouragan</string>
-    <string jp="ヒ-トロッド">Bâton ardent</string>
+    <string jp="ヒ-トロッド">Bâton brûlant</string>
     <string jp="パワ-シフト">Transfert</string>
     <string jp="パワ-ドライブ">Surpuissance</string>
     <string jp="ノヴァ">Nova</string>
@@ -203,7 +203,7 @@
     <string jp="ショックカノン">Canon à choc</string>
     <string jp="はどうほう">Canon à onde</string>
     <string jp="じばく">Explosion</string>
-    <string jp="とつげき">Assaut</string>
+    <string jp="とつげき">Ruée</string>
     <string jp="フレイムヒット">Frappe de feu</string>
     <string jp="テレポトレ-ス">Téléport</string>
     <string jp="ショックウェ-ブ">Onde de choc</string>
