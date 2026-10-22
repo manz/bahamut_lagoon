@@ -18,7 +18,7 @@
     <string jump_to="0xee81c0" ref="0xee81b5">Magies</string>
     <string jump_to="0xee81d3" ref="0xee81c6">Objets</string>
     <string jump_to="0xee81e4" ref="0xee81d9">Équiper</string>
-    <string jump_to="0xee81f9" ref="0xee81ea">Infos</string>
+    <string jump_to="0xee81f9" ref="0xee81ea">Inventaire</string>
     <string jump_to="0xee8214" ref="0xee81ff" width="9" align="right">Tour</string>
     <string jump_to="0xee8235" ref="0xee821a" width="12" align="right">Piro</string>
     <string jump_to="0xee824c" ref="0xee823b">  .  .</string>
@@ -27,7 +27,7 @@
     <string jump_to="0xee8346" ref="0xee8339">Organisation</string>
     <string jump_to="0xee8359" ref="0xee834c">Dragon</string>
     <string jump_to="0xee836c" ref="0xee835f">Aptitude</string>
-    <string jump_to="0xee8388" ref="0xee8379">Infos</string>
+    <string jump_to="0xee8388" ref="0xee8379">Inventaire</string>
     <string jump_to="0xee8399" ref="0xee838e">Équiper</string>
     <string jump_to="0xee83aa" ref="0xee839f">Carte</string>
     <string jump_to="0xee83bf" ref="0xee83b0">Sortie</string>
@@ -94,7 +94,7 @@
     <string jump_to="0xeedda9" ref="0xeedda0">Achat</string>
     <string jump_to="0xeeddb8" ref="0xeeddaf">Vente</string>
     <string jump_to="0xeeddc9" ref="0xeeddbe">Équiper</string>
-    <string jump_to="0xeeddde" ref="0xeeddcf">Infos</string>
+    <string jump_to="0xeeddde" ref="0xeeddcf">Inventaire</string>
     <string jump_to="0xeee3d9" ref="0xeee3d2">x</string>
     <string jump_to="0xeee417" ref="0xeee40c">Piro</string>
     <string jump_to="0xeee47a" ref="0xeee467">Possédés</string>
