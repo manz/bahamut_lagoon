@@ -4,7 +4,7 @@
         <refs>
             <ref>0x44b</ref>
         </refs>
-        <data>EKATERINA:
+        <data>Ekaterina:
 Je me demande si cette fille voit le
 même ciel que moi.
 Son attitude ne me permet même pas
@@ -14,7 +14,7 @@ de mieux le cerner.[end]</data>
         <refs>
             <ref>0x596</ref>
         </refs>
-        <data>ZORA:
+        <data>Zora:
 Je vais enfin revoir Campbell après de
 si longues années.
 Je n'arriverai pas à rester calme
@@ -24,7 +24,7 @@ très longtemps tant je suis contente ![end]</data>
         <refs>
             <ref>0x5ef</ref>
         </refs>
-        <data>FREDERICA:
+        <data>Frederica:
 Moi ?!
 Je suis exténuée !
 Combattre est épuisant,
@@ -37,7 +37,7 @@ mais si tu veux... frappe-moi[0xd8]
         <refs>
             <ref>0x6e5</ref>
         </refs>
-        <data>DIANA:
+        <data>Diana:
 Tu n'as rien remarqué ?
  
 Tu as vu de quelle manière parlent les
@@ -50,7 +50,7 @@ lanciers depuis quelque temps ?
         <refs>
             <ref>0x764</ref>
         </refs>
-        <data>RUKI:
+        <data>Ruki:
 C'est bien que la Princesse [character][0x1]
 soit enfin revenue !
 Sache qu'une personne comme moi,
@@ -60,7 +60,7 @@ une Garde Lumière,peut marcher loin.[end]</data>
         <refs>
             <ref>0x532</ref>
         </refs>
-        <data>MELODY:
+        <data>Melody:
 [character][0x0],
 est-ce que tu aimes [character][0x1]?
  Évidemment,quelle question !
@@ -126,7 +126,7 @@ Quel désastre[0xd8][end][end]</data>
         <refs>
             <ref>0x60f</ref>
         </refs>
-        <data>FREDERICA:
+        <data>Frederica:
 Moi ?! Je vais bien !
 Je prépare un peu de médecine...[end]</data>
     </text>
@@ -134,7 +134,7 @@ Je prépare un peu de médecine...[end]</data>
         <refs>
             <ref>0x460</ref>
         </refs>
-        <data>EKATERINA:
+        <data>Ekaterina:
 Ainsi,il aimerait le Uniuji ?
 Hahaha,je lui en enverrai ![end]</data>
     </text>
@@ -142,7 +142,7 @@ Hahaha,je lui en enverrai ![end]</data>
         <refs>
             <ref>0x459</ref>
         </refs>
-        <data>EKATERINA:
+        <data>Ekaterina:
 Ainsi,il aimerait le Vin Doux ?
 Hahaha,je lui en enverrai ![end]</data>
     </text>
@@ -150,7 +150,7 @@ Hahaha,je lui en enverrai ![end]</data>
         <refs>
             <ref>0x3f9</ref>
         </refs>
-        <data>ANASTASIA:
+        <data>Anastasia:
 L'argent et la nourriture sont toujours
 suffisants.
 Durant une bataille,regarde toujours
@@ -164,7 +164,7 @@ Ils ne sont satisfaits que par ça.[end]</data>
         <refs>
             <ref>0x4cc</ref>
         </refs>
-        <data>DONFAN:
+        <data>Donfan:
 Leçon de Morale !
 Une sorcière ne ferait jamais ça ![end]</data>
     </text>
@@ -172,7 +172,7 @@ Une sorcière ne ferait jamais ça ![end]</data>
         <refs>
             <ref>0x668</ref>
         </refs>
-        <data>DONFAN:
+        <data>Donfan:
 Leçon de Morale !
 Une prêtresse ne ferait jamais ça ![end]</data>
     </text>
@@ -180,14 +180,14 @@ Une prêtresse ne ferait jamais ça ![end]</data>
         <refs>
             <ref>0x7b0</ref>
         </refs>
-        <data>DONFAN:
+        <data>Donfan:
 Je vis la vie au maximum ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x407</ref>
         </refs>
-        <data>ANASTASIA:
+        <data>Anastasia:
 Te souviens-tu de la nuit de la
 Restauration de Kana ?
 Bareck et Frederica se sont disputés !
@@ -201,7 +201,7 @@ Armure Lourde et une Sorcière.[end]</data>
         <refs>
             <ref>0x415</ref>
         </refs>
-        <data>ANASTASIA:
+        <data>Anastasia:
 Bareck a dit quelque chose ?
  
  Félicitations !
@@ -224,7 +224,7 @@ Héhéhéhéhé ![end]</data>
         <refs>
             <ref>0x46d</ref>
         </refs>
-        <data>EKATERINA:
+        <data>Ekaterina:
 Le visage souriant de cette fille...
 Le mien est beaucoup plus beau grâce
 au Vin Doux !
@@ -234,7 +234,7 @@ Huhu... Huhuhu... Huhuhuhu...[end]</data>
         <refs>
             <ref>0x477</ref>
         </refs>
-        <data>EKATERINA:
+        <data>Ekaterina:
 J'aime tellement le Uniuji...
  
 Mais où pourrais-je donc en avoir
@@ -259,7 +259,7 @@ Huhu... Huhuhu... Huhuhuhu...[end]</data>
         <refs>
             <ref>0x4a1</ref>
         </refs>
-        <data>EKATERINA:
+        <data>Ekaterina:
 Je ne cesse de me regarder pour
 contempler ma beauté !
 Soyons franche,Ekaterina !
@@ -277,7 +277,7 @@ Huhu... Huhuhu... Huhuhuhu...[end]</data>
         <refs>
             <ref>0x4ab</ref>
         </refs>
-        <data>EKATERINA:
+        <data>Ekaterina:
 Que j'ai de souvenirs !
 Que je suis intelligente !
 C'est [character][0x0] qui l'a dit !
@@ -294,7 +294,7 @@ Huhu... Huhuhu... Huhuhuhu...[end]</data>
         <refs>
             <ref>0x4c1</ref>
         </refs>
-        <data>NELBO:
+        <data>Nerbo:
 Est-ce que tu as remarqué quelque
 chose,[character][0x0]?
 Nous avons enfermé Donfan !
@@ -304,7 +304,7 @@ C'est génial,n'est-ce pas ?![end]</data>
         <refs>
             <ref>0x65d</ref>
         </refs>
-        <data>JOY:
+        <data>Joy:
 Moi et Nelbo sommes prêtes à être
 envoyées au combat dès qu'il sera
 temps ![end]</data>
@@ -313,7 +313,7 @@ temps ![end]</data>
         <refs>
             <ref>0x503</ref>
         </refs>
-        <data>NELBO:
+        <data>Nerbo:
 Lorsque la guerre sera finie,
 Donfan m'emmènera à Mahal.
 Il m'a dit qu'on aura une grande
@@ -326,7 +326,7 @@ amie Joy.[end]</data>
         <refs>
             <ref>0x69f</ref>
         </refs>
-        <data>JOY:
+        <data>Joy:
 Dès que la guerre sera finie,
 Donfan viendra à Campbell.
 Je crois qu'il sera subjugué par la
@@ -340,7 +340,7 @@ amie Nelbo.[end]</data>
             <ref>0x6aa</ref>
             <ref>0x50e</ref>
         </refs>
-        <data>DONFAN:
+        <data>Donfan:
 Haha,[character][0x0]!
 Je suis Donfan,le Méritant ![end]</data>
     </text>
@@ -348,7 +348,7 @@ Je suis Donfan,le Méritant ![end]</data>
         <refs>
             <ref>0x54f</ref>
         </refs>
-        <data>MELODY:
+        <data>Melody:
 Ah [character][0x0]!
 Tu sais qui aime Mélodia ?
  Tu vas encore mentir !
@@ -370,7 +370,7 @@ Tu sais qui aime Mélodia ?
         <refs>
             <ref>0x56a</ref>
         </refs>
-        <data>MELODY:
+        <data>Melody:
 Est-ce bientôt la fin de la guerre ?
  
  Je n'en sais rien...
@@ -393,7 +393,7 @@ C'est long ![end]</data>
         <refs>
             <ref>0x59e</ref>
         </refs>
-        <data>ZORA:
+        <data>Zora:
 As-tu vu mon fils ?
  
  Non,désolé...
@@ -423,7 +423,7 @@ As-tu vu mon fils ?
             <ref>0x61c</ref>
             <ref>0x5cd</ref>
         </refs>
-        <data>FREDERICA:
+        <data>Frederica:
 Non,je ne suis pas en manque !
 Je tremble... c'est... tout !
 Il me faut...
@@ -436,7 +436,7 @@ Aujourd'hui les soins:
         <refs>
             <ref>0x636</ref>
         </refs>
-        <data>FREDERICA:
+        <data>Frederica:
 Moi ma plus grande difficulté,
 c'est de penser !
 Quand la guerre sera finie,j'essaierai
@@ -451,7 +451,7 @@ Je ne vendrai pas de magies illégales.[end]</data>
         <refs>
             <ref>0x738</ref>
         </refs>
-        <data>DIANA:
+        <data>Diana:
 Est-ce bientôt la fin de la guerre ?
  
  Je ne sais pas...
@@ -474,7 +474,7 @@ plus vraies.[end]</data>
         <refs>
             <ref>0x76b</ref>
         </refs>
-        <data>RUKI:
+        <data>Ruki:
 [character][0x0],tu sembles aller mieux depuis
 quelques jours !
 Fais-tu attention aux rumeurs qui
@@ -494,7 +494,7 @@ courent ?
         <refs>
             <ref>0x78e</ref>
         </refs>
-        <data>RUKI:
+        <data>Ruki:
 Chacun commence à penser à la fin de
 la guerre.
 Tout le monde sera satisfait lorsqu'ils
@@ -507,7 +507,7 @@ Nous en sommes tous persuadés ![end]</data>
         <refs>
             <ref>0x7a5</ref>
         </refs>
-        <data>JEANNE:
+        <data>Jeanne:
 Donfan est l'un des détracteurs de
 couples à Campbell.
 Nous avons réussi à le calmer !
@@ -518,7 +518,7 @@ enfin en paix.[end]</data>
         <refs>
             <ref>0x7c7</ref>
         </refs>
-        <data>JEANNE:
+        <data>Jeanne:
 Dès que la guerre sera finie,
 je crois que je retournerai à Mahal.
 Avec mes amis nous servirons tout
@@ -529,14 +529,14 @@ spécialement Commandant.[end]</data>
             <ref>0x7ed</ref>
             <ref>0x7de</ref>
         </refs>
-        <data>MIST:
+        <data>Mist:
 J'aimerais t'accompagner au combat ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7fc</ref>
         </refs>
-        <data>MIST:
+        <data>Mist:
 Frederica a des discussions bien
 étranges.
 Je suis aussi redevable envers Zora
@@ -549,7 +549,7 @@ C'est un vrai plaisir ![end]</data>
         <refs>
             <ref>0x3db</ref>
         </refs>
-        <data>TAURUS:
+        <data>Truth:
 Au moins,je ne penses à rien dans
 cette chambre !
 Ici,les femmes ne sont pas nerveuses
@@ -588,7 +588,7 @@ Je pourrais le respirer au moins
         <refs>
             <ref>0x672</ref>
         </refs>
-        <data>JOY:
+        <data>Joy:
 Tu ne penses pas que Donfan est
 très mignon comme ça ?[end]</data>
     </text>
@@ -596,7 +596,7 @@ très mignon comme ça ?[end]</data>
         <refs>
             <ref>0x4d6</ref>
         </refs>
-        <data>NELBO:
+        <data>Nerbo:
 Amuse-toi avec ce gentleman...
 Il est marrant,non ?
 ``Il a l'air idiot !''[end]</data>
@@ -606,7 +606,7 @@ Il est marrant,non ?
             <ref>0x4e1</ref>
             <ref>0x67d</ref>
         </refs>
-        <data>DONFAN:
+        <data>Donfan:
 Donfan est très bien ici mais il
 aime la vie mais pas l'humiliation ![end]</data>
     </text>
@@ -614,14 +614,14 @@ aime la vie mais pas l'humiliation ![end]</data>
         <refs>
             <ref>0x687</ref>
         </refs>
-        <data>JOY:
+        <data>Joy:
 Maintenant,Donfan est plus calme...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4eb</ref>
         </refs>
-        <data>NELBO:
+        <data>Nerbo:
 Maintenant,Donfan est plus calme au
 bar...[end]</data>
     </text>
@@ -630,7 +630,7 @@ bar...[end]</data>
             <ref>0x692</ref>
             <ref>0x4f6</ref>
         </refs>
-        <data>DONFAN:
+        <data>Donfan:
 Je suis toujours le même !
  
 Donfan captive encore autant
@@ -640,7 +640,7 @@ l'attention ![end]</data>
         <refs>
             <ref>0x71d</ref>
         </refs>
-        <data>DIANA:
+        <data>Diana:
 Est-ce que tu le sais ?
 C'est une chose importante !
  Informe-moi !
@@ -667,7 +667,7 @@ C'est fou,non ?![end]</data>
         <refs>
             <ref>0x702</ref>
         </refs>
-        <data>DIANA:
+        <data>Diana:
 Veux-tu savoir ce que j'ai à dire sur
 [character][0x1]?
  Informe-moi !
@@ -691,7 +691,7 @@ Je me pose beaucoup de questions ![end]</data>
         <refs>
             <ref>0x400</ref>
         </refs>
-        <data>ANASTASIA:
+        <data>Anastasia:
 Je vais t'apprendre quelque chose !
  
 Les dragons peuvent utiliser la magie
@@ -714,7 +714,7 @@ ne sont que des brutes.[end]</data>
         <refs>
             <ref>0x40e</ref>
         </refs>
-        <data>ANASTASIA:
+        <data>Anastasia:
 Aujourd'hui je suis allée me promener
 mais je n'ai rien découvert de très
 intéressant.
@@ -725,7 +725,7 @@ lentement... lentement...[end]</data>
         <refs>
             <ref>0x787</ref>
         </refs>
-        <data>RUKI:
+        <data>Ruki:
 La Porte de la Nouvelle Ère est
 ouverte...
 Qu'allons-nous bien trouver au-delà de
@@ -735,7 +735,7 @@ cette Porte ?[end]</data>
         <refs>
             <ref>0x7bd</ref>
         </refs>
-        <data>JEANNE:
+        <data>Jeanne:
 J'avais demandé du Miel Doux et des
 Cookies à Donfan mais il ne cesse
 de sauter et de me regarder ![end]</data>
@@ -744,7 +744,7 @@ de sauter et de me regarder ![end]</data>
         <refs>
             <ref>0x487</ref>
         </refs>
-        <data>EKATERINA:
+        <data>Ekaterina:
 Que pourrait penser une fille comme
 moi en ce moment ?
 Pourquoi personne n'amène du Vin Doux
@@ -758,7 +758,7 @@ Huhu... Huhuhu... Huhuhuhu...[end]</data>
         <refs>
             <ref>0x491</ref>
         </refs>
-        <data>EKATERINA:
+        <data>Ekaterina:
 Une fois de plus,
 je sais encore tant de choses !
 Est-ce le uniuji qui me rend si

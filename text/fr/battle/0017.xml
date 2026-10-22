@@ -4,14 +4,14 @@
         <refs>
             <ref>0x3f</ref>
         </refs>
-        <data>COMMANDANT: Ce sont des créatures que je
+        <data>Taicho: Ce sont des créatures que je
 n'ai jamais vues !![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x32</ref>
         </refs>
-        <data>MATELITE: Que sont ces monstres,
+        <data>Matelite: Que sont ces monstres,
 bon sang ?![0xfc][0x15] Ils sont sortis d'un trou
 dans le ciel !![end1][end]</data>
     </text>
@@ -39,7 +39,7 @@ tels monstres...[0xfc][0x20][end1][end]</data>
         <refs>
             <ref>0x64</ref>
         </refs>
-        <data>SENDAK: Prudence, [0xfc][0x10][character][0x0].[0xfc][0x20]
+        <data>Sendak: Prudence, [0xfc][0x10][character][0x0].[0xfc][0x20]
 J'ignore ce qu'ils sont...[end1][end]</data>
     </text>
     <text>
@@ -59,7 +59,7 @@ J'ignore ce qu'ils sont...[end1][end]</data>
         <refs>
             <ref>0xab</ref>
         </refs>
-        <data>MATELITE: Regardez !![end1][end]</data>
+        <data>Matelite: Regardez !![end1][end]</data>
     </text>
     <text>
         <refs>

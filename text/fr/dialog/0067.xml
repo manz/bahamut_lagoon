@@ -4,14 +4,14 @@
         <refs>
             <ref>0x144</ref>
         </refs>
-        <data>FREDERICA:
+        <data>Frederica:
 Je me demande si [character][0x0] arrive.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x152</ref>
         </refs>
-        <data>HORNET:
+        <data>Hornet:
 Désolé de vous avoir fait attendre !
 Notre chef va bientôt arriver !
 Il accompagne Sendak,le Capitaine de
@@ -21,21 +21,21 @@ ce vaisseau,qui est assez vieux ![end]</data>
         <refs>
             <ref>0x15d</ref>
         </refs>
-        <data>DIANA:
+        <data>Diana:
 [character][0x0] arrive ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x315</ref>
         </refs>
-        <data>FREDERICA:
+        <data>Frederica:
 Bienvenue [character][0x0]![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x327</ref>
         </refs>
-        <data>DIANA:
+        <data>Diana:
 Tu es en retard !
 Nous nous inquiétions ![end]</data>
     </text>
@@ -43,7 +43,7 @@ Nous nous inquiétions ![end]</data>
         <refs>
             <ref>0x33d</ref>
         </refs>
-        <data>HORNET:
+        <data>Hornet:
 Parlez un peu du passé ensemble !
  
 Après cela,le voyage vers le combat
@@ -53,7 +53,7 @@ commence ![end]</data>
         <refs>
             <ref>0x34a</ref>
         </refs>
-        <data>HORNET:
+        <data>Hornet:
 Capitaine du vaisseau,Sendak !
 Donnez-nous le signal ![end]</data>
     </text>
@@ -61,7 +61,7 @@ Donnez-nous le signal ![end]</data>
         <refs>
             <ref>0x363</ref>
         </refs>
-        <data>HORNET:
+        <data>Hornet:
 En route !
 Nous n'avons rien oublié ?!
 Le nouveau nom du bateau a été
@@ -71,14 +71,14 @@ choisi ?[end]</data>
         <refs>
             <ref>0x3c0</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Comment osent-ils nous bloquer ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3f5</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>Taicho:
 Matelite !
 Arrêtez ![end]</data>
     </text>
@@ -86,14 +86,14 @@ Arrêtez ![end]</data>
         <refs>
             <ref>0x375</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 Le nom du bateau est...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x403</ref>
         </refs>
-        <data>HORNET:
+        <data>Hornet:
 Oh !
  
 Vous êtes dans mon vaisseau,
@@ -103,7 +103,7 @@ alors soyez calme ![end]</data>
         <refs>
             <ref>0x41d</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Comment osent-ils ?!
 Je suis Matelite tout de même ![end]</data>
     </text>
@@ -111,7 +111,7 @@ Je suis Matelite tout de même ![end]</data>
         <refs>
             <ref>0x4b5</ref>
         </refs>
-        <data>HORNET:
+        <data>Hornet:
 Allez-y,Sendak !
 Annoncez le nom de ce bateau ![end]</data>
     </text>
@@ -119,7 +119,7 @@ Annoncez le nom de ce bateau ![end]</data>
         <refs>
             <ref>0x4c7</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 Hum hum !
 Soyez attentifs...[end]</data>
     </text>
@@ -134,7 +134,7 @@ Fareneit ![end]</data>
         <refs>
             <ref>0x553</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>Taicho:
 La fierté de Kana ?!
 C'est cela ![end]</data>
     </text>
@@ -142,7 +142,7 @@ C'est cela ![end]</data>
         <refs>
             <ref>0x578</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Co... Commandant...
  
 Je... je te le demande...[end]</data>
@@ -151,7 +151,7 @@ Je... je te le demande...[end]</data>
         <refs>
             <ref>0x581</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>Taicho:
 Tu veux que je fasse ça,
 Matelite ![end]</data>
     </text>
@@ -159,7 +159,7 @@ Matelite ![end]</data>
         <refs>
             <ref>0x587</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>Taicho:
 Matelite,c'est à toi de le faire !
 Ce sont tes souvenirs !
 D'accord,je vais le faire ![end]</data>
@@ -168,7 +168,7 @@ D'accord,je vais le faire ![end]</data>
         <refs>
             <ref>0x6ce</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>Taicho:
 Matelite !
 Regardez ![end]</data>
     </text>
@@ -183,7 +183,7 @@ Le Drapeau National de Kana ![end]</data>
         <refs>
             <ref>0x717</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Notre Patrie Kana...
 La Princesse [character][0x1]...
 Sendak,ce vieux magicien !
@@ -210,7 +210,7 @@ Je suis le puissant Matelite ![end]</data>
         <refs>
             <ref>0x5f9</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>Taicho:
 Allons-y ![end]</data>
     </text>
 </texts>

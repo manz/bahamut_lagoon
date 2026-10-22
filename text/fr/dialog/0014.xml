@@ -4,7 +4,7 @@
         <refs>
             <ref>0xfa</ref>
         </refs>
-        <data>MELODY:
+        <data>Melody:
 Ouhahaha !
  
 Ça faisait si longtemps que je n'avais
@@ -20,7 +20,7 @@ pas revu Godrand ![end]</data>
         <refs>
             <ref>0x119</ref>
         </refs>
-        <data>RUKI:
+        <data>Ruki:
 Au fait,Mélodia,pourquoi avais-tu
 quitté cette ville ?[end]</data>
     </text>
@@ -28,7 +28,7 @@ quitté cette ville ?[end]</data>
         <refs>
             <ref>0x132</ref>
         </refs>
-        <data>MELODY:
+        <data>Melody:
 Je suis partie avec un dragon puisque
 les Petits Démons s'étaient enfuis.[end]</data>
     </text>
@@ -36,7 +36,7 @@ les Petits Démons s'étaient enfuis.[end]</data>
         <refs>
             <ref>0x16c</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Mais...
 Je ne comprends rien...
 Nous combattons pour Campbell et
@@ -51,7 +51,7 @@ Aiment-ils autant Granbelos ?![end]</data>
         <refs>
             <ref>0x178</ref>
         </refs>
-        <data>RUKI:
+        <data>Ruki:
 Tout le monde n'est pas pareil,
 Matelite.
 Tu oublies Mahal,ce lagon a combattu
@@ -62,7 +62,7 @@ Et,il y avait Donfan et Jeanne.[end]</data>
         <refs>
             <ref>0x18d</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 Donfan ?!
 Est-il encore sur le bateau ?
 J'espère qu'il ne va causer aucun
@@ -75,7 +75,7 @@ mes ordres et ma discipline.[end]</data>
         <refs>
             <ref>0x19b</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Encore des balivernes !
 La sénilité te gagne !
 Ce sont malheureusement les
@@ -85,7 +85,7 @@ conséquences de la vieillesse ![end]</data>
         <refs>
             <ref>0x1a4</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 Haha !
 Vous avez tous entendu !
 Qu'est-ce que je vous disais ?![end]</data>
@@ -102,14 +102,14 @@ je te fais confiance ![end]</data>
         <refs>
             <ref>0x1c7</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 Tout ira bien,normalement.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1de</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>Taicho:
 Quel soulagement de pouvoir faire
 confiance à [character][0x0]![end]</data>
     </text>
@@ -117,7 +117,7 @@ confiance à [character][0x0]![end]</data>
         <refs>
             <ref>0x22b</ref>
         </refs>
-        <data>RUKI:
+        <data>Ruki:
 [character][0x0]...
 Fais attention ![end]</data>
     </text>
@@ -193,7 +193,7 @@ Bienvenue à Godrand ![end]</data>
         <refs>
             <ref>0x8bc</ref>
         </refs>
-        <data>DONFAN:
+        <data>Donfan:
 Saluuuuut !
 Tu es un ange si tendre ![end]</data>
     </text>
@@ -209,7 +209,7 @@ serviteur.[end]</data>
         <refs>
             <ref>0x8d0</ref>
         </refs>
-        <data>DONFAN:
+        <data>Donfan:
 Et à côté de moi se trouve [character][0x0]![end]</data>
     </text>
     <text>
@@ -224,7 +224,7 @@ Kana ![end]</data>
         <refs>
             <ref>0x8fe</ref>
         </refs>
-        <data>FEMME:
+        <data>Femme:
 [character][0x0],le Capitaine de l'Escadron Dragon
 de Kana ?![end]</data>
     </text>
@@ -232,7 +232,7 @@ de Kana ?![end]</data>
         <refs>
             <ref>0x907</ref>
         </refs>
-        <data>DONFAN:
+        <data>Donfan:
 Hé ! Attends une minute !
 J'ai l'impression que tu le connais ?[end]</data>
     </text>
@@ -269,7 +269,7 @@ Tu ne sens pas très bon.[end][end]</data>
         <refs>
             <ref>0x608</ref>
         </refs>
-        <data>DONFAN:
+        <data>Donfan:
 Où cette femme a-t-elle déjà entendu
 parler de toi ?!
 Haha,les femmes !
@@ -284,7 +284,7 @@ Que va-t-il advenir de moi ?[end]</data>
         <refs>
             <ref>0x61c</ref>
         </refs>
-        <data>GRAND-PERE:
+        <data>Grand-père:
 Je connais aussi un vieil hymne...[end]</data>
     </text>
     <text>
@@ -310,7 +310,7 @@ de nouveauté ![end]</data>
         <refs>
             <ref>0x63a</ref>
         </refs>
-        <data>MELODY:
+        <data>Melody:
 Hum et... [0xb3] Petits Démons sont
 source de rendez-vous ![end]</data>
     </text>
@@ -318,14 +318,14 @@ source de rendez-vous ![end]</data>
         <refs>
             <ref>0x644</ref>
         </refs>
-        <data>GRAND-PERE:
+        <data>Grand-père:
 Oui,c'est cela ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x669</ref>
         </refs>
-        <data>MELODY:
+        <data>Melody:
 Ouais !
  
 Sûrement que le Dragon Sacré sera
@@ -337,7 +337,7 @@ Maintenant,on peut se sentir mieux ![end]</data>
         <refs>
             <ref>0x6d4</ref>
         </refs>
-        <data>GRAND-PERE:
+        <data>Grand-père:
 Connaîtrais-tu une maxime qui te serait
 très utile ?[end]</data>
     </text>
@@ -345,7 +345,7 @@ très utile ?[end]</data>
         <refs>
             <ref>0x60f</ref>
         </refs>
-        <data>MELODY:
+        <data>Melody:
 Vite,grimpons sur les dragons ![end]</data>
     </text>
     <text>
@@ -360,14 +360,14 @@ Parfois,elle me fait penser à moi
         <refs>
             <ref>0x686</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>Taicho:
 Préparez-vous avant le départ ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x601</ref>
         </refs>
-        <data>MIST:
+        <data>Mist:
 Je vais bien...
 Je vais revoir toute l'équipe.
 Je crois avoir suffisamment récupéré.[end]</data>
@@ -376,7 +376,7 @@ Je crois avoir suffisamment récupéré.[end]</data>
         <refs>
             <ref>0x5fa</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Mist vient avec nous !
 Elle va venir à Fareneit.[end]</data>
     </text>
@@ -384,7 +384,7 @@ Elle va venir à Fareneit.[end]</data>
         <refs>
             <ref>0x740</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 Tout est prêt ?[end]</data>
     </text>
     <text>
@@ -413,7 +413,7 @@ Nous allons aller le trouver ![end]</data>
         <refs>
             <ref>0x6b4</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Allons-y,allons combattre !
 L'Empire s'essouffle !
 [character][0x0]!

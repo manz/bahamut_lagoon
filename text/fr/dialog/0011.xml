@@ -4,7 +4,7 @@
         <refs>
             <ref>0x6b9</ref>
         </refs>
-        <data>SENDAK: Excellent !
+        <data>Sendak: Excellent !
 Écoute ce que j'ai appris...
 
 La Princesse a fait un rêve dans lequel se trouvait le
@@ -26,7 +26,7 @@ mais en fait il voulait être avec la Princesse.[end]</data>
         <refs>
             <ref>0x7d5</ref>
         </refs>
-        <data>SENDAK: Va-t-on bientôt partir combattre dans ce 
+        <data>Sendak: Va-t-on bientôt partir combattre dans ce 
 lieu rempli de lacs ?[end]</data>
     </text>
     <text>
@@ -57,7 +57,7 @@ C'est ma passion...[end]</data>
         <refs>
             <ref>0x7e9</ref>
         </refs>
-        <data>BIKEBAKE: Elle a un champignon sur le dos !
+        <data>Bikebake: Elle a un champignon sur le dos !
 
 
 Cette pieuvre en a un sur le dos !
@@ -69,7 +69,7 @@ Cette pieuvre en a un sur le dos !
         <refs>
             <ref>0x64e</ref>
         </refs>
-        <data>SERGENT: ``Grognement'' J'avais oublié les sensations
+        <data>Gunso: ``Grognement'' J'avais oublié les sensations
 d'un lit bien de chez soi...
 
 Mais il va falloir bientôt retourner à Fareneit.
@@ -79,7 +79,7 @@ Mais il va falloir bientôt retourner à Fareneit.
         <refs>
             <ref>0x858</ref>
         </refs>
-        <data>RUKI: Donfan...[end]</data>
+        <data>Ruki: Donfan...[end]</data>
     </text>
     <text>
         <refs>
@@ -94,7 +94,7 @@ Alors,s'il te plaît... attrape-la ![end]</data>
         <refs>
             <ref>0x250</ref>
         </refs>
-        <data>BIKEBAKE: Ah !
+        <data>Bikebake: Ah !
 Je vais t'attraper !
 Prends ma main ![end]</data>
     </text>
@@ -102,7 +102,7 @@ Prends ma main ![end]</data>
         <refs>
             <ref>0x29d</ref>
         </refs>
-        <data>RUKI: Donfan !
+        <data>Ruki: Donfan !
  
 
 Que faisais-tu dans ma chambre, ce matin ?!
@@ -114,7 +114,7 @@ Et qu'as-tu été raconter à la Princesse ?![end]</data>
         <refs>
             <ref>0x348</ref>
         </refs>
-        <data>RUKI: Donfan,tu as voulu faire boire du
+        <data>Ruki: Donfan,tu as voulu faire boire du
 [0xaa]VIN DOUX[0xab] à [character][0x1]...
 
 J'espère que tu avais vu ton reflet dans les lacs
@@ -130,7 +130,7 @@ les Ruines ![end]</data>
         <refs>
             <ref>0x33c</ref>
         </refs>
-        <data>DONFAN:
+        <data>Donfan:
 Ah ! Bonjour Ruki !
 Moi ?! Ce matin ?!
 Qui ? Dans ta chambre ?
@@ -151,7 +151,7 @@ grand coeur ![end]</data>
         <refs>
             <ref>0x384</ref>
         </refs>
-        <data>DONFAN:
+        <data>Donfan:
 Ruki,tes sentiments dépassent souvent
 ta pensée.[end]</data>
     </text>
@@ -205,7 +205,7 @@ Ou bien,il y a aussi [character][0x0]?![end]</data>
         <refs>
             <ref>0x830</ref>
         </refs>
-        <data>BIKEBAKE:
+        <data>Bikebake:
 [character][0x0],vieux frère !
 Tu veux des champignons ?[end]</data>
     </text>
@@ -271,7 +271,7 @@ Tu veux des champignons ?[end]</data>
         <refs>
             <ref>0xb0c</ref>
         </refs>
-        <data>BIKEBAKE:
+        <data>Bikebake:
 Je vais t'expliquer comment tu dois
 t'y prendre:
 Pour réussir à faire avancer la
@@ -290,7 +290,7 @@ le bouton A ![end]</data>
         <refs>
             <ref>0xb34</ref>
         </refs>
-        <data>BIKEBAKE:
+        <data>Bikebake:
 Tu l'as ratée !
 La pieuvre s'est enfuie ![end]</data>
     </text>
@@ -311,7 +311,7 @@ Nous sommes très puissants ![end]</data>
         <refs>
             <ref>0x240</ref>
         </refs>
-        <data>DONFAN:
+        <data>Donfan:
 Au secours !
 À l'aide !
 Je vais me noyer ![end]</data>
@@ -320,7 +320,7 @@ Je vais me noyer ![end]</data>
         <refs>
             <ref>0x28a</ref>
         </refs>
-        <data>DONFAN:
+        <data>Donfan:
 Ouf Ouf...
 Tu m'as sauvé ! Merci ![end]</data>
     </text>

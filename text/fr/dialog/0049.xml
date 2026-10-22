@@ -15,7 +15,7 @@ Bon,j'y entre en premier[0xd8][end]</data>
         <refs>
             <ref>0x1ee</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>Taicho:
 Hahaha,
 le magnifique château de Kana !
 Il est encore plus splendide que celui
@@ -25,7 +25,7 @@ de Mahal ![end]</data>
         <refs>
             <ref>0x219</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>Taicho:
 Ce sont de véritables statues de
 dragons !
 Elles ont l'air en vie et elles sont si
@@ -35,7 +35,7 @@ scintillantes.[end]</data>
         <refs>
             <ref>0xe5a</ref>
         </refs>
-        <data>RUSH:
+        <data>Rush:
 Nous devrions attendre notre nouvelle
 Impératrice.
 Elle ne va pas tarder !
@@ -68,7 +68,7 @@ Alors,ne pensons plus à ça ![end]</data>
         <refs>
             <ref>0xe78</ref>
         </refs>
-        <data>TAURUS:
+        <data>Truth:
 Bikebake a encore transporté ses
 champignons quelque part.
 Le cours des champignons a chuté,
@@ -79,7 +79,7 @@ Est-il inquiet pour cela ?[end]</data>
         <refs>
             <ref>0xdc6</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>Taicho:
 Matelite fait le timide car il prépare
 un grand évènement pour ce soir ![end]</data>
     </text>
@@ -94,7 +94,7 @@ Matelite ?[end]</data>
         <refs>
             <ref>0xe3c</ref>
         </refs>
-        <data>BARECK:
+        <data>Barclay:
 Matelite ?
 Il est probablement là-bas ![end]</data>
     </text>
@@ -130,7 +130,7 @@ la chute ![end]</data>
         <refs>
             <ref>0xe53</ref>
         </refs>
-        <data>BARECK:
+        <data>Barclay:
 Le Général Palparos va faire commencer
 les travaux pour le château de Kana !
 Matelite est pour l'instant un peu
@@ -140,7 +140,7 @@ pauvre pour ça...[end]</data>
         <refs>
             <ref>0xe28</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 Je me sens fort pour un vieil homme !
 Oui et même très puissant[0xd8]
 ``Chuchotement''
@@ -156,7 +156,7 @@ Que veulent-ils dire ?[end]</data>
         <refs>
             <ref>0xda6</ref>
         </refs>
-        <data>FREDERICA:
+        <data>Frederica:
 Les sorcières ne sont pas des filles
 promises à tous !
 Je dois dire que tout le monde ne le
@@ -246,7 +246,7 @@ Sortons,sortons[0xd8][end]</data>
         <refs>
             <ref>0x313</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>Taicho:
 [character][0x1] va arriver !
 [character][0x0],va à ta place ![end]</data>
     </text>
@@ -262,7 +262,7 @@ Quelque chose ne va pas ?[end]</data>
         <refs>
             <ref>0x441</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>Taicho:
 Matelite a disparu[0xd8]
  
 La nuit de la Restauration de Kana
@@ -367,7 +367,7 @@ Capitaine de la Cavalerie de Mahal ?[end]</data>
         <refs>
             <ref>0x4c6</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>Taicho:
 Je vous suivrai Impératrice[0xd8]
  
 Et Matelite aurait été ravi d'entendre
@@ -389,7 +389,7 @@ Continueras-tu à nous aider ?[end]</data>
         <refs>
             <ref>0x4f7</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 M... moi,un puissant sorcier !
 Mais... je... pense...
 Euh... n'importe quoi...
@@ -409,14 +409,14 @@ cause commune ?[end]</data>
         <refs>
             <ref>0x536</ref>
         </refs>
-        <data>RUSH:
+        <data>Rush:
 Nous le ferons[0xd8][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x550</ref>
         </refs>
-        <data>TAURUS:
+        <data>Truth:
 Nous combattrons ensemble,
 Impératrice [character][0x1]![end]</data>
     </text>
@@ -485,7 +485,7 @@ du trou noir.[end]</data>
         <refs>
             <ref>0x5c6</ref>
         </refs>
-        <data>PALPAROS:
+        <data>Palparos:
 L'Empire est maintenant sous l'influence
 politique du Général Gudruff !
 Il utilisera toutes les forces possibles
@@ -654,7 +654,7 @@ nous nous amuserons ![end]</data>
         <refs>
             <ref>0x9ea</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 [character][0x1]!
 C'est moi,Matelite !
 Au plus haut de Kana !
@@ -689,28 +689,28 @@ Merci à tous ![end]</data>
         <refs>
             <ref>0xa3</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 [character][0x1] est-elle... élégante ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xba</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>Taicho:
 Elle est élégante et elle est puissante...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd1</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 [character][0x1] est-elle... magnifique ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe8</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>Taicho:
 Elle est splendide puisqu'elle porte la
 robe que lui a donnée Matelite ![end]</data>
     </text>
@@ -718,14 +718,14 @@ robe que lui a donnée Matelite ![end]</data>
         <refs>
             <ref>0xff</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 [character][0x1] est-elle... heureuse ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x116</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>Taicho:
 Elle était malheureuse car Matelite
 n'était pas là ![end]</data>
     </text>
@@ -733,14 +733,14 @@ n'était pas là ![end]</data>
         <refs>
             <ref>0x128</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 [character][0x1]...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x13a</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>Taicho:
 Tout va bien,Matelite...
 Tout va bien...[end]</data>
     </text>

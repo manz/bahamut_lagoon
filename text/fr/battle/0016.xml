@@ -4,13 +4,13 @@
         <refs>
             <ref>0x2c</ref>
         </refs>
-        <data>MATELITE: Voici le temple du désert !![end1][end]</data>
+        <data>Matelite: Voici le temple du désert !![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x37</ref>
         </refs>
-        <data>SENDAK: Princesse...[0xfc][0x20] je le sens aussi.[0xfc][0x30]
+        <data>Sendak: Princesse...[0xfc][0x20] je le sens aussi.[0xfc][0x30]
 Le Dragon Sacré Jormungand nous appelle.[end1][end]</data>
     </text>
     <text>
@@ -36,13 +36,13 @@ Le Dragon Sacré Jormungand nous appelle.[end1][end]</data>
         <refs>
             <ref>0x7e</ref>
         </refs>
-        <data>MATELITE: Princesse [character][0x1]...[0xfc][0x18]
+        <data>Matelite: Princesse [character][0x1]...[0xfc][0x18]
 Je ne vous quitterai pas ![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x89</ref>
         </refs>
-        <data>RUSH: On est tous dans le même bateau !![end1][end]</data>
+        <data>Rush: On est tous dans le même bateau !![end1][end]</data>
     </text>
 </texts>

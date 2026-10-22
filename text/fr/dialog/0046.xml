@@ -49,7 +49,7 @@ Ne tente rien [character][0x0]!
         <refs>
             <ref>0x28f</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Princesse [character][0x1],
 attendez-nous !
 Je vais vous escorter ![end]</data>
@@ -58,7 +58,7 @@ Je vais vous escorter ![end]</data>
         <refs>
             <ref>0x2a3</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>Taicho:
 [character][0x1] semble bien se porter !
  
 [character][0x0],je t'en prie,va tout de même la
@@ -68,7 +68,7 @@ rejoindre ![end]</data>
         <refs>
             <ref>0x299</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 [character][0x0]...
 je... ne peux plus...
 Va la soutenir...

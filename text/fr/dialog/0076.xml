@@ -12,14 +12,14 @@
         <refs>
             <ref>0x92</ref>
         </refs>
-        <data>HORNET:
+        <data>Hornet:
 Sauzer se trouve sur notre bateau.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9f</ref>
         </refs>
-        <data>HORNET:
+        <data>Hornet:
 Allons-nous enfin comprendre de
 nombreuses choses ?[end]</data>
     </text>
@@ -27,7 +27,7 @@ nombreuses choses ?[end]</data>
         <refs>
             <ref>0x7a3</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 L'Empereur Sauzer est malade car il a
 utilisé la magie pour connaître le
 coeur des Dragons Sacrés.[end]</data>
@@ -36,14 +36,14 @@ coeur des Dragons Sacrés.[end]</data>
         <refs>
             <ref>0x7c1</ref>
         </refs>
-        <data>SAUZER:
+        <data>Sauzer:
 Je le connais...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7d6</ref>
         </refs>
-        <data>SAUZER:
+        <data>Sauzer:
 Auparavant,je n'avais pas le pouvoir
 de comprendre le coeur des Dragons
 Sacrés ![end]</data>
@@ -52,7 +52,7 @@ Sacrés ![end]</data>
         <refs>
             <ref>0x7e3</ref>
         </refs>
-        <data>SAUZER:
+        <data>Sauzer:
 J'ai donc conclu un marché avec les
 gardiens d'Hypérion.
 Grâce à eux,j'ai connu son coeur...[end]</data>
@@ -90,7 +90,7 @@ Ils cachent leurs souvenirs ![end]</data>
         <refs>
             <ref>0x824</ref>
         </refs>
-        <data>SAUZER:
+        <data>Sauzer:
 Ce qu'ils cherchent à nous cacher
 concerne la Grande Guerre qui eut lieu
 entre eux !
@@ -203,7 +203,7 @@ connaissons la cause ![end]</data>
         <refs>
             <ref>0x904</ref>
         </refs>
-        <data>SAUZER:
+        <data>Sauzer:
 Oui,cependant leur haine reste très
 vivace...[end]</data>
     </text>
@@ -249,7 +249,7 @@ cette chambre ![end]</data>
         <refs>
             <ref>0x1451</ref>
         </refs>
-        <data>PALPAROS:
+        <data>Palparos:
 Sauzer admire le ciel...
  
 Il aimerait ne pas être...
@@ -259,7 +259,7 @@ dérangé...[end]</data>
         <refs>
             <ref>0x9a9</ref>
         </refs>
-        <data>TAURUS:
+        <data>Truth:
 Je ne comprends pas !
  
 Les corps des Dragons Sacrés ne sont
@@ -276,7 +276,7 @@ elle ?[end]</data>
         <refs>
             <ref>0xc91</ref>
         </refs>
-        <data>RUSH:
+        <data>Rush:
 Comment pourrais-je être heureux avec
 l'Empereur ici ?[end]</data>
     </text>
@@ -284,14 +284,14 @@ l'Empereur ici ?[end]</data>
         <refs>
             <ref>0xcc2</ref>
         </refs>
-        <data>TAURUS:
+        <data>Truth:
 L'Empereur semble si faible ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x961</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 Tout le monde ne pense qu'à
 l'Empereur Sauzer ![end]</data>
     </text>
@@ -299,14 +299,14 @@ l'Empereur Sauzer ![end]</data>
         <refs>
             <ref>0x6aa</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 [character][0x1] se porte-t-elle bien ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xcc9</ref>
         </refs>
-        <data>TAURUS:
+        <data>Truth:
 J'écoute Sendak qui parle de
 Sauzer...[end]</data>
     </text>
@@ -314,14 +314,14 @@ Sauzer...[end]</data>
         <refs>
             <ref>0x1424</ref>
         </refs>
-        <data>FILS DE ZORA:
+        <data>Fils de Zora:
 L'air est un peu lourd ici ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6b4</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Princesse !
 Tenez bon ![end]</data>
     </text>
@@ -329,21 +329,21 @@ Tenez bon ![end]</data>
         <refs>
             <ref>0xa7a</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 Princesse...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc98</ref>
         </refs>
-        <data>RUSH:
+        <data>Rush:
 C'est terrible ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xcd0</ref>
         </refs>
-        <data>TAURUS:
+        <data>Truth:
 C'est impensable !
 La Princesse doit supporter beaucoup
 trop de choses ![end]</data>
@@ -352,14 +352,14 @@ trop de choses ![end]</data>
         <refs>
             <ref>0x742</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>Taicho:
 Elle est soudainement tombée ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x142b</ref>
         </refs>
-        <data>FILS DE ZORA:
+        <data>Fils de Zora:
 Il faut nettoyer !
  
 Interdit de passer par là ![end]</data>
@@ -368,14 +368,14 @@ Interdit de passer par là ![end]</data>
         <refs>
             <ref>0x1177</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Amenons-la à la cabine ![end][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x96e</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 Tous les Dragons Sacrés sont furieux
 contre le Dragon protecteur de Kana,
 Bahamut.
@@ -389,7 +389,7 @@ nouveau une guerre entre eux ?[end]</data>
         <refs>
             <ref>0x983</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Il se pourrait que les Dragons Sacrés
 fassent la guerre à Bahamut...
 Mais alors Orelus serait totalement
@@ -399,7 +399,7 @@ détruit par les batailles...[end]</data>
         <refs>
             <ref>0x990</ref>
         </refs>
-        <data>RUSH:
+        <data>Rush:
 J'ai une confiance aveugle en
 Bahamut ![end]</data>
     </text>
@@ -407,7 +407,7 @@ Bahamut ![end]</data>
         <refs>
             <ref>0x99d</ref>
         </refs>
-        <data>TAURUS:
+        <data>Truth:
 Vous ne pensez pas à tout !
  
 Nous devrions nous arrêter un moment ![end]</data>
@@ -416,7 +416,7 @@ Nous devrions nous arrêter un moment ![end]</data>
         <refs>
             <ref>0x9d7</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 C'est terrible !
  
 Le conflit entre les Dragons Sacrés
@@ -429,14 +429,14 @@ face à tant de colère...[end]</data>
         <refs>
             <ref>0xa2e</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>Taicho:
 C'est terrible ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9e3</ref>
         </refs>
-        <data>RUSH:
+        <data>Rush:
 Rien que le déchaînement de la colère
 d'Hypérion pourrait causer sa mort ![end]</data>
     </text>
@@ -444,7 +444,7 @@ d'Hypérion pourrait causer sa mort ![end]</data>
         <refs>
             <ref>0x9f3</ref>
         </refs>
-        <data>TAURUS:
+        <data>Truth:
 Elle supporte déjà leur fureur et leur
 haine !
 Nous devons faire quelque chose...[end]</data>
@@ -476,7 +476,7 @@ fille...[end]</data>
         <refs>
             <ref>0x120f</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Altair !
 Mais où est-ce ?![end]</data>
     </text>
@@ -484,7 +484,7 @@ Mais où est-ce ?![end]</data>
         <refs>
             <ref>0x121c</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 Est-ce le trou noir ?!
 La Porte au-delà de notre monde ?[end]</data>
     </text>
@@ -492,7 +492,7 @@ La Porte au-delà de notre monde ?[end]</data>
         <refs>
             <ref>0x1228</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Le Passage du Ciel ?!
  
 Alors à travers ce trou noir au-dessus
@@ -543,7 +543,7 @@ Nous devons aller à Altair ![end]</data>
         <refs>
             <ref>0x1290</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 [character][0x1]...
 Vous êtes si forte...
 Je vous soutiendrai ![end]</data>
@@ -552,7 +552,7 @@ Je vous soutiendrai ![end]</data>
         <refs>
             <ref>0x6be</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 [character][0x0],prépare-toi !
 L'ambiance qui règne ici est austère.[end]</data>
     </text>
@@ -579,14 +579,14 @@ Palparos...[end]</data>
             <ref>0x145c</ref>
             <ref>0x146e</ref>
         </refs>
-        <data>PALPAROS:
+        <data>Palparos:
 ... ... ... ... ...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6ef</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 [character][0x1] est si forte !
 Mais elle semble parfois si seule...[end]</data>
     </text>
@@ -594,7 +594,7 @@ Mais elle semble parfois si seule...[end]</data>
         <refs>
             <ref>0x1477</ref>
         </refs>
-        <data>PALPAROS:
+        <data>Palparos:
 Lorsque nous avons attaqué Kana,
 nous avons tiré beaucoup de profits
 des combats.
@@ -670,7 +670,7 @@ quelque chose ![end]</data>
         <refs>
             <ref>0xced</ref>
         </refs>
-        <data>TAURUS:
+        <data>Truth:
 Il n'y a rien de difficile à
 comprendre.
 [character][0x1] et Rush sont beaucoup trop
@@ -696,7 +696,7 @@ quelque chose entre eux ?[end]</data>
         <refs>
             <ref>0xee9</ref>
         </refs>
-        <data>ZORA:
+        <data>Zora:
 Je crois que l'Empereur de Granbelos
 doit être soigné...[end]</data>
     </text>
@@ -704,14 +704,14 @@ doit être soigné...[end]</data>
         <refs>
             <ref>0xef0</ref>
         </refs>
-        <data>ZORA:
+        <data>Zora:
 Il faut les laisser seuls.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xef7</ref>
         </refs>
-        <data>ZORA:
+        <data>Zora:
 Tu devrais peut-être lui dire quelques
 mots réconfortants...[end]</data>
     </text>
@@ -743,7 +743,7 @@ s'accoutumer à mon corps.[end]</data>
         <refs>
             <ref>0xd1b</ref>
         </refs>
-        <data>HORNET:
+        <data>Hornet:
 Nous en saurons plus demain,
 n'est-ce pas ?[end]</data>
     </text>
@@ -751,7 +751,7 @@ n'est-ce pas ?[end]</data>
         <refs>
             <ref>0x69c</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Ça m'inquiète que Palparos ait amené
 l'Empereur Sauzer à Fareneit !
 Je suis sûr que la Princesse se pose
@@ -761,7 +761,7 @@ aussi des questions ![end]</data>
         <refs>
             <ref>0x734</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>Taicho:
 L'Empereur Sauzer est ici,
 j'ai une drôle de sensation...[end]</data>
     </text>
@@ -777,7 +777,7 @@ Dragons Sacrés ![end]</data>
         <refs>
             <ref>0x144a</ref>
         </refs>
-        <data>PALPAROS:
+        <data>Palparos:
 C'est impossible...
 Pauvre Sauzer...[end]</data>
     </text>
@@ -785,14 +785,14 @@ Pauvre Sauzer...[end]</data>
         <refs>
             <ref>0x14f4</ref>
         </refs>
-        <data>SAUZER:
+        <data>Sauzer:
 Je n'ai besoin d'aucune aide ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x149b</ref>
         </refs>
-        <data>SAUZER:
+        <data>Sauzer:
 J'ai demandé Palparos...
 Ce sera mieux pour tous...[end]</data>
     </text>
@@ -800,7 +800,7 @@ Ce sera mieux pour tous...[end]</data>
         <refs>
             <ref>0x73b</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>Taicho:
 Les beaux lagons d'Orelus sont à feu
 à sang...
 Nous devons tous nous engager dans
@@ -810,7 +810,7 @@ le même combat...[end]</data>
         <refs>
             <ref>0x6a3</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Je crois que cet homme est résigné
 à mourir...[end]</data>
     </text>
@@ -818,7 +818,7 @@ Je crois que cet homme est résigné
         <refs>
             <ref>0x95a</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 Les Dragons Sacrés...
 La Porte de la Nouvelle Ère...
 Mon esprit est confus...[end]</data>
@@ -827,14 +827,14 @@ Mon esprit est confus...[end]</data>
         <refs>
             <ref>0x14a5</ref>
         </refs>
-        <data>SAUZER:
+        <data>Sauzer:
 Je veux voir le ciel...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf99</ref>
         </refs>
-        <data>SAUZER:
+        <data>Sauzer:
 Il devrait être à moi...
 Le ciel devait m'appartenir...
 Orelus devait être à moi...[end]</data>
@@ -843,21 +843,21 @@ Orelus devait être à moi...[end]</data>
         <refs>
             <ref>0xfaf</ref>
         </refs>
-        <data>SAUZER:
+        <data>Sauzer:
 Palparos...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfbc</ref>
         </refs>
-        <data>SAUZER:
+        <data>Sauzer:
 Mais j'ai été vaincu...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfcd</ref>
         </refs>
-        <data>SAUZER:
+        <data>Sauzer:
 La Légende...
 Ce ciel infini...[end]</data>
     </text>
@@ -865,7 +865,7 @@ Ce ciel infini...[end]</data>
         <refs>
             <ref>0xfdb</ref>
         </refs>
-        <data>SAUZER:
+        <data>Sauzer:
 Mon rêve ne se réalisera pas.
 
 Même si la Nouvelle Ère n'est pas pour
@@ -875,14 +875,14 @@ moi,j'aurais aimé la voir.[end]</data>
         <refs>
             <ref>0xfe7</ref>
         </refs>
-        <data>PALPAROS:
+        <data>Palparos:
 Sauzer...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xff2</ref>
         </refs>
-        <data>SAUZER:
+        <data>Sauzer:
 Je ne suis rien d'autre qu'un être
 humain...
 C'est la triste vérité ![end]</data>
@@ -891,7 +891,7 @@ C'est la triste vérité ![end]</data>
         <refs>
             <ref>0x1002</ref>
         </refs>
-        <data>SAUZER:
+        <data>Sauzer:
 Fais-moi une faveur...
  
 Pas à l'Empereur mais au véritable
@@ -901,7 +901,7 @@ Sauzer,l'humain...[end]</data>
         <refs>
             <ref>0x1014</ref>
         </refs>
-        <data>SAUZER:
+        <data>Sauzer:
 Si je venais à mourir,j'aimerais être
 à jamais dans le ciel d'Orelus...[end]</data>
     </text>
@@ -909,7 +909,7 @@ Si je venais à mourir,j'aimerais être
         <refs>
             <ref>0x1026</ref>
         </refs>
-        <data>SAUZER:
+        <data>Sauzer:
 Laisse-moi flotter dans cet océan de
 nuages...[end]</data>
     </text>
@@ -917,14 +917,14 @@ nuages...[end]</data>
         <refs>
             <ref>0x1032</ref>
         </refs>
-        <data>SAUZER:
+        <data>Sauzer:
 Encore et encore...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x103b</ref>
         </refs>
-        <data>SAUZER:
+        <data>Sauzer:
 Et si mon corps atteint un jour un
 lagon inconnu,alors...
 Nomme ce lagon de mon nom...
@@ -934,7 +934,7 @@ Le Lagon Sauzer...[end]</data>
         <refs>
             <ref>0x104a</ref>
         </refs>
-        <data>SAUZER:
+        <data>Sauzer:
 Je ne peux plus recommencer à partir
 du commencement...[end]</data>
     </text>
@@ -942,28 +942,28 @@ du commencement...[end]</data>
         <refs>
             <ref>0x1056</ref>
         </refs>
-        <data>PALPAROS:
+        <data>Palparos:
 Le commencement ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1064</ref>
         </refs>
-        <data>SAUZER:
+        <data>Sauzer:
 Le ciel m'appelle enfin ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1072</ref>
         </refs>
-        <data>SAUZER:
+        <data>Sauzer:
 L'heure est-elle venue ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1083</ref>
         </refs>
-        <data>PALPAROS:
+        <data>Palparos:
 Arrêtez !
 Vous perdez l'esprit !
 SAUZER !
@@ -973,7 +973,7 @@ Calmez-vous ![end]</data>
         <refs>
             <ref>0x108c</ref>
         </refs>
-        <data>SAUZER:
+        <data>Sauzer:
 Il est en moi...
 Le mépris est en moi...
 Je me méprise !
@@ -984,7 +984,7 @@ J'ai eu peur de mon coeur faible...[end]</data>
         <refs>
             <ref>0x1095</ref>
         </refs>
-        <data>SAUZER:
+        <data>Sauzer:
 Je suis si cynique !
  
 En réalité,la force de mon coeur a été
@@ -994,7 +994,7 @@ ouverte puis envahie par la faiblesse.[end]</data>
         <refs>
             <ref>0x10a1</ref>
         </refs>
-        <data>PALPAROS:
+        <data>Palparos:
 Arrêtez de parler ! Revenez à vous !
 Je vais appeler le capitaine ![end]</data>
     </text>
@@ -1002,14 +1002,14 @@ Je vais appeler le capitaine ![end]</data>
         <refs>
             <ref>0x10ae</ref>
         </refs>
-        <data>SAUZER:
+        <data>Sauzer:
 Ne fais pas cela ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x10c6</ref>
         </refs>
-        <data>SAUZER:
+        <data>Sauzer:
 C'est le dernier ordre que te donne
 l'Empereur de Granbelos ![end]</data>
     </text>
@@ -1018,14 +1018,14 @@ l'Empereur de Granbelos ![end]</data>
             <ref>0x1100</ref>
             <ref>0x10e5</ref>
         </refs>
-        <data>PALPAROS:
+        <data>Palparos:
 Sauzer ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x10f2</ref>
         </refs>
-        <data>PALPAROS:
+        <data>Palparos:
 Que veux-tu dire ?
 Le dernier ordre ?![end]</data>
     </text>
@@ -1033,7 +1033,7 @@ Le dernier ordre ?![end]</data>
         <refs>
             <ref>0x1110</ref>
         </refs>
-        <data>SAUZER:
+        <data>Sauzer:
 Ne pleure... pas... mon...
 fidèle... ami...[end]</data>
     </text>
@@ -1062,7 +1062,7 @@ Nous devons aider les Dragons Sacrés
         <refs>
             <ref>0xa81</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 La colère des Dragons Sacrés semble
 s'être apaisée.
 La princesse doit sûrement avoir un
@@ -1074,7 +1074,7 @@ contrôler.[end]</data>
             <ref>0x72d</ref>
             <ref>0x74d</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>Taicho:
 Capitaine de l'Escadron Dragon d'Orelus
 et Capitaine Adjoint de Fareneit,
 faites de votre mieux ![end]</data>
@@ -1083,7 +1083,7 @@ faites de votre mieux ![end]</data>
         <refs>
             <ref>0xd22</ref>
         </refs>
-        <data>HORNET:
+        <data>Hornet:
 Est-ce que tu es prêt ?
  
  Attends encore un peu !
@@ -1106,14 +1106,14 @@ J'ai discuté avec Bahamut ![end]</data>
         <refs>
             <ref>0xd5f</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Bahamut est réveillé ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd6c</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 Je crois que c'est parce que tous les
 Dragons Sacrés sont dans l'esprit de
 la princesse !
@@ -1145,14 +1145,14 @@ Hornet ![end]</data>
             <ref>0xdc4</ref>
             <ref>0xdb4</ref>
         </refs>
-        <data>HORNET:
+        <data>Hornet:
 J'essaierai de faire vite ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd10</ref>
         </refs>
-        <data>HORNET:
+        <data>Hornet:
 Es-tu prêt,[character][0x0]?
  
  Attendre un peu !
@@ -1162,7 +1162,7 @@ Es-tu prêt,[character][0x0]?
         <refs>
             <ref>0x695</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Une prière silencieuse pour Sauzer ?!
 Était-il si différent ?
 Il voulait aussi une Nouvelle Ère ![end]</data>
@@ -1172,7 +1172,7 @@ Il voulait aussi une Nouvelle Ère ![end]</data>
             <ref>0x78b</ref>
             <ref>0xa9f</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 Je tremble comme un vieil homme !
 Suis-je un lâche ?[end]</data>
     </text>
@@ -1180,7 +1180,7 @@ Suis-je un lâche ?[end]</data>
         <refs>
             <ref>0xee2</ref>
         </refs>
-        <data>ZORA:
+        <data>Zora:
 Viens [character][0x0]!
  
 Palparos et la Princesse ont à se
@@ -1211,7 +1211,7 @@ La Porte...[end]</data>
         <refs>
             <ref>0x12c</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 La Porte ?!
 La Porte est ouverte ?[end]</data>
     </text>
@@ -1226,7 +1226,7 @@ Palparos...[end]</data>
         <refs>
             <ref>0x142</ref>
         </refs>
-        <data>PALPAROS:
+        <data>Palparos:
 [character][0x1]!
 Tout va bien ?![end]</data>
     </text>
@@ -1234,7 +1234,7 @@ Tout va bien ?![end]</data>
         <refs>
             <ref>0x218</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 La Porte est ouverte !
 La Porte de la Nouvelle Ère ![end]</data>
     </text>
@@ -1280,14 +1280,14 @@ Elle se situe au-dessus de Granbelos ![end]</data>
         <refs>
             <ref>0x1397</ref>
         </refs>
-        <data>PALPAROS:
+        <data>Palparos:
 L'Empire Granbelos...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x13a8</ref>
         </refs>
-        <data>PALPAROS:
+        <data>Palparos:
 [character][0x0]...
  
 Si tu rencontres le Général Gudruff,
@@ -1299,7 +1299,7 @@ Je t'en prie...[end]</data>
         <refs>
             <ref>0x13b9</ref>
         </refs>
-        <data>PALPAROS:
+        <data>Palparos:
 N'hésite pas à le tuer...
 L'Empire doit être libéré de sa
 tyrannie.[end]</data>
@@ -1308,7 +1308,7 @@ tyrannie.[end]</data>
         <refs>
             <ref>0x13c3</ref>
         </refs>
-        <data>PALPAROS:
+        <data>Palparos:
 La Nouvelle Ère approche et le peuple
 de Granbelos doit aussi en profiter.[end]</data>
     </text>
@@ -1316,7 +1316,7 @@ de Granbelos doit aussi en profiter.[end]</data>
         <refs>
             <ref>0x13d2</ref>
         </refs>
-        <data>PALPAROS:
+        <data>Palparos:
 Une Nouvelle Ère où le peuple de
 Granbelos serait en paix,
 libre de toutes guerres...[end]</data>
@@ -1334,7 +1334,7 @@ libre de toutes guerres...[end]</data>
             <ref>0xe4a</ref>
             <ref>0xe43</ref>
         </refs>
-        <data>HORNET:
+        <data>Hornet:
 Veux-tu que nous partions ?[end]</data>
     </text>
     <text>
@@ -1366,7 +1366,7 @@ certains choix.[end]</data>
         <refs>
             <ref>0xe72</ref>
         </refs>
-        <data>HORNET:
+        <data>Hornet:
 Kana est loin de Granbelos ![end]</data>
     </text>
     <text>
@@ -1380,7 +1380,7 @@ Kana est loin de Granbelos ![end]</data>
         <refs>
             <ref>0x2c9</ref>
         </refs>
-        <data>RUSH:
+        <data>Rush:
 Je n'en ai rien à faire...
  
 Quoi qu'ils disent,nous serons bientôt
@@ -1390,7 +1390,7 @@ au combat et je ne pense qu'à ça ![end]</data>
         <refs>
             <ref>0x2d6</ref>
         </refs>
-        <data>TAURUS:
+        <data>Truth:
 Es-tu sûr,Rush ?
  
 N'est-ce pas parce que tu ne veux
@@ -1400,14 +1400,14 @@ pas voir certaines personnes ensemble ?[end]</data>
         <refs>
             <ref>0x2e5</ref>
         </refs>
-        <data>RUSH:
+        <data>Rush:
 Tu parles trop ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xabe</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 [character][0x1],vous avez donc parlé avec
 Bahamut.[end]</data>
     </text>
@@ -1463,7 +1463,7 @@ Dragons Sacrés...[end]</data>
         <refs>
             <ref>0xb15</ref>
         </refs>
-        <data>TAURUS:
+        <data>Truth:
 Ils sont beaucoup trop forts !
 Cela explique leur guerre ?!
 De nombreux peuples y ont été mêlés
@@ -1473,7 +1473,7 @@ et sont morts...[end]</data>
         <refs>
             <ref>0xb21</ref>
         </refs>
-        <data>PALPAROS:
+        <data>Palparos:
 Toutes les guerres commencent par un
 prétexte mais à chaque fois elles
 sont inutiles...[end]</data>
@@ -1482,7 +1482,7 @@ sont inutiles...[end]</data>
         <refs>
             <ref>0xb31</ref>
         </refs>
-        <data>TAURUS:
+        <data>Truth:
 Palparos !
  
 C'est votre Empire qui a commencé la
@@ -1492,7 +1492,7 @@ guerre ![end]</data>
         <refs>
             <ref>0xb41</ref>
         </refs>
-        <data>TAURUS:
+        <data>Truth:
 Pouvez-vous nous en donner les
 raisons ?![end]</data>
     </text>
@@ -1500,21 +1500,21 @@ raisons ?![end]</data>
         <refs>
             <ref>0xb51</ref>
         </refs>
-        <data>PALPAROS:
+        <data>Palparos:
 Pour réaliser un rêve...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb5d</ref>
         </refs>
-        <data>TAURUS:
+        <data>Truth:
 C'est vraiment absurde ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb6a</ref>
         </refs>
-        <data>PALPAROS:
+        <data>Palparos:
 Probablement...
  
 Et j'ai une grande part de
@@ -1524,7 +1524,7 @@ responsabilité...[end]</data>
         <refs>
             <ref>0xb78</ref>
         </refs>
-        <data>TAURUS:
+        <data>Truth:
 Responsabilité...
 Vraiment ?!
 Je ne vous comprends pas ![end]</data>
@@ -1533,7 +1533,7 @@ Je ne vous comprends pas ![end]</data>
         <refs>
             <ref>0xb86</ref>
         </refs>
-        <data>TAURUS:
+        <data>Truth:
 Je suis un membre de l'armée de
 libération d'Orelus.
  
@@ -1544,7 +1544,7 @@ survivre ![end]</data>
         <refs>
             <ref>0xb93</ref>
         </refs>
-        <data>TAURUS:
+        <data>Truth:
 Nous devons nous battre sans penser
 aux gens qui veulent réaliser un rêve !
 Je vais rejoindre Rush ![end]</data>
@@ -1553,7 +1553,7 @@ Je vais rejoindre Rush ![end]</data>
         <refs>
             <ref>0xbb9</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 [character][0x1],
 j'ai encore une question ![end]</data>
     </text>
@@ -1561,7 +1561,7 @@ j'ai encore une question ![end]</data>
         <refs>
             <ref>0xbc6</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 Comment la Guerre des Dragons Sacrés
 a-t-elle pris fin ?[end]</data>
     </text>
@@ -1618,7 +1618,7 @@ de briser sa destinée...[end]</data>
         <refs>
             <ref>0xc55</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 C'est parce qu'il se sentait responsable
 qu'il brisa sa destinée ?[end]</data>
     </text>
@@ -1641,7 +1641,7 @@ Palparos,attends ![end]</data>
         <refs>
             <ref>0xe79</ref>
         </refs>
-        <data>HORNET:
+        <data>Hornet:
 Nous devons approcher très lentement
 car les conditions sont terribles ![end]</data>
     </text>
@@ -1649,14 +1649,14 @@ car les conditions sont terribles ![end]</data>
         <refs>
             <ref>0x383</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Nous y sommes enfin ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x390</ref>
         </refs>
-        <data>HORNET:
+        <data>Hornet:
 Préparons-nous à l'offensive !
 Au-dessus ? En dessous ? Où ?[end]</data>
     </text>
@@ -1664,7 +1664,7 @@ Au-dessus ? En dessous ? Où ?[end]</data>
         <refs>
             <ref>0x3b6</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>Taicho:
 Choisis et attaquons !
 Nous voilà Granbelos ![end]</data>
     </text>
@@ -1672,7 +1672,7 @@ Nous voilà Granbelos ![end]</data>
         <refs>
             <ref>0x3cb</ref>
         </refs>
-        <data>PALPAROS:
+        <data>Palparos:
 Gudruff...
 Ta fin est proche...[end]</data>
     </text>
@@ -1680,7 +1680,7 @@ Ta fin est proche...[end]</data>
         <refs>
             <ref>0x3e3</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Granbelos !
 Nous voilà ![end]</data>
     </text>
@@ -1689,7 +1689,7 @@ Nous voilà ![end]</data>
             <ref>0x3f2</ref>
             <ref>0x6cd</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Génial !
 [character][0x0],prépare-toi ![end]</data>
     </text>
@@ -1697,7 +1697,7 @@ Génial !
         <refs>
             <ref>0xe01</ref>
         </refs>
-        <data>HORNET:
+        <data>Hornet:
 Es-tu prêt ?
  
  Je me prépare !
@@ -1707,7 +1707,7 @@ Es-tu prêt ?
         <refs>
             <ref>0xe15</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>Taicho:
 Général Palparos !
  
 Qu'est-ce qui vous amène à attaquer
@@ -1717,14 +1717,14 @@ tel ou tel pays ?[end]</data>
         <refs>
             <ref>0xe26</ref>
         </refs>
-        <data>PALPAROS:
+        <data>Palparos:
 Je n'en sais rien...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x754</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>Taicho:
 Matelite se porte bien !
  
 Mais le fait que [character][0x1] ait choisi un
@@ -1734,14 +1734,14 @@ autre général le rend mécontent ![end]</data>
         <refs>
             <ref>0xc9f</ref>
         </refs>
-        <data>RUSH:
+        <data>Rush:
 Ah ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xce6</ref>
         </refs>
-        <data>TAURUS:
+        <data>Truth:
 Je ne dors pas !
 Je réfléchis...[end]</data>
     </text>
@@ -1749,7 +1749,7 @@ Je réfléchis...[end]</data>
         <refs>
             <ref>0xaa9</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 Depuis quand Matelite s'entend-il
 bien avec Palparos ?
 Je ne sais plus quoi penser ![end]</data>
@@ -1758,7 +1758,7 @@ Je ne sais plus quoi penser ![end]</data>
         <refs>
             <ref>0x6d4</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 [character][0x1] tient beaucoup à Palparos.
 Je respecte cette décision.
 Bientôt,tout sera fini !
@@ -1787,14 +1787,14 @@ souvenirs ![end]</data>
         <refs>
             <ref>0x1432</ref>
         </refs>
-        <data>FILS DE ZORA:
+        <data>Fils de Zora:
 Fais de ton mieux ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1463</ref>
         </refs>
-        <data>PALPAROS:
+        <data>Palparos:
 [character][0x1] va très bien ![end]</data>
     </text>
     <text>
@@ -1816,14 +1816,14 @@ Il faut satisfaire Matelite ![end]</data>
         <refs>
             <ref>0xcdf</ref>
         </refs>
-        <data>TAURUS:
+        <data>Truth:
 Je ne réfléchis à rien...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x48f</ref>
         </refs>
-        <data>HORNET:
+        <data>Hornet:
 Nous y sommes enfin malgré quelques
 pertes de contrôle !
 Nous avons dû subir quelques dégâts
@@ -1834,14 +1834,14 @@ visibilité ![end]</data>
         <refs>
             <ref>0x4fc</ref>
         </refs>
-        <data>HORNET:
+        <data>Hornet:
 Regardez ce lagon...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xecb</ref>
         </refs>
-        <data>HORNET:
+        <data>Hornet:
 C'est si paisible...
 Beaucoup trop paisible...
 Y aurait-il de la magie noire à
@@ -1851,7 +1851,7 @@ l'oeuvre ?[end]</data>
         <refs>
             <ref>0xe9e</ref>
         </refs>
-        <data>HORNET:
+        <data>Hornet:
 Que veux-tu faire ?
  
  Je me prépare !
@@ -1861,7 +1861,7 @@ Que veux-tu faire ?
         <refs>
             <ref>0xcf4</ref>
         </refs>
-        <data>TAURUS:
+        <data>Truth:
 Nous voici à Altair...
  
 Le combat est bientôt fini mais il
@@ -1874,7 +1874,7 @@ demain sera fait ![end]</data>
         <refs>
             <ref>0xca6</ref>
         </refs>
-        <data>RUSH:
+        <data>Rush:
 Taurus est toujours en train de
 penser !
 Qu'allons-nous bien pouvoir combattre ?
@@ -1892,7 +1892,7 @@ notre combat...[end]</data>
         <refs>
             <ref>0xa8a</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 Il paraît qu'il y a à Altair un Peuple
 Dragon qui est nécessaire à la
 résurrection des Dragons Sacrés.
@@ -1903,7 +1903,7 @@ savons pas encore tout.[end]</data>
         <refs>
             <ref>0xefe</ref>
         </refs>
-        <data>ZORA:
+        <data>Zora:
 La princesse arrive à la fin de la
 Légende...
 Je ne sais pas pourquoi mais il y a
@@ -1916,7 +1916,7 @@ incompréhensibles ![end]</data>
         <refs>
             <ref>0x6f6</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 [character][0x1] a besoin d'un homme qui veille
 sur elle...
 De quelqu'un qui l'écoute...[end]</data>
@@ -1925,7 +1925,7 @@ De quelqu'un qui l'écoute...[end]</data>
         <refs>
             <ref>0x703</ref>
         </refs>
-        <data>ZORA:
+        <data>Zora:
 Ne dis pas de telles choses...
 Ils forment un beau couple ![end]</data>
     </text>

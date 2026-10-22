@@ -46,14 +46,14 @@ Et enfin,je lierai vos coeurs ![end][end]</data>
         <refs>
             <ref>0x258</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Princesse [character][0x1]![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x265</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 Ramenons la Princesse au château ![end]</data>
     </text>
     <text>
@@ -68,7 +68,7 @@ Allons à Fareneit ![end]</data>
         <refs>
             <ref>0x278</ref>
         </refs>
-        <data>PALPAROS:
+        <data>Palparos:
 Mais... [character][0x1]![end]</data>
     </text>
     <text>
@@ -89,7 +89,7 @@ Nous partons à... ALTAIR ![end]</data>
         <refs>
             <ref>0x135</ref>
         </refs>
-        <data>BAHAMUT:
+        <data>Bahamut:
 [character][0x1],la Dragoon...[end]</data>
     </text>
     <text>
@@ -104,7 +104,7 @@ Suis-je devenue une Dragoon ?[end]</data>
         <refs>
             <ref>0x154</ref>
         </refs>
-        <data>BAHAMUT:
+        <data>Bahamut:
 En effet...[end]</data>
     </text>
     <text>
@@ -151,7 +151,7 @@ des Dragons Sacrés ?[end]</data>
         <refs>
             <ref>0x18e</ref>
         </refs>
-        <data>BAHAMUT:
+        <data>Bahamut:
 La personne qui connaît le coeur des
 Dragons Sacrés ouvrira la Porte vers
 une Ère Nouvelle.[end]</data>
@@ -183,7 +183,7 @@ Allez-vous encore guerroyer ?[end]</data>
         <refs>
             <ref>0x1ab</ref>
         </refs>
-        <data>BAHAMUT:
+        <data>Bahamut:
 Nous n'en sommes pas sûrs...
 Ce n'est maintenant plus le passé...
 Dorénavant,la personne qui nous dirige,
@@ -200,7 +200,7 @@ Mais comment puis-je faire ?[end]</data>
         <refs>
             <ref>0x1c3</ref>
         </refs>
-        <data>BAHAMUT:
+        <data>Bahamut:
 Lie nos coeurs ensemble...[end]</data>
     </text>
     <text>

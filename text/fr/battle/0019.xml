@@ -4,14 +4,14 @@
         <refs>
             <ref>0x33</ref>
         </refs>
-        <data>COMMANDANT: Tous les généraux de Granbelos
+        <data>Taicho: Tous les généraux de Granbelos
 sont réunis !![0xfc][0x18] Que devons-nous faire !?[end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3b</ref>
         </refs>
-        <data>PALPAROS: Patience... Si nous les
+        <data>Palparos: Patience... Si nous les
 divisons,[0xfc][0x8] nous pourrons
 les vaincre ![end1][end]</data>
     </text>
@@ -19,7 +19,7 @@ les vaincre ![end1][end]</data>
         <refs>
             <ref>0x46</ref>
         </refs>
-        <data>MATELITE: ...[0xfc][0x20]...[0xfc][0x20]...[0xfc][0x25] Exactement !![end1][end]</data>
+        <data>Matelite: ...[0xfc][0x20]...[0xfc][0x20]...[0xfc][0x25] Exactement !![end1][end]</data>
     </text>
     <text>
         <refs>

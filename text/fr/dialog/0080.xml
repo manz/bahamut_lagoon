@@ -4,7 +4,7 @@
         <refs>
             <ref>0x4d</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 [character][0x0]...
 Je... nous... avons gagné...[end]</data>
     </text>
@@ -12,7 +12,7 @@ Je... nous... avons gagné...[end]</data>
         <refs>
             <ref>0x5a</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Princesse [character][0x1]!
 Nous l'avons tué ![end]</data>
     </text>
@@ -20,14 +20,14 @@ Nous l'avons tué ![end]</data>
         <refs>
             <ref>0x82</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>Taicho:
 Et le Peuple Dragon ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x15e</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 C'est impossible !
  
 Les êtres-dragons d'Alexandre sont
@@ -37,7 +37,7 @@ encore là ![end]</data>
         <refs>
             <ref>0x16a</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 Cela signifie que son esprit flotte dans
 les airs ![end]</data>
     </text>
@@ -45,7 +45,7 @@ les airs ![end]</data>
         <refs>
             <ref>0x17b</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 Par conséquent,Alexandre va bientôt
 ressusciter ![end]</data>
     </text>
@@ -53,7 +53,7 @@ ressusciter ![end]</data>
         <refs>
             <ref>0x1e2</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Noooon !
 R... regardez ça ![end]</data>
     </text>
@@ -61,14 +61,14 @@ R... regardez ça ![end]</data>
         <refs>
             <ref>0x20e</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Nous n'avons plus beaucoup de temps ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2c9</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 La résurrection d'Alexandre est pire
 qu'une menace,c'est une calamité ![end]</data>
     </text>
@@ -84,7 +84,7 @@ Nous l'avons vaincu ![end]</data>
         <refs>
             <ref>0x2e4</ref>
         </refs>
-        <data>PALPAROS:
+        <data>Palparos:
 [character][0x1]![end]</data>
     </text>
     <text>
@@ -209,14 +209,14 @@ Aide-moi maintenant...[end]</data>
         <refs>
             <ref>0x4b0</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Que se passe-t-il ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4bf</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 Alexandre est-il à l'intérieur de la
 Princesse ?![end]</data>
     </text>
@@ -224,7 +224,7 @@ Princesse ?![end]</data>
         <refs>
             <ref>0x4d8</ref>
         </refs>
-        <data>PALPAROS:
+        <data>Palparos:
 Si c'est le cas...
  
 Les Dragons Sacrés dans le corps de
@@ -235,21 +235,21 @@ bataille ?![end]</data>
         <refs>
             <ref>0x4e4</ref>
         </refs>
-        <data>PALPAROS:
+        <data>Palparos:
 Pourquoi de telles actions ?![end][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4f0</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 [character][0x1]! [character][0x1]![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x511</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Vieil homme ! Être dragon !
  
 D'une manière ou d'une autre,
@@ -259,7 +259,7 @@ reprenez-les ![end]</data>
         <refs>
             <ref>0x525</ref>
         </refs>
-        <data>ETRE DRAGON:
+        <data>Être-dragon:
 Les forces de la Princesse résistent
 très bien...
 Elle se porte à merveille...[end]</data>
@@ -268,42 +268,42 @@ Elle se porte à merveille...[end]</data>
         <refs>
             <ref>0x53a</ref>
         </refs>
-        <data>ETRE DRAGON:
+        <data>Être-dragon:
 Viens Valitra ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5d8</ref>
         </refs>
-        <data>ETRE DRAGON:
+        <data>Être-dragon:
 Garuda...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x590</ref>
         </refs>
-        <data>ETRE DRAGON:
+        <data>Être-dragon:
 Léviathan ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x622</ref>
         </refs>
-        <data>ETRE DRAGON:
+        <data>Être-dragon:
 Jormungand,viens à moi ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x66c</ref>
         </refs>
-        <data>ETRE DRAGON:
+        <data>Être-dragon:
 Viens ici,Hypérion ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6b4</ref>
         </refs>
-        <data>ETRE DRAGON:
+        <data>Être-dragon:
 Bahamut !
 Ta Résurrection est enfin arrivée ![end]</data>
     </text>
@@ -311,14 +311,14 @@ Ta Résurrection est enfin arrivée ![end]</data>
         <refs>
             <ref>0x73e</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 Et Alexandre ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x74b</ref>
         </refs>
-        <data>BAHAMUT:
+        <data>Bahamut:
 Il ne vit plus dans un être dragon
 à présent.
 Alexandre est dans le corps de la
@@ -331,7 +331,7 @@ peut-être déçu comme nous le fûmes.[end]</data>
         <refs>
             <ref>0x758</ref>
         </refs>
-        <data>PALPAROS:
+        <data>Palparos:
 Mais... et [character][0x1]?![end]</data>
     </text>
     <text>
@@ -371,7 +371,7 @@ lié au mien ![end]</data>
         <refs>
             <ref>0x7b9</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Quelle différence ![end]</data>
     </text>
     <text>
@@ -387,7 +387,7 @@ Que vas-tu faire maintenant ?![end]</data>
         <refs>
             <ref>0x7e0</ref>
         </refs>
-        <data>BAHAMUT:
+        <data>Bahamut:
 Va...
  
 L'heure de ma résurrection est venue.
@@ -404,7 +404,7 @@ Qu'as-tu dit ?[end]</data>
         <refs>
             <ref>0x7f8</ref>
         </refs>
-        <data>BAHAMUT:
+        <data>Bahamut:
 Lorsque nous étions en toi,
 ton esprit nous comprenait...
 Nous étions furieux...
@@ -424,7 +424,7 @@ Le monde est à vous ![end]</data>
         <refs>
             <ref>0x872</ref>
         </refs>
-        <data>BAHAMUT:
+        <data>Bahamut:
 [character][0x0]...
  
 Nous étions à l'intérieur de l'esprit
@@ -435,7 +435,7 @@ très important.[end]</data>
         <refs>
             <ref>0x87e</ref>
         </refs>
-        <data>BAHAMUT:
+        <data>Bahamut:
 Mais ce sont simplement des souvenirs
 de toi...
 Quelquefois,lorsque les années passent,
@@ -445,7 +445,7 @@ ces souvenirs tendent à disparaître...[end]</data>
         <refs>
             <ref>0x88a</ref>
         </refs>
-        <data>BAHAMUT:
+        <data>Bahamut:
 La Nouvelle Ère est venue...
  
 Elle va inévitablement remplacer l'Ère
@@ -465,7 +465,7 @@ Il est maintenant l'heure...[end]</data>
         <refs>
             <ref>0x8cd</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Viens... [character][0x0]!
 Nous rentrons chez nous ![end]</data>
     </text>
@@ -473,14 +473,14 @@ Nous rentrons chez nous ![end]</data>
         <refs>
             <ref>0x8db</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Comme auparavant...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8e9</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Je sais qu'il y a des choses que tu
 ne peux pas me dire...
 Et je ne veux pas les savoir ![end]</data>
@@ -489,14 +489,14 @@ Et je ne veux pas les savoir ![end]</data>
         <refs>
             <ref>0x8f2</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Merci pour tout... [character][0x0]![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x908</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Ça faisait très longtemps que je
 voulais faire ce petit discours ![end]</data>
     </text>
@@ -504,7 +504,7 @@ voulais faire ce petit discours ![end]</data>
         <refs>
             <ref>0x916</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Hé,[character][0x0]...
  
 En repartant,tu veux faire face à

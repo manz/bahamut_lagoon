@@ -74,14 +74,14 @@ rencontre.[end]</data>
         <refs>
             <ref>0x231</ref>
         </refs>
-        <data>ZORA:
+        <data>Zora:
 Tout va bien,Princesse ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x279</ref>
         </refs>
-        <data>ZORA:
+        <data>Zora:
 C'est impossible !
 Vous ne pouvez pas y aller.
 J'irai moi-même au combat pour aller
@@ -91,7 +91,7 @@ chercher ce dragon à votre place.[end]</data>
         <refs>
             <ref>0x2c7</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Au fait,Princesse,nous avons de
 bonnes nouvelles.
 Nous avons vaincu l'Empereur Sauzer.
@@ -101,7 +101,7 @@ Bientôt,notre Kana revivra ![end]</data>
         <refs>
             <ref>0x2dc</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>Taicho:
 Palparos a aussi été vaincu !
 C'est la dure réalité de la guerre.
 Princesse [character][0x1],vous devez être
@@ -142,7 +142,7 @@ Ne vous inquiétez pas ![end]</data>
         <refs>
             <ref>0x3a1</ref>
         </refs>
-        <data>PALPAROS:
+        <data>Palparos:
 En effet,j'ai été vaincu par les
 Rebelles mais je suis encore en vie.
 Ils ont vraiment gagné en force ![end]</data>
@@ -187,7 +187,7 @@ côtés.[end]</data>
         <refs>
             <ref>0x40d</ref>
         </refs>
-        <data>GARUDA:
+        <data>Garuda:
 Hahahahaha !
 Fille,la dénommée Dragoon !
 Est-ce là ton ambition ?
@@ -206,7 +206,7 @@ Mais je ne peux même pas le réaliser ![end]</data>
         <refs>
             <ref>0x426</ref>
         </refs>
-        <data>GARUDA:
+        <data>Garuda:
 Pourquoi penses-tu cela,
 fille au petit rêve ?
 Si notre pouvoir est entre tes mains,
@@ -230,7 +230,7 @@ ils ne pourront changer...[end]</data>
         <refs>
             <ref>0x43d</ref>
         </refs>
-        <data>GARUDA:
+        <data>Garuda:
 Ne sois pas déçue,fille au petit rêve !
  
 Tu connais maintenant nos sentiments
@@ -251,7 +251,7 @@ Mais il est maintenant...[end]</data>
         <refs>
             <ref>0x451</ref>
         </refs>
-        <data>GARUDA:
+        <data>Garuda:
 Non !
 Je peux sentir sa faible vie.
 Il n'est pas mort...

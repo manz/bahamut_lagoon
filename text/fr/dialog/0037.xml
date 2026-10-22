@@ -4,7 +4,7 @@
         <refs>
             <ref>0xac</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Je suis le commandant des chevaliers
 de l'armée de Kana !
 Moi,Garde Palais,je déclare Campbell
@@ -18,14 +18,14 @@ l'Empire ![end]</data>
         <refs>
             <ref>0xca</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Hein... ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd3</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Quelque chose ne va pas ?!
 Peuple de Campbell ![end]</data>
     </text>
@@ -33,7 +33,7 @@ Peuple de Campbell ![end]</data>
         <refs>
             <ref>0xe6</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>Taicho:
 Matelite !
  
 Je crois que nous devrions tout
@@ -43,7 +43,7 @@ d'abord aller saluer l'Impératrice.[end]</data>
         <refs>
             <ref>0xf2</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Je t'accompagne !
 Allons au château ![end]</data>
     </text>
@@ -51,7 +51,7 @@ Allons au château ![end]</data>
         <refs>
             <ref>0x6b9</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 La Princesse ne se porte pas bien !
 Trouvons vite l'Impératrice.[end]</data>
     </text>
@@ -75,7 +75,7 @@ en colère.[end]</data>
         <refs>
             <ref>0x3dc</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 Princesse,je vous comprends...
 Moi aussi,je le ressens...[end]</data>
     </text>
@@ -125,25 +125,25 @@ s'étaient installés partout en ville ![end]</data>
         <refs>
             <ref>0x6e3</ref>
         </refs>
-        <data>LE NOBLE BAHAMUT:
+        <data>Le noble Bahamut:
 Salut,je suis le traducteur !
 J'espère que vous vous amusez bien !
 L'histoire est cool,n'est-ce pas ?
  
   
-NEO MITHRANDIL:
+Neo Mithrandil:
 Salut à tous !
 J'ai fait la correction du script.
 Tapez-moi sur les doigts si vous voyez
 une faute !
  
-COPERNIC:[end]</data>
+Copernic:[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5aa</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 Mais aussi de les comprendre !
  
 C'est pour cette raison que Sauzer
@@ -172,7 +172,7 @@ Campbell reste sur ses positions.[end]</data>
         <refs>
             <ref>0x5b7</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 [character][0x1] est effrayée par l'immense
 pouvoir des Dragons Sacrés !
 Arrêtez d'en parler ![end]</data>
@@ -181,7 +181,7 @@ Arrêtez d'en parler ![end]</data>
         <refs>
             <ref>0x5c3</ref>
         </refs>
-        <data>IMPERATRICE DE CAMPBELL:
+        <data>Reine de Campbell:
 Sauzer n'est pas ce genre d'homme.
 Il n'abandonnera jamais !
 Il a peut-être déjà trouvé un autre
@@ -208,7 +208,7 @@ Viens,retournons à Fareneit ![end]</data>
         <refs>
             <ref>0x5f0</ref>
         </refs>
-        <data>IMPERATRICE DE CAMPBELL:
+        <data>Reine de Campbell:
 Au contraire [character][0x1],
 il est inutile de fuir !
 Tu ne peux pas échapper au destin de
@@ -242,7 +242,7 @@ Je n'en sais rien ![end]</data>
         <refs>
             <ref>0x707</ref>
         </refs>
-        <data>TAURUS:
+        <data>Truth:
 Nous allons rester ici pour voir s'il y
 a encore des troupes de l'Empire.
 C'est une idée de Rush ![end]</data>
@@ -251,14 +251,14 @@ C'est une idée de Rush ![end]</data>
         <refs>
             <ref>0x711</ref>
         </refs>
-        <data>RUSH:
+        <data>Rush:
 Arrête,tu m'embarrasses ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6f1</ref>
         </refs>
-        <data>RUSH:
+        <data>Rush:
 Tout cela donne l'impression que
 l'Empire a fait fuir tout le monde ![end]</data>
     </text>
@@ -266,7 +266,7 @@ l'Empire a fait fuir tout le monde ![end]</data>
         <refs>
             <ref>0x71c</ref>
         </refs>
-        <data>TAURUS:
+        <data>Truth:
 Capitaine [character][0x0]!
 Est-il temps de retourner à Fareneit ?[end]</data>
     </text>
@@ -304,14 +304,14 @@ Capitaine [character][0x0]?[end]</data>
         <refs>
             <ref>0x781</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Hé,nous repartons ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x659</ref>
         </refs>
-        <data>JOY:
+        <data>Joy:
 C'est naturel !
 Nous vous comprenons,Impératrice.[end]</data>
     </text>
@@ -319,7 +319,7 @@ Nous vous comprenons,Impératrice.[end]</data>
         <refs>
             <ref>0x66e</ref>
         </refs>
-        <data>NELBO:
+        <data>Nerbo:
 Impératrice...
 Soyez forte,résistez ![end]</data>
     </text>
@@ -327,7 +327,7 @@ Soyez forte,résistez ![end]</data>
         <refs>
             <ref>0x681</ref>
         </refs>
-        <data>IMPERATRICE DE CAMPBELL:
+        <data>Reine de Campbell:
 Joy... Nelbo...
 Merci...
 Je suis peinée mais rejoignez Sendak
@@ -340,21 +340,21 @@ la Capitale de l'eau,Mahal.[end]</data>
         <refs>
             <ref>0x40b</ref>
         </refs>
-        <data>IMPERATRICE DE CAMPBELL:
+        <data>Reine de Campbell:
 Attendez ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x422</ref>
         </refs>
-        <data>IMPERATRICE DE CAMPBELL:
+        <data>Reine de Campbell:
 J'ai décidé de vous parler...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x451</ref>
         </refs>
-        <data>IMPERATRICE DE CAMPBELL:
+        <data>Reine de Campbell:
 Je vais vous dire ce qu'est vraiment
 la légende...[end]</data>
     </text>
@@ -362,7 +362,7 @@ la légende...[end]</data>
         <refs>
             <ref>0x438</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Et alors ?
 Parlez...[end]</data>
     </text>
@@ -370,7 +370,7 @@ Parlez...[end]</data>
         <refs>
             <ref>0x45d</ref>
         </refs>
-        <data>IMPERATRICE DE CAMPBELL:
+        <data>Reine de Campbell:
 Pour commencer,il vous faut savoir que
 c'est à vous de comprendre la
 Légende des Dragons Sacrés.[end]</data>
@@ -392,7 +392,7 @@ n'amènera que désastre dans le ciel.[end]</data>
         <refs>
             <ref>0x57c</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 La personne qui connaît le coeur des
 Dragons Sacrés...
 Ouvrira la Porte vers...
@@ -404,7 +404,7 @@ Alors ce serait [character][0x1]![end]</data>
         <refs>
             <ref>0x586</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 Une personne au coeur faible ?
 N'amènera que désastre dans le ciel ?[end]</data>
     </text>
@@ -412,7 +412,7 @@ N'amènera que désastre dans le ciel ?[end]</data>
         <refs>
             <ref>0x593</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Sendak !
  
 Pourquoi est-ce que tu vois toujours
@@ -422,7 +422,7 @@ le mauvais côté des choses ?![end]</data>
         <refs>
             <ref>0x5a1</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 J'ai encore un mauvais pressentiment !
  
 Sauzer veut ce monde et il veut aussi
@@ -491,14 +491,14 @@ Tu souffres... Tu as peur...[end]</data>
         <refs>
             <ref>0x6f8</ref>
         </refs>
-        <data>RUSH:
+        <data>Rush:
 [character][0x0]...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7c2</ref>
         </refs>
-        <data>TAURUS:
+        <data>Truth:
 Capitaine...[end]</data>
     </text>
     <text>

@@ -11,7 +11,7 @@
         <refs>
             <ref>0x1b7</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Les troupes de Sauzer ont été
 vaincues !
 La Princesse [character][0x1] va être soulagée ![end]</data>
@@ -20,7 +20,7 @@ La Princesse [character][0x1] va être soulagée ![end]</data>
         <refs>
             <ref>0x1c4</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>Taicho:
 Palparos a aussi été vaincu.
 C'est la dure réalité de la guerre.[end]</data>
     </text>
@@ -28,7 +28,7 @@ C'est la dure réalité de la guerre.[end]</data>
         <refs>
             <ref>0x1dc</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 [character][0x0],
 va te renseigner sur le Dragon Sacré !
 Nous,nous retournons à Fareneit ![end]</data>
@@ -45,7 +45,7 @@ Qu'est-ce que tu fais ?![end]</data>
         <refs>
             <ref>0x763</ref>
         </refs>
-        <data>RUSH:
+        <data>Rush:
 J'espère que la Princesse [character][0x1] se
 portera mieux.
 Je crois qu'il serait mieux qu'on soit
@@ -56,7 +56,7 @@ seul.[end]</data>
         <refs>
             <ref>0x791</ref>
         </refs>
-        <data>BIKEBAKE:
+        <data>Bikebake:
 J'aime ce désert mais j'aime aussi les
 desserts !
 Hahahahahahaha !
@@ -66,7 +66,7 @@ Hahahahahahaha ![end]</data>
         <refs>
             <ref>0x779</ref>
         </refs>
-        <data>TAURUS:
+        <data>Truth:
 J'ai entendu nombre de rumeurs
 peu édifiantes sur Dafira.
 Il paraîtrait aussi qu'aucun des
@@ -77,7 +77,7 @@ de ces terres.[end]</data>
         <refs>
             <ref>0x78a</ref>
         </refs>
-        <data>TAURUS:
+        <data>Truth:
 Révolution... Superstar...
 Tout cela me perturbe...[end]</data>
     </text>
@@ -214,7 +214,7 @@ Entre ![end]</data>
         <data>Héhé ! [character][0x0]!
 Ça y est,ça y est[0xd8]
  
-DONFAN:
+Donfan:
 Bonjour,demoiselle du désert !
 Donfan,votre très dévoué seigneur,
 est venu enfouir vos larmes dans le
@@ -224,7 +224,7 @@ sable ![end]</data>
         <refs>
             <ref>0xa52</ref>
         </refs>
-        <data>DONFAN:
+        <data>Donfan:
 Si vous avez perdu quelque chose...
 Je pourrais devenir ce quelque chose.
 Je vois que votre coeur a fini par
@@ -243,7 +243,7 @@ Où aimeriez-vous aller ?[end]</data>
         <refs>
             <ref>0xa33</ref>
         </refs>
-        <data>DONFAN:
+        <data>Donfan:
 Je suis Donfan !
 Je suis l'un des Rebelles !
 Je suis à bout de souffle et je veux
@@ -253,7 +253,7 @@ aussi aller me reposer.[end]</data>
         <refs>
             <ref>0xa61</ref>
         </refs>
-        <data>DONFAN:
+        <data>Donfan:
 Que veut-il ?
 Je suis pourtant un gentleman...
 Est-ce que c'est privé ?
@@ -272,7 +272,7 @@ Tu n'aurais rien à y faire ?![end]</data>
             <ref>0x7d7</ref>
         </refs>
         <data>MARCHAND ENVOYE AU CHAMP DE
-BATAILLE:
+Bataille:
 Haha,tout juste marié,femme au foyer !
 Ça commence toujours comme ça.[end]</data>
     </text>
@@ -291,14 +291,14 @@ c'est à toi de le faire ![end]</data>
         <refs>
             <ref>0x76a</ref>
         </refs>
-        <data>RUSH:
+        <data>Rush:
 La Révolution de la Liberté ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x780</ref>
         </refs>
-        <data>TAURUS:
+        <data>Truth:
 Le Roi de Dafira avait dit qu'il était
 protégé par un Dragon Sacré.
 Il a ajouté qu'il s'appelait Jormungand
@@ -310,7 +310,7 @@ Allez,va attraper ce Roi ![end]</data>
         <refs>
             <ref>0xacb</ref>
         </refs>
-        <data>ZEROSHIN:
+        <data>Zeroshin:
 Finis ce travail calmement et
 proprement ![end]</data>
     </text>
@@ -318,7 +318,7 @@ proprement ![end]</data>
         <refs>
             <ref>0xadc</ref>
         </refs>
-        <data>SAJIN:
+        <data>Sajin:
 Vite... le Roi !
 Attrape-le ![end]</data>
     </text>
@@ -326,7 +326,7 @@ Attrape-le ![end]</data>
         <refs>
             <ref>0x858</ref>
         </refs>
-        <data>LIBERO:
+        <data>Libero:
 Altesse,résignez-vous !
  
 Demain à Dafira sera mis en place un
@@ -390,7 +390,7 @@ Nous sommes tous libres ![end]</data>
         <refs>
             <ref>0x737</ref>
         </refs>
-        <data>HOMME SUSPECT:
+        <data>Homme suspect:
 Tu es une Superstar ?[end]</data>
     </text>
     <text>

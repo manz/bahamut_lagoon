@@ -4,7 +4,7 @@
         <refs>
             <ref>0x87f</ref>
         </refs>
-        <data>MATELOT:
+        <data>Matelot:
 [character][0x0],[character][0x0]!
 Qu'aimerais-tu ?[end]</data>
     </text>
@@ -13,7 +13,7 @@ Qu'aimerais-tu ?[end]</data>
             <ref>0x5d9</ref>
             <ref>0x60c</ref>
         </refs>
-        <data>BIKEBAKE:
+        <data>Bikebake:
 [character][0x0],vieux frère...
 S'il te plaît,coopère !
  Coopérer.
@@ -23,7 +23,7 @@ S'il te plaît,coopère !
         <refs>
             <ref>0x5f9</ref>
         </refs>
-        <data>BIKEBAKE:
+        <data>Bikebake:
 La Princesse [character][0x1] est revenue.
  
 Nous pouvons donc rentrer à la maison !
@@ -48,14 +48,14 @@ Garde cela secret...[end]</data>
         <refs>
             <ref>0x605</ref>
         </refs>
-        <data>BIKEBAKE:
+        <data>Bikebake:
 Je suis très embarrassé.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7f1</ref>
         </refs>
-        <data>REEVE:
+        <data>Reeve:
 Frunze s'est endormi !
 Hahahahaha !
 Comme tu peux t'en apercevoir,un
@@ -68,7 +68,7 @@ Lance haute ![end]</data>
         <refs>
             <ref>0x7fb</ref>
         </refs>
-        <data>REEVE:
+        <data>Reeve:
 Frunze est encore couché !
  
 J'aimerais qu'il y ait un autre lancier
@@ -78,7 +78,7 @@ dans ce bateau ![end]</data>
         <refs>
             <ref>0x83e</ref>
         </refs>
-        <data>FRUNZE:
+        <data>Frunze:
 Guh...
 Tu veux me parler de Reeve ?
 Mon partenaire aurait besoin d'un
@@ -91,7 +91,7 @@ nous sommes très amis.[end]</data>
         <refs>
             <ref>0x837</ref>
         </refs>
-        <data>FRUNZE:
+        <data>Frunze:
 Cette histoire se réglera entre lanciers ![end]</data>
     </text>
     <text>
@@ -100,7 +100,7 @@ Cette histoire se réglera entre lanciers ![end]</data>
             <ref>0x74b</ref>
         </refs>
         <data> 
-SERGENT:
+Gunso:
 Phew[0xd8]``Grognement''
  
 C'est exténuant de porter une lourde
@@ -116,7 +116,7 @@ armure.[end]</data>
         <refs>
             <ref>0x763</ref>
         </refs>
-        <data>SERGENT:
+        <data>Gunso:
 Parlons seul à seul...
 ``Grognement''
 Est-ce que Commandant te semble être
@@ -159,7 +159,7 @@ Je n'y comprends rien du tout ![end]</data>
         <refs>
             <ref>0x69c</ref>
         </refs>
-        <data>BARECK:
+        <data>Barclay:
 Je veux me plaindre !
 Veux-tu m'entendre ?
  Vas-y,s'il te plaît !
@@ -206,7 +206,7 @@ Sache que la victoire c'est l'argent ![end]</data>
         <refs>
             <ref>0x5a5</ref>
         </refs>
-        <data>RUSH:
+        <data>Rush:
 Durant les combats,je ne vois que le
 sourire de [character][0x1],et alors,je me dis:
 Fais de ton mieux,Rush !
@@ -233,14 +233,14 @@ Je la protègerai ![end]</data>
         <refs>
             <ref>0x5c4</ref>
         </refs>
-        <data>RUSH:
+        <data>Rush:
 Haha...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6b8</ref>
         </refs>
-        <data>BARECK:
+        <data>Barclay:
 Autrefois,nous nous étions résignés à
 nous croire vaincus pour notre combat
 pour le monde.
@@ -257,7 +257,7 @@ augmenter en force.[end]</data>
         <refs>
             <ref>0x71f</ref>
         </refs>
-        <data>BARECK:
+        <data>Barclay:
 Je dois t'annoncer que j'aime
 quelqu'un...
 Une sorcière vaniteuse...
@@ -287,7 +287,7 @@ garde ça secret.[end]</data>
         <refs>
             <ref>0x7b8</ref>
         </refs>
-        <data>SERGENT:
+        <data>Gunso:
 [character][0x0]!
 ``Grognement''
 Il est mieux pour tous de retourner
@@ -299,7 +299,7 @@ Il y a tant de choses à y faire ![end]</data>
         <refs>
             <ref>0x81b</ref>
         </refs>
-        <data>REEVE:
+        <data>Reeve:
 Altair va redonner de la vigueur à
 Frunze !
 Ensemble,nous crierons:
@@ -310,7 +310,7 @@ Je suis content ![end]</data>
         <refs>
             <ref>0x853</ref>
         </refs>
-        <data>FRUNZE:
+        <data>Frunze:
 ... ... ... ...
  
 Je suis un lancier !
@@ -327,7 +327,7 @@ Tout ira bien,n'est-ce pas ?[end]</data>
         <refs>
             <ref>0x85b</ref>
         </refs>
-        <data>FILS DE ZORA:
+        <data>Fils de Zora:
 Quoi ?!
 Tu veux connaître mon nom ?
  Dis-le-moi !
@@ -337,7 +337,7 @@ Tu veux connaître mon nom ?
         <refs>
             <ref>0x869</ref>
         </refs>
-        <data>FILS DE ZORA:
+        <data>Fils de Zora:
 En réalité...
 Mon nom est... Orelus !
 Beaucoup de personnes dans le monde
@@ -357,7 +357,7 @@ Je ferai de mon mieux ![end]</data>
         <refs>
             <ref>0x59a</ref>
         </refs>
-        <data>RUSH:
+        <data>Rush:
 Nous aimons le combat,
 nous allons aller combattre !
 Nous connaissons tous le but de
@@ -367,7 +367,7 @@ l'Armée de Libération d'Orelus ![end][end]</data>
         <refs>
             <ref>0x62f</ref>
         </refs>
-        <data>BIKEBAKE:
+        <data>Bikebake:
 Je crois que l'argent devient
 insupportable à la fin !
 Mais depuis que j'ai commencé à
@@ -385,7 +385,7 @@ commercer,je ne peux plus m'arrêter ![end]</data>
         <refs>
             <ref>0x780</ref>
         </refs>
-        <data>SERGENT:
+        <data>Gunso:
 Aah...
 ``Grognement''
 Quelque chose sur ce bateau est très
@@ -398,7 +398,7 @@ Chantonnons...[end]</data>
         <refs>
             <ref>0x807</ref>
         </refs>
-        <data>REEVE:
+        <data>Reeve:
 Ah ! Mon pauvre ventre !
 N'accoste pas les gens comme ça.[end]</data>
     </text>
@@ -406,7 +406,7 @@ N'accoste pas les gens comme ça.[end]</data>
         <refs>
             <ref>0x845</ref>
         </refs>
-        <data>FRUNZE:
+        <data>Frunze:
 Reeve a mangé un mélange de
 [0xaa]SERGENT ???[0xab] et de [0xaa]UNIUJI[0xab].
 Il a mal à l'estomac...
@@ -447,7 +447,7 @@ tous les palais ! ``Grognement''[end]</data>
         <refs>
             <ref>0x6bf</ref>
         </refs>
-        <data>BARECK:
+        <data>Barclay:
 Aujourd'hui,je pensais au commerce et
 au fait que les prix devraient être les
 mêmes pour les hommes et les femmes.
@@ -481,7 +481,7 @@ vous.[end]</data>
         <refs>
             <ref>0x6e9</ref>
         </refs>
-        <data>BARECK:
+        <data>Barclay:
 Il faut que tu me dises ce que tu
 penses de ma nouvelle idée !
 Crois-tu qu'une bataille entre les
@@ -532,7 +532,7 @@ prochain assaut ![end]</data>
         <refs>
             <ref>0x811</ref>
         </refs>
-        <data>REEVE:
+        <data>Reeve:
 Guh huh huh...
  
 Je ne suis pas différent des autres
@@ -545,7 +545,7 @@ Je n'ai plus rien...[end]</data>
         <refs>
             <ref>0x84c</ref>
         </refs>
-        <data>FRUNZE:
+        <data>Frunze:
 Cette fois,c'est décidé !
 Ma vengeance sera terrible !
 J'ai décidé cela tout seul et j'en ai
@@ -555,7 +555,7 @@ même des frissons...[end]</data>
         <refs>
             <ref>0x7ae</ref>
         </refs>
-        <data>SERGENT:
+        <data>Gunso:
 La Restauration de Mahal...
 ``Grognement''
 La Restauration de Kana...

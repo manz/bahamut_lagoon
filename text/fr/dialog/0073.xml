@@ -15,7 +15,7 @@
         <refs>
             <ref>0x2e6</ref>
         </refs>
-        <data>DOCTEUR DRAGON:
+        <data>Docteur Dragon:
 Je vais t'apprendre les meilleures
 méthodes pour t'occuper de tes
 dragons.[end]</data>
@@ -237,14 +237,14 @@ Chose peu commune aux dragons ![end]</data>
         <refs>
             <ref>0x8e7</ref>
         </refs>
-        <data>DOCTEUR DRAGON:
+        <data>Docteur Dragon:
 Tu veux déjà partir ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x659</ref>
         </refs>
-        <data>DOCTEUR DRAGON:
+        <data>Docteur Dragon:
 Est-ce que tu veux rentrer ?[end]</data>
     </text>
     <text>
@@ -278,7 +278,7 @@ Tu as du mal à suivre ![end]</data>
         <refs>
             <ref>0x327</ref>
         </refs>
-        <data>DOCTEUR DRAGON:
+        <data>Docteur Dragon:
 D'accord,j'espère que tu sais déjà
 de nombreuses choses !
 Ne va pas faire de mauvais choix pour

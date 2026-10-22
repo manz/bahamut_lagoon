@@ -4,7 +4,7 @@
         <refs>
             <ref>0x95</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Hé ! Le Peuple Dragon !
 Nous allons entrer[0xd8]
 Nous venons défendre Orelus !
@@ -15,7 +15,7 @@ Mais patientez encore ![end]</data>
         <refs>
             <ref>0xa1</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Tu as entendu ![end]</data>
     </text>
     <text>
@@ -23,14 +23,14 @@ Tu as entendu ![end]</data>
             <ref>0x80b</ref>
             <ref>0xae</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>Taicho:
 Je crois qu'Alexandre nous a entendus ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4cc</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Allons-y [character][0x0]!
 Ce sera sûrement la Dernière Bataille !
 Tout est en ordre !
@@ -49,7 +49,7 @@ Est-ce que tu es prêt ?
         <refs>
             <ref>0x4ee</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Très bien !
 Encore un instant...[end]</data>
     </text>
@@ -57,14 +57,14 @@ Encore un instant...[end]</data>
         <refs>
             <ref>0x51f</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Je suis désolé pour tout,Palparos.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x52c</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Vivez ce qui vous reste à vivre avant
 la dernière bataille.
 Que devra-t-on dire lorsqu'on
@@ -74,7 +74,7 @@ attaquera ?[end]</data>
         <refs>
             <ref>0x58a</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 [character][0x0],
 choisis le meilleur cri de guerre !
  Combattons avec courage !
@@ -84,7 +84,7 @@ choisis le meilleur cri de guerre !
         <refs>
             <ref>0x840</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 La... la paix va bientôt revenir à
 Orelus...[end]</data>
     </text>
@@ -92,7 +92,7 @@ Orelus...[end]</data>
         <refs>
             <ref>0x598</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 [character][0x0]...
 C'est tout toi ça,pas moi...[end]</data>
     </text>
@@ -100,14 +100,14 @@ C'est tout toi ça,pas moi...[end]</data>
         <refs>
             <ref>0x617</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>Taicho:
 Il y a de nombreux démons ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x629</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Zut !
 Entrons-y de force ![end]</data>
     </text>
@@ -115,14 +115,14 @@ Entrons-y de force ![end]</data>
         <refs>
             <ref>0x637</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Viens,c'est la Dernière Bataille ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x869</ref>
         </refs>
-        <data>RUSH:
+        <data>Rush:
 Ne gâchons pas de temps en futilités ![end]</data>
     </text>
     <text>
@@ -138,7 +138,7 @@ Ne gâchons pas de temps en futilités ![end]</data>
         <refs>
             <ref>0x8d7</ref>
         </refs>
-        <data>BIKEBAKE:
+        <data>Bikebake:
 C'est la fin de la fin,frère ![end]</data>
     </text>
     <text>
@@ -153,14 +153,14 @@ C'est la fin de la fin,frère ![end]</data>
         <refs>
             <ref>0xbc</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Tout va se finir ici ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8c2</ref>
         </refs>
-        <data>TAURUS:
+        <data>Truth:
 Selon ma petite enquête...
  
 Matelite dégage de la lumière par
@@ -205,7 +205,7 @@ vers leur Patrie.[end]</data>
         <refs>
             <ref>0x495</ref>
         </refs>
-        <data>PALPAROS:
+        <data>Palparos:
 Notre but est proche...[end]</data>
     </text>
     <text>
@@ -219,7 +219,7 @@ Notre but est proche...[end]</data>
         <refs>
             <ref>0x261</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Alexandre doit sûrement être ressuscité !
 Soyons tous prêts ![end]</data>
     </text>
@@ -227,7 +227,7 @@ Soyons tous prêts ![end]</data>
         <refs>
             <ref>0x84a</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 [character][0x0],est-ce utile... de vaincre...
 Alexandre ressuscité ?[end]</data>
     </text>
@@ -246,7 +246,7 @@ Je suis sûre que tout ira bien.[end]</data>
         <refs>
             <ref>0x815</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>Taicho:
 [character][0x0],reste calme !
  
  Ce n'est pas possible !
@@ -270,7 +270,7 @@ blessures vont s'apaiser.[end]</data>
         <refs>
             <ref>0x65c</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Tu es prêt ?!
  
  Ne sois pas impatient !
@@ -280,14 +280,14 @@ Tu es prêt ?!
         <refs>
             <ref>0x674</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Dépêche-toi ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x688</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Allons sauver notre monde,Orelus !
  
 Dès notre victoire,
@@ -297,7 +297,7 @@ nous rentrerons chez nous ![end]</data>
         <refs>
             <ref>0x8cc</ref>
         </refs>
-        <data>TAURUS:
+        <data>Truth:
 Capitaine [character][0x0]!
 Assurez-vous de n'avoir rien oublié !
 N'oubliez pas de vous occuper des
@@ -307,7 +307,7 @@ dragons.[end]</data>
         <refs>
             <ref>0x49f</ref>
         </refs>
-        <data>PALPAROS:
+        <data>Palparos:
 [character][0x1] est en train de penser à
 l'attaque à employer...[end]</data>
     </text>
@@ -322,14 +322,14 @@ Mais je l'ai déjà fait ![end]</data>
         <refs>
             <ref>0x87a</ref>
         </refs>
-        <data>RUSH:
+        <data>Rush:
 Dépêche-toi [character][0x0]![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8e8</ref>
         </refs>
-        <data>BIKEBAKE:
+        <data>Bikebake:
 Nous allons bientôt rentrer chez
 nous ![end]</data>
     </text>

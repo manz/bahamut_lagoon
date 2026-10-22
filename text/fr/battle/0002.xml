@@ -4,7 +4,7 @@
         <refs>
             <ref>0x2c</ref>
         </refs>
-        <data>MATELITE: La Princesse [character][0x1] est dans
+        <data>Matelite: La Princesse [character][0x1] est dans
 la forteresse, droit devant !![end1][end]</data>
     </text>
     <text>
@@ -32,7 +32,7 @@ sommes capables !![end1][end]</data>
         <refs>
             <ref>0x4f</ref>
         </refs>
-        <data>MATELITE: Si on vainc un ennemi avec une
+        <data>Matelite: Si on vainc un ennemi avec une
 attaque indirecte, on ne touche que la
 moitié de l'argent !![end1][end]</data>
     </text>
@@ -40,21 +40,21 @@ moitié de l'argent !![end1][end]</data>
         <refs>
             <ref>0x5a</ref>
         </refs>
-        <data>COMMANDANT: Nous sommes pauvres ! Il nous faut
+        <data>Taicho: Nous sommes pauvres ! Il nous faut
 de l'argent !![0xfc][0x18] De l'argent, de l'argent !![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x65</ref>
         </refs>
-        <data>MATELITE: Écrasez-les en attaque
+        <data>Matelite: Écrasez-les en attaque
 directe !![0xfc][0x18] Et pas de quartier !![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x74</ref>
         </refs>
-        <data>SENDAK: Le continent verdoyant de
+        <data>Sendak: Le continent verdoyant de
 Campbell...[0xfc][0x30] Il y a quelque chose dans l'air...[0xfc][0x18][end1][end]</data>
     </text>
     <text>

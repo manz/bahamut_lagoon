@@ -4,7 +4,7 @@
         <refs>
             <ref>0xcc</ref>
         </refs>
-        <data>IMPERATRICE DE CAMPBELL:
+        <data>Reine de Campbell:
 Tu n'as rien eu,
 toi qui as conquis Campbell.
 Tes ambitions ne sont pas près de
@@ -31,7 +31,7 @@ Mais CE NE SERA PAS la tienne ![end]</data>
         <refs>
             <ref>0x1a1</ref>
         </refs>
-        <data>SAUZER:
+        <data>Sauzer:
 Que... ?
 Où suis-je... ?[end]</data>
     </text>
@@ -39,7 +39,7 @@ Où suis-je... ?[end]</data>
         <refs>
             <ref>0x1af</ref>
         </refs>
-        <data>PALPAROS:
+        <data>Palparos:
 Sauzer...
 Vous êtes dans votre chambre.
 Vous ne vous en souvenez pas ?
@@ -50,7 +50,7 @@ libéré.[end]</data>
         <refs>
             <ref>0x1bf</ref>
         </refs>
-        <data>SAUZER:
+        <data>Sauzer:
 Je...
 J'ai été atteint par ce pouvoir ?
 La Princesse [character][0x1]...
@@ -61,7 +61,7 @@ Se porte-t-elle bien ?[end]</data>
         <refs>
             <ref>0x1cb</ref>
         </refs>
-        <data>PALPAROS:
+        <data>Palparos:
 Je suis désolé,
 la Princesse est partie.
 Elle a rejoint les Rebelles et Campbell
@@ -71,7 +71,7 @@ nous a été reprise.[end]</data>
         <refs>
             <ref>0x209</ref>
         </refs>
-        <data>SAUZER:
+        <data>Sauzer:
 Je suis désolé Palparos.
 Où sont partis les Rebelles ?
 Vont-ils à la recherche des Dragons
@@ -81,7 +81,7 @@ Sacrés ?[end]</data>
         <refs>
             <ref>0x225</ref>
         </refs>
-        <data>PALPAROS:
+        <data>Palparos:
 Reposez-vous un peu...
 Nous défendrons Granbelos pour vous ![end]</data>
     </text>
@@ -89,7 +89,7 @@ Nous défendrons Granbelos pour vous ![end]</data>
         <refs>
             <ref>0x25d</ref>
         </refs>
-        <data>SAUZER:
+        <data>Sauzer:
 La personne qui connaît le coeur des
 Dragons Sacrés ouvrira la Porte vers
 une Ère Nouvelle.
@@ -165,7 +165,7 @@ perdus...[end]</data>
         <refs>
             <ref>0x503</ref>
         </refs>
-        <data>SAUZER:
+        <data>Sauzer:
 Des monstres... repoussants...
 Les gardiens du Dragon Sacré !
 Bienvenue à tous...
@@ -209,7 +209,7 @@ amener la Nouvelle Ère...[end]</data>
         <refs>
             <ref>0x624</ref>
         </refs>
-        <data>SAUZER:
+        <data>Sauzer:
 D'accord,gardiens...[end]</data>
     </text>
     <text>
@@ -241,7 +241,7 @@ Il est... dans mon esprit...[end]</data>
         <refs>
             <ref>0x801</ref>
         </refs>
-        <data>PALPAROS:
+        <data>Palparos:
 Avez-vous remarqué le changement
 dans le ciel ?
 Empereur Sauzer,
@@ -252,7 +252,7 @@ le ciel ?[end]</data>
         <refs>
             <ref>0x80c</ref>
         </refs>
-        <data>SAUZER:
+        <data>Sauzer:
 Palparos...
 Le ciel...
 Viens avec moi voir le ciel pour la
@@ -262,14 +262,14 @@ dernière fois...[end]</data>
         <refs>
             <ref>0x81c</ref>
         </refs>
-        <data>PALPAROS:
+        <data>Palparos:
 Pour la dernière fois ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x871</ref>
         </refs>
-        <data>SAUZER:
+        <data>Sauzer:
 Il est si brillant...
 J'avais oublié cela !
 Il est brillant grâce aux rêves et à la
@@ -282,14 +282,14 @@ Le ciel est à moi ![end]</data>
             <ref>0x87b</ref>
             <ref>0x89d</ref>
         </refs>
-        <data>PALPAROS:
+        <data>Palparos:
 Sauzer... ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x88c</ref>
         </refs>
-        <data>SAUZER:
+        <data>Sauzer:
 Palparos...
 Est-ce que je fais erreur ?
 Suis-je humain ?

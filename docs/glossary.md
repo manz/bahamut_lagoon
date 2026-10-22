@@ -42,8 +42,8 @@ healing.
 
 `text/fr/names.xml` is the source: the prose writes a character as names.xml spells it, and the build encodes that
 spelling as the name's reference (F4 and its index), so the script prints the record, or the name the player chose.
-A name longer than its 8-code record (Frederica, Anastasia, Ekaterina, Fils de Zora) stays spelled out. Speaker
-labels in capitals are spelled out too.
+A name longer than its 8-code record (Frederica, Anastasia, Ekaterina, Fils de Zora) stays spelled out. A speaker
+label is never in capitals: "Matelite:", "Reine de Campbell:", not "MATELITE:".
 
 | JP | FR | Not |
 |---|---|---|

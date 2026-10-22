@@ -4,19 +4,19 @@
         <refs>
             <ref>0x2c</ref>
         </refs>
-        <data>MATELITE: Sauzer !![end1][end]</data>
+        <data>Matelite: Sauzer !![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x39</ref>
         </refs>
-        <data>COMMANDANT: Regardez ! C'est Palparos !![end1][end]</data>
+        <data>Taicho: Regardez ! C'est Palparos !![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4a</ref>
         </refs>
-        <data>MATELITE: Écoutez-moi tous !
+        <data>Matelite: Écoutez-moi tous !
 Pas d'hésitation !![end1][end]</data>
     </text>
     <text>
@@ -29,21 +29,21 @@ Pas d'hésitation !![end1][end]</data>
         <refs>
             <ref>0x59</ref>
         </refs>
-        <data>COMMANDANT: Nous allons en finir,[0xfc][0x10]
+        <data>Taicho: Nous allons en finir,[0xfc][0x10]
 ici même ![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x64</ref>
         </refs>
-        <data>MATELITE: Princesse [character][0x1]...[0xfc][0x18]
+        <data>Matelite: Princesse [character][0x1]...[0xfc][0x18]
 Veillez sur nous...[end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6b</ref>
         </refs>
-        <data>SAUZER: Membres de la Résistance,[0xfc][0x10]
+        <data>Sauzer: Membres de la Résistance,[0xfc][0x10]
 cette guerre a été bien longue...[end1][end]</data>
     </text>
     <text>
@@ -70,14 +70,14 @@ accomplirai la légende !![end1][end]</data>
         <refs>
             <ref>0x7e</ref>
         </refs>
-        <data>PALPAROS: ...Elle n'est pas là ?[0xfc][0x10]
+        <data>Palparos: ...Elle n'est pas là ?[0xfc][0x10]
 [character][0x1]......[end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x84</ref>
         </refs>
-        <data>SAUZER: ...Princesse [character][0x1]...[0xfc][0x10]
+        <data>Sauzer: ...Princesse [character][0x1]...[0xfc][0x10]
 Quelle ironie...[end1][end]</data>
     </text>
     <text>
@@ -99,13 +99,13 @@ Sacrés...[end1][end]</data>
         <refs>
             <ref>0x97</ref>
         </refs>
-        <data>MATELITE: Préparez-vous à attaquer !![end1][end]</data>
+        <data>Matelite: Préparez-vous à attaquer !![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa2</ref>
         </refs>
-        <data>SENDAK: Il y aura parfois des
+        <data>Sendak: Il y aura parfois des
 tempêtes de sable,[0xfc][0x18] il faut donc
 les surveiller.[end1][end]</data>
     </text>
@@ -127,13 +127,13 @@ de Sauzer et de Palparos.[end1][end]</data>
         <refs>
             <ref>0x116</ref>
         </refs>
-        <data>MATELITE: Nous avons vaincu Sauzer...[0xfc][0x20][end1][end]</data>
+        <data>Matelite: Nous avons vaincu Sauzer...[0xfc][0x20][end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x121</ref>
         </refs>
-        <data>COMMANDANT: Sire Matelite !![0xfc][0x18]
+        <data>Taicho: Sire Matelite !![0xfc][0x18]
 Nous sommes victorieux !![end1][end]</data>
     </text>
     <text>

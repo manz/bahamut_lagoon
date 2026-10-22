@@ -13,7 +13,7 @@
         <refs>
             <ref>0x332</ref>
         </refs>
-        <data>BIKEBAKE:
+        <data>Bikebake:
 Des champignons ?![end]</data>
     </text>
     <text>
@@ -26,7 +26,7 @@ Des champignons ?![end]</data>
         <refs>
             <ref>0x30c</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 Excuse-moi... excuse-moi...
 Je feins la maladie mais...
 Je crains le Dragon Sacré...
@@ -37,7 +37,7 @@ Je ne suis qu'un homme faible.[end]</data>
         <refs>
             <ref>0x31d</ref>
         </refs>
-        <data>RUSH:
+        <data>Rush:
 Cette intense puissance serait la
 colère du Dragon Sacré ?![end]</data>
     </text>
@@ -45,7 +45,7 @@ colère du Dragon Sacré ?![end]</data>
         <refs>
             <ref>0x327</ref>
         </refs>
-        <data>TAURUS:
+        <data>Truth:
 Capitaine [character][0x0],
 je me sens si lourd...
 Le Dragon Sacré est dans une telle
@@ -55,7 +55,7 @@ furie ![end]</data>
         <refs>
             <ref>0x587</ref>
         </refs>
-        <data>PALPAROS:
+        <data>Palparos:
 Gudruff !
 Quel est ce lieu ?
 Et l'Empereur Sauzer ?[end]</data>
@@ -64,7 +64,7 @@ Et l'Empereur Sauzer ?[end]</data>
         <refs>
             <ref>0x59e</ref>
         </refs>
-        <data>GUDRUFF:
+        <data>Gudruff:
 L'Empereur Sauzer... ?
 Il est terriblement déçu...[end]</data>
     </text>
@@ -87,7 +87,7 @@ Gufufufufu[0xd8][end]</data>
         <refs>
             <ref>0x5bc</ref>
         </refs>
-        <data>PALPAROS:
+        <data>Palparos:
 C'est ridicule[0xd8]
 Pourquoi... Sauzer... ?[end]</data>
     </text>
@@ -95,7 +95,7 @@ Pourquoi... Sauzer... ?[end]</data>
         <refs>
             <ref>0x5d7</ref>
         </refs>
-        <data>GUDRUFF:
+        <data>Gudruff:
 Pourquoi... ?
 Tu devrais le lui demander...
 Je vois aussi que vous êtes tous là !
@@ -158,7 +158,7 @@ n'oublie pas de nourrir les dragons.[end]</data>
         <refs>
             <ref>0x2ce</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Qu'il revienne[0xd8]
 Il paiera[0xd8][end]</data>
     </text>
@@ -166,14 +166,14 @@ Il paiera[0xd8][end]</data>
         <refs>
             <ref>0x2e3</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>Taicho:
 Tout est fermé[0xd8][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2ed</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>Taicho:
 Ma moustache me le dit[0xd8]
 Est-ce ça la colère des Dragons
 Sacrés ?
@@ -183,7 +183,7 @@ C'est si pénible[0xd8][end]</data>
         <refs>
             <ref>0x2d8</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 [character][0x0],que se passe-t-il ?
 Toi,tu peux...
 Oh,ma tête ![end]</data>
@@ -192,7 +192,7 @@ Oh,ma tête ![end]</data>
         <refs>
             <ref>0x2b6</ref>
         </refs>
-        <data>PALPAROS:
+        <data>Palparos:
 Je ne le crois pas...
  
 Rien n'est vrai...
@@ -204,7 +204,7 @@ Ce serait plutôt à moi de lui dire ça.[end]</data>
         <refs>
             <ref>0x2c3</ref>
         </refs>
-        <data>PALPAROS:
+        <data>Palparos:
 [character][0x1]...[end]</data>
     </text>
     <text>
@@ -251,14 +251,14 @@ J'ai le coeur craintif...[end]</data>
         <refs>
             <ref>0x46d</ref>
         </refs>
-        <data>SAUZER:
+        <data>Sauzer:
 Venez par ici,je vous en prie.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x48d</ref>
         </refs>
-        <data>SAUZER:
+        <data>Sauzer:
 Je connais la colère et la peine des
 Dragons Sacrés.
 Je vais vous donner le coeur et la
@@ -271,7 +271,7 @@ sauvez le Ciel d'Orelus.[end]</data>
         <refs>
             <ref>0x537</ref>
         </refs>
-        <data>SAUZER:
+        <data>Sauzer:
 Palparos,j'aimerais que...
 tu m'amènes voir le ciel...[end]</data>
     </text>
@@ -279,14 +279,14 @@ tu m'amènes voir le ciel...[end]</data>
         <refs>
             <ref>0x531</ref>
         </refs>
-        <data>PALPAROS:
+        <data>Palparos:
 Sauzer[0xd8][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x540</ref>
         </refs>
-        <data>PALPAROS:
+        <data>Palparos:
 Je vous emmène à Fareneit...[end]</data>
     </text>
 </texts>

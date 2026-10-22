@@ -32,7 +32,7 @@ Ce jour où j'ai quitté Mahal...[end]</data>
         <refs>
             <ref>0xf5</ref>
         </refs>
-        <data>RESTATTO:
+        <data>Restatto:
 HIHIHIHIHIHIHIHIHIHIHI ![end]</data>
     </text>
     <text>
@@ -56,7 +56,7 @@ HIHIHIHIHIHIHI ![end]</data>
         <refs>
             <ref>0x17b</ref>
         </refs>
-        <data>SERGENT:
+        <data>Gunso:
 Capitaine,Mahal va tomber entre les
 mains de l'ennemi ![end]</data>
     </text>
@@ -64,7 +64,7 @@ mains de l'ennemi ![end]</data>
         <refs>
             <ref>0x188</ref>
         </refs>
-        <data>SOLDAT:
+        <data>Soldat:
 C'est inévitable !
  
 Ne nous faisons pas d'illusions !
@@ -82,7 +82,7 @@ Donnez-nous les ordres ![end]</data>
         <refs>
             <ref>0x1a1</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>Taicho:
 Hum...
  
 En tant que chevalier,je vais moi-même
@@ -93,7 +93,7 @@ Laissez-moi vous protéger tous ![end]</data>
         <refs>
             <ref>0x1ad</ref>
         </refs>
-        <data>SOLDAT:
+        <data>Soldat:
 C'est beaucoup trop dangereux !
  
 Vous risqueriez de vous faire tuer
@@ -103,7 +103,7 @@ rapidement face à tant d'ennemis ![end]</data>
         <refs>
             <ref>0x1b9</ref>
         </refs>
-        <data>SOLDAT:
+        <data>Soldat:
 Nous allons le faire pour vous,
 Capitaine Commandant.
 Nous combattrons Restatto et dès
@@ -114,7 +114,7 @@ vous le tuerez.[end]</data>
         <refs>
             <ref>0x1de</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>Taicho:
 Silence !
 Qui commande ici ?![end]</data>
     </text>
@@ -129,14 +129,14 @@ Capitaine de l'armée de Mahal ![end]</data>
         <refs>
             <ref>0x1fa</ref>
         </refs>
-        <data>SOLDAT:
+        <data>Soldat:
 Mais...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x20a</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>Taicho:
 Silence !
 Ce sont mes ordres !
 Je suis le guerrier le plus puissant de
@@ -149,14 +149,14 @@ prêt à perdre la vie pour lui ![end]</data>
         <refs>
             <ref>0x218</ref>
         </refs>
-        <data>SOLDAT:
+        <data>Soldat:
 Mais...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x226</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>Taicho:
 Cessez ! Ce sont mes ordres !
 Vous êtes trop bruyants ![end]</data>
     </text>
@@ -164,21 +164,21 @@ Vous êtes trop bruyants ![end]</data>
         <refs>
             <ref>0x22e</ref>
         </refs>
-        <data>CELINE:
+        <data>Céline:
 Tu ne changeras jamais ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x242</ref>
         </refs>
-        <data>SERGENT:
+        <data>Gunso:
 Céline...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x24c</ref>
         </refs>
-        <data>CELINE:
+        <data>Céline:
 Je suis également d'accord avec ce
 qu'a dit ce soldat.[end]</data>
     </text>
@@ -186,7 +186,7 @@ qu'a dit ce soldat.[end]</data>
         <refs>
             <ref>0x263</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>Taicho:
 Que dis-tu ?!
 Tu ne comprends rien ?!
 Si je ne vais pas défendre ma patrie...
@@ -196,14 +196,14 @@ Qui le fera ?![end]</data>
         <refs>
             <ref>0x26d</ref>
         </refs>
-        <data>CELINE:
+        <data>Céline:
 Tu ne peux vaincre Restatto...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x279</ref>
         </refs>
-        <data>SERGENT:
+        <data>Gunso:
 Céline !
 Je suis d'accord avec vous ![end]</data>
     </text>
@@ -211,7 +211,7 @@ Je suis d'accord avec vous ![end]</data>
         <refs>
             <ref>0x28e</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>Taicho:
 Cessez ! Taisez-vous ![end]</data>
     </text>
     <text>
@@ -236,14 +236,14 @@ vie ![end]</data>
         <refs>
             <ref>0x2cc</ref>
         </refs>
-        <data>CELINE:
+        <data>Céline:
 Magie Sommeil ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x324</ref>
         </refs>
-        <data>CELINE:
+        <data>Céline:
 Je suis désolée mon tendre époux...
 Je me devais de faire cela.[end]</data>
     </text>
@@ -251,7 +251,7 @@ Je me devais de faire cela.[end]</data>
         <refs>
             <ref>0x32d</ref>
         </refs>
-        <data>CELINE:
+        <data>Céline:
 Soldats,puissiez-vous entendre et
 respecter mes paroles !
 C'est inévitable !
@@ -281,7 +281,7 @@ vain ![end]</data>
         <refs>
             <ref>0x349</ref>
         </refs>
-        <data>CELINE:
+        <data>Céline:
 Venez mes braves soldats ![end]</data>
     </text>
     <text>
@@ -294,7 +294,7 @@ Venez mes braves soldats ![end]</data>
         <refs>
             <ref>0x36c</ref>
         </refs>
-        <data>CELINE:
+        <data>Céline:
 Sergent,ceci est ma dernière volonté:
 Fuis Mahal et dis à Commandant
 d'attendre le jour...
@@ -310,7 +310,7 @@ Le jour de la libération ![end]</data>
         <refs>
             <ref>0x3f0</ref>
         </refs>
-        <data>CELINE:
+        <data>Céline:
 Approche,Restatto ![end]</data>
     </text>
     <text>
@@ -323,7 +323,7 @@ Approche,Restatto ![end]</data>
         <refs>
             <ref>0x440</ref>
         </refs>
-        <data>RESTATTO:
+        <data>Restatto:
 HIHIHIHIHIHIHIHIHI !
 Tu ne peux me vaincre avec une telle
 magie ![end]</data>
@@ -346,7 +346,7 @@ Me craindrait-il ?![end]</data>
         <refs>
             <ref>0x4c1</ref>
         </refs>
-        <data>RESTATTO:
+        <data>Restatto:
 HIHIHIHIHIHIHIHI !
 Commandant !
 Où est-il ?!
@@ -358,7 +358,7 @@ HIHIHIHIHIHIHIHIHIHIHI ![end]</data>
         <refs>
             <ref>0x4d1</ref>
         </refs>
-        <data>CELINE:
+        <data>Céline:
 Tu te trompes !
 Mon mari...
 Mon mari n'est pas ce genre d'homme ![end]</data>
@@ -367,7 +367,7 @@ Mon mari n'est pas ce genre d'homme ![end]</data>
         <refs>
             <ref>0x4de</ref>
         </refs>
-        <data>RESTATTO:
+        <data>Restatto:
 HIHIHIHIHIHI !
 Ce genre d'homme ?
 Si,il l'est !
@@ -383,7 +383,7 @@ HIHIHIHIHIHI ![end]</data>
         <refs>
             <ref>0x570</ref>
         </refs>
-        <data>CELINE:
+        <data>Céline:
 Kyaaaaa ![end]</data>
     </text>
     <text>
@@ -502,7 +502,7 @@ homme inutile,tout comme moi...[end]</data>
         <refs>
             <ref>0x6f8</ref>
         </refs>
-        <data>TAURUS:
+        <data>Truth:
 Voici la carte de Mahal...[end]</data>
     </text>
     <text>
@@ -554,14 +554,14 @@ l'Empire.[end]</data>
         <refs>
             <ref>0xb1a</ref>
         </refs>
-        <data>HORNET:
+        <data>Hornet:
 Nous sommes bientôt à Godrand.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb31</ref>
         </refs>
-        <data>MELODY:
+        <data>Melody:
 Ouais ! Ouais !
 Ma chère ville de Godrand ![end]</data>
     </text>
@@ -596,7 +596,7 @@ Hein ?![end]</data>
         <refs>
             <ref>0xb61</ref>
         </refs>
-        <data>HORNET:
+        <data>Hornet:
 Mélodia !
 Tu le sais,pourtant !
 Les Petits Démons n'ont pas le droit
@@ -606,7 +606,7 @@ d'être sur le pont.[end]</data>
         <refs>
             <ref>0xb77</ref>
         </refs>
-        <data>MELODY:
+        <data>Melody:
 Génial !
 Hornet a mauvais tempérament !
 Partons,Petits Démons ![end]</data>
@@ -615,14 +615,14 @@ Partons,Petits Démons ![end]</data>
         <refs>
             <ref>0xba7</ref>
         </refs>
-        <data>HORNET:
+        <data>Hornet:
 Hé ! Arrêtez ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc0c</ref>
         </refs>
-        <data>RUSH:
+        <data>Rush:
 Hé...[end]</data>
     </text>
     <text>
@@ -636,7 +636,7 @@ Est-ce que tu dors ?[end]</data>
         <refs>
             <ref>0xc1e</ref>
         </refs>
-        <data>TAURUS:
+        <data>Truth:
 Je... je n'arrive pas...
 Je n'ai dormi qu'un moment...
 Je me demande pourquoi ?[end]</data>
@@ -645,7 +645,7 @@ Je me demande pourquoi ?[end]</data>
         <refs>
             <ref>0xc27</ref>
         </refs>
-        <data>RUSH:
+        <data>Rush:
 C'est étrange que nous ne puissions
 pas dormir...[end]</data>
     </text>
@@ -661,14 +661,14 @@ Et toi ?[end]</data>
             <ref>0xd0a</ref>
             <ref>0xc3e</ref>
         </refs>
-        <data>BIKEBAKE:
+        <data>Bikebake:
 Zzzz... Zzzz...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc47</ref>
         </refs>
-        <data>TAURUS:
+        <data>Truth:
 Il a un sommeil de plomb !
 Impossible de le réveiller ![end]</data>
     </text>
@@ -676,7 +676,7 @@ Impossible de le réveiller ![end]</data>
         <refs>
             <ref>0xc50</ref>
         </refs>
-        <data>RUSH:
+        <data>Rush:
 Haha...[end]</data>
     </text>
     <text>
@@ -689,14 +689,14 @@ Haha...[end]</data>
         <refs>
             <ref>0xc65</ref>
         </refs>
-        <data>TAURUS:
+        <data>Truth:
 Quoi ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc6e</ref>
         </refs>
-        <data>RUSH:
+        <data>Rush:
 Comment pourrais-je te le dire
 simplement ?!
 J'ai eu un étrange sentiment lorsque
@@ -706,14 +706,14 @@ j'ai vu le peuple de Mahal...[end]</data>
         <refs>
             <ref>0xc77</ref>
         </refs>
-        <data>TAURUS:
+        <data>Truth:
 ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc83</ref>
         </refs>
-        <data>RUSH:
+        <data>Rush:
 Huuum...
 Tu sais ce que je veux dire...[end]</data>
     </text>
@@ -721,7 +721,7 @@ Tu sais ce que je veux dire...[end]</data>
         <refs>
             <ref>0xc8c</ref>
         </refs>
-        <data>TAURUS:
+        <data>Truth:
 Je te comprends,Rush,d'une manière
 ou d'une autre...[end]</data>
     </text>
@@ -729,7 +729,7 @@ ou d'une autre...[end]</data>
         <refs>
             <ref>0xc9a</ref>
         </refs>
-        <data>RUSH:
+        <data>Rush:
 Et toi,Taurus !
 Tu n'as rien ressenti ?![end]</data>
     </text>
@@ -737,7 +737,7 @@ Tu n'as rien ressenti ?![end]</data>
         <refs>
             <ref>0xca3</ref>
         </refs>
-        <data>TAURUS:
+        <data>Truth:
 Heuuu...
 Eh bien...[end]</data>
     </text>
@@ -783,14 +783,14 @@ et elle égale un homme au combat.[end]</data>
         <refs>
             <ref>0xcd5</ref>
         </refs>
-        <data>RUSH:
+        <data>Rush:
 Ils sont différents de nous...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xcde</ref>
         </refs>
-        <data>TAURUS:
+        <data>Truth:
 Lorsque j'étais très jeune,j'ai été
 formé pour entrer dans l'armée.[end]</data>
     </text>
@@ -798,7 +798,7 @@ formé pour entrer dans l'armée.[end]</data>
         <refs>
             <ref>0xce7</ref>
         </refs>
-        <data>RUSH:
+        <data>Rush:
 La liberté...[end]</data>
     </text>
     <text>
@@ -812,14 +812,14 @@ Quitte... à être des brutes ![end]</data>
         <refs>
             <ref>0xcf9</ref>
         </refs>
-        <data>TAURUS:
+        <data>Truth:
 Je ne comprends pas très bien.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd17</ref>
         </refs>
-        <data>RUSH:
+        <data>Rush:
 Bikebake !
 Hého...[end]</data>
     </text>

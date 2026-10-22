@@ -112,14 +112,14 @@ Regardez,je vous en prie...[end]</data>
         <refs>
             <ref>0x5ec</ref>
         </refs>
-        <data>DOCTEUR DRAGON:
+        <data>Docteur Dragon:
 Tu as une réunion ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5f3</ref>
         </refs>
-        <data>DOCTEUR DRAGON:
+        <data>Docteur Dragon:
 Les Dragons t'attendent !
 Hahaha ! Par ici ![end]</data>
     </text>
@@ -161,7 +161,7 @@ Nous sommes respectables ![end]</data>
         <refs>
             <ref>0x987</ref>
         </refs>
-        <data>WAGAHAI:
+        <data>Wagahai:
 ``les petits démons vivent et
  combattent dans l'ombre.''[end]</data>
     </text>
@@ -169,7 +169,7 @@ Nous sommes respectables ![end]</data>
         <refs>
             <ref>0x5dc</ref>
         </refs>
-        <data>DOCTEUR DRAGON:
+        <data>Docteur Dragon:
 Veux-tu sortir ?
  
 [character][0x4] est très heureux car nous
@@ -197,7 +197,7 @@ que... que...
         <refs>
             <ref>0x997</ref>
         </refs>
-        <data>MATELOT:
+        <data>Matelot:
 Il y a longtemps,tu m'as sauvé...
 Et je t'en remercie !
 Maintenant je peux de nouveau avoir
@@ -213,7 +213,7 @@ allait très bien se passer.[end]</data>
         <refs>
             <ref>0x99e</ref>
         </refs>
-        <data>MATELOT:
+        <data>Matelot:
 Je vais aider mes associés...
 Je vais y aller !
 Parfois,ce type repart en dragon !
@@ -245,7 +245,7 @@ Tout le monde l'a vu ![end]</data>
         <refs>
             <ref>0x5ce</ref>
         </refs>
-        <data>DOCTEUR DRAGON:
+        <data>Docteur Dragon:
 Les dragons sont bruyants et pleins
 d'éclat !
 La Princesse est revenue,c'est pour
@@ -266,7 +266,7 @@ Qu'aimeriez-vous ?[end]</data>
         <refs>
             <ref>0x5b8</ref>
         </refs>
-        <data>DOCTEUR DRAGON:
+        <data>Docteur Dragon:
 [character][0x7] et un matelot sont partis
 en reconnaissance.
 Heureusement qu'il y a un rayon de
@@ -341,7 +341,7 @@ Ah,bienvenue ![end]</data>
         <refs>
             <ref>0x5c0</ref>
         </refs>
-        <data>DOCTEUR DRAGON:
+        <data>Docteur Dragon:
 Rush est parti avec Salamand,
 il y a un instant !
 Sais-tu où il va ?
@@ -385,7 +385,7 @@ c'est si paisible.[end]</data>
         <refs>
             <ref>0x5ab</ref>
         </refs>
-        <data>DOCTEUR DRAGON:
+        <data>Docteur Dragon:
 Il y a un charmant bébé !
 Viens vite ![end]</data>
     </text>
@@ -447,7 +447,7 @@ Tout cela est dangereux ![end]</data>
         <refs>
             <ref>0x980</ref>
         </refs>
-        <data>WAGAHAI:
+        <data>Wagahai:
 ``les petits démons sont devenus
  de vrais démons depuis leur
  révolution.
@@ -465,7 +465,7 @@ Tout cela est dangereux ![end]</data>
         <refs>
             <ref>0x979</ref>
         </refs>
-        <data>WAGAHAI:
+        <data>Wagahai:
 ``ils essaient de voler des
  objets...
  les petits démons ambitionnent
@@ -529,7 +529,7 @@ ensemble,comme un vrai couple !
         <refs>
             <ref>0x9bf</ref>
         </refs>
-        <data>SAJIN:
+        <data>Sajin:
 Je crois que j'ai besoin d'un peu
 d'entraînement...[end]</data>
     </text>
@@ -537,14 +537,14 @@ d'entraînement...[end]</data>
         <refs>
             <ref>0x9c5</ref>
         </refs>
-        <data>SAJIN:
+        <data>Sajin:
 Je suis seul comme toujours...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9b9</ref>
         </refs>
-        <data>SAJIN:
+        <data>Sajin:
 C'est bruyant ici !
 C'est à cause de qui ?[end]</data>
     </text>
@@ -552,7 +552,7 @@ C'est à cause de qui ?[end]</data>
         <refs>
             <ref>0x9cb</ref>
         </refs>
-        <data>SAJIN:
+        <data>Sajin:
 La vie n'est qu'un chemin dont l'issue
 reste secrète...
 Tout ne peut être pardonné...[end]</data>
@@ -561,7 +561,7 @@ Tout ne peut être pardonné...[end]</data>
         <refs>
             <ref>0x9e3</ref>
         </refs>
-        <data>ZEROSHIN:
+        <data>Zeroshin:
 Ce bateau est propre mais je n'y ai
 pas beaucoup d'amis.
 Je crois que je vais aller m'entraîner.[end]</data>
@@ -570,7 +570,7 @@ Je crois que je vais aller m'entraîner.[end]</data>
         <refs>
             <ref>0x9e9</ref>
         </refs>
-        <data>ZEROSHIN:
+        <data>Zeroshin:
 Pourquoi n'ai-je toujours pas d'amis ?
 Je vais m'entraîner à sourire ![end]</data>
     </text>
@@ -578,7 +578,7 @@ Je vais m'entraîner à sourire ![end]</data>
         <refs>
             <ref>0x9ef</ref>
         </refs>
-        <data>ZEROSHIN:
+        <data>Zeroshin:
 Ils sont tous si vaniteux ?!
 Je suis toujours seul et Sajin n'est
 pas très causant.
@@ -589,7 +589,7 @@ Je me sens seul...[end]</data>
         <refs>
             <ref>0x9f5</ref>
         </refs>
-        <data>ZEROSHIN:
+        <data>Zeroshin:
 J'aimerais repartir...
 Je n'ai toujours pas d'amis !
 Je savais que vivre ici ne m'aurait

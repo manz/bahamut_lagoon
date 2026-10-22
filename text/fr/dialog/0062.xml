@@ -94,7 +94,7 @@ non plus ![end]</data>
         <refs>
             <ref>0x286</ref>
         </refs>
-        <data>LIBERO:
+        <data>Libero:
 C'est embarrassant...
 Vraiment...[end]</data>
     </text>
@@ -158,7 +158,7 @@ les femmes de Dafira.[end]</data>
         <refs>
             <ref>0x2c7</ref>
         </refs>
-        <data>LIBERO:
+        <data>Libero:
 As-tu pris une résolution ?[end]</data>
     </text>
     <text>
@@ -201,7 +201,7 @@ Tu m'as trouvé ![end]</data>
         <refs>
             <ref>0x382</ref>
         </refs>
-        <data>ZEROSHIN:
+        <data>Zeroshin:
 Le Leader des Rebelles !
 Voudrais-tu nous embaucher ?
 Tu peux nous payer en différé.
@@ -211,7 +211,7 @@ En [0xb0][0xb4] fois grand maximum,ok ?[end]</data>
         <refs>
             <ref>0x437</ref>
         </refs>
-        <data>ZEROSHIN:
+        <data>Zeroshin:
 Maman,excuse-moi pour tous les soucis
 que je te cause.
 Dès que mon travail sera fini,je crois
@@ -221,7 +221,7 @@ que je n'aurai plus rien à faire.[end]</data>
         <refs>
             <ref>0x325</ref>
         </refs>
-        <data>SAJIN:
+        <data>Sajin:
 Personne n'est encore venu me
 chercher.
 Je suis venu tout seul et c'est ici
@@ -231,7 +231,7 @@ que je m'entraîne.[end]</data>
         <refs>
             <ref>0x391</ref>
         </refs>
-        <data>SAJIN:
+        <data>Sajin:
 Le travail d'un assassin est de tuer
 des gens rapidement.
 C'est justement cette rapidité qu'on
@@ -279,7 +279,7 @@ de ton menu.[end]</data>
         <refs>
             <ref>0x442</ref>
         </refs>
-        <data>ZEROSHIN:
+        <data>Zeroshin:
 Je suis occupé,tu me permets d'avoir
 un peu d'intimité ?![end]</data>
     </text>
@@ -293,7 +293,7 @@ un peu d'intimité ?![end]</data>
         <refs>
             <ref>0x424</ref>
         </refs>
-        <data>SAJIN:
+        <data>Sajin:
 Un peu d'entraînement pourra
 t'encourager !
 Mais maintenant,où se cacher ?![end]</data>

@@ -11,7 +11,7 @@
         <refs>
             <ref>0x76</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 Princesse ?
 Comment faire ?[end]</data>
     </text>
@@ -27,7 +27,7 @@ Quelque chose ne va pas ?![end]</data>
         <refs>
             <ref>0x8e</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Quoi ?
 Quelle est notre faiblesse ?[end]</data>
     </text>
@@ -42,7 +42,7 @@ Je ne comprends pas...[end]</data>
         <refs>
             <ref>0xa1</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 Tout va bien ?
 Princesse ?[end]</data>
     </text>
@@ -78,7 +78,7 @@ Valitra et Léviathan sont là,en moi...[end]</data>
         <refs>
             <ref>0x17e</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 Princesse !
 Tenez bon ![end]</data>
     </text>
@@ -87,7 +87,7 @@ Tenez bon ![end]</data>
             <ref>0x208</ref>
             <ref>0x1a4</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Princesse [character][0x1]![end]</data>
     </text>
     <text>
@@ -117,7 +117,7 @@ Aaaaah ![end]</data>
         <refs>
             <ref>0x1fb</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 Princesse !
 Tenez bon[0xd8][end]</data>
     </text>
@@ -125,7 +125,7 @@ Tenez bon[0xd8][end]</data>
         <refs>
             <ref>0x211</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Ramenons-la immédiatement à
 Fareneit ![end]</data>
     </text>

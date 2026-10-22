@@ -10,7 +10,7 @@
         <refs>
             <ref>0xe5</ref>
         </refs>
-        <data>PALPAROS:
+        <data>Palparos:
 La Légende dont nous rêvions...
 Que nous a-t-elle apporté ?
 Ta mort...
@@ -42,7 +42,7 @@ Sauzer...[end]</data>
         <refs>
             <ref>0x129</ref>
         </refs>
-        <data>PALPAROS:
+        <data>Palparos:
 [character][0x1]...
  
 Je suis enfin revenu dans ma patrie
@@ -107,7 +107,7 @@ l'Empire a aussi été reconnue ![end]</data>
         <refs>
             <ref>0x193</ref>
         </refs>
-        <data>PALPAROS:
+        <data>Palparos:
 L'amour et la rancune habitent
 maintenant vos coeurs...[end]</data>
     </text>

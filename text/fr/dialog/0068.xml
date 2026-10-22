@@ -35,7 +35,7 @@ Ils pourraient vous aider ?[end]</data>
         <refs>
             <ref>0x5f4</ref>
         </refs>
-        <data>DONFAN:
+        <data>Donfan:
 Grâce à votre flamme,
 j'ai le coeur chaud.
 Vous êtes pour moi une jeune personne
@@ -58,7 +58,7 @@ Mais qui êtes-vous ?![end]</data>
         <refs>
             <ref>0x612</ref>
         </refs>
-        <data>DONFAN:
+        <data>Donfan:
 Mais je suis Donfan qui a d'énormes
 sentiments pour vous ![end]</data>
     </text>
@@ -72,7 +72,7 @@ sentiments pour vous ![end]</data>
         <refs>
             <ref>0x628</ref>
         </refs>
-        <data>DONFAN:
+        <data>Donfan:
 Moi,Donfan,je vous aime.
 J'ai un grand coeur.[end]</data>
     </text>
@@ -108,14 +108,14 @@ manquez d'audace.[end]</data>
         <refs>
             <ref>0x669</ref>
         </refs>
-        <data>DONFAN:
+        <data>Donfan:
 Etc etc etc...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x697</ref>
         </refs>
-        <data>RUKI:
+        <data>Ruki:
 Donfan !
 Que fais-tu ?[end]</data>
     </text>
@@ -124,7 +124,7 @@ Que fais-tu ?[end]</data>
             <ref>0x8ac</ref>
             <ref>0x6af</ref>
         </refs>
-        <data>DONFAN:
+        <data>Donfan:
 Hein ?!
 Oh,pardonne-moi Ruki ![end]</data>
     </text>
@@ -146,7 +146,7 @@ Est-ce que je cauchemarde ?[end]</data>
         <refs>
             <ref>0x71b</ref>
         </refs>
-        <data>MIST:
+        <data>Mist:
 [character][0x0]?[end]</data>
     </text>
     <text>
@@ -172,7 +172,7 @@ Une cavalière de Kana ![end]</data>
         <refs>
             <ref>0x7b4</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Mi... Mist !
 Tu es encore en vie ?![end]</data>
     </text>
@@ -180,7 +180,7 @@ Tu es encore en vie ?![end]</data>
         <refs>
             <ref>0x7c2</ref>
         </refs>
-        <data>MIST:
+        <data>Mist:
 Capitaine Matelite !
  
 Nous ne nous étions plus vus depuis
@@ -190,7 +190,7 @@ la malheureuse chute de Kana.[end]</data>
         <refs>
             <ref>0x7e7</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Hoho !
  
 Je croyais vraiment que je ne te
@@ -211,14 +211,14 @@ C'est celle d'une malade ![end]</data>
         <refs>
             <ref>0x7fe</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Est-ce que tu vas bien ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x80b</ref>
         </refs>
-        <data>MIST:
+        <data>Mist:
 Hum...
 Tout va bien...
 J'ai tout de suite repris des forces
@@ -229,7 +229,7 @@ en voyant le visage du Capitaine
         <refs>
             <ref>0x819</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Si tu le dis !
  
 [character][0x0] doit sûrement t'illuminer de
@@ -239,7 +239,7 @@ bonheur ![end]</data>
         <refs>
             <ref>0x823</ref>
         </refs>
-        <data>MIST:
+        <data>Mist:
 Il est temps pour moi de revenir avec
 vous.[end]</data>
     </text>
@@ -254,7 +254,7 @@ dois vous aider.[end]</data>
         <refs>
             <ref>0x83b</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Quoi ?!
 Par qui ?![end]</data>
     </text>
@@ -262,21 +262,21 @@ Par qui ?![end]</data>
         <refs>
             <ref>0x841</ref>
         </refs>
-        <data>MIST:
+        <data>Mist:
 ... ... ... ...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x84f</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Mist,qui t'a aidé à t'enfuir de Kana ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x855</ref>
         </refs>
-        <data>MIST:
+        <data>Mist:
 Un Général de Granbelos...
 Le Grand Palparos ![end]</data>
     </text>
@@ -284,14 +284,14 @@ Le Grand Palparos ![end]</data>
         <refs>
             <ref>0x863</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Palparos ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x86f</ref>
         </refs>
-        <data>DONFAN:
+        <data>Donfan:
 Un Général de l'Empire aidant une
 cavalière de Kana ?[end]</data>
     </text>
@@ -299,7 +299,7 @@ cavalière de Kana ?[end]</data>
         <refs>
             <ref>0x880</ref>
         </refs>
-        <data>MIST:
+        <data>Mist:
 Je n'ai toujours pas compris ce qui
 l'a poussé à m'aider.[end]</data>
     </text>
@@ -307,7 +307,7 @@ l'a poussé à m'aider.[end]</data>
         <refs>
             <ref>0x89a</ref>
         </refs>
-        <data>RUKI:
+        <data>Ruki:
 [character][0x0]!
 Mélodia t'attend ![end][end]</data>
     </text>
@@ -315,7 +315,7 @@ Mélodia t'attend ![end][end]</data>
         <refs>
             <ref>0x919</ref>
         </refs>
-        <data>WAGAHAI:
+        <data>Wagahai:
 ``wagahai aller sur le bateau !
  mort transporter sur bateau !
  là-bas fait sombre...''[end]</data>
@@ -324,7 +324,7 @@ Mélodia t'attend ![end][end]</data>
         <refs>
             <ref>0x2d7</ref>
         </refs>
-        <data>DONFAN:
+        <data>Donfan:
 Si tu regardes Ruki,tu verras qu'elle
 pense que Donfan est un héros.[end][end]</data>
     </text>
@@ -332,14 +332,14 @@ pense que Donfan est un héros.[end][end]</data>
         <refs>
             <ref>0x96c</ref>
         </refs>
-        <data>MELODY:
+        <data>Melody:
 C'est mon grand-père ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x97d</ref>
         </refs>
-        <data>GRAND-PERE:
+        <data>Grand-père:
 Hoho !
 Ne serais-tu pas [character][0x0]?
 Mélodia m'a énormément parlé de toi
@@ -356,7 +356,7 @@ parler et je suis un très bon conteur.[end]</data>
         <refs>
             <ref>0x995</ref>
         </refs>
-        <data>MELODY:
+        <data>Melody:
 Grand-père,raconte-nous une histoire !
 S'il te plaît !
 Viiite ![end]</data>
@@ -365,7 +365,7 @@ Viiite ![end]</data>
         <refs>
             <ref>0x9a3</ref>
         </refs>
-        <data>GRAND-PERE:
+        <data>Grand-père:
 Tu es bien impatiente Mélodia !
 Bon,je vais vous en raconter une.[end]</data>
     </text>
@@ -373,7 +373,7 @@ Bon,je vais vous en raconter une.[end]</data>
         <refs>
             <ref>0x9a9</ref>
         </refs>
-        <data>MELODY:
+        <data>Melody:
 Est-ce que tu pourrais me dire le sens
 de mon prénom ?[end]</data>
     </text>
@@ -381,7 +381,7 @@ de mon prénom ?[end]</data>
         <refs>
             <ref>0x9b3</ref>
         </refs>
-        <data>GRAND-PERE:
+        <data>Grand-père:
 Hohoho ! Cela s'est toujours transmis
 à Godrand.[end]</data>
     </text>
@@ -425,7 +425,7 @@ Tout le monde a compris ?[end]</data>
         <refs>
             <ref>0xa6f</ref>
         </refs>
-        <data>MELODY:
+        <data>Melody:
 Grand-père !
 Ce ne sont que de vieux proverbes.
 Tu n'as fait que changer le nom de
@@ -436,7 +436,7 @@ C'est trop facile ![end]</data>
         <refs>
             <ref>0xa7d</ref>
         </refs>
-        <data>GRAND-PERE:
+        <data>Grand-père:
 Autrefois,nombreux étaient les gens qui
 adoraient la magie des Petits Démons.[end]</data>
     </text>
@@ -457,7 +457,7 @@ tu reviendrais ici.[end]</data>
         <refs>
             <ref>0xaa2</ref>
         </refs>
-        <data>MELODY:
+        <data>Melody:
 Grand-père,je te félicite ![end]</data>
     </text>
     <text>
@@ -471,7 +471,7 @@ pour voyager.[end]</data>
         <refs>
             <ref>0xab6</ref>
         </refs>
-        <data>GRAND-PERE:
+        <data>Grand-père:
 Haha !
  
 À chaque fois qu'on voyage,
@@ -484,7 +484,7 @@ je redeviens une autre personne.[end]</data>
         <refs>
             <ref>0xace</ref>
         </refs>
-        <data>MELODY:
+        <data>Melody:
 [character][0x0]![end]</data>
     </text>
     <text>
@@ -501,7 +501,7 @@ beaucoup ![end]</data>
         <refs>
             <ref>0xb10</ref>
         </refs>
-        <data>GRAND-PERE:
+        <data>Grand-père:
 Hoho !
 N'exagère pas !
 Mais il est vrai que j'en connais un
@@ -532,7 +532,7 @@ le Dragon Oiseau s'éveillera.[end][end]</data>
         <refs>
             <ref>0xb51</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 Une Légende de Dragon Sacré ?[end]</data>
     </text>
     <text>
@@ -549,7 +549,7 @@ Je sens sa terrible colère...[end]</data>
         <refs>
             <ref>0xb66</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 Je sens aussi quelque chose...[end]</data>
     </text>
     <text>
@@ -564,7 +564,7 @@ repos de Garuda ?[end]</data>
         <refs>
             <ref>0xb84</ref>
         </refs>
-        <data>GRAND-PERE:
+        <data>Grand-père:
 Je l'ai même déjà vu et il se trouve
 à l'Ouest d'ici.
 Pensez au bon esprit car la magie peut
@@ -581,7 +581,7 @@ Tu as déjà regardé dedans ?[end]</data>
         <refs>
             <ref>0x2d0</ref>
         </refs>
-        <data>RUKI:
+        <data>Ruki:
 Moi et lui ? Ensemble ?!
 Jamais !
 Donfan ne cesse d'importuner les
@@ -611,7 +611,7 @@ Vous pouvez aller la voir ![end]</data>
         <refs>
             <ref>0x2e9</ref>
         </refs>
-        <data>MIST:
+        <data>Mist:
 Un jour,j'espère que mon souhait se
 réalisera...
 Je n'abandonnerai jamais...[end]</data>
@@ -620,7 +620,7 @@ Je n'abandonnerai jamais...[end]</data>
         <refs>
             <ref>0x2b7</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Maintenant,toute la cavalerie de Kana
 est restaurée ![end]</data>
     </text>
@@ -628,7 +628,7 @@ est restaurée ![end]</data>
         <refs>
             <ref>0x296</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 [character][0x0]...
 Je... je...
  ``Il dit des inepties...''
@@ -638,7 +638,7 @@ Je... je...
         <refs>
             <ref>0x2ad</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Hoho [character][0x0]!
  
 Il y a longtemps,ici,
@@ -651,14 +651,14 @@ ensemble.[end]</data>
         <refs>
             <ref>0x2c2</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>Taicho:
 J'apprécie ce que tu fais ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x29f</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 ``Il dit des inepties.''
 ``C'est lassant,il se répète.''[end]</data>
     </text>
@@ -666,7 +666,7 @@ J'apprécie ce que tu fais ![end]</data>
         <refs>
             <ref>0x2c9</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>Taicho:
 Un chevalier ne doit pas boire d'alcool
 au bar ![end]</data>
     </text>
@@ -731,7 +731,7 @@ l'extérieur,c'est terrible.[end]</data>
         <refs>
             <ref>0xb92</ref>
         </refs>
-        <data>MELODY:
+        <data>Melody:
 Nous devons aller dans cette grotte !
 Je vais appeler les dragons ![end]</data>
     </text>
@@ -796,7 +796,7 @@ Sendak a encore trop bu d'alcool...[end]</data>
         <refs>
             <ref>0xbb7</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 Allons-y...[end]</data>
     </text>
 </texts>

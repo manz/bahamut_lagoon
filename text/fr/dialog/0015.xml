@@ -18,7 +18,7 @@
         <refs>
             <ref>0xc0</ref>
         </refs>
-        <data>HORNET:
+        <data>Hornet:
 Fareneit est en train de passer à
 travers l'orage et se dirige
 maintenant vers Dafira.
@@ -118,7 +118,7 @@ ce bar,tu n'as toujours pas changé.[end]</data>
         <refs>
             <ref>0x198</ref>
         </refs>
-        <data>SAUZER:
+        <data>Sauzer:
 Buvons au pouvoir !
  
 Aide-moi Hornet ![end]</data>
@@ -137,7 +137,7 @@ ciel d'Orelus.[end]</data>
         <refs>
             <ref>0x1af</ref>
         </refs>
-        <data>HORNET:
+        <data>Hornet:
 Tu veux conquérir le...
 ciel ?[end]</data>
     </text>
@@ -156,14 +156,14 @@ mon épée à ton service.[end]</data>
         <refs>
             <ref>0x1c4</ref>
         </refs>
-        <data>SAUZER:
+        <data>Sauzer:
 Craindrais-tu la Guerre ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1cf</ref>
         </refs>
-        <data>HORNET:
+        <data>Hornet:
 Peur ?
 Peut-être que oui !
 Sauzer,au cours de ta vie,ne blesse
@@ -176,7 +176,7 @@ et sage décision.[end]</data>
         <refs>
             <ref>0x1db</ref>
         </refs>
-        <data>SAUZER:
+        <data>Sauzer:
 Ton rêve est d'être le capitaine d'un
 grand vaisseau et de voler à la
 conquête du ciel.
@@ -188,7 +188,7 @@ Je t'attendrai jusqu'à ce jour ![end]</data>
         <refs>
             <ref>0x768</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 [character][0x1],je jure qu'il ne vous arrivera
 rien avec moi.[end]</data>
     </text>
@@ -216,14 +216,14 @@ te vendre.[end]</data>
         <refs>
             <ref>0x29e</ref>
         </refs>
-        <data>ZORA:
+        <data>Zora:
 Réunissons-nous et attendons ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2d0</ref>
         </refs>
-        <data>ZORA:
+        <data>Zora:
 Comme vous le savez déjà...
  
 [character][0x1] n'est plus maintenant en grande
@@ -256,7 +256,7 @@ Soyez tous prêts ![end]</data>
         <refs>
             <ref>0x344</ref>
         </refs>
-        <data>HORNET:
+        <data>Hornet:
 Préparez-vous tous,nous allons bientôt
 passer les nuages !
 Et derrière eux se trouve le lagon
@@ -267,7 +267,7 @@ température.[end]</data>
         <refs>
             <ref>0x811</ref>
         </refs>
-        <data>RUSH:
+        <data>Rush:
 Nous allons combattre dans les sables
 chauds !
 C'est un terrain approprié contre
@@ -277,7 +277,7 @@ Sauzer.[end]</data>
         <refs>
             <ref>0x81e</ref>
         </refs>
-        <data>TAURUS:
+        <data>Truth:
 Tu ne penses pas que [character][0x1] ne
 devrait pas combattre ?
 Si Sauzer était en ce moment même
@@ -288,7 +288,7 @@ tuer malgré sa maladie.[end]</data>
         <refs>
             <ref>0x82c</ref>
         </refs>
-        <data>BIKEBAKE:
+        <data>Bikebake:
 Dans la chambre de [character][0x1],les hommes
 n'ont pas le droit d'entrer.
 Mais je crois que je vais pouvoir
@@ -304,7 +304,7 @@ puis j'aurai un gros salaire.[end]</data>
         <refs>
             <ref>0x783</ref>
         </refs>
-        <data>HORNET:
+        <data>Hornet:
 Nous combattons toujours plus mais il
 faut rester ferme.
 Allons-nous atterrir ?[end]</data>
@@ -320,7 +320,7 @@ Allons-nous atterrir ?[end]</data>
         <refs>
             <ref>0x76f</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 L'Empereur Sauzer connaît le coeur
 des Dragons Sacrés.
 Je crois qu'ils n'en sont pas fiers,
@@ -331,14 +331,14 @@ donc nous devons nous battre pour
         <refs>
             <ref>0x779</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>Taicho:
 Nous tiendrons bon jusqu'au bout ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3a0</ref>
         </refs>
-        <data>RUSH:
+        <data>Rush:
 Nous allons enfin sortir de ces nuages.
 Compte à rebours !
 [0xb2]... ...

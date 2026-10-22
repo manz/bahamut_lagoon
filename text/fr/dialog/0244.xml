@@ -10,7 +10,7 @@
         <refs>
             <ref>0xdd</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 Princesse [character][0x1]!
 Ne vous levez pas ?![end]</data>
     </text>
@@ -35,7 +35,7 @@ Et Matelite ?[end]</data>
         <refs>
             <ref>0x106</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 Oh Matelite !
  
 Il est encore occupé à parler tout

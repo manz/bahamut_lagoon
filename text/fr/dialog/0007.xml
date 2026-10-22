@@ -11,7 +11,7 @@
         <refs>
             <ref>0x283</ref>
         </refs>
-        <data>ZORA:
+        <data>Zora:
 Le ciel de Campbell est si beau...
 Je suis originaire de cette ville...
 C'est pour cette raison que ce lagon
@@ -30,7 +30,7 @@ En tout cas,j'irai m'y promener ![end]</data>
         <refs>
             <ref>0x2a1</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Tu as l'air très optimiste !
  
 Avant même de pouvoir y aller,
@@ -41,14 +41,14 @@ Granbelos ![end]</data>
         <refs>
             <ref>0x2af</ref>
         </refs>
-        <data>ZORA:
+        <data>Zora:
 Je comprends ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2c4</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Au fait,Zora !
  
 J'ai entendu dire que tu avais dit des
@@ -59,7 +59,7 @@ Est-ce vrai ?[end]</data>
         <refs>
             <ref>0x2e0</ref>
         </refs>
-        <data>ZORA:
+        <data>Zora:
 C'est vrai !
 Qui t'en a parlé ?[end]</data>
     </text>
@@ -67,7 +67,7 @@ Qui t'en a parlé ?[end]</data>
         <refs>
             <ref>0x2fd</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Quoi ?!
 Ce n'est pas possible !
 Tu n'en as pas le droit !
@@ -77,7 +77,7 @@ C'est absolument incroyable ![end]</data>
         <refs>
             <ref>0x317</ref>
         </refs>
-        <data>ZORA:
+        <data>Zora:
 N'es-tu pas en train de faire la même
 chose avec moi ?
 Alors ?
@@ -89,7 +89,7 @@ J'en ai assez entendu ![end]</data>
         <refs>
             <ref>0x328</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Mince...[end]</data>
     </text>
     <text>
@@ -106,7 +106,7 @@ colère sur Commandant ![end]</data>
         <refs>
             <ref>0x1d3</ref>
         </refs>
-        <data>COMMANDANT:
+        <data>Taicho:
 Ce sera bientôt la libération de
 Campbell !
 J'espère que le service des magasins
@@ -117,7 +117,7 @@ les détruirai tous ![end]</data>
         <refs>
             <ref>0x233</ref>
         </refs>
-        <data>RUSH:
+        <data>Rush:
 Récemment Bikebake a énormément
 changé...[end]</data>
     </text>
@@ -125,14 +125,14 @@ changé...[end]</data>
         <refs>
             <ref>0x23a</ref>
         </refs>
-        <data>TAURUS:
+        <data>Truth:
 Quel secret Bikebake cache-t-il ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4db</ref>
         </refs>
-        <data>RUKI:
+        <data>Ruki:
 Toutes ces personnes ici ont perdu
 quelque chose dans la guerre...[end]</data>
     </text>
@@ -140,7 +140,7 @@ quelque chose dans la guerre...[end]</data>
         <refs>
             <ref>0x4d0</ref>
         </refs>
-        <data>EKATERINA:
+        <data>Ekaterina:
 [character][0x0]...
 Err...[end]</data>
     </text>
@@ -148,7 +148,7 @@ Err...[end]</data>
         <refs>
             <ref>0x43c</ref>
         </refs>
-        <data>ANASTASIA:
+        <data>Anastasia:
 Pourrais-tu demander à Hornet ce
 qu'il aime le plus ?
  Va lui demander toi-même !
@@ -170,7 +170,7 @@ qu'il aime le plus ?
         <refs>
             <ref>0x255</ref>
         </refs>
-        <data>HORNET:
+        <data>Hornet:
 ... ? Quoi ?
  
  Me dire ce que tu aimes !
@@ -195,7 +195,7 @@ Hoho,je crois que c'est le [0xaa]Uniuji[0xab].
         <refs>
             <ref>0x45b</ref>
         </refs>
-        <data>ANASTASIA:
+        <data>Anastasia:
 Alors ! alors !
 Qu'aime-t-il ?
  [0xaa]Vin Doux[0xab]
@@ -211,7 +211,7 @@ Qu'aime-t-il ?
         <refs>
             <ref>0x486</ref>
         </refs>
-        <data>ANASTASIA:
+        <data>Anastasia:
 Je te l'avais dit,Ekaterina !
 Viens,allons-y ![end]</data>
     </text>
@@ -219,7 +219,7 @@ Viens,allons-y ![end]</data>
         <refs>
             <ref>0x4b4</ref>
         </refs>
-        <data>EKATERINA:
+        <data>Ekaterina:
 [character][0x0]...
 Merci d'avoir dit la vérité ![end]</data>
     </text>
@@ -227,7 +227,7 @@ Merci d'avoir dit la vérité ![end]</data>
         <refs>
             <ref>0x24e</ref>
         </refs>
-        <data>HORNET:
+        <data>Hornet:
 Le bateau s'approche de plus en plus
 du Lagon Campbell.
 Dès que tu es prêt,va parler au
@@ -237,7 +237,7 @@ Docteur Dragon pour aller combattre.[end]</data>
         <refs>
             <ref>0x4e2</ref>
         </refs>
-        <data>RUKI:
+        <data>Ruki:
 Est-ce que nous allons à Campbell pour
 la Légende des Dragons Sacrés ?
 J'espère que la chance tournera à
@@ -247,7 +247,7 @@ notre avantage avec la Légende.[end]</data>
         <refs>
             <ref>0x1e5</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 Le cri de Valitra ressemble à celui de
 quelqu'un qui se fait tuer.
 Sache aussi que lorsque je suis proche
@@ -270,7 +270,7 @@ Je dis encore des balivernes.[end]</data>
             <ref>0x20b</ref>
             <ref>0x1de</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 Persévère en ce que tu crois être
 bon ![end]</data>
     </text>
@@ -278,7 +278,7 @@ bon ![end]</data>
         <refs>
             <ref>0x220</ref>
         </refs>
-        <data>MATELITE:
+        <data>Matelite:
 Sendak peut résister à trois
 personnes ![end]</data>
     </text>
@@ -384,7 +384,7 @@ Tends-moi... la main...[end]</data>
         <refs>
             <ref>0x4ed</ref>
         </refs>
-        <data>MANYO:
+        <data>Manyo:
 manyo !
 ``mélodia est venue !''[end]</data>
     </text>
@@ -392,7 +392,7 @@ manyo !
         <refs>
             <ref>0x4f7</ref>
         </refs>
-        <data>MUNYO:
+        <data>Munyo:
 munyo !
 ``nous dansons tous ensemble !''[end]</data>
     </text>
@@ -400,7 +400,7 @@ munyo !
         <refs>
             <ref>0x501</ref>
         </refs>
-        <data>MELODY:
+        <data>Melody:
 Je suis comme un Petit Démon !
 Je le suis de plus en plus !
  C'est vrai,c'est bien...

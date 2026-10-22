@@ -81,7 +81,7 @@
         <refs>
             <ref>0x20e</ref>
         </refs>
-        <data>MATELITE: Héééhooo !
+        <data>Matelite: Héééhooo !
 
 
 Il y a quelqu'un ?[end]</data>
@@ -108,7 +108,7 @@ L'Empire a dû terriblement contre-attaquer ![end]</data>
         <refs>
             <ref>0x255</ref>
         </refs>
-        <data>RUKI: ... ... ... !
+        <data>Ruki: ... ... ... !
 
 
 Tout est si...[end]</data>
@@ -117,7 +117,7 @@ Tout est si...[end]</data>
         <refs>
             <ref>0x26c</ref>
         </refs>
-        <data>MATELITE: Cet Empire de malheur !
+        <data>Matelite: Cet Empire de malheur !
 
 
 Pourquoi fait-il tout cela ?![end]</data>
@@ -126,7 +126,7 @@ Pourquoi fait-il tout cela ?![end]</data>
         <refs>
             <ref>0x27f</ref>
         </refs>
-        <data>SENDAK: Au fait,où est Commandant ?
+        <data>Sendak: Au fait,où est Commandant ?
 
 
 J'ai une vague impression...
@@ -136,7 +136,7 @@ Je crois qu'il ne va pas bien...[end]</data>
         <refs>
             <ref>0x291</ref>
         </refs>
-        <data>MATELITE: Je crois que je vais aller voir où il
+        <data>Matelite: Je crois que je vais aller voir où il
 est passé !
 
 Va voir si tu trouves quelqu'un ici,[character][0x0]![end]</data>
@@ -145,7 +145,7 @@ Va voir si tu trouves quelqu'un ici,[character][0x0]![end]</data>
         <refs>
             <ref>0x751</ref>
         </refs>
-        <data>DONFAN: Les Rebelles ?
+        <data>Donfan: Les Rebelles ?
 
 
 Ruki !
@@ -155,7 +155,7 @@ Est-ce toi Ruki ?![end]</data>
         <refs>
             <ref>0x764</ref>
         </refs>
-        <data>RUKI: Donfan !
+        <data>Ruki: Donfan !
 
 
 Tu es en vie ?[end]</data>
@@ -164,7 +164,7 @@ Tu es en vie ?[end]</data>
         <refs>
             <ref>0x772</ref>
         </refs>
-        <data>DONFAN: Pourquoi cette question ?!
+        <data>Donfan: Pourquoi cette question ?!
  
 
 Au fait,pourquoi avais-tu quitté Mahal,Ruki ?
@@ -189,7 +189,7 @@ Et même si ce n'était que mon ombre,tu serais heureuse ![end]</data>
         <refs>
             <ref>0x77f</ref>
         </refs>
-        <data>RUKI: Donfan,plus un mot !
+        <data>Ruki: Donfan,plus un mot !
 
 
 Tais-toi,s'il te plaît !
@@ -208,7 +208,7 @@ Joins-toi à nous ![end]</data>
         <refs>
             <ref>0x78d</ref>
         </refs>
-        <data>DONFAN: ... ... ...
+        <data>Donfan: ... ... ...
 
 
 Ai-je raison,Ruki ?
@@ -244,7 +244,7 @@ tu n'aimes que moi.[end]</data>
         <refs>
             <ref>0x7b7</ref>
         </refs>
-        <data>RUKI: Tu te trompes,Donfan !
+        <data>Ruki: Tu te trompes,Donfan !
  
 
 Je ne veux plus t'entendre ![end]</data>
@@ -253,7 +253,7 @@ Je ne veux plus t'entendre ![end]</data>
         <refs>
             <ref>0x7c4</ref>
         </refs>
-        <data>DONFAN: Ruki...
+        <data>Donfan: Ruki...
 
 
 je suis très embarrassé...
@@ -268,7 +268,7 @@ Je suis très attiré par toi.[end]</data>
         <refs>
             <ref>0x7d1</ref>
         </refs>
-        <data>RUKI: Arrête de te lamenter !
+        <data>Ruki: Arrête de te lamenter !
 
 
 Que veux-tu dire ?![end]</data>
@@ -277,7 +277,7 @@ Que veux-tu dire ?![end]</data>
         <refs>
             <ref>0x7df</ref>
         </refs>
-        <data>DONFAN: Regarde les lacs de Mahal...[end]</data>
+        <data>Donfan: Regarde les lacs de Mahal...[end]</data>
     </text>
     <text>
         <refs>
@@ -528,7 +528,7 @@ Fêtons ça ![end]</data>
         <refs>
             <ref>0xa4d</ref>
         </refs>
-        <data>DONFAN:
+        <data>Donfan:
 Hoho ! C'est toi Jeanne !
 Tu es une magnifique Armure Lumière !
 Comment vas-tu ?
@@ -539,7 +539,7 @@ Il fait beau aujourd'hui ?![end]</data>
         <refs>
             <ref>0xa64</ref>
         </refs>
-        <data>JEANNE:
+        <data>Jeanne:
 Pas un mot de plus,épave ![end]</data>
     </text>
     <text>
@@ -554,7 +554,7 @@ vaincre Restatto ![end]</data>
         <refs>
             <ref>0xa83</ref>
         </refs>
-        <data>DONFAN:
+        <data>Donfan:
 Restatto ? L'Empire ?
 Ooooh...
 Ne crains rien,car Donfan a rejoint
@@ -564,7 +564,7 @@ les Rebelles.[end]</data>
         <refs>
             <ref>0xa8c</ref>
         </refs>
-        <data>JEANNE:
+        <data>Jeanne:
 Qu'as-tu dit ?!
 Qu'est-ce que tu as fait ?![end]</data>
     </text>
@@ -581,7 +581,7 @@ Tu ferais mieux d'en faire autant ![end]</data>
         <refs>
             <ref>0xaa3</ref>
         </refs>
-        <data>DONFAN:
+        <data>Donfan:
 Comment me trouves-tu ?!
 Jeanne,réponds-moi...
 Tu as vu mon splendide visage,
@@ -609,7 +609,7 @@ le vitrail de ton coeur.[end]</data>
         <refs>
             <ref>0xaf0</ref>
         </refs>
-        <data>JEANNE:
+        <data>Jeanne:
 Tu es ennuyant !
  
 Tu m'as déjà dit cela,il y a peu de
@@ -619,7 +619,7 @@ temps ![end]</data>
         <refs>
             <ref>0xb08</ref>
         </refs>
-        <data>JEANNE:
+        <data>Jeanne:
 Nous nous en allons et toi,reste ici,
 tu y es bien !
 Ou alors prépare-toi et viens avec
@@ -629,7 +629,7 @@ nous ![end]</data>
         <refs>
             <ref>0xb2d</ref>
         </refs>
-        <data>DONFAN:
+        <data>Donfan:
 Capitaine [character][0x0]!
 Encore une fois,tu ne voudrais pas
 m'aider ?[end]</data>
@@ -652,7 +652,7 @@ le Naïf et Fidèle serviteur ?[end]</data>
         <refs>
             <ref>0xb60</ref>
         </refs>
-        <data>DONFAN:
+        <data>Donfan:
 Cette charmante Jeanne...
 Elle est folle de moi !
 Comme tu as pu t'en apercevoir,
@@ -662,7 +662,7 @@ il est difficile d'être célèbre et adulé ![end]</data>
         <refs>
             <ref>0x523</ref>
         </refs>
-        <data>RUKI:
+        <data>Ruki:
 Allez tout le monde ![end]</data>
     </text>
     <text>
@@ -670,7 +670,7 @@ Allez tout le monde ![end]</data>
             <ref>0x53a</ref>
         </refs>
         <data>MARCHAND ENVOYE AU CHAMP DE
-BATAILLE:
+Bataille:
 Courage,courage ![end]</data>
     </text>
     <text>
@@ -691,7 +691,7 @@ Courage,courage ![end]</data>
         <refs>
             <ref>0x530</ref>
         </refs>
-        <data>DONFAN:
+        <data>Donfan:
 Ces dragons sont repoussants ![end]</data>
     </text>
     <text>
@@ -726,7 +726,7 @@ Ils sont vraiment repoussants ![end]</data>
         <refs>
             <ref>0x414</ref>
         </refs>
-        <data>SENDAK:
+        <data>Sendak:
 Il fait si froid ici...
 Partons-nous combattre ?[end]</data>
     </text>
