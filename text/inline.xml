@@ -112,7 +112,7 @@
     <string jump_to="0xeef142" ref="0xeef135">Intel.</string>
     <string jump_to="0xeef155" ref="0xeef148">Nature</string>
     <string jump_to="0xeef166" ref="0xeef15b">Mutat.</string>
-    <string jump_to="0xeef179" ref="0xeef16c">Affin.</string>
+    <string jump_to="0xeef179" ref="0xeef16c" width="5">Affection</string>
     <string jump_to="0xeef229" ref="0xeef21c">Bas</string>
     <string jump_to="0xeef243" ref="0xeef23a">Haut</string>
     <string jump_to="0xeef278" ref="0xeef26d" width="3">For.</string>
