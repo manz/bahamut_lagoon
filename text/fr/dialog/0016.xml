@@ -1,48 +1,48 @@
 <?xml version="1.0" standalone="yes"?>
 <texts base="0x63e" room_id="16">
-    <text>
+    <text window="none">
         <refs>
             <ref>0x6a</ref>
             <ref>0x76</ref>
             <ref>0x5e</ref>
         </refs>
-        <data>  Yoyo...[end]</data>
+        <data>Yoyo...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x81</ref>
         </refs>
-        <data>  Éveille-toi...[end]</data>
+        <data>Éveille-toi...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xa6</ref>
         </refs>
-        <data>  Yoyo...
+        <data>Yoyo...
  
-  Toi qui deviendras Dragonnière,
-  éveille-toi...
+Toi qui deviendras Dragonnière,
+éveille-toi...
  
-  Le temps nous est compté.[end]</data>
+Le temps nous est compté.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xc2</ref>
         </refs>
-        <data>  Je suis Jormungand, le Dragon Sacré.
-  Je t'attends au temple du désert.
+        <data>Je suis Jormungand, le Dragon Sacré.
+Je t'attends au temple du désert.
  
-  Là, enfin... je te révélerai tout.
+Là, enfin... je te révélerai tout.
  
-  Nous, les Dragons Sacrés...
-  nous avons besoin de toi.[end]</data>
+Nous, les Dragons Sacrés...
+nous avons besoin de toi.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xc8</ref>
         </refs>
-        <data>  Viens...
-  Ouvre la porte, et viens jusqu'à moi.[end]</data>
+        <data>Viens...
+Ouvre la porte, et viens jusqu'à moi.[end]</data>
     </text>
     <text>
         <refs>
@@ -108,50 +108,50 @@ Le Dragon Sacré Jormungand... veut me dire quelque chose.[end]</data>
         </refs>
         <data>Princesse Yoyo !![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x369</ref>
         </refs>
         <data>Yoyo... ne t'inquiète pas. Je suis là.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x3a1</ref>
         </refs>
         <data>Palparos: Yoyo... J'ai été vaincu... Tes compagnons... les Rebelles sont devenus forts.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x3ad</ref>
         </refs>
         <data>Byuu... Matelite... Taicho...
 ...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x37f</ref>
         </refs>
         <data>Palparos... général...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x3b9</ref>
         </refs>
         <data>Moi... Yoyo... je ne peux même pas rester à tes côtés...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x3c5</ref>
         </refs>
         <data>Et maintenant, qui choisirais-tu... Yoyo...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x3d1</ref>
         </refs>
         <data>Une nouvelle ère... Si elle vient un jour, alors moi... j'irai vers toi...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x40d</ref>
         </refs>
@@ -159,7 +159,7 @@ Le Dragon Sacré Jormungand... veut me dire quelque chose.[end]</data>
  
 Voilà... un bien petit rêve...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x41b</ref>
         </refs>
@@ -167,7 +167,7 @@ Voilà... un bien petit rêve...[end]</data>
  
 Et pourtant, un rêve que je ne peux même pas réaliser...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x426</ref>
         </refs>
@@ -175,7 +175,7 @@ Et pourtant, un rêve que je ne peux même pas réaliser...[end]</data>
  
 Tout ce que tu désires se pliera à ta volonté.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x433</ref>
         </refs>
@@ -183,7 +183,7 @@ Tout ce que tu désires se pliera à ta volonté.[end]</data>
  
 Les sentiments de quelqu'un qui s'est éloigné... son coeur... ça... je ne pourrai sûrement pas le changer...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x43d</ref>
         </refs>
@@ -193,13 +193,13 @@ Jusqu'ici, tu as appris le coeur des Dragons Sacrés... et tu nous as guidés.
  
 Tu t'en sors mieux que l'autre qui connaît le coeur des Dragons Sacrés...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x447</ref>
         </refs>
         <data>Yoyo: L'autre... l'Empereur Sauzer... Que devient-il... ?[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x451</ref>
         </refs>
@@ -207,7 +207,7 @@ Tu t'en sors mieux que l'autre qui connaît le coeur des Dragons Sacrés...[end]
  
 Ne t'inquiète pas... Mais ce n'est pas cela que tu veux vraiment savoir...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x461</ref>
         </refs>
@@ -216,17 +216,17 @@ Ne t'inquiète pas... Mais ce n'est pas cela que tu veux vraiment savoir...[end]
 Si vraiment... tous mes souhaits peuvent se réaliser... il y a une chose que je voudrais...
 ...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x471</ref>
         </refs>
         <data>Le courage de croire... Donne-le-moi...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x534</ref>
         </refs>
-        <data>  Chapitre [0xb0][0xb5]
-  -Le Dragon Sacré Jormungand-[end][end]</data>
+        <data>Chapitre [0xb0][0xb5]
+-Le Dragon Sacré Jormungand-[end][end]</data>
     </text>
 </texts>

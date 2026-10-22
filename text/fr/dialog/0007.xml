@@ -1,11 +1,11 @@
 <?xml version="1.0" standalone="yes"?>
 <texts base="0x9aa" room_id="7">
-    <text>
+    <text window="none">
         <refs>
             <ref>0x63</ref>
         </refs>
-        <data>  Chapitre [0xb6]
-  -La légende des Dragons Sacrés-[end]</data>
+        <data>Chapitre [0xb6]
+-La légende des Dragons Sacrés-[end]</data>
     </text>
     <text>
         <refs>
@@ -15,7 +15,7 @@
  
 Toi, tu vas au château avec la princesse, non ? Pendant ce temps, moi, je vais faire un tour en ville.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x28f</ref>
         </refs>
@@ -69,7 +69,7 @@ On m'a raconté que tu avais giflé la princesse Yoyo. C'est faux, j'espère ?[e
         </refs>
         <data>Matelite: ............... Non merci.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x33d</ref>
         </refs>
@@ -198,7 +198,7 @@ Je peux maintenant invoquer le Dragon Sacré Vritra.
  
 Près de la princesse, j'ai l'impression d'être moi-même un Dragon Sacré, je déborde de force...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x1fa</ref>
         </refs>
@@ -221,7 +221,7 @@ Devenir fort grâce à un pouvoir emprunté, et s'exciter comme ça, à mon âge
  
 Sendak se donne trois fois plus de mal que les autres ![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x1cc</ref>
         </refs>
@@ -235,7 +235,7 @@ Sendak se donne trois fois plus de mal que les autres ![end]</data>
  
 J'irai... à Campbell avec tout le monde.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x3f8</ref>
         </refs>

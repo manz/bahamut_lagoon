@@ -516,13 +516,13 @@ Mon feu d'artifice signé Matelite !! Admirez-le !!
  
 Vous tous !! Merci !![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x77</ref>
         </refs>
-        <data>  La nuit s'avançait...
+        <data>La nuit s'avançait...
  
-  Une danse, rien que pour eux deux...[end]</data>
+Une danse, rien que pour eux deux...[end]</data>
     </text>
     <text>
         <refs>

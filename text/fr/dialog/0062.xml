@@ -170,7 +170,7 @@ Hein... !! Où sont passés ces deux-là ?[end]</data>
         </refs>
         <data>Zeroshin: Bravo, on voit bien le chef des Rebelles ! Au fait, tu ne voudrais pas nous engager ? Tu paies après... voyons... jusqu'en [0xb0][0xb4] fois, c'est d'accord.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x437</ref>
         </refs>
@@ -178,7 +178,7 @@ Hein... !! Où sont passés ces deux-là ?[end]</data>
  
 Une fois ce travail fini... je crois que je vais encore me retrouver au chômage...)[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x325</ref>
         </refs>
@@ -225,7 +225,7 @@ Oh !!)[end]</data>
         </refs>
         <data>Merci beaucoup. Nous te remercions pour ce contrat.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x442</ref>
         </refs>
@@ -237,19 +237,19 @@ Oh !!)[end]</data>
         </refs>
         <data>Allons... Je vais t'assassiner, moi !![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x424</ref>
         </refs>
         <data>Sajin: (Je vais encore pouvoir m'entraîner... Où vais-je me cacher, la prochaine fois...)[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x303</ref>
         </refs>
-        <data>  Cette nuit-là...[end]</data>
+        <data>Cette nuit-là...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x214</ref>
         </refs>
@@ -257,7 +257,7 @@ Oh !!)[end]</data>
  
 Aujourd'hui... j'ai tenu la promesse que je t'avais faite... affirmatif.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x22d</ref>
         </refs>
@@ -267,7 +267,7 @@ Un soldat ne doit jamais dire ``et si...'', mais pour cette fois, je n'ai pas en
  
 Terrine... Je suis triste, affirmatiiiiiif !![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x1dd</ref>
             <ref>0x206</ref>

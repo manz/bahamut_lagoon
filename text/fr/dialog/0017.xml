@@ -1,18 +1,18 @@
 <?xml version="1.0" standalone="yes"?>
 <texts base="0x3b8" room_id="17">
-    <text>
+    <text window="none">
         <refs>
             <ref>0xbe</ref>
         </refs>
         <data>Léviathan: Pourquoi... tant de hâte ? Jormungand.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xcd</ref>
         </refs>
         <data>Jormungand: Cette fille humaine... est à bout... En nous rassemblant, nous, les quatre Dragons Sacrés, elle a épuisé toutes ses forces.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xde</ref>
         </refs>
@@ -20,25 +20,25 @@
  
 Sans réunir le pouvoir de tous les Dragons Sacrés, la Porte de la Nouvelle Ère ne devrait pas s'ouvrir...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xfd</ref>
         </refs>
         <data>Vritra: ... Et Bahamut, qu'en fais-tu ? Sans lui... nos coeurs ne seront pas apaisés...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xef</ref>
         </refs>
         <data>Jormungand: Qui sait... Personne n'a jamais essayé. La Porte de la Nouvelle Ère... pourrait bien s'ouvrir.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x10e</ref>
         </refs>
         <data>Léviathan: C'est vrai... sans Bahamut... les erreurs du passé...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x11f</ref>
         </refs>
@@ -46,13 +46,13 @@ Sans réunir le pouvoir de tous les Dragons Sacrés, la Porte de la Nouvelle Èr
  
 Une fois la Porte de la Nouvelle Ère ouverte... le temps est éternel...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x12d</ref>
         </refs>
         <data>Vritra: Mais... si la Porte de la Nouvelle Ère ne s'ouvre pas... cette fille... non, nous aussi...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x13e</ref>
         </refs>
@@ -60,12 +60,12 @@ Une fois la Porte de la Nouvelle Ère ouverte... le temps est éternel...[end]</
  
 Quelque chose pour être Dragonnière...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x1c4</ref>
         </refs>
-        <data>  Chapitre [0xb0][0xb6]
-  -La porte de la Nouvelle Ère-[end]</data>
+        <data>Chapitre [0xb0][0xb6]
+-La porte de la Nouvelle Ère-[end]</data>
     </text>
     <text>
         <refs>

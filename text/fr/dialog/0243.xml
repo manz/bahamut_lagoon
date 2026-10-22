@@ -98,7 +98,7 @@ Je... je vais finir par pleurer...[end]</data>
         </refs>
         <data>Capitaine Byuu !![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x177</ref>
         </refs>

@@ -67,7 +67,7 @@ Il reste encore un général ennemi, alors fais attention ![end]</data>
         </refs>
         <data>Ruki: La princesse Yoyo va bien ?[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x276</ref>
         </refs>
@@ -118,7 +118,7 @@ Allez, Byuu. Prends-la par les pieds ![end]</data>
         </refs>
         <data>Yoyo: Général ! Général... Palparos ![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x4ec</ref>
         </refs>
@@ -177,85 +177,85 @@ Je ne connais pas de sujets capables de divertir une dame.[end]</data>
         </refs>
         <data>Yoyo: Mais non. J'étais heureuse... Personne ne m'avait jamais appris ce genre de choses...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x550</ref>
         </refs>
         <data>Jeune fille... est-ce toi ? Est-ce toi, celle de la légende... ...celle qui connaît le cœur des Dragons Sacrés...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x55b</ref>
         </refs>
         <data>Yoyo: (Je... ne sais rien. Je ne connais aucune légende.)[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x564</ref>
         </refs>
         <data>Une jeune fille qui ne connaît pas la légende... Alors, qui es-tu donc...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x56c</ref>
         </refs>
         <data>Yoyo: (Je suis... de Kana... Non, je ne suis personne.)[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x4f4</ref>
         </refs>
         <data>Yoyo: (Qui êtes-vous... ?)[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x539</ref>
         </refs>
         <data>Je suis le Dragon Sacré Vritra...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x548</ref>
         </refs>
         <data>Yoyo: (Vritra... Le Dragon Sacré...)[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x574</ref>
         </refs>
         <data>...Une jeune fille qui n'est personne... Une jeune fille au cœur fragile... Une jeune fille qui parle aux Dragons Sacrés...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x57d</ref>
         </refs>
         <data>Rassemble nos cœurs, à nous, les Dragons Sacrés. ...Si tu en es digne, nous te donnerons notre pouvoir...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x585</ref>
         </refs>
         <data>Et alors, tu deviendras Dragonnière...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x599</ref>
         </refs>
         <data>Yoyo: (Dragonnière ? Moi, devenir Dragonnière ?)[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x5a1</ref>
         </refs>
         <data>Cela ne dépend que de toi. Devenir Dragonnière, et faire du monde le tien...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x5b0</ref>
         </refs>
         <data>Yoyo: (...Je n'ai que faire du monde... Moi... je...)[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x5d6</ref>
         </refs>

@@ -267,7 +267,7 @@ Personne ne m'écoute ! Ils disent qu'ils se battront comme il faut une fois par
  Produits Matelite (ma part : 1/10)
  Livres comme neufs (refilés)[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x780</ref>
         </refs>
@@ -307,7 +307,7 @@ Mes coups deviennent de plus en plus sournois... Moi... j'ai peur de moi-même..
  Écouter
  Ne pas écouter[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x79c</ref>
         </refs>
@@ -340,7 +340,7 @@ l'a... l'amour naît entre eux...
         </refs>
         <data>Ah bon... Non, pour rien...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x6df</ref>
         </refs>
@@ -362,7 +362,7 @@ S'ils sortaient ensemble, ça irait ?
  Ça ne marchera jamais
  Ça pourrait bien marcher[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x700</ref>
         </refs>
@@ -404,7 +404,7 @@ C'est bizarre~... Les filles ne m'adressent plus la parole~... Snif... J'ai rien
  
 En tant qu'être humain... je suis le pire. Mais c'était grisant...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x7ae</ref>
         </refs>

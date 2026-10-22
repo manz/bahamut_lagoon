@@ -1,13 +1,13 @@
 <?xml version="1.0" standalone="yes"?>
 <texts base="0x15d3" room_id="6">
-    <text>
+    <text window="none">
         <refs>
             <ref>0x5f</ref>
         </refs>
-        <data>  Chapitre [0xb5]
-  -Ce n'est pas un rêve...-[end]</data>
+        <data>Chapitre [0xb5]
+-Ce n'est pas un rêve...-[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x131</ref>
         </refs>
@@ -35,13 +35,13 @@ C'est maintenant que je vais montrer mes talents de commandant ![end]</data>
  
 Tu es tout poisseux de bave de dragon.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x2d8</ref>
         </refs>
         <data>Frotti, frotta, je lisse, je lisse... L'entretien de la moustache est le devoir du chevalier ![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x357</ref>
         </refs>
@@ -137,7 +137,7 @@ Tu es tout poisseux de bave de dragon.[end]</data>
         </refs>
         <data>Zora: La princesse s'est réveillée ![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x2a8</ref>
         </refs>
@@ -168,7 +168,7 @@ Tu es tout poisseux de bave de dragon.[end]</data>
         </refs>
         <data>Zora: La princesse, je m'en occupe ![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x147</ref>
         </refs>
@@ -559,7 +559,7 @@ Je voudrais voir ce qui se passe dans le lagon.[end]</data>
         </refs>
         <data>Yoyo: Byuu, j'ai à te parler. Allons dans la cabine du capitaine.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x87e</ref>
         </refs>
@@ -732,13 +732,13 @@ Devenir Dragonnière, tout ça... je ne comprends pas bien...[end]</data>
         </refs>
         <data>Yoyo: Merci, Byuu.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x36c</ref>
         </refs>
         <data>Byuu et la princesse... seuls, en tête à tête... La guerre et l'amour ne font pas bon ménage...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x3a9</ref>
         </refs>

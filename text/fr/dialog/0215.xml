@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="yes"?>
 <texts base="0x86a" room_id="215">
-    <text>
+    <text window="none">
         <refs>
             <ref>0x44b</ref>
         </refs>
@@ -98,13 +98,13 @@ L'un des deux a pensé à sa maman, et il a le mal du pays, paraît-il. Bon, au 
         </refs>
         <data>Frederica: Je vais bien. Tant que j'ai mes m-médicaments...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x460</ref>
         </refs>
         <data>Ekaterina: (Ce qu'il aime, c'est l'Uniasticot... Ah, je vais lui offrir de l'Uniasticot, avec tout mon coeur...)[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x459</ref>
         </refs>
@@ -118,19 +118,19 @@ L'un des deux a pensé à sa maman, et il a le mal du pays, paraît-il. Bon, au 
  
 C'est Barclay, ce Cuirassier tout lent, qui me l'a dit. Il en sait, des trucs bizarres.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x4cc</ref>
         </refs>
         <data>Donfan: Leçon du jour !! Ne jamais toucher à une magicienne ![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x668</ref>
         </refs>
         <data>Donfan: Leçon du jour !! Ne jamais toucher à une prêtresse ![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x7b0</ref>
         </refs>
@@ -165,13 +165,13 @@ Remarque, ce Cuirassier tout lent, je m'en fiche complètement. Mais ça m'agace
         </refs>
         <data>Ah, c'est tout ?[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x46d</ref>
         </refs>
         <data>Ekaterina: (Ah, son sourire... un sourire rien que pour moi... C'est grâce au vin doux... Hihi... Hihihi... Hihi...)[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x477</ref>
         </refs>
@@ -183,7 +183,7 @@ Remarque, ce Cuirassier tout lent, je m'en fiche complètement. Mais ça m'agace
         </refs>
         <data>[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x4a1</ref>
         </refs>
@@ -191,7 +191,7 @@ Remarque, ce Cuirassier tout lent, je m'en fiche complètement. Mais ça m'agace
  
 Quand tous les combats seront finis, je lui avouerai... mes sentiments brûlants... Et si c'est non... alors... j'emporterai tout le monde avec moi... Hihihihi... Badaboum !!)[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x4ab</ref>
         </refs>
@@ -217,19 +217,19 @@ Nous avons décidé d'enfermer ici Donfan, l'ennemi des femmes. Vous êtes d'acc
         </refs>
         <data>Joy: Nerbo et moi, nous le surveillons. Il ne sort que pour les combats.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x503</ref>
         </refs>
         <data>Nerbo: (Après la guerre, Donfan m'emmènera à Mahal... Il veut voir les lacs de Mahal qui se reflètent dans mes yeux, à ce qu'il dit... Mais chut, pas un mot à ma meilleure amie Joy...)[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x69f</ref>
         </refs>
         <data>Joy: (Après la guerre, Donfan viendra à Campbell... ``Qu'il existe une nature plus belle que toi, moi, Donfan, je ne peux pas le croire ! Alors je veux comparer'', à ce qu'il dit... Mais chut, pas un mot à ma meilleure amie Nerbo...)[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x6aa</ref>
             <ref>0x50e</ref>
@@ -406,13 +406,13 @@ Je suis entré dans cette pièce sans réfléchir...
  
 Avec toutes ces femmes, je suis tout intimidé...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x7e6</ref>
         </refs>
         <data>(Quoi... Le Général Palparos... avec la Princesse Yoyo... Hmpf, cette petite pimbêche...)[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x7f5</ref>
         </refs>
@@ -421,7 +421,7 @@ Avec toutes ces femmes, je suis tout intimidé...[end]</data>
  
 Byuu ne peut pas s'empêcher de penser à moi... Il est plutôt mignon...)[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x804</ref>
         </refs>
@@ -439,7 +439,7 @@ Byuu ne peut pas s'empêcher de penser à moi... Il est plutôt mignon...)[end]<
         </refs>
         <data>Nerbo: S'amuser avec un gentilhomme... c'est très divertissant.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x4e1</ref>
             <ref>0x67d</ref>
@@ -458,7 +458,7 @@ Byuu ne peut pas s'empêcher de penser à moi... Il est plutôt mignon...)[end]<
         </refs>
         <data>Nerbo: Et si la prochaine fois, je déshabillais Donfan...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x692</ref>
             <ref>0x4f6</ref>
@@ -536,13 +536,13 @@ C'est agréable... Lentement... lentement...[end]</data>
         </refs>
         <data>Jeanne: À force de Miel sucré et de biscuits, Donfan s'empâte. On ne reverra peut-être plus le fameux saut de Donfa~an.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x487</ref>
         </refs>
         <data>Ekaterina: (À quoi pense-t-il en ce moment... ? À la fille charmante qui lui a offert du vin doux ? Hihi... Hihi... Ah, dans son coeur, moi... Hihihi...)[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x491</ref>
         </refs>

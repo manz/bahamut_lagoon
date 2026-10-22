@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="yes"?>
 <texts base="0xecb" room_id="77">
-    <text>
+    <text window="none">
         <refs>
             <ref>0x72d</ref>
             <ref>0xded</ref>
@@ -8,7 +8,7 @@
         </refs>
         <data>Qui êtes-vous...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xd5e</ref>
         </refs>
@@ -20,25 +20,25 @@
         </refs>
         <data>Yoyo: Nous venons d'Orelus.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x749</ref>
         </refs>
         <data>...!? Je sens l'esprit des Dragons Sacrés...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x77d</ref>
         </refs>
         <data>...Bahamut !? ...Vritra !? Garuda !![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x789</ref>
         </refs>
         <data>Léviathan ! Jormungand ! Hypérion !![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x7bb</ref>
         </refs>
@@ -50,7 +50,7 @@
         </refs>
         <data>Yoyo: Nous sommes venus ramener les Dragons Sacrés à Altair. Et... pour vaincre les monstres qui détruisent notre Orelus...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x7e3</ref>
         </refs>
@@ -64,7 +64,7 @@ Mais qu'est-il arrivé aux Dragons Sacrés ?[end]</data>
         </refs>
         <data>Yoyo: Ils sont dans mon cœur...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x80a</ref>
         </refs>
@@ -78,7 +78,7 @@ Mais qu'est-il arrivé aux Dragons Sacrés ?[end]</data>
  
 ...Et vous ?[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x84f</ref>
         </refs>
@@ -94,7 +94,7 @@ Monsieur l'homme-dragon, dites-moi. Les Dragons Sacrés renaissent avec les homm
  
 C'est ce qu'on m'a dit, mais qu'est-ce que ça veut dire ?[end][end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x875</ref>
         </refs>
@@ -122,31 +122,31 @@ Cet esprit errant pénètre dans le corps de l'un de nous, hommes-dragons, et le
         </refs>
         <data>Matelite: Compris ! Assez de palabres ! Retirez-moi vite les esprits des Dragons Sacrés de la princesse Yoyo ![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x8c3</ref>
         </refs>
         <data>...C'est impossible. Des hommes-dragons, il ne reste que moi, un vieillard, et...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x8e1</ref>
         </refs>
         <data>Et nous, les enfants ! Les enfants, ça va pas ! Ça ferait des Dragons Sacrés violents ![end][end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x903</ref>
         </refs>
         <data>Dragonnière d'Orelus. Ne pourrais-tu pas garder encore les Dragons Sacrés dans ton cœur ?[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x934</ref>
         </refs>
         <data>...!? Serait-ce possible ![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x91a</ref>
         </refs>
@@ -160,13 +160,13 @@ Un humain fort qui communie avec les Dragons Sacrés et reçoit leur pouvoir san
  
 Pour l'heure, la résurrection des Dragons Sacrés est impossible... Je t'en prie... reste encore un peu avec les Dragons Sacrés...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x9e0</ref>
         </refs>
         <data>Moi, je suis un enfant, alors je ne peux pas encore devenir un Dragon Sacré.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x9fe</ref>
         </refs>
@@ -178,19 +178,19 @@ Pour l'heure, la résurrection des Dragons Sacrés est impossible... Je t'en pri
         </refs>
         <data>Matelite: Alexandre ?[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xa1b</ref>
         </refs>
         <data>Le roi d'Altair ! Le Dragon Sacré Alexandre !![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xa2c</ref>
         </refs>
         <data>C'est une histoire d'il y a très, très longtemps, peu après que Bahamut et les autres sont partis pour Orelus ![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xa3d</ref>
         </refs>
@@ -200,7 +200,7 @@ Alors Alexandre a bloqué la route du ciel, à ce qu'il paraît !
  
 Pour que les autres Dragons Sacrés ne puissent pas revenir.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xa4e</ref>
         </refs>
@@ -214,43 +214,43 @@ Et il les a changés en monstres sans cœur ![end]</data>
         </refs>
         <data>Yoyo: Les Dragons Sacrés...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xa67</ref>
         </refs>
         <data>Bahamut: Hommes-dragons... répondez...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xa78</ref>
         </refs>
         <data>Ah ! Bahamut ![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xa80</ref>
         </refs>
         <data>Bahamut: Nous sommes revenus... pour renaître... pour accueillir une ère nouvelle... Nous avons franchi la porte pour revenir...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xa84</ref>
         </refs>
         <data>Vritra: La résurrection serait donc impossible ?[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xa95</ref>
         </refs>
         <data>Moi, je sais pas ! Grand-père, grand-père ![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xa9d</ref>
         </refs>
         <data>Léviathan: Reste-t-il... encore des hommes-dragons ?[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xabb</ref>
         </refs>
@@ -265,7 +265,7 @@ Alexandre doit en garder pour son propre usage.[end]</data>
         </refs>
         <data>Yoyo: J'ai... peur... Les Dragons Sacrés... sont en colère... Plus violemment... que jamais...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xad2</ref>
         </refs>
@@ -336,7 +336,7 @@ Tu es prêt ?
         </refs>
         <data>Face à des monstres, mes connaissances en stratégie ne servent à rien. J'espère au moins ne pas être un fardeau...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x601</ref>
         </refs>
@@ -438,7 +438,7 @@ Voici ! [0xb0][0xaf][0xaf][0xaf] Piro ![end]</data>
         </refs>
         <data>Taicho: Quel château sinistre... Ça sent le danger à plein nez, affirmatif.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xe9b</ref>
         </refs>
@@ -450,13 +450,13 @@ Voici ! [0xb0][0xaf][0xaf][0xaf] Piro ![end]</data>
         </refs>
         <data>Matelite: Ici, on laisse faire Palparos ![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x42</ref>
         </refs>
         <data> 
-  Chapitre [0xb1][0xb2]
-  -L'effondrement-[end]</data>
+Chapitre [0xb1][0xb2]
+-L'effondrement-[end]</data>
     </text>
     <text>
         <refs>
@@ -612,53 +612,53 @@ Et alors, le succès est assuré ![end]</data>
         </refs>
         <data>Matelite: Byuu... Prudence...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x293</ref>
         </refs>
         <data> 
-  Chapitre [0xb1][0xb4]
-  -Voyageurs éternels-[end]</data>
+Chapitre [0xb1][0xb4]
+-Voyageurs éternels-[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x96f</ref>
         </refs>
         <data>Jadis, des hommes-dragons sont partis pour Orelus, emmenés par les Dragons Sacrés...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x975</ref>
         </refs>
         <data>Le pouvoir des Dragons Sacrés a changé leur apparence... Mais le souvenir de leur patrie, transmis de génération en génération... faible, ne s'est jamais effacé...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x980</ref>
         </refs>
         <data>Et la joie d'être revenus...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x986</ref>
         </refs>
         <data>...?
 Byuu, c'est toi ?[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x991</ref>
         </refs>
         <data>On m'a demandé de te transmettre ceci... Des mots dont je ne saisis pas le sens.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x997</ref>
         </refs>
-        <data> M... E... R... C... I...
- J... E... T'... A... I... M... E...[end]</data>
+        <data>M... E... R... C... I...
+J... E... T'... A... I... M... E...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x9a2</ref>
         </refs>

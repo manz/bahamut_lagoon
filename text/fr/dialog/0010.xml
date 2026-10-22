@@ -1,82 +1,82 @@
 <?xml version="1.0" standalone="yes"?>
 <texts base="0xc41" room_id="10">
-    <text>
+    <text window="none">
         <refs>
             <ref>0x70</ref>
         </refs>
-        <data>  Chapitre [0xb0][0xaf]
-  -Le pont arc-en-ciel-[end1]</data>
+        <data>Chapitre [0xb0][0xaf]
+-Le pont arc-en-ciel-[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x8c</ref>
         </refs>
-        <data> Mahal, le Continent Miracle...[end1]</data>
+        <data>Mahal, le Continent Miracle...[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x92</ref>
         </refs>
-        <data> Avec le temps, on finit par
- appeler Mahal le Continent
- Miracle...[end1]</data>
+        <data>Avec le temps, on finit par
+appeler Mahal le Continent
+Miracle...[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x98</ref>
         </refs>
-        <data> Un climat toujours doux,
- un grand lac...[end1]</data>
+        <data>Un climat toujours doux,
+un grand lac...[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x9e</ref>
         </refs>
-        <data> Et des gens qui y vivent,
- au coeur bien trop pur...[end1]</data>
+        <data>Et des gens qui y vivent,
+au coeur bien trop pur...[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xa4</ref>
         </refs>
-        <data> De tous les lagons qui flottent
- sur Orelus,[end1]</data>
+        <data>De tous les lagons qui flottent
+sur Orelus,[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xaa</ref>
         </refs>
-        <data> c'est le plus beau de tous...
- Est-ce pour cela qu'on parle
- de ``miracle'' ?[end1]</data>
+        <data>c'est le plus beau de tous...
+Est-ce pour cela qu'on parle
+de ``miracle'' ?[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xc9</ref>
         </refs>
-        <data> Un pont où se pose l'arc-en-ciel...
- Le ``Pont Arc-en-ciel''.[end1]</data>
+        <data>Un pont où se pose l'arc-en-ciel...
+Le ``Pont Arc-en-ciel''.[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xcf</ref>
         </refs>
-        <data> Jour et nuit, les jeunes couples
- visitent ce haut lieu de Mahal.[end1]</data>
+        <data>Jour et nuit, les jeunes couples
+visitent ce haut lieu de Mahal.[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xda</ref>
         </refs>
-        <data> Qui y voit l'arc-en-ciel verra,
- dit-on, tous ses voeux exaucés...[end1]</data>
+        <data>Qui y voit l'arc-en-ciel verra,
+dit-on, tous ses voeux exaucés...[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xe0</ref>
         </refs>
-        <data> Mais personne n'a jamais entendu
- dire que quelqu'un l'ait vu.[end1]</data>
+        <data>Mais personne n'a jamais entendu
+dire que quelqu'un l'ait vu.[end1]</data>
     </text>
     <text>
         <refs>
@@ -246,49 +246,49 @@ Et puis...
  
 Je murmure tout bas... Ruki... rien que pour toi...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x85d</ref>
         </refs>
         <data>Où es-tu... en ce moment ?[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x865</ref>
         </refs>
         <data>Que fais-tu... en ce moment ?[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x877</ref>
         </refs>
         <data>Te portes-tu bien ?[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x87f</ref>
         </refs>
         <data>Moi, je vais bien... enfin, je crois...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x88c</ref>
         </refs>
         <data>Au fond de mon coeur,[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x890</ref>
         </refs>
         <data>c'est aussi bleu que ce lac,[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x8a3</ref>
         </refs>
         <data>mais je garde toujours le sourire...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x8a7</ref>
         </refs>

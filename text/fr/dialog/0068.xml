@@ -82,7 +82,7 @@ Si vous emmenez les Diablotins qui ont élu domicile dans cette ville, c'est gra
         </refs>
         <data>Je crois pouvoir lire dans votre cœur comme si je l'observais au microscope.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x659</ref>
         </refs>
@@ -401,20 +401,20 @@ Et quand on revient de voyage, on a grandi d'un cran.[end]</data>
         </refs>
         <data>Il est une légende transmise à Godland depuis la nuit des temps...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xb35</ref>
         </refs>
-        <data>  Ici repose un dragon
-  qui prit la forme d'un oiseau.[end]</data>
+        <data>Ici repose un dragon
+qui prit la forme d'un oiseau.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xb39</ref>
         </refs>
-        <data>  Nul ne doit jamais éveiller
-  le dragon oiseau
-  à la colère débordante.[end][end]</data>
+        <data>Nul ne doit jamais éveiller
+le dragon oiseau
+à la colère débordante.[end][end]</data>
     </text>
     <text>
         <refs>

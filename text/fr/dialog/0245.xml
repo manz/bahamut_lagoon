@@ -1,12 +1,12 @@
 <?xml version="1.0" standalone="yes"?>
 <texts base="0x1c7" room_id="245">
-    <text>
+    <text window="none">
         <refs>
             <ref>0xd3</ref>
         </refs>
-        <data>  Sauzer...[end]</data>
+        <data>Sauzer...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xe5</ref>
         </refs>
@@ -14,13 +14,13 @@
  
 Dis, Sauzer... Ce que tu cherchais, au fond, ce n'était pas la guerre, mais la paix, n'est-ce pas ? ...C'est ce que je crois... Sauzer...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xeb</ref>
         </refs>
         <data>...Adieu, Sauzer...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x129</ref>
         </refs>
@@ -34,19 +34,19 @@ La guerre a beau être finie, je ne peux pas me présenter à Kana comme si de r
  
 Mais toi, tu as des amis merveilleux... Tu ne te sentiras pas seule, n'est-ce pas ?[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x133</ref>
         </refs>
         <data>Je t'envie... Yoyo...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x143</ref>
         </refs>
         <data>...Adieu, Yoyo...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x14b</ref>
         </refs>

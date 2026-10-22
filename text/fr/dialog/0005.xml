@@ -118,12 +118,12 @@ Ah, pardon, je me suis avancé. Excusez-moi.[end]</data>
         </refs>
         <data>Bikebake: Ah bon, tant mieux. Je vais ramasser plein de champignons différents.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x30</ref>
         </refs>
-        <data>  Chapitre [0xb4]
-  -L'empereur Sauzer-[end]</data>
+        <data>Chapitre [0xb4]
+-L'empereur Sauzer-[end]</data>
     </text>
     <text>
         <refs>

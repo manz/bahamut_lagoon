@@ -1,18 +1,18 @@
 <?xml version="1.0" standalone="yes"?>
 <texts base="0x390" room_id="209">
-    <text>
+    <text window="none">
         <refs>
             <ref>0x1f7</ref>
         </refs>
         <data>Ekaterina: Le vin doux qu'il buvait... Hihi... Ce verre est à moi...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x20c</ref>
         </refs>
         <data>Ekaterina: Le cocktail spécial à l'Uniasticot qu'il buvait... Hihi... Ce verre est à moi...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x210</ref>
             <ref>0x1fb</ref>
@@ -48,7 +48,7 @@ Tant pis... moi... j'ai mes... mes m-médicaments...[end]</data>
         </refs>
         <data>Ces derniers temps... j'entends des gémissements dans la chambre de Princesse Yoyo. Qu'est-ce que ça peut bien être... Je me demande... si elle parle avec les Dragons Sacrés...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x34b</ref>
         </refs>
@@ -56,13 +56,13 @@ Tant pis... moi... j'ai mes... mes m-médicaments...[end]</data>
  
 Il me faut encore plus de fans.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x355</ref>
         </refs>
         <data>Hmpf !! Sur ce bateau... il n'y a pas un seul bel homme ! Ohohohoho... !! Je n'ai même pas envie de me lever.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x221</ref>
         </refs>
@@ -84,13 +84,13 @@ Barclay, lui, ne sait manier que la hache.[end]</data>
         </refs>
         <data>Jeanne: Ah~... à boire... à boire... Doooonfaaan !! Apporte-moi à boire~ !![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x323</ref>
         </refs>
         <data>Donfan: Jeanne~... C'est mauvais pour la santé~[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x25c</ref>
             <ref>0x2be</ref>
@@ -133,19 +133,19 @@ Et là... il me demande, tout rouge : ``Et... et les r-robes à la mode ?'' Il a
         </refs>
         <data>Hmm... Je vois... C'est donc ça~[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x241</ref>
         </refs>
         <data>Donfan: Leçon du jour !! Ne jamais toucher à une magicienne ![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x2a3</ref>
         </refs>
         <data>Donfan: Leçon du jour !! Ne jamais toucher à une prêtresse ![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x308</ref>
         </refs>

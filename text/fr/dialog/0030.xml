@@ -42,12 +42,12 @@ La puissance d'un Dragonnier... la puissance du Dragon Sacré Bahamut... n'est d
         </refs>
         <data>Sauzer: Emmenez la princesse Yoyo.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x553</ref>
         </refs>
-        <data>  Byuu !!
-  Matelite ![end]</data>
+        <data>Byuu !!
+Matelite ![end]</data>
     </text>
     <text>
         <refs>
@@ -93,15 +93,15 @@ Je ne te laisserai pas... la puissance des Dragons Sacrés ![end]</data>
  
 Le monde, je vais le prendre de mes mains... Cela commence... ici, en cet instant ![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x685</ref>
         </refs>
-        <data>  Au terme de cette bataille,
-  le royaume de Kana tomba.
+        <data>Au terme de cette bataille,
+le royaume de Kana tomba.
  
-  Ainsi s'achevait une ère,
-  et une nouvelle page de l'Histoire
-  s'apprêtait à s'écrire.[end]</data>
+Ainsi s'achevait une ère,
+et une nouvelle page de l'Histoire
+s'apprêtait à s'écrire.[end]</data>
     </text>
 </texts>

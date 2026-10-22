@@ -1,11 +1,11 @@
 <?xml version="1.0" standalone="yes"?>
 <texts base="0x36e" room_id="2">
-    <text>
+    <text window="none">
         <refs>
             <ref>0x5c</ref>
         </refs>
-        <data>  Campbell, le continent verdoyant
-  Le fort de Granbelos[end]</data>
+        <data>Campbell, le continent verdoyant
+Le fort de Granbelos[end]</data>
     </text>
     <text>
         <refs>
@@ -63,11 +63,11 @@ La princesse Yoyo est devenue une femme d'une grande beauté.[end]</data>
  
 Repose-toi bien.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x19c</ref>
         </refs>
-        <data>  La légende dont nous rêvions...[end]</data>
+        <data>La légende dont nous rêvions...[end]</data>
     </text>
     <text>
         <refs>

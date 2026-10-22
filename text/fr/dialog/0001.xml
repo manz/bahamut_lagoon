@@ -1,11 +1,11 @@
 <?xml version="1.0" standalone="yes"?>
 <texts base="0x111e" room_id="1">
-    <text>
+    <text window="none">
         <refs>
             <ref>0x132</ref>
         </refs>
-        <data>  Chapitre [0xb0]
-  -Les prémices-[end]</data>
+        <data>Chapitre [0xb0]
+-Les prémices-[end]</data>
     </text>
     <text>
         <refs>
@@ -15,33 +15,33 @@
         <data>  Oui
   Non[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x9c</ref>
         </refs>
-        <data>  Quelques années après le cauchemar
-  de la guerre...[0xfc][0x40][end1]</data>
+        <data>Quelques années après le cauchemar
+de la guerre...[0xfc][0x40][end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xae</ref>
         </refs>
-        <data>  Aux confins du monde, un lagon oublié :
-  Tedd, l'île solitaire.[0xfc][0x40][end1]</data>
+        <data>Aux confins du monde, un lagon oublié :
+Tedd, l'île solitaire.[0xfc][0x40][end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xea</ref>
         </refs>
-        <data>  C'est là, sur cette terre...[0xfc][0x40][end1]</data>
+        <data>C'est là, sur cette terre...[0xfc][0x40][end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xee</ref>
         </refs>
-        <data>  qu'autour des chevaliers de Kana rescapés
-  une armée rebelle prenait forme, peu à peu,
-  pour se dresser contre l'Empire de Granbelos.[0xfc][0x40][end1]</data>
+        <data>qu'autour des chevaliers de Kana rescapés
+une armée rebelle prenait forme, peu à peu,
+pour se dresser contre l'Empire de Granbelos.[0xfc][0x40][end1]</data>
     </text>
     <text>
         <refs>
@@ -85,27 +85,27 @@
         </refs>
         <data>Zora: Byuu est rentré ![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x3c5</ref>
         </refs>
-        <data>  Capitaine des chevaliers de Mahal
-  Taicho[end]</data>
+        <data>Capitaine des chevaliers de Mahal
+Taicho[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x3eb</ref>
         </refs>
-        <data>  Vieil invocateur, toujours célibataire
-  Sendak[end]</data>
+        <data>Vieil invocateur, toujours célibataire
+Sendak[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x41f</ref>
         </refs>
-        <data>  Chevalier de Kana
-  Né sous le signe de la Vierge, groupe O
-  Matelite[end]</data>
+        <data>Chevalier de Kana
+Né sous le signe de la Vierge, groupe O
+Matelite[end]</data>
     </text>
     <text>
         <refs>
@@ -182,7 +182,7 @@ Tu as obtenu ``Objets divers''.[end]</data>
         </refs>
         <data>Sendak: Byuu... tu as l'air plus mûr qu'à l'époque... Je devrais prendre exemple...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xbfc</ref>
         </refs>
@@ -200,7 +200,7 @@ Tu ne te souviens pas de la princesse Yoyo ?
  
 Toi aussi, tu as des souvenirs d'elle, n'est-ce pas ?[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xb69</ref>
         </refs>
@@ -356,43 +356,43 @@ Il est solidement scellé. L'ouvrir ?[end]</data>
         </refs>
         <data>Tu as trouvé [0xb4] ``Gin magique''.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x6f2</ref>
         </refs>
-        <data>  Mon cher Byuu,
+        <data>Mon cher Byuu,
  
-  Comment te portes-tu ?
-  Sous quel ciel voyages-tu à présent ?
+Comment te portes-tu ?
+Sous quel ciel voyages-tu à présent ?
  
-  Depuis la guerre... combien d'hivers
-  avons-nous déjà vus passer ?[end]</data>
+Depuis la guerre... combien d'hivers
+avons-nous déjà vus passer ?[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x720</ref>
         </refs>
-        <data>  Kana, notre patrie, n'est plus...
-  L'Empire de Granbelos a unifié le monde.
+        <data>Kana, notre patrie, n'est plus...
+L'Empire de Granbelos a unifié le monde.
  
-  Cette guerre appartient désormais au passé...
+Cette guerre appartient désormais au passé...
  
-  L'armée rebelle, née pour accomplir
-  les dernières volontés du feu roi de Kana,
-  n'a plus de rebelle que le nom...
-  Sans toi, Byuu, le coeur n'y est plus.[end]</data>
+L'armée rebelle, née pour accomplir
+les dernières volontés du feu roi de Kana,
+n'a plus de rebelle que le nom...
+Sans toi, Byuu, le coeur n'y est plus.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x755</ref>
         </refs>
-        <data>  Ah, j'allais oublier...
-  Ici, la neige a déjà commencé à tomber.
+        <data>Ah, j'allais oublier...
+Ici, la neige a déjà commencé à tomber.
  
-  L'hiver s'annonce rude, cette année encore.
+L'hiver s'annonce rude, cette année encore.
  
-  Sur ce, prends bien soin de toi.
-  Sendak[end]</data>
+Sur ce, prends bien soin de toi.
+Sendak[end]</data>
     </text>
     <text>
         <refs>

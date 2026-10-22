@@ -233,7 +233,7 @@ Byuu, s'il te plaît. Laisse-moi seule avec ma tante...[end]</data>
         </refs>
         <data>Yoyo: Je sais, Sendak.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x11e</ref>
         </refs>

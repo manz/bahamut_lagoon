@@ -148,7 +148,7 @@ Aaah ! Vos yeux sourient ! Vous allez le faire quand même ![end]</data>
         </refs>
         <data>Matelite: Un commandant arrive toujours en dernier, sans se presser ! Byuu, file devant ![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x239</ref>
         </refs>
@@ -226,13 +226,13 @@ Je vais te montrer moi-même ce qu'est la torture.[end]</data>
         </refs>
         <data>Rush: Ça sent mauvais ! Il va chercher ses copains ![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x201</ref>
         </refs>
         <data>Princesse Yoyo... Mon coeur est rempli de regrets. Moi qui croyais enfin vous revoir...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x22f</ref>
         </refs>
@@ -246,7 +246,7 @@ Non, interdit d'imaginer ça, affirmatif ![end]</data>
         </refs>
         <data>Ruki: Rush est parti à la poursuite du soldat de Granbelos.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x260</ref>
         </refs>
@@ -313,12 +313,12 @@ Tu es prêt pour le combat ?
         </refs>
         <data>Taicho: Fais à ta façon, Byuu, affirmatif ![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x32</ref>
         </refs>
-        <data>  Chapitre [0xb3]
-  -Rongés par les regrets-[end]</data>
+        <data>Chapitre [0xb3]
+-Rongés par les regrets-[end]</data>
     </text>
     <text>
         <refs>

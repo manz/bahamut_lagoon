@@ -1,11 +1,11 @@
 <?xml version="1.0" standalone="yes"?>
 <texts base="0x16a8" room_id="12">
-    <text>
+    <text window="none">
         <refs>
             <ref>0xa4</ref>
         </refs>
-        <data>  Chapitre [0xb0][0xb1]
-  -Opération espionnage-[end]</data>
+        <data>Chapitre [0xb0][0xb1]
+-Opération espionnage-[end]</data>
     </text>
     <text>
         <refs>
@@ -103,13 +103,13 @@ En gros, Dooonfan, le dur au coeur pur, doit aller séduire [0xb0][0xaf][0xaf] f
         </refs>
         <data>...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x26f</ref>
         </refs>
         <data>Sendak: Byuu m'a choisi... Est-ce que je dois être content ? Ou triste ? Moi... je ne sais pas...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x299</ref>
         </refs>
@@ -133,25 +133,25 @@ En gros, Dooonfan, le dur au coeur pur, doit aller séduire [0xb0][0xaf][0xaf] f
         </refs>
         <data>Taicho: ... ![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x3c7</ref>
         </refs>
-        <data>  La périlleuse mission
-  fut couronnée de succès.[end]</data>
+        <data>La périlleuse mission
+fut couronnée de succès.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x3e4</ref>
         </refs>
-        <data>  La mission se solda par un échec,
-  et le matelot rentra dans son village...[end]</data>
+        <data>La mission se solda par un échec,
+et le matelot rentra dans son village...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x4ff</ref>
         </refs>
-        <data>  Ainsi s'acheva la vie du matelot...[end]</data>
+        <data>Ainsi s'acheva la vie du matelot...[end]</data>
     </text>
     <text>
         <refs>
@@ -274,7 +274,7 @@ Mais... dès qu'il pourra bouger... il se mettra sûrement à chercher les Drago
         </refs>
         <data>Mais... attendez... il y a une suite.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x788</ref>
         </refs>
@@ -432,7 +432,7 @@ Je me suis infiltré dans le château de Granbelos pour chercher Lestat, affirma
  
 Il vous sera utile pour vos recherches sur l'``armure signée Matelite'', affirmatif ![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x88e</ref>
         </refs>
@@ -504,7 +504,7 @@ Il n'y a plus qu'à foncer dans son corps avec les dragons pour la combattre, j'
  Y aller !
  Attendre.[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xc21</ref>
         </refs>
@@ -524,7 +524,7 @@ Byuu... je passe devant, affirmatif ![end]</data>
         </refs>
         <data>Taicho: Réveille la princesse Yoyo, affirmatif... Murmure-lui doucement à l'oreille...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xf44</ref>
         </refs>
@@ -563,7 +563,7 @@ Byuu... Si c'est pour voir le ciel...
  
 Allons sur la terrasse.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x105c</ref>
         </refs>

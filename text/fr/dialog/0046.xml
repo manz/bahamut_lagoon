@@ -1,18 +1,18 @@
 <?xml version="1.0" standalone="yes"?>
 <texts base="0x59f" room_id="46">
-    <text>
+    <text window="none">
         <refs>
             <ref>0xa1</ref>
         </refs>
-        <data>  Yoyo...
+        <data>Yoyo...
  
-  Toi qui deviendras Dragonnière,
-  tu as su parvenir jusqu'ici.
+Toi qui deviendras Dragonnière,
+tu as su parvenir jusqu'ici.
  
-  N'hésite plus.
+N'hésite plus.
  
-  Viens...
-  Ouvre la porte, et viens jusqu'à moi.[end]</data>
+Viens...
+Ouvre la porte, et viens jusqu'à moi.[end]</data>
     </text>
     <text>
         <refs>
@@ -22,7 +22,7 @@
  
 Moi-même... je ne sais pas si je pourrai la contenir...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xce</ref>
         </refs>
@@ -64,82 +64,82 @@ Fermez cette porte... C'est moi que vous voulez,n'est-ce pas...
         </refs>
         <data>Yoyo: ... Byuu... je t'en prie. Jusqu'au bout... ne me quitte pas des yeux...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x49b</ref>
         </refs>
         <data>Yoyo: Jormungand... Je suis prête. Quoi que vous ayez à me dire... je l'accepterai.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x3c0</ref>
             <ref>0x4b4</ref>
         </refs>
-        <data>  Yoyo...
+        <data>Yoyo...
  
-  Toi qui deviendras Dragonnière...[end]</data>
+Toi qui deviendras Dragonnière...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x3c6</ref>
         </refs>
-        <data>  Tes compagnons...
+        <data>Tes compagnons...
  
-  veillent sur toi
-  et te soutiennent...
+veillent sur toi
+et te soutiennent...
  
-  Jamais ils ne te trahissent,
-  et moins encore se haïssent entre eux...
+Jamais ils ne te trahissent,
+et moins encore se haïssent entre eux...
  
-  Nous... les Dragons Sacrés,
-  étions ainsi, autrefois...[end]</data>
+Nous... les Dragons Sacrés,
+étions ainsi, autrefois...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x4c4</ref>
         </refs>
-        <data>  Écoute...
+        <data>Écoute...
  
-  Tout a commencé
-  en des temps lointains...
+Tout a commencé
+en des temps lointains...
  
-  Notre haine... celle des Dragons Sacrés...
-  notre tristesse...
-  ...notre colère...
-  tous ces sentiments...
-  un passé que rien ne peut effacer...
+Notre haine... celle des Dragons Sacrés...
+notre tristesse...
+...notre colère...
+tous ces sentiments...
+un passé que rien ne peut effacer...
  
-  Nous...
+Nous...
  
-  La guerre des Dragons Sacrés[end]</data>
+La guerre des Dragons Sacrés[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x4d6</ref>
         </refs>
-        <data>  Humaine...
-  écoute-moi.
+        <data>Humaine...
+écoute-moi.
  
-  En des temps lointains...
-  les Dragons Sacrés se sont combattus.
+En des temps lointains...
+les Dragons Sacrés se sont combattus.
  
-  Ils se haïrent...
-  se déchirèrent...
-  se maudirent...
-  et il n'en resta rien.
-  Tout fut perdu...
+Ils se haïrent...
+se déchirèrent...
+se maudirent...
+et il n'en resta rien.
+Tout fut perdu...
  
-  Seules demeurèrent nos pensées...
-  les pensées des Dragons Sacrés...
+Seules demeurèrent nos pensées...
+les pensées des Dragons Sacrés...
  
-  Quand s'ouvrira la porte
-  de la Nouvelle Ère,
+Quand s'ouvrira la porte
+de la Nouvelle Ère,
  
-  nous...
-  les Dragons Sacrés,
-  trouverons enfin la paix.
+nous...
+les Dragons Sacrés,
+trouverons enfin la paix.
  
-  Ce jour
-  est proche...[end]</data>
+Ce jour
+est proche...[end]</data>
     </text>
 </texts>

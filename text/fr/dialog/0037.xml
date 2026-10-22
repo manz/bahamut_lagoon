@@ -313,7 +313,7 @@ Il a compris qu'unifier le monde ne faisait pas tout.
  
 Alors,avec le pouvoir de la Princesse... non,celui de la famille royale de Kana,il veut connaître le coeur des Dragons Sacrés...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x699</ref>
         </refs>
@@ -323,25 +323,25 @@ C'est moi qui ai révélé la légende à Sauzer... Pour sauver Campbell,je n'av
  
 La chute de Kana... la mort du Roi de Kana... la souffrance de Yoyo... Ah... Et moi,désormais...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x4ed</ref>
         </refs>
         <data>Qui connaît le coeur des Dragons Sacrés ouvrira la Porte de la Nouvelle Ère.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x4f8</ref>
         </refs>
         <data>Fille du roi au coeur faible... Toi qui connais la légende... Tout dépend de toi...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x503</ref>
         </refs>
         <data>Vritra... Je t'en prie... sors de moi... Rends-moi à moi-même...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x50e</ref>
         </refs>

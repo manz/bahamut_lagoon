@@ -1,10 +1,10 @@
 <?xml version="1.0" standalone="yes"?>
 <texts base="0x356" room_id="246">
-    <text>
+    <text window="none">
         <refs>
             <ref>0x159</ref>
         </refs>
-        <data>  Donfan ![end1]</data>
+        <data>Donfan ![end1]</data>
     </text>
     <text>
         <refs>

@@ -1,12 +1,12 @@
 <?xml version="1.0" standalone="yes"?>
 <texts base="0x1f59" room_id="76">
-    <text>
+    <text window="none">
         <refs>
             <ref>0x79</ref>
         </refs>
         <data>
-  Chapitre [0xb1][0xb0]
-  -Le Dragon Sacré Bahamut-[end]</data>
+Chapitre [0xb1][0xb0]
+-Le Dragon Sacré Bahamut-[end]</data>
     </text>
     <text>
         <refs>
@@ -937,13 +937,13 @@ Laisse la princesse s'occuper du général Palparos.
  
 Ne t'en fais pas, ces deux-là partiront au combat comme il faut.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x1d8</ref>
         </refs>
         <data>
-  Chapitre [0xb1][0xb1]
-  -L'ultime bataille-[end]</data>
+Chapitre [0xb1][0xb1]
+-L'ultime bataille-[end]</data>
     </text>
     <text>
         <refs>
@@ -1478,7 +1478,7 @@ Alors que personne ne sait ce qui va se passer...[end]</data>
  
 ...Enfin... je devrais peut-être réfléchir un peu, moi aussi...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x75e</ref>
         </refs>
@@ -1512,12 +1512,12 @@ Pourquoi la porte s'est refermée il y a très longtemps, les Dragons Sacrés eu
         </refs>
         <data>Zora: Allons, laisse donc. Deux êtres qui s'aiment... c'est beau, non ?[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x463</ref>
         </refs>
         <data>
-  Chapitre [0xb1][0xb3]
-  -Vers le pays natal...-[end][end]</data>
+Chapitre [0xb1][0xb3]
+-Vers le pays natal...-[end][end]</data>
     </text>
 </texts>

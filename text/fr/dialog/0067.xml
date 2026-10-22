@@ -148,7 +148,7 @@ Ce... ceci, je te le confie...[end]</data>
         </refs>
         <data>Oh !! Le drapeau de Kana !![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x717</ref>
         </refs>

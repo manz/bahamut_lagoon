@@ -436,25 +436,25 @@ Désormais, nous travaillerons main dans la main. -Le marchand du champ de batai
         </refs>
         <data>Sajin: Ah... la vie, ce chemin de l'ombre... Je crois que je vais raccrocher...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x9e3</ref>
         </refs>
         <data>Zeroshin: Maman... je suis sur un bateau. Je n'arrive pas à me faire d'amis... D'abord, je m'entraîne à dire bonjour avec le sourire.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x9e9</ref>
         </refs>
         <data>Zeroshin: Maman... comment vas-tu ? Je n'arrive pas à me faire d'amis... Aujourd'hui, je m'entraîne à sourire, tout seul.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x9ef</ref>
         </refs>
         <data>Zeroshin: Maman... tu vas bien ? Moi... je suis seul... Avec Sajin, on ne parle que de travail. Je me sens seul... si seul...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x9f5</ref>
         </refs>

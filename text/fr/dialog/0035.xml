@@ -52,7 +52,7 @@ Dussions-nous y laisser la vie,notre devoir est de ramener Yoyo ![end]</data>
         </refs>
         <data>Ruki: Byuu,toi aussi,vite ![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x6a6</ref>
         </refs>
@@ -60,7 +60,7 @@ Dussions-nous y laisser la vie,notre devoir est de ramener Yoyo ![end]</data>
  
 J'aurais tant voulu te parler encore...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x239</ref>
         </refs>

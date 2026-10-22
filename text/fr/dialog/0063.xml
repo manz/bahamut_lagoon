@@ -176,13 +176,13 @@ que maintenant... tout ira bien.[end]</data>
         <data> Voir les objets
  Voir les livres osés[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x4ff</ref>
         </refs>
         <data>Zeroshin: (Maman... avec ce nouveau travail, je crois que je vais me faire plein d'amis.)[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x2dd</ref>
         </refs>

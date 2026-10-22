@@ -42,13 +42,13 @@
         </refs>
         <data>Yoyo: Oui... ça ira...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xba</ref>
         </refs>
         <data>Je suis venue...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xf6</ref>
         </refs>

@@ -46,7 +46,7 @@ HEADING = re.compile(r"-[^ ].*-")  # "-Aller-": a heading the following lines ex
 OPTION = re.compile(r"^ +(?=\S)", re.MULTILINE)  # a choice's option: its line opens on a space
 OPTION_INDENT = "  "  # two spaces, 10 pixels: the options stand clear of the cursor
 TRAILING_TAGS = re.compile(r"(.*?)((?:\[[^\]]*\])*)", re.DOTALL)  # a line's words, then the tags closing it
-CENTRED = re.compile(r"^ {2,}\S.*$", re.MULTILINE)  # a card's line, set two spaces or more in
+CENTRE_MARK = "  "  # katsuji centres a line set two spaces in
 LIST_ITEM = re.compile(r"(\d+|\[0x(af|b[0-8])\])+ ?[-.)]")  # "1- ", "[0xb0]- ": an item, a line of its own
 MARKUP = Markup(
     tag=r"\[character\]\[0x[0-9a-f]+\]|\[[^\]]*\]",  # a name, a glyph ([0xd8]) or a control ([end])
@@ -124,24 +124,41 @@ class DialogLayout:
         """`line`'s width with every name at its default spelling: where it sits, not how wide it may grow."""
         return self.wrapper.measure(self.encode(line, self.default_names))
 
-    def reflow(self, text: str, page_lines: int | None = None, keep_lines: bool = False) -> str:
+    def reflow(self, text: str, page_lines: int | None = None, keep_lines: bool = False, centred: bool = False) -> str:
         """`text` typeset and laid out to the window (katsuji's TextLayout: paragraphs reflowed by sentences, lines
-        placed, blocks kept within a window of `page_lines`). A text ending in [end1] (a card, or a choice follows it) is
-        typeset with its CENTRED lines centred; given `keep_lines` (a choice's prompt, its options a line each, set
-        OPTION_INDENT in), it is typeset only."""
+        placed, blocks kept within a window of `page_lines`). Given `keep_lines` (a choice's prompt, its options a line
+        each, set OPTION_INDENT in), or ending in [end1] (a choice follows it), it is typeset only; given `centred` (a
+        text the script shows without a window, or set align="center"), each line is centred."""
         if keep_lines:
             return typeset(OPTION.sub(OPTION_INDENT, text))
+        if centred:
+            return self.centred(text)
         if text.endswith("[end1]"):
-            return CENTRED.sub(self._centre_card_line, typeset(text))
+            return typeset(text)
         return self.layout.reflow(text, page_lines)
+
+    def centred(self, text: str) -> str:
+        """`text` typeset with its lines as written, each centred on its words (the waits and terminators closing it
+        take no room); a line that would cross the window once its names grow is wrapped first, and a piece still too wide
+        is set at the left."""
+        lines: list[str] = []
+        for line in typeset(text).split("\n"):
+            words, tags = TRAILING_TAGS.fullmatch(line).groups()  # type: ignore[union-attr]
+            words = words.strip(" ")
+            if not words:
+                lines.append(line)
+                continue
+            pieces = self.layout.reflow(words).split("\n") if not self.fits_centred(words) else [words]
+            lines += [self.centre(CENTRE_MARK + piece) if self.fits_centred(piece) else piece for piece in pieces]
+            lines[-1] += tags
+        return "\n".join(lines)
 
     def place(self, line: str) -> str:
         return self.layout.place(line)
 
-    def _centre_card_line(self, line: re.Match[str]) -> str:
-        """A card's line centred on its words: the waits and terminators closing it take no room."""
-        words, tags = TRAILING_TAGS.fullmatch(line[0]).groups()  # type: ignore[union-attr]
-        return self.centre(words.rstrip(" ")) + tags
+    def fits_centred(self, line: str) -> bool:
+        """Whether `line`, centred at its default width, stays in the window with its names at their widest."""
+        return 2 * self.width(line) <= self.line_width + self.default_width(line)
 
     def centre(self, line: str) -> str:
         return self.layout.centre(line)
@@ -154,13 +171,19 @@ def default_layout() -> DialogLayout:
     return DialogLayout(Table(str(TABLE)), dialog_font(), read_names(NAMES))
 
 
+def is_centred(text: ET.Element) -> bool:
+    """Whether the build centres `text`: shown without a window, unless set align="left", or set align="center"."""
+    return text.get("align", "center" if text.get("window") == "none" else "left") == "center"
+
+
 def script_overflows(layout: DialogLayout, dialogs: Path = DIALOGS) -> Iterator[Overflow]:
     """Lines still wider than the window once reflowed: kept lines (cards, choices) and words too long to break."""
     for path in sorted(dialogs.glob("*.xml")):
         for text in ET.parse(path).getroot():
             refs = " ".join(ref.text or "" for ref in text.iter("ref"))
             data = text.findtext("data") or ""
-            for line, width in layout.overflows(layout.reflow(data, keep_lines=data.endswith("[end1]"))):
+            laid_out = layout.reflow(data, keep_lines=data.endswith("[end1]"), centred=is_centred(text))
+            for line, width in layout.overflows(laid_out):
                 yield Overflow(path.stem, refs, line, width)
 
 

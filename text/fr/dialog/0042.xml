@@ -1,44 +1,44 @@
 <?xml version="1.0" standalone="yes"?>
 <texts base="0xc26" room_id="42">
-    <text>
+    <text window="none">
         <refs>
             <ref>0x141</ref>
         </refs>
-        <data>  -Empire de Granbelos-[end1]</data>
+        <data>-Empire de Granbelos-[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x17f</ref>
         </refs>
-        <data>  Peuple de l'Empire...
+        <data>Peuple de l'Empire...
  
-  Notre empereur Sauzer a défié
-  la légende des Dragons Sacrés
-  au péril de sa propre vie...[end]</data>
+Notre empereur Sauzer a défié
+la légende des Dragons Sacrés
+au péril de sa propre vie...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x1a2</ref>
         </refs>
-        <data>  ...Si la maladie l'a aujourd'hui terrassé,
-  nul ne doit pour autant s'en inquiéter...[end]</data>
+        <data>...Si la maladie l'a aujourd'hui terrassé,
+nul ne doit pour autant s'en inquiéter...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x1c5</ref>
         </refs>
-        <data>  Car l'empereur Sauzer a percé le secret
-  du coeur des Dragons Sacrés...[end]</data>
+        <data>Car l'empereur Sauzer a percé le secret
+du coeur des Dragons Sacrés...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x1e0</ref>
         </refs>
-        <data>  La Nouvelle Ère à laquelle aspirait
-  notre empereur...
+        <data>La Nouvelle Ère à laquelle aspirait
+notre empereur...
  
-  C'est nous, l'Empire de Granbelos,
-  qui en serons les maîtres...[end]</data>
+C'est nous, l'Empire de Granbelos,
+qui en serons les maîtres...[end]</data>
     </text>
     <text>
         <refs>
@@ -66,12 +66,12 @@ Tous les titres !! Tout le pouvoir !! Tout sera au grand Gudolf !![end]</data>
  
 Les blessures de l'amour,les tourments de la passion... un doux moment avec Donfan.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x4a8</ref>
         </refs>
-        <data>  Donfan, bourreau des coeurs :
-  [0xb3][0xb7] conquêtes !![end]</data>
+        <data>Donfan, bourreau des coeurs :
+[0xb3][0xb7] conquêtes !![end]</data>
     </text>
     <text>
         <refs>
@@ -81,12 +81,12 @@ Les blessures de l'amour,les tourments de la passion... un doux moment avec Donf
  
 Je vais t'offrir un rêve de princesse.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x5c3</ref>
         </refs>
-        <data>  Donfan, bourreau des coeurs :
-  [0xb5][0xb8] conquêtes !![end]</data>
+        <data>Donfan, bourreau des coeurs :
+[0xb5][0xb8] conquêtes !![end]</data>
     </text>
     <text>
         <refs>
@@ -132,19 +132,19 @@ Et tes mensurations ? Et ton adresse,tu me la donnes ?
  
 Euh... euh...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x6a9</ref>
         </refs>
-        <data>  Donfan, bourreau des coeurs :
-  [0xb0][0xaf][0xaf] conquêtes[0xd8][end]</data>
+        <data>Donfan, bourreau des coeurs :
+[0xb0][0xaf][0xaf] conquêtes[0xd8][end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x6b7</ref>
         </refs>
-        <data>  Le nom de Donfan retentit
-  dans tout l'Empire de Granbelos.[end]</data>
+        <data>Le nom de Donfan retentit
+dans tout l'Empire de Granbelos.[end]</data>
     </text>
     <text>
         <refs>
@@ -276,14 +276,14 @@ Elle s'appelle... Yoyo.[end]</data>
         </refs>
         <data>Taicho: Je préférerais ne pas vous revoir sur un champ de bataille... Adieu,affirmatif !![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x729</ref>
             <ref>0x27c</ref>
             <ref>0x3e9</ref>
             <ref>0x93f</ref>
         </refs>
-        <data>  -Château de Granbelos-[end]</data>
+        <data>-Château de Granbelos-[end]</data>
     </text>
     <text>
         <refs>
@@ -307,38 +307,38 @@ C'est toi qui remplaceras Sauzer !![end]</data>
         </refs>
         <data>Gudolf: Gufufufu... Hâtez les préparatifs !! Le peuple de l'Empire l'attend avec impatience !! Les funérailles de son malheureux empereur !![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xaf3</ref>
         </refs>
-        <data>  La mort d'un empereur...
+        <data>La mort d'un empereur...
  
-  La mort d'un homme...
+La mort d'un homme...
  
-  Rien de plus, rien de moins...[end]</data>
+Rien de plus, rien de moins...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xafd</ref>
         </refs>
-        <data>  L'Empire de Granbelos...
+        <data>L'Empire de Granbelos...
  
-  Ainsi commençait sa chute...[end]</data>
+Ainsi commençait sa chute...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x561</ref>
         </refs>
-        <data>  Général de Granbelos
-  Persona
-  Passe-temps : le ménage[end]</data>
+        <data>Général de Granbelos
+Persona
+Passe-temps : le ménage[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x646</ref>
         </refs>
-        <data>  Général de Granbelos
-  Arbain
-  Passe-temps : s'entraîner à l'épée[end]</data>
+        <data>Général de Granbelos
+Arbain
+Passe-temps : s'entraîner à l'épée[end]</data>
     </text>
 </texts>

@@ -64,97 +64,97 @@
  
 Nous allons... bientôt... décoller. La Porte... va s'ouvrir... Les Dragons Sacrés vont ouvrir la Porte... Tous ensemble... vers Altaïr... Byuu... prépare-toi,je t'en prie...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x135</ref>
         </refs>
         <data>Bahamut: Dragonnière... Yoyo...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x146</ref>
         </refs>
         <data>Yoyo: Dragonnière ? Je suis donc Dragonnière ?[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x154</ref>
         </refs>
         <data>Bahamut: En effet...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x158</ref>
         </refs>
         <data>Vritra... Léviathan... Garuda... Jormungand... Et Hypérion...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x15c</ref>
         </refs>
         <data>Leur colère... leur tristesse... tout cela est en toi...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x160</ref>
         </refs>
         <data>Et pourtant,jeune fille... tu n'as pas perdu... ton propre coeur...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x170</ref>
         </refs>
         <data>Yoyo: Je suis... Dragonnière...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x17f</ref>
         </refs>
         <data>Yoyo: Dites-moi,je vous prie... le vrai sens de la légende des Dragons Sacrés...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x18e</ref>
         </refs>
         <data>Bahamut: Qui connaît le coeur des Dragons Sacrés... ouvrira la Porte de la Nouvelle Ère...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x192</ref>
         </refs>
         <data>La Nouvelle Ère... c'est l'ère de notre résurrection,à nous,Dragons Sacrés...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x196</ref>
         </refs>
         <data>Nous mener jusqu'à cette ère... Dragonnière,telle est ta destinée...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x1a2</ref>
         </refs>
         <data>Yoyo: Une fois ressuscités... vous allez vous battre ?[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x1ab</ref>
         </refs>
         <data>Bahamut: La Nouvelle Ère... nous-mêmes ne la voyons pas... Celle qui nous y guidera... c'est toi...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x1b4</ref>
         </refs>
         <data>Yoyo: Mais... que dois-je faire ?[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x1c3</ref>
         </refs>
         <data>Bahamut: Unir nos coeurs... en un seul...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x1cf</ref>
         </refs>
@@ -162,7 +162,7 @@ Nous allons... bientôt... décoller. La Porte... va s'ouvrir... Les Dragons Sac
  
 Alors... la Porte... s'ouvrira entièrement... Dragonnière... en es-tu capable ?[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x1e1</ref>
         </refs>

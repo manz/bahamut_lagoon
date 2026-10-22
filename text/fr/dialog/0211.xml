@@ -212,7 +212,7 @@ On a cassé notre tirelire pour vous faire plaisir. Courage, Byuu !![end]</data>
         </refs>
         <data>Obtenu ``Crotte de dragon''.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xb5d</ref>
         </refs>
@@ -233,13 +233,13 @@ Celui qui mangera la crotte... ouvrira la porte des souvenirs du futur...[end]</
         </refs>
         <data>Tu es devenu un Père Dragon.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xc04</ref>
         </refs>
         <data>[character][0x0]...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xc2c</ref>
         </refs>
@@ -251,7 +251,7 @@ Byuu...
  
 Je vais te montrer... les souvenirs du futur...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xc61</ref>
         </refs>
@@ -263,7 +263,7 @@ Tous les lagons ont disparu...
  
 L'ère des humains prend fin...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xc67</ref>
         </refs>

@@ -1,123 +1,123 @@
 <?xml version="1.0" standalone="yes"?>
 <texts base="0x3dc" room_id="247">
-    <text>
+    <text window="none">
         <refs>
             <ref>0xa0</ref>
         </refs>
-        <data> La légende des Dragons Sacrés...
- Tout a commencé avec un homme
- qui a osé la défier...[end1]</data>
+        <data>La légende des Dragons Sacrés...
+Tout a commencé avec un homme
+qui a osé la défier...[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xc0</ref>
         </refs>
-        <data> La guerre, la trahison,
- la légende des Dragons Sacrés...[end1]</data>
+        <data>La guerre, la trahison,
+la légende des Dragons Sacrés...[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x106</ref>
         </refs>
-        <data> Et puis la Porte de la Nouvelle Ère
- s'est ouverte, si je me souviens
- bien...[end1]</data>
+        <data>Et puis la Porte de la Nouvelle Ère
+s'est ouverte, si je me souviens
+bien...[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x144</ref>
         </refs>
-        <data> ...C'est quoi, une nouvelle ère ?
- ...La liberté ?
- ...Ou bien la paix ?[end1]</data>
+        <data>...C'est quoi, une nouvelle ère ?
+...La liberté ?
+...Ou bien la paix ?[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x182</ref>
         </refs>
-        <data> Nous qui ne voyons pas demain,
- nous n'avons aucun moyen de
- le savoir... ...mais...[end1]</data>
+        <data>Nous qui ne voyons pas demain,
+nous n'avons aucun moyen de
+le savoir... ...mais...[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x1da</ref>
         </refs>
-        <data> ...mais...[end1]</data>
+        <data>...mais...[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x1fa</ref>
         </refs>
-        <data> Les rêves, il faut les trouver soi-même.
- L'espoir, il faut le saisir soi-même.
- Le bonheur ne vient pas tout seul.[end1]</data>
+        <data>Les rêves, il faut les trouver soi-même.
+L'espoir, il faut le saisir soi-même.
+Le bonheur ne vient pas tout seul.[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x23e</ref>
         </refs>
-        <data> Hé hé... Il ne faut pas pleurer
- juste parce qu'on a un peu
- faim, hein...[end1]</data>
+        <data>Hé hé... Il ne faut pas pleurer
+juste parce qu'on a un peu
+faim, hein...[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x25e</ref>
         </refs>
-        <data> ``Vivre'', en fait,
- c'est quelque chose
- de vraiment très difficile.[end1]</data>
+        <data>``Vivre'', en fait,
+c'est quelque chose
+de vraiment très difficile.[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x27e</ref>
         </refs>
-        <data> ...Ça, je crois que je l'ai
- compris, un tout petit peu...[end1]</data>
+        <data>...Ça, je crois que je l'ai
+compris, un tout petit peu...[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x2c3</ref>
         </refs>
-        <data> ...Ah oui, c'est vrai.[end1]</data>
+        <data>...Ah oui, c'est vrai.[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x2e3</ref>
         </refs>
-        <data> Le Dragon Sacré Bahamut refusa
- de rentrer à Altair et resta
- sur les terres d'Orelus...[end1]</data>
+        <data>Le Dragon Sacré Bahamut refusa
+de rentrer à Altair et resta
+sur les terres d'Orelus...[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x303</ref>
         </refs>
-        <data> Pour que la guerre ne revienne
- jamais sur Orelus...
- pour être notre dragon gardien...[end1]</data>
+        <data>Pour que la guerre ne revienne
+jamais sur Orelus...
+pour être notre dragon gardien...[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x341</ref>
         </refs>
-        <data> ...Depuis,
- combien de temps
- s'est-il écoulé...[end1]</data>
+        <data>...Depuis,
+combien de temps
+s'est-il écoulé...[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x37f</ref>
         </refs>
-        <data> ...Et peu à peu,
- on s'est mis à appeler
- ce monde ainsi...[end1]</data>
+        <data>...Et peu à peu,
+on s'est mis à appeler
+ce monde ainsi...[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x3c4</ref>
         </refs>
-        <data> -BAHAMUT LAGOON-[end1]</data>
+        <data>-BAHAMUT LAGOON-[end1]</data>
     </text>
 </texts>

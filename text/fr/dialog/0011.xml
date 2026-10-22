@@ -99,7 +99,7 @@ Et ensuite... et ensuite... ![end]</data>
         </refs>
         <data>Donfan: Ah... Bonjour... Ruki ! Quelle belle matinée, encore aujourd'hui. Pourquoi, je me le demande... Oui... ce doit être parce que tu brilles comme le soleil levant... enfin, je crois.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x371</ref>
         </refs>
@@ -157,48 +157,48 @@ Voyons, euh, comment dire... Que dirais-tu de Bikebake ? Ou de Byuu, là, à cô
         <data> J'en veux bien.
  Non merci.[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x54</ref>
         </refs>
-        <data>  Chapitre [0xb0][0xb0]
-  -Le Dragon Sacré Léviathan-[end]</data>
+        <data>Chapitre [0xb0][0xb0]
+-Le Dragon Sacré Léviathan-[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x9b</ref>
         </refs>
-        <data> Qui...[end1]</data>
+        <data>Qui...[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xa9</ref>
         </refs>
-        <data> Qui est là ?[end1]</data>
+        <data>Qui est là ?[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xba</ref>
         </refs>
-        <data> Un Dragon Sacré... ?![end1]</data>
+        <data>Un Dragon Sacré... ?![end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xc6</ref>
         </refs>
-        <data> Où suis-je...[end1]</data>
+        <data>Où suis-je...[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xd0</ref>
         </refs>
-        <data> De l'eau... ?[end1]</data>
+        <data>De l'eau... ?[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xd6</ref>
         </refs>
-        <data> Sous l'eau... ?![end1]</data>
+        <data>Sous l'eau... ?![end1]</data>
     </text>
     <text>
         <refs>
@@ -249,7 +249,7 @@ Voyons, euh, comment dire... Que dirais-tu de Bikebake ? Ou de Byuu, là, à cô
         </refs>
         <data>Donfan: Kof kof... Ah... tu m'as sauvé, merci ![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x314</ref>
         </refs>

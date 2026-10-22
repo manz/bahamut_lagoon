@@ -1,11 +1,11 @@
 <?xml version="1.0" standalone="yes"?>
 <texts base="0x1cc7" room_id="20">
-    <text>
+    <text window="none">
         <refs>
             <ref>0x91</ref>
         </refs>
-        <data>  Chapitre [0xb1]
-  -La légende dont nous rêvions-[end]</data>
+        <data>Chapitre [0xb1]
+-La légende dont nous rêvions-[end]</data>
     </text>
     <text>
         <refs>
@@ -20,13 +20,13 @@
         </refs>
         <data>... Pff... pff...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xe6a</ref>
         </refs>
         <data>Smack smack... !![end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xef1</ref>
             <ref>0xed2</ref>
@@ -519,13 +519,13 @@ Normalement, je me ferais gronder... mais vous voulez y jeter un petit coup d'oe
         </refs>
         <data>Zora: La pièce derrière, c'est la cabine du capitaine. Il y a une réunion en ce moment, défense d'entrer.[end]</data>
     </text>
-    <text>
+    <text align="center">
         <refs>
             <ref>0x19e7</ref>
         </refs>
-        <data>  Conseil de guerre en cours :
-  défense d'entrer !!
-  -Matelite-[end]</data>
+        <data>Conseil de guerre en cours :
+défense d'entrer !!
+-Matelite-[end]</data>
     </text>
     <text>
         <refs>
@@ -554,7 +554,7 @@ Va t'entraîner à l'``Organisation'' !![end]</data>
         <data>Taicho: !!!
 C'est moi qui explique... affirmatif ?[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x1313</ref>
         </refs>
@@ -600,7 +600,7 @@ Et voilà, l'escouade se déplace vite, affirmatif !![end]</data>
         </refs>
         <data>Avec trois Mages, le niveau de leur magie noire augmente, affirmatif !![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x146e</ref>
         </refs>
@@ -626,19 +626,19 @@ celle-ci...[end]</data>
         </refs>
         <data>Taicho: Byuu... l'``Organisation''... c'est c... clair, affirmatif ?[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x149d</ref>
         </refs>
         <data>Z... zut... J'ai mal expliqué... On recommence, affirmatif...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x14bc</ref>
         </refs>
         <data>Ou... ouf !! J'ai l'impression d'être devenu plus intelligent, moi aussi, affirmatif...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xc06</ref>
         </refs>
@@ -670,7 +670,7 @@ L'``Organisation'' et les ``dragons'', c'est indissociable, j'parie !![end]</dat
         </refs>
         <data>Père Dragon: Il faut chouchouter les dragons ! Je vais t'apprendre à t'en occuper !! Allez ! Allez !![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xbb5</ref>
         </refs>
@@ -679,13 +679,13 @@ La princesse Yoyo est en âge de se marier, à présent...
  
 Ne la déçois pas...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x1ec</ref>
         </refs>
         <data>Matelite: Devant tout le monde, ça me rend quand même nerveux... Allons, allons... comme à la répétition...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xbc2</ref>
         </refs>
@@ -795,18 +795,18 @@ Mais ça, il vaudrait peut-être mieux éviter.
         <data> Explique-moi !!
  Je connais, affirmatif !![end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x15f3</ref>
         </refs>
         <data>Ouf... Pour l'``Organisation'', il suffit d'utiliser ``Aptitude'', affirmatif...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x9a</ref>
         </refs>
-        <data>  Chapitre [0xb1][0xaf]
-  -Le ciel de la tristesse-[end]</data>
+        <data>Chapitre [0xb1][0xaf]
+-Le ciel de la tristesse-[end]</data>
     </text>
     <text>
         <refs>
@@ -886,15 +886,15 @@ Cette personne a le dos tout gluant de bave de dragon...[end]</data>
         </refs>
         <data>Frederica: Les deux à côté... ne se parlent même plus. Eux qui s'entendaient si bien... Tout le monde change... Le coeur... le corps... tout tombe malade...[end]</data>
     </text>
-    <text>
+    <text align="center">
         <refs>
             <ref>0x19ec</ref>
         </refs>
-        <data>  Le capitaine Sendak
-  doit garder un repos absolu.
+        <data>Le capitaine Sendak
+doit garder un repos absolu.
  
-  Défense d'entrer !!
-  -Zora-[end]</data>
+Défense d'entrer !!
+-Zora-[end]</data>
     </text>
     <text>
         <refs>
@@ -932,7 +932,7 @@ Hé hé hé...[end]</data>
  
 Matelite... m'a rétrogradé numéro 3, affirmatif...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xdff</ref>
         </refs>
@@ -944,7 +944,7 @@ Matelite... m'a rétrogradé numéro 3, affirmatif...[end]</data>
         </refs>
         <data>Hornet: Sauter, hein... Bon, comme tu veux.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xe09</ref>
         </refs>
@@ -968,7 +968,7 @@ Matelite... m'a rétrogradé numéro 3, affirmatif...[end]</data>
         </refs>
         <data>Palparos: Matelite a quelque chose à vous dire. Écoutez-le en silence, je vous prie.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x1fc</ref>
         </refs>
@@ -1073,7 +1073,7 @@ Ce sera un combat pour le monde d'Orelus tout entier !![end]</data>
         <data>Oh !!
 Le drapeau de l'Armée du salut d'Orelus !![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x18b9</ref>
         </refs>

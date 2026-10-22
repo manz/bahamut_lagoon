@@ -89,13 +89,13 @@ La nouvelle ère...
  
 m'appartiendront.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x2c8</ref>
         </refs>
         <data>...Palparos. Pardonne-moi...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x2e6</ref>
         </refs>
@@ -103,21 +103,21 @@ m'appartiendront.[end]</data>
  
 Quand j'aurai changé du tout au tout, Palparos... toi... l'Empire Granbelos...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x3ce</ref>
         </refs>
         <data> 
 Est-ce cet humain que nous choisissons ?[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x3ff</ref>
         </refs>
         <data> 
 Un humain digne qu'on lui confie la porte de l'ère...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x42e</ref>
         </refs>
@@ -139,7 +139,7 @@ Nos coeurs égarés...
  
 Pourquoi... me choisissez-vous ?[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x514</ref>
         </refs>
@@ -150,7 +150,7 @@ Mais... tu le sais.
  
 Tu sais combien ces titres sont vains...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x549</ref>
         </refs>
@@ -160,7 +160,7 @@ Tu sais combien ces titres sont vains...[end]</data>
  
 Tu sais la douleur de combattre...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x578</ref>
         </refs>
@@ -171,31 +171,31 @@ Ni nous, les monstres...
  
 La Porte de la Nouvelle Ère... Connais le coeur des Dragons Sacrés, et ouvre-la...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x624</ref>
         </refs>
         <data>Sauzer: Monstres...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x634</ref>
         </refs>
         <data>...Cela commence.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x6b4</ref>
         </refs>
         <data>...................[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x6e3</ref>
         </refs>
         <data>Le coeur des Dragons Sacrés... C... c'est donc cela, la pensée des Dragons Sacrés...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x70d</ref>
         </refs>

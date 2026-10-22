@@ -1,11 +1,11 @@
 <?xml version="1.0" standalone="yes"?>
 <texts base="0xc37" room_id="45">
-    <text>
+    <text window="none">
         <refs>
             <ref>0xa5</ref>
         </refs>
-        <data>  Dafira,
-  la terre du désert[end1]</data>
+        <data>Dafira,
+la terre du désert[end1]</data>
     </text>
     <text>
         <refs>
@@ -201,11 +201,11 @@ Mais moi,je crois comprendre. Ton coeur s'est asséché comme ce désert... Mais
  
 C'est-à-dire,euh,euh... c'est un certain Byuu qui tient la bourse. On met ça sur sa note ?[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x9b0</ref>
         </refs>
-        <data>  Faites place à Sa Majesté !![end]</data>
+        <data>Faites place à Sa Majesté !![end]</data>
     </text>
     <text>
         <refs>
@@ -213,7 +213,7 @@ C'est-à-dire,euh,euh... c'est un certain Byuu qui tient la bourse. On met ça s
         </refs>
         <data>Marchand: Ah... à peine mariés... et ma femme m'a déjà fait ceci,et puis cela...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x5d1</ref>
             <ref>0x83b</ref>
@@ -236,13 +236,13 @@ C'est-à-dire,euh,euh... c'est un certain Byuu qui tient la bourse. On met ça s
  
 Ah... !! Mais d'abord,le Roi !![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xacb</ref>
         </refs>
         <data>Zeroshin: Maman... ce travail aussi devrait bien se terminer...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xadc</ref>
         </refs>
@@ -274,36 +274,36 @@ Dès à présent,Dafira devient un pays libre !! Une nouvelle ère commence !![e
         </refs>
         <data>Nous... Nous... Nous partons en exil... Peuple bien-aimé,portez-vous bien...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x94d</ref>
         </refs>
-        <data>  La nuit du désert s'étirait, insondable...
-  et le banquet se poursuivait sans fin...[end]</data>
+        <data>La nuit du désert s'étirait, insondable...
+et le banquet se poursuivait sans fin...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x953</ref>
         </refs>
-        <data>  Rush devint un homme !![end]</data>
+        <data>Rush devint un homme !![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x959</ref>
         </refs>
-        <data>  Truth devint un homme !![end]</data>
+        <data>Truth devint un homme !![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x95f</ref>
         </refs>
-        <data>  Bikebake, lui, l'était déjà !![end]</data>
+        <data>Bikebake, lui, l'était déjà !![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x965</ref>
         </refs>
-        <data>  Et Byuu...[end]</data>
+        <data>Et Byuu...[end]</data>
     </text>
     <text>
         <refs>

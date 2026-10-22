@@ -36,7 +36,7 @@ Attends un peuuu ![0xfc][0x10][end1]</data>
         </refs>
         <data>Yoyo: Byuu... Vite, par ici ![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x2aa</ref>
         </refs>
@@ -71,7 +71,7 @@ Je m'accroche bien fort à toi.[end]</data>
  
 Trop tard... je te tiens déjà...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x3c7</ref>
         </refs>
@@ -218,19 +218,19 @@ Mon dragon nous attend dehors.[end]</data>
         </refs>
         <data>Palparos: Là où vous le souhaiterez...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x6d3</ref>
         </refs>
         <data>Palparos: Face aux dragons de guerre de Kana, il ne fait sans doute pas le poids.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x6d9</ref>
         </refs>
         <data>Yoyo: Mais non... Il est bien plus rapide que Salamand !![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x6e9</ref>
         </refs>
@@ -242,7 +242,7 @@ Mon dragon nous attend dehors.[end]</data>
         </refs>
         <data>Palparos: Princesse Yoyo... inutile de vous agripper si fort...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x750</ref>
         </refs>

@@ -53,19 +53,19 @@ Notre promesse secrète d'aujourd'hui, pas un mot aux autres, hein...[end]</data
         </refs>
         <data>Sendak: Ne regarde pas...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xe1</ref>
         </refs>
         <data>(À mon âge... quelle honte... Faisons diversion en riant...)[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x114</ref>
         </refs>
         <data>(Quel bonheur... !! Je suis un papy comblé...)[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x133</ref>
         </refs>

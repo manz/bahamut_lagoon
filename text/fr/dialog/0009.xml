@@ -1,25 +1,25 @@
 <?xml version="1.0" standalone="yes"?>
 <texts base="0xd22" room_id="9">
-    <text>
+    <text window="none">
         <refs>
             <ref>0x47</ref>
         </refs>
-        <data>  Chapitre [0xb8]
-  -Mahal, le continent des miracles-[end]</data>
+        <data>Chapitre [0xb8]
+-Mahal, le continent des miracles-[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x85</ref>
         </refs>
         <data>Me voilà enfin de retour à Mahal... Tout le monde va bien ?[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x8f</ref>
         </refs>
         <data>Je ne pourrai jamais l'oublier... ce jour maudit...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x9b</ref>
         </refs>
@@ -297,31 +297,31 @@ Mais même si nous perdons aujourd'hui... je crois qu'un jour... viendra le jour
         </refs>
         <data>Céline: Kyaaaaaah ![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x5ce</ref>
         </refs>
         <data>Je... Je n'ai pas pu protéger...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x5d5</ref>
         </refs>
         <data>Ma terre natale, Mahal... Le palais de Mahal... Mes précieux hommes...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x5dc</ref>
         </refs>
         <data>Et ma femme bien-aimée...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x5e0</ref>
         </refs>
         <data>Je n'ai pas pu les protéger...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x5eb</ref>
         </refs>
@@ -396,50 +396,50 @@ tu la perdais... ce serait la chose la plus... douloureuse au monde...[end]</dat
  
 toi aussi, Byuu... tu deviendrais peut-être une loque, comme moi...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x6f8</ref>
         </refs>
         <data>Truth: Voici la carte de tout Mahal.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x742</ref>
         </refs>
         <data>Nous avons découvert ici une grande écluse, aujourd'hui inutilisée.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x767</ref>
         </refs>
         <data>Nous allons donc attirer l'ennemi en aval de l'écluse...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x787</ref>
         </refs>
         <data>Puis nous ouvrirons l'écluse, et la force des eaux balaiera l'ennemi ![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xacd</ref>
         </refs>
-        <data>  Chapitre [0xb0][0xb2]
-  -Godland, la cité de la magie-[end]</data>
+        <data>Chapitre [0xb0][0xb2]
+-Godland, la cité de la magie-[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xad1</ref>
         </refs>
-        <data>  Godland, la cité de la magie...[end]</data>
+        <data>Godland, la cité de la magie...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xad5</ref>
         </refs>
-        <data>  Un lagon dont la culture magique raffinée
-  lui avait valu, de l'Empire même,
-  le droit de se gouverner seul...[end]</data>
+        <data>Un lagon dont la culture magique raffinée
+lui avait valu, de l'Empire même,
+le droit de se gouverner seul...[end]</data>
     </text>
     <text>
         <refs>

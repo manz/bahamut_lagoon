@@ -1,54 +1,54 @@
 <?xml version="1.0" standalone="yes"?>
 <texts base="0x1537" room_id="18">
-    <text>
+    <text window="none">
         <refs>
             <ref>0xe7</ref>
         </refs>
         <data>Léviathan: Où sommes-nous... ?[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x102</ref>
         </refs>
         <data>Garuda: Que se passe-t-il donc... ?[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x11d</ref>
         </refs>
         <data>Vritra: S'est-elle ouverte... ? La Porte de la Nouvelle Ère...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x138</ref>
         </refs>
         <data>Jormungand: Impossible d'avancer... au-delà...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x153</ref>
         </refs>
         <data>Garuda: Ne vois-tu pas... ce qu'il y a derrière la porte... Notre...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x16c</ref>
         </refs>
         <data>Léviathan: Cet ennemi... ? Que se passe-t-il...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x187</ref>
         </refs>
         <data>Jormungand: ... Bahamut... Encore lui...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x1a2</ref>
         </refs>
         <data>Vritra: Pourquoi... Si cela continue...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x20a</ref>
         </refs>
@@ -58,12 +58,12 @@ Est-ce ma faute ?
  
 Parce que je n'arrive pas à devenir Dragonnière... Parce que mon coeur est faible...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x2b1</ref>
         </refs>
-        <data>  Chapitre [0xb0][0xb7]
-  -La Terre promise-[end]</data>
+        <data>Chapitre [0xb0][0xb7]
+-La Terre promise-[end]</data>
     </text>
     <text>
         <refs>
@@ -126,16 +126,16 @@ Mais je n'ai plus d'autre choix... Tant pis...[end]</data>
         </refs>
         <data>Melody: On est mis à l'écart. Il est méchant, Matelite !! Mais je m'en fiche !! J'ai Byuu et Hornet avec moi !![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xf30</ref>
         </refs>
-        <data>  Si l'on tend l'oreille...
+        <data>Si l'on tend l'oreille...
  
-  on entend résonner
-  le grand rire de Matelite...
+on entend résonner
+le grand rire de Matelite...
  
-  Gwahahahaha...[end]</data>
+Gwahahahaha...[end]</data>
     </text>
     <text>
         <refs>
@@ -223,7 +223,7 @@ Non, qui ont essayé de l'ouvrir...[end]</data>
  
 Et c'est... à cause de moi...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x41d</ref>
         </refs>
@@ -239,7 +239,7 @@ Celui dont le coeur est faible... fera tomber du ciel le malheur...[end]</data>
  
 Allez !! Taicho !! Préparons-nous au combat !![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x44e</ref>
         </refs>
@@ -599,11 +599,11 @@ il risquerait... de se dissoudre dans le ciel.[end]</data>
         </refs>
         <data>Je vais y aller... Matelite m'attend sur le pont.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x11ff</ref>
         </refs>
-        <data>   -Rapport de reconnaissance aérienne-
+        <data>-Rapport de reconnaissance aérienne-
  
 Il apparaît que des monstres d'un autre monde, sortis de la faille du ciel, sèment le chaos près de l'Église des Souvenirs de Kana. Actuellement, l'armée impériale de Granbelos serait entrée en combat pour protéger l'Église des Souvenirs.
 Par ailleurs, le matelot qui a rédigé ce rapport est porté disparu.[end]</data>

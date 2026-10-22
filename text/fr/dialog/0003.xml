@@ -1,11 +1,11 @@
 <?xml version="1.0" standalone="yes"?>
 <texts base="0x604" room_id="3">
-    <text>
+    <text window="none">
         <refs>
             <ref>0x2d</ref>
         </refs>
-        <data>  Chapitre [0xb2]
-  -Campbell, le continent verdoyant-[end]</data>
+        <data>Chapitre [0xb2]
+-Campbell, le continent verdoyant-[end]</data>
     </text>
     <text>
         <refs>
@@ -58,7 +58,7 @@
         </refs>
         <data>Sendak: Allez, par ici, par ici ![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x4df</ref>
         </refs>

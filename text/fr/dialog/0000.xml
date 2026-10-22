@@ -7,12 +7,12 @@
         <data>  Oui
   Non[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x7e</ref>
         </refs>
-        <data>  Prologue
-  -La Chute de Kana-[end]</data>
+        <data>Prologue
+-La Chute de Kana-[end]</data>
     </text>
     <text>
         <refs>
@@ -22,12 +22,12 @@
  
 Kana, mon royaume... est-il condamné à disparaître ?[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x160</ref>
         </refs>
-        <data>  L'Escadron Dragon de Kana
-  La forteresse des cieux[end1]</data>
+        <data>L'Escadron Dragon de Kana
+La forteresse des cieux[end1]</data>
     </text>
     <text>
         <refs>
@@ -41,13 +41,13 @@ Kana, mon royaume... est-il condamné à disparaître ?[end]</data>
         </refs>
         <data>Truth: Capitaine ! Donnez le signal de l'attaque ![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x1ae</ref>
         </refs>
-        <data>  Amoureux des dragons,
-  capitaine de l'Escadron Dragon de Kana
-  Croisé[end]</data>
+        <data>Amoureux des dragons,
+capitaine de l'Escadron Dragon de Kana
+Croisé[end]</data>
     </text>
     <text>
         <refs>
@@ -171,13 +171,13 @@ Capitaine Byuu, montez sur votre dragon.[end]</data>
         </refs>
         <data>Roi de Kana: Ma fille... Sens-tu la présence de Bahamut ?[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x571</ref>
         </refs>
-        <data>  Elle converse avec les Dragons Sacrés
-  et a le pouvoir de devenir Dragonnière
-  Princesse de Kana[end]</data>
+        <data>Elle converse avec les Dragons Sacrés
+et a le pouvoir de devenir Dragonnière
+Princesse de Kana[end]</data>
     </text>
     <text>
         <refs>

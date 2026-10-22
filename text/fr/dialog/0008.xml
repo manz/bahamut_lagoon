@@ -1,11 +1,11 @@
 <?xml version="1.0" standalone="yes"?>
 <texts base="0xfc8" room_id="8">
-    <text>
+    <text window="none">
         <refs>
             <ref>0xac</ref>
         </refs>
-        <data>  Chapitre [0xb7]
-  -Combat aérien de dragons-[end]</data>
+        <data>Chapitre [0xb7]
+-Combat aérien de dragons-[end]</data>
     </text>
     <text>
         <refs>
@@ -22,14 +22,14 @@
  Monter
  Pas encore prêt[end1]</data>
     </text>
-    <text>
+    <text align="center">
         <refs>
             <ref>0xd18</ref>
             <ref>0x17a</ref>
             <ref>0x11d</ref>
         </refs>
-        <data>  Ainsi s'écoulèrent quelques heures...
-  Combien, au juste ?[end]</data>
+        <data>Ainsi s'écoulèrent quelques heures...
+Combien, au juste ?[end]</data>
     </text>
     <text>
         <refs>

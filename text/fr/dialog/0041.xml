@@ -132,7 +132,7 @@
         </refs>
         <data>Princesse Yoyo !![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x30e</ref>
         </refs>
@@ -144,7 +144,7 @@
         </refs>
         <data>Yoyo: Moi... je pourrais guérir vos blessures... ?[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x331</ref>
         </refs>

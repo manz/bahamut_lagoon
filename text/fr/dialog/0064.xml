@@ -79,7 +79,7 @@ Je suis ravie de vous rencontrer. Quelqu'un que je connais m'a dit que vous l'ai
         </refs>
         <data>Sendak: Les longs radotages, ça ennuie tout le monde, hein...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x226</ref>
         </refs>
