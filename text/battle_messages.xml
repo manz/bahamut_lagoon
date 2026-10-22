@@ -15,7 +15,7 @@
     <string address="0xc0ed9d" jp="タ-ンはい" refs="0xc0a0e1" count="0xc0a0e4" kind="prefix"> Tour </string>
     <string address="0xc0edbd" jp="バトルをしますか?" refs="0xc02c69" count="0xc02c6c">Commencer la bataille ?</string>
     <string address="0xc0edef" jp="はレベルアップ." refs="0xc0a75b"> passe un niveau !</string>
-    <string address="0xc0eebe" jp="ここにいるとおぼれます.(3)" refs="0xc08fe8" count="0xc08feb" digit="0xc08ff1">Rester ici = noyade (#)</string>
+    <string address="0xc0eebe" jp="ここにいるとおぼれます.(3)" refs="0xc08fe8" count="0xc08feb" digit="0xc08ff1">Ici, noyade dans (#) tours</string>
     <string address="0xc0eece" jp="おぼれました." refs="0xc08fd6" count="0xc08fd9">L'unité s'est noyée.</string>
     <string address="0xc0eee4" jp="ゲ-ムをセ-ブしますか?" refs="0xc036d4" count="0xc036d7">Sauvegarder la partie ?</string>
     <string address="0xc0eef1" jp="テンポラリ-にセ-ブしました." refs="0xc036fe" count="0xc03701">Sauvegarde rapide effectuée.</string>
