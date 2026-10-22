@@ -257,14 +257,14 @@ Qui êtes-vous ?[end]</data>
         <refs>
             <ref>0x539</ref>
         </refs>
-        <data>Je suis Valitra,
+        <data>Je suis Vritra,
 je suis un Dragon Sacré.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x548</ref>
         </refs>
-        <data>[character][0x1]: Valitra,le Dragon Sacré ?[end]</data>
+        <data>[character][0x1]: Vritra,le Dragon Sacré ?[end]</data>
     </text>
     <text>
         <refs>

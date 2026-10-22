@@ -1168,7 +1168,7 @@ Elle se trouve à...[end]</data>
         </refs>
         <data>Palparos: [character][0x0]...
  
-Si tu rencontres le Général Gudruff,
+Si tu rencontres le Général Gudolf,
 ne reviens à Fareneit que si tu l'as
 tué.
 Je t'en prie...[end]</data>
@@ -1517,7 +1517,7 @@ Nous voilà Granbelos ![end]</data>
         <refs>
             <ref>0x3cb</ref>
         </refs>
-        <data>Palparos: Gudruff...
+        <data>Palparos: Gudolf...
 Ta fin est proche...[end]</data>
     </text>
     <text>
@@ -1698,7 +1698,7 @@ demain sera fait ![end]</data>
         <refs>
             <ref>0xca6</ref>
         </refs>
-        <data>Rush: Taurus est toujours en train de
+        <data>Rush: Truth est toujours en train de
 penser !
 Qu'allons-nous bien pouvoir combattre ?
 Je n'arrête pas de penser à ça.[end]</data>

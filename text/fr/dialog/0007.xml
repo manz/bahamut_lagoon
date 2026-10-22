@@ -212,7 +212,7 @@ Merci d'avoir dit la vérité ![end]</data>
         <data>Hornet: Le bateau s'approche de plus en plus
 du Lagon Campbell.
 Dès que tu es prêt,va parler au
-Docteur Dragon pour aller combattre.[end]</data>
+Père Dragon pour aller combattre.[end]</data>
     </text>
     <text>
         <refs>
@@ -227,7 +227,7 @@ notre avantage avec la Légende.[end]</data>
         <refs>
             <ref>0x1e5</ref>
         </refs>
-        <data>Sendak: Le cri de Valitra ressemble à celui de
+        <data>Sendak: Le cri de Vritra ressemble à celui de
 quelqu'un qui se fait tuer.
 Sache aussi que lorsque je suis proche
 de la Princesse,je peux aussi utiliser
@@ -336,7 +336,7 @@ qui se passe ici ![end]</data>
             <ref>0x3b2</ref>
         </refs>
         <data>Le Dragon Sacré en moi...
-Valitra...[end]</data>
+Vritra...[end]</data>
     </text>
     <text>
         <refs>
@@ -357,7 +357,7 @@ Tends-moi... la main...[end]</data>
             <ref>0x4ed</ref>
         </refs>
         <data>Manyo: manyo !
-``mélodia est venue !''[end]</data>
+``Melody est venue !''[end]</data>
     </text>
     <text>
         <refs>
@@ -388,7 +388,7 @@ Allez [character][0x0]![end]</data>
             <ref>0x517</ref>
         </refs>
         <data>Tout va bien !
-Mélodia a prévenu tout le monde ![end]</data>
+Melody a prévenu tout le monde ![end]</data>
     </text>
     <text>
         <refs>

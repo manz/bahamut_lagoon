@@ -141,7 +141,7 @@ Souriez ![end]</data>
         <refs>
             <ref>0x577</ref>
         </refs>
-        <data>Hornet: Mélodia,va dans ta chambre ![end]</data>
+        <data>Hornet: Melody,va dans ta chambre ![end]</data>
     </text>
     <text>
         <refs>
@@ -436,7 +436,7 @@ puisse faire est de vous écouter ![end]</data>
             <ref>0xf66</ref>
         </refs>
         <data>[character][0x1]: J'ai entendu parler le Dragon Sacré...
-Oui,le Dragon Sacré Valitra ![end]</data>
+Oui,le Dragon Sacré Vritra ![end]</data>
     </text>
     <text>
         <refs>
@@ -449,7 +449,7 @@ Le Dragon Sacré ![end]</data>
         <refs>
             <ref>0xf7e</ref>
         </refs>
-        <data>[character][0x1]: Oui,le Dragon Sacré Valitra m'a
+        <data>[character][0x1]: Oui,le Dragon Sacré Vritra m'a
 prévenue...[end]</data>
     </text>
     <text>
@@ -498,7 +498,7 @@ Cet extraordinaire pouvoir ![end]</data>
         </refs>
         <data>Matelite: Les Dragons Sacrés sont maintenant à
 nos côtés !
-Valitra nous aidera peut-être à vaincre
+Vritra nous aidera peut-être à vaincre
 l'Empereur Sauzer !
  
 Granbelos n'est maintenant plus qu'un
@@ -532,7 +532,7 @@ J'ai bien peur que ce ne soit pas un
 rêve !
  
 Vous avez réellement parlé au Dragon
-Sacré Valitra ![end]</data>
+Sacré Vritra ![end]</data>
     </text>
     <text>
         <refs>
@@ -550,7 +550,7 @@ parlé de cela...[end]</data>
         </refs>
         <data>[character][0x1]: Par conséquent...
  
-J'ai vraiment parlé à Valitra...
+J'ai vraiment parlé à Vritra...
 Peut-être que je ne suis pas
 entièrement réveillée...[end]</data>
     </text>
@@ -793,7 +793,7 @@ devenir une Dragoon...[end]</data>
         <refs>
             <ref>0x98e</ref>
         </refs>
-        <data>Le Dragon Sacré Valitra m'a parlé...[end]</data>
+        <data>Le Dragon Sacré Vritra m'a parlé...[end]</data>
     </text>
     <text>
         <refs>

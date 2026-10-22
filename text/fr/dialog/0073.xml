@@ -15,7 +15,7 @@
         <refs>
             <ref>0x2e6</ref>
         </refs>
-        <data>Docteur Dragon: Je vais t'apprendre les meilleures
+        <data>Père Dragon: Je vais t'apprendre les meilleures
 méthodes pour t'occuper de tes
 dragons.[end]</data>
     </text>
@@ -211,7 +211,7 @@ Ainsi,ils seront heureux ![end]</data>
         <refs>
             <ref>0x5d3</ref>
         </refs>
-        <data>Sache que le Docteur Dragon fait partie
+        <data>Sache que le Père Dragon fait partie
 de la légende des dragons.
 Laquelle ?
 Hahaha ! Qui sait ?![end]</data>
@@ -236,13 +236,13 @@ Chose peu commune aux dragons ![end]</data>
         <refs>
             <ref>0x8e7</ref>
         </refs>
-        <data>Docteur Dragon: Tu veux déjà partir ?[end]</data>
+        <data>Père Dragon: Tu veux déjà partir ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x659</ref>
         </refs>
-        <data>Docteur Dragon: Est-ce que tu veux rentrer ?[end]</data>
+        <data>Père Dragon: Est-ce que tu veux rentrer ?[end]</data>
     </text>
     <text>
         <refs>
@@ -275,7 +275,7 @@ Tu as du mal à suivre ![end]</data>
         <refs>
             <ref>0x327</ref>
         </refs>
-        <data>Docteur Dragon: D'accord,j'espère que tu sais déjà
+        <data>Père Dragon: D'accord,j'espère que tu sais déjà
 de nombreuses choses !
 Ne va pas faire de mauvais choix pour
 tes dragons !

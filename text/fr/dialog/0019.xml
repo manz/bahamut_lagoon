@@ -64,7 +64,7 @@ malheureusement immuables.
 J'ai rejoint les Rebelles pour une
 seule raison...
 Mon épouse Céline !
-J'ai vaincu Restatto pour libérer Mahal
+J'ai vaincu Lestat pour libérer Mahal
 mais c'était avant tout pour elle ![end]</data>
     </text>
     <text>
@@ -257,7 +257,7 @@ Aller combattre ensemble ?[end]</data>
         <refs>
             <ref>0x985</ref>
         </refs>
-        <data>Docteur Dragon: La Restauration de Kana !
+        <data>Père Dragon: La Restauration de Kana !
 Merci beaucoup,beaucoup !
 Au fait,sais-tu comment l'on conçoit
 les enfants ?[end]</data>
@@ -337,7 +337,7 @@ savais tant que ça sur les enfants ?[end]</data>
         <refs>
             <ref>0xa4f</ref>
         </refs>
-        <data>Docteur Dragon: Ainsi les rumeurs des matelots étaient
+        <data>Père Dragon: Ainsi les rumeurs des matelots étaient
 sûrement fondées.
 ``Hahahahaha,il n'y connaît rien !''[end]</data>
     </text>
@@ -345,7 +345,7 @@ sûrement fondées.
         <refs>
             <ref>0xa47</ref>
         </refs>
-        <data>Docteur Dragon: ``Hornet a gagné le pari !''[end]</data>
+        <data>Père Dragon: ``Hornet a gagné le pari !''[end]</data>
     </text>
     <text>
         <refs>
@@ -756,7 +756,7 @@ Sendak est inconscient ![end]</data>
         <refs>
             <ref>0x8ee</ref>
         </refs>
-        <data>Docteur Dragon: C'est terrible !
+        <data>Père Dragon: C'est terrible !
  
 Fareneit est en ce moment au-dessus
 de l'Empire ![end]</data>

@@ -76,7 +76,7 @@
         <refs>
             <ref>0x11</ref>
         </refs>
-        <data>Fin du tour[0xff]</data>
+        <data>Fin de phase[0xff]</data>
     </string>
     <string>
         <refs>

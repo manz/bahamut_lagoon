@@ -67,7 +67,7 @@ est-ce que tu aimes [character][0x1]?
         <data>...
 ...
 ...
-Mélodia aime beaucoup tout ce qu'aime
+Melody aime beaucoup tout ce qu'aime
 [character][0x0]...[end]</data>
     </text>
     <text>
@@ -147,7 +147,7 @@ Durant une bataille,regarde toujours
 la force que tu as gagnée.
  
 Seul l'argent compte pour les guerriers
-lents comme Bareck.
+lents comme Barclay.
 Ils ne sont satisfaits que par ça.[end]</data>
     </text>
     <text>
@@ -176,7 +176,7 @@ Une prêtresse ne ferait jamais ça ![end]</data>
         </refs>
         <data>Anastasia: Te souviens-tu de la nuit de la
 Restauration de Kana ?
-Bareck et Frederica se sont disputés !
+Barclay et Frederica se sont disputés !
 Il fallait s'en douter !
  
 Je suis restée sur ma faim lorsqu'ils
@@ -187,7 +187,7 @@ Armure Lourde et une Sorcière.[end]</data>
         <refs>
             <ref>0x415</ref>
         </refs>
-        <data>Anastasia: Bareck a dit quelque chose ?
+        <data>Anastasia: Barclay a dit quelque chose ?
  
  Félicitations !
  Rien de particulier...[end1]</data>
@@ -284,7 +284,7 @@ C'est génial,n'est-ce pas ?![end]</data>
         <refs>
             <ref>0x65d</ref>
         </refs>
-        <data>Joy: Moi et Nelbo sommes prêtes à être
+        <data>Joy: Moi et Nerbo sommes prêtes à être
 envoyées au combat dès qu'il sera
 temps ![end]</data>
     </text>
@@ -310,7 +310,7 @@ Je crois qu'il sera subjugué par la
 beauté de la nature.
 J'en suis certaine !
 Cependant,je ne dois pas oublier mon
-amie Nelbo.[end]</data>
+amie Nerbo.[end]</data>
     </text>
     <text>
         <refs>
@@ -325,7 +325,7 @@ Je suis Donfan,le Méritant ![end]</data>
             <ref>0x54f</ref>
         </refs>
         <data>Melody: Ah [character][0x0]!
-Tu sais qui aime Mélodia ?
+Tu sais qui aime Melody ?
  Tu vas encore mentir !
  Je le sais...[end1]</data>
     </text>
@@ -606,7 +606,7 @@ C'est une chose importante !
         <refs>
             <ref>0x729</ref>
         </refs>
-        <data>Mélodia a de nombreux slips dragons.
+        <data>Melody a de nombreux slips dragons.
 Et elle les a perdus !
 Ou du moins,le croyait-elle !
 J'ai découvert qu'ils étaient TOUS
@@ -656,9 +656,9 @@ leur Attaque,leur pouvoir de Poison,
 leur pouvoir de Soin,et aussi ceux de
 Feu,d'Eau,et de Foudre !
 C'est ce qui conviendrait parfaitement
-à Bareck !
+à Barclay !
 Les sorcières peuvent aussi augmenter
-leur pouvoir magique tandis que Bareck
+leur pouvoir magique tandis que Barclay
 et les autres n'augmentent qu'en
 force !
 De toute manière,des types comme lui

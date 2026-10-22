@@ -7,7 +7,7 @@
         <data>Melody: Ouhahaha !
  
 Ça faisait si longtemps que je n'avais
-pas revu Godrand ![end]</data>
+pas revu Godland ![end]</data>
     </text>
     <text>
         <refs>
@@ -19,7 +19,7 @@ pas revu Godrand ![end]</data>
         <refs>
             <ref>0x119</ref>
         </refs>
-        <data>Ruki: Au fait,Mélodia,pourquoi avais-tu
+        <data>Ruki: Au fait,Melody,pourquoi avais-tu
 quitté cette ville ?[end]</data>
     </text>
     <text>
@@ -36,7 +36,7 @@ les Petits Démons s'étaient enfuis.[end]</data>
         <data>Matelite: Mais...
 Je ne comprends rien...
 Nous combattons pour Campbell et
-maintenant pour Godrand !
+maintenant pour Godland !
  
 Nous les libérons du joug de l'Empire
 et comme à Campbell,ils ont l'air très
@@ -124,7 +124,7 @@ Fareneit.[end]</data>
         <refs>
             <ref>0x6dd</ref>
         </refs>
-        <data>Mélodia est enfin revenue.
+        <data>Melody est enfin revenue.
 Il y a tellement longtemps.[end]</data>
     </text>
     <text>
@@ -140,13 +140,13 @@ Tu vas encore rester ici ?[end][end]</data>
         <refs>
             <ref>0x6e6</ref>
         </refs>
-        <data>Godrand est la Ville de la Magie.
+        <data>Godland est la Ville de la Magie.
 Il y a de nombreuses vieilles histoires
 sur elle.
 Beaucoup de sorciers et de prêtresses
 sont morts en combattant l'Empire.
  
-Tout cela cessa lorsque Godrand fut
+Tout cela cessa lorsque Godland fut
 plus ou moins autonome.[end]</data>
     </text>
     <text>
@@ -176,7 +176,7 @@ C'est le principal ![end][end]</data>
             <ref>0x70b</ref>
         </refs>
         <data>Aaah,enfin,je peux revoir le paysage.
-Bienvenue à Godrand ![end]</data>
+Bienvenue à Godland ![end]</data>
     </text>
     <text>
         <refs>
@@ -232,7 +232,7 @@ rencontrés,auparavant ?[end]</data>
         <refs>
             <ref>0x5bc</ref>
         </refs>
-        <data>[character][0x1]: Mélodia est à l'intérieur.
+        <data>[character][0x1]: Melody est à l'intérieur.
  
 D'après ce que j'entends,tout le
 monde a l'air d'être très heureux
@@ -286,7 +286,7 @@ de nouveauté ![end]</data>
         <refs>
             <ref>0x62c</ref>
         </refs>
-        <data>Vas-y,Mélodia,continue...[end]</data>
+        <data>Vas-y,Melody,continue...[end]</data>
     </text>
     <text>
         <refs>
@@ -363,7 +363,7 @@ Elle va venir à Fareneit.[end]</data>
         <refs>
             <ref>0x5f3</ref>
         </refs>
-        <data>[character][0x1]: Le Dragon Sacré de Godrand...
+        <data>[character][0x1]: Le Dragon Sacré de Godland...
 Nous allons aller le trouver ![end]</data>
     </text>
     <text>
@@ -411,7 +411,7 @@ Prépare-toi bien ![end]</data>
         <refs>
             <ref>0x157</ref>
         </refs>
-        <data>[character][0x1]: Attends Mélodia ![end]</data>
+        <data>[character][0x1]: Attends Melody ![end]</data>
     </text>
     <text>
         <refs>

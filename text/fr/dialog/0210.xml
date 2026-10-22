@@ -112,13 +112,13 @@ Regardez,je vous en prie...[end]</data>
         <refs>
             <ref>0x5ec</ref>
         </refs>
-        <data>Docteur Dragon: Tu as une réunion ![end]</data>
+        <data>Père Dragon: Tu as une réunion ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5f3</ref>
         </refs>
-        <data>Docteur Dragon: Les Dragons t'attendent !
+        <data>Père Dragon: Les Dragons t'attendent !
 Hahaha ! Par ici ![end]</data>
     </text>
     <text>
@@ -166,7 +166,7 @@ Nous sommes respectables ![end]</data>
         <refs>
             <ref>0x5dc</ref>
         </refs>
-        <data>Docteur Dragon: Veux-tu sortir ?
+        <data>Père Dragon: Veux-tu sortir ?
  
 [character][0x4] est très heureux car nous
 avons vu beaucoup d'éclairs ![end]</data>
@@ -239,7 +239,7 @@ Tout le monde l'a vu ![end]</data>
         <refs>
             <ref>0x5ce</ref>
         </refs>
-        <data>Docteur Dragon: Les dragons sont bruyants et pleins
+        <data>Père Dragon: Les dragons sont bruyants et pleins
 d'éclat !
 La Princesse est revenue,c'est pour
 cette raison qu'ils sont heureux.
@@ -259,7 +259,7 @@ Qu'aimeriez-vous ?[end]</data>
         <refs>
             <ref>0x5b8</ref>
         </refs>
-        <data>Docteur Dragon: [character][0x7] et un matelot sont partis
+        <data>Père Dragon: [character][0x7] et un matelot sont partis
 en reconnaissance.
 Heureusement qu'il y a un rayon de
 soleil !
@@ -333,7 +333,7 @@ Ah,bienvenue ![end]</data>
         <refs>
             <ref>0x5c0</ref>
         </refs>
-        <data>Docteur Dragon: Rush est parti avec Salamand,
+        <data>Père Dragon: Rush est parti avec Salamand,
 il y a un instant !
 Sais-tu où il va ?
 [character][0x7],lui,est parti en
@@ -376,7 +376,7 @@ c'est si paisible.[end]</data>
         <refs>
             <ref>0x5ab</ref>
         </refs>
-        <data>Docteur Dragon: Il y a un charmant bébé !
+        <data>Père Dragon: Il y a un charmant bébé !
 Viens vite ![end]</data>
     </text>
     <text>

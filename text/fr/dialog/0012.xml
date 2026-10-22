@@ -425,9 +425,9 @@ J'ai également remarqué que certains
 Généraux de l'Empire se réjouissaient
 de la maladie de leur Empereur.
 Je suspecte énormément l'un de ses
-bras droits,le Général Gudruff,de
+bras droits,le Général Gudolf,de
 vouloir tenter une sécession !
-Lui et Restatto avaient l'air d'être
+Lui et Lestat avaient l'air d'être
 de grands chefs.[end]</data>
     </text>
     <text>
@@ -469,7 +469,7 @@ ni même comprendre plus ![end]</data>
         <data>Mais j'ai continué à jouer l'espion !
  
 Je me suis infiltré dans le Château
-pour tenter de trouver Restatto.[end]</data>
+pour tenter de trouver Lestat.[end]</data>
     </text>
     <text>
         <refs>
@@ -595,7 +595,7 @@ N'essaie pas de t'enfuir ![end]</data>
         <refs>
             <ref>0x1074</ref>
         </refs>
-        <data>Docteur Dragon: L'Arme Secrète de l'Empire est
+        <data>Père Dragon: L'Arme Secrète de l'Empire est
 terrifiante.
 N'hésite pas à faire combattre tes
 dragons dans son corps.[end]</data>
@@ -610,7 +610,7 @@ dragons dans son corps.[end]</data>
         <refs>
             <ref>0x107c</ref>
         </refs>
-        <data> Oui,Docteur Dragon.
+        <data> Oui,Père Dragon.
  J'ai d'autres choses à faire...[end1]</data>
     </text>
     <text>
@@ -808,7 +808,7 @@ aussi l'entendre.[end]</data>
             <ref>0x154a</ref>
         </refs>
         <data>Après être sorti de la chambre du
-Général Gudruff,j'ai continué à
+Général Gudolf,j'ai continué à
 explorer le Château de Granbelos.
 J'ai fini par découvrir une petite
 salle.

@@ -102,13 +102,13 @@ Hihihihi...[end]</data>
         </refs>
         <data>Anastasia: [character][0x0],l'as-tu appris ?
  
-Bareck a dit que le Général Arbain
+Barclay a dit que le Général Arbain
 a en sa possession une épée nommée
 Excalibur.
 Savais-tu que cette Epée était selon
 une légende celle d'un très grand
 chevalier ?
-Bareck,lui,aurait plus besoin d'une
+Barclay,lui,aurait plus besoin d'une
 bonne hache.[end]</data>
     </text>
     <text>
@@ -222,7 +222,7 @@ peut devenir un Dragon Maître.
  
 De toute manière,il semble que ce soit
 leur croissance maximum.
-Je crois que Bareck aime ça ![end]</data>
+Je crois que Barclay aime ça ![end]</data>
     </text>
     <text>
         <refs>
@@ -236,7 +236,7 @@ Ce serait si bien...[end]</data>
         <refs>
             <ref>0x298</ref>
         </refs>
-        <data>Joy: Avec Nelbo,
+        <data>Joy: Avec Nerbo,
 nous le surveillons constamment.
 Il est bientôt l'heure de partir au
 combat.[end]</data>

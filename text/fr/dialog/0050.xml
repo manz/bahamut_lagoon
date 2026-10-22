@@ -6,7 +6,7 @@
         </refs>
         <data>         Tout est fermé[0xd8]
  
-      Gudruff,Empereur du mal,
+      Gudolf,Empereur du mal,
     Nouvel Empereur de l'Empire.[end]</data>
     </text>
     <text>
@@ -51,7 +51,7 @@ furie ![end]</data>
         <refs>
             <ref>0x587</ref>
         </refs>
-        <data>Palparos: Gudruff !
+        <data>Palparos: Gudolf !
 Quel est ce lieu ?
 Et l'Empereur Sauzer ?[end]</data>
     </text>
@@ -59,7 +59,7 @@ Et l'Empereur Sauzer ?[end]</data>
         <refs>
             <ref>0x59e</ref>
         </refs>
-        <data>Gudruff: L'Empereur Sauzer... ?
+        <data>Gudolf: L'Empereur Sauzer... ?
 Il est terriblement déçu...[end]</data>
     </text>
     <text>
@@ -88,7 +88,7 @@ Pourquoi... Sauzer... ?[end]</data>
         <refs>
             <ref>0x5d7</ref>
         </refs>
-        <data>Gudruff: Pourquoi... ?
+        <data>Gudolf: Pourquoi... ?
 Tu devrais le lui demander...
 Je vois aussi que vous êtes tous là !
 Alors vous mourrez tous !
@@ -101,7 +101,7 @@ Adieu ![end]</data>
         <refs>
             <ref>0x249</ref>
         </refs>
-        <data>Valitra...
+        <data>Vritra...
  
   
 Léviathan...

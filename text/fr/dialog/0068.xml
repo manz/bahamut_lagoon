@@ -287,7 +287,7 @@ l'a poussé à m'aider.[end]</data>
             <ref>0x89a</ref>
         </refs>
         <data>Ruki: [character][0x0]!
-Mélodia t'attend ![end][end]</data>
+Melody t'attend ![end][end]</data>
     </text>
     <text>
         <refs>
@@ -316,7 +316,7 @@ pense que Donfan est un héros.[end][end]</data>
         </refs>
         <data>Grand-père: Hoho !
 Ne serais-tu pas [character][0x0]?
-Mélodia m'a énormément parlé de toi
+Melody m'a énormément parlé de toi
 et de tes exploits.[end]</data>
     </text>
     <text>
@@ -338,7 +338,7 @@ Viiite ![end]</data>
         <refs>
             <ref>0x9a3</ref>
         </refs>
-        <data>Grand-père: Tu es bien impatiente Mélodia !
+        <data>Grand-père: Tu es bien impatiente Melody !
 Bon,je vais vous en raconter une.[end]</data>
     </text>
     <text>
@@ -353,13 +353,13 @@ de mon prénom ?[end]</data>
             <ref>0x9b3</ref>
         </refs>
         <data>Grand-père: Hohoho ! Cela s'est toujours transmis
-à Godrand.[end]</data>
+à Godland.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9f6</ref>
         </refs>
-        <data>Tu seras toujours à Godrand la
+        <data>Tu seras toujours à Godland la
 bienvenue mais aujourd'hui je suis
 occupée.[end]</data>
     </text>
@@ -458,7 +458,7 @@ je redeviens une autre personne.[end]</data>
         </refs>
         <data>C'est grâce à ces voyages que
 grand-père dit et transmet de
-nombreux proverbes à Godrand.
+nombreux proverbes à Godland.
 Si tu veux,il peut t'en dire encore
 beaucoup ![end]</data>
     </text>
@@ -476,7 +476,7 @@ d'une très grande importance.[end]</data>
             <ref>0xb23</ref>
         </refs>
         <data>Il provient d'une très vieille légende
-de Godrand...[end]</data>
+de Godland...[end]</data>
     </text>
     <text>
         <refs>
@@ -675,7 +675,7 @@ pour toujours.[end]</data>
         <refs>
             <ref>0x3d9</ref>
         </refs>
-        <data>Ici,Godrand est en paix mais à
+        <data>Ici,Godland est en paix mais à
 l'extérieur,c'est terrible.[end]</data>
     </text>
     <text>

@@ -32,7 +32,7 @@ Ce jour où j'ai quitté Mahal...[end]</data>
         <refs>
             <ref>0xf5</ref>
         </refs>
-        <data>Restatto: HIHIHIHIHIHIHIHIHIHIHI ![end]</data>
+        <data>Lestat: HIHIHIHIHIHIHIHIHIHIHI ![end]</data>
     </text>
     <text>
         <refs>
@@ -82,7 +82,7 @@ Donnez-nous les ordres ![end]</data>
         <data>Taicho: Hum...
  
 En tant que chevalier,je vais moi-même
-aller défier ce Restatto !
+aller défier ce Lestat !
 Laissez-moi vous protéger tous ![end]</data>
     </text>
     <text>
@@ -100,7 +100,7 @@ rapidement face à tant d'ennemis ![end]</data>
         </refs>
         <data>Soldat: Nous allons le faire pour vous,
 Capitaine Commandant.
-Nous combattrons Restatto et dès
+Nous combattrons Lestat et dès
 qu'une opportunité se présentera
 vous le tuerez.[end]</data>
     </text>
@@ -181,7 +181,7 @@ Qui le fera ?![end]</data>
         <refs>
             <ref>0x26d</ref>
         </refs>
-        <data>Céline: Tu ne peux vaincre Restatto...[end]</data>
+        <data>Céline: Tu ne peux vaincre Lestat...[end]</data>
     </text>
     <text>
         <refs>
@@ -287,7 +287,7 @@ Le jour de la libération ![end]</data>
         <refs>
             <ref>0x3f0</ref>
         </refs>
-        <data>Céline: Approche,Restatto ![end]</data>
+        <data>Céline: Approche,Lestat ![end]</data>
     </text>
     <text>
         <refs>
@@ -299,7 +299,7 @@ Le jour de la libération ![end]</data>
         <refs>
             <ref>0x440</ref>
         </refs>
-        <data>Restatto: HIHIHIHIHIHIHIHIHI !
+        <data>Lestat: HIHIHIHIHIHIHIHIHI !
 Tu ne peux me vaincre avec une telle
 magie ![end]</data>
     </text>
@@ -321,7 +321,7 @@ Me craindrait-il ?![end]</data>
         <refs>
             <ref>0x4c1</ref>
         </refs>
-        <data>Restatto: HIHIHIHIHIHIHIHI !
+        <data>Lestat: HIHIHIHIHIHIHIHI !
 Commandant !
 Où est-il ?!
 Le guerrier No [0xb0] a eu peur de moi et
@@ -340,7 +340,7 @@ Mon mari n'est pas ce genre d'homme ![end]</data>
         <refs>
             <ref>0x4de</ref>
         </refs>
-        <data>Restatto: HIHIHIHIHIHI !
+        <data>Lestat: HIHIHIHIHIHI !
 Ce genre d'homme ?
 Si,il l'est !
 HIHIHIHIHIHI ![end]</data>
@@ -502,13 +502,13 @@ les ennemis ![end]</data>
             <ref>0xacd</ref>
         </refs>
         <data>                   Chapitre [0xb0][0xb2]
-           -Godrand,la Cité de la Magie-[end]</data>
+           -Godland,la Cité de la Magie-[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xad1</ref>
         </refs>
-        <data>Godrand,la cité de la magie,est une
+        <data>Godland,la cité de la magie,est une
 civilisation avancée dans l'art de la
 magie.[end]</data>
     </text>
@@ -524,14 +524,14 @@ l'Empire.[end]</data>
         <refs>
             <ref>0xb1a</ref>
         </refs>
-        <data>Hornet: Nous sommes bientôt à Godrand.[end]</data>
+        <data>Hornet: Nous sommes bientôt à Godland.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb31</ref>
         </refs>
         <data>Melody: Ouais ! Ouais !
-Ma chère ville de Godrand ![end]</data>
+Ma chère ville de Godland ![end]</data>
     </text>
     <text>
         <refs>
@@ -550,7 +550,7 @@ Hein ?![end]</data>
         </refs>
         <data>manyo !
 ``allez ! allez !
- à godrand ! allez !''[end]</data>
+ à Godland ! allez !''[end]</data>
     </text>
     <text>
         <refs>
@@ -558,13 +558,13 @@ Hein ?![end]</data>
         </refs>
         <data>munyo !
 ``allez ! allez !
- a godrand !''[end]</data>
+ a Godland !''[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb61</ref>
         </refs>
-        <data>Hornet: Mélodia !
+        <data>Hornet: Melody !
 Tu le sais,pourtant !
 Les Petits Démons n'ont pas le droit
 d'être sur le pont.[end]</data>
@@ -593,7 +593,7 @@ Partons,Petits Démons ![end]</data>
         <refs>
             <ref>0xc15</ref>
         </refs>
-        <data>Hé,Taurus...
+        <data>Hé,Truth...
 Est-ce que tu dors ?[end]</data>
     </text>
     <text>
@@ -642,7 +642,7 @@ Impossible de le réveiller ![end]</data>
         <refs>
             <ref>0xc5c</ref>
         </refs>
-        <data>D'accord,Taurus ![end]</data>
+        <data>D'accord,Truth ![end]</data>
     </text>
     <text>
         <refs>
@@ -683,7 +683,7 @@ ou d'une autre...[end]</data>
         <refs>
             <ref>0xc9a</ref>
         </refs>
-        <data>Rush: Et toi,Taurus !
+        <data>Rush: Et toi,Truth !
 Tu n'as rien ressenti ?![end]</data>
     </text>
     <text>
