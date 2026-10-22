@@ -47,7 +47,6 @@ screen fills in name by name, and a name that needs retired slots waits for that
 .extern ppu_line
 .extern dma_fits_vblank
 .extern shadow_sta_c400
-.extern shadow_sta_c3c0
 .extern shadow_dirty_bg3
 .extern shadow_trim_bg3
 .extern shadow_trim_bg2
@@ -479,13 +478,19 @@ _blank_inline:
 _blank_cell:
     lda.w #_BLANK
     ora.l _TEXT_ATTR
-    jsl.l shadow_sta_c400
+    sta.l _SHADOW, x
     lda.w #0x0000
-    jsl.l shadow_sta_c3c0
+    sta.l _SHADOW - _ROW, x
     inx
     inx
     dey
     bne _blank_cell
+    txy  ; marked whole: the row above too
+    lda.l menu.inline_base
+    sec
+    sbc.w #_ROW
+    tax
+    jsl.l shadow_dirty_range
 _blanked:
     rts
 
@@ -700,7 +705,7 @@ _bg2_blank:
     lda.w #_BLANK
 _bg2_put:
     ora.l _TEXT_ATTR
-    jsl.l shadow_sta_c400
+    sta.l _SHADOW, x  ; marked whole at _advance
     lda.l menu.index
     inc
     sta.l menu.index
@@ -1022,7 +1027,7 @@ _bg3_put:
     lda.l menu.cell
     tax
     pla
-    jsl.l shadow_sta_c400
+    sta.l _SHADOW, x  ; marked whole at _advance
     lda.l menu.index
     inc
     sta.l menu.index
@@ -1289,35 +1294,34 @@ _right_block_from:
     pea.w ( SRAM_MENU_START >> 16 ) * 0x0101
     plb
     plb
-    tax  ; X: the block's first slot
-_block_at:
+    tax
+    ldy.w #0x0000  ; free slots in a row so far
+    sep #0x20
+_block_scan:
+    cpx.w #_BG3_RIGHT_SLOTS
+    bcs _block_none
+    lda.w menu.bg3_used, x
+    bne _block_broken
+    iny
+    cpy.w menu.count
+    beq _block_found_at
+    inx
+    bra _block_scan
+_block_broken:
+    ldy.w #0x0000
+    inx
+    bra _block_scan
+_block_found_at:
     rep #0x20
     txa
-    clc
-    adc.w menu.count
-    cmp.w #_BG3_RIGHT_SLOTS + 1
-    bcs _block_none
-    phx
-    lda.w menu.count
-    tay
-    sep #0x20
-_block_slot:
-    lda.w menu.bg3_used, x
-    bne _block_taken
-    inx
-    dey
-    bne _block_slot
-    rep #0x20
-    pla
+    sec
+    sbc.w menu.count
+    inc
     plb
     sec
     rts
-_block_taken:
-    rep #0x20
-    pla
-    inx  ; past the used slot
-    bra _block_at
 _block_none:
+    rep #0x20
     plb
     clc
     rts
@@ -1873,17 +1877,22 @@ _plain_attr:
     adc.l _TEXT_CURSOR
     tax
     pla
-    jsl.l shadow_sta_c400
+    sta.l _SHADOW, x  ; marked whole at _advance
     lda.l menu.index
     inc
     sta.l menu.index
     bra _plain
 _advance:
-    rep #0x20
+    rep #0x30
     lda.l menu.field
     asl
     clc
     adc.l _TEXT_CURSOR
+    tay
+    lda.l _TEXT_CURSOR
+    tax
+    jsl.l shadow_dirty_range  ; the field's cells
+    tya
     sta.l _TEXT_CURSOR
     rts
 
