@@ -14,6 +14,8 @@ from tests.conftest import Console, symbol
 MDMAEN = 0x00420B
 HDMAEN = 0x00420C
 VBLANK = 225  # the first vblank line, no overscan
+DMA_BYTES_PER_LINE = 165  # a line's DMA with DRAM refresh (src/vblank.s)
+DMA_LAST_LINE = 250  # a vblank DMA ends here at the latest: past it, a console a hair slower than kintsuki overruns
 BG3_MAP = 0x9000  # VRAM bytes: BG3's map at word 0x4800, over its tiles at word 0x4000
 BG3_TILES = 0x8000
 BG3_SHOWN = 58 * 32  # the map cells a menu shows
@@ -155,6 +157,7 @@ class ShadowUploads:
         self.writes = emu.add_write_callback(BG3_SHADOW, BG3_SHADOW + 2 * MAP_BYTES - 1, self.write)
         self.execs = [
             self.exec_at("shadow_trim_bg3", lambda: self.trim(0)),
+            self.exec_at("shadow_take_bg3", lambda: self.trim(0)),  # a lag NMI's upload while a name draws
             self.exec_at("shadow_trim_bg2", self.trim_bg2),
             self.exec_at("menu_vwf._queue_drained", self.drained),
         ]
@@ -261,3 +264,30 @@ def test_an_idle_menu_sends_a_sweep_slice_a_frame(console: Console) -> None:
     finally:
         emu.remove_callback(CallbackKind.WRITE, callback)
     assert sizes == [0x200] * 60
+
+
+def test_infos_page_turn_ends_its_dmas_well_inside_vblank(console: Console) -> None:
+    """
+    A page turn uploads its names' tiles and the changed BG3 map while the screen is on: each DMA must end with
+    lines to spare before the vblank does, or the Analogue Pocket loses the tail and the menu's HDMA.
+    """
+    console.load("menu-infos-page")
+    emu = console.emu
+    late: list[tuple[int, int, int]] = []
+
+    def fired(_: int, channels: int) -> None:
+        line = emu.live_counters().v
+        for channel in range(8):
+            if channels >> channel & 1:
+                size = emu.read16(0x4300 + channel * 0x10 + 5) or 0x10000
+                if line < VBLANK or line + size // DMA_BYTES_PER_LINE > DMA_LAST_LINE:
+                    late.append((emu.frame_count, line, size))
+
+    callback = emu.add_write_callback(MDMAEN, MDMAEN, fired)
+    try:
+        for _ in range(12):  # down to the page's last row, then onto page 2
+            console.tap(console.button.DOWN)
+        emu.run_frames(60)
+    finally:
+        emu.remove_callback(CallbackKind.WRITE, callback)
+    assert late == []

@@ -543,6 +543,30 @@ _bg3_whole:
     plp
     rtl
 
+shadow_take_bg3:
+"""
+The BG3 span, for an upload outside the engine's queue: A its start, Y its length (0: nothing changed), the span
+cleared; torn, the whole map. 16-bit A, X and Y; keeps X.
+"""
+    lda.l shadow_dirty.bg3_hi
+    beq _nothing_taken
+    tay
+    lda.w #0x0000
+    sta.l shadow_dirty.bg3_hi
+    lda.l shadow_dirty.bg3_lo
+    jsr.w _span_bytes
+    bcc _span_taken
+    ldy.w #0x0000
+    lda.w #MAP_BYTES
+_span_taken:
+    pha
+    tya
+    ply
+    rtl
+_nothing_taken:
+    tay
+    rtl
+
 _span_bytes:
 """
 Span A to Y (Y past the last, both in a map) to even bounds: Y its start, A its length, carry clear; carry set when

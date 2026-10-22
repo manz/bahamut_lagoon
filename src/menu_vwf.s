@@ -51,6 +51,8 @@ screen fills in name by name, and a name that needs retired slots waits for that
 .extern shadow_dirty_bg3
 .extern shadow_trim_bg3
 .extern shadow_trim_bg2
+.extern shadow_take_bg3
+.extern shadow_dirty_range
 
 
 _TEXT_CURSOR = 0x001860
@@ -1932,19 +1934,39 @@ has room, on a channel HDMA leaves free. Nothing when the engine leaves BG3's ma
     bcc _no_present
     jsr.w _drain_ring
     bcc _no_present  ; the rest in the next vblank
-    lda.w #_BG3_MAP_BYTES
+    jsl.l shadow_take_bg3
+    tax  ; X: the changed bytes' start, Y: their length
+    tya
+    beq _shown_already
     jsl.l dma_fits_vblank
-    bcs _no_present
+    bcs _present_later
+    phx
     sep #0x20
     lda #_SHADOW >> 16
     jsr.w _open_channel
-    lda.w #_SHADOW & 0xFFFF
+    lda 0x01, s
+    clc
+    adc.w #_SHADOW & 0xFFFF
     sta.b 0x02
-    ldx.w #_BG3_MAP_VRAM
-    lda.w #_BG3_MAP_BYTES
+    pla
+    lsr
+    clc
+    adc.w #_BG3_MAP_VRAM
+    tax
+    tya
     jsr.w _fire
+_shown_already:
     jsr.w _count_present
 _no_present:
+    rts
+_present_later:
+    phx  ; the bytes stay marked, for the next upload
+    tya
+    clc
+    adc 0x01, s
+    tay
+    plx
+    jsl.l shadow_dirty_range
     rts
 
 _free_channel:
