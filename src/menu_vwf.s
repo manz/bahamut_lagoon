@@ -223,6 +223,12 @@ _RECORD = 8  ; the name records draw_fixed_name draws, an item's past its icon
 }
 
 
+; The camp menu's turn count (lda #0x074A, then jsr set_cursor): Tour now opens its line, set left in the label's 9
+; cells from 0x744 (text/inline.xml), so the 3 digits move from the 4th of them to its last 3.
+.alloc at 0xEE82B0 {
+    .dw 0x0750
+}
+
 .alloc menu_vwf in expansion {
 menu_draw_fixed_name:
 """A (low byte): bank, Y: string, X: characters + 1. Renders through small_vwf when the name overflows its field."""
