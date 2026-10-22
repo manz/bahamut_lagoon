@@ -30,19 +30,19 @@ Le Dragon Sacré Jormungand nous appelle.[end1][end]</data>
         <refs>
             <ref>0x6c</ref>
         </refs>
-        <data>Restez tous ici...[end1][end]</data>
+        <data>Reculez, tous...[end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7e</ref>
         </refs>
         <data>Matelite: Princesse [character][0x1]...[0xfc][0x18]
-Je ne vous quitterai pas ![end1][end]</data>
+Je vous suivrai jusqu'au bout !![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x89</ref>
         </refs>
-        <data>Rush: On est tous dans le même bateau !![end1][end]</data>
+        <data>Rush: Nous non plus, on n'a pas peur !![end1][end]</data>
     </text>
 </texts>

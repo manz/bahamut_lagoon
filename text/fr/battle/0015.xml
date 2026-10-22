@@ -10,27 +10,29 @@
         <refs>
             <ref>0x39</ref>
         </refs>
-        <data>Taicho: Regardez ! C'est Palparos !![end1][end]</data>
+        <data>Taicho: C'est Palparos, affirmatif !![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4a</ref>
         </refs>
-        <data>Matelite: Écoutez-moi tous !
-Pas d'hésitation !![end1][end]</data>
+        <data>Matelite: Vous tous !!
+Pas de faiblesse !![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4e</ref>
         </refs>
-        <data>Les choses ne sont plus comme avant...[end1]</data>
+        <data>Ce n'est plus comme autrefois...
+Aujourd'hui, nous pouvons vaincre
+même Sauzer !![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x59</ref>
         </refs>
         <data>Taicho: Nous allons en finir,[0xfc][0x10]
-ici même ![end1][end]</data>
+ici même, affirmatif ![end1][end]</data>
     </text>
     <text>
         <refs>
@@ -43,15 +45,14 @@ Veillez sur nous...[end1][end]</data>
         <refs>
             <ref>0x6b</ref>
         </refs>
-        <data>Sauzer: Rebelles,[0xfc][0x10]
-cette guerre a été bien longue...[end1][end]</data>
+        <data>Sauzer: Rebelles...[0xfc][0x10]
+ces jours de combat ont été bien longs.[end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6f</ref>
         </refs>
-        <data>Mais elle ne durera pas davantage.
-Elle prend fin ici même ![end1][end]</data>
+        <data>Mais tout cela prend fin ici.[end1][end]</data>
     </text>
     <text>
         <refs>
@@ -63,8 +64,8 @@ Elle prend fin ici même ![end1][end]</data>
         <refs>
             <ref>0x77</ref>
         </refs>
-        <data>Je dois vous arrêter.[0xfc][0x12] Car c'est moi qui
-accomplirai la légende !![end1][end]</data>
+        <data>Je dois vous arrêter.[0xfc][0x12] La légende,
+c'est moi qui la ferai naître !![end1][end]</data>
     </text>
     <text>
         <refs>
@@ -91,23 +92,22 @@ du même mal...[end1][end]</data>
         <refs>
             <ref>0x8c</ref>
         </refs>
-        <data>Pourtant, je suis le seul à pouvoir vaincre
-les pensées menaçantes des Dragons
-Sacrés...[end1][end]</data>
+        <data>Les pensées des Dragons Sacrés...
+Seul moi peux les vaincre...[end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x97</ref>
         </refs>
-        <data>Matelite: Préparez-vous à attaquer !![end1][end]</data>
+        <data>Matelite: Au combat !![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa2</ref>
         </refs>
-        <data>Sendak: Il y aura parfois des
-tempêtes de sable,[0xfc][0x18] il faut donc
-les surveiller.[end1][end]</data>
+        <data>Sendak: Il y a parfois des
+tempêtes de sable,[0xfc][0x18] il faut
+faire attention.[end1][end]</data>
     </text>
     <text>
         <refs>
@@ -133,15 +133,15 @@ de Sauzer et de Palparos.[end1][end]</data>
         <refs>
             <ref>0x121</ref>
         </refs>
-        <data>Taicho: Sire Matelite !![0xfc][0x18]
-Nous sommes victorieux !![end1][end]</data>
+        <data>Taicho: Messire Matelite !![0xfc][0x18]
+Nous avons gagné, affirmatif !![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x129</ref>
         </refs>
-        <data>Bien, allons vers cette ville.[0xfc][0x18]
-Il faut trouver le Dragon Sacré de
-la Princesse [character][0x1].[end1][end]</data>
+        <data>Allons dans cette ville.[0xfc][0x18]
+Pour la Princesse [character][0x1], il faut
+trouver le Dragon Sacré.[end1][end]</data>
     </text>
 </texts>

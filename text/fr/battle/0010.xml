@@ -4,16 +4,16 @@
         <refs>
             <ref>0x28</ref>
         </refs>
-        <data>Lestat: Hihihi ![0xfc][0x20] Mesdames et
-messieurs les Rebelles !![0xfc][0x20]
+        <data>Lestat: Hihihihihihihihihi ![0xfc][0x20] Bienvenue,
+chers Rebelles !![0xfc][0x20]
 Merci d'être venus ![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2c</ref>
         </refs>
-        <data>Mes préparatifs sont prêts ![0xfc][0x20]
-Eh bien, commençons-nous ?[end1][end]</data>
+        <data>Tout est prêt ![0xfc][0x20]
+Eh bien, on commence ?[end1][end]</data>
     </text>
     <text>
         <refs>
@@ -39,9 +39,8 @@ Ces statues sont piégées ![end1][end]</data>
         <refs>
             <ref>0x19a</ref>
         </refs>
-        <data>Lestat: Non !!![0xfc][0x30] Impossible !![0xfc][0x30]
-Moi, le grand Lestat, je ne peux
-pas être vaincu... ![end1][end]</data>
+        <data>Lestat: Que...[0xfc][0x30] Impossible !![0xfc][0x30]
+Moi, le grand Lestat, vaincu... ![end1][end]</data>
     </text>
     <text>
         <refs>

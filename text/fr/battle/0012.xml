@@ -4,9 +4,9 @@
         <refs>
             <ref>0x28</ref>
         </refs>
-        <data>Persona: Je ne tolérerai pas de déchets à
-bord de mon vaisseau ![0xfc][0x18] Comment osez-vous
-le salir, sales vermines ![end1][end]</data>
+        <data>Persona: On n'entre pas chaussé sur mon
+vaisseau ![0xfc][0x18] Vous l'avez tout sali...
+Bande de vauriens ![end1][end]</data>
     </text>
     <text>
         <refs>
@@ -19,8 +19,8 @@ le salir, sales vermines ![end1][end]</data>
         <refs>
             <ref>0x11b</ref>
         </refs>
-        <data>Persona: Ma... Maudit soit-il, non !!![0xfc][0x18]
+        <data>Persona: C'est... c'est pas vrai !!![0xfc][0x18]
 Je n'ai même pas fini de rembourser
-mon emprunt !![end1][end]</data>
+mon emprunt~ !![end1][end]</data>
     </text>
 </texts>

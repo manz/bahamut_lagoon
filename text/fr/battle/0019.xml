@@ -4,16 +4,16 @@
         <refs>
             <ref>0x33</ref>
         </refs>
-        <data>Taicho: Tous les généraux de Granbelos
-sont réunis !![0xfc][0x18] Que devons-nous faire !?[end1][end]</data>
+        <data>Taicho: Tous les généraux de Granbelos sont
+là, affirmatif !![0xfc][0x18] Que faire, affirmatif ?![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3b</ref>
         </refs>
-        <data>Palparos: Patience... Si nous les
-divisons,[0xfc][0x8] nous pourrons
-les vaincre ![end1][end]</data>
+        <data>Palparos: Du calme... Si on les prend
+un par un,[0xfc][0x8] on peut
+gagner !![end1][end]</data>
     </text>
     <text>
         <refs>
