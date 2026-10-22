@@ -1541,7 +1541,8 @@ _code_slot:
     tax
     lda.l _tile_slots, x
     plx
-    bmi _no_slot
+    cmp.w #0xFFFF  ; after plx, whose flags are X's
+    beq _no_slot
     sec
     rts
 _no_slot:
