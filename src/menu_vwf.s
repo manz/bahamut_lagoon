@@ -1083,33 +1083,43 @@ _find_bg3_run:
 The run of menu.key with small_vwf.cells cells: menu.run, carry set, its map pixels written again (the shadow may
 have been cleared). Carry clear when none.
 """
-    ldx.w #_BG3_RUNS - 1
+    phb
+    pea.w ( SRAM_MENU_START >> 16 ) * 0x0101
+    plb
+    plb
+    lda.w menu.key
+    ldx.w #( _BG3_RUNS - 1 ) * 2
 _find_run3:
-    sep #0x20
-    lda.l menu.run_bank, x
-    beq _not_run3
-    cmp.l menu.key_bank
-    bne _not_run3
-    lda.l menu.run_cells, x
-    cmp.l small_vwf.cells
-    bne _not_run3
-    rep #0x20
-    phx
-    txa
-    asl
-    tax
-    lda.l menu.run_record, x
-    plx
-    cmp.l menu.key
-    beq _run3_found
+    cmp.w menu.run_record, x  ; the record first, word-wide: most runs differ there
+    beq _record_matches
 _not_run3:
-    rep #0x20
+    dex
     dex
     bpl _find_run3
+    plb
     clc
     rts
-_run3_found:
+_record_matches:
     txa
+    lsr
+    tay
+    sep #0x20
+    lda.w menu.run_bank, y
+    beq _other_run3
+    cmp.w menu.key_bank
+    bne _other_run3
+    lda.w menu.run_cells, y
+    cmp.l small_vwf.cells
+    bne _other_run3
+    rep #0x20
+    plb
+    tya
+    bra _run3_found
+_other_run3:
+    rep #0x20
+    lda.w menu.key
+    bra _not_run3
+_run3_found:
     sta.l menu.run
     jsr.w _write_map_pixels
     sec
