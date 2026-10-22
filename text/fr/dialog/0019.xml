@@ -4,122 +4,105 @@
         <refs>
             <ref>0x100</ref>
         </refs>
-        <data>Matelite: La Princesse [character][0x1] est en retard !
-
-
-Tu en connais la raison,Taicho ?
-Devrions-nous l'attendre ?[end]</data>
+        <data>Matelite: La princesse Yoyo... est en retard...
+ 
+Dis... Taicho... Est-ce qu'on a vraiment bien fait ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x10f</ref>
         </refs>
-        <data>Taicho: Tu es si impatient !
+        <data>Taicho: ...
  
-Je sais que toi et [character][0x0] êtes tous les
-deux très tristes.[end]</data>
+Un homme sait endurer en silence, affirmatif...
+ 
+C'est encore plus dur pour Byuu que pour nous...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x133</ref>
         </refs>
-        <data>Matelite: Ce Général Palparos n'est qu'un
-ennemi !
-Il est le bras droit de Sauzer et
-n'est donc que le mal incarné !
-C'est [character][0x0] qui devrait être félicité ![end]</data>
+        <data>Matelite: Mais... Palparos est un général ennemi... C'était le bras droit de Sauzer ! C'est forcément un sale type...
+ 
+Byuu, encore, ce serait un moindre mal ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x147</ref>
         </refs>
-        <data>Taicho: Que dis-tu Matelite ?!
-Palparos est un bon Général !
-Et [character][0x1] l'a choisi !
-Et c'est ce à quoi tu dois prêter
-attention !
-Tu devrais respecter sa décision...[end]</data>
+        <data>Taicho: Le général Palparos est quelqu'un de bien, affirmatif !
+ 
+C'est l'homme que la princesse Yoyo a choisi...
+ 
+Jusqu'au bout... je lui ferai confiance, affirmatif...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x170</ref>
         </refs>
-        <data>Taicho: Matelite,as-tu déjà pensé au vrai
-sens de la Guerre ?[end]</data>
+        <data>Taicho: Matelite... avez-vous déjà réfléchi...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x180</ref>
         </refs>
-        <data>La libération de Mahal s'est faite
-grâce à la participation des Rebelles.[end]</data>
+        <data>... à ce qu'est la guerre, affirmatif...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x18e</ref>
         </refs>
-        <data>Cependant,certaines blessures sont
-malheureusement immuables.
+        <data>J'ai rejoint les Rebelles pour libérer Mahal...
  
-J'ai rejoint les Rebelles pour une
-seule raison...
-Mon épouse Céline !
-J'ai vaincu Lestat pour libérer Mahal
-mais c'était avant tout pour elle ![end]</data>
+Et pour une autre raison...
+ 
+Je vous en ai parlé un jour...
+ 
+Pour ma femme, Céline...
+ 
+Vaincre Lestat... et libérer Mahal...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x19f</ref>
         </refs>
-        <data>Elle n'était cependant déjà plus à moi
-car je l'avais perdue...
-J'en ai souffert...[end]</data>
+        <data>Cela... je l'ai fait...
+ 
+Oui, affirmatif...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1ab</ref>
         </refs>
-        <data>Mais je suis Capitaine !
+        <data>J'étais capitaine, affirmatif !!
  
-  
-Les positions ennemies sont ma
-destination !
- 
-Mener des Légions entières et être le
-premier sont mes buts ![end]</data>
+J'ai combattu en première ligne !! J'ai fauché des Légions entières...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1d1</ref>
         </refs>
-        <data>Mais t'est-il seulement arrivé de faire
-attention au visage de tes ennemis ?
+        <data>Et pourtant... j'imagine, affirmatif...
  
-Le visage de ces soldats...
-derrière leur casque ![end]</data>
+Le visage sous le casque de fer de chaque Légion...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1e3</ref>
         </refs>
-        <data>Tu n'y as sûrement jamais prêté
-attention...
-Ces visages sont pour nous le mal !
-Dès que je brandis ma hache pour
-combattre,je ne vois que ça ![end]</data>
+        <data>Plus laid que le vôtre, Matelite, affirmatif...
+ 
+Ce visage se tord... À chaque coup de ma hache, il se tord...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1f5</ref>
         </refs>
-        <data>Et ces mêmes légions ne voient en nous
-que des ennemis car ils aiment aussi
-leur épouse.
-Ils respectent leur Empire et tout ce
-qui s'y rattache.
-Comprends-tu ce que je dis ?
-Je combats...
-Je vais à la guerre...[end]</data>
+        <data>Les Légions aussi se battaient sûrement pour quelqu'un en qui elles croyaient...
+ 
+Pour une épouse aimée... pour un empereur respecté... pour quelque chose de plus grand... Soit.
+ 
+Moi, je me bats... C'est ça, la guerre, affirmatif...[end]</data>
     </text>
     <text>
         <refs>
@@ -128,35 +111,31 @@ Je vais à la guerre...[end]</data>
             <ref>0x850</ref>
             <ref>0xc4d</ref>
         </refs>
-        <data>... ... ... ...[end]</data>
+        <data>...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x204</ref>
         </refs>
-        <data>Je dois avouer que je crains parfois
-les conséquences de cette guerre.
-J'espère qu'elle se finira vite ![end]</data>
+        <data>Parfois, j'ai peur, affirmatif...
+ 
+Cette guerre... il faut vite... y mettre fin...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x231</ref>
         </refs>
-        <data>Marchand: Les militaires sont sur le champ de
-bataille !
-Le général Palparos croit ou du moins
-estime que c'est la bataille finale !
+        <data>Marchand: Un soldat montre ce qu'il vaut sur le champ de bataille !
  
-Tous les Généraux de l'Empire
-encerclent le château ![end]</data>
+Croire ou non le général Palparos, tout se joue dans cette bataille finale !!
+ 
+Le château est déjà encerclé par l'armée impériale !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x240</ref>
         </refs>
-        <data>Patronne: Même si l'Empereur Sauzer est malade,
-ils n'abandonneront jamais !
-Allez-vous y aller ?![end]</data>
+        <data>Patronne: Abandonner l'Empereur Sauzer gravement malade... il doit y avoir une bonne raison... Écoute bien ! Un adulte ne pose pas ce genre de questions !![end]</data>
     </text>
     <text>
         <refs>
@@ -165,200 +144,164 @@ Allez-vous y aller ?![end]</data>
             <ref>0x1396</ref>
             <ref>0x12b7</ref>
         </refs>
-        <data>Regardez et achetez ce que vous
-voulez ![end]</data>
+        <data>Allez !! Achète donc !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x12bb</ref>
         </refs>
-        <data> Acheter des Armes.
- Acheter des Armures[end1]</data>
+        <data> Acheter des armes.
+ Acheter des armures.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x139a</ref>
         </refs>
-        <data> Acheter des Objets.
- Acheter des Livres[end1]</data>
+        <data> Acheter des objets.
+ Acheter des livres.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x8a</ref>
         </refs>
-        <data>           Chapitre [0xb0][0xb8]
-        -Adieu Matelite !-[end]</data>
+        <data>                   Chapitre [0xb0][0xb8]
+                -Adieu, Matelite !!-[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xbf2</ref>
         </refs>
-        <data>Matelite: [character][0x0],que devrais-je faire ?[end]</data>
+        <data>Matelite: Byuu... vaudrait-il mieux que je ne sois plus là ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xbf6</ref>
         </refs>
-        <data> Tu dois combattre !
- Tu ne mourras pas ![end1]</data>
+        <data> Continuons à nous battre ensemble !!
+ Va donc mourir !![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xded</ref>
         </refs>
-        <data>Sendak: La princesse est-elle vraiment
-heureuse ?
-Les Dragons Sacrés sont venus ici de
-leur plein gré mais que va-t-il advenir
-d'eux ?
-Vous êtes toujours à dire que je suis
-très vieux et sans force mais ils sont
-aussi venus avec moi ![end]</data>
+        <data>Sendak: Parce que la princesse est heureuse... ? Les Dragons Sacrés viennent me voir. ``Vieillard... vieillard... vieillard au coeur faible...'' Ils me tourmentent...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xca1</ref>
         </refs>
-        <data>Taicho: Réponds-moi,[character][0x0]...
-As-tu compris tes erreurs ?[end]</data>
+        <data>Taicho: Il n'y a pas de réponse, affirmatif...
+ 
+C'est à toi de la trouver, Byuu...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc71</ref>
         </refs>
-        <data>Palparos: L'ennemi est dirigé par les puissants
-généraux impériaux.
-Selon moi,nous ne les battrons que si
-nous les vainquons un à un ![end]</data>
+        <data>Palparos: L'ennemi... ce sont les troupes des généraux de Granbelos... Nous tiendrons le front en les écrasant un par un !! Suivez mes ordres, et nous vaincrons !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc82</ref>
         </refs>
-        <data>Sauzer,regarde-moi !
-J'ai rejoint les Rebelles ![end]</data>
+        <data>Sauzer... c'est bien ainsi, n'est-ce pas... Je rejoins les Rebelles !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xcb3</ref>
         </refs>
-        <data>Palparos: [character][0x0],allons combattre ensemble !
-Aller combattre ensemble ?[end]</data>
+        <data>Palparos: Byuu... je combattrai à tes côtés ! On y va ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xcb7</ref>
         </refs>
-        <data> Je me prépare...Palparos !
- Allons combattre...Palparos !
- ``C'est ce que j'attends !''[end1]</data>
+        <data> Attendons... Palparos !
+ Allons-y... Palparos !
+ (Et pousse-toi de là !!)[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x985</ref>
         </refs>
-        <data>Père Dragon: La Restauration de Kana !
-Merci beaucoup,beaucoup !
-Au fait,sais-tu comment l'on conçoit
-les enfants ?[end]</data>
+        <data>Père Dragon: Kana renaît !! Bravo, bravo !! Dis-moi... Byuu !! Hum hum...
+ 
+Tu sais comment on fait les bébés ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x989</ref>
             <ref>0x99a</ref>
         </refs>
-        <data> Apprenez-moi la méthode.
- Je suis un adulte quand même.[end1]</data>
+        <data> Je suis curieux... raconte.
+ ... Je suis un adulte !![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x996</ref>
         </refs>
-        <data>Les progénitures des dragons se
-conçoivent différemment de celles des
-êtres humains.[end]</data>
+        <data>Je parle de la façon dont les dragons font des bébés...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9da</ref>
         </refs>
-        <data>C'est en ce moment la saison des
-amours pour les dragons.
-Observe attentivement,inculte ![end]</data>
+        <data>Les dragons sont en pleine saison des amours. Regarde, regarde... ils sont tout excités.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9f2</ref>
         </refs>
-        <data>Oooh... Oooh...
-Il n'obéit pas ![end]</data>
+        <data>Tiens, tiens... si je fais comme ça...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa0a</ref>
         </refs>
-        <data>Tu as vu !
-c'est à cause de la saison des amours.[end]</data>
+        <data>Aïe !! Il m'a mordu...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa1a</ref>
         </refs>
-        <data>N'aie crainte [character][0x0]!
-Il faut être ferme et savoir donner
-de vrais ordres ![end]</data>
+        <data>Bref... ils deviennent dangereux. Ils n'obéissent même plus aux ordres de Byuu.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa26</ref>
         </refs>
-        <data>Il faudrait que tu formes minutieusement
-un couple de dragons pour une union.
- 
-Les dragons que tu ne choisis pas
-doivent être ceux qui n'ont aucun
-intérêt pour toi.[end]</data>
+        <data>Alors... on va marier un couple de dragons. Et là... les autres dragons renoncent et se calment, voilà !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa37</ref>
         </refs>
-        <data>Au fait,je me demandais si tu en
-savais tant que ça sur les enfants ?[end]</data>
+        <data>Au fait... et toi, Byuu, où en es-tu ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa3b</ref>
         </refs>
-        <data> DOCTEUR... silence !
- J'en sais beaucoup... DOCTEUR ![end1]</data>
+        <data> Père Dragon... la ferme !!
+ Pas ça... Père Dragon ![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xa4f</ref>
         </refs>
-        <data>Père Dragon: Ainsi les rumeurs des matelots étaient
-sûrement fondées.
-``Hahahahaha,il n'y connaît rien !''[end]</data>
+        <data>Les matelots en parlent tous. Bah... il faut tourner la page pour de bon ! Moi qui avais parié sur toi, Byuu...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa47</ref>
         </refs>
-        <data>Père Dragon: ``Hornet a gagné le pari !''[end]</data>
+        <data>Hornet a raflé toute la mise... Moi, j'ai perdu gros...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa76</ref>
         </refs>
-        <data>Très bien,il faut maintenant que tu
-choisisses un dragon père et un
-dragon mère.
-Est-ce que tu as déjà choisi un
-dragon mâle et une femelle ?
- 
-Si tu veux,tu peux les nourrir avant
-de les choisir ![end]</data>
+        <data>Bon... choisis-moi un papa dragon et une maman dragon !! Ah oui... tu savais que les dragons n'ont ni mâle ni femelle ? Et puis... une grossesse, c'est dur, alors gave-les bien avant ![end]</data>
     </text>
     <text>
         <refs>
@@ -366,36 +309,28 @@ de les choisir ![end]</data>
             <ref>0xa7a</ref>
             <ref>0xa8d</ref>
         </refs>
-        <data>D'accord !
-Il faut que tu choisisses un
-dragon père et un dragon mère.[end]</data>
+        <data>Bon... choisis-moi un papa dragon et une maman dragon !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xad3</ref>
         </refs>
-        <data>Tu veux accoupler ces dragons ?[end]</data>
+        <data>Ce sont ces deux-là qui seront papa et maman ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xad7</ref>
         </refs>
-        <data> Un instant,je réfléchis...
- Les accoupler.[end1]</data>
+        <data> Non, attends un peu.
+ Marier ces deux-là.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xae9</ref>
         </refs>
-        <data>Ce charmant couple donnera un bel
-enfant !
-Tu as fait un très bon choix,[character][0x0].
-Repartons maintenant tous à Fareneit !
+        <data>Et voilà !!
  
-  
-Je suis sûr que nous allons nous
-amuser à la fête de la Restauration
-de Kana.[end]</data>
+Prie toi aussi pour qu'un mignon bébé naisse, Byuu !! Bon !! Nous, on retourne sur Fareneit, alors profite bien de la nuit de la renaissance de Kana !![end]</data>
     </text>
     <text>
         <refs>
@@ -407,7 +342,7 @@ de Kana.[end]</data>
             <ref>0x10f0</ref>
         </refs>
         <data> Le nourrir.
- Le choisir pour l'union.[end1]</data>
+ Le marier.[end1]</data>
     </text>
     <text>
         <refs>
@@ -418,8 +353,8 @@ de Kana.[end]</data>
             <ref>0xf93</ref>
             <ref>0xedb</ref>
         </refs>
-        <data> Nourrir.
- Accoupler.[end1]</data>
+        <data> Le nourrir.
+ Ne pas le marier.[end1]</data>
     </text>
     <text>
         <refs>
@@ -430,114 +365,102 @@ de Kana.[end]</data>
             <ref>0xe3c</ref>
             <ref>0xf9e</ref>
         </refs>
-        <data> Nourrir.
- Accoupler ``sous réserve''.[end1]</data>
+        <data> Le nourrir.
+ (Mariages complets)[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xcef</ref>
         </refs>
-        <data>Palparos: Ah... ![end]</data>
+        <data>Palparos: Ah... !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xcf8</ref>
         </refs>
-        <data> Ah... ?!
- Je vous ennuie... désolé...
- ``Humpf[0xd8]''[end1]</data>
+        <data> Ah... !?
+ Pardon... je dérange...
+ (Et pousse-toi de là !!)[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xd13</ref>
         </refs>
-        <data>Capitaine de l'Escadron Dragon de
-Kana,vous n'admirez jamais les étoiles,
-la nuit ?
-Le ciel est vraiment paisible,ici,loin
-de toutes guerres.
+        <data>Capitaine de l'Escadron Dragon de Kana... Tu vois les étoiles dans le ciel ?
  
-``Il n'a aucune expérience ce [character][0x0]?
- Il ne savait même rien sur les
- dragons !''[end]</data>
+Tant que la vraie paix ne sera pas venue sur ce ciel, nous devrons combattre ensemble...
+ 
+(T'es tout gluant de bave de dragon en chaleur... Byuu !)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd37</ref>
         </refs>
-        <data>Palparos: ``Un enfant... ?''
+        <data>Palparos: (Un bébé...)
  
-[character][0x0],aimerais-tu escorter [character][0x1]
-jusqu'à la salle du trône ?
-Qui de nous deux ira ?[end]</data>
+Byuu... je voudrais escorter la princesse Yoyo jusqu'au château de Kana... Tu viens avec nous ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd3b</ref>
             <ref>0xdc5</ref>
         </refs>
-        <data> J'irai !
- Je te laisse... l'honneur ![end1]</data>
+        <data> Non !!
+ D'accord... allons-y.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xda5</ref>
         </refs>
-        <data>[character][0x1] doit aller mettre sa robe
-d'impératrice.
+        <data>Désolé...
  
-Bien sûr,je ne la laisserai pas seule.[end]</data>
+La princesse Yoyo va mettre une robe...
+ 
+Finalement, laisse-moi m'en charger.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xdbb</ref>
         </refs>
-        <data>Très bien !
-[character][0x1] doit aller mettre sa robe
-d'impératrice.[end]</data>
+        <data>Je vois...
+ 
+La princesse Yoyo va mettre une robe...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd87</ref>
         </refs>
-        <data>[character][0x1]: Hé ! Attendez...
+        <data>Yoyo: Ah... attends...
  
-Merci ![end]</data>
+... merci...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xdc1</ref>
         </refs>
-        <data>L'emmèneras-tu au château de Kana ?[end]</data>
+        <data>Alors, on retourne au château de Kana ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1301</ref>
         </refs>
-        <data>Marchand: J'ai vu Matelite !
-Il avait l'air très sérieux !
-Il courait puis il a disparu !
-Que de manières ![end]</data>
+        <data>Marchand: Tout à l'heure, Matelite est parti en marchant en crabe, l'air grave, et il a disparu !! Comme ça...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x131b</ref>
         </refs>
-        <data>Voulez-vous quelque chose ?
-En ce moment,j'ai de très bons objets
-à vendre.[end]</data>
+        <data>Il s'est passé quelque chose ? Il m'a donné ses articles Matelite en disant ``Je n'en ai plus besoin''...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x13dd</ref>
         </refs>
-        <data>Patronne: Bikebake nous a vendu contre notre
-volonté des champignons.
-Je ne voulais pas de tout ça !
-Regardez mon mari !
-Je ne lui ressemble pas,moi !
-Où est-il ?!
-Il est reparti au château ![end]</data>
+        <data>Patronne: Bikebake m'a forcée à lui acheter des champignons !! Avec ses yeux tout embués, impossible de dire non !!
+ 
+Je suis faible devant ce genre de choses !
+ 
+Et puis... avant de retourner au château, repasse me voir !![end]</data>
     </text>
     <text>
         <refs>
@@ -545,7 +468,7 @@ Il est reparti au château ![end]</data>
         </refs>
         <data> Acheter des armes.
  Acheter des armures.
- Acheter de bons objets.[end1]</data>
+ Acheter des articles Matelite.[end1]</data>
     </text>
     <text>
         <refs>
@@ -560,214 +483,163 @@ Il est reparti au château ![end]</data>
             <ref>0x142b</ref>
             <ref>0x1365</ref>
         </refs>
-        <data>Marchand: Hoho !
+        <data>Marchand: Salut, salut !!
  
-Aujourd'hui comme toujours,j'ai de
-nombreuses choses à vendre.
-Ma femme aime travailler !
-Capitaine [character][0x0],voulez-vous nous
-acheter quelque chose ?[end]</data>
+Il s'en est passé, des choses... mais vous avez bien tenu jusqu'ici !!
+ 
+Si j'ai pu épouser ma femme, c'est grâce à vous, Byuu, qui m'avez tant acheté...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1434</ref>
             <ref>0x1375</ref>
         </refs>
-        <data>Patronne: N'achetez rien !
- 
-C'est la Libération de Kana et de la
-femme,aujourd'hui !
-Voici quelques présents ![end]</data>
+        <data>Patronne: Voici notre cadeau pour fêter la renaissance de Kana !! Bien sûr... c'est gratuit !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x138b</ref>
         </refs>
-        <data>Maintenant les festivités ![end]</data>
+        <data>Au plaisir de vous revoir !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x609</ref>
         </refs>
-        <data>Obtenu:
-[0xaa]Un kit pour Chevalier-Croix[0xab]
-[0xaa]Contient [0xb2] choses[0xab]
--GUNAIZENAU,
--EMPEREUR,
--Et PRINCE NOIR.[end]</data>
+        <data>Obtenu la [0xaa]Panoplie ultime du Croisé[0xab]
+(Gneisenau, Imperator,
+Prince Noir)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x60f</ref>
         </refs>
-        <data>[0xaa]DUC DE FER[0xab]
-[0xaa]PAX KANA[0xab][end]</data>
+        <data>[0xaa]Iron Duke[0xab]
+[0xaa]Pax Kana[0xab][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x615</ref>
         </refs>
-        <data>[0xaa]UN TERRIBLE LIVRE EROTIQUE[0xab]
-[0xaa]PRINCESSE ???[0xab]
+        <data>[0xaa]Livre très osé[0xab]
+[0xaa]??? princesse[0xab]
  
-Ce sont les plus beaux cadeaux que
-nous puissions vous offrir ![end]</data>
+... Tous ces objets vous ont été offerts.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x737</ref>
         </refs>
-        <data>Rush: Nous sommes enfin revenus chez nous.
-Rien n'a changé...
-Les nuages,le portail,la région...
-Nous devrons vaincre tous nos ennemis
-pour défendre ce très cher endroit.[end]</data>
+        <data>Rush: Notre coin... on nous l'a pris sans qu'on s'en rende compte. Il n'y a que le vent, les nuages et la terre, devant les portes du château, qui n'ont pas changé...
+ 
+On ne devrait peut-être plus revenir ici... nous autres...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x753</ref>
         </refs>
-        <data>Truth: Bonjour Capitaine [character][0x0]!
- 
-Nous sommes enfin revenus à Kana.
-Ce n'est pas un rêve...
- 
-Nous sommes devant le portail du
-château...
-Notre cher chez-nous.[end]</data>
+        <data>Truth: Bonjour... capitaine Byuu. Nous avons repris Kana, n'est-ce pas. Ce n'était pas un rêve... Ce lieu si familier, où l'on se sent bien... devant les portes du château...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7ac</ref>
         </refs>
-        <data>Enfant: Qui êtes-vous ?!
-Vous êtes dans notre repaire ![end]</data>
+        <data>Enfant: Poussez-vous !! C'est notre coin, ici !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7b8</ref>
         </refs>
-        <data>Rush: Ces enfants seront un jour nos
-successeurs !
-Ils finiront par combattre pour
-défendre Kana ![end]</data>
+        <data>Rush: Ces gamins... ce sont nos successeurs... Viendra-t-il un jour où ils combattront eux aussi pour protéger Kana...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7c6</ref>
         </refs>
-        <data>Truth: J'espère pour eux que nous aurons
-mis un terme à cette guerre.[end]</data>
+        <data>Truth: Pour que ce jour ne vienne jamais, c'est nous qui mettrons fin à la guerre...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7d8</ref>
         </refs>
-        <data>Rush: Est-ce que vous êtes forts ?[end]</data>
+        <data>Rush: Vous voulez devenir forts, les gamins ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7fc</ref>
         </refs>
-        <data>Enfant: Quand nous serons grands,nous
-voudrions être Capitaine ou chevaliers
-de la Cavalerie de Kana.
-C'est notre rêve !
+        <data>Enfant: Notre rêve, c'est de devenir guerriers de l'Escadron Dragon de Kana !!
  
-Un jour,au sein d'Orelus,nous
-parcourrons le monde sur des
-dragons.
-Nous avons nommé ce chien du nom
-d'un des dragons de votre escadron.
-Il s'appelle Salamand ![end]</data>
+Un jour, on veut parcourir le ciel d'Orelus... sur des dragons !! Pour que notre rêve se réalise... on a donné à ce chien le nom d'un dragon de l'Escadron !! Pas vrai !! Salamand !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x82f</ref>
         </refs>
-        <data>Truth: Nous devons continuer notre combat.
-Retournons à Fareneit !
-Cependant,Bikebake est trop heureux
-d'être revenu.
-Il est inquiet mais ce serait terrible
-d'arrêter maintenant,n'est-ce pas ?[end]</data>
+        <data>Truth: Mais... le combat continue, n'est-ce pas. Nous devons retourner sur Fareneit... Au fait... il semble que Bikebake ne soit pas rentré.
+ 
+... Je m'inquiète... Serait-il dégoûté de se battre ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x839</ref>
         </refs>
-        <data>Bikebake: [character][0x0],mon frère !
-Je... je suis inutile.
-Je ne sers plus à rien.
-Ça te fait sourire... ?!
+        <data>Bikebake: Byuu, grand frère... Moi... moi... j'ai échoué. Le monsieur de l'agence immobilière... il a ri...
  
-[character][0x0],serais-tu prêt à organiser un
-grand commerce de champignons ?
-Il y en a tant dans le monde !
-Tant...[end]</data>
+``Dis donc, toi... Tu crois qu'on peut encore faire commerce de champignons, de nos jours ? Le monde n'est pas si tendre !''
+ 
+C'est vrai... avec des champignons...
+...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x842</ref>
         </refs>
-        <data>Je suis aussi inquiet sur le fait que
-face au très grand Palparos,je ne
-suis rien...
-[character][0x0],mon frère,je sais que face à lui,
-je serai mis de côté.[end]</data>
+        <data>Et puis... maintenant que Palparos est des nôtres, il y a un chevalier de trop... Moi... moi... j'avais peur que tu me dises, Byuu, grand frère... ``On n'a pas besoin de toi''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x846</ref>
         </refs>
-        <data> Cela n'arrivera jamais.
- Cesse de t'apitoyer.[end1]</data>
+        <data> Je dirais jamais ça, voyons...
+ On n'a pas besoin de toi !![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x87f</ref>
         </refs>
-        <data>Rush: Nous serons toujours avec toi !
-Cesse de faire l'imbécile ![end]</data>
+        <data>Rush: T'étais passé où !! On t'a cherché partout ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x88b</ref>
         </refs>
-        <data>Truth: Nous ne te remercierons jamais assez
-pour ce que tu fais !
-Viens et rentre avec nous à
-Fareneit ![end]</data>
+        <data>Truth: Sans Bikebake, ce n'est pas pareil... Allez, rentrons ensemble sur Fareneit !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x894</ref>
         </refs>
-        <data>Bikebake: Oh mes amis...[end]</data>
+        <data>Bikebake: Les amis...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8cb</ref>
         </refs>
-        <data>Matelite: C'est terrible !
-Sendak est inconscient ![end]</data>
+        <data>Matelite: C'est grave !!! Sendak s'est effondré !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8ee</ref>
         </refs>
-        <data>Père Dragon: C'est terrible !
+        <data>Père Dragon: C'est grave, j'parie !!
  
-Fareneit est en ce moment au-dessus
-de l'Empire ![end]</data>
+La forteresse volante de l'Empire fonce sur Fareneit !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8fc</ref>
         </refs>
-        <data>Matelite: Allons-y !
-Hâtons-nous !
-Je crois que la lutte finale contre
-l'Empire Granbelos arrive à grands pas ![end]</data>
+        <data>Matelite: Bien !! Faisons vite !! C'est la bataille décisive contre l'Empire de Granbelos !![end]</data>
     </text>
 </texts>

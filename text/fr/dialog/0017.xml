@@ -4,192 +4,163 @@
         <refs>
             <ref>0xbe</ref>
         </refs>
-        <data>Léviathan: Pourquoi es-tu si impatient,Jormungand ?[end]</data>
+        <data>Léviathan: Pourquoi... tant de hâte ? Jormungand.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xcd</ref>
         </refs>
-        <data>Jormungand: Cette fille a été poussée à ses limites.
- 
-Elle perd conscience dès lors qu'elle
-nous réunit,nous,les quatre Dragons
-Sacrés ![end]</data>
+        <data>Jormungand: Cette fille humaine... est à bout... En nous rassemblant, nous, les quatre Dragons Sacrés, elle a épuisé toutes ses forces.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xde</ref>
         </refs>
-        <data>Garuda: Malheureusement,la Porte de la Nouvelle
-Ère n'est pas encore ouverte.
-Et elle ne doit pas l'être tant que
-nous ne sommes pas encore tous
-réunis.[end]</data>
+        <data>Garuda: Pourtant... ainsi, la Porte de la Nouvelle Ère ne s'ouvrira pas...
+ 
+Sans réunir le pouvoir de tous les Dragons Sacrés, la Porte de la Nouvelle Ère ne devrait pas s'ouvrir...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfd</ref>
         </refs>
-        <data>Vritra: Et que fait Bahamut ?
-N'aime-t-il pas ce que nous faisons ?[end]</data>
+        <data>Vritra: ... Et Bahamut, qu'en fais-tu ? Sans lui... nos coeurs ne seront pas apaisés...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xef</ref>
         </refs>
-        <data>Jormungand: Je dois avouer que je n'arrive pas à
-le comprendre.
-La Porte de la Nouvelle Ère...
-Pourquoi ne pouvons-nous pas l'ouvrir ?[end]</data>
+        <data>Jormungand: Qui sait... Personne n'a jamais essayé. La Porte de la Nouvelle Ère... pourrait bien s'ouvrir.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x10e</ref>
         </refs>
-        <data>Léviathan: Si Bahamut n'est pas ici,c'est qu'il
-veut éviter les erreurs du passé.[end]</data>
+        <data>Léviathan: C'est vrai... sans Bahamut... les erreurs du passé...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x11f</ref>
         </refs>
-        <data>Jormungand: Est-il vraiment nécessaire de devoir
-l'attendre ?
-Nous devrions ouvrir la Porte !
-Cela fait une éternité...[end]</data>
+        <data>Jormungand: Ne pouvons-nous attendre...
+ 
+Une fois la Porte de la Nouvelle Ère ouverte... le temps est éternel...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x12d</ref>
         </refs>
-        <data>Vritra: Si la Porte de la Nouvelle Ère n'est
-pas ouverte,cette fille...
-Non,nous aussi... ![end]</data>
+        <data>Vritra: Mais... si la Porte de la Nouvelle Ère ne s'ouvre pas... cette fille... non, nous aussi...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x13e</ref>
         </refs>
-        <data>Garuda: Nous ne pouvons encore rien dire de
-cette humaine.
-Peut-elle vraiment être une Dragoon ?[end]</data>
+        <data>Garuda: Cette fille humaine... il lui manque quelque chose...
+ 
+Quelque chose pour être Dragonnière...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1c4</ref>
         </refs>
         <data>                   Chapitre [0xb0][0xb6]
-           -La Porte de la Nouvelle Ère-[end]</data>
+             -La Porte de la Nouvelle Ère-[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x223</ref>
         </refs>
-        <data>monyo !
-``rush a un message verbal à
- transmettre.''[end]</data>
+        <data>Monyo !
+(Un message de Rush !!)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x22f</ref>
         </refs>
-        <data>manyo !
-``donc petits démons vont vous
- l'annoncer en ces lieux.''[end]</data>
+        <data>Manyo !
+(C'est pas parce qu'on est des Diablotins qu'il faut nous faire trimer ! Les Diablotins, c'est pas des coursiers !!)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x23b</ref>
         </refs>
-        <data>munyo !
-``allez ! récite[0xd8]''[end]</data>
+        <data>Munyo !
+(Bon !! On le lit !!)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x247</ref>
         </refs>
-        <data>monyo monyo !
+        <data>Monyo monyo... !!
  
+Rush: ``Matelite, on ne t'obéit plus !! Désormais, c'est nous qui commandons l'armée rebelle !!
  
-Rush: Matelite,nous ne voulons plus vous
-obéir !
-Dès maintenant,nous menons une
-insurrection !
- 
-Cependant,ne t'inquiète pas pour
-[character][0x1] et les autres.[end]</data>
+Comme ça, la princesse Yoyo et tout le monde seront plus tranquilles...''[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x253</ref>
         </refs>
-        <data>manyo !
-``nous n'aimons pas ce qui se
- passe ! rush cause des ennuis !''[end]</data>
+        <data>Manyo !
+(On a pas peur, mais te fâche pas ! C'est Rush qui l'a écrit !)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x25f</ref>
         </refs>
-        <data>munyo !
-``les petits démons récitent
- toujours en minuscules !''[end]</data>
+        <data>Munyo !
+(S'il y a des fautes, c'est pas parce que les Diablotins savent pas lire !)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x26b</ref>
         </refs>
-        <data>monyo !
-``oui,c'est véridique !
- ce n'est pas une légende !''[end]</data>
+        <data>Monyo !
+(Salut !! Message livré !!)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x277</ref>
         </refs>
-        <data>manyo !
-``petit démon et petit démon,
- nous repartons.''[end]</data>
+        <data>Manyo !
+(Les Diablotins rentrent à la planque des Diablotins !!)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x283</ref>
         </refs>
-        <data>munyo !
-``prenez soin de vous,[character][0x1]!''
-``petits démons vous souhaitent
- une mort sacrée.''[end]</data>
+        <data>Munyo !
+(Princesse Yoyo... prompt rétablissement ! Tous les Diablotins prient le dieu de la Mort pour vous !)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2a7</ref>
         </refs>
-        <data>Taicho: ... ... ... ?!
+        <data>Taicho: !!! ??? ...
  
-Mais qu'est-ce que les Petits Démons
-ont voulu dire ?[end]</data>
+Qu'est-ce qu'ils racontaient, les Diablotins, affirmatif ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2c9</ref>
         </refs>
-        <data>Matelite: ... ... ... ...
+        <data>Matelite: ...
  
-Monyo et Manyo sont bien bruyantes ![end]</data>
+Monyo par-ci... Manyo par-là... Quels casse-pieds... !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2ea</ref>
         </refs>
-        <data>Matelite: [character][0x0] et les autres vont passer un
-sale quart d'heure ![end]</data>
+        <data>Matelite: ... Dans un moment pareil, qu'est-ce que fabriquent Byuu et les autres ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2f2</ref>
         </refs>
-        <data>Taicho !
-Prenez soin de [character][0x1],je vais aller voir
-ce qui se passe ![end]</data>
+        <data>Taicho... !!
+ 
+Je vais chercher ces gamins, je te confie la princesse Yoyo... !![end]</data>
     </text>
 </texts>

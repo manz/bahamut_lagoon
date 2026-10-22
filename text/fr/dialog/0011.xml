@@ -4,45 +4,36 @@
         <refs>
             <ref>0x6b9</ref>
         </refs>
-        <data>Sendak: Excellent !
-Écoute ce que j'ai appris...
-
-La Princesse a fait un rêve dans lequel se trouvait le
-Dragon Sacré Léviathan !
+        <data>Sendak: Atchoum... ! Je suis encore enrhumé...
+Le rêve de la princesse... le rêve du Dragon Sacré Léviathan...
  
-Il serait dans une ville voisine...
-Un endroit rempli de lacs !
+Léviathan serait dans un lac souterrain près de ce village.
  
-Matelite et Taicho sont partis en avance pour
-tenter de trouver ce lieu.
+Un lac souterrain où personne n'est jamais entré... J'ai... peur... Et voilà la fièvre qui monte...
+On doit retrouver Matelite, Taicho et les autres là-bas.
  
-Taicho y est allé pour se changer les idées car
-il ne voulait plus penser aux évènements tragiques de Mahal.
-
-Quant à Matelite,il disait aller signer des autographes
-mais en fait il voulait être avec la Princesse.[end]</data>
+Taicho a l'air très occupé à reconstruire Mahal.
+ 
+Matelite, lui, est parti vendre ses armures signées... La princesse est avec lui...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7d5</ref>
         </refs>
-        <data>Sendak: Va-t-on bientôt partir combattre dans ce 
-lieu rempli de lacs ?[end]</data>
+        <data>Sendak: ... Atchoum !! On part pour le lac souterrain ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6bd</ref>
         </refs>
-        <data>  Je me prépare,Sendak.
-  Allons combattre,Sendak ![end1]</data>
+        <data> Attendre... soigne-toi, Sendak !
+ Y aller... ménage-toi, Sendak ![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x868</ref>
         </refs>
-        <data>Marchand envoyé au champ de bataille: Pourquoi est-ce que je regarde le paysage ?!
-
-C'est ma passion...[end]</data>
+        <data>Marchand: Salut... ! Moi... je suis un marchand amoureux...[end]</data>
     </text>
     <text>
         <refs>
@@ -56,161 +47,115 @@ C'est ma passion...[end]</data>
         <refs>
             <ref>0x7e9</ref>
         </refs>
-        <data>Bikebake: Elle a un champignon sur le dos !
-
-
-Cette pieuvre en a un sur le dos !
-
-
-[character][0x0],veux-tu l'attraper ?[end]</data>
+        <data>Bikebake: Rien que des champignons, c'est pas bon pour la santé... Alors je pêche la pieuvre ici ! Tu essaies, Byuu, grand frère ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x64e</ref>
         </refs>
-        <data>Gunso: ``Grognement'' J'avais oublié les sensations
-d'un lit bien de chez soi...
-
-Mais il va falloir bientôt retourner à Fareneit.
-``Grognement''[end]</data>
+        <data>Gunso: (Gratte, gratte) Qu'on est bien dans un lit du pays... Je ne veux plus retourner sur Fareneit (gratte, gratte)...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x858</ref>
         </refs>
-        <data>Ruki: Donfan...[end]</data>
+        <data>Ruki: Dooonfaaan...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x816</ref>
         </refs>
-        <data>Oh,ce matin,je n'ai déjà pas trouvé beaucoup
-de champignons toxiques !
-
-Alors,s'il te plaît... attrape-la ![end]</data>
+        <data>Quoi... ?! Alors encore un petit déj aux champignons vénéneux aujourd'hui... ! Bon, pour acheter notre maison, il faut tenir le coup ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x250</ref>
         </refs>
-        <data>Bikebake: Ah !
-Je vais t'attraper !
-Prends ma main ![end]</data>
+        <data>Bikebake: Ah... ! Ça accroche... ! J'y arrive pas !
+ 
+J'y arrive pas ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x29d</ref>
         </refs>
-        <data>Ruki: Donfan !
+        <data>Ruki: Donfaaan ! Tu nous as espionnées dans notre chambre !
  
-
-Que faisais-tu dans ma chambre, ce matin ?!
- 
-
-Et qu'as-tu été raconter à la Princesse ?![end]</data>
+Et tu as volé le... truc de la princesse Yoyo, aussi ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x348</ref>
         </refs>
-        <data>Ruki: Donfan,tu as voulu faire boire du
-[0xaa]VIN DOUX[0xab] à [character][0x1]...
-
-J'espère que tu avais vu ton reflet dans les lacs
-de Mahal,cette nuit.
+        <data>Ruki: Donfan ! Tu as fait boire du [0xaa]Vin doux[0xab] à la princesse Yoyo...
  
-Donfan,le Naïf,le Misérable,tu lui as parlé
-d'un Dragon Sacré dans un rempli de lacs !
-
-Tu voulais certainement dire...
-les Ruines ![end]</data>
+``Vos yeux brillent comme le ciel nocturne qui se reflète sur le lac de Mahal. Donfan, le dur au coeur pur, va vous montrer le lac souterrain du Dragon Sacré...''
+ 
+Et ensuite... et ensuite... ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x33c</ref>
         </refs>
-        <data>Donfan: Ah ! Bonjour Ruki !
-Moi ?! Ce matin ?!
-Qui ? Dans ta chambre ?
-Ah,tu as sûrement dû sentir la chaleur
-des rayons du soleil.[end]</data>
+        <data>Donfan: Ah... Bonjour... Ruki ! Quelle belle matinée, encore aujourd'hui. Pourquoi, je me le demande... Oui... ce doit être parce que tu brilles comme le soleil levant... enfin, je crois.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x371</ref>
         </refs>
-        <data>Tu es splendide Ruki !
-Mais tu es trop jalouse...
+        <data>Ah, qu'elle est mignonne, Ruki, quand elle est jalouse.
  
-Personne ne te remplacera dans mon si
-grand coeur ![end]</data>
+Mais pas besoin de le dire devant tout le monde ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x384</ref>
         </refs>
-        <data>Donfan: Ruki,tes sentiments dépassent souvent
-ta pensée.[end]</data>
+        <data>Donfan: Ruki... je comprends ce que tu ressens, au point d'en souffrir... enfin, je crois.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x399</ref>
         </refs>
-        <data>Donfan est tombé amoureux de la
-beauté de la Princesse [character][0x1].
+        <data>Que moi, Donfan, je sois tombé amoureux de la princesse de Kana, la princesse Yoyo...
  
-Et je crois que seul le destin décide
-soudainement de l'amour entre homme
-et femme.[end]</data>
+Ce n'est pas un hasard, mais le destin d'un homme et d'une femme... enfin, je crois.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3b6</ref>
         </refs>
-        <data>Je suis tombé amoureux à cause du
-destin.
- 
-L'amour n'est véritable et possible
-qu'avec [0xb1] personnes s'aimant vraiment.
-Donfan et [character][0x1]...
-Où pourrions-nous être,un jour,un
-couple heureux ?[end]</data>
+        <data>Un destin amoureux... écrit dès que tous deux sont nés sous ce ciel... Donfan et Yoyo... deux noms qu'on dira un jour ensemble...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3e0</ref>
         </refs>
-        <data>Ruki,ne dis rien...
-je comprends ta profonde tristesse.
+        <data>Alors, Ruki... tu n'as pas à être triste... enfin, je crois.
  
-Tes sentiments ne sont autres que
-ceux envoyés par le destin.
+L'homme de ta destinée finira sûrement par se présenter.
  
-Et euh... Bikebake pourrait me
-remplacer ?
-Il ne te plaît pas ?!
-Ou bien,il y a aussi [character][0x0]?![end]</data>
+Voyons, euh, comment dire... Que dirais-tu de Bikebake ? Ou de Byuu, là, à côté ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x661</ref>
             <ref>0xab6</ref>
         </refs>
-        <data>Obtenu [0xaa]Gunso ???[0xab].[end]</data>
+        <data>Obtenu [0xaa]??? de Gunso[0xab].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x830</ref>
         </refs>
-        <data>Bikebake: [character][0x0],vieux frère !
-Tu veux des champignons ?[end]</data>
+        <data>Bikebake: Byuu, grand frère ! Miam miam... Un champignon ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x834</ref>
         </refs>
-        <data> J'aimerais en avoir.
- Je n'en ai pas besoin ![end1]</data>
+        <data> J'en veux bien.
+ Non merci.[end1]</data>
     </text>
     <text>
         <refs>
@@ -235,155 +180,141 @@ Tu veux des champignons ?[end]</data>
         <refs>
             <ref>0xba</ref>
         </refs>
-        <data> Un dragon ?![end1]</data>
+        <data> Un Dragon Sacré... ?![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xc6</ref>
         </refs>
-        <data> Quel est ce lieu ?[end1]</data>
+        <data> Où suis-je...[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xd0</ref>
         </refs>
-        <data> De l'eau ?[end1]</data>
+        <data> De l'eau... ?[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xd6</ref>
         </refs>
-        <data> Pourquoi l'eau ?!
- Pourquoi venir à toi ?![end1]</data>
+        <data> Sous l'eau... ?![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x809</ref>
         </refs>
-        <data> Le faire !
- Refuser...[end1]</data>
+        <data> Essayer !
+ Bon courage ![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xb0c</ref>
         </refs>
-        <data>Bikebake: Je vais t'expliquer comment tu dois
-t'y prendre:
-Pour réussir à faire avancer la
-pieuvre,appuie sur Gauche,Bas puis
-Droite.
-Dès qu'elle est près de toi,appuie sur
-le bouton A ![end]</data>
+        <data>Bikebake: Byuu, grand frère, pêche à côté de moi. Quand ça mord, suis la pieuvre : gauche, bas, droite, et quand elle se débat, tire d'un coup avec A ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xbeb</ref>
         </refs>
-        <data>Appuie sur le bouton A ![end]</data>
+        <data>Et là, tire avec A !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb34</ref>
         </refs>
-        <data>Bikebake: Tu l'as ratée !
-La pieuvre s'est enfuie ![end]</data>
+        <data>Bikebake: Ça mord ! Suis bien la pieuvre ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc19</ref>
         </refs>
-        <data>On a eu la pieu... pieuvre ![end]</data>
+        <data>Pieuvre, pieuvre, qu'elle a l'air bonne !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc32</ref>
         </refs>
-        <data>Il faut la forcer à revenir.
-Nous sommes très puissants ![end]</data>
+        <data>Presque ! On recommence ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x240</ref>
         </refs>
-        <data>Donfan: Au secours !
-À l'aide !
-Je vais me noyer ![end]</data>
+        <data>Donfan: Ouaaah ! Quelqu'un ! Au secours !!! ... enfin, je crois !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x28a</ref>
         </refs>
-        <data>Donfan: Ouf Ouf...
-Tu m'as sauvé ! Merci ![end]</data>
+        <data>Donfan: Kof kof... Ah... tu m'as sauvé, merci ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x314</ref>
         </refs>
-        <data>Il faut... vite partir !
-Il faut... TRÈS VITE partir !
-Donfan a de gros ennuis ![end]</data>
+        <data>Oh, oh, mauvais... Que faire... que faire... Ah, la pire crise de toute la vie de Donfan...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xac7</ref>
         </refs>
-        <data>Obtenu [0xaa]ROBE NIMBUS[0xab].[end]</data>
+        <data>Obtenu [0xaa]Robe Nimbus[0xab].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xad8</ref>
         </refs>
-        <data>Obtenu [0xaa]MAIN GAUCHE[0xab].[end]</data>
+        <data>Obtenu [0xaa]Main-gauche[0xab].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xae9</ref>
         </refs>
-        <data>Obtenu [0xb5] [0xaa]HERBE TERRE[0xab].[end]</data>
+        <data>Obtenu [0xb5] [0xaa]Herbe de terre[0xab].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x672</ref>
         </refs>
-        <data>Obtenu par la pieuvre:
-[0xaa]BATARDE[0xab]
-[0xaa]AURORA[0xab].[end]</data>
+        <data>La pieuvre a recraché...
+Obtenu [0xaa]Épée bâtarde[0xab]
+et [0xaa]Aurore[0xab].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xafe</ref>
         </refs>
-        <data>Obtenu [0xb4] [0xaa]VIN DOUX[0xab].[end]</data>
+        <data>Obtenu [0xb4] [0xaa]Vin doux[0xab].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa2c</ref>
         </refs>
         <data>Obtenu de Ruki:
-[0xb2] [0xaa]CHOSE SUR L'ETAGERE[0xab].[end]</data>
+[0xb2] [0xaa]Truc du tiroir[0xab].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa41</ref>
         </refs>
         <data>Obtenu de Gunso:
-[0xb5] [0xaa]CHOSE SUR L'ETAGERE[0xab].[end]</data>
+[0xb5] [0xaa]Truc du tiroir[0xab].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa11</ref>
         </refs>
-        <data>Obtenu de Ruki:
-[0xb2] [0xaa]VIN CUIT[0xab]
-[0xb1] [0xaa]VODKA[0xab].[end]</data>
+        <data>Obtenu, entamés par Ruki:
+[0xb2] [0xaa]Vin amer[0xab]
+[0xb1] [0xaa]Super vodka[0xab].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9fa</ref>
         </refs>
         <data>Obtenu de Gunso:
-[0xb1] [0xaa]LIVRE DE STRATEGIE[0xab]
-[0xb0] [0xaa]NOTE DE PRODIGE[0xab].[end]</data>
+[0xb1] [0xaa]Traité tactique[0xab]
+[0xb0] [0xaa]Notes d'élève[0xab].[end]</data>
     </text>
 </texts>

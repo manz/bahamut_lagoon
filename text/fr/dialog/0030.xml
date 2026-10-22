@@ -4,47 +4,43 @@
         <refs>
             <ref>0x3eb</ref>
         </refs>
-        <data>Truth: Les forces de Granbelos sont trop puissantes !
-Nous devrions battre en retraite...[end]</data>
+        <data>Truth: Les... les troupes des généraux de Granbelos... !
+Il... il ne nous reste qu'à battre en retraite...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3f8</ref>
         </refs>
-        <data>Mist: [character][0x0],arrête Matelite...[end]</data>
+        <data>Mist: ... Byuu...
+Arrête Matelite...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3db</ref>
         </refs>
-        <data>Rush: Les Commandants de l'Empire sont si
-forts...
-Je... n'avais jamais... eu si peur ![end]</data>
+        <data>Rush: Les généraux de l'Empire... si forts...
+ 
+C'est la première fois... que je ressens... ça...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3cb</ref>
         </refs>
-        <data>Sendak: La Princesse [character][0x1]![end]</data>
+        <data>Sendak: Princesse Yoyo... Sire...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5d6</ref>
         </refs>
-        <data>Sauzer: La Princesse de Kana...
-Une Dragoon !
-Aurait-elle des pouvoirs plus puissants
-que ceux du Dragon Sacré Bahamut ?!
+        <data>Sauzer: Roi de Kana...
  
-Ou est-ce simplement une légende,
-Roi de Kana ?[end]</data>
+La puissance d'un Dragonnier... la puissance du Dragon Sacré Bahamut... n'est donc que cela... ? La légende... n'était donc qu'une légende...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x53f</ref>
         </refs>
-        <data>Sauzer: Nous allons prendre la Princesse de
-Kana avec nous ![end]</data>
+        <data>Sauzer: Emmenez la princesse Yoyo.[end]</data>
     </text>
     <text>
         <refs>
@@ -66,49 +62,36 @@ de Kana ?![end]</data>
         <refs>
             <ref>0x5e8</ref>
         </refs>
-        <data>Roi de Kana: La Légende !
- 
-Comment se fait-il que tu la
-connaisses ?[end]</data>
+        <data>Roi de Kana: ... ! La légende... ! Comment peux-tu... connaître la légende... ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5f2</ref>
         </refs>
-        <data>Sauzer: Sachez,Roi de Kana,que seules les
-époques choisissent la personne qui
-les dirigera !
-J'ai été moi-même choisi et je suis
-l'élu ![end]</data>
+        <data>Sauzer: Roi de Kana...
+L'époque choisit toujours un seul homme. Et on l'appelle alors... un héros.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x604</ref>
         </refs>
-        <data>Roi de Kana: Tu sembles te surestimer Sauzer ![end]</data>
+        <data>Roi de Kana: Que manigances-tu... Sauzer... ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x612</ref>
         </refs>
-        <data>Le Dragon Sacré ne se réveillera pas !
-Et nous ne te laisserons pas avoir son
-pouvoir ![end]</data>
+        <data>Les Dragons Sacrés ne s'éveilleront pas !
+ 
+Je ne te laisserai pas... la puissance des Dragons Sacrés ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x61f</ref>
         </refs>
-        <data>Sauzer: Ainsi Bahamut ne s'est pas réveillé,
-n'est-ce pas ?
-Je suppose qu'il n'est simplement pas
-encore l'heure !
+        <data>Sauzer: Les Dragons Sacrés ne s'éveilleront pas... ? Soit... Leur éveil... est pour bientôt !
  
-Cependant,d'ici là,le monde entier
-sera à moi !
- 
-Dès aujourd'hui,une nouvelle ère
-commence ![end]</data>
+Le monde, je vais le prendre de mes mains... Cela commence... ici, en cet instant ![end]</data>
     </text>
     <text>
         <refs>
