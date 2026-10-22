@@ -12,7 +12,7 @@
     <string icon="0xd5" jp="グナイゼナウ">Gneisenau</string>
     <string icon="0xd5" jp="ドレッドノ-ト">Dreadnought</string>
     <string icon="0xd6" jp="バトルアクス">Hache</string>
-    <string icon="0xd6" jp="バ-ニングアクス">Hache ardente</string>
+    <string icon="0xd6" jp="バ-ニングアクス">Hache brûlante</string>
     <string icon="0xd6" jp="クレッセント">Croissant</string>
     <string icon="0xd6" jp="グランドスラム">Grand Chelem</string>
     <string icon="0xd6" jp="ニュルニム">Nurnim</string>
@@ -25,7 +25,7 @@
     <string icon="0xd7" jp="カッサンドラ">Cassandre</string>
     <string icon="0xd7" jp="マインゴ-シュ">Main-gauche</string>
     <string icon="0xd7" jp="シグル-ン">Sigrun</string>
-    <string icon="0xd7" jp="エタンダ-ル">Etendard</string>
+    <string icon="0xd7" jp="エタンダ-ル">Étendard</string>
     <string icon="0xd7" jp="ヴァンピネラ">Vampinella</string>
     <string icon="0xd7" jp="プリンツオイゲン">Prinz Eugen</string>
     <string icon="0xd8" jp="ハルベルト">Hallebarde</string>
@@ -39,7 +39,7 @@
     <string icon="0xd9" jp="ロッド">Bâton</string>
     <string icon="0xd9" jp="ファイアロッド">Bâton de feu</string>
     <string icon="0xd9" jp="フリ-ズロッド">Bâton de glace</string>
-    <string icon="0xd9" jp="サンダ-ロッド">Bâton foudre</string>
+    <string icon="0xd9" jp="サンダ-ロッド">Bâton de foudre</string>
     <string icon="0xd9" jp="ドラッグロッド">Bâton de soin</string>
     <string icon="0xd9" jp="マスタ-ロッド">Bâton maître</string>
     <string icon="0xd9" jp="アソウルト">Assaut</string>
@@ -50,7 +50,7 @@
     <string icon="0xda" jp="デルタダガ-">Dague delta</string>
     <string icon="0xda" jp="ク-ゲルブリッツ">Kugelblitz</string>
     <string icon="0xda" jp="デリンジャ-">Derringer</string>
-    <string icon="0xdb" jp="プレ-トメイル">Armure plates</string>
+    <string icon="0xdb" jp="プレ-トメイル">Harnois</string>
     <string icon="0xdb" jp="アイスア-マ-">Armure de glace</string>
     <string icon="0xdb" jp="ダイヤア-マ-">Armure diamant</string>
     <string icon="0xdb" jp="フレイムメイル">Armure de feu</string>
@@ -78,7 +78,7 @@
     <string icon="0xdc" jp="エネルギ-ス-ツ">Tenue énergie</string>
     <string icon="0xdd" jp="シルクロ-ブ">Robe de soie</string>
     <string icon="0xdd" jp="ガイア-ド">Gaiard</string>
-    <string icon="0xdd" jp="バ-ニング">Ardente</string>
+    <string icon="0xdd" jp="バ-ニング">Brûlante</string>
     <string icon="0xdd" jp="ニンバスロ-ブ">Robe Nimbus</string>
     <string icon="0xdd" jp="アウロ-ラ">Aurore</string>
     <string icon="0xdd" jp="サンダ-ラ">Sandara</string>
@@ -97,7 +97,7 @@
     <string icon="0xde" jp="ばんのうやくSP">Panacée SP</string>
     <string icon="0xe0" jp="ほのおのくさ">Herbe de feu</string>
     <string icon="0xe0" jp="こおりのくさ">Herbe de glace</string>
-    <string icon="0xe0" jp="いかずちのくさ">Herbe foudre</string>
+    <string icon="0xe0" jp="いかずちのくさ">Herbe de foudre</string>
     <string icon="0xe0" jp="どくのくさ">Herbe toxique</string>
     <string icon="0xe0" jp="いのちのくさ">Herbe de vie</string>
     <string icon="0xe0" jp="だいちのくさ">Herbe de terre</string>
@@ -123,8 +123,8 @@
     <string icon="0xe0" jp="にがいワイン">Vin amer</string>
     <string icon="0xe0" jp="どくどくキノコ">Champi toxique</string>
     <string icon="0xe0" jp="けばけばキノコ">Champi criard</string>
-    <string icon="0xe0" jp="ぐろぐろキノコ">Champi gluant</string>
-    <string icon="0xe0" jp="うにうじ">Asticot uni</string>
+    <string icon="0xe0" jp="ぐろぐろキノコ">Champi glauque</string>
+    <string icon="0xe0" jp="うにうじ">Uniasticot</string>
     <string icon="0xe0" jp="おうじょの???">??? princesse</string>
     <string icon="0xe0" jp="グンソ-の???">??? de Gunso</string>
     <string icon="0xe0" jp="おてがみ">Lettre</string>
