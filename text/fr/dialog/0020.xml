@@ -4,8 +4,8 @@
         <refs>
             <ref>0x91</ref>
         </refs>
-        <data>                    Chapitre [0xb1]
-               -La légende dont nous rêvions-[end]</data>
+        <data>  Chapitre [0xb1]
+  -La légende dont nous rêvions-[end]</data>
     </text>
     <text>
         <refs>
@@ -523,8 +523,9 @@ Normalement, je me ferais gronder... mais vous voulez y jeter un petit coup d'oe
         <refs>
             <ref>0x19e7</ref>
         </refs>
-        <data>Conseil de guerre en cours ! Défense d'entrer !!
-                          -Matelite-[end]</data>
+        <data>  Conseil de guerre en cours :
+  défense d'entrer !!
+  -Matelite-[end]</data>
     </text>
     <text>
         <refs>
@@ -804,8 +805,8 @@ Mais ça, il vaudrait peut-être mieux éviter.
         <refs>
             <ref>0x9a</ref>
         </refs>
-        <data>                Chapitre [0xb1][0xaf]
-         -Le ciel de la tristesse-[end]</data>
+        <data>  Chapitre [0xb1][0xaf]
+  -Le ciel de la tristesse-[end]</data>
     </text>
     <text>
         <refs>
@@ -889,11 +890,11 @@ Cette personne a le dos tout gluant de bave de dragon...[end]</data>
         <refs>
             <ref>0x19ec</ref>
         </refs>
-        <data>       Le capitaine Sendak doit
-          garder le repos.
+        <data>  Le capitaine Sendak
+  doit garder un repos absolu.
  
-        Défense d'entrer !!
-                              -Zora-[end]</data>
+  Défense d'entrer !!
+  -Zora-[end]</data>
     </text>
     <text>
         <refs>

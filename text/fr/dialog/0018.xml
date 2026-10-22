@@ -62,8 +62,8 @@ Parce que je n'arrive pas à devenir Dragonnière... Parce que mon coeur est fai
         <refs>
             <ref>0x2b1</ref>
         </refs>
-        <data>                   Chapitre [0xb0][0xb7]
-                  -La Terre promise-[end]</data>
+        <data>  Chapitre [0xb0][0xb7]
+  -La Terre promise-[end]</data>
     </text>
     <text>
         <refs>
@@ -130,11 +130,12 @@ Mais je n'ai plus d'autre choix... Tant pis...[end]</data>
         <refs>
             <ref>0xf30</ref>
         </refs>
-        <data>         Quand on tend l'oreille...
+        <data>  Si l'on tend l'oreille...
  
-     on entend le rire de Matelite...
+  on entend résonner
+  le grand rire de Matelite...
  
-               Gwahahaha...[end]</data>
+  Gwahahahaha...[end]</data>
     </text>
     <text>
         <refs>

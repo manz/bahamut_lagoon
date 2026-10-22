@@ -4,42 +4,41 @@
         <refs>
             <ref>0x141</ref>
         </refs>
-        <data>                -Empire Granbelos-[end1]</data>
+        <data>  -Empire de Granbelos-[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x17f</ref>
         </refs>
-        <data>              Peuple de l'Empire...
+        <data>  Peuple de l'Empire...
  
-          L'Empereur Sauzer a affronté
-          la légende des Dragons Sacrés
-           au péril de sa propre vie...[end]</data>
+  Notre empereur Sauzer a défié
+  la légende des Dragons Sacrés
+  au péril de sa propre vie...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1a2</ref>
         </refs>
-        <data>      ...Il est aujourd'hui tombé malade,
-     mais il n'y a pas lieu de s'inquiéter...[end]</data>
+        <data>  ...Si la maladie l'a aujourd'hui terrassé,
+  nul ne doit pour autant s'en inquiéter...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1c5</ref>
         </refs>
-        <data>          L'Empereur Sauzer connaît
-     désormais le coeur des Dragons Sacrés...[end]</data>
+        <data>  Car l'empereur Sauzer a percé le secret
+  du coeur des Dragons Sacrés...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1e0</ref>
         </refs>
-        <data>         La Nouvelle Ère que souhaitait
-                 l'Empereur...
+        <data>  La Nouvelle Ère à laquelle aspirait
+  notre empereur...
  
-          Nous,l'Empire Granbelos,
-              serons les maîtres
-             de la Nouvelle Ère...[end]</data>
+  C'est nous, l'Empire de Granbelos,
+  qui en serons les maîtres...[end]</data>
     </text>
     <text>
         <refs>
@@ -71,8 +70,8 @@ Les blessures de l'amour,les tourments de la passion... un doux moment avec Donf
         <refs>
             <ref>0x4a8</ref>
         </refs>
-        <data>                    Donfan
-             et la [0xb3][0xb7]e femme courtisée ![end]</data>
+        <data>  Donfan, bourreau des coeurs :
+  [0xb3][0xb7] conquêtes !![end]</data>
     </text>
     <text>
         <refs>
@@ -86,8 +85,8 @@ Je vais t'offrir un rêve de princesse.[end]</data>
         <refs>
             <ref>0x5c3</ref>
         </refs>
-        <data>                    Donfan
-             et la [0xb5][0xb8]e femme courtisée ![end]</data>
+        <data>  Donfan, bourreau des coeurs :
+  [0xb5][0xb8] conquêtes !![end]</data>
     </text>
     <text>
         <refs>
@@ -137,15 +136,15 @@ Euh... euh...[end]</data>
         <refs>
             <ref>0x6a9</ref>
         </refs>
-        <data>                    Donfan
-           et la [0xb0][0xaf][0xaf]e femme courtisée[0xd8][end]</data>
+        <data>  Donfan, bourreau des coeurs :
+  [0xb0][0xaf][0xaf] conquêtes[0xd8][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6b7</ref>
         </refs>
-        <data>            Le nom de Donfan résonna
-       dans tout l'Empire Granbelos.[end]</data>
+        <data>  Le nom de Donfan retentit
+  dans tout l'Empire de Granbelos.[end]</data>
     </text>
     <text>
         <refs>
@@ -284,7 +283,7 @@ Elle s'appelle... Yoyo.[end]</data>
             <ref>0x3e9</ref>
             <ref>0x93f</ref>
         </refs>
-        <data>              -Château de Granbelos-[end]</data>
+        <data>  -Château de Granbelos-[end]</data>
     </text>
     <text>
         <refs>
@@ -312,32 +311,34 @@ C'est toi qui remplaceras Sauzer !![end]</data>
         <refs>
             <ref>0xaf3</ref>
         </refs>
-        <data>             La mort de l'empereur...
+        <data>  La mort d'un empereur...
  
-              La mort d'un homme...
+  La mort d'un homme...
  
-                  Rien de plus...[end]</data>
+  Rien de plus, rien de moins...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xafd</ref>
         </refs>
-        <data>             L'Empire Granbelos...
+        <data>  L'Empire de Granbelos...
  
-              Prélude à sa chute...[end]</data>
+  Ainsi commençait sa chute...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x561</ref>
         </refs>
-        <data>          -Général Persona de Granbelos-
-              Passe-temps: le ménage.[end]</data>
+        <data>  Général de Granbelos
+  Persona
+  Passe-temps : le ménage[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x646</ref>
         </refs>
-        <data>          -Général Arbain de Granbelos-
-      Passe-temps: l'entraînement à l'épée.[end]</data>
+        <data>  Général de Granbelos
+  Arbain
+  Passe-temps : s'entraîner à l'épée[end]</data>
     </text>
 </texts>

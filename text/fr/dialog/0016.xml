@@ -6,43 +6,43 @@
             <ref>0x76</ref>
             <ref>0x5e</ref>
         </refs>
-        <data>                [character][0x1]...[end]</data>
+        <data>  Yoyo...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x81</ref>
         </refs>
-        <data>            Éveille-toi...[end]</data>
+        <data>  Éveille-toi...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa6</ref>
         </refs>
-        <data>               [character][0x1]...
+        <data>  Yoyo...
  
-     Toi qui deviendras Dragonnière,
-               éveille-toi...
+  Toi qui deviendras Dragonnière,
+  éveille-toi...
  
-         Le temps presse.[end]</data>
+  Le temps nous est compté.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc2</ref>
         </refs>
-        <data>     Je suis le Dragon Sacré Jormungand.
-     Je t'attends au temple du désert.
+        <data>  Je suis Jormungand, le Dragon Sacré.
+  Je t'attends au temple du désert.
  
-        Là... je te dirai tout.
+  Là, enfin... je te révélerai tout.
  
-     Nous, les Dragons Sacrés...
-         avons besoin de toi.[end]</data>
+  Nous, les Dragons Sacrés...
+  nous avons besoin de toi.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc8</ref>
         </refs>
-        <data>             Viens...
-  Ouvre la porte, et viens à moi.[end]</data>
+        <data>  Viens...
+  Ouvre la porte, et viens jusqu'à moi.[end]</data>
     </text>
     <text>
         <refs>
@@ -226,7 +226,7 @@ Si vraiment... tous mes souhaits peuvent se réaliser... il y a une chose que je
         <refs>
             <ref>0x534</ref>
         </refs>
-        <data>           Chapitre [0xb0][0xb5]
-   -Le Dragon Sacré Jormungand-[end][end]</data>
+        <data>  Chapitre [0xb0][0xb5]
+  -Le Dragon Sacré Jormungand-[end][end]</data>
     </text>
 </texts>

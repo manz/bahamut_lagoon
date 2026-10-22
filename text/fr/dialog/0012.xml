@@ -4,8 +4,8 @@
         <refs>
             <ref>0xa4</ref>
         </refs>
-        <data>                   Chapitre [0xb0][0xb1]
-                -Opération espionnage-[end]</data>
+        <data>  Chapitre [0xb0][0xb1]
+  -Opération espionnage-[end]</data>
     </text>
     <text>
         <refs>
@@ -137,21 +137,21 @@ En gros, Dooonfan, le dur au coeur pur, doit aller séduire [0xb0][0xaf][0xaf] f
         <refs>
             <ref>0x3c7</ref>
         </refs>
-        <data>  Cette dangereuse mission a
-        été un succès.[end]</data>
+        <data>  La périlleuse mission
+  fut couronnée de succès.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3e4</ref>
         </refs>
-        <data>   La mission a échoué, et le
- matelot est rentré au pays...[end]</data>
+        <data>  La mission se solda par un échec,
+  et le matelot rentra dans son village...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4ff</ref>
         </refs>
-        <data>       La fin du matelot...[end]</data>
+        <data>  Ainsi s'acheva la vie du matelot...[end]</data>
     </text>
     <text>
         <refs>

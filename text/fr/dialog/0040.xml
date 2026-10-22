@@ -4,32 +4,32 @@
         <refs>
             <ref>0xa0</ref>
         </refs>
-        <data>                La pluie a cessé...[end]</data>
+        <data>  La pluie a cessé...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa4</ref>
         </refs>
-        <data>                     Céline...[end]</data>
+        <data>  ...Céline...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa8</ref>
         </refs>
-        <data>                J'ai vaincu Lestat.[end]</data>
+        <data>  J'ai terrassé Lestat.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xac</ref>
         </refs>
-        <data>                 Alors,toi...
-            et le peuple de Mahal...[end]</data>
+        <data>  Avec cela... toi, Céline...
+  et vous, gens de Mahal...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb0</ref>
         </refs>
-        <data>           Me pardonnerez-vous,enfin ?[end]</data>
+        <data>  ...me pardonnerez-vous enfin ?[end]</data>
     </text>
     <text>
         <refs>
@@ -38,222 +38,219 @@
             <ref>0x1ab</ref>
             <ref>0xb4</ref>
         </refs>
-        <data>                     Céline...[end]</data>
+        <data>  Céline...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x101</ref>
             <ref>0xeb</ref>
         </refs>
-        <data>                 Mon chéri...[end]</data>
+        <data>  Mon chéri...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf8</ref>
         </refs>
-        <data>                   Cé... Céline ?![end]</data>
+        <data>  Cé... Céline ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x105</ref>
         </refs>
-        <data>       La promesse que tu m'avais faite...[end]</data>
+        <data>  La promesse que tu m'avais faite...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x109</ref>
         </refs>
-        <data>                tu l'as tenue...[end]</data>
+        <data>  tu l'as tenue...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x11b</ref>
         </refs>
-        <data>               Merci,mon chéri.[end]</data>
+        <data>  Merci, mon chéri.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x11f</ref>
         </refs>
-        <data>              Hihi... Autrefois,
-     nous venions souvent ici tous les deux
-           pour voir l'arc-en-ciel.[end]</data>
+        <data>  Hihi... Autrefois, tous les deux,
+  nous venions souvent ici
+  dans l'espoir de voir l'arc-en-ciel.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x128</ref>
         </refs>
-        <data>              ...Tu te souviens ?[end]</data>
+        <data>  ...Tu t'en souviens ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x12c</ref>
         </refs>
-        <data>         L'arc-en-ciel ne venait jamais,
-     et toi,si impatient,tu t'énervais...
+        <data>  Mais l'arc-en-ciel ne venait jamais,
+  et toi, si impatient, tu te fâchais...
  
-     ``Pas d'arc-en-ciel !
-       Toujours pas,affirmatif !!''
-                ...comme ça.[end]</data>
+  ``Pas d'arc-en-ciel, affirmatif !
+  Toujours pas !!''
+  ...voilà ce que tu disais.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x130</ref>
         </refs>
-        <data>           ...Mais c'était bien.
-     Nos beaux souvenirs à nous deux...
-                  Hihi...[end]</data>
+        <data>  ...Mais nous étions heureux.
+  Ce sont nos plus doux souvenirs...
+  Hihi...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x142</ref>
         </refs>
-        <data>               Dis,mon chéri.[end]</data>
+        <data>  Dis-moi, mon chéri...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x146</ref>
         </refs>
-        <data>        Tu es devenu un chevalier
-                formidable...[end]</data>
+        <data>  Tu es devenu un si grand chevalier...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x14f</ref>
         </refs>
-        <data>           Byuu et Matelite de Kana
-      sont forts et beaux eux aussi,mais[end]</data>
+        <data>  Byuu et Matelite, de Kana, sont forts
+  et ont fière allure, eux aussi... mais[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x153</ref>
         </refs>
-        <data>            pour moi,c'est toi...
-              le plus merveilleux.
-                  Hihi...[end]</data>
+        <data>  à mes yeux, c'est toi...
+  le plus merveilleux de tous.
+  Hihi...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x157</ref>
         </refs>
-        <data>           ...Je te l'avais caché...
-        Quand Mahal a été attaquée...
-                ...tu sais...[end]</data>
+        <data>  ...Je te l'ai caché, mais...
+  quand Mahal a été attaquée...
+  ...vois-tu, je...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x15b</ref>
         </refs>
-        <data>           j'attendais un enfant.[end]</data>
+        <data>  je portais notre enfant.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x15f</ref>
         </refs>
-        <data>      Pardonne-moi de m'être tue.[end]</data>
+        <data>  Pardonne-moi de ne t'avoir rien dit.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x163</ref>
         </refs>
-        <data>       À l'époque,tu ne pensais
-                qu'à la guerre
-            contre l'Empire...[end]</data>
+        <data>  À l'époque, tu semblais n'avoir en tête
+  que la guerre contre l'Empire...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x167</ref>
         </refs>
-        <data>        Je ne voulais pas t'inquiéter.[end]</data>
+        <data>  Je ne voulais pas t'accabler
+  d'un souci de plus.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x16b</ref>
         </refs>
-        <data>         En vérité... je voulais tant
-        te le dire... te l'annoncer...
-              que tu l'entendes...[end]</data>
+        <data>  En vérité... je brûlais tant
+  de te l'annoncer... de te le dire...
+  je voulais tant que tu l'entendes...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x16f</ref>
         </refs>
-        <data>        Mais toi,tu ne pensais
-                qu'à Mahal...[end]</data>
+        <data>  Mais toi... tu t'inquiétais sans cesse
+  pour Mahal, et pour Mahal seule...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x173</ref>
         </refs>
-        <data>     C'est pour ça que je n'ai rien dit.[end]</data>
+        <data>  Alors je n'ai rien pu te dire.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x177</ref>
         </refs>
-        <data>         J'avais choisi les prénoms.
-     Un garçon,ce serait ``Shogun''.
-          Une fille,``Chiko''.[end]</data>
+        <data>  J'avais déjà choisi les prénoms.
+  Si c'était un garçon, ``Shogun''...
+  et si c'était une fille, ``Chiko''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x190</ref>
         </refs>
-        <data>              Un arc-en-ciel... ?![end]</data>
+        <data>  Un arc-en-ciel... ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x199</ref>
         </refs>
-        <data>        C'est l'arc-en-ciel,mon chéri ![end]</data>
+        <data>  Regarde, l'arc-en-ciel, mon chéri ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1a2</ref>
         </refs>
-        <data>       J'aurais voulu le voir avec toi
-             de mon vivant...
-            cet arc-en-ciel...
-                 Alors...
-       mon voeu se serait réalisé...[end]</data>
+        <data>  J'aurais tant voulu le voir avec toi,
+  de mon vivant, cet arc-en-ciel...
+  Alors... mon voeu, lui aussi,
+  se serait exaucé...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1b4</ref>
         </refs>
-        <data>        Tu te souviens ? On dit que
-      celui qui voit cet arc-en-ciel
-       verra tous ses voeux exaucés.[end]</data>
+        <data>  Tu te souviens ? On raconte que
+  quiconque voit cet arc-en-ciel
+  verra son voeu exaucé, quel qu'il soit.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1b8</ref>
         </refs>
-        <data>         Mon voeu,aujourd'hui...
+        <data>  Mon voeu, aujourd'hui...
  
-       Que tous les peuples du monde
-             vivent en paix !
-           Un monde sans guerres
-              ni querelles ![end]</data>
+  c'est que tous les peuples du monde
+  vivent en paix !
+  Un monde sans guerres ni querelles ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1c1</ref>
         </refs>
-        <data>             ...Ce serait bien...[end]</data>
+        <data>  ...Ce serait si beau...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1de</ref>
         </refs>
-        <data>         N'est-ce pas... ? Mon chéri...[end]</data>
+        <data>  N'est-ce pas... ? Mon chéri...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1ef</ref>
         </refs>
-        <data>                 ...Céline !!
-                  Ton voeu...
-          c'est moi qui l'exaucerai ![end]</data>
+        <data>  ...Céline !!
+  Ton voeu...
+  je fais le serment de l'exaucer ![end]</data>
     </text>
 </texts>

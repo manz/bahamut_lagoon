@@ -4,41 +4,42 @@
         <refs>
             <ref>0xda</ref>
         </refs>
-        <data>                -Empire Granbelos-[end1]</data>
+        <data>  -Empire de Granbelos-[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xf0</ref>
         </refs>
-        <data>                Le génie militaire,
-                l'Empereur Sauzer,[end1]</data>
+        <data>  Le génie de la guerre,
+  l'empereur Sauzer,[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x125</ref>
         </refs>
-        <data>          avait pour rêve de conquérir le ciel
-             et d'y assoir sa domination.[end1]</data>
+        <data>  tourna son ambition et ses rêves
+  vers la conquête des cieux...[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x13b</ref>
         </refs>
-        <data>          C'est ainsi que la guerre survint...[end1]</data>
+        <data>  Et ainsi...
+  la guerre éclata.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x3ed</ref>
         </refs>
-        <data>          Le feu de la guerre couvrit le ciel...
-                et d'innombrables lagons
-           tombèrent aux mains de l'Empire.[end1]</data>
+        <data>  Le feu de la guerre embrasa le ciel...
+  et d'innombrables lagons
+  tombèrent aux mains de l'Empire.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x763</ref>
         </refs>
-        <data>             Ainsi le ciel se teinta d'une
-               mélancolique couleur...[end1]</data>
+        <data>  Le ciel...
+  se teinta des couleurs du chagrin.[end1]</data>
     </text>
 </texts>

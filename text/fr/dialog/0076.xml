@@ -5,8 +5,8 @@
             <ref>0x79</ref>
         </refs>
         <data>
-                   Chapitre [0xb1][0xb0]
-            -Le Dragon Sacré Bahamut-[end]</data>
+  Chapitre [0xb1][0xb0]
+  -Le Dragon Sacré Bahamut-[end]</data>
     </text>
     <text>
         <refs>
@@ -942,8 +942,8 @@ Ne t'en fais pas, ces deux-là partiront au combat comme il faut.[end]</data>
             <ref>0x1d8</ref>
         </refs>
         <data>
-                   Chapitre [0xb1][0xb1]
-               -L'Ultime Bataille-[end]</data>
+  Chapitre [0xb1][0xb1]
+  -L'ultime bataille-[end]</data>
     </text>
     <text>
         <refs>
@@ -973,7 +973,7 @@ Ne t'en fais pas, ces deux-là partiront au combat comme il faut.[end]</data>
         <refs>
             <ref>0x218</ref>
         </refs>
-        <data>Matelite: Il paraît que la porte du ciel s'est ouverte. La porte d'une ère nouvelle. Byuu. Je te confie la suite. Moi...[end]</data>
+        <data>Matelite: Il paraît que la porte du ciel s'est ouverte. La porte de la Nouvelle Ère. Byuu. Je te confie la suite. Moi...[end]</data>
     </text>
     <text>
         <refs>
@@ -1517,7 +1517,7 @@ Pourquoi la porte s'est refermée il y a très longtemps, les Dragons Sacrés eu
             <ref>0x463</ref>
         </refs>
         <data>
-                  Chapitre [0xb1][0xb3]
-                -Vers la Patrie-[end][end]</data>
+  Chapitre [0xb1][0xb3]
+  -Vers le pays natal...-[end][end]</data>
     </text>
 </texts>
