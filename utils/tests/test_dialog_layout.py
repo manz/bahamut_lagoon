@@ -137,6 +137,12 @@ class DialogLayoutTestCase(TestCase):
         prompt = "Que fais-tu ?\nAttaquer\nFuir[end]"
         self.assertEqual(self.layout.reflow(prompt, keep_lines=True), prompt)
 
+    def test_a_card_line_before_a_choice_is_centred(self) -> None:
+        line = self.layout.reflow("  Prologue[end1]").removesuffix("[end1]")
+        left = self.layout.width(line[: len(line) - len(line.lstrip(" "))])
+        right = LINE_WIDTH - left - self.layout.width("Prologue")
+        self.assertLessEqual(abs(left - right), self.layout.width(" "))
+
     def test_a_choice_option_is_set_two_spaces_in(self) -> None:
         prompt = "Que fais-tu ?\n Attaquer\n   Fuir[end]"
         self.assertEqual(self.layout.reflow(prompt, keep_lines=True), "Que fais-tu ?\n  Attaquer\n  Fuir[end]")
