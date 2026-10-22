@@ -65,6 +65,7 @@ WINDOW_VRAM = 0x3000  ; BG1 tile 0x300, 8x8 code 0x00, 4bpp
 WINDOW_TILE_BYTES = 32
 ROSTER_NAME_CELLS = 7
 ROSTER_CLASS_CELLS = 7
+DRAGON_KIND_CELLS = 9
 MIN_CHARS = 3  ; shorter copies (LV, HP) keep the font
 SLOT_STALE = 0x01  ; not drawn since its row was last drawn
 ALL_RUNS = 0x0F  ; the panel's
@@ -196,6 +197,12 @@ WINDOW_TILEMAP_WAITS = 2  ; vblanks it waits for room at most, then goes up anyw
 .alloc at 0xC0E036 {
     .dw LINE + ROSTER_NAME_CELLS + 1  ; the class (ldx #0x0627 / lda #0x08)
     .db 0xA9, ROSTER_CLASS_CELLS
+}
+
+; A dragon's line in the unit panel (C0DC1F): its kind in parentheses took 8 cells; Guerrier d'argile needs 9 (68
+; pixels), or the closing parenthesis, set past the field's last non-blank cell, covers its last letter.
+.alloc at 0xC0DC3D {
+    .db DRAGON_KIND_CELLS  ; lda #0x08
 }
 
 ; The window font upload's last transfer (sta $420B / rts) writes over the window slots.
@@ -397,9 +404,9 @@ _kept:
 
 _fill_cells:
 """
-Fill the field's $08 cells: a placeholder where small_vwf drew or a character remains, else a blank, then a blank
-past the end as the engine leaves it; the line copy keeps each cell's character and whether small_vwf drew it. X ends
-on that blank.
+Fill the field's $08 cells: a placeholder where small_vwf drew, else a blank (the engine trims those back), then a
+blank past the end as the engine leaves it; the line copy keeps each cell's character and whether small_vwf drew it.
+X ends on that blank.
 """
     rep #0x20
     lda.w #0x0000
@@ -422,6 +429,10 @@ _fill:
     sep #0x20
     txa
     cmp.l small_vwf.chars
+    lda #BLANK
+    bcs _char
+    txa
+    cmp.l small_vwf.cells  ; past the ink, its characters already drawn: blank, so the engine trims it
     lda #BLANK
     bcs _char
     lda.l small_vwf.text, x
