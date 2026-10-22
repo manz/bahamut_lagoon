@@ -528,8 +528,7 @@ Fêtons ça ![end]</data>
         <refs>
             <ref>0xa4d</ref>
         </refs>
-        <data>Donfan:
-Hoho ! C'est toi Jeanne !
+        <data>Donfan: Hoho ! C'est toi Jeanne !
 Tu es une magnifique Armure Lumière !
 Comment vas-tu ?
 Hum Hum !
@@ -539,8 +538,7 @@ Il fait beau aujourd'hui ?![end]</data>
         <refs>
             <ref>0xa64</ref>
         </refs>
-        <data>Jeanne:
-Pas un mot de plus,épave ![end]</data>
+        <data>Jeanne: Pas un mot de plus,épave ![end]</data>
     </text>
     <text>
         <refs>
@@ -554,8 +552,7 @@ vaincre Restatto ![end]</data>
         <refs>
             <ref>0xa83</ref>
         </refs>
-        <data>Donfan:
-Restatto ? L'Empire ?
+        <data>Donfan: Restatto ? L'Empire ?
 Ooooh...
 Ne crains rien,car Donfan a rejoint
 les Rebelles.[end]</data>
@@ -564,8 +561,7 @@ les Rebelles.[end]</data>
         <refs>
             <ref>0xa8c</ref>
         </refs>
-        <data>Jeanne:
-Qu'as-tu dit ?!
+        <data>Jeanne: Qu'as-tu dit ?!
 Qu'est-ce que tu as fait ?![end]</data>
     </text>
     <text>
@@ -581,8 +577,7 @@ Tu ferais mieux d'en faire autant ![end]</data>
         <refs>
             <ref>0xaa3</ref>
         </refs>
-        <data>Donfan:
-Comment me trouves-tu ?!
+        <data>Donfan: Comment me trouves-tu ?!
 Jeanne,réponds-moi...
 Tu as vu mon splendide visage,
 n'est-ce pas ?[end]</data>
@@ -609,8 +604,7 @@ le vitrail de ton coeur.[end]</data>
         <refs>
             <ref>0xaf0</ref>
         </refs>
-        <data>Jeanne:
-Tu es ennuyant !
+        <data>Jeanne: Tu es ennuyant !
  
 Tu m'as déjà dit cela,il y a peu de
 temps ![end]</data>
@@ -619,8 +613,7 @@ temps ![end]</data>
         <refs>
             <ref>0xb08</ref>
         </refs>
-        <data>Jeanne:
-Nous nous en allons et toi,reste ici,
+        <data>Jeanne: Nous nous en allons et toi,reste ici,
 tu y es bien !
 Ou alors prépare-toi et viens avec
 nous ![end]</data>
@@ -629,8 +622,7 @@ nous ![end]</data>
         <refs>
             <ref>0xb2d</ref>
         </refs>
-        <data>Donfan:
-Capitaine [character][0x0]!
+        <data>Donfan: Capitaine [character][0x0]!
 Encore une fois,tu ne voudrais pas
 m'aider ?[end]</data>
     </text>
@@ -652,8 +644,7 @@ le Naïf et Fidèle serviteur ?[end]</data>
         <refs>
             <ref>0xb60</ref>
         </refs>
-        <data>Donfan:
-Cette charmante Jeanne...
+        <data>Donfan: Cette charmante Jeanne...
 Elle est folle de moi !
 Comme tu as pu t'en apercevoir,
 il est difficile d'être célèbre et adulé ![end]</data>
@@ -662,16 +653,14 @@ il est difficile d'être célèbre et adulé ![end]</data>
         <refs>
             <ref>0x523</ref>
         </refs>
-        <data>Ruki:
-Allez tout le monde ![end]</data>
+        <data>Ruki: Allez tout le monde ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x53a</ref>
         </refs>
         <data>MARCHAND ENVOYE AU CHAMP DE
-Bataille:
-Courage,courage ![end]</data>
+Bataille: Courage,courage ![end]</data>
     </text>
     <text>
         <refs>
@@ -691,8 +680,7 @@ Courage,courage ![end]</data>
         <refs>
             <ref>0x530</ref>
         </refs>
-        <data>Donfan:
-Ces dragons sont repoussants ![end]</data>
+        <data>Donfan: Ces dragons sont repoussants ![end]</data>
     </text>
     <text>
         <refs>
@@ -726,8 +714,7 @@ Ils sont vraiment repoussants ![end]</data>
         <refs>
             <ref>0x414</ref>
         </refs>
-        <data>Sendak:
-Il fait si froid ici...
+        <data>Sendak: Il fait si froid ici...
 Partons-nous combattre ?[end]</data>
     </text>
     <text>

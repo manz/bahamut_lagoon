@@ -11,8 +11,7 @@
         <refs>
             <ref>0x1b7</ref>
         </refs>
-        <data>Matelite:
-Les troupes de Sauzer ont été
+        <data>Matelite: Les troupes de Sauzer ont été
 vaincues !
 La Princesse [character][0x1] va être soulagée ![end]</data>
     </text>
@@ -20,16 +19,14 @@ La Princesse [character][0x1] va être soulagée ![end]</data>
         <refs>
             <ref>0x1c4</ref>
         </refs>
-        <data>Taicho:
-Palparos a aussi été vaincu.
+        <data>Taicho: Palparos a aussi été vaincu.
 C'est la dure réalité de la guerre.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1dc</ref>
         </refs>
-        <data>Matelite:
-[character][0x0],
+        <data>Matelite: [character][0x0],
 va te renseigner sur le Dragon Sacré !
 Nous,nous retournons à Fareneit ![end]</data>
     </text>
@@ -45,8 +42,7 @@ Qu'est-ce que tu fais ?![end]</data>
         <refs>
             <ref>0x763</ref>
         </refs>
-        <data>Rush:
-J'espère que la Princesse [character][0x1] se
+        <data>Rush: J'espère que la Princesse [character][0x1] se
 portera mieux.
 Je crois qu'il serait mieux qu'on soit
 tous auprès d'elle plutôt que Matelite
@@ -56,8 +52,7 @@ seul.[end]</data>
         <refs>
             <ref>0x791</ref>
         </refs>
-        <data>Bikebake:
-J'aime ce désert mais j'aime aussi les
+        <data>Bikebake: J'aime ce désert mais j'aime aussi les
 desserts !
 Hahahahahahaha !
 Hahahahahahaha ![end]</data>
@@ -66,8 +61,7 @@ Hahahahahahaha ![end]</data>
         <refs>
             <ref>0x779</ref>
         </refs>
-        <data>Truth:
-J'ai entendu nombre de rumeurs
+        <data>Truth: J'ai entendu nombre de rumeurs
 peu édifiantes sur Dafira.
 Il paraîtrait aussi qu'aucun des
 Révolutionnaires ne soit originaire
@@ -77,8 +71,7 @@ de ces terres.[end]</data>
         <refs>
             <ref>0x78a</ref>
         </refs>
-        <data>Truth:
-Révolution... Superstar...
+        <data>Truth: Révolution... Superstar...
 Tout cela me perturbe...[end]</data>
     </text>
     <text>
@@ -214,8 +207,7 @@ Entre ![end]</data>
         <data>Héhé ! [character][0x0]!
 Ça y est,ça y est[0xd8]
  
-Donfan:
-Bonjour,demoiselle du désert !
+Donfan: Bonjour,demoiselle du désert !
 Donfan,votre très dévoué seigneur,
 est venu enfouir vos larmes dans le
 sable ![end]</data>
@@ -224,8 +216,7 @@ sable ![end]</data>
         <refs>
             <ref>0xa52</ref>
         </refs>
-        <data>Donfan:
-Si vous avez perdu quelque chose...
+        <data>Donfan: Si vous avez perdu quelque chose...
 Je pourrais devenir ce quelque chose.
 Je vois que votre coeur a fini par
 s'assécher tout comme ce désert.
@@ -243,8 +234,7 @@ Où aimeriez-vous aller ?[end]</data>
         <refs>
             <ref>0xa33</ref>
         </refs>
-        <data>Donfan:
-Je suis Donfan !
+        <data>Donfan: Je suis Donfan !
 Je suis l'un des Rebelles !
 Je suis à bout de souffle et je veux
 aussi aller me reposer.[end]</data>
@@ -253,8 +243,7 @@ aussi aller me reposer.[end]</data>
         <refs>
             <ref>0xa61</ref>
         </refs>
-        <data>Donfan:
-Que veut-il ?
+        <data>Donfan: Que veut-il ?
 Je suis pourtant un gentleman...
 Est-ce que c'est privé ?
 Tu n'aimerais pas y entrer [character][0x0]?
@@ -272,8 +261,7 @@ Tu n'aurais rien à y faire ?![end]</data>
             <ref>0x7d7</ref>
         </refs>
         <data>MARCHAND ENVOYE AU CHAMP DE
-Bataille:
-Haha,tout juste marié,femme au foyer !
+Bataille: Haha,tout juste marié,femme au foyer !
 Ça commence toujours comme ça.[end]</data>
     </text>
     <text>
@@ -291,15 +279,13 @@ c'est à toi de le faire ![end]</data>
         <refs>
             <ref>0x76a</ref>
         </refs>
-        <data>Rush:
-La Révolution de la Liberté ![end]</data>
+        <data>Rush: La Révolution de la Liberté ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x780</ref>
         </refs>
-        <data>Truth:
-Le Roi de Dafira avait dit qu'il était
+        <data>Truth: Le Roi de Dafira avait dit qu'il était
 protégé par un Dragon Sacré.
 Il a ajouté qu'il s'appelait Jormungand
 et qu'il était au Sud du désert.
@@ -310,24 +296,21 @@ Allez,va attraper ce Roi ![end]</data>
         <refs>
             <ref>0xacb</ref>
         </refs>
-        <data>Zeroshin:
-Finis ce travail calmement et
+        <data>Zeroshin: Finis ce travail calmement et
 proprement ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xadc</ref>
         </refs>
-        <data>Sajin:
-Vite... le Roi !
+        <data>Sajin: Vite... le Roi !
 Attrape-le ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x858</ref>
         </refs>
-        <data>Libero:
-Altesse,résignez-vous !
+        <data>Libero: Altesse,résignez-vous !
  
 Demain à Dafira sera mis en place un
 gouvernement formé de révolutionnaires
@@ -390,8 +373,7 @@ Nous sommes tous libres ![end]</data>
         <refs>
             <ref>0x737</ref>
         </refs>
-        <data>Homme suspect:
-Tu es une Superstar ?[end]</data>
+        <data>Homme suspect: Tu es une Superstar ?[end]</data>
     </text>
     <text>
         <refs>

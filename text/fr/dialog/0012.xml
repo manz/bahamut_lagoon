@@ -11,8 +11,7 @@
         <refs>
             <ref>0xce</ref>
         </refs>
-        <data>Matelite:
-Commandant !
+        <data>Matelite: Commandant !
  
 Nous ne savons rien du tout sur ce
 qui se passe au sein de l'Empire.[end]</data>
@@ -21,8 +20,7 @@ qui se passe au sein de l'Empire.[end]</data>
         <refs>
             <ref>0xda</ref>
         </refs>
-        <data>Taicho:
-Affirmatif !
+        <data>Taicho: Affirmatif !
  
 Nous avons vraiment besoin
 d'informations.[end]</data>
@@ -31,8 +29,7 @@ d'informations.[end]</data>
         <refs>
             <ref>0xe8</ref>
         </refs>
-        <data>Matelite:
-Évidemment,Commandant !
+        <data>Matelite: Évidemment,Commandant !
 Nous allons envoyer un espion infiltrer
 l'Empire.[end]</data>
     </text>
@@ -51,15 +48,13 @@ Nous devrions avoir le choix.[end]</data>
         <refs>
             <ref>0x14f</ref>
         </refs>
-        <data>Matelite:
-J'ai trouvé ![end]</data>
+        <data>Matelite: J'ai trouvé ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x194</ref>
         </refs>
-        <data>Donfan:
-Moi,Donfan,le Naïf et Fidèle
+        <data>Donfan: Moi,Donfan,le Naïf et Fidèle
 Serviteur !
 Je pourrais approcher de très
 nombreuses femmes ![end]</data>
@@ -76,15 +71,13 @@ pas cette mission ![end]</data>
         <refs>
             <ref>0x1cb</ref>
         </refs>
-        <data>Sendak:
-Et... moi ?[end]</data>
+        <data>Sendak: Et... moi ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1e8</ref>
         </refs>
-        <data>Matelite:
-[character][0x0],c'est une dangereuse mission !
+        <data>Matelite: [character][0x0],c'est une dangereuse mission !
 Alors... fais le bon choix ![end]</data>
     </text>
     <text>
@@ -114,8 +107,7 @@ Si tu es prêt,choisis l'heureux élu ![end]</data>
         <refs>
             <ref>0x22e</ref>
         </refs>
-        <data>Donfan:
-D'accord...
+        <data>Donfan: D'accord...
  
 La naïveté de Donfan lui permettra
 d'approcher [0xb0][0xaf][0xaf] femmes de l'Empire !
@@ -131,8 +123,7 @@ C'est parti ![end]</data>
         <refs>
             <ref>0x26f</ref>
         </refs>
-        <data>Sendak:
-[character][0x0]...
+        <data>Sendak: [character][0x0]...
 Tu m'as choisi ?!
 Je dois prendre ce choix pour un
 compliment ou pas ?
@@ -143,15 +134,13 @@ Très bien,je comprends ![end]</data>
         <refs>
             <ref>0x299</ref>
         </refs>
-        <data>Matelite:
-Moi ![end]</data>
+        <data>Matelite: Moi ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2b1</ref>
         </refs>
-        <data>Matelite:
-Gahahahahahahahaha[0xd8][end]</data>
+        <data>Matelite: Gahahahahahahahaha[0xd8][end]</data>
     </text>
     <text>
         <refs>
@@ -168,8 +157,7 @@ Commandant sera l'espion ![end]</data>
         <refs>
             <ref>0x2d9</ref>
         </refs>
-        <data>Taicho:
-... ![end]</data>
+        <data>Taicho: ... ![end]</data>
     </text>
     <text>
         <refs>
@@ -200,15 +188,13 @@ Commandant sera l'espion ![end]</data>
             <ref>0x4f1</ref>
             <ref>0x6fc</ref>
         </refs>
-        <data>Matelite:
-Donne-nous les informations ![end]</data>
+        <data>Matelite: Donne-nous les informations ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9f8</ref>
         </refs>
-        <data>Donfan:
-L'espion Donfan a beaucoup
+        <data>Donfan: L'espion Donfan a beaucoup
 d'informations.
 Donfan est revenu de cette
 escapade militaire ![end]</data>
@@ -217,8 +203,7 @@ escapade militaire ![end]</data>
         <refs>
             <ref>0xa29</ref>
         </refs>
-        <data>Donfan:
-Les guerrières impériales sont très
+        <data>Donfan: Les guerrières impériales sont très
 dures à faire parler.
 Je dois aussi vous avouer que nombre
 d'entre elles sont célibataires !
@@ -247,8 +232,7 @@ ses fins ![end]</data>
             <ref>0xa5c</ref>
             <ref>0xa7e</ref>
         </refs>
-        <data>Donfan:
-Et voici... mes rencontres ![end]</data>
+        <data>Donfan: Et voici... mes rencontres ![end]</data>
     </text>
     <text>
         <refs>
@@ -304,8 +288,7 @@ Top-Secret ![end]</data>
         <refs>
             <ref>0x713</ref>
         </refs>
-        <data>Sendak:
-L'Empire de Granbelos est en ce
+        <data>Sendak: L'Empire de Granbelos est en ce
 moment plongé dans le chaos.
 Je l'ai moi-même entendu...
 Le Général Palparos a fait un discours
@@ -329,8 +312,7 @@ terribles choses ![end]</data>
             <ref>0x752</ref>
             <ref>0x555</ref>
         </refs>
-        <data>Sendak:
-L'Empereur Sauzer connaît le coeur
+        <data>Sendak: L'Empereur Sauzer connaît le coeur
 des Dragons Sacrés.
 Mais,comment a-t-il fait ?
  
@@ -373,8 +355,7 @@ te mettre en colère.[end]</data>
         <refs>
             <ref>0x799</ref>
         </refs>
-        <data>Sendak:
-Les relations entre les généraux de
+        <data>Sendak: Les relations entre les généraux de
 l'Empire sont au plus bas.
 Certains sont peut-être même prêts à
 faire sécession !
@@ -419,16 +400,14 @@ avancera ![end]</data>
         <refs>
             <ref>0x815</ref>
         </refs>
-        <data>Taicho:
-Matelite !
+        <data>Taicho: Matelite !
 Je suis de retour ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x89c</ref>
         </refs>
-        <data>Taicho:
-... ... ... ...
+        <data>Taicho: ... ... ... ...
  
 C'est le chaos au sein de l'Empire ![end]</data>
     </text>
@@ -455,8 +434,7 @@ de grands chefs.[end]</data>
         <refs>
             <ref>0x8d2</ref>
         </refs>
-        <data>Taicho:
-Sauzer connaît maintenant le coeur des
+        <data>Taicho: Sauzer connaît maintenant le coeur des
 Dragons Sacrés !
 Comme la Princesse [character][0x1]!
 Vous souvenez-vous des paroles de
@@ -467,8 +445,7 @@ Non ?! J'en étais sûr ![end]</data>
         <refs>
             <ref>0x8e1</ref>
         </refs>
-        <data>``Sauzer:
-Je deviendrai l'homme de la Légende,
+        <data>``Sauzer: Je deviendrai l'homme de la Légende,
 même sans le pouvoir de la Princesse !''[end]</data>
     </text>
     <text>
@@ -477,8 +454,7 @@ même sans le pouvoir de la Princesse !''[end]</data>
             <ref>0x8f2</ref>
             <ref>0x973</ref>
         </refs>
-        <data>Taicho:
-D'une manière ou d'une autre,Sauzer
+        <data>Taicho: D'une manière ou d'une autre,Sauzer
 connaît maintenant le coeur des
 Dragons Sacrés !
 Comment a-t-il fait ?
@@ -516,8 +492,7 @@ Allons au champ de bataille ![end]</data>
         <refs>
             <ref>0xf06</ref>
         </refs>
-        <data>Taicho:
-Sincèrement,chaque cité recèle de
+        <data>Taicho: Sincèrement,chaque cité recèle de
 nombreuses informations.
 Le monde doit être libéré !
 Mais moi,je serai toujours seul.[end]</data>
@@ -536,8 +511,7 @@ tu dois savoir.[end]</data>
         <refs>
             <ref>0x540</ref>
         </refs>
-        <data>Matelite:
-Très bien ! Mettons en ordre les
+        <data>Matelite: Très bien ! Mettons en ordre les
 informations de notre espion.
 Sendak,j'aimerais que tu jures que
 tout ce que tu as dit est véridique ![end]</data>
@@ -547,8 +521,7 @@ tout ce que tu as dit est véridique ![end]</data>
             <ref>0x595</ref>
             <ref>0x95f</ref>
         </refs>
-        <data>Matelite:
-Très bien !
+        <data>Matelite: Très bien !
 Je n'ai qu'un mot à dire...
 Commandant,j'aimerais que tu jures
 que tout ce que tu as dit est vrai ![end]</data>
@@ -564,8 +537,7 @@ que tout ce que tu as dit est vrai ![end]</data>
             <ref>0x5d4</ref>
             <ref>0x99e</ref>
         </refs>
-        <data>Matelite:
-Il nous faut vite trouver les Dragons
+        <data>Matelite: Il nous faut vite trouver les Dragons
 Sacrés avant Sauzer...
 Et ainsi Kana revivra.[end]</data>
     </text>
@@ -574,8 +546,7 @@ Et ainsi Kana revivra.[end]</data>
             <ref>0x7e4</ref>
             <ref>0x944</ref>
         </refs>
-        <data>Matelite:
-Très bien,mettons tout en ordre,
+        <data>Matelite: Très bien,mettons tout en ordre,
 une fois pour toutes.
 Laissons parler Sendak ![end]</data>
     </text>
@@ -583,8 +554,7 @@ Laissons parler Sendak ![end]</data>
         <refs>
             <ref>0x840</ref>
         </refs>
-        <data>Taicho:
-Je me souviens de tout !
+        <data>Taicho: Je me souviens de tout !
  
 J'espère que mes recherches seront
 utiles ![end]</data>
@@ -601,8 +571,7 @@ Rien du tout...[end]</data>
         <refs>
             <ref>0x670</ref>
         </refs>
-        <data>Hornet:
-Il semble que [character][0x7]
+        <data>Hornet: Il semble que [character][0x7]
 soit arrivé !
 Ce monstre volant dans le ciel doit
 être... l'Arme Secrète de Granbelos ![end]</data>
@@ -619,16 +588,14 @@ N'oublie pas de nourrir tes dragons ![end]</data>
         <refs>
             <ref>0x106d</ref>
         </refs>
-        <data>Hornet:
-Allez,dépêche-toi !
+        <data>Hornet: Allez,dépêche-toi !
 N'essaie pas de t'enfuir ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1074</ref>
         </refs>
-        <data>Docteur Dragon:
-L'Arme Secrète de l'Empire est
+        <data>Docteur Dragon: L'Arme Secrète de l'Empire est
 terrifiante.
 N'hésite pas à faire combattre tes
 dragons dans son corps.[end]</data>
@@ -682,8 +649,7 @@ Nous allons combattre ?[end]</data>
         <refs>
             <ref>0xc2c</ref>
         </refs>
-        <data>Taicho:
-Vite,allons-y...
+        <data>Taicho: Vite,allons-y...
  
 Par ici,[character][0x0]...[end]</data>
     </text>
@@ -691,8 +657,7 @@ Par ici,[character][0x0]...[end]</data>
         <refs>
             <ref>0xf20</ref>
         </refs>
-        <data>Taicho:
-Il faut que tu réveilles la Princesse
+        <data>Taicho: Il faut que tu réveilles la Princesse
 [character][0x1].
 Fais-le doucement...[end]</data>
     </text>
@@ -707,8 +672,7 @@ Fais-le doucement...[end]</data>
             <ref>0xf61</ref>
             <ref>0xf7c</ref>
         </refs>
-        <data>[character][0x1]:
-Kyaaa !
+        <data>[character][0x1]: Kyaaa !
  
 [character][0x0]?![end]</data>
     </text>
@@ -749,8 +713,7 @@ Allons sur le balcon,s'il te plaît.[end]</data>
         <refs>
             <ref>0x134a</ref>
         </refs>
-        <data>Taicho:
-Que veux-tu faire ?
+        <data>Taicho: Que veux-tu faire ?
 Tu dois tout savoir...[end]</data>
     </text>
     <text>
@@ -810,8 +773,7 @@ remarqué ni même compris ![end]</data>
         <refs>
             <ref>0x1354</ref>
         </refs>
-        <data>Taicho:
-Sois respectueux...[end]</data>
+        <data>Taicho: Sois respectueux...[end]</data>
     </text>
     <text>
         <refs>
@@ -823,8 +785,7 @@ Sois respectueux...[end]</data>
         <refs>
             <ref>0x14f4</ref>
         </refs>
-        <data>Taicho:
-[character][0x0]...
+        <data>Taicho: [character][0x0]...
 Arrête de te faire du souci !
 J'ai rencontré quelqu'un,
 il y a peu de temps !
@@ -858,8 +819,7 @@ Le Général Palparos...[end]</data>
         <refs>
             <ref>0x1337</ref>
         </refs>
-        <data>Taicho:
-Maintenant,tu dois faire face.
+        <data>Taicho: Maintenant,tu dois faire face.
 Tu dois te montrer.
 Je vois encore [character][0x1] dans tes yeux.[end]</data>
     </text>
@@ -867,8 +827,7 @@ Je vois encore [character][0x1] dans tes yeux.[end]</data>
         <refs>
             <ref>0xf2b</ref>
         </refs>
-        <data>Taicho:
-Je suis un espion qui t'a brisé le
+        <data>Taicho: Je suis un espion qui t'a brisé le
 coeur...[end]</data>
     </text>
     <text>
@@ -881,8 +840,7 @@ coeur...[end]</data>
         <refs>
             <ref>0x1066</ref>
         </refs>
-        <data>[character][0x1]:
-Viens... [character][0x0]...
+        <data>[character][0x1]: Viens... [character][0x0]...
 Viens à mes côtés...[end]</data>
     </text>
 </texts>

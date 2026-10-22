@@ -4,22 +4,19 @@
         <refs>
             <ref>0x7c</ref>
         </refs>
-        <data>Matelite:
-Allons à Mahal.[end]</data>
+        <data>Matelite: Allons à Mahal.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x90</ref>
         </refs>
-        <data>Taicho:
-Atterrissons très vite à Mahal ![end]</data>
+        <data>Taicho: Atterrissons très vite à Mahal ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb1</ref>
         </refs>
-        <data>Sendak:
-Une minute Commandant !
+        <data>Sendak: Une minute Commandant !
  
 Tu n'attends pas que nous soyons
 prêts ?[end]</data>
@@ -28,8 +25,7 @@ prêts ?[end]</data>
         <refs>
             <ref>0xc7</ref>
         </refs>
-        <data>Matelite:
-Oublie un peu Commandant !
+        <data>Matelite: Oublie un peu Commandant !
 Mahal a été conquise par l'Empire !
 Il est le guerrier No [0xb0] de Mahal,
 il faut le comprendre.
@@ -41,8 +37,7 @@ Et nous avons le même but ![end]</data>
         <refs>
             <ref>0xd3</ref>
         </refs>
-        <data>Sendak:
-Vite !
+        <data>Sendak: Vite !
  
 L'Empire risque de fortement
 contre-attaquer Mahal.
@@ -54,8 +49,7 @@ N'est-ce pas terrible ?[end]</data>
         <refs>
             <ref>0xdc</ref>
         </refs>
-        <data>Matelite:
-Qu'est-ce que tu racontes Sendak ![end]</data>
+        <data>Matelite: Qu'est-ce que tu racontes Sendak ![end]</data>
     </text>
     <text>
         <refs>
@@ -76,16 +70,14 @@ Montez sur vos dragons ![end]</data>
         <refs>
             <ref>0x10d</ref>
         </refs>
-        <data>Sendak:
-[character][0x0],je ne suis pas content !
+        <data>Sendak: [character][0x0],je ne suis pas content !
 Et toi ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x243</ref>
         </refs>
-        <data>Truth:
-Capitaine [character][0x0]!
+        <data>Truth: Capitaine [character][0x0]!
  
 J'ai imaginé une tactique pour
 reprendre Mahal.
@@ -117,8 +109,7 @@ carte de Mahal.[end]</data>
         <refs>
             <ref>0x270</ref>
         </refs>
-        <data>Truth:
-Je crois que c'est une tactique
+        <data>Truth: Je crois que c'est une tactique
 formidable !
 Elle nous permettra de gagner ![end]</data>
     </text>
@@ -158,8 +149,7 @@ Que vas-tu acheter ?[end]</data>
         <refs>
             <ref>0x28e</ref>
         </refs>
-        <data>Sendak:
-Très bien [character][0x0]!
+        <data>Sendak: Très bien [character][0x0]!
 Es-tu prêt à aller te battre ?[end]</data>
     </text>
     <text>

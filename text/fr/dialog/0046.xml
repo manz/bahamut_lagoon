@@ -20,8 +20,7 @@ Ouvre cette porte et viens à moi...[end]</data>
         <refs>
             <ref>0xbe</ref>
         </refs>
-        <data>[character][0x1]:
-[character][0x0]...
+        <data>[character][0x1]: [character][0x0]...
 Matelite...
 Il est dangereux de me suivre.
 Les Dragons Sacrés sont emplis de
@@ -41,16 +40,14 @@ Tu as besoin de moi,n'est-ce pas ?[end]</data>
         <refs>
             <ref>0x2ae</ref>
         </refs>
-        <data>[character][0x1]:
-Ne tente rien [character][0x0]!
+        <data>[character][0x1]: Ne tente rien [character][0x0]!
 À partir d'ici,je dois y aller seule.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x28f</ref>
         </refs>
-        <data>Matelite:
-Princesse [character][0x1],
+        <data>Matelite: Princesse [character][0x1],
 attendez-nous !
 Je vais vous escorter ![end]</data>
     </text>
@@ -58,8 +55,7 @@ Je vais vous escorter ![end]</data>
         <refs>
             <ref>0x2a3</ref>
         </refs>
-        <data>Taicho:
-[character][0x1] semble bien se porter !
+        <data>Taicho: [character][0x1] semble bien se porter !
  
 [character][0x0],je t'en prie,va tout de même la
 rejoindre ![end]</data>
@@ -68,8 +64,7 @@ rejoindre ![end]</data>
         <refs>
             <ref>0x299</ref>
         </refs>
-        <data>Sendak:
-[character][0x0]...
+        <data>Sendak: [character][0x0]...
 je... ne peux plus...
 Va la soutenir...
 Va...
@@ -80,16 +75,14 @@ Va voir la Princesse...[end]</data>
         <refs>
             <ref>0x2ce</ref>
         </refs>
-        <data>[character][0x1]:
-[character][0x0],je suis désolée !
+        <data>[character][0x1]: [character][0x0],je suis désolée !
 Protège-moi jusqu'au dernier instant.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x49b</ref>
         </refs>
-        <data>[character][0x1]:
-Jormungand,je suis prête, maintenant !
+        <data>[character][0x1]: Jormungand,je suis prête, maintenant !
 Dis-moi ce que tu as à dire...
 Je t'écouterai ![end]</data>
     </text>

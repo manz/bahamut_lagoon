@@ -94,14 +94,14 @@ Qu'aimeriez-vous savoir,Capitaine ?[end]</data>
         <refs>
             <ref>0x9ad</ref>
         </refs>
-        <data>Taurus: Ce fut le jour où l'Empire Granbelos commença
+        <data>Truth: Ce fut le jour où l'Empire Granbelos commença
 à envahir les lagons...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3fa</ref>
         </refs>
-        <data>Taurus: Si l'Escadron Dragon ne stoppe pas l'Empire,
+        <data>Truth: Si l'Escadron Dragon ne stoppe pas l'Empire,
 celui-ci aura bientôt envahi tous les lagons.
 
 Si nous perdons cette bataille...
@@ -186,7 +186,7 @@ Facile à retenir,non ?[end]</data>
         <refs>
             <ref>0xb18</ref>
         </refs>
-        <data>Taurus: Allez,partons...[end]</data>
+        <data>Truth: Allez,partons...[end]</data>
     </text>
     <text>
         <refs>
@@ -281,7 +281,7 @@ Où est-il ?[end]</data>
         <refs>
             <ref>0xbc7</ref>
         </refs>
-        <data>Taurus: La base aérienne de l'Empire n'était qu'un leurre.
+        <data>Truth: La base aérienne de l'Empire n'était qu'un leurre.
 
 
 Nous sommes tombés dans leur piège !
@@ -327,7 +327,7 @@ Nous avons encore l'Escadron Dragon et [character][0x0].[end]</data>
         <refs>
             <ref>0x9ec</ref>
         </refs>
-        <data>Taurus: Il faut avouer au Roi ce qui nous est arrivé...[end]</data>
+        <data>Truth: Il faut avouer au Roi ce qui nous est arrivé...[end]</data>
     </text>
     <text>
         <refs>

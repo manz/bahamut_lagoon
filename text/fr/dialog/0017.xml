@@ -10,8 +10,7 @@
         <refs>
             <ref>0xcd</ref>
         </refs>
-        <data>Jormungand:
-Cette fille a été poussée à ses limites.
+        <data>Jormungand: Cette fille a été poussée à ses limites.
  
 Elle perd conscience dès lors qu'elle
 nous réunit,nous,les quatre Dragons
@@ -21,8 +20,7 @@ Sacrés ![end]</data>
         <refs>
             <ref>0xde</ref>
         </refs>
-        <data>Garuda:
-Malheureusement,la Porte de la Nouvelle
+        <data>Garuda: Malheureusement,la Porte de la Nouvelle
 Ère n'est pas encore ouverte.
 Et elle ne doit pas l'être tant que
 nous ne sommes pas encore tous
@@ -32,16 +30,14 @@ réunis.[end]</data>
         <refs>
             <ref>0xfd</ref>
         </refs>
-        <data>Vritra:
-Et que fait Bahamut ?
+        <data>Vritra: Et que fait Bahamut ?
 N'aime-t-il pas ce que nous faisons ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xef</ref>
         </refs>
-        <data>Jormungand:
-Je dois avouer que je n'arrive pas à
+        <data>Jormungand: Je dois avouer que je n'arrive pas à
 le comprendre.
 La Porte de la Nouvelle Ère...
 Pourquoi ne pouvons-nous pas l'ouvrir ?[end]</data>
@@ -50,16 +46,14 @@ Pourquoi ne pouvons-nous pas l'ouvrir ?[end]</data>
         <refs>
             <ref>0x10e</ref>
         </refs>
-        <data>Léviathan:
-Si Bahamut n'est pas ici,c'est qu'il
+        <data>Léviathan: Si Bahamut n'est pas ici,c'est qu'il
 veut éviter les erreurs du passé.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x11f</ref>
         </refs>
-        <data>Jormungand:
-Est-il vraiment nécessaire de devoir
+        <data>Jormungand: Est-il vraiment nécessaire de devoir
 l'attendre ?
 Nous devrions ouvrir la Porte !
 Cela fait une éternité...[end]</data>
@@ -68,8 +62,7 @@ Cela fait une éternité...[end]</data>
         <refs>
             <ref>0x12d</ref>
         </refs>
-        <data>Vritra:
-Si la Porte de la Nouvelle Ère n'est
+        <data>Vritra: Si la Porte de la Nouvelle Ère n'est
 pas ouverte,cette fille...
 Non,nous aussi... ![end]</data>
     </text>
@@ -77,8 +70,7 @@ Non,nous aussi... ![end]</data>
         <refs>
             <ref>0x13e</ref>
         </refs>
-        <data>Garuda:
-Nous ne pouvons encore rien dire de
+        <data>Garuda: Nous ne pouvons encore rien dire de
 cette humaine.
 Peut-elle vraiment être une Dragoon ?[end]</data>
     </text>
@@ -119,8 +111,7 @@ Peut-elle vraiment être une Dragoon ?[end]</data>
         <data>monyo monyo !
  
  
-Rush:
-Matelite,nous ne voulons plus vous
+Rush: Matelite,nous ne voulons plus vous
 obéir !
 Dès maintenant,nous menons une
 insurrection !
@@ -173,8 +164,7 @@ Cependant,ne t'inquiète pas pour
         <refs>
             <ref>0x2a7</ref>
         </refs>
-        <data>Taicho:
-... ... ... ?!
+        <data>Taicho: ... ... ... ?!
  
 Mais qu'est-ce que les Petits Démons
 ont voulu dire ?[end]</data>
@@ -183,8 +173,7 @@ ont voulu dire ?[end]</data>
         <refs>
             <ref>0x2c9</ref>
         </refs>
-        <data>Matelite:
-... ... ... ...
+        <data>Matelite: ... ... ... ...
  
 Monyo et Manyo sont bien bruyantes ![end]</data>
     </text>
@@ -192,8 +181,7 @@ Monyo et Manyo sont bien bruyantes ![end]</data>
         <refs>
             <ref>0x2ea</ref>
         </refs>
-        <data>Matelite:
-[character][0x0] et les autres vont passer un
+        <data>Matelite: [character][0x0] et les autres vont passer un
 sale quart d'heure ![end]</data>
     </text>
     <text>

@@ -4,8 +4,7 @@
         <refs>
             <ref>0x6ac</ref>
         </refs>
-        <data>Marchand envoyé au champ de bataille:
-Je suis heureux de te voir !
+        <data>Marchand envoyé au champ de bataille: Je suis heureux de te voir !
 
 Je te présente ma fierté... ma femme ![end]</data>
     </text>
@@ -13,16 +12,14 @@ Je te présente ma fierté... ma femme ![end]</data>
         <refs>
             <ref>0x4c2</ref>
         </refs>
-        <data>Épouse:
-Tu veux faire du shopping ?
+        <data>Patronne: Tu veux faire du shopping ?
 Hihihi ! Huhuhu ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x480</ref>
         </refs>
-        <data>Marchand envoyé au champ de bataille:
-Je l'ai rencontrée hier soir !
+        <data>Marchand envoyé au champ de bataille: Je l'ai rencontrée hier soir !
 
 Ma femme te vendra des choses intéressantes.
 Fais un peu de shopping ![end]</data>
@@ -31,16 +28,14 @@ Fais un peu de shopping ![end]</data>
         <refs>
             <ref>0x4b9</ref>
         </refs>
-        <data>Marchand envoyé au champ de bataille:
-Ma femme est ici !
+        <data>Marchand envoyé au champ de bataille: Ma femme est ici !
 Un peu de shopping ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x473</ref>
         </refs>
-        <data>Libero:
-[character][0x0],vous nous quittez déjà ?
+        <data>Libero: [character][0x0],vous nous quittez déjà ?
  
 Dafira a achevé sa libération,le plus
 terrible est passé.
@@ -52,8 +47,7 @@ les autres ![end]</data>
         <refs>
             <ref>0x306</ref>
         </refs>
-        <data>Rush:
-Je n'ai pas pu dormir la nuit
+        <data>Rush: Je n'ai pas pu dormir la nuit
 dernière.
 Je n'arrive pas à décrire mes
 sentiments.
@@ -66,8 +60,7 @@ Nous avons libéré Dafira.[end]</data>
         <refs>
             <ref>0x3d2</ref>
         </refs>
-        <data>Taurus:
-Le Roi a été vaincu par la Révolution de la Liberté.
+        <data>Truth: Le Roi a été vaincu par la Révolution de la Liberté.
 
 Kana, Matelite et la princesse [character][0x1]...
 
@@ -78,8 +71,7 @@ Tout est vraiment compliqué ![end]</data>
         <refs>
             <ref>0x3e7</ref>
         </refs>
-        <data>Bikebake:
-Il y a beaucoup de choses à Dafira.
+        <data>Bikebake: Il y a beaucoup de choses à Dafira.
  
 Je vais me faire de l'argent en les collectionnant.[end]</data>
     </text>
@@ -87,8 +79,7 @@ Je vais me faire de l'argent en les collectionnant.[end]</data>
         <refs>
             <ref>0x314</ref>
         </refs>
-        <data>Rush:
-Ce pays change...
+        <data>Rush: Ce pays change...
  
 Peut-être que le monde entier aussi...[end]</data>
     </text>
@@ -96,15 +87,13 @@ Peut-être que le monde entier aussi...[end]</data>
         <refs>
             <ref>0x3b8</ref>
         </refs>
-        <data>Rush:
-Les voilà ![end]</data>
+        <data>Rush: Les voilà ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x774</ref>
         </refs>
-        <data>Matelite:
-Que faites-vous ?!
+        <data>Matelite: Que faites-vous ?!
 
 Allez,ne traînez pas !
 
@@ -118,8 +107,7 @@ Alors,avez-vous appris où se trouve le Dragon Sacré ?[end]</data>
         <refs>
             <ref>0x783</ref>
         </refs>
-        <data>Taurus:
-Ah oui,le Dragon Sacré ?!
+        <data>Truth: Ah oui,le Dragon Sacré ?!
 
 Il faut tout d'abord que tu saches que nous avons pris
 part à la libération de Dafira.
@@ -130,8 +118,7 @@ Maintenant cette ville est...[end]</data>
         <refs>
             <ref>0x7a7</ref>
         </refs>
-        <data>Matelite:
-Tu me fais dormir debout avec toutes tes histoires !
+        <data>Matelite: Tu me fais dormir debout avec toutes tes histoires !
 Je ne suis pas concerné par cela !
 Ce que je veux savoir concerne juste le Dragon !
 
@@ -142,15 +129,13 @@ ALORS,où est le Dragon Sacré ?![end]</data>
         <refs>
             <ref>0x7c3</ref>
         </refs>
-        <data>Taurus:
-Il se trouve dans un Palais au Sud du Désert ![end]</data>
+        <data>Truth: Il se trouve dans un Palais au Sud du Désert ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7d7</ref>
         </refs>
-        <data>Matelite:
-À nous le Dragon,Commandant !
+        <data>Matelite: À nous le Dragon,Commandant !
 
 La Princesse se réjouira de cette information ![end]</data>
     </text>
@@ -158,8 +143,7 @@ La Princesse se réjouira de cette information ![end]</data>
         <refs>
             <ref>0x3c3</ref>
         </refs>
-        <data>Rush:
-Matelite ne prête jamais attention à ce que nous faisons !
+        <data>Rush: Matelite ne prête jamais attention à ce que nous faisons !
 
 C'est regrettable...
 
@@ -173,8 +157,7 @@ Que ferait-il si nous ne lui obéissions plus ?[end]</data>
         <refs>
             <ref>0x3dc</ref>
         </refs>
-        <data>Taurus:
-C'est pénible.
+        <data>Truth: C'est pénible.
 C'est vraiment pénible.
 Mais je suis un militaire,il me faut obéir, n'est-ce pas ?[end]</data>
     </text>
@@ -182,8 +165,7 @@ Mais je suis un militaire,il me faut obéir, n'est-ce pas ?[end]</data>
         <refs>
             <ref>0x2e5</ref>
         </refs>
-        <data>Sendak:
-[character][0x0], la Princesse m'a parlé d'un de ses rêves.
+        <data>Sendak: [character][0x0], la Princesse m'a parlé d'un de ses rêves.
 
 Elle a vu le Dragon Sacré Jormungand.
 Et il lui a parlé.
@@ -194,8 +176,7 @@ Il semblerait que Jormungand nous attende...[end]</data>
         <refs>
             <ref>0x2f0</ref>
         </refs>
-        <data>[character][0x1]:
-J'ai vu diverses choses dans mon rêve.
+        <data>[character][0x1]: J'ai vu diverses choses dans mon rêve.
 
 J'y ai senti quelque chose de si proche.
 
@@ -213,8 +194,7 @@ Je crois que je vais bien.[end]</data>
         <refs>
             <ref>0x3f4</ref>
         </refs>
-        <data>Bikebake:
-[character][0x0], mon frère !
+        <data>Bikebake: [character][0x0], mon frère !
 
 Tu es prêt à aller combattre ?[end]</data>
     </text>
@@ -244,14 +224,12 @@ Tu es prêt à aller combattre ?[end]</data>
         <refs>
             <ref>0x4ff</ref>
         </refs>
-        <data>Zeroshin:
-J'ai maintenant du travail et beaucoup d'amis.[end]</data>
+        <data>Zeroshin: J'ai maintenant du travail et beaucoup d'amis.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2dd</ref>
         </refs>
-        <data>Sajin:
-Ces dragons ne semblent pas si forts.[end]</data>
+        <data>Sajin: Ces dragons ne semblent pas si forts.[end]</data>
     </text>
 </texts>

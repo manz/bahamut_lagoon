@@ -4,31 +4,27 @@
         <refs>
             <ref>0x83</ref>
         </refs>
-        <data>Matelite:
-Qu'est-ce que c'est ?
+        <data>Matelite: Qu'est-ce que c'est ?
 Cette chose est une porte ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9f</ref>
         </refs>
-        <data>[character][0x1]:
-Ah ![end]</data>
+        <data>[character][0x1]: Ah ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xac</ref>
         </refs>
-        <data>Sendak:
-Vous sentez-vous bien ?
+        <data>Sendak: Vous sentez-vous bien ?
 Princesse... ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb9</ref>
         </refs>
-        <data>[character][0x1]:
-Bien sûr...
+        <data>[character][0x1]: Bien sûr...
 Le Dragon Sacré...
 Je le sens...
 Il est derrière cette porte...[end]</data>
@@ -37,8 +33,7 @@ Il est derrière cette porte...[end]</data>
         <refs>
             <ref>0xcb</ref>
         </refs>
-        <data>Matelite:
-Très bien !
+        <data>Matelite: Très bien !
 Nous allons examiner ça !
 Viens Commandant ![end]</data>
     </text>
@@ -46,15 +41,13 @@ Viens Commandant ![end]</data>
         <refs>
             <ref>0xd4</ref>
         </refs>
-        <data>Taicho:
-Allons-y ![end]</data>
+        <data>Taicho: Allons-y ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf8</ref>
         </refs>
-        <data>Taicho:
-P... pourquoi est-elle si imposante ?
+        <data>Taicho: P... pourquoi est-elle si imposante ?
  
 De toute manière,
 elle ne m'intimide pas ![end]</data>
@@ -63,8 +56,7 @@ elle ne m'intimide pas ![end]</data>
         <refs>
             <ref>0x108</ref>
         </refs>
-        <data>Matelite:
-Humf humf...
+        <data>Matelite: Humf humf...
 Même moi,un garde palais de réputation,
 je n'arrive pas à l'ouvrir.[end]</data>
     </text>
@@ -72,8 +64,7 @@ je n'arrive pas à l'ouvrir.[end]</data>
         <refs>
             <ref>0x111</ref>
         </refs>
-        <data>Sendak:
-C'est évident,il est inutile d'utiliser
+        <data>Sendak: C'est évident,il est inutile d'utiliser
 notre force !
 Tenter d'ouvrir la porte vers le
 Dragon Sacré est une vaine obstination ![end]</data>
@@ -91,39 +82,34 @@ Allez-y,Princesse.[end]</data>
         <refs>
             <ref>0x128</ref>
         </refs>
-        <data>[character][0x1]:
-Je comprends...
+        <data>[character][0x1]: Je comprends...
 Je le ferai...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x15e</ref>
         </refs>
-        <data>Matelite:
-Utiliser la force était donc vraiment
+        <data>Matelite: Utiliser la force était donc vraiment
 inutile pour ouvrir cette porte ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x16a</ref>
         </refs>
-        <data>Taicho:
-N'y... n'y a-t-il pas un Dragon
+        <data>Taicho: N'y... n'y a-t-il pas un Dragon
 Sacré à l'intérieur ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x179</ref>
         </refs>
-        <data>[character][0x1]:
-Je vais appeler le Dragon Sacré...[end]</data>
+        <data>[character][0x1]: Je vais appeler le Dragon Sacré...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x182</ref>
         </refs>
-        <data>Sendak:
-Nous sommes donc devant l'antre du
+        <data>Sendak: Nous sommes donc devant l'antre du
 Dragon Sacré...
 Devrions-nous y pénétrer ?[end]</data>
     </text>
@@ -131,8 +117,7 @@ Devrions-nous y pénétrer ?[end]</data>
         <refs>
             <ref>0x19c</ref>
         </refs>
-        <data>Matelite:
-[character][0x1],
+        <data>Matelite: [character][0x1],
 ce doit être vraiment très dangereux !
 [character][0x0],va tout d'abord voir si tout va
 bien ![end]</data>
@@ -141,23 +126,20 @@ bien ![end]</data>
         <refs>
             <ref>0x1ea</ref>
         </refs>
-        <data>Matelite:
-Que s'est-il passé ?!
+        <data>Matelite: Que s'est-il passé ?!
 Qu'allons-nous faire ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x22c</ref>
         </refs>
-        <data>[character][0x1]:
-Aaaaah ![end]</data>
+        <data>[character][0x1]: Aaaaah ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x235</ref>
         </refs>
-        <data>Sendak:
-Princesse ![end]</data>
+        <data>Sendak: Princesse ![end]</data>
     </text>
     <text>
         <refs>
@@ -169,8 +151,7 @@ Princesse ![end]</data>
         <refs>
             <ref>0x298</ref>
         </refs>
-        <data>Matelite:
-Hééééé !
+        <data>Matelite: Hééééé !
 À qui crois-tu avoir affaire ?
 Je suis Matelite !
 Je t'ordonne de laisser [character][0x1]
@@ -186,23 +167,20 @@ tranquille ![end]</data>
         <refs>
             <ref>0x30e</ref>
         </refs>
-        <data>Léviathan:
-Fille,tu es la personne qui peut
+        <data>Léviathan: Fille,tu es la personne qui peut
 soigner nos blessures...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x31a</ref>
         </refs>
-        <data>[character][0x1]:
-Tu veux que je soigne tes blessures ?[end]</data>
+        <data>[character][0x1]: Tu veux que je soigne tes blessures ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x331</ref>
         </refs>
-        <data>Léviathan:
-Notre tristesse...
+        <data>Léviathan: Notre tristesse...
 Notre colère...
 Approche...
 Écoute nos voix...
@@ -212,30 +190,26 @@ Vois nos larmes...[end]</data>
         <refs>
             <ref>0x346</ref>
         </refs>
-        <data>[character][0x1]:
-A... attends...[end]</data>
+        <data>[character][0x1]: A... attends...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3ee</ref>
         </refs>
-        <data>Sendak:
-Princesse !
+        <data>Sendak: Princesse !
 Tenez bon ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3fd</ref>
         </refs>
-        <data>[character][0x1]:
-[character][0x0]...[end]</data>
+        <data>[character][0x1]: [character][0x0]...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x428</ref>
         </refs>
-        <data>[character][0x1]:
-Le Dragon Sacré Léviathan...
+        <data>[character][0x1]: Le Dragon Sacré Léviathan...
 Leur colère... ? Leur peine... ?[end]</data>
     </text>
     <text>
@@ -249,8 +223,7 @@ sont aussi tristes...[end]</data>
         <refs>
             <ref>0x446</ref>
         </refs>
-        <data>Sendak:
-Colère... tristesse... ?
+        <data>Sendak: Colère... tristesse... ?
 Quel peut en être le sens ?
 Vraiment,je ne comprends pas.
 Ils sont tristes ![end]</data>
@@ -259,8 +232,7 @@ Ils sont tristes ![end]</data>
         <refs>
             <ref>0x456</ref>
         </refs>
-        <data>Matelite:
-Pourquoi ne le pourraient-ils pas ?!
+        <data>Matelite: Pourquoi ne le pourraient-ils pas ?!
 Les Dragons Sacrés sont comme nous ![end]</data>
     </text>
     <text>
@@ -294,38 +266,33 @@ et avec eux,nous vaincrons l'Empire ![end]</data>
         <refs>
             <ref>0x4b3</ref>
         </refs>
-        <data>Matelite:
-Vite,quittons cet endroit ![end]</data>
+        <data>Matelite: Vite,quittons cet endroit ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x680</ref>
         </refs>
-        <data>[character][0x1]:
-Le Dragon Sacré est très puissant...
+        <data>[character][0x1]: Le Dragon Sacré est très puissant...
 Il veut me dire quelque chose.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x68c</ref>
         </refs>
-        <data>Sendak:
-[character][0x0],tout va bien ?
+        <data>Sendak: [character][0x0],tout va bien ?
 Je sens que tu es bizarre...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x695</ref>
         </refs>
-        <data>Matelite:
-[character][0x0],
+        <data>Matelite: [character][0x0],
 je t'ai demandé quelque chose ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x69e</ref>
         </refs>
-        <data>Taicho:
-Vas-y ![end]</data>
+        <data>Taicho: Vas-y ![end]</data>
     </text>
 </texts>

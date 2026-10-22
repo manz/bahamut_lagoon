@@ -66,29 +66,25 @@ Oh ! Quel mal de tête ![end]</data>
         <refs>
             <ref>0x468</ref>
         </refs>
-        <data>Rush:
-[character][0x1] est vraiment ravissante ![end]</data>
+        <data>Rush: [character][0x1] est vraiment ravissante ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x485</ref>
         </refs>
-        <data>Truth:
-[character][0x1] semble faire des cauchemars...[end]</data>
+        <data>Truth: [character][0x1] semble faire des cauchemars...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x49d</ref>
         </refs>
-        <data>Bikebake:
-Courage,courage ![end]</data>
+        <data>Bikebake: Courage,courage ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4b8</ref>
         </refs>
-        <data>Hornet:
-Veux-tu essayer de contrôler le
+        <data>Hornet: Veux-tu essayer de contrôler le
 bateau ?[end]</data>
     </text>
     <text>
@@ -117,8 +113,7 @@ bateau ?[end]</data>
         <refs>
             <ref>0x501</ref>
         </refs>
-        <data>Hornet:
-As-tu déjà essayé de le contrôler ?[end]</data>
+        <data>Hornet: As-tu déjà essayé de le contrôler ?[end]</data>
     </text>
     <text>
         <refs>
@@ -138,8 +133,7 @@ beaucoup de progrès à faire ![end]</data>
         <refs>
             <ref>0x56a</ref>
         </refs>
-        <data>Melody:
-[character][0x1] n'est pas une chose et pourtant
+        <data>Melody: [character][0x1] n'est pas une chose et pourtant
 Hornet dit que c'est sa femme !
 Souriez ![end]</data>
     </text>
@@ -147,15 +141,13 @@ Souriez ![end]</data>
         <refs>
             <ref>0x577</ref>
         </refs>
-        <data>Hornet:
-Mélodia,va dans ta chambre ![end]</data>
+        <data>Hornet: Mélodia,va dans ta chambre ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x59d</ref>
         </refs>
-        <data>Melody:
-``Intense sourire moqueur''[end]</data>
+        <data>Melody: ``Intense sourire moqueur''[end]</data>
     </text>
     <text>
         <refs>
@@ -163,8 +155,7 @@ Mélodia,va dans ta chambre ![end]</data>
             <ref>0xdca</ref>
             <ref>0xdb4</ref>
         </refs>
-        <data>Zora:
-La Princesse est réveillée ![end]</data>
+        <data>Zora: La Princesse est réveillée ![end]</data>
     </text>
     <text>
         <refs>
@@ -176,15 +167,13 @@ La Princesse est réveillée ![end]</data>
         <refs>
             <ref>0x46f</ref>
         </refs>
-        <data>Rush:
-Mon coeur bat très fort ![end][end]</data>
+        <data>Rush: Mon coeur bat très fort ![end][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x48c</ref>
         </refs>
-        <data>Truth:
-Comme je le pensais,[character][0x1] a fait une
+        <data>Truth: Comme je le pensais,[character][0x1] a fait une
 fois de plus un cauchemar.[end]</data>
     </text>
     <text>
@@ -198,8 +187,7 @@ fois de plus un cauchemar.[end]</data>
         <refs>
             <ref>0x5af</ref>
         </refs>
-        <data>Zora:
-Je te confie la princesse ![end]</data>
+        <data>Zora: Je te confie la princesse ![end]</data>
     </text>
     <text>
         <refs>
@@ -219,8 +207,7 @@ Il me gâche la vue ![end]</data>
         <refs>
             <ref>0x155</ref>
         </refs>
-        <data>Matelite:
-Alors,tu es content ?[end]</data>
+        <data>Matelite: Alors,tu es content ?[end]</data>
     </text>
     <text>
         <refs>
@@ -242,15 +229,13 @@ elle est ici tout de même ![end]</data>
             <ref>0x34d</ref>
             <ref>0x317</ref>
         </refs>
-        <data>Sendak:
-[character][0x0],la Princesse est réveillée ![end][end]</data>
+        <data>Sendak: [character][0x0],la Princesse est réveillée ![end][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x11af</ref>
         </refs>
-        <data>Rush:
-Viens ici [character][0x0]![end]</data>
+        <data>Rush: Viens ici [character][0x0]![end]</data>
     </text>
     <text>
         <refs>
@@ -292,8 +277,7 @@ Viens ici [character][0x0]![end]</data>
         <refs>
             <ref>0x665</ref>
         </refs>
-        <data>Sendak:
-Vous êtes à Fareneit !
+        <data>Sendak: Vous êtes à Fareneit !
  
 Vous êtes dans votre chambre,
 Princesse...[end]</data>
@@ -302,69 +286,60 @@ Princesse...[end]</data>
         <refs>
             <ref>0x671</ref>
         </refs>
-        <data>Rush:
-Bienvenue chez vous,
+        <data>Rush: Bienvenue chez vous,
 Princesse [character][0x1]![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x680</ref>
         </refs>
-        <data>Truth:
-C'est mieux qu'une cellule de prison ![end]</data>
+        <data>Truth: C'est mieux qu'une cellule de prison ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x68c</ref>
         </refs>
-        <data>Bikebake:
-J'ai cru comprendre que vous vous
+        <data>Bikebake: J'ai cru comprendre que vous vous
 sentiez mieux ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6b0</ref>
         </refs>
-        <data>Matelite:
-[character][0x1]![end]</data>
+        <data>Matelite: [character][0x1]![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6c1</ref>
         </refs>
-        <data>Matelite:
-Princesse...
+        <data>Matelite: Princesse...
 C'est moi Matelite ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6d7</ref>
         </refs>
-        <data>Taicho:
-Et je suis Commandant,
+        <data>Taicho: Et je suis Commandant,
 Capitaine de la Cavalerie de Mahal ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6eb</ref>
         </refs>
-        <data>[character][0x1]:
-Ce n'est pas... un rêve ?[end]</data>
+        <data>[character][0x1]: Ce n'est pas... un rêve ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6fb</ref>
         </refs>
-        <data>Sendak:
-Regardez Princesse...
+        <data>Sendak: Regardez Princesse...
 C'est la réalité,ici ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x70e</ref>
         </refs>
-        <data>Matelite:
-Mademoiselle [character][0x1]!
+        <data>Matelite: Mademoiselle [character][0x1]!
  
 Vous avez simplement dû cauchemarder !
 Qu'avez-vous vu dans vos rêves ?
@@ -374,24 +349,21 @@ Ce n'était pas effrayant au moins ?![end]</data>
         <refs>
             <ref>0x71a</ref>
         </refs>
-        <data>[character][0x1]:
-Un mauvais rêve... ?
+        <data>[character][0x1]: Un mauvais rêve... ?
 Non,pas exactement ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x728</ref>
         </refs>
-        <data>Sendak:
-Mais alors,
+        <data>Sendak: Mais alors,
 qu'y avait-il dans votre rêve ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x731</ref>
         </refs>
-        <data>[character][0x1]:
-C'est flou...
+        <data>[character][0x1]: C'est flou...
  
 Il ne m'en reste que de brefs
 souvenirs.[end]</data>
@@ -400,8 +372,7 @@ souvenirs.[end]</data>
         <refs>
             <ref>0x741</ref>
         </refs>
-        <data>Zora:
-Hé,tout le monde !
+        <data>Zora: Hé,tout le monde !
 La Princesse doit être très fatiguée.
 Aussi,pourquoi ne feriez-vous pas
 une petite pause ?[end]</data>
@@ -410,8 +381,7 @@ une petite pause ?[end]</data>
         <refs>
             <ref>0x77d</ref>
         </refs>
-        <data>Rush:
-Allons-y !
+        <data>Rush: Allons-y !
  
 De toute manière,
 c'est toujours comme ça pour nous ![end]</data>
@@ -421,38 +391,33 @@ c'est toujours comme ça pour nous ![end]</data>
             <ref>0x7f5</ref>
             <ref>0x35e</ref>
         </refs>
-        <data>Sendak:
-[character][0x0]!
+        <data>Sendak: [character][0x0]!
 Allons-y,sortons ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf11</ref>
         </refs>
-        <data>[character][0x1]:
-Attendez ![end]</data>
+        <data>[character][0x1]: Attendez ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf2d</ref>
         </refs>
-        <data>[character][0x1]:
-Je vais vous raconter ce qu'il y
+        <data>[character][0x1]: Je vais vous raconter ce qu'il y
 avait dans mon rêve ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf39</ref>
         </refs>
-        <data>Matelite:
-Et qu'y avait-il ?[end]</data>
+        <data>Matelite: Et qu'y avait-il ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf4b</ref>
         </refs>
-        <data>[character][0x1]:
-J'ai entendu quelques mots dans ce
+        <data>[character][0x1]: J'ai entendu quelques mots dans ce
 rêve...
 Cependant,je ne comprends pas le
 sens de tous les mots que j'y ai
@@ -463,40 +428,35 @@ Pouvez-vous m'aider ?[end]</data>
         <refs>
             <ref>0xf58</ref>
         </refs>
-        <data>Matelite:
-Princesse,la plus belle chose que je
+        <data>Matelite: Princesse,la plus belle chose que je
 puisse faire est de vous écouter ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf66</ref>
         </refs>
-        <data>[character][0x1]:
-J'ai entendu parler le Dragon Sacré...
+        <data>[character][0x1]: J'ai entendu parler le Dragon Sacré...
 Oui,le Dragon Sacré Valitra ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf73</ref>
         </refs>
-        <data>Sendak:
-Quoi !
+        <data>Sendak: Quoi !
 Le Dragon Sacré ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf7e</ref>
         </refs>
-        <data>[character][0x1]:
-Oui,le Dragon Sacré Valitra m'a
+        <data>[character][0x1]: Oui,le Dragon Sacré Valitra m'a
 prévenue...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf89</ref>
         </refs>
-        <data>[character][0x1]:
-Il m'a expliqué que si je réunissais
+        <data>[character][0x1]: Il m'a expliqué que si je réunissais
 le pouvoir des Dragons Sacrés,
 je deviendrais une Dragoon.[end]</data>
     </text>
@@ -504,23 +464,20 @@ je deviendrais une Dragoon.[end]</data>
         <refs>
             <ref>0xf9d</ref>
         </refs>
-        <data>Matelite:
-Une Dragoon ?!
+        <data>Matelite: Une Dragoon ?!
 [character][0x1] peut devenir une Dragoon ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfaa</ref>
         </refs>
-        <data>Taicho:
-Qu'est-ce qu'être une Dragoon ?[end]</data>
+        <data>Taicho: Qu'est-ce qu'être une Dragoon ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfbe</ref>
         </refs>
-        <data>Matelite:
-Le coeur d'une Dragoon est lié à ceux
+        <data>Matelite: Le coeur d'une Dragoon est lié à ceux
 des Dragons Sacrés !
 Une Dragoon peut librement utiliser le
 pouvoir de ces Dragons.
@@ -533,15 +490,13 @@ Cet extraordinaire pouvoir ![end]</data>
         <refs>
             <ref>0xfcc</ref>
         </refs>
-        <data>Taicho:
-Impressionnant ![end]</data>
+        <data>Taicho: Impressionnant ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfe4</ref>
         </refs>
-        <data>Matelite:
-Les Dragons Sacrés sont maintenant à
+        <data>Matelite: Les Dragons Sacrés sont maintenant à
 nos côtés !
 Valitra nous aidera peut-être à vaincre
 l'Empereur Sauzer !
@@ -556,8 +511,7 @@ L'empire n'a qu'à bien se tenir ![end]</data>
         <refs>
             <ref>0xff0</ref>
         </refs>
-        <data>Matelite:
-Oui !
+        <data>Matelite: Oui !
 Allons prévenir tout le monde !
 Viens,Commandant ![end]</data>
     </text>
@@ -565,16 +519,14 @@ Viens,Commandant ![end]</data>
         <refs>
             <ref>0x1011</ref>
         </refs>
-        <data>[character][0x1]:
-Attendez !
+        <data>[character][0x1]: Attendez !
 C'était simplement un rêve ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x101e</ref>
         </refs>
-        <data>Sendak:
-Princesse...
+        <data>Sendak: Princesse...
  
 J'ai bien peur que ce ne soit pas un
 rêve !
@@ -586,8 +538,7 @@ Sacré Valitra ![end]</data>
         <refs>
             <ref>0x102d</ref>
         </refs>
-        <data>Sendak:
-Il n'y a aucune différence si vous lui
+        <data>Sendak: Il n'y a aucune différence si vous lui
 avez parlé dans vos rêves plutôt
 qu'en réalité !
 Notre défunt Roi de Kana m'avait déjà
@@ -597,8 +548,7 @@ parlé de cela...[end]</data>
         <refs>
             <ref>0x1039</ref>
         </refs>
-        <data>[character][0x1]:
-Par conséquent...
+        <data>[character][0x1]: Par conséquent...
  
 J'ai vraiment parlé à Valitra...
 Peut-être que je ne suis pas
@@ -617,8 +567,7 @@ S'il te plaît,laisse-moi un peu seule ![end]</data>
         <refs>
             <ref>0x107a</ref>
         </refs>
-        <data>Zora:
-Princesse !
+        <data>Zora: Princesse !
  
 J'ai entendu tout ce que vous avez
 dit,il y a un instant,et vous finirez
@@ -630,8 +579,7 @@ Je tiens à vous dire que je hais
         <refs>
             <ref>0x1086</ref>
         </refs>
-        <data>Zora:
-Avez-vous au moins remarqué les
+        <data>Zora: Avez-vous au moins remarqué les
 dangers qu'ils ont tous bravés pour
 vous sauver de l'Empire ?[end]</data>
     </text>
@@ -639,8 +587,7 @@ vous sauver de l'Empire ?[end]</data>
         <refs>
             <ref>0x1093</ref>
         </refs>
-        <data>Zora:
-Et nous avons fait tout notre possible
+        <data>Zora: Et nous avons fait tout notre possible
 pour vous !
 Après cela,nous espérions tout de
 même mieux de votre part ![end]</data>
@@ -649,8 +596,7 @@ même mieux de votre part ![end]</data>
         <refs>
             <ref>0x10a0</ref>
         </refs>
-        <data>Zora:
-Peur de votre rêve ?
+        <data>Zora: Peur de votre rêve ?
 Peur du Dragon Sacré ?
 Peur de la réalité ?
 Voyons Princesse,levez-vous,
@@ -665,30 +611,26 @@ J'espère bientôt vous voir debout ![end][end]</data>
         <refs>
             <ref>0x5a8</ref>
         </refs>
-        <data>Zora:
-Il fallait le dire...[end]</data>
+        <data>Zora: Il fallait le dire...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x305</ref>
             <ref>0x10ee</ref>
         </refs>
-        <data>Sendak:
-[character][0x0]...[end]</data>
+        <data>Sendak: [character][0x0]...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x80d</ref>
         </refs>
-        <data>[character][0x1]:
-Je suis désolée pour tout à l'heure...[end]</data>
+        <data>[character][0x1]: Je suis désolée pour tout à l'heure...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x81d</ref>
         </refs>
-        <data>[character][0x1]:
-Hornet,j'ai une requête !
+        <data>[character][0x1]: Hornet,j'ai une requête !
  
 Pourrais-tu voler en direction du ciel
 de Campbell ?
@@ -700,15 +642,13 @@ lagon ![end]</data>
         <refs>
             <ref>0x829</ref>
         </refs>
-        <data>Hornet:
-D... d'accord Princesse ![end]</data>
+        <data>Hornet: D... d'accord Princesse ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x86a</ref>
         </refs>
-        <data>[character][0x1]:
-[character][0x0],je dois te voir !
+        <data>[character][0x1]: [character][0x0],je dois te voir !
  
 Viens me rejoindre dans la Cabine du
 Capitaine ![end]</data>
@@ -730,24 +670,21 @@ occupée...[end]</data>
         <refs>
             <ref>0x891</ref>
         </refs>
-        <data>[character][0x1]:
-Sendak,tu ne changeras donc jamais !
+        <data>[character][0x1]: Sendak,tu ne changeras donc jamais !
 Viens aussi dans la cabine.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8a2</ref>
         </refs>
-        <data>Matelite:
-Princesse [character][0x1],et moi ?
+        <data>Matelite: Princesse [character][0x1],et moi ?
 Que dois-je faire ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8b0</ref>
         </refs>
-        <data>[character][0x1]:
-Matelite,il faudrait que tu regardes
+        <data>[character][0x1]: Matelite,il faudrait que tu regardes
 ce qui se passe à Campbell.
 Pendant ce temps,j'aurai l'esprit
 tranquille grâce à toi ![end]</data>
@@ -756,47 +693,41 @@ tranquille grâce à toi ![end]</data>
         <refs>
             <ref>0x8be</ref>
         </refs>
-        <data>Matelite:
-Ha ha ha...
+        <data>Matelite: Ha ha ha...
 Je le ferai ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x588</ref>
         </refs>
-        <data>Melody:
-Hornet est nerveux ![end]</data>
+        <data>Melody: Hornet est nerveux ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x803</ref>
             <ref>0x5d3</ref>
         </refs>
-        <data>[character][0x1]:
-Désolée...[end]</data>
+        <data>[character][0x1]: Désolée...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x51a</ref>
         </refs>
-        <data>Hornet:
-Le lagon Campbell...
+        <data>Hornet: Le lagon Campbell...
 Quand y va-t-on ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x493</ref>
         </refs>
-        <data>Truth:
-N'aurais-tu rien remarqué d'étrange
+        <data>Truth: N'aurais-tu rien remarqué d'étrange
 à propos de Bikebake ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x18b</ref>
         </refs>
-        <data>Matelite:
-La Princesse [character][0x1] prend maintenant
+        <data>Matelite: La Princesse [character][0x1] prend maintenant
 la place de notre roi au combat.
 Je peux sentir l'arrivée d'une
 nouvelle époque ![end]</data>
@@ -805,8 +736,7 @@ nouvelle époque ![end]</data>
         <refs>
             <ref>0x29e</ref>
         </refs>
-        <data>Taicho:
-La Princesse [character][0x1] est très belle !
+        <data>Taicho: La Princesse [character][0x1] est très belle !
  
 J'avais un pressentiment qu'elle le
 serait ![end]</data>
@@ -815,8 +745,7 @@ serait ![end]</data>
         <refs>
             <ref>0x365</ref>
         </refs>
-        <data>Sendak:
-``Chuchotement...''
+        <data>Sendak: ``Chuchotement...''
 ``Chuchotement...''
 ``La Princesse est déjà plus
  énergique.''[end]</data>
@@ -825,8 +754,7 @@ serait ![end]</data>
         <refs>
             <ref>0x8ed</ref>
         </refs>
-        <data>[character][0x1]:
-Tout à l'heure...
+        <data>[character][0x1]: Tout à l'heure...
 j'étais effrayée !
 Mais maintenant,il faut que je
 commence à me battre...[end]</data>
@@ -931,8 +859,7 @@ Mais,où as-tu appris ça ?[end]</data>
         <refs>
             <ref>0xab5</ref>
         </refs>
-        <data>[character][0x1]:
-Merci [character][0x0]![end]</data>
+        <data>[character][0x1]: Merci [character][0x0]![end]</data>
     </text>
     <text>
         <refs>
@@ -960,15 +887,13 @@ sénile et arriéré...[end]</data>
         <refs>
             <ref>0x3c0</ref>
         </refs>
-        <data>Sendak:
-Ah,princesse ![end]</data>
+        <data>Sendak: Ah,princesse ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3cd</ref>
         </refs>
-        <data>Sendak:
-L'équipe de reconnaissance est
+        <data>Sendak: L'équipe de reconnaissance est
 revenue de Campbell...
 Il semble n'y avoir rien d'étrange sur
 ce Lagon ![end]</data>
@@ -977,15 +902,13 @@ ce Lagon ![end]</data>
         <refs>
             <ref>0x3db</ref>
         </refs>
-        <data>[character][0x1]:
-Ah ! Rien ?![end]</data>
+        <data>[character][0x1]: Ah ! Rien ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3e4</ref>
         </refs>
-        <data>[character][0x1]:
-Je veux connaître la Légende !
+        <data>[character][0x1]: Je veux connaître la Légende !
  
 La Légende des Dragons Sacrés de
 Kana !
@@ -997,23 +920,20 @@ se faisait-il qu'il la connaisse ?[end]</data>
         <refs>
             <ref>0x3f0</ref>
         </refs>
-        <data>Sendak:
-La Légende de Kana ?
+        <data>Sendak: La Légende de Kana ?
 Campbell la connait aussi ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3f9</ref>
         </refs>
-        <data>[character][0x1]:
-J'aimerais en savoir plus...[end]</data>
+        <data>[character][0x1]: J'aimerais en savoir plus...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x40b</ref>
         </refs>
-        <data>Sendak:
-Je vois !
+        <data>Sendak: Je vois !
  
 N'as-tu jamais rencontré l'Impératrice
 de Campbell ?![end]</data>
@@ -1022,8 +942,7 @@ de Campbell ?![end]</data>
         <refs>
             <ref>0x435</ref>
         </refs>
-        <data>Sendak:
-L'Impératrice de Campbell est la soeur
+        <data>Sendak: L'Impératrice de Campbell est la soeur
 du Roi de Kana !
 Elle est aussi originaire de notre lagon
 et connaît donc la Légende ![end]</data>
@@ -1032,8 +951,7 @@ et connaît donc la Légende ![end]</data>
         <refs>
             <ref>0x443</ref>
         </refs>
-        <data>Sendak:
-Vous comprenez mieux pourquoi Sauzer
+        <data>Sendak: Vous comprenez mieux pourquoi Sauzer
 la connaît déjà !
 Tout le monde se la transmet ![end]</data>
     </text>
@@ -1042,16 +960,14 @@ Tout le monde se la transmet ![end]</data>
             <ref>0x192</ref>
             <ref>0x127</ref>
         </refs>
-        <data>Matelite:
-L'Impératrice de Campbell !
+        <data>Matelite: L'Impératrice de Campbell !
 Il nous faut aller la voir ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1a4</ref>
         </refs>
-        <data>Matelite:
-Très bien !
+        <data>Matelite: Très bien !
  
 Nous devons libérer Campbell du joug
 de l'Empire Granbelos !
@@ -1062,16 +978,14 @@ si peu pressé d'une libération...[end]</data>
         <refs>
             <ref>0x1d1</ref>
         </refs>
-        <data>[character][0x1]:
-Quel est l'état des lieux sur le lagon
+        <data>[character][0x1]: Quel est l'état des lieux sur le lagon
 Campbell ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1dc</ref>
         </refs>
-        <data>Matelite:
-Eh bien... Princesse [character][0x1]...
+        <data>Matelite: Eh bien... Princesse [character][0x1]...
  
 Il y a là-bas de nombreuses troupes
 impériales ![end]</data>
@@ -1081,8 +995,7 @@ impériales ![end]</data>
             <ref>0x1e9</ref>
             <ref>0x52e</ref>
         </refs>
-        <data>Hornet:
-De plus,l'Empire commence à surveiller
+        <data>Hornet: De plus,l'Empire commence à surveiller
 nos faits et gestes !
 Bientôt,nous devrons aller combattre ![end]</data>
     </text>
@@ -1090,8 +1003,7 @@ Bientôt,nous devrons aller combattre ![end]</data>
         <refs>
             <ref>0x1f6</ref>
         </refs>
-        <data>Sendak:
-Que devrions-nous faire ?[end]</data>
+        <data>Sendak: Que devrions-nous faire ?[end]</data>
     </text>
     <text>
         <refs>
@@ -1111,23 +1023,20 @@ offensives ![end]</data>
         <refs>
             <ref>0x220</ref>
         </refs>
-        <data>Matelite:
-[character][0x1]...[end]</data>
+        <data>Matelite: [character][0x1]...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x22f</ref>
         </refs>
-        <data>[character][0x1]:
-Ce ne sont là que les bases de la
+        <data>[character][0x1]: Ce ne sont là que les bases de la
 stratégie...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x23d</ref>
         </refs>
-        <data>Matelite:
-Mais bien sûr,Princesse [character][0x1]!
+        <data>Matelite: Mais bien sûr,Princesse [character][0x1]!
  
 Très bien [character][0x0]!
 Prépare-toi à combattre ![end]</data>
@@ -1136,8 +1045,7 @@ Prépare-toi à combattre ![end]</data>
         <refs>
             <ref>0x269</ref>
         </refs>
-        <data>Matelite:
-Cependant,où avez-vous appris de
+        <data>Matelite: Cependant,où avez-vous appris de
 telles choses sur la stratégie ?[end]</data>
     </text>
     <text>
@@ -1145,15 +1053,13 @@ telles choses sur la stratégie ?[end]</data>
             <ref>0xa13</ref>
             <ref>0x9f7</ref>
         </refs>
-        <data>[character][0x1]:
-... ... ... ...[end]</data>
+        <data>[character][0x1]: ... ... ... ...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x521</ref>
         </refs>
-        <data>Hornet:
-Es-tu prêt [character][0x0]?
+        <data>Hornet: Es-tu prêt [character][0x0]?
  
  Attendons encore...
  Allons combattre ![end1]</data>
@@ -1162,8 +1068,7 @@ Es-tu prêt [character][0x0]?
         <refs>
             <ref>0xc67</ref>
         </refs>
-        <data>[character][0x1]:
-Allons-y [character][0x0]![end]</data>
+        <data>[character][0x1]: Allons-y [character][0x0]![end]</data>
     </text>
     <text>
         <refs>
@@ -1193,8 +1098,7 @@ Allons-y [character][0x0]![end]</data>
         <refs>
             <ref>0x2fe</ref>
         </refs>
-        <data>Sendak:
-Je ressens une étrange force en moi.
+        <data>Sendak: Je ressens une étrange force en moi.
  
 Serait-ce possible que ce soit celle du
 Dragon Sacré ?[end]</data>
@@ -1203,8 +1107,7 @@ Dragon Sacré ?[end]</data>
         <refs>
             <ref>0x476</ref>
         </refs>
-        <data>Rush:
-Le sourire de [character][0x1]...
+        <data>Rush: Le sourire de [character][0x1]...
 Je le verrai dans les combats ![end]</data>
     </text>
 </texts>

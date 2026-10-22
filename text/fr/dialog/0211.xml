@@ -21,8 +21,7 @@ C'est éprouvant...[end]</data>
         <refs>
             <ref>0x681</ref>
         </refs>
-        <data>Rush:
-Salamand va secrètement approcher
+        <data>Rush: Salamand va secrètement approcher
 du balcon !
 Est-ce que tu veux monter ?[end]</data>
     </text>
@@ -46,15 +45,13 @@ s'inquiéter ![end]</data>
         <refs>
             <ref>0x60b</ref>
         </refs>
-        <data>Docteur Dragon:
-Veux-tu rentrer ?[end]</data>
+        <data>Docteur Dragon: Veux-tu rentrer ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5bd</ref>
         </refs>
-        <data>Docteur Dragon:
-Écoute le vent...
+        <data>Docteur Dragon: Écoute le vent...
 Tends bien l'oreille [character][0x0]!
 Entends les voix apportées par le
 vent...[end]</data>
@@ -121,8 +118,7 @@ grand-père de ce bébé dragon.[end]</data>
         <refs>
             <ref>0x98f</ref>
         </refs>
-        <data>Docteur Dragon:
-C'est dangereux,dangereux !
+        <data>Docteur Dragon: C'est dangereux,dangereux !
 Tu les as effrayés...[end]</data>
     </text>
     <text>
@@ -163,8 +159,7 @@ beaucoup.[end]</data>
         <refs>
             <ref>0xa11</ref>
         </refs>
-        <data>Docteur Dragon:
-Essaie de commander le bébé,
+        <data>Docteur Dragon: Essaie de commander le bébé,
 [character][0x0]![end]</data>
     </text>
     <text>
@@ -213,8 +208,7 @@ ciel.[end]</data>
         <refs>
             <ref>0xd0c</ref>
         </refs>
-        <data>Message de Hornet:
-Félicitations pour la Restauration de
+        <data>Message de Hornet: Félicitations pour la Restauration de
 Kana !
 [character][0x0],protège sans cesse le ciel
 d'Orelus !
@@ -227,8 +221,7 @@ celle des matelots ![end]</data>
         <refs>
             <ref>0xd28</ref>
         </refs>
-        <data>Message des matelots:
-Félicitations pour la Restauration de
+        <data>Message des matelots: Félicitations pour la Restauration de
 Kana !
 Nous,les matelots,voulons la paix pour
 Orelus.
@@ -283,8 +276,7 @@ Futur.[end]</data>
         <refs>
             <ref>0xbea</ref>
         </refs>
-        <data>Docteur Dragon:
-Les Souvenirs du Futur...[end]</data>
+        <data>Docteur Dragon: Les Souvenirs du Futur...[end]</data>
     </text>
     <text>
         <refs>
@@ -336,8 +328,7 @@ Le ciel d'Orelus...[end]</data>
         <refs>
             <ref>0x573</ref>
         </refs>
-        <data>Docteur Dragon:
-Entends-tu les appels du ciel ?
+        <data>Docteur Dragon: Entends-tu les appels du ciel ?
  
 Le ciel est puissant.
 Il bouge constamment.
@@ -347,8 +338,7 @@ Croyons en lui ![end]</data>
         <refs>
             <ref>0x566</ref>
         </refs>
-        <data>Docteur Dragon:
-Le ciel d'Orelus ne cessera jamais
+        <data>Docteur Dragon: Le ciel d'Orelus ne cessera jamais
 d'être un océan de nuages.
 Il est si grand !
 Tu dois le surveiller pour sa
@@ -372,8 +362,7 @@ Viens-lui en aide ![end]</data>
         <refs>
             <ref>0x537</ref>
         </refs>
-        <data>Docteur Dragon:
-Altair,
+        <data>Docteur Dragon: Altair,
 la Patrie des Dragons Sacrés...
 Le lieu de retour des dragons !
 Cette terre a toujours été pour eux

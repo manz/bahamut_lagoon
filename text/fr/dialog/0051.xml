@@ -4,8 +4,7 @@
         <refs>
             <ref>0x45</ref>
         </refs>
-        <data>[character][0x1]:
-Dragon Sacré Bahamut,
+        <data>[character][0x1]: Dragon Sacré Bahamut,
 je suis enfin venue.[end]</data>
     </text>
     <text>
@@ -46,37 +45,32 @@ Et enfin,je lierai vos coeurs ![end][end]</data>
         <refs>
             <ref>0x258</ref>
         </refs>
-        <data>Matelite:
-Princesse [character][0x1]![end]</data>
+        <data>Matelite: Princesse [character][0x1]![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x265</ref>
         </refs>
-        <data>Sendak:
-Ramenons la Princesse au château ![end]</data>
+        <data>Sendak: Ramenons la Princesse au château ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x26e</ref>
         </refs>
-        <data>[character][0x1]:
-Inutile !
+        <data>[character][0x1]: Inutile !
 Allons à Fareneit ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x278</ref>
         </refs>
-        <data>Palparos:
-Mais... [character][0x1]![end]</data>
+        <data>Palparos: Mais... [character][0x1]![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2a9</ref>
         </refs>
-        <data>[character][0x1]:
-À Fareneit !
+        <data>[character][0x1]: À Fareneit !
  
 Aujourd'hui,notre voyage ne fait que
 commencer !
@@ -89,23 +83,20 @@ Nous partons à... ALTAIR ![end]</data>
         <refs>
             <ref>0x135</ref>
         </refs>
-        <data>Bahamut:
-[character][0x1],la Dragoon...[end]</data>
+        <data>Bahamut: [character][0x1],la Dragoon...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x146</ref>
         </refs>
-        <data>[character][0x1]:
-Dragoon ?
+        <data>[character][0x1]: Dragoon ?
 Suis-je devenue une Dragoon ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x154</ref>
         </refs>
-        <data>Bahamut:
-En effet...[end]</data>
+        <data>Bahamut: En effet...[end]</data>
     </text>
     <text>
         <refs>
@@ -134,15 +125,13 @@ partie de toi...[end]</data>
         <refs>
             <ref>0x170</ref>
         </refs>
-        <data>[character][0x1]:
-Moi... Une Dragoon... ?[end]</data>
+        <data>[character][0x1]: Moi... Une Dragoon... ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x17f</ref>
         </refs>
-        <data>[character][0x1]:
-S'il te plaît,Bahamut,fais-moi
+        <data>[character][0x1]: S'il te plaît,Bahamut,fais-moi
 l'honneur de répondre...
 Quel est le vrai sens de la Légende
 des Dragons Sacrés ?[end]</data>
@@ -151,8 +140,7 @@ des Dragons Sacrés ?[end]</data>
         <refs>
             <ref>0x18e</ref>
         </refs>
-        <data>Bahamut:
-La personne qui connaît le coeur des
+        <data>Bahamut: La personne qui connaît le coeur des
 Dragons Sacrés ouvrira la Porte vers
 une Ère Nouvelle.[end]</data>
     </text>
@@ -175,16 +163,14 @@ C'est ta destinée...[end]</data>
         <refs>
             <ref>0x1a2</ref>
         </refs>
-        <data>[character][0x1]:
-Votre résurrection... ?
+        <data>[character][0x1]: Votre résurrection... ?
 Allez-vous encore guerroyer ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1ab</ref>
         </refs>
-        <data>Bahamut:
-Nous n'en sommes pas sûrs...
+        <data>Bahamut: Nous n'en sommes pas sûrs...
 Ce n'est maintenant plus le passé...
 Dorénavant,la personne qui nous dirige,
 c'est toi [character][0x1]...[end]</data>
@@ -193,15 +179,13 @@ c'est toi [character][0x1]...[end]</data>
         <refs>
             <ref>0x1b4</ref>
         </refs>
-        <data>[character][0x1]:
-Mais comment puis-je faire ?[end]</data>
+        <data>[character][0x1]: Mais comment puis-je faire ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1c3</ref>
         </refs>
-        <data>Bahamut:
-Lie nos coeurs ensemble...[end]</data>
+        <data>Bahamut: Lie nos coeurs ensemble...[end]</data>
     </text>
     <text>
         <refs>
@@ -218,8 +202,7 @@ Peux-tu faire cela Dragoon ?[end]</data>
         <refs>
             <ref>0x1e1</ref>
         </refs>
-        <data>[character][0x1]:
-J'essaierai...
+        <data>[character][0x1]: J'essaierai...
 Viens... Bahamut...[0xd8][end]</data>
     </text>
 </texts>

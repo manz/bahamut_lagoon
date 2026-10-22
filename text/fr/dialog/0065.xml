@@ -82,8 +82,7 @@ Qu'adviendra-t-il de nous ?[end]</data>
         <refs>
             <ref>0x589</ref>
         </refs>
-        <data>Matelite:
-Vous êtes faible !
+        <data>Matelite: Vous êtes faible !
 Même si vous êtes la soeur de notre
 défunt Roi de Kana et l'Impératrice
 de Campbell,je ne pourrai pas vous
@@ -93,15 +92,13 @@ pardonner ![end]</data>
         <refs>
             <ref>0x59f</ref>
         </refs>
-        <data>Reine de Campbell:
-Matelite,je ne changerai pas d'avis.[end]</data>
+        <data>Reine de Campbell: Matelite,je ne changerai pas d'avis.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5bb</ref>
         </refs>
-        <data>Matelite:
-Oh !
+        <data>Matelite: Oh !
 Vous,Impératrice,vous préférez mourir
 dans l'ombre,comme nourriture à
 dragon,plutôt que de faire face à
@@ -111,23 +108,20 @@ l'ennemi ![end]</data>
         <refs>
             <ref>0x5cd</ref>
         </refs>
-        <data>Taicho:
-Matelite !
+        <data>Taicho: Matelite !
 Calme-toi ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5da</ref>
         </refs>
-        <data>Matelite:
-Comment pourrais-je me calmer ?[end]</data>
+        <data>Matelite: Comment pourrais-je me calmer ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5e6</ref>
         </refs>
-        <data>Matelite:
-L'Impératrice ne veut pas que nous
+        <data>Matelite: L'Impératrice ne veut pas que nous
 libérions Campbell !
 Elle est persuadée que rester aux
 mains de Granbelos est meilleur pour
@@ -137,8 +131,7 @@ son peuple ![end]</data>
         <refs>
             <ref>0x5f3</ref>
         </refs>
-        <data>Taicho:
-Je suis d'accord avec toi !
+        <data>Taicho: Je suis d'accord avec toi !
  
 Ce n'est peut-être pas le meilleur
 plan à suivre.
@@ -150,8 +143,7 @@ agir pour lui faire changer d'avis.[end]</data>
         <refs>
             <ref>0x601</ref>
         </refs>
-        <data>Matelite:
-Tu as raison !
+        <data>Matelite: Tu as raison !
  
 Peut-être que nous ne devrions pas
 rester ici ![end]</data>
@@ -160,22 +152,19 @@ rester ici ![end]</data>
         <refs>
             <ref>0x635</ref>
         </refs>
-        <data>Taicho:
-Tu peux te calmer ?![end]</data>
+        <data>Taicho: Tu peux te calmer ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x643</ref>
         </refs>
-        <data>Matelite:
-Encore ![end]</data>
+        <data>Matelite: Encore ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x104</ref>
         </refs>
-        <data>Taicho:
-L'Impératrice nous a tenu un étrange
+        <data>Taicho: L'Impératrice nous a tenu un étrange
 discours.
 Essaie de la faire changer d'avis...
 Si tu y parviens ![end]</data>
@@ -184,38 +173,33 @@ Si tu y parviens ![end]</data>
         <refs>
             <ref>0xfa</ref>
         </refs>
-        <data>Matelite:
-Convaincs-la ![end]</data>
+        <data>Matelite: Convaincs-la ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2d6</ref>
         </refs>
-        <data>Nerbo:
-Tu es [character][0x0],membre de l'Escadron
+        <data>Nerbo: Tu es [character][0x0],membre de l'Escadron
 Dragon de Kana ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2e8</ref>
         </refs>
-        <data>Joy:
-Tu peux entrer sans clé !
+        <data>Joy: Tu peux entrer sans clé !
 Je t'en prie,vas-y...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1a2</ref>
         </refs>
-        <data>Reine de Campbell:
-Tu es [character][0x0],n'est-ce pas ?[end]</data>
+        <data>Reine de Campbell: Tu es [character][0x0],n'est-ce pas ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1d8</ref>
         </refs>
-        <data>Reine de Campbell:
-Ainsi,c'est vous qui avez commencé
+        <data>Reine de Campbell: Ainsi,c'est vous qui avez commencé
 une nouvelle guerre ?
 Unir le ciel est l'ambition de Sauzer.
 C'est pour cette raison qu'il guerroie
@@ -225,8 +209,7 @@ sans cesse.[end]</data>
         <refs>
             <ref>0x1e4</ref>
         </refs>
-        <data>Reine de Campbell:
-Lorsque son ambition sera achevée,
+        <data>Reine de Campbell: Lorsque son ambition sera achevée,
 la paix viendra !
 Ce sera la liberté pour mon humble
 peuple si nous ne résistons pas.[end]</data>
@@ -235,8 +218,7 @@ peuple si nous ne résistons pas.[end]</data>
         <refs>
             <ref>0x20f</ref>
         </refs>
-        <data>Reine de Campbell:
-Mais la réalité de cette paix n'est pas
+        <data>Reine de Campbell: Mais la réalité de cette paix n'est pas
 encore palpable.
 Et si nous résistions ?
 Non... tu serais incapable de nous
@@ -246,8 +228,7 @@ secourir,n'est-ce pas ?![end]</data>
         <refs>
             <ref>0x21c</ref>
         </refs>
-        <data>Reine de Campbell:
-L'Empire reprendrait de suite Campbell !
+        <data>Reine de Campbell: L'Empire reprendrait de suite Campbell !
 Serais-tu capable de nous défendre ?
 Pourrais-tu le garantir ?[end]</data>
     </text>
@@ -255,8 +236,7 @@ Pourrais-tu le garantir ?[end]</data>
         <refs>
             <ref>0x260</ref>
         </refs>
-        <data>Reine de Campbell:
-Réponds ! Je t'en prie !
+        <data>Reine de Campbell: Réponds ! Je t'en prie !
 Pourquoi ne parles-tu pas ?
 Dorénavant,réfléchis mieux et prends
 en considération ce que je viens de
@@ -266,23 +246,20 @@ te dire.[end]</data>
         <refs>
             <ref>0x27b</ref>
         </refs>
-        <data>[character][0x1]:
-Tante ![end]</data>
+        <data>[character][0x1]: Tante ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x198</ref>
             <ref>0x287</ref>
         </refs>
-        <data>Reine de Campbell:
-Je n'ai rien à te dire ![end]</data>
+        <data>Reine de Campbell: Je n'ai rien à te dire ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x294</ref>
         </refs>
-        <data>[character][0x1]:
-[character][0x0]!
+        <data>[character][0x1]: [character][0x0]!
  
 Va rejoindre ton bataillon,
 s'il te plaît !
@@ -293,15 +270,13 @@ Je veux rester seule avec ma tante...[end]</data>
         <refs>
             <ref>0x2a0</ref>
         </refs>
-        <data>Sendak:
-Princesse... la Légende...[end]</data>
+        <data>Sendak: Princesse... la Légende...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2ac</ref>
         </refs>
-        <data>[character][0x1]:
-Je sais,Sendak ![end]</data>
+        <data>[character][0x1]: Je sais,Sendak ![end]</data>
     </text>
     <text>
         <refs>
@@ -320,16 +295,14 @@ nécessaire ![end]</data>
         <refs>
             <ref>0x111</ref>
         </refs>
-        <data>[character][0x1]:
-Désolée [character][0x0]!
+        <data>[character][0x1]: Désolée [character][0x0]!
 Seulement deux personnes.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x12b</ref>
         </refs>
-        <data>Sendak:
-[character][0x0]!
+        <data>Sendak: [character][0x0]!
  
 Allons au bar,en ville,pour boire un
 peu de vin.
@@ -339,15 +312,13 @@ Une pause me fera du bien ![end]</data>
         <refs>
             <ref>0x2ef</ref>
         </refs>
-        <data>Joy:
-Elles sont déjà deux dans la cellule...[end]</data>
+        <data>Joy: Elles sont déjà deux dans la cellule...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2dd</ref>
         </refs>
-        <data>Nerbo:
-Laisse-les...
+        <data>Nerbo: Laisse-les...
 Fais-le pour moi...[end]</data>
     </text>
     <text>

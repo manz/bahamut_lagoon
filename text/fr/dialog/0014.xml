@@ -4,8 +4,7 @@
         <refs>
             <ref>0xfa</ref>
         </refs>
-        <data>Melody:
-Ouhahaha !
+        <data>Melody: Ouhahaha !
  
 Ça faisait si longtemps que je n'avais
 pas revu Godrand ![end]</data>
@@ -20,24 +19,21 @@ pas revu Godrand ![end]</data>
         <refs>
             <ref>0x119</ref>
         </refs>
-        <data>Ruki:
-Au fait,Mélodia,pourquoi avais-tu
+        <data>Ruki: Au fait,Mélodia,pourquoi avais-tu
 quitté cette ville ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x132</ref>
         </refs>
-        <data>Melody:
-Je suis partie avec un dragon puisque
+        <data>Melody: Je suis partie avec un dragon puisque
 les Petits Démons s'étaient enfuis.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x16c</ref>
         </refs>
-        <data>Matelite:
-Mais...
+        <data>Matelite: Mais...
 Je ne comprends rien...
 Nous combattons pour Campbell et
 maintenant pour Godrand !
@@ -51,8 +47,7 @@ Aiment-ils autant Granbelos ?![end]</data>
         <refs>
             <ref>0x178</ref>
         </refs>
-        <data>Ruki:
-Tout le monde n'est pas pareil,
+        <data>Ruki: Tout le monde n'est pas pareil,
 Matelite.
 Tu oublies Mahal,ce lagon a combattu
 pour sa liberté,non ?
@@ -62,8 +57,7 @@ Et,il y avait Donfan et Jeanne.[end]</data>
         <refs>
             <ref>0x18d</ref>
         </refs>
-        <data>Sendak:
-Donfan ?!
+        <data>Sendak: Donfan ?!
 Est-il encore sur le bateau ?
 J'espère qu'il ne va causer aucun
 ennui !
@@ -75,8 +69,7 @@ mes ordres et ma discipline.[end]</data>
         <refs>
             <ref>0x19b</ref>
         </refs>
-        <data>Matelite:
-Encore des balivernes !
+        <data>Matelite: Encore des balivernes !
 La sénilité te gagne !
 Ce sont malheureusement les
 conséquences de la vieillesse ![end]</data>
@@ -85,8 +78,7 @@ conséquences de la vieillesse ![end]</data>
         <refs>
             <ref>0x1a4</ref>
         </refs>
-        <data>Sendak:
-Haha !
+        <data>Sendak: Haha !
 Vous avez tous entendu !
 Qu'est-ce que je vous disais ?![end]</data>
     </text>
@@ -102,23 +94,20 @@ je te fais confiance ![end]</data>
         <refs>
             <ref>0x1c7</ref>
         </refs>
-        <data>Sendak:
-Tout ira bien,normalement.[end]</data>
+        <data>Sendak: Tout ira bien,normalement.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1de</ref>
         </refs>
-        <data>Taicho:
-Quel soulagement de pouvoir faire
+        <data>Taicho: Quel soulagement de pouvoir faire
 confiance à [character][0x0]![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x22b</ref>
         </refs>
-        <data>Ruki:
-[character][0x0]...
+        <data>Ruki: [character][0x0]...
 Fais attention ![end]</data>
     </text>
     <text>
@@ -193,8 +182,7 @@ Bienvenue à Godrand ![end]</data>
         <refs>
             <ref>0x8bc</ref>
         </refs>
-        <data>Donfan:
-Saluuuuut !
+        <data>Donfan: Saluuuuut !
 Tu es un ange si tendre ![end]</data>
     </text>
     <text>
@@ -209,8 +197,7 @@ serviteur.[end]</data>
         <refs>
             <ref>0x8d0</ref>
         </refs>
-        <data>Donfan:
-Et à côté de moi se trouve [character][0x0]![end]</data>
+        <data>Donfan: Et à côté de moi se trouve [character][0x0]![end]</data>
     </text>
     <text>
         <refs>
@@ -224,16 +211,14 @@ Kana ![end]</data>
         <refs>
             <ref>0x8fe</ref>
         </refs>
-        <data>Femme:
-[character][0x0],le Capitaine de l'Escadron Dragon
+        <data>Femme: [character][0x0],le Capitaine de l'Escadron Dragon
 de Kana ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x907</ref>
         </refs>
-        <data>Donfan:
-Hé ! Attends une minute !
+        <data>Donfan: Hé ! Attends une minute !
 J'ai l'impression que tu le connais ?[end]</data>
     </text>
     <text>
@@ -247,8 +232,7 @@ rencontrés,auparavant ?[end]</data>
         <refs>
             <ref>0x5bc</ref>
         </refs>
-        <data>[character][0x1]:
-Mélodia est à l'intérieur.
+        <data>[character][0x1]: Mélodia est à l'intérieur.
  
 D'après ce que j'entends,tout le
 monde a l'air d'être très heureux
@@ -269,8 +253,7 @@ Tu ne sens pas très bon.[end][end]</data>
         <refs>
             <ref>0x608</ref>
         </refs>
-        <data>Donfan:
-Où cette femme a-t-elle déjà entendu
+        <data>Donfan: Où cette femme a-t-elle déjà entendu
 parler de toi ?!
 Haha,les femmes !
 Elles se font toujours attendre !
@@ -284,8 +267,7 @@ Que va-t-il advenir de moi ?[end]</data>
         <refs>
             <ref>0x61c</ref>
         </refs>
-        <data>Grand-père:
-Je connais aussi un vieil hymne...[end]</data>
+        <data>Grand-père: Je connais aussi un vieil hymne...[end]</data>
     </text>
     <text>
         <refs>
@@ -310,23 +292,20 @@ de nouveauté ![end]</data>
         <refs>
             <ref>0x63a</ref>
         </refs>
-        <data>Melody:
-Hum et... [0xb3] Petits Démons sont
+        <data>Melody: Hum et... [0xb3] Petits Démons sont
 source de rendez-vous ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x644</ref>
         </refs>
-        <data>Grand-père:
-Oui,c'est cela ![end]</data>
+        <data>Grand-père: Oui,c'est cela ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x669</ref>
         </refs>
-        <data>Melody:
-Ouais !
+        <data>Melody: Ouais !
  
 Sûrement que le Dragon Sacré sera
 notre ami !
@@ -337,38 +316,33 @@ Maintenant,on peut se sentir mieux ![end]</data>
         <refs>
             <ref>0x6d4</ref>
         </refs>
-        <data>Grand-père:
-Connaîtrais-tu une maxime qui te serait
+        <data>Grand-père: Connaîtrais-tu une maxime qui te serait
 très utile ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x60f</ref>
         </refs>
-        <data>Melody:
-Vite,grimpons sur les dragons ![end]</data>
+        <data>Melody: Vite,grimpons sur les dragons ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5c7</ref>
         </refs>
-        <data>[character][0x1]:
-Parfois,elle me fait penser à moi
+        <data>[character][0x1]: Parfois,elle me fait penser à moi
 étant enfant.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x686</ref>
         </refs>
-        <data>Taicho:
-Préparez-vous avant le départ ![end]</data>
+        <data>Taicho: Préparez-vous avant le départ ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x601</ref>
         </refs>
-        <data>Mist:
-Je vais bien...
+        <data>Mist: Je vais bien...
 Je vais revoir toute l'équipe.
 Je crois avoir suffisamment récupéré.[end]</data>
     </text>
@@ -376,23 +350,20 @@ Je crois avoir suffisamment récupéré.[end]</data>
         <refs>
             <ref>0x5fa</ref>
         </refs>
-        <data>Matelite:
-Mist vient avec nous !
+        <data>Matelite: Mist vient avec nous !
 Elle va venir à Fareneit.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x740</ref>
         </refs>
-        <data>Sendak:
-Tout est prêt ?[end]</data>
+        <data>Sendak: Tout est prêt ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5f3</ref>
         </refs>
-        <data>[character][0x1]:
-Le Dragon Sacré de Godrand...
+        <data>[character][0x1]: Le Dragon Sacré de Godrand...
 Nous allons aller le trouver ![end]</data>
     </text>
     <text>
@@ -413,8 +384,7 @@ Nous allons aller le trouver ![end]</data>
         <refs>
             <ref>0x6b4</ref>
         </refs>
-        <data>Matelite:
-Allons-y,allons combattre !
+        <data>Matelite: Allons-y,allons combattre !
 L'Empire s'essouffle !
 [character][0x0]!
 Prépare-toi bien ![end]</data>
@@ -441,8 +411,7 @@ Prépare-toi bien ![end]</data>
         <refs>
             <ref>0x157</ref>
         </refs>
-        <data>[character][0x1]:
-Attends Mélodia ![end]</data>
+        <data>[character][0x1]: Attends Mélodia ![end]</data>
     </text>
     <text>
         <refs>

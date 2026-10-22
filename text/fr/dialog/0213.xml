@@ -4,8 +4,7 @@
         <refs>
             <ref>0xcc</ref>
         </refs>
-        <data>Reine de Campbell:
-Tu n'as rien eu,
+        <data>Reine de Campbell: Tu n'as rien eu,
 toi qui as conquis Campbell.
 Tes ambitions ne sont pas près de
 s'achever.
@@ -31,16 +30,14 @@ Mais CE NE SERA PAS la tienne ![end]</data>
         <refs>
             <ref>0x1a1</ref>
         </refs>
-        <data>Sauzer:
-Que... ?
+        <data>Sauzer: Que... ?
 Où suis-je... ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1af</ref>
         </refs>
-        <data>Palparos:
-Sauzer...
+        <data>Palparos: Sauzer...
 Vous êtes dans votre chambre.
 Vous ne vous en souvenez pas ?
 Le pouvoir du Dragon Sacré a été
@@ -50,8 +47,7 @@ libéré.[end]</data>
         <refs>
             <ref>0x1bf</ref>
         </refs>
-        <data>Sauzer:
-Je...
+        <data>Sauzer: Je...
 J'ai été atteint par ce pouvoir ?
 La Princesse [character][0x1]...
 contrôle-t-elle le Dragon Sacré ?
@@ -61,8 +57,7 @@ Se porte-t-elle bien ?[end]</data>
         <refs>
             <ref>0x1cb</ref>
         </refs>
-        <data>Palparos:
-Je suis désolé,
+        <data>Palparos: Je suis désolé,
 la Princesse est partie.
 Elle a rejoint les Rebelles et Campbell
 nous a été reprise.[end]</data>
@@ -71,8 +66,7 @@ nous a été reprise.[end]</data>
         <refs>
             <ref>0x209</ref>
         </refs>
-        <data>Sauzer:
-Je suis désolé Palparos.
+        <data>Sauzer: Je suis désolé Palparos.
 Où sont partis les Rebelles ?
 Vont-ils à la recherche des Dragons
 Sacrés ?[end]</data>
@@ -81,16 +75,14 @@ Sacrés ?[end]</data>
         <refs>
             <ref>0x225</ref>
         </refs>
-        <data>Palparos:
-Reposez-vous un peu...
+        <data>Palparos: Reposez-vous un peu...
 Nous défendrons Granbelos pour vous ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x25d</ref>
         </refs>
-        <data>Sauzer:
-La personne qui connaît le coeur des
+        <data>Sauzer: La personne qui connaît le coeur des
 Dragons Sacrés ouvrira la Porte vers
 une Ère Nouvelle.
 Qu'a dit Valitra à la Princesse [character][0x1]?[end]</data>
@@ -165,8 +157,7 @@ perdus...[end]</data>
         <refs>
             <ref>0x503</ref>
         </refs>
-        <data>Sauzer:
-Des monstres... repoussants...
+        <data>Sauzer: Des monstres... repoussants...
 Les gardiens du Dragon Sacré !
 Bienvenue à tous...
 Je vous suis reconnaissant de m'avoir
@@ -209,8 +200,7 @@ amener la Nouvelle Ère...[end]</data>
         <refs>
             <ref>0x624</ref>
         </refs>
-        <data>Sauzer:
-D'accord,gardiens...[end]</data>
+        <data>Sauzer: D'accord,gardiens...[end]</data>
     </text>
     <text>
         <refs>
@@ -241,8 +231,7 @@ Il est... dans mon esprit...[end]</data>
         <refs>
             <ref>0x801</ref>
         </refs>
-        <data>Palparos:
-Avez-vous remarqué le changement
+        <data>Palparos: Avez-vous remarqué le changement
 dans le ciel ?
 Empereur Sauzer,
 comprenez-vous ce qui se trame dans
@@ -252,8 +241,7 @@ le ciel ?[end]</data>
         <refs>
             <ref>0x80c</ref>
         </refs>
-        <data>Sauzer:
-Palparos...
+        <data>Sauzer: Palparos...
 Le ciel...
 Viens avec moi voir le ciel pour la
 dernière fois...[end]</data>
@@ -262,15 +250,13 @@ dernière fois...[end]</data>
         <refs>
             <ref>0x81c</ref>
         </refs>
-        <data>Palparos:
-Pour la dernière fois ?![end]</data>
+        <data>Palparos: Pour la dernière fois ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x871</ref>
         </refs>
-        <data>Sauzer:
-Il est si brillant...
+        <data>Sauzer: Il est si brillant...
 J'avais oublié cela !
 Il est brillant grâce aux rêves et à la
 Légende...
@@ -282,15 +268,13 @@ Le ciel est à moi ![end]</data>
             <ref>0x87b</ref>
             <ref>0x89d</ref>
         </refs>
-        <data>Palparos:
-Sauzer... ?![end]</data>
+        <data>Palparos: Sauzer... ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x88c</ref>
         </refs>
-        <data>Sauzer:
-Palparos...
+        <data>Sauzer: Palparos...
 Est-ce que je fais erreur ?
 Suis-je humain ?
 Suis-je leur Empereur ?[end]</data>

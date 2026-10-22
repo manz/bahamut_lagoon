@@ -4,8 +4,7 @@
         <refs>
             <ref>0x87f</ref>
         </refs>
-        <data>Matelot:
-[character][0x0],[character][0x0]!
+        <data>Matelot: [character][0x0],[character][0x0]!
 Qu'aimerais-tu ?[end]</data>
     </text>
     <text>
@@ -13,8 +12,7 @@ Qu'aimerais-tu ?[end]</data>
             <ref>0x5d9</ref>
             <ref>0x60c</ref>
         </refs>
-        <data>Bikebake:
-[character][0x0],vieux frère...
+        <data>Bikebake: [character][0x0],vieux frère...
 S'il te plaît,coopère !
  Coopérer.
  L'écouter parler.[end1]</data>
@@ -23,8 +21,7 @@ S'il te plaît,coopère !
         <refs>
             <ref>0x5f9</ref>
         </refs>
-        <data>Bikebake:
-La Princesse [character][0x1] est revenue.
+        <data>Bikebake: La Princesse [character][0x1] est revenue.
  
 Nous pouvons donc rentrer à la maison !
 Ainsi,je pourrai me consacrer à
@@ -48,15 +45,13 @@ Garde cela secret...[end]</data>
         <refs>
             <ref>0x605</ref>
         </refs>
-        <data>Bikebake:
-Je suis très embarrassé.[end]</data>
+        <data>Bikebake: Je suis très embarrassé.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7f1</ref>
         </refs>
-        <data>Reeve:
-Frunze s'est endormi !
+        <data>Reeve: Frunze s'est endormi !
 Hahahahaha !
 Comme tu peux t'en apercevoir,un
 groupe de lanciers ne fait pas tout
@@ -68,8 +63,7 @@ Lance haute ![end]</data>
         <refs>
             <ref>0x7fb</ref>
         </refs>
-        <data>Reeve:
-Frunze est encore couché !
+        <data>Reeve: Frunze est encore couché !
  
 J'aimerais qu'il y ait un autre lancier
 dans ce bateau ![end]</data>
@@ -78,8 +72,7 @@ dans ce bateau ![end]</data>
         <refs>
             <ref>0x83e</ref>
         </refs>
-        <data>Frunze:
-Guh...
+        <data>Frunze: Guh...
 Tu veux me parler de Reeve ?
 Mon partenaire aurait besoin d'un
 médecin pour soigner son expression
@@ -91,8 +84,7 @@ nous sommes très amis.[end]</data>
         <refs>
             <ref>0x837</ref>
         </refs>
-        <data>Frunze:
-Cette histoire se réglera entre lanciers ![end]</data>
+        <data>Frunze: Cette histoire se réglera entre lanciers ![end]</data>
     </text>
     <text>
         <refs>
@@ -100,8 +92,7 @@ Cette histoire se réglera entre lanciers ![end]</data>
             <ref>0x74b</ref>
         </refs>
         <data> 
-Gunso:
-Phew[0xd8]``Grognement''
+Gunso: Phew[0xd8]``Grognement''
  
 C'est exténuant de porter une lourde
 armure.[end]</data>
@@ -116,8 +107,7 @@ armure.[end]</data>
         <refs>
             <ref>0x763</ref>
         </refs>
-        <data>Gunso:
-Parlons seul à seul...
+        <data>Gunso: Parlons seul à seul...
 ``Grognement''
 Est-ce que Commandant te semble être
 toujours le même ?
@@ -159,8 +149,7 @@ Je n'y comprends rien du tout ![end]</data>
         <refs>
             <ref>0x69c</ref>
         </refs>
-        <data>Barclay:
-Je veux me plaindre !
+        <data>Barclay: Je veux me plaindre !
 Veux-tu m'entendre ?
  Vas-y,s'il te plaît !
  Je suis occupé...[end1]</data>
@@ -206,8 +195,7 @@ Sache que la victoire c'est l'argent ![end]</data>
         <refs>
             <ref>0x5a5</ref>
         </refs>
-        <data>Rush:
-Durant les combats,je ne vois que le
+        <data>Rush: Durant les combats,je ne vois que le
 sourire de [character][0x1],et alors,je me dis:
 Fais de ton mieux,Rush !
 Mais le Général Palparos est arrivé et
@@ -233,15 +221,13 @@ Je la protègerai ![end]</data>
         <refs>
             <ref>0x5c4</ref>
         </refs>
-        <data>Rush:
-Haha...[end]</data>
+        <data>Rush: Haha...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6b8</ref>
         </refs>
-        <data>Barclay:
-Autrefois,nous nous étions résignés à
+        <data>Barclay: Autrefois,nous nous étions résignés à
 nous croire vaincus pour notre combat
 pour le monde.
  
@@ -257,8 +243,7 @@ augmenter en force.[end]</data>
         <refs>
             <ref>0x71f</ref>
         </refs>
-        <data>Barclay:
-Je dois t'annoncer que j'aime
+        <data>Barclay: Je dois t'annoncer que j'aime
 quelqu'un...
 Une sorcière vaniteuse...
 C'est Anastasia !
@@ -287,8 +272,7 @@ garde ça secret.[end]</data>
         <refs>
             <ref>0x7b8</ref>
         </refs>
-        <data>Gunso:
-[character][0x0]!
+        <data>Gunso: [character][0x0]!
 ``Grognement''
 Il est mieux pour tous de retourner
 vivre à Orelus !
@@ -299,8 +283,7 @@ Il y a tant de choses à y faire ![end]</data>
         <refs>
             <ref>0x81b</ref>
         </refs>
-        <data>Reeve:
-Altair va redonner de la vigueur à
+        <data>Reeve: Altair va redonner de la vigueur à
 Frunze !
 Ensemble,nous crierons:
 Lan... Lan... Lancier !
@@ -310,8 +293,7 @@ Je suis content ![end]</data>
         <refs>
             <ref>0x853</ref>
         </refs>
-        <data>Frunze:
-... ... ... ...
+        <data>Frunze: ... ... ... ...
  
 Je suis un lancier !
 Lan... Lan... Lancier !
@@ -327,8 +309,7 @@ Tout ira bien,n'est-ce pas ?[end]</data>
         <refs>
             <ref>0x85b</ref>
         </refs>
-        <data>Fils de Zora:
-Quoi ?!
+        <data>Fils de Zora: Quoi ?!
 Tu veux connaître mon nom ?
  Dis-le-moi !
  Ça m'est égal...[end1]</data>
@@ -337,8 +318,7 @@ Tu veux connaître mon nom ?
         <refs>
             <ref>0x869</ref>
         </refs>
-        <data>Fils de Zora:
-En réalité...
+        <data>Fils de Zora: En réalité...
 Mon nom est... Orelus !
 Beaucoup de personnes dans le monde
 s'appellent comme ça.
@@ -357,8 +337,7 @@ Je ferai de mon mieux ![end]</data>
         <refs>
             <ref>0x59a</ref>
         </refs>
-        <data>Rush:
-Nous aimons le combat,
+        <data>Rush: Nous aimons le combat,
 nous allons aller combattre !
 Nous connaissons tous le but de
 l'Armée de Libération d'Orelus ![end][end]</data>
@@ -367,8 +346,7 @@ l'Armée de Libération d'Orelus ![end][end]</data>
         <refs>
             <ref>0x62f</ref>
         </refs>
-        <data>Bikebake:
-Je crois que l'argent devient
+        <data>Bikebake: Je crois que l'argent devient
 insupportable à la fin !
 Mais depuis que j'ai commencé à
 commercer,je ne peux plus m'arrêter ![end]</data>
@@ -385,8 +363,7 @@ commercer,je ne peux plus m'arrêter ![end]</data>
         <refs>
             <ref>0x780</ref>
         </refs>
-        <data>Gunso:
-Aah...
+        <data>Gunso: Aah...
 ``Grognement''
 Quelque chose sur ce bateau est très
 bruyant...
@@ -398,16 +375,14 @@ Chantonnons...[end]</data>
         <refs>
             <ref>0x807</ref>
         </refs>
-        <data>Reeve:
-Ah ! Mon pauvre ventre !
+        <data>Reeve: Ah ! Mon pauvre ventre !
 N'accoste pas les gens comme ça.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x845</ref>
         </refs>
-        <data>Frunze:
-Reeve a mangé un mélange de
+        <data>Frunze: Reeve a mangé un mélange de
 [0xaa]SERGENT ???[0xab] et de [0xaa]UNIUJI[0xab].
 Il a mal à l'estomac...
 Je lui ai moi-même préparé ce cocktail
@@ -447,8 +422,7 @@ tous les palais ! ``Grognement''[end]</data>
         <refs>
             <ref>0x6bf</ref>
         </refs>
-        <data>Barclay:
-Aujourd'hui,je pensais au commerce et
+        <data>Barclay: Aujourd'hui,je pensais au commerce et
 au fait que les prix devraient être les
 mêmes pour les hommes et les femmes.
 C'est alors que je pensai de suite au
@@ -481,8 +455,7 @@ vous.[end]</data>
         <refs>
             <ref>0x6e9</ref>
         </refs>
-        <data>Barclay:
-Il faut que tu me dises ce que tu
+        <data>Barclay: Il faut que tu me dises ce que tu
 penses de ma nouvelle idée !
 Crois-tu qu'une bataille entre les
 sorcières et les guerriers soit
@@ -532,8 +505,7 @@ prochain assaut ![end]</data>
         <refs>
             <ref>0x811</ref>
         </refs>
-        <data>Reeve:
-Guh huh huh...
+        <data>Reeve: Guh huh huh...
  
 Je ne suis pas différent des autres
 puisque j'ai toujours des souhaits
@@ -545,8 +517,7 @@ Je n'ai plus rien...[end]</data>
         <refs>
             <ref>0x84c</ref>
         </refs>
-        <data>Frunze:
-Cette fois,c'est décidé !
+        <data>Frunze: Cette fois,c'est décidé !
 Ma vengeance sera terrible !
 J'ai décidé cela tout seul et j'en ai
 même des frissons...[end]</data>
@@ -555,8 +526,7 @@ même des frissons...[end]</data>
         <refs>
             <ref>0x7ae</ref>
         </refs>
-        <data>Gunso:
-La Restauration de Mahal...
+        <data>Gunso: La Restauration de Mahal...
 ``Grognement''
 La Restauration de Kana...
 ``Grognement''

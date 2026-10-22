@@ -22,8 +22,7 @@ Tu es vraiment à envier...[end]</data>
             <ref>0xc48</ref>
             <ref>0xa7d</ref>
         </refs>
-        <data>Matelite:
-[character][0x0]!
+        <data>Matelite: [character][0x0]!
 ... ![0xfc][0x10][end1]</data>
     </text>
     <text>
@@ -31,8 +30,7 @@ Tu es vraiment à envier...[end]</data>
             <ref>0xc4</ref>
             <ref>0x16f</ref>
         </refs>
-        <data>Matelite:
-Princesse [character][0x1]!
+        <data>Matelite: Princesse [character][0x1]!
 S'il vous plaît,obéissez[0xd8][end]</data>
     </text>
     <text>
@@ -40,24 +38,21 @@ S'il vous plaît,obéissez[0xd8][end]</data>
             <ref>0xba</ref>
             <ref>0x14d</ref>
         </refs>
-        <data>[character][0x1]:
-[character][0x0]...
+        <data>[character][0x1]: [character][0x0]...
 Vite... par ici ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2aa</ref>
         </refs>
-        <data>[character][0x1]:
-Salamand...
+        <data>[character][0x1]: Salamand...
 Vite[0xd8][0xfc][0x20][end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x380</ref>
         </refs>
-        <data>[character][0x1]:
-Viens,[character][0x0]...
+        <data>[character][0x1]: Viens,[character][0x0]...
 Que fais-tu ? Tu vas bien ?[end]</data>
     </text>
     <text>
@@ -94,8 +89,7 @@ Quel étrange sentiment,n'est-ce pas ?[end]</data>
         <refs>
             <ref>0xaa1</ref>
         </refs>
-        <data>[character][0x1]:
-C'est ici,[character][0x0]!
+        <data>[character][0x1]: C'est ici,[character][0x0]!
 C'est cette église...
 Je vais te parler de ses souvenirs.
 Sais-tu pourquoi elle est si connue ?[end]</data>
@@ -159,8 +153,7 @@ apprécier notre escapade ![end]</data>
             <ref>0x514</ref>
             <ref>0xcc6</ref>
         </refs>
-        <data>[character][0x1]:
-C'est sans espoir...[end]</data>
+        <data>[character][0x1]: C'est sans espoir...[end]</data>
     </text>
     <text>
         <refs>
@@ -219,8 +212,7 @@ cette promesse...[end]</data>
         <refs>
             <ref>0x5a0</ref>
         </refs>
-        <data>Palparos:
-L'Empereur Sauzer m'a donné la
+        <data>Palparos: L'Empereur Sauzer m'a donné la
 permission de voler.
 Venez,Princesse [character][0x1]!
 Je vous en prie,venez...
@@ -231,55 +223,48 @@ Mon dragon nous attend dehors ![end]</data>
         <refs>
             <ref>0x5b4</ref>
         </refs>
-        <data>[character][0x1]:
-Pouvez-vous attendre un peu,
+        <data>[character][0x1]: Pouvez-vous attendre un peu,
 jusqu'à ce qu'il fasse nuit ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5fe</ref>
         </refs>
-        <data>[character][0x1]:
-Est-il vrai que vous pouvez m'emmener
+        <data>[character][0x1]: Est-il vrai que vous pouvez m'emmener
 n'importe où ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x612</ref>
         </refs>
-        <data>Palparos:
-Dans chaque lieu que vous désirerez ![end]</data>
+        <data>Palparos: Dans chaque lieu que vous désirerez ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6d3</ref>
         </refs>
-        <data>Palparos:
-Il est sûrement plus rapide que les
+        <data>Palparos: Il est sûrement plus rapide que les
 dragons de Kana ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6d9</ref>
         </refs>
-        <data>[character][0x1]:
-Huuum...
+        <data>[character][0x1]: Huuum...
 Salamand l'est beaucoup plus ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6e9</ref>
         </refs>
-        <data>Palparos:
-Salamand...
+        <data>Palparos: Salamand...
 Tiens donc...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x72f</ref>
         </refs>
-        <data>Palparos:
-Princesse [character][0x1],
+        <data>Palparos: Princesse [character][0x1],
 vous êtes si combattive...[end]</data>
     </text>
     <text>
@@ -301,15 +286,13 @@ parler avec vous,Princesse...[end]</data>
         <refs>
             <ref>0x862</ref>
         </refs>
-        <data>Palparos:
-Est-ce un lieu de mémoire ?[end]</data>
+        <data>Palparos: Est-ce un lieu de mémoire ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x86d</ref>
         </refs>
-        <data>[character][0x1]:
-Oui,c'est un lieu chargé de souvenirs !
+        <data>[character][0x1]: Oui,c'est un lieu chargé de souvenirs !
  
 L'endroit où tout a commencé entre
 nous ![end]</data>
@@ -318,30 +301,26 @@ nous ![end]</data>
         <refs>
             <ref>0x881</ref>
         </refs>
-        <data>Palparos:
-C'est ici que tout avait commencé...[end]</data>
+        <data>Palparos: C'est ici que tout avait commencé...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x89a</ref>
         </refs>
-        <data>[character][0x1]:
-Il y a une très belle histoire à propos
+        <data>[character][0x1]: Il y a une très belle histoire à propos
 de cette église...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8af</ref>
         </refs>
-        <data>Palparos:
-Pourriez-vous me la conter ?[end]</data>
+        <data>Palparos: Pourriez-vous me la conter ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8c8</ref>
         </refs>
-        <data>[character][0x1]:
-C'est une fantastique anecdote.
+        <data>[character][0x1]: C'est une fantastique anecdote.
 Mais peu de personnes la connaissent.
 Autrefois,de nombreux amoureux vinrent
 à cette église pour se marier et être
@@ -353,15 +332,13 @@ appelée l'Église des Souvenirs ![end]</data>
         <refs>
             <ref>0x8d3</ref>
         </refs>
-        <data>Palparos:
-Il était une fois un couple...[end]</data>
+        <data>Palparos: Il était une fois un couple...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8e7</ref>
         </refs>
-        <data>[character][0x1]:
-Je crains que nous n'ayons pas plus
+        <data>[character][0x1]: Je crains que nous n'ayons pas plus
 de temps...[end]</data>
     </text>
     <text>

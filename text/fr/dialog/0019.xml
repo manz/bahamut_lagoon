@@ -14,8 +14,7 @@ Devrions-nous l'attendre ?[end]</data>
         <refs>
             <ref>0x10f</ref>
         </refs>
-        <data>Taicho:
-Tu es si impatient !
+        <data>Taicho: Tu es si impatient !
  
 Je sais que toi et [character][0x0] êtes tous les
 deux très tristes.[end]</data>
@@ -24,8 +23,7 @@ deux très tristes.[end]</data>
         <refs>
             <ref>0x133</ref>
         </refs>
-        <data>Matelite:
-Ce Général Palparos n'est qu'un
+        <data>Matelite: Ce Général Palparos n'est qu'un
 ennemi !
 Il est le bras droit de Sauzer et
 n'est donc que le mal incarné !
@@ -35,8 +33,7 @@ C'est [character][0x0] qui devrait être félicité ![end]</data>
         <refs>
             <ref>0x147</ref>
         </refs>
-        <data>Taicho:
-Que dis-tu Matelite ?!
+        <data>Taicho: Que dis-tu Matelite ?!
 Palparos est un bon Général !
 Et [character][0x1] l'a choisi !
 Et c'est ce à quoi tu dois prêter
@@ -47,8 +44,7 @@ Tu devrais respecter sa décision...[end]</data>
         <refs>
             <ref>0x170</ref>
         </refs>
-        <data>Taicho:
-Matelite,as-tu déjà pensé au vrai
+        <data>Taicho: Matelite,as-tu déjà pensé au vrai
 sens de la Guerre ?[end]</data>
     </text>
     <text>
@@ -146,8 +142,7 @@ J'espère qu'elle se finira vite ![end]</data>
         <refs>
             <ref>0x231</ref>
         </refs>
-        <data>Marchand:
-Les militaires sont sur le champ de
+        <data>Marchand: Les militaires sont sur le champ de
 bataille !
 Le général Palparos croit ou du moins
 estime que c'est la bataille finale !
@@ -159,8 +154,7 @@ encerclent le château ![end]</data>
         <refs>
             <ref>0x240</ref>
         </refs>
-        <data>Patronne:
-Même si l'Empereur Sauzer est malade,
+        <data>Patronne: Même si l'Empereur Sauzer est malade,
 ils n'abandonneront jamais !
 Allez-vous y aller ?![end]</data>
     </text>
@@ -199,8 +193,7 @@ voulez ![end]</data>
         <refs>
             <ref>0xbf2</ref>
         </refs>
-        <data>Matelite:
-[character][0x0],que devrais-je faire ?[end]</data>
+        <data>Matelite: [character][0x0],que devrais-je faire ?[end]</data>
     </text>
     <text>
         <refs>
@@ -213,8 +206,7 @@ voulez ![end]</data>
         <refs>
             <ref>0xded</ref>
         </refs>
-        <data>Sendak:
-La princesse est-elle vraiment
+        <data>Sendak: La princesse est-elle vraiment
 heureuse ?
 Les Dragons Sacrés sont venus ici de
 leur plein gré mais que va-t-il advenir
@@ -227,16 +219,14 @@ aussi venus avec moi ![end]</data>
         <refs>
             <ref>0xca1</ref>
         </refs>
-        <data>Taicho:
-Réponds-moi,[character][0x0]...
+        <data>Taicho: Réponds-moi,[character][0x0]...
 As-tu compris tes erreurs ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc71</ref>
         </refs>
-        <data>Palparos:
-L'ennemi est dirigé par les puissants
+        <data>Palparos: L'ennemi est dirigé par les puissants
 généraux impériaux.
 Selon moi,nous ne les battrons que si
 nous les vainquons un à un ![end]</data>
@@ -252,8 +242,7 @@ J'ai rejoint les Rebelles ![end]</data>
         <refs>
             <ref>0xcb3</ref>
         </refs>
-        <data>Palparos:
-[character][0x0],allons combattre ensemble !
+        <data>Palparos: [character][0x0],allons combattre ensemble !
 Aller combattre ensemble ?[end]</data>
     </text>
     <text>
@@ -268,8 +257,7 @@ Aller combattre ensemble ?[end]</data>
         <refs>
             <ref>0x985</ref>
         </refs>
-        <data>Docteur Dragon:
-La Restauration de Kana !
+        <data>Docteur Dragon: La Restauration de Kana !
 Merci beaucoup,beaucoup !
 Au fait,sais-tu comment l'on conçoit
 les enfants ?[end]</data>
@@ -349,8 +337,7 @@ savais tant que ça sur les enfants ?[end]</data>
         <refs>
             <ref>0xa4f</ref>
         </refs>
-        <data>Docteur Dragon:
-Ainsi les rumeurs des matelots étaient
+        <data>Docteur Dragon: Ainsi les rumeurs des matelots étaient
 sûrement fondées.
 ``Hahahahaha,il n'y connaît rien !''[end]</data>
     </text>
@@ -358,8 +345,7 @@ sûrement fondées.
         <refs>
             <ref>0xa47</ref>
         </refs>
-        <data>Docteur Dragon:
-``Hornet a gagné le pari !''[end]</data>
+        <data>Docteur Dragon: ``Hornet a gagné le pari !''[end]</data>
     </text>
     <text>
         <refs>
@@ -451,8 +437,7 @@ de Kana.[end]</data>
         <refs>
             <ref>0xcef</ref>
         </refs>
-        <data>Palparos:
-Ah... ![end]</data>
+        <data>Palparos: Ah... ![end]</data>
     </text>
     <text>
         <refs>
@@ -480,8 +465,7 @@ de toutes guerres.
         <refs>
             <ref>0xd37</ref>
         </refs>
-        <data>Palparos:
-``Un enfant... ?''
+        <data>Palparos: ``Un enfant... ?''
  
 [character][0x0],aimerais-tu escorter [character][0x1]
 jusqu'à la salle du trône ?
@@ -516,8 +500,7 @@ d'impératrice.[end]</data>
         <refs>
             <ref>0xd87</ref>
         </refs>
-        <data>[character][0x1]:
-Hé ! Attendez...
+        <data>[character][0x1]: Hé ! Attendez...
  
 Merci ![end]</data>
     </text>
@@ -531,8 +514,7 @@ Merci ![end]</data>
         <refs>
             <ref>0x1301</ref>
         </refs>
-        <data>Marchand:
-J'ai vu Matelite !
+        <data>Marchand: J'ai vu Matelite !
 Il avait l'air très sérieux !
 Il courait puis il a disparu !
 Que de manières ![end]</data>
@@ -549,8 +531,7 @@ En ce moment,j'ai de très bons objets
         <refs>
             <ref>0x13dd</ref>
         </refs>
-        <data>Patronne:
-Bikebake nous a vendu contre notre
+        <data>Patronne: Bikebake nous a vendu contre notre
 volonté des champignons.
 Je ne voulais pas de tout ça !
 Regardez mon mari !
@@ -579,8 +560,7 @@ Il est reparti au château ![end]</data>
             <ref>0x142b</ref>
             <ref>0x1365</ref>
         </refs>
-        <data>Marchand:
-Hoho !
+        <data>Marchand: Hoho !
  
 Aujourd'hui comme toujours,j'ai de
 nombreuses choses à vendre.
@@ -593,8 +573,7 @@ acheter quelque chose ?[end]</data>
             <ref>0x1434</ref>
             <ref>0x1375</ref>
         </refs>
-        <data>Patronne:
-N'achetez rien !
+        <data>Patronne: N'achetez rien !
  
 C'est la Libération de Kana et de la
 femme,aujourd'hui !
@@ -638,8 +617,7 @@ nous puissions vous offrir ![end]</data>
         <refs>
             <ref>0x737</ref>
         </refs>
-        <data>Rush:
-Nous sommes enfin revenus chez nous.
+        <data>Rush: Nous sommes enfin revenus chez nous.
 Rien n'a changé...
 Les nuages,le portail,la région...
 Nous devrons vaincre tous nos ennemis
@@ -649,8 +627,7 @@ pour défendre ce très cher endroit.[end]</data>
         <refs>
             <ref>0x753</ref>
         </refs>
-        <data>Truth:
-Bonjour Capitaine [character][0x0]!
+        <data>Truth: Bonjour Capitaine [character][0x0]!
  
 Nous sommes enfin revenus à Kana.
 Ce n'est pas un rêve...
@@ -663,16 +640,14 @@ Notre cher chez-nous.[end]</data>
         <refs>
             <ref>0x7ac</ref>
         </refs>
-        <data>Enfant:
-Qui êtes-vous ?!
+        <data>Enfant: Qui êtes-vous ?!
 Vous êtes dans notre repaire ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7b8</ref>
         </refs>
-        <data>Rush:
-Ces enfants seront un jour nos
+        <data>Rush: Ces enfants seront un jour nos
 successeurs !
 Ils finiront par combattre pour
 défendre Kana ![end]</data>
@@ -681,23 +656,20 @@ défendre Kana ![end]</data>
         <refs>
             <ref>0x7c6</ref>
         </refs>
-        <data>Truth:
-J'espère pour eux que nous aurons
+        <data>Truth: J'espère pour eux que nous aurons
 mis un terme à cette guerre.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7d8</ref>
         </refs>
-        <data>Rush:
-Est-ce que vous êtes forts ?[end]</data>
+        <data>Rush: Est-ce que vous êtes forts ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7fc</ref>
         </refs>
-        <data>Enfant:
-Quand nous serons grands,nous
+        <data>Enfant: Quand nous serons grands,nous
 voudrions être Capitaine ou chevaliers
 de la Cavalerie de Kana.
 C'est notre rêve !
@@ -713,8 +685,7 @@ Il s'appelle Salamand ![end]</data>
         <refs>
             <ref>0x82f</ref>
         </refs>
-        <data>Truth:
-Nous devons continuer notre combat.
+        <data>Truth: Nous devons continuer notre combat.
 Retournons à Fareneit !
 Cependant,Bikebake est trop heureux
 d'être revenu.
@@ -725,8 +696,7 @@ d'arrêter maintenant,n'est-ce pas ?[end]</data>
         <refs>
             <ref>0x839</ref>
         </refs>
-        <data>Bikebake:
-[character][0x0],mon frère !
+        <data>Bikebake: [character][0x0],mon frère !
 Je... je suis inutile.
 Je ne sers plus à rien.
 Ça te fait sourire... ?!
@@ -757,16 +727,14 @@ je serai mis de côté.[end]</data>
         <refs>
             <ref>0x87f</ref>
         </refs>
-        <data>Rush:
-Nous serons toujours avec toi !
+        <data>Rush: Nous serons toujours avec toi !
 Cesse de faire l'imbécile ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x88b</ref>
         </refs>
-        <data>Truth:
-Nous ne te remercierons jamais assez
+        <data>Truth: Nous ne te remercierons jamais assez
 pour ce que tu fais !
 Viens et rentre avec nous à
 Fareneit ![end]</data>
@@ -775,23 +743,20 @@ Fareneit ![end]</data>
         <refs>
             <ref>0x894</ref>
         </refs>
-        <data>Bikebake:
-Oh mes amis...[end]</data>
+        <data>Bikebake: Oh mes amis...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8cb</ref>
         </refs>
-        <data>Matelite:
-C'est terrible !
+        <data>Matelite: C'est terrible !
 Sendak est inconscient ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8ee</ref>
         </refs>
-        <data>Docteur Dragon:
-C'est terrible !
+        <data>Docteur Dragon: C'est terrible !
  
 Fareneit est en ce moment au-dessus
 de l'Empire ![end]</data>
@@ -800,8 +765,7 @@ de l'Empire ![end]</data>
         <refs>
             <ref>0x8fc</ref>
         </refs>
-        <data>Matelite:
-Allons-y !
+        <data>Matelite: Allons-y !
 Hâtons-nous !
 Je crois que la lutte finale contre
 l'Empire Granbelos arrive à grands pas ![end]</data>

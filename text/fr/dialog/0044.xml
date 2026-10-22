@@ -4,54 +4,47 @@
         <refs>
             <ref>0x6d</ref>
         </refs>
-        <data>[character][0x1]:
-... ... ... ...[0xd8][end]</data>
+        <data>[character][0x1]: ... ... ... ...[0xd8][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x76</ref>
         </refs>
-        <data>Sendak:
-Princesse ?
+        <data>Sendak: Princesse ?
 Comment faire ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x82</ref>
         </refs>
-        <data>[character][0x1]:
-Valitra !
+        <data>[character][0x1]: Valitra !
 Quelque chose ne va pas ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8e</ref>
         </refs>
-        <data>Matelite:
-Quoi ?
+        <data>Matelite: Quoi ?
 Quelle est notre faiblesse ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x94</ref>
         </refs>
-        <data>[character][0x1]:
-Je ne comprends pas...[end]</data>
+        <data>[character][0x1]: Je ne comprends pas...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa1</ref>
         </refs>
-        <data>Sendak:
-Tout va bien ?
+        <data>Sendak: Tout va bien ?
 Princesse ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xae</ref>
         </refs>
-        <data>[character][0x1]:
-Oui,Sendak,tout va bien ![end]</data>
+        <data>[character][0x1]: Oui,Sendak,tout va bien ![end]</data>
     </text>
     <text>
         <refs>
@@ -78,8 +71,7 @@ Valitra et Léviathan sont là,en moi...[end]</data>
         <refs>
             <ref>0x17e</ref>
         </refs>
-        <data>Sendak:
-Princesse !
+        <data>Sendak: Princesse !
 Tenez bon ![end]</data>
     </text>
     <text>
@@ -87,15 +79,13 @@ Tenez bon ![end]</data>
             <ref>0x208</ref>
             <ref>0x1a4</ref>
         </refs>
-        <data>Matelite:
-Princesse [character][0x1]![end]</data>
+        <data>Matelite: Princesse [character][0x1]![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1ad</ref>
         </refs>
-        <data>[character][0x1]:
-Garuda...
+        <data>[character][0x1]: Garuda...
 Mais... que veut-il ?![end]</data>
     </text>
     <text>
@@ -110,23 +100,20 @@ Quelle haine ![end]</data>
         <refs>
             <ref>0x1d4</ref>
         </refs>
-        <data>[character][0x1]:
-Aaaaah ![end]</data>
+        <data>[character][0x1]: Aaaaah ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1fb</ref>
         </refs>
-        <data>Sendak:
-Princesse !
+        <data>Sendak: Princesse !
 Tenez bon[0xd8][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x211</ref>
         </refs>
-        <data>Matelite:
-Ramenons-la immédiatement à
+        <data>Matelite: Ramenons-la immédiatement à
 Fareneit ![end]</data>
     </text>
     <text>

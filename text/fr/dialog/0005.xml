@@ -19,8 +19,7 @@ présence de Bahamut à Kana.[end]</data>
         <refs>
             <ref>0x114</ref>
         </refs>
-        <data>[character][0xb]:
-C'était facile à voir ![end]</data>
+        <data>[character][0xb]: C'était facile à voir ![end]</data>
     </text>
     <text>
         <refs>
@@ -78,8 +77,7 @@ Les dragons sont là ![end]</data>
             <ref>0x2a9</ref>
         </refs>
         <data>MARCHAND ENVOYE AU CHAMP DE
-Bataille:
-Chaque nouvelle bataille est plus
+Bataille: Chaque nouvelle bataille est plus
 terrible que la précédente !
 Tu veux m'acheter quelque chose ?[end]</data>
     </text>
@@ -109,8 +107,7 @@ Elle doit être en danger ![end]</data>
         <refs>
             <ref>0x3bb</ref>
         </refs>
-        <data>[character][0xe]:
-A... allons-y ![end]</data>
+        <data>[character][0xe]: A... allons-y ![end]</data>
     </text>
     <text>
         <refs>

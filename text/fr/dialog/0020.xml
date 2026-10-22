@@ -37,8 +37,7 @@
         <refs>
             <ref>0x149</ref>
         </refs>
-        <data>Taicho:
-Silence,du calme !
+        <data>Taicho: Silence,du calme !
  
 Matelite ne va pas tarder à venir
 parler,alors écoutez-le.[end]</data>
@@ -47,8 +46,7 @@ parler,alors écoutez-le.[end]</data>
         <refs>
             <ref>0x20e</ref>
         </refs>
-        <data>Matelite:
-L'entraînement au combat va
+        <data>Matelite: L'entraînement au combat va
 commencer !
 D'accord tout le monde ?![end]</data>
     </text>
@@ -155,15 +153,13 @@ Oui,toi là-bas ![end]</data>
         <refs>
             <ref>0x4bb</ref>
         </refs>
-        <data>Hornet:
-Tu ne peux pas attendre ?![end]</data>
+        <data>Hornet: Tu ne peux pas attendre ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4da</ref>
         </refs>
-        <data>Hornet:
-Fareneit n'attend plus que l'ordre
+        <data>Hornet: Fareneit n'attend plus que l'ordre
 de partir ![end]</data>
     </text>
     <text>
@@ -176,8 +172,7 @@ de partir ![end]</data>
         <refs>
             <ref>0xc9c</ref>
         </refs>
-        <data>Hornet:
-Les soldats impériaux ont tout cassé ![end]</data>
+        <data>Hornet: Les soldats impériaux ont tout cassé ![end]</data>
     </text>
     <text>
         <refs>
@@ -190,8 +185,7 @@ tout aille mieux ![end]</data>
         <refs>
             <ref>0xcef</ref>
         </refs>
-        <data>Hornet:
-C'est outrageant !
+        <data>Hornet: C'est outrageant !
 Aaah,tout ce bruit ![end]</data>
     </text>
     <text>
@@ -206,23 +200,20 @@ vous êtes ?[end]</data>
         <refs>
             <ref>0x512</ref>
         </refs>
-        <data>Taicho:
-Je suis le Capitaine de l'armée de
+        <data>Taicho: Je suis le Capitaine de l'armée de
 Mahal,Commandant ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x526</ref>
         </refs>
-        <data>Matelite:
-Capitaine Commandant ![end]</data>
+        <data>Matelite: Capitaine Commandant ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x537</ref>
         </refs>
-        <data>Matelite:
-Allez tout le monde !
+        <data>Matelite: Allez tout le monde !
  
 Je vais vous soumettre des ordres et
 vous devrez y obéir ![end]</data>
@@ -277,8 +268,7 @@ Tourner ![end]</data>
         <refs>
             <ref>0x1296</ref>
         </refs>
-        <data>Matelite:
-GAHAHAHAHA !
+        <data>Matelite: GAHAHAHAHA !
  
 [character][0x0],tu as encore beaucoup à
 apprendre sur l'ordre et la discipline.[end]</data>
@@ -287,8 +277,7 @@ apprendre sur l'ordre et la discipline.[end]</data>
         <refs>
             <ref>0x119c</ref>
         </refs>
-        <data>Matelite:
-GAHAHAHAHAHA[0xd8]
+        <data>Matelite: GAHAHAHAHAHA[0xd8]
  
 [character][0x0],je te donne une autre chance !
 Alors sois prêt !
@@ -306,8 +295,7 @@ Faites F-A-C-E[0xd8][end]</data>
         <refs>
             <ref>0xd4</ref>
         </refs>
-        <data>Rush:
-Matelite nous a ordonné de nous
+        <data>Rush: Matelite nous a ordonné de nous
 réunir ici !
 Il va nous instruire et nous entraîner
 pour les combats.[end]</data>
@@ -316,8 +304,7 @@ pour les combats.[end]</data>
         <refs>
             <ref>0xc26</ref>
         </refs>
-        <data>Rush:
-Parfois Matelite peut être très en
+        <data>Rush: Parfois Matelite peut être très en
 colère.
 J'ai un mauvais pressentiment ![end]</data>
     </text>
@@ -325,8 +312,7 @@ J'ai un mauvais pressentiment ![end]</data>
         <refs>
             <ref>0x1bb</ref>
         </refs>
-        <data>Rush:
-Le discours de Matelite va être long.
+        <data>Rush: Le discours de Matelite va être long.
  
 Veux-tu l'écouter en vitesse
 accélérée ?[end]</data>
@@ -365,8 +351,7 @@ vas-tu l'attendre ?[end]</data>
         <refs>
             <ref>0xc31</ref>
         </refs>
-        <data>Rush:
-À force d'entraînement et en
+        <data>Rush: À force d'entraînement et en
 échangeant les membres de tes
 équipes,tu trouveras sûrement un
 équilibre des forces.[end]</data>
@@ -375,8 +360,7 @@ vas-tu l'attendre ?[end]</data>
         <refs>
             <ref>0xc52</ref>
         </refs>
-        <data>Truth:
-Matelite va arriver !
+        <data>Truth: Matelite va arriver !
  
 Il faudra faire tout ce qu'il dit.[end]</data>
     </text>
@@ -384,38 +368,33 @@ Il faudra faire tout ce qu'il dit.[end]</data>
         <refs>
             <ref>0xc5c</ref>
         </refs>
-        <data>Truth:
-L'équilibre d'une équipe est très
+        <data>Truth: L'équilibre d'une équipe est très
 important.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc75</ref>
         </refs>
-        <data>Bikebake:
-Vite,commençons ![end]</data>
+        <data>Bikebake: Vite,commençons ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc7c</ref>
         </refs>
-        <data>Bikebake:
-Aaaaaaaaaaaaah !
+        <data>Bikebake: Aaaaaaaaaaaaah !
 Y en a encore pour longtemps ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xff1</ref>
         </refs>
-        <data>Diana:
-Salut ![end]</data>
+        <data>Diana: Salut ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xff8</ref>
         </refs>
-        <data>Diana:
-As-tu déjà entendu parler du bras
+        <data>Diana: As-tu déjà entendu parler du bras
 droit de l'Empereur Sauzer,
 le Général Palparos ?[end]</data>
     </text>
@@ -443,8 +422,7 @@ lanciers.[end]</data>
         <refs>
             <ref>0xf8e</ref>
         </refs>
-        <data>Frederica:
-Vous,les garçons,maniez les armes...
+        <data>Frederica: Vous,les garçons,maniez les armes...
 C'est très bien !
 Mais,nous,nous lançons des sorts de
 soins qui ne sont pas inutiles.[end]</data>
@@ -453,8 +431,7 @@ soins qui ne sont pas inutiles.[end]</data>
         <refs>
             <ref>0xf99</ref>
         </refs>
-        <data>Frederica:
-J'ai toujours des prétextes pour
+        <data>Frederica: J'ai toujours des prétextes pour
 tout.
 Je suis toujours si lente et je réfléchis
 si peu.
@@ -464,8 +441,7 @@ Hihihihihihihihi ![end]</data>
         <refs>
             <ref>0xfa7</ref>
         </refs>
-        <data>Frederica:
-Je suis toujours très lasse et par
+        <data>Frederica: Je suis toujours très lasse et par
 conséquent j'ai peine à réfléchir...
 Cependant,ne t'inquiète pas,c'est tout
 à fait habituel...
@@ -499,8 +475,7 @@ Je désire dormir maintenant.[end]</data>
             <ref>0xf50</ref>
             <ref>0xf7c</ref>
         </refs>
-        <data>FRUNZE à REEVE:
-Nous sommes des Lanciers !
+        <data>Frunze à Reeve: Nous sommes des Lanciers !
 Très loin la lance !
 Lan... Lan... Lanciers ![end]</data>
     </text>
@@ -508,16 +483,14 @@ Lan... Lan... Lanciers ![end]</data>
         <refs>
             <ref>0x1032</ref>
         </refs>
-        <data>Barclay:
-À côté de moi,c'est Sergent.
+        <data>Barclay: À côté de moi,c'est Sergent.
 Nous avons toujours été très proches.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1039</ref>
         </refs>
-        <data>Barclay:
-Nous,les armures lourdes,donc les
+        <data>Barclay: Nous,les armures lourdes,donc les
 guerriers sommes lents car nous ne
 portons pas de robes comme les
 magiciennes ![end]</data>
@@ -526,22 +499,19 @@ magiciennes ![end]</data>
         <refs>
             <ref>0x107d</ref>
         </refs>
-        <data>Anastasia:
-J'ai un drôle de sentiment...[end]</data>
+        <data>Anastasia: J'ai un drôle de sentiment...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1084</ref>
         </refs>
-        <data>Anastasia:
-Veux-tu parler à ma voisine ?[end]</data>
+        <data>Anastasia: Veux-tu parler à ma voisine ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x10bb</ref>
         </refs>
-        <data>Ekaterina:
-Ah...
+        <data>Ekaterina: Ah...
  
 Euuh...
 Eh bien...
@@ -552,8 +522,7 @@ Bon... bonjour ![end]</data>
         <refs>
             <ref>0x104b</ref>
         </refs>
-        <data>Gunso:
-``Grognement''Je suis Sergent.
+        <data>Gunso: ``Grognement''Je suis Sergent.
 ``Grognement''
 Droite face,droite,droite...
 Gauche face,gauche,gauche...
@@ -566,8 +535,7 @@ légion à Mahal.[end]</data>
         <refs>
             <ref>0xf2f</ref>
         </refs>
-        <data>Ruki:
-Bonjour [character][0x0]!
+        <data>Ruki: Bonjour [character][0x0]!
  
 Tu ne trouves pas que c'est terrible
 cette réunion pour un premier jour ?![end]</data>
@@ -576,16 +544,14 @@ cette réunion pour un premier jour ?![end]</data>
         <refs>
             <ref>0xf36</ref>
         </refs>
-        <data>Ruki:
-Suis-je une héroïne ?
+        <data>Ruki: Suis-je une héroïne ?
 J'ai plutôt l'air sévère...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe23</ref>
         </refs>
-        <data>Melody:
-[character][0x0],vas-y !
+        <data>Melody: [character][0x0],vas-y !
 Serre-moi dans tes bras ![end]</data>
     </text>
     <text>
@@ -606,8 +572,7 @@ Merci beaucoup ![end]</data>
         <refs>
             <ref>0xe33</ref>
         </refs>
-        <data>Melody:
-Tu es fatigué,[character][0x0]?!
+        <data>Melody: Tu es fatigué,[character][0x0]?!
 Porte-moi sur ton dos ![end]</data>
     </text>
     <text>
@@ -623,8 +588,7 @@ Voudrais-tu y jeter un coup d'oeil ?[end]</data>
         <refs>
             <ref>0x101c</ref>
         </refs>
-        <data>Zora:
-La cabine du Capitaine se trouve
+        <data>Zora: La cabine du Capitaine se trouve
 derrière toi.
 La plupart des discussions et des
 décisions y sont traitées.[end]</data>
@@ -641,8 +605,7 @@ Personne ne doit entrer !
         <refs>
             <ref>0x1023</ref>
         </refs>
-        <data>Zora:
-Dans la cabine du Capitaine vit
+        <data>Zora: Dans la cabine du Capitaine vit
 Sendak.
 Le Capitaine Sendak est une vieille et
 délicate personne.
@@ -660,24 +623,21 @@ Donc exercice de [0xaa]formation[0xab]![end]</data>
         <refs>
             <ref>0x12ec</ref>
         </refs>
-        <data>Matelite:
-Capitaine Commandant,je suis fatigué !
+        <data>Matelite: Capitaine Commandant,je suis fatigué !
 Expliquez-leur ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1301</ref>
         </refs>
-        <data>Taicho:
-Moi ?!
+        <data>Taicho: Moi ?!
 Expliquer les formations ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1313</ref>
         </refs>
-        <data>Taicho:
-Tout d'abord,il faut éliminer les
+        <data>Taicho: Tout d'abord,il faut éliminer les
 mauvaises [0xaa]formations[0xab].
 Les meilleures [0xaa]formations[0xab] seront
 favorables à l'ensemble de l'équipe.[end]</data>
@@ -755,8 +715,7 @@ plusieurs caractéristiques.[end]</data>
         <refs>
             <ref>0x147d</ref>
         </refs>
-        <data>Taicho:
-As-tu tout compris sur le système de
+        <data>Taicho: As-tu tout compris sur le système de
 [0xaa]formations[0xab]?[end]</data>
     </text>
     <text>
@@ -801,15 +760,13 @@ Il y a une relation entre la
         <refs>
             <ref>0x15a6</ref>
         </refs>
-        <data>Docteur Dragon:
-Il faut aussi tenir compte des dragons ![end]</data>
+        <data>Docteur Dragon: Il faut aussi tenir compte des dragons ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1156</ref>
         </refs>
-        <data>Docteur Dragon:
-Les dragons ont aussi des compétences,
+        <data>Docteur Dragon: Les dragons ont aussi des compétences,
 il suffit que tu les leur apprennes ![end]</data>
     </text>
     <text>
@@ -828,8 +785,7 @@ J'ai peut-être déjà perdu son coeur.[end]</data>
         <refs>
             <ref>0x1ec</ref>
         </refs>
-        <data>Matelite:
-Quel beau bateau de guerre pour
+        <data>Matelite: Quel beau bateau de guerre pour
 s'entraîner !
 Je vous conseille à tous d'écouter
 attentivement.[end]</data>
@@ -849,24 +805,21 @@ attentivement.[end]</data>
             <ref>0xd10</ref>
             <ref>0xbcf</ref>
         </refs>
-        <data>Sendak:
-Je suis le Capitaine de ce bateau,
+        <data>Sendak: Je suis le Capitaine de ce bateau,
 maintenant...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xcfa</ref>
         </refs>
-        <data>Hornet:
-Préviens-moi pour le départ,
+        <data>Hornet: Préviens-moi pour le départ,
 et nous nous envolerons ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x18e8</ref>
         </refs>
-        <data>Hornet:
-Hé,attention !
+        <data>Hornet: Hé,attention !
 
 Tu veux sauter et risquer de
 t'envoler ?![end]</data>
@@ -882,8 +835,7 @@ t'envoler ?![end]</data>
         <refs>
             <ref>0xd2e</ref>
         </refs>
-        <data>Hornet:
-Allons-y !
+        <data>Hornet: Allons-y !
 Tu t'es bien préparé ?!
 Que veux-tu faire ?[end]</data>
     </text>
@@ -898,8 +850,7 @@ Que veux-tu faire ?[end]</data>
         <refs>
             <ref>0xd42</ref>
         </refs>
-        <data>Hornet:
-Dès que tu es prêt,donne-moi le lieu
+        <data>Hornet: Dès que tu es prêt,donne-moi le lieu
 de destination !
 Quoi ?!
 Tu ne sais pas où se trouve la
@@ -909,8 +860,7 @@ Princesse [character][0x1]?[end]</data>
         <refs>
             <ref>0xd70</ref>
         </refs>
-        <data>Rush:
-Elle est sur le Continent Verdoyant,
+        <data>Rush: Elle est sur le Continent Verdoyant,
 Campbell !
 Allons-y,[character][0x0]![end]</data>
     </text>
@@ -918,8 +868,7 @@ Allons-y,[character][0x0]![end]</data>
         <refs>
             <ref>0xd83</ref>
         </refs>
-        <data>Truth:
-N'est-ce pas elle que tu as perdue ?
+        <data>Truth: N'est-ce pas elle que tu as perdue ?
 Il faut secourir la Princesse.
 Elle est retenue prisonnière dans un
 fort à Campbell ![end]</data>
@@ -928,8 +877,7 @@ fort à Campbell ![end]</data>
         <refs>
             <ref>0xd8e</ref>
         </refs>
-        <data>Hornet:
-Allons-y !
+        <data>Hornet: Allons-y !
 Tu sais tout,maintenant !
 Prêt !
 Départ de Fareneit ![end]</data>
@@ -938,16 +886,14 @@ Départ de Fareneit ![end]</data>
         <refs>
             <ref>0x1af7</ref>
         </refs>
-        <data>Matelite:
-Je te cherche depuis tout à l'heure !
+        <data>Matelite: Je te cherche depuis tout à l'heure !
 Dépêche-toi ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x111e</ref>
         </refs>
-        <data>Matelot:
-La Princesse [character][0x1] finira bien par
+        <data>Matelot: La Princesse [character][0x1] finira bien par
 revenir d'une manière ou d'une autre.[end]</data>
     </text>
     <text>
@@ -966,8 +912,7 @@ Réfléchis bien à ce que tu feras.[end]</data>
         <refs>
             <ref>0x1327</ref>
         </refs>
-        <data>Taicho:
-As-tu déjà entendu parler des
+        <data>Taicho: As-tu déjà entendu parler des
 [0xaa]formations[0xab]?[end]</data>
     </text>
     <text>
@@ -997,8 +942,7 @@ nombreuses [0xaa]formations raisonnables[0xab].[end]</data>
             <ref>0xc3c</ref>
             <ref>0xce</ref>
         </refs>
-        <data>Rush:
-Notre nouveau combat va commencer !
+        <data>Rush: Notre nouveau combat va commencer !
 Matelite va nous faire un discours !
 Un jour,
 nous deviendrons très importants.[end]</data>
@@ -1007,8 +951,7 @@ nous deviendrons très importants.[end]</data>
         <refs>
             <ref>0xc43</ref>
         </refs>
-        <data>Rush:
-Capitaine Adjoint ?!
+        <data>Rush: Capitaine Adjoint ?!
 C'est super,[character][0x0]![end]</data>
     </text>
     <text>
@@ -1023,8 +966,7 @@ C'est super,[character][0x0]![end]</data>
         <refs>
             <ref>0xc66</ref>
         </refs>
-        <data>Truth:
-C'est la dernière bataille contre
+        <data>Truth: C'est la dernière bataille contre
 l'Empire et sa machine de malheur:
 Trafalgar !
  
@@ -1047,16 +989,14 @@ Il est écrit sur la page de couverture:
         <refs>
             <ref>0x1040</ref>
         </refs>
-        <data>Barclay:
-La Restauration de Kana...
+        <data>Barclay: La Restauration de Kana...
 Pour... tout le monde ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1060</ref>
         </refs>
-        <data>Gunso:
-Je me suis froissé un muscle !
+        <data>Gunso: Je me suis froissé un muscle !
 ``Grognement''
 Hier,Matelite était en colère contre
 tout le monde.
@@ -1066,8 +1006,7 @@ Mon muscle...``Grognement''[end]</data>
         <refs>
             <ref>0x1011</ref>
         </refs>
-        <data>Diana:
-Ce à quoi je pense ?
+        <data>Diana: Ce à quoi je pense ?
 Oh,je ne pense à rien !
 Vendre contre de l'argent la magie
 pourrait calmer Matelite une fois
@@ -1077,8 +1016,7 @@ pour toutes ![end]</data>
         <refs>
             <ref>0x10a7</ref>
         </refs>
-        <data>Anastasia:
-Si la nuit dernière,le Feu d'Artifice
+        <data>Anastasia: Si la nuit dernière,le Feu d'Artifice
 avait été fait par une sorcière,
 il aurait été plus beau que du cristal !
 J'en suis certaine !
@@ -1088,8 +1026,7 @@ Veux-tu parler à Ekaterina ?[end]</data>
         <refs>
             <ref>0x10c2</ref>
         </refs>
-        <data>Ekaterina:
-Ah... euh...
+        <data>Ekaterina: Ah... euh...
 Eh bien...
 As... as-tu remarqué ?
 Ici,il n'y a pas de bave de dragon.[end]</data>
@@ -1098,8 +1035,7 @@ Ici,il n'y a pas de bave de dragon.[end]</data>
         <refs>
             <ref>0xfe2</ref>
         </refs>
-        <data>Frederica:
-La plupart des amis intimes auront un
+        <data>Frederica: La plupart des amis intimes auront un
 avenir commun...
 Peut-être en couple,qui peut savoir ?[end]</data>
     </text>
@@ -1142,8 +1078,7 @@ quelques livres ?[end]</data>
         <refs>
             <ref>0xba0</ref>
         </refs>
-        <data>Palparos:
-Je suis l'un des principaux membres
+        <data>Palparos: Je suis l'un des principaux membres
 des Rebelles.
 ``Mais qui ne sert très vite plus à
  rien.''[end]</data>
@@ -1152,8 +1087,7 @@ des Rebelles.
         <refs>
             <ref>0xc14</ref>
         </refs>
-        <data>Taicho:
-Oh,j'étais dans les nuages...
+        <data>Taicho: Oh,j'étais dans les nuages...
 Je ne dois plus être utile.
 Matelite m'a dégradé et je ne suis
 plus que le No [0xb2].[end]</data>
@@ -1162,54 +1096,47 @@ plus que le No [0xb2].[end]</data>
         <refs>
             <ref>0xdff</ref>
         </refs>
-        <data>Hornet:
-Être père...
+        <data>Hornet: Être père...
 ``Grand sourire''[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x18ee</ref>
         </refs>
-        <data>Hornet:
-Tu veux voler ?![end]</data>
+        <data>Hornet: Tu veux voler ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe09</ref>
         </refs>
-        <data>Hornet:
-Avoir un enfant...
+        <data>Hornet: Avoir un enfant...
 ``Génial''[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe12</ref>
         </refs>
-        <data>Hornet:
-Dès que tu es prêt à aller combattre,
+        <data>Hornet: Dès que tu es prêt à aller combattre,
 appuie sur l'un des boutons ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1740</ref>
         </refs>
-        <data>Hornet:
-Tu as perdu quelque chose ?[end]</data>
+        <data>Hornet: Tu as perdu quelque chose ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x158</ref>
         </refs>
-        <data>Palparos:
-Matelite doit vous parler !
+        <data>Palparos: Matelite doit vous parler !
 Soyez tous calmes ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1fc</ref>
         </refs>
-        <data>Matelite:
-Je sais,
+        <data>Matelite: Je sais,
 tout le monde est plus ou moins las !
 Mais la guerre n'est pas encore finie ![end]</data>
     </text>
@@ -1217,8 +1144,7 @@ Mais la guerre n'est pas encore finie ![end]</data>
         <refs>
             <ref>0x214</ref>
         </refs>
-        <data>Matelite:
-Écoutez-moi !
+        <data>Matelite: Écoutez-moi !
  
 Le Capitaine Sendak se sent mieux.
 Toutefois,il ne se sent plus apte à
@@ -1239,8 +1165,7 @@ Lisons-le ![end]</data>
         <refs>
             <ref>0x247</ref>
         </refs>
-        <data>Sendak:
-Étant donné mon état de santé,
+        <data>Sendak: Étant donné mon état de santé,
 [character][0x0] sera mon Capitaine Adjoint.
 Mais voici le plus important ![end]</data>
     </text>
@@ -1298,8 +1223,7 @@ Quel bouton vas-tu actionner ?[end]</data>
         <refs>
             <ref>0x1779</ref>
         </refs>
-        <data>Matelite:
-Nous avons déjà combattu pour la
+        <data>Matelite: Nous avons déjà combattu pour la
 Restauration de Kana !
 Et maintenant,nous allons nous battre
 pour Orelus ![end]</data>
@@ -1308,15 +1232,13 @@ pour Orelus ![end]</data>
         <refs>
             <ref>0x1792</ref>
         </refs>
-        <data>Taicho:
-Pas si vite,Matelite ![end]</data>
+        <data>Taicho: Pas si vite,Matelite ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x17a0</ref>
         </refs>
-        <data>Matelite:
-Commandant !
+        <data>Matelite: Commandant !
  
 L'honneur revient à une seule
 personne:
@@ -1326,16 +1248,14 @@ le Général Palparos.[end]</data>
         <refs>
             <ref>0x17c3</ref>
         </refs>
-        <data>Taicho:
-Matelite !
+        <data>Taicho: Matelite !
 Et moi ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x180d</ref>
         </refs>
-        <data>Matelite:
-À vous,Général Palparos ![end]</data>
+        <data>Matelite: À vous,Général Palparos ![end]</data>
     </text>
     <text>
         <refs>
@@ -1349,8 +1269,7 @@ d'Orelus ![end]</data>
         <refs>
             <ref>0x18b9</ref>
         </refs>
-        <data>Matelite:
-Nous devons aller sur le Fort de
+        <data>Matelite: Nous devons aller sur le Fort de
 l'Empire ![end]</data>
     </text>
     <text>

@@ -4,8 +4,7 @@
         <refs>
             <ref>0x1f7</ref>
         </refs>
-        <data>Ekaterina:
-Est-ce que quelqu'un pourrait me
+        <data>Ekaterina: Est-ce que quelqu'un pourrait me
 servir un Vin Doux ?
 Hihihi...
 Je vois une fille comme moi dans le
@@ -15,8 +14,7 @@ miroir...[end]</data>
         <refs>
             <ref>0x20c</ref>
         </refs>
-        <data>Ekaterina:
-Hé là,quelqu'un peut me faire un
+        <data>Ekaterina: Hé là,quelqu'un peut me faire un
 cocktail spécial Uniuji ?
 Hihihi...
 Je vois une fille comme moi dans le
@@ -37,8 +35,7 @@ me le reprendre... ?[end]</data>
         <refs>
             <ref>0x272</ref>
         </refs>
-        <data>Frederica:
-Tout le monde sait que [character][0x1] est la
+        <data>Frederica: Tout le monde sait que [character][0x1] est la
 fille au coeur faible.
 Je suis légèrement fatiguée...
 Tu pourrais me faire un petit massage,
@@ -48,8 +45,7 @@ Tu pourrais me faire un petit massage,
         <refs>
             <ref>0x2c8</ref>
         </refs>
-        <data>Diana:
-Est-ce que tu le sais ?!
+        <data>Diana: Est-ce que tu le sais ?!
 Tu le sais ?![end]</data>
     </text>
     <text>
@@ -95,8 +91,7 @@ Il faut que je me lève ![end]</data>
         <refs>
             <ref>0x221</ref>
         </refs>
-        <data>Ekaterina:
-Le ciel est un monde infini !
+        <data>Ekaterina: Le ciel est un monde infini !
 Hihihihi... Hihi...
 Pas comme les gens du bateau !
 Hihihihi...[end]</data>
@@ -105,8 +100,7 @@ Hihihihi...[end]</data>
         <refs>
             <ref>0x1db</ref>
         </refs>
-        <data>Anastasia:
-[character][0x0],l'as-tu appris ?
+        <data>Anastasia: [character][0x0],l'as-tu appris ?
  
 Bareck a dit que le Général Arbain
 a en sa possession une épée nommée
@@ -121,8 +115,7 @@ bonne hache.[end]</data>
         <refs>
             <ref>0x318</ref>
         </refs>
-        <data>Jeanne:
-Haha... resservez-moi...
+        <data>Jeanne: Haha... resservez-moi...
 resservez-moi...
 Do..n Ju...an !
 Ressers-moi ![end]</data>
@@ -131,8 +124,7 @@ Ressers-moi ![end]</data>
         <refs>
             <ref>0x323</ref>
         </refs>
-        <data>Donfan:
-Jeanne...
+        <data>Donfan: Jeanne...
 Tu es si belle...[end]</data>
     </text>
     <text>
@@ -140,15 +132,13 @@ Tu es si belle...[end]</data>
             <ref>0x25c</ref>
             <ref>0x2be</ref>
         </refs>
-        <data>Donfan:
-Qu'est-ce que ces manières ?[end]</data>
+        <data>Donfan: Qu'est-ce que ces manières ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2b0</ref>
         </refs>
-        <data>Joy:
-Je suis certaine que Donfan aurait
+        <data>Joy: Je suis certaine que Donfan aurait
 grand besoin d'une herbe gel pour
 calmer ses ardeurs.[end]</data>
     </text>
@@ -156,8 +146,7 @@ calmer ses ardeurs.[end]</data>
         <refs>
             <ref>0x24e</ref>
         </refs>
-        <data>Nerbo:
-Si Donfan ose faire un geste déplacé,
+        <data>Nerbo: Si Donfan ose faire un geste déplacé,
 il se mange un coup bien placé ![end]</data>
     </text>
     <text>
@@ -189,8 +178,7 @@ Très bien,gentleman[0xd8][end]</data>
         <refs>
             <ref>0x289</ref>
         </refs>
-        <data>Frederica:
-Vas-y...
+        <data>Frederica: Vas-y...
 Vas-y...
 Haha... [character][0x0]...
 J'en ai des frissons...
@@ -209,29 +197,25 @@ Tu peux partir.[end]</data>
         <refs>
             <ref>0x241</ref>
         </refs>
-        <data>Donfan:
-Une Sorcière ne ferait jamais cela ![end]</data>
+        <data>Donfan: Une Sorcière ne ferait jamais cela ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2a3</ref>
         </refs>
-        <data>Donfan:
-Une Prêtresse ne ferait jamais cela ![end]</data>
+        <data>Donfan: Une Prêtresse ne ferait jamais cela ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x308</ref>
         </refs>
-        <data>Donfan:
-Je vis la vie à [0xb0][0xaf][0xaf] à l'heure ![end]</data>
+        <data>Donfan: Je vis la vie à [0xb0][0xaf][0xaf] à l'heure ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1d4</ref>
         </refs>
-        <data>Anastasia:
-[character][0x0],sais-tu ça ?
+        <data>Anastasia: [character][0x0],sais-tu ça ?
  
 Avec une bonne croissance,un dragon
 peut devenir un Dragon Maître.
@@ -244,8 +228,7 @@ Je crois que Bareck aime ça ![end]</data>
         <refs>
             <ref>0x236</ref>
         </refs>
-        <data>Nerbo:
-On devrait faire taire ce Donfan,
+        <data>Nerbo: On devrait faire taire ce Donfan,
 l'ennemi des femmes !
 Ce serait si bien...[end]</data>
     </text>
@@ -253,8 +236,7 @@ Ce serait si bien...[end]</data>
         <refs>
             <ref>0x298</ref>
         </refs>
-        <data>Joy:
-Avec Nelbo,
+        <data>Joy: Avec Nelbo,
 nous le surveillons constamment.
 Il est bientôt l'heure de partir au
 combat.[end]</data>
@@ -263,8 +245,7 @@ combat.[end]</data>
         <refs>
             <ref>0x2fd</ref>
         </refs>
-        <data>Jeanne:
-Donfan est misérable !
+        <data>Jeanne: Donfan est misérable !
  
 Il y a quelque chose qui ne tourne pas
 rond chez lui.
@@ -277,7 +258,6 @@ Quel pervers ![end]</data>
         <refs>
             <ref>0x333</ref>
         </refs>
-        <data>Mist:
-J'ai rejoint vos idéaux ![end]</data>
+        <data>Mist: J'ai rejoint vos idéaux ![end]</data>
     </text>
 </texts>

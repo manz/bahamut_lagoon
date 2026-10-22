@@ -48,16 +48,14 @@ J'ai tout abandonné ![end]</data>
         <refs>
             <ref>0x755</ref>
         </refs>
-        <data>Sendak:
-[character][0x0]...
+        <data>Sendak: [character][0x0]...
 Veux-tu revenir ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x745</ref>
         </refs>
-        <data>Sendak:
-[character][0x0]...
+        <data>Sendak: [character][0x0]...
 Fais de ton mieux ![end]</data>
     </text>
     <text>

@@ -4,8 +4,7 @@
         <refs>
             <ref>0x540</ref>
         </refs>
-        <data>Sauzer:
-Je crains que ce ne soit pas la bonne
+        <data>Sauzer: Je crains que ce ne soit pas la bonne
 méthode.
 Nous sommes vraiment du même monde...
 Aussi persévérants les uns que les
@@ -15,44 +14,38 @@ autres.[end]</data>
         <refs>
             <ref>0xa4</ref>
         </refs>
-        <data>Matelite:
-[character][0x1]...[end]</data>
+        <data>Matelite: [character][0x1]...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb2</ref>
         </refs>
-        <data>Sendak:
-Comme je vous l'avais dit,il y a un
+        <data>Sendak: Comme je vous l'avais dit,il y a un
 Dragon Sacré,ici...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xce</ref>
         </refs>
-        <data>Rush:
-L'autre type est sûrement Palparos ![end]</data>
+        <data>Rush: L'autre type est sûrement Palparos ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x124</ref>
         </refs>
-        <data>Ruki:
-Comment pourrions-nous gagner ?[end]</data>
+        <data>Ruki: Comment pourrions-nous gagner ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x148</ref>
         </refs>
-        <data>Matelite:
-Quoi ! Abandonner ?![end]</data>
+        <data>Matelite: Quoi ! Abandonner ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x154</ref>
         </refs>
-        <data>Matelite:
-Tu peux répéter ?!
+        <data>Matelite: Tu peux répéter ?!
  
 Même si je perds la vie,[character][0x1] sera
 délivrée...[end]</data>
@@ -61,8 +54,7 @@ délivrée...[end]</data>
         <refs>
             <ref>0x6e3</ref>
         </refs>
-        <data>Ruki:
-[character][0x0],hâte-toi ![end]</data>
+        <data>Ruki: [character][0x0],hâte-toi ![end]</data>
     </text>
     <text>
         <refs>
@@ -82,8 +74,7 @@ Pourquoi ?[end]</data>
         <refs>
             <ref>0x397</ref>
         </refs>
-        <data>Matelite:
-Humpf humpf...
+        <data>Matelite: Humpf humpf...
  
 Notre pauvre [character][0x1]...
 Ils ne veulent que son don ![end]</data>
@@ -92,8 +83,7 @@ Ils ne veulent que son don ![end]</data>
         <refs>
             <ref>0x3bc</ref>
         </refs>
-        <data>Sauzer:
-Qui avons-nous là ?
+        <data>Sauzer: Qui avons-nous là ?
 Seraient-ce les Rebelles ?!
 Mon dieu,vous osez me faire l'honneur
 de votre présence ?!
@@ -105,8 +95,7 @@ intéresse également ?[end]</data>
         <refs>
             <ref>0x3e1</ref>
         </refs>
-        <data>Sauzer:
-La Princesse [character][0x1] est très importante
+        <data>Sauzer: La Princesse [character][0x1] est très importante
 à mes yeux...
 Surtout son pouvoir ![end]</data>
     </text>
@@ -114,8 +103,7 @@ Surtout son pouvoir ![end]</data>
         <refs>
             <ref>0x3ed</ref>
         </refs>
-        <data>Sauzer:
-Reste où tu es,misérable !
+        <data>Sauzer: Reste où tu es,misérable !
  
 C'est impoli de bouger quand une
 personne telle que moi daigne vous
@@ -128,16 +116,14 @@ Vous m'exaspérez ![end]</data>
         <refs>
             <ref>0x3f9</ref>
         </refs>
-        <data>Sauzer:
-Je vous en prie,par ici,
+        <data>Sauzer: Je vous en prie,par ici,
 Princesse [character][0x1]![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x47f</ref>
         </refs>
-        <data>Sauzer:
-Approchez !
+        <data>Sauzer: Approchez !
  
 Votre père,le Roi de Kana,vous a
 transmis le pouvoir de votre Légende.
@@ -150,8 +136,7 @@ Dragons Sacrés ![end]</data>
         <refs>
             <ref>0x492</ref>
         </refs>
-        <data>[character][0x1]:
-Toutefois,je ne comprends pas le sens
+        <data>[character][0x1]: Toutefois,je ne comprends pas le sens
 de la Légende !
 Elle est si ancienne...[end]</data>
     </text>
@@ -159,8 +144,7 @@ Elle est si ancienne...[end]</data>
         <refs>
             <ref>0x49e</ref>
         </refs>
-        <data>Palparos:
-Princesse [character][0x1],n'ayez crainte !
+        <data>Palparos: Princesse [character][0x1],n'ayez crainte !
 Je vous le promets !
 Nous connaîtrons le coeur des Dragons
 Sacrés.[end]</data>
@@ -169,15 +153,13 @@ Sacrés.[end]</data>
         <refs>
             <ref>0x4ad</ref>
         </refs>
-        <data>[character][0x1]:
-Général Palparos...[end]</data>
+        <data>[character][0x1]: Général Palparos...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4d1</ref>
         </refs>
-        <data>Matelite:
-[character][0x1],fuyez !
+        <data>Matelite: [character][0x1],fuyez !
  
 Le Roi de Kana vous a légué un
 pouvoir trop important ![end]</data>
@@ -186,31 +168,27 @@ pouvoir trop important ![end]</data>
         <refs>
             <ref>0x510</ref>
         </refs>
-        <data>[character][0x1]:
-Matelite...[end]</data>
+        <data>[character][0x1]: Matelite...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x51c</ref>
         </refs>
-        <data>[character][0x1]:
-C'est inutile,Empereur Sauzer !
+        <data>[character][0x1]: C'est inutile,Empereur Sauzer !
 Je n'y parviens pas...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x52a</ref>
         </refs>
-        <data>Sauzer:
-Je vois,en effet...
+        <data>Sauzer: Je vois,en effet...
 Inutile de me le dire...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x54c</ref>
         </refs>
-        <data>Sauzer:
-Sachez toutefois,Princesse,que c'est
+        <data>Sauzer: Sachez toutefois,Princesse,que c'est
 aujourd'hui que je deviendrai l'homme
 légendaire même sans votre pouvoir ![end]</data>
     </text>
@@ -218,8 +196,7 @@ légendaire même sans votre pouvoir ![end]</data>
         <refs>
             <ref>0x559</ref>
         </refs>
-        <data>Sauzer:
-Soyez heureuse !
+        <data>Sauzer: Soyez heureuse !
  
 Rejoignez vos amis,cette bande de
 rebelles ![end]</data>
@@ -228,8 +205,7 @@ rebelles ![end]</data>
         <refs>
             <ref>0x5a7</ref>
         </refs>
-        <data>Sauzer:
-J'ouvrirai moi-même la Porte de la
+        <data>Sauzer: J'ouvrirai moi-même la Porte de la
 Nouvelle Ère !
 C'est regrettable pour vous ![end]</data>
     </text>
@@ -237,71 +213,61 @@ C'est regrettable pour vous ![end]</data>
         <refs>
             <ref>0x5b5</ref>
         </refs>
-        <data>Palparos:
-Arrêtez ![end]</data>
+        <data>Palparos: Arrêtez ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7ff</ref>
         </refs>
-        <data>Matelite:
-[character][0x0],tiens bon ![end][end]</data>
+        <data>Matelite: [character][0x0],tiens bon ![end][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x63d</ref>
         </refs>
-        <data>Sendak:
-La Princesse...[end]</data>
+        <data>Sendak: La Princesse...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x79f</ref>
         </refs>
-        <data>Ruki:
-Quel machiavélisme ![end]</data>
+        <data>Ruki: Quel machiavélisme ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xbe</ref>
         </refs>
-        <data>Taicho:
-Cet Empereur Sauzer...[end]</data>
+        <data>Taicho: Cet Empereur Sauzer...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x168</ref>
         </refs>
-        <data>Matelite:
-Attendez une minute ![end]</data>
+        <data>Matelite: Attendez une minute ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x177</ref>
         </refs>
-        <data>Matelite:
-Sendak,quelque chose ne va pas ?[end]</data>
+        <data>Matelite: Sendak,quelque chose ne va pas ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x185</ref>
         </refs>
-        <data>Sendak:
-Je n'en sais rien...[end]</data>
+        <data>Sendak: Je n'en sais rien...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x196</ref>
         </refs>
-        <data>Sendak:
-Je réfléchissais...[end]</data>
+        <data>Sendak: Je réfléchissais...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1a7</ref>
         </refs>
-        <data>Sendak:
-Autrefois,avant la Chute de Kana,
+        <data>Sendak: Autrefois,avant la Chute de Kana,
 Sauzer avait emmené la Princesse !
 Mais à quelle fin ?
 Il l'a maintenant emmenée devant le
@@ -312,8 +278,7 @@ Essaierait-il de le réveiller ?[end]</data>
         <refs>
             <ref>0x1b3</ref>
         </refs>
-        <data>Truth:
-Je comprends ce que tu veux dire...
+        <data>Truth: Je comprends ce que tu veux dire...
 [character][0x1] est la fille du Roi de Kana et
 elle a donc les mêmes pouvoirs que
 père.[end]</data>
@@ -322,39 +287,34 @@ père.[end]</data>
         <refs>
             <ref>0x1c6</ref>
         </refs>
-        <data>Rush:
-[character][0x1] est capable de parler au Dragon
+        <data>Rush: [character][0x1] est capable de parler au Dragon
 Sacré ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1d4</ref>
         </refs>
-        <data>Sendak:
-Quel désastre ![end]</data>
+        <data>Sendak: Quel désastre ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1e1</ref>
         </refs>
-        <data>Sendak:
-Et si Sauzer avait la force de parvenir
+        <data>Sendak: Et si Sauzer avait la force de parvenir
 à ses fins...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1f3</ref>
         </refs>
-        <data>Matelite:
-Ne vous inquiétez pas !
+        <data>Matelite: Ne vous inquiétez pas !
 Tout ira pour le mieux ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x201</ref>
         </refs>
-        <data>Matelite:
-Sendak,ne t'inquiète plus !
+        <data>Matelite: Sendak,ne t'inquiète plus !
 [character][0x1] nous reviendra bientôt !
 Sauzer n'a pas tout planifié car la
 Rebellion arrive ![end]</data>
@@ -363,8 +323,7 @@ Rebellion arrive ![end]</data>
         <refs>
             <ref>0x20d</ref>
         </refs>
-        <data>Matelite:
-Allons combattre !
+        <data>Matelite: Allons combattre !
  
 Maintenant,je n'écoute plus les
 inepties de Sendak.[end]</data>
@@ -373,37 +332,32 @@ inepties de Sendak.[end]</data>
         <refs>
             <ref>0x2b5</ref>
         </refs>
-        <data>Sendak:
-[character][0x0]...[end]</data>
+        <data>Sendak: [character][0x0]...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x25c</ref>
         </refs>
-        <data>Rush:
-Allons droit au but ![end]</data>
+        <data>Rush: Allons droit au but ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x277</ref>
         </refs>
-        <data>Truth:
-Une personne est à délivrer,
+        <data>Truth: Une personne est à délivrer,
 hâtons-nous ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x64b</ref>
         </refs>
-        <data>Sendak:
-Tout le monde a compris ![end]</data>
+        <data>Sendak: Tout le monde a compris ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x656</ref>
         </refs>
-        <data>Sendak:
-Nous savons maintenant ce que veut
+        <data>Sendak: Nous savons maintenant ce que veut
 l'Empereur Sauzer.
 Il essaie d'avoir la force du Dragon
 Sacré grâce au pouvoir de la Princesse.
@@ -417,8 +371,7 @@ Jusqu'où veut-il aller ?[end]</data>
         <refs>
             <ref>0x66e</ref>
         </refs>
-        <data>Matelite:
-Sendak,ne t'éternise pas !
+        <data>Matelite: Sendak,ne t'éternise pas !
  
 Même si tu n'es plus très jeune,tu
 peux te dépêcher quand même ![end]</data>
@@ -427,8 +380,7 @@ peux te dépêcher quand même ![end]</data>
         <refs>
             <ref>0x6b2</ref>
         </refs>
-        <data>Taicho:
-Matelite !
+        <data>Taicho: Matelite !
 Frappe ![end][end]</data>
     </text>
 </texts>

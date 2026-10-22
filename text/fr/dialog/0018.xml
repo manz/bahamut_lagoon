@@ -10,62 +10,54 @@
         <refs>
             <ref>0x102</ref>
         </refs>
-        <data>Garuda:
-Que s'est-il passé ?[end]</data>
+        <data>Garuda: Que s'est-il passé ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x11d</ref>
         </refs>
-        <data>Vritra:
-La Porte de la Nouvelle Ère serait-elle
+        <data>Vritra: La Porte de la Nouvelle Ère serait-elle
 ouverte ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x138</ref>
         </refs>
-        <data>Jormungand:
-Nous ne pouvons avancer plus loin.
+        <data>Jormungand: Nous ne pouvons avancer plus loin.
 Est-ce notre destination ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x153</ref>
         </refs>
-        <data>Garuda:
-Nous ne pouvons pas voir ce qu'il y a
+        <data>Garuda: Nous ne pouvons pas voir ce qu'il y a
 derrière la Porte.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x16c</ref>
         </refs>
-        <data>Léviathan:
-Sont-ils nos ennemis ?
+        <data>Léviathan: Sont-ils nos ennemis ?
 Que se passe-t-il ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x187</ref>
         </refs>
-        <data>Jormungand:
-Et Bahamut,que fait-il ?[end]</data>
+        <data>Jormungand: Et Bahamut,que fait-il ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1a2</ref>
         </refs>
-        <data>Vritra:
-Pourquoi ?
+        <data>Vritra: Pourquoi ?
 Que sont toutes ces choses ici ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x20a</ref>
         </refs>
-        <data>[character][0x1]:
-Attendez,Dragons Sacrés...
+        <data>[character][0x1]: Attendez,Dragons Sacrés...
  
 Avez-vous fait cela pour vous ?
 Avez-vous ouvert la Porte ?
@@ -85,30 +77,26 @@ Je suis encore la fille au coeur faible ![end]</data>
         <refs>
             <ref>0x10a5</ref>
         </refs>
-        <data>Hornet:
-Pourquoi le ciel est-il si furieux ?
+        <data>Hornet: Pourquoi le ciel est-il si furieux ?
 Le temps n'est pas au beau fixe ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1107</ref>
         </refs>
-        <data>Truth:
-[character][0x1] est sur le point de parler.[end]</data>
+        <data>Truth: [character][0x1] est sur le point de parler.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x10dc</ref>
         </refs>
-        <data>Rush:
-Je me sens offensé ![end]</data>
+        <data>Rush: Je me sens offensé ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x111b</ref>
         </refs>
-        <data>Bikebake:
-[character][0x0],je dois dire que je suis très
+        <data>Bikebake: [character][0x0],je dois dire que je suis très
 inquiet.
 Y aurait-il des choses que tu n'aimes
 pas en moi ?[end]</data>
@@ -149,8 +137,7 @@ Merci,frère.[end]</data>
         <refs>
             <ref>0x1199</ref>
         </refs>
-        <data>Melody:
-Matelite et ses amis sont tous
+        <data>Melody: Matelite et ses amis sont tous
 ensemble.
 Mais [character][0x0] et Hornet sont ici et ils
 sont seuls.[end]</data>
@@ -171,16 +158,14 @@ sont seuls.[end]</data>
         <refs>
             <ref>0x32d</ref>
         </refs>
-        <data>Matelite:
-Princesse [character][0x1],vous pouvez parler !
+        <data>Matelite: Princesse [character][0x1],vous pouvez parler !
 Que s'est-il passé dans le ciel ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x345</ref>
         </refs>
-        <data>[character][0x1]:
-Mais où sont [character][0x0] et les autres ?![end]</data>
+        <data>[character][0x1]: Mais où sont [character][0x0] et les autres ?![end]</data>
     </text>
     <text>
         <refs>
@@ -213,16 +198,14 @@ Dragons Sacrés ![end]</data>
         <refs>
             <ref>0x3a4</ref>
         </refs>
-        <data>[character][0x1]:
-Matelite,te souviens-tu de ce que
+        <data>[character][0x1]: Matelite,te souviens-tu de ce que
 conte la Légende des Dragons Sacrés ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3c2</ref>
         </refs>
-        <data>Matelite:
-Bien sûr,Princesse !
+        <data>Matelite: Bien sûr,Princesse !
 Ma version est celle-ci...[end]</data>
     </text>
     <text>
@@ -268,8 +251,7 @@ Ainsi,je...[end]</data>
         <refs>
             <ref>0x41d</ref>
         </refs>
-        <data>Matelite:
-Mon Dieu !
+        <data>Matelite: Mon Dieu !
 Ce à quoi je pensais serait donc vrai !
 Je vais vous rappeler la suite de cette
 Légende !
@@ -292,16 +274,14 @@ bataille ![end]</data>
         <refs>
             <ref>0x44e</ref>
         </refs>
-        <data>Taicho:
-Matelite,qu'y a-t-il ?
+        <data>Taicho: Matelite,qu'y a-t-il ?
 Dis-moi ce qui ne va pas ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x45d</ref>
         </refs>
-        <data>Taicho:
-La Princesse [character][0x1]!
+        <data>Taicho: La Princesse [character][0x1]!
  
 Il se peut que le trou dans le ciel
 soit la Porte ouverte par une personne
@@ -317,8 +297,7 @@ au coeur faible.[end]</data>
         <refs>
             <ref>0x478</ref>
         </refs>
-        <data>Matelite:
-Silence,Commandant !
+        <data>Matelite: Silence,Commandant !
 Ne dis rien à personne !
 Sortez tous ![end]</data>
     </text>
@@ -326,23 +305,20 @@ Sortez tous ![end]</data>
         <refs>
             <ref>0x573</ref>
         </refs>
-        <data>Zora:
-Qu'y a-t-il ?!
+        <data>Zora: Qu'y a-t-il ?!
 Quelque chose ne va pas ?![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x5e9</ref>
         </refs>
-        <data>Rush:
-[character][0x0],je vais voir ce qui se passe ![end]</data>
+        <data>Rush: [character][0x0],je vais voir ce qui se passe ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x105e</ref>
         </refs>
-        <data>Sendak:
-Les Dragons Sacrés sont furieux et
+        <data>Sendak: Les Dragons Sacrés sont furieux et
 violents !
 Je tremble beaucoup ?[end]</data>
     </text>
@@ -377,8 +353,7 @@ ils nous sont supérieurs ![end]</data>
         <refs>
             <ref>0x1111</ref>
         </refs>
-        <data>Truth:
-La Porte de la Nouvelle Ère est-elle
+        <data>Truth: La Porte de la Nouvelle Ère est-elle
 vraiment ouverte ?
 Si tel est le cas,le monde entier sera
 différent à cause de ce trou noir ?![end]</data>
@@ -387,8 +362,7 @@ différent à cause de ce trou noir ?![end]</data>
         <refs>
             <ref>0x669</ref>
         </refs>
-        <data>Rush:
-N'approche pas plus,
+        <data>Rush: N'approche pas plus,
 c'est dangereux.
 Salamand,arrête ![end]</data>
     </text>
@@ -396,8 +370,7 @@ Salamand,arrête ![end]</data>
         <refs>
             <ref>0x698</ref>
         </refs>
-        <data>Matelite:
-Qu'est-ce qui ne va pas,
+        <data>Matelite: Qu'est-ce qui ne va pas,
 Princesse [character][0x1]?
 Vous êtes... étrange ![end]</data>
     </text>
@@ -405,15 +378,13 @@ Vous êtes... étrange ![end]</data>
         <refs>
             <ref>0x6a1</ref>
         </refs>
-        <data>[character][0x1]:
-... ... ... ...[end]</data>
+        <data>[character][0x1]: ... ... ... ...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6b5</ref>
         </refs>
-        <data>Matelite:
-La Porte de la Nouvelle Ère n'a pas
+        <data>Matelite: La Porte de la Nouvelle Ère n'a pas
 été ouverte ?![end]</data>
     </text>
     <text>
@@ -458,8 +429,7 @@ ne changera cela ![end]</data>
         <refs>
             <ref>0x724</ref>
         </refs>
-        <data>[character][0x1]:
-Merci...[end]</data>
+        <data>[character][0x1]: Merci...[end]</data>
     </text>
     <text>
         <refs>
@@ -472,8 +442,7 @@ haï par les autres Dragons Sacrés ![end]</data>
         <refs>
             <ref>0x752</ref>
         </refs>
-        <data>Matelite:
-GAHAHAHAHAHA !
+        <data>Matelite: GAHAHAHAHAHA !
 Vous vous inquiétez pour ça !
 Regardez-moi,Princesse ![end]</data>
     </text>
@@ -516,16 +485,14 @@ Et Commandant...[end]</data>
         <refs>
             <ref>0x7c0</ref>
         </refs>
-        <data>[character][0x1]:
-Commandant est Léviathan ou alors
+        <data>[character][0x1]: Commandant est Léviathan ou alors
 Jormungand ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7d7</ref>
         </refs>
-        <data>Matelite:
-Commandant ?![end]</data>
+        <data>Matelite: Commandant ?![end]</data>
     </text>
     <text>
         <refs>
@@ -706,8 +673,7 @@ C'est sincèrement ce que je pense ![end]</data>
         <refs>
             <ref>0xf51</ref>
         </refs>
-        <data>[character][0x1]:
-De nombreux amis s'inquiètent tant
+        <data>[character][0x1]: De nombreux amis s'inquiètent tant
 pour moi !
 Matelite...
 Toi aussi,[character][0x0]...
@@ -765,8 +731,7 @@ circonstances.[end]</data>
         <refs>
             <ref>0xffd</ref>
         </refs>
-        <data>[character][0x1]:
-[character][0x0],j'ai une requête...
+        <data>[character][0x1]: [character][0x0],j'ai une requête...
 Protège cette église !
 Elle a en mémoire tant de souvenirs
 d'amoureux de Kana...
@@ -793,16 +758,14 @@ promesse ?[end]</data>
             <ref>0xa2b</ref>
             <ref>0xa5c</ref>
         </refs>
-        <data>[character][0x1]:
-Cette époque a malheureusement bien
+        <data>[character][0x1]: Cette époque a malheureusement bien
 changé par ma faute...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1183</ref>
         </refs>
-        <data>Zora:
-C'est terrible !
+        <data>Zora: C'est terrible !
 Il nous faut arrêter ça !
 Comme toutes les autres femmes,[character][0x1]
 est résistante et elle n'a pas un
@@ -812,8 +775,7 @@ coeur faible.[end]</data>
         <refs>
             <ref>0x118a</ref>
         </refs>
-        <data>Ruki:
-J'ai entièrement confiance en la
+        <data>Ruki: J'ai entièrement confiance en la
 Princesse [character][0x1].
 Tu es d'accord avec moi ?![end]</data>
     </text>
@@ -821,8 +783,7 @@ Tu es d'accord avec moi ?![end]</data>
         <refs>
             <ref>0x11c8</ref>
         </refs>
-        <data>Melody:
-Hé ! Hé ! HEEEEEEE !
+        <data>Melody: Hé ! Hé ! HEEEEEEE !
 Qu'est-ce qui ne va pas ?
 Vous pouvez me le dire ?![end]</data>
     </text>
@@ -830,23 +791,20 @@ Vous pouvez me le dire ?![end]</data>
         <refs>
             <ref>0x11e1</ref>
         </refs>
-        <data>Melody:
-C'est étrange,Matelite ne dit plus
+        <data>Melody: C'est étrange,Matelite ne dit plus
 rien ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1093</ref>
         </refs>
-        <data>Taicho:
-Matelite semble parfois si triste ![end]</data>
+        <data>Taicho: Matelite semble parfois si triste ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x109a</ref>
         </refs>
-        <data>Taicho:
-Matelite est très silencieux !
+        <data>Taicho: Matelite est très silencieux !
  
 Sais-tu pourquoi il ne veut pas parler ?
 Hum,il y a des choses qui ne se
@@ -857,8 +815,7 @@ Prépare-toi bien ![end]</data>
         <refs>
             <ref>0x10ac</ref>
         </refs>
-        <data>Hornet:
-[character][0x7] t'a-t-il donné ses
+        <data>Hornet: [character][0x7] t'a-t-il donné ses
 informations ?!
 Très bien,direction Kana !
 Prépare-toi pour la bataille !
@@ -869,8 +826,7 @@ Nous sommes proches du combat final ![end]</data>
         <refs>
             <ref>0x10fc</ref>
         </refs>
-        <data>Rush:
-Tu dois être réconforté par ces
+        <data>Rush: Tu dois être réconforté par ces
 paroles.
 Nous avons appris bien des choses sur
 [character][0x1]...[end]</data>
@@ -886,8 +842,7 @@ Nous avons appris bien des choses sur
         <refs>
             <ref>0x103d</ref>
         </refs>
-        <data>[character][0x1]:
-Je te demande pardon,je n'ai pas
+        <data>[character][0x1]: Je te demande pardon,je n'ai pas
 respecté notre promesse.
 Le ciel a bien changé...
 Et moi aussi...[end]</data>

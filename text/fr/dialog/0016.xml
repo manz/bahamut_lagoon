@@ -50,8 +50,7 @@
         <refs>
             <ref>0x219</ref>
         </refs>
-        <data>[character][0x1]:
-Hein... huuum...[end]</data>
+        <data>[character][0x1]: Hein... huuum...[end]</data>
     </text>
     <text>
         <refs>
@@ -64,8 +63,7 @@ Que faites-vous tous ici ?![end]</data>
         <refs>
             <ref>0x268</ref>
         </refs>
-        <data>[character][0x1]:
-Le Dragon Sacré Jormungand m'a
+        <data>[character][0x1]: Le Dragon Sacré Jormungand m'a
 réveillée.
 Il est en colère,je dois aller à sa
 rencontre.[end]</data>
@@ -74,15 +72,13 @@ rencontre.[end]</data>
         <refs>
             <ref>0x231</ref>
         </refs>
-        <data>Zora:
-Tout va bien,Princesse ?[end]</data>
+        <data>Zora: Tout va bien,Princesse ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x279</ref>
         </refs>
-        <data>Zora:
-C'est impossible !
+        <data>Zora: C'est impossible !
 Vous ne pouvez pas y aller.
 J'irai moi-même au combat pour aller
 chercher ce dragon à votre place.[end]</data>
@@ -91,8 +87,7 @@ chercher ce dragon à votre place.[end]</data>
         <refs>
             <ref>0x2c7</ref>
         </refs>
-        <data>Matelite:
-Au fait,Princesse,nous avons de
+        <data>Matelite: Au fait,Princesse,nous avons de
 bonnes nouvelles.
 Nous avons vaincu l'Empereur Sauzer.
 Bientôt,notre Kana revivra ![end]</data>
@@ -101,8 +96,7 @@ Bientôt,notre Kana revivra ![end]</data>
         <refs>
             <ref>0x2dc</ref>
         </refs>
-        <data>Taicho:
-Palparos a aussi été vaincu !
+        <data>Taicho: Palparos a aussi été vaincu !
 C'est la dure réalité de la guerre.
 Princesse [character][0x1],vous devez être
 épuisée ![end]</data>
@@ -117,8 +111,7 @@ Princesse [character][0x1],vous devez être
         <refs>
             <ref>0x29d</ref>
         </refs>
-        <data>[character][0x1]:
-Je dois y aller par moi-même !
+        <data>[character][0x1]: Je dois y aller par moi-même !
  
 Le Dragon Sacré Jormungand m'a dit
 qu'il avait certaines choses à me
@@ -142,8 +135,7 @@ Ne vous inquiétez pas ![end]</data>
         <refs>
             <ref>0x3a1</ref>
         </refs>
-        <data>Palparos:
-En effet,j'ai été vaincu par les
+        <data>Palparos: En effet,j'ai été vaincu par les
 Rebelles mais je suis encore en vie.
 Ils ont vraiment gagné en force ![end]</data>
     </text>
@@ -187,8 +179,7 @@ côtés.[end]</data>
         <refs>
             <ref>0x40d</ref>
         </refs>
-        <data>Garuda:
-Hahahahaha !
+        <data>Garuda: Hahahahaha !
 Fille,la dénommée Dragoon !
 Est-ce là ton ambition ?
 Ce TRÈS petit rêve ou dois-je dire ce
@@ -198,16 +189,14 @@ MINUSCULE rêve ?![end]</data>
         <refs>
             <ref>0x41b</ref>
         </refs>
-        <data>[character][0x1]:
-Ce petit rêve...
+        <data>[character][0x1]: Ce petit rêve...
 Mais je ne peux même pas le réaliser ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x426</ref>
         </refs>
-        <data>Garuda:
-Pourquoi penses-tu cela,
+        <data>Garuda: Pourquoi penses-tu cela,
 fille au petit rêve ?
 Si notre pouvoir est entre tes mains,
 tout ce que tu désires sera contrôlé
@@ -217,8 +206,7 @@ par ton esprit.[end]</data>
         <refs>
             <ref>0x433</ref>
         </refs>
-        <data>[character][0x1]:
-Si le monde est mien,il y a une chose
+        <data>[character][0x1]: Si le monde est mien,il y a une chose
 que je ne pourrai changer...
 Ce sont les sentiments qui sont
 profondément ancrés dans nos coeurs.
@@ -230,8 +218,7 @@ ils ne pourront changer...[end]</data>
         <refs>
             <ref>0x43d</ref>
         </refs>
-        <data>Garuda:
-Ne sois pas déçue,fille au petit rêve !
+        <data>Garuda: Ne sois pas déçue,fille au petit rêve !
  
 Tu connais maintenant nos sentiments
 et tu peux nous contrôler.
@@ -251,8 +238,7 @@ Mais il est maintenant...[end]</data>
         <refs>
             <ref>0x451</ref>
         </refs>
-        <data>Garuda:
-Non !
+        <data>Garuda: Non !
 Je peux sentir sa faible vie.
 Il n'est pas mort...
 L'homme de tes rêves,lui aussi se
@@ -265,8 +251,7 @@ savoir ?[end]</data>
         <refs>
             <ref>0x461</ref>
         </refs>
-        <data>[character][0x1]:
-Garuda...
+        <data>[character][0x1]: Garuda...
  
 Si je réalise tous mes désirs,il est une
 chose que j'aimerais avoir par-dessus

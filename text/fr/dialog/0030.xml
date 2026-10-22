@@ -4,22 +4,20 @@
         <refs>
             <ref>0x3eb</ref>
         </refs>
-        <data>Taurus: Les forces de Granbelos sont trop puissantes !
+        <data>Truth: Les forces de Granbelos sont trop puissantes !
 Nous devrions battre en retraite...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3f8</ref>
         </refs>
-        <data>Mist:
-[character][0x0],arrête Matelite...[end]</data>
+        <data>Mist: [character][0x0],arrête Matelite...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3db</ref>
         </refs>
-        <data>Rush:
-Les Commandants de l'Empire sont si
+        <data>Rush: Les Commandants de l'Empire sont si
 forts...
 Je... n'avais jamais... eu si peur ![end]</data>
     </text>
@@ -27,15 +25,13 @@ Je... n'avais jamais... eu si peur ![end]</data>
         <refs>
             <ref>0x3cb</ref>
         </refs>
-        <data>Sendak:
-La Princesse [character][0x1]![end]</data>
+        <data>Sendak: La Princesse [character][0x1]![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5d6</ref>
         </refs>
-        <data>Sauzer:
-La Princesse de Kana...
+        <data>Sauzer: La Princesse de Kana...
 Une Dragoon !
 Aurait-elle des pouvoirs plus puissants
 que ceux du Dragon Sacré Bahamut ?!
@@ -47,8 +43,7 @@ Roi de Kana ?[end]</data>
         <refs>
             <ref>0x53f</ref>
         </refs>
-        <data>Sauzer:
-Nous allons prendre la Princesse de
+        <data>Sauzer: Nous allons prendre la Princesse de
 Kana avec nous ![end]</data>
     </text>
     <text>
@@ -62,8 +57,7 @@ Kana avec nous ![end]</data>
         <refs>
             <ref>0x5b3</ref>
         </refs>
-        <data>Palparos:
-... ?!
+        <data>Palparos: ... ?!
  
 [character][0x0],le Chef de l'Escadron Dragon
 de Kana ?![end]</data>
@@ -72,8 +66,7 @@ de Kana ?![end]</data>
         <refs>
             <ref>0x5e8</ref>
         </refs>
-        <data>Roi de Kana:
-La Légende !
+        <data>Roi de Kana: La Légende !
  
 Comment se fait-il que tu la
 connaisses ?[end]</data>
@@ -82,8 +75,7 @@ connaisses ?[end]</data>
         <refs>
             <ref>0x5f2</ref>
         </refs>
-        <data>Sauzer:
-Sachez,Roi de Kana,que seules les
+        <data>Sauzer: Sachez,Roi de Kana,que seules les
 époques choisissent la personne qui
 les dirigera !
 J'ai été moi-même choisi et je suis
@@ -93,8 +85,7 @@ l'élu ![end]</data>
         <refs>
             <ref>0x604</ref>
         </refs>
-        <data>Roi de Kana:
-Tu sembles te surestimer Sauzer ![end]</data>
+        <data>Roi de Kana: Tu sembles te surestimer Sauzer ![end]</data>
     </text>
     <text>
         <refs>
@@ -108,8 +99,7 @@ pouvoir ![end]</data>
         <refs>
             <ref>0x61f</ref>
         </refs>
-        <data>Sauzer:
-Ainsi Bahamut ne s'est pas réveillé,
+        <data>Sauzer: Ainsi Bahamut ne s'est pas réveillé,
 n'est-ce pas ?
 Je suppose qu'il n'est simplement pas
 encore l'heure !

@@ -46,8 +46,7 @@
         <refs>
             <ref>0x33b</ref>
         </refs>
-        <data>Gudruff:
-Hahahaha !
+        <data>Gudruff: Hahahaha !
  
 vous avez vu les visages du peuple de
 l'Empire !
@@ -81,8 +80,7 @@ Tout sera à Gudruff ![end]</data>
         <refs>
             <ref>0x446</ref>
         </refs>
-        <data>Donfan:
-Salut les filles,
+        <data>Donfan: Salut les filles,
 je suis l'inoubliable Donfan !
 Vous combattez aussi... ?!
 Le champ de bataille risque d'abîmer
@@ -104,8 +102,7 @@ et il a le plus grand coeur au monde ![end]</data>
         <refs>
             <ref>0x4f5</ref>
         </refs>
-        <data>Donfan:
-Salut Lady aux cheveux rouges !
+        <data>Donfan: Salut Lady aux cheveux rouges !
  
 Je suis le Naïf et Inoubliable
 Donfan !
@@ -127,8 +124,7 @@ la Princesse de mes rêves.[end]</data>
         <refs>
             <ref>0x5e6</ref>
         </refs>
-        <data>Donfan:
-Salut,
+        <data>Donfan: Salut,
 très belle demoiselle de l'Empire !
 Aimerais-tu voyager dans le ciel avec
 moi,Donfan ?
@@ -201,8 +197,7 @@ un entraînement ?[end]</data>
         <refs>
             <ref>0x758</ref>
         </refs>
-        <data>Palparos:
-Qui est là ?![end]</data>
+        <data>Palparos: Qui est là ?![end]</data>
     </text>
     <text>
         <refs>
@@ -235,8 +230,7 @@ J'ai déjà entendu cette voix.[end]</data>
         <refs>
             <ref>0x7a6</ref>
         </refs>
-        <data>[character][0x10]:
-C'est la première fois que nous nous
+        <data>[character][0x10]: C'est la première fois que nous nous
 rencontrons...
 Général... [character][0xa]...[end]</data>
     </text>
@@ -286,8 +280,7 @@ Quelle est la personne que vous avez perdue ?[end]</data>
         <refs>
             <ref>0x812</ref>
         </refs>
-        <data>[character][0x10]:
-Céline,ma femme...
+        <data>[character][0x10]: Céline,ma femme...
  
 Aussi,je n'ai été qu'un lâche.
 J'y repense souvent...

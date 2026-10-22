@@ -10,22 +10,19 @@
         <refs>
             <ref>0x1ab</ref>
         </refs>
-        <data>Donfan:
-Qu'est-ce qui ne va pas,Ruki ?[end]</data>
+        <data>Donfan: Qu'est-ce qui ne va pas,Ruki ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1b7</ref>
         </refs>
-        <data>Ruki:
-Je me suis enfin décidée ![end]</data>
+        <data>Ruki: Je me suis enfin décidée ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1d0</ref>
         </refs>
-        <data>Donfan:
-Tu t'es décidée ?![end]</data>
+        <data>Donfan: Tu t'es décidée ?![end]</data>
     </text>
     <text>
         <refs>
@@ -37,16 +34,14 @@ Tu t'es décidée ?![end]</data>
         <refs>
             <ref>0x1f4</ref>
         </refs>
-        <data>Ruki:
-Oh !
+        <data>Ruki: Oh !
 Écoute,tu as l'air surpris ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1fa</ref>
         </refs>
-        <data>Donfan:
-Qui... moi... ?
+        <data>Donfan: Qui... moi... ?
 Jamais... jamais...[end]</data>
     </text>
     <text>
@@ -60,8 +55,7 @@ Fidèle Serviteur,non ?![end]</data>
         <refs>
             <ref>0x237</ref>
         </refs>
-        <data>Ruki:
-Tu te trompes Donfan !
+        <data>Ruki: Tu te trompes Donfan !
  
 En ce qui concerne le futur Roi de ce
 pays,je crois que Commandant sera le
@@ -71,15 +65,13 @@ plus apte.[end]</data>
         <refs>
             <ref>0x255</ref>
         </refs>
-        <data>Donfan:
-Est-ce vrai ?![end]</data>
+        <data>Donfan: Est-ce vrai ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x264</ref>
         </refs>
-        <data>Ruki:
-Héhéhéhéhé !
+        <data>Ruki: Héhéhéhéhé !
 Il finira par accepter face au pouvoir
 dissuasif de Sergent ![end]</data>
     </text>
@@ -87,8 +79,7 @@ dissuasif de Sergent ![end]</data>
         <refs>
             <ref>0x26e</ref>
         </refs>
-        <data>Donfan:
-Hahahahaha !
+        <data>Donfan: Hahahahaha !
  
 Il semble que Commandant ne pourra
 rien refuser ![end]</data>
@@ -97,39 +88,34 @@ rien refuser ![end]</data>
         <refs>
             <ref>0x27f</ref>
         </refs>
-        <data>Ruki:
-Allons au Palais de Mahal !
+        <data>Ruki: Allons au Palais de Mahal !
 Jeanne nous y attend ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x28d</ref>
         </refs>
-        <data>Donfan:
-Haha ![end]</data>
+        <data>Donfan: Haha ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2c2</ref>
         </refs>
-        <data>Taicho:
-Sergent... Pourquoi serait-ce moi leur
+        <data>Taicho: Sergent... Pourquoi serait-ce moi leur
 nouveau Roi ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2cc</ref>
         </refs>
-        <data>Gunso:
-Considérez que vous êtes la seule
+        <data>Gunso: Considérez que vous êtes la seule
 personne capable d'être leur Roi ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2d2</ref>
         </refs>
-        <data>Taicho:
-Mais j'ai toujours été une personne
+        <data>Taicho: Mais j'ai toujours été une personne
 se battant pour défendre Mahal pas
 pour faire de la politique.
 Cependant,je crois que je vais
@@ -139,8 +125,7 @@ accepter la décision de notre peuple.[end]</data>
         <refs>
             <ref>0x2e4</ref>
         </refs>
-        <data>Gunso:
-Que dites-vous ?!
+        <data>Gunso: Que dites-vous ?!
  
 Commandant !
 Sachez que malgré tout nous serons
@@ -150,44 +135,38 @@ toujours,vous et moi,Capitaines[0xd8][end]</data>
         <refs>
             <ref>0x2f1</ref>
         </refs>
-        <data>Taicho:
-... ... ...[end]</data>
+        <data>Taicho: ... ... ...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2fa</ref>
         </refs>
-        <data>Gunso:
-Et maintenant,vous devrez prendre en
+        <data>Gunso: Et maintenant,vous devrez prendre en
 considération votre décision...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x32e</ref>
         </refs>
-        <data>Jeanne:
-Moi je le crois capable ![end]</data>
+        <data>Jeanne: Moi je le crois capable ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x33a</ref>
         </refs>
-        <data>Donfan:
-Donfan le Naïf et Fidèle Serviteur
+        <data>Donfan: Donfan le Naïf et Fidèle Serviteur
 le croit aussi ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x346</ref>
         </refs>
-        <data>Ruki:
-Moi aussi ![end]</data>
+        <data>Ruki: Moi aussi ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x352</ref>
         </refs>
-        <data>Taicho:
-Oh tout le monde...[end]</data>
+        <data>Taicho: Oh tout le monde...[end]</data>
     </text>
 </texts>

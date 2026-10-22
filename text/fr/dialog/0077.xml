@@ -18,8 +18,7 @@
         <refs>
             <ref>0x739</ref>
         </refs>
-        <data>[character][0x1]:
-Nous sommes originaires d'Orelus.[end]</data>
+        <data>[character][0x1]: Nous sommes originaires d'Orelus.[end]</data>
     </text>
     <text>
         <refs>
@@ -54,8 +53,7 @@ Hypérion[0xd8][end]</data>
         <refs>
             <ref>0x7d7</ref>
         </refs>
-        <data>[character][0x1]:
-Les Dragons Sacrés sont enfin revenus
+        <data>[character][0x1]: Les Dragons Sacrés sont enfin revenus
 à Altair.
 Et nous venons d'Orelus qui est
 menacé de destruction par des démons.[end]</data>
@@ -72,8 +70,7 @@ Dragons Sacrés ?[end]</data>
         <refs>
             <ref>0x7fe</ref>
         </refs>
-        <data>[character][0x1]:
-Ils sont à l'intérieur de mon coeur...[end]</data>
+        <data>[character][0x1]: Ils sont à l'intérieur de mon coeur...[end]</data>
     </text>
     <text>
         <refs>
@@ -87,8 +84,7 @@ esprit...[end]</data>
         <refs>
             <ref>0x821</ref>
         </refs>
-        <data>[character][0x1]:
-C'est cela...
+        <data>[character][0x1]: C'est cela...
 Et vous êtes ?[end]</data>
     </text>
     <text>
@@ -101,8 +97,7 @@ Et vous êtes ?[end]</data>
         <refs>
             <ref>0x868</ref>
         </refs>
-        <data>Sendak:
-Un être-dragon ?!
+        <data>Sendak: Un être-dragon ?!
 Dites-nous-en plus !
 La résurrection doit se faire entre les
 êtres-dragons et les Dragons Sacrés !
@@ -141,8 +136,7 @@ pour le peuple dragon.[end]</data>
         <refs>
             <ref>0x9ed</ref>
         </refs>
-        <data>Matelite:
-Hé ! Par ici l'enfant !
+        <data>Matelite: Hé ! Par ici l'enfant !
 Tu as perdu un Dragon Sacré !
 C'est vrai que tu es un petit
 être-dragon ?[end][end]</data>
@@ -151,8 +145,7 @@ C'est vrai que tu es un petit
         <refs>
             <ref>0x88d</ref>
         </refs>
-        <data>Matelite:
-Votre histoire n'a aucun sens !
+        <data>Matelite: Votre histoire n'a aucun sens !
 Je n'y comprends rien.
 Mais dépêchez-vous d'enlever les
 esprits des Dragons Sacrés du corps
@@ -244,8 +237,7 @@ le Grand et Divin Alexandre...[end]</data>
         <refs>
             <ref>0xa0a</ref>
         </refs>
-        <data>Matelite:
-Alexandre ?[end]</data>
+        <data>Matelite: Alexandre ?[end]</data>
     </text>
     <text>
         <refs>
@@ -291,15 +283,13 @@ Cela nous fut insupportable ![end]</data>
         <refs>
             <ref>0xa5c</ref>
         </refs>
-        <data>[character][0x1]:
-Les Dragons Sacrés...[end]</data>
+        <data>[character][0x1]: Les Dragons Sacrés...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa67</ref>
         </refs>
-        <data>Bahamut:
-Peuple Dragon...
+        <data>Bahamut: Peuple Dragon...
 Répondez à notre appel...[end]</data>
     </text>
     <text>
@@ -312,8 +302,7 @@ Répondez à notre appel...[end]</data>
         <refs>
             <ref>0xa80</ref>
         </refs>
-        <data>Bahamut:
-Nous sommes revenus pour la
+        <data>Bahamut: Nous sommes revenus pour la
 Résurrection...
 Sortez car la Nouvelle Ère est arrivée.
 Nous sommes revenus par la Porte.[end]</data>
@@ -322,8 +311,7 @@ Nous sommes revenus par la Porte.[end]</data>
         <refs>
             <ref>0xa84</ref>
         </refs>
-        <data>Vritra:
-Pouvons-nous vraiment faire la
+        <data>Vritra: Pouvons-nous vraiment faire la
 Résurrection ?[end]</data>
     </text>
     <text>
@@ -337,8 +325,7 @@ Assez ! Assez[0xd8][end]</data>
         <refs>
             <ref>0xa9d</ref>
         </refs>
-        <data>Léviathan:
-Peuple Dragon...
+        <data>Léviathan: Peuple Dragon...
 N'est-il pas encore arrivé ?[end]</data>
     </text>
     <text>
@@ -355,8 +342,7 @@ Il jugera vos actes ![end]</data>
             <ref>0x5a0</ref>
             <ref>0xac9</ref>
         </refs>
-        <data>[character][0x1]:
-Je crains le pire...
+        <data>[character][0x1]: Je crains le pire...
 Les Dragons Sacrés sont en colère !
 Jamais ils n'avaient été si furieux
 jusqu'à maintenant ![end]</data>
@@ -365,8 +351,7 @@ jusqu'à maintenant ![end]</data>
         <refs>
             <ref>0xad2</ref>
         </refs>
-        <data>Garuda:
-La fille...
+        <data>Garuda: La fille...
  
 La fille à qui nous avons donné nos
 pouvoirs...
@@ -378,8 +363,7 @@ daigne combattre pour nous...[end]</data>
         <refs>
             <ref>0xb09</ref>
         </refs>
-        <data>Matelite:
-Hé ! Les Dragons Sacrés !
+        <data>Matelite: Hé ! Les Dragons Sacrés !
  
 Vous nous emmenez en terres
 inconnues ![end]</data>
@@ -388,16 +372,14 @@ inconnues ![end]</data>
         <refs>
             <ref>0xb26</ref>
         </refs>
-        <data>Matelite:
-Princesse [character][0x1] ne vous tourmentez
+        <data>Matelite: Princesse [character][0x1] ne vous tourmentez
 pas ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb33</ref>
         </refs>
-        <data>Matelite:
-Quelqu'en soit la raison,
+        <data>Matelite: Quelqu'en soit la raison,
 nous combattrons !
 Nous combattrons pour eux ![end]</data>
     </text>
@@ -405,8 +387,7 @@ Nous combattrons pour eux ![end]</data>
         <refs>
             <ref>0xb4e</ref>
         </refs>
-        <data>Matelite:
-Allons-y !
+        <data>Matelite: Allons-y !
  
 Nous allons vous aider Dragons Sacrés !
 Grâce à ma force,nous allons gagner !
@@ -419,24 +400,21 @@ Nous partons combattre ![end]</data>
         <refs>
             <ref>0xb58</ref>
         </refs>
-        <data>Sendak:
-Matelite ![end]</data>
+        <data>Sendak: Matelite ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb69</ref>
             <ref>0x61a</ref>
         </refs>
-        <data>Matelite:
-[character][0x0]!
+        <data>Matelite: [character][0x0]!
 Prépare-toi au combat ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5b9</ref>
         </refs>
-        <data>Palparos:
-[character][0x0]!
+        <data>Palparos: [character][0x0]!
 Est-ce que tu es prêt ?
  Attends encore un instant.
  Allons combattre ![end1]</data>
@@ -489,8 +467,7 @@ Oui ! C'est [0xb0][0xaf][0xaf][0xaf] Po ![end]</data>
         <refs>
             <ref>0x16d</ref>
         </refs>
-        <data>Bikebake:
-Super !
+        <data>Bikebake: Super !
 Tu m'as bien aidé frère !
 Merci ![end]</data>
     </text>
@@ -498,23 +475,20 @@ Merci ![end]</data>
         <refs>
             <ref>0x15d</ref>
         </refs>
-        <data>Bikebake:
-Je suis content ! Content ![end][end]</data>
+        <data>Bikebake: Je suis content ! Content ![end][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x68b</ref>
         </refs>
-        <data>Rush:
-Le commerce,après !
+        <data>Rush: Le commerce,après !
 Les compagnons avant tout ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x659</ref>
         </refs>
-        <data>Rush:
-C'est un commerce génial ![end]</data>
+        <data>Rush: C'est un commerce génial ![end]</data>
     </text>
     <text>
         <refs>
@@ -529,8 +503,7 @@ C'est un commerce génial ![end]</data>
         <refs>
             <ref>0x722</ref>
         </refs>
-        <data>Bikebake:
-Tu veux des champignons ?[end]</data>
+        <data>Bikebake: Tu veux des champignons ?[end]</data>
     </text>
     <text>
         <refs>
@@ -545,36 +518,31 @@ Tu veux des champignons ?[end]</data>
         <refs>
             <ref>0x63e</ref>
         </refs>
-        <data>Sendak:
-Toutes ces lumières sont effrayantes.[end]</data>
+        <data>Sendak: Toutes ces lumières sont effrayantes.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x692</ref>
         </refs>
-        <data>Rush:
-Je suis marchand... ?[end]</data>
+        <data>Rush: Je suis marchand... ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6c8</ref>
         </refs>
-        <data>Truth:
-Il était si sceptique... ?[end]</data>
+        <data>Truth: Il était si sceptique... ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6f0</ref>
         </refs>
-        <data>Bikebake:
-Tu veux m'acheter quelque chose ?[end]</data>
+        <data>Bikebake: Tu veux m'acheter quelque chose ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x62c</ref>
         </refs>
-        <data>Taicho:
-Quel château mélancolique !
+        <data>Taicho: Quel château mélancolique !
 Il y a une intense odeur de danger.[end]</data>
     </text>
     <text>
@@ -588,8 +556,7 @@ genre de choses...[end]</data>
         <refs>
             <ref>0x60f</ref>
         </refs>
-        <data>Matelite:
-Là,je dois entièrement faire confiance
+        <data>Matelite: Là,je dois entièrement faire confiance
 à Palparos ![end]</data>
     </text>
     <text>
@@ -604,8 +571,7 @@ Là,je dois entièrement faire confiance
         <refs>
             <ref>0xe39</ref>
         </refs>
-        <data>Palparos:
-Le Général Gudruff est en train de
+        <data>Palparos: Le Général Gudruff est en train de
 parler.
 Il ne semble pas vouloir éviter cette
 bataille.[end]</data>
@@ -614,30 +580,26 @@ bataille.[end]</data>
         <refs>
             <ref>0xe4d</ref>
         </refs>
-        <data>Palparos:
-Je vais aller voir seul ![end]</data>
+        <data>Palparos: Je vais aller voir seul ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe5f</ref>
         </refs>
-        <data>Matelite:
-Général Palparos ![end]</data>
+        <data>Matelite: Général Palparos ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe6b</ref>
         </refs>
-        <data>Matelite:
-Faites attention !
+        <data>Matelite: Faites attention !
 Je hais à vous dire cela mais...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe78</ref>
         </refs>
-        <data>Matelite:
-N'allez pas vous faire tuer,
+        <data>Matelite: N'allez pas vous faire tuer,
 quelqu'un vous attend !
 Vous n'avez pas intérêt à rendre
 [character][0x1] triste !
@@ -711,8 +673,7 @@ faire de grandes choses ![end]</data>
         <refs>
             <ref>0xf1</ref>
         </refs>
-        <data>Bikebake:
-Et moi ?![end]</data>
+        <data>Bikebake: Et moi ?![end]</data>
     </text>
     <text>
         <refs>
@@ -727,8 +688,7 @@ déjà du commerce ![end]</data>
             <ref>0x120</ref>
         </refs>
         <data>MARCHAND PROTEGEANT SA FEMME ET SES
-Enfants:
-Capitaine [character][0x0],je vous suis redevable !
+Enfants: Capitaine [character][0x0],je vous suis redevable !
 Faites tous attention à vous !
 Au revoir Messieurs ![end]</data>
     </text>
@@ -736,8 +696,7 @@ Au revoir Messieurs ![end]</data>
         <refs>
             <ref>0x54a</ref>
         </refs>
-        <data>[character][0x1]:
-[character][0x0],je m'inquiète pour le Général
+        <data>[character][0x1]: [character][0x0],je m'inquiète pour le Général
 Palparos !
 Prépare-toi à combattre ![end]</data>
     </text>
@@ -753,31 +712,27 @@ Prépare-toi à combattre ![end]</data>
         <refs>
             <ref>0x57d</ref>
         </refs>
-        <data>Palparos:
-Tout est clair... C'est un piège ![end]</data>
+        <data>Palparos: Tout est clair... C'est un piège ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5c4</ref>
         </refs>
-        <data>Palparos:
-Je n'arrive pas à déterminer l'endroit
+        <data>Palparos: Je n'arrive pas à déterminer l'endroit
 où nous sommes...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5a7</ref>
         </refs>
-        <data>[character][0x1]:
-Où est le Peuple Dragon ?
+        <data>[character][0x1]: Où est le Peuple Dragon ?
 Les Dragons Sacrés les cherchent ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x633</ref>
         </refs>
-        <data>Taicho:
-Les dragons semblent être dans un
+        <data>Taicho: Les dragons semblent être dans un
 état second !
 Ils sont très nerveux ![end]</data>
     </text>
@@ -785,16 +740,14 @@ Ils sont très nerveux ![end]</data>
         <refs>
             <ref>0x6cf</ref>
         </refs>
-        <data>Truth:
-Ainsi,c'est ici Altair !
+        <data>Truth: Ainsi,c'est ici Altair !
 La Patrie des Dragons Sacrés ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5ae</ref>
         </refs>
-        <data>[character][0x1]:
-Que se passe-t-il à Altair ?
+        <data>[character][0x1]: Que se passe-t-il à Altair ?
  
 Les Dragons Sacrés doivent sûrement le
 savoir.[end]</data>
@@ -803,16 +756,14 @@ savoir.[end]</data>
         <refs>
             <ref>0x645</ref>
         </refs>
-        <data>Sendak:
-Altair...
+        <data>Sendak: Altair...
 Ça... m'effraie...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x621</ref>
         </refs>
-        <data>Matelite:
-[character][0x0]...
+        <data>Matelite: [character][0x0]...
 Fais très attention ici...[end]</data>
     </text>
     <text>

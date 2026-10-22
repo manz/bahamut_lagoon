@@ -112,15 +112,13 @@ Regardez,je vous en prie...[end]</data>
         <refs>
             <ref>0x5ec</ref>
         </refs>
-        <data>Docteur Dragon:
-Tu as une réunion ![end]</data>
+        <data>Docteur Dragon: Tu as une réunion ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5f3</ref>
         </refs>
-        <data>Docteur Dragon:
-Les Dragons t'attendent !
+        <data>Docteur Dragon: Les Dragons t'attendent !
 Hahaha ! Par ici ![end]</data>
     </text>
     <text>
@@ -161,16 +159,14 @@ Nous sommes respectables ![end]</data>
         <refs>
             <ref>0x987</ref>
         </refs>
-        <data>Wagahai:
-``les petits démons vivent et
+        <data>Wagahai: ``les petits démons vivent et
  combattent dans l'ombre.''[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5dc</ref>
         </refs>
-        <data>Docteur Dragon:
-Veux-tu sortir ?
+        <data>Docteur Dragon: Veux-tu sortir ?
  
 [character][0x4] est très heureux car nous
 avons vu beaucoup d'éclairs ![end]</data>
@@ -197,8 +193,7 @@ que... que...
         <refs>
             <ref>0x997</ref>
         </refs>
-        <data>Matelot:
-Il y a longtemps,tu m'as sauvé...
+        <data>Matelot: Il y a longtemps,tu m'as sauvé...
 Et je t'en remercie !
 Maintenant je peux de nouveau avoir
 des rêves !
@@ -213,8 +208,7 @@ allait très bien se passer.[end]</data>
         <refs>
             <ref>0x99e</ref>
         </refs>
-        <data>Matelot:
-Je vais aider mes associés...
+        <data>Matelot: Je vais aider mes associés...
 Je vais y aller !
 Parfois,ce type repart en dragon !
 Tout le monde l'a vu ![end]</data>
@@ -245,8 +239,7 @@ Tout le monde l'a vu ![end]</data>
         <refs>
             <ref>0x5ce</ref>
         </refs>
-        <data>Docteur Dragon:
-Les dragons sont bruyants et pleins
+        <data>Docteur Dragon: Les dragons sont bruyants et pleins
 d'éclat !
 La Princesse est revenue,c'est pour
 cette raison qu'ils sont heureux.
@@ -266,8 +259,7 @@ Qu'aimeriez-vous ?[end]</data>
         <refs>
             <ref>0x5b8</ref>
         </refs>
-        <data>Docteur Dragon:
-[character][0x7] et un matelot sont partis
+        <data>Docteur Dragon: [character][0x7] et un matelot sont partis
 en reconnaissance.
 Heureusement qu'il y a un rayon de
 soleil !
@@ -341,8 +333,7 @@ Ah,bienvenue ![end]</data>
         <refs>
             <ref>0x5c0</ref>
         </refs>
-        <data>Docteur Dragon:
-Rush est parti avec Salamand,
+        <data>Docteur Dragon: Rush est parti avec Salamand,
 il y a un instant !
 Sais-tu où il va ?
 [character][0x7],lui,est parti en
@@ -385,8 +376,7 @@ c'est si paisible.[end]</data>
         <refs>
             <ref>0x5ab</ref>
         </refs>
-        <data>Docteur Dragon:
-Il y a un charmant bébé !
+        <data>Docteur Dragon: Il y a un charmant bébé !
 Viens vite ![end]</data>
     </text>
     <text>
@@ -447,8 +437,7 @@ Tout cela est dangereux ![end]</data>
         <refs>
             <ref>0x980</ref>
         </refs>
-        <data>Wagahai:
-``les petits démons sont devenus
+        <data>Wagahai: ``les petits démons sont devenus
  de vrais démons depuis leur
  révolution.
  il leur faudrait une bonne
@@ -465,8 +454,7 @@ Tout cela est dangereux ![end]</data>
         <refs>
             <ref>0x979</ref>
         </refs>
-        <data>Wagahai:
-``ils essaient de voler des
+        <data>Wagahai: ``ils essaient de voler des
  objets...
  les petits démons ambitionnent
  de créer un empire en agissant
@@ -529,31 +517,27 @@ ensemble,comme un vrai couple !
         <refs>
             <ref>0x9bf</ref>
         </refs>
-        <data>Sajin:
-Je crois que j'ai besoin d'un peu
+        <data>Sajin: Je crois que j'ai besoin d'un peu
 d'entraînement...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9c5</ref>
         </refs>
-        <data>Sajin:
-Je suis seul comme toujours...[end]</data>
+        <data>Sajin: Je suis seul comme toujours...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9b9</ref>
         </refs>
-        <data>Sajin:
-C'est bruyant ici !
+        <data>Sajin: C'est bruyant ici !
 C'est à cause de qui ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9cb</ref>
         </refs>
-        <data>Sajin:
-La vie n'est qu'un chemin dont l'issue
+        <data>Sajin: La vie n'est qu'un chemin dont l'issue
 reste secrète...
 Tout ne peut être pardonné...[end]</data>
     </text>
@@ -561,8 +545,7 @@ Tout ne peut être pardonné...[end]</data>
         <refs>
             <ref>0x9e3</ref>
         </refs>
-        <data>Zeroshin:
-Ce bateau est propre mais je n'y ai
+        <data>Zeroshin: Ce bateau est propre mais je n'y ai
 pas beaucoup d'amis.
 Je crois que je vais aller m'entraîner.[end]</data>
     </text>
@@ -570,16 +553,14 @@ Je crois que je vais aller m'entraîner.[end]</data>
         <refs>
             <ref>0x9e9</ref>
         </refs>
-        <data>Zeroshin:
-Pourquoi n'ai-je toujours pas d'amis ?
+        <data>Zeroshin: Pourquoi n'ai-je toujours pas d'amis ?
 Je vais m'entraîner à sourire ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9ef</ref>
         </refs>
-        <data>Zeroshin:
-Ils sont tous si vaniteux ?!
+        <data>Zeroshin: Ils sont tous si vaniteux ?!
 Je suis toujours seul et Sajin n'est
 pas très causant.
 Je suis solitaire...
@@ -589,8 +570,7 @@ Je me sens seul...[end]</data>
         <refs>
             <ref>0x9f5</ref>
         </refs>
-        <data>Zeroshin:
-J'aimerais repartir...
+        <data>Zeroshin: J'aimerais repartir...
 Je n'ai toujours pas d'amis !
 Je savais que vivre ici ne m'aurait
 pas éloigné de la guerre.[end]</data>

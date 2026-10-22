@@ -55,8 +55,7 @@ Au revoir,[character][0x0]![end]</data>
             <ref>0x5cf</ref>
             <ref>0x607</ref>
         </refs>
-        <data>[character][0x1]:
-[character][0x0],j'aurais une requête...
+        <data>[character][0x1]: [character][0x0],j'aurais une requête...
 Prends soin de lui...[end]</data>
     </text>
     <text>
@@ -154,8 +153,7 @@ moi-même vers l'autel.
         <refs>
             <ref>0x2e5</ref>
         </refs>
-        <data>[character][0x1]:
-[character][0x0],je ne peux que te remercier.
+        <data>[character][0x1]: [character][0x0],je ne peux que te remercier.
  
 Toutefois,je ne peux revenir en
 arrière.

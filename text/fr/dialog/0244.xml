@@ -10,16 +10,14 @@
         <refs>
             <ref>0xdd</ref>
         </refs>
-        <data>Sendak:
-Princesse [character][0x1]!
+        <data>Sendak: Princesse [character][0x1]!
 Ne vous levez pas ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf2</ref>
         </refs>
-        <data>[character][0x1]:
-Hihi !
+        <data>[character][0x1]: Hihi !
 Tu exagères...
 C'est facile à dire mais il fait un peu
 froid,ici ![end]</data>
@@ -28,15 +26,13 @@ froid,ici ![end]</data>
         <refs>
             <ref>0x102</ref>
         </refs>
-        <data>[character][0x1]:
-Et Matelite ?[end]</data>
+        <data>[character][0x1]: Et Matelite ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x106</ref>
         </refs>
-        <data>Sendak:
-Oh Matelite !
+        <data>Sendak: Oh Matelite !
  
 Il est encore occupé à parler tout
 seul et à se plaindre dans la salle
@@ -46,8 +42,7 @@ du trône.[end]</data>
         <refs>
             <ref>0x114</ref>
         </refs>
-        <data>[character][0x1]:
-C'est tout lui ça,n'est-ce pas ?
+        <data>[character][0x1]: C'est tout lui ça,n'est-ce pas ?
  
 Il se plaint car à son goût trop de
 gens de Kana viennent ici chaque jour.[end]</data>

@@ -11,8 +11,7 @@ Je suis Matelite ![end]</data>
         <refs>
             <ref>0xa9</ref>
         </refs>
-        <data>Taicho:
-Je suis Commandant !
+        <data>Taicho: Je suis Commandant !
  
 Tout va bien,nous sommes enfin
 arrivés ![end]</data>
@@ -21,8 +20,7 @@ arrivés ![end]</data>
         <refs>
             <ref>0xb3</ref>
         </refs>
-        <data>Matelite:
-Personne pour nous féliciter ?!
+        <data>Matelite: Personne pour nous féliciter ?!
 C'est impoli !
 Commandant,allons voir ce qui se passe
 ici ![end]</data>
@@ -31,22 +29,19 @@ ici ![end]</data>
         <refs>
             <ref>0x4a3</ref>
         </refs>
-        <data>Matelite:
-C'est ici,Commandant ![end]</data>
+        <data>Matelite: C'est ici,Commandant ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4ac</ref>
         </refs>
-        <data>Taicho:
-C'est petit,Matelite ![end]</data>
+        <data>Taicho: C'est petit,Matelite ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x284</ref>
         </refs>
-        <data>Hornet:
-Je t'attendais impatiemment !
+        <data>Hornet: Je t'attendais impatiemment !
 Ainsi,tu dois être [character][0x0],le chef de la
 Résistance.
 Je suis Hornet,le capitaine de ce
@@ -59,8 +54,7 @@ Viens sur le pont avec tes amis ![end]</data>
             <ref>0x2a0</ref>
             <ref>0x4d0</ref>
         </refs>
-        <data>Hornet:
-Venez ![end]</data>
+        <data>Hornet: Venez ![end]</data>
     </text>
     <text>
         <refs>
@@ -73,8 +67,7 @@ Je ne suis pas un ennemi ![end]</data>
         <refs>
             <ref>0x2ed</ref>
         </refs>
-        <data>Docteur Dragon:
-J'aide et soigne les dragons.
+        <data>Docteur Dragon: J'aide et soigne les dragons.
 Je suis le Docteur Dragon !
 Mais,je ne suis pas habilité à soigner
 les maux d'estomac ![end]</data>
@@ -83,16 +76,14 @@ les maux d'estomac ![end]</data>
         <refs>
             <ref>0x24f</ref>
         </refs>
-        <data>Rush:
-La Forteresse du Ciel !
+        <data>Rush: La Forteresse du Ciel !
 Vite,sur le pont ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x259</ref>
         </refs>
-        <data>Truth:
-J'estime que nous aurions dû être les
+        <data>Truth: J'estime que nous aurions dû être les
 premiers à entrer dans la Forteresse
 du Ciel car nous y avons encore de
 très nombreux souvenirs jusqu'à ce
@@ -103,8 +94,7 @@ venu ![end]</data>
         <refs>
             <ref>0xf6</ref>
         </refs>
-        <data>Sendak:
-Nous avons enfin récupéré le Flambeau
+        <data>Sendak: Nous avons enfin récupéré le Flambeau
 de Kana.
 J'ai encore tant d'affection pour ce
 bateau ![end]</data>
@@ -113,16 +103,14 @@ bateau ![end]</data>
         <refs>
             <ref>0x240</ref>
         </refs>
-        <data>Sendak:
-Le capitaine du bateau doit être ici !
+        <data>Sendak: Le capitaine du bateau doit être ici !
 Te souviens-tu de lui ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x266</ref>
         </refs>
-        <data>Bikebake:
-Nous sommes revenus à la maison...
+        <data>Bikebake: Nous sommes revenus à la maison...
 J'en frémis de joie ![end]</data>
     </text>
     <text>
@@ -147,8 +135,7 @@ Tu n'as pas l'air d'un type ennuyeux.[end]</data>
         <refs>
             <ref>0x69d</ref>
         </refs>
-        <data>Matelite:
-Ah,[character][0x0]!
+        <data>Matelite: Ah,[character][0x0]!
  
 Nous avons bientôt terminé l'inspection
 du bateau ![end]</data>
@@ -157,16 +144,14 @@ du bateau ![end]</data>
         <refs>
             <ref>0x3de</ref>
         </refs>
-        <data>Sendak:
-[character][0x0],attends un instant !
+        <data>Sendak: [character][0x0],attends un instant !
 J'aimerais te parler...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x403</ref>
         </refs>
-        <data>Sendak:
-Il nous faut un nom pour ce vaisseau
+        <data>Sendak: Il nous faut un nom pour ce vaisseau
 mais je n'en trouve pas...
 Tu dois sûrement avoir un très beau
 nom à proposer.
@@ -179,8 +164,7 @@ grand retour ![end]</data>
             <ref>0x556</ref>
             <ref>0x247</ref>
         </refs>
-        <data>Sendak:
-Fareneit ?!
+        <data>Sendak: Fareneit ?!
 [character][0x0],je dois dire que ce nom est
 Fan-Tas-Ti-Que ![end]</data>
     </text>
@@ -188,24 +172,21 @@ Fan-Tas-Ti-Que ![end]</data>
         <refs>
             <ref>0x5a3</ref>
         </refs>
-        <data>Matelite:
-Hahahahaha !
+        <data>Matelite: Hahahahaha !
 Fareneit ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5ae</ref>
         </refs>
-        <data>Matelite:
-Tout compte fait,Fareneit,
+        <data>Matelite: Tout compte fait,Fareneit,
 c'est assez cool ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x302</ref>
         </refs>
-        <data>Marchand:
-Je vous en prie,vous pouvez regarder
+        <data>Marchand: Je vous en prie,vous pouvez regarder
 la marchandise ![end]</data>
     </text>
     <text>

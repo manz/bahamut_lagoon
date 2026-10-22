@@ -4,8 +4,7 @@
         <refs>
             <ref>0x1fa</ref>
         </refs>
-        <data>Reeve:
-Cette lance est différente de la
+        <data>Reeve: Cette lance est différente de la
 mienne mais elle est aussi comme
 la mienne.
 Il est à plaindre !
@@ -15,16 +14,14 @@ Je m'en souviendrai ![end]</data>
         <refs>
             <ref>0x242</ref>
         </refs>
-        <data>Fils de Zora:
-C'est propre !
+        <data>Fils de Zora: C'est propre !
 Tout est propre ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x166</ref>
         </refs>
-        <data>Barclay:
-Bienvenue !
+        <data>Barclay: Bienvenue !
 Je suis un magasin d'armures ![end]</data>
     </text>
     <text>
@@ -38,8 +35,7 @@ Je suis un magasin d'armures ![end]</data>
         <refs>
             <ref>0x179</ref>
         </refs>
-        <data>Barclay:
-Passons à la minute pratique !
+        <data>Barclay: Passons à la minute pratique !
 Mais ça ne concerne pas les combats !
 Euh... c'est sur... euuh...
 Dès que tu vois une charmante femme,
@@ -49,8 +45,7 @@ ne bats pas en retraite trop vite ![end]</data>
         <refs>
             <ref>0x225</ref>
         </refs>
-        <data>Frunze:
-Il me semble que Reeve a perdu
+        <data>Frunze: Il me semble que Reeve a perdu
 quelque chose !
 Quelque chose de splendide !
 Lan Lan Lan... Hahaha ![end]</data>
@@ -59,8 +54,7 @@ Lan Lan Lan... Hahaha ![end]</data>
         <refs>
             <ref>0x1da</ref>
         </refs>
-        <data>Reeve:
-Ce n'est pas intelligent !
+        <data>Reeve: Ce n'est pas intelligent !
 Pourquoi ?
 Je n'avais jamais changé de lance !
 Je regrette la mienne...[end]</data>
@@ -69,8 +63,7 @@ Je regrette la mienne...[end]</data>
         <refs>
             <ref>0x217</ref>
         </refs>
-        <data>Frunze:
-LAN LAN LAN[0xd8]
+        <data>Frunze: LAN LAN LAN[0xd8]
 LANCE LANCE[0xd8]
 Reeve a secrètement échangé nos
 lances.
@@ -82,8 +75,7 @@ amitié.[end]</data>
         <refs>
             <ref>0x238</ref>
         </refs>
-        <data>Fils de Zora:
-Ah,[character][0x0][0xd8]
+        <data>Fils de Zora: Ah,[character][0x0][0xd8]
 Merci beaucoup[0xd8]
 Au moins,ici,je sens que je suis
 respecté comme un vrai Lancier !
@@ -94,8 +86,7 @@ homme.[end]</data>
         <refs>
             <ref>0x15c</ref>
         </refs>
-        <data>Barclay:
-Je le dis encore:
+        <data>Barclay: Je le dis encore:
 les sorcières sont très vaniteuses[0xd8]
 Elles considèrent que les guerriers
 sont des humains inutiles.
@@ -107,8 +98,7 @@ il faudra que tu en parles à Matelite.[end]</data>
         <refs>
             <ref>0x1a3</ref>
         </refs>
-        <data>Gunso:
-``Grognement''
+        <data>Gunso: ``Grognement''
 J'aimerais retourner à Mahal...
 Mais il y a encore beaucoup de choses
 à faire.
@@ -130,8 +120,7 @@ homme nouveau.
         <refs>
             <ref>0x1ad</ref>
         </refs>
-        <data>Gunso:
-La restauration de Mahal...
+        <data>Gunso: La restauration de Mahal...
 ``Grognement''
 Je vais me plonger dans le sujet...
 ``Grognement''

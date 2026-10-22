@@ -15,8 +15,7 @@ Bon,j'y entre en premier[0xd8][end]</data>
         <refs>
             <ref>0x1ee</ref>
         </refs>
-        <data>Taicho:
-Hahaha,
+        <data>Taicho: Hahaha,
 le magnifique château de Kana !
 Il est encore plus splendide que celui
 de Mahal ![end]</data>
@@ -25,8 +24,7 @@ de Mahal ![end]</data>
         <refs>
             <ref>0x219</ref>
         </refs>
-        <data>Taicho:
-Ce sont de véritables statues de
+        <data>Taicho: Ce sont de véritables statues de
 dragons !
 Elles ont l'air en vie et elles sont si
 scintillantes.[end]</data>
@@ -35,8 +33,7 @@ scintillantes.[end]</data>
         <refs>
             <ref>0xe5a</ref>
         </refs>
-        <data>Rush:
-Nous devrions attendre notre nouvelle
+        <data>Rush: Nous devrions attendre notre nouvelle
 Impératrice.
 Elle ne va pas tarder !
 Es-tu vraiment heureux ?[end]</data>
@@ -68,8 +65,7 @@ Alors,ne pensons plus à ça ![end]</data>
         <refs>
             <ref>0xe78</ref>
         </refs>
-        <data>Truth:
-Bikebake a encore transporté ses
+        <data>Truth: Bikebake a encore transporté ses
 champignons quelque part.
 Le cours des champignons a chuté,
 il y a quelque temps.
@@ -79,8 +75,7 @@ Est-il inquiet pour cela ?[end]</data>
         <refs>
             <ref>0xdc6</ref>
         </refs>
-        <data>Taicho:
-Matelite fait le timide car il prépare
+        <data>Taicho: Matelite fait le timide car il prépare
 un grand évènement pour ce soir ![end]</data>
     </text>
     <text>
@@ -94,8 +89,7 @@ Matelite ?[end]</data>
         <refs>
             <ref>0xe3c</ref>
         </refs>
-        <data>Barclay:
-Matelite ?
+        <data>Barclay: Matelite ?
 Il est probablement là-bas ![end]</data>
     </text>
     <text>
@@ -130,8 +124,7 @@ la chute ![end]</data>
         <refs>
             <ref>0xe53</ref>
         </refs>
-        <data>Barclay:
-Le Général Palparos va faire commencer
+        <data>Barclay: Le Général Palparos va faire commencer
 les travaux pour le château de Kana !
 Matelite est pour l'instant un peu
 pauvre pour ça...[end]</data>
@@ -140,8 +133,7 @@ pauvre pour ça...[end]</data>
         <refs>
             <ref>0xe28</ref>
         </refs>
-        <data>Sendak:
-Je me sens fort pour un vieil homme !
+        <data>Sendak: Je me sens fort pour un vieil homme !
 Oui et même très puissant[0xd8]
 ``Chuchotement''
 J'entends la voix des Dragons Sacrés !
@@ -156,8 +148,7 @@ Que veulent-ils dire ?[end]</data>
         <refs>
             <ref>0xda6</ref>
         </refs>
-        <data>Frederica:
-Les sorcières ne sont pas des filles
+        <data>Frederica: Les sorcières ne sont pas des filles
 promises à tous !
 Je dois dire que tout le monde ne le
 sait pas.
@@ -193,8 +184,7 @@ Moi ?! Eh bien,je suis seule ![end]</data>
         <refs>
             <ref>0xd85</ref>
         </refs>
-        <data>FRUNZE à REEVE:
-Lan... Lan... Lancier[0xd8]
+        <data>Frunze à Reeve: Lan... Lan... Lancier[0xd8]
 Jetons les lances...[end]</data>
     </text>
     <text>
@@ -246,24 +236,21 @@ Sortons,sortons[0xd8][end]</data>
         <refs>
             <ref>0x313</ref>
         </refs>
-        <data>Taicho:
-[character][0x1] va arriver !
+        <data>Taicho: [character][0x1] va arriver !
 [character][0x0],va à ta place ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x434</ref>
         </refs>
-        <data>[character][0x1]:
-Et Matelite ?!
+        <data>[character][0x1]: Et Matelite ?!
 Quelque chose ne va pas ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x441</ref>
         </refs>
-        <data>Taicho:
-Matelite a disparu[0xd8]
+        <data>Taicho: Matelite a disparu[0xd8]
  
 La nuit de la Restauration de Kana
 est une chose importante pour lui.
@@ -273,8 +260,7 @@ Il faut le laisser seul ![end]</data>
         <refs>
             <ref>0x44e</ref>
         </refs>
-        <data>[character][0x1]:
-Matelite,où es-tu ?[end]</data>
+        <data>[character][0x1]: Matelite,où es-tu ?[end]</data>
     </text>
     <text>
         <refs>
@@ -367,8 +353,7 @@ Capitaine de la Cavalerie de Mahal ?[end]</data>
         <refs>
             <ref>0x4c6</ref>
         </refs>
-        <data>Taicho:
-Je vous suivrai Impératrice[0xd8]
+        <data>Taicho: Je vous suivrai Impératrice[0xd8]
  
 Et Matelite aurait été ravi d'entendre
 un tel discours ![end]</data>
@@ -377,8 +362,7 @@ un tel discours ![end]</data>
         <refs>
             <ref>0x4d9</ref>
         </refs>
-        <data>[character][0x1]:
-Matelite,nous avons tant de souvenirs
+        <data>[character][0x1]: Matelite,nous avons tant de souvenirs
 à partager...
 Sendak,mon noble et puissant sorcier,
 soutiendras-tu mes idéaux ?
@@ -389,8 +373,7 @@ Continueras-tu à nous aider ?[end]</data>
         <refs>
             <ref>0x4f7</ref>
         </refs>
-        <data>Sendak:
-M... moi,un puissant sorcier !
+        <data>Sendak: M... moi,un puissant sorcier !
 Mais... je... pense...
 Euh... n'importe quoi...
 Oui,je vous aiderai ![end]</data>
@@ -409,23 +392,20 @@ cause commune ?[end]</data>
         <refs>
             <ref>0x536</ref>
         </refs>
-        <data>Rush:
-Nous le ferons[0xd8][end]</data>
+        <data>Rush: Nous le ferons[0xd8][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x550</ref>
         </refs>
-        <data>Truth:
-Nous combattrons ensemble,
+        <data>Truth: Nous combattrons ensemble,
 Impératrice [character][0x1]![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x585</ref>
         </refs>
-        <data>[character][0x1]:
-Et toi... [character][0x0]?
+        <data>[character][0x1]: Et toi... [character][0x0]?
  
 Livreras-tu bataille pour une Ère
 Nouvelle ?![end]</data>
@@ -485,8 +465,7 @@ du trou noir.[end]</data>
         <refs>
             <ref>0x5c6</ref>
         </refs>
-        <data>Palparos:
-L'Empire est maintenant sous l'influence
+        <data>Palparos: L'Empire est maintenant sous l'influence
 politique du Général Gudruff !
 Il utilisera toutes les forces possibles
 pour mener son peuple à la victoire.[end]</data>
@@ -505,8 +484,7 @@ finira par notre victoire ![end]</data>
         <refs>
             <ref>0x5e9</ref>
         </refs>
-        <data>[character][0x1]:
-C'est ainsi que j'annonce en ces lieux
+        <data>[character][0x1]: C'est ainsi que j'annonce en ces lieux
 la Restauration de Kana !
 Et le commencement de notre nouveau
 combat ![end]</data>
@@ -574,8 +552,7 @@ combat ![end]</data>
         <refs>
             <ref>0x6de</ref>
         </refs>
-        <data>[character][0x1]:
-Cette nuit est et restera la nuit de
+        <data>[character][0x1]: Cette nuit est et restera la nuit de
 la Restauration de Kana !
 Amusons-nous tous !
 Et toi,[character][0x0],seras-tu là cette nuit ?[end]</data>
@@ -654,8 +631,7 @@ nous nous amuserons ![end]</data>
         <refs>
             <ref>0x9ea</ref>
         </refs>
-        <data>Matelite:
-[character][0x1]!
+        <data>Matelite: [character][0x1]!
 C'est moi,Matelite !
 Au plus haut de Kana !
 Ce soir,je vais rendre heureux tout
@@ -689,59 +665,51 @@ Merci à tous ![end]</data>
         <refs>
             <ref>0xa3</ref>
         </refs>
-        <data>Matelite:
-[character][0x1] est-elle... élégante ?[end]</data>
+        <data>Matelite: [character][0x1] est-elle... élégante ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xba</ref>
         </refs>
-        <data>Taicho:
-Elle est élégante et elle est puissante...[end]</data>
+        <data>Taicho: Elle est élégante et elle est puissante...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd1</ref>
         </refs>
-        <data>Matelite:
-[character][0x1] est-elle... magnifique ?[end]</data>
+        <data>Matelite: [character][0x1] est-elle... magnifique ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe8</ref>
         </refs>
-        <data>Taicho:
-Elle est splendide puisqu'elle porte la
+        <data>Taicho: Elle est splendide puisqu'elle porte la
 robe que lui a donnée Matelite ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xff</ref>
         </refs>
-        <data>Matelite:
-[character][0x1] est-elle... heureuse ?[end]</data>
+        <data>Matelite: [character][0x1] est-elle... heureuse ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x116</ref>
         </refs>
-        <data>Taicho:
-Elle était malheureuse car Matelite
+        <data>Taicho: Elle était malheureuse car Matelite
 n'était pas là ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x128</ref>
         </refs>
-        <data>Matelite:
-[character][0x1]...[end]</data>
+        <data>Matelite: [character][0x1]...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x13a</ref>
         </refs>
-        <data>Taicho:
-Tout va bien,Matelite...
+        <data>Taicho: Tout va bien,Matelite...
 Tout va bien...[end]</data>
     </text>
 </texts>
