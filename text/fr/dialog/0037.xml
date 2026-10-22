@@ -202,7 +202,7 @@ ensemble...[end]</data>
             <ref>0x3fe</ref>
         </refs>
         <data>[character][0x1]:
-Viens,retournons à FARENEIT ![end]</data>
+Viens,retournons à Fareneit ![end]</data>
     </text>
     <text>
         <refs>
@@ -268,7 +268,7 @@ l'Empire a fait fuir tout le monde ![end]</data>
         </refs>
         <data>TAURUS:
 Capitaine [character][0x0]!
-Est-il temps de retourner à FARENEIT ?[end]</data>
+Est-il temps de retourner à Fareneit ?[end]</data>
     </text>
     <text>
         <refs>
@@ -276,7 +276,7 @@ Est-il temps de retourner à FARENEIT ?[end]</data>
             <ref>0x73a</ref>
         </refs>
         <data> Continuons à faire pression !
- Retournons à FARENEIT...[end1]</data>
+ Retournons à Fareneit...[end1]</data>
     </text>
     <text>
         <refs>

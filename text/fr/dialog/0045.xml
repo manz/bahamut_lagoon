@@ -31,7 +31,7 @@ C'est la dure réalité de la guerre.[end]</data>
         <data>MATELITE:
 [character][0x0],
 va te renseigner sur le Dragon Sacré !
-Nous,nous retournons à FARENEIT ![end]</data>
+Nous,nous retournons à Fareneit ![end]</data>
     </text>
     <text>
         <refs>
@@ -448,7 +448,7 @@ bientôt avec la Princesse [character][0x1]![end]</data>
             <ref>0xa96</ref>
         </refs>
         <data>Il paraît que les matelots de
-FARENEIT ont une mauvaise réputation.
+Fareneit ont une mauvaise réputation.
 Et il paraît que Bikebake vole des
 champignons et qu'il les revend ![end]</data>
     </text>

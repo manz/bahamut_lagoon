@@ -62,7 +62,7 @@ Ramenons la Princesse au château ![end]</data>
         </refs>
         <data>[character][0x1]:
 Inutile !
-Allons à FARENEIT ![end]</data>
+Allons à Fareneit ![end]</data>
     </text>
     <text>
         <refs>
@@ -76,7 +76,7 @@ Mais... [character][0x1]![end]</data>
             <ref>0x2a9</ref>
         </refs>
         <data>[character][0x1]:
-À FARENEIT !
+À Fareneit !
  
 Aujourd'hui,notre voyage ne fait que
 commencer !

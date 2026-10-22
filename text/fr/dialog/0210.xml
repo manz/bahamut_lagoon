@@ -181,7 +181,7 @@ avons vu beaucoup d'éclairs ![end]</data>
             <ref>0x7e2</ref>
             <ref>0x8ac</ref>
         </refs>
-        <data>Les magasins de FARENEIT sont
+        <data>Les magasins de Fareneit sont
 toujours ouverts même s'il pleut ou
 que le temps est très mauvais ![end]</data>
     </text>
@@ -342,7 +342,7 @@ Ah,bienvenue ![end]</data>
             <ref>0x5c0</ref>
         </refs>
         <data>DOCTEUR DRAGON:
-Rush est parti avec SALAMAND,
+Rush est parti avec Salamand,
 il y a un instant !
 Sais-tu où il va ?
 [character][0x7],lui,est parti en
