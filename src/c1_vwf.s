@@ -103,6 +103,16 @@ _RENAMEABLE = 0x0A  ; characters below this are the party's (7E2B00), named by t
     .db _BLANK_TILE
 }
 
+; The spoils window's money (C17514): its number ends at the window's width - 4 (lda $097E / sec / sbc #0x04), the
+; currency after it had the 3 cells of "GP". " Piro" takes 5: the window (lda #0x0C at C174F0) one cell wider, the
+; number two further left.
+.alloc at 0xC174F1 {
+    .db 0x0D
+}
+.alloc at 0xC17519 {
+    .db 0x06
+}
+
 ; C1312A, the combat scene names' recolouring, per cell: pha / and #0x03FF.
 .alloc at 0xC1312A {
     jml.l c1_recolour

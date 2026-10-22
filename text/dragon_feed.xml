@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <dragon_feed>
-    <string ref_5e="0x17527" ref_5f="0x1752b" ref_60="0x1752f" xref="0xc17532">GP[0xff]</string>
+    <string ref_5e="0x17527" ref_5f="0x1752b" ref_60="0x1752f" xref="0xc17532">[0xef]Piro[0xff]</string>
     <string ref_5e="0x18f23" ref_5f="0x18f27" ref_60="0x18f2b" xref="0xc18f2e">BG Number[0xff]</string>
     <string ref_5e="0x18f36" ref_5f="0x18f3a" ref_60="0x18f3e" xref="0xc18f41">Player Number[0xff]</string>
     <string ref_5e="0x18f49" ref_5f="0x18f4d" ref_60="0x18f51" xref="0xc18f54">Enemy Number[0xff]</string>
