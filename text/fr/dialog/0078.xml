@@ -4,112 +4,105 @@
         <refs>
             <ref>0x95</ref>
         </refs>
-        <data>Matelite: Hé ! Le Peuple Dragon !
-Nous allons entrer[0xd8]
-Nous venons défendre Orelus !
-Vous serez bientôt libérés !
-Mais patientez encore ![end]</data>
+        <data>Matelite: Ohé !! Hommes-dragons qui êtes à l'intérieur !!
+ 
+Nous venons d'Orelus ! Nous sommes là pour vous libérer ! Encore un peu de patience ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa1</ref>
         </refs>
-        <data>Matelite: Tu as entendu ![end]</data>
+        <data>Matelite: Ils ont entendu ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x80b</ref>
             <ref>0xae</ref>
         </refs>
-        <data>Taicho: Je crois qu'Alexandre nous a entendus ![end]</data>
+        <data>Taicho: Alexandre aussi a entendu, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4cc</ref>
         </refs>
-        <data>Matelite: Allons-y [character][0x0]!
-Ce sera sûrement la Dernière Bataille !
-Tout est en ordre !
-Est-ce que tu es prêt ?
+        <data>Matelite: Bien ! Byuu.
+Ce sera... la dernière bataille !
+Je n'ai plus rien à dire !
+Tu es prêt ?
  
- Asseyons-nous un moment !
- Allons-y Matelite ![end1]</data>
+ Encore un petit moment !
+ Allons-y,Matelite ![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x4db</ref>
         </refs>
-        <data>Tu veux rire [character][0x0]?![end]</data>
+        <data>Je compte sur toi, Byuu.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4ee</ref>
         </refs>
-        <data>Matelite: Très bien !
-Encore un instant...[end]</data>
+        <data>Matelite: C'est vrai !
+ 
+Attends un peu...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x51f</ref>
         </refs>
-        <data>Matelite: Je suis désolé pour tout,Palparos.[end]</data>
+        <data>Matelite: Palparos, j'ai une faveur à te demander.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x52c</ref>
         </refs>
-        <data>Matelite: Vivez ce qui vous reste à vivre avant
-la dernière bataille.
-Que devra-t-on dire lorsqu'on
-attaquera ?[end]</data>
+        <data>Matelite: C'est peut-être la dernière fois que nous nous voyons vivants. Alors... voi... là. Accepterais-tu que je te colle mon poing dans la figure ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x58a</ref>
         </refs>
-        <data>Matelite: [character][0x0],
-choisis le meilleur cri de guerre !
- Combattons avec courage !
- Je m'en remets au destin ![end1]</data>
+        <data>Matelite: Byuu,qu'est-ce que je fais ?
+ 
+ Vas-y,cogne un bon coup !
+ Laisse tomber[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x840</ref>
         </refs>
-        <data>Sendak: La... la paix va bientôt revenir à
-Orelus...[end]</data>
+        <data>Sendak: R... rentrons sains et saufs à Orelus, hein...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x598</ref>
         </refs>
-        <data>Matelite: [character][0x0]...
-C'est tout toi ça,pas moi...[end]</data>
+        <data>Matelite: Byuu... Moi qui croyais que toi aussi...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x617</ref>
         </refs>
-        <data>Taicho: Il y a de nombreux démons ![end]</data>
+        <data>Taicho: Il y a plein de monstres, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x629</ref>
         </refs>
-        <data>Matelite: Zut !
-Entrons-y de force ![end]</data>
+        <data>Matelite: Zut ! On nous barre la route ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x637</ref>
         </refs>
-        <data>Matelite: Viens,c'est la Dernière Bataille ![end]</data>
+        <data>Matelite: Allez, c'est notre dernière sortie ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x869</ref>
         </refs>
-        <data>Rush: Ne gâchons pas de temps en futilités ![end]</data>
+        <data>Rush: C'est si lourd que je vais finir écrasé ![end]</data>
     </text>
     <text>
         <refs>
@@ -124,124 +117,106 @@ Entrons-y de force ![end]</data>
         <refs>
             <ref>0x8d7</ref>
         </refs>
-        <data>Bikebake: C'est la fin de la fin,frère ![end]</data>
+        <data>Bikebake: C'est la dernière fois, grand frère ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8db</ref>
         </refs>
-        <data> Acheter des champignons !
- J'aimerais des livres.
- De bonnes choses...[end1]</data>
+        <data> Je t'achète des champignons !
+ Je veux des livres
+ Produits Matelite...[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xbc</ref>
         </refs>
-        <data>Matelite: Tout va se finir ici ![end]</data>
+        <data>Matelite: Arrivés jusqu'ici, on est tous dans le même bateau ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8c2</ref>
         </refs>
-        <data>Truth: Selon ma petite enquête...
+        <data>Truth: D'après mes observations...
  
-Matelite dégage de la lumière par
-lui-même en certaines occasions.
+Quand Matelite se montre exagérément enjoué...
  
-Avec cette force,il est évident que ni
-nous ni un ennemi ne doit se frotter à
-lui en pareilles occasions !
-Capitaine [character][0x0]!
-Préparez-vous vite ![end]</data>
+c'est qu'il sait que l'ennemi est clairement plus fort que nous.
+ 
+Capitaine Byuu ! Préparez-vous avec soin ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x75</ref>
         </refs>
         <data>               Chapitre [0xb1][0xb5]
- -Alexandre,le Roi des Dragons Sacrés-[end]</data>
+ -Alexandre,roi des Dragons Sacrés-[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x46c</ref>
         </refs>
-        <data>[character][0x1]: Les Dragons Sacrés ont appris une
-leçon.
-Les démons qui sont venus à Orelus
-étaient autrefois des êtres-dragons.
+        <data>Yoyo: Les Dragons Sacrés me l'ont appris.
  
-Cependant,les êtres-dragons les ont
-sûrement pardonnés car ils aiment la
-manière dont Vritra et les autres se
-sont alliés pour protéger et permettre
-la Résurrection de Bahamut.
+Les monstres qui étaient sur Orelus étaient en réalité des hommes-dragons.
  
-Tout comme Bahamut,ils aiment malgré
-tout le Peuple Dragon.
- 
-Un jour,le ciel chantera leur retour
-vers leur Patrie.[end]</data>
+Pour empêcher la résurrection de Bahamut, Vritra et les autres avaient changé leur apparence. Bahamut a fait la même chose... Mais Bahamut, lui, a changé les hommes-dragons en créatures ailées. Pour qu'un jour, ils puissent franchir le ciel et rentrer dans leur patrie.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x495</ref>
         </refs>
-        <data>Palparos: Notre but est proche...[end]</data>
+        <data>Palparos: Ça y est, nous y voilà...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x218</ref>
         </refs>
-        <data>                Epilogue
-      -Nous Verrons Le Lendemain-[end]</data>
+        <data>              Chapitre final
+    -Nous qui ne voyons pas demain-[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x261</ref>
         </refs>
-        <data>Matelite: Alexandre doit sûrement être ressuscité !
-Soyons tous prêts ![end]</data>
+        <data>Matelite: Alexandre est ressuscité ! Préparons-nous en vitesse ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x84a</ref>
         </refs>
-        <data>Sendak: [character][0x0],est-ce utile... de vaincre...
-Alexandre ressuscité ?[end]</data>
+        <data>Sendak: Byuu, c'est inutile...
+ 
+On a beau le vaincre et le revaincre, Alexandre ressuscite toujours...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x484</ref>
         </refs>
-        <data>[character][0x1]: [character][0x0]...
-Nous avons vaincu Alexandre une fois !
-Je suis sûre que nous y parviendrons
-encore.
-Je suis sûre que tout ira bien.[end]</data>
+        <data>Yoyo: Byuu...
+ 
+Si nous arrivons à vaincre Alexandre une dernière fois, laisse-moi faire le reste. Tout ira bien, j'en suis sûre.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x815</ref>
         </refs>
-        <data>Taicho: [character][0x0],reste calme !
- 
- Ce n'est pas possible !
- Tout est bientôt fini...[end1]</data>
+        <data>Taicho: ...Byuu,tu es bien calme,
+affirmatif.
+ Pas du tout
+ C'est parce que vous êtes là[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x824</ref>
         </refs>
-        <data>Splendide ![end]</data>
+        <data>C'est admirable, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x82f</ref>
         </refs>
-        <data>Vraiment ?
-Je sens que bientôt toutes nos
-blessures vont s'apaiser.[end]</data>
+        <data>Vraiment, affirmatif... Quand on me dit ça, je sens mes forces revenir, affirmatif.[end]</data>
     </text>
     <text>
         <refs>
@@ -249,65 +224,61 @@ blessures vont s'apaiser.[end]</data>
         </refs>
         <data>Matelite: Tu es prêt ?!
  
- Ne sois pas impatient !
- Allons combattre Matelite ![end1]</data>
+ Pas si vite,Matelite !
+ Au combat,Matelite ![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x674</ref>
         </refs>
-        <data>Matelite: Dépêche-toi ![end]</data>
+        <data>Matelite: Dépêchons-nous !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x688</ref>
         </refs>
-        <data>Matelite: Allons sauver notre monde,Orelus !
- 
-Dès notre victoire,
-nous rentrerons chez nous ![end]</data>
+        <data>Matelite: Armée de libération d'Orelus, vous tous ! Remportons cette bataille... et rentrons chez nous ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8cc</ref>
         </refs>
-        <data>Truth: Capitaine [character][0x0]!
-Assurez-vous de n'avoir rien oublié !
-N'oubliez pas de vous occuper des
-dragons.[end]</data>
+        <data>Truth: Capitaine Byuu.
+ 
+C'est dans ces moments-là qu'il ne faut surtout pas se précipiter.
+ 
+Et ne donnez rien de bizarre à manger aux dragons, s'il vous plaît.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x49f</ref>
         </refs>
-        <data>Palparos: [character][0x1] est en train de penser à
-l'attaque à employer...[end]</data>
+        <data>Palparos: Je suis contre l'idée de Yoyo, mais...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4ad</ref>
         </refs>
-        <data>[character][0x1]: Mais je l'ai déjà fait ![end]</data>
+        <data>Yoyo: Mais c'est la seule solution.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x87a</ref>
         </refs>
-        <data>Rush: Dépêche-toi [character][0x0]![end]</data>
+        <data>Rush: On se dépêche, Byuu ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8e8</ref>
         </refs>
-        <data>Bikebake: Nous allons bientôt rentrer chez
-nous ![end]</data>
+        <data>Bikebake: On va bientôt pouvoir rentrer ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8ec</ref>
         </refs>
-        <data> Je veux des champignons !
- Vais-je prendre des livres ?
- De bonnes choses...[end1]</data>
+        <data> Une dernière fois,des champignons !
+ Tu as des livres ?
+ Produits Matelite...[end1]</data>
     </text>
 </texts>

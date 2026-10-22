@@ -4,87 +4,74 @@
         <refs>
             <ref>0x104</ref>
         </refs>
-        <data> Je te le promets,Sendak...
- Je te demande pardon ?![end1]</data>
+        <data> Promis,Sendak
+ Désolé[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xbb</ref>
         </refs>
-        <data>Sendak: [character][0x0]...[end]</data>
+        <data>Sendak: ...Byuu... ...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd8</ref>
         </refs>
-        <data>Je dois avouer ne pas avoir le sens
-de l'orientation.
-Où dois-je nous emmener ?!
-[character][0x0],j'aurais une requête...
-Pourrais-tu donner à ma place le lieu
-de destination à Hornet ?[end]</data>
+        <data>En fait... moi... j'ai un petit problème...
+ 
+...Depuis toujours... je n'ai aucun sens de l'orientation...
+ 
+Les destinations, je n'y comprends rien du tout... Byuu... je compte sur toi.
+ 
+Tu veux bien donner à Hornet la destination et le signal du départ ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x142</ref>
         </refs>
-        <data>Je t'en prie,je suis certain que tu en
-es capable car tu es le meilleur.[end]</data>
+        <data>Ne dis pas ça, je t'en prie... Toi, Byuu, tu en es capable, j'en suis sûr.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x126</ref>
         </refs>
-        <data>Haha !
-Tu t'en charges,alors ?!
-Tu verras,c'est TRÈS simple ![end]</data>
+        <data>Ah... tu acceptes.
+ 
+Tu es vraiment gentil, Byuu.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x15e</ref>
         </refs>
-        <data>Je crois qu'un matelot doit faire des
-choix dans la vie.
+        <data>Bon, moi, je dois décider des salaires de l'équipage, et tout ça...
  
-Je sais que tôt ou tard,je devrai
-tenir ma promesse et ainsi commander
-ce bateau.
-Lorsque ce jour viendra,ce ne sera un
-secret pour personne.[end]</data>
+Notre promesse secrète d'aujourd'hui, pas un mot aux autres, hein...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x195</ref>
         </refs>
-        <data>Sendak: En route ![end]</data>
+        <data>Sendak: Ne regarde pas...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe1</ref>
         </refs>
-        <data>Je suis un vieux sorcier,comment
-pourrait-on me faire confiance ?[end]</data>
+        <data>(À mon âge... quelle honte... Faisons diversion en riant...)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x114</ref>
         </refs>
-        <data>C'est la chance de ma vie ![end]</data>
+        <data>(Quel bonheur... !! Je suis un papy comblé...)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x133</ref>
         </refs>
-        <data>Il n'aurait rien compris ?!
-Il doit sûrement mentir.
- 
-On dit souvent que je suis très
-vieux mais Sendak est encore vivant
-et a plus d'une corde à son arc !
-Il faut le convaincre mais je sais que
-ce sera difficile.
- 
-Quelle calamité !
-Bon,tentons la flatterie ![end]</data>
+        <data>(Il me dé... tes... te...
+Non... Je suis un vieux qu'on déteste...
+Mais... Sendak, ne te laisse pas abattre !! Un jour, Byuu comprendra mes sentiments... !!
+Ah... il faut que je réponde...)[end]</data>
     </text>
 </texts>

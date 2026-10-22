@@ -4,349 +4,314 @@
         <refs>
             <ref>0xc1c</ref>
         </refs>
-        <data>Dépêche-toi si tu veux que ton
-histoire avec [character][0x1] continue !
+        <data>C'est la princesse Yoyo qui vous a choisi, on ne peut pas s'y opposer.
  
-Vite ! Vite !
-C'est difficile[0xd8][end]</data>
+Eh bien, eh bien... petit veinard !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc02</ref>
         </refs>
-        <data>Vite,fais-le pour moi !
-Tu es vraiment à envier...[end]</data>
+        <data>Allez-y vite. Ce que je vous envie...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc48</ref>
             <ref>0xa7d</ref>
         </refs>
-        <data>Matelite: [character][0x0]!
-... ![0xfc][0x10][end1]</data>
+        <data>Matelite: Byuu !!
+Attends un peuuu ![0xfc][0x10][end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xc4</ref>
             <ref>0x16f</ref>
         </refs>
-        <data>Matelite: Princesse [character][0x1]!
-S'il vous plaît,obéissez[0xd8][end]</data>
+        <data>Matelite: Princesse Yoyooo !! Il ne faut pas !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xba</ref>
             <ref>0x14d</ref>
         </refs>
-        <data>[character][0x1]: [character][0x0]...
-Vite... par ici ![end]</data>
+        <data>Yoyo: Byuu... Vite, par ici ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2aa</ref>
         </refs>
-        <data>[character][0x1]: Salamand...
-Vite[0xd8][0xfc][0x20][end1]</data>
+        <data>Yoyo: Salamand...
+Tu es vraiment rapide !![0xfc][0x20][end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x380</ref>
         </refs>
-        <data>[character][0x1]: Viens,[character][0x0]...
-Que fais-tu ? Tu vas bien ?[end]</data>
+        <data>Yoyo: Dis, Byuu... je peux m'accrocher plus fort ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x390</ref>
         </refs>
-        <data> Très bien !
- Je suis un peu mal à l'aise.[end1]</data>
+        <data> Bien sûr !!
+ Arrête,tu me gênes...[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x3a6</ref>
         </refs>
-        <data>Hum hum !
-Nous sommes un peu serrés,non ?[end]</data>
+        <data>Oui...
+Je m'accroche bien fort à toi.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x39a</ref>
         </refs>
-        <data>Nous sommes bientôt arrivés...[end]</data>
+        <data>Mais... Kya !!
+ 
+Trop tard... je te tiens déjà...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3c7</ref>
         </refs>
-        <data>[character][0x0],
-je me demande souvent jusqu'où
-continue le ciel...
-Traverser le ciel...
-Quel étrange sentiment,n'est-ce pas ?[end]</data>
+        <data>Dis, Byuu... jusqu'où le ciel peut-il bien s'étendre...
+ 
+Est-ce qu'il existe des sentiments qui traversent le ciel pour arriver jusqu'à quelqu'un ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xaa1</ref>
         </refs>
-        <data>[character][0x1]: C'est ici,[character][0x0]!
-C'est cette église...
-Je vais te parler de ses souvenirs.
-Sais-tu pourquoi elle est si connue ?[end]</data>
+        <data>Yoyo: Dis, Byuu.
+ 
+Cette église... on l'appelle l'église des souvenirs.
+ 
+Tu sais pourquoi ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xab1</ref>
         </refs>
-        <data> Pourquoi ?!
- Je le sais...[end1]</data>
+        <data> Pourquoi ? Dis-le-moi
+ Je sais... enfin,pourquoi déjà ?[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xaca</ref>
         </refs>
-        <data>Fantastique !
+        <data>C'est beau, hein...
  
-  
-Sache que nombreux couples furent
-encore plus amoureux après avoir
-visité cette église.
-Leur futur est sans doute lié à
-jamais.[end]</data>
+Un garçon et une fille qui visitent l'église tous les deux, seuls...
+ 
+seront unis plus tard, à coup sûr...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xae1</ref>
         </refs>
-        <data>Il y a une formidable légende à propos
-de cette église.
+        <data>Cette église, tu sais... a une très belle légende.
  
-Chaque couple se mariant dans cette
-église s'aimera à jamais et aura un
-futur parfait.[end]</data>
+Un garçon et une fille qui la visitent tous les deux, seuls...
+ 
+seront unis plus tard, à coup sûr...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xaf1</ref>
         </refs>
-        <data>M'y emmèneras-tu un jour ?[end]</data>
+        <data>On entre tous les deux ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb11</ref>
         </refs>
-        <data> Probablement...
- Non ![end1]</data>
+        <data> Oui... entrons
+ Pas question !![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xb3c</ref>
         </refs>
-        <data>Humhum... mensonge !
-Nous devrions nous dépêcher...
+        <data>Hihi... je plaisante...
  
-Matelite ne doit sûrement pas
-apprécier notre escapade ![end]</data>
+C'est encore... trop tôt, hein... pour nous deux...
+ 
+On aurait dû emmener Matelite avec nous.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x514</ref>
             <ref>0xcc6</ref>
         </refs>
-        <data>[character][0x1]: C'est sans espoir...[end]</data>
+        <data>Yoyo: Non... n'entre pas...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb22</ref>
         </refs>
-        <data>Nous ne pourrons probablement jamais
-nous marier...
+        <data>Ah...
  
-Le mariage...
-Le Roi de Kana protestera !
+Si tu te mariais avec Yoyo... Byuu, tu deviendrais roi de Kana. Ça ne te plairait pas, hein...
  
-Peut-être qu'un jour...
-Qui sait ce que nous réserve
-l'avenir ?[end]</data>
+Et pourtant...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb57</ref>
         </refs>
-        <data>[character][0x0],peut-être que lorsque nous
-serons adultes,nous aurons les mêmes
-sentiments.
-Me promets-tu qu'un jour nous ferons
-partie des souvenirs de cette église ?[end]</data>
+        <data>Dis... Byuu. Quand on sera un peu plus grands...
+ 
+si à ce moment-là, Yoyo ressent toujours la même chose qu'aujourd'hui...
+ 
+et qu'elle t'invite à l'église des souvenirs, tu reviendras avec elle ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb7a</ref>
         </refs>
-        <data> Je le promets !
- Seul le futur le dira...[end1]</data>
+        <data> Promis
+ L'avenir,on ne peut pas savoir[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xb9a</ref>
         </refs>
-        <data>Il faut néanmoins que les deux
-personnes se le promettent...
+        <data>...Oui...
+Une promesse rien qu'à nous deux...
  
-Matelite risque d'aller voir mon père
-pour lui raconter notre escapade
-secrète.[end]</data>
+Pas un mot à Matelite, ni à père, d'accord ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb8b</ref>
         </refs>
-        <data>Le futur peut tout changer...
-Un couple peut un jour ou l'autre se
-séparer.
-Allons-y,[character][0x0]...
-Je n'aime pas cette idée,
-cette promesse...[end]</data>
+        <data>C'est vrai... On ne peut pas savoir ce que l'avenir nous réserve...
+ 
+Peut-être même qu'un jour, on sera séparés...
+ 
+Mais pour l'instant... Byuu... même si c'est un mensonge... promets-le-moi...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5a0</ref>
         </refs>
-        <data>Palparos: L'Empereur Sauzer m'a donné la
-permission de voler.
-Venez,Princesse [character][0x1]!
-Je vous en prie,venez...
+        <data>Palparos: L'Empereur Sauzer nous a accordé la permission de voler. Venez... Princesse Yoyo... allons-y.
  
-Mon dragon nous attend dehors ![end]</data>
+Mon dragon nous attend dehors.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5b4</ref>
         </refs>
-        <data>[character][0x1]: Pouvez-vous attendre un peu,
-jusqu'à ce qu'il fasse nuit ?[end]</data>
+        <data>Yoyo: Une seule fois, n'est-ce pas... Les quelques heures avant que la nuit tombe...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5fe</ref>
         </refs>
-        <data>[character][0x1]: Est-il vrai que vous pouvez m'emmener
-n'importe où ?[end]</data>
+        <data>Yoyo: ...M'emmènerez-vous vraiment n'importe où ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x612</ref>
         </refs>
-        <data>Palparos: Dans chaque lieu que vous désirerez ![end]</data>
+        <data>Palparos: Là où vous le souhaiterez...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6d3</ref>
         </refs>
-        <data>Palparos: Il est sûrement plus rapide que les
-dragons de Kana ![end]</data>
+        <data>Palparos: Face aux dragons de guerre de Kana, il ne fait sans doute pas le poids.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6d9</ref>
         </refs>
-        <data>[character][0x1]: Huuum...
-Salamand l'est beaucoup plus ![end]</data>
+        <data>Yoyo: Mais non... Il est bien plus rapide que Salamand !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6e9</ref>
         </refs>
-        <data>Palparos: Salamand...
-Tiens donc...[end]</data>
+        <data>Palparos: Salamand, hein... Me voilà jaloux...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x72f</ref>
         </refs>
-        <data>Palparos: Princesse [character][0x1],
-vous êtes si combattive...[end]</data>
+        <data>Palparos: Princesse Yoyo... inutile de vous agripper si fort...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x750</ref>
         </refs>
-        <data>      Ils volèrent beaucoup et ne
-      réalisèrent pas que le ciel
-           s'assombrissait...[end]</data>
+        <data>Je voudrais voler... comme ça, toujours, jusqu'au bout du ciel...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x735</ref>
         </refs>
-        <data>Je ne désire qu'une chose:
-parler avec vous,Princesse...[end]</data>
+        <data>Dites... je vous en prie. Cessez de m'appeler princesse...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x862</ref>
         </refs>
-        <data>Palparos: Est-ce un lieu de mémoire ?[end]</data>
+        <data>Palparos: C'est donc ici, le lieu de tes souvenirs... Yoyo...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x86d</ref>
         </refs>
-        <data>[character][0x1]: Oui,c'est un lieu chargé de souvenirs !
- 
-L'endroit où tout a commencé entre
-nous ![end]</data>
+        <data>Yoyo: Non... ce n'est pas un lieu de souvenirs. Parce que nous deux... tout ne fait que commencer.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x881</ref>
         </refs>
-        <data>Palparos: C'est ici que tout avait commencé...[end]</data>
+        <data>Palparos: Tout ne fait que commencer...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x89a</ref>
         </refs>
-        <data>[character][0x1]: Il y a une très belle histoire à propos
-de cette église...[end]</data>
+        <data>Yoyo: Cette église a une très vieille légende...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8af</ref>
         </refs>
-        <data>Palparos: Pourriez-vous me la conter ?[end]</data>
+        <data>Palparos: Une légende... ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8c8</ref>
         </refs>
-        <data>[character][0x1]: C'est une fantastique anecdote.
-Mais peu de personnes la connaissent.
-Autrefois,de nombreux amoureux vinrent
-à cette église pour se marier et être
-heureux.
-C'est pour cela qu'elle est aujourd'hui
-appelée l'Église des Souvenirs ![end]</data>
+        <data>Yoyo: Une très belle histoire...
+ 
+Mais... je ne te la raconterai pas maintenant.
+ 
+Cette histoire, un jour, tous les deux à nouveau... dans cette église...
+ 
+Ce jour-là, ce sera devenu notre église des souvenirs.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8d3</ref>
         </refs>
-        <data>Palparos: Il était une fois un couple...[end]</data>
+        <data>Palparos: ...Un jour, à nouveau tous les deux...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8e7</ref>
         </refs>
-        <data>[character][0x1]: Je crains que nous n'ayons pas plus
-de temps...[end]</data>
+        <data>Yoyo: Pour l'instant, nous n'avons pas le temps...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8f4</ref>
         </refs>
-        <data>Si j'avais un souhait...
-J'aimerais...
-Que le temps s'arrête maintenant...[end]</data>
+        <data>Par pitié... que le temps s'arrête... ici, maintenant...[end]</data>
     </text>
 </texts>
