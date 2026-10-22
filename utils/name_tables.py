@@ -48,6 +48,22 @@ def read_names(source: Path) -> list[str]:
     return [(string.text or "").removesuffix("[0xff]") for string in ET.parse(source).getroot()]
 
 
+NAME_REFERENCE = 0xF4  # the scripts' name code: F4 then the name's index, printed from its record
+
+
+def referenced_names(names: list[str]) -> dict[int, str]:
+    """The names a script's prose may write out for their reference: those whole in a record, longer ones cut."""
+    return {index: name for index, name in enumerate(names) if 0 < len(name) <= RECORD}
+
+
+def add_name_references(table: Table, names: list[str]) -> Table:
+    """`table` encoding each name written out as its reference, so the prose prints names.xml (and the player's)."""
+    for index, name in referenced_names(names).items():
+        table.parse_table_line(f"{NAME_REFERENCE:02x}{index:02x}={name.replace(' ', r'\s')}")
+    table.max_text_length = max(table.max_text_length, *(len(key) for key in table.lookup))
+    return table
+
+
 SMALL_FONT_FOLD = str.maketrans("ÀÂÇÈÉÊËÎÏÔÙÛ", "AACEEEEIIOUU")  # small_font has no accented capitals
 
 

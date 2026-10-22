@@ -41,6 +41,9 @@ class DialogLayoutTestCase(TestCase):
         widths = {self.layout.width(f"[character][{index:#x}]") for index in range(RENAMEABLE)}
         self.assertEqual(len(widths), 1)
 
+    def test_a_party_name_written_out_measures_as_its_reference(self) -> None:
+        self.assertEqual(self.layout.width("Salamand"), self.layout.width("[character][0x2]"))
+
     def test_terminators_take_no_width(self) -> None:
         self.assertEqual(self.layout.width("Salut ![end]"), self.layout.width("Salut !"))
 

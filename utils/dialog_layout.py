@@ -27,7 +27,7 @@ from katsuji.typeset import FRENCH, Markup
 from katsuji.typeset import typeset as katsuji_typeset
 from katsuji.wrap import Controls, Wrapper
 
-from utils.name_tables import read_names
+from utils.name_tables import read_names, referenced_names
 
 KATSUJI_CONFIG = Path("katsuji.toml")
 TABLE = Path("text/table/mz.tbl")
@@ -79,6 +79,11 @@ class DialogLayout:
         self.table = table
         self.wrapper = Wrapper([font], Controls(space=SPACE, newline=NEWLINE))
         self.names = [table.to_bytes(name.replace(" ", r"\s"))[:NAME_CODES] for name in names]
+        written = sorted(referenced_names(names).items(), key=lambda entry: -len(entry[1]))
+        self.written_names = {name: index for index, name in written}  # the build encodes these as their reference
+        self.name_pattern = re.compile(
+            "|".join([CHARACTER.pattern, *(f"(?P<w{index}>{re.escape(name)})" for index, name in written)])
+        )
         self.default_names = list(self.names)
         widest = max(NAME_LETTERS, key=lambda letter: self.wrapper.measure(table.to_bytes(letter)))
         self.names[:RENAMEABLE] = [table.to_bytes(widest * NAME_CODES)] * RENAMEABLE
@@ -101,9 +106,10 @@ class DialogLayout:
         codes = b""
         position = 0
         line = TERMINATORS.sub("", line)
-        for match in CHARACTER.finditer(line):
+        for match in self.name_pattern.finditer(line):
             codes += self.table.to_bytes(line[position : match.start()].replace(" ", r"\s"))
-            codes += names[int(match[1], 16)]
+            index = int(match[1], 16) if match[1] else self.written_names[match[0]]
+            codes += names[index]
             position = match.end()
         return codes + self.table.to_bytes(line[position:].replace(" ", r"\s"))
 

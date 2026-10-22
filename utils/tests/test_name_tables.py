@@ -3,8 +3,10 @@ from unittest import TestCase
 from katsuji.script import Table
 
 from utils.name_tables import (
+    NAME_REFERENCE,
     NAME_TABLES,
     SPELL_WIDTH,
+    add_name_references,
     encode,
     item_records,
     long_names_source,
@@ -16,6 +18,26 @@ from utils.small_vwf_bake import FONT as SMALL_FONT
 
 TABLE = Table("text/table/mz.tbl")
 FONT = bytes([0xF0] * 8 + [4]) * 256  # every glyph a 4-pixel bar
+
+
+class NameReferencesTestCase(TestCase):
+    def setUp(self) -> None:
+        self.table = add_name_references(Table("text/table/mz.tbl"), ["Byuu", "Matelite", "Frederica", "Fils de Zora"])
+
+    def test_a_name_written_out_encodes_as_its_reference(self) -> None:
+        self.assertEqual(self.table.to_bytes("Matelite"), bytes([NAME_REFERENCE, 1]))
+
+    def test_a_party_name_written_out_follows_the_player_s(self) -> None:
+        self.assertEqual(self.table.to_bytes("Byuu"), bytes([NAME_REFERENCE, 0]))
+
+    def test_a_name_longer_than_its_record_stays_spelled_out(self) -> None:
+        self.assertEqual(self.table.to_bytes("Frederica"), TABLE.to_bytes("Frederica"))
+
+    def test_a_name_with_a_space_stays_spelled_out_past_the_record(self) -> None:
+        self.assertEqual(self.table.to_bytes(r"Fils\sde\sZora"), TABLE.to_bytes(r"Fils\sde\sZora"))
+
+    def test_the_reference_reads_back_as_the_name(self) -> None:
+        self.assertEqual(self.table.to_text(bytes([NAME_REFERENCE, 1])), "Matelite")
 
 
 class ShortRecordTestCase(TestCase):
