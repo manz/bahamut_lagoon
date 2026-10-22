@@ -23,6 +23,7 @@
 .import "small_vwf"
 .import "tile_pool"
 .import "vblank"
+.import "shadow_dirty"
 .import "battle_panel_vwf"
 .import "menu_vwf"
 .import "c1_vwf"

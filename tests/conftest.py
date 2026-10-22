@@ -37,6 +37,7 @@ PARTY_NAMES = 0x7E2B00  # the names the player can change, 8 codes each
 SAVES = 0x206000  # SRAM page 0: the save slots
 SAVES_SIZE = 0x2000
 SMALL_VWF_SOURCE = REPO / "src/small_vwf.s"
+SHADOW_DIRTY_BYTES = 18  # ShadowDirty (src/shadow_dirty.s): nothing marked, no BG2 entry queued
 MENU_PRESENT_HEADER = 18  # MenuPresent's words before its ring (src/menu_vwf.s): an empty ring, nothing retired
 FIELD_SIZES = {"byte": 1, "word": 2, "long": 3}
 FIELD = re.compile(r"^\s+(byte|word|long)(?:\[(.+)\])? (\w+)$")
@@ -104,6 +105,7 @@ class Console:
         self.emu.write_range(symbol("small_vwf"), bytes(small_vwf_fields()[1]))
         self.emu.write_range(symbol("menu_present"), bytes(MENU_PRESENT_HEADER))
         self.emu.write_range(symbol("panel_hold"), bytes(1))
+        self.emu.write_range(symbol("shadow_dirty"), bytes(SHADOW_DIRTY_BYTES))
         self.emu.run_frames(1)
 
     def press_until(self, button: int, done: Callable[[], bool], limit: int = 60) -> None:

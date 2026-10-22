@@ -46,6 +46,11 @@ screen fills in name by name, and a name that needs retired slots waits for that
 .extern tile_pool
 .extern ppu_line
 .extern dma_fits_vblank
+.extern shadow_sta_c400
+.extern shadow_sta_c3c0
+.extern shadow_dirty_bg3
+.extern shadow_trim_bg3
+.extern shadow_trim_bg2
 
 
 _TEXT_CURSOR = 0x001860
@@ -399,7 +404,7 @@ _inline_cell:
     ora.l _TEXT_ATTR
     phx
     tyx
-    sta.l _SHADOW, x
+    jsl.l shadow_sta_c400
     ply
     jsr.w _skip_segment
     bra _inline_segment
@@ -457,9 +462,9 @@ _blank_inline:
 _blank_cell:
     lda.w #_BLANK
     ora.l _TEXT_ATTR
-    sta.l _SHADOW, x
+    jsl.l shadow_sta_c400
     lda.w #0x0000
-    sta.l _SHADOW - _ROW, x
+    jsl.l shadow_sta_c3c0
     inx
     inx
     dey
@@ -525,7 +530,7 @@ _item_icon:
     lda.l _TEXT_CURSOR
     tax
     pla
-    sta.l _SHADOW, x
+    jsl.l shadow_sta_c400
     txa
     inc
     inc
@@ -678,7 +683,7 @@ _bg2_blank:
     lda.w #_BLANK
 _bg2_put:
     ora.l _TEXT_ATTR
-    sta.l _SHADOW, x
+    jsl.l shadow_sta_c400
     lda.l menu.index
     inc
     sta.l menu.index
@@ -998,7 +1003,7 @@ _bg3_put:
     lda.l menu.cell
     tax
     pla
-    sta.l _SHADOW, x
+    jsl.l shadow_sta_c400
     lda.l menu.index
     inc
     sta.l menu.index
@@ -1690,7 +1695,7 @@ _plain_attr:
     adc.l _TEXT_CURSOR
     tax
     pla
-    sta.l _SHADOW, x
+    jsl.l shadow_sta_c400
     lda.l menu.index
     inc
     sta.l menu.index
@@ -1748,22 +1753,25 @@ for the engine's next one, and the vblank's room goes to the ring.
     phx
     phy
     lda.l menu_present.map_entry
-    beq _engine_drain
+    beq _trim_bg2
     tax
     lda.w #0x0000
     sta.l menu_present.map_entry
     jsr.w _is_bg3_map
-    bcc _engine_drain
+    bcc _trim_bg2
     lda.l menu_present.head
     cmp.l menu_present.tail
     bne _map_waits
     jsr.w _count_present
-    bra _engine_drain
+    jsl.l shadow_trim_bg3
+    bra _trim_bg2
 _map_waits:
     lda.w #0x0000
     sta.l 0x000005, x  ; the engine's drain skips an empty entry
-_engine_drain:
+_trim_bg2:
+    jsl.l shadow_trim_bg2
     jsl.l _DMA_TEXT_BUFFER
+_queue_drained:
     rep #0x30
     lda.l menu_present.head
     cmp.l menu_present.tail
@@ -1792,6 +1800,7 @@ menu_bg3_map_queued:
     sta.l menu_present.map_entry
     jml.l _QUEUE_BG3_MAP
 _no_bg3_map:
+    jsl.l shadow_dirty_bg3  ; the map's VRAM is someone else's meanwhile
     jml.l _QUEUE_BG3_MAP_DONE
 
 _is_bg3_map:
