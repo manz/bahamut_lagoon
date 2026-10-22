@@ -24,17 +24,28 @@ A BG2 slot belongs to a shadow cell and is free again once that cell shows somet
 buffer for the engine's DMA queue ($1A02 on, the tail in $1A00, drained whole in its NMI, which
 resets the tail). The queue has no bound and no drain while a screen is being set up, so entries stay few: a BG2
 run that continues the last entry, in VRAM and in the staging buffer, grows it instead of adding one (runs are taken
-in order, so a screen's names mostly make one). The staging buffer starts over once the queue has drained.
+in order, so a screen's names mostly make one). The staging buffer starts over once the queue and the ring have
+drained.
+
+BG3's tiles go through a ring of their own instead, so a page of names never piles onto one vblank with the shadow's
+4 KB: nmi_frame drains the ring after the engine's queue while the vblank has room, and the shadow's BG3 upload
+waits for the engine's next one unless the ring is empty. A BG3 slot a pass frees is retired, not free, until the
+shadow's BG3 next reaches the screen: a tile only ever lands in a slot no cell on screen shows, whatever vblank carries
+it. While a name draws (no VRAM writes of the engine's under way), a lag NMI uploads the ring and the BG3 shadow: the
+screen fills in name by name, and a name that needs retired slots waits for that.
 """
 
 .include "src/expansion.i"
 .include "src/sram_work.i"
 .include "src/tile_pool.i"
+.include "src/vblank.i"
 .extern small_vwf_render
 .extern small_vwf_inline_baked
 .extern small_vwf
 .extern tile_blit
 .extern tile_pool
+.extern ppu_line
+.extern dma_fits_vblank
 
 
 _TEXT_CURSOR = 0x001860
@@ -71,6 +82,16 @@ _BG3_VRAM = 0x4000
 _BG3_RUNS = 64
 _BG3_SHOWN_CELLS = 58 * 32  ; the BG3 map rows a menu shows
 _STAGING_TILES = 160  ; 4bpp tiles a drain can carry
+_RING = _STAGING_TILES * 2 + 1  ; entries: one 2bpp tile at least each, so the staging buffer fills first
+_RETIRED = 2  ; bg3_used: a slot that waits for the next BG3 present
+_DMA_TEXT_BUFFER = 0xEE41DB  ; the engine's queue drain
+_QUEUE_BG3_MAP = 0xEEFDBA  ; the per-frame upload queueing the BG3 shadow
+_QUEUE_BG3_MAP_DONE = 0xEEFDC5
+_HDMA_CHANNELS = 0x00185C  ; nmi_frame's HDMAEN
+_BG3_UPLOAD_OFF = 0x00186E  ; nonzero: the engine leaves BG3's map alone
+_BG3_MAP_VRAM = 0x4800
+_BG3_MAP_BYTES = 0x1000
+_PRESENT_WAIT = 0x1800  ; tries, ~5 frames, a draw waits for a lag NMI's present
 _MAX_CELLS = 12  ; small_vwf's
 _MAX_CHARS = 16  ; small_vwf's
 _RECORD = 8  ; the name records draw_fixed_name draws, an item's past its icon
@@ -120,6 +141,27 @@ _RECORD = 8  ; the name records draw_fixed_name draws, an item's past its icon
 
 .reserve menu as MenuVwf in sram_menu
 
+; The BG3 ring: head is the drains', tail the draws' (an entry is whole before the tail moves past it). count: the
+; BG3 presents so far; retired: nonzero while slots are retired, since present retired_at. map_entry: the queue entry
+; of the BG3 shadow's next upload (0: none). drawing: nonzero while draw_fixed_name runs, the main loop amid no VRAM
+; writes of its own. channel, channel_bit: the DMA channel a drain uses, its register offset and bit.
+.struct MenuPresent {
+    word head
+    word tail
+    word count
+    word retired
+    word retired_at
+    word map_entry
+    word drawing
+    word channel
+    word channel_bit
+    word[_RING] ring_source
+    word[_RING] ring_vram
+    word[_RING] ring_size
+}
+
+.reserve menu_present as MenuPresent in sram_work
+
 
 ; draw_fixed_name: php / phb / phx / sep #0x20.
 .alloc at 0xEE4D1F {
@@ -136,6 +178,21 @@ _RECORD = 8  ; the name records draw_fixed_name draws, an item's past its icon
     jml.l menu_draw_menu_string
 }
 
+; the per-frame upload's BG3 half (EEFD73, even frames): lda $186E / bne EEFDC5 / jsl EE49D6 + the entry.
+.alloc at 0xEEFDB4 {
+    jml.l menu_bg3_map_queued
+}
+
+; nmi_frame's lag path, the frame not ready: stz $1832 / plb / rti.
+.alloc at 0xEE40D4 {
+    jml.l menu_lag_nmi
+}
+
+; nmi_frame's drain: jsl dma_text_buffer.
+.alloc at 0xEE4111 {
+    jsl.l menu_ready_drain
+}
+
 ; draw_menu_string's level label (the party lists): LV -> NV.
 .alloc at 0xEEA760 {
     .db 0xC6  ; N (text/table/mz.tbl)
@@ -150,6 +207,8 @@ menu_draw_fixed_name:
     pha
     phx
     phy
+    lda.w #0x0001
+    sta.l menu_present.drawing
     lda.l menu.request_span
     sta.l menu.span
     lda.l menu.request_baked
@@ -210,6 +269,8 @@ _bg3:
     jsr.w _draw_bg3
 _done:
     rep #0x30
+    lda.w #0x0000
+    sta.l menu_present.drawing
     ply
     plx
     pla
@@ -217,6 +278,8 @@ _done:
     rtl
 _vanilla:
     rep #0x30
+    lda.w #0x0000
+    sta.l menu_present.drawing
     ply
     plx
     pla
@@ -255,6 +318,7 @@ _forget_slot:
     rep #0x30
     lda.w #0x0000
     sta.l menu.bg3_next
+    sta.l menu_present.retired
     plx
     pla
     plp
@@ -511,7 +575,7 @@ _counted:
     rts
 
 _drain_check:
-"""Start the staging buffer over once the queue no longer holds the last entry."""
+"""Start the staging buffer over once the queue no longer holds the last entry and the ring is empty."""
     rep #0x30
     lda.l menu.entry
     beq _drained
@@ -523,8 +587,12 @@ _drain_check:
     beq _pending
 _drained:
     lda.w #0x0000
-    sta.l menu.staged
     sta.l menu.entry
+    lda.l menu_present.head  ; only a draw fills the ring: empty now, it stays so
+    cmp.l menu_present.tail
+    bne _pending
+    lda.w #0x0000
+    sta.l menu.staged
 _pending:
     rts
 
@@ -886,14 +954,18 @@ _queue:
 _draw_bg3:
 """
 BG3: the name's run, found by record or taken; its tiles in the field's cells, blanks after. The font draws the
-name when no run can be had.
+name when no run can be had. A right-half block goes up as one ring entry, a cell taken alone as one of its own: the
+runs the shadow no longer shows (a page turned) are retired, then freed by a present, for a block before any cell is
+taken one by one.
 """
     rep #0x30
+    jsr.w _settle_bg3
     jsr.w _find_bg3_run
     bcs _have_run
-    jsr.w _take_bg3_run
+    jsr.w _take_bg3_block
     bcs _have_run
     jsr.w _collect_bg3
+    jsr.w _release_retired
     jsr.w _take_bg3_run
     bcs _have_run
     jmp.w _draw_plain_cells
@@ -1054,11 +1126,16 @@ _not_map_slot:
 _map_pixels_done:
     rts
 
-_take_bg3_run:
-"""
-A free run with free slots for small_vwf.cells cells (map slots first, font slots while the staging buffer has
-room), filled and recorded: menu.run, carry set; carry clear when short.
-"""
+_take_bg3_block:
+"""A free run with a right-half block for small_vwf.cells cells: menu.run, carry set; carry clear when short."""
+    jsr.w _free_bg3_run
+    bcc _no_bg3_block
+    jmp.w _take_right_block
+_no_bg3_block:
+    rts
+
+_free_bg3_run:
+"""A run no name holds: menu.run, carry set; carry clear when all are taken."""
     ldx.w #_BG3_RUNS - 1
 _free_run:
     sep #0x20
@@ -1072,8 +1149,19 @@ _free_run:
 _run_free:
     txa
     sta.l menu.run
+    sec
+    rts
+
+_take_bg3_run:
+"""
+A free run with free slots for small_vwf.cells cells (a right-half block, else map slots first, font slots while the
+staging buffer has room), filled and recorded: menu.run, carry set; carry clear when short.
+"""
+    jsr.w _free_bg3_run
+    bcc _no_bg3_run
     jsr.w _take_right_block
     bcc _cell_by_cell
+_no_bg3_run:
     rts
 _cell_by_cell:
     jsr.w _bg3_free_count
@@ -1123,7 +1211,7 @@ _record_run:
 _take_right_block:
 """
 A block of small_vwf.cells free right-half slots for run menu.run: recorded, staged as one 2bpp transfer and
-queued; carry set. Carry clear when no block or no staging room.
+put on the ring; carry set. Carry clear when no block or no staging room.
 """
     lda.l small_vwf.cells
     and.w #0x00FF
@@ -1181,17 +1269,13 @@ _block_marked:
     tay
     ldx.w #TILE_2BPP
     jsr.w _blit_to_staging
-_block_staged:
     lda.l menu.slot
     asl
     asl
     asl
     clc
     adc.w #_BG3_RIGHT_VRAM
-    jsr.w _extend
-    bcs _block_queued
-    jsr.w _queue
-_block_queued:
+    jsr.w _ring_queue
     sec
     rts
 
@@ -1237,7 +1321,7 @@ _block_none:
 _take_bg3_slot:
 """
 A free slot for cell menu.index of run menu.run, past the right half: recorded, used, filled (row pixels, or
-staged and queued).
+staged and put on the ring).
 """
     ldx.w #_BG3_RIGHT_SLOTS
 _slot3:
@@ -1283,10 +1367,11 @@ _font_slot3:
     asl
     clc
     adc.w #_BG3_VRAM
-    jmp.w _queue
+    jmp.w _ring_queue
 
 _collect_bg3:
-"""Mark the slots the BG3 shadow shows, then free every run showing none of its slots."""
+"""Mark the slots the BG3 shadow shows, then free every run showing none of its slots, retiring the slots."""
+    jsr.w _settle_bg3  ; the retired slots share one present
     ldx.w #_BG3_SLOTS - 1
     sep #0x20
     lda #0x00
@@ -1360,7 +1445,7 @@ _none_shown:
     rts
 
 _free_run3:
-"""Free run menu.run and its slots."""
+"""Free run menu.run and retire its slots: the screen may show them until the next present."""
     lda.w #0x0000
     sta.l menu.index
 _free_slot3:
@@ -1374,7 +1459,7 @@ _free_slot3:
     jsr.w _run_slot
     tax
     sep #0x20
-    lda #0x00
+    lda #_RETIRED
     sta.l menu.bg3_used, x
     rep #0x20
     lda.l menu.index
@@ -1388,6 +1473,53 @@ _run3_freed:
     lda #0x00
     sta.l menu.run_bank, x
     rep #0x20
+    lda.l menu_present.count
+    sta.l menu_present.retired_at
+    lda.w #0x0001
+    sta.l menu_present.retired
+    rts
+
+_settle_bg3:
+"""Free the retired slots once a present has put the shadow's BG3 on screen since they were retired."""
+    lda.l menu_present.retired
+    beq _settled
+    lda.l menu_present.count
+    cmp.l menu_present.retired_at
+    beq _settled
+    ldx.w #_BG3_SLOTS - 1
+    sep #0x20
+_settle_slot:
+    lda.l menu.bg3_used, x
+    cmp #_RETIRED
+    bne _not_retired
+    lda #0x00
+    sta.l menu.bg3_used, x
+_not_retired:
+    dex
+    bpl _settle_slot
+    rep #0x20
+    lda.w #0x0000
+    sta.l menu_present.retired
+_settled:
+    rts
+
+_release_retired:
+"""Retired slots: wait for a lag NMI to present the shadow's BG3 (a few frames at most), then free them."""
+    lda.l menu_present.retired
+    beq _none_retired
+    lda.w #_PRESENT_WAIT
+    sta.l menu.tries
+_await_present:
+    lda.l menu_present.count
+    cmp.l menu_present.retired_at
+    bne _presented
+    lda.l menu.tries
+    dec
+    sta.l menu.tries
+    bne _await_present
+_presented:
+    jsr.w _settle_bg3
+_none_retired:
     rts
 
 _code_slot:
@@ -1560,5 +1692,269 @@ _advance:
     clc
     adc.l _TEXT_CURSOR
     sta.l _TEXT_CURSOR
+    rts
+
+_ring_queue:
+"""Put menu.tile staged bytes for VRAM word A on the ring; the staging buffer moves past them."""
+    pha
+    lda.l menu_present.tail
+    tax
+    pla
+    sta.l menu_present.ring_vram, x
+    lda.l menu.tile
+    sta.l menu_present.ring_size, x
+    lda.l menu.staged
+    clc
+    adc.w #menu.staging & 0xFFFF
+    sta.l menu_present.ring_source, x
+    txa
+    jsr.w _ring_next
+    sta.l menu_present.tail  ; the entry whole: a drain may take it now
+    lda.l menu.staged
+    clc
+    adc.l menu.tile
+    sta.l menu.staged
+    rts
+
+_ring_next:
+"""The ring index past index A (16-bit)."""
+    inc
+    inc
+    cmp.w #_RING * 2
+    bcc _ring_index
+    lda.w #0x0000
+_ring_index:
+    rts
+
+menu_ready_drain:
+"""
+nmi_frame's drain, under forced blank with HDMA off: the engine's queue, then the ring while the vblank has room. The
+queue's upload of the BG3 shadow stays only with the ring empty, every tile its cells show up already; else it waits
+for the engine's next one, and the vblank's room goes to the ring.
+"""
+    php
+    rep #0x30
+    pha
+    phx
+    phy
+    lda.l menu_present.map_entry
+    beq _engine_drain
+    tax
+    lda.w #0x0000
+    sta.l menu_present.map_entry
+    jsr.w _is_bg3_map
+    bcc _engine_drain
+    lda.l menu_present.head
+    cmp.l menu_present.tail
+    bne _map_waits
+    jsr.w _count_present
+    bra _engine_drain
+_map_waits:
+    lda.w #0x0000
+    sta.l 0x000005, x  ; the engine's drain skips an empty entry
+_engine_drain:
+    jsl.l _DMA_TEXT_BUFFER
+    rep #0x30
+    lda.l menu_present.head
+    cmp.l menu_present.tail
+    beq _ready_done
+    jsl.l ppu_line
+    cmp.w #LAST_LINE
+    bcs _ready_done
+    lda.w #0x0000  ; channel 0, as the engine's
+    sta.l menu_present.channel
+    inc
+    sta.l menu_present.channel_bit
+    jsr.w _drain_ring
+_ready_done:
+    rep #0x30
+    ply
+    plx
+    pla
+    plp
+    rtl
+
+menu_bg3_map_queued:
+"""The per-frame upload's BG3 half, 16-bit A: note the queue entry the shadow's upload takes, for nmi_frame."""
+    lda.l _BG3_UPLOAD_OFF
+    bne _no_bg3_map
+    lda.l _DMA_QUEUE_TAIL
+    sta.l menu_present.map_entry
+    jml.l _QUEUE_BG3_MAP
+_no_bg3_map:
+    jml.l _QUEUE_BG3_MAP_DONE
+
+_is_bg3_map:
+"""Carry set when queue entry X uploads the BG3 shadow to its map."""
+    txa
+    cmp.l _DMA_QUEUE_TAIL
+    bcs _not_bg3_map
+    lda.l 0x000000, x
+    cmp.w #_SHADOW & 0xFFFF
+    bne _not_bg3_map
+    lda.l 0x000003, x
+    cmp.w #_BG3_MAP_VRAM
+    bne _not_bg3_map
+    sec
+    rts
+_not_bg3_map:
+    clc
+    rts
+
+_count_present:
+"""One more present: the screen's BG3 shows the shadow."""
+    lda.l menu_present.count
+    inc
+    sta.l menu_present.count
+    rts
+
+_open_channel:
+"""D: DMA channel menu_present.channel's registers, set for VRAM words from bank A (8-bit). Leaves 16-bit A."""
+    pha
+    rep #0x20
+    lda.l menu_present.channel
+    clc
+    adc.w #0x4300
+    tcd
+    sep #0x20
+    pla
+    sta.b 0x04
+    lda #0x01  ; two registers, 2118 and 2119
+    sta.b 0x00
+    lda #0x18
+    sta.b 0x01
+    lda #0x80
+    sta.l 0x002115
+    rep #0x20
+    rts
+
+_fire:
+"""DMA A (16-bit) bytes on the open channel to VRAM word X from the source set."""
+    sta.b 0x05
+    txa
+    sta.l 0x002116
+    sep #0x20
+    lda.l menu_present.channel_bit
+    sta.l 0x00420B
+    rep #0x20
+    rts
+
+_drain_ring:
+"""
+Upload the ring's entries oldest first on channel menu_present.channel while each ends in the vblank. Carry set when
+the ring is empty. 16-bit A, X and Y; keeps D and DB.
+"""
+    phd
+    phb
+    sep #0x20
+    lda #menu_present >> 16
+    pha
+    plb
+    lda #menu.staging >> 16
+    jsr.w _open_channel
+    ldy.w menu_present.head
+_drain_entry:
+    cpy.w menu_present.tail
+    beq _ring_drained
+    lda.w menu_present.ring_size, y
+    jsl.l dma_fits_vblank
+    bcs _ring_left
+    lda.w menu_present.ring_source, y
+    sta.b 0x02
+    ldx.w menu_present.ring_vram, y
+    lda.w menu_present.ring_size, y
+    jsr.w _fire
+    tya
+    jsr.w _ring_next
+    tay
+    sty.w menu_present.head
+    bra _drain_entry
+_ring_drained:
+    sec
+    bra _drain_done
+_ring_left:
+    clc
+_drain_done:
+    plb
+    pld
+    rts
+
+menu_lag_nmi:
+"""
+nmi_frame's lag path, the frame not ready. While draw_fixed_name runs, the ring then the BG3 shadow go up in this
+vblank, on a channel HDMA leaves free: the screen fills in as the names draw. Entered with the caller's DB pushed.
+"""
+    stz.w 0x1832
+    rep #0x30
+    pha
+    phx
+    phy
+    phd
+    lda.l menu_present.drawing
+    beq _lag_done
+    jsr.w _present_bg3
+_lag_done:
+    rep #0x30
+    pld
+    ply
+    plx
+    pla
+    plb
+    rti
+
+_present_bg3:
+"""
+In a vblank, the screen on: upload the ring, then the BG3 shadow to its map when the ring has emptied and the vblank
+has room, on a channel HDMA leaves free. Nothing when the engine leaves BG3's map alone.
+"""
+    lda.l _BG3_UPLOAD_OFF
+    bne _no_present
+    jsr.w _free_channel
+    bcc _no_present
+    jsr.w _drain_ring
+    bcc _no_present  ; the rest in the next vblank
+    lda.w #_BG3_MAP_BYTES
+    jsl.l dma_fits_vblank
+    bcs _no_present
+    sep #0x20
+    lda #_SHADOW >> 16
+    jsr.w _open_channel
+    lda.w #_SHADOW & 0xFFFF
+    sta.b 0x02
+    ldx.w #_BG3_MAP_VRAM
+    lda.w #_BG3_MAP_BYTES
+    jsr.w _fire
+    jsr.w _count_present
+_no_present:
+    rts
+
+_free_channel:
+"""menu_present.channel and channel_bit: the first DMA channel HDMA leaves free; carry clear when none."""
+    lda.l _HDMA_CHANNELS
+    and.w #0x00FF
+    ldx.w #0x0000  ; the channel's register offset
+    ldy.w #0x0001  ; its bit
+_try_channel:
+    lsr
+    bcc _channel_free
+    pha
+    txa
+    clc
+    adc.w #0x0010
+    tax
+    tya
+    asl
+    tay
+    pla
+    cpy.w #0x0100
+    bcc _try_channel
+    clc
+    rts
+_channel_free:
+    txa
+    sta.l menu_present.channel
+    tya
+    sta.l menu_present.channel_bit
+    sec
     rts
 }
