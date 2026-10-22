@@ -164,6 +164,17 @@ against the JP text; the reason kept is the one that decided it.
 - Choice options. **Decision: set two spaces (10 px) in**, by the build (utils/dialog_layout.py OPTION_INDENT).
 - でアリマス. **Decision: « affirmatif » once a speech at most**, on its last sentence; none in grief.
 - ドラグナー for Yoyo. **Decision: Dragonnière**; Dragonnier stays for the class and the generic « celui qui ».
+- スロウランサー. **Decision: Lancer de lancier** (75 px). No slow status exists in the game and the lancers' range
+  move is already Javelot; the pun covers throwing the lance and throwing the lancer. Unconfirmed until the
+  animation is seen.
+- アースウォリアー. **Decision: Guerrier d'argile** (68 px), keeping the ウォリア family (Guerrier blanc, toxique, de
+  fer); Golem invents a creature. Guerrier de terre (74 px) if the dragon field is ever shown to hold it.
+- おうじょの???. **Decision: ??? de princesse**, beside ??? de Gunso.
+- 0045 0xb39, the Uniasticot gift. **Decision: 10**: the script loops give_item ten times; the JP's (1ぴき) undercounts.
+- [0xf0][0xf4]げ. **Decision: Munimuni** (record 0x7, as げ is 0x07 in jp.tbl).
+- 0012 0x1031 なれるのかな. **Decision: なれる, « redevenir comme avant »**: 〜みたいになれる, not 慣れる.
+- 0031 0x278 [F2F0]えとくなよ. **Decision: 鍛えとく, « on va s'endurcir »**, medium confidence: F2F0 is missing from
+  jp.tbl and its glyph is blank in text2/ocr.
 - フェイズしゅうりょう. **Decision: Fin de phase.** ターン is the turn (Tour), フェイズ half of it; the confirmation
   already says « Fin de la phase du joueur ».
 
