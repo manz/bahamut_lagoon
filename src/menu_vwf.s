@@ -1380,23 +1380,28 @@ _unmark:
     dex
     bpl _unmark
     rep #0x20
-    ldx.w #( _BG3_SHOWN_CELLS - 1 ) * 2
+    phb
+    pea.w ( _SHADOW >> 16 ) * 0x0101
+    plb
+    plb
+    ldy.w #( _BG3_SHOWN_CELLS - 1 ) * 2
 _scan_cell:
-    lda.l _SHADOW, x
+    lda.w _SHADOW & 0xFFFF, y
     and.w #0x03FF
-    jsr.w _code_slot
-    bcc _not_slot
-    phx
+    asl
+    tax
+    lda.l _tile_slots, x
+    bmi _not_slot
     tax
     sep #0x20
     lda #0x01
     sta.l menu.bg3_shown, x
     rep #0x20
-    plx
 _not_slot:
-    dex
-    dex
+    dey
+    dey
     bpl _scan_cell
+    plb
     ldx.w #_BG3_RUNS - 1
 _check_run:
     txa
@@ -1524,45 +1529,50 @@ _none_retired:
 
 _code_slot:
 """BG3 tile A -> its slot (A, carry set); carry clear for a tile no slot uses. Keeps X."""
-    cmp.w #_BG3_RIGHT_TILE
-    bcc _not_right_tile
-    sec
-    sbc.w #_BG3_RIGHT_TILE
-    cmp.w #_BG3_RIGHT_SLOTS
-    bcs _no_slot
-    sec
-    rts
-_not_right_tile:
-    cmp.w #_BG3_ROWS_TILE
-    bcc _not_map_tile
-    sec
-    sbc.w #_BG3_ROWS_TILE
-    cmp.w #_BG3_ROWS_SLOTS
-    bcs _no_slot
-    adc.w #_BG3_RIGHT_SLOTS  ; carry clear
-    sec
-    rts
-_not_map_tile:
-    cmp.w #0x15
-    bcc _no_slot
-    cmp.w #0x15 + _BG3_BLANK_CODES
-    bcs _maybe_kana
-    clc
-    adc.w #_BG3_MAP_SLOTS - 0x15
-    sec
-    rts
-_maybe_kana:
-    cmp.w #0x33
-    bcc _no_slot
-    cmp.w #0x60
-    bcs _no_slot
-    clc
-    adc.w #_BG3_MAP_SLOTS + _BG3_BLANK_CODES - 0x33
+    phx
+    asl
+    tax
+    lda.l _tile_slots, x
+    plx
+    bmi _no_slot
     sec
     rts
 _no_slot:
     clc
     rts
+
+_tile_slots:
+; BG3 tile -> its slot (_bg3_code's inverse), 0xFFFF for a tile no slot uses.
+    .for tile := 0, 0x15 {
+        .dw 0xFFFF
+    }
+    .for tile := 0x15, 0x15 + _BG3_BLANK_CODES {
+        .dw tile - 0x15 + _BG3_MAP_SLOTS
+    }
+    .for tile := 0x15 + _BG3_BLANK_CODES, 0x33 {
+        .dw 0xFFFF
+    }
+    .for tile := 0x33, 0x60 {
+        .dw tile - 0x33 + _BG3_MAP_SLOTS + _BG3_BLANK_CODES
+    }
+    .for tile := 0x60, _BG3_ROWS_TILE {
+        .dw 0xFFFF
+    }
+    .for tile := _BG3_ROWS_TILE, _BG3_ROWS_TILE + _BG3_ROWS_SLOTS {
+        .dw tile - _BG3_ROWS_TILE + _BG3_RIGHT_SLOTS
+    }
+    .for tile := _BG3_ROWS_TILE + _BG3_ROWS_SLOTS, _BG3_RIGHT_TILE {
+        .dw 0xFFFF
+    }
+    .for tile := _BG3_RIGHT_TILE, _BG3_RIGHT_TILE + _BG3_RIGHT_SLOTS {
+        .dw tile - _BG3_RIGHT_TILE
+    }
+    .for tile := _BG3_RIGHT_TILE + _BG3_RIGHT_SLOTS, 0x400 {
+        .dw 0xFFFF
+    }
+_tile_slots_end:
+    .assert _tile_slots_end - _tile_slots == 0x800, "a slot for each of the 1024 BG3 tiles"
+    .assert 0x60 - 0x33 + _BG3_MAP_SLOTS + _BG3_BLANK_CODES == _BG3_SLOTS, "the kana end the slots"
 
 _bg3_free_count:
 """menu.count: the BG3 slots no run holds; font slots only while the staging buffer has room for a whole name."""
