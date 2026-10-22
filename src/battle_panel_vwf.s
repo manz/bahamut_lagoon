@@ -18,7 +18,7 @@ the tilemap that shows them, and only once a window line changed them or the win
 map tiles the window font replaces.
 
 The panel slots are 8x8 font codes no text draws once the battle text is French: the dakuten kana below 0x33 (the
-engine draws a kana with a mark instead), around the frame tiles (0x10, 0x1A) and the colour fills (0x2D-0x2F), and
+engine draws a kana with a mark instead), around the frame tiles (0x10, 0x1A) and the colour fills (0x2C-0x2F), and
 lowercase letters and accents past 0x6B, which only the VWF draws now. The battle message VWF (battle_vwf_reloc)
 draws its lines over 0x30 on: its first line, 0x30-0x6B, shows with the panel; its others overwrite the slots while
 the dialogue hides the panel, so the panel uploads its slots again when it next draws a line. The window slots are
@@ -58,7 +58,7 @@ PANEL_ATTR = 0x22
 WINDOW_ATTR = 0x23  ; a BG1 window's line
 FRAME_FIRST = 0xE0  ; a window's or the panel's corner, edge and side codes
 FRAME_LAST = 0xE2
-POOL_SLOTS = 75  ; the panel's, then the windows'
+POOL_SLOTS = 74  ; the panel's, then the windows'
 WINDOW_SLOTS = 45
 ALL_SLOTS = POOL_SLOTS + WINDOW_SLOTS
 WINDOW_VRAM = 0x3000  ; BG1 tile 0x300, 8x8 code 0x00, 4bpp
@@ -1230,7 +1230,7 @@ _pool_runs:
 ; The pool's runs of free codes, slot after slot: first code, length; 0 ends them.
     .db 0x0D, 3
     .db 0x11, 9
-    .db 0x1B, 18
+    .db 0x1B, 17  ; up to the colour fills: the move range's shadow tiles BG3 with 0x2C and 0x2E
     .db 0x6C, 45  ; past the battle message's first line (0x30-0x6B)
     .db 0x33, 15  ; the windows'
     .db 0x42, 15

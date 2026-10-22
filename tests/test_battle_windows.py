@@ -1,8 +1,11 @@
 """
 Scenario 00's player phase on the battle map: the command window, and a unit's skill list after moving, are BG1
 windows whose strings draw through small_vwf into the window font. So is the START menu, whose strings outgrow
-their Japanese character counts but not their cells. A later map's START menu checks its tilemap's DMA timing.
+their Japanese character counts but not their cells. A later map's START menu checks its tilemap's DMA timing. Bouger's shadow tiles BG3 with codes the panel keeps clear.
 """
+
+import re
+from pathlib import Path
 
 from kintsuki import CallbackKind
 
@@ -179,3 +182,30 @@ def test_start_menu_tilemap_ends_in_vblank(console: Console) -> None:
         emu.remove_callback(CallbackKind.WRITE, callback)
     assert starts
     assert max(starts) <= WINDOW_TILEMAP_LATEST
+
+
+PANEL_SOURCE = Path("src/battle_panel_vwf.s")
+PANEL_FONT_TILE = 0x200  # BG3 tile of the panel font's code 0
+
+
+def panel_pool_codes() -> set[int]:
+    """The 8x8 codes the panel's slots draw over: _pool_runs up to the windows'."""
+    runs = PANEL_SOURCE.read_text().split("_pool_runs:")[1].split("; the windows'")[0]
+    return {
+        code
+        for first, length in re.findall(r"\.db (0x[0-9A-F]+), (\d+)", runs)
+        for code in range(int(first, 16), int(first, 16) + int(length))
+    }
+
+
+def test_the_move_range_shadow_keeps_its_tiles(console: Console) -> None:
+    """Bouger darkens the map out of reach with BG3 tiles of the panel font (0x2C, 0x2E): a panel slot on one
+    tiles the whole shadow with the text it last drew."""
+    open_command_window(console)
+    console.tap(console.button.A)  # Bouger
+    console.emu.run_frames(90)
+    tilemap = (console.emu.get_ppu_state().bg3sc >> 2) << 10
+    words = bytes(console.emu.vram_read_range(tilemap * 2, 0x800))
+    shadow = {(words[2 * cell] | words[2 * cell + 1] << 8) & 0x3FF for cell in range(0x400)}
+    assert shadow == {PANEL_FONT_TILE + 0x2C, PANEL_FONT_TILE + 0x2E}
+    assert not {tile - PANEL_FONT_TILE for tile in shadow} & panel_pool_codes()
