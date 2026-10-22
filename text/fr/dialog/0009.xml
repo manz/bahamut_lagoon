@@ -4,379 +4,316 @@
         <refs>
             <ref>0x47</ref>
         </refs>
-        <data>                   Chapitre [0xb8]
-            -Mahal,le Continent Miracle-[end]</data>
+        <data>  Chapitre [0xb8]
+  -Mahal, le continent miracle-[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x85</ref>
         </refs>
-        <data>Nous serons bientôt à Mahal.
-J'espère que tout le monde est prêt ?[end]</data>
+        <data>Me voilà enfin de retour à Mahal... Tout le monde va bien ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8f</ref>
         </refs>
-        <data>Je n'oublierai jamais ce jour...
-Jamais !
-Ce jour où j'ai quitté Mahal...[end]</data>
+        <data>Je ne pourrai jamais l'oublier... ce jour maudit...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9b</ref>
         </refs>
-        <data>C'était l'époque où Mahal fut assiégée...[end]</data>
+        <data>Le jour où j'ai fui Mahal...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf5</ref>
         </refs>
-        <data>Lestat: HIHIHIHIHIHIHIHIHIHIHI ![end]</data>
+        <data>Lestat: Hihihihihihihihihihihi ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfe</ref>
         </refs>
-        <data>Pour moi,Mahal n'est qu'une partie de plaisir.[end]</data>
+        <data>Face à moi, Lestat, Mahal ne pèse pas bien lourd.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x107</ref>
         </refs>
-        <data>Qu'est-ce qui ne va pas ?
-Sortez soldats de Mahal !
-Où êtes-vous ?!
-Où es-tu Taicho ?
-Sors !
-HIHIHIHIHIHIHI ![end]</data>
+        <data>Eh bien ? Montrez-vous, armée de Mahal ! Où es-tu, Taicho, capitaine de l'armée de Mahal ? Hihihihihihi ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x17b</ref>
         </refs>
-        <data>Gunso: Capitaine,Mahal va tomber entre les
-mains de l'ennemi ![end]</data>
+        <data>Gunso: Capitaine ! La chute de Mahal n'est plus qu'une question de temps ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x188</ref>
         </refs>
-        <data>Soldat: C'est inévitable !
- 
-Ne nous faisons pas d'illusions !
-La question est maintenant:
-quand Mahal va-t-elle tomber ?[end]</data>
+        <data>Si nous ne faisons rien, Mahal sera anéantie ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x195</ref>
         </refs>
-        <data>Capitaine !
-Donnez-nous les ordres ![end]</data>
+        <data>Capitaine ! Donnez-nous vos ordres ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1a1</ref>
         </refs>
-        <data>Taicho: Hum...
+        <data>Taicho: Hmm...
  
-En tant que chevalier,je vais moi-même
-aller défier ce Lestat !
-Laissez-moi vous protéger tous ![end]</data>
+Alors je vais défier Lestat en duel, affirmatif !
+ 
+Vous autres, couvrez-moi à l'arrière ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1ad</ref>
         </refs>
-        <data>Soldat: C'est beaucoup trop dangereux !
+        <data>C'est de la folie !
  
-Vous risqueriez de vous faire tuer
-rapidement face à tant d'ennemis ![end]</data>
+Ce serait courir à la mort, capitaine ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1b9</ref>
         </refs>
-        <data>Soldat: Nous allons le faire pour vous,
-Capitaine Taicho.
-Nous combattrons Lestat et dès
-qu'une opportunité se présentera
-vous le tuerez.[end]</data>
+        <data>Restez en retrait, capitaine.
+ 
+Nous allons charger en premier, et vous profiterez de l'ouverture pour vous occuper de Lestat...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1de</ref>
         </refs>
-        <data>Taicho: Silence !
-Qui commande ici ?![end]</data>
+        <data>Taicho: Silence ! À qui crois-tu donner des ordres ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1ec</ref>
         </refs>
-        <data>C'est moi,Taicho !
-Capitaine de l'armée de Mahal ![end]</data>
+        <data>Je suis Taicho, capitaine de l'armée de Mahal, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1fa</ref>
         </refs>
-        <data>Soldat: Mais...[end]</data>
+        <data>Mais...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x20a</ref>
         </refs>
-        <data>Taicho: Silence !
-Ce sont mes ordres !
-Je suis le guerrier le plus puissant de
-Mahal et je dois défendre son peuple !
- 
-Quand le danger se présente,je suis
-prêt à perdre la vie pour lui ![end]</data>
+        <data>Taicho: Silence ! Je suis un soldat... Ce qui compte le plus pour moi, c'est Mahal, et le peuple de Mahal ! Pour les protéger, je donnerai ma vie sans le moindre regret ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x218</ref>
         </refs>
-        <data>Soldat: Mais...[end]</data>
+        <data>Mais...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x226</ref>
         </refs>
-        <data>Taicho: Cessez ! Ce sont mes ordres !
-Vous êtes trop bruyants ![end]</data>
+        <data>Taicho: Je t'ai dit de te taire, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x22e</ref>
         </refs>
-        <data>Céline: Tu ne changeras jamais ![end]</data>
+        <data>Céline: Chéri ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x242</ref>
         </refs>
-        <data>Gunso: Céline...[end]</data>
+        <data>Taicho: Céline...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x24c</ref>
         </refs>
-        <data>Céline: Je suis également d'accord avec ce
-qu'a dit ce soldat.[end]</data>
+        <data>Céline: Moi aussi, je pense que ces messieurs ont raison.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x263</ref>
         </refs>
-        <data>Taicho: Que dis-tu ?!
-Tu ne comprends rien ?!
-Si je ne vais pas défendre ma patrie...
-Qui le fera ?![end]</data>
+        <data>Taicho: Toi aussi, tu t'y mets !
+ 
+Si je ne protège pas Mahal au prix de ma vie, qui le fera ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x26d</ref>
         </refs>
-        <data>Céline: Tu ne peux vaincre Lestat...[end]</data>
+        <data>Céline: Je dis que tu n'en as pas la force...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x279</ref>
         </refs>
-        <data>Gunso: Céline !
-Je suis d'accord avec vous ![end]</data>
+        <data>Gunso: Dame Céline ! Que dites-vous là ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x28e</ref>
         </refs>
-        <data>Taicho: Cessez ! Taisez-vous ![end]</data>
+        <data>Taicho: C-c'est le comble de l'insolence ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x297</ref>
         </refs>
-        <data>Y a-t-il à Mahal un guerrier aussi
-puissant que moi ?![end]</data>
+        <data>Tu prétends qu'il existe à Mahal un homme plus fort que moi ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x29d</ref>
         </refs>
-        <data>Non !
-Car je suis le guerrier No [0xb0] à Mahal !
- 
-Pour protéger cet honneur,je suis
-prêt à combattre voire à perdre la
-vie ![end]</data>
+        <data>Je suis le meilleur guerrier de Mahal ! Plutôt que de renoncer à cet honneur, je renoncerai à la vie ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2cc</ref>
         </refs>
-        <data>Céline: Magie Sommeil ![end]</data>
+        <data>Sommeil ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x324</ref>
         </refs>
-        <data>Céline: Je suis désolée mon tendre époux...
-Je me devais de faire cela.[end]</data>
+        <data>Céline: ... Pardonne-moi... mon chéri.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x32d</ref>
         </refs>
-        <data>Céline: Soldats,puissiez-vous entendre et
-respecter mes paroles !
-C'est inévitable !
-Mahal va tomber aux mains de l'Empire.
+        <data>Cette guerre... Mahal va sûrement la perdre.
  
-Mais ne vous inquiétez pas !
-Il arrivera un jour où notre
-mère-patrie sera libérée ![end]</data>
+Mais même si nous perdons aujourd'hui... je crois qu'un jour... viendra le jour où l'Empire tombera...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x336</ref>
         </refs>
-        <data>S'il te plaît Taicho,reste en vie
-et attends ce jour pour nous...
+        <data>... Jusqu'à ce que ce jour arrive... je t'en prie, survis...
  
-Notre chère... Mahal...[end]</data>
+... Pour l'instant... Mahal...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x343</ref>
         </refs>
-        <data>Notre patrie ne sera pas défendue en
-vain ![end]</data>
+        <data>Mahal, c'est nous qui la défendrons ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x349</ref>
         </refs>
-        <data>Céline: Venez mes braves soldats ![end]</data>
+        <data>Céline: En avant ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x363</ref>
         </refs>
-        <data>Nous partons ![end]</data>
+        <data>À vos ordres ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x36c</ref>
         </refs>
-        <data>Céline: Gunso,ceci est ma dernière volonté:
-Fuis Mahal et dis à Taicho
-d'attendre le jour...
-Le jour de la libération ![end]</data>
+        <data>Céline: Gunso, je vous confie la suite. Prenez soin de lui ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x378</ref>
         </refs>
-        <data>Nous partons ![end]</data>
+        <data>À vos ordres ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3f0</ref>
         </refs>
-        <data>Céline: Approche,Lestat ![end]</data>
+        <data>Céline: En garde, Lestat ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3fb</ref>
         </refs>
-        <data>Magie Maladie ![end]</data>
+        <data>Regard de feu ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x440</ref>
         </refs>
-        <data>Lestat: HIHIHIHIHIHIHIHIHI !
-Tu ne peux me vaincre avec une telle
-magie ![end]</data>
+        <data>Lestat: Hihihihihihihihihi ! Ce genre de chose n'a aucun effet sur moi ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x455</ref>
         </refs>
-        <data>Où est Taicho ?!
-Où est le guerrier No [0xb0] de Mahal ?
-Me craindrait-il ?![end]</data>
+        <data>Où est Taicho ?! Taicho, le célèbre meilleur guerrier de Mahal ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x499</ref>
         </refs>
-        <data>Magie Uppercut ![end]</data>
+        <data>Waaah ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4c1</ref>
         </refs>
-        <data>Lestat: HIHIHIHIHIHIHIHI !
-Taicho !
-Où est-il ?!
-Le guerrier No [0xb0] a eu peur de moi et
-s'est enfui ?!
-HIHIHIHIHIHIHIHIHIHIHI ![end]</data>
+        <data>Lestat: Hihihihihihihihi ! Ce Taicho ! Il a eu peur de moi et il s'est enfui ! Le meilleur guerrier de Mahal, laissez-moi rire ! Hihihihihihihihihihihi ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4d1</ref>
         </refs>
-        <data>Céline: Tu te trompes !
-Mon mari...
-Mon mari n'est pas ce genre d'homme ![end]</data>
+        <data>Céline: C'est faux ! Lui... Lui, ce n'est pas un homme comme ça ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4de</ref>
         </refs>
-        <data>Lestat: HIHIHIHIHIHI !
-Ce genre d'homme ?
-Si,il l'est !
-HIHIHIHIHIHI ![end]</data>
+        <data>Lestat: Hihihihihihi ! Si, c'est exactement ce genre d'homme. Hihihihihihi ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4e7</ref>
         </refs>
-        <data>Meurs,insolente ![end]</data>
+        <data>Meurs ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x570</ref>
         </refs>
-        <data>Céline: Kyaaaaa ![end]</data>
+        <data>Céline: Kyaaaaaah ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5ce</ref>
         </refs>
-        <data>Je n'ai pas pu...
-Je n'ai pas pu la protéger...[end]</data>
+        <data>Je... Je n'ai pas pu protéger...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5d5</ref>
         </refs>
-        <data>Ma patrie,Mahal...
-Mon palais de Mahal...
-Mes courageux soldats...[end]</data>
+        <data>Ma terre natale, Mahal... Le palais de Mahal... Mes précieux hommes...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5dc</ref>
         </refs>
-        <data>Et aussi ma bien-aimée épouse...[end]</data>
+        <data>Et ma femme bien-aimée...[end]</data>
     </text>
     <text>
         <refs>
@@ -388,37 +325,33 @@ Mes courageux soldats...[end]</data>
         <refs>
             <ref>0x5eb</ref>
         </refs>
-        <data>Je suis si... inutile...[end]</data>
+        <data>Je n'ai rien pu protéger... rien du tout...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x601</ref>
         </refs>
-        <data>Quelle tristesse ![end]</data>
+        <data>Quelle tristesse, affirmatiiiiiiiif ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9d6</ref>
         </refs>
-        <data>Qu'ai-je fait ?
-Ils étaient innocents...[end]</data>
+        <data>J'ai fait trop de bruit ? Désolé, affirmatif...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9e8</ref>
         </refs>
-        <data>[character][0x0]...
-Ils étaient INNOCENTS...[end]</data>
+        <data>Byuu... Non, rien...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa11</ref>
         </refs>
-        <data>[character][0x0]...
-Y a-t-il une personne que tu admires
-et que tu aimes ?
-Y a-t-il une personne que tu
-protégerais corps et âme ?[end]</data>
+        <data>Byuu... As-tu quelqu'un que tu aimes ?
+ 
+Quelqu'un que tu dois protéger ?[end]</data>
     </text>
     <text>
         <refs>
@@ -431,233 +364,201 @@ protégerais corps et âme ?[end]</data>
         <refs>
             <ref>0xa27</ref>
         </refs>
-        <data>Tu es encore jeune...
-Tu ne penses pas à tout.
-Et la Princesse [character][0x1]?[end]</data>
+        <data>Pas besoin de le cacher, je sais. C'est la princesse Yoyo, hein ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa31</ref>
         </refs>
-        <data>[character][0x0],
-tu es un garçon chanceux...[end]</data>
+        <data>... Tu as de la chance, Byuu.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa3a</ref>
         </refs>
-        <data>Être avec la femme qu'on aime est
-la meilleure chose dans la vie d'un
-homme.
-Tu devrais prendre soin d'elle.[end]</data>
+        <data>Avoir quelqu'un à aimer, c'est le plus grand bonheur au monde.
+ 
+Prends bien soin de cette personne, affirmatif.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa43</ref>
         </refs>
-        <data>Car lorsque tu perds cette personne,
-la tristesse s'empare alors de tout ton
-être et pour toute ta vie...[end]</data>
+        <data>Si jamais...
+ 
+tu la perdais... ce serait la chose la plus... douloureuse au monde...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa55</ref>
         </refs>
-        <data>Si cette chose t'arrive,
-[character][0x0]...
+        <data>Si ça arrivait...
  
-tu seras alors simplement devenu un
-homme inutile,tout comme moi...[end]</data>
+toi aussi, Byuu... tu deviendrais peut-être une loque, comme moi...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6f8</ref>
         </refs>
-        <data>Truth: Voici la carte de Mahal...[end]</data>
+        <data>Truth: Voici la carte de tout Mahal.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x742</ref>
         </refs>
-        <data>Ceci est un barrage utilisé pour
-éviter les inondations.[end]</data>
+        <data>Nous avons découvert ici une grande écluse, aujourd'hui inutilisée.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x767</ref>
         </refs>
-        <data>Par conséquent,nous pourrions réussir
-à combattre des ennemis affaiblis...[end]</data>
+        <data>Nous allons donc attirer l'ennemi en aval de l'écluse...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x787</ref>
         </refs>
-        <data>Il suffit pour cela d'ouvrir le barrage
-et ainsi l'eau se répandra et noiera
-les ennemis ![end]</data>
+        <data>Puis nous ouvrirons l'écluse, et la force des eaux balaiera l'ennemi ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xacd</ref>
         </refs>
-        <data>                   Chapitre [0xb0][0xb2]
-           -Godland,la Cité de la Magie-[end]</data>
+        <data>  Chapitre [0xb0][0xb2]
+  -Godland, la cité de la magie-[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xad1</ref>
         </refs>
-        <data>Godland,la cité de la magie,est une
-civilisation avancée dans l'art de la
-magie.[end]</data>
+        <data>  Godland, la cité de la magie...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xad5</ref>
         </refs>
-        <data>Grâce à cela,ce lagon a réussi à
-conserver son autonomie au sein de
-l'Empire.[end]</data>
+        <data>  Grâce à sa culture magique avancée,
+  ce lagon avait obtenu de l'Empire
+  son autonomie...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb1a</ref>
         </refs>
-        <data>Hornet: Nous sommes bientôt à Godland.[end]</data>
+        <data>Hornet: Nous arrivons bientôt à Godland.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb31</ref>
         </refs>
-        <data>Melody: Ouais ! Ouais !
-Ma chère ville de Godland ![end]</data>
+        <data>Melody: Ouaaah ! Ouaaah ! Godland ! Ça me rappelle tant de souvenirs ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb3f</ref>
         </refs>
-        <data>Les Petits Démons sont contents !
+        <data>Les Diablotins sont contents aussi ! Ils vont avoir plein de nouveaux copains Diablotins !
  
-  
-Les Petits Démons vont revoir
-leurs amis !
-Hein ?![end]</data>
+Pas vrai ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb51</ref>
         </refs>
-        <data>manyo !
-``allez ! allez !
- à Godland ! allez !''[end]</data>
+        <data>Manyo ! (Allez ! Allez ! Godland ! Super endroit ! Allez !)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb8e</ref>
         </refs>
-        <data>munyo !
-``allez ! allez !
- a Godland !''[end]</data>
+        <data>Munyo ! (Allez ! Allez ! Godland ! Il va s'y passer de bonnes choses !)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb61</ref>
         </refs>
-        <data>Hornet: Melody !
-Tu le sais,pourtant !
-Les Petits Démons n'ont pas le droit
-d'être sur le pont.[end]</data>
+        <data>Hornet: Hé là ! Pas de Diablotins sur la passerelle ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb77</ref>
         </refs>
-        <data>Melody: Génial !
-Hornet a mauvais tempérament !
-Partons,Petits Démons ![end]</data>
+        <data>Melody: Pff ! Hornet, t'es méchant ! Diablotins ! À l'attaque ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xba7</ref>
         </refs>
-        <data>Hornet: Hé ! Arrêtez ![end]</data>
+        <data>Hornet: Hé... hé ! Arrêtez ça ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc0c</ref>
         </refs>
-        <data>Rush: Hé...[end]</data>
+        <data>Rush: ... Dis.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc15</ref>
         </refs>
-        <data>Hé,Truth...
-Est-ce que tu dors ?[end]</data>
+        <data>... Dis, Truth... tu dors ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc1e</ref>
         </refs>
-        <data>Truth: Je... je n'arrive pas...
-Je n'ai dormi qu'un moment...
-Je me demande pourquoi ?[end]</data>
+        <data>Truth: Hein... n-non, je suis réveillé. Je n'arrive pas à dormir... Je me demande pourquoi.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc27</ref>
         </refs>
-        <data>Rush: C'est étrange que nous ne puissions
-pas dormir...[end]</data>
+        <data>Rush: Moi non plus, j'arrive pas à dormir... Bizarre...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc30</ref>
         </refs>
-        <data>Bikebake !
-Et toi ?[end]</data>
+        <data>Bikebake ! Toi aussi ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd0a</ref>
             <ref>0xc3e</ref>
         </refs>
-        <data>Bikebake: Zzzz... Zzzz...[end]</data>
+        <data>Bikebake: Ronfl... ronfl...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc47</ref>
         </refs>
-        <data>Truth: Il a un sommeil de plomb !
-Impossible de le réveiller ![end]</data>
+        <data>Truth: On dirait qu'il dort déjà. Le réveiller serait cruel.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc50</ref>
         </refs>
-        <data>Rush: Haha...[end]</data>
+        <data>Rush: Ouais...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc5c</ref>
         </refs>
-        <data>D'accord,Truth ![end]</data>
+        <data>... Dis, Truth...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc65</ref>
         </refs>
-        <data>Truth: Quoi ?[end]</data>
+        <data>Truth: Oui ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc6e</ref>
         </refs>
-        <data>Rush: Comment pourrais-je te le dire
-simplement ?!
-J'ai eu un étrange sentiment lorsque
-j'ai vu le peuple de Mahal...[end]</data>
+        <data>Rush: Je sais pas trop comment le dire...
+ 
+Quand je regarde les gens de Mahal... je ressens un truc...[end]</data>
     </text>
     <text>
         <refs>
@@ -669,80 +570,67 @@ j'ai vu le peuple de Mahal...[end]</data>
         <refs>
             <ref>0xc83</ref>
         </refs>
-        <data>Rush: Huuum...
-Tu sais ce que je veux dire...[end]</data>
+        <data>Rush: ... Comment dire... Hmm... Je sais pas comment l'expliquer...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc8c</ref>
         </refs>
-        <data>Truth: Je te comprends,Rush,d'une manière
-ou d'une autre...[end]</data>
+        <data>Truth: ... Je crois voir ce que tu veux dire, Rush.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc9a</ref>
         </refs>
-        <data>Rush: Et toi,Truth !
-Tu n'as rien ressenti ?![end]</data>
+        <data>Rush: Alors toi aussi, tu le sens ?! Truth ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xca3</ref>
         </refs>
-        <data>Truth: Heuuu...
-Eh bien...[end]</data>
+        <data>Truth: Hein... ! Euh... oui...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xcb1</ref>
         </refs>
-        <data>Il est vrai qu'ils sont un peu
-différents du peuple de Kana...[end]</data>
+        <data>J'ai l'impression qu'ils ont quelque chose de différent de nous, les gens de Kana...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xcb7</ref>
         </refs>
-        <data>Taicho combat pour sa femme
-décédée...[end]</data>
+        <data>Taicho, qui se bat pour sa défunte épouse...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xcbd</ref>
         </refs>
-        <data>Hahahaha !
-Ruki est attirante mais elle est une
-vraie guerrière.[end]</data>
+        <data>Haa... haa... Ruki, si fiable et si charmante...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xcc6</ref>
         </refs>
-        <data>Et Donfan ne cesse jamais
-d'approcher les femmes même
-durant les combats.[end]</data>
+        <data>Donfan, qui se bat pour rencontrer des filles...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xccc</ref>
         </refs>
-        <data>Hahahaha !
-Quant à Jeanne,elle est ravissante,
-et elle égale un homme au combat.[end]</data>
+        <data>Haa... haa... Jeanne, un vrai garçon manqué, mais si classe, si merveilleuse...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xcd5</ref>
         </refs>
-        <data>Rush: Ils sont différents de nous...[end]</data>
+        <data>Rush: Ils sont différents... de nous...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xcde</ref>
         </refs>
-        <data>Truth: Lorsque j'étais très jeune,j'ai été
-formé pour entrer dans l'armée.[end]</data>
+        <data>Truth: Moi, depuis tout petit, j'ai reçu une éducation militaire, entouré seulement de garçons.[end]</data>
     </text>
     <text>
         <refs>
@@ -754,20 +642,18 @@ formé pour entrer dans l'armée.[end]</data>
         <refs>
             <ref>0xced</ref>
         </refs>
-        <data>Nous recherchons tous la liberté...
-Quitte... à être des brutes ![end]</data>
+        <data>C'est ça qu'on veut, nous, la liberté ?... J'en sais rien... Bon sang ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xcf9</ref>
         </refs>
-        <data>Truth: Je ne comprends pas très bien.[end]</data>
+        <data>Truth: ......... Moi non plus... je ne sais pas trop...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd17</ref>
         </refs>
-        <data>Rush: Bikebake !
-Hého...[end]</data>
+        <data>Rush: Bikebake... ! Toi aussi...[end]</data>
     </text>
 </texts>

@@ -4,153 +4,129 @@
         <refs>
             <ref>0x63</ref>
         </refs>
-        <data>                   Chapitre [0xb6]
-             -La Légende des Dragons-[end]</data>
+        <data>  Chapitre [0xb6]
+  -La légende des Dragons Sacrés-[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x283</ref>
         </refs>
-        <data>Zora: Le ciel de Campbell est si beau...
-Je suis originaire de cette ville...
-C'est pour cette raison que ce lagon
-m'est si cher...
+        <data>Zora: Campbell vue du ciel, c'est joli aussi. Je suis de Campbell, tu sais. Ah, ça me rappelle des souvenirs...
  
-La Princesse ira-t-elle au château ?
-En tout cas,j'irai m'y promener ![end]</data>
+Toi, tu vas au château avec la princesse, non ? Pendant ce temps, moi, je vais faire un tour en ville.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x28f</ref>
         </refs>
-        <data>Tout ira pour le mieux...[end]</data>
+        <data>Mon petit va bien, j'espère...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2a1</ref>
         </refs>
-        <data>Matelite: Tu as l'air très optimiste !
+        <data>Matelite: Hé là !
  
-Avant même de pouvoir y aller,
-il faudra chasser de Campbell l'Empire
-Granbelos ![end]</data>
+Qu'est-ce que c'est que ces bavardages insouciants !
+ 
+Avant ça, nous devons chasser l'Empire de Granbelos de Campbell ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2af</ref>
         </refs>
-        <data>Zora: Je comprends ![end]</data>
+        <data>Zora: Je sais ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2c4</ref>
         </refs>
-        <data>Matelite: Au fait,Zora !
+        <data>Matelite: Au fait, Zora !
  
-J'ai entendu dire que tu avais dit des
-choses inappropriées à la Princesse.
-Est-ce vrai ?[end]</data>
+On m'a raconté que tu avais giflé la princesse Yoyo. C'est faux, j'espère ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2e0</ref>
         </refs>
-        <data>Zora: C'est vrai !
-Qui t'en a parlé ?[end]</data>
+        <data>Zora: C'est vrai. Qui te l'a dit ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2fd</ref>
         </refs>
-        <data>Matelite: Quoi ?!
-Ce n'est pas possible !
-Tu n'en as pas le droit !
-C'est absolument incroyable ![end]</data>
+        <data>Matelite: Quoiii ?! Tu l'as vraiment giflée ! Impardonnable ! Absolument impardonnable ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x317</ref>
         </refs>
-        <data>Zora: N'es-tu pas en train de faire la même
-chose avec moi ?
-Alors ?
-Que vas-tu me faire maintenant ?
-Dis-le Matelite !
-J'en ai assez entendu ![end]</data>
+        <data>Zora: Et alors, tu vas faire quoi ? Hein ? Qu'est-ce que tu comptes me faire ? Dis-le, Matelite ! Tu veux une gifle, toi aussi ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x328</ref>
         </refs>
-        <data>Matelite: Mince...[end]</data>
+        <data>Matelite: ............... Non merci.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x33d</ref>
         </refs>
-        <data>J'ai été humilié !
- 
-  
-La prochaine fois,j'irai passer ma
-colère sur Taicho ![end]</data>
+        <data>Quelle humiliation... Je me défoulerai sur Taicho, tout à l'heure...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1d3</ref>
         </refs>
-        <data>Taicho: Ce sera bientôt la libération de
-Campbell !
-J'espère que le service des magasins
-n'y est pas négligent autrement je
-les détruirai tous ![end]</data>
+        <data>Taicho: Ça y est ! La libération de Campbell ! Nous avons détruit le dépôt de ravitaillement, mais pas question de baisser la garde !
+ 
+Préparons-nous avec soin, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x233</ref>
         </refs>
-        <data>Rush: Récemment Bikebake a énormément
-changé...[end]</data>
+        <data>Rush: Bikebake est bizarre depuis l'autre jour.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x23a</ref>
         </refs>
-        <data>Truth: Quel secret Bikebake cache-t-il ?[end]</data>
+        <data>Truth: Bikebake nous cache quelque chose.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4db</ref>
         </refs>
-        <data>Ruki: Toutes ces personnes ici ont perdu
-quelque chose dans la guerre...[end]</data>
+        <data>Ruki: Ces filles ont complètement oublié qu'on est en guerre...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4d0</ref>
         </refs>
-        <data>Ekaterina: [character][0x0]...
-Err...[end]</data>
+        <data>Ekaterina: Byuu... Euh... c'est que...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x43c</ref>
         </refs>
-        <data>Anastasia: Pourrais-tu demander à Hornet ce
-qu'il aime le plus ?
- Va lui demander toi-même !
- Oui,je peux...[end1]</data>
+        <data>Anastasia: Dis, tu veux bien demander à
+Hornet ce qu'il aime ?
+ Va lui demander toi-même
+ D'accord[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x449</ref>
         </refs>
-        <data>Je m'en souviendrai,sois-en sûr ![end][end]</data>
+        <data>Tu pourrais au moins faire ça pour moi ![end][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x452</ref>
         </refs>
-        <data>Je t'en supplie,[character][0x0]![end]</data>
+        <data>Je compte sur toi, Byuu ![end]</data>
     </text>
     <text>
         <refs>
@@ -158,32 +134,29 @@ qu'il aime le plus ?
         </refs>
         <data>Hornet: ... ? Quoi ?
  
- Me dire ce que tu aimes !
- Me dire ce que tu hais ![end1]</data>
+ Dis-moi ce que tu aimes
+ Dis-moi ce que tu détestes[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x262</ref>
         </refs>
-        <data>Ce que j'aime ?
-J'aime le [0xaa]Vin Doux[0xab]![end]</data>
+        <data>Ce que j'aime... Le [0xaa]Vin doux[0xab], par exemple.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x26d</ref>
         </refs>
-        <data>Ce que je n'aime pas ?
-Hoho,je crois que c'est le [0xaa]Uniuji[0xab].
-Ça me donne plein de boutons ![end]</data>
+        <data>Ce que je déteste ? Oh, l'[0xaa]Uniasticot[0xab]... Rien que d'y penser, j'en ai la chair de poule.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x45b</ref>
         </refs>
-        <data>Anastasia: Alors ! alors !
-Qu'aime-t-il ?
- [0xaa]Vin Doux[0xab]
- [0xaa]Uniuji[0xab][end1]</data>
+        <data>Anastasia: Alors, alors ? Qu'est-ce
+qu'il aime, Hornet ?
+ [0xaa]Vin doux[0xab]
+ [0xaa]Uniasticot[0xab][end1]</data>
     </text>
     <text>
         <refs>
@@ -195,217 +168,180 @@ Qu'aime-t-il ?
         <refs>
             <ref>0x486</ref>
         </refs>
-        <data>Anastasia: Je te l'avais dit,Ekaterina !
-Viens,allons-y ![end]</data>
+        <data>Anastasia: Tu as compris, Ekaterina ? Allez, on y va.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4b4</ref>
         </refs>
-        <data>Ekaterina: [character][0x0]...
-Merci d'avoir dit la vérité ![end]</data>
+        <data>Ekaterina: Euh... Byuu. Merci beaucoup, vraiment.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x24e</ref>
         </refs>
-        <data>Hornet: Le bateau s'approche de plus en plus
-du Lagon Campbell.
-Dès que tu es prêt,va parler au
-Père Dragon pour aller combattre.[end]</data>
+        <data>Hornet: Le vaisseau tourne autour du lagon de Campbell, on peut y aller quand tu veux. Cette fois, pars de chez le Père Dragon.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4e2</ref>
         </refs>
-        <data>Ruki: Est-ce que nous allons à Campbell pour
-la Légende des Dragons Sacrés ?
-J'espère que la chance tournera à
-notre avantage avec la Légende.[end]</data>
+        <data>Ruki: À Campbell, on va écouter la légende des Dragons Sacrés, c'est ça ? J'espère que ce sera une belle légende, qui rendra tout le monde heureux.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1e5</ref>
         </refs>
-        <data>Sendak: Le cri de Vritra ressemble à celui de
-quelqu'un qui se fait tuer.
-Sache aussi que lorsque je suis proche
-de la Princesse,je peux aussi utiliser
-le puissant pouvoir du Dragon Sacré.[end]</data>
+        <data>Sendak: Byuu, tu as remarqué ?
+ 
+Je peux maintenant invoquer le Dragon Sacré Vritra.
+ 
+Près de la princesse, j'ai l'impression d'être moi-même un Dragon Sacré, je déborde de force...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1fa</ref>
         </refs>
-        <data>N'essaie pas de comprendre comment
-un vieil homme comme moi ait pu
-acquérir tant de puissance.
-Tu t'y perdrais...
-Haha !
-Je dis encore des balivernes.[end]</data>
+        <data>Non... je m'emballe...
+ 
+Devenir fort grâce à un pouvoir emprunté, et s'exciter comme ça, à mon âge... Ah ! Voilà que je rumine encore. Allez, un peu d'entrain ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x20b</ref>
             <ref>0x1de</ref>
         </refs>
-        <data>Sendak: Persévère en ce que tu crois être
-bon ![end]</data>
+        <data>Sendak: Byuu ! Courage, on va y arriver ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x220</ref>
         </refs>
-        <data>Matelite: Sendak peut résister à trois
-personnes ![end]</data>
+        <data>Matelite: C'est bien vrai !
+ 
+Sendak se donne trois fois plus de mal que les autres ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1cc</ref>
         </refs>
-        <data>À l'aube de la libération de Campbell,
-je commanderai les troupes car étant
-supérieur,j'ai droit à un traitement
-de faveur...
-Selon mon expérience,ce plan sera
-parfait...[end]</data>
+        <data>À la libération de Campbell, moi, commandant de l'armée de libération, je serai traité en héros... Et alors, mon plan sera parfait...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x416</ref>
         </refs>
-        <data>[character][0x1]: Je... vais bien !
+        <data>Yoyo: Je... ça va, maintenant.
  
-Tous ensemble,nous irons à Campbell.[end]</data>
+J'irai... à Campbell avec tout le monde.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3f8</ref>
         </refs>
-        <data> La fille au coeur faible...
- [character][0x1]...
+        <data>Fille au coeur faible... Yoyo...
  
- La Légende n'est pas une
- nécessité...
+Tu n'as nul besoin de légende...
  
- Ne pense à rien...
- Vide ton coeur...
- 
- Libère le pouvoir des Dragons
- Sacrés...[end]</data>
+Ne pense pas... fais le vide en ton coeur... et libère... ma puissance de Dragon Sacré...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x40d</ref>
         </refs>
-        <data>[character][0x1]: [character][0x0]...
+        <data>Yoyo: Haa... haa...
  
-Il me semble que les Dragons Sacrés
-n'ont pas l'air de vouloir que je
-connaisse la Légende...
-Mais nous irons sur ce lagon...[end]</data>
+Byuu... On dirait que les Dragons Sacrés ne veulent pas que nous connaissions la légende... ... Mais... nous... devons y aller...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x428</ref>
         </refs>
-        <data>[character][0x1]: [character][0x0]!
+        <data>Yoyo: ... Byuu.
  
-Garde cela secret !
-Ne t'inquiète pas pour moi...[end]</data>
+Ne dis rien... aux autres, d'accord ? Je ne veux pas les inquiéter...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x398</ref>
         </refs>
-        <data>[character][0x1]: [character][0x0]!
+        <data>Yoyo: ... Byuu.
  
-Mon... corps... est lourd !
-Trop lourd pour que je puisse
-bouger...[end]</data>
+Mon... corps... est bizarre... Il ne... m'obéit plus...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3a3</ref>
         </refs>
-        <data>[character][0x0],je n'arrive pas à voir ce...
-qui se passe ici ![end]</data>
+        <data>Je ne veux pas... que Byuu... me voie comme ça...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3b2</ref>
         </refs>
-        <data>Le Dragon Sacré en moi...
-Vritra...[end]</data>
+        <data>Vritra... Le Dragon Sacré en moi...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3bd</ref>
         </refs>
-        <data>[character][0x0]...
-Aide-moi...
-Tends-moi... la main...[end]</data>
+        <data>Byuu... aide-moi... Ta main... serre-la fort...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x389</ref>
         </refs>
-        <data>[character][0x1]: [character][0x0]...[end]</data>
+        <data>Yoyo: ... Byuu...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4ed</ref>
         </refs>
-        <data>Manyo: manyo !
-``Melody est venue !''[end]</data>
+        <data>Manyo: Manyo ! (Melody, c'est une gentille fille !)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4f7</ref>
         </refs>
-        <data>Munyo: munyo !
-``nous dansons tous ensemble !''[end]</data>
+        <data>Munyo: Munyo ! (Elle danse avec nous, elle est costaude, la petite !)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x501</ref>
         </refs>
-        <data>Melody: Je suis comme un Petit Démon !
-Je le suis de plus en plus !
- C'est vrai,c'est bien...
- Tu ennuies les commerçants ![end1]</data>
+        <data>Melody: J'adore les Diablotins ! Ce
+serait bien qu'il y en ait plus !
+ Oui, c'est vrai
+ Ils embêtent les marchands[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x50e</ref>
         </refs>
-        <data>Ha ha !
-Allez ! Tout le monde danse !
-Allez [character][0x0]![end]</data>
+        <data>Youpi ! Alors on dansera tous ensemble ! Toi aussi, Byuu ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x517</ref>
         </refs>
-        <data>Tout va bien !
-Melody a prévenu tout le monde ![end]</data>
+        <data>T'inquiète ! Melody leur fera bien la leçon ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x76a</ref>
         </refs>
-        <data>Obtenu [0xaa]VIN CUIT[0xab].[end]</data>
+        <data>Tu as obtenu [0xaa]Vin amer[0xab].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x794</ref>
         </refs>
-        <data>Obtenu [0xaa]MEMOIRE[0xab].[end]</data>
+        <data>Tu as obtenu [0xaa]Souvenir amer[0xab].[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x77b</ref>
         </refs>
-        <data>Obtenu [0xaa]CARNET DE BORD[0xab].[end]</data>
+        <data>Tu as obtenu [0xaa]Journal de bord[0xab].[end]</data>
     </text>
 </texts>
