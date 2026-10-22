@@ -44,6 +44,8 @@ SHADOW_GAP = 1  ; the shadow takes the gap katsuji leaves after a glyph: one mor
     byte[SMALL_VWF_MAX_CHARS + 1] text
     byte[( SMALL_VWF_MAX_CELLS + 1 ) * 8] ink
     byte[SMALL_VWF_MAX_CELLS * 16] tiles
+    word rom_tiles
+    byte rom
 }
 
 .reserve small_vwf as SmallVwf in sram_work
@@ -75,6 +77,9 @@ _baked_given:
     jsr.w _copy_baked
     bra _rendered
 _compose:
+    sep #0x20
+    stz.w small_vwf.rom
+    rep #0x20
     jsr.w _clear_ink
     stz.w small_vwf.pen
     ldx.w #0x0000
@@ -360,6 +365,11 @@ _baked_cells:
     clc
     adc.w #small_vwf_baked_tiles & 0xFFFF
     tax
+    stx.w small_vwf.rom_tiles
+    sep #0x20
+    lda #0x01
+    sta.w small_vwf.rom
+    rep #0x20
     ldy.w #small_vwf.tiles & 0xFFFF
     pla
     mvn small_vwf_baked_tiles >> 16, small_vwf >> 16

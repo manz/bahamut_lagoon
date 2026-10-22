@@ -42,6 +42,7 @@ screen fills in name by name, and a name that needs retired slots waits for that
 .extern small_vwf_render
 .extern small_vwf_inline_baked
 .extern small_vwf
+.extern small_vwf_baked_tiles
 .extern tile_blit
 .extern tile_pool
 .extern ppu_line
@@ -144,6 +145,8 @@ _RECORD = 8  ; the name records draw_fixed_name draws, an item's past its icon
     word request_baked
     word segment_baked
     word bg3_next
+    word ring_from
+    word ring_from_bank
 }
 
 .reserve menu as MenuVwf in sram_menu
@@ -165,6 +168,7 @@ _RECORD = 8  ; the name records draw_fixed_name draws, an item's past its icon
     word[_RING] ring_source
     word[_RING] ring_vram
     word[_RING] ring_size
+    word[_RING] ring_bank
 }
 
 .reserve menu_present as MenuPresent in sram_work
@@ -1230,10 +1234,14 @@ put on the ring; carry set. Carry clear when no block or no staging room.
     asl
     asl
     sta.l menu.tile  ; bytes
+    jsr.w _from_rom
+    bcs _block_room
+    lda.l menu.tile
     clc
     adc.l menu.staged
     cmp.w #_STAGING_TILES * _TILE_4BPP + 1
     bcs _no_block
+_block_room:
     lda.l menu.bg3_next
     jsr.w _right_block_from
     bcs _block_found
@@ -1274,19 +1282,49 @@ _block_mark:
 _block_marked:
     lda.w #0x0000
     sta.l menu.index
+    jsr.w _from_rom
+    bcs _block_rom
     lda.l menu.count
     tay
     ldx.w #TILE_2BPP
     jsr.w _blit_to_staging
+_block_rom:
     lda.l menu.slot
     asl
     asl
     asl
     clc
     adc.w #_BG3_RIGHT_VRAM
-    jsr.w _ring_queue
+    jsr.w _ring_cells
     sec
     rts
+
+_from_rom:
+"""Carry set when the name rendered is baked: its tiles sit in ROM, for the ring to take from there."""
+    lda.l small_vwf.rom
+    lsr
+    rts
+
+_ring_cells:
+"""Put menu.tile bytes of the rendered cells from menu.index on for VRAM word A: from ROM when baked, else staged."""
+    pha
+    jsr.w _from_rom
+    bcc _ring_staged
+    lda.l menu.index
+    asl
+    asl
+    asl
+    asl
+    clc
+    adc.l small_vwf.rom_tiles
+    sta.l menu.ring_from
+    lda.w #small_vwf_baked_tiles >> 16
+    sta.l menu.ring_from_bank
+    pla
+    jmp.w _ring_put
+_ring_staged:
+    pla
+    jmp.w _ring_queue
 
 _right_block_from:
 """The first menu.count free right-half slots in a row from slot A on: the first in A, carry set; carry clear: none."""
@@ -1368,14 +1406,19 @@ _slot3_take:
 _font_slot3:
     jsr.w _bg3_code
     pha
+    lda.w #_TILE_2BPP
+    sta.l menu.tile
+    jsr.w _from_rom
+    bcs _font_rom
     jsr.w _stage_bg3_cell
+_font_rom:
     pla
     asl
     asl
     asl
     clc
     adc.w #_BG3_VRAM
-    jmp.w _ring_queue
+    jmp.w _ring_cells
 
 _collect_bg3:
 """Free every run that none of the cells it was drawn at shows any more, retiring its slots."""
@@ -1899,23 +1942,36 @@ _advance:
 _ring_queue:
 """Put menu.tile staged bytes for VRAM word A on the ring; the staging buffer moves past them."""
     pha
+    lda.l menu.staged
+    clc
+    adc.w #menu.staging & 0xFFFF
+    sta.l menu.ring_from
+    lda.w #menu.staging >> 16
+    sta.l menu.ring_from_bank
+    pla
+    jsr.w _ring_put
+    lda.l menu.staged
+    clc
+    adc.l menu.tile
+    sta.l menu.staged
+    rts
+
+_ring_put:
+"""Put menu.tile bytes from menu.ring_from in bank menu.ring_from_bank on the ring, for VRAM word A."""
+    pha
     lda.l menu_present.tail
     tax
     pla
     sta.l menu_present.ring_vram, x
     lda.l menu.tile
     sta.l menu_present.ring_size, x
-    lda.l menu.staged
-    clc
-    adc.w #menu.staging & 0xFFFF
+    lda.l menu.ring_from
     sta.l menu_present.ring_source, x
+    lda.l menu.ring_from_bank
+    sta.l menu_present.ring_bank, x
     txa
     jsr.w _ring_next
     sta.l menu_present.tail  ; the entry whole: a drain may take it now
-    lda.l menu.staged
-    clc
-    adc.l menu.tile
-    sta.l menu.staged
     rts
 
 _ring_next:
@@ -2065,6 +2121,8 @@ _drain_entry:
     lda.w menu_present.ring_size, y
     jsl.l dma_fits_vblank
     bcs _ring_left
+    lda.w menu_present.ring_bank, y
+    sta.b 0x04  ; and 0x05, the size, which _fire sets
     lda.w menu_present.ring_source, y
     sta.b 0x02
     ldx.w menu_present.ring_vram, y
