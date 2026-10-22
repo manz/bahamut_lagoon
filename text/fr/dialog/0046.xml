@@ -4,160 +4,143 @@
         <refs>
             <ref>0xa1</ref>
         </refs>
-        <data>[character][0x1]...
+        <data>                    Yoyo...
  
-  
-La dénommée Dragoon...
+        Toi qui deviendras Dragonnier.
+       Tu es enfin parvenue jusqu'ici.
  
-  
-Tu es enfin venue...
+               N'hésite pas.
  
-  
-N'hésite pas...
-Ouvre cette porte et viens à moi...[end]</data>
+                  Allons...
+       Ouvre la porte et viens à moi.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xbe</ref>
         </refs>
-        <data>[character][0x1]: [character][0x0]...
-Matelite...
-Il est dangereux de me suivre.
-Les Dragons Sacrés sont emplis de
-haine.
-Je ne sais pas si je pourrai la
-stopper.[end]</data>
+        <data>Yoyo: Byuu... Matelite... À partir d'ici,c'est dangereux... Les Dragons Sacrés débordent de haine.
+ 
+Moi-même... je ne sais pas si je pourrai la contenir...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xce</ref>
         </refs>
-        <data>S'il te plaît,Jormungand,
-ouvre cette porte !
-Tu as besoin de moi,n'est-ce pas ?[end]</data>
+        <data>Je vous en prie... Jormungand.
+ 
+Fermez cette porte... C'est moi que vous voulez,n'est-ce pas...
+ 
+Épargnez Byuu et les autres...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2ae</ref>
         </refs>
-        <data>[character][0x1]: Ne tente rien [character][0x0]!
-À partir d'ici,je dois y aller seule.[end]</data>
+        <data>Yoyo: Non... Byuu.
+ 
+À partir d'ici,j'irai seule...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x28f</ref>
         </refs>
-        <data>Matelite: Princesse [character][0x1],
-attendez-nous !
-Je vais vous escorter ![end]</data>
+        <data>Matelite: Princesse Yoyo... Il n'en est pas question !! Attendez que je vous rejoigne !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2a3</ref>
         </refs>
-        <data>Taicho: [character][0x1] semble bien se porter !
- 
-[character][0x0],je t'en prie,va tout de même la
-rejoindre ![end]</data>
+        <data>Taicho: Yoyo n'est pas dans son état normal,affirmatif ! Byuu... je compte sur toi,affirmatif... !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x299</ref>
         </refs>
-        <data>Sendak: [character][0x0]...
-je... ne peux plus...
-Va la soutenir...
-Va...
-Va l'aider...
-Va voir la Princesse...[end]</data>
+        <data>Sendak: ...Byuu... À vrai dire... j'aimerais que tu me portes sur ton dos... que tu me masses les jambes... que tu m'aides... Mais là,c'est la Princesse qui...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2ce</ref>
         </refs>
-        <data>[character][0x1]: [character][0x0],je suis désolée !
-Protège-moi jusqu'au dernier instant.[end]</data>
+        <data>Yoyo: ... Byuu... je t'en prie. Jusqu'au bout... ne me quitte pas des yeux...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x49b</ref>
         </refs>
-        <data>[character][0x1]: Jormungand,je suis prête, maintenant !
-Dis-moi ce que tu as à dire...
-Je t'écouterai ![end]</data>
+        <data>Yoyo: Jormungand... Je suis prête. Quoi que vous ayez à me dire... je l'accepterai.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3c0</ref>
             <ref>0x4b4</ref>
         </refs>
-        <data>[character][0x1]...
+        <data>                    Yoyo...
  
-  
-[character][0x1]...[end]</data>
+        Toi qui deviendras Dragonnier.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3c6</ref>
         </refs>
-        <data>La Dragoon...
+        <data>              Tes compagnons...
  
-  
-Tes compagnons te protègent et te
-soutiennent.
+              veillent sur toi
+            et te soutiennent...
  
-Ils ne te trahiraient pas et ils n'ont
-aucune haine.
+        Jamais ils ne se trahissent,
+     et encore moins ne se haïssent...
  
-Ils pourraient nous surpasser,nous,
-les Dragons Sacrés...[end]</data>
+        Nous... les Dragons Sacrés,
+           étions jadis ainsi...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4c4</ref>
         </refs>
-        <data>Il est bon pour toi d'écouter cette
-histoire...
+        <data>                Écoute bien...
  
-Le commencement de toute chose est
-loin... très loin...
+               Tout a commencé
+          il y a bien longtemps...
  
-La peine des Dragons Sacrés...
-Leur colère...
-Leur haine...
-Ces souvenirs...
-Nous ne pouvons les oublier.
+        Notre haine... la haine
+           des Dragons Sacrés...
+             notre tristesse...
+              ...notre colère...
+       tout ce que nous ressentons...
+     un passé impossible à effacer...
  
-Ce fut la Guerre parmi les Dragons
-Sacrés !
-Ce fut la Grande Guerre ![end]</data>
+                   Nous...
+ 
+       La guerre des Dragons Sacrés[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4d6</ref>
         </refs>
-        <data>Il est utile que les humains sachent
-cette histoire et comprennent nos
-sentiments.
-Il y a très longtemps,
-nous nous combattîmes !
+        <data>                 Humaine...
+                écoute bien.
  
-Nous nous haïssions.
-Nous nous querellions.
-Nous nous maudissions.
-Nous nous invoquions les uns et les
-autres puis il n'y eut plus rien.
+          Il y a bien longtemps...
+    les Dragons Sacrés se sont affrontés.
  
-Nous perdîmes tout...
-La seule chose qui nous resta fut nos
-souvenirs.
-Les souvenirs des Dragons Sacrés...
+                  Haine...
+                querelles...
+               malédictions...
+             il n'en resta rien.
+              Tout fut perdu...
  
-  
-La porte de la Nouvelle Ère...
-Nous détestons en entendre parler !
+      Ne demeurèrent que nos pensées...
+     les pensées des Dragons Sacrés...
  
-Cependant,il sera un jour où la
-Nouvelle Ère surgira.[end]</data>
+         Lorsque la Porte de la
+          Nouvelle Ère s'ouvrira,
+ 
+                   nous...
+                les Dragons Sacrés,
+              serons apaisés.
+ 
+                 Ce moment
+              est proche...[end]</data>
     </text>
 </texts>

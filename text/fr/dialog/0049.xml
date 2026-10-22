@@ -4,712 +4,574 @@
         <refs>
             <ref>0x1b7</ref>
         </refs>
-        <data>Où vas-tu,Matelite ?
-Pourquoi un tel visage ?!
+        <data>Matelite !! Où allez-vous avec cette tête si sérieuse,affirmatif !! Le château de Kana,ce n'est pas par là,affirmatif !
  
-Le château de Kana se trouve ici !
-Tu devrais être heureux.
-Bon,j'y entre en premier[0xd8][end]</data>
+Vous permettez ? C'est moi qui entre le premier,affirmatif !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1ee</ref>
         </refs>
-        <data>Taicho: Hahaha,
-le magnifique château de Kana !
-Il est encore plus splendide que celui
-de Mahal ![end]</data>
+        <data>Taicho: Ah... affirmatif !! Le château de Kana,dont j'ai tant rêvé !! Rien à voir avec le palais moisi de Mahal,affirmatif !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x219</ref>
         </refs>
-        <data>Taicho: Ce sont de véritables statues de
-dragons !
-Elles ont l'air en vie et elles sont si
-scintillantes.[end]</data>
+        <data>Taicho: Les statues de dragons ont de l'allure,affirmatif !! Tout neuf,tout brillant,affirmatif !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe5a</ref>
         </refs>
-        <data>Rush: Nous devrions attendre notre nouvelle
-Impératrice.
-Elle ne va pas tarder !
-Es-tu vraiment heureux ?[end]</data>
+        <data>Rush: Il ne reste plus qu'à attendre Yoyo,qui va devenir reine de Kana !! Mais dis... Byuu. Tu es vraiment content ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe5e</ref>
         </refs>
-        <data> Je suis heureux...
- Tu as un autre sentiment que le mien.[end1]</data>
+        <data> Bien sûr que je suis content
+ Je ressens peut-être comme toi...[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xe6e</ref>
         </refs>
-        <data>Qui sait,nous rencontrerons peut-être,
-un jour,une femme aussi belle que
-[character][0x1]![end]</data>
+        <data>Yoyo... c'est comme si elle partait là où on ne pourra plus l'atteindre...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe68</ref>
         </refs>
-        <data>De toute manière,c'est la Restauration
-de Kana.
-Alors,ne pensons plus à ça ![end]</data>
+        <data>Je vois... C'est la Restauration de Kana,après tout...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe78</ref>
         </refs>
-        <data>Truth: Bikebake a encore transporté ses
-champignons quelque part.
-Le cours des champignons a chuté,
-il y a quelque temps.
-Est-il inquiet pour cela ?[end]</data>
+        <data>Truth: Bikebake est parti quelque part avec ses champignons... Ces derniers temps,il a réduit ses dépenses de nourriture et il a maigri... Aurait-il des soucis ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xdc6</ref>
         </refs>
-        <data>Taicho: Matelite fait le timide car il prépare
-un grand évènement pour ce soir ![end]</data>
+        <data>Taicho: Matelite... boudait,affirmatif... alors que c'est le soir de la Restauration de Kana...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xdd0</ref>
         </refs>
-        <data>Peut-être devrais-tu aller parler à
-Matelite ?[end]</data>
+        <data>Matelite... a dû être blessé par tes paroles,Byuu,affirmatif !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe3c</ref>
         </refs>
-        <data>Barclay: Matelite ?
-Il est probablement là-bas ![end]</data>
+        <data>Barclay: Matelite... ne serait-il pas...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe40</ref>
         </refs>
-        <data> Probablement là-bas... où ?
- En train de s'entraîner ?[end1]</data>
+        <data> Ne serait-il pas... quoi ?
+ Ça se pourrait bien[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xe4a</ref>
         </refs>
-        <data>Il doit sûrement être en train de
-vendre des armures ou des haches
-avec son autographe.
-Quels seront ses bénéfices ?
-J'aimerais bien le savoir !
+        <data>Au fait,pourquoi croyez-vous que Matelite s'est mis à vendre des armures et des haches dédicacées ?
  
-Au fait,j'ai donné tout mon argent
-pour la reconstruction du château de
-Kana.
-Être à la rue est sûrement ce qui
-m'attend si nous perdons la guerre.
-Par contre,si nous la gagnons,
-les nouveaux bâtiments seront
-étincelants.
-Par conséquent,une bonne fin m'évitera
-la chute ![end]</data>
+En vérité... c'était pour reconstruire de sa poche le château de Kana en ruine. Mais voilà... en arrivant,il a trouvé ça.
+ 
+Tout neuf,tout brillant...
+ 
+Il en est tout abattu.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe53</ref>
         </refs>
-        <data>Barclay: Le Général Palparos va faire commencer
-les travaux pour le château de Kana !
-Matelite est pour l'instant un peu
-pauvre pour ça...[end]</data>
+        <data>Barclay: Apparemment... c'est le Général Palparos qui a fait réparer le château de Kana... Et puis,vous savez... Matelite est fauché...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe28</ref>
         </refs>
-        <data>Sendak: Je me sens fort pour un vieil homme !
-Oui et même très puissant[0xd8]
-``Chuchotement''
-J'entends la voix des Dragons Sacrés !
-Tout n'est pas encore fini !
-La Nouvelle Ère n'est pas encore
-venue...
+        <data>Sendak: Je suis un vieux costaud !! Non,un vieux costaud,affirmatif !! (Psst... psst...)
  
-Ces propos me rendent très inquiet.
-Que veulent-ils dire ?[end]</data>
+Les Dragons Sacrés ont une voix effrayante... [0xaa]Ce n'est pas fini...[0xab] [0xaa]La Nouvelle Ère n'est pas encore venue...[0xab] Des trucs comme ça... Ça m'embête qu'ils me le disent à moi...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xda6</ref>
         </refs>
-        <data>Frederica: Les sorcières ne sont pas des filles
-promises à tous !
-Je dois dire que tout le monde ne le
-sait pas.
-Rien ne te semble étrange ?[end]</data>
+        <data>Frederica: Toutes les filles Mages ont fait une promesse à leur petit ami,paraît-il. C'est chouette... Elles ont toutes quelqu'un qui les attend... Mais vous ne trouvez pas ça bizarre ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xdaa</ref>
         </refs>
-        <data> Tu es inquiète ?
- Pas d'inquiétude...[end1]</data>
+        <data> Quelque chose te tracasse ?
+ T'en fais pas[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xdbe</ref>
         </refs>
-        <data>Ekaterina n'est pas le genre de fille
-à se jeter dans les bras d'un inconnu !
-Tu verras,dans peu de temps,elle sera
-de nouveau seule !
-Moi,pessimiste ? Nonnnnnn ![end]</data>
+        <data>Ekaterina,un petit ami ? Impossible !!
+ 
+Elle se fait toujours éconduire. À qui la faute,je me demande... ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xdb8</ref>
         </refs>
-        <data>Anastasia,elle,est depuis peu une amie
-très intime de Barclay.
-Bientôt un vieux couple !
-Moi ?! Eh bien,je suis seule ![end]</data>
+        <data>Anastasia... alors qu'elle s'entend si bien avec Barclay,ces temps-ci. C'est sûrement un ancien amour ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd85</ref>
         </refs>
-        <data>Frunze à Reeve: Lan... Lan... Lancier[0xd8]
-Jetons les lances...[end]</data>
+        <data>Frunze et Reeve: Snif... Lan,lan... Lanciers !! Même de loin,on pique,on pique... snif...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd89</ref>
         </refs>
-        <data> Vous êtes de nouveaux amis ?
- Que se passe-t-il,ici ?[end1]</data>
+        <data> Pourquoi ces snif... snif... ?
+ Les laisser tranquilles[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xd99</ref>
         </refs>
-        <data>Nous sommes enfin revenus à Kana,
-notre patrie,le lieu où nous étions
-devenus amis.
-Mais nous ne sommes toujours pas
-réconciliés.
- 
-Nous étions d'inséparables amis mais
-c'était avant !
-Dorénavant,tout est fini ![end]</data>
+        <data>Il m'a dit qu'au moins tant qu'on serait chez nous,à Kana,on redeviendrait amis comme avant !! Mais... cette amitié aussi est fausse. On fait juste semblant d'être amis... C'est pour la galerie,devant nos anciens camarades... Ça finira vite... Snif... Snirf...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xdd9</ref>
         </refs>
-        <data>Te voilà !
-C'est moi,le Grand Père Dragon !
-On se sent si prééminent en s'asseyant
-sur le trône du Roi de Kana !
-C'est vraiment ce qui fait la réputation
-de Kana.[end]</data>
+        <data>Ohé ohé !!
+ 
+C'est moi... le Père Dragon !!
+ 
+Le célèbre trône royal de Kana,où nul n'a le droit de s'asseoir,est d'un confort inouï.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xdff</ref>
         </refs>
-        <data>Kana est enfin libre,
-c'est la Restauration[0xd8]
+        <data>Félicitations pour la Restauration de Kana !!
  
-J'ai,à l'extérieur,un Gros Présent
-pour toi !
+Dehors,il y a un gros cadeau de ma part !!
  
-Allez,allez !
-Sortons,sortons[0xd8][end]</data>
+Allez... viens,viens !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x313</ref>
         </refs>
-        <data>Taicho: [character][0x1] va arriver !
-[character][0x0],va à ta place ![end]</data>
+        <data>Taicho: Yoyo arrive,affirmatif ! Byuu,mets-toi en rang toi aussi !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x434</ref>
         </refs>
-        <data>[character][0x1]: Et Matelite ?!
-Quelque chose ne va pas ?[end]</data>
+        <data>Yoyo: Et Matelite... qu'est-il devenu ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x441</ref>
         </refs>
-        <data>Taicho: Matelite a disparu[0xd8]
+        <data>Taicho: Matelite est porté disparu,affirmatif !! Peu importe,affirmatif !!
  
-La nuit de la Restauration de Kana
-est une chose importante pour lui.
-Il faut le laisser seul ![end]</data>
+Il n'est même pas là le soir de la Restauration de Kana,au moment le plus important...
+ 
+Laissons-le !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x44e</ref>
         </refs>
-        <data>[character][0x1]: Matelite,où es-tu ?[end]</data>
+        <data>Yoyo: ...Matelite... où es-tu...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x461</ref>
         </refs>
-        <data>Écoutez-moi,s'il vous plaît.
+        <data>Byuu... Sendak... Vous tous... écoutez-moi. Aujourd'hui... ici...
  
-  
-C'est aujourd'hui,en ce lieu,que
-j'annonce la Restauration de notre
-patrie:Kana !
-Une véritable Restauration !
-Mon père étant mort,je suis donc la
-nouvelle Impératrice de Kana ![end]</data>
+dans ce cher château de Kana... je proclame la Restauration de Kana.
+ 
+Oui...
+ 
+je... je deviendrai reine de Kana.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x46a</ref>
         </refs>
-        <data>Mais en pensant aux souvenirs du Roi
-de Kana et de son peuple,je dois
-avouer que le temps n'est pas encore
-pour moi d'accéder au trône.[end]</data>
+        <data>Mais... je ne me sens pas encore digne de ce trône royal.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x46e</ref>
         </refs>
-        <data>Ce n'est pas pour autant que je n'ai
-pas réfléchi à notre avenir.
+        <data>Toute la journée,j'ai réfléchi... à notre avenir...
  
-Nous sommes maintenant l'Armée de
-la Restauration de Kana...
-Non !
-Nous sommes maintenant l'Armée de
-Libération d'Orelus ![end]</data>
+L'armée de restauration de Kana... non... l'armée de libération d'Orelus.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x47e</ref>
         </refs>
-        <data>J'ai longuement discuté avec le Général
-Palparos qui nous vient tout droit de
-l'Empire !
-Voici ce que j'ai décidé...[end]</data>
+        <data>J'en ai parlé en tête-à-tête avec le Général Palparos,qui nous a rejoints en quittant l'Empire Granbelos... Et j'ai pris ma décision.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x492</ref>
         </refs>
-        <data>Nous ne devons surtout pas arrêter le
-combat ![end]</data>
+        <data>Nous devons continuer à nous battre.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x49b</ref>
         </refs>
-        <data>Bien que Kana soit restaurée,
-de nombreux lagons sont encore sous
-domination impériale.
-Nous devons les libérer !
-Toutefois,ce ne sera pas la fin de
-notre combat ![end]</data>
+        <data>Kana est restaurée et de nombreux lagons ont été libérés du joug de l'Empire Granbelos. Mais... ce n'est pas encore fini.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4a4</ref>
         </refs>
-        <data>Seule une victoire définitive et
-l'instauration d'une paix durable
-signifieront la fin de notre quête ![end]</data>
+        <data>La vraie paix... se gagne en combattant...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4ad</ref>
         </refs>
-        <data>Le Monde d'Orelus...
-Le Ciel d'Orelus...
-Une véritable paix !
-Voilà ce que sera la Nouvelle Ère !
-Jusqu'à ce que cet instant arrive,
-nous continuerons à livrer bataille !
-Dressons-nous,brandissons nos armes
-et ce pour la Liberté !
- 
-Me suivrez-vous Taicho,
-Capitaine de la Cavalerie de Mahal ?[end]</data>
+        <data>Dans le monde d'Orelus... dans ce ciel... jusqu'à l'avènement d'une ère digne d'être appelée paix véritable,nous n'avons d'autre choix que de continuer à nous battre. N'est-ce pas... Taicho,capitaine des chevaliers de Mahal ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4c6</ref>
         </refs>
-        <data>Taicho: Je vous suivrai Impératrice[0xd8]
+        <data>Taicho: Affirmatif !!
  
-Et Matelite aurait été ravi d'entendre
-un tel discours ![end]</data>
+J'aurais voulu que Matelite entende ça,affirmatif !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4d9</ref>
         </refs>
-        <data>[character][0x1]: Matelite,nous avons tant de souvenirs
-à partager...
-Sendak,mon noble et puissant sorcier,
-soutiendras-tu mes idéaux ?
-Les Dragons Sacrés sont à nos côtés !
-Continueras-tu à nous aider ?[end]</data>
+        <data>Je suis sûre que Matelite pense comme moi.
+ 
+Ça ira... Sendak ?
+ 
+Les Dragons Sacrés sont avec nous. Même si c'est dur,tu pourras continuer à te battre ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4f7</ref>
         </refs>
-        <data>Sendak: M... moi,un puissant sorcier !
-Mais... je... pense...
-Euh... n'importe quoi...
-Oui,je vous aiderai ![end]</data>
+        <data>Sendak: J... je suis un vieux costaud... !! Je ne vais plus tergiverser... enfin,je crois...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x51c</ref>
         </refs>
-        <data>Rush,Truth,et tout le monde !
-Êtes-vous d'accord ?
- 
-Brandirons-nous nos armes pour une
-cause commune ?[end]</data>
+        <data>Ça ira... Rush,Truth... Vous tous. Vous combattrez à mes côtés ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x536</ref>
         </refs>
-        <data>Rush: Nous le ferons[0xd8][end]</data>
+        <data>Rush: On y va !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x550</ref>
         </refs>
-        <data>Truth: Nous combattrons ensemble,
-Impératrice [character][0x1]![end]</data>
+        <data>Truth: Combattons ensemble... Princesse Yoyo !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x585</ref>
         </refs>
-        <data>[character][0x1]: Et toi... [character][0x0]?
- 
-Livreras-tu bataille pour une Ère
-Nouvelle ?![end]</data>
+        <data>Yoyo: Byuu... toi aussi.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x589</ref>
         </refs>
-        <data> Je combattrai pour cette ère !
- Je suis perplexe...[end1]</data>
+        <data> Combattons pour la Nouvelle Ère !!
+ J'hésite... que répondre...[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x595</ref>
         </refs>
-        <data>Tu es perplexe...
-Tu es inquiet...
-Ouvre donc ton coeur...
-Rejoins notre combat...
-Montre-nous ton courage,ta force et
-ta valeur ![end]</data>
+        <data>Hésiter... douter... et surmonter tout cela... c'est ça,se battre...
+ 
+c'est ça,devenir fort...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x599</ref>
         </refs>
-        <data>[character][0x0],nous sommes ensemble depuis le
-commencement et maintenant,nous tous,
-nous triompherons ![end]</data>
+        <data>Byuu... tu m'as si souvent redonné courage.
+ 
+Désormais,mène-nous tous... mène-nous à la victoire.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5a9</ref>
         </refs>
-        <data>Il y a une chose de plus que
-j'aimerais vous annoncer !
+        <data>Je ne vous l'ai pas encore présenté comme il se doit...
+ 
 Le Général Palparos...
-Bien qu'il vienne de l'Empire et qu'il
-ait été le bras droit de Sauzer,
-il est notre ami ![end]</data>
+ 
+Il a abandonné l'Empire... et l'Empereur Sauzer,pour devenir notre nouveau compagnon...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5b9</ref>
         </refs>
-        <data>L'Empereur Sauzer est tombé malade
-après avoir connu le coeur des
-Dragons Sacrés.
-Palparos était donc libre et a décidé
-de nous rejoindre !
+        <data>L'Empereur Sauzer a connu le coeur des Dragons Sacrés,et il est tombé gravement malade...
  
-Il a aussi décidé de secourir le ciel
-d'Orelus des monstres venant du monde
-du trou noir.[end]</data>
+Et il a rendu sa liberté au Général Palparos.
+ 
+Tout cela pour protéger le ciel d'Orelus... de ces monstres venus d'un autre monde...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5c6</ref>
         </refs>
-        <data>Palparos: L'Empire est maintenant sous l'influence
-politique du Général Gudolf !
-Il utilisera toutes les forces possibles
-pour mener son peuple à la victoire.[end]</data>
+        <data>Palparos: Tôt ou tard,c'est le Général Gudolf qui prendra le pouvoir dans l'Empire... Gudolf est prêt à tout pour gagner... non,pour soumettre les gens par la force...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5d9</ref>
         </refs>
-        <data>Mais le cours du temps va changer:
-la Nouvelle Ère se présente à nous.
-Alors,prenons-la[0xd8]
-La Légende des Dragons Sacrés se
-finira par notre victoire ![end]</data>
+        <data>Il faut changer le cours de l'histoire qui s'est mis en marche...
+ 
+Il est encore temps !!
+ 
+La légende des Dragons Sacrés... c'est nous qui en écrirons la fin !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5e9</ref>
         </refs>
-        <data>[character][0x1]: C'est ainsi que j'annonce en ces lieux
-la Restauration de Kana !
-Et le commencement de notre nouveau
-combat ![end]</data>
+        <data>Yoyo: Je proclame ici...
+ 
+la Restauration de Kana !!
+ 
+Et... le début d'un nouveau combat !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x616</ref>
         </refs>
-        <data>monyo[0xd8]
-``voici le service des messages[0xd8]''[end]</data>
+        <data>Monyooo !!
+(Livraison !!)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x629</ref>
         </refs>
-        <data>manyo[0xd8]
-``et je suis la seconde[0xd8]''[end]</data>
+        <data>Manyooo !!
+(C'est déjà payé !!)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x63c</ref>
         </refs>
-        <data>munyo[0xd8]
-``et je suis l'expéditrice !''[end]</data>
+        <data>Munyooo !!
+(L'expéditeur,c'est secret !)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x64f</ref>
         </refs>
-        <data>Melody[0xd8]
-``L'amie des Petits Démons
- est fatiguée...''[end]</data>
+        <data>Melodyyy !!
+(C'est fatigant,d'être l'amie des Diablotins...)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x65e</ref>
         </refs>
-        <data>monyo monyo[0xd8]
-``edition de luxe des
- petits démons[0xd8]''[end]</data>
+        <data>Monyo monyo !!
+(La Danse des Diablotins,édition de luxe !!)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x66d</ref>
         </refs>
-        <data>manyo manyo[0xd8]
-``les démons commencent à danser[0xd8]''[end]</data>
+        <data>Manyo manyo !!
+(Que le bal des démons commence !!)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x67c</ref>
         </refs>
-        <data>munyo munyo munyo[0xd8]
-``cette nuit nous danserons[0xd8]''[end]</data>
+        <data>Munyo munyo munyo !!
+(Dansons toute la nuit !!)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x68b</ref>
         </refs>
-        <data>mélo mélo[0xd8]
-``les petits démons vous
- amuseront bien[0xd8]''[end]</data>
+        <data>Mélo mélo !!
+(Les Diablotins ont eu plein de pourboires,ils sont de bonne humeur !!)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6de</ref>
         </refs>
-        <data>[character][0x1]: Cette nuit est et restera la nuit de
-la Restauration de Kana !
-Amusons-nous tous !
-Et toi,[character][0x0],seras-tu là cette nuit ?[end]</data>
+        <data>Yoyo: Ce soir,c'est la nuit de la Restauration de Kana !! Amusons-nous tous !! Au fait... Byuu. Que vas-tu faire ce soir ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6e2</ref>
         </refs>
-        <data> Je serai là...
- Nous nous amuserons ![end1]</data>
+        <data> Ce soir,on reste sage
+ Ce soir,on fait la fête !![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x6f1</ref>
         </refs>
-        <data>Très bien !
-Cette nuit,nous danserons et nous
-nous amuserons.[end]</data>
+        <data>C'est vrai... Ce soir,profitons sagement de la danse.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6fe</ref>
         </refs>
-        <data>Cette nuit,nous danserons tous et
-nous nous amuserons ![end]</data>
+        <data>D'accord... Ce soir,dansons tous comme il nous plaira !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x738</ref>
         </refs>
-        <data>monyo monyo...
-``parler la nuit !
- les êtres humains rêvent...''[end]</data>
+        <data>Monyo monyo...
+(Ce soir,on n'a pas assez parlé... ô humains rêveurs...)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x748</ref>
         </refs>
-        <data>manyo manyo...
-``vraie Paix...
- c'est un rêve éternel...''[end]</data>
+        <data>Manyo manyo...
+(La vraie paix... c'est une éternelle chimère.)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x758</ref>
         </refs>
-        <data>munyo munyo...
-``ici danger...
- nous vivre...''[end]</data>
+        <data>Munyo munyo...
+(Ce serait dangereux... Si ça arrivait... nous,les démons,on ne pourrait plus vivre...)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x767</ref>
         </refs>
-        <data>monyo[0xd8]
-``il y a de l'espoir dans le
- mal...''[end]</data>
+        <data>Monyooo !!
+(Mais bon... avoir de l'espoir,ce n'est pas un mal... C'est ça,être humain,non...)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x776</ref>
         </refs>
-        <data>manyo[0xd8]
-``êtres humains dans le noir...
- vous dans le noir...''[end]</data>
+        <data>Manyooo !!
+(Chers humains... nous,les démons,on ne disparaîtra pas. Vous non plus,hein.)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x785</ref>
         </refs>
-        <data>munyo[0xd8]
-``la danse continue[0xd8]
- humain penser ! danser[0xd8]''[end]</data>
+        <data>Munyooo !!
+(Continuez à danser !! Humains,ne pensez pas ! Dansez !!)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9ea</ref>
         </refs>
-        <data>Matelite: [character][0x1]!
-C'est moi,Matelite !
-Au plus haut de Kana !
-Ce soir,je vais rendre heureux tout
-le monde.
-Même le ciel sera ravi !
-Regardez ces pétales briller dans le
-ciel de la nuit !
-Mais ce ne sera jamais assez pour
-vous !
+        <data>Matelite: Princesse Yoyo !! C'est moi,Matelite !! Vive Kana !!
  
-[character][0x1],c'est tout ce que je peux faire.
-... ... ... ...
-Amusez-vous !
-Voici le feu d'artifice !
-Regardez,s'il vous plaît !
+Si cela peut vous faire plaisir,Princesse...
  
-Merci !
-Merci à tous ![end]</data>
+je danserais même dans le ciel !!
+ 
+Je ferais même fleurir le ciel nocturne !!
+ 
+Et ce ne serait pas encore assez...
+ 
+Princesse Yoyo... Si seulement j'étais plus fort...
+ 
+...
+ 
+Ce n'est rien !!
+ 
+Mon feu d'artifice signé Matelite !! Admirez-le !!
+ 
+Vous tous !! Merci !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x77</ref>
         </refs>
-        <data>       Puis,la fête prit fin...
+        <data>             La nuit avançait...
  
-  
-     Mais [0xb1] personnes dansèrent
-              encore...[end]</data>
+          Une danse,rien qu'à deux...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa3</ref>
         </refs>
-        <data>Matelite: [character][0x1] est-elle... élégante ?[end]</data>
+        <data>Matelite: ...Yoyo... s'est-elle montrée à la hauteur... ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xba</ref>
         </refs>
-        <data>Taicho: Elle est élégante et elle est puissante...[end]</data>
+        <data>Taicho: Elle a été digne,affirmatif... Elle est devenue forte,affirmatif...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd1</ref>
         </refs>
-        <data>Matelite: [character][0x1] est-elle... magnifique ?[end]</data>
+        <data>Matelite: ...Yoyo... était-elle belle... ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe8</ref>
         </refs>
-        <data>Taicho: Elle est splendide puisqu'elle porte la
-robe que lui a donnée Matelite ![end]</data>
+        <data>Taicho: Elle était magnifique,affirmatif...
+ 
+Votre robe,Matelite... lui allait à merveille.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xff</ref>
         </refs>
-        <data>Matelite: [character][0x1] est-elle... heureuse ?[end]</data>
+        <data>Matelite: ...Yoyo... avait-elle l'air heureuse... ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x116</ref>
         </refs>
-        <data>Taicho: Elle était malheureuse car Matelite
-n'était pas là ![end]</data>
+        <data>Taicho: Vous n'étiez pas là,Matelite,alors elle avait l'air un peu triste...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x128</ref>
         </refs>
-        <data>Matelite: [character][0x1]...[end]</data>
+        <data>Matelite: ...Yoyo... ...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x13a</ref>
         </refs>
-        <data>Taicho: Tout va bien,Matelite...
-Tout va bien...[end]</data>
+        <data>Taicho: Là,là... affirmatif...[end]</data>
     </text>
 </texts>
