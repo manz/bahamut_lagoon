@@ -640,14 +640,14 @@ Expliquer les formations ?![end]</data>
         <data>Taicho: Tout d'abord,il faut éliminer les
 mauvaises [0xaa]formations[0xab].
 Les meilleures [0xaa]formations[0xab] seront
-favorables à l'ensemble de l'équipe.[end]</data>
+favorables à l'ensemble de l'escouade.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1338</ref>
         </refs>
         <data>Modifier la [0xaa]formation[0xab] d'une de tes
-équipes te permet de compenser ses
+escouades te permet de compenser ses
 points faibles.[end]</data>
     </text>
     <text>
@@ -655,13 +655,13 @@ points faibles.[end]</data>
             <ref>0x136a</ref>
             <ref>0x13e4</ref>
         </refs>
-        <data>Par exemple,cette équipe...[end]</data>
+        <data>Par exemple,cette escouade...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x137a</ref>
         </refs>
-        <data>Cette équipe est composée de
+        <data>Cette escouade est composée de
 nombreuses Armures Lourdes.
  
 Ainsi,elle a une grande défense mais
@@ -709,7 +709,7 @@ plusieurs caractéristiques.[end]</data>
         <refs>
             <ref>0x1415</ref>
         </refs>
-        <data>Prenons cette équipe...[end]</data>
+        <data>Prenons cette escouade...[end]</data>
     </text>
     <text>
         <refs>

@@ -21,7 +21,7 @@
     <string address="0xc0eef1" jp="テンポラリ-にセ-ブしました." refs="0xc036fe" count="0xc03701">Sauvegarde rapide faite.</string>
     <string address="0xc0efdc" jp="懐用不可です." refs="0xc0370a" count="0xc03701">Utilisation impossible.</string>
     <string address="0xc0ef10" jp="プレイヤ-フェイズを終了します." refs="0xc036a3" count="0xc036a6">Fin de la phase du joueur.</string>
-    <string address="0xc0ef37" jp="このパ-ティ-と戦いますか?" refs="0xc09c2c" count="0xc09c2f">Combattre ce groupe ?</string>
+    <string address="0xc0ef37" jp="このパ-ティ-と戦いますか?" refs="0xc09c2c" count="0xc09c2f">Combattre cette escouade ?</string>
     <string address="0xc0ef48" jp="輻動先を指定してください." refs="0xc0932d" count="0xc09330">Choisissez la destination.</string>
     <string address="0xc0ef5a" jp="謹物による回復" refs="0xc08e4c" count="0xc08e4f">Soins par remède</string>
     <string address="0xc0ef65" jp="毒のダメ-ジ" refs="0xc08b58" count="0xc08b8b">Dégâts du poison</string>
@@ -29,7 +29,7 @@
     <string address="0xc0efee" jp="漕岩のダメ-ジ" refs="0xc08b7e" count="0xc08b8b">Dégâts de la lave</string>
     <string address="0xc0ef9e" jp="アイテムを入手しました." refs="0xc061d6" count="0xc08b8b">Objet obtenu.</string>
     <string address="0xc0efad" jp="お金を入手しました." refs="0xc061c3" count="0xc08b8b">Piro obtenus.</string>
-    <string address="0xc0ef83" jp="パ-ティ-の経験値十" refs="0xc0a70c" digits="0xc0a71b">Expérience du groupe : </string>
+    <string address="0xc0ef83" jp="パ-ティ-の経験値十" refs="0xc0a70c" digits="0xc0a71b">Expérience d'escouade : </string>
     <string address="0xc0ef91" jp="全員の経験値十" refs="0xc08861" digits="0xc08884">Expérience de tous : </string>
     <string address="0xc0efbc" jp="に進化しました." refs="0xc0a7bc"> : nouvelle forme !</string>
     <string address="0xc0efe7" jp="を入手." refs="0xc07739"> obtenu.</string>
