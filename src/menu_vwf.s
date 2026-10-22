@@ -100,6 +100,7 @@ _BG3_MAP_VRAM = 0x4800
 _BG3_MAP_BYTES = 0x1000
 _PRESENT_WAIT = 0x1800  ; tries, ~5 frames, a draw waits for a lag NMI's present
 _MAX_CELLS = 12  ; small_vwf's
+_PLACES = 8  ; the cells a run keeps track of being drawn at
 _MAX_CHARS = 16  ; small_vwf's
 _RECORD = 8  ; the name records draw_fixed_name draws, an item's past its icon
 
@@ -168,6 +169,19 @@ _RECORD = 8  ; the name records draw_fixed_name draws, an item's past its icon
 }
 
 .reserve menu_present as MenuPresent in sram_work
+
+; indexed: nonzero once first_of and place describe the runs (zero after a screen's setup, or in a savestate from an
+; older build): the next draw rebuilds them. first_of: by slot, the run whose first slot it is, plus 1 (0: none).
+; place: by run, the cells it was drawn at, plus 1 (0: none); sticky: nonzero for a run drawn at more cells than its
+; places, kept until the next screen.
+.struct MenuRuns {
+    word indexed
+    byte[_BG3_SLOTS] first_of
+    word[_BG3_RUNS * _PLACES] place
+    byte[_BG3_RUNS] sticky
+}
+
+.reserve menu_runs as MenuRuns in sram_c1  ; sram_work and sram_menu are full
 
 
 ; draw_fixed_name: php / phb / phx / sep #0x20.
@@ -326,6 +340,7 @@ _forget_slot:
     lda.w #0x0000
     sta.l menu.bg3_next
     sta.l menu_present.retired
+    sta.l menu_runs.indexed
     plx
     pla
     plp
@@ -966,6 +981,7 @@ runs the shadow no longer shows (a page turned) are retired, then freed by a pre
 taken one by one.
 """
     rep #0x30
+    jsr.w _index_runs
     jsr.w _settle_bg3
     jsr.w _find_bg3_run
     bcs _have_run
@@ -977,6 +993,7 @@ taken one by one.
     bcs _have_run
     jmp.w _draw_plain_cells
 _have_run:
+    jsr.w _place_run
     lda.w #0x0000
     sta.l menu.index
 _bg3_cell:
@@ -1024,35 +1041,15 @@ eight codes covers a field wider than its full name, whose blanks would wipe a n
     and.w #0x03FF
     jsr.w _code_slot
     bcc _no_name
-    sta.l menu.tile
-    ldx.w #_BG3_RUNS - 1
-_first_slot:
-    sep #0x20
-    lda.l menu.run_bank, x
-    rep #0x20
-    beq _next_first_slot
-    phx
-    txa
-    asl
-    asl
-    sta.l menu.tries  ; run * 4
-    asl
-    clc
-    adc.l menu.tries  ; run * 12
     tax
-    lda.l menu.run_slots, x
-    plx
-    and.w #0x00FF
-    cmp.l menu.tile
-    beq _name_starts
-_next_first_slot:
-    dex
-    bpl _first_slot
+    sep #0x20
+    lda.l menu_runs.first_of, x
+    rep #0x20
+    beq _no_name
+    sec
+    rts
 _no_name:
     clc
-    rts
-_name_starts:
-    sec
     rts
 
 _run_slot:
@@ -1377,83 +1374,260 @@ _font_slot3:
     jmp.w _ring_queue
 
 _collect_bg3:
-"""Mark the slots the BG3 shadow shows, then free every run showing none of its slots, retiring the slots."""
+"""Free every run that none of the cells it was drawn at shows any more, retiring its slots."""
     jsr.w _settle_bg3  ; the retired slots share one present
-    ldx.w #_BG3_SLOTS - 1
-    sep #0x20
-    lda #0x00
-_unmark:
-    sta.l menu.bg3_shown, x
-    dex
-    bpl _unmark
-    rep #0x20
-    phb
-    pea.w ( _SHADOW >> 16 ) * 0x0101
-    plb
-    plb
-    ldy.w #( _BG3_SHOWN_CELLS - 1 ) * 2
-_scan_cell:
-    lda.w _SHADOW & 0xFFFF, y
-    and.w #0x03FF
-    asl
-    tax
-    lda.l _tile_slots, x
-    bmi _not_slot
-    tax
-    sep #0x20
-    lda #0x01
-    sta.l menu.bg3_shown, x
-    rep #0x20
-_not_slot:
-    dey
-    dey
-    bpl _scan_cell
-    plb
     ldx.w #_BG3_RUNS - 1
 _check_run:
     txa
     sta.l menu.run  ; before the free test: _next_run3 steps down from it
     sep #0x20
     lda.l menu.run_bank, x
-    rep #0x20
     beq _next_run3
-    jsr.w _run_shown
+    lda.l menu_runs.sticky, x
+    bne _next_run3
+    rep #0x20
+    jsr.w _run_placed
     bcs _next_run3
     jsr.w _free_run3
 _next_run3:
+    rep #0x20
     lda.l menu.run
     tax
     dex
     bpl _check_run
     rts
 
-_run_shown:
-"""Carry set when a slot of run menu.run is marked shown. Keeps menu.run."""
+_run_placed:
+"""Carry set when a cell run menu.run was drawn at still shows it; the places that no longer do are dropped."""
+    jsr.w _places
+_place_check:
+    lda.l menu_runs.place, x
+    beq _place_next
+    dec
+    jsr.w _place_shows
+    bcs _placed
+    lda.w #0x0000
+    sta.l menu_runs.place, x
+_place_next:
+    inx
+    inx
+    txa
+    cmp.l menu.tries
+    bcc _place_check
+    clc
+_placed:
+    rts
+
+_places:
+"""X: run menu.run's first place; menu.tries: past its last."""
+    lda.l menu.run
+    asl
+    asl
+    asl
+    asl  ; * _PLACES * 2
+    tax
+    clc
+    adc.w #_PLACES * 2
+    sta.l menu.tries
+    rts
+
+_place_shows:
+"""Carry set when one of run menu.run's slots shows in its cell from shadow cell A on. Keeps X."""
+    phx
+    tay  ; Y: the cell
     lda.w #0x0000
     sta.l menu.index
-_shown_slot:
+_place_cell:
     lda.l menu.run
     tax
     lda.l menu.index
     sep #0x20
     cmp.l menu.run_cells, x
     rep #0x20
-    bcs _none_shown
+    bcs _place_gone
     jsr.w _run_slot
-    tax
-    sep #0x20
-    lda.l menu.bg3_shown, x
-    rep #0x20
-    bne _some_shown
+    sta.l menu.tile
+    tyx
+    lda.l _SHADOW, x
+    and.w #0x03FF
+    jsr.w _code_slot
+    bcc _place_next_cell
+    cmp.l menu.tile
+    beq _place_seen
+_place_next_cell:
+    iny
+    iny
     lda.l menu.index
     inc
     sta.l menu.index
-    bra _shown_slot
-_some_shown:
+    bra _place_cell
+_place_seen:
+    plx
     sec
     rts
-_none_shown:
+_place_gone:
+    plx
     clc
+    rts
+
+_place_run:
+"""Run menu.run, about to draw at the text cursor: its first slot noted, the cell added to its places."""
+    lda.w #0x0000
+    sta.l menu.index
+    jsr.w _run_slot
+    tax
+    lda.l menu.run
+    inc
+    sep #0x20
+    sta.l menu_runs.first_of, x
+    rep #0x20
+    lda.l _TEXT_CURSOR
+    jmp.w _place_at
+
+_place_at:
+"""Add shadow cell A to run menu.run's places; with none left, the run sticks until the next screen."""
+    inc
+    sta.l menu.tile  ; the place
+    jsr.w _places
+    ldy.w #0xFFFF  ; the first free place
+_place_find:
+    lda.l menu_runs.place, x
+    beq _place_free
+    cmp.l menu.tile
+    beq _place_known
+    bra _place_on
+_place_free:
+    cpy.w #0xFFFF
+    bne _place_on
+    txy
+_place_on:
+    inx
+    inx
+    txa
+    cmp.l menu.tries
+    bcc _place_find
+    cpy.w #0xFFFF
+    beq _places_full
+    tyx
+    lda.l menu.tile
+    sta.l menu_runs.place, x
+_place_known:
+    rts
+_places_full:
+    lda.l menu.run
+    tax
+    sep #0x20
+    lda #0x01
+    sta.l menu_runs.sticky, x
+    rep #0x20
+    rts
+
+_unplace_run:
+"""Run menu.run, freed: no slot of it a first, no places, not sticky."""
+    lda.w #0x0000
+    sta.l menu.index
+    jsr.w _run_slot
+    tax
+    sep #0x20
+    lda #0x00
+    sta.l menu_runs.first_of, x
+    lda.l menu.run
+    tax
+    lda #0x00
+    sta.l menu_runs.sticky, x
+    rep #0x20
+    jsr.w _places
+_unplace:
+    lda.w #0x0000
+    sta.l menu_runs.place, x
+    inx
+    inx
+    txa
+    cmp.l menu.tries
+    bcc _unplace
+    rts
+
+_index_runs:
+"""
+Rebuild first_of and the places when a screen's setup or an older savestate left them unknown: each live run's
+first slot, and the shadow cells showing one.
+"""
+    lda.l menu_runs.indexed
+    beq _index
+    rts
+_index:
+    sep #0x20
+    lda #0x00
+    ldx.w #_BG3_SLOTS - 1
+_index_clear_first:
+    sta.l menu_runs.first_of, x
+    dex
+    bpl _index_clear_first
+    ldx.w #_BG3_RUNS - 1
+_index_clear_sticky:
+    sta.l menu_runs.sticky, x
+    dex
+    bpl _index_clear_sticky
+    rep #0x20
+    lda.w #0x0000
+    ldx.w #( _BG3_RUNS * _PLACES - 1 ) * 2
+_index_clear_place:
+    sta.l menu_runs.place, x
+    dex
+    dex
+    bpl _index_clear_place
+    sta.l menu.count  ; nonzero once a run is live
+    ldx.w #_BG3_RUNS - 1
+_index_run:
+    txa
+    sta.l menu.run
+    sep #0x20
+    lda.l menu.run_bank, x
+    rep #0x20
+    beq _index_next_run
+    lda.w #0x0000
+    sta.l menu.index
+    jsr.w _run_slot
+    tax
+    lda.l menu.run
+    inc
+    sta.l menu.count
+    sep #0x20
+    sta.l menu_runs.first_of, x
+    rep #0x20
+_index_next_run:
+    lda.l menu.run
+    tax
+    dex
+    bpl _index_run
+    lda.l menu.count
+    beq _index_done
+    ldy.w #( _BG3_SHOWN_CELLS - 1 ) * 2
+_index_cell:
+    tyx
+    lda.l _SHADOW, x
+    and.w #0x03FF
+    jsr.w _code_slot
+    bcc _index_next_cell
+    tax
+    sep #0x20
+    lda.l menu_runs.first_of, x
+    rep #0x20
+    and.w #0x00FF
+    beq _index_next_cell
+    dec
+    sta.l menu.run
+    phy
+    tya
+    jsr.w _place_at
+    ply
+_index_next_cell:
+    dey
+    dey
+    bpl _index_cell
+_index_done:
+    lda.w #0x0001
+    sta.l menu_runs.indexed
     rts
 
 _free_run3:
@@ -1479,6 +1653,7 @@ _free_slot3:
     sta.l menu.index
     bra _free_slot3
 _run3_freed:
+    jsr.w _unplace_run
     lda.l menu.run
     tax
     sep #0x20
