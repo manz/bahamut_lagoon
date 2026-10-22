@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="yes"?>
 <texts base="0x3dc" room_id="247">
-    <text window="none">
+    <text window="none" align="steps">
         <refs>
             <ref>0xa0</ref>
         </refs>
@@ -8,14 +8,14 @@
 Tout a commencé avec un homme
 qui a osé la défier...[end1]</data>
     </text>
-    <text window="none">
+    <text window="none" align="steps">
         <refs>
             <ref>0xc0</ref>
         </refs>
         <data>La guerre, la trahison,
 la légende des Dragons Sacrés...[end1]</data>
     </text>
-    <text window="none">
+    <text window="none" align="steps">
         <refs>
             <ref>0x106</ref>
         </refs>
@@ -23,7 +23,7 @@ la légende des Dragons Sacrés...[end1]</data>
 s'est ouverte, si je me souviens
 bien...[end1]</data>
     </text>
-    <text window="none">
+    <text window="none" align="steps">
         <refs>
             <ref>0x144</ref>
         </refs>
@@ -31,7 +31,7 @@ bien...[end1]</data>
 ...La liberté ?
 ...Ou bien la paix ?[end1]</data>
     </text>
-    <text window="none">
+    <text window="none" align="steps">
         <refs>
             <ref>0x182</ref>
         </refs>
@@ -39,13 +39,13 @@ bien...[end1]</data>
 nous n'avons aucun moyen de
 le savoir... ...mais...[end1]</data>
     </text>
-    <text window="none">
+    <text window="none" align="steps">
         <refs>
             <ref>0x1da</ref>
         </refs>
         <data>...mais...[end1]</data>
     </text>
-    <text window="none">
+    <text window="none" align="steps">
         <refs>
             <ref>0x1fa</ref>
         </refs>
@@ -53,7 +53,7 @@ le savoir... ...mais...[end1]</data>
 L'espoir, il faut le saisir soi-même.
 Le bonheur ne vient pas tout seul.[end1]</data>
     </text>
-    <text window="none">
+    <text window="none" align="steps">
         <refs>
             <ref>0x23e</ref>
         </refs>
@@ -61,7 +61,7 @@ Le bonheur ne vient pas tout seul.[end1]</data>
 juste parce qu'on a un peu
 faim, hein...[end1]</data>
     </text>
-    <text window="none">
+    <text window="none" align="steps">
         <refs>
             <ref>0x25e</ref>
         </refs>
@@ -69,20 +69,20 @@ faim, hein...[end1]</data>
 c'est quelque chose
 de vraiment très difficile.[end1]</data>
     </text>
-    <text window="none">
+    <text window="none" align="steps">
         <refs>
             <ref>0x27e</ref>
         </refs>
         <data>...Ça, je crois que je l'ai
 compris, un tout petit peu...[end1]</data>
     </text>
-    <text window="none">
+    <text window="none" align="steps">
         <refs>
             <ref>0x2c3</ref>
         </refs>
         <data>...Ah oui, c'est vrai.[end1]</data>
     </text>
-    <text window="none">
+    <text window="none" align="steps">
         <refs>
             <ref>0x2e3</ref>
         </refs>
@@ -90,7 +90,7 @@ compris, un tout petit peu...[end1]</data>
 de rentrer à Altair et resta
 sur les terres d'Orelus...[end1]</data>
     </text>
-    <text window="none">
+    <text window="none" align="steps">
         <refs>
             <ref>0x303</ref>
         </refs>
@@ -98,7 +98,7 @@ sur les terres d'Orelus...[end1]</data>
 jamais sur Orelus...
 pour être notre dragon gardien...[end1]</data>
     </text>
-    <text window="none">
+    <text window="none" align="steps">
         <refs>
             <ref>0x341</ref>
         </refs>
@@ -106,7 +106,7 @@ pour être notre dragon gardien...[end1]</data>
 combien de temps
 s'est-il écoulé...[end1]</data>
     </text>
-    <text window="none">
+    <text window="none" align="steps">
         <refs>
             <ref>0x37f</ref>
         </refs>

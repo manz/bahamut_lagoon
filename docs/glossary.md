@@ -164,7 +164,8 @@ against the JP text; the reason kept is the one that decided it.
 - Choice options. **Decision: set two spaces (10 px) in**, by the build (utils/dialog_layout.py OPTION_INDENT).
 - Centred text. **Decision: the script decides, not leading spaces.** A text the room script shows without a window
   (open_window 0) carries `window="none"` and the build centres each of its lines, as written; `align="left"` or
-  `align="center"` on the <text> overrides. Lines carry no leading spaces for centring.
+  `align="center"` on the <text> overrides. Lines carry no leading spaces for centring. `align="steps"` sets each
+  line of a block 10 px further in than the one before, the JP's staircase: the 0247 epilogue.
 - でアリマス. **Decision: « affirmatif » once a speech at most**, on its last sentence; none in grief.
 - ドラグナー for Yoyo. **Decision: Dragonnière**; Dragonnier stays for the class and the generic « celui qui ».
 - スロウランサー. **Decision: Lancer de lancier** (75 px). No slow status exists in the game and the lancers' range

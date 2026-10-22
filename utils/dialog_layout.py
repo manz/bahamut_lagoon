@@ -46,6 +46,8 @@ HEADING = re.compile(r"-[^ ].*-")  # "-Aller-": a heading the following lines ex
 OPTION = re.compile(r"^ +(?=\S)", re.MULTILINE)  # a choice's option: its line opens on a space
 OPTION_INDENT = "  "  # two spaces, 10 pixels: the options stand clear of the cursor
 TRAILING_TAGS = re.compile(r"(.*?)((?:\[[^\]]*\])*)", re.DOTALL)  # a line's words, then the tags closing it
+LEFT, CENTER, STEPS = "left", "center", "steps"  # a <text>'s align: as reflowed, centred, or stepped like stairs
+STEP = "  "  # 10 pixels: how much further in each line of a stepped block starts
 CENTRE_MARK = "  "  # katsuji centres a line set two spaces in
 LIST_ITEM = re.compile(r"(\d+|\[0x(af|b[0-8])\])+ ?[-.)]")  # "1- ", "[0xb0]- ": an item, a line of its own
 MARKUP = Markup(
@@ -124,15 +126,17 @@ class DialogLayout:
         """`line`'s width with every name at its default spelling: where it sits, not how wide it may grow."""
         return self.wrapper.measure(self.encode(line, self.default_names))
 
-    def reflow(self, text: str, page_lines: int | None = None, keep_lines: bool = False, centred: bool = False) -> str:
+    def reflow(self, text: str, page_lines: int | None = None, keep_lines: bool = False, align: str = LEFT) -> str:
         """`text` typeset and laid out to the window (katsuji's TextLayout: paragraphs reflowed by sentences, lines
         placed, blocks kept within a window of `page_lines`). Given `keep_lines` (a choice's prompt, its options a line
-        each, set OPTION_INDENT in), or ending in [end1] (a choice follows it), it is typeset only; given `centred` (a
-        text the script shows without a window, or set align="center"), each line is centred."""
+        each, set OPTION_INDENT in), or ending in [end1] (a choice follows it), it is typeset only; aligned CENTER, each
+        line is centred, and aligned STEPS, each line of a block is set a STEP further in than the one before."""
         if keep_lines:
             return typeset(OPTION.sub(OPTION_INDENT, text))
-        if centred:
+        if align == CENTER:
             return self.centred(text)
+        if align == STEPS:
+            return stepped(text)
         if text.endswith("[end1]"):
             return typeset(text)
         return self.layout.reflow(text, page_lines)
@@ -171,9 +175,26 @@ def default_layout() -> DialogLayout:
     return DialogLayout(Table(str(TABLE)), dialog_font(), read_names(NAMES))
 
 
-def is_centred(text: ET.Element) -> bool:
-    """Whether the build centres `text`: shown without a window, unless set align="left", or set align="center"."""
-    return text.get("align", "center" if text.get("window") == "none" else "left") == "center"
+def stepped(text: str) -> str:
+    """`text` typeset with its lines as written, each line of a block a STEP further in than the one before: the
+    epilogue's staircase. A blank line starts the next block at the left."""
+    lines: list[str] = []
+    step = 0
+    for line in typeset(text).split("\n"):
+        words = line.strip(" ")
+        if TERMINATORS.sub("", words):
+            lines.append(STEP * step + words)
+            step += 1
+        else:
+            lines.append(line)
+            step = 0
+    return "\n".join(lines)
+
+
+def alignment(text: ET.Element) -> str:
+    """How the build sets `text`'s lines: its align attribute, else CENTER when the script shows it without a window,
+    else LEFT."""
+    return text.get("align", CENTER if text.get("window") == "none" else LEFT)
 
 
 def script_overflows(layout: DialogLayout, dialogs: Path = DIALOGS) -> Iterator[Overflow]:
@@ -182,7 +203,8 @@ def script_overflows(layout: DialogLayout, dialogs: Path = DIALOGS) -> Iterator[
         for text in ET.parse(path).getroot():
             refs = " ".join(ref.text or "" for ref in text.iter("ref"))
             data = text.findtext("data") or ""
-            laid_out = layout.reflow(data, keep_lines=data.endswith("[end1]"), centred=is_centred(text))
+            align = alignment(text)
+            laid_out = layout.reflow(data, keep_lines=data.endswith("[end1]") and align == LEFT, align=align)
             for line, width in layout.overflows(laid_out):
                 yield Overflow(path.stem, refs, line, width)
 

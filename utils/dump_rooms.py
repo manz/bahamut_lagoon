@@ -14,7 +14,7 @@ from katsuji.script import Table
 from utils.cartridge import rom_address, rom_offset
 from utils.credits import CREDITS_ROOMS, ENDING_CREDITS_ROOMS, credits_script, place_credit_lines
 from utils.credits import TABLE as CREDITS_TABLE
-from utils.dialog_layout import DialogLayout, default_layout, is_centred
+from utils.dialog_layout import DialogLayout, alignment, default_layout
 from utils.disasm import live_disasm
 from utils.lz import lz_compress, lz_decompress
 from utils.vm.opcodes_map import opcode_names, opcode_table
@@ -266,7 +266,7 @@ def prepare_texts(room: Room, texts: ET.Element, layout: DialogLayout) -> None:
             refs = [int(ref.text, 16) for ref in text.iter("ref") if ref.text]
             choice = windows.is_choice(refs)
             data.text = layout.reflow(
-                data.text, page_lines=windows.lines(refs), keep_lines=choice, centred=not choice and is_centred(text)
+                data.text, page_lines=windows.lines(refs), keep_lines=choice, align=alignment(text)
             )
 
 

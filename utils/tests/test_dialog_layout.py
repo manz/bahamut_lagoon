@@ -9,8 +9,8 @@ from utils.dialog_layout import (
     NAME_LETTERS,
     RENAMEABLE,
     DialogLayout,
+    alignment,
     default_layout,
-    is_centred,
     script_overflows,
     typeset,
 )
@@ -140,23 +140,29 @@ class DialogLayoutTestCase(TestCase):
         self.assertEqual(self.layout.reflow(prompt, keep_lines=True), prompt)
 
     def test_a_centred_line_sits_mid_window(self) -> None:
-        line = self.layout.reflow("Prologue[0xfc][0x40][end1]", centred=True).removesuffix("[0xfc][0x40][end1]")
+        line = self.layout.reflow("Prologue[0xfc][0x40][end1]", align="center").removesuffix("[0xfc][0x40][end1]")
         left = self.layout.width(line[: len(line) - len(line.lstrip(" "))])
         right = LINE_WIDTH - left - self.layout.width("Prologue")
         self.assertLessEqual(abs(left - right), self.layout.width(" "))
 
     def test_a_centred_text_keeps_its_lines(self) -> None:
-        self.assertEqual(self.layout.reflow("Un\nDeux[end]", centred=True).count("\n"), 1)
+        self.assertEqual(self.layout.reflow("Un\nDeux[end]", align="center").count("\n"), 1)
 
     def test_a_centred_line_too_wide_is_wrapped(self) -> None:
-        laid_out = self.layout.reflow(LONG_LINE, centred=True)
+        laid_out = self.layout.reflow(LONG_LINE, align="center")
         self.assertTrue(all(self.layout.width(line) <= LINE_WIDTH for line in laid_out.split("\n")))
 
     def test_a_windowless_text_is_centred(self) -> None:
-        self.assertTrue(is_centred(ET.fromstring('<text window="none"/>')))
+        self.assertEqual(alignment(ET.fromstring('<text window="none"/>')), "center")
 
     def test_align_left_overrides_a_windowless_text(self) -> None:
-        self.assertFalse(is_centred(ET.fromstring('<text window="none" align="left"/>')))
+        self.assertEqual(alignment(ET.fromstring('<text window="none" align="left"/>')), "left")
+
+    def test_a_stepped_block_steps_each_line_in(self) -> None:
+        self.assertEqual(self.layout.reflow("Un\nDeux\nTrois[end1]", align="steps"), "Un\n  Deux\n    Trois[end1]")
+
+    def test_a_blank_line_starts_the_steps_over(self) -> None:
+        self.assertEqual(self.layout.reflow("Un\nDeux\n \nTrois[end]", align="steps"), "Un\n  Deux\n \nTrois[end]")
 
     def test_a_choice_option_is_set_two_spaces_in(self) -> None:
         prompt = "Que fais-tu ?\n Attaquer\n   Fuir[end]"
