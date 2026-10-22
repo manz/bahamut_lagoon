@@ -54,7 +54,7 @@ Ce chemin mène à ma patrie Mahal ![end]</data>
         <refs>
             <ref>0xe0</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Commandant !
  
 Nous atterrirons bientôt sur Mahal et
@@ -71,7 +71,7 @@ Libérée ![end]</data>
         <refs>
             <ref>0xfc</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Oui,Commandant !
 Regarde ce ciel...
 C'est relaxant,n'est-ce pas ?![end]</data>
@@ -89,7 +89,7 @@ l'odeur de ses lacs ![end]</data>
         <refs>
             <ref>0x158</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 C'est vrai...
  
 Très bien Commandant,tu vas surveiller
@@ -100,7 +100,7 @@ le ciel quelques instants.
         <refs>
             <ref>0x1b2</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Regarde la carte,Hornet !
 N'y a-t-il pas quelque chose
 d'étrange sur Mahal ?[end]</data>
@@ -117,7 +117,7 @@ c'est étonnamment calme ![end]</data>
         <refs>
             <ref>0x203</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 J'ai froid !
  
 [character][0x0]!
@@ -127,7 +127,7 @@ Scrute le ciel à ma place ![end]</data>
         <refs>
             <ref>0x217</ref>
         </refs>
-        <data>Je dois aller discuter avec Sendack,le
+        <data>Je dois aller discuter avec Sendak,le
 Capitaine de ce bateau,de la stratégie
 à employer pour reprendre Mahal.
 Nous devons parler seuls !
@@ -153,7 +153,7 @@ Le ciel de Mahal est orageux...[end]</data>
         <refs>
             <ref>0xf04</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Va surveiller le ciel !
 Tu n'as pas le droit de
 quitter ton poste ![end]</data>
@@ -172,7 +172,7 @@ Quelque chose ne va pas ![end]</data>
         </refs>
         <data>COMMANDANT:
 Quelque chose ne va pas,
-Matelight ![end]</data>
+Matelite ![end]</data>
     </text>
     <text>
         <refs>
@@ -180,7 +180,7 @@ Matelight ![end]</data>
         </refs>
         <data>C'est terrible ! Terrible !
 Des Escadrons Dragons de l'Empire font
-face à FARENHEIT ![end]</data>
+face à FARENEIT ![end]</data>
     </text>
     <text>
         <refs>
@@ -208,7 +208,7 @@ Grimpez tous sur vos dragons ![end]</data>
         <refs>
             <ref>0x6dc</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Mahal risque d'être encore attaquée
 ces violents dragons ![end]</data>
     </text>
@@ -263,14 +263,14 @@ Vous allez combattre ?[end]</data>
         <data>Rien ne peut se passer sans notre
 aide...
  
-FARENHEIT sera fermement défendu par
+FARENEIT sera fermement défendu par
 tout le monde[0xd8][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6ea</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Est-ce que je peux t'être utile,
 [character][0x0]?[end]</data>
     </text>
@@ -278,7 +278,7 @@ Est-ce que je peux t'être utile,
         <refs>
             <ref>0x702</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Haha ! J'en suis content ![end]</data>
     </text>
     <text>
@@ -286,7 +286,7 @@ Haha ! J'en suis content ![end]</data>
             <ref>0x738</ref>
             <ref>0x6f9</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Nous pourrions tout de même voler
 ensemble...[end]</data>
     </text>
@@ -386,7 +386,7 @@ Alors,faites les innocents ![end]</data>
         <refs>
             <ref>0x30e</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 [character][0x0]...
 Merci...[end]</data>
     </text>
@@ -394,7 +394,7 @@ Merci...[end]</data>
         <refs>
             <ref>0x322</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Tiens... je te les offre.[end]</data>
     </text>
     <text>
@@ -402,7 +402,7 @@ Tiens... je te les offre.[end]</data>
             <ref>0x32b</ref>
         </refs>
         <data>Tu as reçu des
-[0xaa]Cookies faits par Sendack[0xab].
+[0xaa]Cookies faits par Sendak[0xab].
  
 Tu les manges ?[end]</data>
     </text>
@@ -410,7 +410,7 @@ Tu les manges ?[end]</data>
         <refs>
             <ref>0x36e</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 [character][0x0]...
  
 Hahahahahaha...[end]</data>
@@ -419,21 +419,21 @@ Hahahahahaha...[end]</data>
         <refs>
             <ref>0x386</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Kyaa hahaha[0xd8][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3b8</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 [character][0x0],ton ventre est très gros...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x35c</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Je suis content...[end]</data>
     </text>
     <text>
@@ -442,7 +442,7 @@ Je suis content...[end]</data>
             <ref>0xa83</ref>
             <ref>0x34c</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Très bien,[character][0x0]...[end]</data>
     </text>
     <text>
@@ -451,13 +451,13 @@ Très bien,[character][0x0]...[end]</data>
         </refs>
         <data>TAURUS:
 Nous sommes déjà assez nombreux,
-Sendack.[end]</data>
+Sendak.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xaac</ref>
         </refs>
-        <data>BIKKEBAKKE:
+        <data>BIKEBAKE:
 [character][0x1]!
 Je vous en prie...[end]</data>
     </text>
@@ -516,7 +516,7 @@ Vous pourriez blesser quelqu'un ![end]</data>
         <refs>
             <ref>0x32f</ref>
         </refs>
-        <data> Merci énormément,Sendack !
+        <data> Merci énormément,Sendak !
  J'ai du travail,vieil homme ![end1]</data>
     </text>
     <text>
@@ -532,7 +532,7 @@ Vous pourriez blesser quelqu'un ![end]</data>
             <ref>0xcb3</ref>
             <ref>0xc90</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Inutile,inutile...
  
 Pourtant les dragons impériaux

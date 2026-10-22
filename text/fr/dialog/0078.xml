@@ -4,7 +4,7 @@
         <refs>
             <ref>0x95</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Hé ! Le Peuple Dragon !
 Nous allons entrer[0xd8]
 Nous venons défendre Orelus !
@@ -15,7 +15,7 @@ Mais patientez encore ![end]</data>
         <refs>
             <ref>0xa1</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Tu as entendu ![end]</data>
     </text>
     <text>
@@ -30,14 +30,14 @@ Je crois qu'Alexandre nous a entendus ![end]</data>
         <refs>
             <ref>0x4cc</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Allons-y [character][0x0]!
 Ce sera sûrement la Dernière Bataille !
 Tout est en ordre !
 Est-ce que tu es prêt ?
  
  Asseyons-nous un moment !
- Allons-y Matelight ![end1]</data>
+ Allons-y Matelite ![end1]</data>
     </text>
     <text>
         <refs>
@@ -49,7 +49,7 @@ Est-ce que tu es prêt ?
         <refs>
             <ref>0x4ee</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Très bien !
 Encore un instant...[end]</data>
     </text>
@@ -57,14 +57,14 @@ Encore un instant...[end]</data>
         <refs>
             <ref>0x51f</ref>
         </refs>
-        <data>MATELIGHT:
-Je suis désolé pour tout,Palpaleos.[end]</data>
+        <data>MATELITE:
+Je suis désolé pour tout,Palparos.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x52c</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Vivez ce qui vous reste à vivre avant
 la dernière bataille.
 Que devra-t-on dire lorsqu'on
@@ -74,7 +74,7 @@ attaquera ?[end]</data>
         <refs>
             <ref>0x58a</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 [character][0x0],
 choisis le meilleur cri de guerre !
  Combattons avec courage !
@@ -84,7 +84,7 @@ choisis le meilleur cri de guerre !
         <refs>
             <ref>0x840</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 La... la paix va bientôt revenir à
 Orelus...[end]</data>
     </text>
@@ -92,7 +92,7 @@ Orelus...[end]</data>
         <refs>
             <ref>0x598</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 [character][0x0]...
 C'est tout toi ça,pas moi...[end]</data>
     </text>
@@ -107,7 +107,7 @@ Il y a de nombreux démons ![end]</data>
         <refs>
             <ref>0x629</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Zut !
 Entrons-y de force ![end]</data>
     </text>
@@ -115,7 +115,7 @@ Entrons-y de force ![end]</data>
         <refs>
             <ref>0x637</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Viens,c'est la Dernière Bataille ![end]</data>
     </text>
     <text>
@@ -138,7 +138,7 @@ Ne gâchons pas de temps en futilités ![end]</data>
         <refs>
             <ref>0x8d7</ref>
         </refs>
-        <data>BIKKEBAKKE:
+        <data>BIKEBAKE:
 C'est la fin de la fin,frère ![end]</data>
     </text>
     <text>
@@ -153,7 +153,7 @@ C'est la fin de la fin,frère ![end]</data>
         <refs>
             <ref>0xbc</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Tout va se finir ici ![end]</data>
     </text>
     <text>
@@ -163,7 +163,7 @@ Tout va se finir ici ![end]</data>
         <data>TAURUS:
 Selon ma petite enquête...
  
-Matelight dégage de la lumière par
+Matelite dégage de la lumière par
 lui-même en certaines occasions.
  
 Avec cette force,il est évident que ni
@@ -205,7 +205,7 @@ vers leur Patrie.[end]</data>
         <refs>
             <ref>0x495</ref>
         </refs>
-        <data>PALPALEOS:
+        <data>PALPAROS:
 Notre but est proche...[end]</data>
     </text>
     <text>
@@ -219,7 +219,7 @@ Notre but est proche...[end]</data>
         <refs>
             <ref>0x261</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Alexandre doit sûrement être ressuscité !
 Soyons tous prêts ![end]</data>
     </text>
@@ -227,7 +227,7 @@ Soyons tous prêts ![end]</data>
         <refs>
             <ref>0x84a</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 [character][0x0],est-ce utile... de vaincre...
 Alexandre ressuscité ?[end]</data>
     </text>
@@ -270,24 +270,24 @@ blessures vont s'apaiser.[end]</data>
         <refs>
             <ref>0x65c</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Tu es prêt ?!
  
  Ne sois pas impatient !
- Allons combattre Matelight ![end1]</data>
+ Allons combattre Matelite ![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x674</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Dépêche-toi ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x688</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Allons sauver notre monde,Orelus !
  
 Dès notre victoire,
@@ -307,7 +307,7 @@ dragons.[end]</data>
         <refs>
             <ref>0x49f</ref>
         </refs>
-        <data>PALPALEOS:
+        <data>PALPAROS:
 [character][0x1] est en train de penser à
 l'attaque à employer...[end]</data>
     </text>
@@ -329,7 +329,7 @@ Dépêche-toi [character][0x0]![end]</data>
         <refs>
             <ref>0x8e8</ref>
         </refs>
-        <data>BIKKEBAKKE:
+        <data>BIKEBAKE:
 Nous allons bientôt rentrer chez
 nous ![end]</data>
     </text>

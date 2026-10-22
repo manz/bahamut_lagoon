@@ -40,14 +40,14 @@
         <data>COMMANDANT:
 Silence,du calme !
  
-Matelight ne va pas tarder à venir
+Matelite ne va pas tarder à venir
 parler,alors écoutez-le.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x20e</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 L'entraînement au combat va
 commencer !
 D'accord tout le monde ?![end]</data>
@@ -115,7 +115,7 @@ charismatique et efficace ![end]</data>
         <refs>
             <ref>0x365</ref>
         </refs>
-        <data>Matelight de Kana ![end]</data>
+        <data>Matelite de Kana ![end]</data>
     </text>
     <text>
         <refs>
@@ -130,13 +130,13 @@ combattre comme moi ![end]</data>
         </refs>
         <data>Notre armée doit être dirigée par le
 flambeau des Rebelles de Kana...
-Le Capitaine de FARENHEIT...[end]</data>
+Le Capitaine de FARENEIT...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x469</ref>
         </refs>
-        <data>À savoir,le vieux magicien,Sendack ![end]</data>
+        <data>À savoir,le vieux magicien,Sendak ![end]</data>
     </text>
     <text>
         <refs>
@@ -163,7 +163,7 @@ Tu ne peux pas attendre ?![end]</data>
             <ref>0x4da</ref>
         </refs>
         <data>HORNET:
-FARENHEIT n'attend plus que l'ordre
+FARENEIT n'attend plus que l'ordre
 de partir ![end]</data>
     </text>
     <text>
@@ -198,7 +198,7 @@ Aaah,tout ce bruit ![end]</data>
         <refs>
             <ref>0x501</ref>
         </refs>
-        <data>MATELIGHT
+        <data>MATELITE
 Commandant,pouvez-vous leur dire qui
 vous êtes ?[end]</data>
     </text>
@@ -214,14 +214,14 @@ Mahal,Commandant ![end]</data>
         <refs>
             <ref>0x526</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Capitaine Commandant ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x537</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Allez tout le monde !
  
 Je vais vous soumettre des ordres et
@@ -277,7 +277,7 @@ Tourner ![end]</data>
         <refs>
             <ref>0x1296</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 GAHAHAHAHA !
  
 [character][0x0],tu as encore beaucoup à
@@ -287,7 +287,7 @@ apprendre sur l'ordre et la discipline.[end]</data>
         <refs>
             <ref>0x119c</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 GAHAHAHAHAHA[0xd8]
  
 [character][0x0],je te donne une autre chance !
@@ -300,14 +300,14 @@ Faites F-A-C-E[0xd8][end]</data>
             <ref>0x1975</ref>
         </refs>
         <data> Je vais aller faire un tour.
- Je vais attendre Matelight.[end1]</data>
+ Je vais attendre Matelite.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xd4</ref>
         </refs>
         <data>RUSH:
-Matelight nous a ordonné de nous
+Matelite nous a ordonné de nous
 réunir ici !
 Il va nous instruire et nous entraîner
 pour les combats.[end]</data>
@@ -317,7 +317,7 @@ pour les combats.[end]</data>
             <ref>0xc26</ref>
         </refs>
         <data>RUSH:
-Parfois Matelight peut être très en
+Parfois Matelite peut être très en
 colère.
 J'ai un mauvais pressentiment ![end]</data>
     </text>
@@ -326,7 +326,7 @@ J'ai un mauvais pressentiment ![end]</data>
             <ref>0x1bb</ref>
         </refs>
         <data>RUSH:
-Le discours de Matelight va être long.
+Le discours de Matelite va être long.
  
 Veux-tu l'écouter en vitesse
 accélérée ?[end]</data>
@@ -351,7 +351,7 @@ accélérée ?[end]</data>
         <refs>
             <ref>0x1971</ref>
         </refs>
-        <data>Matelight n'est pas encore là,
+        <data>Matelite n'est pas encore là,
 vas-tu l'attendre ?[end]</data>
     </text>
     <text>
@@ -376,7 +376,7 @@ vas-tu l'attendre ?[end]</data>
             <ref>0xc52</ref>
         </refs>
         <data>TAURUS:
-Matelight va arriver !
+Matelite va arriver !
  
 Il faudra faire tout ce qu'il dit.[end]</data>
     </text>
@@ -392,14 +392,14 @@ important.[end]</data>
         <refs>
             <ref>0xc75</ref>
         </refs>
-        <data>BIKKEBAKKE:
+        <data>BIKEBAKE:
 Vite,commençons ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc7c</ref>
         </refs>
-        <data>BIKKEBAKKE:
+        <data>BIKEBAKE:
 Aaaaaaaaaaaaah !
 Y en a encore pour longtemps ?[end]</data>
     </text>
@@ -417,7 +417,7 @@ Salut ![end]</data>
         <data>DIANA:
 As-tu déjà entendu parler du bras
 droit de l'Empereur Sauzer,
-le Général Palpaleos ?[end]</data>
+le Général Palparos ?[end]</data>
     </text>
     <text>
         <refs>
@@ -443,7 +443,7 @@ lanciers.[end]</data>
         <refs>
             <ref>0xf8e</ref>
         </refs>
-        <data>FREDERIKA:
+        <data>FREDERICA:
 Vous,les garçons,maniez les armes...
 C'est très bien !
 Mais,nous,nous lançons des sorts de
@@ -453,7 +453,7 @@ soins qui ne sont pas inutiles.[end]</data>
         <refs>
             <ref>0xf99</ref>
         </refs>
-        <data>FREDERIKA:
+        <data>FREDERICA:
 J'ai toujours des prétextes pour
 tout.
 Je suis toujours si lente et je réfléchis
@@ -464,7 +464,7 @@ Hihihihihihihihi ![end]</data>
         <refs>
             <ref>0xfa7</ref>
         </refs>
-        <data>FREDERIKA:
+        <data>FREDERICA:
 Je suis toujours très lasse et par
 conséquent j'ai peine à réfléchir...
 Cependant,ne t'inquiète pas,c'est tout
@@ -566,7 +566,7 @@ légion à Mahal.[end]</data>
         <refs>
             <ref>0xf2f</ref>
         </refs>
-        <data>LUKIA:
+        <data>RUKI:
 Bonjour [character][0x0]!
  
 Tu ne trouves pas que c'est terrible
@@ -576,7 +576,7 @@ cette réunion pour un premier jour ?![end]</data>
         <refs>
             <ref>0xf36</ref>
         </refs>
-        <data>LUKIA:
+        <data>RUKI:
 Suis-je une héroïne ?
 J'ai plutôt l'air sévère...[end]</data>
     </text>
@@ -584,7 +584,7 @@ J'ai plutôt l'air sévère...[end]</data>
         <refs>
             <ref>0xe23</ref>
         </refs>
-        <data>MELODIA:
+        <data>MELODY:
 [character][0x0],vas-y !
 Serre-moi dans tes bras ![end]</data>
     </text>
@@ -606,7 +606,7 @@ Merci beaucoup ![end]</data>
         <refs>
             <ref>0xe33</ref>
         </refs>
-        <data>MELODIA:
+        <data>MELODY:
 Tu es fatigué,[character][0x0]?!
 Porte-moi sur ton dos ![end]</data>
     </text>
@@ -635,7 +635,7 @@ décisions y sont traitées.[end]</data>
         </refs>
         <data>Se tient ici une conférence militaire !
 Personne ne doit entrer !
-                      -Matelight-[end]</data>
+                      -Matelite-[end]</data>
     </text>
     <text>
         <refs>
@@ -643,8 +643,8 @@ Personne ne doit entrer !
         </refs>
         <data>ZORA:
 Dans la cabine du Capitaine vit
-Sendack.
-Le Capitaine Sendack est une vieille et
+Sendak.
+Le Capitaine Sendak est une vieille et
 délicate personne.
 Evite de le brusquer ![end]</data>
     </text>
@@ -660,7 +660,7 @@ Donc exercice de [0xaa]formation[0xab]![end]</data>
         <refs>
             <ref>0x12ec</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Capitaine Commandant,je suis fatigué !
 Expliquez-leur ![end]</data>
     </text>
@@ -786,7 +786,7 @@ complémentaires.[end]</data>
         <refs>
             <ref>0xc0d</ref>
         </refs>
-        <data>Souvent,Matelight s'entraîne la nuit !
+        <data>Souvent,Matelite s'entraîne la nuit !
 Il le fait secrètement...[end]</data>
     </text>
     <text>
@@ -828,7 +828,7 @@ J'ai peut-être déjà perdu son coeur.[end]</data>
         <refs>
             <ref>0x1ec</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Quel beau bateau de guerre pour
 s'entraîner !
 Je vous conseille à tous d'écouter
@@ -849,7 +849,7 @@ attentivement.[end]</data>
             <ref>0xd10</ref>
             <ref>0xbcf</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Je suis le Capitaine de ce bateau,
 maintenant...[end]</data>
     </text>
@@ -932,13 +932,13 @@ fort à Campbell ![end]</data>
 Allons-y !
 Tu sais tout,maintenant !
 Prêt !
-Départ de FARENHEIT ![end]</data>
+Départ de FARENEIT ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1af7</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Je te cherche depuis tout à l'heure !
 Dépêche-toi ![end]</data>
     </text>
@@ -999,7 +999,7 @@ nombreuses [0xaa]formations raisonnables[0xab].[end]</data>
         </refs>
         <data>RUSH:
 Notre nouveau combat va commencer !
-Matelight va nous faire un discours !
+Matelite va nous faire un discours !
 Un jour,
 nous deviendrons très importants.[end]</data>
     </text>
@@ -1037,7 +1037,7 @@ usurpateur.[end]</data>
         <refs>
             <ref>0xc86</ref>
         </refs>
-        <data>Bikkebakke est en pleine extase devant
+        <data>Bikebake est en pleine extase devant
 son nouveau livre.
  
 Il est écrit sur la page de couverture:
@@ -1058,7 +1058,7 @@ Pour... tout le monde ![end]</data>
         <data>SERGENT:
 Je me suis froissé un muscle !
 ``Grognement''
-Hier,Matelight était en colère contre
+Hier,Matelite était en colère contre
 tout le monde.
 Mon muscle...``Grognement''[end]</data>
     </text>
@@ -1070,7 +1070,7 @@ Mon muscle...``Grognement''[end]</data>
 Ce à quoi je pense ?
 Oh,je ne pense à rien !
 Vendre contre de l'argent la magie
-pourrait calmer Matelight une fois
+pourrait calmer Matelite une fois
 pour toutes ![end]</data>
     </text>
     <text>
@@ -1098,7 +1098,7 @@ Ici,il n'y a pas de bave de dragon.[end]</data>
         <refs>
             <ref>0xfe2</ref>
         </refs>
-        <data>FREDERIKA:
+        <data>FREDERICA:
 La plupart des amis intimes auront un
 avenir commun...
 Peut-être en couple,qui peut savoir ?[end]</data>
@@ -1107,7 +1107,7 @@ Peut-être en couple,qui peut savoir ?[end]</data>
         <refs>
             <ref>0x19ec</ref>
         </refs>
-        <data>       Le Capitaine Sendack
+        <data>       Le Capitaine Sendak
             se repose.
  
      Personne ne doit entrer !
@@ -1118,7 +1118,7 @@ Peut-être en couple,qui peut savoir ?[end]</data>
             <ref>0x1141</ref>
         </refs>
         <data>Cette chambre est fermée puisque [character][0x1]
-est partie soigner le Capitaine Sendack.
+est partie soigner le Capitaine Sendak.
  
 Absolument personne ne peut entrer !
 Seuls les amis le peuvent.
@@ -1142,7 +1142,7 @@ quelques livres ?[end]</data>
         <refs>
             <ref>0xba0</ref>
         </refs>
-        <data>PALPALEOS:
+        <data>PALPAROS:
 Je suis l'un des principaux membres
 des Rebelles.
 ``Mais qui ne sert très vite plus à
@@ -1155,7 +1155,7 @@ des Rebelles.
         <data>COMMANDANT:
 Oh,j'étais dans les nuages...
 Je ne dois plus être utile.
-Matelight m'a dégradé et je ne suis
+Matelite m'a dégradé et je ne suis
 plus que le No [0xb2].[end]</data>
     </text>
     <text>
@@ -1200,15 +1200,15 @@ Tu as perdu quelque chose ?[end]</data>
         <refs>
             <ref>0x158</ref>
         </refs>
-        <data>PALPALEOS:
-Matelight doit vous parler !
+        <data>PALPAROS:
+Matelite doit vous parler !
 Soyez tous calmes ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1fc</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Je sais,
 tout le monde est plus ou moins las !
 Mais la guerre n'est pas encore finie ![end]</data>
@@ -1217,10 +1217,10 @@ Mais la guerre n'est pas encore finie ![end]</data>
         <refs>
             <ref>0x214</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Écoutez-moi !
  
-Le Capitaine Sendack se sent mieux.
+Le Capitaine Sendak se sent mieux.
 Toutefois,il ne se sent plus apte à
 nous diriger.[end]</data>
     </text>
@@ -1239,7 +1239,7 @@ Lisons-le ![end]</data>
         <refs>
             <ref>0x247</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Étant donné mon état de santé,
 [character][0x0] sera mon Capitaine Adjoint.
 Mais voici le plus important ![end]</data>
@@ -1267,7 +1267,7 @@ Adjoint,alors fais de ton mieux.[end]</data>
         <data>À présent,il se repose mais la guerre
 n'a pas cessé et nous sommes en plein
 coeur de celle-ci !
-Il vous faut aussi savoir que Sendack
+Il vous faut aussi savoir que Sendak
 participera sûrement à la prochaine
 bataille !
 Faites en sorte qu'il puisse être fier
@@ -1277,7 +1277,7 @@ de vous ![end]</data>
         <refs>
             <ref>0x5a1</ref>
         </refs>
-        <data>Général Palpaleos,restez ici ![end]</data>
+        <data>Général Palparos,restez ici ![end]</data>
     </text>
     <text>
         <refs>
@@ -1298,7 +1298,7 @@ Quel bouton vas-tu actionner ?[end]</data>
         <refs>
             <ref>0x1779</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Nous avons déjà combattu pour la
 Restauration de Kana !
 Et maintenant,nous allons nous battre
@@ -1309,33 +1309,33 @@ pour Orelus ![end]</data>
             <ref>0x1792</ref>
         </refs>
         <data>COMMANDANT:
-Pas si vite,Matelight ![end]</data>
+Pas si vite,Matelite ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x17a0</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Commandant !
  
 L'honneur revient à une seule
 personne:
-le Général Palpaleos.[end]</data>
+le Général Palparos.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x17c3</ref>
         </refs>
         <data>COMMANDANT:
-Matelight !
+Matelite !
 Et moi ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x180d</ref>
         </refs>
-        <data>MATELIGHT:
-À vous,Général Palpaleos ![end]</data>
+        <data>MATELITE:
+À vous,Général Palparos ![end]</data>
     </text>
     <text>
         <refs>
@@ -1349,7 +1349,7 @@ d'Orelus ![end]</data>
         <refs>
             <ref>0x18b9</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Nous devons aller sur le Fort de
 l'Empire ![end]</data>
     </text>

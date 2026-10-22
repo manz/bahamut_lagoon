@@ -46,14 +46,14 @@ Et enfin,je lierai vos coeurs ![end][end]</data>
         <refs>
             <ref>0x258</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Princesse [character][0x1]![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x265</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Ramenons la Princesse au château ![end]</data>
     </text>
     <text>
@@ -62,13 +62,13 @@ Ramenons la Princesse au château ![end]</data>
         </refs>
         <data>[character][0x1]:
 Inutile !
-Allons à FARENHEIT ![end]</data>
+Allons à FARENEIT ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x278</ref>
         </refs>
-        <data>PALPALEOS:
+        <data>PALPAROS:
 Mais... [character][0x1]![end]</data>
     </text>
     <text>
@@ -76,7 +76,7 @@ Mais... [character][0x1]![end]</data>
             <ref>0x2a9</ref>
         </refs>
         <data>[character][0x1]:
-À FARENHEIT !
+À FARENEIT !
  
 Aujourd'hui,notre voyage ne fait que
 commencer !

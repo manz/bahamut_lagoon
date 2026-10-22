@@ -11,7 +11,7 @@
         <refs>
             <ref>0x76</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Princesse ?
 Comment faire ?[end]</data>
     </text>
@@ -27,7 +27,7 @@ Quelque chose ne va pas ?![end]</data>
         <refs>
             <ref>0x8e</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Quoi ?
 Quelle est notre faiblesse ?[end]</data>
     </text>
@@ -42,7 +42,7 @@ Je ne comprends pas...[end]</data>
         <refs>
             <ref>0xa1</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Tout va bien ?
 Princesse ?[end]</data>
     </text>
@@ -51,7 +51,7 @@ Princesse ?[end]</data>
             <ref>0xae</ref>
         </refs>
         <data>[character][0x1]:
-Oui,Sendack,tout va bien ![end]</data>
+Oui,Sendak,tout va bien ![end]</data>
     </text>
     <text>
         <refs>
@@ -78,7 +78,7 @@ Valitra et Léviathan sont là,en moi...[end]</data>
         <refs>
             <ref>0x17e</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Princesse !
 Tenez bon ![end]</data>
     </text>
@@ -87,7 +87,7 @@ Tenez bon ![end]</data>
             <ref>0x208</ref>
             <ref>0x1a4</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Princesse [character][0x1]![end]</data>
     </text>
     <text>
@@ -117,7 +117,7 @@ Aaaaah ![end]</data>
         <refs>
             <ref>0x1fb</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Princesse !
 Tenez bon[0xd8][end]</data>
     </text>
@@ -125,9 +125,9 @@ Tenez bon[0xd8][end]</data>
         <refs>
             <ref>0x211</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Ramenons-la immédiatement à
-FARENHEIT ![end]</data>
+FARENEIT ![end]</data>
     </text>
     <text>
         <refs>

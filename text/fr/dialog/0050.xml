@@ -13,7 +13,7 @@
         <refs>
             <ref>0x332</ref>
         </refs>
-        <data>BIKKEBAKKE:
+        <data>BIKEBAKE:
 Des champignons ?![end]</data>
     </text>
     <text>
@@ -26,7 +26,7 @@ Des champignons ?![end]</data>
         <refs>
             <ref>0x30c</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Excuse-moi... excuse-moi...
 Je feins la maladie mais...
 Je crains le Dragon Sacré...
@@ -55,7 +55,7 @@ furie ![end]</data>
         <refs>
             <ref>0x587</ref>
         </refs>
-        <data>PALPALEOS:
+        <data>PALPAROS:
 Gudruff !
 Quel est ce lieu ?
 Et l'Empereur Sauzer ?[end]</data>
@@ -74,11 +74,11 @@ Il est terriblement déçu...[end]</data>
         </refs>
         <data>Gufufufufu[0xd8]
 En effet,il doit supporter la dure
-trahison de Palpaleos !
+trahison de Palparos !
 Avant que je ne le contrôle,
 ses derniers mots furent...
  
-[0xaa]Ne pardonne pas à Palpaleos sa
+[0xaa]Ne pardonne pas à Palparos sa
  trahison ![0xab]
 Assumez Général...
 Gufufufufu[0xd8][end]</data>
@@ -87,7 +87,7 @@ Gufufufufu[0xd8][end]</data>
         <refs>
             <ref>0x5bc</ref>
         </refs>
-        <data>PALPALEOS:
+        <data>PALPAROS:
 C'est ridicule[0xd8]
 Pourquoi... Sauzer... ?[end]</data>
     </text>
@@ -139,13 +139,13 @@ colère...[end]</data>
         <refs>
             <ref>0x37a</ref>
         </refs>
-        <data>Palpaleos,
+        <data>Palparos,
 je ne pourrais peut-être plus être
 avec toi mais tu as des personnes
-comme Matelight et Commandant à tes
+comme Matelite et Commandant à tes
 côtés.
  
-Sendack,
+Sendak,
 ne fais pas l'impossible !
 Ne va pas trop vite !
 Prends un peu de repos !
@@ -158,7 +158,7 @@ n'oublie pas de nourrir les dragons.[end]</data>
         <refs>
             <ref>0x2ce</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Qu'il revienne[0xd8]
 Il paiera[0xd8][end]</data>
     </text>
@@ -183,7 +183,7 @@ C'est si pénible[0xd8][end]</data>
         <refs>
             <ref>0x2d8</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 [character][0x0],que se passe-t-il ?
 Toi,tu peux...
 Oh,ma tête ![end]</data>
@@ -192,7 +192,7 @@ Oh,ma tête ![end]</data>
         <refs>
             <ref>0x2b6</ref>
         </refs>
-        <data>PALPALEOS:
+        <data>PALPAROS:
 Je ne le crois pas...
  
 Rien n'est vrai...
@@ -204,7 +204,7 @@ Ce serait plutôt à moi de lui dire ça.[end]</data>
         <refs>
             <ref>0x2c3</ref>
         </refs>
-        <data>PALPALEOS:
+        <data>PALPAROS:
 [character][0x1]...[end]</data>
     </text>
     <text>
@@ -272,21 +272,21 @@ sauvez le Ciel d'Orelus.[end]</data>
             <ref>0x537</ref>
         </refs>
         <data>SAUZER:
-Palpaleos,j'aimerais que...
+Palparos,j'aimerais que...
 tu m'amènes voir le ciel...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x531</ref>
         </refs>
-        <data>PALPALEOS:
+        <data>PALPAROS:
 Sauzer[0xd8][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x540</ref>
         </refs>
-        <data>PALPALEOS:
-Je vous emmène à FARENHEIT...[end]</data>
+        <data>PALPAROS:
+Je vous emmène à FARENEIT...[end]</data>
     </text>
 </texts>

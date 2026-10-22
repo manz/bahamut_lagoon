@@ -81,7 +81,7 @@
         <refs>
             <ref>0x20e</ref>
         </refs>
-        <data>MATELIGHT: Héééhooo !
+        <data>MATELITE: Héééhooo !
 
 
 Il y a quelqu'un ?[end]</data>
@@ -108,7 +108,7 @@ L'Empire a dû terriblement contre-attaquer ![end]</data>
         <refs>
             <ref>0x255</ref>
         </refs>
-        <data>LUKIA: ... ... ... !
+        <data>RUKI: ... ... ... !
 
 
 Tout est si...[end]</data>
@@ -117,7 +117,7 @@ Tout est si...[end]</data>
         <refs>
             <ref>0x26c</ref>
         </refs>
-        <data>MATELIGHT: Cet Empire de malheur !
+        <data>MATELITE: Cet Empire de malheur !
 
 
 Pourquoi fait-il tout cela ?![end]</data>
@@ -126,7 +126,7 @@ Pourquoi fait-il tout cela ?![end]</data>
         <refs>
             <ref>0x27f</ref>
         </refs>
-        <data>SENDACK: Au fait,où est Commandant ?
+        <data>SENDAK: Au fait,où est Commandant ?
 
 
 J'ai une vague impression...
@@ -136,7 +136,7 @@ Je crois qu'il ne va pas bien...[end]</data>
         <refs>
             <ref>0x291</ref>
         </refs>
-        <data>MATELIGHT: Je crois que je vais aller voir où il
+        <data>MATELITE: Je crois que je vais aller voir où il
 est passé !
 
 Va voir si tu trouves quelqu'un ici,[character][0x0]![end]</data>
@@ -145,17 +145,17 @@ Va voir si tu trouves quelqu'un ici,[character][0x0]![end]</data>
         <refs>
             <ref>0x751</ref>
         </refs>
-        <data>DON JUAN: Les Rebelles ?
+        <data>DONFAN: Les Rebelles ?
 
 
-Lukia !
-Est-ce toi Lukia ?![end]</data>
+Ruki !
+Est-ce toi Ruki ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x764</ref>
         </refs>
-        <data>LUKIA: Don Juan !
+        <data>RUKI: Donfan !
 
 
 Tu es en vie ?[end]</data>
@@ -164,10 +164,10 @@ Tu es en vie ?[end]</data>
         <refs>
             <ref>0x772</ref>
         </refs>
-        <data>DON JUAN: Pourquoi cette question ?!
+        <data>DONFAN: Pourquoi cette question ?!
  
 
-Au fait,pourquoi avais-tu quitté Mahal,Lukia ?
+Au fait,pourquoi avais-tu quitté Mahal,Ruki ?
  
 
 Quant à moi,je dois avouer qu'après tous ces souvenirs,
@@ -189,7 +189,7 @@ Et même si ce n'était que mon ombre,tu serais heureuse ![end]</data>
         <refs>
             <ref>0x77f</ref>
         </refs>
-        <data>LUKIA: Don Juan,plus un mot !
+        <data>RUKI: Donfan,plus un mot !
 
 
 Tais-toi,s'il te plaît !
@@ -208,10 +208,10 @@ Joins-toi à nous ![end]</data>
         <refs>
             <ref>0x78d</ref>
         </refs>
-        <data>DON JUAN: ... ... ...
+        <data>DONFAN: ... ... ...
 
 
-Ai-je raison,Lukia ?
+Ai-je raison,Ruki ?
 
 
 Tu n'as jamais pu m'oublier ?
@@ -228,7 +228,7 @@ Tu n'as eu de cesse de penser à moi.[end]</data>
 N'ai-je pas raison ?
 Tu es revenue à Mahal pour une seule chose...
 
-Pour moi,Don Juan !
+Pour moi,Donfan !
 Simplement pour me revoir !
 Ai-je raison ?
 Je suis devant toi,maintenant.
@@ -244,7 +244,7 @@ tu n'aimes que moi.[end]</data>
         <refs>
             <ref>0x7b7</ref>
         </refs>
-        <data>LUKIA: Tu te trompes,Don Juan !
+        <data>RUKI: Tu te trompes,Donfan !
  
 
 Je ne veux plus t'entendre ![end]</data>
@@ -253,7 +253,7 @@ Je ne veux plus t'entendre ![end]</data>
         <refs>
             <ref>0x7c4</ref>
         </refs>
-        <data>DON JUAN: Lukia...
+        <data>DONFAN: Ruki...
 
 
 je suis très embarrassé...
@@ -268,7 +268,7 @@ Je suis très attiré par toi.[end]</data>
         <refs>
             <ref>0x7d1</ref>
         </refs>
-        <data>LUKIA: Arrête de te lamenter !
+        <data>RUKI: Arrête de te lamenter !
 
 
 Que veux-tu dire ?![end]</data>
@@ -277,19 +277,19 @@ Que veux-tu dire ?![end]</data>
         <refs>
             <ref>0x7df</ref>
         </refs>
-        <data>DON JUAN: Regarde les lacs de Mahal...[end]</data>
+        <data>DONFAN: Regarde les lacs de Mahal...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7e5</ref>
         </refs>
-        <data>Don Juan: Auparavant,nous regardions souvent ces Lacs.[end]</data>
+        <data>Donfan: Auparavant,nous regardions souvent ces Lacs.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7ef</ref>
         </refs>
-        <data>Lukia...
+        <data>Ruki...
 
 
 Nous y regardions tendrement nos visages à leur surface.[end]</data>
@@ -298,7 +298,7 @@ Nous y regardions tendrement nos visages à leur surface.[end]</data>
         <refs>
             <ref>0x7fd</ref>
         </refs>
-        <data>Lukia: Tu dis n'importe quoi...
+        <data>Ruki: Tu dis n'importe quoi...
 
 
 Je ne me souviens pas de ça...[end]</data>
@@ -307,7 +307,7 @@ Je ne me souviens pas de ça...[end]</data>
         <refs>
             <ref>0x80b</ref>
         </refs>
-        <data>Don Juan: Lukia,lorsque la nuit vient,je ne vois à la 
+        <data>Donfan: Ruki,lorsque la nuit vient,je ne vois à la 
 surface de l'eau que le sourire de ton visage.
  
 Et alors...
@@ -316,7 +316,7 @@ Et alors...
 Je chante ces mots,ces paroles...
 Juste pour toi...
 
-Lukia...[end]</data>
+Ruki...[end]</data>
     </text>
     <text>
         <refs>
@@ -370,14 +370,14 @@ Lukia...[end]</data>
         <refs>
             <ref>0x909</ref>
         </refs>
-        <data>Lukia: Idiot ![end]</data>
+        <data>Ruki: Idiot ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x914</ref>
             <ref>0xaf6</ref>
         </refs>
-        <data>Don Juan: Ouah !
+        <data>Donfan: Ouah !
 
 
 À l'aide ! Au secours !
@@ -399,7 +399,7 @@ Pourrais-tu au moins venir me sauver ?[end]</data>
         <refs>
             <ref>0x949</ref>
         </refs>
-        <data>Secourir Don Juan ?[end]</data>
+        <data>Secourir Donfan ?[end]</data>
     </text>
     <text>
         <refs>
@@ -413,7 +413,7 @@ Pourrais-tu au moins venir me sauver ?[end]</data>
             <ref>0x95a</ref>
             <ref>0xb44</ref>
         </refs>
-        <data>Don Juan: À l'aide !
+        <data>Donfan: À l'aide !
 
 
 Ne m'abandonnez pas !
@@ -425,7 +425,7 @@ Je ne mentais pas...[end]</data>
         <refs>
             <ref>0x96d</ref>
         </refs>
-        <data>Don Juan: Humpf humpf...
+        <data>Donfan: Humpf humpf...
 
 
 M... merci...
@@ -451,10 +451,10 @@ Tu es [character][0x0],le Capitaine de l'Escadron Dragon de Kana ![end]</data>
         <refs>
             <ref>0x997</ref>
         </refs>
-        <data>Moi,je suis Don Juan de Mahal.
+        <data>Moi,je suis Donfan de Mahal.
 
 
-Don Juan,le Naïf et Fidèle serviteur.[end]</data>
+Donfan,le Naïf et Fidèle serviteur.[end]</data>
     </text>
     <text>
         <refs>
@@ -479,7 +479,7 @@ je crois qu'aucun d'eux ne me convient.[end]</data>
         <refs>
             <ref>0x9d6</ref>
         </refs>
-        <data>Que dirais-tu si Don Juan,le Naïf et
+        <data>Que dirais-tu si Donfan,le Naïf et
 Fidèle serviteur,vous rejoignait ?[end]</data>
     </text>
     <text>
@@ -493,13 +493,13 @@ Fidèle serviteur,vous rejoignait ?[end]</data>
         <refs>
             <ref>0xa03</ref>
         </refs>
-        <data>Don Juan: Très bien !
+        <data>Donfan: Très bien !
 
 
 Ma force ne t'est pas nécessaire ?
 
 
-Je suis pourtant Don Juan !
+Je suis pourtant Donfan !
 Et VOUS avez besoin de moi.[end]</data>
     </text>
     <text>
@@ -512,7 +512,7 @@ Et VOUS avez besoin de moi.[end]</data>
         <refs>
             <ref>0x9f0</ref>
         </refs>
-        <data>Don Juan: C'est... C'est vrai ?!
+        <data>Donfan: C'est... C'est vrai ?!
 
 
 C'est génial !
@@ -522,13 +522,13 @@ Fêtons ça ![end]</data>
         <refs>
             <ref>0xa20</ref>
         </refs>
-        <data>Jeanne: Don Juan ![end]</data>
+        <data>Jeanne: Donfan ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa4d</ref>
         </refs>
-        <data>DON JUAN:
+        <data>DONFAN:
 Hoho ! C'est toi Jeanne !
 Tu es une magnifique Armure Lumière !
 Comment vas-tu ?
@@ -554,10 +554,10 @@ vaincre Restatto ![end]</data>
         <refs>
             <ref>0xa83</ref>
         </refs>
-        <data>DON JUAN:
+        <data>DONFAN:
 Restatto ? L'Empire ?
 Ooooh...
-Ne crains rien,car Don Juan a rejoint
+Ne crains rien,car Donfan a rejoint
 les Rebelles.[end]</data>
     </text>
     <text>
@@ -572,7 +572,7 @@ Qu'est-ce que tu as fait ?![end]</data>
         <refs>
             <ref>0xa93</ref>
         </refs>
-        <data>Matelight,de Kana,est déjà parti en
+        <data>Matelite,de Kana,est déjà parti en
 direction du champ de bataille,je vais
 le rejoindre !
 Tu ferais mieux d'en faire autant ![end]</data>
@@ -581,7 +581,7 @@ Tu ferais mieux d'en faire autant ![end]</data>
         <refs>
             <ref>0xaa3</ref>
         </refs>
-        <data>DON JUAN:
+        <data>DONFAN:
 Comment me trouves-tu ?!
 Jeanne,réponds-moi...
 Tu as vu mon splendide visage,
@@ -629,7 +629,7 @@ nous ![end]</data>
         <refs>
             <ref>0xb2d</ref>
         </refs>
-        <data>DON JUAN:
+        <data>DONFAN:
 Capitaine [character][0x0]!
 Encore une fois,tu ne voudrais pas
 m'aider ?[end]</data>
@@ -638,7 +638,7 @@ m'aider ?[end]</data>
         <refs>
             <ref>0xb33</ref>
         </refs>
-        <data>Aider Don Juan,
+        <data>Aider Donfan,
 le Naïf et Fidèle serviteur ?[end]</data>
     </text>
     <text>
@@ -652,7 +652,7 @@ le Naïf et Fidèle serviteur ?[end]</data>
         <refs>
             <ref>0xb60</ref>
         </refs>
-        <data>DON JUAN:
+        <data>DONFAN:
 Cette charmante Jeanne...
 Elle est folle de moi !
 Comme tu as pu t'en apercevoir,
@@ -662,7 +662,7 @@ il est difficile d'être célèbre et adulé ![end]</data>
         <refs>
             <ref>0x523</ref>
         </refs>
-        <data>LUKIA:
+        <data>RUKI:
 Allez tout le monde ![end]</data>
     </text>
     <text>
@@ -691,7 +691,7 @@ Courage,courage ![end]</data>
         <refs>
             <ref>0x530</ref>
         </refs>
-        <data>DON JUAN:
+        <data>DONFAN:
 Ces dragons sont repoussants ![end]</data>
     </text>
     <text>
@@ -726,7 +726,7 @@ Ils sont vraiment repoussants ![end]</data>
         <refs>
             <ref>0x414</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Il fait si froid ici...
 Partons-nous combattre ?[end]</data>
     </text>

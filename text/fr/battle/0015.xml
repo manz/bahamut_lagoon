@@ -4,19 +4,19 @@
         <refs>
             <ref>0x2c</ref>
         </refs>
-        <data>MATELIGHT: Sauzer !![end1][end]</data>
+        <data>MATELITE: Sauzer !![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x39</ref>
         </refs>
-        <data>COMMANDANT: Regardez ! C'est Palpaleos !![end1][end]</data>
+        <data>COMMANDANT: Regardez ! C'est Palparos !![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4a</ref>
         </refs>
-        <data>MATELIGHT: Écoutez-moi tous !
+        <data>MATELITE: Écoutez-moi tous !
 Pas d'hésitation !![end1][end]</data>
     </text>
     <text>
@@ -36,7 +36,7 @@ ici même ![end1][end]</data>
         <refs>
             <ref>0x64</ref>
         </refs>
-        <data>MATELIGHT: Princesse [character][0x1]...[0xfc][0x18]
+        <data>MATELITE: Princesse [character][0x1]...[0xfc][0x18]
 Veillez sur nous...[end1][end]</data>
     </text>
     <text>
@@ -70,7 +70,7 @@ accomplirai la légende !![end1][end]</data>
         <refs>
             <ref>0x7e</ref>
         </refs>
-        <data>PALPALEOS: ...Elle n'est pas là ?[0xfc][0x10]
+        <data>PALPAROS: ...Elle n'est pas là ?[0xfc][0x10]
 [character][0x1]......[end1][end]</data>
     </text>
     <text>
@@ -99,13 +99,13 @@ Sacrés...[end1][end]</data>
         <refs>
             <ref>0x97</ref>
         </refs>
-        <data>MATELIGHT: Préparez-vous à attaquer !![end1][end]</data>
+        <data>MATELITE: Préparez-vous à attaquer !![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa2</ref>
         </refs>
-        <data>SENDACK: Il y aura parfois des
+        <data>SENDAK: Il y aura parfois des
 tempêtes de sable,[0xfc][0x18] il faut donc
 les surveiller.[end1][end]</data>
     </text>
@@ -114,7 +114,7 @@ les surveiller.[end1][end]</data>
             <ref>0xa6</ref>
         </refs>
         <data>Et bien sûr, il faut aussi se méfier
-de Sauzer et de Palpaleos.[end1][end]</data>
+de Sauzer et de Palparos.[end1][end]</data>
     </text>
     <text>
         <refs>
@@ -127,13 +127,13 @@ de Sauzer et de Palpaleos.[end1][end]</data>
         <refs>
             <ref>0x116</ref>
         </refs>
-        <data>MATELIGHT: Nous avons vaincu Sauzer...[0xfc][0x20][end1][end]</data>
+        <data>MATELITE: Nous avons vaincu Sauzer...[0xfc][0x20][end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x121</ref>
         </refs>
-        <data>COMMANDANT: Sire Matelight !![0xfc][0x18]
+        <data>COMMANDANT: Sire Matelite !![0xfc][0x18]
 Nous sommes victorieux !![end1][end]</data>
     </text>
     <text>

@@ -107,7 +107,7 @@ Je me sens offensé ![end]</data>
         <refs>
             <ref>0x111b</ref>
         </refs>
-        <data>BIKKEBAKKE:
+        <data>BIKEBAKE:
 [character][0x0],je dois dire que je suis très
 inquiet.
 Y aurait-il des choses que tu n'aimes
@@ -149,8 +149,8 @@ Merci,frère.[end]</data>
         <refs>
             <ref>0x1199</ref>
         </refs>
-        <data>MELODIA:
-Matelight et ses amis sont tous
+        <data>MELODY:
+Matelite et ses amis sont tous
 ensemble.
 Mais [character][0x0] et Hornet sont ici et ils
 sont seuls.[end]</data>
@@ -162,7 +162,7 @@ sont seuls.[end]</data>
         <data>        Jette un coup d'oeil.
   
  
-    J'entends Matelight rire à
+    J'entends Matelite rire à
             haute voix...
  
             GAHAHAHAHA...[end]</data>
@@ -171,7 +171,7 @@ sont seuls.[end]</data>
         <refs>
             <ref>0x32d</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Princesse [character][0x1],vous pouvez parler !
 Que s'est-il passé dans le ciel ?[end]</data>
     </text>
@@ -214,14 +214,14 @@ Dragons Sacrés ![end]</data>
             <ref>0x3a4</ref>
         </refs>
         <data>[character][0x1]:
-Matelight,te souviens-tu de ce que
+Matelite,te souviens-tu de ce que
 conte la Légende des Dragons Sacrés ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3c2</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Bien sûr,Princesse !
 Ma version est celle-ci...[end]</data>
     </text>
@@ -268,7 +268,7 @@ Ainsi,je...[end]</data>
         <refs>
             <ref>0x41d</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Mon Dieu !
 Ce à quoi je pensais serait donc vrai !
 Je vais vous rappeler la suite de cette
@@ -293,7 +293,7 @@ bataille ![end]</data>
             <ref>0x44e</ref>
         </refs>
         <data>COMMANDANT:
-Matelight,qu'y a-t-il ?
+Matelite,qu'y a-t-il ?
 Dis-moi ce qui ne va pas ![end]</data>
     </text>
     <text>
@@ -317,7 +317,7 @@ au coeur faible.[end]</data>
         <refs>
             <ref>0x478</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Silence,Commandant !
 Ne dis rien à personne !
 Sortez tous ![end]</data>
@@ -341,7 +341,7 @@ Quelque chose ne va pas ?![end1]</data>
         <refs>
             <ref>0x105e</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Les Dragons Sacrés sont furieux et
 violents !
 Je tremble beaucoup ?[end]</data>
@@ -396,7 +396,7 @@ SALAMAND,arrête ![end]</data>
         <refs>
             <ref>0x698</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Qu'est-ce qui ne va pas,
 Princesse [character][0x1]?
 Vous êtes... étrange ![end]</data>
@@ -412,7 +412,7 @@ Vous êtes... étrange ![end]</data>
         <refs>
             <ref>0x6b5</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 La Porte de la Nouvelle Ère n'a pas
 été ouverte ?![end]</data>
     </text>
@@ -465,14 +465,14 @@ Merci...[end]</data>
         <refs>
             <ref>0x740</ref>
         </refs>
-        <data>Mais Matelight,je sens que Bahamut est
+        <data>Mais Matelite,je sens que Bahamut est
 haï par les autres Dragons Sacrés ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x752</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 GAHAHAHAHAHA !
 Vous vous inquiétez pour ça !
 Regardez-moi,Princesse ![end]</data>
@@ -481,19 +481,19 @@ Regardez-moi,Princesse ![end]</data>
         <refs>
             <ref>0x76d</ref>
         </refs>
-        <data>Matelight le Héros ![end]</data>
+        <data>Matelite le Héros ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x782</ref>
         </refs>
-        <data>Le célèbre Matelight ![end]</data>
+        <data>Le célèbre Matelite ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x792</ref>
         </refs>
-        <data>Matelight,le Chevalier de Kana ![end]</data>
+        <data>Matelite,le Chevalier de Kana ![end]</data>
     </text>
     <text>
         <refs>
@@ -524,7 +524,7 @@ Jormungand ?[end]</data>
         <refs>
             <ref>0x7d7</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Commandant ?![end]</data>
     </text>
     <text>
@@ -595,7 +595,7 @@ pour vous soutenir.[end]</data>
             <ref>0x87f</ref>
         </refs>
         <data>Le jour où je serai âgé tout comme
-l'est ce vieil homme,Sendack,et que
+l'est ce vieil homme,Sendak,et que
 je dirai des inepties...
 Alors ce jour-là,je me retirerai.
 Et d'autres personnes me remplaceront.[end]</data>
@@ -627,7 +627,7 @@ moi,Princesse...[end]</data>
             <ref>0x8c1</ref>
         </refs>
         <data>Lorsque ce jour arrivera...
-Peut-être que Sendack sera déjà
+Peut-être que Sendak sera déjà
 mort...[end]</data>
     </text>
     <text>
@@ -709,7 +709,7 @@ C'est sincèrement ce que je pense ![end]</data>
         <data>[character][0x1]:
 De nombreux amis s'inquiètent tant
 pour moi !
-Matelight...
+Matelite...
 Toi aussi,[character][0x0]...
 Et tous les Rebelles...[end]</data>
     </text>
@@ -718,7 +718,7 @@ Et tous les Rebelles...[end]</data>
             <ref>0xf70</ref>
         </refs>
         <data>[character][0x0],il y a quelque chose que je n'ai
-pas dit à notre cher Matelight.
+pas dit à notre cher Matelite.
 Moi aussi,j'ai un rêve...
 Un petit rêve,selon certains dires...[end]</data>
     </text>
@@ -741,7 +741,7 @@ Comme j'aime regarder le ciel ![end]</data>
         <refs>
             <ref>0xfb5</ref>
         </refs>
-        <data>Je dois partir car Matelight m'attend
+        <data>Je dois partir car Matelite m'attend
 sur le pont.[end]</data>
     </text>
     <text>
@@ -756,7 +756,7 @@ et se livrent à des actes violents.
 En ce moment,des troupes de l'Empire
 Granbelos préparent une offensive à
 l'Église des Souvenirs.
-Le Général Palpaleos est présent.
+Le Général Palparos est présent.
 Malheureusement,nous n'avons pas eu
 d'autres informations dans ces
 circonstances.[end]</data>
@@ -812,7 +812,7 @@ coeur faible.[end]</data>
         <refs>
             <ref>0x118a</ref>
         </refs>
-        <data>LUKIA:
+        <data>RUKI:
 J'ai entièrement confiance en la
 Princesse [character][0x1].
 Tu es d'accord avec moi ?![end]</data>
@@ -821,7 +821,7 @@ Tu es d'accord avec moi ?![end]</data>
         <refs>
             <ref>0x11c8</ref>
         </refs>
-        <data>MELODIA:
+        <data>MELODY:
 Hé ! Hé ! HEEEEEEE !
 Qu'est-ce qui ne va pas ?
 Vous pouvez me le dire ?![end]</data>
@@ -830,8 +830,8 @@ Vous pouvez me le dire ?![end]</data>
         <refs>
             <ref>0x11e1</ref>
         </refs>
-        <data>MELODIA:
-C'est étrange,Matelight ne dit plus
+        <data>MELODY:
+C'est étrange,Matelite ne dit plus
 rien ![end]</data>
     </text>
     <text>
@@ -839,14 +839,14 @@ rien ![end]</data>
             <ref>0x1093</ref>
         </refs>
         <data>COMMANDANT:
-Matelight semble parfois si triste ![end]</data>
+Matelite semble parfois si triste ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x109a</ref>
         </refs>
         <data>COMMANDANT:
-Matelight est très silencieux !
+Matelite est très silencieux !
  
 Sais-tu pourquoi il ne veut pas parler ?
 Hum,il y a des choses qui ne se

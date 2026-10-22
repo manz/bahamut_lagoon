@@ -10,7 +10,7 @@
         <refs>
             <ref>0xdd</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Princesse [character][0x1]!
 Ne vous levez pas ?![end]</data>
     </text>
@@ -29,14 +29,14 @@ froid,ici ![end]</data>
             <ref>0x102</ref>
         </refs>
         <data>[character][0x1]:
-Et Matelight ?[end]</data>
+Et Matelite ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x106</ref>
         </refs>
-        <data>SENDACK:
-Oh Matelight !
+        <data>SENDAK:
+Oh Matelite !
  
 Il est encore occupé à parler tout
 seul et à se plaindre dans la salle
@@ -60,7 +60,7 @@ gens de Kana viennent ici chaque jour.[end]</data>
 Ma Princesse [character][0x1]...
 Nous sommes enfin revenus chez nous.
 Kana n'a plus à s'inquiéter !
-Matelight vous défendra autant que
+Matelite vous défendra autant que
 possible,je le jure !
 [character][0x0] est devenu un homme incroyable
 et il est l'un de mes meilleurs amis.[end]</data>

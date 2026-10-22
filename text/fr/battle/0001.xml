@@ -10,7 +10,7 @@
         <refs>
             <ref>0x2c</ref>
         </refs>
-        <data>MATELIGHT: On dirait que l'armée impériale
+        <data>MATELITE: On dirait que l'armée impériale
 est toujours là !![end1][end]</data>
     </text>
     <text>
@@ -67,7 +67,7 @@ techniques ! Alors prudence !![end1][end]</data>
         <refs>
             <ref>0xb3</ref>
         </refs>
-        <data>MATELIGHT: Bien !![0xfc][0x20] Je prends le commandement
+        <data>MATELITE: Bien !![0xfc][0x20] Je prends le commandement
 du vaisseau !![end1][end]</data>
     </text>
 </texts>

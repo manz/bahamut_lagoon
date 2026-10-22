@@ -30,7 +30,7 @@ En tout cas,j'irai m'y promener ![end]</data>
         <refs>
             <ref>0x2a1</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Tu as l'air très optimiste !
  
 Avant même de pouvoir y aller,
@@ -48,7 +48,7 @@ Je comprends ![end]</data>
         <refs>
             <ref>0x2c4</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Au fait,Zora !
  
 J'ai entendu dire que tu avais dit des
@@ -67,7 +67,7 @@ Qui t'en a parlé ?[end]</data>
         <refs>
             <ref>0x2fd</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Quoi ?!
 Ce n'est pas possible !
 Tu n'en as pas le droit !
@@ -82,14 +82,14 @@ N'es-tu pas en train de faire la même
 chose avec moi ?
 Alors ?
 Que vas-tu me faire maintenant ?
-Dis-le Matelight !
+Dis-le Matelite !
 J'en ai assez entendu ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x328</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Mince...[end]</data>
     </text>
     <text>
@@ -118,7 +118,7 @@ les détruirai tous ![end]</data>
             <ref>0x233</ref>
         </refs>
         <data>RUSH:
-Récemment Bikkebakke a énormément
+Récemment Bikebake a énormément
 changé...[end]</data>
     </text>
     <text>
@@ -126,13 +126,13 @@ changé...[end]</data>
             <ref>0x23a</ref>
         </refs>
         <data>TAURUS:
-Quel secret Bikkebakke cache-t-il ?[end]</data>
+Quel secret Bikebake cache-t-il ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4db</ref>
         </refs>
-        <data>LUKIA:
+        <data>RUKI:
 Toutes ces personnes ici ont perdu
 quelque chose dans la guerre...[end]</data>
     </text>
@@ -237,7 +237,7 @@ Docteur Dragon pour aller combattre.[end]</data>
         <refs>
             <ref>0x4e2</ref>
         </refs>
-        <data>LUKIA:
+        <data>RUKI:
 Est-ce que nous allons à Campbell pour
 la Légende des Dragons Sacrés ?
 J'espère que la chance tournera à
@@ -247,7 +247,7 @@ notre avantage avec la Légende.[end]</data>
         <refs>
             <ref>0x1e5</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Le cri de Valitra ressemble à celui de
 quelqu'un qui se fait tuer.
 Sache aussi que lorsque je suis proche
@@ -270,7 +270,7 @@ Je dis encore des balivernes.[end]</data>
             <ref>0x20b</ref>
             <ref>0x1de</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Persévère en ce que tu crois être
 bon ![end]</data>
     </text>
@@ -278,8 +278,8 @@ bon ![end]</data>
         <refs>
             <ref>0x220</ref>
         </refs>
-        <data>MATELIGHT:
-Sendack peut résister à trois
+        <data>MATELITE:
+Sendak peut résister à trois
 personnes ![end]</data>
     </text>
     <text>
@@ -400,7 +400,7 @@ munyo !
         <refs>
             <ref>0x501</ref>
         </refs>
-        <data>MELODIA:
+        <data>MELODY:
 Je suis comme un Petit Démon !
 Je le suis de plus en plus !
  C'est vrai,c'est bien...

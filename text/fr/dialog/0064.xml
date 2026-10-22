@@ -91,7 +91,7 @@ longtemps ![end]</data>
         <refs>
             <ref>0x211</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Veux-tu que je te dise quelque chose ?
  
  M'en informer.
@@ -101,7 +101,7 @@ Veux-tu que je te dise quelque chose ?
         <refs>
             <ref>0x23a</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Hum hum...
 Oui...[end]</data>
     </text>
@@ -126,7 +126,7 @@ tendresse ![end]</data>
         <refs>
             <ref>0x22f</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Oh,pardonne-moi [character][0x0]!
 Je ne sais plus ce que je dis !
 J'ai trop bu...[end]</data>
@@ -378,7 +378,7 @@ Viens ici ![end]</data>
         <refs>
             <ref>0x4a6</ref>
         </refs>
-        <data>À FARENHEIT,
+        <data>À FARENEIT,
 tu sauras de très nombreuses choses.[end]</data>
     </text>
     <text>
@@ -413,7 +413,7 @@ ne t'inquiète pas ![end]</data>
         <refs>
             <ref>0x5aa</ref>
         </refs>
-        <data>BIKKEBAKKE:
+        <data>BIKEBAKE:
 [character][0x0]!
  
 Si je tourne [0xb0][0xaf][0xaf][0xaf] fois pour surveiller
@@ -433,7 +433,7 @@ Hihihi,hihi ![end]</data>
         <refs>
             <ref>0x5b3</ref>
         </refs>
-        <data>BIKKEBAKKE:
+        <data>BIKEBAKE:
 Qu'est-ce qu'il y a ?
  
  Continue à monter la garde.
@@ -463,7 +463,7 @@ Je continue à surveiller ce portefeuille ![end]</data>
         <refs>
             <ref>0x5e1</ref>
         </refs>
-        <data>BIKKEBAKKE:
+        <data>BIKEBAKE:
 Frère...
  
 Je ne crois pas qu'il me mente !
@@ -497,7 +497,7 @@ C'est pitoyable...[end]</data>
         <refs>
             <ref>0x774</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Nous sommes les Héros de la Libération
 de Campbell !
 Mon nom sera gravé sur les armures !

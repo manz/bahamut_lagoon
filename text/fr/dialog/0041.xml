@@ -4,7 +4,7 @@
         <refs>
             <ref>0x83</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Qu'est-ce que c'est ?
 Cette chose est une porte ?[end]</data>
     </text>
@@ -19,7 +19,7 @@ Ah ![end]</data>
         <refs>
             <ref>0xac</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Vous sentez-vous bien ?
 Princesse... ?![end]</data>
     </text>
@@ -37,7 +37,7 @@ Il est derrière cette porte...[end]</data>
         <refs>
             <ref>0xcb</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Très bien !
 Nous allons examiner ça !
 Viens Commandant ![end]</data>
@@ -63,7 +63,7 @@ elle ne m'intimide pas ![end]</data>
         <refs>
             <ref>0x108</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Humf humf...
 Même moi,un garde palais de réputation,
 je n'arrive pas à l'ouvrir.[end]</data>
@@ -72,7 +72,7 @@ je n'arrive pas à l'ouvrir.[end]</data>
         <refs>
             <ref>0x111</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 C'est évident,il est inutile d'utiliser
 notre force !
 Tenter d'ouvrir la porte vers le
@@ -99,7 +99,7 @@ Je le ferai...[end]</data>
         <refs>
             <ref>0x15e</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Utiliser la force était donc vraiment
 inutile pour ouvrir cette porte ![end]</data>
     </text>
@@ -122,7 +122,7 @@ Je vais appeler le Dragon Sacré...[end]</data>
         <refs>
             <ref>0x182</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Nous sommes donc devant l'antre du
 Dragon Sacré...
 Devrions-nous y pénétrer ?[end]</data>
@@ -131,7 +131,7 @@ Devrions-nous y pénétrer ?[end]</data>
         <refs>
             <ref>0x19c</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 [character][0x1],
 ce doit être vraiment très dangereux !
 [character][0x0],va tout d'abord voir si tout va
@@ -141,7 +141,7 @@ bien ![end]</data>
         <refs>
             <ref>0x1ea</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Que s'est-il passé ?!
 Qu'allons-nous faire ?![end]</data>
     </text>
@@ -156,7 +156,7 @@ Aaaaah ![end]</data>
         <refs>
             <ref>0x235</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Princesse ![end]</data>
     </text>
     <text>
@@ -169,10 +169,10 @@ Princesse ![end]</data>
         <refs>
             <ref>0x298</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Hééééé !
 À qui crois-tu avoir affaire ?
-Je suis Matelight !
+Je suis Matelite !
 Je t'ordonne de laisser [character][0x1]
 tranquille ![end]</data>
     </text>
@@ -219,7 +219,7 @@ A... attends...[end]</data>
         <refs>
             <ref>0x3ee</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Princesse !
 Tenez bon ![end]</data>
     </text>
@@ -249,7 +249,7 @@ sont aussi tristes...[end]</data>
         <refs>
             <ref>0x446</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Colère... tristesse... ?
 Quel peut en être le sens ?
 Vraiment,je ne comprends pas.
@@ -259,7 +259,7 @@ Ils sont tristes ![end]</data>
         <refs>
             <ref>0x456</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Pourquoi ne le pourraient-ils pas ?!
 Les Dragons Sacrés sont comme nous ![end]</data>
     </text>
@@ -294,7 +294,7 @@ et avec eux,nous vaincrons l'Empire ![end]</data>
         <refs>
             <ref>0x4b3</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Vite,quittons cet endroit ![end]</data>
     </text>
     <text>
@@ -309,7 +309,7 @@ Il veut me dire quelque chose.[end]</data>
         <refs>
             <ref>0x68c</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 [character][0x0],tout va bien ?
 Je sens que tu es bizarre...[end]</data>
     </text>
@@ -317,7 +317,7 @@ Je sens que tu es bizarre...[end]</data>
         <refs>
             <ref>0x695</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 [character][0x0],
 je t'ai demandé quelque chose ![end]</data>
     </text>

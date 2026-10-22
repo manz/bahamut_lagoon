@@ -120,7 +120,7 @@ Peut-elle vraiment être une Dragoon ?[end]</data>
  
  
 RUSH:
-Matelight,nous ne voulons plus vous
+Matelite,nous ne voulons plus vous
 obéir !
 Dès maintenant,nous menons une
 insurrection !
@@ -183,7 +183,7 @@ ont voulu dire ?[end]</data>
         <refs>
             <ref>0x2c9</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 ... ... ... ...
  
 Monyo et Manyo sont bien bruyantes ![end]</data>
@@ -192,7 +192,7 @@ Monyo et Manyo sont bien bruyantes ![end]</data>
         <refs>
             <ref>0x2ea</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 [character][0x0] et les autres vont passer un
 sale quart d'heure ![end]</data>
     </text>

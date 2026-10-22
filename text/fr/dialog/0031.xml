@@ -21,7 +21,7 @@ arrivés ![end]</data>
         <refs>
             <ref>0xb3</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Personne pour nous féliciter ?!
 C'est impoli !
 Commandant,allons voir ce qui se passe
@@ -31,7 +31,7 @@ ici ![end]</data>
         <refs>
             <ref>0x4a3</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 C'est ici,Commandant ![end]</data>
     </text>
     <text>
@@ -39,7 +39,7 @@ C'est ici,Commandant ![end]</data>
             <ref>0x4ac</ref>
         </refs>
         <data>COMMANDANT:
-C'est petit,Matelight ![end]</data>
+C'est petit,Matelite ![end]</data>
     </text>
     <text>
         <refs>
@@ -103,7 +103,7 @@ venu ![end]</data>
         <refs>
             <ref>0xf6</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Nous avons enfin récupéré le Flambeau
 de Kana.
 J'ai encore tant d'affection pour ce
@@ -113,7 +113,7 @@ bateau ![end]</data>
         <refs>
             <ref>0x240</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Le capitaine du bateau doit être ici !
 Te souviens-tu de lui ?[end]</data>
     </text>
@@ -121,7 +121,7 @@ Te souviens-tu de lui ?[end]</data>
         <refs>
             <ref>0x266</ref>
         </refs>
-        <data>BIKKEBAKKE:
+        <data>BIKEBAKE:
 Nous sommes revenus à la maison...
 J'en frémis de joie ![end]</data>
     </text>
@@ -147,7 +147,7 @@ Tu n'as pas l'air d'un type ennuyeux.[end]</data>
         <refs>
             <ref>0x69d</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Ah,[character][0x0]!
  
 Nous avons bientôt terminé l'inspection
@@ -157,7 +157,7 @@ du bateau ![end]</data>
         <refs>
             <ref>0x3de</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 [character][0x0],attends un instant !
 J'aimerais te parler...[end]</data>
     </text>
@@ -165,7 +165,7 @@ J'aimerais te parler...[end]</data>
         <refs>
             <ref>0x403</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Il nous faut un nom pour ce vaisseau
 mais je n'en trouve pas...
 Tu dois sûrement avoir un très beau
@@ -179,8 +179,8 @@ grand retour ![end]</data>
             <ref>0x556</ref>
             <ref>0x247</ref>
         </refs>
-        <data>SENDACK:
-FARENHEIT ?!
+        <data>SENDAK:
+FARENEIT ?!
 [character][0x0],je dois dire que ce nom est
 Fan-Tas-Ti-Que ![end]</data>
     </text>
@@ -188,16 +188,16 @@ Fan-Tas-Ti-Que ![end]</data>
         <refs>
             <ref>0x5a3</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Hahahahaha !
-FARENHEIT ?![end]</data>
+FARENEIT ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5ae</ref>
         </refs>
-        <data>MATELIGHT:
-Tout compte fait,FARENHEIT,
+        <data>MATELITE:
+Tout compte fait,FARENEIT,
 c'est assez cool ![end]</data>
     </text>
     <text>
@@ -212,7 +212,7 @@ la marchandise ![end]</data>
         <refs>
             <ref>0x2d8</ref>
         </refs>
-        <data>Le capitaine de ce vaisseau,Sendack,
+        <data>Le capitaine de ce vaisseau,Sendak,
 doit être resté très jeune,non ?![end]</data>
     </text>
     <text>

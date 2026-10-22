@@ -19,7 +19,7 @@ Je suis enfin arrivé à vous ![end]</data>
             <ref>0xab</ref>
         </refs>
         <data>Commandant: Je suis Commandant,Capitaine de Mahal,
-je suis venu avec Matelight ![end]</data>
+je suis venu avec Matelite ![end]</data>
     </text>
     <text>
         <refs>
@@ -32,17 +32,17 @@ On n'emmène pas la Princesse dans un tel lieu ![end]</data>
         <refs>
             <ref>0x26a</ref>
         </refs>
-        <data>Sendack: Ouf... Ouf...
+        <data>Sendak: Ouf... Ouf...
 Arrêtons-nous ici...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2b8</ref>
         </refs>
-        <data>Lukia: Ne le fais pas trop parler !
+        <data>Ruki: Ne le fais pas trop parler !
  
 
-Sendack doit se reposer un instant,et il sera bientôt de
+Sendak doit se reposer un instant,et il sera bientôt de
 nouveau plein vigueur ![end]</data>
     </text>
     <text>
@@ -298,7 +298,7 @@ Mon esprit me joue des tours ![end]</data>
         <refs>
             <ref>0x2bf</ref>
         </refs>
-        <data>Lukia: [character][0xd] est parti à la poursuite du soldat
+        <data>Ruki: [character][0xd] est parti à la poursuite du soldat
 impérial ![end]</data>
     </text>
     <text>
@@ -342,7 +342,7 @@ Besoin de quelque chose ?![end][end]</data>
         <refs>
             <ref>0x27c</ref>
         </refs>
-        <data>Lukia: Es-tu prêt à aller au combat ?
+        <data>Ruki: Es-tu prêt à aller au combat ?
  
 
   Attendre.

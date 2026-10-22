@@ -11,7 +11,7 @@ n'ai jamais vues !![end1][end]</data>
         <refs>
             <ref>0x32</ref>
         </refs>
-        <data>MATELIGHT: Que sont ces monstres,
+        <data>MATELITE: Que sont ces monstres,
 bon sang ?![0xfc][0x15] Ils sont sortis d'un trou
 dans le ciel !![end1][end]</data>
     </text>
@@ -39,7 +39,7 @@ tels monstres...[0xfc][0x20][end1][end]</data>
         <refs>
             <ref>0x64</ref>
         </refs>
-        <data>SENDACK: Prudence, [0xfc][0x10][character][0x0].[0xfc][0x20]
+        <data>SENDAK: Prudence, [0xfc][0x10][character][0x0].[0xfc][0x20]
 J'ignore ce qu'ils sont...[end1][end]</data>
     </text>
     <text>
@@ -59,7 +59,7 @@ J'ignore ce qu'ils sont...[end1][end]</data>
         <refs>
             <ref>0xab</ref>
         </refs>
-        <data>MATELIGHT: Regardez !![end1][end]</data>
+        <data>MATELITE: Regardez !![end1][end]</data>
     </text>
     <text>
         <refs>

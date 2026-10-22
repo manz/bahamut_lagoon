@@ -4,7 +4,7 @@
         <refs>
             <ref>0x2c</ref>
         </refs>
-        <data>MATELIGHT: La Princesse [character][0x1] est dans
+        <data>MATELITE: La Princesse [character][0x1] est dans
 la forteresse, droit devant !![end1][end]</data>
     </text>
     <text>
@@ -18,7 +18,7 @@ la forteresse, droit devant !![end1][end]</data>
             <ref>0x3d</ref>
         </refs>
         <data>Princesse [character][0x1]!![0xfc][0x18]
-Matelight arrive !![end1][end]</data>
+Matelite arrive !![end1][end]</data>
     </text>
     <text>
         <refs>
@@ -32,7 +32,7 @@ sommes capables !![end1][end]</data>
         <refs>
             <ref>0x4f</ref>
         </refs>
-        <data>MATELIGHT: Si on vainc un ennemi avec une
+        <data>MATELITE: Si on vainc un ennemi avec une
 attaque indirecte, on ne touche que la
 moitié de l'argent !![end1][end]</data>
     </text>
@@ -47,14 +47,14 @@ de l'argent !![0xfc][0x18] De l'argent, de l'argent !![end1][end]</data>
         <refs>
             <ref>0x65</ref>
         </refs>
-        <data>MATELIGHT: Écrasez-les en attaque
+        <data>MATELITE: Écrasez-les en attaque
 directe !![0xfc][0x18] Et pas de quartier !![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x74</ref>
         </refs>
-        <data>SENDACK: Le continent verdoyant de
+        <data>SENDAK: Le continent verdoyant de
 Campbell...[0xfc][0x30] Il y a quelque chose dans l'air...[0xfc][0x18][end1][end]</data>
     </text>
     <text>

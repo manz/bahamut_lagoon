@@ -39,7 +39,7 @@ Où suis-je... ?[end]</data>
         <refs>
             <ref>0x1af</ref>
         </refs>
-        <data>PALPALEOS:
+        <data>PALPAROS:
 Sauzer...
 Vous êtes dans votre chambre.
 Vous ne vous en souvenez pas ?
@@ -61,7 +61,7 @@ Se porte-t-elle bien ?[end]</data>
         <refs>
             <ref>0x1cb</ref>
         </refs>
-        <data>PALPALEOS:
+        <data>PALPAROS:
 Je suis désolé,
 la Princesse est partie.
 Elle a rejoint les Rebelles et Campbell
@@ -72,7 +72,7 @@ nous a été reprise.[end]</data>
             <ref>0x209</ref>
         </refs>
         <data>SAUZER:
-Je suis désolé Palpaleos.
+Je suis désolé Palparos.
 Où sont partis les Rebelles ?
 Vont-ils à la recherche des Dragons
 Sacrés ?[end]</data>
@@ -81,7 +81,7 @@ Sacrés ?[end]</data>
         <refs>
             <ref>0x225</ref>
         </refs>
-        <data>PALPALEOS:
+        <data>PALPAROS:
 Reposez-vous un peu...
 Nous défendrons Granbelos pour vous ![end]</data>
     </text>
@@ -102,7 +102,7 @@ Qu'a dit Valitra à la Princesse [character][0x1]?[end]</data>
         <data>Ce doit être à moi d'ouvrir la Porte
 vers la nouvelle ère !
 Pas à elle !
-Oui,Palpaleos...
+Oui,Palparos...
 Ne laisse pas les Rebelles aller plus
 loin !
 Bientôt,je saurai comment connaître
@@ -116,7 +116,7 @@ Ils seront MIENS ![end]</data>
         <refs>
             <ref>0x2c8</ref>
         </refs>
-        <data>Palpaleos...
+        <data>Palparos...
 Pardonne-moi...[end]</data>
     </text>
     <text>
@@ -130,7 +130,7 @@ Cependant,je ne sais pas vraiment ce
 que je suis en train de faire.
  
 S'il m'arrivait quelque chose,
-Palpaleos... s'il te plaît...
+Palparos... s'il te plaît...
 pour l'amour de Granbelos...[end]</data>
     </text>
     <text>
@@ -241,7 +241,7 @@ Il est... dans mon esprit...[end]</data>
         <refs>
             <ref>0x801</ref>
         </refs>
-        <data>PALPALEOS:
+        <data>PALPAROS:
 Avez-vous remarqué le changement
 dans le ciel ?
 Empereur Sauzer,
@@ -253,7 +253,7 @@ le ciel ?[end]</data>
             <ref>0x80c</ref>
         </refs>
         <data>SAUZER:
-Palpaleos...
+Palparos...
 Le ciel...
 Viens avec moi voir le ciel pour la
 dernière fois...[end]</data>
@@ -262,7 +262,7 @@ dernière fois...[end]</data>
         <refs>
             <ref>0x81c</ref>
         </refs>
-        <data>PALPALEOS:
+        <data>PALPAROS:
 Pour la dernière fois ?![end]</data>
     </text>
     <text>
@@ -282,7 +282,7 @@ Le ciel est à moi ![end]</data>
             <ref>0x87b</ref>
             <ref>0x89d</ref>
         </refs>
-        <data>PALPALEOS:
+        <data>PALPAROS:
 Sauzer... ?![end]</data>
     </text>
     <text>
@@ -290,7 +290,7 @@ Sauzer... ?![end]</data>
             <ref>0x88c</ref>
         </refs>
         <data>SAUZER:
-Palpaleos...
+Palparos...
 Est-ce que je fais erreur ?
 Suis-je humain ?
 Suis-je leur Empereur ?[end]</data>
@@ -326,7 +326,7 @@ Tout ce que je désirais est à moi ![end]</data>
         <refs>
             <ref>0x8f3</ref>
         </refs>
-        <data>Palpaleos...
+        <data>Palparos...
 Aurais-tu une chose à laquelle tu
 tiens ?
 Une chose pour laquelle tu trahirais
@@ -336,7 +336,7 @@ voire tuerais l'Empereur de Granbelos ?[end]</data>
         <refs>
             <ref>0x901</ref>
         </refs>
-        <data>Général Palpaleos !
+        <data>Général Palparos !
 Partez... partez à Kana !
  
 Rejoignez les Rebelles et combattez
@@ -348,7 +348,7 @@ Pour protéger Orelus ![end]</data>
             <ref>0x928</ref>
         </refs>
         <data>C'est un ordre de l'Empereur !
-Ne le discute pas Palpaleos !
+Ne le discute pas Palparos !
  
 Malgré cela,tu seras toujours la
 personne qui ait le plus compté pour

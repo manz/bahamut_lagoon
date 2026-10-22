@@ -4,7 +4,7 @@
         <refs>
             <ref>0x7c</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Allons à Mahal.[end]</data>
     </text>
     <text>
@@ -18,7 +18,7 @@ Atterrissons très vite à Mahal ![end]</data>
         <refs>
             <ref>0xb1</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Une minute Commandant !
  
 Tu n'attends pas que nous soyons
@@ -28,7 +28,7 @@ prêts ?[end]</data>
         <refs>
             <ref>0xc7</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Oublie un peu Commandant !
 Mahal a été conquise par l'Empire !
 Il est le guerrier No [0xb0] de Mahal,
@@ -41,7 +41,7 @@ Et nous avons le même but ![end]</data>
         <refs>
             <ref>0xd3</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Vite !
  
 L'Empire risque de fortement
@@ -54,8 +54,8 @@ N'est-ce pas terrible ?[end]</data>
         <refs>
             <ref>0xdc</ref>
         </refs>
-        <data>MATELIGHT:
-Qu'est-ce que tu racontes Sendack ![end]</data>
+        <data>MATELITE:
+Qu'est-ce que tu racontes Sendak ![end]</data>
     </text>
     <text>
         <refs>
@@ -76,7 +76,7 @@ Montez sur vos dragons ![end]</data>
         <refs>
             <ref>0x10d</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 [character][0x0],je ne suis pas content !
 Et toi ?[end]</data>
     </text>
@@ -158,7 +158,7 @@ Que vas-tu acheter ?[end]</data>
         <refs>
             <ref>0x28e</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Très bien [character][0x0]!
 Es-tu prêt à aller te battre ?[end]</data>
     </text>

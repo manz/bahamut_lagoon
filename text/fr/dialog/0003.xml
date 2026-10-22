@@ -38,7 +38,7 @@ Partons ![end]</data>
         <refs>
             <ref>0x35e</ref>
         </refs>
-        <data>Sendack:
+        <data>Sendak:
 Que veux-tu faire ?
  
   Appeler les dragons.
@@ -61,13 +61,13 @@ compte beaucoup.[end]</data>
         <refs>
             <ref>0x380</ref>
         </refs>
-        <data>Sendack: Ici... ici ![end]</data>
+        <data>Sendak: Ici... ici ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4df</ref>
         </refs>
-        <data>Sendack: [character][0x0],c'est fantastique ![end]</data>
+        <data>Sendak: [character][0x0],c'est fantastique ![end]</data>
     </text>
     <text>
         <refs>
@@ -80,7 +80,7 @@ tu les nourris bien.[end]</data>
         <refs>
             <ref>0x307</ref>
         </refs>
-        <data>Sendack: [character][0x0],que veux-tu faire ?
+        <data>Sendak: [character][0x0],que veux-tu faire ?
 
   Finir les préparatifs.
   Aller au combat ![end1]</data>
@@ -153,7 +153,7 @@ Comment peut-il nous donner de tels ordres ![end]</data>
         <refs>
             <ref>0x1a1</ref>
         </refs>
-        <data>Lukia: Il est juste inquiet !
+        <data>Ruki: Il est juste inquiet !
 Viens,n'y prête pas attention ![end][end]</data>
     </text>
     <text>

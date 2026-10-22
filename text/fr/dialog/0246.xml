@@ -4,27 +4,27 @@
         <refs>
             <ref>0x159</ref>
         </refs>
-        <data>           Don Juan ![end1]</data>
+        <data>           Donfan ![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x1ab</ref>
         </refs>
-        <data>DON JUAN:
-Qu'est-ce qui ne va pas,Lukia ?[end]</data>
+        <data>DONFAN:
+Qu'est-ce qui ne va pas,Ruki ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1b7</ref>
         </refs>
-        <data>LUKIA:
+        <data>RUKI:
 Je me suis enfin décidée ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1d0</ref>
         </refs>
-        <data>DON JUAN:
+        <data>DONFAN:
 Tu t'es décidée ?![end]</data>
     </text>
     <text>
@@ -37,7 +37,7 @@ Tu t'es décidée ?![end]</data>
         <refs>
             <ref>0x1f4</ref>
         </refs>
-        <data>LUKIA:
+        <data>RUKI:
 Oh !
 Écoute,tu as l'air surpris ![end]</data>
     </text>
@@ -45,7 +45,7 @@ Oh !
         <refs>
             <ref>0x1fa</ref>
         </refs>
-        <data>DON JUAN:
+        <data>DONFAN:
 Qui... moi... ?
 Jamais... jamais...[end]</data>
     </text>
@@ -53,15 +53,15 @@ Jamais... jamais...[end]</data>
         <refs>
             <ref>0x20a</ref>
         </refs>
-        <data>Je ne suis que Don Juan le Naïf et
+        <data>Je ne suis que Donfan le Naïf et
 Fidèle Serviteur,non ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x237</ref>
         </refs>
-        <data>LUKIA:
-Tu te trompes Don Juan !
+        <data>RUKI:
+Tu te trompes Donfan !
  
 En ce qui concerne le futur Roi de ce
 pays,je crois que Commandant sera le
@@ -71,14 +71,14 @@ plus apte.[end]</data>
         <refs>
             <ref>0x255</ref>
         </refs>
-        <data>DON JUAN:
+        <data>DONFAN:
 Est-ce vrai ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x264</ref>
         </refs>
-        <data>LUKIA:
+        <data>RUKI:
 Héhéhéhéhé !
 Il finira par accepter face au pouvoir
 dissuasif de Sergent ![end]</data>
@@ -87,7 +87,7 @@ dissuasif de Sergent ![end]</data>
         <refs>
             <ref>0x26e</ref>
         </refs>
-        <data>DON JUAN:
+        <data>DONFAN:
 Hahahahaha !
  
 Il semble que Commandant ne pourra
@@ -97,7 +97,7 @@ rien refuser ![end]</data>
         <refs>
             <ref>0x27f</ref>
         </refs>
-        <data>LUKIA:
+        <data>RUKI:
 Allons au Palais de Mahal !
 Jeanne nous y attend ![end]</data>
     </text>
@@ -105,7 +105,7 @@ Jeanne nous y attend ![end]</data>
         <refs>
             <ref>0x28d</ref>
         </refs>
-        <data>DON JUAN:
+        <data>DONFAN:
 Haha ![end]</data>
     </text>
     <text>
@@ -172,15 +172,15 @@ Moi je le crois capable ![end]</data>
         <refs>
             <ref>0x33a</ref>
         </refs>
-        <data>DON JUAN:
-Don Juan le Naïf et Fidèle Serviteur
+        <data>DONFAN:
+Donfan le Naïf et Fidèle Serviteur
 le croit aussi ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x346</ref>
         </refs>
-        <data>LUKIA:
+        <data>RUKI:
 Moi aussi ![end]</data>
     </text>
     <text>

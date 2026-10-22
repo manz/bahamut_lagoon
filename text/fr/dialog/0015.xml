@@ -19,7 +19,7 @@
             <ref>0xc0</ref>
         </refs>
         <data>HORNET:
-FARENHEIT est en train de passer à
+FARENEIT est en train de passer à
 travers l'orage et se dirige
 maintenant vers Dafira.
 C'est un lagon désert,chaud et
@@ -78,7 +78,7 @@ Je le crois même...[end]</data>
         <refs>
             <ref>0x115</ref>
         </refs>
-        <data>Les Rebelles,je veux dire Matelight et
+        <data>Les Rebelles,je veux dire Matelite et
 les autres,m'ont sauvé de l'Empire !
 Ils sont formidables...
 Ils ne font que des actions droites et
@@ -188,7 +188,7 @@ Je t'attendrai jusqu'à ce jour ![end]</data>
         <refs>
             <ref>0x768</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 [character][0x1],je jure qu'il ne vous arrivera
 rien avec moi.[end]</data>
     </text>
@@ -288,7 +288,7 @@ tuer malgré sa maladie.[end]</data>
         <refs>
             <ref>0x82c</ref>
         </refs>
-        <data>BIKKEBAKKE:
+        <data>BIKEBAKE:
 Dans la chambre de [character][0x1],les hommes
 n'ont pas le droit d'entrer.
 Mais je crois que je vais pouvoir
@@ -320,7 +320,7 @@ Allons-nous atterrir ?[end]</data>
         <refs>
             <ref>0x76f</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 L'Empereur Sauzer connaît le coeur
 des Dragons Sacrés.
 Je crois qu'ils n'en sont pas fiers,

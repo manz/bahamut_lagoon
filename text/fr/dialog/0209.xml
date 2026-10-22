@@ -37,7 +37,7 @@ me le reprendre... ?[end]</data>
         <refs>
             <ref>0x272</ref>
         </refs>
-        <data>FREDERIKA:
+        <data>FREDERICA:
 Tout le monde sait que [character][0x1] est la
 fille au coeur faible.
 Je suis légèrement fatiguée...
@@ -77,7 +77,7 @@ de parler.[end]</data>
         <data>OHOHOHO...
 Ils sont tous si marrants...
  
-Moi et Don Juan ?!
+Moi et Donfan ?!
 O-HOHOHOHOHO[0xd8]
 Je vais mourir de rire ![end]</data>
     </text>
@@ -131,7 +131,7 @@ Ressers-moi ![end]</data>
         <refs>
             <ref>0x323</ref>
         </refs>
-        <data>DON JUAN:
+        <data>DONFAN:
 Jeanne...
 Tu es si belle...[end]</data>
     </text>
@@ -140,7 +140,7 @@ Tu es si belle...[end]</data>
             <ref>0x25c</ref>
             <ref>0x2be</ref>
         </refs>
-        <data>DON JUAN:
+        <data>DONFAN:
 Qu'est-ce que ces manières ?[end]</data>
     </text>
     <text>
@@ -148,7 +148,7 @@ Qu'est-ce que ces manières ?[end]</data>
             <ref>0x2b0</ref>
         </refs>
         <data>JOY:
-Je suis certaine que Don Juan aurait
+Je suis certaine que Donfan aurait
 grand besoin d'une herbe gel pour
 calmer ses ardeurs.[end]</data>
     </text>
@@ -157,7 +157,7 @@ calmer ses ardeurs.[end]</data>
             <ref>0x24e</ref>
         </refs>
         <data>NELBO:
-Si Don Juan ose faire un geste déplacé,
+Si Donfan ose faire un geste déplacé,
 il se mange un coup bien placé ![end]</data>
     </text>
     <text>
@@ -189,7 +189,7 @@ Très bien,gentleman[0xd8][end]</data>
         <refs>
             <ref>0x289</ref>
         </refs>
-        <data>FREDERIKA:
+        <data>FREDERICA:
 Vas-y...
 Vas-y...
 Haha... [character][0x0]...
@@ -209,21 +209,21 @@ Tu peux partir.[end]</data>
         <refs>
             <ref>0x241</ref>
         </refs>
-        <data>DON JUAN:
+        <data>DONFAN:
 Une Sorcière ne ferait jamais cela ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2a3</ref>
         </refs>
-        <data>DON JUAN:
+        <data>DONFAN:
 Une Prêtresse ne ferait jamais cela ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x308</ref>
         </refs>
-        <data>DON JUAN:
+        <data>DONFAN:
 Je vis la vie à [0xb0][0xaf][0xaf] à l'heure ![end]</data>
     </text>
     <text>
@@ -245,7 +245,7 @@ Je crois que Bareck aime ça ![end]</data>
             <ref>0x236</ref>
         </refs>
         <data>NELBO:
-On devrait faire taire ce Don Juan,
+On devrait faire taire ce Donfan,
 l'ennemi des femmes !
 Ce serait si bien...[end]</data>
     </text>
@@ -264,7 +264,7 @@ combat.[end]</data>
             <ref>0x2fd</ref>
         </refs>
         <data>JEANNE:
-Don Juan est misérable !
+Donfan est misérable !
  
 Il y a quelque chose qui ne tourne pas
 rond chez lui.

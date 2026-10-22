@@ -4,14 +4,14 @@
         <refs>
             <ref>0x104</ref>
         </refs>
-        <data> Je te le promets,Sendack...
+        <data> Je te le promets,Sendak...
  Je te demande pardon ?![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xbb</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 [character][0x0]...[end]</data>
     </text>
     <text>
@@ -57,7 +57,7 @@ secret pour personne.[end]</data>
         <refs>
             <ref>0x195</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 En route ![end]</data>
     </text>
     <text>
@@ -81,7 +81,7 @@ pourrait-on me faire confiance ?[end]</data>
 Il doit sûrement mentir.
  
 On dit souvent que je suis très
-vieux mais Sendack est encore vivant
+vieux mais Sendak est encore vivant
 et a plus d'une corde à son arc !
 Il faut le convaincre mais je sais que
 ce sera difficile.

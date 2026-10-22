@@ -54,13 +54,13 @@ Il s'approche...[end]</data>
         <refs>
             <ref>0x111</ref>
         </refs>
-        <data>Lukia: Ils sont de retour ![end]</data>
+        <data>Ruki: Ils sont de retour ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x20a</ref>
         </refs>
-        <data>Melodia: Salamand ![end]</data>
+        <data>Melody: Salamand ![end]</data>
     </text>
     <text>
         <refs>
@@ -72,7 +72,7 @@ Il s'approche...[end]</data>
         <refs>
             <ref>0x346</ref>
         </refs>
-        <data>Bikkebakke: ............[end]</data>
+        <data>Bikebake: ............[end]</data>
     </text>
     <text>
         <refs>
@@ -184,7 +184,7 @@ Dépêchons-nous ![end]</data>
         <refs>
             <ref>0xbec</ref>
         </refs>
-        <data>Sendack: [character][0x0],bienvenue à la maison !
+        <data>Sendak: [character][0x0],bienvenue à la maison !
  
 
 Nous apprécions tout ce que tu as fait pour retrouver les
@@ -203,7 +203,7 @@ Te souviens-tu du jour où tu es parti avec les autres ?[end]</data>
         <refs>
             <ref>0xc42</ref>
         </refs>
-        <data>Sendack: C'était il y a peu de temps mais tu sembles si 
+        <data>Sendak: C'était il y a peu de temps mais tu sembles si 
 mature,maintenant...[end]</data>
     </text>
     <text>
@@ -217,7 +217,7 @@ Vite au champ de bataille ![end]</data>
         <refs>
             <ref>0xb75</ref>
         </refs>
-        <data>Matelight: [character][0x0]...
+        <data>Matelite: [character][0x0]...
  
 
 Te souviens-tu à quel point [character][0x1] avait le coeur
@@ -229,7 +229,7 @@ Tu as également de beaux souvenirs d'elle,n'est-ce pas ?[end]</data>
         <refs>
             <ref>0xb69</ref>
         </refs>
-        <data>Matelight: Princesse [character][0x1]...
+        <data>Matelite: Princesse [character][0x1]...
  
 
 J'ai tant de souvenirs dans mon coeur brisé...[end]</data>
@@ -308,7 +308,7 @@ Les préparatifs sont OK ?[end]</data>
         <refs>
             <ref>0xe89</ref>
         </refs>
-        <data>Sendack: [character][0x0],ce serait trop dur toi d'être plus
+        <data>Sendak: [character][0x0],ce serait trop dur toi d'être plus
 attentif ![end]</data>
     </text>
     <text>
@@ -346,7 +346,7 @@ Il me fait peur...[end]</data>
         <refs>
             <ref>0xc89</ref>
         </refs>
-        <data>Commandant: Matelight est parti sur un dragon et il était
+        <data>Commandant: Matelite est parti sur un dragon et il était
 heureux !
 
 Il semblait pleurer de joie...
@@ -360,7 +360,7 @@ qu'un tour.[end]</data>
             <ref>0x1014</ref>
         </refs>
         <data>Tu as trouvé une
-[0xaa]Chose importante de Matelight[0xab].
+[0xaa]Chose importante de Matelite[0xab].
  
 Le coffre est fermement scellé.
 
@@ -446,7 +446,7 @@ L'ouvrir tout de même ?[end]</data>
         <data>   Vous nous manquez tous beaucoup !
    Ici,ce sera bientôt un autre hiver très rude.
    Prenez soin de vous,
-                                  -SENDACK-[end]</data>
+                                  -SENDAK-[end]</data>
     </text>
     <text>
         <refs>
@@ -474,7 +474,7 @@ de Kana ![end]</data>
         <refs>
             <ref>0x89e</ref>
         </refs>
-        <data>Bikkebakke: Allons chercher les dragons puis notre escadron
+        <data>Bikebake: Allons chercher les dragons puis notre escadron
 sera plus puissant.
 
 Courage,courage ![end]</data>
@@ -489,7 +489,7 @@ Courage,courage ![end]</data>
         <refs>
             <ref>0x8e2</ref>
         </refs>
-        <data>Lukia: Nous allons nous sentir bien seules.[end]</data>
+        <data>Ruki: Nous allons nous sentir bien seules.[end]</data>
     </text>
     <text>
         <refs>
@@ -501,7 +501,7 @@ Courage,courage ![end]</data>
         <refs>
             <ref>0x8fd</ref>
         </refs>
-        <data>Regarde Melodia...
+        <data>Regarde Melody...
 
 
 Ils s'en vont !
@@ -514,13 +514,13 @@ Tu ne dis rien ?![end]</data>
         <refs>
             <ref>0x915</ref>
         </refs>
-        <data>Sendack: Je...[end]</data>
+        <data>Sendak: Je...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x96d</ref>
         </refs>
-        <data>Matelight: Tâche de revenir très vite,[character][0x0] !
+        <data>Matelite: Tâche de revenir très vite,[character][0x0] !
 
 
 [character][0x1] ne doit pas rester plus longtemps entre les

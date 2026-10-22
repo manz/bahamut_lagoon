@@ -5,7 +5,7 @@
             <ref>0x79</ref>
         </refs>
         <data>SAUZER:
-Regarde Palpaleos !
+Regarde Palparos !
 Ça ne fait aucun doute !
 C'est le pouvoir des Dragons Sacrés
 et la Princesse leur parle.
@@ -19,7 +19,7 @@ C'est de cette fille que tout dépendra ![end]</data>
         <refs>
             <ref>0xac</ref>
         </refs>
-        <data>PALPALEOS:
+        <data>PALPAROS:
 Sauzer !
 Allez-vous bien ?![end]</data>
     </text>
@@ -27,21 +27,21 @@ Allez-vous bien ?![end]</data>
         <refs>
             <ref>0x333</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Princesse...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x325</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 [character][0x1]![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x143</ref>
         </refs>
-        <data>LUKIA:
+        <data>RUKI:
 [character][0x0]!
 Tiens bon ![end]</data>
     </text>
@@ -50,35 +50,35 @@ Tiens bon ![end]</data>
             <ref>0x164</ref>
             <ref>0x245</ref>
         </refs>
-        <data>LUKIA:
+        <data>RUKI:
 Réveillez-vous !
  
 [character][0x0]!
 Et [character][0x1]!
  
 Va la rejoindre,vite !
-Le Général Palpaleos veut la
+Le Général Palparos veut la
 reprendre ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x64a</ref>
         </refs>
-        <data>PALPALEOS:
+        <data>PALPAROS:
 Ainsi,tu es [character][0x0]![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x65b</ref>
         </refs>
-        <data>PALPALEOS:
+        <data>PALPAROS:
 ... ... ... ...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x66a</ref>
         </refs>
-        <data>PALPALEOS:
+        <data>PALPAROS:
 J'ai entendu parler de ton histoire
 avec la Princesse.
 Chef de l'Escadron Dragon de Kana !
@@ -88,7 +88,7 @@ La Princesse... te revient ![end]</data>
         <refs>
             <ref>0x24c</ref>
         </refs>
-        <data>LUKIA:
+        <data>RUKI:
 Est-ce que [character][0x1] va bien ?[end]</data>
     </text>
     <text>
@@ -102,14 +102,14 @@ je... je suis...[end]</data>
         <refs>
             <ref>0x42c</ref>
         </refs>
-        <data>PALPALEOS:
+        <data>PALPAROS:
 Nous nous reverrons ![end][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x309</ref>
         </refs>
-        <data>LUKIA:
+        <data>RUKI:
 Que faire maintenant ?
 Quelqu'un a une idée ?![end][end]</data>
     </text>
@@ -117,7 +117,7 @@ Quelqu'un a une idée ?![end][end]</data>
         <refs>
             <ref>0x391</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Je vous retrouve enfin ma chère
 [character][0x1]!
 Quel acte cruel de la part de
@@ -127,15 +127,15 @@ l'empire ![end]</data>
         <refs>
             <ref>0x39a</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 ... ... ... ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3a2</ref>
         </refs>
-        <data>SENDACK:
-Matelight !
+        <data>SENDAK:
+Matelite !
 La princesse doit se reposer !
 Il n'y a pas à s'inquiéter ![end]</data>
     </text>
@@ -143,7 +143,7 @@ Il n'y a pas à s'inquiéter ![end]</data>
         <refs>
             <ref>0x3ab</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Oooh,[character][0x1]...
 Vous êtes saine et sauve !
 Et vous nous avez rejoints !
@@ -158,7 +158,7 @@ qui l'as ramenée ![end]</data>
         </refs>
         <data>[character][0x1]:
 Général !
-Général... Palpaleos ![end]</data>
+Général... Palparos ![end]</data>
     </text>
     <text>
         <refs>
@@ -171,7 +171,7 @@ Le rêve est fini...[end]</data>
         <refs>
             <ref>0x43c</ref>
         </refs>
-        <data>PALPALEOS:
+        <data>PALPAROS:
 Princesse [character][0x1]...
  
 Vous non plus,
@@ -189,7 +189,7 @@ la légende des Dragons Sacrés ?[end]</data>
         <refs>
             <ref>0x455</ref>
         </refs>
-        <data>PALPALEOS:
+        <data>PALPAROS:
 Non,je ne veux pas vous faire parler
 de votre sujet favori.[end]</data>
     </text>
@@ -201,13 +201,13 @@ de votre sujet favori.[end]</data>
 Vous ne voulez pas que je vous en
 parle ?
 Mais de quoi voulez-vous discuter,
-Palpaleos ?[end]</data>
+Palparos ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x479</ref>
         </refs>
-        <data>PALPALEOS:
+        <data>PALPAROS:
 De l'art de la stratégie et du
 triomphe ![end]</data>
     </text>
@@ -225,7 +225,7 @@ stratégie militaire ?[end]</data>
         <refs>
             <ref>0x49a</ref>
         </refs>
-        <data>PALPALEOS:
+        <data>PALPAROS:
 Je suis désolé !
 Cela ne vous intéresse sûrement pas ![end]</data>
     </text>
@@ -234,7 +234,7 @@ Cela ne vous intéresse sûrement pas ![end]</data>
             <ref>0x4b3</ref>
         </refs>
         <data>[character][0x1]:
-Vous vous trompez,Palpaleos !
+Vous vous trompez,Palparos !
 J'aime parler de cela...
 Tout le monde devrait connaître les
 bases de cet art.[end]</data>

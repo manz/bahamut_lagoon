@@ -91,7 +91,7 @@ chercher ce dragon à votre place.[end]</data>
         <refs>
             <ref>0x2c7</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Au fait,Princesse,nous avons de
 bonnes nouvelles.
 Nous avons vaincu l'Empereur Sauzer.
@@ -102,7 +102,7 @@ Bientôt,notre Kana revivra ![end]</data>
             <ref>0x2dc</ref>
         </refs>
         <data>COMMANDANT:
-Palpaleos a aussi été vaincu !
+Palparos a aussi été vaincu !
 C'est la dure réalité de la guerre.
 Princesse [character][0x1],vous devez être
 épuisée ![end]</data>
@@ -142,7 +142,7 @@ Ne vous inquiétez pas ![end]</data>
         <refs>
             <ref>0x3a1</ref>
         </refs>
-        <data>PALPALEOS:
+        <data>PALPAROS:
 En effet,j'ai été vaincu par les
 Rebelles mais je suis encore en vie.
 Ils ont vraiment gagné en force ![end]</data>
@@ -152,14 +152,14 @@ Ils ont vraiment gagné en force ![end]</data>
             <ref>0x3ad</ref>
         </refs>
         <data>[character][0x0]...
-Matelight...
+Matelite...
 Commandant...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x37f</ref>
         </refs>
-        <data>Général Palpaleos...[end]</data>
+        <data>Général Palparos...[end]</data>
     </text>
     <text>
         <refs>

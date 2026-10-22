@@ -4,7 +4,7 @@
         <refs>
             <ref>0x1b7</ref>
         </refs>
-        <data>Où vas-tu,Matelight ?
+        <data>Où vas-tu,Matelite ?
 Pourquoi un tel visage ?!
  
 Le château de Kana se trouve ici !
@@ -69,7 +69,7 @@ Alors,ne pensons plus à ça ![end]</data>
             <ref>0xe78</ref>
         </refs>
         <data>TAURUS:
-Bikkebakke a encore transporté ses
+Bikebake a encore transporté ses
 champignons quelque part.
 Le cours des champignons a chuté,
 il y a quelque temps.
@@ -80,7 +80,7 @@ Est-il inquiet pour cela ?[end]</data>
             <ref>0xdc6</ref>
         </refs>
         <data>COMMANDANT:
-Matelight fait le timide car il prépare
+Matelite fait le timide car il prépare
 un grand évènement pour ce soir ![end]</data>
     </text>
     <text>
@@ -88,14 +88,14 @@ un grand évènement pour ce soir ![end]</data>
             <ref>0xdd0</ref>
         </refs>
         <data>Peut-être devrais-tu aller parler à
-Matelight ?[end]</data>
+Matelite ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe3c</ref>
         </refs>
         <data>BARECK:
-Matelight ?
+Matelite ?
 Il est probablement là-bas ![end]</data>
     </text>
     <text>
@@ -131,16 +131,16 @@ la chute ![end]</data>
             <ref>0xe53</ref>
         </refs>
         <data>BARECK:
-Le Général Palpaleos va faire commencer
+Le Général Palparos va faire commencer
 les travaux pour le château de Kana !
-Matelight est pour l'instant un peu
+Matelite est pour l'instant un peu
 pauvre pour ça...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe28</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Je me sens fort pour un vieil homme !
 Oui et même très puissant[0xd8]
 ``Chuchotement''
@@ -156,7 +156,7 @@ Que veulent-ils dire ?[end]</data>
         <refs>
             <ref>0xda6</ref>
         </refs>
-        <data>FREDERIKA:
+        <data>FREDERICA:
 Les sorcières ne sont pas des filles
 promises à tous !
 Je dois dire que tout le monde ne le
@@ -255,7 +255,7 @@ Sortons,sortons[0xd8][end]</data>
             <ref>0x434</ref>
         </refs>
         <data>[character][0x1]:
-Et Matelight ?!
+Et Matelite ?!
 Quelque chose ne va pas ?[end]</data>
     </text>
     <text>
@@ -263,7 +263,7 @@ Quelque chose ne va pas ?[end]</data>
             <ref>0x441</ref>
         </refs>
         <data>COMMANDANT:
-Matelight a disparu[0xd8]
+Matelite a disparu[0xd8]
  
 La nuit de la Restauration de Kana
 est une chose importante pour lui.
@@ -274,7 +274,7 @@ Il faut le laisser seul ![end]</data>
             <ref>0x44e</ref>
         </refs>
         <data>[character][0x1]:
-Matelight,où es-tu ?[end]</data>
+Matelite,où es-tu ?[end]</data>
     </text>
     <text>
         <refs>
@@ -317,7 +317,7 @@ Libération d'Orelus ![end]</data>
             <ref>0x47e</ref>
         </refs>
         <data>J'ai longuement discuté avec le Général
-Palpaleos qui nous vient tout droit de
+Palparos qui nous vient tout droit de
 l'Empire !
 Voici ce que j'ai décidé...[end]</data>
     </text>
@@ -370,7 +370,7 @@ Capitaine de la Cavalerie de Mahal ?[end]</data>
         <data>COMMANDANT:
 Je vous suivrai Impératrice[0xd8]
  
-Et Matelight aurait été ravi d'entendre
+Et Matelite aurait été ravi d'entendre
 un tel discours ![end]</data>
     </text>
     <text>
@@ -378,9 +378,9 @@ un tel discours ![end]</data>
             <ref>0x4d9</ref>
         </refs>
         <data>[character][0x1]:
-Matelight,nous avons tant de souvenirs
+Matelite,nous avons tant de souvenirs
 à partager...
-Sendack,mon noble et puissant sorcier,
+Sendak,mon noble et puissant sorcier,
 soutiendras-tu mes idéaux ?
 Les Dragons Sacrés sont à nos côtés !
 Continueras-tu à nous aider ?[end]</data>
@@ -389,7 +389,7 @@ Continueras-tu à nous aider ?[end]</data>
         <refs>
             <ref>0x4f7</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 M... moi,un puissant sorcier !
 Mais... je... pense...
 Euh... n'importe quoi...
@@ -462,7 +462,7 @@ nous triompherons ![end]</data>
         </refs>
         <data>Il y a une chose de plus que
 j'aimerais vous annoncer !
-Le Général Palpaleos...
+Le Général Palparos...
 Bien qu'il vienne de l'Empire et qu'il
 ait été le bras droit de Sauzer,
 il est notre ami ![end]</data>
@@ -474,7 +474,7 @@ il est notre ami ![end]</data>
         <data>L'Empereur Sauzer est tombé malade
 après avoir connu le coeur des
 Dragons Sacrés.
-Palpaleos était donc libre et a décidé
+Palparos était donc libre et a décidé
 de nous rejoindre !
  
 Il a aussi décidé de secourir le ciel
@@ -485,7 +485,7 @@ du trou noir.[end]</data>
         <refs>
             <ref>0x5c6</ref>
         </refs>
-        <data>PALPALEOS:
+        <data>PALPAROS:
 L'Empire est maintenant sous l'influence
 politique du Général Gudruff !
 Il utilisera toutes les forces possibles
@@ -654,9 +654,9 @@ nous nous amuserons ![end]</data>
         <refs>
             <ref>0x9ea</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 [character][0x1]!
-C'est moi,Matelight !
+C'est moi,Matelite !
 Au plus haut de Kana !
 Ce soir,je vais rendre heureux tout
 le monde.
@@ -689,7 +689,7 @@ Merci à tous ![end]</data>
         <refs>
             <ref>0xa3</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 [character][0x1] est-elle... élégante ?[end]</data>
     </text>
     <text>
@@ -703,7 +703,7 @@ Elle est élégante et elle est puissante...[end]</data>
         <refs>
             <ref>0xd1</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 [character][0x1] est-elle... magnifique ?[end]</data>
     </text>
     <text>
@@ -712,13 +712,13 @@ Elle est élégante et elle est puissante...[end]</data>
         </refs>
         <data>COMMANDANT:
 Elle est splendide puisqu'elle porte la
-robe que lui a donnée Matelight ![end]</data>
+robe que lui a donnée Matelite ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xff</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 [character][0x1] est-elle... heureuse ?[end]</data>
     </text>
     <text>
@@ -726,14 +726,14 @@ robe que lui a donnée Matelight ![end]</data>
             <ref>0x116</ref>
         </refs>
         <data>COMMANDANT:
-Elle était malheureuse car Matelight
+Elle était malheureuse car Matelite
 n'était pas là ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x128</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 [character][0x1]...[end]</data>
     </text>
     <text>
@@ -741,7 +741,7 @@ n'était pas là ![end]</data>
             <ref>0x13a</ref>
         </refs>
         <data>COMMANDANT:
-Tout va bien,Matelight...
+Tout va bien,Matelite...
 Tout va bien...[end]</data>
     </text>
 </texts>

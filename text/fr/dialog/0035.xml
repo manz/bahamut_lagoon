@@ -15,14 +15,14 @@ autres.[end]</data>
         <refs>
             <ref>0xa4</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 [character][0x1]...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb2</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Comme je vous l'avais dit,il y a un
 Dragon Sacré,ici...[end]</data>
     </text>
@@ -31,27 +31,27 @@ Dragon Sacré,ici...[end]</data>
             <ref>0xce</ref>
         </refs>
         <data>RUSH:
-L'autre type est sûrement Palpaleos ![end]</data>
+L'autre type est sûrement Palparos ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x124</ref>
         </refs>
-        <data>LUKIA:
+        <data>RUKI:
 Comment pourrions-nous gagner ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x148</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Quoi ! Abandonner ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x154</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Tu peux répéter ?!
  
 Même si je perds la vie,[character][0x1] sera
@@ -61,7 +61,7 @@ délivrée...[end]</data>
         <refs>
             <ref>0x6e3</ref>
         </refs>
-        <data>LUKIA:
+        <data>RUKI:
 [character][0x0],hâte-toi ![end]</data>
     </text>
     <text>
@@ -82,7 +82,7 @@ Pourquoi ?[end]</data>
         <refs>
             <ref>0x397</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Humpf humpf...
  
 Notre pauvre [character][0x1]...
@@ -159,7 +159,7 @@ Elle est si ancienne...[end]</data>
         <refs>
             <ref>0x49e</ref>
         </refs>
-        <data>PALPALEOS:
+        <data>PALPAROS:
 Princesse [character][0x1],n'ayez crainte !
 Je vous le promets !
 Nous connaîtrons le coeur des Dragons
@@ -170,13 +170,13 @@ Sacrés.[end]</data>
             <ref>0x4ad</ref>
         </refs>
         <data>[character][0x1]:
-Général Palpaleos...[end]</data>
+Général Palparos...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4d1</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 [character][0x1],fuyez !
  
 Le Roi de Kana vous a légué un
@@ -187,7 +187,7 @@ pouvoir trop important ![end]</data>
             <ref>0x510</ref>
         </refs>
         <data>[character][0x1]:
-Matelight...[end]</data>
+Matelite...[end]</data>
     </text>
     <text>
         <refs>
@@ -237,28 +237,28 @@ C'est regrettable pour vous ![end]</data>
         <refs>
             <ref>0x5b5</ref>
         </refs>
-        <data>PALPALEOS:
+        <data>PALPAROS:
 Arrêtez ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7ff</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 [character][0x0],tiens bon ![end][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x63d</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 La Princesse...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x79f</ref>
         </refs>
-        <data>LUKIA:
+        <data>RUKI:
 Quel machiavélisme ![end]</data>
     </text>
     <text>
@@ -272,35 +272,35 @@ Cet Empereur Sauzer...[end]</data>
         <refs>
             <ref>0x168</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Attendez une minute ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x177</ref>
         </refs>
-        <data>MATELIGHT:
-Sendack,quelque chose ne va pas ?[end]</data>
+        <data>MATELITE:
+Sendak,quelque chose ne va pas ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x185</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Je n'en sais rien...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x196</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Je réfléchissais...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1a7</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Autrefois,avant la Chute de Kana,
 Sauzer avait emmené la Princesse !
 Mais à quelle fin ?
@@ -330,14 +330,14 @@ Sacré ![end]</data>
         <refs>
             <ref>0x1d4</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Quel désastre ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1e1</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Et si Sauzer avait la force de parvenir
 à ses fins...[end]</data>
     </text>
@@ -345,7 +345,7 @@ Et si Sauzer avait la force de parvenir
         <refs>
             <ref>0x1f3</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Ne vous inquiétez pas !
 Tout ira pour le mieux ![end]</data>
     </text>
@@ -353,8 +353,8 @@ Tout ira pour le mieux ![end]</data>
         <refs>
             <ref>0x201</ref>
         </refs>
-        <data>MATELIGHT:
-Sendack,ne t'inquiète plus !
+        <data>MATELITE:
+Sendak,ne t'inquiète plus !
 [character][0x1] nous reviendra bientôt !
 Sauzer n'a pas tout planifié car la
 Rebellion arrive ![end]</data>
@@ -363,17 +363,17 @@ Rebellion arrive ![end]</data>
         <refs>
             <ref>0x20d</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Allons combattre !
  
 Maintenant,je n'écoute plus les
-inepties de Sendack.[end]</data>
+inepties de Sendak.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2b5</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 [character][0x0]...[end]</data>
     </text>
     <text>
@@ -395,14 +395,14 @@ hâtons-nous ![end]</data>
         <refs>
             <ref>0x64b</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Tout le monde a compris ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x656</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Nous savons maintenant ce que veut
 l'Empereur Sauzer.
 Il essaie d'avoir la force du Dragon
@@ -417,8 +417,8 @@ Jusqu'où veut-il aller ?[end]</data>
         <refs>
             <ref>0x66e</ref>
         </refs>
-        <data>MATELIGHT:
-Sendack,ne t'éternise pas !
+        <data>MATELITE:
+Sendak,ne t'éternise pas !
  
 Même si tu n'es plus très jeune,tu
 peux te dépêcher quand même ![end]</data>
@@ -428,7 +428,7 @@ peux te dépêcher quand même ![end]</data>
             <ref>0x6b2</ref>
         </refs>
         <data>COMMANDANT:
-Matelight !
+Matelite !
 Frappe ![end][end]</data>
     </text>
 </texts>

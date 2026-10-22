@@ -11,7 +11,7 @@
         <refs>
             <ref>0x1b7</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Les troupes de Sauzer ont été
 vaincues !
 La Princesse [character][0x1] va être soulagée ![end]</data>
@@ -21,17 +21,17 @@ La Princesse [character][0x1] va être soulagée ![end]</data>
             <ref>0x1c4</ref>
         </refs>
         <data>COMMANDANT:
-Palpaleos a aussi été vaincu.
+Palparos a aussi été vaincu.
 C'est la dure réalité de la guerre.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1dc</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 [character][0x0],
 va te renseigner sur le Dragon Sacré !
-Nous,nous retournons à FARENHEIT ![end]</data>
+Nous,nous retournons à FARENEIT ![end]</data>
     </text>
     <text>
         <refs>
@@ -49,14 +49,14 @@ Qu'est-ce que tu fais ?![end]</data>
 J'espère que la Princesse [character][0x1] se
 portera mieux.
 Je crois qu'il serait mieux qu'on soit
-tous auprès d'elle plutôt que Matelight
+tous auprès d'elle plutôt que Matelite
 seul.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x791</ref>
         </refs>
-        <data>BIKKEBAKKE:
+        <data>BIKEBAKE:
 J'aime ce désert mais j'aime aussi les
 desserts !
 Hahahahahahaha !
@@ -214,9 +214,9 @@ Entre ![end]</data>
         <data>Héhé ! [character][0x0]!
 Ça y est,ça y est[0xd8]
  
-DON JUAN:
+DONFAN:
 Bonjour,demoiselle du désert !
-Don Juan,votre très dévoué seigneur,
+Donfan,votre très dévoué seigneur,
 est venu enfouir vos larmes dans le
 sable ![end]</data>
     </text>
@@ -224,14 +224,14 @@ sable ![end]</data>
         <refs>
             <ref>0xa52</ref>
         </refs>
-        <data>DON JUAN:
+        <data>DONFAN:
 Si vous avez perdu quelque chose...
 Je pourrais devenir ce quelque chose.
 Je vois que votre coeur a fini par
 s'assécher tout comme ce désert.
 Cependant,je parviendrai à voir,par
 delà ce mirage,l'oasis connue sous le
-nom de Don Juan et enfin,j'attendrai
+nom de Donfan et enfin,j'attendrai
 à vos côtés.
 Puis,moi,le leader des Révolutionnaires,
 vous promets de vous ramener chez
@@ -243,8 +243,8 @@ Où aimeriez-vous aller ?[end]</data>
         <refs>
             <ref>0xa33</ref>
         </refs>
-        <data>DON JUAN:
-Je suis Don Juan !
+        <data>DONFAN:
+Je suis Donfan !
 Je suis l'un des Rebelles !
 Je suis à bout de souffle et je veux
 aussi aller me reposer.[end]</data>
@@ -253,7 +253,7 @@ aussi aller me reposer.[end]</data>
         <refs>
             <ref>0xa61</ref>
         </refs>
-        <data>DON JUAN:
+        <data>DONFAN:
 Que veut-il ?
 Je suis pourtant un gentleman...
 Est-ce que c'est privé ?
@@ -378,7 +378,7 @@ Nous sommes tous libres ![end]</data>
         <refs>
             <ref>0x95f</ref>
         </refs>
-        <data>    Bikkebakke devint un adulte ![end]</data>
+        <data>    Bikebake devint un adulte ![end]</data>
     </text>
     <text>
         <refs>
@@ -448,8 +448,8 @@ bientôt avec la Princesse [character][0x1]![end]</data>
             <ref>0xa96</ref>
         </refs>
         <data>Il paraît que les matelots de
-FARENHEIT ont une mauvaise réputation.
-Et il paraît que Bikkebakke vole des
+FARENEIT ont une mauvaise réputation.
+Et il paraît que Bikebake vole des
 champignons et qu'il les revend ![end]</data>
     </text>
     <text>

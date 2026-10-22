@@ -384,18 +384,18 @@ C'est la terre de leurs souvenirs...[end]</data>
         <refs>
             <ref>0xd53</ref>
         </refs>
-        <data>Lieu de Rêve de Bikkebakke pour
+        <data>Lieu de Rêve de Bikebake pour
 cultiver des Champignons !
  
 Ne touchez à rien !
--Bikkebakke-[end]</data>
+-Bikebake-[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd57</ref>
         </refs>
         <data>Voler les champignons tant espérés de
-Bikkebakke ?[end]</data>
+Bikebake ?[end]</data>
     </text>
     <text>
         <refs>
@@ -420,14 +420,14 @@ Bikkebakke ?[end]</data>
             <ref>0xdaf</ref>
         </refs>
         <data>[character][0x0],tu ne pourras plus regarder
-Bikkebakke en face.[end]</data>
+Bikebake en face.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xdb8</ref>
         </refs>
         <data>Tu n'as même pas pensé que
-Bikkebakke les adorait et qu'il se
+Bikebake les adorait et qu'il se
 sentirait très seul.[end]</data>
     </text>
     <text>
@@ -435,6 +435,6 @@ sentirait très seul.[end]</data>
             <ref>0xdc1</ref>
         </refs>
         <data>[character][0x0],tu n'as même pas pensé à
-l'innocent Bikkebakke.[end]</data>
+l'innocent Bikebake.[end]</data>
     </text>
 </texts>

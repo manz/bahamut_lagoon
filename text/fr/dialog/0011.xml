@@ -4,7 +4,7 @@
         <refs>
             <ref>0x6b9</ref>
         </refs>
-        <data>SENDACK: Excellent !
+        <data>SENDAK: Excellent !
 Écoute ce que j'ai appris...
 
 La Princesse a fait un rêve dans lequel se trouvait le
@@ -13,28 +13,28 @@ Dragon Sacré Léviathan !
 Il serait dans une ville voisine...
 Un endroit rempli de lacs !
  
-Matelight et Commandant sont partis en avance pour
+Matelite et Commandant sont partis en avance pour
 tenter de trouver ce lieu.
  
 Commandant y est allé pour se changer les idées car
 il ne voulait plus penser aux évènements tragiques de Mahal.
 
-Quant à Matelight,il disait aller signer des autographes
+Quant à Matelite,il disait aller signer des autographes
 mais en fait il voulait être avec la Princesse.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7d5</ref>
         </refs>
-        <data>SENDACK: Va-t-on bientôt partir combattre dans ce 
+        <data>SENDAK: Va-t-on bientôt partir combattre dans ce 
 lieu rempli de lacs ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6bd</ref>
         </refs>
-        <data>  Je me prépare,Sendack.
-  Allons combattre,Sendack ![end1]</data>
+        <data>  Je me prépare,Sendak.
+  Allons combattre,Sendak ![end1]</data>
     </text>
     <text>
         <refs>
@@ -57,7 +57,7 @@ C'est ma passion...[end]</data>
         <refs>
             <ref>0x7e9</ref>
         </refs>
-        <data>BIKKEBAKKE: Elle a un champignon sur le dos !
+        <data>BIKEBAKE: Elle a un champignon sur le dos !
 
 
 Cette pieuvre en a un sur le dos !
@@ -72,14 +72,14 @@ Cette pieuvre en a un sur le dos !
         <data>SERGENT: ``Grognement'' J'avais oublié les sensations
 d'un lit bien de chez soi...
 
-Mais il va falloir bientôt retourner à FARENHEIT.
+Mais il va falloir bientôt retourner à FARENEIT.
 ``Grognement''[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x858</ref>
         </refs>
-        <data>LUKIA: Don Juan...[end]</data>
+        <data>RUKI: Donfan...[end]</data>
     </text>
     <text>
         <refs>
@@ -94,7 +94,7 @@ Alors,s'il te plaît... attrape-la ![end]</data>
         <refs>
             <ref>0x250</ref>
         </refs>
-        <data>BIKKEBAKKE: Ah !
+        <data>BIKEBAKE: Ah !
 Je vais t'attraper !
 Prends ma main ![end]</data>
     </text>
@@ -102,7 +102,7 @@ Prends ma main ![end]</data>
         <refs>
             <ref>0x29d</ref>
         </refs>
-        <data>LUKIA: Don Juan !
+        <data>RUKI: Donfan !
  
 
 Que faisais-tu dans ma chambre, ce matin ?!
@@ -114,13 +114,13 @@ Et qu'as-tu été raconter à la Princesse ?![end]</data>
         <refs>
             <ref>0x348</ref>
         </refs>
-        <data>LUKIA: Don Juan,tu as voulu faire boire du
+        <data>RUKI: Donfan,tu as voulu faire boire du
 [0xaa]VIN DOUX[0xab] à [character][0x1]...
 
 J'espère que tu avais vu ton reflet dans les lacs
 de Mahal,cette nuit.
  
-Don Juan,le Naïf,le Misérable,tu lui as parlé
+Donfan,le Naïf,le Misérable,tu lui as parlé
 d'un Dragon Sacré dans un rempli de lacs !
 
 Tu voulais certainement dire...
@@ -130,8 +130,8 @@ les Ruines ![end]</data>
         <refs>
             <ref>0x33c</ref>
         </refs>
-        <data>DON JUAN:
-Ah ! Bonjour Lukia !
+        <data>DONFAN:
+Ah ! Bonjour Ruki !
 Moi ?! Ce matin ?!
 Qui ? Dans ta chambre ?
 Ah,tu as sûrement dû sentir la chaleur
@@ -141,7 +141,7 @@ des rayons du soleil.[end]</data>
         <refs>
             <ref>0x371</ref>
         </refs>
-        <data>Tu es splendide Lukia !
+        <data>Tu es splendide Ruki !
 Mais tu es trop jalouse...
  
 Personne ne te remplacera dans mon si
@@ -151,15 +151,15 @@ grand coeur ![end]</data>
         <refs>
             <ref>0x384</ref>
         </refs>
-        <data>DON JUAN:
-Lukia,tes sentiments dépassent souvent
+        <data>DONFAN:
+Ruki,tes sentiments dépassent souvent
 ta pensée.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x399</ref>
         </refs>
-        <data>Don Juan est tombé amoureux de la
+        <data>Donfan est tombé amoureux de la
 beauté de la Princesse [character][0x1].
  
 Et je crois que seul le destin décide
@@ -175,7 +175,7 @@ destin.
  
 L'amour n'est véritable et possible
 qu'avec [0xb1] personnes s'aimant vraiment.
-Don Juan et [character][0x1]...
+Donfan et [character][0x1]...
 Où pourrions-nous être,un jour,un
 couple heureux ?[end]</data>
     </text>
@@ -183,13 +183,13 @@ couple heureux ?[end]</data>
         <refs>
             <ref>0x3e0</ref>
         </refs>
-        <data>Lukia,ne dis rien...
+        <data>Ruki,ne dis rien...
 je comprends ta profonde tristesse.
  
 Tes sentiments ne sont autres que
 ceux envoyés par le destin.
  
-Et euh... Bikkebakke pourrait me
+Et euh... Bikebake pourrait me
 remplacer ?
 Il ne te plaît pas ?!
 Ou bien,il y a aussi [character][0x0]?![end]</data>
@@ -205,7 +205,7 @@ Ou bien,il y a aussi [character][0x0]?![end]</data>
         <refs>
             <ref>0x830</ref>
         </refs>
-        <data>BIKKEBAKKE:
+        <data>BIKEBAKE:
 [character][0x0],vieux frère !
 Tu veux des champignons ?[end]</data>
     </text>
@@ -271,7 +271,7 @@ Tu veux des champignons ?[end]</data>
         <refs>
             <ref>0xb0c</ref>
         </refs>
-        <data>BIKKEBAKKE:
+        <data>BIKEBAKE:
 Je vais t'expliquer comment tu dois
 t'y prendre:
 Pour réussir à faire avancer la
@@ -290,7 +290,7 @@ le bouton A ![end]</data>
         <refs>
             <ref>0xb34</ref>
         </refs>
-        <data>BIKKEBAKKE:
+        <data>BIKEBAKE:
 Tu l'as ratée !
 La pieuvre s'est enfuie ![end]</data>
     </text>
@@ -311,7 +311,7 @@ Nous sommes très puissants ![end]</data>
         <refs>
             <ref>0x240</ref>
         </refs>
-        <data>DON JUAN:
+        <data>DONFAN:
 Au secours !
 À l'aide !
 Je vais me noyer ![end]</data>
@@ -320,7 +320,7 @@ Je vais me noyer ![end]</data>
         <refs>
             <ref>0x28a</ref>
         </refs>
-        <data>DON JUAN:
+        <data>DONFAN:
 Ouf Ouf...
 Tu m'as sauvé ! Merci ![end]</data>
     </text>
@@ -330,7 +330,7 @@ Tu m'as sauvé ! Merci ![end]</data>
         </refs>
         <data>Il faut... vite partir !
 Il faut... TRÈS VITE partir !
-Don Juan a de gros ennuis ![end]</data>
+Donfan a de gros ennuis ![end]</data>
     </text>
     <text>
         <refs>
@@ -368,7 +368,7 @@ Don Juan a de gros ennuis ![end]</data>
         <refs>
             <ref>0xa2c</ref>
         </refs>
-        <data>Obtenu de Lukia:
+        <data>Obtenu de Ruki:
 [0xb2] [0xaa]CHOSE SUR L'ETAGERE[0xab].[end]</data>
     </text>
     <text>
@@ -382,7 +382,7 @@ Don Juan a de gros ennuis ![end]</data>
         <refs>
             <ref>0xa11</ref>
         </refs>
-        <data>Obtenu de Lukia:
+        <data>Obtenu de Ruki:
 [0xb2] [0xaa]VIN CUIT[0xab]
 [0xb1] [0xaa]VODKA[0xab].[end]</data>
     </text>

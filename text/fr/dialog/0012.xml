@@ -11,7 +11,7 @@
         <refs>
             <ref>0xce</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Commandant !
  
 Nous ne savons rien du tout sur ce
@@ -31,7 +31,7 @@ d'informations.[end]</data>
         <refs>
             <ref>0xe8</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Évidemment,Commandant !
 Nous allons envoyer un espion infiltrer
 l'Empire.[end]</data>
@@ -51,15 +51,15 @@ Nous devrions avoir le choix.[end]</data>
         <refs>
             <ref>0x14f</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 J'ai trouvé ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x194</ref>
         </refs>
-        <data>DON JUAN:
-Moi,Don Juan,le Naïf et Fidèle
+        <data>DONFAN:
+Moi,Donfan,le Naïf et Fidèle
 Serviteur !
 Je pourrais approcher de très
 nombreuses femmes ![end]</data>
@@ -76,14 +76,14 @@ pas cette mission ![end]</data>
         <refs>
             <ref>0x1cb</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Et... moi ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1e8</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 [character][0x0],c'est une dangereuse mission !
 Alors... fais le bon choix ![end]</data>
     </text>
@@ -98,7 +98,7 @@ Si tu es prêt,choisis l'heureux élu ![end]</data>
         <refs>
             <ref>0x208</ref>
         </refs>
-        <data> Don Juan.
+        <data> Donfan.
  Le marin.
  D'autres personnes.[end1]</data>
     </text>
@@ -106,18 +106,18 @@ Si tu es prêt,choisis l'heureux élu ![end]</data>
         <refs>
             <ref>0x212</ref>
         </refs>
-        <data> Sendack.
- Matelight.
+        <data> Sendak.
+ Matelite.
  D'autres personnes.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x22e</ref>
         </refs>
-        <data>DON JUAN:
+        <data>DONFAN:
 D'accord...
  
-La naïveté de Don Juan lui permettra
+La naïveté de Donfan lui permettra
 d'approcher [0xb0][0xaf][0xaf] femmes de l'Empire !
 C'est parti ![end]</data>
     </text>
@@ -131,7 +131,7 @@ C'est parti ![end]</data>
         <refs>
             <ref>0x26f</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 [character][0x0]...
 Tu m'as choisi ?!
 Je dois prendre ce choix pour un
@@ -143,14 +143,14 @@ Très bien,je comprends ![end]</data>
         <refs>
             <ref>0x299</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Moi ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2b1</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Gahahahahahahahaha[0xd8][end]</data>
     </text>
     <text>
@@ -200,30 +200,30 @@ Commandant sera l'espion ![end]</data>
             <ref>0x4f1</ref>
             <ref>0x6fc</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Donne-nous les informations ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9f8</ref>
         </refs>
-        <data>DON JUAN:
-L'espion Don Juan a beaucoup
+        <data>DONFAN:
+L'espion Donfan a beaucoup
 d'informations.
-Don Juan est revenu de cette
+Donfan est revenu de cette
 escapade militaire ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa29</ref>
         </refs>
-        <data>DON JUAN:
+        <data>DONFAN:
 Les guerrières impériales sont très
 dures à faire parler.
 Je dois aussi vous avouer que nombre
 d'entre elles sont célibataires !
  
-Et Don Juan,le plus beau,le magnifique,
+Et Donfan,le plus beau,le magnifique,
 a aussi les mots pour les attirer ![end]</data>
     </text>
     <text>
@@ -247,7 +247,7 @@ ses fins ![end]</data>
             <ref>0xa5c</ref>
             <ref>0xa7e</ref>
         </refs>
-        <data>DON JUAN:
+        <data>DONFAN:
 Et voici... mes rencontres ![end]</data>
     </text>
     <text>
@@ -262,7 +262,7 @@ un espion hors du commun,tendre et
 beau parleur.
 Admirez cet espion !
 Il n'est autre que moi...
-Don Juan ![end]</data>
+Donfan ![end]</data>
     </text>
     <text>
         <refs>
@@ -273,7 +273,7 @@ elles pensent encore toutes à moi ?
  
 Même en temps de guerre,elles ne
 pourront aimer qu'un seul espion:
-Don Juan !
+Donfan !
 Oh oui,j'allais oublier de vous dire
 le plus intéressant !
  
@@ -304,11 +304,11 @@ Top-Secret ![end]</data>
         <refs>
             <ref>0x713</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 L'Empire de Granbelos est en ce
 moment plongé dans le chaos.
 Je l'ai moi-même entendu...
-Le Général Palpaleos a fait un discours
+Le Général Palparos a fait un discours
 déconcertant !
 L'Empereur Sauzer a plus que besoin
 de lui ![end]</data>
@@ -317,11 +317,11 @@ de lui ![end]</data>
         <refs>
             <ref>0x73b</ref>
         </refs>
-        <data>Durant son discours,le Général Palpaleos
+        <data>Durant son discours,le Général Palparos
 avait l'air très sérieux !
 Les autres généraux avaient l'air déçu.
 Et...
-Le Général Palpaleos a annoncé de
+Le Général Palparos a annoncé de
 terribles choses ![end]</data>
     </text>
     <text>
@@ -329,7 +329,7 @@ terribles choses ![end]</data>
             <ref>0x752</ref>
             <ref>0x555</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 L'Empereur Sauzer connaît le coeur
 des Dragons Sacrés.
 Mais,comment a-t-il fait ?
@@ -373,7 +373,7 @@ te mettre en colère.[end]</data>
         <refs>
             <ref>0x799</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Les relations entre les généraux de
 l'Empire sont au plus bas.
 Certains sont peut-être même prêts à
@@ -420,7 +420,7 @@ avancera ![end]</data>
             <ref>0x815</ref>
         </refs>
         <data>COMMANDANT:
-Matelight !
+Matelite !
 Je suis de retour ![end]</data>
     </text>
     <text>
@@ -536,10 +536,10 @@ tu dois savoir.[end]</data>
         <refs>
             <ref>0x540</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Très bien ! Mettons en ordre les
 informations de notre espion.
-Sendack,j'aimerais que tu jures que
+Sendak,j'aimerais que tu jures que
 tout ce que tu as dit est véridique ![end]</data>
     </text>
     <text>
@@ -547,7 +547,7 @@ tout ce que tu as dit est véridique ![end]</data>
             <ref>0x595</ref>
             <ref>0x95f</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Très bien !
 Je n'ai qu'un mot à dire...
 Commandant,j'aimerais que tu jures
@@ -564,7 +564,7 @@ que tout ce que tu as dit est vrai ![end]</data>
             <ref>0x5d4</ref>
             <ref>0x99e</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Il nous faut vite trouver les Dragons
 Sacrés avant Sauzer...
 Et ainsi Kana revivra.[end]</data>
@@ -574,10 +574,10 @@ Et ainsi Kana revivra.[end]</data>
             <ref>0x7e4</ref>
             <ref>0x944</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Très bien,mettons tout en ordre,
 une fois pour toutes.
-Laissons parler Sendack ![end]</data>
+Laissons parler Sendak ![end]</data>
     </text>
     <text>
         <refs>
@@ -782,7 +782,7 @@ Si nous avons encore les mêmes buts.[end]</data>
         <data>Hornet m'a tout appris...
  
   
-Sur ce balcon,FARENHEIT est toujours
+Sur ce balcon,FARENEIT est toujours
 très proche du ciel.
 Nous pourrions même le toucher.[end]</data>
     </text>
@@ -852,7 +852,7 @@ explorer le Château de Granbelos.
 J'ai fini par découvrir une petite
 salle.
 Et dans cette salle se trouvait...
-Le Général Palpaleos...[end]</data>
+Le Général Palparos...[end]</data>
     </text>
     <text>
         <refs>

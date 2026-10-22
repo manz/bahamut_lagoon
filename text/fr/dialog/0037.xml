@@ -4,7 +4,7 @@
         <refs>
             <ref>0xac</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Je suis le commandant des chevaliers
 de l'armée de Kana !
 Moi,Garde Palais,je déclare Campbell
@@ -18,14 +18,14 @@ l'Empire ![end]</data>
         <refs>
             <ref>0xca</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Hein... ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd3</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Quelque chose ne va pas ?!
 Peuple de Campbell ![end]</data>
     </text>
@@ -34,7 +34,7 @@ Peuple de Campbell ![end]</data>
             <ref>0xe6</ref>
         </refs>
         <data>COMMANDANT:
-Matelight !
+Matelite !
  
 Je crois que nous devrions tout
 d'abord aller saluer l'Impératrice.[end]</data>
@@ -43,7 +43,7 @@ d'abord aller saluer l'Impératrice.[end]</data>
         <refs>
             <ref>0xf2</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Je t'accompagne !
 Allons au château ![end]</data>
     </text>
@@ -51,7 +51,7 @@ Allons au château ![end]</data>
         <refs>
             <ref>0x6b9</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 La Princesse ne se porte pas bien !
 Trouvons vite l'Impératrice.[end]</data>
     </text>
@@ -75,7 +75,7 @@ en colère.[end]</data>
         <refs>
             <ref>0x3dc</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Princesse,je vous comprends...
 Moi aussi,je le ressens...[end]</data>
     </text>
@@ -106,7 +106,7 @@ et leurs soldats ont fait une halte.[end]</data>
         <refs>
             <ref>0x6d5</ref>
         </refs>
-        <data>Le Général Palpaleos est une gentille
+        <data>Le Général Palparos est une gentille
 personne.
  
 Le Général m'a dit:
@@ -143,7 +143,7 @@ COPERNIC:[end]</data>
         <refs>
             <ref>0x5aa</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Mais aussi de les comprendre !
  
 C'est pour cette raison que Sauzer
@@ -172,7 +172,7 @@ Campbell reste sur ses positions.[end]</data>
         <refs>
             <ref>0x5b7</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 [character][0x1] est effrayée par l'immense
 pouvoir des Dragons Sacrés !
 Arrêtez d'en parler ![end]</data>
@@ -202,7 +202,7 @@ ensemble...[end]</data>
             <ref>0x3fe</ref>
         </refs>
         <data>[character][0x1]:
-Viens,retournons à FARENHEIT ![end]</data>
+Viens,retournons à FARENEIT ![end]</data>
     </text>
     <text>
         <refs>
@@ -268,7 +268,7 @@ l'Empire a fait fuir tout le monde ![end]</data>
         </refs>
         <data>TAURUS:
 Capitaine [character][0x0]!
-Est-il temps de retourner à FARENHEIT ?[end]</data>
+Est-il temps de retourner à FARENEIT ?[end]</data>
     </text>
     <text>
         <refs>
@@ -276,7 +276,7 @@ Est-il temps de retourner à FARENHEIT ?[end]</data>
             <ref>0x73a</ref>
         </refs>
         <data> Continuons à faire pression !
- Retournons à FARENHEIT...[end1]</data>
+ Retournons à FARENEIT...[end1]</data>
     </text>
     <text>
         <refs>
@@ -304,7 +304,7 @@ Capitaine [character][0x0]?[end]</data>
         <refs>
             <ref>0x781</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Hé,nous repartons ?[end]</data>
     </text>
     <text>
@@ -330,7 +330,7 @@ Soyez forte,résistez ![end]</data>
         <data>IMPERATRICE DE CAMPBELL:
 Joy... Nelbo...
 Merci...
-Je suis peinée mais rejoignez Sendack
+Je suis peinée mais rejoignez Sendak
 et aidez-le autant que possible.
  
 Cherchez maintenant le Dragon Sacré de
@@ -362,7 +362,7 @@ la légende...[end]</data>
         <refs>
             <ref>0x438</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Et alors ?
 Parlez...[end]</data>
     </text>
@@ -392,7 +392,7 @@ n'amènera que désastre dans le ciel.[end]</data>
         <refs>
             <ref>0x57c</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 La personne qui connaît le coeur des
 Dragons Sacrés...
 Ouvrira la Porte vers...
@@ -404,7 +404,7 @@ Alors ce serait [character][0x1]![end]</data>
         <refs>
             <ref>0x586</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Une personne au coeur faible ?
 N'amènera que désastre dans le ciel ?[end]</data>
     </text>
@@ -412,8 +412,8 @@ N'amènera que désastre dans le ciel ?[end]</data>
         <refs>
             <ref>0x593</ref>
         </refs>
-        <data>MATELIGHT:
-Sendack !
+        <data>MATELITE:
+Sendak !
  
 Pourquoi est-ce que tu vois toujours
 le mauvais côté des choses ?![end]</data>
@@ -422,7 +422,7 @@ le mauvais côté des choses ?![end]</data>
         <refs>
             <ref>0x5a1</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 J'ai encore un mauvais pressentiment !
  
 Sauzer veut ce monde et il veut aussi

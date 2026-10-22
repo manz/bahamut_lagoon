@@ -22,7 +22,7 @@ Tu es vraiment à envier...[end]</data>
             <ref>0xc48</ref>
             <ref>0xa7d</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 [character][0x0]!
 ... ![0xfc][0x10][end1]</data>
     </text>
@@ -31,7 +31,7 @@ Tu es vraiment à envier...[end]</data>
             <ref>0xc4</ref>
             <ref>0x16f</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Princesse [character][0x1]!
 S'il vous plaît,obéissez[0xd8][end]</data>
     </text>
@@ -151,7 +151,7 @@ futur parfait.[end]</data>
         <data>Humhum... mensonge !
 Nous devrions nous dépêcher...
  
-Matelight ne doit sûrement pas
+Matelite ne doit sûrement pas
 apprécier notre escapade ![end]</data>
     </text>
     <text>
@@ -200,7 +200,7 @@ partie des souvenirs de cette église ?[end]</data>
         <data>Il faut néanmoins que les deux
 personnes se le promettent...
  
-Matelight risque d'aller voir mon père
+Matelite risque d'aller voir mon père
 pour lui raconter notre escapade
 secrète.[end]</data>
     </text>
@@ -219,7 +219,7 @@ cette promesse...[end]</data>
         <refs>
             <ref>0x5a0</ref>
         </refs>
-        <data>PALPALEOS:
+        <data>PALPAROS:
 L'Empereur Sauzer m'a donné la
 permission de voler.
 Venez,Princesse [character][0x1]!
@@ -247,14 +247,14 @@ n'importe où ?[end]</data>
         <refs>
             <ref>0x612</ref>
         </refs>
-        <data>PALPALEOS:
+        <data>PALPAROS:
 Dans chaque lieu que vous désirerez ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6d3</ref>
         </refs>
-        <data>PALPALEOS:
+        <data>PALPAROS:
 Il est sûrement plus rapide que les
 dragons de Kana ![end]</data>
     </text>
@@ -270,7 +270,7 @@ SALAMAND l'est beaucoup plus ![end]</data>
         <refs>
             <ref>0x6e9</ref>
         </refs>
-        <data>PALPALEOS:
+        <data>PALPAROS:
 SALAMAND...
 Tiens donc...[end]</data>
     </text>
@@ -278,7 +278,7 @@ Tiens donc...[end]</data>
         <refs>
             <ref>0x72f</ref>
         </refs>
-        <data>PALPALEOS:
+        <data>PALPAROS:
 Princesse [character][0x1],
 vous êtes si combattive...[end]</data>
     </text>
@@ -301,7 +301,7 @@ parler avec vous,Princesse...[end]</data>
         <refs>
             <ref>0x862</ref>
         </refs>
-        <data>PALPALEOS:
+        <data>PALPAROS:
 Est-ce un lieu de mémoire ?[end]</data>
     </text>
     <text>
@@ -318,7 +318,7 @@ nous ![end]</data>
         <refs>
             <ref>0x881</ref>
         </refs>
-        <data>PALPALEOS:
+        <data>PALPAROS:
 C'est ici que tout avait commencé...[end]</data>
     </text>
     <text>
@@ -333,7 +333,7 @@ de cette église...[end]</data>
         <refs>
             <ref>0x8af</ref>
         </refs>
-        <data>PALPALEOS:
+        <data>PALPAROS:
 Pourriez-vous me la conter ?[end]</data>
     </text>
     <text>
@@ -353,7 +353,7 @@ appelée l'Église des Souvenirs ![end]</data>
         <refs>
             <ref>0x8d3</ref>
         </refs>
-        <data>PALPALEOS:
+        <data>PALPAROS:
 Il était une fois un couple...[end]</data>
     </text>
     <text>

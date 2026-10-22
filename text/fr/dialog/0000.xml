@@ -149,14 +149,14 @@ Capitaine [character][0x0],grimpons vite sur nos dragons.[end]</data>
         <refs>
             <ref>0x9f7</ref>
         </refs>
-        <data>Bikkebakke: Veux-tu connaître les noms les plus
+        <data>Bikebake: Veux-tu connaître les noms les plus
 populaires ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa03</ref>
         </refs>
-        <data>Au fait,je... je suis... Bikkebakke !
+        <data>Au fait,je... je suis... Bikebake !
 Facile à retenir,non ?[end]</data>
     </text>
     <text>
@@ -300,7 +300,7 @@ Nous ne les laisserons pas approcher du portail ![end]</data>
         <refs>
             <ref>0x72f</ref>
         </refs>
-        <data>Sendack: Selon la légende,le Dragon devrait se réveiller
+        <data>Sendak: Selon la légende,le Dragon devrait se réveiller
 dans une telle situation.
 
 Bahamut devrait être en train de protéger Kana !
@@ -333,7 +333,7 @@ Nous avons encore l'Escadron Dragon et [character][0x0].[end]</data>
         <refs>
             <ref>0xa1e</ref>
         </refs>
-        <data>Bikkebakke: Il y a un zillion d'ennemis dehors !
+        <data>Bikebake: Il y a un zillion d'ennemis dehors !
 
 
 Dépêchons-nous ![end]</data>

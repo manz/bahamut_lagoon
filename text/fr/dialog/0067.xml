@@ -4,7 +4,7 @@
         <refs>
             <ref>0x144</ref>
         </refs>
-        <data>FREDERIKA:
+        <data>FREDERICA:
 Je me demande si [character][0x0] arrive.[end]</data>
     </text>
     <text>
@@ -14,7 +14,7 @@ Je me demande si [character][0x0] arrive.[end]</data>
         <data>HORNET:
 Désolé de vous avoir fait attendre !
 Notre chef va bientôt arriver !
-Il accompagne Sendack,le Capitaine de
+Il accompagne Sendak,le Capitaine de
 ce vaisseau,qui est assez vieux ![end]</data>
     </text>
     <text>
@@ -28,7 +28,7 @@ ce vaisseau,qui est assez vieux ![end]</data>
         <refs>
             <ref>0x315</ref>
         </refs>
-        <data>FREDERIKA:
+        <data>FREDERICA:
 Bienvenue [character][0x0]![end]</data>
     </text>
     <text>
@@ -54,7 +54,7 @@ commence ![end]</data>
             <ref>0x34a</ref>
         </refs>
         <data>HORNET:
-Capitaine du vaisseau,Sendack !
+Capitaine du vaisseau,Sendak !
 Donnez-nous le signal ![end]</data>
     </text>
     <text>
@@ -71,7 +71,7 @@ choisi ?[end]</data>
         <refs>
             <ref>0x3c0</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Comment osent-ils nous bloquer ?![end]</data>
     </text>
     <text>
@@ -79,14 +79,14 @@ Comment osent-ils nous bloquer ?![end]</data>
             <ref>0x3f5</ref>
         </refs>
         <data>COMMANDANT:
-Matelight !
+Matelite !
 Arrêtez ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x375</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Le nom du bateau est...[end]</data>
     </text>
     <text>
@@ -103,23 +103,23 @@ alors soyez calme ![end]</data>
         <refs>
             <ref>0x41d</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Comment osent-ils ?!
-Je suis Matelight tout de même ![end]</data>
+Je suis Matelite tout de même ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4b5</ref>
         </refs>
         <data>HORNET:
-Allez-y,Sendack !
+Allez-y,Sendak !
 Annoncez le nom de ce bateau ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4c7</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Hum hum !
 Soyez attentifs...[end]</data>
     </text>
@@ -128,7 +128,7 @@ Soyez attentifs...[end]</data>
             <ref>0x4fa</ref>
         </refs>
         <data>La fierté de Kana se nommera
-FARENHEIT ![end]</data>
+FARENEIT ![end]</data>
     </text>
     <text>
         <refs>
@@ -142,7 +142,7 @@ C'est cela ![end]</data>
         <refs>
             <ref>0x578</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Co... Commandant...
  
 Je... je te le demande...[end]</data>
@@ -153,14 +153,14 @@ Je... je te le demande...[end]</data>
         </refs>
         <data>COMMANDANT:
 Tu veux que je fasse ça,
-Matelight ![end]</data>
+Matelite ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x587</ref>
         </refs>
         <data>COMMANDANT:
-Matelight,c'est à toi de le faire !
+Matelite,c'est à toi de le faire !
 Ce sont tes souvenirs !
 D'accord,je vais le faire ![end]</data>
     </text>
@@ -169,7 +169,7 @@ D'accord,je vais le faire ![end]</data>
             <ref>0x6ce</ref>
         </refs>
         <data>COMMANDANT:
-Matelight !
+Matelite !
 Regardez ![end]</data>
     </text>
     <text>
@@ -183,10 +183,10 @@ Le Drapeau National de Kana ![end]</data>
         <refs>
             <ref>0x717</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Notre Patrie Kana...
 La Princesse [character][0x1]...
-Sendack,ce vieux magicien !
+Sendak,ce vieux magicien !
 [character][0x0]!
  
 Lorsque la paix sera de retour,
@@ -204,7 +204,7 @@ batailles !
 Celle pour ta patrie arrivera bien
 assez tôt !
  
-Je suis le puissant Matelight ![end]</data>
+Je suis le puissant Matelite ![end]</data>
     </text>
     <text>
         <refs>

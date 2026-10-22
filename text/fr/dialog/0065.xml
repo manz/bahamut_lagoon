@@ -82,7 +82,7 @@ Qu'adviendra-t-il de nous ?[end]</data>
         <refs>
             <ref>0x589</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Vous êtes faible !
 Même si vous êtes la soeur de notre
 défunt Roi de Kana et l'Impératrice
@@ -94,13 +94,13 @@ pardonner ![end]</data>
             <ref>0x59f</ref>
         </refs>
         <data>IMPERATRICE DE CAMPBELL:
-Matelight,je ne changerai pas d'avis.[end]</data>
+Matelite,je ne changerai pas d'avis.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5bb</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Oh !
 Vous,Impératrice,vous préférez mourir
 dans l'ombre,comme nourriture à
@@ -112,21 +112,21 @@ l'ennemi ![end]</data>
             <ref>0x5cd</ref>
         </refs>
         <data>COMMANDANT:
-Matelight !
+Matelite !
 Calme-toi ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5da</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Comment pourrais-je me calmer ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5e6</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 L'Impératrice ne veut pas que nous
 libérions Campbell !
 Elle est persuadée que rester aux
@@ -150,7 +150,7 @@ agir pour lui faire changer d'avis.[end]</data>
         <refs>
             <ref>0x601</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Tu as raison !
  
 Peut-être que nous ne devrions pas
@@ -167,7 +167,7 @@ Tu peux te calmer ?![end]</data>
         <refs>
             <ref>0x643</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Encore ![end]</data>
     </text>
     <text>
@@ -184,7 +184,7 @@ Si tu y parviens ![end]</data>
         <refs>
             <ref>0xfa</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Convaincs-la ![end]</data>
     </text>
     <text>
@@ -293,7 +293,7 @@ Je veux rester seule avec ma tante...[end]</data>
         <refs>
             <ref>0x2a0</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Princesse... la Légende...[end]</data>
     </text>
     <text>
@@ -301,7 +301,7 @@ Princesse... la Légende...[end]</data>
             <ref>0x2ac</ref>
         </refs>
         <data>[character][0x1]:
-Je sais,Sendack ![end]</data>
+Je sais,Sendak ![end]</data>
     </text>
     <text>
         <refs>
@@ -328,7 +328,7 @@ Seulement deux personnes.[end]</data>
         <refs>
             <ref>0x12b</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 [character][0x0]!
  
 Allons au bar,en ville,pour boire un

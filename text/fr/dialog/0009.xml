@@ -561,7 +561,7 @@ Nous sommes bientôt à Godrand.[end]</data>
         <refs>
             <ref>0xb31</ref>
         </refs>
-        <data>MELODIA:
+        <data>MELODY:
 Ouais ! Ouais !
 Ma chère ville de Godrand ![end]</data>
     </text>
@@ -606,7 +606,7 @@ d'être sur le pont.[end]</data>
         <refs>
             <ref>0xb77</ref>
         </refs>
-        <data>MELODIA:
+        <data>MELODY:
 Génial !
 Hornet a mauvais tempérament !
 Partons,Petits Démons ![end]</data>
@@ -653,7 +653,7 @@ pas dormir...[end]</data>
         <refs>
             <ref>0xc30</ref>
         </refs>
-        <data>Bikkebakke !
+        <data>Bikebake !
 Et toi ?[end]</data>
     </text>
     <text>
@@ -661,7 +661,7 @@ Et toi ?[end]</data>
             <ref>0xd0a</ref>
             <ref>0xc3e</ref>
         </refs>
-        <data>BIKKEBAKKE:
+        <data>BIKEBAKE:
 Zzzz... Zzzz...[end]</data>
     </text>
     <text>
@@ -760,14 +760,14 @@ décédée...[end]</data>
             <ref>0xcbd</ref>
         </refs>
         <data>Hahahaha !
-Lukia est attirante mais elle est une
+Ruki est attirante mais elle est une
 vraie guerrière.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xcc6</ref>
         </refs>
-        <data>Et Don Juan ne cesse jamais
+        <data>Et Donfan ne cesse jamais
 d'approcher les femmes même
 durant les combats.[end]</data>
     </text>
@@ -820,7 +820,7 @@ Je ne comprends pas très bien.[end]</data>
             <ref>0xd17</ref>
         </refs>
         <data>RUSH:
-Bikkebakke !
+Bikebake !
 Hého...[end]</data>
     </text>
 </texts>

@@ -10,7 +10,7 @@
         <refs>
             <ref>0xe5</ref>
         </refs>
-        <data>PALPALEOS:
+        <data>PALPAROS:
 La Légende dont nous rêvions...
 Que nous a-t-elle apporté ?
 Ta mort...
@@ -42,7 +42,7 @@ Sauzer...[end]</data>
         <refs>
             <ref>0x129</ref>
         </refs>
-        <data>PALPALEOS:
+        <data>PALPAROS:
 [character][0x1]...
  
 Je suis enfin revenu dans ma patrie
@@ -84,13 +84,13 @@ Légende des Dragons Sacrés...[end]</data>
         <refs>
             <ref>0x179</ref>
         </refs>
-        <data>Palpaleos ![end]</data>
+        <data>Palparos ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x183</ref>
         </refs>
-        <data>Palpaleos[0xd8]
+        <data>Palparos[0xd8]
  
   
 Vous avez vous-même donné des ordres
@@ -107,7 +107,7 @@ l'Empire a aussi été reconnue ![end]</data>
         <refs>
             <ref>0x193</ref>
         </refs>
-        <data>PALPALEOS:
+        <data>PALPAROS:
 L'amour et la rancune habitent
 maintenant vos coeurs...[end]</data>
     </text>

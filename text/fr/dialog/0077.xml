@@ -101,7 +101,7 @@ Et vous êtes ?[end]</data>
         <refs>
             <ref>0x868</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Un être-dragon ?!
 Dites-nous-en plus !
 La résurrection doit se faire entre les
@@ -141,7 +141,7 @@ pour le peuple dragon.[end]</data>
         <refs>
             <ref>0x9ed</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Hé ! Par ici l'enfant !
 Tu as perdu un Dragon Sacré !
 C'est vrai que tu es un petit
@@ -151,7 +151,7 @@ C'est vrai que tu es un petit
         <refs>
             <ref>0x88d</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Votre histoire n'a aucun sens !
 Je n'y comprends rien.
 Mais dépêchez-vous d'enlever les
@@ -244,7 +244,7 @@ le Grand et Divin Alexandre...[end]</data>
         <refs>
             <ref>0xa0a</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Alexandre ?[end]</data>
     </text>
     <text>
@@ -378,7 +378,7 @@ daigne combattre pour nous...[end]</data>
         <refs>
             <ref>0xb09</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Hé ! Les Dragons Sacrés !
  
 Vous nous emmenez en terres
@@ -388,7 +388,7 @@ inconnues ![end]</data>
         <refs>
             <ref>0xb26</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Princesse [character][0x1] ne vous tourmentez
 pas ![end]</data>
     </text>
@@ -396,7 +396,7 @@ pas ![end]</data>
         <refs>
             <ref>0xb33</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Quelqu'en soit la raison,
 nous combattrons !
 Nous combattrons pour eux ![end]</data>
@@ -405,7 +405,7 @@ Nous combattrons pour eux ![end]</data>
         <refs>
             <ref>0xb4e</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Allons-y !
  
 Nous allons vous aider Dragons Sacrés !
@@ -419,15 +419,15 @@ Nous partons combattre ![end]</data>
         <refs>
             <ref>0xb58</ref>
         </refs>
-        <data>SENDACK:
-Matelight ![end]</data>
+        <data>SENDAK:
+Matelite ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb69</ref>
             <ref>0x61a</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 [character][0x0]!
 Prépare-toi au combat ![end]</data>
     </text>
@@ -435,7 +435,7 @@ Prépare-toi au combat ![end]</data>
         <refs>
             <ref>0x5b9</ref>
         </refs>
-        <data>PALPALEOS:
+        <data>PALPAROS:
 [character][0x0]!
 Est-ce que tu es prêt ?
  Attends encore un instant.
@@ -470,7 +470,7 @@ Il semble que tu sois jaloux ![end]</data>
         <refs>
             <ref>0x13d</ref>
         </refs>
-        <data>Bikkebakke,je crois que vous avez
+        <data>Bikebake,je crois que vous avez
 oublié quelque chose !
  
 Vous aviez surveillé,au lagon Campbell,
@@ -489,7 +489,7 @@ Oui ! C'est [0xb0][0xaf][0xaf][0xaf] Po ![end]</data>
         <refs>
             <ref>0x16d</ref>
         </refs>
-        <data>BIKKEBAKKE:
+        <data>BIKEBAKE:
 Super !
 Tu m'as bien aidé frère !
 Merci ![end]</data>
@@ -498,7 +498,7 @@ Merci ![end]</data>
         <refs>
             <ref>0x15d</ref>
         </refs>
-        <data>BIKKEBAKKE:
+        <data>BIKEBAKE:
 Je suis content ! Content ![end][end]</data>
     </text>
     <text>
@@ -529,7 +529,7 @@ C'est un commerce génial ![end]</data>
         <refs>
             <ref>0x722</ref>
         </refs>
-        <data>BIKKEBAKKE:
+        <data>BIKEBAKE:
 Tu veux des champignons ?[end]</data>
     </text>
     <text>
@@ -539,13 +539,13 @@ Tu veux des champignons ?[end]</data>
         </refs>
         <data> Champignons.
  Livres.
- Objet autographe Matelight.[end1]</data>
+ Objet autographe Matelite.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x63e</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Toutes ces lumières sont effrayantes.[end]</data>
     </text>
     <text>
@@ -566,7 +566,7 @@ Il était si sceptique... ?[end]</data>
         <refs>
             <ref>0x6f0</ref>
         </refs>
-        <data>BIKKEBAKKE:
+        <data>BIKEBAKE:
 Tu veux m'acheter quelque chose ?[end]</data>
     </text>
     <text>
@@ -588,9 +588,9 @@ genre de choses...[end]</data>
         <refs>
             <ref>0x60f</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Là,je dois entièrement faire confiance
-à Palpaleos ![end]</data>
+à Palparos ![end]</data>
     </text>
     <text>
         <refs>
@@ -604,7 +604,7 @@ Là,je dois entièrement faire confiance
         <refs>
             <ref>0xe39</ref>
         </refs>
-        <data>PALPALEOS:
+        <data>PALPAROS:
 Le Général Gudruff est en train de
 parler.
 Il ne semble pas vouloir éviter cette
@@ -614,21 +614,21 @@ bataille.[end]</data>
         <refs>
             <ref>0xe4d</ref>
         </refs>
-        <data>PALPALEOS:
+        <data>PALPAROS:
 Je vais aller voir seul ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe5f</ref>
         </refs>
-        <data>MATELIGHT:
-Général Palpaleos ![end]</data>
+        <data>MATELITE:
+Général Palparos ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe6b</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 Faites attention !
 Je hais à vous dire cela mais...[end]</data>
     </text>
@@ -636,7 +636,7 @@ Je hais à vous dire cela mais...[end]</data>
         <refs>
             <ref>0xe78</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 N'allez pas vous faire tuer,
 quelqu'un vous attend !
 Vous n'avez pas intérêt à rendre
@@ -711,14 +711,14 @@ faire de grandes choses ![end]</data>
         <refs>
             <ref>0xf1</ref>
         </refs>
-        <data>BIKKEBAKKE:
+        <data>BIKEBAKE:
 Et moi ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x105</ref>
         </refs>
-        <data>Bikkebakke !
+        <data>Bikebake !
 Vous êtes mon favori mais vous faites
 déjà du commerce ![end]</data>
     </text>
@@ -738,7 +738,7 @@ Au revoir Messieurs ![end]</data>
         </refs>
         <data>[character][0x1]:
 [character][0x0],je m'inquiète pour le Général
-Palpaleos !
+Palparos !
 Prépare-toi à combattre ![end]</data>
     </text>
     <text>
@@ -753,14 +753,14 @@ Prépare-toi à combattre ![end]</data>
         <refs>
             <ref>0x57d</ref>
         </refs>
-        <data>PALPALEOS:
+        <data>PALPAROS:
 Tout est clair... C'est un piège ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5c4</ref>
         </refs>
-        <data>PALPALEOS:
+        <data>PALPAROS:
 Je n'arrive pas à déterminer l'endroit
 où nous sommes...[end]</data>
     </text>
@@ -803,7 +803,7 @@ savoir.[end]</data>
         <refs>
             <ref>0x645</ref>
         </refs>
-        <data>SENDACK:
+        <data>SENDAK:
 Altair...
 Ça... m'effraie...[end]</data>
     </text>
@@ -811,7 +811,7 @@ Altair...
         <refs>
             <ref>0x621</ref>
         </refs>
-        <data>MATELIGHT:
+        <data>MATELITE:
 [character][0x0]...
 Fais très attention ici...[end]</data>
     </text>
