@@ -18,7 +18,7 @@ dev = [
     "kintsuki[visual]==0.0.0a20",
     "mypy==2.4.0",
     "pytest",
-    "ruff==0.17.1",
+    "ruff==0.17.2",
 ]
 
 [tool.uv]
