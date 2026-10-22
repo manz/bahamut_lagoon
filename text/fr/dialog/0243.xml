@@ -4,126 +4,104 @@
         <refs>
             <ref>0x9e</ref>
         </refs>
-        <data>Frère !
-Nous sommes vraiment revenus chez
-nous pour de bon ?![end]</data>
+        <data>Grand frère ! Tu nous donnes vraiment cette maison ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xaa</ref>
         </refs>
-        <data>Matelite me l'a dit !
-C'est fini !
-C'est vrai de vrai ?![end]</data>
+        <data>Le vieux Matelite a dit que c'était d'accord... C'est vrai, hein ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb6</ref>
         </refs>
-        <data>Je n'en reviens pas !
-Je suis ici !
- 
-Et nous sommes enfin tous ensemble ![end]</data>
+        <data>Cet endroit me rappelle des souvenirs. Quand on y pense... tout a commencé dans cette maison.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc4</ref>
         </refs>
-        <data>Taicho,Zora...
-La guerre avait réuni tant de gens...[end]</data>
+        <data>Taicho, Zora... Plein de gens ont fui la guerre et se sont réfugiés ici, hein...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xcd</ref>
         </refs>
-        <data>Nous avons visité tant de terres...
-Mais...[end]</data>
+        <data>Nous... avant de rencontrer notre grand frère Byuu, on était comme des chiens errants... mais... ...mais tu vois...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd7</ref>
         </refs>
-        <data>Mais... quoi ?
-Qu'y a-t-il ?[end]</data>
+        <data>...Mais quoi ? Mais quoi, hein ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe5</ref>
         </refs>
-        <data>C'est insignifiant...[end]</data>
+        <data>Rien...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xef</ref>
         </refs>
-        <data>Qu'est-ce qui ne va pas,
-Bikebake ?[end]</data>
+        <data>Qu'y a-t-il, Bikebake... ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfd</ref>
         </refs>
-        <data>Je suis en train de penser à tout le
-monde et à tous ces moments passés
-ensemble...
-Réjouissons-nous...
-Soyons heureux de tous nos souvenirs ![end]</data>
+        <data>...Ben... c'est juste que... je me disais qu'on était peut-être devenus grands... et les bons moments... les moments durs... tout m'est revenu d'un coup...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x107</ref>
         </refs>
-        <data>Nous en avons tant...[end]</data>
+        <data>...Il s'en est passé, des choses.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x111</ref>
         </refs>
-        <data>T... tout est enfin fini...
-Écoutez !
-Tout le monde est heureux !
-Des lar...
-Des larmes me viennent...[end]</data>
+        <data>A-arrête... Dis pas des trucs aussi tristes !
+ 
+Je... je vais finir par pleurer...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x11b</ref>
         </refs>
-        <data>Moi aussi...[end]</data>
+        <data>M-moi aussi...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x124</ref>
         </refs>
-        <data>Il y a trop longtemps que je n'avais
-versé une larme...
-J'ai tant attendu ce moment...[end]</data>
+        <data>Moi aussi, depuis tout à l'heure, je... je retiens mes larmes...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x141</ref>
         </refs>
-        <data>Frère...
-M... Merci... pour tout...[end]</data>
+        <data>Grand frère... M-merci... voilà...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x153</ref>
         </refs>
-        <data>[character][0x0]![end]</data>
+        <data>Byuu ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x165</ref>
         </refs>
-        <data>Capitaine [character][0x0]![end]</data>
+        <data>Capitaine Byuu !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x177</ref>
         </refs>
-        <data>[character][0x0]...
-Nous visiterons encore d'autres
-contrées...[end]</data>
+        <data>Byuu... Je suis heureux de vous avoir rencontré...[end]</data>
     </text>
 </texts>

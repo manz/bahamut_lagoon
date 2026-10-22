@@ -10,152 +10,133 @@
         <refs>
             <ref>0x1ab</ref>
         </refs>
-        <data>Donfan: Qu'est-ce qui ne va pas,Ruki ?[end]</data>
+        <data>Donfan: Qu'y a-t-il, Ruki ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1b7</ref>
         </refs>
-        <data>Ruki: Je me suis enfin décidée ![end]</data>
+        <data>Ruki: C'est décidé ! Enfin... ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1d0</ref>
         </refs>
-        <data>Donfan: Tu t'es décidée ?![end]</data>
+        <data>Donfan: Décidé... ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1ea</ref>
         </refs>
-        <data>Pour le nouveau Roi de Mahal ?![end]</data>
+        <data>Le nouveau roi de Mahal est choisi ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1f4</ref>
         </refs>
-        <data>Ruki: Oh !
-Écoute,tu as l'air surpris ![end]</data>
+        <data>Ruki: Oui ! Écoute, et ne sois pas surpris ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1fa</ref>
         </refs>
-        <data>Donfan: Qui... moi... ?
-Jamais... jamais...[end]</data>
+        <data>Donfan: Qui... ? Ne me dis pas... ne me dis pas...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x20a</ref>
         </refs>
-        <data>Je ne suis que Donfan le Naïf et
-Fidèle Serviteur,non ?![end]</data>
+        <data>...que c'est Donfan, le coeur pur et dur à cuire ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x237</ref>
         </refs>
-        <data>Ruki: Tu te trompes Donfan !
+        <data>Ruki: Mais non !
  
-En ce qui concerne le futur Roi de ce
-pays,je crois que Taicho sera le
-plus apte.[end]</data>
+C'est Taicho ! Taicho sera roi ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x255</ref>
         </refs>
-        <data>Donfan: Est-ce vrai ?![end]</data>
+        <data>Donfan: C'est vrai ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x264</ref>
         </refs>
-        <data>Ruki: Héhéhéhéhé !
-Il finira par accepter face au pouvoir
-dissuasif de Gunso ![end]</data>
+        <data>Ruki: Oui ! On dirait qu'il a fini par céder aux arguments de Gunso ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x26e</ref>
         </refs>
-        <data>Donfan: Hahahahaha !
+        <data>Donfan: Ha ha !
  
-Il semble que Taicho ne pourra
-rien refuser ![end]</data>
+Incapable de dire non quand on lui demande quelque chose, c'est bien Taicho, ça ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x27f</ref>
         </refs>
-        <data>Ruki: Allons au Palais de Mahal !
-Jeanne nous y attend ![end]</data>
+        <data>Ruki: Allez, en route ! Au palais de Mahal ! Jeanne nous attend ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x28d</ref>
         </refs>
-        <data>Donfan: Haha ![end]</data>
+        <data>Donfan: Ouais ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2c2</ref>
         </refs>
-        <data>Taicho: Gunso... Pourquoi serait-ce moi leur
-nouveau Roi ?[end]</data>
+        <data>Taicho: Gunso... Pourquoi vouloir faire de moi le roi, affirmatif ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2cc</ref>
         </refs>
-        <data>Gunso: Considérez que vous êtes la seule
-personne capable d'être leur Roi ![end]</data>
+        <data>Gunso: Oui, chef ! Parce qu'on ne voit personne d'autre que Taicho comme nouveau roi, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2d2</ref>
         </refs>
-        <data>Taicho: Mais j'ai toujours été une personne
-se battant pour défendre Mahal pas
-pour faire de la politique.
-Cependant,je crois que je vais
-accepter la décision de notre peuple.[end]</data>
+        <data>Taicho: Je suis l'homme qui, autrefois, n'a pas su protéger Mahal, affirmatif... Tout le monde l'acceptera-t-il, affirmatif... je me le demande...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2e4</ref>
         </refs>
-        <data>Gunso: Que dites-vous ?!
+        <data>Gunso: Qu'est-ce que vous dites là !
  
-Taicho !
-Sachez que malgré tout nous serons
-toujours,vous et moi,Capitaines[0xd8][end]</data>
+Taicho ! Vous... vous resterez à jamais notre chef ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2f1</ref>
         </refs>
-        <data>Taicho: ... ... ...[end]</data>
+        <data>Taicho: ............!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2fa</ref>
         </refs>
-        <data>Gunso: Et maintenant,vous devrez prendre en
-considération votre décision...[end]</data>
+        <data>Gunso: ...Je suis vraiment heureux de vous avoir suivi jusqu'ici...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x32e</ref>
         </refs>
-        <data>Jeanne: Moi je le crois capable ![end]</data>
+        <data>Jeanne: Moi aussi, je suis d'accord ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x33a</ref>
         </refs>
-        <data>Donfan: Donfan le Naïf et Fidèle Serviteur
-le croit aussi ![end]</data>
+        <data>Donfan: Donfan, le coeur pur et dur à cuire, est d'accord aussi, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
@@ -167,6 +148,6 @@ le croit aussi ![end]</data>
         <refs>
             <ref>0x352</ref>
         </refs>
-        <data>Taicho: Oh tout le monde...[end]</data>
+        <data>Taicho: Vous tous...[end]</data>
     </text>
 </texts>

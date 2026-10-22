@@ -10,73 +10,47 @@
         <refs>
             <ref>0xe5</ref>
         </refs>
-        <data>Palparos: La Légende dont nous rêvions...
-Que nous a-t-elle apporté ?
-Ta mort...
+        <data>Palparos: C'est fini... tout... La légende dont nous rêvions... tout est fini... ...Mais toi... tu n'es plus là...
  
-  
-Tout est maintenant fini !
- 
-  
-Je suis persuadé qu'en toi,
-une flamme brille encore...
- 
-Pourquoi ne viens-tu pas,
-Sauzer ?
- 
-Tu avais des buts mais la guerre
-avait alors commencé...
- 
-Voulais-tu vraiment la paix universelle ?
-Tu avais tant d'esprit...
-Sauzer...[end]</data>
+Dis, Sauzer... Ce que tu cherchais, au fond, ce n'était pas la guerre, mais la paix, n'est-ce pas ? ...C'est ce que je crois... Sauzer...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xeb</ref>
         </refs>
-        <data>Adieu,Sauzer...[end]</data>
+        <data>...Adieu, Sauzer...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x129</ref>
         </refs>
-        <data>Palparos: [character][0x1]...
+        <data>Palparos: Yoyo...
  
-Je suis enfin revenu dans ma patrie
-Granbelos mais je suis si seul sans
-vous !
-Dès que la guerre fut finie,
-vous retournâtes très vite à Kana...
+Moi, je reste seul à Granbelos, finalement.
  
-Ma fin approche et je n'en suis que
-trop conscient !
+La guerre a beau être finie, je ne peux pas me présenter à Kana comme si de rien n'était...
  
-Toutefois,je ne m'inquiète pas car
-vous avez avec vous de fantastiques
-amis.
-Mais au fond...
-Ne vous manque-t-il personne ?[end]</data>
+...Pardonne-moi...
+ 
+Mais toi, tu as des amis merveilleux... Tu ne te sentiras pas seule, n'est-ce pas ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x133</ref>
         </refs>
-        <data>Je vous envie tellement,
-[character][0x1]...[end]</data>
+        <data>Je t'envie... Yoyo...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x143</ref>
         </refs>
-        <data>Adieu,[character][0x1]...[end]</data>
+        <data>...Adieu, Yoyo...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x14b</ref>
         </refs>
-        <data>Adieu,
-Légende des Dragons Sacrés...[end]</data>
+        <data>...Adieu, légende des Dragons Sacrés...[end]</data>
     </text>
     <text>
         <refs>
@@ -88,34 +62,24 @@ Légende des Dragons Sacrés...[end]</data>
         <refs>
             <ref>0x183</ref>
         </refs>
-        <data>Palparos[0xd8]
- 
-  
-Vous avez vous-même donné des ordres
-et entraîné le peuple dans la guerre ![end]</data>
+        <data>Hé, Palparos ! Tu nous as entraînés dans la guerre, nous, le peuple ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x18d</ref>
         </refs>
-        <data>Votre collaboration avec les ennemis de
-l'Empire a aussi été reconnue ![end]</data>
+        <data>Comment tu vas payer pour ça, hein ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x193</ref>
         </refs>
-        <data>Palparos: L'amour et la rancune habitent
-maintenant vos coeurs...[end]</data>
+        <data>Palparos: ...Faites ce que vous voulez... si cela peut vous apaiser...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x199</ref>
         </refs>
-        <data>La parenthèse va être fermée !
- 
-  
-Vous avez causé beaucoup trop de
-morts et de victimes ![end]</data>
+        <data>Tsss ! Tu joues les héros ? Tu vas goûter à mon couteau ![end]</data>
     </text>
 </texts>

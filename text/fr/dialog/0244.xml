@@ -4,61 +4,47 @@
         <refs>
             <ref>0xa3</ref>
         </refs>
-        <data>            Aaaaaaaah ![end]</data>
+        <data>            Ah... ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xdd</ref>
         </refs>
-        <data>Sendak: Princesse [character][0x1]!
-Ne vous levez pas ?![end]</data>
+        <data>Sendak: Reine Yoyo ! Que se passe-t-il ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf2</ref>
         </refs>
-        <data>[character][0x1]: Hihi !
-Tu exagères...
-C'est facile à dire mais il fait un peu
-froid,ici ![end]</data>
+        <data>Yoyo: Hihi... Tu exagères. Ce n'est rien... J'ai juste eu un petit frisson.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x102</ref>
         </refs>
-        <data>[character][0x1]: Et Matelite ?[end]</data>
+        <data>Yoyo: Et Matelite ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x106</ref>
         </refs>
-        <data>Sendak: Oh Matelite !
+        <data>Sendak: Eh bien...
  
-Il est encore occupé à parler tout
-seul et à se plaindre dans la salle
-du trône.[end]</data>
+Comme d'habitude, il marmonne tout seul devant le trône...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x114</ref>
         </refs>
-        <data>[character][0x1]: C'est tout lui ça,n'est-ce pas ?
+        <data>Yoyo: ...Encore ?
  
-Il se plaint car à son goût trop de
-gens de Kana viennent ici chaque jour.[end]</data>
+Depuis notre retour à Kana, c'est tous les jours...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x141</ref>
         </refs>
-        <data>Ma Reine...
-Ma Princesse [character][0x1]...
-Nous sommes enfin revenus chez nous.
-Kana n'a plus à s'inquiéter !
-Matelite vous défendra autant que
-possible,je le jure !
-[character][0x0] est devenu un homme incroyable
-et il est l'un de mes meilleurs amis.[end]</data>
+        <data>Mon Roi... La Princesse Yoyo est devenue bien forte... Kana n'a rien à craindre. Tant que moi, Matelite, je serai là... Et tant qu'il sera là, lui... Lui... Byuu... est devenu un homme extraordinaire... J'ai de bons compagnons, et je suis heureux...[end]</data>
     </text>
     <text>
         <refs>
@@ -100,25 +86,23 @@ et il est l'un de mes meilleurs amis.[end]</data>
         <refs>
             <ref>0x1db</ref>
         </refs>
-        <data>Ces lagons dispersés dans Orelus seront
-bientôt unis en une seule nation grâce
-à des accords de paix.[end1]</data>
+        <data>Les innombrables lagons d'Orelus
+signèrent bientôt un traité de paix
+et devinrent une seule nation.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x1f2</ref>
         </refs>
-        <data>Le Capitaine [character][0x0] est à l'origine de
-ce projet et il surveille maintenant
-ces lagons en survolant les cieux.[end1]</data>
+        <data>L'ancien capitaine de l'Escadron
+Dragon de Kana, Byuu, fut chargé de
+veiller du ciel sur tous les lagons...[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x209</ref>
         </refs>
-        <data>Nous étions ensemble à travers la
-Légende des Dragons Sacrés et nous
-la finissons ensemble.[end1][end]</data>
+        <data>...en compagnie du dragon de légende.[end1][end]</data>
     </text>
     <text>
         <refs>
