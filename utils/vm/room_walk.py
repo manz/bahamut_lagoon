@@ -22,7 +22,8 @@ from io import BufferedReader
 from pathlib import Path
 
 from utils.cartridge import rom_offset
-from utils.dump_rooms import decompress_block, is_compressed
+from utils.dump_battle_rooms import decompress_block
+from utils.dump_rooms import is_compressed
 from utils.vm.room_ops import DecodeError, Instruction, decode
 
 ROOMS = 0xFF
@@ -32,6 +33,8 @@ MAX_ACTORS = 0x17
 TRIGGER_TABLES = {0x04: (5, 3), 0x0A: (7, 5)}  # header word: (record size, offset of its script word)
 SINGLE_SCRIPTS = {0x08: "timer", 0x0C: "skip"}
 NO_ENTRY = 0xFFFF
+TEXT_ENDS = (0xFF, 0xFD)
+TEXT_OPERANDS = {0xF4: 1, 0xF5: 1, 0xF9: 2, 0xFC: 1}  # control codes: operand bytes
 
 
 def word(data: bytes, pos: int) -> int:
@@ -39,15 +42,13 @@ def word(data: bytes, pos: int) -> int:
 
 
 def text_length(data: bytes, pos: int) -> int:
-    """A string's bytes, up to and including its end (FF, or FD; FF FF and FD FF count both), as the text dumper
-    reads it (utils.vm.opcodes.get_string_from_room)."""
+    """A string's bytes, up to and including its end, as display_dialog_string (DA3AFE) reads it: FF (waits for a
+    key) or FD (does not) ends it; F4, F5 and FC take a byte operand and F9 a word, which never end it."""
     end = pos
     while end < len(data):
-        if data[end : end + 2] in (b"\xff\xff", b"\xfd\xff"):
-            return end + 2 - pos
-        if data[end] in (0xFF, 0xFD):
+        if data[end] in TEXT_ENDS:
             return end + 1 - pos
-        end += 1
+        end += 1 + TEXT_OPERANDS.get(data[end], 0)
     return len(data) - pos
 
 
@@ -189,7 +190,12 @@ def walk_room(data: bytes) -> Walk:
 
 
 def room_data(rom: BufferedReader, room: int) -> bytes | None:
-    """A compressed room, decompressed; None for the rooms stored raw (no script)."""
+    """A compressed room, decompressed as DA2BFA does; None for the rooms stored raw (no script).
+
+    utils.dump_rooms.decompress_block (which the build reads the rooms with) stops a block's items one byte early
+    (utils.lz.lz_decompress, `k < len(data) - 1`): 54 rooms come out 1 or 2 bytes short of what the field
+    decompresses to `$7F:A000`, their last bytes garbled (room 220's end read as code). The battle rooms' reader
+    has it right and the format is the same."""
     if not is_compressed(rom, room):
         return None
     rom.seek(rom_offset(ROOM_POINTERS) + room * 3)

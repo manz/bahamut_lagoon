@@ -9,7 +9,7 @@ Operand kinds, one character each:
 - `b` byte, `w` word.
 - `a` 24-bit bus address (word, then bank byte).
 - `j` script address (word): a jump, call or branch target.
-- `t` text pointer (word): a string up to its FF.
+- `t` text pointer (word): a string up to its FF or FD (`utils.vm.room_walk.text_length`).
 - `p` palette data pointer (word): colours read for the palette range the operands before it chose.
 - `m` a motion list up to its FF or FE (actor_move).
 - `l` an actor list up to its FF (actors_hold, actors_release).
