@@ -8,33 +8,43 @@ not know about). Also lists the texts the scripts show, by address and by text-t
 from __future__ import annotations
 
 import argparse
+import io
 import struct
 from collections.abc import Callable
 from dataclasses import dataclass, field
+from functools import cache
 from pathlib import Path
 
 from utils.cartridge import rom_offset
 from utils.dump_battle_rooms import decompress_block
+from utils.ips import apply_ips
 from utils.vm.battle_script import STOPS, Instruction, header, instruction
 
 ROM = Path(__file__).parents[1] / "build/bl.sfc"
+IPS = Path(__file__).parents[1] / "build/bl.ips"
 ROOM_TABLE = 0xC7140F
 ROOMS = 32
 HEADER_SIZE = 0x20
 
 
-def room_block(room_id: int, rom_path: Path = ROM) -> bytes:
-    """Battle room `room_id` as unpacked to $7F:C080."""
-    with rom_path.open("rb") as rom:
-        rom.seek(rom_offset(ROOM_TABLE) + room_id * 3)
-        ptr = rom.read(3)
-        rom.seek(rom_offset(ptr[0] | ptr[1] << 8 | ptr[2] << 16))
-        return bytes(decompress_block(rom))
+@cache
+def fr_rom() -> bytes:
+    """The French ROM: build/bl.ips applied to the vanilla build/bl.sfc."""
+    return apply_ips(ROM.read_bytes(), IPS.read_bytes())
 
 
-def room_script(room_id: int, rom_path: Path = ROM) -> bytes:
+def room_block(room_id: int, rom: Path | bytes = ROM) -> bytes:
+    """Battle room `room_id` as unpacked to $7F:C080, from a ROM file or image."""
+    image = rom.read_bytes() if isinstance(rom, Path) else rom
+    ptr = image[rom_offset(ROOM_TABLE) + room_id * 3 :][:3]
+    stream = io.BufferedReader(io.BytesIO(image))
+    stream.seek(rom_offset(ptr[0] | ptr[1] << 8 | ptr[2] << 16))
+    return bytes(decompress_block(stream))
+
+
+def room_script(room_id: int, rom: Path | bytes = ROM) -> bytes:
     """The script of battle room `room_id`: the unpacked room from its base (its first word)."""
-    block = room_block(room_id, rom_path)
+    block = room_block(room_id, rom)
     base: int = struct.unpack("<H", block[:2])[0]
     return block[base:]
 

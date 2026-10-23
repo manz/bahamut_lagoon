@@ -4,6 +4,7 @@ import re
 import struct
 import xml.etree.ElementTree as ET
 from io import BufferedReader
+from typing import Protocol
 
 from a816.writers import Writer
 from katsuji.script import Table
@@ -19,7 +20,15 @@ from utils.vm.room import Room, prettify
 logger = logging.getLogger("rooms.battle")
 
 
-def decompress_block(rom: BufferedReader) -> bytearray:
+class Peekable(Protocol):
+    """A ROM stream decompress_block reads: a file or io.BufferedReader over bytes."""
+
+    def read(self, size: int | None = -1, /) -> bytes: ...
+
+    def peek(self, size: int = 0, /) -> bytes: ...
+
+
+def decompress_block(rom: Peekable) -> bytearray:
     size: int = struct.unpack("<H", rom.read(2))[0]
     logger.debug("block size %#x", size)
     data = rom.read(size)
