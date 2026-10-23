@@ -2,6 +2,14 @@
 <texts base="0x133" room_id="15">
     <text>
         <refs>
+            <ref>0xfc</ref>
+        </refs>
+        <data>Entrez dans les bâtiments !
+Ils vous abriteront des
+tempêtes de sable ![end]</data>
+    </text>
+    <text>
+        <refs>
             <ref>0x2c</ref>
         </refs>
         <data>Matelite: Sauzer !![end1][end]</data>
