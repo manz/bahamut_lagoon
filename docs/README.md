@@ -81,7 +81,8 @@ Everything that shows on screen is driven by this script. (if it's script we can
 
 ### Opcodes
 
-
+[vm/dialog_opcodes.md](vm/dialog_opcodes.md): the header words, the runner and every opcode, with its operands and
+how sure each meaning is.
 
 ## Strange Calling Convention
 

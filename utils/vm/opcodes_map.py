@@ -188,7 +188,7 @@ opcode_table: OpcodeTable = {
     # 0x0c: Opcode(2),
     0x0D: StateOpcode(),
     # 0x0d: Opcode(2),
-    0x0E: Opcode(3, comment_lambda=lambda r: f"actor({r.get_byte(1):#02x}) state({r.get_byte(2):#02x})"),
+    0x0E: Opcode(3, comment_lambda=lambda r: f"actor({r.get_byte(1):#02x}) frame({r.get_byte(2):#02x})"),
     0x0F: Opcode(3, comment_lambda=lambda r: f"actor({r.get_byte(1):#02x}) speed({r.get_byte(2)})"),
     0x10: Opcode(3),
     0x11: Opcode(2, comment_lambda=lambda r: f"actor({r.get_byte(1):#02x})"),
@@ -252,7 +252,7 @@ opcode_table: OpcodeTable = {
     0x41: Opcode(2),
     0x42: Opcode(2),
     0x43: Opcode(2),  # Change room
-    0x44: Opcode(5),  # inits first 4 bytes from the "state memory"
+    0x44: Opcode(5),  # `$0300`-`$0303`, then `$3E` bit 3: the field loop jumps to the battle engine (C10000)
     0x45: Opcode(3),
     0x46: Opcode(1),
     0x47: Opcode(2),
@@ -264,7 +264,7 @@ opcode_table: OpcodeTable = {
     0x4D: Opcode(3),
     0x4E: Opcode(2),
     0x4F: Opcode(2),
-    0x50: IfElseOpcode(),  # 0x50 seems to directly increment the pointer 0x6A
+    0x50: IfElseOpcode(),  # jumps to one of its two targets at random; never falls through
     0x51: Opcode(5),
     0x52: Opcode(3),
     0x53: Opcode(3),
@@ -298,7 +298,7 @@ opcode_table: OpcodeTable = {
     0x6F: Opcode(3),
     0x70: ConditionalJump(5),
     0x71: Opcode(2),
-    0x72: Opcode(9),  # might be 8 for some reason was 2 JUMP
+    0x72: Opcode(9),  # three bytes, two words, a byte
     0x73: Opcode(2),
     0x74: Opcode(2),
     0x75: Opcode(2),
@@ -334,14 +334,10 @@ opcode_table: OpcodeTable = {
     0x92: Opcode(3),
     0x93: Opcode(2),
     0x94: ConditionalJump(2),
-    # 0x95: Opcode(2),
-    # 0x96: Opcode(5),  # XX YY JUMP_16 contains a Jump address at the end of data,
-    0x9E: Opcode(1, comment_lambda=lambda r: "Should not be executed because it traps the vm"),
-    # opcodes > 94 does not have implementation and does not increment PC
-    # should raise an exception because these opcodes do nothing and does not increment
-    # the program counter hence throwing the game in infinite loop,
-    # They are _NOT_ used in "production room code", indicates an error
-    0xFF: Opcode(1),
+    # 95-9F: bare `sep #$20 : rts` handlers. The runner then adds what A still holds, (opcode * 2) & 0xFF: they skip
+    # 0x2A-0x3E bytes. A0-FE index past the table (DA3F20 + 2 * opcode lands in the handlers' code). No room uses any.
+    0x9E: Opcode(1, comment_lambda=lambda r: "undefined: skips 0x3C bytes in game"),
+    0xFF: Opcode(1),  # the runner stops on it (carry set): ends the script
 }
 
 # Battle opcodes
