@@ -1,66 +1,16 @@
-import struct
+"""The game's LZSS (rooms, battle rooms, graphics): katsuji's Lzss with a 12-bit window, 0 flag bits for literals
+and the last flag group padded with FF. The room encoder also emits repeats of the bytes just before a position."""
+
+from katsuji.codecs.lzss import Lzss
+
+ROOMS = Lzss(window=0xFFF, literal=0, oldest=True, repeats=True, pad=0xFF)
+GRAPHICS = Lzss(window=0xFFF, literal=0, oldest=True, repeats=False, pad=0xFF)
 
 
 def lz_decompress(data: bytes | bytearray, decompressed: bytearray | None = None) -> bytearray:
-    if decompressed is None:
-        decompressed = bytearray()
-
-    k = 0
-    while k < len(data):
-        control_byte = data[k]
-        if control_byte == 0x00:
-            raw_data = data[k + 1 : k + 9]
-            decompressed += raw_data
-            k += 9
-        else:
-            k += 1
-            for i in range(8):
-                if k < len(data) - 1:
-                    if (control_byte >> i) & 1:
-                        back_pointer = (data[k] | (data[k + 1] << 8)) & 0x0FFF
-                        length = ((data[k + 1] >> 4) & 0x0F) + 3
-                        # print(f'{back_pointer:#0{6}}x, {length:#0{6}x}')
-                        back_pointer = len(decompressed) - back_pointer
-
-                        for l in range(length):
-                            decompressed.append(decompressed[back_pointer + l])
-                        k += 2
-                    else:
-                        decompressed.append(data[k])
-                        k += 1
-
-    return decompressed
-
-
-def lz_decompress_battle(data: bytes | bytearray, decompressed: bytearray | None = None) -> bytearray:
-    if decompressed is None:
-        decompressed = bytearray()
-
-    k = 0
-    while k < len(data):
-        control_byte = data[k]
-        if control_byte == 0x00:
-            raw_data = data[k + 1 : k + 9]
-            decompressed += raw_data
-            k += 9
-        else:
-            k += 1
-            for i in range(8):
-                if k < len(data):
-                    if (control_byte >> i) & 1:
-                        back_pointer = (data[k] | (data[k + 1] << 8)) & 0x0FFF
-                        length = ((data[k + 1] >> 4) & 0x0F) + 3
-
-                        back_pointer = len(decompressed) - back_pointer
-
-                        for l in range(length):
-                            decompressed.append(decompressed[back_pointer + l])
-                        k += 2
-                    else:
-                        decompressed.append(data[k])
-                        k += 1
-
-    return decompressed
+    """Every item of the block `data`, appended to `decompressed`, which its references may reach into."""
+    history = bytes(decompressed or b"")
+    return bytearray(history + ROOMS.decompress(bytes(data), history=history)[0])
 
 
 def find_pattern(buffer: bytes | bytearray, temp_buffer: bytes | bytearray) -> tuple[int, int] | None:
@@ -119,27 +69,4 @@ def find_back_reference(
 
 
 def lz_compress(data: bytes | bytearray, search_patterns: bool = True) -> bytearray:
-    pos = 0
-    compressed = bytearray()
-    while pos < len(data):
-        block = bytearray()
-        block.append(0)
-        k = 0
-        while k < 8:
-            back_reference = find_back_reference(data, pos, search_patterns=search_patterns)
-
-            if back_reference and back_reference[1] > 2:
-                block[0] |= 1 << k
-                pointer = (back_reference[0]) + ((back_reference[1] - 3) << 12)
-                block += struct.pack("<H", pointer)
-                pos += back_reference[1]
-            else:
-                try:
-                    block.append(data[pos])
-                except IndexError:
-                    block.append(0xFF)
-                pos += 1
-            k += 1
-        compressed += block
-
-    return compressed
+    return bytearray((ROOMS if search_patterns else GRAPHICS).compress(bytes(data)))

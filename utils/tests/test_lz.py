@@ -22,8 +22,9 @@ class LZCompressionTestCase(TestCase):
     def test_compress(self) -> None:
         data = b"\x00\x01\x03\x04\x00\x01\x03\x04\x00\x01\x03\x04\x00\x01\x03\x04\x00\x01"
 
-        compressed = lz_compress(data)
-        decompressed = lz_decompress(compressed)
-        # for now we pad with \xff (we loose at most 6 bytes where we need 3
-        # bytes for continuation and at most 6 bytes of data ...
-        self.assertEqual(decompressed, data + b"\xff\xff")
+        # the last flag group is filled with FF literals, which decompress to the end of the block reads back
+        self.assertEqual(lz_decompress(lz_compress(data)), data + b"\xff\xff\xff")
+
+    def test_a_block_reaches_into_the_ones_before(self) -> None:
+        previous = bytearray(b"abcd")
+        self.assertEqual(lz_decompress(b"\x01\x04\x00", previous), b"abcdabc")

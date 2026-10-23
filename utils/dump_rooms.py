@@ -16,7 +16,7 @@ from utils.credits import CREDITS_ROOMS, ENDING_CREDITS_ROOMS, credits_script, p
 from utils.credits import TABLE as CREDITS_TABLE
 from utils.dialog_layout import DialogLayout, alignment, default_layout
 from utils.disasm import live_disasm
-from utils.lz import lz_compress, lz_decompress_battle
+from utils.lz import lz_compress, lz_decompress
 from utils.vm.opcodes_map import opcode_names, opcode_table
 from utils.vm.room import Room, prettify
 
@@ -36,7 +36,7 @@ def decompress_block(rom: BufferedReader) -> bytearray:
 
     data = rom.read(size)
     decompressed = bytearray()
-    decompressed = lz_decompress_battle(data, decompressed)
+    decompressed = lz_decompress(data, decompressed)
 
     def get_size(count: int, control_byte: int) -> int:
         size = 0
@@ -57,7 +57,7 @@ def decompress_block(rom: BufferedReader) -> bytearray:
             next_size = get_size(control[0], control_byte[0])
             data = rom.read(next_size)
 
-            decompressed = lz_decompress_battle(data, decompressed)
+            decompressed = lz_decompress(data, decompressed)
         else:
             break
     return decompressed

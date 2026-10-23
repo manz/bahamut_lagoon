@@ -11,7 +11,7 @@ from katsuji.script import Table
 
 from utils.cartridge import rom_address, rom_offset
 from utils.dump_rooms import compress_room
-from utils.lz import lz_decompress_battle
+from utils.lz import lz_decompress
 from utils.vm import AlreadyVisitedError
 from utils.vm.executor import walk_event_chain
 from utils.vm.opcodes_map import battle_opcode_names, battle_opcode_table
@@ -33,7 +33,7 @@ def decompress_block(rom: Peekable) -> bytearray:
     logger.debug("block size %#x", size)
     data = rom.read(size)
     decompressed = bytearray()
-    decompressed = lz_decompress_battle(data, decompressed)
+    decompressed = lz_decompress(data, decompressed)
 
     def get_size(count: int, control_byte: int) -> int:
         size = 0
@@ -54,7 +54,7 @@ def decompress_block(rom: Peekable) -> bytearray:
             next_size = get_size(control[0], control_byte[0])
             data = rom.read(next_size)
 
-            decompressed = lz_decompress_battle(data, decompressed)
+            decompressed = lz_decompress(data, decompressed)
         else:
             break
     return decompressed
