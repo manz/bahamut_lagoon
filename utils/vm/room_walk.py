@@ -30,7 +30,7 @@ ROOM_POINTERS = 0xDA8000
 ACTOR_RECORD = 7  # bytes of an actor record of the +2 table
 MAX_ACTORS = 0x17
 TRIGGER_TABLES = {0x04: (5, 3), 0x0A: (7, 5)}  # header word: (record size, offset of its script word)
-SINGLE_SCRIPTS = (0x08, 0x0C)
+SINGLE_SCRIPTS = {0x08: "timer", 0x0C: "skip"}
 NO_ENTRY = 0xFFFF
 
 
@@ -51,12 +51,20 @@ def text_length(data: bytes, pos: int) -> int:
     return len(data) - pos
 
 
+@dataclass(frozen=True)
+class Entry:
+    """A script entry point of the header: what starts it, and its offset."""
+
+    what: str
+    offset: int
+
+
 @dataclass
 class Walk:
     data: bytes
     code: dict[int, Instruction] = field(default_factory=dict)
     covered: dict[int, int] = field(default_factory=dict)  # offset -> length of non-code bytes accounted for
-    roots: list[int] = field(default_factory=list)
+    entries: list[Entry] = field(default_factory=list)
     errors: list[str] = field(default_factory=list)
 
     @property
@@ -105,20 +113,21 @@ def actor_count(walk: Walk) -> int:
     return count
 
 
-def trigger_roots(walk: Walk, header: int, size: int, script: int) -> list[int]:
+def trigger_roots(walk: Walk, header: int, size: int, script: int) -> list[Entry]:
     table = word(walk.data, header)
     if table == 0:
         return []
     roots, at = [], table
     while at + 2 <= len(walk.data) and word(walk.data, at) != NO_ENTRY:
         walk.mark(at, size)
-        roots.append(word(walk.data, at + script))
+        fields = ", ".join(str(walk.data[at + i]) for i in range(script))
+        roots.append(Entry(f"+{header:X} trigger ({fields}) at {at:04x}", word(walk.data, at + script)))
         at += size
     walk.mark(at, 2)
     return roots
 
 
-def event_roots(walk: Walk, actors: int) -> list[int]:
+def event_roots(walk: Walk, actors: int) -> list[Entry]:
     """The +6 table: a script per actor, by actor id, up to an FFFF word (actors past it have none)."""
     table = word(walk.data, 0x06)
     roots = []
@@ -127,21 +136,25 @@ def event_roots(walk: Walk, actors: int) -> list[int]:
         entry = word(walk.data, table + 2 * actor)
         if entry == NO_ENTRY:
             break
-        roots.append(entry)
+        roots.append(Entry(f"+6 actor {actor} event", entry))
     return roots
 
 
-def roots(walk: Walk) -> list[int]:
+def entry_points(walk: Walk) -> list[Entry]:
     """Every script entry point of the room's header, in header order."""
     walk.mark(0, walk.header_length)
-    found = [walk.header_length]
+    found = [Entry("+0 start-up", walk.header_length)]
     actors = actor_count(walk)
     for header, (size, script) in TRIGGER_TABLES.items():
         if walk.has(header):
             found += trigger_roots(walk, header, size, script)
     if walk.has(0x06):
         found += event_roots(walk, actors)
-    found += [word(walk.data, h) for h in SINGLE_SCRIPTS if walk.has(h) and word(walk.data, h) != 0]
+    found += [
+        Entry(f"+{h:X} {SINGLE_SCRIPTS[h]}", word(walk.data, h))
+        for h in SINGLE_SCRIPTS
+        if walk.has(h) and word(walk.data, h) != 0
+    ]
     return found
 
 
@@ -169,9 +182,9 @@ def follow(walk: Walk, pos: int) -> None:
 
 def walk_room(data: bytes) -> Walk:
     walk = Walk(data)
-    walk.roots = roots(walk)
-    for root in walk.roots:
-        follow(walk, root)
+    walk.entries = entry_points(walk)
+    for entry in walk.entries:
+        follow(walk, entry.offset)
     return walk
 
 

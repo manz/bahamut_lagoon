@@ -178,6 +178,7 @@ OPERANDS: dict[int, str] = {
     END: "",
 }
 WIDTHS = {"b": 1, "w": 2, "a": 3, "j": 2, "t": 2, "p": 2}
+LIST_ENDS = {"m": (0xFE, 0xFF), "l": (0xFF,)}  # what ends a motion list, an actor list
 # No fall-through: jump, return, random_branch (one of its two targets), and the end.
 STOPS = frozenset({0x00, 0x06, 0x50, END})
 # Palette ranges (first colour, count) behind the FF / FE / FD presets of a palette operand (DA4ACC).
@@ -196,6 +197,7 @@ class Instruction:
     targets: tuple[int, ...]  # script addresses it may go to, besides the next instruction
     texts: tuple[int, ...]  # text pointers
     data: tuple[tuple[int, int], ...]  # (offset, length) of the room data it reads (palette colours)
+    operands: tuple[int | bytes, ...]  # one per operand kind: the value, or a list's bytes with its end
 
     @property
     def name(self) -> str:
@@ -237,12 +239,12 @@ def decode(data: bytes, pos: int) -> Instruction:
     texts: list[int] = []
     bytes_read: list[int] = []
     extra: list[tuple[int, int]] = []
+    operands: list[int | bytes] = []
     for kind in kinds:
-        if kind == "m":
-            at += list_length(data, at, (0xFE, 0xFF))
-            continue
-        if kind == "l":
-            at += list_length(data, at, (0xFF,))
+        if kind in LIST_ENDS:
+            length = list_length(data, at, LIST_ENDS[kind])
+            operands.append(bytes(data[at : at + length]))
+            at += length
             continue
         width = WIDTHS[kind]
         if at + width > len(data):
@@ -256,8 +258,9 @@ def decode(data: bytes, pos: int) -> Instruction:
             extra.append((value, palette_bytes(bytes_read[0], bytes_read[1])))
         elif kind == "b":
             bytes_read.append(value)
+        operands.append(value)
         at += width
-    return Instruction(pos, opcode, at - pos, tuple(targets), tuple(texts), tuple(extra))
+    return Instruction(pos, opcode, at - pos, tuple(targets), tuple(texts), tuple(extra), tuple(operands))
 
 
 def main(argv: list[str]) -> None:
