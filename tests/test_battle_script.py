@@ -1,17 +1,33 @@
 """
-The battle script VM in game: scenario 00's battle, reached from the debug menu with its event skipped, opens with
-the turn entries 0, 1, 2 of its script (Matelite's lines, the units moved around). Every instruction the VM fetches
-(C0:6F33) sits where utils.vm.battle_script decodes one, with that opcode, and the turn (load_turn, $7E:3BD6) is 1.
+The battle script VM in game.
+
+Scenario 00's battle, reached from the debug menu with its event skipped, opens with the turn entries 0, 1, 2 of its
+script (Matelite's lines, the units moved around). Every instruction the VM fetches (C0:6F33) sits where
+utils.vm.battle_script decodes one, with that opcode, and the turn (load_turn, $7E:3BD6) is 1.
+
+The other tests run scripts utils.vm.battle_asm assembles on scenario 00's battle map (tests/savestates/battle-map,
+the player's turn): the phase routine's call to C0:9F3C is swapped for run_battle_entry once, on an entry pointed at
+the script, and the test reads what it left in RAM. The VM's register lands in variables (store_var) to be read back.
 """
+
+from collections.abc import Callable, Sequence
 
 from tests.conftest import Console
 from utils.battle_walk import room_script, walk
+from utils.vm.battle_asm import Op, assemble, op
 
 NEXT = 0xC06F33  # battle_opcode_runner's fetch
 RUN_ENTRY = 0xC06ED8  # A = the header entry it runs
+ENTRY_0C = 0xC06E70  # battle_entry_0c: sets the action arguments ($1A0C, $1A12) first
+PHASE_CALL = 0xC09EE1  # the player phase routine's jsr C0:9F3C, once a frame
 PC = 0x7E1A00
+REG = 0x7E1A02
+MODE = 0x7E1A05
 ROOM = 0x7FC080  # the unpacked room; its first word is the script's offset
 TURN = 0x7E3BD6
+VARS = 0x7E3F90
+DP = 0x7E0100  # the battle's direct page
+CODE_AT = 0x24  # room 0's turn-start code, overwritten
 
 
 def test_the_vm_runs_what_the_walk_decodes(console: Console) -> None:
@@ -40,3 +56,272 @@ def test_the_vm_runs_what_the_walk_decodes(console: Console) -> None:
     code = walk(room_script(0)).code
     assert [(at, op) for at, op in fetched if at not in code or code[at].op != op] == []
     assert entries == [(0, 1), (1, 1), (2, 1)]
+
+
+class Script:
+    """Runs assembled scripts on the battle map."""
+
+    def __init__(self, console: Console) -> None:
+        self.console = console
+        self.emu = console.emu
+        console.load("battle-map")
+        self.fetched: list[int] = []
+        self.emu.add_exec_callback(NEXT, NEXT, lambda pc, value: self.fetched.append(self.emu.read16(PC)))
+
+    def base(self) -> int:
+        return 0x7F0000 + 0xC080 + self.emu.read16(ROOM)
+
+    def run(self, items: Sequence[str | Op | bytes], entry: int = 0, via: int = RUN_ENTRY) -> None:
+        """Run items (exit appended) as header entry `entry`, through `via` (run_battle_entry or an entry stub);
+        A dismisses what waits for it."""
+        emu = self.emu
+        code, _ = assemble([*items, op("exit")], base=CODE_AT)
+        emu.write_range(self.base() + CODE_AT, code)
+        emu.write_range(self.base() + 2 * entry, CODE_AT.to_bytes(2, "little"))
+        assert emu.run_until(PHASE_CALL, 600)
+        emu.push_word((PHASE_CALL + 2) & 0xFFFF)  # run as a jsr from the phase routine
+        state = emu.get_state()
+        state.pc = via
+        state.a = state.a & 0xFF00 | entry
+        emu.set_state(state)
+        self.fetched.clear()
+        for _ in range(60):
+            emu.run_frames(10)
+            if self.fetched and emu.read(0x7F0000 + self.fetched[-1]) == 0xFF:
+                emu.run_frames(2)
+                return
+            if _ % 4 == 3:
+                self.console.tap(self.console.button.A)
+        raise AssertionError("the script did not exit")
+
+    def var(self, index: int, size: int = 1) -> int:
+        return int.from_bytes(bytes(self.emu.read_range(VARS + index, size)), "little")
+
+    def counting(self, address: int) -> Callable[[], int]:
+        calls: list[int] = []
+        self.emu.add_exec_callback(address, address, lambda pc, value: calls.append(pc))
+        return lambda: len(calls)
+
+
+def store(var: int) -> Op:
+    return op("store_var", var)
+
+
+def test_find_character_unit_finds_matelite_in_unit_1(console: Console) -> None:
+    script = Script(console)
+    script.run([op("find_character_unit", 0x03), store(0), op("find_character_unit", 0x7E), store(1)])
+    assert (script.var(0), script.var(1)) == (0x01, 0xFF)
+
+
+def test_unit_position_and_tile_occupant(console: Console) -> None:
+    """Unit 0 (Byuu) stands at 0C, 09: the map byte there is 20 | unit, enemy units add 40."""
+    script = Script(console)
+    script.run(
+        [
+            op("load_unit_position", 0x00),
+            store(0x80),  # a word: x, y
+            op("load_tile_unit", 0x0C, 0x09),
+            store(2),
+            op("load_tile_unit", 0x09, 0x11),
+            store(3),
+            op("load_tile_unit", 0x0C, 0x05),
+            store(4),
+        ]
+    )
+    assert (script.var(0, 2), script.var(2), script.var(3), script.var(4)) == (0x090C, 0x20, 0x6C, 0x00)
+
+
+def test_area_in_range_reads_the_range_layer(console: Console) -> None:
+    """$7E:8001 marks the current range (here the move range around 0B-0D, 05-07): Z set when the rectangle has
+    no marked tile."""
+    script = Script(console)
+    script.run(
+        [
+            op("load", 0),
+            store(0),
+            store(1),
+            op("test_area_in_range", 0x0C, 0x05, 0x01, 0x01),
+            op("jump_if_equal", "empty"),
+            op("load", 1),
+            store(0),
+            "empty",
+            op("test_area_in_range", 0x00, 0x00, 0x04, 0x04),
+            op("jump_if_not_equal", "end"),
+            op("load", 1),
+            store(1),
+            "end",
+        ]
+    )
+    assert (script.var(0), script.var(1)) == (1, 1)
+
+
+def test_hide_cursor_stops_the_map_cursor(console: Console) -> None:
+    """C0:EB77 draws the map cursor; C0:EB65 skips it while mode bit 10 (or 20 / 40) is set. A script runs with bit
+    80 alone, which leaves the cursor on, and exit clears them all."""
+    script = Script(console)
+    modes: list[int] = []
+    console.emu.add_exec_callback(0xC0EB77, 0xC0EB77, lambda pc, value: modes.append(console.emu.read(MODE)))
+    script.run([op("hide_cursor"), op("wait", 30), op("show_cursor"), op("wait", 30)])
+    assert ({m for m in modes if m & 0x10}, modes.count(0x80) > 20) == (set(), True)
+
+
+def test_spawn_unit_places_an_enemy_from_the_spawn_variables(console: Console) -> None:
+    """Room 0's entry 0D spawn: type 17, vars 3A / 3B, flags E0 (set it up, at vars 3C / 3D, no fallback); then
+    remove_unit takes it off the map again."""
+    script = Script(console)
+    enemy = 0x7E3750 + 0x20 * 0x10  # unit 10's record
+    script.run(
+        [
+            *(op(name, value) for name, value in (("load", 0x17), ("store_var", 0x39), ("load", 0x02))),
+            store(0x3A),
+            op("load", 0x04),  # unit 0C + 4
+            store(0x3B),
+            op("load", 0x0C),
+            store(0x3C),
+            op("load", 0x05),
+            store(0x3D),
+            op("spawn_unit", 0xE0),
+            store(0),
+            op("spawn_unit", 0xE0),  # already on the map
+            store(1),
+            op("load_tile_unit", 0x0C, 0x05),
+            store(2),
+        ]
+    )
+    placed = (script.var(0), script.var(1), script.var(2), console.emu.read(enemy) & 0x80)
+    script.run([op("select_unit", 0x10), op("remove_unit"), op("load_tile_unit", 0x0C, 0x05), store(3)])
+    assert placed + (script.var(3), console.emu.read(enemy) & 0x80) == (0x10, 0xFF, 0x70, 0x00, 0x00, 0x80)
+
+
+def test_give_item_adds_to_the_inventory(console: Console) -> None:
+    script = Script(console)
+    script.run([op("give_item", 0x04, 0x02), op("give_item", 0x04, 0x61)])
+    assert bytes(console.emu.read_range(0x7E3AD0, 2)) == bytes([0x04, 0x63])  # capped at 99
+
+
+def test_set_enemy_order_writes_enemy_records_only(console: Console) -> None:
+    script = Script(console)
+    script.run([op("set_enemy_order", 0x0D, 0x03), store(0), op("set_enemy_order", 0x01, 0x03), store(1)])
+    order = console.emu.read(0x7E3750 + 0x20 * 0x0D + 0x10)
+    assert (script.var(0), script.var(1), order) == (0x00, 0xFF, 0x03)
+
+
+def test_map_event_applies_once_per_room_flag(console: Console) -> None:
+    """Room 0's map event 3 ($7F:C282 + 3 * 4) uses room flag 4, still 00: F5 applies it without the redraw
+    (C0:4047), flips the flag to FF and leaves $1A62 = FF. map_event redraws, but the flag no longer matches the
+    event's bit 7 (0), so nothing happens until set_room_flag 84 clears it again."""
+    script = Script(console)
+    redraws = script.counting(0xC04047)
+    flag = 0x7FC004
+    script.run([op("map_event_f5", 0x03)])
+    f5 = (redraws(), console.emu.read(flag), console.emu.read(0x7E1A62))
+    script.run([op("map_event", 0x03)])
+    again = (redraws() > 0, console.emu.read(flag))
+    script.run([op("set_room_flag", 0x84)])
+    cleared = console.emu.read(flag)
+    script.run([op("map_event", 0x03)])
+    assert (f5, again, cleared, console.emu.read(flag)) == ((0, 0xFF, 0xFF), (True, 0xFF), 0x00, 0xFF)
+
+
+def test_action_arguments_reach_entry_0c(console: Console) -> None:
+    """Entry 0C's stub copies the action ($3D) to $1A0C and its record's bytes (EF:4122) to $1A12: Ice Breath Lv1
+    (8C), the scenario 00 dragon's, is 40 40."""
+    script = Script(console)
+    console.emu.write(DP + 0x3D, 0x8C)
+    script.run([op("load_action"), store(0), op("load_action_attributes"), store(0x81)], entry=0x0C, via=ENTRY_0C)
+    assert (script.var(0), script.var(1, 2)) == (0x8C, 0x4040)
+
+
+def test_sound_and_shake_bytes(console: Console) -> None:
+    script = Script(console)
+    script.run(
+        [
+            op("sound_command", 0x00, 0x09, 0x80, 0x00),
+            op("load_sound_byte", 0x01),
+            store(0),
+            op("shake_screen", 0x83),
+            op("load_var", 0x00),  # keeps the shake on through a wait
+            store(2),
+        ]
+    )
+    shaking = console.emu.read(0x7E1A1E)
+    script.run([op("stop_shake")])
+    assert (script.var(0), shaking, console.emu.read(0x7E1A1E)) == (0x09, 0x83, 0x00)
+
+
+def test_unit_sprite_is_saved_and_restored(console: Console) -> None:
+    script = Script(console)
+    record = 0x7E2B50  # unit 0
+    sprite = console.emu.read(record + 0x08)
+    script.run([op("set_unit_sprite", 0x00, 0x10)])
+    changed = (console.emu.read(record + 0x08), console.emu.read(record + 0x1C))
+    script.run([op("restore_unit_sprite", 0x00)])
+    assert changed + (console.emu.read(record + 0x08),) == (0x10, sprite, sprite)
+
+
+def test_load_terrain_reads_the_tile_tables(console: Console) -> None:
+    """Scenario 00's river at 02, 0A: terrain 3 in both tables; x with bit 6 reads the tile under unit y."""
+    script = Script(console)
+    script.run(
+        [
+            op("load_terrain", 0x02, 0x0A),
+            store(0x80),
+            op("load_terrain", 0x40, 0x00),  # Byuu's tile
+            store(0x82),
+            op("load_terrain", 0x30, 0x00),  # off the map
+            store(4),
+            op("test_area_terrain", 0x00, 0x00, 0x08, 0x08),
+            store(5),
+            op("load_scenario"),
+            store(6),
+        ]
+    )
+    assert (script.var(0, 2), script.var(2, 2), script.var(4), script.var(5), script.var(6)) == (
+        0x0303,
+        0x0000,
+        0xFF,
+        0x00,
+        0x00,
+    )
+
+
+def test_window_placement(console: Console) -> None:
+    """$F7 places the message window: 01 at the top, A0 at the bottom (close_window puts A0 back). open_window picks
+    the top one when $93 >= 0B (here 08: the bottom)."""
+    script = Script(console)
+    windows: list[int] = []
+    console.emu.add_write_callback(0x0001F7, 0x0001F7, lambda address, value: windows.append(value))
+    script.run([op("open_window_top"), op("close_window"), op("open_window_bottom"), op("close_window")])
+    script.run([op("open_window"), op("close_window")])
+    assert (windows, console.emu.read(DP + 0x93)) == ([0x01, 0xA0, 0xA0, 0xA0, 0xA0, 0xA0], 0x08)
+
+
+def test_unit_walk_off_removes_the_unit(console: Console) -> None:
+    script = Script(console)
+    script.run([op("select_unit", 0x0D), op("unit_walk_off", 0x04), op("load_tile_unit", 0x0D, 0x11), store(0)])
+    assert (script.var(0), console.emu.read(0x7E3750 + 0x20 * 0x0D) & 0x80) == (0x00, 0x80)
+
+
+def test_queue_scripted_action_fills_vars_28_to_2e(console: Console) -> None:
+    script = Script(console)
+    script.run([op("queue_scripted_action", 1, 2, 3, 4, 5, 6, 7)])
+    assert bytes(console.emu.read_range(VARS + 0x28, 7)) == bytes(range(1, 8))
+
+
+def test_victory_runs_entries_05_then_0d(console: Console) -> None:
+    """The debug build's win (pad 2 B, C0:E617): entry 05 when the battle is won, the all-units experience window
+    (C0:8849), then entry 0D once A closes it."""
+    emu = console.emu
+    console.load("battle-map")
+    events: list[int | str] = []
+    emu.add_exec_callback(RUN_ENTRY, RUN_ENTRY, lambda pc, value: events.append(emu.get_state().a & 0xFF))
+    emu.add_exec_callback(0xC08849, 0xC08849, lambda pc, value: events.append("experience"))
+    emu.press(1, console.button.B)
+    emu.run_frames(10)
+    emu.release(1, console.button.B)
+    for _ in range(40):
+        if 0x0D in events:
+            break
+        emu.run_frames(30)
+        console.tap(console.button.A)
+    assert events == [0x05, "experience", 0x0D]
