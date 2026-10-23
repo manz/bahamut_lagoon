@@ -3,7 +3,13 @@
 The field's script VM: the runner at DA3F00 (`opcode_runner`), its handlers in the word table DA3F20, indexed by the
 opcode. `utils.vm.opcodes_map.opcode_names` names them, `utils.vm.room_ops.OPERANDS` gives their operands,
 `utils.vm.room_walk` walks every room from its entry points. Handlers are labelled `op_<name>` in both kintsuki
-projects (`bl.kintsuki`, `Bahamut Lagoon (J) [!].kintsuki`).
+projects (`bl.kintsuki`, `Bahamut Lagoon (J) [!].kintsuki`). Some names predate what their handler turned out to
+do (22, 28, 4C, 55, 61, 7F, 89, 8E): `src/room_macros.s` carries the same names, so they change together.
+
+`uv run python -m utils.vm.room_script ROOM [--fr] [--bytes]` lists a room: its header entries, then every byte as
+an instruction (with `L` labels on jump targets and entries, a text operand showing its text) or data (header
+tables, texts, palettes, bytes no entry reaches). `utils.vm.room_asm` encodes instructions back to their bytes (all
+83 rooms re-encode exactly) and assembles scripts with labels from Python, as `tests/test_room_opcodes.py` does.
 
 Confidence: **H** handler read fully and what it drives is clear, **M** mechanism clear, its meaning partly, **L**
 what the RAM it writes does is a guess (named after the RAM). **✓** reproduced in game by `tests/test_room_opcodes.py`.
@@ -112,32 +118,32 @@ Calling Convention"): one tick, so the field keeps animating while the script wa
 
 | op | name | operands | what | uses | |
 |---|---|---|---|---|---|
-| 0E | actor_set_frame | actor, frame | sprite frame (`$070D`), stops the auto-animation (`$7E:B801` bit 5) | 2774 | M |
+| 0E | actor_set_frame | actor, frame | sprite frame (`$070D`, DA0F52) and `$7E:B801` bit 5: the walk tick (DA2075) then leaves the frame alone, walking or not | 2774 | H ✓ |
 | 0F | actor_set_speed | actor, speed | `$7E:B808`, step table at `$7E:B840` (DA17FD); the player's also in `$0321` | 1001 | H |
-| 10 | actor_set_anim_rate | actor, value | `$070C` (4 at load): animation rate? | 649 | L |
+| 10 | actor_set_anim_rate | actor, value | `$070C` (4 at load), taken off the current cel's timer (`$0709`) every frame (DA70A9): the animation's speed | 649 | H |
 | 11 | set_player_actor | actor | the controlled actor (`$0320`) | 165 | H |
 | 12 | actor_place | actor, x, y | place on a tile (signed, 16 px, from the map's corner) and show | 2697 | H |
-| 13 | actor_move | actor, steps…, FF / FE | walk: a step byte is direction (high nibble: 0 up, 1 down, 2 left, 3 right, 4-7 diagonals) and count (low); FE ends the list too (what it changes: L) | 5322 | M |
-| 14 | actors_hold | actors…, FF | `$7E:B801` bit 1 on: hold them | 31 | M |
+| 13 | actor_move | actor, steps…, FF / FE | walk (DA1708 steps it): a step byte is direction (high nibble: 0 up, 1 down, 2 left, 3 right; 4-7 diagonals, not run) and tiles (low; 0 only turns, 5 frames); FC waits 60 frames, FD walks 15 tiles a random way, FF ends the walk (`$7E:B801` bit 6), FE starts the list over. The list goes to `$7E:B820` | 5322 | H ✓ |
+| 14 | actors_hold | actors…, FF | for each, wait for its step to end, then `$7E:B801` bit 1 stops its walk on that tile (DA1E8A) | 31 | H ✓ |
 | 15 | set_follower | actor, distance | the actor follows the player (`$0323`); 0 detaches | 7 | M |
-| 16 | actor_set_animated | actor, on | 0 stops the auto-animation (`$7E:B801` bit 5), else resumes it | 1381 | M |
-| 17 | actor_set_behavior | actor, value | `$7E:B800`: bit 2 makes touching the actor run its +6 event (DA1EC4) | 469 | M |
-| 18 | actors_release | actors…, FF | bit 1 off | 36 | M |
+| 16 | actor_set_animated | actor, on | 0 sets `$7E:B801` bit 5 (the walk keeps the frame it has), else clears it (the walk sets its frames) | 1381 | H ✓ |
+| 17 | actor_set_behavior | actor, value | `$7E:B800`: bit 1 walks through the map's collision and the 55 box (DA1F5D), bit 2 makes touching the actor run its +6 event (DA1EC4) | 469 | H ✓ |
+| 18 | actors_release | actors…, FF | bit 1 off: the held walks go on | 36 | H ✓ |
 | 19 | actor_set_palette | actor, palette | OBJ palette (`$0707` bits 0-2); FF the sprite's default (DA7B50) | 42 | H |
 | 1A | store_actor_facing | actor, flag | clear flags flag..flag+3, set flag + the actor's facing | 99 | H |
 | 21 | actor_set_layer | actor, mode | `$0707` bits 5-6: 1 bit 6, 3 bit 5, else neither; rebuilds the OAM | 123 | L |
 | 27 | scroll_camera_to_actor | actor, speed | scroll the camera to centre the actor | 160 | H |
-| 47 | wait_actor_animation | actor | clear `$0706` bit 2, wait until the animation sets it | 499 | M |
-| 48 | wait_actor_move | actor | wait until the walk is done (`$7E:B801` bit 6) | 2258 | M |
-| 4C | actor_set_b811 | actor, a, b | `$7E:B812` = a, `$7E:B811` = b | 264 | L |
+| 47 | wait_actor_animation | actor | clear `$0706` bit 2, wait until the cel animation sets it, on its last cel (DA70DA) | 499 | H |
+| 48 | wait_actor_move | actor | wait until the walk reaches its FF (`$7E:B801` bit 6); never returns for an FE list or a walk a wall stops | 2258 | H ✓ |
+| 4C | actor_set_b811 | actor, dx, dy | sprite offset: signed px added to its screen x (`$7E:B812`) and y (`$7E:B811`) when drawn (DA6FFC) | 264 | H ✓ |
 | 4D | actor_set_facing | actor, direction | facing 0-3 (`$0707` bits 3-4) | 116 | H |
 | 53 | save_actor_position | actor, slot | save its map position to `$04A0 + slot * 4` (slot < 0x18) | 196 | H |
 | 54 | restore_actor_position | actor, slot | put it back there, shown | 204 | H |
-| 55 | actor_set_b813 | actor, a, b, c, d | `$7E:B813`-`$7E:B816` | 69 | L |
+| 55 | actor_set_b813 | actor, x1, y1, x2, y2 | walk box: tiles [x1, x2) x [y1, y2) (`$7E:B813`-`$7E:B816`, 0, 0, 80, 80 at load) a pad step may not leave (DA53D2); a scripted walk was only seen stopped on its first step | 69 | H ✓ |
 | 66 | object_create | slot, frame, x, y, attr, size, f | raw sprite object: `$0700` = 1, `$0701`, `$0704`, `$0702` (px), `$0707`, `$070A`, `$070F` | 0 | M |
 | 67 | object_remove | slot | remove it | 0 | M |
 | 83 | actor_place_83 | actor, x, y | as 12, then DA6F63 (draws it now) instead of DA0F58 when DA432A returns carry clear | 82 | L |
-| 88 | call_da781c | id | load object animation id (C7 table at C7002C) into `$7E:FA00` | 8 | L |
+| 88 | call_da781c | id | load animation id (C7 table at C7002C) into the `$7E:FA00` slots, which 22 and 89 run | 8 | M |
 | 8A | wait_object | slot | wait until the slot's `$7E:FA00` animation is done | 1 | L |
 | 8F | actor_set_sprite_frame | actor, frame | `$0701` and `$070D`, stops the auto-animation | 4 | M |
 
@@ -147,7 +153,7 @@ Calling Convention"): one tick, so the field keeps animating while the script wa
 |---|---|---|---|---|---|
 | 1B | load_map | map | clear the camera state (`$037C`-`$03D3`), load the map | 268 | H |
 | 1C | set_camera | x, y | camera at a tile (16 px), redraws | 341 | H |
-| 1D | scroll_camera | x, y, speed | scroll the camera to a tile | 69 | M |
+| 1D | scroll_camera | x, y, frames | scroll the camera to a tile in `frames` frames (straight, from the script's 3rd frame); the script goes on meanwhile | 69 | H ✓ |
 | 1E | layer_motion_1 | a, b, word | motion slot 1 (`$03B6`, `$03B8`, `$03C2`) | 124 | L |
 | 1F | layer_motion_2 | a, b, word | slot 2 (`$03BA`, `$03BC`, `$03C4`) | 55 | L |
 | 20 | layer_motion_3 | a, b, word | slot 3 (`$03BE`, `$03C0`, `$03C6`) | 0 | L |
@@ -158,7 +164,7 @@ Calling Convention"): one tick, so the field keeps animating while the script wa
 | 4F | set_tile_priority_b | on | same with `$032E` | 4 | L |
 | 7D | layer_velocity_a | dx, dy | signed velocity `$0398` / `$039A` | 76 | L |
 | 7E | layer_velocity_b | dx, dy | signed velocity `$039C` / `$039E` | 12 | L |
-| 7F | set_layer_position | x, y | `$0394` / `$0396` = tile * 16 (6 bits) | 74 | L |
+| 7F | set_layer_position | x, y | camera limits: its largest x, y (`$0394` / `$0396` = tile * 16, 6 bits), which the player's walk clamps the camera to (DA2FE1) | 74 | H ✓ |
 | 84 | call_da748f |  | E8:CD55 (0x400) to `$7E:E000`, builds 0x800 bytes at `$7E:E400`, DMA to VRAM 3040, then 87 | 1 | L |
 | 87 | call_da755c |  | fill the `$7E:6000` tilemap buffer with 0x2008 | 22 | M |
 | 8B | toggle_8b | mode | HDMA channel 6 to BG3HOFS from `$7E:D790`: 0 one band, else several (DA75D8) | 2 | L |
@@ -175,12 +181,12 @@ Calling Convention"): one tick, so the field keeps animating while the script wa
 | 2C | fade_mosaic | from, to, speed, layers | mosaic fade | 21 | M |
 | 2D | set_mosaic | size, layers | mosaic | 6 | M |
 | 2E | color_effect | 9 bytes | colour math / fixed colour fade (`$71`, `$09D8`-`$09E0`, `$0338`-`$033A`) | 162 | L |
-| 2F | palette_fade_uniform | first, count, a, b, c, d | palette fade, one target for R, G, B | 515 | L |
-| 30 | palette_fade_rgb | first, count, 8 bytes | palette fade per component | 152 | L |
+| 2F | palette_fade_uniform | first, count, time, repeat, from, to | palette fade: R, G and B each offset (signed, added) from `from` to `to` over `time` (0 at once, 8 about 20 frames, 32 about 70); repeat 1 starts over at the end; the script goes on | 515 | H ✓ |
+| 30 | palette_fade_rgb | first, count, time, repeat, 6 bytes | same, `from, to` for R, G, then B | 152 | H ✓ |
 | 31 | palette_restore | first, count, a | palette restore (DA5D24) | 7 | L |
 | 32 | palette_effect_32 | first, count, a, b | palette effect (DA5C75) | 1 | L |
 | 33 | palette_effect_33 | first, count, on | same, `$09BF` = 0 when on, else 4 | 26 | L |
-| 49 | palette_commit | first, count | copy working colours `$7E:C400` to `$7E:C600`; FF / FE / FD presets | 100 | M |
+| 49 | palette_commit | first, count | copy working colours `$7E:C400` to `$7E:C600`; FF / FE / FD presets. CGRAM did not follow within 5 frames in game: what uploads `$7E:C600` is not traced | 100 | M |
 | 4A | layer_bg2 | main, sub | BG2 (bit 1) | 89 | H |
 | 4B | layer_bg3 | main, sub | BG3 (bit 2) | 124 | H |
 | 51 | load_palette | first, count, data | colours from room data (a room offset) | 13 | H |
@@ -205,7 +211,7 @@ Calling Convention"): one tick, so the field keeps animating while the script wa
 | 08 | yes_no | text, yes, no | prompt, cursor on 2 lines; A jumps to the line's address, B falls through | 194 | H |
 | 09 | multiple_choice | text, a, b, c | same with 3 lines (the `$0964` cursor 0-2); B falls through | 47 | H |
 | 34 | set_window_position | row, height | window `$0330` / `$0332`; height in tile rows, two a line (utils.dump_rooms.WindowHeights) | 538 | M |
-| 35 | open_window | style | open the window: 0 no frame (title cards), else framed | 2993 | M |
+| 35 | open_window | style | open the window: style not 0 draws its frame (tiles 00-03, flipped at the corners) in the `$7E:4000` tilemap, `$0332` rows high; 0 opens it frameless (`$3F` bit 1). `$3E` bit 1 while open | 2993 | H |
 | 36 | close_window |  | close it | 3292 | H |
 | 37 | display_text | text | print text in the window | 3160 | H |
 | 38 | clear_window_text |  | clear the window's text, when one is open | 561 | M |
@@ -218,18 +224,18 @@ Calling Convention"): one tick, so the field keeps animating while the script wa
 |---|---|---|---|---|---|
 | 6A | sound_reset |  | `jsl C30008` | 0 | L |
 | 6B | play_music | a, b | driver command 04 (music) | 144 | M |
-| 6C | sound_command_13 | a, b | driver command 13 | 220 | L |
+| 6C | sound_command_13 | a, b | driver command 13: SPC command 13 when a is not 0, 1B when 0 (C303D0) | 220 | L |
 | 6D | play_sound | id | driver command 00, `$1D02` = 0x80 (sound effect) | 1050 | M |
-| 6E | sound_command_13_b | a, b | driver command 13, same as 6C | 3 | L |
-| 6F | sound_command_12 | a, b | driver command 12 | 201 | L |
-| 92 | sound_command_11 | a, b | driver command 11 | 3 | L |
+| 6E | sound_command_13_b | a, b | same as 6C | 3 | L |
+| 6F | sound_command_12 | a, b | driver command 12: SPC command 12, or 1A when a is 0 | 201 | L |
+| 92 | sound_command_11 | a, b | driver command 11: SPC command 11, or 19 when a is 0 | 3 | L |
 
 ### Field engine, triggers, system
 
 | op | name | operands | what | uses | |
 |---|---|---|---|---|---|
-| 22 | set_state_3f_20 | on | `$3F` bit 5 | 110 | L |
-| 28 | set_state_3c_20 | off | `$3C` bit 5: 0 sets it, else clears | 65 | L |
+| 22 | set_state_3f_20 | on | `$3F` bit 5: runs the `$7E:FA00` animations (88) that copy to WRAM (DA79AA; `$3B` bit 4 after) | 110 | M |
+| 28 | set_state_3c_20 | on | camera follow: 0 sets `$3C` bit 5, the player's walk no longer scrolls the camera (DA1FF2); else clears it | 65 | H ✓ |
 | 40 | set_word_0329 | frames.w | timer countdown (`$0329`); at 0 the field runs the +8 script | 1 | H ✓ |
 | 41 | set_state_3c_80 | on | timer on / off (`$3C` bit 7; counts while no script runs) | 1 | H ✓ |
 | 42 | player_control | on | 0 freezes the player (`$3C` bit 2) | 930 | H |
@@ -240,14 +246,14 @@ Calling Convention"): one tick, so the field keeps animating while the script wa
 | 5A | show_mode7_animation | id | `$0300`, `$40` bit 0: the field loop jumps to D58000 | 44 | M |
 | 5F | start_effect_5f | id | `$0301`, `$40` bit 3: jumps to C1000F | 2 | M |
 | 60 | set_state_40_20 | on | area triggers (+A table) on / off (`$40` bit 5) | 6 | H |
-| 61 | set_state_40_40 | on | `$40` bit 6 | 103 | L |
+| 61 | set_state_40_40 | on | `$40` bit 6: a walk step also turns the actor to its direction (`$0707` bits 3-4, DA2342) | 103 | M |
 | 69 | set_bits_3b | mask | `$3B |= mask` | 0 | L |
 | 71 | set_state_40_80 | on | `$40` bit 7 | 0 | L |
-| 73 | set_state_42 | value | `$42` | 91 | L |
+| 73 | set_state_42 | value | `$42`; its readers test bits 0 (skips the BG2 scroll update, DA308C), 2 and 4-7 (DA28AD-DA2F02) | 91 | L |
 | 7A | start_effect_7a | a, b, c, d, id | `$7E:FFF0`-`$7E:FFF3`, then as 5F | 137 | M |
 | 7C | set_state_41_08 | on | Start runs the +C script (`$41` bit 3): the skip | 1 | H ✓ |
-| 89 | set_state_41_20 | on | `$41` bit 5 | 28 | L |
-| 8E | set_state_41_40 | on | `$41` bit 6 | 4 | L |
+| 89 | set_state_41_20 | on | `$41` bit 5: runs the `$7E:FA00` animations (88) that queue a VRAM DMA (DA79BB, the `$0A11` queue) | 28 | M |
+| 8E | set_state_41_40 | on | `$41` bit 6: the followed camera ignores the 7F limits (DA2FE5) | 4 | H ✓ |
 
 ## Coverage
 
@@ -272,4 +278,7 @@ Lowest: room 216 (86.5 %), 214 (88.4 %), 100 (93.8 %). Opcodes no room uses: 01 
 
 The ✓ rows are the only ones run in game. The text terminator (FD, a single FE after it) is the text dumper's
 reading, not checked against `display_dialog_string`. The L rows name RAM nothing here traced further: who reads
-`$3F` bit 5, `$3C` bit 5, `$40` bits 6-7, `$41` bits 5-6, `$42`, `$070C`, `$7E:B811`-`$7E:B816`.
+`$40` bit 7, `$41` bits 0-1, `$42` (readers found, not followed), `$09AD`; the colour math of 2E-33 and 77-78, the
+window animations (5D, 5E, 74, 75) and the SPC side of the sound commands (6C, 6E, 6F, 92) are not read. Motion
+steps 4x-7x (diagonals) and FB (a 30-frame wait the step code has, never traced) no room was seen to run. Of the
+actor record, `$7E:B800` bits 0 and 3-7 and `$7E:B801` bits 2-4 and 7 are only partly read (walking, player).
