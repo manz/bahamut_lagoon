@@ -102,7 +102,7 @@ OPS: dict[int, tuple[str, str]] = {
     0x24: ("clear_window", ""),
     0x25: ("open_window_bottom", ""),
     0x26: ("say", "t"),
-    0x27: ("ask", "t"),
+    0x27: ("ask_yes_no", "t"),
     0x28: ("load_text_index", "i"),
     0x29: ("load_text", "t"),
     0x2A: ("set_text_arg", "bb"),
@@ -137,19 +137,19 @@ OPS: dict[int, tuple[str, str]] = {
     0x62: ("load_var", "b"),
     0x63: ("store_var", "b"),
     0x64: ("load_action", ""),
-    0x65: ("load_action_attributes", ""),
+    0x65: ("load_action_element", ""),
     0x66: ("test_area_in_range", "bbbb"),
     0x67: ("test_unit_in_range", "b"),
     0x68: ("load_tile_unit", "bb"),
-    0x69: ("test_unit_area", "bbb"),
+    0x69: ("test_unit_can_enter", "bbb"),
     0x6A: ("test_area_terrain", "bbbb"),
     0x6B: ("load_terrain", "bb"),
-    0x6C: ("test_unit_area_vars", ""),
+    0x6C: ("test_unit_can_enter_vars", ""),
     0x6D: ("test_area_terrain_vars", ""),
     0x6E: ("queue_scripted_action", "bbbbbbb"),
     0x90: ("load_unit_position", "b"),
     0x91: ("load_unit_byte", "bb"),
-    0x92: ("find_enemy_flag_4", ""),
+    0x92: ("find_enemy_leader", ""),
     0xF0: ("map_event", "b"),
     0xF1: ("sound_command", "bbbb"),
     0xF2: ("load_sound_byte", "b"),
@@ -157,7 +157,7 @@ OPS: dict[int, tuple[str, str]] = {
     0xF4: ("set_room_flag", "b"),
     0xF5: ("map_event_f5", "b"),
     0xF6: ("refresh_map", ""),
-    0xF7: ("unit_marker", "bb"),
+    0xF7: ("set_unit_pose", "bb"),
     0xF8: ("set_unit_sprite", "bb"),
     0xF9: ("restore_unit_sprite", "b"),
     0xFF: ("exit", ""),
@@ -168,7 +168,7 @@ UNUSED = tuple(op for op in range(0x100) if op not in OPS)
 JUMPS = {"jump", "call", "call_if_equal", "call_if_not_equal"} | {n for n, _ in OPS.values() if n.startswith("jump_")}
 STOPS = {"jump", "return", "exit"}  # no fall-through
 CALLS = {"call", "call_if_equal", "call_if_not_equal"}
-TEXTS = {"say", "ask", "load_text"}  # a text address operand
+TEXTS = {"say", "ask_yes_no", "load_text"}  # a text address operand
 TEXT_INDEXES = {"say_index", "load_text_index"}
 
 
