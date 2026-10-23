@@ -16,7 +16,7 @@ from utils.credits import CREDITS_ROOMS, ENDING_CREDITS_ROOMS, credits_script, p
 from utils.credits import TABLE as CREDITS_TABLE
 from utils.dialog_layout import DialogLayout, alignment, default_layout
 from utils.disasm import live_disasm
-from utils.lz import lz_compress, lz_decompress
+from utils.lz import lz_compress, lz_decompress_battle
 from utils.vm.opcodes_map import opcode_names, opcode_table
 from utils.vm.room import Room, prettify
 
@@ -30,44 +30,13 @@ class RoomEntry(TypedDict):
     size: NotRequired[int]  # uncompressed rooms only
 
 
-def battle_decompress_block(rom: BufferedReader) -> bytearray:
-    size: int = struct.unpack("<H", rom.read(2))[0]
-    logger.debug("block size %#x", size)
-    data = rom.read(size)
-    decompressed = bytearray()
-    decompressed = lz_decompress(data, decompressed)
-
-    def get_size(count: int, control_byte: int) -> int:
-        size = 0
-        for i in range(count):
-            if (control_byte >> i) & 1:
-                size += 2
-            else:
-                size += 1
-        return size + 1
-
-    while True:
-        control = rom.read(1)
-
-        if control[0] & 0x3F:
-            rom.read(2)
-            control_byte = rom.peek(1)
-
-            next_size = get_size(control[0], control_byte[0])
-            data = rom.read(next_size)
-
-            decompressed = lz_decompress(data, decompressed)
-        else:
-            break
-    return decompressed
-
-
 def decompress_block(rom: BufferedReader) -> bytearray:
+    """A room as the field decompresses it to `$7F:A000` (DA2BFA): every item of every block."""
     size: int = struct.unpack("<H", rom.read(2))[0]
 
     data = rom.read(size)
     decompressed = bytearray()
-    decompressed = lz_decompress(data, decompressed)
+    decompressed = lz_decompress_battle(data, decompressed)
 
     def get_size(count: int, control_byte: int) -> int:
         size = 0
@@ -88,7 +57,7 @@ def decompress_block(rom: BufferedReader) -> bytearray:
             next_size = get_size(control[0], control_byte[0])
             data = rom.read(next_size)
 
-            decompressed = lz_decompress(data, decompressed)
+            decompressed = lz_decompress_battle(data, decompressed)
         else:
             break
     return decompressed

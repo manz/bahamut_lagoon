@@ -22,8 +22,7 @@ from io import BufferedReader
 from pathlib import Path
 
 from utils.cartridge import rom_offset
-from utils.dump_battle_rooms import decompress_block
-from utils.dump_rooms import is_compressed
+from utils.dump_rooms import decompress_block, is_compressed
 from utils.vm.room_ops import DecodeError, Instruction, decode
 
 ROOMS = 0xFF
@@ -190,12 +189,7 @@ def walk_room(data: bytes) -> Walk:
 
 
 def room_data(rom: BufferedReader, room: int) -> bytes | None:
-    """A compressed room, decompressed as DA2BFA does; None for the rooms stored raw (no script).
-
-    utils.dump_rooms.decompress_block (which the build reads the rooms with) stops a block's items one byte early
-    (utils.lz.lz_decompress, `k < len(data) - 1`): 54 rooms come out 1 or 2 bytes short of what the field
-    decompresses to `$7F:A000`, their last bytes garbled (room 220's end read as code). The battle rooms' reader
-    has it right and the format is the same."""
+    """A compressed room, decompressed as DA2BFA does; None for the rooms stored raw (no script)."""
     if not is_compressed(rom, room):
         return None
     rom.seek(rom_offset(ROOM_POINTERS) + room * 3)
