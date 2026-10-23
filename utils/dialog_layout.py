@@ -104,6 +104,7 @@ class DialogLayout:
             items=LIST_ITEM.pattern,
             placed_measure=self.default_width,
             min_balanced_width=line_width * 2 // 3,
+            blank_ends_window=True,  # pages turn once a window is full (DA3E1A): a blank line ends its window
         )
 
     def encode(self, line: str, names: list[bytes] | None = None) -> bytes:
