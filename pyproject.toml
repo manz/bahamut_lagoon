@@ -33,7 +33,7 @@ line-length = 120
 strict = true
 explicit_package_bases = true
 disallow_any_explicit = true
-files = ["build.py", "build_room.py", "convert.py", "generate_macros.py", "utils", "tests"]
+files = ["build.py", "convert.py", "utils", "tests"]
 
 [[tool.mypy.overrides]]
 # a816's script/ and kintsuki are annotated but ship no py.typed marker yet: read their sources.

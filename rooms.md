@@ -1,7 +1,7 @@
 # Bahamut Lagoon room scripts
 
-Rooms are the field engine's scripts: events, dialogue, actor moves, scene changes. `room_opcodes.md` documents the
-VM, the room header and every opcode, read from the handlers in bank DA.
+Rooms are the field engine's scripts: events, dialogue, actor moves, scene changes. `docs/vm/dialog_opcodes.md`
+documents the VM, the room header and every opcode, read from the handlers in bank DA.
 
 ## Storage
 
@@ -18,5 +18,5 @@ VM, the room header and every opcode, read from the handlers in bank DA.
   describes the opcodes. Texts are found only on reachable code.
 - Translated texts replace the room from its lowest extracted text (the XML `base`) onward, and only the pointers
   listed in the XML are patched. A text the walker misses but that lies above the base is overwritten.
-- `generate_macros.py` writes `src/room_macros.s`, one a816 macro per opcode; `src/test_room.s` and
-  `src/test_actor_room.s` use them to write rooms by hand and check what an opcode does.
+- `utils/vm/room_script.py` lists a room; `utils/vm/room_asm.py` encodes it back and assembles scripts with labels
+  from Python, which `tests/test_room_opcodes.py` uses to check what an opcode does.
