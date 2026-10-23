@@ -187,7 +187,7 @@ def test_actor_set_b811_offsets_the_sprite(console: Console) -> None:
     room = Room(console)
     room.run([op("actor_set_animated", WALKER, 0), op("exit")], frames=10)
     before = bytes(room.emu.oam_read_range(4 * WALKER_OAM, 4))
-    room.run([op("actor_set_b811", WALKER, 0x10, 0xF8), op("exit")], frames=10)
+    room.run([op("actor_sprite_offset", WALKER, 0x10, 0xF8), op("exit")], frames=10)
     after = bytes(room.emu.oam_read_range(4 * WALKER_OAM, 4))
     assert (after[0] - before[0], before[1] - after[1]) == (0x10, 8)
 
@@ -225,17 +225,17 @@ def test_the_camera_follows_the_player(console: Console) -> None:
 
 def test_set_state_3c_20_off_stops_the_camera_following(console: Console) -> None:
     """28 0 sets `$3C` bit 5: the walk step (DA1FF2) no longer scrolls the camera."""
-    assert camera_after_walking_down(Room(console), [op("set_state_3c_20", 0)]) == 0x10
+    assert camera_after_walking_down(Room(console), [op("camera_follow", 0)]) == 0x10
 
 
 def test_set_layer_position_limits_the_camera(console: Console) -> None:
     """7F x, y: the camera's largest x, y (`$0394`, `$0396`, in tiles), which a followed walk clamps to (DA2FE1)."""
-    assert camera_after_walking_down(Room(console), [op("set_layer_position", 0x10, 3)]) == 0x30
+    assert camera_after_walking_down(Room(console), [op("camera_limit", 0x10, 3)]) == 0x30
 
 
 def test_set_state_41_40_lets_the_camera_past_its_limit(console: Console) -> None:
     """8E 1 sets `$41` bit 6: no clamp."""
-    script = [op("set_layer_position", 0x10, 1), op("set_state_41_40", 1)]
+    script = [op("camera_limit", 0x10, 1), op("camera_ignore_limit", 1)]
     assert camera_after_walking_down(Room(console), script) == 0x50
 
 
@@ -251,7 +251,7 @@ def walk_down_by_pad(room: Room, script: Script) -> int:
 
 def test_actor_set_b813_keeps_the_player_in_a_box(console: Console) -> None:
     """55 actor, x1, y1, x2, y2: tiles [x1, x2) x [y1, y2) (`$7E:B813`-`$7E:B816`); the player starts on row 9."""
-    rows = [walk_down_by_pad(Room(console), [op("actor_set_b813", PLAYER, 0, 0, 0x80, y2)]) >> 4 for y2 in (10, 12)]
+    rows = [walk_down_by_pad(Room(console), [op("actor_walk_box", PLAYER, 0, 0, 0x80, y2)]) >> 4 for y2 in (10, 12)]
     assert rows == [9, 11]
 
 

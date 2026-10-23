@@ -3,8 +3,7 @@
 The field's script VM: the runner at DA3F00 (`opcode_runner`), its handlers in the word table DA3F20, indexed by the
 opcode. `utils.vm.opcodes_map.opcode_names` names them, `utils.vm.room_ops.OPERANDS` gives their operands,
 `utils.vm.room_walk` walks every room from its entry points. Handlers are labelled `op_<name>` in both kintsuki
-projects (`bl.kintsuki`, `Bahamut Lagoon (J) [!].kintsuki`). Some names predate what their handler turned out to
-do (22, 28, 4C, 55, 61, 7F, 89, 8E): `src/room_macros.s` carries the same names, so they change together.
+projects (`bl.kintsuki`, `Bahamut Lagoon (J) [!].kintsuki`).
 
 `uv run python -m utils.vm.room_script ROOM [--fr] [--bytes]` lists a room: its header entries, then every byte as
 an instruction (with `L` labels on jump targets and entries, a text operand showing its text) or data (header
@@ -135,11 +134,11 @@ Calling Convention"): one tick, so the field keeps animating while the script wa
 | 27 | scroll_camera_to_actor | actor, speed | scroll the camera to centre the actor | 160 | H |
 | 47 | wait_actor_animation | actor | clear `$0706` bit 2, wait until the cel animation sets it, on its last cel (DA70DA) | 499 | H |
 | 48 | wait_actor_move | actor | wait until the walk reaches its FF (`$7E:B801` bit 6); never returns for an FE list or a walk a wall stops | 2258 | H ✓ |
-| 4C | actor_set_b811 | actor, dx, dy | sprite offset: signed px added to its screen x (`$7E:B812`) and y (`$7E:B811`) when drawn (DA6FFC) | 264 | H ✓ |
+| 4C | actor_sprite_offset | actor, dx, dy | sprite offset: signed px added to its screen x (`$7E:B812`) and y (`$7E:B811`) when drawn (DA6FFC) | 264 | H ✓ |
 | 4D | actor_set_facing | actor, direction | facing 0-3 (`$0707` bits 3-4) | 116 | H |
 | 53 | save_actor_position | actor, slot | save its map position to `$04A0 + slot * 4` (slot < 0x18) | 196 | H |
 | 54 | restore_actor_position | actor, slot | put it back there, shown | 204 | H |
-| 55 | actor_set_b813 | actor, x1, y1, x2, y2 | walk box: tiles [x1, x2) x [y1, y2) (`$7E:B813`-`$7E:B816`, 0, 0, 80, 80 at load) a pad step may not leave (DA53D2); a scripted walk was only seen stopped on its first step | 69 | H ✓ |
+| 55 | actor_walk_box | actor, x1, y1, x2, y2 | walk box: tiles [x1, x2) x [y1, y2) (`$7E:B813`-`$7E:B816`, 0, 0, 80, 80 at load) a pad step may not leave (DA53D2); a scripted walk was only seen stopped on its first step | 69 | H ✓ |
 | 66 | object_create | slot, frame, x, y, attr, size, f | raw sprite object: `$0700` = 1, `$0701`, `$0704`, `$0702` (px), `$0707`, `$070A`, `$070F` | 0 | M |
 | 67 | object_remove | slot | remove it | 0 | M |
 | 83 | actor_place_83 | actor, x, y | as 12, then DA6F63 (draws it now) instead of DA0F58 when DA432A returns carry clear | 82 | L |
@@ -164,7 +163,7 @@ Calling Convention"): one tick, so the field keeps animating while the script wa
 | 4F | set_tile_priority_b | on | same with `$032E` | 4 | L |
 | 7D | layer_velocity_a | dx, dy | signed velocity `$0398` / `$039A` | 76 | L |
 | 7E | layer_velocity_b | dx, dy | signed velocity `$039C` / `$039E` | 12 | L |
-| 7F | set_layer_position | x, y | camera limits: its largest x, y (`$0394` / `$0396` = tile * 16, 6 bits), which the player's walk clamps the camera to (DA2FE1) | 74 | H ✓ |
+| 7F | camera_limit | x, y | camera limits: its largest x, y (`$0394` / `$0396` = tile * 16, 6 bits), which the player's walk clamps the camera to (DA2FE1) | 74 | H ✓ |
 | 84 | call_da748f |  | E8:CD55 (0x400) to `$7E:E000`, builds 0x800 bytes at `$7E:E400`, DMA to VRAM 3040, then 87 | 1 | L |
 | 87 | call_da755c |  | fill the `$7E:6000` tilemap buffer with 0x2008 | 22 | M |
 | 8B | toggle_8b | mode | HDMA channel 6 to BG3HOFS from `$7E:D790`: 0 one band, else several (DA75D8) | 2 | L |
@@ -234,8 +233,8 @@ Calling Convention"): one tick, so the field keeps animating while the script wa
 
 | op | name | operands | what | uses | |
 |---|---|---|---|---|---|
-| 22 | set_state_3f_20 | on | `$3F` bit 5: runs the `$7E:FA00` animations (88) that copy to WRAM (DA79AA; `$3B` bit 4 after) | 110 | M |
-| 28 | set_state_3c_20 | on | camera follow: 0 sets `$3C` bit 5, the player's walk no longer scrolls the camera (DA1FF2); else clears it | 65 | H ✓ |
+| 22 | animate_to_wram | on | `$3F` bit 5: runs the `$7E:FA00` animations (88) that copy to WRAM (DA79AA; `$3B` bit 4 after) | 110 | M |
+| 28 | camera_follow | on | camera follow: 0 sets `$3C` bit 5, the player's walk no longer scrolls the camera (DA1FF2); else clears it | 65 | H ✓ |
 | 40 | set_word_0329 | frames.w | timer countdown (`$0329`); at 0 the field runs the +8 script | 1 | H ✓ |
 | 41 | set_state_3c_80 | on | timer on / off (`$3C` bit 7; counts while no script runs) | 1 | H ✓ |
 | 42 | player_control | on | 0 freezes the player (`$3C` bit 2) | 930 | H |
@@ -246,14 +245,14 @@ Calling Convention"): one tick, so the field keeps animating while the script wa
 | 5A | show_mode7_animation | id | `$0300`, `$40` bit 0: the field loop jumps to D58000 | 44 | M |
 | 5F | start_effect_5f | id | `$0301`, `$40` bit 3: jumps to C1000F | 2 | M |
 | 60 | set_state_40_20 | on | area triggers (+A table) on / off (`$40` bit 5) | 6 | H |
-| 61 | set_state_40_40 | on | `$40` bit 6: a walk step also turns the actor to its direction (`$0707` bits 3-4, DA2342) | 103 | M |
+| 61 | walk_turns_actor | on | `$40` bit 6: a walk step also turns the actor to its direction (`$0707` bits 3-4, DA2342) | 103 | M |
 | 69 | set_bits_3b | mask | `$3B |= mask` | 0 | L |
 | 71 | set_state_40_80 | on | `$40` bit 7 | 0 | L |
 | 73 | set_state_42 | value | `$42`; its readers test bits 0 (skips the BG2 scroll update, DA308C), 2 and 4-7 (DA28AD-DA2F02) | 91 | L |
 | 7A | start_effect_7a | a, b, c, d, id | `$7E:FFF0`-`$7E:FFF3`, then as 5F | 137 | M |
 | 7C | set_state_41_08 | on | Start runs the +C script (`$41` bit 3): the skip | 1 | H ✓ |
-| 89 | set_state_41_20 | on | `$41` bit 5: runs the `$7E:FA00` animations (88) that queue a VRAM DMA (DA79BB, the `$0A11` queue) | 28 | M |
-| 8E | set_state_41_40 | on | `$41` bit 6: the followed camera ignores the 7F limits (DA2FE5) | 4 | H ✓ |
+| 89 | animate_to_vram | on | `$41` bit 5: runs the `$7E:FA00` animations (88) that queue a VRAM DMA (DA79BB, the `$0A11` queue) | 28 | M |
+| 8E | camera_ignore_limit | on | `$41` bit 6: the followed camera ignores the 7F limits (DA2FE5) | 4 | H ✓ |
 
 ## Coverage
 
