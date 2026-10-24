@@ -166,7 +166,8 @@ against the JP text; the reason kept is the one that decided it.
   (open_window 0) carries `window="none"` and the build centres each of its lines, as written; `align="left"` or
   `align="center"` on the <text> overrides. Lines carry no leading spaces for centring. `align="steps"` sets each
   line of a block 10 px further in than the one before, the JP's staircase: the 0247 epilogue.
-- でアリマス. **Decision: « affirmatif » once a speech at most**, on its last sentence; none in grief.
+- でアリマス. **Decision: « affirmatif » once a speech at most**, on its last sentence; none in grief, none on a
+  question (でアリマスか is the question alone).
 - ドラグナー for Yoyo. **Decision: Dragonnière**; Dragonnier stays for the class and the generic « celui qui ».
 - スロウランサー. **Decision: Lancer de lancier** (75 px). No slow status exists in the game and the lancers' range
   move is already Javelot; the pun covers throwing the lance and throwing the lancer. Unconfirmed until the
@@ -179,6 +180,20 @@ against the JP text; the reason kept is the one that decided it.
 - 0012 0x1031 なれるのかな. **Decision: なれる, « redevenir comme avant »**: 〜みたいになれる, not 慣れる.
 - 0031 0x278 [F2F0]えとくなよ. **Decision: 鍛えとく, « on va s'endurcir »**, medium confidence: F2F0 is missing from
   jp.tbl and its glyph is blank in text2/ocr.
+- アニキ (Bikebake to Byuu). **Decision: Byuu, or nothing; « le grand Byuu » in the third person.** Never
+  « grand frère »: Bikebake isn't his brother, and « Byuu, grand frère » reads as a translated honorific.
+- Titles in address. **Decision: the title once, then the name, a pronoun or nothing.** ビュウ隊長 called out is
+  « Capitaine ! », not « Capitaine Byuu ! »; [ヨヨ]さま spoken to is « princesse » after the first time in a speech;
+  神竜ヴァリトラ is « Vritra » once the scene has named it. Jp repeats nouns for want of pronouns; French doesn't.
+- ごくろうさま, おつかれさま. **Decision: what the situation says in French**: « Beau travail » for a job done,
+  « Tu dois être fourbu » after a journey, « Au rapport » from a guard to his chief, a plain greeting to someone at
+  work. Never « tu as bien travaillé » or « merci pour ta peine ».
+- ね, ですね. **Decision: no « n'est-ce pas. » with a full stop.** A check is a question (« Vous devez être… »,
+  « …, non ? ») or a plain statement.
+- A name called out. **Decision: inside the sentence after a comma**: « Pas vrai, Byuu !! », not
+  « Pas vrai !! Byuu !! ».
+- 〜屋です. **Decision: « Bienvenue au magasin d'armures ! »**, not « Ici le magasin d'armures ! ».
+- 奇跡の大陸. **Decision: le continent des miracles**, the chapter title's wording, everywhere.
 - フェイズしゅうりょう. **Decision: Fin de phase.** ターン is the turn (Tour), フェイズ half of it; the confirmation
   already says « Fin de la phase du joueur ».
 
