@@ -125,7 +125,7 @@ calque the stiffness review found in the script.
 
 | JP | FR | Not |
 |---|---|---|
-| ごくろうさま, おつかれさま | Beau travail ; Tu dois être fourbu ; Au rapport ; a greeting | tu as bien travaillé, merci pour ta peine |
+| ごくろうさま, おつかれさま | Beau travail ; Tu dois être épuisé ; Au rapport ; a greeting | tu as bien travaillé, merci pour ta peine |
 | はじめまして + よろしく | Enchanté, once | Enchanté… Ravi de te connaître |
 | よろしく (introducing someone) | Voici… | faites bon accueil à |
 | お世話になって | merci pour tout | vous êtes toujours si bon avec moi |
@@ -244,7 +244,7 @@ against the JP text; the reason kept is the one that decided it.
   « Capitaine ! », not « Capitaine Byuu ! »; [ヨヨ]さま spoken to is « princesse » after the first time in a speech;
   神竜ヴァリトラ is « Vritra » once the scene has named it. Jp repeats nouns for want of pronouns; French doesn't.
 - ごくろうさま, おつかれさま. **Decision: what the situation says in French**: « Beau travail » for a job done,
-  « Tu dois être fourbu » after a journey, « Au rapport » from a guard to his chief, a plain greeting to someone at
+  « Tu dois être épuisé » after a journey, « Au rapport » from a guard to his chief, a plain greeting to someone at
   work. Never « tu as bien travaillé » or « merci pour ta peine ».
 - ね, ですね. **Decision: no « n'est-ce pas. » with a full stop.** A check is a question (« Vous devez être… »,
   « …, non ? ») or a plain statement.
