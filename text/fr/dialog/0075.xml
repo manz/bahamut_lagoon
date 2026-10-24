@@ -4,7 +4,7 @@
         <refs>
             <ref>0x79</ref>
         </refs>
-        <data>Sauzer: ...Tu as vu, Palparos... C'est bien le pouvoir des Dragons Sacrés... Et celle qui parle aux Dragons Sacrés... ...Le pouvoir... de la légende... Ce pouvoir... sera mien... Même sans dépendre de cette fille...[end]</data>
+        <data>Sauzer: ...Tu as vu, Palparos... C'est bien le pouvoir des Dragons Sacrés... Et celle qui parle aux Dragons Sacrés... Le pouvoir... de la légende... Ce pouvoir... sera mien... Même sans dépendre de cette fille...[end]</data>
     </text>
     <text>
         <refs>
@@ -181,7 +181,7 @@ Je ne connais pas de sujets capables de divertir une dame.[end]</data>
         <refs>
             <ref>0x550</ref>
         </refs>
-        <data>Jeune fille... est-ce toi ? Est-ce toi, celle de la légende... ...celle qui connaît le cœur des Dragons Sacrés...[end]</data>
+        <data>Jeune fille... est-ce toi ? Est-ce toi, celle de la légende... celle qui connaît le cœur des Dragons Sacrés...[end]</data>
     </text>
     <text window="none">
         <refs>
@@ -259,6 +259,6 @@ Je ne connais pas de sujets capables de divertir une dame.[end]</data>
         <refs>
             <ref>0x5d6</ref>
         </refs>
-        <data>(...Je vous en prie... ...la suite... du rêve...)[end]</data>
+        <data>(...Je vous en prie... la suite... du rêve...)[end]</data>
     </text>
 </texts>

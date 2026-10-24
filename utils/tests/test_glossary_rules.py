@@ -18,6 +18,15 @@ FORBIDDEN = {
     "〜屋です is Bienvenue au": re.compile(r"Ici (?:le magasin|la boutique)"),
     "奇跡の大陸 is le continent des miracles": re.compile(r"Continent\s+Miracle"),
     "救世軍 is l'Armée du salut": re.compile(r"Armée de Libération d'Orelus"),
+    "a set phrase takes its French": re.compile(
+        r"C'est grave !|Ça me rappelle tant de souvenirs|sentiments partagés|ne sont pas rien|c'est soudain, mais"
+        r"|Je t'en prie, je t'en prie|transmise à Kana|(?:apprendre|appris) le c(?:œ|oe)ur",
+        re.IGNORECASE,
+    ),
+    "a calqued noun takes a pronoun or its French": re.compile(
+        r"cette personne|fille humaine|révolution de la liberté|Empereur de l'Empire", re.IGNORECASE
+    ),
+    "a pause is one ellipsis": re.compile(r"(?<=[^\s.\]])\.\.\. \.\.\.(?=[^\s.])"),
 }
 
 

@@ -118,6 +118,64 @@ included: Remède, not DROGUE; Dragonnier, not Dragoon; Croisé, not Chevalier C
 | そうびなし | Aucun | NO ITEM |
 | したしさ | Affin. | Joie |
 
+## Set phrases
+
+A JP formula takes what a French speaker says in that situation, not its dictionary words. The Not column is the
+calque the stiffness review found in the script.
+
+| JP | FR | Not |
+|---|---|---|
+| ごくろうさま, おつかれさま | Beau travail ; Tu dois être fourbu ; Au rapport ; a greeting | tu as bien travaillé, merci pour ta peine |
+| はじめまして + よろしく | Enchanté, once | Enchanté… Ravi de te connaître |
+| よろしく (introducing someone) | Voici… | faites bon accueil à |
+| お世話になって | merci pour tout | vous êtes toujours si bon avec moi |
+| とつぜんですが | sans crier gare ; a letter: Nous avons la joie de vous annoncer | c'est soudain, mais |
+| どうぞ, どうぞどうぞ | Entrez donc ; Mais bien sûr ! | Je t'en prie, je t'en prie |
+| なつかしい | Ça fait si longtemps ! | Ça me rappelle tant de souvenirs |
+| たいしたもんだ | Chapeau ! ; Quelle allure ! | ils ne sont pas rien |
+| たいへん(だ)! | Malheur ! ; Alerte ! | C'est grave ! |
+| ふくざつ | Je ne sais plus que penser | sentiments partagés |
+| むりもない | Ça se comprend | Je te comprends |
+| しかたない | C'est comme ça | Tant pis |
+| さすが | Digne de… | Bravo, on voit bien… |
+| てれる | Tu me fais rougir ; J'en rougis | Tu me gênes, Que c'est gênant |
+| ただいま | Je suis rentré | Me voici |
+| 大切な人 | cher, qui compte | précieux |
+| 人として…さいてい | le dernier des hommes, minable | en tant qu'être humain, le pire |
+| さあ (answering a question) | Qui sait... | Allons... |
+| って, んだって | il paraît, paraît-il, on dit que, or nothing, varied | à ce qu'il paraît on every line |
+| この人, その人, あの方 | il, elle ; ce monsieur | cette personne |
+| このドンファン, このメロディア | le grand Donfan ; ma petite Melody | ce Donfan, cette Melody |
+| これで | Voilà… | Avec ça |
+| ここは (leave it to) | Laissons faire… | Ici, on laisse faire |
+| フッ, フフッ (smug) | Hé..., Héhé... | Hmph |
+| 〜に伝わる (a legend) | une vieille légende de… | transmise à |
+| 神竜の心を知る | découvrir, connaître le cœur des Dragons Sacrés | apprendre le cœur |
+| 人間のむすめ | jeune humaine | fille humaine |
+| 戦いの旅 | notre campagne, notre périple | le voyage du combat |
+| 自由革命 | la révolution, la révolution pour la liberté | la révolution de la liberté |
+| 帝国皇帝 | l'Empereur de Granbelos | Empereur de l'Empire Granbelos |
+
+## Style
+
+- **French word order.** The topic doesn't open the sentence on its own (« Les Dragons Sacrés veulent savoir ce qui
+  est arrivé à Altair », not « Ce qui est arrivé à Altair... Les Dragons Sacrés veulent le savoir »), and an action
+  is a verb, not a noun (« On part sauver la princesse ! », not « L'opération de sauvetage… commence »).
+- **Pronouns after the first mention.** JP repeats a noun for want of pronouns; French names it once a speech, then
+  says il, elle, eux or leur (0077 0x875 named the hommes-dragons three times and the Dragons Sacrés six).
+- **Register by speaker.** Rush, Ruki, Bikebake and the crew say « on » and ask without inversion (« Tu es amoureux
+  de quelqu'un ? »); inversion and « nous » belong to Matelite's set speeches, the royals and the Holy Dragons.
+
+## Typography
+
+- **Ellipses and exclamations.** A pause is one « ... », never « mais... ...Je »; a run of them is only silence
+  (« ... ... ... ») or a countdown (0015). « !! » for a shout, a single « ! » in a calm line.
+- **Hmph** is ふん (Matelite's grumble), not a smug フッ.
+- **œ** is the ligature (dialogue font code 0x99): cœur, œil, sœur, vœu. The 8x8 font has no œ, so names drawn
+  in it (text/enemies.xml) write oe.
+- **Signs.** ( ) / ~ are drawn in the dialogue font; * is not, so no *stage directions*: say it (« Oh, je
+  rougis... »). utils/tests/test_script_encoding.py fails on a character without a code or a glyph.
+
 ## Open questions, decided
 
 Each question the review left open, with its decision. The pros and cons were argued with a second reviewer
