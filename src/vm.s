@@ -1,12 +1,12 @@
 """Dialog room interpreter: implements opcode 9E as a nop."""
 
 .alloc at 0xDA7816 {
-opcode_9E:
+opcode_9e:
     sep #0x20
     lda.b #0x01
     rts
 }
 .alloc at 0xDA405C {
-    .dw opcode_9E
-    .dw opcode_9E  ; overwrites 9F trap opcode
+    .dw opcode_9e
+    .dw opcode_9e  ; overwrites 9F trap opcode
 }

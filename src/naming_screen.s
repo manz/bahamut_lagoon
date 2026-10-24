@@ -6,7 +6,7 @@
 ; let the string end with 0xff
 
 .alloc at 0xee55b3 {
-CHAPTER_LENGTH:
+chapter_length:
 ;;.EE:55B3                 CMP     #$A
     nop
     nop
@@ -35,7 +35,7 @@ CHAPTER_LENGTH:
 ; replaces the copy_without shift
 }
 .alloc at 0xee5283 {
-__BREAKPOINT_copy_without_shift:
+copy_without_shift:
     php
     sep #0x20
     lda #0x7e
