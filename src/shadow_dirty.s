@@ -403,7 +403,7 @@ _not_shadow:
     plp
     ldy.b 0x06
     sty.b 0x03
-    jml.l 0xEE1D45
+    jml 0xEE1D45
 
 shadow_bg3_cleared:
 """clear_menu_shadow's end: mark the BG3 shadow, then its pulls."""
@@ -412,7 +412,7 @@ shadow_bg3_cleared:
     plx
     pla
     plb
-    jml.l 0xEE50E8
+    jml 0xEE50E8
 
 shadow_bg2_cleared:
 """clear_bg2_shadow's end: mark the BG2 shadow, then its pulls."""
@@ -421,13 +421,13 @@ shadow_bg2_cleared:
     plx
     pla
     plb
-    jml.l 0xEE5108
+    jml 0xEE5108
 
 shadow_rect_cleared:
 """clear_rect's row loop; at its end X is the row past the last: mark the cursor to it."""
     dec.b 0x02
     beq _rect_done
-    jml.l 0xEE4FE7
+    jml 0xEE4FE7
 _rect_done:
     php
     rep #0x30
@@ -443,16 +443,16 @@ _rect_done:
     plx
     pla
     plp
-    jml.l 0xEE4FFE
+    jml 0xEE4FFE
 
 shadow_tiles_converted:
 """convert_2bpp_to_4bpp_80_tiles's loop; at its end the BG2 shadow holds the tiles: mark it."""
     dec.b 0x00
     beq _converted
-    jml.l 0xEE865E
+    jml 0xEE865E
 _converted:
     jsl.l shadow_dirty_bg2
-    jml.l 0xEE86B6
+    jml 0xEE86B6
 
 shadow_separator:
 """EE99B5's separator, 16-bit A, DB 7E: the store, marked, then ldx $12."""
@@ -472,7 +472,7 @@ shadow_separator:
     pla
     plp
     ldx.b 0x12
-    jml.l 0xEE9A29
+    jml 0xEE9A29
 
 shadow_bg2_queued:
 """
@@ -488,7 +488,7 @@ changes when its target copy does. Leaves A and the flags as lda $1868.
     jsl.l shadow_dirty_bg2
 _same_target:
     lda.l BG2_TARGET
-    jml.l 0xEEFD82
+    jml 0xEEFD82
 
 shadow_trim_bg3:
 """

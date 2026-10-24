@@ -2164,7 +2164,7 @@ menu_lag_nmi:
 nmi_frame's lag path, the frame not ready. While draw_fixed_name runs, the ring then the BG3 shadow go up in this
 vblank, on a channel HDMA leaves free: the screen fills in as the names draw. Entered with the caller's DB pushed.
 """
-    stz.w 0x1832
+    stz 0x1832
     rep #0x30
     pha
     phx
