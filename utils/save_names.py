@@ -14,7 +14,7 @@ import struct
 import sys
 from pathlib import Path
 
-from script import Table
+from katsuji.script import Table
 
 from utils.name_tables import encode, read_names
 

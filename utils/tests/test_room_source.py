@@ -3,7 +3,7 @@ import tempfile
 from pathlib import Path
 from unittest import TestCase
 
-from script import Table
+from katsuji.script import Table
 
 from utils.dump_rooms import get_dialog_room, is_compressed
 from utils.room_source import MACROS, NO_MACRO, assemble_room, read_macros, room_source

@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
 from unittest import TestCase
 
-from script import Table
+from katsuji.script import Table
 
 from utils.credits import COLUMNS, SCREEN_COLUMNS, STEP, TABLE, credits_script, place_credit_lines
 from utils.vm.opcodes_map import opcode_names, opcode_table

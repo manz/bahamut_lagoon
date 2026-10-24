@@ -1,6 +1,6 @@
 import struct
 
-from script import Table
+from katsuji.script import Table
 
 from utils.vm import NoMoreEventsForPlayer
 from utils.vm.executor import walk_event_chain

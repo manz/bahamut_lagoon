@@ -2,7 +2,7 @@ import os
 import struct
 from unittest.case import TestCase
 
-from script import Table
+from katsuji.script import Table
 
 from utils.save_names import CHAPTER, CHECKSUM, EMPTY, NAME_SIZE, NAMES, SLOTS, checksum, name_record, rename
 

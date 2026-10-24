@@ -8,7 +8,7 @@ composed without kerning, as the game's renderer has none, copied kerned on the 
 from typing import TYPE_CHECKING, Protocol
 
 import pytest
-from script import Table
+from katsuji.script import Table
 
 from tests.conftest import Console, small_vwf_fields, symbol
 from utils.cartridge import rom_offset

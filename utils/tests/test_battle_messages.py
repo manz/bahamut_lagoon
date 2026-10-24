@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from script import Table
+from katsuji.script import Table
 
 from utils.battle_messages import BANK_SITES, LINE, LINE_BUS, LINE_CELLS, BattleMessage, patches, read_messages
 

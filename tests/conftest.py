@@ -15,7 +15,7 @@ from pathlib import Path
 from typing import TYPE_CHECKING
 
 import pytest
-from script import Table
+from katsuji.script import Table
 
 from utils.ips import apply_ips
 from utils.name_tables import read_names

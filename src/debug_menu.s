@@ -81,10 +81,10 @@ end_event:
 
 ; Start / end event number: column 19 -> 22, past the longer English header.
 .alloc at 0xC0CF34 {
-    sta.l 0x7EC42C
+    sta 0x7EC42C
 }
 .alloc at 0xC0CF40 {
-    sta.l 0x7EC42E
+    sta 0x7EC42E
 }
 
 ; Battle / event test.
