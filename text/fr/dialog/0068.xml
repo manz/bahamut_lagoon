@@ -68,7 +68,7 @@ Si vous emmenez les Diablotins qui ont élu domicile dans cette ville, c'est gra
         <refs>
             <ref>0x634</ref>
         </refs>
-        <data>I am, cœur pur, loneliness alone ! OK ?![end]</data>
+        <data>I am, coeur pur, loneliness alone ! OK ?![end]</data>
     </text>
     <text>
         <refs>
@@ -80,7 +80,7 @@ Si vous emmenez les Diablotins qui ont élu domicile dans cette ville, c'est gra
         <refs>
             <ref>0x650</ref>
         </refs>
-        <data>Je crois pouvoir lire dans votre cœur comme si je l'observais au microscope.[end]</data>
+        <data>Je crois pouvoir lire dans votre coeur comme si je l'observais au microscope.[end]</data>
     </text>
     <text window="none">
         <refs>
