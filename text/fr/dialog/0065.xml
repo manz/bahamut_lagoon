@@ -23,7 +23,7 @@ Qu'est-ce que Campbell va devenir, maintenant ?[end]</data>
         <refs>
             <ref>0x30c</ref>
         </refs>
-        <data>Messieurs de l'armée de libération... Nous avons des sentiments partagés...[end]</data>
+        <data>Messieurs de l'armée de libération... On ne sait plus trop quoi penser...[end]</data>
     </text>
     <text>
         <refs>
@@ -56,7 +56,7 @@ Qu'est-ce que Campbell va devenir, maintenant ?[end]</data>
         <refs>
             <ref>0x150</ref>
         </refs>
-        <data>La reine est entrée dans la prison souterraine pour protéger Campbell.
+        <data>La reine s'est enfermée dans les cachots pour protéger Campbell.
  
 Pour montrer qu'elle ne résisterait pas à Sauzer...[end]</data>
     </text>
@@ -66,7 +66,7 @@ Pour montrer qu'elle ne résisterait pas à Sauzer...[end]</data>
         </refs>
         <data>Campbell ne demandait pas à être libérée...
  
-Avec ça, l'Empereur Sauzer va se mettre en colère...[end]</data>
+Voilà qui va mettre l'Empereur Sauzer en colère...[end]</data>
     </text>
     <text>
         <refs>
@@ -86,7 +86,7 @@ Même si vous êtes la sœur cadette de notre défunt Roi de Kana et la Reine de
         <refs>
             <ref>0x5bb</ref>
         </refs>
-        <data>Matelite: Certes !
+        <data>Matelite: Parfaitement !
  
 Plutôt que de devenir méconnaissable comme la reine, je préférerais finir en pâtée pour dragons ![end]</data>
     </text>
@@ -114,7 +114,7 @@ Préférer vivre sous le joug de l'Empire...[end]</data>
         <refs>
             <ref>0x5f3</ref>
         </refs>
-        <data>Taicho: Holà, holà... affirmatif !
+        <data>Taicho: Holà, holà... !
  
 Reprenons nos esprits et mettons notre plan à exécution, affirmatif.[end]</data>
     </text>
@@ -128,7 +128,7 @@ Reprenons nos esprits et mettons notre plan à exécution, affirmatif.[end]</dat
         <refs>
             <ref>0x635</ref>
         </refs>
-        <data>Taicho: ...Êtes-vous calmé, affirmatif ?[end]</data>
+        <data>Taicho: ...Vous êtes calmé ?[end]</data>
     </text>
     <text>
         <refs>
@@ -154,13 +154,13 @@ Quoi que dise la reine, Byuu, ne te mets pas en colère, affirmatif.[end]</data>
         <refs>
             <ref>0x2d6</ref>
         </refs>
-        <data>Nerbo: ...Vous êtes Byuu, de l'Escadron Dragon de Kana, n'est-ce pas ?[end]</data>
+        <data>Nerbo: ...Vous devez être Byuu, de l'Escadron Dragon de Kana.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2e8</ref>
         </refs>
-        <data>Joy: La porte n'est pas fermée à clé. Je vous en prie...[end]</data>
+        <data>Joy: La porte n'est pas fermée à clé. Entrez donc...[end]</data>
     </text>
     <text>
         <refs>
@@ -237,7 +237,7 @@ Byuu, s'il te plaît. Laisse-moi seule avec ma tante...[end]</data>
         <refs>
             <ref>0x11e</ref>
         </refs>
-        <data>Je sais bien, moi. Ce qu'on a fait... ce n'était pas une erreur... Byuu... ne sois pas découragé...
+        <data>Je sais bien, moi. Ce qu'on a fait... ce n'était pas une erreur... Byuu... ne te décourage pas...
  
 Je sais ! Dans ces moments-là, il faut se changer les idées ![end]</data>
     </text>
@@ -253,7 +253,7 @@ Je sais ! Dans ces moments-là, il faut se changer les idées ![end]</data>
         </refs>
         <data>Sendak: Byuu !
  
-En ville, il y a une boutique où l'on sert du vin.
+En ville, il y a une taverne qui sert du vin.
  
 Je t'y attends ![end]</data>
     </text>

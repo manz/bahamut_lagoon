@@ -98,7 +98,7 @@ Tu suis ? Les dragons ont toujours le ventre vide. Ils ne font pas les difficile
         <refs>
             <ref>0x4ce</ref>
         </refs>
-        <data>Je vais te dire une chose importante. Ça concerne la force des techniques de chacun... de toi, Byuu, de Matelite... !! Le type et la puissance des techniques de chacun montent de niveau avec la force du dragon qui l'accompagne !![end]</data>
+        <data>Je vais te dire une chose importante. Ça concerne la force des techniques de chacun... de toi, Byuu, de Matelite... !! Les techniques de chacun gagnent en variété et en puissance avec la force de son dragon !![end]</data>
     </text>
     <text>
         <refs>
@@ -112,13 +112,13 @@ il faut faire attention lors de la ``formation'' des escouades.[end]</data>
         <refs>
             <ref>0x4f4</ref>
         </refs>
-        <data>Et puis... par là-bas, une petite conversation secrète !![end]</data>
+        <data>Et puis... viens par là, j'ai un secret à te dire !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x54a</ref>
         </refs>
-        <data>Byuu... y a-t-il quelqu'un que tu aimes ?[end]</data>
+        <data>Byuu... tu es amoureux de quelqu'un ?[end]</data>
     </text>
     <text>
         <refs>

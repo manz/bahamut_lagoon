@@ -131,7 +131,7 @@ Le Dragon Sacré Jormungand... veut me dire quelque chose.[end]</data>
         <refs>
             <ref>0x37f</ref>
         </refs>
-        <data>Palparos... général...[end]</data>
+        <data>Général... Palparos...[end]</data>
     </text>
     <text window="none">
         <refs>
@@ -155,7 +155,7 @@ Le Dragon Sacré Jormungand... veut me dire quelque chose.[end]</data>
         <refs>
             <ref>0x40d</ref>
         </refs>
-        <data>Garuda: Jeune fille... toi qui deviendras Dragonnière... Ton souhait n'est que cela ?
+        <data>Garuda: Jeune fille... toi qui deviendras Dragonnière... C'est là tout ce que tu souhaites ?
  
 Voilà... un bien petit rêve...[end]</data>
     </text>
@@ -171,7 +171,7 @@ Et pourtant, un rêve que je ne peux même pas réaliser...[end]</data>
         <refs>
             <ref>0x426</ref>
         </refs>
-        <data>Garuda: Jeune fille au petit rêve... pourquoi penses-tu ainsi... ? Avec notre pouvoir, ce monde t'appartiendra.
+        <data>Garuda: Toi qui rêves si petit... pourquoi penses-tu ainsi... ? Avec notre pouvoir, ce monde t'appartiendra.
  
 Tout ce que tu désires se pliera à ta volonté.[end]</data>
     </text>
@@ -189,7 +189,7 @@ Les sentiments de quelqu'un qui s'est éloigné... son coeur... ça... je ne pou
         </refs>
         <data>Garuda: Ne te lamente pas, jeune fille...
  
-Jusqu'ici, tu as appris le coeur des Dragons Sacrés... et tu nous as guidés.
+Jusqu'ici, tu as su connaître le coeur des Dragons Sacrés... et tu nous as guidés.
  
 Tu t'en sors mieux que l'autre qui connaît le coeur des Dragons Sacrés...[end]</data>
     </text>

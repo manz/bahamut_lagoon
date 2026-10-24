@@ -4,7 +4,7 @@
         <refs>
             <ref>0x90</ref>
         </refs>
-        <data>Matelite: Y a-t-il quelqu'un ?! C'est moi ! Matelite ![end]</data>
+        <data>Matelite: Holà ! Personne ?! C'est moi, Matelite ![end]</data>
     </text>
     <text>
         <refs>
@@ -25,7 +25,7 @@ Taicho, suis-moi ![end]</data>
         <refs>
             <ref>0x4a3</ref>
         </refs>
-        <data>Matelite: Où es-tu ?! Taicho ![end]</data>
+        <data>Matelite: Où es-tu, Taicho ?![end]</data>
     </text>
     <text>
         <refs>
@@ -69,7 +69,7 @@ Taicho, suis-moi ![end]</data>
         <refs>
             <ref>0x259</ref>
         </refs>
-        <data>Truth: Nos compagnons entrés avant nous doivent nous attendre. Si ma mémoire est bonne, il y avait deux filles et un duo de lanciers dangereux.[end]</data>
+        <data>Truth: Ceux qui sont partis devant doivent nous attendre. Si ma mémoire est bonne, il y avait deux filles et un duo de lanciers dangereux.[end]</data>
     </text>
     <text>
         <refs>
@@ -93,16 +93,16 @@ Taicho, suis-moi ![end]</data>
         <refs>
             <ref>0x2f4</ref>
         </refs>
-        <data>Chef ! Merci pour tout !
- 
+        <data>Chef ! Au rapport !
+
 Nous avons enfermé un individu suspect.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2fb</ref>
         </refs>
-        <data>Chef ! Merci pour tout !
- 
+        <data>Chef ! Au rapport !
+
 Nous avons enfermé un individu bruyant.[end]</data>
     </text>
     <text>
@@ -111,7 +111,7 @@ Nous avons enfermé un individu bruyant.[end]</data>
         </refs>
         <data>Matelite: Hein ?! Byuu !
  
-Partir devant sans nous ! Attends ![end]</data>
+Tu pars devant sans nous ?! Attends ![end]</data>
     </text>
     <text>
         <refs>

@@ -140,7 +140,7 @@ C'est une conversation d'adultes, alors ne nous dérange pas ![end]</data>
         <refs>
             <ref>0xe08</ref>
         </refs>
-        <data>Taicho: Alerte, affirmatif ! Seigneur Matelite ![end]</data>
+        <data>Taicho: Alerte ! Seigneur Matelite, alerte, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
@@ -194,7 +194,7 @@ C'est une conversation d'adultes, alors ne nous dérange pas ![end]</data>
         <refs>
             <ref>0x9ff</ref>
         </refs>
-        <data>Bon ! Bon ! Prenez bien soin des dragons ![end]</data>
+        <data>Allez, allez ! Prenez bien soin des dragons ![end]</data>
     </text>
     <text>
         <refs>
@@ -213,7 +213,7 @@ C'est une conversation d'adultes, alors ne nous dérange pas ![end]</data>
         <refs>
             <ref>0xa06</ref>
         </refs>
-        <data>Nous, on ne peut rien faire, mais on vous encourage...
+        <data>Nous, on ne peut rien faire, mais on est de tout coeur avec vous...
  
 Protégez bien le Fareneit ![end]</data>
     </text>
@@ -246,7 +246,7 @@ Protégez bien le Fareneit ![end]</data>
         <refs>
             <ref>0x76b</ref>
         </refs>
-        <data>Yoyo: Tu as bien travaillé. Tiens... c'est pour toi...[end]</data>
+        <data>Yoyo: Bon courage pour la garde. Tiens... c'est pour toi...[end]</data>
     </text>
     <text>
         <refs>
@@ -314,7 +314,7 @@ Tu les manges ?[end]</data>
         <refs>
             <ref>0x30e</ref>
         </refs>
-        <data>Sendak: Byuu... tu as bien travaillé...[end]</data>
+        <data>Sendak: Byuu... pas trop dure, la garde ?[end]</data>
     </text>
     <text>
         <refs>
@@ -420,7 +420,7 @@ Tu les manges ?[end]</data>
         <refs>
             <ref>0x81b</ref>
         </refs>
-        <data> Je t'en prie, je t'en prie !
+        <data> Mais bien sûr, viens !
  La garde, c'est un travail d'homme ![end1]</data>
     </text>
     <text>

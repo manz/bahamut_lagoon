@@ -67,9 +67,9 @@
         </refs>
         <data>Taicho: Hmm...
  
-Alors je vais défier Lestat en duel, affirmatif !
- 
-Vous autres, couvrez-moi à l'arrière ![end]</data>
+Alors je vais défier Lestat en duel !
+
+Vous autres, couvrez-moi à l'arrière, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
@@ -197,7 +197,7 @@ Si je ne protège pas Mahal au prix de ma vie, qui le fera ?![end]</data>
         </refs>
         <data>Cette guerre... Mahal va sûrement la perdre.
  
-Mais même si nous perdons aujourd'hui... je crois qu'un jour... viendra le jour où l'Empire tombera...[end]</data>
+Mais même si nous perdons aujourd'hui... je crois qu'un jour... l'Empire tombera...[end]</data>
     </text>
     <text>
         <refs>
@@ -253,13 +253,13 @@ Mais même si nous perdons aujourd'hui... je crois qu'un jour... viendra le jour
         <refs>
             <ref>0x440</ref>
         </refs>
-        <data>Lestat: Hihihihihihihihihi ! Ce genre de chose n'a aucun effet sur moi ![end]</data>
+        <data>Lestat: Hihihihihihihihihi ! Ça ne me fait ni chaud ni froid ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x455</ref>
         </refs>
-        <data>Où est Taicho ?! Taicho, le célèbre meilleur guerrier de Mahal ![end]</data>
+        <data>Où est Taicho ?! Taicho, soi-disant le meilleur guerrier de Mahal ![end]</data>
     </text>
     <text>
         <refs>
@@ -277,13 +277,13 @@ Mais même si nous perdons aujourd'hui... je crois qu'un jour... viendra le jour
         <refs>
             <ref>0x4d1</ref>
         </refs>
-        <data>Céline: C'est faux ! Lui... Lui, ce n'est pas un homme comme ça ![end]</data>
+        <data>Céline: C'est faux ! Lui... Il n'est pas comme ça ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4de</ref>
         </refs>
-        <data>Lestat: Hihihihihihi ! Si, c'est exactement ce genre d'homme. Hihihihihihi ![end]</data>
+        <data>Lestat: Hihihihihihi ! Oh si, il est exactement comme ça. Hihihihihihi ![end]</data>
     </text>
     <text>
         <refs>
@@ -307,7 +307,7 @@ Mais même si nous perdons aujourd'hui... je crois qu'un jour... viendra le jour
         <refs>
             <ref>0x5d5</ref>
         </refs>
-        <data>Ma terre natale, Mahal... Le palais de Mahal... Mes précieux hommes...[end]</data>
+        <data>Ma terre natale, Mahal... Le palais de Mahal... Mes hommes, si chers...[end]</data>
     </text>
     <text window="none">
         <refs>
@@ -378,7 +378,7 @@ Quelqu'un que tu dois protéger ?[end]</data>
         </refs>
         <data>Avoir quelqu'un à aimer, c'est le plus grand bonheur au monde.
  
-Prends bien soin de cette personne, affirmatif.[end]</data>
+Prends bien soin d'elle.[end]</data>
     </text>
     <text>
         <refs>
@@ -451,7 +451,7 @@ le droit de se gouverner seul...[end]</data>
         <refs>
             <ref>0xb31</ref>
         </refs>
-        <data>Melody: Ouaaah ! Ouaaah ! Godland ! Ça me rappelle tant de souvenirs ![end]</data>
+        <data>Melody: Ouaaah ! Ouaaah ! Godland ! Ça fait si longtemps ![end]</data>
     </text>
     <text>
         <refs>

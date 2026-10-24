@@ -32,7 +32,7 @@ Une attaque des Rebelles ?![end]</data>
             <ref>0x40</ref>
         </refs>
         <data>C'est moi le chef !!
-Je suis devenu chef grâce au
+J'ai gagné ma place au
 lancer de javelot !![end]</data>
     </text>
     <text>
@@ -46,7 +46,7 @@ lancer de javelot !![end]</data>
         <refs>
             <ref>0x99</ref>
         </refs>
-        <data>Prenez bien soin de vos dragons !!
+        <data>Prenez bien soin de vos dragons !
 Il faut savoir varier les ordres...[end1][end]</data>
     </text>
     <text>
@@ -59,15 +59,15 @@ Il faut savoir varier les ordres...[end1][end]</data>
         <refs>
             <ref>0xa4</ref>
         </refs>
-        <data>Si nos dragons tombent au combat, nous ne
-pourrons plus utiliser nos magies et nos
-techniques ! Alors prudence !![end1][end]</data>
+        <data>Si nos dragons tombent au combat, adieu
+la magie et les techniques ! Alors
+prudence ![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb3</ref>
         </refs>
-        <data>Matelite: Bien !![0xfc][0x20] C'est moi qui monte
-à bord le premier !![end1][end]</data>
+        <data>Matelite: Bien !![0xfc][0x20] Je serai le
+premier à l'abordage !![end1][end]</data>
     </text>
 </texts>

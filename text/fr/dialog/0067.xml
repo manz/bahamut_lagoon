@@ -10,7 +10,7 @@
         <refs>
             <ref>0x152</ref>
         </refs>
-        <data>Hornet: On dirait qu'on vous attendait avec impatience !!
+        <data>Hornet: On dirait que vous nous attendiez avec impatience !!
  
 Votre chef nous a bien suivis.
  
@@ -40,7 +40,7 @@ Le vieux capitaine Sendak est avec nous aussi.[end]</data>
         </refs>
         <data>Hornet: Les récits de voyage, ce sera pour plus tard !
  
-Le voyage du combat ne fait que commencer.[end]</data>
+Notre vraie campagne ne fait que commencer.[end]</data>
     </text>
     <text>
         <refs>
@@ -134,7 +134,7 @@ Ce... ceci, je te le confie...[end]</data>
         <refs>
             <ref>0x587</ref>
         </refs>
-        <data>Taicho: Matelite, je reçois votre volonté !! J'y vais, affirmatif !![end]</data>
+        <data>Taicho: Matelite, je ne vous décevrai pas !! J'y vais, affirmatif !![end]</data>
     </text>
     <text>
         <refs>

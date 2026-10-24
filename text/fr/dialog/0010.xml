@@ -11,15 +11,15 @@
         <refs>
             <ref>0x8c</ref>
         </refs>
-        <data>Mahal, le Continent Miracle...[end1]</data>
+        <data>Mahal, le continent des miracles...[end1]</data>
     </text>
     <text window="none">
         <refs>
             <ref>0x92</ref>
         </refs>
         <data>Avec le temps, on finit par
-appeler Mahal le Continent
-Miracle...[end1]</data>
+appeler Mahal le continent
+des miracles...[end1]</data>
     </text>
     <text window="none">
         <refs>
@@ -156,7 +156,7 @@ Tu es sain et sauf ?[end]</data>
  
 Pourquoi... es-tu revenue... ici, à Mahal ?
  
-Moi qui croyais... avoir enfin réussi à oublier nos souvenirs.[end]</data>
+Moi qui croyais... avoir enfin réussi à t'oublier.[end]</data>
     </text>
     <text>
         <refs>
@@ -196,7 +196,7 @@ Je me trompe ? Vois-tu, je suis capable... de lire dans ton coeur... comme on re
         <refs>
             <ref>0x7b7</ref>
         </refs>
-        <data>Ruki: Mais non !! Donfan !! Écoute-moi un peu...[end]</data>
+        <data>Ruki: Mais non, Donfan ! Écoute-moi un peu...[end]</data>
     </text>
     <text>
         <refs>
@@ -313,7 +313,7 @@ Non ! Pas possible ! Pourquoi ?! ... enfin, je crois...[end]</data>
         <refs>
             <ref>0x940</ref>
         </refs>
-        <data>Euh... pardon... Vous, là-bas, le voyageur... Je suis vraiment désolé, mais... vous ne voudriez pas me sauver... ?[end]</data>
+        <data>Euh... pardon... Vous, là-bas, le voyageur... Pardonnez-moi, mais... pourriez-vous me tirer de là... ?[end]</data>
     </text>
     <text>
         <refs>
@@ -361,7 +361,7 @@ M... merci... Sauver quelqu'un comme moi... Dites-moi au moins votre nom...[end]
         <refs>
             <ref>0x997</ref>
         </refs>
-        <data>Moi, je suis Donfan de Mahal. On m'appelle Donfan, le dur au coeur pur.[end]</data>
+        <data>Je suis Donfan, de Mahal. On m'appelle Donfan, le dur au coeur pur.[end]</data>
     </text>
     <text>
         <refs>
@@ -398,7 +398,7 @@ M... merci... Sauver quelqu'un comme moi... Dites-moi au moins votre nom...[end]
         <refs>
             <ref>0xa03</ref>
         </refs>
-        <data>Donfan: Ah oui ?! Tu as tant besoin de ma force ?
+        <data>Donfan: Ah oui ?! Tu as tant besoin de moi ?
  
 Alors Donfan se fera un plaisir de vous prêter main-forte ![end]</data>
     </text>
@@ -457,7 +457,7 @@ Maintenant que Donfan est des vôtres, vous n'avez rien à craindre de l'Empire.
         <refs>
             <ref>0xa93</ref>
         </refs>
-        <data>Matelite de Kana arrive à le calmer pour l'instant, mais il faut faire vite, nous aussi ![end]</data>
+        <data>Matelite, de Kana, le retient pour l'instant, mais il faut faire vite ![end]</data>
     </text>
     <text>
         <refs>
@@ -495,7 +495,7 @@ Car vois-tu, ton coeur... oui...[end]</data>
         <refs>
             <ref>0xb2d</ref>
         </refs>
-        <data>Donfan: Euh... capitaine Byuu ! Vous voulez bien me sauver encore une fois ?[end]</data>
+        <data>Donfan: Euh... capitaine ! Vous voulez bien me sauver encore une fois ?[end]</data>
     </text>
     <text>
         <refs>
@@ -546,14 +546,14 @@ Car vois-tu, ton coeur... oui...[end]</data>
         <refs>
             <ref>0x530</ref>
         </refs>
-        <data>Donfan: Alors ce sont ça, des dragons... ! Eh bien, ils ne sont pas rien ![end]</data>
+        <data>Donfan: Alors c'est ça, des dragons... ! Eh ben, quelle allure ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xbc5</ref>
         </refs>
         <data>Oh !
-Ce sont donc les fameux dragons de guerre de Kana ! Eh bien, ils ne sont pas rien ![end]</data>
+Ce sont donc les fameux dragons de guerre de Kana ! Eh ben, chapeau ![end]</data>
     </text>
     <text>
         <refs>

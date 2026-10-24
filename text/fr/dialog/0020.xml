@@ -81,7 +81,7 @@ On dirait que certains n'ont rien compris du tout !![end]</data>
         <refs>
             <ref>0x2c2</ref>
         </refs>
-        <data>D'abord, il faut vous enseigner à fond ce que sont la discipline et l'ordre !![end]</data>
+        <data>D'abord, je dois vous inculquer la discipline et l'ordre !![end]</data>
     </text>
     <text>
         <refs>
@@ -392,7 +392,7 @@ Rien à voir avec les deux Lanciers d'à côté, hein ![end]</data>
         <refs>
             <ref>0xfa7</ref>
         </refs>
-        <data>Frederica: Je... me suis évanouie, n'est-ce pas...
+        <data>Frederica: Je... me suis évanouie, on dirait...
  
 Ah... Byuu... Ne vous en faites pas... C'est tout le temps comme ça... Mais... je vous en prie... ce médicament...[end]</data>
     </text>
@@ -440,7 +440,7 @@ Ah... Byuu... Ne vous en faites pas... C'est tout le temps comme ça... Mais... 
         <refs>
             <ref>0x107d</ref>
         </refs>
-        <data>Anastasia: On dirait l'alignement en rang...[end]</data>
+        <data>Anastasia: On se croirait à l'école, en rang...[end]</data>
     </text>
     <text>
         <refs>
@@ -552,7 +552,7 @@ Va t'entraîner à l'``Organisation'' !![end]</data>
             <ref>0x1301</ref>
         </refs>
         <data>Taicho: !!!
-C'est moi qui explique... affirmatif ?[end]</data>
+C'est à moi d'expliquer... ?[end]</data>
     </text>
     <text window="none">
         <refs>
@@ -624,7 +624,7 @@ celle-ci...[end]</data>
         <refs>
             <ref>0x147d</ref>
         </refs>
-        <data>Taicho: Byuu... l'``Organisation''... c'est c... clair, affirmatif ?[end]</data>
+        <data>Taicho: Byuu... l'``Organisation''... c'est c... clair ?[end]</data>
     </text>
     <text window="none">
         <refs>
@@ -674,7 +674,7 @@ L'``Organisation'' et les ``dragons'', c'est indissociable, j'parie !![end]</dat
         <refs>
             <ref>0xbb5</ref>
         </refs>
-        <data>Byuu... deviens vite un brave chevalier, comme moi...
+        <data>Byuu... deviens vite un vrai chevalier, comme moi...
 La princesse Yoyo est en âge de se marier, à présent...
  
 Ne la déçois pas...[end]</data>
@@ -744,7 +744,7 @@ Princesse Yoyo... mmh mmh...[end]</data>
         <refs>
             <ref>0xd70</ref>
         </refs>
-        <data>Rush: Sur Campbell, le continent bleu !! Pas vrai !! Byuu !![end]</data>
+        <data>Rush: Sur Campbell, le continent bleu !! Pas vrai, Byuu !![end]</data>
     </text>
     <text>
         <refs>
@@ -786,7 +786,7 @@ Mais ça, il vaudrait peut-être mieux éviter.
         <refs>
             <ref>0x1327</ref>
         </refs>
-        <data>Taicho: Byuu... l'``Organisation'', tu connais, affirmatif ?[end]</data>
+        <data>Taicho: Byuu... l'``Organisation'', tu connais, non ?[end]</data>
     </text>
     <text>
         <refs>
@@ -819,7 +819,7 @@ Mais ça, il vaudrait peut-être mieux éviter.
         <refs>
             <ref>0xc43</ref>
         </refs>
-        <data>Rush: Capitaine par intérim, hein... Ça a de l'allure... Byuu !![end]</data>
+        <data>Rush: Capitaine par intérim, hein... Ça a de l'allure, Byuu !![end]</data>
     </text>
     <text>
         <refs>
@@ -878,7 +878,7 @@ Tu veux parler aussi avec Ekaterina ?[end]</data>
 Ah... c'est que...
 L'auriez-vous... remarqué... ?
  
-Cette personne a le dos tout gluant de bave de dragon...[end]</data>
+Ce monsieur a le dos tout gluant de bave de dragon...[end]</data>
     </text>
     <text>
         <refs>
@@ -928,7 +928,7 @@ Hé hé hé...[end]</data>
         <refs>
             <ref>0xc14</ref>
         </refs>
-        <data>Taicho: Je suis mis à l'écart...
+        <data>Taicho: On me met à l'écart...
  
 Matelite... m'a rétrogradé numéro 3, affirmatif...[end]</data>
     </text>
@@ -1006,7 +1006,7 @@ Respectons donc les volontés de notre capitaine Sendak, qui semble sur le point
         <refs>
             <ref>0x281</ref>
         </refs>
-        <data>Byuu !! Fais de ton mieux comme capitaine par intérim !![end]</data>
+        <data>Byuu !! Sois à la hauteur, capitaine par intérim !![end]</data>
     </text>
     <text>
         <refs>
@@ -1024,7 +1024,7 @@ Respectons donc les volontés de notre capitaine Sendak, qui semble sur le point
         <refs>
             <ref>0x167e</ref>
         </refs>
-        <data>Il y a une rangée de boutons. Lequel appuyer ?[end]</data>
+        <data>Il y a une rangée de boutons. Sur lequel appuyer ?[end]</data>
     </text>
     <text>
         <refs>

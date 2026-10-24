@@ -46,8 +46,8 @@ donner des ordres aux dragons.[end1]</data>
         <refs>
             <ref>0xc5</ref>
         </refs>
-        <data>Si vous faites fondre le pont de glace avec la magie du
-feu, l'ennemi sera incapable de se déplacer !![end1][end]</data>
+        <data>Faites fondre le pont de glace par la magie du
+feu, et l'ennemi sera bloqué !![end1][end]</data>
     </text>
     <text>
         <refs>
@@ -74,8 +74,8 @@ Attention à la magie du feu.[end1][end]</data>
         <refs>
             <ref>0x26b</ref>
         </refs>
-        <data>Les ponts de glace peuvent être fondus avec la magie du
-feu, alors faites attention !![end1][end]</data>
+        <data>La magie du feu fait fondre les ponts de
+glace, alors attention ![end1][end]</data>
     </text>
     <text>
         <refs>
@@ -95,8 +95,8 @@ avec toi...[end1][end]</data>
         <refs>
             <ref>0x3c6</ref>
         </refs>
-        <data>N'isolez pas votre dragon !!
-Donnez-lui des ordres !![end1][end]</data>
+        <data>Ne laissez pas votre dragon seul !
+Donnez-lui des ordres ![end1][end]</data>
     </text>
     <text>
         <refs>
@@ -122,12 +122,12 @@ Donnez-lui des ordres !![end1][end]</data>
             <ref>0x4bd</ref>
         </refs>
         <data>Le roi de Kana... !![0xfc][0x30]
-Les troupes des généraux de Granbelos sont entrées !![end1][end]</data>
+Les troupes du général de Granbelos sont entrées !![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4c9</ref>
         </refs>
-        <data>Matelite: Malheur !! Il faut protéger le roi de Kana !![end1][end]</data>
+        <data>Matelite: Malheur !! Il faut protéger le roi !![end1][end]</data>
     </text>
 </texts>

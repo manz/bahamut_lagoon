@@ -37,7 +37,7 @@ et nouvel empereur[end]</data>
         <refs>
             <ref>0x327</ref>
         </refs>
-        <data>Truth: Je n'en peux plus... Capitaine Byuu ! Le Dragon Sacré déverse sa colère sur nous...[end]</data>
+        <data>Truth: Je n'en peux plus,capitaine ! Le Dragon Sacré déverse sa colère sur nous...[end]</data>
     </text>
     <text>
         <refs>
@@ -165,7 +165,7 @@ Puis-je encore y changer quelque chose...[end]</data>
         </refs>
         <data>Je le sais... Je suis le coeur faible...
  
-Je ne peux pas recevoir ce que vous ressentez,vous,les Dragons Sacrés...[end]</data>
+Je ne peux pas porter ce que vous ressentez,vous,les Dragons Sacrés...[end]</data>
     </text>
     <text window="none">
         <refs>
@@ -209,7 +209,7 @@ Ne perdez pas courage... Vous n'êtes plus seule...[end]</data>
         </refs>
         <data>Sauzer: La colère des Dragons Sacrés...
  
-Cette colère... c'est à moi de la recevoir...
+Cette colère... c'est à moi de l'endurer...
  
 Arrachez-moi le coeur d'Hypérion...
  

@@ -25,16 +25,16 @@ Matelite est là !![end1][end]</data>
             <ref>0x48</ref>
         </refs>
         <data>En avant, tout le monde !![0xfc][0x18]
-Montrez les fruits de votre
-entraînement !![end1][end]</data>
+Montrez ce que l'entraînement
+vous a appris !![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4f</ref>
         </refs>
-        <data>Matelite: Si on vainc un ennemi avec une
-attaque indirecte, on ne touche que la
-moitié de l'argent !![end1][end]</data>
+        <data>Matelite: Un ennemi achevé par une
+attaque à distance ne rapporte que la
+moitié de l'argent ![end1][end]</data>
     </text>
     <text>
         <refs>

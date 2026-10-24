@@ -57,7 +57,7 @@ Il reste encore un général ennemi, alors fais attention ![end]</data>
         <refs>
             <ref>0x66a</ref>
         </refs>
-        <data>Palparos: La princesse m'a si souvent parlé de toi... Capitaine de l'Escadron Dragon de Kana, Byuu.
+        <data>Palparos: La princesse m'a si souvent parlé de toi... Byuu, capitaine de l'Escadron Dragon de Kana.
  
 ...Je te rends... la princesse.[end]</data>
     </text>
@@ -108,7 +108,7 @@ Il reste encore un général ennemi, alors fais attention ![end]</data>
         <refs>
             <ref>0x3ab</ref>
         </refs>
-        <data>Matelite: Oh... Princesse Yoyo... La princesse est saine et sauve ! Pas de temps à perdre !
+        <data>Matelite: Oh... Princesse Yoyo... Elle est saine et sauve ! Pas de temps à perdre !
  
 Allez, Byuu. Prends-la par les pieds ![end]</data>
     </text>
@@ -137,7 +137,7 @@ Vous n'arrivez pas à dormir ?[end]</data>
         <refs>
             <ref>0x447</ref>
         </refs>
-        <data>Yoyo: ...Vous partez voir le Dragon Sacré, n'est-ce pas ?[end]</data>
+        <data>Yoyo: ...Vous allez voir le Dragon Sacré ?[end]</data>
     </text>
     <text>
         <refs>

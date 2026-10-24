@@ -25,15 +25,15 @@ C'est maintenant que je vais montrer mes talents de commandant ![end]</data>
         <refs>
             <ref>0x2cc</ref>
         </refs>
-        <data>Catastrophe, affirmatif ! Moi qui vais justement rencontrer la princesse Yoyo ![end]</data>
+        <data>Catastrophe ! Moi qui vais justement rencontrer la princesse Yoyo, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2c3</ref>
         </refs>
-        <data>Byuu, toi aussi, soigne ton allure, affirmatif.
- 
-Tu es tout poisseux de bave de dragon.[end]</data>
+        <data>Byuu, toi aussi, soigne ton allure.
+
+Tu es tout poisseux de bave de dragon, affirmatif.[end]</data>
     </text>
     <text window="none">
         <refs>
@@ -153,7 +153,7 @@ Tu es tout poisseux de bave de dragon.[end]</data>
         <refs>
             <ref>0x48c</ref>
         </refs>
-        <data>Truth: Comme je le craignais, la princesse Yoyo faisait des cauchemars il y a un instant encore.[end]</data>
+        <data>Truth: Je le craignais : la princesse Yoyo faisait encore des cauchemars à l'instant.[end]</data>
     </text>
     <text>
         <refs>
@@ -297,13 +297,13 @@ Ce Taicho ! Il m'a pris la meilleure place. Il ne faut pas le sous-estimer, celu
         <refs>
             <ref>0x6fb</ref>
         </refs>
-        <data>Sendak: Non... Princesse, ceci est le monde réel.[end]</data>
+        <data>Sendak: Non... Princesse, tout ceci est bien réel.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x70e</ref>
         </refs>
-        <data>Matelite: À propos, princesse Yoyo !
+        <data>Matelite: À propos, princesse !
  
 On m'a dit que vous vous agitiez beaucoup dans votre sommeil.
  
@@ -360,7 +360,7 @@ De toute façon, maintenant, on sera toujours ensemble ![end]</data>
         <refs>
             <ref>0xf2d</ref>
         </refs>
-        <data>Yoyo: Finalement... ... Écoutez-moi tous, s'il vous plaît.[end]</data>
+        <data>Yoyo: Finalement... Écoutez-moi tous, s'il vous plaît.[end]</data>
     </text>
     <text>
         <refs>
@@ -382,7 +382,7 @@ Oui, ce n'est qu'un rêve, mais j'ai l'impression qu'il a un sens particulier...
         <refs>
             <ref>0xf58</ref>
         </refs>
-        <data>Matelite: Écouter la princesse Yoyo, c'est mon plus grand plaisir ![end]</data>
+        <data>Matelite: Vous écouter, princesse, c'est mon plus grand plaisir ![end]</data>
     </text>
     <text>
         <refs>
@@ -400,7 +400,7 @@ Oui, ce n'est qu'un rêve, mais j'ai l'impression qu'il a un sens particulier...
         <refs>
             <ref>0xf7e</ref>
         </refs>
-        <data>Yoyo: Dans mon rêve, le Dragon Sacré Vritra m'a dit...[end]</data>
+        <data>Yoyo: Dans mon rêve, Vritra m'a dit...[end]</data>
     </text>
     <text>
         <refs>
@@ -412,7 +412,7 @@ Oui, ce n'est qu'un rêve, mais j'ai l'impression qu'il a un sens particulier...
         <refs>
             <ref>0xf9d</ref>
         </refs>
-        <data>Matelite: Quoi, Dragonnière ?! La princesse Yoyo, Dragonnière ![end]</data>
+        <data>Matelite: Quoi, Dragonnière ?! Notre princesse, Dragonnière ![end]</data>
     </text>
     <text>
         <refs>
@@ -438,7 +438,7 @@ Oui, ce n'est qu'un rêve, mais j'ai l'impression qu'il a un sens particulier...
         </refs>
         <data>Matelite: ... Alors les Dragons Sacrés sont avec nous !
  
-Voilà pourquoi le Dragon Sacré Vritra a vaincu Sauzer ! Désormais, l'Empire de Granbelos n'est plus de taille ![end]</data>
+Voilà pourquoi Vritra a vaincu Sauzer ! Désormais, l'Empire de Granbelos n'est plus de taille ![end]</data>
     </text>
     <text>
         <refs>
@@ -460,7 +460,7 @@ Voilà pourquoi le Dragon Sacré Vritra a vaincu Sauzer ! Désormais, l'Empire d
  
 Ce n'était sans doute pas qu'un rêve.
  
-C'est le coeur du Dragon Sacré Vritra qui vous a parlé.[end]</data>
+C'est le coeur de Vritra qui vous a parlé.[end]</data>
     </text>
     <text>
         <refs>
@@ -543,7 +543,7 @@ Mais quand ça ne va vraiment pas, quand votre coeur ne cesse de trembler, tout 
         </refs>
         <data>Yoyo: Hornet, s'il vous plaît.
  
-Pourriez-vous faire lentement le tour du ciel de Campbell ?
+Pourriez-vous survoler lentement tout Campbell ?
  
 Je voudrais voir ce qui se passe dans le lagon.[end]</data>
     </text>
@@ -583,7 +583,7 @@ Mais je ne peux pas le dire. Je ne veux pas passer pour un vieux grincheux...[en
         <refs>
             <ref>0x8b0</ref>
         </refs>
-        <data>Yoyo: Matelite, toi, surveille bien Campbell. Si c'est toi qui surveilles, je suis rassurée ![end]</data>
+        <data>Yoyo: Matelite, toi, surveille bien Campbell. Avec toi aux aguets, je suis tranquille ![end]</data>
     </text>
     <text>
         <refs>
@@ -614,7 +614,7 @@ Mais je ne peux pas le dire. Je ne veux pas passer pour un vieux grincheux...[en
         <refs>
             <ref>0x493</ref>
         </refs>
-        <data>Truth: Vous l'avez sans doute remarqué, mais Bikebake a un comportement étrange...[end]</data>
+        <data>Truth: Vous l'avez sans doute remarqué, mais Bikebake n'est pas dans son assiette...[end]</data>
     </text>
     <text>
         <refs>
@@ -674,13 +674,13 @@ Devenir Dragonnière, tout ça... je ne comprends pas bien...[end]</data>
         <refs>
             <ref>0x98e</ref>
         </refs>
-        <data>Et puis, le Dragon Sacré Vritra m'a dit aussi ceci.[end]</data>
+        <data>Et puis, le Dragon Sacré Vritra m'a dit autre chose.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x999</ref>
         </refs>
-        <data>Même en réunissant le pouvoir des Dragons Sacrés, devenir Dragonnière dépendrait de moi. De si j'en suis digne ou non...[end]</data>
+        <data>Même en réunissant le pouvoir des Dragons Sacrés, devenir Dragonnière dépendrait de moi. Selon que j'en suis digne ou non...[end]</data>
     </text>
     <text>
         <refs>
@@ -770,7 +770,7 @@ Ah non, non, non... Tout le monde va me détester... Je ne veux pas devenir un v
         </refs>
         <data>Yoyo: Je veux connaître la légende.
  
-La légende des Dragons Sacrés, transmise à Kana. Sauzer la connaissait, mais il n'a jamais voulu me la raconter...[end]</data>
+La légende des Dragons Sacrés, celle de Kana. Sauzer la connaissait, mais il n'a jamais voulu me la raconter...[end]</data>
     </text>
     <text>
         <refs>
@@ -858,7 +858,7 @@ L'armée impériale est partout.[end]</data>
         <refs>
             <ref>0x220</ref>
         </refs>
-        <data>Matelite: Princesse Yoyo...[end]</data>
+        <data>Matelite: Princesse...[end]</data>
     </text>
     <text>
         <refs>
@@ -870,7 +870,7 @@ L'armée impériale est partout.[end]</data>
         <refs>
             <ref>0x23d</ref>
         </refs>
-        <data>Matelite: C'est juste, princesse Yoyo !
+        <data>Matelite: Bien vu, princesse !
  
 Allez, Byuu ! Préparons-nous au combat ![end]</data>
     </text>
@@ -878,7 +878,7 @@ Allez, Byuu ! Préparons-nous au combat ![end]</data>
         <refs>
             <ref>0x269</ref>
         </refs>
-        <data>Matelite: Mais dites-moi, princesse Yoyo...
+        <data>Matelite: Mais dites-moi, princesse...
  
 Où avez-vous appris les bases de la stratégie ?[end]</data>
     </text>

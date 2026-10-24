@@ -19,9 +19,9 @@ la légende des Dragons Sacrés...[end1]</data>
         <refs>
             <ref>0x106</ref>
         </refs>
-        <data>Et puis la Porte de la Nouvelle Ère
-s'est ouverte, si je me souviens
-bien...[end1]</data>
+        <data>Et puis s'est ouverte la porte
+d'une ère nouvelle, si je me
+souviens bien...[end1]</data>
     </text>
     <text window="none" align="steps">
         <refs>
@@ -35,8 +35,8 @@ bien...[end1]</data>
         <refs>
             <ref>0x182</ref>
         </refs>
-        <data>Nous qui ne voyons pas demain,
-nous n'avons aucun moyen de
+        <data>Nous qui ignorons tout de demain,
+comment pourrions-nous
 le savoir... ...mais...[end1]</data>
     </text>
     <text window="none" align="steps">
@@ -66,8 +66,8 @@ faim, hein...[end1]</data>
             <ref>0x25e</ref>
         </refs>
         <data>``Vivre'', en fait,
-c'est quelque chose
-de vraiment très difficile.[end1]</data>
+c'est drôlement
+difficile.[end1]</data>
     </text>
     <text window="none" align="steps">
         <refs>
@@ -80,7 +80,7 @@ compris, un tout petit peu...[end1]</data>
         <refs>
             <ref>0x2c3</ref>
         </refs>
-        <data>...Ah oui, c'est vrai.[end1]</data>
+        <data>...Ah oui, au fait.[end1]</data>
     </text>
     <text window="none" align="steps">
         <refs>

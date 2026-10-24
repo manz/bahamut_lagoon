@@ -11,7 +11,7 @@
             <ref>0x5d9</ref>
             <ref>0x60c</ref>
         </refs>
-        <data>Bikebake: Byuu, grand frère...
+        <data>Bikebake: Byuu...
 S'il te plaît, aide-moi !
  Je vais t'aider
  Raconte-moi d'abord[end1]</data>
@@ -28,10 +28,10 @@ Rush, moi et les autres, avant que tu nous recrutes dans l'Escadron Dragon, on �
  
 Je voudrais une maison où vivre avec Rush et Truth.
  
-Alors aide-moi, grand frère.
- 
- 
-Et puis, et puis... c'est un secret pour Rush et les autres.[end]</data>
+Alors aide-moi, Byuu.
+
+
+Et puis, et puis... ne dis rien à Rush et aux autres.[end]</data>
     </text>
     <text>
         <refs>
@@ -110,13 +110,13 @@ Dans la chambre de Truth, je mettrai une grande bibliothèque.
  
 Rush... Tiens ? Qu'est-ce qu'il voudrait, Rush ?
  
-Dans ma chambre... tu devines, grand frère. ...Miam miam.[end]</data>
+Dans ma chambre... tu devines, Byuu. ...Miam miam.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x69c</ref>
         </refs>
-        <data>Barclay: ...C'est pour me plaindre, mais
+        <data>Barclay: ...J'ai besoin de râler,
 vous voulez bien m'écouter ?
  Vas-y !
  Je suis occupé, là...[end1]</data>
@@ -226,7 +226,7 @@ Il faut à tout prix rentrer vivants à Orelus (gratte gratte) ! Il y a tant à 
  
 ``Nous sommes les lanciers ! Lan-lan-lanciers ! Même de loin, lance lance !'' Le faire à Altair, une première mondiale... Je ne peux pas résister à la tentation...
  
-Mais je suis le pire... Je prierai avec Ruki... Serai-je pardonné... ?[end]</data>
+Mais je suis minable... Je prierai avec Ruki... Serai-je pardonné... ?[end]</data>
     </text>
     <text>
         <refs>
@@ -251,7 +251,7 @@ Un jour, je veux pouvoir dire mon nom haut et fort, sans rougir. Je vais faire d
         </refs>
         <data>Rush: Byuu !!
  
-Personne ne m'écoute ! Ils disent qu'ils se battront comme il faut une fois partis en mission, alors qu'on les laisse tranquilles. Moi qui venais leur annoncer l'objectif de l'Armée de Libération d'Orelus ![end][end]</data>
+Personne ne m'écoute ! Ils disent qu'ils se battront comme il faut une fois partis en mission, alors qu'on les laisse tranquilles. Moi qui venais leur annoncer l'objectif de l'Armée du salut d'Orelus ![end][end]</data>
     </text>
     <text>
         <refs>
@@ -344,7 +344,7 @@ l'a... l'amour naît entre eux...
         <refs>
             <ref>0x6df</ref>
         </refs>
-        <data>(Ah... Byuu s'est fait larguer, à ce qu'il paraît... Du coup, il essaie de gâcher le bonheur des autres...)[end]</data>
+        <data>(Ah... Byuu s'est fait larguer, paraît-il... Du coup, il essaie de gâcher le bonheur des autres...)[end]</data>
     </text>
     <text>
         <refs>
@@ -400,9 +400,9 @@ C'est bizarre~... Les filles ne m'adressent plus la parole~... Snif... J'ai rien
         <refs>
             <ref>0x84c</ref>
         </refs>
-        <data>Frunze: Je suis... le pire.
- 
-En tant qu'être humain... je suis le pire. Mais c'était grisant...[end]</data>
+        <data>Frunze: Je suis... minable.
+
+Le dernier des hommes... minable. Mais c'était grisant...[end]</data>
     </text>
     <text window="none">
         <refs>

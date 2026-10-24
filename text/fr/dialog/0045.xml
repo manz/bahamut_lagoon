@@ -17,13 +17,13 @@ la terre du désert[end1]</data>
         <refs>
             <ref>0x1c4</ref>
         </refs>
-        <data>Taicho: Nous avons aussi vaincu le Général Palparos,affirmatif... C'est ça,la guerre... affirmatif...[end]</data>
+        <data>Taicho: Nous avons aussi vaincu le Général Palparos... C'est ça,la guerre...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1dc</ref>
         </refs>
-        <data>Matelite: Byuu... Je compte sur toi pour te renseigner sur le Dragon Sacré ! Nous,nous retournons sur Fareneit !![end]</data>
+        <data>Matelite: Byuu... Trouve des infos sur le Dragon Sacré,je compte sur toi ! Nous,nous retournons sur Fareneit !![end]</data>
     </text>
     <text>
         <refs>
@@ -37,7 +37,7 @@ la terre du désert[end1]</data>
         </refs>
         <data>Rush: Ils sont partis...
  
-Yoyo... ira-t-elle mieux...
+Yoyo... elle va s'en remettre ?
  
 Ça serait sûrement mieux si c'était nous qui restions à ses côtés,plutôt que Matelite.[end]</data>
     </text>
@@ -53,7 +53,7 @@ C'est le dessert,pardi...[end]</data>
         <refs>
             <ref>0x779</ref>
         </refs>
-        <data>Truth: Sur Dafira... je n'entends pas de très bonnes rumeurs. Et aucun guerrier des Rebelles ne vient de Dafira...[end]</data>
+        <data>Truth: Dafira... n'a pas très bonne réputation. Et aucun guerrier des Rebelles n'en est originaire...[end]</data>
     </text>
     <text>
         <refs>
@@ -220,7 +220,7 @@ C'est-à-dire,euh,euh... c'est un certain Byuu qui tient la bourse. On met ça s
             <ref>0x755</ref>
             <ref>0xabd</ref>
         </refs>
-        <data>Attrape le Roi !! Je compte sur toi,c'est ta responsabilité !![end]</data>
+        <data>Attrape le Roi !! Je compte sur toi,tout repose sur toi !![end]</data>
     </text>
     <text>
         <refs>

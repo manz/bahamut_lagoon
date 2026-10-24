@@ -16,7 +16,7 @@
         <refs>
             <ref>0x82</ref>
         </refs>
-        <data>Taicho: Ah... Ce sont... des hommes-dragons, affirmatif ?[end]</data>
+        <data>Taicho: Ah... Ce sont... des hommes-dragons ?[end]</data>
     </text>
     <text>
         <refs>
@@ -40,7 +40,7 @@
         <refs>
             <ref>0x1e2</ref>
         </refs>
-        <data>Matelite: Nooooon !! Re... regardez ça !![end]</data>
+        <data>Matelite: Ouoooooh !! Re... regardez ça !![end]</data>
     </text>
     <text>
         <refs>
@@ -102,7 +102,7 @@
         </refs>
         <data>Yoyo: Mais... Byuu.
  
-Tu restes, malgré tout, quelqu'un de précieux pour moi.[end]</data>
+Tu restes, malgré tout, quelqu'un de cher pour moi.[end]</data>
     </text>
     <text>
         <refs>
@@ -116,7 +116,7 @@ Que des sentiments qui traversent le ciel pour arriver jusqu'à quelqu'un... ça
         <refs>
             <ref>0x38c</ref>
         </refs>
-        <data>Yoyo: Rien que pour cette fois... donne-moi... de la force ! Comme à cette époque-là ![end]</data>
+        <data>Yoyo: Rien que pour cette fois... donne-moi... de la force ! Comme autrefois ![end]</data>
     </text>
     <text window="none">
         <refs>
@@ -161,7 +161,7 @@ je peux m'accrocher plus fort ?
         <refs>
             <ref>0x4bf</ref>
         </refs>
-        <data>Sendak: Alexandre est entré dans la princesse !?[end]</data>
+        <data>Sendak: Alexandre est dans le cœur de la princesse !?[end]</data>
     </text>
     <text>
         <refs>
@@ -169,7 +169,7 @@ je peux m'accrocher plus fort ?
         </refs>
         <data>Palparos: Alors...
  
-les Dragons Sacrés ont commencé à se battre à l'intérieur de Yoyo !?[end]</data>
+les Dragons Sacrés se battent en Yoyo !?[end]</data>
     </text>
     <text>
         <refs>
@@ -181,7 +181,7 @@ les Dragons Sacrés ont commencé à se battre à l'intérieur de Yoyo !?[end]</
         <refs>
             <ref>0x4f0</ref>
         </refs>
-        <data>Matelite: Princesse Yoyo ! Princesse Yoyo ![end]</data>
+        <data>Matelite: Princesse Yoyo ! Princesse ![end]</data>
     </text>
     <text>
         <refs>
@@ -193,7 +193,7 @@ les Dragons Sacrés ont commencé à se battre à l'intérieur de Yoyo !?[end]</
         <refs>
             <ref>0x525</ref>
         </refs>
-        <data>Homme-dragon: Quelle jeune fille forte... Tu as bien tenu bon... Tout va bien, maintenant...[end]</data>
+        <data>Homme-dragon: Tu es forte, petite... Tu as bien résisté... Tout va bien, maintenant...[end]</data>
     </text>
     <text>
         <refs>
@@ -241,7 +241,7 @@ les Dragons Sacrés ont commencé à se battre à l'intérieur de Yoyo !?[end]</
         <refs>
             <ref>0x74b</ref>
         </refs>
-        <data>Bahamut: Il semble que ce soient là les seuls hommes-dragons survivants... Alexandre est dans la jeune fille...
+        <data>Bahamut: Il ne reste, semble-t-il, que ces hommes-dragons... Alexandre est en cette jeune fille...
  
 Mais le combat a cessé...
  
@@ -251,7 +251,7 @@ Ce qui reste, c'est la colère et la haine d'Alexandre... et sans doute aussi sa
         <refs>
             <ref>0x758</ref>
         </refs>
-        <data>Palparos: Alors, et Yoyo !?[end]</data>
+        <data>Palparos: Et Yoyo, alors !?[end]</data>
     </text>
     <text>
         <refs>
@@ -293,9 +293,9 @@ Ce qui reste, c'est la colère et la haine d'Alexandre... et sans doute aussi sa
         <refs>
             <ref>0x7e0</ref>
         </refs>
-        <data>Bahamut: Allons...
- 
-Je viens à peine de renaître... Demain... je ne le vois pas...[end]</data>
+        <data>Bahamut: Qui sait...
+
+Je viens à peine de renaître... Demain... je ne le vois pas encore...[end]</data>
     </text>
     <text>
         <refs>
@@ -319,13 +319,13 @@ Orelus vous attend. Rentrez. Retournez dans votre monde.[end]</data>
         </refs>
         <data>Bahamut: Byuu...
  
-Dans le cœur de Yoyo, tu tenais une place très précieuse.[end]</data>
+Dans le cœur de Yoyo, tu tenais une très grande place.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x87e</ref>
         </refs>
-        <data>Bahamut: Mais c'est le toi de ses souvenirs... Rien qu'un souvenir, qui finira un jour par s'effacer...[end]</data>
+        <data>Bahamut: Mais ce n'est que toi dans ses souvenirs... Rien qu'un souvenir, qui finira un jour par s'effacer...[end]</data>
     </text>
     <text>
         <refs>
@@ -335,7 +335,7 @@ Dans le cœur de Yoyo, tu tenais une place très précieuse.[end]</data>
  
 Nul ne peut résister au temps...
  
-Va, Byuu... Avance en ne regardant que devant toi...
+Va, Byuu... Avance sans regarder en arrière...
  
 Le seul temps que tu puisses vivre, c'est l'instant présent, qui déferle sans cesse, encore et encore...[end]</data>
     </text>
@@ -367,7 +367,7 @@ Le seul temps que tu puisses vivre, c'est l'instant présent, qui déferle sans 
         <refs>
             <ref>0x908</ref>
         </refs>
-        <data>Matelite: Ça faisait une éternité que je n'avais pas dit ce mot-là ! Que c'est gênant ![end]</data>
+        <data>Matelite: Ça faisait une éternité que je n'avais pas dit ce mot-là ! J'en rougis ![end]</data>
     </text>
     <text>
         <refs>

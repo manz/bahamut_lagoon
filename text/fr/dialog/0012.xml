@@ -125,7 +125,7 @@ En gros, Dooonfan, le dur au coeur pur, doit aller séduire [0xb0][0xaf][0xaf] f
         <refs>
             <ref>0x2c8</ref>
         </refs>
-        <data>Je suis bien trop célèbre, je ne peux pas y aller ! Taicho, je te confie l'espionnage ![end]</data>
+        <data>Je suis bien trop célèbre, je ne peux pas y aller ! Taicho, c'est toi qui iras espionner ![end]</data>
     </text>
     <text>
         <refs>
@@ -185,7 +185,7 @@ Avec les mots tendres de Dooonfan, je leur ai soutiré des informations...[end]<
  
 Oui...
  
-... aussi un amour éphémère avec un charmant espion...[end]</data>
+... mais aussi un amour éphémère avec un charmant espion...[end]</data>
     </text>
     <text>
         <refs>
@@ -198,7 +198,7 @@ Oui...
             <ref>0xa5c</ref>
             <ref>0xa7e</ref>
         </refs>
-        <data>Donfan: Hmph... Quelle femme c'était...[end]</data>
+        <data>Donfan: Hé... C'était une sacrée femme...[end]</data>
     </text>
     <text>
         <refs>
@@ -206,7 +206,7 @@ Oui...
         </refs>
         <data>Ensuite, je me suis infiltré dans le château de Granbelos...
  
-Hmph... une mission d'espion dangereuse se mène en douceur... avec délicatesse... comme on traite une femme. Pour Dooonfan, ce fut un jeu d'enfant...[end]</data>
+Hé... une mission d'espion dangereuse se mène en douceur... avec délicatesse... comme on traite une femme. Pour Dooonfan, ce fut un jeu d'enfant...[end]</data>
     </text>
     <text>
         <refs>
@@ -257,7 +257,7 @@ Si ce que le général Palparos a dit est vrai, ça va très mal tourner... ![en
             <ref>0x752</ref>
             <ref>0x555</ref>
         </refs>
-        <data>Sendak: L'Empereur Sauzer a appris le coeur des Dragons Sacrés... Mais... comment... ? En l'apprenant... il est tombé malade, et il ne peut plus bouger...
+        <data>Sendak: L'Empereur Sauzer a découvert le coeur des Dragons Sacrés... Mais... comment... ? Et en le découvrant... il est tombé malade, et il ne peut plus bouger...
  
 Mais... dès qu'il pourra bouger... il se mettra sûrement à chercher les Dragons Sacrés ![end]</data>
     </text>
@@ -327,21 +327,21 @@ L'Empire était en plein chaos, affirmatif ![end]</data>
         <refs>
             <ref>0x8b0</ref>
         </refs>
-        <data>Je me suis mêlé à la foule du discours, et personne ne m'a remarqué !
+        <data>Je me suis glissé dans la foule du discours, et personne ne m'a remarqué !
  
 Le peuple de l'Empire était venu, inquiet de la maladie de l'Empereur Sauzer !
  
 Mais...
  
-Parmi les généraux de Granbelos, certains se réjouissaient de sa maladie ! Le général à droite, un certain Gudolf, m'a paru louche, affirmatif !
- 
-Gudolf est le chef de ce Lestat...[end]</data>
+Parmi les généraux de Granbelos, certains se réjouissaient de sa maladie ! Le général à droite, un certain Gudolf, m'a paru louche !
+
+Gudolf est le chef de ce Lestat, affirmatif...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8d2</ref>
         </refs>
-        <data>Taicho: Sauzer a appris le coeur des Dragons Sacrés ! Comme la princesse Yoyo ! Vous vous souvenez ? Les paroles de Sauzer... c'était à peu près ceci, affirmatif...[end]</data>
+        <data>Taicho: Sauzer connaît le coeur des Dragons Sacrés ! Comme la princesse Yoyo ! Vous vous souvenez ? Les paroles de Sauzer... c'était à peu près ceci, affirmatif...[end]</data>
     </text>
     <text>
         <refs>
@@ -355,7 +355,7 @@ Gudolf est le chef de ce Lestat...[end]</data>
             <ref>0x8f2</ref>
             <ref>0x973</ref>
         </refs>
-        <data>Taicho: Sauzer a appris d'une façon ou d'une autre le coeur des Dragons Sacrés ! Il se passe quelque chose... Je n'en sais pas plus, affirmatif ![end]</data>
+        <data>Taicho: Sauzer a découvert d'une façon ou d'une autre le coeur des Dragons Sacrés ! Il se passe quelque chose... Je n'en sais pas plus, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
@@ -383,7 +383,7 @@ Je me suis infiltré dans le château de Granbelos pour chercher Lestat, affirma
         <refs>
             <ref>0xf06</ref>
         </refs>
-        <data>Taicho: En vérité... je cache encore une information, affirmatif... Je ne peux pas la dire à tout le monde... Mais je ne peux pas non plus la garder pour moi seul...[end]</data>
+        <data>Taicho: À vrai dire... je cache encore une information... Je ne peux pas en parler à tout le monde... Mais je ne peux pas non plus la garder pour moi seul, affirmatif...[end]</data>
     </text>
     <text>
         <refs>
@@ -522,7 +522,7 @@ Byuu... je passe devant, affirmatif ![end]</data>
         <refs>
             <ref>0xf20</ref>
         </refs>
-        <data>Taicho: Réveille la princesse Yoyo, affirmatif... Murmure-lui doucement à l'oreille...[end]</data>
+        <data>Taicho: Réveille la princesse Yoyo... Murmure-lui doucement à l'oreille, affirmatif...[end]</data>
     </text>
     <text window="none">
         <refs>
@@ -573,7 +573,7 @@ Allons sur la terrasse.[end]</data>
         <refs>
             <ref>0x134a</ref>
         </refs>
-        <data>Taicho: ... Je ne dirai rien à personne, affirmatif... J'y vais...[end]</data>
+        <data>Taicho: ... Je ne dirai rien à personne... J'y vais, affirmatif...[end]</data>
     </text>
     <text>
         <refs>
@@ -617,7 +617,7 @@ Regarde, on pourrait presque toucher le ciel...[end]</data>
         <refs>
             <ref>0x1354</ref>
         </refs>
-        <data>Taicho: ... C'était bien ? Je t'en prie, continue, affirmatif...[end]</data>
+        <data>Taicho: ... C'était bien ? Ne te gêne pas pour moi, continue, affirmatif...[end]</data>
     </text>
     <text>
         <refs>
@@ -631,9 +631,9 @@ Regarde, on pourrait presque toucher le ciel...[end]</data>
         <refs>
             <ref>0x14f4</ref>
         </refs>
-        <data>Taicho: Byuu... désolé de vous déranger ! Mais... je dois vous parler, affirmatif !
- 
-Au château de Granbelos, j'ai fait une promesse d'homme à homme...[end]</data>
+        <data>Taicho: Byuu... désolé de vous déranger ! Mais... je dois vous parler !
+
+Au château de Granbelos, j'ai fait une promesse d'homme à homme, affirmatif...[end]</data>
     </text>
     <text>
         <refs>
@@ -643,13 +643,13 @@ Au château de Granbelos, j'ai fait une promesse d'homme à homme...[end]</data>
  
 J'ai une information à transmettre à la princesse Yoyo...
  
-Byuu, toi aussi, tu l'entendras, exceptionnellement, affirmatif...[end]</data>
+Byuu, pour une fois, tu as le droit d'écouter, affirmatif...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x154a</ref>
         </refs>
-        <data>En sortant de la chambre du général Gudolf, je me suis enfoncé encore plus loin dans le château de Granbelos... Il y avait là une petite pièce, affirmatif...
+        <data>En sortant de la chambre du général Gudolf, je me suis enfoncé encore plus loin dans le château de Granbelos... Il y avait là une petite pièce...
  
 Et dans cette pièce, il y avait...
  
@@ -659,13 +659,13 @@ Et dans cette pièce, il y avait...
         <refs>
             <ref>0x1337</ref>
         </refs>
-        <data>Taicho: Mieux vaut la laisser tranquille pour l'instant, affirmatif... Tu n'as pas vu... les yeux de la princesse Yoyo... ?[end]</data>
+        <data>Taicho: Laissons-la tranquille pour l'instant... Tu n'as pas vu... son regard... ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf2b</ref>
         </refs>
-        <data>Taicho: ... Le métier d'espion est dur, affirmatif...[end]</data>
+        <data>Taicho: ... C'est dur, la vie d'espion...[end]</data>
     </text>
     <text>
         <refs>

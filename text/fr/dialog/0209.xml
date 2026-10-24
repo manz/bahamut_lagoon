@@ -25,7 +25,7 @@ Qui donc... parmi eux... ?[end]</data>
         <refs>
             <ref>0x272</ref>
         </refs>
-        <data>Frederica: Tout le monde ne s'inquiète que pour Princesse Yoyo... Vous êtes le seul à venir me voir, Byuu...
+        <data>Frederica: Tout le monde ne s'inquiète que pour la princesse Yoyo... Vous êtes le seul à venir me voir, Byuu...
  
 Tant pis... moi... j'ai mes... mes m-médicaments...[end]</data>
     </text>
@@ -46,13 +46,13 @@ Tant pis... moi... j'ai mes... mes m-médicaments...[end]</data>
         <refs>
             <ref>0x2dc</ref>
         </refs>
-        <data>Ces derniers temps... j'entends des gémissements dans la chambre de Princesse Yoyo. Qu'est-ce que ça peut bien être... Je me demande... si elle parle avec les Dragons Sacrés...[end]</data>
+        <data>Ces derniers temps... j'entends des gémissements dans la chambre de la princesse Yoyo. Qu'est-ce que ça peut bien être... Je me demande... si elle parle avec les Dragons Sacrés...[end]</data>
     </text>
     <text window="none">
         <refs>
             <ref>0x34b</ref>
         </refs>
-        <data>Ohohoho... Beaucoup de sommeil pour garder une peau magnifique.
+        <data>Ohohoho... Bien dormir pour garder une peau de rêve.
  
 Il me faut encore plus de fans.[end]</data>
     </text>

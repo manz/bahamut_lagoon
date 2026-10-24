@@ -16,9 +16,7 @@
         <refs>
             <ref>0xb1</ref>
         </refs>
-        <data>Sendak: Dis donc... Taicho...
- 
-Il est drôlement remonté, non... ?[end]</data>
+        <data>Sendak: Dis donc... Taicho a l'air drôlement remonté, non... ?[end]</data>
     </text>
     <text>
         <refs>
@@ -29,7 +27,7 @@ Mahal aussi a été détruite par l'Empire... Et Taicho était, dit-on, le meill
  
 Le meilleur chevalier de Kana... Tout comme moi !
  
-Sa rage est la même que la nôtre ![end]</data>
+Il enrage autant que nous ![end]</data>
     </text>
     <text>
         <refs>
@@ -45,7 +43,7 @@ Qu'est-ce qu'on fait, Byuu... ? Il faudrait peut-être jouer salaud, nous aussi.
         <refs>
             <ref>0xdc</ref>
         </refs>
-        <data>Matelite: Que dis-tu là ! Maître Sendak ![end]</data>
+        <data>Matelite: Que dis-tu là, Maître Sendak ![end]</data>
     </text>
     <text>
         <refs>
@@ -71,7 +69,7 @@ C'est ça, un chevalier ![end]</data>
         <refs>
             <ref>0x243</ref>
         </refs>
-        <data>Truth: Capitaine Byuu !
+        <data>Truth: Capitaine !
  
 J'ai imaginé une tactique pour Mahal. Voulez-vous l'entendre ?[end]</data>
     </text>
@@ -121,7 +119,7 @@ Moi qui ai passé la nuit à y réfléchir...[end]</data>
             <ref>0x59c</ref>
             <ref>0x42c</ref>
         </refs>
-        <data>Merci beaucoup.[end]</data>
+        <data>Merci, à la prochaine ![end]</data>
     </text>
     <text>
         <refs>

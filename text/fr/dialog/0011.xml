@@ -20,7 +20,7 @@ Matelite, lui, est parti vendre ses armures signées... La princesse est avec lu
         <refs>
             <ref>0x7d5</ref>
         </refs>
-        <data>Sendak: ... Atchoum !! On part pour le lac souterrain ?[end]</data>
+        <data>Sendak: ... Atchoum ! On part pour le lac souterrain ?[end]</data>
     </text>
     <text>
         <refs>
@@ -47,7 +47,7 @@ Matelite, lui, est parti vendre ses armures signées... La princesse est avec lu
         <refs>
             <ref>0x7e9</ref>
         </refs>
-        <data>Bikebake: Rien que des champignons, c'est pas bon pour la santé... Alors je pêche la pieuvre ici ! Tu essaies, Byuu, grand frère ?[end]</data>
+        <data>Bikebake: Rien que des champignons, c'est pas bon pour la santé... Alors je pêche la pieuvre ici ! Tu essaies, Byuu ?[end]</data>
     </text>
     <text>
         <refs>
@@ -97,7 +97,7 @@ Et ensuite... et ensuite... ![end]</data>
         <refs>
             <ref>0x33c</ref>
         </refs>
-        <data>Donfan: Ah... Bonjour... Ruki ! Quelle belle matinée, encore aujourd'hui. Pourquoi, je me le demande... Oui... ce doit être parce que tu brilles comme le soleil levant... enfin, je crois.[end]</data>
+        <data>Donfan: Ah... Bonjour... Ruki ! Encore une bien belle matinée. Et pourquoi donc ? Oui... ce doit être parce que tu brilles comme le soleil levant... enfin, je crois.[end]</data>
     </text>
     <text window="none">
         <refs>
@@ -111,13 +111,13 @@ Mais pas besoin de le dire devant tout le monde ![end]</data>
         <refs>
             <ref>0x384</ref>
         </refs>
-        <data>Donfan: Ruki... je comprends ce que tu ressens, au point d'en souffrir... enfin, je crois.[end]</data>
+        <data>Donfan: Ruki... je ne sais que trop ce que tu ressens... enfin, je crois.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x399</ref>
         </refs>
-        <data>Que moi, Donfan, je sois tombé amoureux de la princesse de Kana, la princesse Yoyo...
+        <data>Que moi, Donfan, je sois tombé amoureux de Yoyo, princesse de Kana...
  
 Ce n'est pas un hasard, mais le destin d'un homme et d'une femme... enfin, je crois.[end]</data>
     </text>
@@ -148,7 +148,7 @@ Voyons, euh, comment dire... Que dirais-tu de Bikebake ? Ou de Byuu, là, à cô
         <refs>
             <ref>0x830</ref>
         </refs>
-        <data>Bikebake: Byuu, grand frère ! Miam miam... Un champignon ?[end]</data>
+        <data>Bikebake: Hé, Byuu ! Miam miam... Un champignon ?[end]</data>
     </text>
     <text>
         <refs>
@@ -211,13 +211,13 @@ Voyons, euh, comment dire... Que dirais-tu de Bikebake ? Ou de Byuu, là, à cô
         <refs>
             <ref>0xb0c</ref>
         </refs>
-        <data>Bikebake: Byuu, grand frère, pêche à côté de moi. Quand ça mord, suis la pieuvre : gauche, bas, droite, et quand elle se débat, tire d'un coup avec A ![end]</data>
+        <data>Bikebake: Byuu, viens pêcher à côté de moi. Quand ça mord, suis la pieuvre : gauche, bas, droite, et quand elle se débat, tire d'un coup avec A ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xbeb</ref>
         </refs>
-        <data>Et là, tire avec A !![end]</data>
+        <data>Et là, tire avec A ![end]</data>
     </text>
     <text>
         <refs>
@@ -229,7 +229,7 @@ Voyons, euh, comment dire... Que dirais-tu de Bikebake ? Ou de Byuu, là, à cô
         <refs>
             <ref>0xc19</ref>
         </refs>
-        <data>Pieuvre, pieuvre, qu'elle a l'air bonne !![end]</data>
+        <data>Miam, de la pieuvre, ça a l'air bon ![end]</data>
     </text>
     <text>
         <refs>
@@ -241,7 +241,7 @@ Voyons, euh, comment dire... Que dirais-tu de Bikebake ? Ou de Byuu, là, à cô
         <refs>
             <ref>0x240</ref>
         </refs>
-        <data>Donfan: Ouaaah ! Quelqu'un ! Au secours !!! ... enfin, je crois !![end]</data>
+        <data>Donfan: Ouaaah ! Quelqu'un ! Au secours ! ... enfin, je crois ![end]</data>
     </text>
     <text>
         <refs>
@@ -253,7 +253,7 @@ Voyons, euh, comment dire... Que dirais-tu de Bikebake ? Ou de Byuu, là, à cô
         <refs>
             <ref>0x314</ref>
         </refs>
-        <data>Oh, oh, mauvais... Que faire... que faire... Ah, la pire crise de toute la vie de Donfan...[end]</data>
+        <data>Aïe, aïe, ça sent le roussi... Que faire... que faire... Ah, la pire galère de la vie de Donfan...[end]</data>
     </text>
     <text>
         <refs>

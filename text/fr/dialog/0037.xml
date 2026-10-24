@@ -71,7 +71,7 @@ La Princesse n'a pas l'air bien. Allons vite voir la reine.[end]</data>
         <refs>
             <ref>0x6c0</ref>
         </refs>
-        <data>Oh oh... C'est donc toi,de l'Escadron Dragon,qui as vaincu le Général Zomberd... Si jeune,quel mérite ![end]</data>
+        <data>Oh oh... C'est donc toi,le gars de l'Escadron Dragon qui a battu le Général Zomberd... À ton âge,bravo ![end]</data>
     </text>
     <text>
         <refs>
@@ -167,7 +167,7 @@ Mais c'est un rêve impossible...[end]</data>
         <refs>
             <ref>0x707</ref>
         </refs>
-        <data>Truth: Nous restons ici pour surveiller que l'armée impériale ne revienne pas. C'est une idée de Rush. Il a bien mûri.[end]</data>
+        <data>Truth: Nous restons ici pour guetter un retour de l'armée impériale. C'est une idée de Rush. Il a bien mûri.[end]</data>
     </text>
     <text>
         <refs>
@@ -185,8 +185,8 @@ Mais c'est un rêve impossible...[end]</data>
         <refs>
             <ref>0x71c</ref>
         </refs>
-        <data>Truth: Capitaine Byuu.
- 
+        <data>Truth: Capitaine.
+
 Quand vous voudrez retourner sur Fareneit,dites-le-moi.[end]</data>
     </text>
     <text>
@@ -208,13 +208,13 @@ Quand vous voudrez retourner sur Fareneit,dites-le-moi.[end]</data>
             <ref>0x72e</ref>
             <ref>0x747</ref>
         </refs>
-        <data>Bien compris,Capitaine Byuu.[end]</data>
+        <data>Entendu,capitaine.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x75a</ref>
         </refs>
-        <data>Voyons,ceux qui restent sont...[end]</data>
+        <data>Voyons,qui reste-t-il...[end]</data>
     </text>
     <text>
         <refs>
@@ -250,7 +250,7 @@ Quand vous voudrez retourner sur Fareneit,dites-le-moi.[end]</data>
         <refs>
             <ref>0x422</ref>
         </refs>
-        <data>Reine de Campbell: ...Finalement,je vais vous parler.[end]</data>
+        <data>Reine de Campbell: ...Il faut que je vous parle.[end]</data>
     </text>
     <text>
         <refs>
@@ -279,7 +279,7 @@ Quand vous voudrez retourner sur Fareneit,dites-le-moi.[end]</data>
         <data>``Qui connaît le coeur des Dragons Sacrés ouvrira la Porte de la Nouvelle Ère.''
  
 Et la légende ajoute toujours ces mots... Les voici...
-``Le coeur faible attire le malheur depuis les cieux.''[end]</data>
+``Le coeur faible fait tomber le malheur des cieux.''[end]</data>
     </text>
     <text>
         <refs>
@@ -291,7 +291,7 @@ Et la légende ajoute toujours ces mots... Les voici...
         <refs>
             <ref>0x586</ref>
         </refs>
-        <data>Sendak: ...Le coeur faible ? ...Le malheur depuis les cieux ?[end]</data>
+        <data>Sendak: ...Le coeur faible ? ...Le malheur des cieux ?[end]</data>
     </text>
     <text>
         <refs>

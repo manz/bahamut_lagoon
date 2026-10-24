@@ -176,7 +176,7 @@ Cette moustache me dit quelque chose...[end]</data>
         <refs>
             <ref>0x7a6</ref>
         </refs>
-        <data>Taicho: C'est la première fois que nous nous rencontrons,affirmatif !! Général... Palparos...[end]</data>
+        <data>Taicho: Nous ne nous connaissons pas,affirmatif !! Général... Palparos...[end]</data>
     </text>
     <text>
         <refs>
@@ -200,7 +200,7 @@ Je pensais à une femme... qui est désormais bien loin de moi.
         </refs>
         <data>Taicho: Je crois comprendre...
  
-Moi aussi,j'ai une femme qui est désormais bien loin,affirmatif...[end]</data>
+Moi aussi,j'ai une femme... qui est désormais bien loin...[end]</data>
     </text>
     <text>
         <refs>
@@ -234,7 +234,7 @@ Moi aussi,j'ai une femme qui est désormais bien loin,affirmatif...[end]</data>
         <refs>
             <ref>0x83f</ref>
         </refs>
-        <data>Palparos: Voyageur... tu peux partir,maintenant.[end]</data>
+        <data>Palparos: Tu peux partir,maintenant.[end]</data>
     </text>
     <text>
         <refs>
@@ -246,8 +246,8 @@ Moi aussi,j'ai une femme qui est désormais bien loin,affirmatif...[end]</data>
         <refs>
             <ref>0x87f</ref>
         </refs>
-        <data>Voyageur,écoute-moi.
- 
+        <data>Écoute-moi.
+
 Si un jour,sur quelque lagon,tu croises les Rebelles,transmets un message... à une femme...
  
 Elle s'appelle... Yoyo.[end]</data>
@@ -262,13 +262,13 @@ Elle s'appelle... Yoyo.[end]</data>
         <refs>
             <ref>0x8a5</ref>
         </refs>
-        <data>Taicho: ...Je le lui transmettrai sans faute,affirmatif...[end]</data>
+        <data>Taicho: ...Je le lui dirai,c'est promis...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8b2</ref>
         </refs>
-        <data>Palparos: Voyageur... Revoyons-nous un jour...[end]</data>
+        <data>Palparos: Nous nous reverrons un jour...[end]</data>
     </text>
     <text>
         <refs>

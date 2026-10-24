@@ -20,7 +20,7 @@ puissance immense... ![end1][end]</data>
             <ref>0x48</ref>
         </refs>
         <data>Taicho: Elle marche à la puissance d'un
-Dragon Sacré, affirmatif ?[0xfc][0x18] Incroyable !![end1][end]</data>
+Dragon Sacré ?[0xfc][0x18] Incroyable, affirmatif !![end1][end]</data>
     </text>
     <text>
         <refs>
@@ -40,15 +40,15 @@ Es-tu ici, toi aussi... ?[end1][end]</data>
         <refs>
             <ref>0x9e</ref>
         </refs>
-        <data>Taicho: Qu'est-ce que c'est, sur le sol,
-affirmatif ?[0xfc][0x15] Ça m'intrigue !![end1][end]</data>
+        <data>Taicho: Qu'est-ce que c'est, sur le sol ?
+[0xfc][0x15]Ça m'intrigue, affirmatif !![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa8</ref>
         </refs>
-        <data>Matelite: Ça n'a rien à voir avec
-la défaite de l'ennemi !!
+        <data>Matelite: Ça ne sert à rien pour
+battre l'ennemi !!
 [0xfc][0x18]On attaque, un point c'est tout !![end1][end]</data>
     </text>
     <text>

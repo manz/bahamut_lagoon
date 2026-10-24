@@ -18,7 +18,7 @@
         <refs>
             <ref>0x261</ref>
         </refs>
-        <data>Mais nooon, voyons... !! Papy !![end]</data>
+        <data>Mais nooon, voyons, papy... !![end]</data>
     </text>
     <text>
         <refs>
@@ -54,7 +54,7 @@ Ils supportent la fausse barbe et le manteau royal, même par cette chaleur !![e
         <refs>
             <ref>0x44b</ref>
         </refs>
-        <data>La révolution, voyez-vous, exige l'unité indispensable des masses...[end]</data>
+        <data>La révolution, voyez-vous, exige avant tout l'unité des masses...[end]</data>
     </text>
     <text>
         <refs>
@@ -72,7 +72,7 @@ Ils supportent la fausse barbe et le manteau royal, même par cette chaleur !![e
         <refs>
             <ref>0x466</ref>
         </refs>
-        <data>Sans la révolution de la liberté, Dafira n'a pas de lendemain !!
+        <data>Sans révolution pour la liberté, Dafira n'a pas d'avenir !!
  
 Sans les filles, nous n'avons pas de lendemain !![end]</data>
     </text>
@@ -93,7 +93,7 @@ Sans les filles, nous n'avons pas de lendemain !![end]</data>
         <refs>
             <ref>0x2a4</ref>
         </refs>
-        <data>Maintenant que l'armée impériale est partie, c'est le moment ou jamais pour la révolution de la liberté...
+        <data>Maintenant que l'armée impériale est partie, c'est le moment ou jamais de faire la révolution...
  
 Mais voilà... On s'est trouvé un nom, le Front révolutionnaire pour la liberté... mais on n'a pas de chef... Moi, je suis tout au plus le numéro [0xb1]...
  
@@ -126,7 +126,7 @@ Toi... tu as tout l'air du gars qui n'a aucun succès avec les filles. Mais pas 
  
 Une ``révolution'', ça a la classe, non ?
  
-Aucune fille ne pourra ignorer un homme qui fait la révolution pour une nouvelle ère !![end]</data>
+Aucune fille ne résiste à un révolutionnaire en marche vers une ère nouvelle !![end]</data>
     </text>
     <text>
         <refs>
@@ -162,13 +162,13 @@ Hein... !! Où sont passés ces deux-là ?[end]</data>
         <refs>
             <ref>0x333</ref>
         </refs>
-        <data>Ohé !! Partenaire !! On nous a trouvés ![end]</data>
+        <data>Ohé, partenaire !! On nous a trouvés ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x382</ref>
         </refs>
-        <data>Zeroshin: Bravo, on voit bien le chef des Rebelles ! Au fait, tu ne voudrais pas nous engager ? Tu paies après... voyons... jusqu'en [0xb0][0xb4] fois, c'est d'accord.[end]</data>
+        <data>Zeroshin: Digne du chef des Rebelles ! Au fait, tu ne voudrais pas nous engager ? Tu paies après... voyons... jusqu'en [0xb0][0xb4] fois, c'est d'accord.[end]</data>
     </text>
     <text window="none">
         <refs>
@@ -223,7 +223,7 @@ Oh !!)[end]</data>
         <refs>
             <ref>0x3d7</ref>
         </refs>
-        <data>Merci beaucoup. Nous te remercions pour ce contrat.[end]</data>
+        <data>Merci infiniment pour ce contrat.[end]</data>
     </text>
     <text window="none">
         <refs>

@@ -27,7 +27,7 @@ Toi, tu vas au château avec la princesse, non ? Pendant ce temps, moi, je vais 
         </refs>
         <data>Matelite: Hé là !
  
-Qu'est-ce que c'est que ces bavardages insouciants !
+Ce n'est pas le moment de rêvasser !
  
 Avant ça, nous devons chasser l'Empire de Granbelos de Campbell ![end]</data>
     </text>
@@ -186,7 +186,7 @@ qu'il aime, Hornet ?
         <refs>
             <ref>0x4e2</ref>
         </refs>
-        <data>Ruki: À Campbell, on va écouter la légende des Dragons Sacrés, c'est ça ? J'espère que ce sera une belle légende, qui rendra tout le monde heureux.[end]</data>
+        <data>Ruki: On va à Campbell pour apprendre la légende des Dragons Sacrés, c'est ça ? J'espère que ce sera une belle légende, qui rendra tout le monde heureux.[end]</data>
     </text>
     <text>
         <refs>
@@ -251,7 +251,7 @@ Ne pense pas... fais le vide en ton coeur... et libère... ma puissance de Drago
         </refs>
         <data>Yoyo: Haa... haa...
  
-Byuu... On dirait que les Dragons Sacrés ne veulent pas que nous connaissions la légende... ... Mais... nous... devons y aller...[end]</data>
+Byuu... On dirait que les Dragons Sacrés ne veulent pas que nous connaissions la légende... Mais... nous devons y aller...[end]</data>
     </text>
     <text>
         <refs>

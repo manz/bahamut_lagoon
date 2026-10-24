@@ -59,13 +59,13 @@ pour se dresser contre l'Empire de Granbelos.[0xfc][0x40][end1]</data>
         <refs>
             <ref>0x20a</ref>
         </refs>
-        <data>Melody: Salamand !![end]</data>
+        <data>Melody: Salamand ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x218</ref>
         </refs>
-        <data>Byuu !![end]</data>
+        <data>Byuu ![end]</data>
     </text>
     <text>
         <refs>
@@ -77,7 +77,7 @@ pour se dresser contre l'Empire de Granbelos.[0xfc][0x40][end1]</data>
         <refs>
             <ref>0x373</ref>
         </refs>
-        <data>Le grand frère Byuu est de retour !!![end]</data>
+        <data>Le grand Byuu est de retour ![end]</data>
     </text>
     <text>
         <refs>
@@ -113,7 +113,7 @@ Matelite[end]</data>
         </refs>
         <data>Taicho: Byuu !
  
-Moi, je suis Taicho, des chevaliers de Mahal, affirmatif ![end]</data>
+C'est Taicho, des chevaliers de Mahal, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
@@ -139,7 +139,7 @@ Byuu... tu es rentré ? J'ai des tonnes de choses à te demander.[end]</data>
         <refs>
             <ref>0x533</ref>
         </refs>
-        <data>Truth: Allez, tout le monde ! En selle ! L'opération de sauvetage de la princesse Yoyo commence ![end]</data>
+        <data>Truth: Allez, tout le monde ! En selle ! On part sauver la princesse Yoyo ![end]</data>
     </text>
     <text>
         <refs>
@@ -167,7 +167,7 @@ Tu as obtenu ``Objets divers''.[end]</data>
         <refs>
             <ref>0xbec</ref>
         </refs>
-        <data>Sendak: Byuu... bon retour. Merci pour ce long voyage à la recherche des dragons. Dis... le jour du départ... tu t'en souviens ?[end]</data>
+        <data>Sendak: Byuu... bon retour. Tu dois être fourbu, après ce long voyage à chercher les dragons. Dis... le jour du départ... tu t'en souviens ?[end]</data>
     </text>
     <text>
         <refs>
@@ -218,7 +218,7 @@ Les souvenirs ont beau être nombreux, ils ne font que du mal...[end]</data>
         <refs>
             <ref>0xb9a</ref>
         </refs>
-        <data>Dis, Byuu... J'aimerais tant sauver vite la princesse Yoyo... ...[end]</data>
+        <data>Dis, Byuu... Il me tarde de sauver la princesse...[end]</data>
     </text>
     <text>
         <refs>
@@ -242,7 +242,7 @@ Les souvenirs ont beau être nombreux, ils ne font que du mal...[end]</data>
         <refs>
             <ref>0x9b3</ref>
         </refs>
-        <data>Donnons un nom au dragon.[end]</data>
+        <data>Donnez un nom au dragon.[end]</data>
     </text>
     <text>
         <refs>
@@ -251,13 +251,13 @@ Les souvenirs ont beau être nombreux, ils ne font que du mal...[end]</data>
             <ref>0xdec</ref>
             <ref>0xd26</ref>
         </refs>
-        <data>Donnons à manger au dragon.[end]</data>
+        <data>Donnez à manger au dragon.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe0d</ref>
         </refs>
-        <data>On part en montant sur Salamand. Tout est prêt ?[end]</data>
+        <data>Monte sur Salamand pour partir. Tout est prêt ?[end]</data>
     </text>
     <text>
         <refs>
@@ -304,7 +304,7 @@ Les souvenirs ont beau être nombreux, ils ne font que du mal...[end]</data>
         </refs>
         <data>Taicho: Seigneur Matelite, monter un dragon vous rend donc si heureux ? Vous pleuriez de joie !
  
-Moi, j'ai peur, affirmatif... Il m'a léché la moustache ![end]</data>
+Moi, j'ai peur... Il m'a léché la moustache, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
@@ -408,7 +408,7 @@ De reformer l'Escadron Dragon de Kana...[end]</data>
         <refs>
             <ref>0x889</ref>
         </refs>
-        <data>Truth: Pour cela, il faut d'abord rassembler les dragons qui se sont enfuis. Ensuite, nous reprendrons notre vaisseau, le vaisseau amiral de Kana ![end]</data>
+        <data>Truth: Pour cela, il faut d'abord rassembler les dragons qui se sont enfuis. Ensuite, nous reprendrons le vaisseau amiral de Kana ![end]</data>
     </text>
     <text>
         <refs>
@@ -450,6 +450,6 @@ De reformer l'Escadron Dragon de Kana...[end]</data>
         <refs>
             <ref>0x96d</ref>
         </refs>
-        <data>Matelite: ... Byuu ! Reviens vite ! Reviens tant que la princesse Yoyo est saine et sauve ![end][end]</data>
+        <data>Matelite: ... Byuu ! Reviens vite ! Reviens avant qu'il n'arrive malheur à la princesse ![end][end]</data>
     </text>
 </texts>

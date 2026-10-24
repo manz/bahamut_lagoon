@@ -10,7 +10,7 @@
         <refs>
             <ref>0x1ab</ref>
         </refs>
-        <data>Donfan: Qu'y a-t-il, Ruki ?[end]</data>
+        <data>Donfan: Qu'est-ce qu'il y a, Ruki ?[end]</data>
     </text>
     <text>
         <refs>
@@ -34,7 +34,7 @@
         <refs>
             <ref>0x1f4</ref>
         </refs>
-        <data>Ruki: Oui ! Écoute, et ne sois pas surpris ![end]</data>
+        <data>Ruki: Oui ! Tiens-toi bien ![end]</data>
     </text>
     <text>
         <refs>
@@ -74,7 +74,7 @@ C'est Taicho ! Taicho sera roi ![end]</data>
         </refs>
         <data>Donfan: Ha ha !
  
-Incapable de dire non quand on lui demande quelque chose, c'est bien Taicho, ça ![end]</data>
+Incapable de refuser un service, c'est bien Taicho, ça ![end]</data>
     </text>
     <text>
         <refs>
@@ -92,19 +92,19 @@ Incapable de dire non quand on lui demande quelque chose, c'est bien Taicho, ça
         <refs>
             <ref>0x2c2</ref>
         </refs>
-        <data>Taicho: Gunso... Pourquoi vouloir faire de moi le roi, affirmatif ?[end]</data>
+        <data>Taicho: Gunso... Pourquoi tiens-tu tant à me faire roi ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2cc</ref>
         </refs>
-        <data>Gunso: Oui, chef ! Parce qu'on ne voit personne d'autre que Taicho comme nouveau roi, affirmatif ![end]</data>
+        <data>Gunso: Oui, chef ! Personne d'autre que vous ne peut être notre roi, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2d2</ref>
         </refs>
-        <data>Taicho: Je suis l'homme qui, autrefois, n'a pas su protéger Mahal... Tout le monde l'acceptera-t-il, affirmatif... je me le demande...[end]</data>
+        <data>Taicho: Moi qui n'ai pas su protéger Mahal autrefois... Le peuple l'acceptera-t-il... je me le demande...[end]</data>
     </text>
     <text>
         <refs>

@@ -4,7 +4,7 @@
         <refs>
             <ref>0x4e2</ref>
         </refs>
-        <data>Marchand: Ah, Byuu, vous êtes toujours si bon avec moi. Je vais refaire mes stocks et je vous suivrai, alors comptez encore sur moi la prochaine fois ![end]</data>
+        <data>Marchand: Ah, Byuu, merci pour tout ! Je vais refaire mes stocks et je vous suivrai. À la prochaine, et bonnes affaires ![end]</data>
     </text>
     <text>
         <refs>
@@ -62,7 +62,7 @@ C'est un type vraiment lamentable. Les gars de l'Empire ne l'ont même jamais pr
         </refs>
         <data>Seriez-vous Byuu ?
  
-Je suis ravie de vous rencontrer. Quelqu'un que je connais m'a dit que vous l'aidiez beaucoup...[end]</data>
+Je suis ravie de vous rencontrer. Une de mes connaissances m'a dit que vous l'aidiez toujours beaucoup...[end]</data>
     </text>
     <text>
         <refs>
@@ -169,7 +169,7 @@ Mais une fille de son âge... comment on s'y prend pour la réconforter...[end]<
         </refs>
         <data>Zora: Byuu.
  
-Cet enfant, c'est mon fils. Pour certaines raisons, je l'avais laissé dans ce pays.[end]</data>
+C'est mon fils. Pour des raisons à moi, je l'avais laissé ici.[end]</data>
     </text>
     <text>
         <refs>
@@ -189,7 +189,7 @@ Je voulais créer à Campbell un Escadron Dragon qui n'ait rien à envier à cel
         <refs>
             <ref>0x387</ref>
         </refs>
-        <data>Zora: Et alors ? Cet Escadron Dragon de Campbell ?[end]</data>
+        <data>Zora: Et alors ? Il en est où, ton Escadron Dragon ?[end]</data>
     </text>
     <text>
         <refs>
@@ -260,7 +260,7 @@ C'est bien le capitaine de l'Escadron Dragon de Kana ![end]</data>
         <refs>
             <ref>0x45f</ref>
         </refs>
-        <data>Zora: Hmm. Il existe donc aussi des dragons comme ça.[end]</data>
+        <data>Zora: Tiens donc. Il y a aussi des dragons comme ça.[end]</data>
     </text>
     <text>
         <refs>
@@ -333,7 +333,7 @@ Ma classe, c'est Lancier. Ma spécialité, c'est le ménage. Enchanté de vous c
         <refs>
             <ref>0x5aa</ref>
         </refs>
-        <data>Bikebake: Grand frère Byuu !
+        <data>Bikebake: Hé, Byuu !
  
 Il paraît que si on confie son argent au vieux monsieur d'ici, il le rend multiplié par [0xb0][0xaf][0xaf][0xaf] ![end]</data>
     </text>
@@ -360,7 +360,7 @@ Hihihi, hihi.[end]</data>
         <refs>
             <ref>0x5c0</ref>
         </refs>
-        <data>Si tu le dis, grand frère, alors pas de souci ![end]</data>
+        <data>Si tu le dis, alors pas de souci ![end]</data>
     </text>
     <text>
         <refs>
@@ -378,7 +378,7 @@ Hihihi, hihi.[end]</data>
         <refs>
             <ref>0x5e1</ref>
         </refs>
-        <data>Bikebake: Grand frère...
+        <data>Bikebake: Byuu...
  
 Et si ce que raconte le vieux monsieur était vrai...[end]</data>
     </text>
@@ -426,7 +426,7 @@ Des armes et armures au nom de Matelite ! Byuu, achète-en, toi aussi ![end]</da
         <refs>
             <ref>0x4e9</ref>
         </refs>
-        <data>Ah ! Byuu ! Bienvenue chez moi ! Bonjour, bonjour ! C'est moi ! Le marchand du front ![end]</data>
+        <data>Ah, Byuu ! Bienvenue chez moi ! Bonjour, bonjour ! C'est moi ! Le marchand du front ![end]</data>
     </text>
     <text>
         <refs>

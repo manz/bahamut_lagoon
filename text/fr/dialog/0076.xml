@@ -70,7 +70,7 @@ Que cette colère est dirigée contre Bahamut... Cela, je le sais aussi.[end]</d
         <refs>
             <ref>0x812</ref>
         </refs>
-        <data>Yoyo: Mais les Dragons Sacrés cachent quelque chose. Pour que je ne le sache pas... Ils cachent quelque chose tout au fond de leur colère et de leur haine...[end]</data>
+        <data>Yoyo: Mais les Dragons Sacrés me cachent quelque chose... Tout au fond de leur colère et de leur haine...[end]</data>
     </text>
     <text>
         <refs>
@@ -324,7 +324,7 @@ C'est nous... qui avons tout commencé. Nous devons y mettre un terme...[end]</d
         <refs>
             <ref>0x9d7</ref>
         </refs>
-        <data>Sendak: C'est grave !
+        <data>Sendak: Malheur !
  
 Si Bahamut se réveille, la lutte des Dragons Sacrés commencera dans le cœur de la princesse ! Et même si Bahamut ne se réveille pas, la princesse devra vivre en portant dans son cœur la colère et la haine des Dragons Sacrés... une chose aussi terrible...[end]</data>
     </text>
@@ -332,7 +332,7 @@ Si Bahamut se réveille, la lutte des Dragons Sacrés commencera dans le cœur d
         <refs>
             <ref>0xa2e</ref>
         </refs>
-        <data>Taicho: C'est grave !
+        <data>Taicho: Alerte !
  
 La princesse Yoyo va mal, affirmatif ![end]</data>
     </text>
@@ -408,7 +408,7 @@ C'est pourquoi les Dragons Sacrés hésitent, eux aussi. C'est la première fois
         <refs>
             <ref>0x1268</ref>
         </refs>
-        <data>Yoyo: Vous tous ! Allons à Altair ![end]</data>
+        <data>Yoyo: Mes amis ! Allons à Altair ![end]</data>
     </text>
     <text>
         <refs>
@@ -436,7 +436,7 @@ Et puis...[end]</data>
         <refs>
             <ref>0x129f</ref>
         </refs>
-        <data>Yoyo: ...C'est un combat pour protéger Orelus, pour protéger ce monde. Mon pouvoir existe pour cela... Voilà ce que je pense...[end]</data>
+        <data>Yoyo: ...C'est un combat pour protéger Orelus, pour protéger ce monde. C'est à cela que sert mon pouvoir... du moins, je le crois...[end]</data>
     </text>
     <text>
         <refs>
@@ -483,7 +483,7 @@ Quand nous avons pris Kana, nous avons emporté beaucoup de choses comme butin d
             <ref>0x114e</ref>
             <ref>0xf37</ref>
         </refs>
-        <data>Yoyo: Tout ira bien, n'est-ce pas... J'en suis sûre...[end]</data>
+        <data>Yoyo: Tout ira bien... forcément...[end]</data>
     </text>
     <text>
         <refs>
@@ -545,7 +545,7 @@ Rush devrait réfléchir davantage avant d'agir...[end]</data>
         <refs>
             <ref>0xee9</ref>
         </refs>
-        <data>Zora: Moi qui m'occupe de l'empereur de l'Empire, qui l'eût cru.[end]</data>
+        <data>Zora: Moi, au chevet de l'empereur ennemi, qui l'eût cru.[end]</data>
     </text>
     <text>
         <refs>
@@ -705,7 +705,7 @@ Non pas en tant qu'empereur... C'est une faveur de Sauzer, l'homme...[end]</data
         <refs>
             <ref>0x1014</ref>
         </refs>
-        <data>Sauzer: Quand je serai mort... dans le ciel d'Orelus... libère-moi dans le ciel.[end]</data>
+        <data>Sauzer: Quand je serai mort... rends-moi... au ciel d'Orelus.[end]</data>
     </text>
     <text>
         <refs>
@@ -757,7 +757,7 @@ Faire de ce ciel tout entier le mien !![end]</data>
         <refs>
             <ref>0x1083</ref>
         </refs>
-        <data>Palparos: Arrête ! Ne dis pas des choses aussi défaitistes... Sauzer ! Ça ne te ressemble pas ![end]</data>
+        <data>Palparos: Arrête ! Ne dis pas des choses aussi défaitistes, Sauzer ! Ça ne te ressemble pas ![end]</data>
     </text>
     <text>
         <refs>
@@ -1031,7 +1031,7 @@ n'hésite pas à écraser Gudolf... et l'Empire de Granbelos.[end]</data>
         <refs>
             <ref>0x13c3</ref>
         </refs>
-        <data>Palparos: C'est pour le peuple de Granbelos de l'ère nouvelle qui vient...[end]</data>
+        <data>Palparos: C'est pour le peuple de Granbelos, dans l'ère qui vient...[end]</data>
     </text>
     <text>
         <refs>
@@ -1159,7 +1159,7 @@ Ils ne savaient que faire de leur propre pouvoir.[end]</data>
         <refs>
             <ref>0xb21</ref>
         </refs>
-        <data>Palparos: Les raisons pour lesquelles une guerre commence... sont toujours dérisoires...[end]</data>
+        <data>Palparos: Une guerre commence toujours... pour des raisons dérisoires...[end]</data>
     </text>
     <text>
         <refs>
@@ -1167,7 +1167,7 @@ Ils ne savaient que faire de leur propre pouvoir.[end]</data>
         </refs>
         <data>Truth: Général Palparos !
  
-Et la vôtre ! La guerre que vous avez commencée, vous autres, qu'en est-il !![end]</data>
+Et la vôtre ! Votre guerre à vous, pourquoi l'avez-vous commencée !![end]</data>
     </text>
     <text>
         <refs>
@@ -1297,7 +1297,7 @@ Je suis membre de l'Armée du salut d'Orelus. Alors je me battrai ! Je me battra
         <refs>
             <ref>0x390</ref>
         </refs>
-        <data>Hornet: On dirait qu'on a été touchés... Par-dessus ou par-dessous... d'où ça vient ?[end]</data>
+        <data>Hornet: On dirait qu'on a été touchés... D'en haut ou d'en bas... d'où ça vient ?[end]</data>
     </text>
     <text>
         <refs>
@@ -1305,7 +1305,7 @@ Je suis membre de l'Armée du salut d'Orelus. Alors je me battrai ! Je me battra
         </refs>
         <data>Taicho: Je l'ai vu !
  
-Une attaque par-dessous ! C'est l'Empire de Granbelos, affirmatif ![end]</data>
+Ça vient d'en dessous ! C'est l'Empire de Granbelos, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
@@ -1341,7 +1341,7 @@ Une attaque par-dessous ! C'est l'Empire de Granbelos, affirmatif ![end]</data>
         </refs>
         <data>Taicho: Général Palparos.
  
-Pourrez-vous combattre le pays qui vous a vu naître et grandir, affirmatif ?[end]</data>
+Pourrez-vous combattre le pays qui vous a vu naître et grandir ?[end]</data>
     </text>
     <text>
         <refs>
@@ -1384,7 +1384,7 @@ fait même plus attention à moi...
 Toute petite,elle trottinait derrière
 moi en criant ``Tonton Mate !''...
 Byuu. Sais-tu quel est le premier mot
-qu'a appris la princesse Yoyo ?
+qu'a appris la princesse ?
 ``Mate''. Ni papa,ni maman,mais
 ``Mate''... c'est-à-dire moi !
  Un ordre de l'Escadron,sûrement
@@ -1406,7 +1406,7 @@ qu'a appris la princesse Yoyo ?
         <refs>
             <ref>0x1432</ref>
         </refs>
-        <data>Fils de Zora: Ah, merci pour votre peine ![end]</data>
+        <data>Fils de Zora: Ah, bonjour, Byuu ! Bon courage ![end]</data>
     </text>
     <text>
         <refs>
@@ -1419,7 +1419,7 @@ qu'a appris la princesse Yoyo ?
             <ref>0x1311</ref>
             <ref>0x1407</ref>
         </refs>
-        <data>Yoyo: Byuu, merci pour ta peine.[end]</data>
+        <data>Yoyo: Byuu, tu fais ta ronde ?[end]</data>
     </text>
     <text>
         <refs>

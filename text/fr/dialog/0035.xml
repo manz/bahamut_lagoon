@@ -150,7 +150,7 @@ Ce pouvoir miraculeux qui plie les Dragons Sacrés à sa volonté ![end]</data>
         <refs>
             <ref>0x52a</ref>
         </refs>
-        <data>Sauzer: Je vois... Vous dites ne pas y parvenir...[end]</data>
+        <data>Sauzer: Je vois... Vous n'y parvenez pas,dites-vous...[end]</data>
     </text>
     <text>
         <refs>
@@ -194,7 +194,7 @@ Je peux devenir l'homme de la légende sans l'aide de votre pouvoir ![end]</data
         <refs>
             <ref>0x79f</ref>
         </refs>
-        <data>Ruki: Byuu ! Qu'allons-nous faire ?[end]</data>
+        <data>Ruki: Byuu,qu'est-ce qu'on fait ?[end]</data>
     </text>
     <text>
         <refs>
@@ -218,7 +218,7 @@ Je peux devenir l'homme de la légende sans l'aide de votre pouvoir ![end]</data
         <refs>
             <ref>0x185</ref>
         </refs>
-        <data>Sendak: ...Ce n'est pas que je n'aie rien à dire.[end]</data>
+        <data>Sendak: ...Ma foi,il y aurait bien quelque chose.[end]</data>
     </text>
     <text>
         <refs>
@@ -312,7 +312,7 @@ J'avais juste envie d'écouter Sendak radoter un peu...[end]</data>
         <refs>
             <ref>0x656</ref>
         </refs>
-        <data>Sendak: Ce que je veux dire,c'est ce que Sauzer désire. Parler aux Dragons Sacrés grâce au pouvoir de la Princesse. Et... après ?
+        <data>Sendak: Moi,je parle de ce que veut Sauzer. Parler aux Dragons Sacrés grâce au pouvoir de la Princesse. Et... après ?
  
 Sauzer,Empereur de Granbelos. Sauzer,maître d'Orelus. Que peut-il vouloir de plus ?[end]</data>
     </text>

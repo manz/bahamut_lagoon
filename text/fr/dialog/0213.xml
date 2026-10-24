@@ -33,15 +33,15 @@ Que m'est-il arrivé...[end]</data>
         <refs>
             <ref>0x1af</ref>
         </refs>
-        <data>Palparos: Sauzer... Tu es dans ta chambre. Sauzer... tu te souviens ? ...Le Dragon Sacré s'est éveillé...[end]</data>
+        <data>Palparos: Sauzer... Tu es dans ta chambre. Tu te souviens ? ...Le Dragon Sacré s'est éveillé...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1bf</ref>
         </refs>
-        <data>Sauzer: La puissance du Dragon Sacré... m'a terrassé... ? ...La Princesse Yoyo... a-t-elle commandé au Dragon Sacré...
- 
-La Princesse Yoyo est-elle saine et sauve ?[end]</data>
+        <data>Sauzer: La puissance du Dragon Sacré... m'a terrassé... ? ...La Princesse Yoyo... a-t-elle dompté le Dragon Sacré...
+
+Est-elle saine et sauve ?[end]</data>
     </text>
     <text>
         <refs>
@@ -115,7 +115,7 @@ Est-ce cet humain que nous choisissons ?[end]</data>
             <ref>0x3ff</ref>
         </refs>
         <data> 
-Un humain digne qu'on lui confie la porte de l'ère...[end]</data>
+Un humain digne de recevoir la porte de l'ère...[end]</data>
     </text>
     <text window="none">
         <refs>
@@ -143,7 +143,7 @@ Pourquoi... me choisissez-vous ?[end]</data>
         <refs>
             <ref>0x514</ref>
         </refs>
-        <data>Sauzer, Empereur de l'Empire Granbelos... Grand conquérant du monde des hommes...
+        <data>Sauzer, Empereur de Granbelos... Grand conquérant du monde des hommes...
  
 Mais... tu le sais.
  
@@ -274,7 +274,7 @@ Voilà ce que j'ai cherché...[end]</data>
         <refs>
             <ref>0x8f3</ref>
         </refs>
-        <data>Palparos... Toi... tu as quelqu'un à protéger... En tant qu'Empereur de l'Empire Granbelos, je t'ordonne...[end]</data>
+        <data>Palparos... Toi... tu as quelqu'un à protéger... En tant qu'Empereur de Granbelos, je t'ordonne...[end]</data>
     </text>
     <text>
         <refs>

@@ -140,9 +140,9 @@ C'est Barclay, ce Cuirassier tout lent, qui me l'a dit. Il en sait, des trucs bi
         <refs>
             <ref>0x407</ref>
         </refs>
-        <data>Anastasia: Tu te souviens de la nuit où Kana a été rebâtie ? Il paraît que Barclay a dansé avec Frederica...
+        <data>Anastasia: Tu te souviens du soir de la fête pour Kana ? Il paraît que Barclay a dansé avec Frederica...
  
-Remarque, ce Cuirassier tout lent, je m'en fiche complètement. Mais ça m'agace quand même. Hein ? Hein ? Pourquoi... Pourquoi ça m'agace...[end]</data>
+Remarque, ce Cuirassier tout lent, je m'en fiche complètement. Mais ça m'agace quand même. Tiens ? Tiens donc ? Pourquoi... Pourquoi ça m'agace...[end]</data>
     </text>
     <text>
         <refs>
@@ -221,13 +221,13 @@ Nous avons décidé d'enfermer ici Donfan, l'ennemi des femmes. Vous êtes d'acc
         <refs>
             <ref>0x503</ref>
         </refs>
-        <data>Nerbo: (Après la guerre, Donfan m'emmènera à Mahal... Il veut voir les lacs de Mahal qui se reflètent dans mes yeux, à ce qu'il dit... Mais chut, pas un mot à ma meilleure amie Joy...)[end]</data>
+        <data>Nerbo: (Après la guerre, Donfan m'emmènera à Mahal... Il veut voir les lacs de Mahal qui se reflètent dans mes yeux, il paraît... Mais chut, pas un mot à ma meilleure amie Joy...)[end]</data>
     </text>
     <text window="none">
         <refs>
             <ref>0x69f</ref>
         </refs>
-        <data>Joy: (Après la guerre, Donfan viendra à Campbell... ``Qu'il existe une nature plus belle que toi, moi, Donfan, je ne peux pas le croire ! Alors je veux comparer'', à ce qu'il dit... Mais chut, pas un mot à ma meilleure amie Nerbo...)[end]</data>
+        <data>Joy: (Après la guerre, Donfan viendra à Campbell... ``Qu'il existe une nature plus belle que toi, moi, Donfan, je ne peux pas le croire ! Alors je veux comparer'', qu'il m'a dit... Mais chut, pas un mot à ma meilleure amie Nerbo...)[end]</data>
     </text>
     <text window="none">
         <refs>
@@ -337,7 +337,7 @@ est bientôt finie ?
         <refs>
             <ref>0x74c</ref>
         </refs>
-        <data>Alors c'est vrai... La rumeur disait vrai.
+        <data>Alors c'est vrai... Cette rumeur, hein.
  
 Tu sais, j'ai réfléchi. Je vais arrêter de me soucier des rumeurs et de tout ça. Je vais penser à moi et prendre la vie tranquillement.[end]</data>
     </text>
@@ -363,7 +363,7 @@ jaser, tous les deux ?
         <refs>
             <ref>0x78e</ref>
         </refs>
-        <data>Ruki: Tout le monde commence à penser à l'après-guerre. Byuu. Moi, je prierai de tout mon coeur pour que tout le monde soit heureux. Quand la guerre sera finie, toi aussi, Byuu, viens prier avec moi ![end]</data>
+        <data>Ruki: Tout le monde commence à penser à l'après-guerre. Moi, je prierai de tout mon coeur pour que tout le monde soit heureux. Quand la guerre sera finie, toi aussi, Byuu, viens prier avec moi ![end]</data>
     </text>
     <text>
         <refs>
@@ -437,7 +437,7 @@ Byuu ne peut pas s'empêcher de penser à moi... Il est plutôt mignon...)[end]<
         <refs>
             <ref>0x4d6</ref>
         </refs>
-        <data>Nerbo: S'amuser avec un gentilhomme... c'est très divertissant.[end]</data>
+        <data>Nerbo: Jouer avec ces messieurs... c'est fort amusant.[end]</data>
     </text>
     <text window="none">
         <refs>
@@ -500,9 +500,9 @@ la Princesse Yoyo...
         <refs>
             <ref>0x70e</ref>
         </refs>
-        <data>De la chambre de la Princesse Yoyo, on entend toujours des gémissements. Je me disais que c'était encore les Dragons Sacrés...
- 
-Mais la colère des Dragons Sacrés, ça ne lui fait plus rien, à la Princesse Yoyo, non ? Qu'est-ce que ça peut bien être ?[end]</data>
+        <data>On entend toujours des gémissements dans la chambre de la Princesse Yoyo. Je me disais que c'était encore les Dragons Sacrés...
+
+Mais leur colère, ça ne lui fait plus rien, non ? Qu'est-ce que ça peut bien être ?[end]</data>
     </text>
     <text>
         <refs>

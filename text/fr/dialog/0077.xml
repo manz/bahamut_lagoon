@@ -54,7 +54,7 @@
         <refs>
             <ref>0x7e3</ref>
         </refs>
-        <data>Les monstres... Tu parles d'eux.
+        <data>Les monstres... Ah, ceux-là.
  
 Mais qu'est-il arrivé aux Dragons Sacrés ?[end]</data>
     </text>
@@ -90,7 +90,7 @@ Mais qu'est-il arrivé aux Dragons Sacrés ?[end]</data>
         </refs>
         <data>Sendak: ...Des hommes-dragons.
  
-Monsieur l'homme-dragon, dites-moi. Les Dragons Sacrés renaissent avec les hommes-dragons.
+Dites-moi, homme-dragon. Les Dragons Sacrés renaissent avec les hommes-dragons.
  
 C'est ce qu'on m'a dit, mais qu'est-ce que ça veut dire ?[end][end]</data>
     </text>
@@ -98,17 +98,17 @@ C'est ce qu'on m'a dit, mais qu'est-ce que ça veut dire ?[end][end]</data>
         <refs>
             <ref>0x875</ref>
         </refs>
-        <data>Humains du monde d'Orelus... Vous avez donc survécu... sans périr dans la guerre des Dragons Sacrés... Je vais vous apprendre... ce qu'il en est de nous, hommes-dragons, et des Dragons Sacrés...
- 
-Nous, hommes-dragons, sommes le corps des Dragons Sacrés.
- 
-Les Dragons Sacrés possèdent une vie qui semble éternelle.
- 
+        <data>Humains du monde d'Orelus... Vous avez donc survécu... sans périr dans la guerre des Dragons Sacrés... Écoutez... ce que nous sommes, nous les hommes-dragons, pour les Dragons Sacrés...
+
+Nous sommes leur corps.
+
+Leur vie semble éternelle.
+
 Pourtant, ils connaissent la mort... mais... c'est la mort de la chair.
- 
-L'esprit d'un Dragon Sacré qui a perdu sa chair flotte en un seul lieu.
- 
-Cet esprit errant pénètre dans le corps de l'un de nous, hommes-dragons, et le Dragon Sacré renaît... La résurrection des Dragons Sacrés, voilà notre joie, à nous, hommes-dragons ![end]</data>
+
+Privé de sa chair, l'esprit d'un Dragon Sacré flotte en un même lieu.
+
+Cet esprit errant pénètre le corps de l'un d'entre nous, et le Dragon Sacré renaît... Les voir renaître, voilà toute notre joie ![end]</data>
     </text>
     <text>
         <refs>
@@ -120,7 +120,7 @@ Cet esprit errant pénètre dans le corps de l'un de nous, hommes-dragons, et le
         <refs>
             <ref>0x88d</ref>
         </refs>
-        <data>Matelite: Compris ! Assez de palabres ! Retirez-moi vite les esprits des Dragons Sacrés de la princesse Yoyo ![end]</data>
+        <data>Matelite: Compris ! Assez de palabres ! Sortez vite les Dragons Sacrés du cœur de la princesse Yoyo ![end]</data>
     </text>
     <text window="none">
         <refs>
@@ -132,7 +132,7 @@ Cet esprit errant pénètre dans le corps de l'un de nous, hommes-dragons, et le
         <refs>
             <ref>0x8e1</ref>
         </refs>
-        <data>Et nous, les enfants ! Les enfants, ça va pas ! Ça ferait des Dragons Sacrés violents ![end][end]</data>
+        <data>Et nous, les enfants ! Pas les enfants ! Avec nous, ils deviendraient violents ![end][end]</data>
     </text>
     <text window="none">
         <refs>
@@ -152,13 +152,13 @@ Cet esprit errant pénètre dans le corps de l'un de nous, hommes-dragons, et le
         </refs>
         <data>...Autrefois, les humains d'Orelus pouvaient tous, sans exception, communier avec les Dragons Sacrés... Les Dragons Sacrés leur prêtaient leur pouvoir...
  
-Des humains au cœur faible... Ayant obtenu ce pouvoir, ils se battaient entre eux... et les Dragons Sacrés prenaient plaisir à les regarder...
- 
-Jusqu'à ce que Bahamut se dresse contre tous les Dragons Sacrés et ferme les cœurs des humains et des Dragons Sacrés les uns aux autres...
+Mais le cœur des hommes est faible... Ce pouvoir en main, ils se battaient entre eux... et les Dragons Sacrés prenaient plaisir à les regarder...
+
+Jusqu'à ce que Bahamut se dresse contre tous les siens et ferme à jamais le lien entre leurs cœurs...
  
 Un humain fort qui communie avec les Dragons Sacrés et reçoit leur pouvoir sans se perdre lui-même... une Dragonnière...
  
-Pour l'heure, la résurrection des Dragons Sacrés est impossible... Je t'en prie... reste encore un peu avec les Dragons Sacrés...[end]</data>
+Pour l'heure, la résurrection des Dragons Sacrés est impossible... Je t'en prie... garde-les encore un peu en toi...[end]</data>
     </text>
     <text window="none">
         <refs>
@@ -170,7 +170,7 @@ Pour l'heure, la résurrection des Dragons Sacrés est impossible... Je t'en pri
         <refs>
             <ref>0x9fe</ref>
         </refs>
-        <data>Si on va au temple d'Alexandre, il devrait y avoir des hommes-dragons, mais...[end]</data>
+        <data>Au temple d'Alexandre, il devrait y en avoir, mais...[end]</data>
     </text>
     <text>
         <refs>
@@ -196,7 +196,7 @@ Pour l'heure, la résurrection des Dragons Sacrés est impossible... Je t'en pri
         </refs>
         <data>Il voulait être le seul à faire le chef à Altair !
  
-Alors Alexandre a bloqué la route du ciel, à ce qu'il paraît !
+Alors Alexandre a bloqué la route du ciel !
  
 Pour que les autres Dragons Sacrés ne puissent pas revenir.[end]</data>
     </text>
@@ -204,7 +204,7 @@ Pour que les autres Dragons Sacrés ne puissent pas revenir.[end]</data>
         <refs>
             <ref>0xa4e</ref>
         </refs>
-        <data>Il a emmené plein d'hommes-dragons dans son temple, à ce qu'il paraît.
+        <data>On dit qu'il a emmené plein d'hommes-dragons dans son temple.
  
 Et il les a changés en monstres sans cœur ![end]</data>
     </text>
@@ -263,7 +263,7 @@ Alexandre doit en garder pour son propre usage.[end]</data>
             <ref>0x5a0</ref>
             <ref>0xac9</ref>
         </refs>
-        <data>Yoyo: J'ai... peur... Les Dragons Sacrés... sont en colère... Plus violemment... que jamais...[end]</data>
+        <data>Yoyo: J'ai... peur... Les Dragons Sacrés... sont en colère... Plus fort... que jamais...[end]</data>
     </text>
     <text window="none">
         <refs>
@@ -281,7 +281,7 @@ Alexandre doit en garder pour son propre usage.[end]</data>
         <refs>
             <ref>0xb26</ref>
         </refs>
-        <data>Matelite: Faire souffrir ainsi notre princesse Yoyo ![end]</data>
+        <data>Matelite: Vous faites souffrir notre princesse Yoyo ![end]</data>
     </text>
     <text>
         <refs>
@@ -348,7 +348,7 @@ Tu es prêt ?
         </refs>
         <data>Ah, j'allais oublier !
  
-Bikebake, à Campbell, vous avez confié de l'argent à un vieux monsieur, n'est-ce pas ![end]</data>
+Bikebake, à Campbell, vous aviez confié de l'argent à un vieux monsieur, non ?[end]</data>
     </text>
     <text>
         <refs>
@@ -364,7 +364,7 @@ Voici ! [0xb0][0xaf][0xaf][0xaf] Piro ![end]</data>
         <refs>
             <ref>0x16d</ref>
         </refs>
-        <data>Bikebake: Ouais ! C'est grâce à toi, grand frère ! Merci, grand frère ![end]</data>
+        <data>Bikebake: Ouais ! C'est grâce à toi, Byuu ! Merci ![end]</data>
     </text>
     <text>
         <refs>
@@ -376,7 +376,7 @@ Voici ! [0xb0][0xaf][0xaf][0xaf] Piro ![end]</data>
         <refs>
             <ref>0x68b</ref>
         </refs>
-        <data>Rush: Bon, c'est pas le moment de faire du commerce. Tu t'occuperas de moi plus tard ![end]</data>
+        <data>Rush: Bon, c'est pas le moment de faire du commerce. Reviens me voir plus tard ![end]</data>
     </text>
     <text>
         <refs>
@@ -424,13 +424,13 @@ Voici ! [0xb0][0xaf][0xaf][0xaf] Piro ![end]</data>
         <refs>
             <ref>0x6c8</ref>
         </refs>
-        <data>Truth: Réfléchir avec modération... ?[end]</data>
+        <data>Truth: Réfléchir, mais pas trop... ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6f0</ref>
         </refs>
-        <data>Bikebake: Achète-moi quelque chose à moi aussi, grand frère ![end]</data>
+        <data>Bikebake: Achète-moi quelque chose aussi, Byuu ![end]</data>
     </text>
     <text>
         <refs>
@@ -448,7 +448,7 @@ Voici ! [0xb0][0xaf][0xaf][0xaf] Piro ![end]</data>
         <refs>
             <ref>0x60f</ref>
         </refs>
-        <data>Matelite: Ici, on laisse faire Palparos ![end]</data>
+        <data>Matelite: Laissons faire Palparos ![end]</data>
     </text>
     <text window="none">
         <refs>
@@ -462,7 +462,7 @@ Chapitre [0xb1][0xb2]
         <refs>
             <ref>0xe39</ref>
         </refs>
-        <data>Palparos: ...Je vais essayer de parler au général Gudolf. Le combat pourra peut-être être évité.[end]</data>
+        <data>Palparos: ...Je vais essayer de parler au général Gudolf. On pourra peut-être éviter le combat.[end]</data>
     </text>
     <text>
         <refs>
@@ -486,7 +486,7 @@ Chapitre [0xb1][0xb2]
         <refs>
             <ref>0xe78</ref>
         </refs>
-        <data>Matelite: Il n'y a pas de faute que l'on puisse racheter en mourant ! Si tu fais quoi que ce soit qui rende la princesse Yoyo triste, je ne te le pardonnerai pas !![end]</data>
+        <data>Matelite: Mourir ne rachète aucune faute ! Si tu fais pleurer la princesse Yoyo, je ne te le pardonnerai jamais !![end]</data>
     </text>
     <text>
         <refs>
@@ -500,7 +500,7 @@ Chapitre [0xb1][0xb2]
         </refs>
         <data>Un pays va peut-être disparaître ! Peut-être même que ce monde sera détruit par les monstres ! Et même en de tels moments, une vie nouvelle voit le jour !! Le mystère de la vie !
  
-Alors voilà, c'est un peu soudain, mais moi, le marchand du front, je prends ma retraite.
+Alors voilà, sans crier gare, moi, le marchand du front, je prends ma retraite.
  
 Désormais, je suis un marchand qui protège sa femme et son enfant. Et donc ![end]</data>
     </text>
@@ -524,7 +524,7 @@ Et alors, le succès est assuré ![end]</data>
         <refs>
             <ref>0xd2</ref>
         </refs>
-        <data>Truth ! Vous réfléchissez trop. Réfléchissez avec modération. Et aidez donc Rush.[end]</data>
+        <data>Truth ! Vous réfléchissez trop. Réfléchissez, mais pas trop. Et aidez donc Rush.[end]</data>
     </text>
     <text>
         <refs>
@@ -574,7 +574,7 @@ Et alors, le succès est assuré ![end]</data>
         <refs>
             <ref>0x5c4</ref>
         </refs>
-        <data>Palparos: C'est un lieu qui dépasse toutes mes connaissances...[end]</data>
+        <data>Palparos: Cet endroit dépasse tout ce que je sais...[end]</data>
     </text>
     <text>
         <refs>
@@ -598,7 +598,7 @@ Et alors, le succès est assuré ![end]</data>
         <refs>
             <ref>0x5ae</ref>
         </refs>
-        <data>Yoyo: Ce qui est arrivé à Altair... Les Dragons Sacrés veulent le savoir...[end]</data>
+        <data>Yoyo: Les Dragons Sacrés... veulent savoir ce qui est arrivé à Altair...[end]</data>
     </text>
     <text>
         <refs>
@@ -630,7 +630,7 @@ Chapitre [0xb1][0xb4]
         <refs>
             <ref>0x975</ref>
         </refs>
-        <data>Le pouvoir des Dragons Sacrés a changé leur apparence... Mais le souvenir de leur patrie, transmis de génération en génération... faible, ne s'est jamais effacé...[end]</data>
+        <data>Le pouvoir des Dragons Sacrés a changé leur apparence... Mais le souvenir de leur patrie, transmis de génération en génération... si faible soit-il, ne s'est jamais effacé...[end]</data>
     </text>
     <text window="none">
         <refs>

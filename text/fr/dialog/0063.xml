@@ -4,7 +4,7 @@
         <refs>
             <ref>0x6ac</ref>
         </refs>
-        <data>Marchand: Désolé pour l'attente !! Et faites bon accueil à ma femme, ma fierté !![end]</data>
+        <data>Marchand: Désolé pour l'attente !! Et voici ma femme, ma fierté !![end]</data>
     </text>
     <text>
         <refs>
@@ -44,11 +44,11 @@ Toi aussi, Byuu, tiens bon ![end]</data>
         <refs>
             <ref>0x3d2</ref>
         </refs>
-        <data>Truth: La révolution de la liberté... Renverser la famille royale...
+        <data>Truth: La révolution pour la liberté... Renverser la famille royale...
  
 À Kana, ça voudrait dire renverser Matelite et la princesse Yoyo...
  
-J'ai des sentiments partagés.[end]</data>
+Je ne sais plus que penser.[end]</data>
     </text>
     <text>
         <refs>
@@ -82,7 +82,7 @@ Où est le temple du Dragon Sacré !![end]</data>
         <refs>
             <ref>0x783</ref>
         </refs>
-        <data>Truth: Matelite, écoutez-moi. Dafira est devenue un pays libre. Hier soir... la révolution de la liberté a...[end]</data>
+        <data>Truth: Matelite, écoutez-moi. Dafira est devenue un pays libre. Hier soir... la révolution pour la liberté a...[end]</data>
     </text>
     <text>
         <refs>
@@ -104,7 +104,7 @@ Où est le Dragon Sacré !![end]</data>
         <refs>
             <ref>0x7d7</ref>
         </refs>
-        <data>Matelite: Tu as entendu !! Taicho !! Je compte sur toi pour nous guider dans le ciel !![end]</data>
+        <data>Matelite: Tu as entendu, Taicho !! Je compte sur toi pour nous guider dans le ciel !![end]</data>
     </text>
     <text>
         <refs>
@@ -130,7 +130,7 @@ C'est insupportable... Si je devais nommer ce que je ressens, je dirais que je m
         </refs>
         <data>Sendak: La princesse, dans son sommeil, murmurait ``Byuu... Byuu...''. On dirait que le Dragon Sacré Jormungand est apparu dans son rêve...
  
-Il paraît que le Dragon Sacré Jormungand veut nous transmettre quelque chose...[end]</data>
+Il paraît qu'il veut nous transmettre quelque chose...[end]</data>
     </text>
     <text>
         <refs>
@@ -152,7 +152,7 @@ que maintenant... tout ira bien.[end]</data>
         <refs>
             <ref>0x3f4</ref>
         </refs>
-        <data>Bikebake: Grand frère Byuu... On part au combat ?[end]</data>
+        <data>Bikebake: Dis, Byuu... On part au combat ?[end]</data>
     </text>
     <text>
         <refs>

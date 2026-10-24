@@ -24,8 +24,8 @@ tempêtes de sable ![end]</data>
         <refs>
             <ref>0x4a</ref>
         </refs>
-        <data>Matelite: Vous tous !!
-Pas de faiblesse !![end1][end]</data>
+        <data>Matelite: Tenez bon, vous autres !!
+Ne flanchez pas !![end1][end]</data>
     </text>
     <text>
         <refs>
@@ -54,7 +54,7 @@ Veillez sur nous...[end1][end]</data>
             <ref>0x6b</ref>
         </refs>
         <data>Sauzer: Rebelles...[0xfc][0x10]
-ces jours de combat ont été bien longs.[end1][end]</data>
+cette guerre aura été bien longue.[end1][end]</data>
     </text>
     <text>
         <refs>
@@ -100,8 +100,8 @@ du même mal...[end1][end]</data>
         <refs>
             <ref>0x8c</ref>
         </refs>
-        <data>Les pensées des Dragons Sacrés...
-Seul moi peux les vaincre...[end1][end]</data>
+        <data>La guerre des Dragons Sacrés...
+Moi seul peux la gagner...[end1][end]</data>
     </text>
     <text>
         <refs>

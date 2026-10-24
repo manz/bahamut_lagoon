@@ -87,7 +87,7 @@ Parce que je n'arrive pas à devenir Dragonnière... Parce que mon coeur est fai
         <refs>
             <ref>0x111b</ref>
         </refs>
-        <data>Bikebake: Byuu, grand frère... Je me suis sali les mains... Tu me méprises ?[end]</data>
+        <data>Bikebake: Byuu... Je me suis sali les mains... Tu me méprises ?[end]</data>
     </text>
     <text>
         <refs>
@@ -104,13 +104,13 @@ Parce que je n'arrive pas à devenir Dragonnière... Parce que mon coeur est fai
  
 Mais il m'en manque encore beaucoup... Je sais bien que c'est mal...
  
-Mais je n'ai plus d'autre choix... Tant pis...[end]</data>
+Mais je n'ai plus d'autre choix... C'est comme ça...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1129</ref>
         </refs>
-        <data>Merci... grand frère.[end]</data>
+        <data>Merci... Byuu.[end]</data>
     </text>
     <text>
         <refs>
@@ -124,7 +124,7 @@ Mais je n'ai plus d'autre choix... Tant pis...[end]</data>
         <refs>
             <ref>0x1199</ref>
         </refs>
-        <data>Melody: On est mis à l'écart. Il est méchant, Matelite !! Mais je m'en fiche !! J'ai Byuu et Hornet avec moi !![end]</data>
+        <data>Melody: Il nous a mis à l'écart. Il est méchant, Matelite !! Mais je m'en fiche !! J'ai Byuu et Hornet avec moi !![end]</data>
     </text>
     <text window="none">
         <refs>
@@ -155,7 +155,7 @@ Que se passe-t-il donc dans le ciel ?[end]</data>
         <refs>
             <ref>0x35c</ref>
         </refs>
-        <data>Hmph...
+        <data>Héhé...
 Ceux-là, on les ignore !!
  
 Ceux qui me désobéissent n'entendront pas le récit de la princesse Yoyo !![end]</data>
@@ -185,7 +185,7 @@ Racontez-nous ce que disent les Dragons Sacrés !![end]</data>
         <refs>
             <ref>0x3c2</ref>
         </refs>
-        <data>Matelite: ... Bien sûr ! Princesse Yoyo !! C'est... si je le dis à ma façon...[end]</data>
+        <data>Matelite: ... Bien sûr, princesse Yoyo !! Voyons... à ma façon, ça donne...[end]</data>
     </text>
     <text>
         <refs>
@@ -237,7 +237,7 @@ Celui dont le coeur est faible... fera tomber du ciel le malheur...[end]</data>
         </refs>
         <data>Hmm !! ... La porte... la porte... la porte. Y avait-il une porte quelque part...
  
-Allez !! Taicho !! Préparons-nous au combat !![end]</data>
+Allez, Taicho !! Préparons-nous au combat !![end]</data>
     </text>
     <text window="none">
         <refs>
@@ -249,7 +249,7 @@ Allez !! Taicho !! Préparons-nous au combat !![end]</data>
         <refs>
             <ref>0x45d</ref>
         </refs>
-        <data>Taicho: Princesse Yoyo !! La porte, c'est cette faille dans le ciel, affirmatif ?[end]</data>
+        <data>Taicho: Princesse Yoyo !! La porte, c'est cette faille dans le ciel ?[end]</data>
     </text>
     <text>
         <refs>
@@ -261,7 +261,7 @@ Allez !! Taicho !! Préparons-nous au combat !![end]</data>
         <refs>
             <ref>0x478</ref>
         </refs>
-        <data>Matelite: Silence !!! Taicho !! Pas de discussion, dehors !! Tout le monde dehors !![end]</data>
+        <data>Matelite: Silence, Taicho !!! Pas de discussion, dehors !! Tout le monde dehors !![end]</data>
     </text>
     <text>
         <refs>
@@ -274,7 +274,7 @@ Mais qu'est-ce que c'est que ça !![end1]</data>
         <refs>
             <ref>0x5e9</ref>
         </refs>
-        <data>Rush: Mais oui... il y a ce moyen-là !! Byuu... je passe devant !![end]</data>
+        <data>Rush: Mais oui... je sais comment faire !! Byuu... je passe devant !![end]</data>
     </text>
     <text>
         <refs>
@@ -325,7 +325,7 @@ Salamand !! Arrête !![end]</data>
         <refs>
             <ref>0x698</ref>
         </refs>
-        <data>Matelite: Qu'avez-vous... Princesse Yoyo. Vous êtes bizarre !![end]</data>
+        <data>Matelite: Qu'avez-vous donc, princesse Yoyo ? Vous n'êtes pas vous-même !![end]</data>
     </text>
     <text>
         <refs>
@@ -367,7 +367,7 @@ Ne pensez pas que votre coeur est faible !![end]</data>
         </refs>
         <data>Princesse Yoyo, vous n'êtes pas seule ! Nous vous suivrons partout !!
  
-Si des monstres d'un autre monde sortent de cette porte dans le ciel, nous vous protégerons contre eux !! C'est notre façon de vivre !! Une façon de vivre qui ne changera jamais ![end]</data>
+Si des monstres d'un autre monde sortent de cette porte dans le ciel, nous vous protégerons contre eux !! C'est ainsi que nous vivons !! Et jamais cela ne changera ![end]</data>
     </text>
     <text>
         <refs>
@@ -455,7 +455,7 @@ Comme chevalier... comme guerrier... je ne vaux peut-être plus rien...[end]</da
         </refs>
         <data>Mais !! Je ne peux pas encore prendre ma retraite !!
  
-Je ne peux pas laisser les choses entre leurs mains...[end]</data>
+Je ne peux pas encore leur passer la main...[end]</data>
     </text>
     <text>
         <refs>
@@ -559,13 +559,13 @@ Je deviens vieux, moi aussi...[end]</data>
  
 Quand j'aurai pris ma retraite... venez chez moi toute seule ! Et surtout, pas avec le nouveau roi de Kana !!
  
-Penser que c'est lui que vous avez épousé, ça me rendrait fou de rage !! Je ne sers que vous, princesse Yoyo !![end]</data>
+Penser que c'est lui que vous avez épousé, ça me rendrait fou de rage !! Je ne sers que vous, princesse !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf51</ref>
         </refs>
-        <data>Yoyo: Moi... je n'arrête pas de vous inquiéter, tous. Matelite... Byuu... tous les Rebelles...[end]</data>
+        <data>Yoyo: Moi... je ne vous cause que du souci, à tous. Matelite... Byuu... tous les Rebelles...[end]</data>
     </text>
     <text>
         <refs>
@@ -591,7 +591,7 @@ Un petit rêve...[end]</data>
  
 si je le mets en mots...
  
-il risquerait... de se dissoudre dans le ciel.[end]</data>
+il risquerait... de s'évanouir dans le ciel.[end]</data>
     </text>
     <text>
         <refs>
@@ -614,7 +614,7 @@ Par ailleurs, le matelot qui a rédigé ce rapport est porté disparu.[end]</dat
         </refs>
         <data>Yoyo: Byuu... je t'en prie... Protège l'église... Les souvenirs de tant d'amoureux de Kana sont là-bas...
  
-Des moments inoubliables... des sentiments qu'il ne faut pas perdre... en grand nombre... Pour nous aussi... c'était pareil...
+Tant de moments inoubliables... tant de sentiments à ne pas perdre... Pour nous aussi... c'était pareil...
  
 Tu t'en souviens encore... ? Notre promesse...[end]</data>
     </text>

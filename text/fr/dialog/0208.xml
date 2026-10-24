@@ -16,7 +16,7 @@
         <refs>
             <ref>0x166</ref>
         </refs>
-        <data>Barclay: Bienvenue ! Ici le magasin d'armures ![end]</data>
+        <data>Barclay: Bienvenue au magasin d'armures ![end]</data>
     </text>
     <text>
         <refs>
@@ -55,7 +55,7 @@ C'est bien fait pour lui. Voilà ce qu'on gagne à trahir l'amitié.[end]</data>
         <refs>
             <ref>0x238</ref>
         </refs>
-        <data>Fils de Zora: Ah !! Byuu !! Merci pour tout !! Finalement, ça me va mieux que le Lan-lan-lancier. Je resterai sûrement homme de ménage toute ma vie...[end]</data>
+        <data>Fils de Zora: Ah !! Bonjour, Byuu !! Finalement, ça me va mieux que le Lan-lan-lancier. Je resterai sûrement homme de ménage toute ma vie...[end]</data>
     </text>
     <text>
         <refs>

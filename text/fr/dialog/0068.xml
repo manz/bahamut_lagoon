@@ -4,7 +4,7 @@
         <refs>
             <ref>0x3ce</ref>
         </refs>
-        <data>Vous êtes des Rebelles, n'est-ce pas ?
+        <data>Alors c'est vous, les Rebelles ?
  
 Se proclamer soi-même Rebelles... quel panache... J'adore... Haa, haa...[end][end]</data>
     </text>
@@ -111,7 +111,7 @@ Si vous emmenez les Diablotins qui ont élu domicile dans cette ville, c'est gra
         <refs>
             <ref>0x703</ref>
         </refs>
-        <data>On dirait que cette personne a dérivé jusqu'ici depuis Kana.[end]</data>
+        <data>On dirait qu'elle a dérivé jusqu'ici depuis Kana.[end]</data>
     </text>
     <text>
         <refs>
@@ -169,7 +169,7 @@ Comment diable as-tu réussi à fuir Kana ?[end]</data>
         <refs>
             <ref>0x7f5</ref>
         </refs>
-        <data>Dites donc, vous ! Cette personne est malade, alors ne criez pas comme ça !![end]</data>
+        <data>Dites donc, vous ! Elle est malade, alors ne criez pas comme ça !![end]</data>
     </text>
     <text>
         <refs>
@@ -259,7 +259,7 @@ Comment diable as-tu réussi à fuir Kana ?[end]</data>
         <refs>
             <ref>0x2d7</ref>
         </refs>
-        <data>Donfan: Non, non, ce n'est absolument pas que ce Donfan file doux devant Ruki.[end][end]</data>
+        <data>Donfan: Non, non, le grand Donfan ne file absolument pas doux devant Ruki.[end][end]</data>
     </text>
     <text>
         <refs>
@@ -277,7 +277,7 @@ Comment diable as-tu réussi à fuir Kana ?[end]</data>
         <refs>
             <ref>0x987</ref>
         </refs>
-        <data>Pendant que je ne la voyais pas, Melody est devenue une grande fille, et ça me rend très heureux.[end]</data>
+        <data>Depuis la dernière fois, Melody est devenue une grande fille, et j'en suis tout heureux.[end]</data>
     </text>
     <text>
         <refs>
@@ -313,7 +313,7 @@ Comment diable as-tu réussi à fuir Kana ?[end]</data>
         <refs>
             <ref>0xa09</ref>
         </refs>
-        <data>Me voici. J'ai eu un peu à faire.[end]</data>
+        <data>Je suis rentré. J'ai eu un peu à faire.[end]</data>
     </text>
     <text>
         <refs>
@@ -331,7 +331,7 @@ Comment diable as-tu réussi à fuir Kana ?[end]</data>
         <refs>
             <ref>0xa69</ref>
         </refs>
-        <data>Voilà ce que ça veut dire. Les jeunes gens comprendront-ils, je me le demande ?[end]</data>
+        <data>Voilà ce que ça veut dire. Je me demande si les jeunes comprendront...[end]</data>
     </text>
     <text>
         <refs>
@@ -345,7 +345,7 @@ On dit souvent que c'est un drôle de bonhomme, mais pardonne-lui, hein.[end]</d
         <refs>
             <ref>0xa7d</ref>
         </refs>
-        <data>Grand-père: Cette Melody, depuis toute petite, adore les animaux et les Diablotins.[end]</data>
+        <data>Grand-père: Ma petite Melody adore les animaux et les Diablotins depuis toujours.[end]</data>
     </text>
     <text>
         <refs>
@@ -486,7 +486,7 @@ le dragon oiseau
         <refs>
             <ref>0x2b7</ref>
         </refs>
-        <data>Matelite: Avec ça, l'ordre des chevaliers de Kana renaît ![end]</data>
+        <data>Matelite: Voilà l'ordre des chevaliers de Kana ressuscité ![end]</data>
     </text>
     <text>
         <refs>
@@ -502,7 +502,7 @@ le dragon oiseau
  
 Tout à l'heure, des Diablotins sont passés ici.
  
-Ils ont demandé à se joindre à nous en dansant, puis ils sont repartis.[end]</data>
+Ils voulaient se joindre à nous, et ils sont repartis en dansant.[end]</data>
     </text>
     <text>
         <refs>

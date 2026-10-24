@@ -4,19 +4,19 @@
         <refs>
             <ref>0xbe</ref>
         </refs>
-        <data>Léviathan: Pourquoi... tant de hâte ? Jormungand.[end]</data>
+        <data>Léviathan: Pourquoi... tant de hâte, Jormungand ?[end]</data>
     </text>
     <text window="none">
         <refs>
             <ref>0xcd</ref>
         </refs>
-        <data>Jormungand: Cette fille humaine... est à bout... En nous rassemblant, nous, les quatre Dragons Sacrés, elle a épuisé toutes ses forces.[end]</data>
+        <data>Jormungand: Cette jeune humaine... est à bout... En nous rassemblant, nous, les quatre Dragons Sacrés, elle a épuisé toutes ses forces.[end]</data>
     </text>
     <text window="none">
         <refs>
             <ref>0xde</ref>
         </refs>
-        <data>Garuda: Pourtant... ainsi, la Porte de la Nouvelle Ère ne s'ouvrira pas...
+        <data>Garuda: Mais... dans ce cas, la Porte de la Nouvelle Ère ne s'ouvrira pas...
  
 Sans réunir le pouvoir de tous les Dragons Sacrés, la Porte de la Nouvelle Ère ne devrait pas s'ouvrir...[end]</data>
     </text>
@@ -56,9 +56,9 @@ Une fois la Porte de la Nouvelle Ère ouverte... le temps est éternel...[end]</
         <refs>
             <ref>0x13e</ref>
         </refs>
-        <data>Garuda: Cette fille humaine... il lui manque quelque chose...
- 
-Quelque chose pour être Dragonnière...[end]</data>
+        <data>Garuda: Cette jeune humaine... il lui manque quelque chose...
+
+Ce qui fait une Dragonnière...[end]</data>
     </text>
     <text window="none">
         <refs>
@@ -139,7 +139,7 @@ Comme ça, la princesse Yoyo et tout le monde seront plus tranquilles...''[end]<
         </refs>
         <data>Taicho: !!! ??? ...
  
-Qu'est-ce qu'ils racontaient, les Diablotins, affirmatif ?[end]</data>
+Qu'est-ce qu'ils racontaient, les Diablotins ?[end]</data>
     </text>
     <text>
         <refs>

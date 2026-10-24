@@ -4,7 +4,7 @@
         <refs>
             <ref>0x95</ref>
         </refs>
-        <data>Matelite: Ohé !! Hommes-dragons qui êtes à l'intérieur !!
+        <data>Matelite: Ohé !! Hommes-dragons, là-dedans !!
  
 Nous venons d'Orelus ! Nous sommes là pour vous libérer ! Encore un peu de patience ![end]</data>
     </text>
@@ -25,8 +25,8 @@ Nous venons d'Orelus ! Nous sommes là pour vous libérer ! Encore un peu de pat
         <refs>
             <ref>0x4cc</ref>
         </refs>
-        <data>Matelite: Bien ! Byuu.
-Ce sera... la dernière bataille !
+        <data>Matelite: Bien, Byuu !
+Ce devrait être... la dernière bataille !
 Je n'ai plus rien à dire !
 Tu es prêt ?
  
@@ -117,7 +117,7 @@ Attends un peu...[end]</data>
         <refs>
             <ref>0x8d7</ref>
         </refs>
-        <data>Bikebake: C'est la dernière fois, grand frère ![end]</data>
+        <data>Bikebake: C'est la dernière fois, Byuu ![end]</data>
     </text>
     <text>
         <refs>
@@ -131,7 +131,7 @@ Attends un peu...[end]</data>
         <refs>
             <ref>0xbc</ref>
         </refs>
-        <data>Matelite: Arrivés jusqu'ici, on est tous dans le même bateau ![end]</data>
+        <data>Matelite: Arrivés jusqu'ici, plus question de reculer ![end]</data>
     </text>
     <text>
         <refs>
@@ -143,7 +143,7 @@ Quand Matelite se montre exagérément enjoué...
  
 c'est qu'il sait que l'ennemi est clairement plus fort que nous.
  
-Capitaine Byuu ! Préparez-vous avec soin ![end]</data>
+Capitaine ! Préparez-vous avec soin ![end]</data>
     </text>
     <text window="none">
         <refs>
@@ -237,13 +237,13 @@ affirmatif.
         <refs>
             <ref>0x688</ref>
         </refs>
-        <data>Matelite: Armée du salut d'Orelus, vous tous ! Remportons cette bataille... et rentrons chez nous ![end]</data>
+        <data>Matelite: Armée du salut d'Orelus, tous avec moi ! Remportons cette bataille... et rentrons chez nous ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8cc</ref>
         </refs>
-        <data>Truth: Capitaine Byuu.
+        <data>Truth: Capitaine...
  
 C'est dans ces moments-là qu'il ne faut surtout pas se précipiter.
  

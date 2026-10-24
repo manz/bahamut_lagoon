@@ -11,13 +11,13 @@
         <refs>
             <ref>0x5d</ref>
         </refs>
-        <data>Rush: Bon,c'est décidé !! Byuu... ressaisis-toi ! Tu l'as senti à Dafira. Maintenant,c'est notre époque à nous.[end]</data>
+        <data>Rush: Bon,c'est décidé !! Byuu... ressaisis-toi ! Tu l'as senti à Dafira. Maintenant,l'avenir,c'est nous.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6f</ref>
         </refs>
-        <data>On ne peut pas laisser faire les adultes comme Matelite...
+        <data>On ne peut plus s'en remettre aux vieux comme Matelite...
  
 Pas vrai ?[end]</data>
     </text>
@@ -109,7 +109,7 @@ J'ai toujours rêvé de faire ça,au moins une fois !![end]</data>
         <refs>
             <ref>0xdd3</ref>
         </refs>
-        <data>Truth: Je n'approuve pas vraiment cette méthode... Capitaine Byuu... supportez-le pour l'instant.[end]</data>
+        <data>Truth: Je n'approuve pas vraiment cette méthode... mais prenez sur vous,capitaine.[end]</data>
     </text>
     <text>
         <refs>
@@ -138,7 +138,7 @@ Bref,choisis bien,pour ne rien regretter !![end]</data>
             <ref>0x204</ref>
             <ref>0x246</ref>
         </refs>
-        <data>Rush: Pas question d'ouvrir !![end]</data>
+        <data>Rush: Tu peux toujours courir !![end]</data>
     </text>
     <text>
         <refs>
@@ -176,7 +176,7 @@ Mais... pour l'instant... Yoyo...[end]</data>
         <refs>
             <ref>0xc5b</ref>
         </refs>
-        <data>Rush: ...Pas question d'ouvrir... Allez... on fait les courses...[end]</data>
+        <data>Rush: ...Je n'ouvrirai pas... Allez... on fait les courses...[end]</data>
     </text>
     <text>
         <refs>
@@ -184,7 +184,7 @@ Mais... pour l'instant... Yoyo...[end]</data>
         </refs>
         <data>Truth: ...Princesse Yoyo...
  
-Pour la Princesse aussi,c'est ici que nous devons...[end]</data>
+C'est aussi pour elle que nous devons...[end]</data>
     </text>
     <text>
         <refs>
@@ -206,7 +206,7 @@ Pour la Princesse aussi,c'est ici que nous devons...[end]</data>
  
 C'est peut-être une ruse de Matelite pour nous attendrir...
  
-La nouvelle ère... !! J'ai décidé de vivre en homme fort !!
+La nouvelle ère... !! J'ai décidé de devenir fort !!
  
 Il reste encore ce truc-là...[end]</data>
     </text>

@@ -12,7 +12,7 @@ Vous permettez ? C'est moi qui entre le premier,affirmatif !![end]</data>
         <refs>
             <ref>0x1ee</ref>
         </refs>
-        <data>Taicho: Ah... affirmatif !! Le château de Kana,dont j'ai tant rêvé !! Rien à voir avec le palais moisi de Mahal,affirmatif !![end]</data>
+        <data>Taicho: Ah !! Le château de Kana,dont j'ai tant rêvé !! Rien à voir avec le palais moisi de Mahal,affirmatif !![end]</data>
     </text>
     <text>
         <refs>
@@ -31,7 +31,7 @@ Vous permettez ? C'est moi qui entre le premier,affirmatif !![end]</data>
             <ref>0xe5e</ref>
         </refs>
         <data> Bien sûr que je suis content
- Je ressens peut-être comme toi...[end1]</data>
+ Pareil que toi,sans doute...[end1]</data>
     </text>
     <text>
         <refs>
@@ -49,19 +49,19 @@ Vous permettez ? C'est moi qui entre le premier,affirmatif !![end]</data>
         <refs>
             <ref>0xe78</ref>
         </refs>
-        <data>Truth: Bikebake est parti quelque part avec ses champignons... Ces derniers temps,il a réduit ses dépenses de nourriture et il a maigri... Aurait-il des soucis ?[end]</data>
+        <data>Truth: Bikebake est parti quelque part avec ses champignons... Ces derniers temps,il s'est serré la ceinture et il a maigri... Aurait-il des soucis ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xdc6</ref>
         </refs>
-        <data>Taicho: Matelite... boudait,affirmatif... alors que c'est le soir de la Restauration de Kana...[end]</data>
+        <data>Taicho: Matelite... boudait... alors que c'est le soir de la Restauration de Kana...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xdd0</ref>
         </refs>
-        <data>Matelite... a dû être blessé par tes paroles,Byuu,affirmatif !![end]</data>
+        <data>Tes paroles ont dû blesser Matelite,Byuu,affirmatif !![end]</data>
     </text>
     <text>
         <refs>
@@ -100,7 +100,7 @@ Il en est tout abattu.[end]</data>
         </refs>
         <data>Sendak: Je suis un vieux costaud !! Non,un vieux costaud,affirmatif !! (Psst... psst...)
  
-Les Dragons Sacrés ont une voix effrayante... ``Ce n'est pas fini...'' ``La Nouvelle Ère n'est pas encore venue...'' Des trucs comme ça... Ça m'embête qu'ils me le disent à moi...[end]</data>
+Les Dragons Sacrés ont une voix effrayante... ``Ce n'est pas fini...'' ``La Nouvelle Ère n'est pas encore venue...'' Des trucs comme ça... Pourquoi venir me dire ça à moi...[end]</data>
     </text>
     <text>
         <refs>
@@ -178,17 +178,17 @@ Allez... viens,viens !![end]</data>
         <refs>
             <ref>0x434</ref>
         </refs>
-        <data>Yoyo: Et Matelite... qu'est-il devenu ?[end]</data>
+        <data>Yoyo: Et Matelite... que lui est-il arrivé ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x441</ref>
         </refs>
-        <data>Taicho: Matelite est porté disparu !! Peu importe,affirmatif !!
+        <data>Taicho: Matelite est porté disparu !! Peu importe !!
  
 Il n'est même pas là le soir de la Restauration de Kana,au moment le plus important...
  
-Laissons-le !![end]</data>
+Laissons-le,affirmatif !![end]</data>
     </text>
     <text>
         <refs>
@@ -250,14 +250,14 @@ L'armée de restauration de Kana... non... l'armée de libération d'Orelus.[end
         <refs>
             <ref>0x4ad</ref>
         </refs>
-        <data>Dans le monde d'Orelus... dans ce ciel... jusqu'à l'avènement d'une ère digne d'être appelée paix véritable,nous n'avons d'autre choix que de continuer à nous battre. N'est-ce pas... Taicho,capitaine des chevaliers de Mahal ?[end]</data>
+        <data>Dans le monde d'Orelus... dans ce ciel... tant qu'une paix véritable n'y régnera pas,nous n'avons d'autre choix que de continuer à nous battre. N'est-ce pas... Taicho,capitaine des chevaliers de Mahal ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4c6</ref>
         </refs>
-        <data>Taicho: Affirmatif !!
- 
+        <data>Taicho: Tout à fait !!
+
 J'aurais voulu que Matelite entende ça,affirmatif !![end]</data>
     </text>
     <text>
@@ -266,8 +266,8 @@ J'aurais voulu que Matelite entende ça,affirmatif !![end]</data>
         </refs>
         <data>Je suis sûre que Matelite pense comme moi.
  
-Ça ira... Sendak ?
- 
+Écoute-moi... Sendak.
+
 Les Dragons Sacrés sont avec nous. Même si c'est dur,tu pourras continuer à te battre ?[end]</data>
     </text>
     <text>
@@ -280,7 +280,7 @@ Les Dragons Sacrés sont avec nous. Même si c'est dur,tu pourras continuer à t
         <refs>
             <ref>0x51c</ref>
         </refs>
-        <data>Ça ira... Rush,Truth... Vous tous. Vous combattrez à mes côtés ?[end]</data>
+        <data>Écoutez-moi... Rush,Truth... Vous tous. Vous combattrez à mes côtés ?[end]</data>
     </text>
     <text>
         <refs>
@@ -337,7 +337,7 @@ Il a abandonné l'Empire... et l'Empereur Sauzer,pour devenir notre nouveau comp
         <refs>
             <ref>0x5b9</ref>
         </refs>
-        <data>L'Empereur Sauzer a connu le coeur des Dragons Sacrés,et il est tombé gravement malade...
+        <data>L'Empereur Sauzer a percé le secret du coeur des Dragons Sacrés,et il en est tombé gravement malade...
  
 Et il a rendu sa liberté au Général Palparos.
  
@@ -353,7 +353,7 @@ Tout cela pour protéger le ciel d'Orelus... de ces monstres venus d'un autre mo
         <refs>
             <ref>0x5d9</ref>
         </refs>
-        <data>Il faut changer le cours de l'histoire qui s'est mis en marche...
+        <data>L'histoire est en marche... il faut en changer le cours...
  
 Il est encore temps !!
  

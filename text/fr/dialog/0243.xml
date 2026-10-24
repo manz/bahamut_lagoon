@@ -4,7 +4,7 @@
         <refs>
             <ref>0x9e</ref>
         </refs>
-        <data>Grand frère ! Tu nous donnes vraiment cette maison ?[end]</data>
+        <data>Byuu ! Tu nous donnes vraiment cette maison ?[end]</data>
     </text>
     <text>
         <refs>
@@ -22,19 +22,19 @@
         <refs>
             <ref>0xc4</ref>
         </refs>
-        <data>Taicho, Zora... Plein de gens ont fui la guerre et se sont réfugiés ici, hein...[end]</data>
+        <data>Taicho, Zora... Combien de gens ont fui la guerre pour se réfugier ici...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xcd</ref>
         </refs>
-        <data>Nous... avant de rencontrer notre grand frère Byuu, on était comme des chiens errants... mais... ...mais tu vois...[end]</data>
+        <data>Nous... avant de rencontrer Byuu, on était comme des chiens errants... mais... tu sais...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd7</ref>
         </refs>
-        <data>...Mais quoi ? Mais quoi, hein ?[end]</data>
+        <data>...Mais ? Mais quoi ?[end]</data>
     </text>
     <text>
         <refs>
@@ -84,7 +84,7 @@ Je... je vais finir par pleurer...[end]</data>
         <refs>
             <ref>0x141</ref>
         </refs>
-        <data>Grand frère... M-merci... voilà...[end]</data>
+        <data>Byuu... M-merci... voilà...[end]</data>
     </text>
     <text>
         <refs>
@@ -96,7 +96,7 @@ Je... je vais finir par pleurer...[end]</data>
         <refs>
             <ref>0x165</ref>
         </refs>
-        <data>Capitaine Byuu !![end]</data>
+        <data>Capitaine !![end]</data>
     </text>
     <text window="none">
         <refs>

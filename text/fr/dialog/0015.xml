@@ -25,7 +25,7 @@ Dafira, la terre du désert... Chaude... d'une chaleur à suffoquer... Un lagon 
         <refs>
             <ref>0xc8</ref>
         </refs>
-        <data>Notre voyage de combats en est maintenant à mi-chemin...[end]</data>
+        <data>Notre périple guerrier en est à mi-parcours...[end]</data>
     </text>
     <text window="none">
         <refs>
@@ -65,12 +65,12 @@ Vous ressentez la même chose que moi... ? La seule chose en laquelle on peut cr
         <refs>
             <ref>0x115</ref>
         </refs>
-        <data>Mais tu sais... moi, j'ai été sauvé...
- 
-Matelite et les autres... Ce sont des hommes gentils à en devenir agaçants... Leur droiture me fait mal...
- 
+        <data>Mais tu sais... moi, j'ai trouvé du réconfort...
+
+Matelite et les autres... Des braves types, gentils à en être agaçants... Leur droiture me fait mal...
+
 Grâce à eux... même un type comme moi s'est remis à rire, ces derniers temps...
-Hein...
+Pas vrai...
  
 Sauzer...[end]</data>
     </text>
@@ -203,7 +203,7 @@ La princesse Yoyo ne va pas bien...[end]</data>
         <refs>
             <ref>0x344</ref>
         </refs>
-        <data>Hornet: Courage ! Nous allons bientôt sortir des nuages d'orage ! Dafira est un lagon de désert... Ça va chauffer ![end]</data>
+        <data>Hornet: Courage ! On va bientôt sortir des nuages d'orage ! Dafira est un lagon de désert... Ça va chauffer ![end]</data>
     </text>
     <text>
         <refs>
@@ -221,9 +221,9 @@ La princesse Yoyo ne va pas bien...[end]</data>
         <refs>
             <ref>0x82c</ref>
         </refs>
-        <data>Bikebake: La chambre de la princesse Yoyo est interdite aux garçons, paraît-il... (Miam miam... chuchote...)
- 
-En fait, Byuu, grand frère... j'ai embauché un vendeur pour ma boutique de champignons.
+        <data>Bikebake: La chambre de la princesse Yoyo est interdite aux garçons, paraît-il... (Miam miam... psst psst...)
+
+En fait, Byuu... j'ai embauché un vendeur pour ma boutique de champignons.
  
 Il faut bien agrandir le magasin... Et je lui verse même un salaire.[end]</data>
     </text>
@@ -231,7 +231,7 @@ Il faut bien agrandir le magasin... Et je lui verse même un salaire.[end]</data
         <refs>
             <ref>0x783</ref>
         </refs>
-        <data>Hornet: Voici enfin la bataille décisive... Courage ! On débarque ?[end]</data>
+        <data>Hornet: Ça y est, c'est la bataille décisive... Courage ! On débarque ?[end]</data>
     </text>
     <text>
         <refs>
@@ -256,7 +256,7 @@ Il faut bien agrandir le magasin... Et je lui verse même un salaire.[end]</data
         <refs>
             <ref>0x3a0</ref>
         </refs>
-        <data>Rush: Nous allons enfin sortir de ces nuages.
+        <data>Rush: On sort des nuages !!
 Compte à rebours !
 [0xb2]... ...
  

@@ -63,14 +63,14 @@ Bien utilisé, ça fait économiser de l'argent !! Et on rassemble plus vite de 
             <ref>0x7d9</ref>
             <ref>0x7eb</ref>
         </refs>
-        <data>Bienvenue !! Ici la boutique d'objets !![end]</data>
+        <data>Bienvenue à la boutique d'objets !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8a3</ref>
             <ref>0x8b5</ref>
         </refs>
-        <data>Ici le magasin d'armures !! Achetez, s'il vous plaît...[end]</data>
+        <data>Bienvenue au magasin d'armures !! Achetez quelque chose, s'il vous plaît...[end]</data>
     </text>
     <text>
         <refs>
@@ -154,7 +154,7 @@ Thunder a pris la foudre, il était aux anges.[end]</data>
         <refs>
             <ref>0x997</ref>
         </refs>
-        <data>Matelot: Merci pour tout à l'heure. Pour te remercier, je vais te confier mon rêve. Moi... un jour, je voudrais devenir un dragon...
+        <data>Matelot: Merci pour tout à l'heure. En échange, je vais te confier mon rêve. Moi... un jour, je voudrais devenir un dragon...
  
 Je l'ai promis à Munimuni... mais ce jour viendra-t-il... ?[end]</data>
     </text>
@@ -408,7 +408,7 @@ Veux-tu la lire ?[end]</data>
         <data>À Byuu,
  
  
-C'est soudain, mais nous nous sommes mariés.
+Nous avons la joie de vous annoncer notre mariage.
  
 Désormais, nous travaillerons main dans la main. -Le marchand du champ de bataille et sa femme-[end]</data>
     </text>

@@ -54,7 +54,7 @@ Tu es vraiment rapide !![0xfc][0x20][end1]</data>
             <ref>0x390</ref>
         </refs>
         <data> Bien sûr !!
- Arrête,tu me gênes...[end1]</data>
+ Arrête,tu me fais rougir...[end1]</data>
     </text>
     <text>
         <refs>
@@ -77,7 +77,7 @@ Trop tard... je te tiens déjà...[end]</data>
         </refs>
         <data>Dis, Byuu... jusqu'où le ciel peut-il bien s'étendre...
  
-Est-ce qu'il existe des sentiments qui traversent le ciel pour arriver jusqu'à quelqu'un ?[end]</data>
+Est-ce que nos sentiments peuvent traverser le ciel... jusqu'à l'autre ?[end]</data>
     </text>
     <text>
         <refs>
@@ -102,9 +102,9 @@ Tu sais pourquoi ?[end]</data>
         </refs>
         <data>C'est beau, hein...
  
-Un garçon et une fille qui visitent l'église tous les deux, seuls...
- 
-seront unis plus tard, à coup sûr...[end]</data>
+Deux amoureux qui viennent seuls dans cette église...
+
+seront unis un jour, c'est sûr...[end]</data>
     </text>
     <text>
         <refs>
@@ -112,9 +112,9 @@ seront unis plus tard, à coup sûr...[end]</data>
         </refs>
         <data>Cette église, tu sais... a une très belle légende.
  
-Un garçon et une fille qui la visitent tous les deux, seuls...
- 
-seront unis plus tard, à coup sûr...[end]</data>
+Un garçon et une fille qui y viennent seuls...
+
+seront unis un jour, c'est sûr...[end]</data>
     </text>
     <text>
         <refs>
@@ -204,7 +204,7 @@ Mon dragon nous attend dehors.[end]</data>
         <refs>
             <ref>0x5b4</ref>
         </refs>
-        <data>Yoyo: Une seule fois, n'est-ce pas... Les quelques heures avant que la nuit tombe...[end]</data>
+        <data>Yoyo: Rien qu'une fois, alors... Les quelques heures avant que la nuit tombe...[end]</data>
     </text>
     <text>
         <refs>
@@ -276,7 +276,7 @@ Mon dragon nous attend dehors.[end]</data>
         <refs>
             <ref>0x89a</ref>
         </refs>
-        <data>Yoyo: Cette église a une très vieille légende...[end]</data>
+        <data>Yoyo: Il y a une très vieille légende sur cette église...[end]</data>
     </text>
     <text>
         <refs>
@@ -292,7 +292,7 @@ Mon dragon nous attend dehors.[end]</data>
  
 Mais... je ne te la raconterai pas maintenant.
  
-Cette histoire, un jour, tous les deux à nouveau... dans cette église...
+Je te la raconterai un jour... quand on reviendra ici, tous les deux...
  
 Ce jour-là, ce sera devenu notre église des souvenirs.[end]</data>
     </text>
@@ -300,7 +300,7 @@ Ce jour-là, ce sera devenu notre église des souvenirs.[end]</data>
         <refs>
             <ref>0x8d3</ref>
         </refs>
-        <data>Palparos: ...Un jour, à nouveau tous les deux...[end]</data>
+        <data>Palparos: ...Revenir ici un jour, tous les deux...[end]</data>
     </text>
     <text>
         <refs>

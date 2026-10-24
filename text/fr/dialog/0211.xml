@@ -13,7 +13,7 @@
         <refs>
             <ref>0x5ae</ref>
         </refs>
-        <data>Ho... (soupir)... Bientôt la saison des amours... Que c'est poignant...[end]</data>
+        <data>Ho... (soupir)... Bientôt la saison des amours... J'en ai le cœur serré...[end]</data>
     </text>
     <text>
         <refs>
@@ -70,7 +70,7 @@
         <refs>
             <ref>0x582</ref>
         </refs>
-        <data>Comme un bébé est né, Hornet m'a permis d'aller jusqu'à la proue !! Après tout, c'est moi le papa...[end]</data>
+        <data>Pour la naissance du bébé, Hornet m'a laissé aller jusqu'à la proue !! Après tout, c'est moi le papa...[end]</data>
     </text>
     <text>
         <refs>
@@ -297,11 +297,11 @@ Dans ce ciel...[end]</data>
         <refs>
             <ref>0x566</ref>
         </refs>
-        <data>Père Dragon: Byuu... Sous ce ciel d'Orelus... sous la mer de nuages qui s'étend à l'infini... s'étend un autre monde. Le monde de ceux qui veillent sur toi... et ne cessent de te regarder...
+        <data>Père Dragon: Byuu... Sous ce ciel d'Orelus... sous la mer de nuages sans fin... s'étend un autre monde. Le monde de ceux qui veillent sur toi... et ne cessent de te regarder...
  
 La faille du ciel... La guerre des Dragons Sacrés...
  
-Ce n'est pas une crise pour le seul monde d'Orelus...
+La crise ne touche pas que le monde d'Orelus...
  
 Sous la mer de nuages... les rêves de tous les êtres... la force de leur coeur... Byuu... ces sentiments qui traversent le ciel... ressens-les de tout ton corps...[end]</data>
     </text>
@@ -323,7 +323,7 @@ Pas touche !! -Bikebake-[end]</data>
         <refs>
             <ref>0xd57</ref>
         </refs>
-        <data>Voler les champignons de l'espoir de Bikebake ?[end]</data>
+        <data>Voler les précieux champignons de Bikebake ?[end]</data>
     </text>
     <text>
         <refs>
