@@ -60,10 +60,15 @@ def test_names_print_from_their_records(console: Console) -> None:
 
 
 def test_quotes_and_accents(console: Console) -> None:
-    show(console, encoded("Truth: Il a dit ``Écoute'' à Ève... Ça, c'est un coeur à l'épreuve, où qu'il aille ![end]"))
+    show(console, encoded("Truth: Il a dit ``Écoute'' à Ève... Ça, c'est un cœur à l'épreuve, où qu'il aille ![end]"))
     assert console.matches_golden("dialog-room-accents")
 
 
 def test_a_frameless_text_is_centred(console: Console) -> None:
     show(console, encoded("Chapitre 9\n-Mahal, le continent des miracles-[end]", align=CENTER), style=0, row=0x09)
     assert console.matches_golden("dialog-room-centred")
+
+
+def test_punctuation(console: Console) -> None:
+    show(console, encoded("Bikebake: Champignons (ma part : 1/10)... Au secouuuurs~ Mon œil, sœur ![end]"))
+    assert console.matches_golden("dialog-room-punctuation")

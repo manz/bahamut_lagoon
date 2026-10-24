@@ -102,13 +102,13 @@ L'un des deux a pensé à sa maman, et il a le mal du pays, paraît-il. Bon, au 
         <refs>
             <ref>0x460</ref>
         </refs>
-        <data>Ekaterina: (Ce qu'il aime, c'est l'Uniasticot... Ah, je vais lui offrir de l'Uniasticot, avec tout mon coeur...)[end]</data>
+        <data>Ekaterina: (Ce qu'il aime, c'est l'Uniasticot... Ah, je vais lui offrir de l'Uniasticot, avec tout mon cœur...)[end]</data>
     </text>
     <text window="none">
         <refs>
             <ref>0x459</ref>
         </refs>
-        <data>Ekaterina: (Ce qu'il aime, c'est le vin doux... Ah, je vais lui offrir du vin doux, avec tout mon coeur...)[end]</data>
+        <data>Ekaterina: (Ce qu'il aime, c'est le vin doux... Ah, je vais lui offrir du vin doux, avec tout mon cœur...)[end]</data>
     </text>
     <text>
         <refs>
@@ -363,7 +363,7 @@ jaser, tous les deux ?
         <refs>
             <ref>0x78e</ref>
         </refs>
-        <data>Ruki: Tout le monde commence à penser à l'après-guerre. Moi, je prierai de tout mon coeur pour que tout le monde soit heureux. Quand la guerre sera finie, toi aussi, Byuu, viens prier avec moi ![end]</data>
+        <data>Ruki: Tout le monde commence à penser à l'après-guerre. Moi, je prierai de tout mon cœur pour que tout le monde soit heureux. Quand la guerre sera finie, toi aussi, Byuu, viens prier avec moi ![end]</data>
     </text>
     <text>
         <refs>
@@ -540,7 +540,7 @@ C'est agréable... Lentement... lentement...[end]</data>
         <refs>
             <ref>0x487</ref>
         </refs>
-        <data>Ekaterina: (À quoi pense-t-il en ce moment... ? À la fille charmante qui lui a offert du vin doux ? Hihi... Hihi... Ah, dans son coeur, moi... Hihihi...)[end]</data>
+        <data>Ekaterina: (À quoi pense-t-il en ce moment... ? À la fille charmante qui lui a offert du vin doux ? Hihi... Hihi... Ah, dans son cœur, moi... Hihihi...)[end]</data>
     </text>
     <text window="none">
         <refs>

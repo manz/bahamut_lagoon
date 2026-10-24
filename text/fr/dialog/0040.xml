@@ -212,7 +212,7 @@ et si c'était une fille, ``Chiko''.[end]</data>
         </refs>
         <data>J'aurais tant voulu le voir avec toi,
 de mon vivant, cet arc-en-ciel...
-Alors... mon voeu, lui aussi,
+Alors... mon vœu, lui aussi,
 se serait exaucé...[end]</data>
     </text>
     <text window="none">
@@ -221,13 +221,13 @@ se serait exaucé...[end]</data>
         </refs>
         <data>Tu te souviens ? On raconte que
 quiconque voit cet arc-en-ciel
-verra son voeu exaucé, quel qu'il soit.[end]</data>
+verra son vœu exaucé, quel qu'il soit.[end]</data>
     </text>
     <text window="none">
         <refs>
             <ref>0x1b8</ref>
         </refs>
-        <data>Mon voeu, aujourd'hui...
+        <data>Mon vœu, aujourd'hui...
  
 c'est que tous les peuples du monde
 vivent en paix !
@@ -250,7 +250,7 @@ Un monde sans guerres ni querelles ![end]</data>
             <ref>0x1ef</ref>
         </refs>
         <data>...Céline !!
-Ton voeu...
+Ton vœu...
 je fais le serment de l'exaucer ![end]</data>
     </text>
 </texts>

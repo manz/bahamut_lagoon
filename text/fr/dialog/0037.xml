@@ -276,22 +276,22 @@ Quand vous voudrez retourner sur Fareneit,dites-le-moi.[end]</data>
         <refs>
             <ref>0x47f</ref>
         </refs>
-        <data>``Qui connaît le coeur des Dragons Sacrés ouvrira la Porte de la Nouvelle Ère.''
+        <data>``Qui connaît le cœur des Dragons Sacrés ouvrira la Porte de la Nouvelle Ère.''
  
 Et la légende ajoute toujours ces mots... Les voici...
-``Le coeur faible fait tomber le malheur des cieux.''[end]</data>
+``Le cœur faible fait tomber le malheur des cieux.''[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x57c</ref>
         </refs>
-        <data>Matelite: Qui connaît le coeur des Dragons Sacrés... La Porte de la Nouvelle Ère... Quoi ! Alors c'est Yoyo ![end]</data>
+        <data>Matelite: Qui connaît le cœur des Dragons Sacrés... La Porte de la Nouvelle Ère... Quoi ! Alors c'est Yoyo ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x586</ref>
         </refs>
-        <data>Sendak: ...Le coeur faible ? ...Le malheur des cieux ?[end]</data>
+        <data>Sendak: ...Le cœur faible ? ...Le malheur des cieux ?[end]</data>
     </text>
     <text>
         <refs>
@@ -311,13 +311,13 @@ Sauzer a conquis le monde. Mais il a découvert la légende des Dragons Sacrés.
  
 Il a compris qu'unifier le monde ne faisait pas tout.
  
-Alors,avec le pouvoir de la Princesse... non,celui de la famille royale de Kana,il veut connaître le coeur des Dragons Sacrés...[end]</data>
+Alors,avec le pouvoir de la Princesse... non,celui de la famille royale de Kana,il veut connaître le cœur des Dragons Sacrés...[end]</data>
     </text>
     <text window="none">
         <refs>
             <ref>0x699</ref>
         </refs>
-        <data>Je n'ai pas pu le dire... C'est moi... le coeur faible...
+        <data>Je n'ai pas pu le dire... C'est moi... le cœur faible...
  
 C'est moi qui ai révélé la légende à Sauzer... Pour sauver Campbell,je n'avais pas le choix... Non... je n'espère pas être pardonnée...
  
@@ -327,13 +327,13 @@ La chute de Kana... la mort du Roi de Kana... la souffrance de Yoyo... Ah... Et 
         <refs>
             <ref>0x4ed</ref>
         </refs>
-        <data>Qui connaît le coeur des Dragons Sacrés ouvrira la Porte de la Nouvelle Ère.[end]</data>
+        <data>Qui connaît le cœur des Dragons Sacrés ouvrira la Porte de la Nouvelle Ère.[end]</data>
     </text>
     <text window="none">
         <refs>
             <ref>0x4f8</ref>
         </refs>
-        <data>Fille du roi au coeur faible... Toi qui connais la légende... Tout dépend de toi...[end]</data>
+        <data>Fille du roi au cœur faible... Toi qui connais la légende... Tout dépend de toi...[end]</data>
     </text>
     <text window="none">
         <refs>

@@ -10,7 +10,7 @@
         <refs>
             <ref>0x4e</ref>
         </refs>
-        <data>Ce que mon défunt père n'a pas pu faire... unir mon coeur au vôtre...[end]</data>
+        <data>Ce que mon défunt père n'a pas pu faire... unir mon cœur au vôtre...[end]</data>
     </text>
     <text>
         <refs>
@@ -98,7 +98,7 @@ Nous allons... bientôt... décoller. La Porte... va s'ouvrir... Les Dragons Sac
         <refs>
             <ref>0x160</ref>
         </refs>
-        <data>Et pourtant,jeune fille... tu n'as pas perdu... ton propre coeur...[end]</data>
+        <data>Et pourtant,jeune fille... tu n'as pas perdu... ton propre cœur...[end]</data>
     </text>
     <text window="none">
         <refs>
@@ -116,7 +116,7 @@ Nous allons... bientôt... décoller. La Porte... va s'ouvrir... Les Dragons Sac
         <refs>
             <ref>0x18e</ref>
         </refs>
-        <data>Bahamut: Qui connaît le coeur des Dragons Sacrés... ouvrira la Porte de la Nouvelle Ère...[end]</data>
+        <data>Bahamut: Qui connaît le cœur des Dragons Sacrés... ouvrira la Porte de la Nouvelle Ère...[end]</data>
     </text>
     <text window="none">
         <refs>
@@ -152,13 +152,13 @@ Nous allons... bientôt... décoller. La Porte... va s'ouvrir... Les Dragons Sac
         <refs>
             <ref>0x1c3</ref>
         </refs>
-        <data>Bahamut: Unir nos coeurs... en un seul...[end]</data>
+        <data>Bahamut: Unir nos cœurs... en un seul...[end]</data>
     </text>
     <text window="none">
         <refs>
             <ref>0x1cf</ref>
         </refs>
-        <data>Nos coeurs... qui se haïssent... Nos coeurs... unis en un seul...
+        <data>Nos cœurs... qui se haïssent... Nos cœurs... unis en un seul...
  
 Alors... la Porte... s'ouvrira entièrement... Dragonnière... en es-tu capable ?[end]</data>
     </text>
