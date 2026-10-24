@@ -30,7 +30,6 @@ goes back to white: the cell goes on showing its own slot, so no other string ta
 
 
 _SHADOW = 0x7E4800
-_SHADOW_CELLS = 0x400
 _FONT_VRAM = 0x4000
 _TILE_MAP = 0xC1CB4B  ; code -> tile
 _ATTR = 0x3800
