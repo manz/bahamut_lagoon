@@ -147,7 +147,7 @@ UPLOAD_BUDGET = 0x400  ; bytes of runs an NMI uploads: a window's tilemap must s
 ; is whole and may hold spaces, so the icon goes past it, as the dialogue font spells it.
 .alloc at 0xC0D6F5 {
     jsl.l panel_message_icon
-    jml.l 0xC0D717
+    jml 0xC0D717
 }
 
 ; The map's message box copy (C0AB4B: bank A, string Y into the line, its characters in $08, which size the box):
@@ -156,7 +156,7 @@ UPLOAD_BUDGET = 0x400  ; bytes of runs an NMI uploads: a window's tilemap must s
     sta.b 0x10
     jsl.l panel_count_chars
     ldx.w #LINE
-    jsr.w 0xE089
+    jsr 0xE089
     jsl.l panel_end_box_line
     rts
 }
@@ -240,13 +240,13 @@ _for_a_line:
     lda.l panel.copy_end
     tay
     sep #0x20
-    jml.l 0xC0E0A2  ; the copy routine's rts
+    jml 0xC0E0A2  ; the copy routine's rts
 _vanilla_copy:
     phb
     lda.b 0x10
     pha
     plb
-    jml.l 0xC0E08E
+    jml 0xC0E08E
 
 _for_a_message:
 """Carry set when the copy's caller writes a battle message, which the dialogue font draws, not a panel line."""
@@ -318,7 +318,7 @@ _message_end:
     lda.l panel.copy_end
     tay
     sep #0x20
-    jml.l 0xC0E0A2  ; the copy routine's rts
+    jml 0xC0E0A2  ; the copy routine's rts
 
 _copy_end:
 """Where the engine's copy leaves Y: past $08 bytes, or past the FF before them (FE is a character to it)."""
@@ -504,7 +504,7 @@ _other_row:
     sep #0x20
     phb
     lda #0x7E
-    jml.l 0xC0DE27
+    jml 0xC0DE27
 
 _row_owner:
 """A: tilemap cell (16-bit) -> its row + 1."""
@@ -528,12 +528,12 @@ a window the character it stands for.
     cmp #BLANK
     bne _not_blank
 _draw_blank:
-    jml.l 0xC0CAE2
+    jml 0xC0CAE2
 _not_blank:
     cmp #PLACEHOLDER
     beq _placeholder
 _draw_char:
-    jml.l 0xC0CAE9
+    jml 0xC0CAE9
 _placeholder:
     rep #0x30
     phx
@@ -592,7 +592,7 @@ _slot_found:
     sep #0x20
     lda.l panel.slot_code
     plx
-    jml.l 0xC0CAED
+    jml 0xC0CAED
 
     .if CHECKS {
 _check_frame:
@@ -1139,7 +1139,7 @@ panel_window_font_reloaded:
     ora #WINDOW_RUNS
     sta.l panel.dirty
     plp
-    jml.l 0xC006E1  ; an rts in the engine's bank: back to the window font's caller
+    jml 0xC006E1  ; an rts in the engine's bank: back to the window font's caller
 
 panel_font_reloaded:
 """The font upload overwrites the slots: upload them all again at the next NMI."""
@@ -1149,8 +1149,8 @@ panel_font_reloaded:
     sta.l panel.dirty
     plp
     rep #0x21
-    lda.l 0xC70020
-    jml.l 0xC0B420
+    lda 0xC70020
+    jml 0xC0B420
 
 _pool_runs:
 ; The pool's runs of free codes, slot after slot: first code, length; 0 ends them.
