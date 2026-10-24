@@ -97,7 +97,6 @@ _QUEUE_BG3_MAP_DONE = 0xEEFDC5
 _HDMA_CHANNELS = 0x00185C  ; nmi_frame's HDMAEN
 _BG3_UPLOAD_OFF = 0x00186E  ; nonzero: the engine leaves BG3's map alone
 _BG3_MAP_VRAM = 0x4800
-_BG3_MAP_BYTES = 0x1000
 _PRESENT_WAIT = 0x1800  ; tries, ~5 frames, a draw waits for a lag NMI's present
 _MAX_CELLS = 12  ; small_vwf's
 _PLACES = 8  ; the cells a run keeps track of being drawn at
