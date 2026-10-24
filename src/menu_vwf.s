@@ -848,7 +848,7 @@ it; carry set when it did. The staging buffer moves past the bytes.
     sta.l menu.staged
     sec
     rts
-    _no_extend_after:  ; the run's tiles stay where they are staged, for an entry of their own
+_no_extend_after:  ; the run's tiles stay where they are staged, for an entry of their own
 _no_extend:
     lda.l menu.cell
     clc
