@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from script import Table
+from katsuji.script import Table
 
 from utils.items import ITEM_COUNT, NAME_SIZE, item_name_records
 

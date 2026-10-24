@@ -8,7 +8,7 @@ import re
 from pathlib import Path
 
 import pytest
-from script import Table
+from katsuji.script import Table
 
 from utils.cartridge import rom_offset
 from utils.credits import STEP, TABLE

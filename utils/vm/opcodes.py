@@ -1,6 +1,6 @@
 from typing import Protocol
 
-from script import Table
+from katsuji.script import Table
 
 from . import AlreadyVisitedError
 from .executor import walk_event_chain

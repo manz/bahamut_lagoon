@@ -9,7 +9,7 @@ from io import BufferedReader
 from typing import NotRequired, TypedDict
 
 from a816.writers import Writer
-from script import Table
+from katsuji.script import Table
 
 from utils.cartridge import rom_address, rom_offset
 from utils.credits import CREDITS_ROOMS, ENDING_CREDITS_ROOMS, credits_script, place_credit_lines

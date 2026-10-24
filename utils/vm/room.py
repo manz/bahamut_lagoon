@@ -5,7 +5,7 @@ from typing import TYPE_CHECKING, cast
 from xml.dom import minidom
 from xml.etree.ElementTree import ElementTree
 
-from script import Table
+from katsuji.script import Table
 
 from utils.vm import AlreadyVisitedError
 
