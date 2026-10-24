@@ -163,6 +163,9 @@ calque the stiffness review found in the script.
   is a verb, not a noun (« On part sauver la princesse ! », not « L'opération de sauvetage… commence »).
 - **Pronouns after the first mention.** JP repeats a noun for want of pronouns; French names it once a speech, then
   says il, elle, eux or leur (0077 0x875 named the hommes-dragons three times and the Dragons Sacrés six).
+- **Plain words.** A rare or literary word stands out in plain dialogue even when it's right (« fourbu », « il me
+  tarde », « aux aguets »): say épuisé, j'ai hâte, si c'est toi qui veilles. Keep the bookish turn for the speaker it
+  characterises (Matelite's drills, Zora's « qui l'eût cru »).
 - **Register by speaker.** Rush, Ruki, Bikebake and the crew say « on » and ask without inversion (« Tu es amoureux
   de quelqu'un ? »); inversion and « nous » belong to Matelite's set speeches, the royals and the Holy Dragons.
 
