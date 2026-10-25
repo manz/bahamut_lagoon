@@ -73,3 +73,6 @@ class BannerTestCase(TestCase):
         tiles, tile_numbers, flips = self.banner.streams()
         read = Banner(decompress(tiles)[0], decompress_interleaved(tile_numbers)[0], unpack_flips(decompress(flips)[0]))
         self.assertEqual(read, self.banner)
+
+    def test_its_streams_name_the_decompressor_the_game_picks(self) -> None:
+        self.assertEqual([stream[0] for stream in self.banner.streams()], [0x00, 0x03, 0x00])

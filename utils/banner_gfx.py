@@ -24,6 +24,9 @@ ESCAPES = (0x1A, 0x1B)
 END = 0x0100
 FIELDS = 4  # flips a byte
 FLIPS_HEADER = 3
+# A stream's first byte: E9FD48 picks the decompressor from its low nibble.
+ASSET_LZ = 0x00  # E9FB09
+INTERLEAVED_LZ = 0x03  # E9FBA0
 ATTRIBUTE = 0x20
 
 
@@ -87,12 +90,17 @@ class Banner:
         return b"".join(bytes([n, f << 6 | attribute]) for n, f in zip(self.tile_numbers, self.flips, strict=True))
 
     def streams(self) -> tuple[bytes, bytes, bytes]:
-        """TILES, TILE_NUMBERS and FLIPS compressed."""
+        """TILES, TILE_NUMBERS and FLIPS compressed, each behind the format byte that picks its decompressor."""
         return (
-            compress_asset(self.tiles),
-            compress_interleaved(self.tile_numbers),
-            compress_asset(pack_flips(self.flips)),
+            _with_format(ASSET_LZ, compress_asset(self.tiles)),
+            _with_format(INTERLEAVED_LZ, compress_interleaved(self.tile_numbers)),
+            _with_format(ASSET_LZ, compress_asset(pack_flips(self.flips))),
         )
+
+
+def _with_format(format_byte: int, stream: bytes) -> bytes:
+    """`stream` with its first byte, which the decompressors skip, set to `format_byte`."""
+    return bytes([format_byte]) + stream[1:]
 
 
 def read_banner(rom: bytes) -> Banner:
