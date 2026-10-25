@@ -13,8 +13,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v7
-    - uses: manz/a816/actions/setup@v1.1.7
-    - uses: manz/a816/actions/decrypt-rom@v1.1.7
+    - uses: manz/a816/actions/setup@v1.2.0
+    - uses: manz/a816/actions/decrypt-rom@v1.2.0
       with:
         passphrase: ${{ secrets.BAHAMUT_PASSWORD }}
         encrypted: bl.sfc.gz.gpg
@@ -23,13 +23,13 @@ jobs:
       env:
         BL_VERSION: ${{ github.ref_name }}
       run: uv run ./build.py
-    - uses: manz/a816/actions/seal@v1.1.7
+    - uses: manz/a816/actions/seal@v1.2.0
       with:
         rom: build/bl.sfc
         patches: build/bl.ips
     - name: Write LISEZMOI
       run: uv run python -m utils.lisezmoi release/LISEZMOI.txt ${{ github.ref_name }} > build/LISEZMOI.txt
-    - uses: manz/a816/actions/release@v1.1.7
+    - uses: manz/a816/actions/release@v1.2.0
       with:
         title: Bahamut Lagoon FR ${{ github.ref_name }}
         zip: bl-fr-${{ github.ref_name }}.zip
