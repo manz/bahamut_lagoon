@@ -174,8 +174,8 @@ calque the stiffness review found in the script.
 - **Ellipses and exclamations.** A pause is one « ... », never « mais... ...Je »; a run of them is only silence
   (« ... ... ... ») or a countdown (0015). « !! » for a shout, a single « ! » in a calm line.
 - **Hmph** is ふん (Matelite's grumble), not a smug フッ.
-- **œ** is the ligature (dialogue font code 0x99): cœur, œil, sœur, vœu. The 8x8 font has no œ, so names drawn
-  in it (text/enemies.xml) write oe.
+- **œ** is the ligature, Œ its capital (codes 0x99 and 0x9A, drawn in both the dialogue and the 8x8 font): cœur,
+  œil, sœur, vœu, Œil-de-bœuf. Names transcribed from German keep oe (Stoessel, Mosskoenig).
 - **Signs.** ( ) / ~ are drawn in the dialogue font; * is not, so no *stage directions*: say it (« Oh, je
   rougis... »). utils/tests/test_script_encoding.py fails on a character without a code or a glyph.
 
