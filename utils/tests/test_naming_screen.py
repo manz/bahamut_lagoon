@@ -4,7 +4,7 @@ from pathlib import Path
 from unittest.case import TestCase
 
 from katsuji.formats import VwfFont
-from script import Table
+from katsuji.script import Table
 
 from utils.cartridge import rom_offset
 from utils.naming_screen import (

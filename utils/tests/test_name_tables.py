@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from script import Table
+from katsuji.script import Table
 
 from utils.name_tables import (
     NAME_TABLES,

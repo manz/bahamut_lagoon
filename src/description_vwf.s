@@ -139,7 +139,7 @@ _name_char:
     inx
     bra _name_char
 _name_done:
-    jml.l 0xC13548  ; ply / rts
+    jml 0xC13548  ; ply / rts
 
 _spell_name:
 """X: spell A's (16-bit) full name, in long_name_tables' bank. 16-bit A, X, Y."""

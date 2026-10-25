@@ -3,7 +3,7 @@ import os
 from unittest.case import TestCase
 
 from a816.writers import IPSWriter
-from script import Table
+from katsuji.script import Table
 
 from utils.cartridge import rom_offset
 from utils.dump_rooms import build_text_patch, get_dialog_room

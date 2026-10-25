@@ -22,10 +22,10 @@ from katsuji import config as katsuji_config
 from katsuji.atlas import Atlas
 from katsuji.formats import VwfFont
 from katsuji.layout import TextLayout
+from katsuji.script import Table
 from katsuji.typeset import FRENCH, Markup
 from katsuji.typeset import typeset as katsuji_typeset
 from katsuji.wrap import Controls, Wrapper
-from script import Table
 
 from utils.name_tables import read_names
 

@@ -429,9 +429,9 @@ vwf_shift_multipliers:
 ; the vanilla code after the loop.
 .alloc at 0xEE554B {
     jsr.l draw_string
-    jmp.w 0x55BB
+    jmp 0x55BB
 }
 .alloc at 0xEE5409 {
     jsr.l draw_message
-    jmp.w 0x5484
+    jmp 0x5484
 }

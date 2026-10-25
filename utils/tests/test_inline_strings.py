@@ -4,7 +4,7 @@ from unittest import mock
 from unittest.case import TestCase
 
 from a816.program import Program
-from script import Table
+from katsuji.script import Table
 
 from utils.cartridge import rom_address
 from utils.inline_strings import (

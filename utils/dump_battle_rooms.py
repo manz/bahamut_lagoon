@@ -6,7 +6,7 @@ import xml.etree.ElementTree as ET
 from io import BufferedReader
 
 from a816.writers import Writer
-from script import Table
+from katsuji.script import Table
 
 from utils.cartridge import rom_address, rom_offset
 from utils.dump_rooms import compress_room

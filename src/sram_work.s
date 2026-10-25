@@ -31,5 +31,5 @@ _clear:
     dex
     bpl _clear
     sep #0x30
-    jml.l 0xC00000
+    jml 0xC00000
 }

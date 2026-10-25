@@ -232,7 +232,7 @@ _vanilla:
     phb
     phx
     sep #0x20
-    jml.l 0xEE4D24
+    jml 0xEE4D24
 
 menu_shadow_cleared:
 """clear_menu_shadow: a new screen, so no BG3 run's pixels can be trusted; free them all, then clear as vanilla."""
@@ -261,7 +261,7 @@ _forget_slot:
     php
     phb
     rep #0x20
-    jml.l 0xEE50CE
+    jml 0xEE50CE
 
 menu_draw_menu_string:
 """draw_menu_string: draw_fixed_name's, uncapped (up to small_vwf's characters). Keeps X."""
@@ -848,7 +848,7 @@ it; carry set when it did. The staging buffer moves past the bytes.
     sta.l menu.staged
     sec
     rts
-    _no_extend_after:  ; the run's tiles stay where they are staged, for an entry of their own
+_no_extend_after:  ; the run's tiles stay where they are staged, for an entry of their own
 _no_extend:
     lda.l menu.cell
     clc

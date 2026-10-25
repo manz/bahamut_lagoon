@@ -12,7 +12,7 @@ from a816.module_builder import build_with_imports
 from a816.writers import IPSWriter, Writer
 from katsuji import build as katsuji_build
 from katsuji import config as katsuji_config
-from script import Table
+from katsuji.script import Table
 
 from utils.battle_messages import insert_battle_messages
 from utils.cartridge import rom_address, rom_offset

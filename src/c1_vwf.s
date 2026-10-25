@@ -30,7 +30,6 @@ goes back to white: the cell goes on showing its own slot, so no other string ta
 
 
 _SHADOW = 0x7E4800
-_SHADOW_CELLS = 0x400
 _FONT_VRAM = 0x4000
 _TILE_MAP = 0xC1CB4B  ; code -> tile
 _ATTR = 0x3800
@@ -88,7 +87,7 @@ _RENAMEABLE = 0x0A  ; characters below this are the party's (7E2B00), named by t
 ; C12DDA: sep #0x20 / jsr C12E49 / tdc / tay, then the loop at C12DE1 (lda [$5E], y), which the fallback and the
 ; loop's own bra come back to. C12E49 sets M itself, so the sep goes: the hook fits before the loop.
 .alloc at 0xC12DDA {
-    jsr.w 0x2E49
+    jsr 0x2E49
     jml.l c1_draw_string
 }
 
@@ -130,7 +129,7 @@ c1_name_copy:
     sep #0x20
     pha
     lda #0x70
-    jml.l 0xC12EC5
+    jml 0xC12EC5
 
 c1_draw_string:
 """
@@ -166,7 +165,7 @@ _cells:
     adc.l c1.index  ; the icon, if any
     tay
     plp
-    jml.l 0xC12E04  ; sty $10 / rts
+    jml 0xC12E04  ; sty $10 / rts
 _vanilla:
     rep #0x30
     lda.w #_NO_RECORD
@@ -174,7 +173,7 @@ _vanilla:
     plp
     tdc
     tay
-    jml.l 0xC12DE1
+    jml 0xC12DE1
 
 _string_source:
 """
@@ -588,7 +587,7 @@ with A and $10 the tile.
     jsr.w _tile_slot
     bcs _slot_cell
     lda.b 0x10
-    jml.l 0xC13130
+    jml 0xC13130
 _slot_cell:
     phx
     sta.l c1.slot
@@ -615,7 +614,7 @@ _to_white:
     jsr.w _mark_dirty
 _kept:
     plx
-    jml.l 0xC1315C
+    jml 0xC1315C
 
 c1_chunk_upload:
 """A chunked upload may write over the slots: every slot counts as changed at its next draw."""
@@ -626,8 +625,8 @@ c1_chunk_upload:
     sta.l c1.generation
     plp
     rep #0x20
-    lda.w 0x0924
-    jml.l 0xC10821
+    lda 0x0924
+    jml 0xC10821
 
 c1_upload:
 """

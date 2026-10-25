@@ -12,7 +12,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 from a816.writers import Writer
-from script import Table
+from katsuji.script import Table
 
 from utils.cartridge import rom_offset
 from utils.small_vwf_bake import GLYPH, SHADOW_GAP, Baked, bake
