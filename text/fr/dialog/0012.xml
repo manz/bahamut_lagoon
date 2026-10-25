@@ -1,196 +1,157 @@
 <?xml version="1.0" standalone="yes"?>
 <texts base="0x16a8" room_id="12">
-    <text>
+    <text window="none">
         <refs>
             <ref>0xa4</ref>
         </refs>
-        <data>                   Chapitre [0xb0][0xb1]
-            -La stratégie de l'espionnage-[end]</data>
+        <data>Chapitre [0xb0][0xb1]
+-Opération espionnage-[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xce</ref>
         </refs>
-        <data>MATELIGHT:
-Commandant !
+        <data>Matelite: Dis donc, Taicho !
  
-Nous ne savons rien du tout sur ce
-qui se passe au sein de l'Empire.[end]</data>
+Je pense qu'il est temps d'espionner ce que trame l'Empire par ici ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xda</ref>
         </refs>
-        <data>COMMANDANT:
-Affirmatif !
+        <data>Taicho: D'accord !
  
-Nous avons vraiment besoin
-d'informations.[end]</data>
+Il nous faut plein d'informations, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe8</ref>
         </refs>
-        <data>MATELIGHT:
-Évidemment,Commandant !
-Nous allons envoyer un espion infiltrer
-l'Empire.[end]</data>
+        <data>Matelite: Exactement, Taicho ! Envoyons des espions dans l'Empire ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfd</ref>
         </refs>
-        <data>Attends...
-Laisse-moi réfléchir !
+        <data>Attendez un peu !
  
-Il nous faudrait quelqu'un d'intelligent
-et de discret !
-Nous devrions avoir le choix.[end]</data>
+Je vous amène des espions de talent... qu'on peut perdre sans regret ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x14f</ref>
         </refs>
-        <data>MATELIGHT:
-J'ai trouvé ![end]</data>
+        <data>Matelite: Les voilà ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x194</ref>
         </refs>
-        <data>DON JUAN:
-Moi,Don Juan,le Naïf et Fidèle
-Serviteur !
-Je pourrais approcher de très
-nombreuses femmes ![end]</data>
+        <data>Donfan: Dooonfan est là ! Pour les informations sur les filles, comptez sur moi ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1a4</ref>
         </refs>
-        <data>J'ai aussi trouvé ce marin !
-Je sais,j'ai peur qu'il ne réussisse
-pas cette mission ![end]</data>
+        <data>M... moi, je suis juste un matelot... J'ai peur, oui.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1cb</ref>
         </refs>
-        <data>SENDACK:
-Et... moi ?[end]</data>
+        <data>Sendak: Hein... moi ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1e8</ref>
         </refs>
-        <data>MATELIGHT:
-[character][0x0],c'est une dangereuse mission !
-Alors... fais le bon choix ![end]</data>
+        <data>Matelite: C'est une mission où l'on risque sa vie ! Byuu... choisis ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1f6</ref>
         </refs>
-        <data>Voici les candidats pour l'espionnage !
-Si tu es prêt,choisis l'heureux élu ![end]</data>
+        <data>Chers candidats espions ! Si vous devez en vouloir à quelqu'un, prenez-vous-en à Byuu...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x208</ref>
         </refs>
-        <data> Don Juan.
- Le marin.
- D'autres personnes.[end1]</data>
+        <data> Choisir Donfan.
+ Choisir le matelot.
+ Les autres (page suivante)[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x212</ref>
         </refs>
-        <data> Sendack.
- Matelight.
- D'autres personnes.[end1]</data>
+        <data> Sendak, avec tout mon amour.
+ Matelite, vas-y, toi !
+ Les autres (page d'avant)[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x22e</ref>
         </refs>
-        <data>DON JUAN:
-D'accord...
+        <data>Donfan: Bon, euh, comment dire...
  
-La naïveté de Don Juan lui permettra
-d'approcher [0xb0][0xaf][0xaf] femmes de l'Empire !
-C'est parti ![end]</data>
+En gros, Dooonfan, le dur au cœur pur, doit aller séduire [0xb0][0xaf][0xaf] filles de l'Empire, c'est ça ? Donc, euh, comment dire... J'y vais ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x24d</ref>
         </refs>
-        <data>... ... ... ...[end]</data>
+        <data>...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x26f</ref>
         </refs>
-        <data>SENDACK:
-[character][0x0]...
-Tu m'as choisi ?!
-Je dois prendre ce choix pour un
-compliment ou pas ?
-Je n'arrive pas à y croire !
-Très bien,je comprends ![end]</data>
+        <data>Sendak: Byuu m'a choisi... Est-ce que je dois être content ? Ou triste ? Moi... je ne sais pas...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x299</ref>
         </refs>
-        <data>MATELIGHT:
-Moi ![end]</data>
+        <data>Matelite: !!! Comment ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2b1</ref>
         </refs>
-        <data>MATELIGHT:
-Gahahahahahahahaha[0xd8][end]</data>
+        <data>Matelite: Gahahahahahahahaha[0xd8][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2c8</ref>
         </refs>
-        <data>Mais,mon pauvre garçon,tu es devenu
-fou ?!
- 
-Je suis une célébrité,je suis donc trop
-reconnaissable.
-Commandant sera l'espion ![end]</data>
+        <data>Je suis bien trop célèbre, je ne peux pas y aller ! Taicho, c'est toi qui iras espionner ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2d9</ref>
         </refs>
-        <data>COMMANDANT:
-... ![end]</data>
+        <data>Taicho: ... ![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x3c7</ref>
         </refs>
-        <data>  Cette dangereuse mission a
-        été un succès.[end]</data>
+        <data>La périlleuse mission
+fut couronnée de succès.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x3e4</ref>
         </refs>
-        <data>   La mission est un échec.
- Le matelot n'est pas revenu...[end]</data>
+        <data>La mission se solda par un échec,
+et le matelot rentra dans son village...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x4ff</ref>
         </refs>
-        <data>  Une minute de silence pour
-         le matelot...[end]</data>
+        <data>Ainsi s'acheva la vie du matelot...[end]</data>
     </text>
     <text>
         <refs>
@@ -200,276 +161,193 @@ Commandant sera l'espion ![end]</data>
             <ref>0x4f1</ref>
             <ref>0x6fc</ref>
         </refs>
-        <data>MATELIGHT:
-Donne-nous les informations ![end]</data>
+        <data>Matelite: Ton rapport ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9f8</ref>
         </refs>
-        <data>DON JUAN:
-L'espion Don Juan a beaucoup
-d'informations.
-Don Juan est revenu de cette
-escapade militaire ![end]</data>
+        <data>Donfan: L'espion au cœur pur... Dooonfan est rentré sain et sauf ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa29</ref>
         </refs>
-        <data>DON JUAN:
-Les guerrières impériales sont très
-dures à faire parler.
-Je dois aussi vous avouer que nombre
-d'entre elles sont célibataires !
+        <data>Donfan: Les guerrières de l'Empire étaient coriaces. Mais loin du champ de bataille, une guerrière n'est qu'une femme...
  
-Et Don Juan,le plus beau,le magnifique,
-a aussi les mots pour les attirer ![end]</data>
+Avec les mots tendres de Dooonfan, je leur ai soutiré des informations...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa3b</ref>
         </refs>
-        <data>Bien sûr,j'ai réussi à avoir des
-informations,car...
+        <data>Bien sûr... pas seulement des informations.
  
-Un très bel espion arrive toujours à
-ses fins ![end]</data>
+Oui...
+ 
+... mais aussi un amour éphémère avec un charmant espion...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa47</ref>
         </refs>
-        <data>Je vais tout vous raconter.[end]</data>
+        <data>Bref, euh, comment dire... La première fille...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa5c</ref>
             <ref>0xa7e</ref>
         </refs>
-        <data>DON JUAN:
-Et voici... mes rencontres ![end]</data>
+        <data>Donfan: Hé... C'était une sacrée femme...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa68</ref>
         </refs>
-        <data>En fait,je me suis aussi infiltré dans
-le château de Granbelos.
+        <data>Ensuite, je me suis infiltré dans le château de Granbelos...
  
-Traiter avec une femme est simple pour
-un espion hors du commun,tendre et
-beau parleur.
-Admirez cet espion !
-Il n'est autre que moi...
-Don Juan ![end]</data>
+Hé... une mission d'espion dangereuse se mène en douceur... avec délicatesse... comme on traite une femme. Pour Dooonfan, ce fut un jeu d'enfant...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa91</ref>
         </refs>
-        <data>Depuis tout ce temps,je me demande si
-elles pensent encore toutes à moi ?
+        <data>À quoi pensent-elles en ce moment ?
  
-Même en temps de guerre,elles ne
-pourront aimer qu'un seul espion:
-Don Juan !
-Oh oui,j'allais oublier de vous dire
-le plus intéressant !
+Au charmant espion rencontré pendant la guerre... Donfan...
  
-J'ai quand même appris les prénoms
-de certaines !
- 
-J'ai maintenant la sensation que MOI
-seul détiens...
-l'intelligence supérieure ![end]</data>
+Oh... Je n'ai même pas pu te dire mon nom... Et pourtant, je t'ai volé tes plus précieuses informations...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa99</ref>
         </refs>
-        <data>Car j'ai des amours...
-Top-Secret ![end]</data>
+        <data>Car l'amour... est top secret !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xab1</ref>
         </refs>
-        <data> Etc,etc,etc...
- Etc,etc,etc...
- Etc,etc,etc...
- Allons-y ![end]</data>
+        <data>Bref, euh, comment dire... !!
+ 
+Bon, voilà, en gros ! Salut !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x713</ref>
         </refs>
-        <data>SENDACK:
-L'Empire de Granbelos est en ce
-moment plongé dans le chaos.
-Je l'ai moi-même entendu...
-Le Général Palpaleos a fait un discours
-déconcertant !
-L'Empereur Sauzer a plus que besoin
-de lui ![end]</data>
+        <data>Sendak: L'Empire de Granbelos avait l'air en plein chaos... Moi... d'abord, j'ai écouté le discours.
+ 
+Sur l'estrade, il y avait le général Palparos... L'Empereur Sauzer n'était pas là.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x73b</ref>
         </refs>
-        <data>Durant son discours,le Général Palpaleos
-avait l'air très sérieux !
-Les autres généraux avaient l'air déçu.
-Et...
-Le Général Palpaleos a annoncé de
-terribles choses ![end]</data>
+        <data>Le général Palparos parlait sans assurance...
+ 
+Les autres généraux avaient l'air bizarres, eux aussi...
+ 
+Mais... !
+ 
+Si ce que le général Palparos a dit est vrai, ça va très mal tourner... ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x752</ref>
             <ref>0x555</ref>
         </refs>
-        <data>SENDACK:
-L'Empereur Sauzer connaît le coeur
-des Dragons Sacrés.
-Mais,comment a-t-il fait ?
+        <data>Sendak: L'Empereur Sauzer a découvert le cœur des Dragons Sacrés... Mais... comment... ? Et en le découvrant... il est tombé malade, et il ne peut plus bouger...
  
-  
-Et,en ayant découvert le coeur des
-Dragons Sacrés,l'Empereur Sauzer est
-tombé malade.
-Par conséquent,nous pouvons en
-déduire qu'il a déjà commencé à
-chercher les Dragons Sacrés !
-Mais il ne peut plus bouger car il est
-convalescent.[end]</data>
+Mais... dès qu'il pourra bouger... il se mettra sûrement à chercher les Dragons Sacrés ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x561</ref>
             <ref>0x76d</ref>
         </refs>
-        <data>Nous devons nous hâter de les trouver
-avant lui ![end]</data>
+        <data>Nous... nous devons vite trouver les Dragons Sacrés ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x77f</ref>
         </refs>
-        <data>Mais... attendez...
-je me dois de vous raconter la suite.[end]</data>
+        <data>Mais... attendez... il y a une suite.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x788</ref>
         </refs>
-        <data>Là-bas,les temps ont changé...
-Mon coeur en était tout bouleversé.
-[character][0x0],excuse-moi !
-Ce que je viens de dire a sûrement dû
-te mettre en colère.[end]</data>
+        <data>J'ai eu tellement peur, à ce moment-là... Je criais au fond de moi...
+ 
+``Byuu... pardon... pardonne-moi de partir avant toi...''[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x799</ref>
         </refs>
-        <data>SENDACK:
-Les relations entre les généraux de
-l'Empire sont au plus bas.
-Certains sont peut-être même prêts à
-faire sécession !
+        <data>Sendak: On dirait que les généraux de Granbelos ne s'entendent plus. Parce que nous nous sommes révoltés... ? Parce que Sauzer est tombé malade... ?
  
-Nous,les Rebelles,nous pouvons gagner
-en force grâce à leur faiblesse !
-Sauzer n'est-il pas malade ?
-Si je puis le dire,la chance nous
-sourit !
- 
-Ne pouvons-nous pas avoir l'assistance
-de la force des Dragons Sacrés ?![end]</data>
+Tout ça, grâce au pouvoir des Dragons Sacrés... ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7b6</ref>
         </refs>
-        <data>J'ai vu tant de choses...
-Mais,je ne comprends pas tout !
+        <data>C'est tout ce que j'ai vu... Mais j'ai compris une chose.
  
-Pendant que Sauzer se fait soigner,
-nous devrions rechercher les autres
-Dragons Sacrés.
-Tu écoutes,[character][0x0]?![end]</data>
+Nous devons trouver les Dragons Sacrés avant que Sauzer ne guérisse !
+ 
+Pas vrai... Byuu ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7c8</ref>
             <ref>0x576</ref>
         </refs>
-        <data>Nous allons combattre car tout nous
-profite.
+        <data>Les combats à venir seront bien plus durs qu'avant...
  
-Ce doit être le chaos au sein de
-l'Empire.
-Et cela a dû les affaiblir.
-C'est une chance pour nous !
-Mais,ce n'est pas en restant ici qu'on
-avancera ![end]</data>
+L'Empire est en plein chaos... Mais si ça tourne mal pour nous, nous allons souffrir... Mais... nous sommes allés si loin, il faut tenir bon ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x815</ref>
         </refs>
-        <data>COMMANDANT:
-Matelight !
-Je suis de retour ![end]</data>
+        <data>Taicho: Matelite ! Me voici de retour, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x89c</ref>
         </refs>
-        <data>COMMANDANT:
-... ... ... ...
+        <data>Taicho: ...
  
-C'est le chaos au sein de l'Empire ![end]</data>
+L'Empire était en plein chaos, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8b0</ref>
         </refs>
-        <data>Même si ce discours m'a amusé,j'ai
-remarqué qu'ils étaient tous tristes !
+        <data>Je me suis glissé dans la foule du discours, et personne ne m'a remarqué !
  
-Ce discours tentait d'éviter que le
-peuple de Granbelos ne s'inquiète pour
-la maladie de l'Empereur !
-J'ai également remarqué que certains
-Généraux de l'Empire se réjouissaient
-de la maladie de leur Empereur.
-Je suspecte énormément l'un de ses
-bras droits,le Général Gudruff,de
-vouloir tenter une sécession !
-Lui et Restatto avaient l'air d'être
-de grands chefs.[end]</data>
+Le peuple de l'Empire était venu, inquiet de la maladie de l'Empereur Sauzer !
+ 
+Mais...
+ 
+Parmi les généraux de Granbelos, certains se réjouissaient de sa maladie ! Le général à droite, un certain Gudolf, m'a paru louche !
+
+Gudolf est le chef de ce Lestat, affirmatif...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8d2</ref>
         </refs>
-        <data>COMMANDANT:
-Sauzer connaît maintenant le coeur des
-Dragons Sacrés !
-Comme la Princesse [character][0x1]!
-Vous souvenez-vous des paroles de
-Sauzer ?!
-Non ?! J'en étais sûr ![end]</data>
+        <data>Taicho: Sauzer connaît le cœur des Dragons Sacrés ! Comme la princesse Yoyo ! Vous vous souvenez ? Les paroles de Sauzer... c'était à peu près ceci, affirmatif...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8e1</ref>
         </refs>
-        <data>``SAUZER:
-Je deviendrai l'homme de la Légende,
-même sans le pouvoir de la Princesse !''[end]</data>
+        <data>Sauzer: ``Je deviendrai l'homme de la légende sans l'aide de la princesse, affirmatif !''[end]</data>
     </text>
     <text>
         <refs>
@@ -477,412 +355,328 @@ même sans le pouvoir de la Princesse !''[end]</data>
             <ref>0x8f2</ref>
             <ref>0x973</ref>
         </refs>
-        <data>COMMANDANT:
-D'une manière ou d'une autre,Sauzer
-connaît maintenant le coeur des
-Dragons Sacrés !
-Comment a-t-il fait ?
- 
-Moi-même,je n'ai pu en savoir plus,
-ni même comprendre plus ![end]</data>
+        <data>Taicho: Sauzer a découvert d'une façon ou d'une autre le cœur des Dragons Sacrés ! Il se passe quelque chose... Je n'en sais pas plus, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8fe</ref>
         </refs>
-        <data>Mais j'ai continué à jouer l'espion !
+        <data>J'ai poursuivi ma mission d'espion !
  
-Je me suis infiltré dans le Château
-pour tenter de trouver Restatto.[end]</data>
+Je me suis infiltré dans le château de Granbelos pour chercher Lestat, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x914</ref>
         </refs>
-        <data>C'est lamentable...
-Quatre des généraux sont de grands
-ennemis de leur propre nation.
-C'est tout ce que j'ai su.
-Cessons de nous cacher !
-Allons au champ de bataille ![end]</data>
+        <data>Quelle rage... Pas d'arme, et en face, quatre généraux... Je n'ai pu que me cacher... Cet affront, je le leur ferai payer au combat ! Avec vous, Matelite, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x920</ref>
         </refs>
-        <data>Sincèrement,il faut en finir ![end]</data>
+        <data>... Voilà !! Fin du rapport, affirmatif... !!
+ 
+...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf06</ref>
         </refs>
-        <data>COMMANDANT:
-Sincèrement,chaque cité recèle de
-nombreuses informations.
-Le monde doit être libéré !
-Mais moi,je serai toujours seul.[end]</data>
+        <data>Taicho: À vrai dire... je cache encore une information... Je ne peux pas en parler à tout le monde... Mais je ne peux pas non plus la garder pour moi seul, affirmatif...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf0a</ref>
         </refs>
-        <data>Cette nuit,j'aimerais que nous allions
-ensemble dans la chambre de [character][0x1].
-
-Il y a malheureusement des choses que
-tu dois savoir.[end]</data>
+        <data>Ce soir... j'aimerais que tu viennes avec moi dans la chambre de la princesse Yoyo. C'est en secret, alors viens seul, affirmatif...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x540</ref>
         </refs>
-        <data>MATELIGHT:
-Très bien ! Mettons en ordre les
-informations de notre espion.
-Sendack,j'aimerais que tu jures que
-tout ce que tu as dit est véridique ![end]</data>
+        <data>Matelite: Bien compris ! Pour résumer les informations de l'espion... Sendak, la version longue, je te prie ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x595</ref>
             <ref>0x95f</ref>
         </refs>
-        <data>MATELIGHT:
-Très bien !
-Je n'ai qu'un mot à dire...
-Commandant,j'aimerais que tu jures
-que tout ce que tu as dit est vrai ![end]</data>
+        <data>Matelite: Bien ! En un mot... Taicho, à toi ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x54d</ref>
         </refs>
-        <data>Je n'ai pas encore tout compris.[end]</data>
+        <data>Il y a encore des choses que je ne comprends pas...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5d4</ref>
             <ref>0x99e</ref>
         </refs>
-        <data>MATELIGHT:
-Il nous faut vite trouver les Dragons
-Sacrés avant Sauzer...
-Et ainsi Kana revivra.[end]</data>
+        <data>Matelite: Trouvons les Dragons Sacrés avant Sauzer, et relevons Kana ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7e4</ref>
             <ref>0x944</ref>
         </refs>
-        <data>MATELIGHT:
-Très bien,mettons tout en ordre,
-une fois pour toutes.
-Laissons parler Sendack ![end]</data>
+        <data>Matelite: Bien compris, mais... résumons encore une fois ! Sendak, la version longue, je te prie ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x840</ref>
         </refs>
-        <data>COMMANDANT:
-Je me souviens de tout !
+        <data>Taicho: Je vous ai rapporté un souvenir !
  
-J'espère que mes recherches seront
-utiles ![end]</data>
+Il vous sera utile pour vos recherches sur l'``armure signée Matelite'', affirmatif ![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x88e</ref>
         </refs>
-        <data>Pas un bienvenue...
-Pas un merci...
-Rien du tout...[end]</data>
+        <data>Pas de ``bon retour''... pas de ``merci''... rien, affirmatif...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x670</ref>
         </refs>
-        <data>HORNET:
-Il semble que [character][0x7]
-soit arrivé !
-Ce monstre volant dans le ciel doit
-être... l'Arme Secrète de Granbelos ![end]</data>
+        <data>Hornet: On dirait que Munimuni a été suivi... L'arme secrète de l'Empire de Granbelos... Ce monstre du ciel arrive sur nous...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6af</ref>
         </refs>
-        <data>Allez [character][0x0]!
-Va à sa rencontre !
-N'oublie pas de nourrir tes dragons ![end]</data>
+        <data>Allez... Byuu ! Saute !
+ 
+À cette distance, tu peux au moins nourrir les dragons...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x106d</ref>
         </refs>
-        <data>HORNET:
-Allez,dépêche-toi !
-N'essaie pas de t'enfuir ![end]</data>
+        <data>Hornet: Allez... file ! Pour aujourd'hui seulement, je ferme les yeux.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1074</ref>
         </refs>
-        <data>DOCTEUR DRAGON:
-L'Arme Secrète de l'Empire est
-terrifiante.
-N'hésite pas à faire combattre tes
-dragons dans son corps.[end]</data>
+        <data>Père Dragon: L'arme secrète de l'Empire, c'est du costaud !
+ 
+Il n'y a plus qu'à foncer dans son corps avec les dragons pour la combattre, j'parie.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1078</ref>
         </refs>
-        <data>Veux-tu rentrer ?[end]</data>
+        <data>Tu veux peut-être retourner à bord ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x107c</ref>
         </refs>
-        <data> Oui,Docteur Dragon.
- J'ai d'autres choses à faire...[end1]</data>
+        <data> Oui, Père Dragon.
+ Non, j'ai changé d'avis.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x1084</ref>
         </refs>
-        <data>Dépêche-toi ![end]</data>
+        <data>Après, il faudra frotter les dragons à la brosse...
+ 
+Ça pue, j'aime pas ça, j'parie.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x10aa</ref>
         </refs>
-        <data>Allons vaincre l'ennemi des dragons,
-cette Arme Secrète.
+        <data>Nous allons foncer avec les dragons dans l'arme secrète de l'ennemi.
  
-Ne me dis pas que tu n'es pas en
-forme !
-Nous allons combattre ?[end]</data>
+Ça risque de faire un peu mal. On y va ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x10bb</ref>
             <ref>0x10ae</ref>
         </refs>
-        <data> Nourrir les Dragons.
- Aller combattre !
- Se préparer.[end1]</data>
+        <data> Nourrir.
+ Y aller !
+ Attendre.[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xc21</ref>
         </refs>
-        <data>Vint alors la nuit...[end]</data>
+        <data>Cette nuit-là...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc2c</ref>
         </refs>
-        <data>COMMANDANT:
-Vite,allons-y...
+        <data>Taicho: J'ai le cœur qui bat...
  
-Par ici,[character][0x0]...[end]</data>
+Byuu... je passe devant, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf20</ref>
         </refs>
-        <data>COMMANDANT:
-Il faut que tu réveilles la Princesse
-[character][0x1].
-Fais-le doucement...[end]</data>
+        <data>Taicho: Réveille la princesse Yoyo... Murmure-lui doucement à l'oreille, affirmatif...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xf44</ref>
         </refs>
-        <data>Fais-le seul...[end]</data>
+        <data>... Ne me laisse pas seule...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf61</ref>
             <ref>0xf7c</ref>
         </refs>
-        <data>[character][0x1]:
-Kyaaa !
+        <data>Yoyo: ... Kyaa !!
  
-[character][0x0]?![end]</data>
+... Byuu !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf9b</ref>
         </refs>
-        <data>Excuse-moi...
-Mais...
-Il n'est pas encore l'heure...[end]</data>
+        <data>Pardon...
+ 
+Mais... à une heure pareille...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfb2</ref>
         </refs>
-        <data>N'insiste pas !
-Sors d'ici ![end]</data>
+        <data>... Non !! Sors d'ici... !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1437</ref>
         </refs>
-        <data>Attends...
+        <data>... Attends...
  
-  
-[character][0x0]...
-Allons observer le ciel.
+Byuu... Si c'est pour voir le ciel...
  
-Allons sur le balcon,s'il te plaît.[end]</data>
+Allons sur la terrasse.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x105c</ref>
         </refs>
-        <data>Vas-y,fais-le...[end]</data>
+        <data>Ça sent bon, affirmatif...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x134a</ref>
         </refs>
-        <data>COMMANDANT:
-Que veux-tu faire ?
-Tu dois tout savoir...[end]</data>
+        <data>Taicho: ... Je ne dirai rien à personne... J'y vais, affirmatif...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfef</ref>
         </refs>
-        <data>[character][0x0]...
- 
-  
-Admirer le ciel,la nuit,ne te rappelle
-pas certains... souvenirs ?
-De si nombreuses choses...
-Je suis toujours si seule lorsque je
-contemple le ciel.[end]</data>
+        <data>Dis... Byuu... Quand tu regardes le ciel la nuit, ça ne te rappelle rien ? Tant de choses... Moi... quand je me sentais seule... je regardais toujours le ciel...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1021</ref>
         </refs>
-        <data>[character][0x0]...
-Je me demande si nous sommes
-toujours les mêmes ?
-Si nous avons encore les mêmes buts.[end]</data>
+        <data>Dis... Byuu... Nous deux... qu'allons-nous devenir... ? Désormais...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfc9</ref>
         </refs>
-        <data>Hornet m'a tout appris...
+        <data>C'est Hornet qui me l'a dit...
  
-  
-Sur ce balcon,FARENHEIT est toujours
-très proche du ciel.
-Nous pourrions même le toucher.[end]</data>
+C'est l'endroit de Fareneit le plus proche du ciel...
+ 
+Regarde, on pourrait presque toucher le ciel...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1005</ref>
         </refs>
-        <data>Cependant,j'essaie toujours de voir
-plus loin.[end]</data>
+        <data>En fait... j'aurais dû regarder ce qui était tout près de moi...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1031</ref>
         </refs>
-        <data>Hélas !
+        <data>Pourrons-nous un jour...
  
-  
-Les batailles causent toujours tant
-d'inquiétude et de peine...
+... les combats... les doutes...
  
-Je crois même que tu n'as encore rien
-remarqué ni même compris ![end]</data>
+... redevenir comme avant, quand nous ne savions rien de tout ça... ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1354</ref>
         </refs>
-        <data>COMMANDANT:
-Sois respectueux...[end]</data>
+        <data>Taicho: ... C'était bien ? Ne te gêne pas pour moi, continue, affirmatif...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x14e4</ref>
         </refs>
-        <data>Arrête ![end]</data>
+        <data>Un instant... !!
+ 
+... affirmatif !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x14f4</ref>
         </refs>
-        <data>COMMANDANT:
-[character][0x0]...
-Arrête de te faire du souci !
-J'ai rencontré quelqu'un,
-il y a peu de temps !
- 
-J'ai fait une promesse d'homme à
-homme au Château de Granbelos...[end]</data>
+        <data>Taicho: Byuu... désolé de vous déranger ! Mais... je dois vous parler !
+
+Au château de Granbelos, j'ai fait une promesse d'homme à homme, affirmatif...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x153e</ref>
         </refs>
-        <data>J'ai appris certaines choses...
-J'ai promis à cet homme de
-transmettre son message à [character][0x1].
-Je crois tout spécialement que tu dois
-aussi l'entendre.[end]</data>
+        <data>Je vous l'ai caché...
+ 
+J'ai une information à transmettre à la princesse Yoyo...
+ 
+Byuu, pour une fois, tu as le droit d'écouter, affirmatif...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x154a</ref>
         </refs>
-        <data>Après être sorti de la chambre du
-Général Gudruff,j'ai continué à
-explorer le Château de Granbelos.
-J'ai fini par découvrir une petite
-salle.
-Et dans cette salle se trouvait...
-Le Général Palpaleos...[end]</data>
+        <data>En sortant de la chambre du général Gudolf, je me suis enfoncé encore plus loin dans le château de Granbelos... Il y avait là une petite pièce...
+ 
+Et dans cette pièce, il y avait...
+ 
+... le général Palparos...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1337</ref>
         </refs>
-        <data>COMMANDANT:
-Maintenant,tu dois faire face.
-Tu dois te montrer.
-Je vois encore [character][0x1] dans tes yeux.[end]</data>
+        <data>Taicho: Laissons-la tranquille pour l'instant... Tu n'as pas vu... son regard... ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf2b</ref>
         </refs>
-        <data>COMMANDANT:
-Je suis un espion qui t'a brisé le
-coeur...[end]</data>
+        <data>Taicho: ... C'est dur, la vie d'espion...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x12ea</ref>
         </refs>
-        <data>Obtenu [0xaa]PRINCESSE ???[0xab].[end]</data>
+        <data>Obtenu ``??? de princesse'' !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1066</ref>
         </refs>
-        <data>[character][0x1]:
-Viens... [character][0x0]...
-Viens à mes côtés...[end]</data>
+        <data>Yoyo: Dis... Byuu. Viens à côté de moi...[end]</data>
     </text>
 </texts>

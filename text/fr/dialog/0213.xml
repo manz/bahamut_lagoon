@@ -4,277 +4,228 @@
         <refs>
             <ref>0xcc</ref>
         </refs>
-        <data>IMPERATRICE DE CAMPBELL:
-Tu n'as rien eu,
-toi qui as conquis Campbell.
-Tes ambitions ne sont pas près de
-s'achever.
+        <data>Reine de Campbell: Tu n'as rien !!
  
-Tu veux maintenant être l'élu,
-l'homme légendaire...
-Jusqu'où veux-tu aller ?[end]</data>
+Toi... tu t'empares de Campbell...
+ 
+Un jour, tu tiendras le monde entre tes mains...
+ 
+ 
+Et pourtant, jamais tu ne seras comblé...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xde</ref>
         </refs>
-        <data>Tu veux être l'homme de la Légende
-des Dragons Sacrés.
+        <data>La légende des Dragons Sacrés... Même si tu la connais, que pourras-tu en faire ?
  
-Penses-tu vraiment pouvoir faire une
-telle chose ?
- 
-Oui,une nouvelle ère viendra !
-Mais CE NE SERA PAS la tienne ![end]</data>
+Celui qui apportera une nouvelle ère... ce n'est pas toi !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1a1</ref>
         </refs>
-        <data>SAUZER:
-Que... ?
-Où suis-je... ?[end]</data>
+        <data>Sauzer: Où suis-je...
+ 
+Que m'est-il arrivé...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1af</ref>
         </refs>
-        <data>PALPALEOS:
-Sauzer...
-Vous êtes dans votre chambre.
-Vous ne vous en souvenez pas ?
-Le pouvoir du Dragon Sacré a été
-libéré.[end]</data>
+        <data>Palparos: Sauzer... Tu es dans ta chambre. Tu te souviens ? ...Le Dragon Sacré s'est éveillé...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1bf</ref>
         </refs>
-        <data>SAUZER:
-Je...
-J'ai été atteint par ce pouvoir ?
-La Princesse [character][0x1]...
-contrôle-t-elle le Dragon Sacré ?
-Se porte-t-elle bien ?[end]</data>
+        <data>Sauzer: La puissance du Dragon Sacré... m'a terrassé... ? ...La Princesse Yoyo... a-t-elle dompté le Dragon Sacré...
+
+Est-elle saine et sauve ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1cb</ref>
         </refs>
-        <data>PALPALEOS:
-Je suis désolé,
-la Princesse est partie.
-Elle a rejoint les Rebelles et Campbell
-nous a été reprise.[end]</data>
+        <data>Palparos: La Princesse Yoyo est partie rejoindre les Rebelles...
+ 
+Et ce n'est pas tout. Campbell est déjà tombée...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x209</ref>
         </refs>
-        <data>SAUZER:
-Je suis désolé Palpaleos.
-Où sont partis les Rebelles ?
-Vont-ils à la recherche des Dragons
-Sacrés ?[end]</data>
+        <data>Sauzer: Je suis désolé... Palparos. Où sont allés les Rebelles ? Vont-ils vers les Dragons Sacrés ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x225</ref>
         </refs>
-        <data>PALPALEOS:
-Reposez-vous un peu...
-Nous défendrons Granbelos pour vous ![end]</data>
+        <data>Palparos: ...Pour l'instant, repose-toi...
+ 
+Nous, les généraux, nous protégerons Granbelos.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x25d</ref>
         </refs>
-        <data>SAUZER:
-La personne qui connaît le coeur des
-Dragons Sacrés ouvrira la Porte vers
-une Ère Nouvelle.
-Qu'a dit Valitra à la Princesse [character][0x1]?[end]</data>
+        <data>Sauzer: ...Celui qui connaîtra le cœur des Dragons Sacrés... ouvrira la Porte de la Nouvelle Ère... Qu'a dit le Dragon Sacré Vritra à la Princesse Yoyo... ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x261</ref>
         </refs>
-        <data>Ce doit être à moi d'ouvrir la Porte
-vers la nouvelle ère !
-Pas à elle !
-Oui,Palpaleos...
-Ne laisse pas les Rebelles aller plus
-loin !
-Bientôt,je saurai comment connaître
-le coeur des Dragons Sacrés.
+        <data>C'est moi qui ouvrirai la voie à la nouvelle ère.
  
-La Légende des Dragons Sacrés,
-la Nouvelle Ère...
-Ils seront MIENS ![end]</data>
+ 
+Écoute-moi bien... Palparos. Les Rebelles ne doivent pas avancer !!
+ 
+Le moyen de connaître le cœur des Dragons Sacrés... est tout proche...
+ 
+La légende des Dragons Sacrés...
+ 
+ 
+La nouvelle ère...
+ 
+m'appartiendront.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x2c8</ref>
         </refs>
-        <data>Palpaleos...
-Pardonne-moi...[end]</data>
+        <data>...Palparos. Pardonne-moi...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x2e6</ref>
         </refs>
-        <data>Je veux enfin connaître le coeur des
-Dragons Sacrés.
+        <data>Connaître le cœur des Dragons Sacrés... Mais cela signifie que je cesserai d'être moi-même.
  
-Cependant,je ne sais pas vraiment ce
-que je suis en train de faire.
- 
-S'il m'arrivait quelque chose,
-Palpaleos... s'il te plaît...
-pour l'amour de Granbelos...[end]</data>
+Quand j'aurai changé du tout au tout, Palparos... toi... l'Empire Granbelos...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x3ce</ref>
         </refs>
         <data> 
-Est-ce cet homme que nous avons
-choisi ?[end]</data>
+Est-ce cet humain que nous choisissons ?[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x3ff</ref>
         </refs>
-        <data>C'est cet homme qui ouvrira la porte
-vers une Nouvelle Ère...[end]</data>
+        <data> 
+Un humain digne de recevoir la porte de l'ère...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x42e</ref>
         </refs>
-        <data>Vers la paix...
+        <data> 
+Celui qui guidera vers la paix...
  
-  
-Aidons-le...
  
-  
-Aidons-le à illuminer nos coeurs
-perdus...[end]</data>
+Nos cœurs égarés...
+ 
+ 
+À la force de cet humain...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x503</ref>
         </refs>
-        <data>SAUZER:
-Des monstres... repoussants...
-Les gardiens du Dragon Sacré !
-Bienvenue à tous...
-Je vous suis reconnaissant de m'avoir
-choisi !
-Mais avant d'y aller...
-j'aimerais savoir une chose...
-Pourquoi m'avoir choisi ?[end]</data>
+        <data>Sauzer: Monstres... Non... Vous qui gardez les Dragons Sacrés. Tout d'abord, laissez-moi vous remercier. Vous m'avez choisi... je vous en suis reconnaissant. Mais... dites-moi une chose.
+ 
+ 
+Pourquoi... me choisissez-vous ?[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x514</ref>
         </refs>
-        <data>Sauzer est l'Empereur de Granbelos...
-Sauzer est le concubin du Ciel...
-Nous savons tout cela...
-Nous connaissons toutes choses...[end]</data>
+        <data>Sauzer, Empereur de Granbelos... Grand conquérant du monde des hommes...
+ 
+Mais... tu le sais.
+ 
+ 
+Tu sais combien ces titres sont vains...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x549</ref>
         </refs>
-        <data>Et nous t'avons choisi...
-Tu connais la souffrance de la Guerre...[end]</data>
+        <data>Et... tu sais.
+ 
+ 
+ 
+Tu sais la douleur de combattre...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x578</ref>
         </refs>
-        <data>Ainsi,tu es le mieux à même d'ouvrir
-Porte vers une Nouvelle Ère...
-Celle de la paix !
-Cependant,l'élu doit avoir une très
-grande force...
+        <data>La Porte de la Nouvelle Ère... Un humain au cœur faible ne peut l'ouvrir.
  
-Nous,gardiens,t'aiderons à connaître
-le coeur de ce Dragon Sacré pour enfin
-amener la Nouvelle Ère...[end]</data>
+Ni nous, les monstres...
+ 
+ 
+La Porte de la Nouvelle Ère... Connais le cœur des Dragons Sacrés, et ouvre-la...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x624</ref>
         </refs>
-        <data>SAUZER:
-D'accord,gardiens...[end]</data>
+        <data>Sauzer: Monstres...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x634</ref>
         </refs>
-        <data>Nous pouvons commencer...[end]</data>
+        <data>...Cela commence.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x6b4</ref>
         </refs>
-        <data>... ... ... ... ... ...[end]</data>
+        <data>...................[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x6e3</ref>
         </refs>
-        <data>Le Coeur du Dragon Sacré...
-Il est... dans mon esprit...[end]</data>
+        <data>Le cœur des Dragons Sacrés... C... c'est donc cela, la pensée des Dragons Sacrés...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x70d</ref>
         </refs>
-        <data>Tout n'est que... vengeance ![end]</data>
+        <data>Argh... !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x801</ref>
         </refs>
-        <data>PALPALEOS:
-Avez-vous remarqué le changement
-dans le ciel ?
-Empereur Sauzer,
-comprenez-vous ce qui se trame dans
-le ciel ?[end]</data>
+        <data>Palparos: Les troubles du ciel semblent s'être apaisés...
+ 
+Tu comprends ce qui se passe... Sauzer... ? Qu'arrive-t-il au ciel ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x80c</ref>
         </refs>
-        <data>SAUZER:
-Palpaleos...
-Le ciel...
-Viens avec moi voir le ciel pour la
-dernière fois...[end]</data>
+        <data>Sauzer: Palparos... Le ciel... Je voudrais le regarder avec toi... une dernière fois...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x81c</ref>
         </refs>
-        <data>PALPALEOS:
-Pour la dernière fois ?![end]</data>
+        <data>Palparos: Une dernière fois... ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x871</ref>
         </refs>
-        <data>SAUZER:
-Il est si brillant...
-J'avais oublié cela !
-Il est brillant grâce aux rêves et à la
-Légende...
-Le ciel est à moi ![end]</data>
+        <data>Sauzer: Qu'il est éblouissant... Toujours... le ciel... brille... Les rêves... les légendes... Tout est dans ce ciel...[end]</data>
     </text>
     <text>
         <refs>
@@ -282,89 +233,74 @@ Le ciel est à moi ![end]</data>
             <ref>0x87b</ref>
             <ref>0x89d</ref>
         </refs>
-        <data>PALPALEOS:
-Sauzer... ?![end]</data>
+        <data>Palparos: Sauzer...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x88c</ref>
         </refs>
-        <data>SAUZER:
-Palpaleos...
-Est-ce que je fais erreur ?
-Suis-je humain ?
-Suis-je leur Empereur ?[end]</data>
+        <data>Sauzer: Palparos... Suis-je... un humain... ? L'empereur du monde des hommes... ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8af</ref>
         </refs>
-        <data>J'ai rencontré un enfant qui était
-comme moi...
-Il me dit...
-Je combattrai et je me sacrifierai pour
-l'Empereur.[end]</data>
+        <data>Un enfant venu me voir m'a dit...
+ 
+ 
+``Pour l'Empereur, je donnerai ma vie au combat...''[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8c1</ref>
         </refs>
-        <data>J'ai bâti cet Empire...
-Maintenant,chaque enfant naissant en
-son sein n'a qu'un esprit de combat.
-Ils prennent le même chemin que moi.
-Mon dieu... qu'ai-je créé ?![end]</data>
+        <data>Cet Empire que j'ai bâti...
+ 
+ 
+Les enfants qui y sont nés... font la guerre...
+ 
+Ils suivent le même chemin que moi...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8e3</ref>
         </refs>
-        <data>Tout est à moi !
-Tout ce que je désirais est à moi ![end]</data>
+        <data>Voilà tout ce que je suis...
+ 
+ 
+Voilà ce que j'ai cherché...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8f3</ref>
         </refs>
-        <data>Palpaleos...
-Aurais-tu une chose à laquelle tu
-tiens ?
-Une chose pour laquelle tu trahirais
-voire tuerais l'Empereur de Granbelos ?[end]</data>
+        <data>Palparos... Toi... tu as quelqu'un à protéger... En tant qu'Empereur de Granbelos, je t'ordonne...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x901</ref>
         </refs>
-        <data>Général Palpaleos !
-Partez... partez à Kana !
+        <data>Général Palparos !! Pars pour Kana !!
  
-Rejoignez les Rebelles et combattez
-armées pour protéger le ciel...
-Pour protéger Orelus ![end]</data>
+Avec les Rebelles, protège le ciel d'Orelus !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x928</ref>
         </refs>
-        <data>C'est un ordre de l'Empereur !
-Ne le discute pas Palpaleos !
+        <data>C'est un ordre de l'Empereur... Ne me désobéis pas... Palparos...
  
-Malgré cela,tu seras toujours la
-personne qui ait le plus compté pour
-moi ![end]</data>
+Protège-la... la personne qui t'est la plus chère.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x994</ref>
         </refs>
-        <data>Ciel...
-Brillance du ciel...
+        <data>Ciel... Lumière du ciel...
  
-Comprenez-vous la profondeur de
-l'ombre...
+Connais-tu la profondeur des ténèbres...
  
-La profondeur de l'ombre de mon
-coeur ?[end]</data>
+ 
+Je suis les ténèbres... Je suis là... Au plus profond des ténèbres...[end]</data>
     </text>
 </texts>

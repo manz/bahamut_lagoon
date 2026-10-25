@@ -4,254 +4,188 @@
         <refs>
             <ref>0x6ac</ref>
         </refs>
-        <data>Marchand envoyé au champ de bataille:
-Je suis heureux de te voir !
-
-Je te présente ma fierté... ma femme ![end]</data>
+        <data>Marchand: Désolé pour l'attente !! Et voici ma femme, ma fierté !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4c2</ref>
         </refs>
-        <data>Épouse:
-Tu veux faire du shopping ?
-Hihihi ! Huhuhu ![end]</data>
+        <data>Patronne: Tu veux acheter quelque chose ? Hihi... Oh, je rougis...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x480</ref>
         </refs>
-        <data>Marchand envoyé au champ de bataille:
-Je l'ai rencontrée hier soir !
-
-Ma femme te vendra des choses intéressantes.
-Fais un peu de shopping ![end]</data>
+        <data>Marchand: Hier, vous m'avez vu dans une situation bien gênante... Depuis, je me suis réconcilié avec ma femme...
+ 
+Allez, allez, faites vos achats !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4b9</ref>
         </refs>
-        <data>Marchand envoyé au champ de bataille:
-Ma femme est ici !
-Un peu de shopping ?![end]</data>
+        <data>Marchand: Ma femme... une perle, hein !! Allez, allez ! Faites vos achats !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x473</ref>
         </refs>
-        <data>Libero:
-[character][0x0],vous nous quittez déjà ?
+        <data>Libero: Byuu... Toi aussi, tu le sens, non ? Le vent de la liberté s'est levé sur Dafira... Mais le plus dur commence maintenant.
  
-Dafira a achevé sa libération,le plus
-terrible est passé.
- 
-[character][0x0],faites tout votre possible pour
-les autres ![end]</data>
+Toi aussi, Byuu, tiens bon ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x306</ref>
         </refs>
-        <data>Rush:
-Je n'ai pas pu dormir la nuit
-dernière.
-Je n'arrive pas à décrire mes
-sentiments.
- 
-Je pense toujours à ce que nous
-avons fait cette nuit.
-Nous avons libéré Dafira.[end]</data>
+        <data>Rush: Hier soir, je n'arrivais pas à dormir. Je ne sais pas pourquoi... mon cœur battait fort. Je ne sais pas trop l'expliquer... mais j'ai l'impression qu'on est en train de faire quelque chose d'immense.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3d2</ref>
         </refs>
-        <data>Taurus:
-Le Roi a été vaincu par la Révolution de la Liberté.
-
-Kana, Matelight et la princesse [character][0x1]...
-
-
-Tout est vraiment compliqué ![end]</data>
+        <data>Truth: La révolution pour la liberté... Renverser la famille royale...
+ 
+À Kana, ça voudrait dire renverser Matelite et la princesse Yoyo...
+ 
+Je ne sais plus que penser.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3e7</ref>
         </refs>
-        <data>Bikkebakke:
-Il y a beaucoup de choses à Dafira.
- 
-Je vais me faire de l'argent en les collectionnant.[end]</data>
+        <data>Bikebake: Les maisons de Dafira sont en pierre... Mes économies commencent à grossir, alors bientôt...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x314</ref>
         </refs>
-        <data>Rush:
-Ce pays change...
+        <data>Rush: Ce pays est en train de changer...
  
-Peut-être que le monde entier aussi...[end]</data>
+Et peut-être le monde entier aussi...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3b8</ref>
         </refs>
-        <data>Rush:
-Les voilà ![end]</data>
+        <data>Rush: Il est arrivé, alors...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x774</ref>
         </refs>
-        <data>Matelite:
-Que faites-vous ?!
-
-Allez,ne traînez pas !
-
-
-[character][0x1] a besoin de toutes nos forces !
-
-
-Alors,avez-vous appris où se trouve le Dragon Sacré ?[end]</data>
+        <data>Matelite: Qu'est-ce que vous fichez, plantés là !! En route !! Grâce à mes soins, la princesse Yoyo s'est remise !!
+ 
+Où est le temple du Dragon Sacré !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x783</ref>
         </refs>
-        <data>Taurus:
-Ah oui,le Dragon Sacré ?!
-
-Il faut tout d'abord que tu saches que nous avons pris
-part à la libération de Dafira.
-
-Maintenant cette ville est...[end]</data>
+        <data>Truth: Matelite, écoutez-moi. Dafira est devenue un pays libre. Hier soir... la révolution pour la liberté a...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7a7</ref>
         </refs>
-        <data>Matelite:
-Tu me fais dormir debout avec toutes tes histoires !
-Je ne suis pas concerné par cela !
-Ce que je veux savoir concerne juste le Dragon !
-
-
-ALORS,où est le Dragon Sacré ?![end]</data>
+        <data>Matelite: Qu'est-ce que tu me chantes là !!
+ 
+La liberté... La révolution... !! Ça ne nous regarde absolument pas !!
+ 
+Où est le Dragon Sacré !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7c3</ref>
         </refs>
-        <data>Taurus:
-Il se trouve dans un Palais au Sud du Désert ![end]</data>
+        <data>Truth: ...Le Dragon Sacré est dans un temple, au bout du désert du sud...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7d7</ref>
         </refs>
-        <data>Matelite:
-À nous le Dragon,Commandant !
-
-La Princesse se réjouira de cette information ![end]</data>
+        <data>Matelite: Tu as entendu, Taicho !! Je compte sur toi pour nous guider dans le ciel !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3c3</ref>
         </refs>
-        <data>Rush:
-Matelite ne prête jamais attention à ce que nous faisons !
-
-C'est regrettable...
-
-
-Tout ce qui l'intéresse,c'est que nous combattions
-toujours plus...
-
-Que ferait-il si nous ne lui obéissions plus ?[end]</data>
+        <data>Rush: Matelite... Toujours à n'en faire qu'à sa tête... Je ne sais pas... ça me met vraiment en rogne...
+ 
+On ne fait pas que se battre, nous non plus. Il y a plus que ça...
+ 
+Je n'arrive pas à l'expliquer... Je suis perdu...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3dc</ref>
         </refs>
-        <data>Taurus:
-C'est pénible.
-C'est vraiment pénible.
-Mais je suis un militaire,il me faut obéir, n'est-ce pas ?[end]</data>
+        <data>Truth: J'ai mal. ...J'ai mal au cœur. Je suis un soldat... Je n'ai donc pas d'autre choix que d'obéir ?
+ 
+C'est insupportable... Si je devais nommer ce que je ressens, je dirais que je me sens misérable...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2e5</ref>
         </refs>
-        <data>Sendack:
-[character][0x0], la Princesse m'a parlé d'un de ses rêves.
-
-Elle a vu le Dragon Sacré Jormungand.
-Et il lui a parlé.
+        <data>Sendak: La princesse, dans son sommeil, murmurait ``Byuu... Byuu...''. On dirait que le Dragon Sacré Jormungand est apparu dans son rêve...
  
-Il semblerait que Jormungand nous attende...[end]</data>
+Il paraît qu'il veut nous transmettre quelque chose...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2f0</ref>
         </refs>
-        <data>[character][0x1]:
-J'ai vu diverses choses dans mon rêve.
-
-J'y ai senti quelque chose de si proche.
-
+        <data>Yoyo: Dis... Byuu. Dans mon rêve... il s'est passé tant de choses. Toi, Byuu... je te sentais tout près de moi.
  
-Je suis désolée,je t'inquiète toujours pour rien.[end]</data>
+Pardon de t'avoir inquiété...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2f7</ref>
         </refs>
-        <data>Moi ?!
-Je crois que je vais bien.[end]</data>
+        <data>...Mais tu sais... je crois...
+ 
+que maintenant... tout ira bien.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3f4</ref>
         </refs>
-        <data>Bikkebakke:
-[character][0x0], mon frère !
-
-Tu es prêt à aller combattre ?[end]</data>
+        <data>Bikebake: Dis, Byuu... On part au combat ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3f8</ref>
         </refs>
-        <data> Attends un peu.
- Je veux des champignons !
- Aller combattre ![end1]</data>
+        <data> Sentir le vent de la liberté (attendre)
+ Si j'achetais des champignons !!
+ Au combat !![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x484</ref>
         </refs>
-        <data> Je désire des armes.
- Je désire des armures.[end1]</data>
+        <data> Voir les armes
+ Voir les armures[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x4c6</ref>
         </refs>
-        <data> J'aimerais des objets.
- J'aimerais des livres.[end1]</data>
+        <data> Voir les objets
+ Voir les livres osés[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x4ff</ref>
         </refs>
-        <data>Zeroshin:
-J'ai maintenant du travail et beaucoup d'amis.[end]</data>
+        <data>Zeroshin: (Maman... avec ce nouveau travail, je crois que je vais me faire plein d'amis.)[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x2dd</ref>
         </refs>
-        <data>Sajin:
-Ces dragons ne semblent pas si forts.[end]</data>
+        <data>Sajin: (Alors c'est ça, un dragon... C'est tout gluant, beurk.)[end]</data>
     </text>
 </texts>

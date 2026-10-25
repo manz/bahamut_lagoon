@@ -1,791 +1,629 @@
 <?xml version="1.0" standalone="yes"?>
 <texts base="0x1537" room_id="18">
-    <text>
+    <text window="none">
         <refs>
             <ref>0xe7</ref>
         </refs>
-        <data>Leviathan: Où sommes-nous ?[end]</data>
+        <data>Léviathan: Où sommes-nous... ?[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x102</ref>
         </refs>
-        <data>GARUDA:
-Que s'est-il passé ?[end]</data>
+        <data>Garuda: Que se passe-t-il donc... ?[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x11d</ref>
         </refs>
-        <data>VALITRA:
-La Porte de la Nouvelle Ère serait-elle
-ouverte ?[end]</data>
+        <data>Vritra: S'est-elle ouverte... ? La Porte de la Nouvelle Ère...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x138</ref>
         </refs>
-        <data>JORMUNGAND:
-Nous ne pouvons avancer plus loin.
-Est-ce notre destination ?[end]</data>
+        <data>Jormungand: Impossible d'avancer... au-delà...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x153</ref>
         </refs>
-        <data>GARUDA:
-Nous ne pouvons pas voir ce qu'il y a
-derrière la Porte.[end]</data>
+        <data>Garuda: Ne vois-tu pas... ce qu'il y a derrière la porte... Notre...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x16c</ref>
         </refs>
-        <data>LEVIATHAN:
-Sont-ils nos ennemis ?
-Que se passe-t-il ?![end]</data>
+        <data>Léviathan: Cet ennemi... ? Que se passe-t-il...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x187</ref>
         </refs>
-        <data>JORMUNGAND:
-Et Bahamut,que fait-il ?[end]</data>
+        <data>Jormungand: ... Bahamut... Encore lui...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x1a2</ref>
         </refs>
-        <data>VALITRA:
-Pourquoi ?
-Que sont toutes ces choses ici ?[end]</data>
+        <data>Vritra: Pourquoi... Si cela continue...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x20a</ref>
         </refs>
-        <data>[character][0x1]:
-Attendez,Dragons Sacrés...
+        <data>Yoyo: Attendez... Dragons Sacrés...
  
-Avez-vous fait cela pour vous ?
-Avez-vous ouvert la Porte ?
+Est-ce ma faute ?
  
-Je ne suis pas encore une Dragoon...
-Je suis encore la fille au coeur faible ![end]</data>
+Parce que je n'arrive pas à devenir Dragonnière... Parce que mon cœur est faible...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x2b1</ref>
         </refs>
-        <data>
-                   Chapitre [0xb0][0xb7]
-               -La Place Promise-[end]</data>
+        <data>Chapitre [0xb0][0xb7]
+-La Terre promise-[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x10a5</ref>
         </refs>
-        <data>HORNET:
-Pourquoi le ciel est-il si furieux ?
-Le temps n'est pas au beau fixe ![end]</data>
+        <data>Hornet: Le ciel est en colère... Pourvu qu'il n'arrive rien de grave.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1107</ref>
         </refs>
-        <data>TAURUS:
-[character][0x1] est sur le point de parler.[end]</data>
+        <data>Truth: La princesse Yoyo va commencer son récit...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x10dc</ref>
         </refs>
-        <data>RUSH:
-Je me sens offensé ![end]</data>
+        <data>Rush: ... Ça m'énerve !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x111b</ref>
         </refs>
-        <data>BIKKEBAKKE:
-[character][0x0],je dois dire que je suis très
-inquiet.
-Y aurait-il des choses que tu n'aimes
-pas en moi ?[end]</data>
+        <data>Bikebake: Byuu... Je me suis sali les mains... Tu me méprises ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x111f</ref>
         </refs>
-        <data> Qu'est-ce qui ne va pas ?
- Tu es un adulte,maintenant.[end1]</data>
+        <data> Qu'est-ce qui t'arrive ?
+ Non, c'est ça, devenir adulte...[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x1130</ref>
         </refs>
-        <data>Nous allons bientôt rentrer à Kana
-mais il y a beaucoup de choses à faire
-encore et je ne comprends pas tout.
-Cependant,ne t'inquiète pas,
-je suis toujours d'attaque ![end]</data>
+        <data>On va bientôt pouvoir rentrer à Kana...
+ 
+Mais il m'en manque encore beaucoup... Je sais bien que c'est mal...
+ 
+Mais je n'ai plus d'autre choix... C'est comme ça...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1129</ref>
         </refs>
-        <data>Vraiment ?!
-Merci,frère.[end]</data>
+        <data>Merci... Byuu.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1137</ref>
         </refs>
-        <data> De bons objets.
- Des livres.
- Des champignons.[end1]</data>
+        <data> Articles Matelite.
+ Le libraire.
+ Le champignonniste.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x1199</ref>
         </refs>
-        <data>MELODIA:
-Matelight et ses amis sont tous
-ensemble.
-Mais [character][0x0] et Hornet sont ici et ils
-sont seuls.[end]</data>
+        <data>Melody: Il nous a mis à l'écart. Il est méchant, Matelite !! Mais je m'en fiche !! J'ai Byuu et Hornet avec moi !![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xf30</ref>
         </refs>
-        <data>        Jette un coup d'oeil.
-  
+        <data>Si l'on tend l'oreille...
  
-    J'entends Matelight rire à
-            haute voix...
+on entend résonner
+le grand rire de Matelite...
  
-            GAHAHAHAHA...[end]</data>
+Gwahahahaha...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x32d</ref>
         </refs>
-        <data>MATELIGHT:
-Princesse [character][0x1],vous pouvez parler !
-Que s'est-il passé dans le ciel ?[end]</data>
+        <data>Matelite: Princesse Yoyo, parlez-nous !
+ 
+Que se passe-t-il donc dans le ciel ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x345</ref>
         </refs>
-        <data>[character][0x1]:
-Mais où sont [character][0x0] et les autres ?![end]</data>
+        <data>Yoyo: Mais... Byuu et les autres...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x35c</ref>
         </refs>
-        <data>Hahahahaha !
-Ces petits insectes ?!
+        <data>Héhé...
+Ceux-là, on les ignore !!
  
-Ils ne sont pas là car ils m'ont
-désobéi mais vous pouvez parler.[end]</data>
+Ceux qui me désobéissent n'entendront pas le récit de la princesse Yoyo !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x373</ref>
         </refs>
-        <data>Ne vous inquiétez pas,ils écoutent !
-Les murs ont des oreilles ![end]</data>
+        <data>Ne vous en faites pas... Ils sont sûrement en train d'épier ou d'écouter aux portes !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x382</ref>
         </refs>
-        <data>Allez-y,Princesse [character][0x1],
-dites-nous ce qui est arrivé.
+        <data>Allez !
+Princesse Yoyo, nous vous écoutons !!
  
-Racontez-nous ce que vous ont dit les
-Dragons Sacrés ![end]</data>
+Racontez-nous ce que disent les Dragons Sacrés !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3a4</ref>
         </refs>
-        <data>[character][0x1]:
-Matelight,te souviens-tu de ce que
-conte la Légende des Dragons Sacrés ?[end]</data>
+        <data>Yoyo: ... Matelite, te souviens-tu... de ce que dit la légende des Dragons Sacrés ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3c2</ref>
         </refs>
-        <data>MATELIGHT:
-Bien sûr,Princesse !
-Ma version est celle-ci...[end]</data>
+        <data>Matelite: ... Bien sûr, princesse Yoyo !! Voyons... à ma façon, ça donne...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3ce</ref>
         </refs>
-        <data>Les Dragons Sacrés vaincront Granbelos
-et viendra alors une Ère Nouvelle pour
-Kana.
-Et cette ère perdurera à jamais.[end]</data>
+        <data>Les Dragons Sacrés vaincront l'Empire de Granbelos, et une nouvelle ère viendra pour Kana !!
+ 
+Il me semble qu'il y avait une suite... Enfin, c'est à peu près ça.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3e4</ref>
         </refs>
-        <data>La Légende des Dragons Sacrés:
-La personne qui connaît le coeur des
-Dragons Sacrés ouvrira la Porte vers
-une Ère Nouvelle.
-Il semblerait toutefois que la Porte
-soit ouverte.[end]</data>
+        <data>La légende des Dragons Sacrés...
+ 
+Celui qui connaît le cœur des Dragons Sacrés... ouvrira la Porte de la Nouvelle Ère.
+ 
+Oui...
+ 
+La Porte de la Nouvelle Ère... s'est ouverte...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3fc</ref>
         </refs>
-        <data>Ce trou,dans le ciel...
-Ce serait la Porte de la Nouvelle Ère ?
+        <data>Cette porte dans le ciel, c'est la Porte de la Nouvelle Ère... Ce sont les Dragons Sacrés qui l'ont ouverte.
  
-Serait-ce les Dragons Sacrés qui
-l'aient ouverte ?
- 
-Non,ils ont dit qu'ils le feraient ![end]</data>
+Non, qui ont essayé de l'ouvrir...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x400</ref>
         </refs>
-        <data>Mais il ne s'est rien passé.
-Ainsi,je...[end]</data>
+        <data>Mais... ils n'ont pas pu...
+ 
+Et c'est... à cause de moi...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x41d</ref>
         </refs>
-        <data>MATELIGHT:
-Mon Dieu !
-Ce à quoi je pensais serait donc vrai !
-Je vais vous rappeler la suite de cette
-Légende !
+        <data>Matelite: !! ... Je m'en souviens... Princesse Yoyo... la suite de la légende...
  
-Une personne au coeur faible amènera
-le désastre dans les cieux.[end]</data>
+Celui dont le cœur est faible... fera tomber du ciel le malheur...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x43d</ref>
         </refs>
-        <data>La Porte... La Porte !
-La Porte est quelque part...
+        <data>Hmm !! ... La porte... la porte... la porte. Y avait-il une porte quelque part...
  
-Viens,COMMANDANT !
-Il faut se préparer pour la prochaine
-bataille ![end]</data>
+Allez, Taicho !! Préparons-nous au combat !![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x44e</ref>
         </refs>
-        <data>COMMANDANT:
-Matelight,qu'y a-t-il ?
-Dis-moi ce qui ne va pas ![end]</data>
+        <data>Taicho: Matelite... n'a pas l'air d'avoir compris... Et si je lui expliquais, affirmatif...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x45d</ref>
         </refs>
-        <data>COMMANDANT:
-La Princesse [character][0x1]!
- 
-Il se peut que le trou dans le ciel
-soit la Porte ouverte par une personne
-au coeur faible.[end]</data>
+        <data>Taicho: Princesse Yoyo !! La porte, c'est cette faille dans le ciel ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x594</ref>
         </refs>
-        <data>Mon Dieu ![end1]</data>
+        <data>... affirmatif !![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x478</ref>
         </refs>
-        <data>MATELIGHT:
-Silence,Commandant !
-Ne dis rien à personne !
-Sortez tous ![end]</data>
+        <data>Matelite: Silence, Taicho !!! Pas de discussion, dehors !! Tout le monde dehors !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x573</ref>
         </refs>
-        <data>ZORA:
-Qu'y a-t-il ?!
-Quelque chose ne va pas ?![end1]</data>
+        <data>Zora: Poussez-vous, poussez-vous !!
+Mais qu'est-ce que c'est que ça !![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x5e9</ref>
         </refs>
-        <data>RUSH:
-[character][0x0],je vais voir ce qui se passe ![end]</data>
+        <data>Rush: Mais oui... je sais comment faire !! Byuu... je passe devant !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x105e</ref>
         </refs>
-        <data>SENDACK:
-Les Dragons Sacrés sont furieux et
-violents !
-Je tremble beaucoup ?[end]</data>
+        <data>Sendak: ... Les Dragons Sacrés sont en colère... Très violemment, très profondément... Moi... je tremble, là ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1065</ref>
         </refs>
-        <data> Tu trembles vieil homme !
- Je n'ai rien remarqué...[end1]</data>
+        <data> Tu trembles, le vieux !!
+ T'en fais pas, Sendak.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x1070</ref>
         </refs>
-        <data>Je crains le pire,[character][0x0].
-Les Dragons Sacrés sont furieux !
-Je n'arrive pas à me calmer.[end]</data>
+        <data>J'ai peur... Byuu.
+ 
+Que les Dragons Sacrés soient aussi furieux... c'est parce que j'ai fait une prière bizarre...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x107f</ref>
         </refs>
-        <data>Je ne peux pas car si l'on regarde
-leur puissance,elle est extraordinaire.
-Ils désespèrent sur leur sort.
-Leur colère serait-elle due à leur
-désespoir ?
-Les arrêter est impossible,
-ils nous sont supérieurs ![end]</data>
+        <data>... Mais ça ne s'arrête pas... C'est la première fois que je sens des émotions aussi fortes...
+ 
+Les Dragons Sacrés sont désespérés... Une colère désespérée... contre quoi... ?
+ 
+Et si c'était contre moi... Moi... je n'ai eu que de mauvaises pensées...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1111</ref>
         </refs>
-        <data>TAURUS:
-La Porte de la Nouvelle Ère est-elle
-vraiment ouverte ?
-Si tel est le cas,le monde entier sera
-différent à cause de ce trou noir ?![end]</data>
+        <data>Truth: La Porte de la Nouvelle Ère... s'est-elle vraiment ouverte ? Si c'est le cas, que sont ces monstres d'un autre monde ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x669</ref>
         </refs>
-        <data>RUSH:
-N'approche pas plus,
-c'est dangereux.
-SALAMAND,arrête ![end]</data>
+        <data>Rush: Ah... mince !!
+ 
+Salamand !! Arrête !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x698</ref>
         </refs>
-        <data>MATELIGHT:
-Qu'est-ce qui ne va pas,
-Princesse [character][0x1]?
-Vous êtes... étrange ![end]</data>
+        <data>Matelite: Qu'avez-vous donc, princesse Yoyo ? Vous n'êtes pas vous-même !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6a1</ref>
         </refs>
-        <data>[character][0x1]:
-... ... ... ...[end]</data>
+        <data>Yoyo: ...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6b5</ref>
         </refs>
-        <data>MATELIGHT:
-La Porte de la Nouvelle Ère n'a pas
-été ouverte ?![end]</data>
+        <data>Matelite: La Porte de la Nouvelle Ère... Il est bien trop tôt pour qu'elle s'ouvre, voyons ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6ca</ref>
         </refs>
-        <data>Notre grande alliance avec les Dragons
-Sacrés aurait-elle pris fin ?[end]</data>
+        <data>L'auriez-vous oublié ? Notre Dragon Sacré...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6df</ref>
         </refs>
-        <data>Bahamut,le protecteur de Kana,va-t-il
-finir par se réveiller comme l'annonce
-la légende de Kana ?![end]</data>
+        <data>Bahamut, le dragon protecteur de Kana !!
+ 
+Tant que Bahamut ne s'est pas éveillé, la légende n'est pas terminée !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6fc</ref>
         </refs>
-        <data>Princesse,vous devriez faire confiance
-à vos sentiments.
+        <data>Princesse Yoyo... il faut y croire !!
  
-Vous n'êtes pas simplement une fille
-au coeur faible,je peux vous le dire ![end]</data>
+Ne pensez pas que votre cœur est faible !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x709</ref>
         </refs>
-        <data>[character][0x1],vous n'êtes pas seule !
-Nous sommes tous à vos côtés !
+        <data>Princesse Yoyo, vous n'êtes pas seule ! Nous vous suivrons partout !!
  
-Si des démons du monde du trou noir
-sortent par cette Porte,nous vous
-défendrons tous !
-C'est notre manière de vivre et rien
-ne changera cela ![end]</data>
+Si des monstres d'un autre monde sortent de cette porte dans le ciel, nous vous protégerons contre eux !! C'est ainsi que nous vivons !! Et jamais cela ne changera ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x724</ref>
         </refs>
-        <data>[character][0x1]:
-Merci...[end]</data>
+        <data>Yoyo: ... Merci.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x740</ref>
         </refs>
-        <data>Mais Matelight,je sens que Bahamut est
-haï par les autres Dragons Sacrés ![end]</data>
+        <data>Mais... Matelite...
+ 
+Bahamut... semble... haï par les autres Dragons Sacrés...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x752</ref>
         </refs>
-        <data>MATELIGHT:
-GAHAHAHAHAHA !
-Vous vous inquiétez pour ça !
-Regardez-moi,Princesse ![end]</data>
+        <data>Matelite: Gwahahahaha... Évidemment !! Regardez-moi !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x76d</ref>
         </refs>
-        <data>Matelight le Héros ![end]</data>
+        <data>Matelite le héros !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x782</ref>
         </refs>
-        <data>Le célèbre Matelight ![end]</data>
+        <data>Matelite la célébrité !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x792</ref>
         </refs>
-        <data>Matelight,le Chevalier de Kana ![end]</data>
+        <data>Matelite, chevalier de Kana !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7a1</ref>
         </refs>
-        <data>Je suis plus puissant que n'importe
-quel ennemi !
-Je vaincs tout le monde ![end]</data>
+        <data>Les forts ont beaucoup d'ennemis... Moi, tout le monde me déteste...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7ad</ref>
         </refs>
-        <data>Je suis le Bahamut des êtres humains
-d'Orelus !
+        <data>Matelite: Je suis le Bahamut du monde des humains !!!
  
-Et Commandant...[end]</data>
+Et Taicho, lui...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7c0</ref>
         </refs>
-        <data>[character][0x1]:
-Commandant est Léviathan ou alors
-Jormungand ?[end]</data>
+        <data>Yoyo: Taicho serait Léviathan... ? Ou bien Jormungand... ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7d7</ref>
         </refs>
-        <data>MATELIGHT:
-Commandant ?![end]</data>
+        <data>Matelite: Taicho, lui...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7e7</ref>
         </refs>
-        <data>Il est la queue de Bahamut ![end]</data>
+        <data>C'est la queue de Bahamut !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x82c</ref>
         </refs>
-        <data>Princesse [character][0x1],
-je vous comprends...
+        <data>Princesse Yoyo... je le sais bien...
  
-Aujourd'hui,je suis un homme lassant
-et aux valeurs dépassées.
+Je suis un vieux bonhomme bruyant... rabâcheur, et vantard...
  
-Un vieux cavalier qui survit sur les
-champs de bataille !
-Je suis un homme dépassé.[end]</data>
+Comme chevalier... comme guerrier... je ne vaux peut-être plus rien...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x83e</ref>
         </refs>
-        <data>Un jour,je devrai me retirer et vous
-devrez faire confiance à quelqu'un
-d'autre.[end]</data>
+        <data>Mais !! Je ne peux pas encore prendre ma retraite !!
+ 
+Je ne peux pas encore leur passer la main...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x84a</ref>
         </refs>
-        <data>Vous aurez [character][0x0] et Rush,
-les révolutionnaires de la Liberté.
-Ils ont beaucoup grandi mais leurs
-paroles ne le montrent guère...
-Bien que les Petits Démons parlent
-moins bien qu'eux.
-Hahahahaha ![end]</data>
+        <data>Byuu, Rush... Liberté par-ci, révolution par-là...
+ 
+Chez eux, ce n'est que de la frime... des mots creux...
+ 
+Ma foi... ils ne valent pas mieux que les Diablotins...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x857</ref>
         </refs>
-        <data>Princesse [character][0x1],
-j'ai un rêve...[end]</data>
+        <data>Princesse Yoyo... moi, j'ai un rêve...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x863</ref>
         </refs>
-        <data>Je souhaite que notre patrie Kana soit
-restaurée et que vous en soyez
-l'Impératrice !
-[character][0x1],je serai toujours à vos côtés
-pour vous soutenir.[end]</data>
+        <data>Que Kana renaisse... et que la princesse Yoyo en devienne la reine...
+ 
+Et moi, je resterai à vos côtés pour vous servir, pour toujours et à jamais !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x873</ref>
         </refs>
-        <data>Je vous le jure ![end]</data>
+        <data>Mais...
+ 
+Moi aussi... un jour... je vieillirai...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x87f</ref>
         </refs>
-        <data>Le jour où je serai âgé tout comme
-l'est ce vieil homme,Sendack,et que
-je dirai des inepties...
-Alors ce jour-là,je me retirerai.
-Et d'autres personnes me remplaceront.[end]</data>
+        <data>Quand je serai devenu un vieux bonhomme comme Sendak... et que je me mettrai à radoter... je songerai moi aussi à la retraite... Et à ce moment-là, si ces gamins prenaient ma suite...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x892</ref>
         </refs>
-        <data>[character][0x1],de beaux chevaliers prendront
-ma place pour vous servir,vous et la
-patrie ![end]</data>
+        <data>S'ils devenaient de vrais chevaliers au service de la princesse Yoyo... ça me suffirait...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8a8</ref>
         </refs>
-        <data>Quand ce moment viendra...
-Quand ils seront aussi âgés que moi...
-Quand ils auront fait de Kana une
-contrée libre...
+        <data>Mais... même à ce moment-là... même quand ils auront mon âge...
  
-  
-Alors je quitterai notre mère-patrie !
-Je crois que vous êtes d'accord avec
-moi,Princesse...[end]</data>
+S'ils souhaitent encore faire de Kana un pays libre... alors je leur pardonnerai... Et vous aussi, reine Yoyo, j'en suis sûr...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8c1</ref>
         </refs>
-        <data>Lorsque ce jour arrivera...
-Peut-être que Sendack sera déjà
-mort...[end]</data>
+        <data>Et alors, je prendrai ma retraite...
+ 
+D'ici là, ce vieux Sendak aura sûrement passé l'arme à gauche...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8dc</ref>
         </refs>
-        <data>Je crois que je commence déjà à dire
-n'importe quoi !
+        <data>À ce moment-là... dites, princesse Yoyo...
  
-Peut-être que lorsque vous serez
-comme moi...
+J'aurai peut-être... envie de radoter un peu...
  
-Vous vous souviendrez de votre
-enfance lorsque votre père n'était pas
-encore mort.
-Vous vous souviendrez que j'étais
-alors très jeune.
+Votre enfance... le feu roi de Kana... ma jeunesse... cette guerre... les potins sur Byuu et les autres...
  
-Vous vous souviendrez de la guerre...
-Vous vous souviendrez de nos
-compagnons d'armes et de [character][0x0]...
-J'aime énormément vous parler,
-Princesse ![end]</data>
+Venez me voir de temps en temps, pour m'écouter...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8f2</ref>
         </refs>
-        <data>Et j'aimerais rester avec vous pour
-toujours...
+        <data>Et puis... je vous demanderai une faveur... de me masser les reins... de me tapoter les épaules...
  
-Mais lorsque je ne pourrai plus vous
-protéger...
- 
-Je crois,Princesse [character][0x1],que je devrai
-dire adieu à mon armure.
- 
-C'est ici que je déposerai mes armes
-et vous dirai au revoir.[end]</data>
+J'ai le corps tout raide... À force de veiller sur vous, il sera sûrement tout déglingué... Et cette armure dorée, à ce moment-là, ce sera adieu !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x906</ref>
         </refs>
-        <data>Suis-je en train de dire des
-balivernes ?
+        <data>Allons, allons... voilà que je radote déjà...
  
-Je dois me reprendre,je suis encore
-loin d'être vieux ![end]</data>
+Je deviens vieux, moi aussi...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x927</ref>
         </refs>
-        <data>Je vais aller chercher mon ami,
-Commandant ![end]</data>
+        <data>Bon... !! Je vais aller taquiner Taicho !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x93d</ref>
         </refs>
-        <data>Voilà,c'était ma conclusion !
-Mais,juste un dernier mot,si vous me
-le permettez...
-Lorsque je partirai,j'espère que de
-temps à autre vous viendrez me rendre
-visite.
-Mais surtout,ne venez pas avec le
-nouveau Roi de Kana !
+        <data>Ah oui... princesse Yoyo. Une dernière chose...
  
-[character][0x1],je crois qu'un jour vous vous
-marierez avec l'un de mes compagnons !
-C'est sincèrement ce que je pense ![end]</data>
+Quand j'aurai pris ma retraite... venez chez moi toute seule ! Et surtout, pas avec le nouveau roi de Kana !!
+ 
+Penser que c'est lui que vous avez épousé, ça me rendrait fou de rage !! Je ne sers que vous, princesse !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf51</ref>
         </refs>
-        <data>[character][0x1]:
-De nombreux amis s'inquiètent tant
-pour moi !
-Matelight...
-Toi aussi,[character][0x0]...
-Et tous les Rebelles...[end]</data>
+        <data>Yoyo: Moi... je ne vous cause que du souci, à tous. Matelite... Byuu... tous les Rebelles...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf70</ref>
         </refs>
-        <data>[character][0x0],il y a quelque chose que je n'ai
-pas dit à notre cher Matelight.
-Moi aussi,j'ai un rêve...
-Un petit rêve,selon certains dires...[end]</data>
+        <data>Dis... Byuu. Je n'ai pas pu le dire à Matelite, mais...
+ 
+Moi aussi, j'ai un rêve...
+ 
+Un petit rêve...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf79</ref>
         </refs>
-        <data>Mais c'est mon rêve...[end]</data>
+        <data>Mon rêve, c'est...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfa6</ref>
         </refs>
-        <data>J'y pense souvent mais je ne peux
-pas encore te le dire.
+        <data>... Non, je ne peux pas le dire. Parce que...
  
-Comme j'aime regarder le ciel ![end]</data>
+si je le mets en mots...
+ 
+il risquerait... de s'évanouir dans le ciel.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfb5</ref>
         </refs>
-        <data>Je dois partir car Matelight m'attend
-sur le pont.[end]</data>
+        <data>Je vais y aller... Matelite m'attend sur le pont.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x11ff</ref>
         </refs>
-        <data>-Résultat de la reconnaissance du ciel-
+        <data>-Rapport de reconnaissance aérienne-
  
-Des monstres du monde du trou noir
-sont proches de l'Église des Souvenirs
-et se livrent à des actes violents.
-En ce moment,des troupes de l'Empire
-Granbelos préparent une offensive à
-l'Église des Souvenirs.
-Le Général Palpaleos est présent.
-Malheureusement,nous n'avons pas eu
-d'autres informations dans ces
-circonstances.[end]</data>
+Il apparaît que des monstres d'un autre monde, sortis de la faille du ciel, sèment le chaos près de l'Église des Souvenirs de Kana. Actuellement, l'armée impériale de Granbelos serait entrée en combat pour protéger l'Église des Souvenirs.
+Par ailleurs, le matelot qui a rédigé ce rapport est porté disparu.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xffd</ref>
         </refs>
-        <data>[character][0x1]:
-[character][0x0],j'ai une requête...
-Protège cette église !
-Elle a en mémoire tant de souvenirs
-d'amoureux de Kana...
+        <data>Yoyo: Byuu... je t'en prie... Protège l'église... Les souvenirs de tant d'amoureux de Kana sont là-bas...
  
-Nous n'avons pas de temps à perdre
-car ces souvenirs ne doivent pas être
-perdus suite à une défaite !
-Nous y avons aussi des souvenirs,
-[character][0x0]...
+Tant de moments inoubliables... tant de sentiments à ne pas perdre... Pour nous aussi... c'était pareil...
  
-Te souviens-tu encore de notre
-promesse ?[end]</data>
+Tu t'en souviens encore... ? Notre promesse...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1001</ref>
         </refs>
-        <data> Je ne m'en souviens plus.
- Je m'en souviens.[end1]</data>
+        <data> Ça me gêne, j'ai oublié.
+ Bien sûr que je m'en souviens ![end1]</data>
     </text>
     <text>
         <refs>
@@ -793,109 +631,75 @@ promesse ?[end]</data>
             <ref>0xa2b</ref>
             <ref>0xa5c</ref>
         </refs>
-        <data>[character][0x1]:
-Cette époque a malheureusement bien
-changé par ma faute...[end]</data>
+        <data>Yoyo: Moi... j'ai bien changé depuis ce temps-là...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1183</ref>
         </refs>
-        <data>ZORA:
-C'est terrible !
-Il nous faut arrêter ça !
-Comme toutes les autres femmes,[character][0x1]
-est résistante et elle n'a pas un
-coeur faible.[end]</data>
+        <data>Zora: Qu'est-ce qu'on fait !! Il en fait vraiment qu'à sa tête !! Pour remonter le moral de la princesse Yoyo, on est bien meilleures que lui !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x118a</ref>
         </refs>
-        <data>LUKIA:
-J'ai entièrement confiance en la
-Princesse [character][0x1].
-Tu es d'accord avec moi ?![end]</data>
+        <data>Ruki: Moi, j'ai toujours confiance en la princesse Yoyo. Et en toi aussi, Byuu, bien sûr.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x11c8</ref>
         </refs>
-        <data>MELODIA:
-Hé ! Hé ! HEEEEEEE !
-Qu'est-ce qui ne va pas ?
-Vous pouvez me le dire ?![end]</data>
+        <data>Melody: Dis, dis... Qu'est-ce qu'il y a, qu'est-ce qu'il y a ? Dites-moi tout !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x11e1</ref>
         </refs>
-        <data>MELODIA:
-C'est étrange,Matelight ne dit plus
-rien ![end]</data>
+        <data>Melody: C'est bizarre... Matelite ne dit plus rien ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1093</ref>
         </refs>
-        <data>COMMANDANT:
-Matelight semble parfois si triste ![end]</data>
+        <data>Taicho: Matelite... un jour, je vous ferai pleurer, affirmatif !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x109a</ref>
         </refs>
-        <data>COMMANDANT:
-Matelight est très silencieux !
+        <data>Taicho: Matelite... s'est tu... Il m'a juste dit ``toi, tu es la queue'', et plus un mot...
  
-Sais-tu pourquoi il ne veut pas parler ?
-Hum,il y a des choses qui ne se
-disent pas,tu as raison !
-Prépare-toi bien ![end]</data>
+Il prépare sûrement quelque chose... Méfiance, affirmatif...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x10ac</ref>
         </refs>
-        <data>HORNET:
-[character][0x7] t'a-t-il donné ses
-informations ?!
-Très bien,direction Kana !
-Prépare-toi pour la bataille !
- 
-Nous sommes proches du combat final ![end]</data>
+        <data>Hornet: Tu as entendu le rapport de Munimuni. On arrive enfin à Kana... Prépare-toi bien au combat !! La bataille finale approche ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x10fc</ref>
         </refs>
-        <data>RUSH:
-Tu dois être réconforté par ces
-paroles.
-Nous avons appris bien des choses sur
-[character][0x1]...[end]</data>
+        <data>Rush: Pas besoin de me consoler ni de te justifier... Moi aussi... la princesse Yoyo...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x10b0</ref>
         </refs>
-        <data> Préparons-nous.
- Allons combattre ![end1]</data>
+        <data> Attendre !!
+ Y aller !![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x103d</ref>
         </refs>
-        <data>[character][0x1]:
-Je te demande pardon,je n'ai pas
-respecté notre promesse.
-Le ciel a bien changé...
-Et moi aussi...[end]</data>
+        <data>Yoyo: Pardon... Je voudrais regarder le ciel encore un peu. Quand je regarde le ciel... ça me redonne courage...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1288</ref>
         </refs>
-        <data> Obtenu [0xaa]PRINCESSE ?[0xab].[end]</data>
+        <data>Obtenu ``??? de princesse''.[end]</data>
     </text>
 </texts>

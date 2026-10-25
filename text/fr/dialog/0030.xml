@@ -4,66 +4,56 @@
         <refs>
             <ref>0x3eb</ref>
         </refs>
-        <data>Taurus: Les forces de Granbelos sont trop puissantes !
-Nous devrions battre en retraite...[end]</data>
+        <data>Truth: Les... les troupes des généraux de Granbelos... !
+Il... il ne nous reste qu'à battre en retraite...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3f8</ref>
         </refs>
-        <data>MIST:
-[character][0x0],arrête Matelight...[end]</data>
+        <data>Mist: ... Byuu...
+Arrête Matelite...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3db</ref>
         </refs>
-        <data>RUSH:
-Les Commandants de l'Empire sont si
-forts...
-Je... n'avais jamais... eu si peur ![end]</data>
+        <data>Rush: Les généraux de l'Empire... si forts...
+ 
+C'est la première fois... que je ressens... ça...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3cb</ref>
         </refs>
-        <data>SENDACK:
-La Princesse [character][0x1]![end]</data>
+        <data>Sendak: Princesse Yoyo... Sire...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5d6</ref>
         </refs>
-        <data>SAUZER:
-La Princesse de Kana...
-Une Dragoon !
-Aurait-elle des pouvoirs plus puissants
-que ceux du Dragon Sacré Bahamut ?!
+        <data>Sauzer: Roi de Kana...
  
-Ou est-ce simplement une légende,
-Roi de Kana ?[end]</data>
+La puissance d'un Dragonnier... la puissance du Dragon Sacré Bahamut... n'est donc que cela... ? La légende... n'était donc qu'une légende...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x53f</ref>
         </refs>
-        <data>SAUZER:
-Nous allons prendre la Princesse de
-Kana avec nous ![end]</data>
+        <data>Sauzer: Emmenez la princesse Yoyo.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x553</ref>
         </refs>
-        <data>                   [character][0x0]!
-                   Matelight ![end]</data>
+        <data>Byuu !!
+Matelite ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5b3</ref>
         </refs>
-        <data>PALPALEOS:
-... ?!
+        <data>Palparos: ... ?!
  
 [character][0x0],le Chef de l'Escadron Dragon
 de Kana ?![end]</data>
@@ -72,63 +62,46 @@ de Kana ?![end]</data>
         <refs>
             <ref>0x5e8</ref>
         </refs>
-        <data>ROI DE KANA:
-La Légende !
- 
-Comment se fait-il que tu la
-connaisses ?[end]</data>
+        <data>Roi de Kana: ... ! La légende... ! Comment peux-tu... connaître la légende... ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5f2</ref>
         </refs>
-        <data>SAUZER:
-Sachez,Roi de Kana,que seules les
-époques choisissent la personne qui
-les dirigera !
-J'ai été moi-même choisi et je suis
-l'élu ![end]</data>
+        <data>Sauzer: Roi de Kana...
+Chaque époque se choisit un homme. Et cet homme, on l'appelle... un héros.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x604</ref>
         </refs>
-        <data>ROI DE KANA:
-Tu sembles te surestimer Sauzer ![end]</data>
+        <data>Roi de Kana: Que manigances-tu... Sauzer... ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x612</ref>
         </refs>
-        <data>Le Dragon Sacré ne se réveillera pas !
-Et nous ne te laisserons pas avoir son
-pouvoir ![end]</data>
+        <data>Les Dragons Sacrés ne s'éveilleront pas !
+ 
+Je ne te laisserai pas... la puissance des Dragons Sacrés ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x61f</ref>
         </refs>
-        <data>SAUZER:
-Ainsi Bahamut ne s'est pas réveillé,
-n'est-ce pas ?
-Je suppose qu'il n'est simplement pas
-encore l'heure !
+        <data>Sauzer: Les Dragons Sacrés ne s'éveilleront pas... ? Soit... Leur éveil... est pour bientôt !
  
-Cependant,d'ici là,le monde entier
-sera à moi !
- 
-Dès aujourd'hui,une nouvelle ère
-commence ![end]</data>
+Le monde, je vais m'en emparer... Tout commence... ici, en cet instant ![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x685</ref>
         </refs>
-        <data>   Ce fut suite à cette bataille
-          que Kana tomba.
+        <data>Au terme de cette bataille,
+le royaume de Kana tomba.
  
-       Ainsi prit fin une ère...
-    Et une nouvelle période de
-         l'Histoire commença...[end]</data>
+Ainsi s'achevait une ère,
+et une nouvelle page de l'Histoire
+s'apprêtait à s'écrire.[end]</data>
     </text>
 </texts>

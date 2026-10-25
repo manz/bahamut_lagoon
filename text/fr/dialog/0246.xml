@@ -1,193 +1,153 @@
 <?xml version="1.0" standalone="yes"?>
 <texts base="0x356" room_id="246">
-    <text>
+    <text window="none">
         <refs>
             <ref>0x159</ref>
         </refs>
-        <data>           Don Juan ![end1]</data>
+        <data>Donfan ![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x1ab</ref>
         </refs>
-        <data>DON JUAN:
-Qu'est-ce qui ne va pas,Lukia ?[end]</data>
+        <data>Donfan: Qu'est-ce qu'il y a, Ruki ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1b7</ref>
         </refs>
-        <data>LUKIA:
-Je me suis enfin décidée ![end]</data>
+        <data>Ruki: C'est décidé ! Enfin... ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1d0</ref>
         </refs>
-        <data>DON JUAN:
-Tu t'es décidée ?![end]</data>
+        <data>Donfan: Décidé... ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1ea</ref>
         </refs>
-        <data>Pour le nouveau Roi de Mahal ?![end]</data>
+        <data>Le nouveau roi de Mahal est choisi ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1f4</ref>
         </refs>
-        <data>LUKIA:
-Oh !
-Écoute,tu as l'air surpris ![end]</data>
+        <data>Ruki: Oui ! Tiens-toi bien ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1fa</ref>
         </refs>
-        <data>DON JUAN:
-Qui... moi... ?
-Jamais... jamais...[end]</data>
+        <data>Donfan: Qui... ? Ne me dis pas... ne me dis pas...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x20a</ref>
         </refs>
-        <data>Je ne suis que Don Juan le Naïf et
-Fidèle Serviteur,non ?![end]</data>
+        <data>...que c'est Donfan, le cœur pur et dur à cuire ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x237</ref>
         </refs>
-        <data>LUKIA:
-Tu te trompes Don Juan !
+        <data>Ruki: Mais non !
  
-En ce qui concerne le futur Roi de ce
-pays,je crois que Commandant sera le
-plus apte.[end]</data>
+C'est Taicho ! Taicho sera roi ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x255</ref>
         </refs>
-        <data>DON JUAN:
-Est-ce vrai ?![end]</data>
+        <data>Donfan: C'est vrai ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x264</ref>
         </refs>
-        <data>LUKIA:
-Héhéhéhéhé !
-Il finira par accepter face au pouvoir
-dissuasif de Sergent ![end]</data>
+        <data>Ruki: Oui ! On dirait qu'il a fini par céder aux arguments de Gunso ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x26e</ref>
         </refs>
-        <data>DON JUAN:
-Hahahahaha !
+        <data>Donfan: Ha ha !
  
-Il semble que Commandant ne pourra
-rien refuser ![end]</data>
+Incapable de refuser un service, c'est bien Taicho, ça ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x27f</ref>
         </refs>
-        <data>LUKIA:
-Allons au Palais de Mahal !
-Jeanne nous y attend ![end]</data>
+        <data>Ruki: Allez, en route ! Au palais de Mahal ! Jeanne nous attend ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x28d</ref>
         </refs>
-        <data>DON JUAN:
-Haha ![end]</data>
+        <data>Donfan: Ouais ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2c2</ref>
         </refs>
-        <data>COMMANDANT:
-Sergent... Pourquoi serait-ce moi leur
-nouveau Roi ?[end]</data>
+        <data>Taicho: Gunso... Pourquoi tiens-tu tant à me faire roi ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2cc</ref>
         </refs>
-        <data>SERGENT:
-Considérez que vous êtes la seule
-personne capable d'être leur Roi ![end]</data>
+        <data>Gunso: Oui, chef ! Personne d'autre que vous ne peut être notre roi, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2d2</ref>
         </refs>
-        <data>COMMANDANT:
-Mais j'ai toujours été une personne
-se battant pour défendre Mahal pas
-pour faire de la politique.
-Cependant,je crois que je vais
-accepter la décision de notre peuple.[end]</data>
+        <data>Taicho: Moi qui n'ai pas su protéger Mahal autrefois... Le peuple l'acceptera-t-il... je me le demande...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2e4</ref>
         </refs>
-        <data>SERGENT:
-Que dites-vous ?!
+        <data>Gunso: Qu'est-ce que vous dites là !
  
-Commandant !
-Sachez que malgré tout nous serons
-toujours,vous et moi,Capitaines[0xd8][end]</data>
+Taicho ! Vous... vous resterez à jamais notre chef ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2f1</ref>
         </refs>
-        <data>COMMANDANT:
-... ... ...[end]</data>
+        <data>Taicho: ............!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2fa</ref>
         </refs>
-        <data>SERGENT:
-Et maintenant,vous devrez prendre en
-considération votre décision...[end]</data>
+        <data>Gunso: ...Je suis vraiment heureux de vous avoir suivi jusqu'ici...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x32e</ref>
         </refs>
-        <data>JEANNE:
-Moi je le crois capable ![end]</data>
+        <data>Jeanne: Moi aussi, je suis d'accord ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x33a</ref>
         </refs>
-        <data>DON JUAN:
-Don Juan le Naïf et Fidèle Serviteur
-le croit aussi ![end]</data>
+        <data>Donfan: Donfan, le cœur pur et dur à cuire, est d'accord aussi, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x346</ref>
         </refs>
-        <data>LUKIA:
-Moi aussi ![end]</data>
+        <data>Ruki: Moi aussi ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x352</ref>
         </refs>
-        <data>COMMANDANT:
-Oh tout le monde...[end]</data>
+        <data>Taicho: Vous tous...[end]</data>
     </text>
 </texts>

@@ -1,11 +1,11 @@
 <?xml version="1.0" standalone="yes"?>
 <texts base="0xfc8" room_id="8">
-    <text>
+    <text window="none">
         <refs>
             <ref>0xac</ref>
         </refs>
-        <data>                   Chapitre [0xb7]
-         -Combat des Dragons en plein air-[end]</data>
+        <data>Chapitre [0xb7]
+-Combat aérien de dragons-[end]</data>
     </text>
     <text>
         <refs>
@@ -18,18 +18,18 @@
         <refs>
             <ref>0xa1f</ref>
         </refs>
-        <data> Le nourrir.
- Grimper !
- Continuer à se préparer.[end1]</data>
+        <data> Le nourrir
+ Monter
+ Pas encore prêt[end1]</data>
     </text>
-    <text>
+    <text align="center">
         <refs>
             <ref>0xd18</ref>
             <ref>0x17a</ref>
             <ref>0x11d</ref>
         </refs>
-        <data>Et les heures passèrent...
-Combien de temps s'est-il écoulé ?[end]</data>
+        <data>Ainsi s'écoulèrent quelques heures...
+Combien, au juste ?[end]</data>
     </text>
     <text>
         <refs>
@@ -39,325 +39,258 @@ Combien de temps s'est-il écoulé ?[end]</data>
             <ref>0xd3c</ref>
             <ref>0x17e</ref>
         </refs>
-        <data> [0xb0] Heure.
- [0xb1] Heures.
- [0xb2] Heures.[end1]</data>
+        <data> [0xb0] heure plus tard
+ [0xb1] heures plus tard
+ [0xb2] heures plus tard[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xd6</ref>
         </refs>
-        <data>COMMANDANT:
-Ce chemin mène à ma patrie Mahal ![end]</data>
+        <data>Taicho: Par-delà ce ciel se trouve ma terre natale, Mahal, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe0</ref>
         </refs>
-        <data>MATELIGHT:
-Commandant !
+        <data>Matelite: Taicho ! Nous y sommes presque !
  
-Nous atterrirons bientôt sur Mahal et
-ta patrie sera libre ![end]</data>
+Nous allons libérer ta patrie, Mahal, de l'Empire ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xee</ref>
         </refs>
-        <data>COMMANDANT:
-Libérée ![end]</data>
+        <data>Taicho: Nous la libérerons, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfc</ref>
         </refs>
-        <data>MATELIGHT:
-Oui,Commandant !
-Regarde ce ciel...
-C'est relaxant,n'est-ce pas ?![end]</data>
+        <data>Matelite: Dis donc... Taicho ! Monter la garde dans le ciel, c'est amusant, hein ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x148</ref>
         </refs>
-        <data>COMMANDANT:
-Ces nuages couvrent Mahal !
-Mais même ainsi,je peux encore sentir
-l'odeur de ses lacs ![end]</data>
+        <data>Taicho: Derrière ces nuages se trouve ma terre natale, Mahal ! Je sens déjà l'odeur du lac, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x158</ref>
         </refs>
-        <data>MATELIGHT:
-C'est vrai...
+        <data>Matelite: Ah bon...
  
-Très bien Commandant,tu vas surveiller
-le ciel quelques instants.
-Ça m'ennuie un peu,moi ![end]</data>
+Dis donc... Taicho. Monter la garde dans le ciel, c'est ennuyeux...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1b2</ref>
         </refs>
-        <data>MATELIGHT:
-Regarde la carte,Hornet !
-N'y a-t-il pas quelque chose
-d'étrange sur Mahal ?[end]</data>
+        <data>Matelite: Dites donc... monsieur Hornet, notre guide. Quand est-ce qu'on arrive à Mahal ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1de</ref>
         </refs>
-        <data>HORNET:
-La forme des nuages est suspecte mais
-c'est étonnamment calme ![end]</data>
+        <data>Hornet: Le ciel se gâte. Silence, s'il vous plaît ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x203</ref>
         </refs>
-        <data>MATELIGHT:
-J'ai froid !
+        <data>Matelite: ... Quel accueil glacial.
  
-[character][0x0]!
-Scrute le ciel à ma place ![end]</data>
+Byuu ! Relève de la garde ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x217</ref>
         </refs>
-        <data>Je dois aller discuter avec Sendack,le
-Capitaine de ce bateau,de la stratégie
-à employer pour reprendre Mahal.
-Nous devons parler seuls !
-Juste entre adultes ![end]</data>
+        <data>Je vais discuter avec le capitaine Sendak de notre stratégie à Mahal.
+ 
+C'est une conversation d'adultes, alors ne nous dérange pas ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x74b</ref>
         </refs>
-        <data>COMMANDANT:
-[character][0x0],retourne à ton poste !
-Scrute le ciel ![end]</data>
+        <data>Taicho: Byuu, toi, monte la garde là-bas, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8ca</ref>
         </refs>
-        <data>HORNET:
-Tu n'entends pas ?
-Le ciel de Mahal est orageux...[end]</data>
+        <data>Hornet: Le ciel de Mahal, déchaîné ? Jamais entendu parler de ça...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf04</ref>
         </refs>
-        <data>MATELIGHT:
-Va surveiller le ciel !
-Tu n'as pas le droit de
-quitter ton poste ![end]</data>
+        <data>Matelite: Byuu ! Tu es de garde ! Interdit de quitter ton poste ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xcf1</ref>
             <ref>0x25c</ref>
         </refs>
-        <data>COMMANDANT:
-Quelque chose ne va pas ![end]</data>
+        <data>Taicho: Rien à signaler, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe08</ref>
         </refs>
-        <data>COMMANDANT:
-Quelque chose ne va pas,
-Matelight ![end]</data>
+        <data>Taicho: Alerte ! Seigneur Matelite, alerte, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe8f</ref>
         </refs>
-        <data>C'est terrible ! Terrible !
-Des Escadrons Dragons de l'Empire font
-face à FARENHEIT ![end]</data>
+        <data>Catastrophe ! Catastrophe ! Une escadrille de dragons de l'Empire droit devant le Fareneit ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe9f</ref>
         </refs>
-        <data>Certains se dirigent aussi vers Mahal !
-C'est dangereux ! Dangereux ![end]</data>
+        <data>C'est un convoi de ravitaillement en route pour Mahal ! Qu'est-ce qu'on fait ?! Qu'est-ce qu'on fait ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8e1</ref>
         </refs>
-        <data>HORNET:
-Des dragons de l'Empire...
-Dois-je donner l'alarme ?[end]</data>
+        <data>Hornet: Des dragons de l'Empire... Je sonne l'alerte ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9f8</ref>
         </refs>
-        <data>Des préparatifs,des conseils ?
-Grimpez tous sur vos dragons ![end]</data>
+        <data>Tout est prêt ?! Tout le monde est sur les dragons ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6dc</ref>
         </refs>
-        <data>MATELIGHT:
-Mahal risque d'être encore attaquée
-ces violents dragons ![end]</data>
+        <data>Matelite: Avant d'arriver à Mahal, un petit combat de dragons pour se dégourdir ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x752</ref>
         </refs>
-        <data>COMMANDANT:
-Les dragons ennemis sont enfin sortis
-de cette mer de nuages ![end]</data>
+        <data>Taicho: Les dragons ennemis ont disparu dans la mer de nuages, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa19</ref>
         </refs>
-        <data>RUSH:
-Allons combattre les dragons impériaux !
-Tu grimpes sur SALAMAND ?[end]</data>
+        <data>Rush: On va se frotter aux dragons de l'Empire ! Tu montes sur Salamand ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa2b</ref>
         </refs>
-        <data>Il faut partir combattre ![end]</data>
+        <data>On part au combat direct ! Monte vite ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9ff</ref>
         </refs>
-        <data>Hola ! Hola !
-C'est un beau dragon ![end]</data>
+        <data>Allez, allez ! Prenez bien soin des dragons ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x98a</ref>
         </refs>
-        <data>HORNET:
-L'ennemi se dirige vers Mahal.
-Vous allez combattre ?[end]</data>
+        <data>Hornet: L'ennemi aussi se dirige vers Mahal, on dirait. On y va ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x98e</ref>
         </refs>
-        <data> Restons ici !
- Allons combattre ![end1]</data>
+        <data> En attente !
+ Au combat ![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xa06</ref>
         </refs>
-        <data>Rien ne peut se passer sans notre
-aide...
+        <data>Nous, on ne peut rien faire, mais on est de tout cœur avec vous...
  
-FARENHEIT sera fermement défendu par
-tout le monde[0xd8][end]</data>
+Protégez bien le Fareneit ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6ea</ref>
         </refs>
-        <data>SENDACK:
-Est-ce que je peux t'être utile,
-[character][0x0]?[end]</data>
+        <data>Sendak: Byuu... je peux m'accrocher à toi ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x702</ref>
         </refs>
-        <data>SENDACK:
-Haha ! J'en suis content ![end]</data>
+        <data>Sendak: Haa... je suis content...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x738</ref>
             <ref>0x6f9</ref>
         </refs>
-        <data>SENDACK:
-Nous pourrions tout de même voler
-ensemble...[end]</data>
+        <data>Sendak: Byuu... moi qui voulais monter avec toi...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2bb</ref>
         </refs>
-        <data>[character][0x1]:
-[character][0x0],je suis ici.[end]</data>
+        <data>Yoyo: Byuu... descends.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x76b</ref>
         </refs>
-        <data>[character][0x1]:
-J'apprécie tout ce que tu fais pour
-nous tous.
-Tiens... c'est pour toi...[end]</data>
+        <data>Yoyo: Bon courage pour la garde. Tiens... c'est pour toi...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x774</ref>
         </refs>
-        <data>Tu as reçu des
-[0xaa]Cookies faits par [character][0x1][0xab].
+        <data>Tu as reçu ``Biscuits maison de Yoyo''.
+ 
 Tu les manges ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7d0</ref>
         </refs>
-        <data>[character][0x1]:
-Ils étaient... délicieux ?[end]</data>
+        <data>Yoyo: Alors... c'est bon ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7e7</ref>
         </refs>
-        <data>[character][0x1]:
-Tu as aimé ?![end]</data>
+        <data>Yoyo: Tant mieux.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x79a</ref>
         </refs>
-        <data>[character][0x1]:
-Je te demande pardon...[end]</data>
+        <data>Yoyo: Pardon...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x817</ref>
         </refs>
-        <data>[character][0x1]:
-Err... [character][0x0]...
-Pourrais-je regarder le ciel ?[end]</data>
+        <data>Yoyo: Dis... Byuu. Je peux monter la garde avec toi ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x840</ref>
         </refs>
-        <data>[character][0x1]:
-[character][0x0]...
-Je ne vois pas très bien !
-Tu pourrais rester en arrière.[end]</data>
+        <data>Yoyo: Byuu... je ne vois pas bien. Tu peux me pousser un peu par derrière ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x85d</ref>
         </refs>
-        <data>[character][0x1]:
-Le ciel a la couleur de la tristesse...[end]</data>
+        <data>Yoyo: Le ciel... a une couleur triste...[end]</data>
     </text>
     <text>
         <refs>
@@ -369,40 +302,31 @@ Le ciel a la couleur de la tristesse...[end]</data>
         <refs>
             <ref>0x759</ref>
         </refs>
-        <data>COMMANDANT:
-Je scrute le ciel en ce moment.
-Ce n'est pas comme certains ![end]</data>
+        <data>Taicho: Moi, je ne regarde que le ciel, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9ed</ref>
         </refs>
-        <data>HORNET:
-Ohé l'amoureux !
-C'est un bateau ici !
-Alors,faites les innocents ![end]</data>
+        <data>Hornet: Ma bien-aimée, c'est ce vaisseau... Non... rien.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x30e</ref>
         </refs>
-        <data>SENDACK:
-[character][0x0]...
-Merci...[end]</data>
+        <data>Sendak: Byuu... pas trop dure, la garde ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x322</ref>
         </refs>
-        <data>SENDACK:
-Tiens... je te les offre.[end]</data>
+        <data>Sendak: Tiens... c'est pour toi.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x32b</ref>
         </refs>
-        <data>Tu as reçu des
-[0xaa]Cookies faits par Sendack[0xab].
+        <data>Tu as reçu ``Biscuits faits avec amour par Sendak''.
  
 Tu les manges ?[end]</data>
     </text>
@@ -410,31 +334,27 @@ Tu les manges ?[end]</data>
         <refs>
             <ref>0x36e</ref>
         </refs>
-        <data>SENDACK:
-[character][0x0]...
+        <data>Sendak: Byuu...
  
-Hahahahahaha...[end]</data>
+... Haa... haa...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x386</ref>
         </refs>
-        <data>SENDACK:
-Kyaa hahaha[0xd8][end]</data>
+        <data>Sendak: Kyaa... ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3b8</ref>
         </refs>
-        <data>SENDACK:
-[character][0x0],ton ventre est très gros...[end]</data>
+        <data>Sendak: Les fesses de Byuu... toutes rondes...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x35c</ref>
         </refs>
-        <data>SENDACK:
-Je suis content...[end]</data>
+        <data>Sendak: Je suis content...[end]</data>
     </text>
     <text>
         <refs>
@@ -442,89 +362,80 @@ Je suis content...[end]</data>
             <ref>0xa83</ref>
             <ref>0x34c</ref>
         </refs>
-        <data>SENDACK:
-Très bien,[character][0x0]...[end]</data>
+        <data>Sendak: Mais... Byuu...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa7d</ref>
         </refs>
-        <data>TAURUS:
-Nous sommes déjà assez nombreux,
-Sendack.[end]</data>
+        <data>Truth: Nous sommes au complet.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xaac</ref>
         </refs>
-        <data>BIKKEBAKKE:
-[character][0x1]!
-Je vous en prie...[end]</data>
+        <data>Bikebake: Princesse Yoyo ! Mais bien sûr, montez, montez...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xaa6</ref>
         </refs>
-        <data>[character][0x1]:
-[character][0x0]...
-Merci... de m'avoir attendu ![end]</data>
+        <data>Yoyo: Byuu... s'il te plaît... emmène-moi avec toi.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xbfe</ref>
         </refs>
-        <data>Je te fais un service peu cher !
-Qu'aimerais-tu ?[end]</data>
+        <data>Service à domicile ! Qu'est-ce qu'il vous faut ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc02</ref>
         </refs>
-        <data> Armes.
- Armures.
- Objets.[end1]</data>
+        <data> Armes
+ Armures
+ Objets[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xc4e</ref>
         </refs>
-        <data>Attention !
-Vous pourriez blesser quelqu'un ![end]</data>
+        <data>Bonne route, soyez prudents ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x778</ref>
         </refs>
-        <data> Merci,merci beaucoup !
- Je suis très occupé ![end1]</data>
+        <data> Merci beaucoup !
+ Monseigneur est occupé ![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x7d4</ref>
         </refs>
-        <data> Vraiment délicieux !
- Ça avait un goût de dragon...[end1]</data>
+        <data> Délicieux !
+ C'est assaisonné pour dragons...[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x81b</ref>
         </refs>
-        <data> Je t'en prie !
- C'est une affaire d'homme ![end1]</data>
+        <data> Mais bien sûr, viens !
+ La garde, c'est un travail d'homme ![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x32f</ref>
         </refs>
-        <data> Merci énormément,Sendack !
- J'ai du travail,vieil homme ![end1]</data>
+        <data> Merci, Sendak, comme toujours
+ Pas besoin... vieux schnock ![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x6ee</ref>
         </refs>
-        <data> Tu peux être très utile.
- Non,résigne-toi,vieil homme.[end1]</data>
+        <data> Vas-y, tiens-toi bien fort
+ Non... pitié... vieux schnock ![end1]</data>
     </text>
     <text>
         <refs>
@@ -532,10 +443,6 @@ Vous pourriez blesser quelqu'un ![end]</data>
             <ref>0xcb3</ref>
             <ref>0xc90</ref>
         </refs>
-        <data>SENDACK:
-Inutile,inutile...
- 
-Pourtant les dragons impériaux
-approchent ![end]</data>
+        <data>Sendak: Non, non... Les dragons de l'Empire arrivent.[end]</data>
     </text>
 </texts>

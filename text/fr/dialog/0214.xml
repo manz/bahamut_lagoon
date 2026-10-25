@@ -4,578 +4,418 @@
         <refs>
             <ref>0x87f</ref>
         </refs>
-        <data>MATELOT:
-[character][0x0],[character][0x0]!
-Qu'aimerais-tu ?[end]</data>
+        <data>Matelot: Byuu, Byuu. J'ai ça, si ça t'intéresse ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5d9</ref>
             <ref>0x60c</ref>
         </refs>
-        <data>BIKKEBAKKE:
-[character][0x0],vieux frère...
-S'il te plaît,coopère !
- Coopérer.
- L'écouter parler.[end1]</data>
+        <data>Bikebake: Byuu...
+S'il te plaît, aide-moi !
+ Je vais t'aider
+ Raconte-moi d'abord[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x5f9</ref>
         </refs>
-        <data>BIKKEBAKKE:
-La Princesse [character][0x1] est revenue.
+        <data>Bikebake: ...............
  
-Nous pouvons donc rentrer à la maison !
-Ainsi,je pourrai me consacrer à
-l'économie et à l'argent !
-Toi,moi,Taurus et Rush nous briserons
-la délinquance à Kana.
+La Princesse Yoyo est revenue. On va se donner du mal, et un jour, on rentrera à Kana, hein ? Ce jour-là, je voudrais une maison. Et pour ça... il faut de l'argent... tu vois.
  
-Nous dormirons près du pont du Portail
-du Château avec tous les chiens comme
-auparavant.
-Nous mangerons tout ce qu'il nous
-sera possible de manger et nous
-dormirons rassasiés.
-Que suis-je en train de dire ?!
-La guerre n'est pas finie et ce
-bateau est confortable tout de même !
-Je veux être avec toi,Rush et Taurus.
-Garde cela secret...[end]</data>
+Rush, moi et les autres, avant que tu nous recrutes dans l'Escadron Dragon, on était des voyous de Kana. On dormait toujours sous les ponts ou dans un coin de la porte du château, comme des chiens abandonnés. On s'endormait le ventre vide en regardant la lumière chez les autres. Je ne veux plus de ça... Ce bateau est amusant, mais quand même...
+ 
+Je voudrais une maison où vivre avec Rush et Truth.
+ 
+Alors aide-moi, Byuu.
+
+
+Et puis, et puis... ne dis rien à Rush et aux autres.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x605</ref>
         </refs>
-        <data>BIKKEBAKKE:
-Je suis très embarrassé.[end]</data>
+        <data>Bikebake: J'ai honte, laisse tomber...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7f1</ref>
         </refs>
-        <data>REEVE:
-Frunze s'est endormi !
-Hahahahaha !
-Comme tu peux t'en apercevoir,un
-groupe de lanciers ne fait pas tout
-ensemble !
-Lance haute !
-Lance haute ![end]</data>
+        <data>Reeve: Frunze déprime~ !
+ 
+Ah ! Sans nous deux, pas de Lan-lan-lancier~ !
+ 
+Je veux le faire~ ! Je veux le faire~ ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7fb</ref>
         </refs>
-        <data>REEVE:
-Frunze est encore couché !
+        <data>Reeve: Frunze déprime encore~ !
  
-J'aimerais qu'il y ait un autre lancier
-dans ce bateau ![end]</data>
+Dis, Byuu ! Je veux un nouveau lancier~ ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x83e</ref>
         </refs>
-        <data>FRUNZE:
-Guh...
-Tu veux me parler de Reeve ?
-Mon partenaire aurait besoin d'un
-médecin pour soigner son expression
-[0xaa]Lance Lance ![0xab].
-Malgré ce petit inconvénient,
-nous sommes très amis.[end]</data>
+        <data>Frunze: Snif. Vous avez entendu Reeve ? Tant qu'il peut faire ``Lance lance !'', il se fiche de qui est son partenaire.
+ 
+Notre amitié...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x837</ref>
         </refs>
-        <data>FRUNZE:
-Cette histoire se réglera entre lanciers ![end]</data>
+        <data>Frunze: Snif. ...Je veux voir ma maman.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x759</ref>
             <ref>0x74b</ref>
         </refs>
-        <data> 
-SERGENT:
-Phew[0xd8]``Grognement''
- 
-C'est exténuant de porter une lourde
-armure.[end]</data>
+        <data>Gunso: Ah, ça gratte ! (Gratte gratte) On transpire là-dessous, avec cette armure.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7d2</ref>
         </refs>
-        <data>Obtenu [0xaa]Sergent ???[0xab].[end]</data>
+        <data>Obtenu ``??? de Gunso''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x763</ref>
         </refs>
-        <data>SERGENT:
-Parlons seul à seul...
-``Grognement''
-Est-ce que Commandant te semble être
-toujours le même ?
+        <data>Gunso: Entre nous... (gratte gratte)
+Byuu, que pensez-vous de Taicho ?
  
- Je pense...
- Je ne pense pas...[end1]</data>
+ Bof...
+ Je ne sais pas trop...[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x771</ref>
         </refs>
-        <data>Commandant était plus autoritaire et
-plus dur,autrefois.
-``Grognement''
-Le Capitaine de la cavalerie de Mahal
-pouvait briser tout le monde.
-``Grognement''
-Je peux parler très longtemps de mon
-Capitaine.
- 
-Dès que j'en ai l'occasion,je parle
-énormément de tout et de rien.
-``Grognement''[end]</data>
+        <data>Taicho n'était pas comme ça, autrefois. (Gratte gratte) Capitaine des chevaliers de Mahal, il était admiré de tous. Mais... (gratte gratte) Ha ha ha... C'est une longue histoire. J'aurai bien l'occasion de vous la raconter un jour... (Gratte gratte)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x628</ref>
         </refs>
-        <data>Tu feras des achats plus tard !
-Taurus a caché un grand livre dans sa
-chambre.
-J'aimerais savoir ce que c'est !
-Par contre Rush semble agir
-bizarrement et je me demande ce qu'il
-a ?!
-Je n'y comprends rien du tout ![end]</data>
+        <data>Hé hé. Quand j'aurai acheté la maison...
+ 
+Dans la chambre de Truth, je mettrai une grande bibliothèque.
+ 
+Rush... Tiens ? Qu'est-ce qu'il voudrait, Rush ?
+ 
+Dans ma chambre... tu devines, Byuu. ...Miam miam.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x69c</ref>
         </refs>
-        <data>BARECK:
-Je veux me plaindre !
-Veux-tu m'entendre ?
- Vas-y,s'il te plaît !
- Je suis occupé...[end1]</data>
+        <data>Barclay: ...J'ai besoin de râler,
+vous voulez bien m'écouter ?
+ Vas-y !
+ Je suis occupé, là...[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x6a9</ref>
         </refs>
-        <data>Je ne suis pas content !
-Tout ça à cause d'une sorcière
-vaniteuse comme Anastasia.
-Elle rit de moi en imaginant ce que
-je serais dans un groupe de filles !
-[0xaa]Va plus loin ! Va plus vite ![0xab]
-Voilà ce qu'elle me dirait à tout bout
-de champ !
+        <data>Vous savez, comment elle s'appelle déjà, cette magicienne insolente ? Anastasia, c'est ça ? Cette fille m'a dit : ``Avance plus vite !''
  
-Mais ce n'est pas de ma faute si nos
-armures sont très lourdes.
-De plus,les braves guerriers ne
-peuvent pas jeter de sorts sur de
-longues distances mais nos attaques
-directes sont puissantes !
-Anastasia devrait savoir que la plupart
-des victoires sont remportées grâce à
-nous.
-C'est grâce à nos attaques directes
-qu'elle peut savourer tant de victoires.
-Hein ! Quoi ?
-Tu ne m'écoutes plus ?
-Tu rejoins tes quartiers ?
-Juste une dernière chose !
-Sache que la victoire c'est l'argent ![end]</data>
+Bien sûr, moi aussi, j'aimerais bien. Mais cette armure est lourde, vous comprenez.
+ 
+D'ailleurs, attaquer de loin avec de la magie, c'est lâche ! Il faut se battre au corps à corps, et cogner !
+ 
+ 
+Et puis, une victoire au corps à corps, c'est bien mieux qu'une victoire à distance. Hein ? Mieux en quoi ? La joie de la victoire, et l'argent, pardi ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6b1</ref>
             <ref>0x875</ref>
         </refs>
-        <data>Ce n'est pas grave...[end]</data>
+        <data>Ah bon...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5a5</ref>
         </refs>
-        <data>RUSH:
-Durant les combats,je ne vois que le
-sourire de [character][0x1],et alors,je me dis:
-Fais de ton mieux,Rush !
-Mais le Général Palpaleos est arrivé et
-la plupart de mes rêves ont disparu.
- Tu es obstiné !
- C'est triste...[end1]</data>
+        <data>Rush: Haaa...
+ 
+Moi, je me suis battu pour voir
+sourire la Princesse Yoyo.
+Pour qu'elle me dise : ``Beau
+travail, Rush.''
+Mais depuis que Palparos est là...
+j'ai perdu mes rêves et mes espoirs...
+ Courage !
+ C'est dur, hein...[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x5b1</ref>
         </refs>
-        <data>Tu as raison !
-Je dois faire quelque chose !
-Je la protègerai ![end]</data>
+        <data>...Ouais.
+ 
+ 
+Ah, tiens, prends ça. C'était mon porte-bonheur, mais bon.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5bb</ref>
         </refs>
-        <data>Obtenu [0xaa]PRINCESSE ???[0xab].[end]</data>
+        <data>Obtenu ``??? de princesse''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5c4</ref>
         </refs>
-        <data>RUSH:
-Haha...[end]</data>
+        <data>Rush: Haaa...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6b8</ref>
         </refs>
-        <data>BARECK:
-Autrefois,nous nous étions résignés à
-nous croire vaincus pour notre combat
-pour le monde.
- 
-  
-Il est nécessaire de combattre pour
-avoir de l'argent,des objets et de
-l'expérience.
-Si tout cela est utilisé à bon escient
-pour nous et les dragons,nous pourrons
-augmenter en force.[end]</data>
+        <data>Barclay: Byuu, retenez bien ceci. Dans ce monde, même si on perd un combat, il ne faut pas abandonner. Les objets, l'argent et l'expérience gagnés pendant ce combat restent acquis. Si on continue sans se décourager, les dragons comme nous deviendront plus forts.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x71f</ref>
         </refs>
-        <data>BARECK:
-Je dois t'annoncer que j'aime
-quelqu'un...
-Une sorcière vaniteuse...
-C'est Anastasia !
-J'ai discuté avec elle...
-Si je vis avec elle,je suppose que
-nous allons nous marier.
+        <data>Barclay: Euh, Byuu... Je préfère vous
+prévenir. Cette magicienne insolente...
+Anastasia... on en a discuté. Si on
+s'en sort vivants, on se marie.
  
-Une sorcière et une armure lourde
-ensemble !
-Qui l'aurait cru ?!
-Nous devrons faire beaucoup d'efforts
-pour ne pas nous disputer.
- 
+On compte passer notre vie à se
+disputer pour savoir qui est le plus
+fort : magicienne ou Cuirassier.
  Félicitations !
- Tous mes voeux de bonheur ![end1]</data>
+ Je t'envie !![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x72d</ref>
         </refs>
-        <data>Merci !
-N'en parle pas à Matelight,
-garde ça secret.[end]</data>
+        <data>Merci. Mais pas un mot à Messire Matelite, hein.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7b8</ref>
         </refs>
-        <data>SERGENT:
-[character][0x0]!
-``Grognement''
-Il est mieux pour tous de retourner
-vivre à Orelus !
-``Grognement''
-Il y a tant de choses à y faire ![end]</data>
+        <data>Gunso: (Gratte gratte) Byuu !
+ 
+Il faut à tout prix rentrer vivants à Orelus (gratte gratte) ! Il y a tant à faire ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x81b</ref>
         </refs>
-        <data>REEVE:
-Altair va redonner de la vigueur à
-Frunze !
-Ensemble,nous crierons:
-Lan... Lan... Lancier !
-Je suis content ![end]</data>
+        <data>Reeve: Une fois à Altair, Frunze ! Frunze veut bien refaire le ``Lan-lan-lancier !'' avec moi ! Je suis content~ ! Je suis content~ ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x853</ref>
         </refs>
-        <data>FRUNZE:
-... ... ... ...
+        <data>Frunze: ...............
  
-Je suis un lancier !
-Lan... Lan... Lancier !
-Jeter les Lances !
-Je vais faire cela à Altair pour le
-monde entier.
-Personne ne nous vaincra...
-C'est moi qui ai décidé ça ou du
-moins,Lukia nous l'a fait comprendre.
-Tout ira bien,n'est-ce pas ?[end]</data>
+``Nous sommes les lanciers ! Lan-lan-lanciers ! Même de loin, lance lance !'' Le faire à Altair, une première mondiale... Je ne peux pas résister à la tentation...
+ 
+Mais je suis minable... Je prierai avec Ruki... Serai-je pardonné... ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x85b</ref>
         </refs>
-        <data>FILS DE ZORA:
-Quoi ?!
-Tu veux connaître mon nom ?
- Dis-le-moi !
- Ça m'est égal...[end1]</data>
+        <data>Fils de Zora: Vous voulez connaître mon nom ?
+ 
+ Dis-le-moi !!
+ Pas spécialement[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x869</ref>
         </refs>
-        <data>FILS DE ZORA:
-En réalité...
-Mon nom est... Orelus !
-Beaucoup de personnes dans le monde
-s'appellent comme ça.
+        <data>Fils de Zora: En fait... je m'appelle... Orelus. Comme notre monde. C'est un nom qui porte les rêves de ma maman et de mon papa. Mais je ne suis pas encore à la hauteur de mon nom...
  
-C'est un rêve pour certains de porter
-mon nom.
- 
-Et avec un tel nom,je ne serai
-jamais vaincu...
- 
-Parfois,j'entends même des gens crier
-mon nom haut et fort.
-Je ferai de mon mieux ![end]</data>
+Un jour, je veux pouvoir dire mon nom haut et fort, sans rougir. Je vais faire de mon mieux ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x59a</ref>
         </refs>
-        <data>RUSH:
-Nous aimons le combat,
-nous allons aller combattre !
-Nous connaissons tous le but de
-l'Armée de Libération d'Orelus ![end][end]</data>
+        <data>Rush: Byuu !!
+ 
+Personne ne m'écoute ! Ils disent qu'ils se battront comme il faut une fois partis en mission, alors qu'on les laisse tranquilles. Moi qui venais leur annoncer l'objectif de l'Armée du salut d'Orelus ![end][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x62f</ref>
         </refs>
-        <data>BIKKEBAKKE:
-Je crois que l'argent devient
-insupportable à la fin !
-Mais depuis que j'ai commencé à
-commercer,je ne peux plus m'arrêter ![end]</data>
+        <data>Bikebake: L'argent... ne rentre pas... Je ne suis peut-être pas fait pour ça...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x633</ref>
         </refs>
-        <data> Champignons``peu de profit''
- Objets     ``Proportion [0xb0][0xd9]''
- Livres     ``Les matelots''[end1]</data>
+        <data> Champignons (peu de profit)
+ Produits Matelite (ma part : 1/10)
+ Livres comme neufs (refilés)[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x780</ref>
         </refs>
-        <data>SERGENT:
-Aah...
-``Grognement''
-Quelque chose sur ce bateau est très
-bruyant...
-``Grognement''
-C'est toujours la même chose...
-Chantonnons...[end]</data>
+        <data>Gunso: (Haaa... gratte gratte)
+ 
+(Sur ce bateau, c'est toujours le chahut... gratte gratte...
+ 
+Enfin, comme d'habitude...
+ 
+ 
+Je vais peut-être fredonner un petit air.)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x807</ref>
         </refs>
-        <data>REEVE:
-Ah ! Mon pauvre ventre !
-N'accoste pas les gens comme ça.[end]</data>
+        <data>Reeve: Ah ! (Oups, ça m'a échappé~...) Me parle pas~...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x845</ref>
         </refs>
-        <data>FRUNZE:
-Reeve a mangé un mélange de
-[0xaa]SERGENT ???[0xab] et de [0xaa]UNIUJI[0xab].
-Il a mal à l'estomac...
-Je lui ai moi-même préparé ce cocktail
-pour avoir trahi mon amitié.
-De cette manière,mes affaires ne
-disparaîtront plus.
-Il faut craindre mes vengeances.[end]</data>
+        <data>Frunze: ...............
+ 
+J'ai mis du ``??? de Gunso'' et de l'``Uniasticot'' dans le repas de Reeve. Son ventre doit être dans un de ces états... Voilà ce qu'on gagne à trahir l'amitié...
+ 
+ 
+Mes coups deviennent de plus en plus sournois... Moi... j'ai peur de moi-même...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x789</ref>
         </refs>
-        <data>Demander à Sergent ce qu'il fredonne ?
+        <data>Écouter Gunso fredonner ?
  
-  
- Demander.
- Ne pas demander.[end1]</data>
+ 
+ Écouter
+ Ne pas écouter[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x79c</ref>
         </refs>
-        <data>De nombreux lacs,Mahal...
-``Grognement''
+        <data>Que de lacs (gratte gratte), Ma~ha~al~ (gratte gratte)
  
-Le Pont Arc-en-Ciel...
-Ouvrez les barrages...
-Regardez tous ! ``Grognement''
-Pêchez les pieuvres !
-Soyez heureux ! ``Grognement''
+Du Pont Arc-en-ciel~ (gratte gratte), la vanne qui ne s'ouvre jamais~, quand je la regarde avec toi~ (gratte gratte), des pêcheurs de pieuvres~ (gratte gratte), ici et là~ (gratte gratte)
  
-Aaaah Mahal``Grognement''
-Erigeons tous ensemble le plus beau de
-tous les palais ! ``Grognement''[end]</data>
+Ah~, Ma, ha~al~ (gratte gratte), là où se dresse~ (gratte gratte) le palais tout moisi~ (gratte gratte)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6bf</ref>
         </refs>
-        <data>BARECK:
-Aujourd'hui,je pensais au commerce et
-au fait que les prix devraient être les
-mêmes pour les hommes et les femmes.
-C'est alors que je pensai de suite au
-couple et à l'amour qui bourgeonne en
-moment...
-Que penses-tu de cela ?
+        <data>Barclay: Dites-moi...
  
- C'est bien d'en parler !
- Ce n'est pas vraiment super ![end1]</data>
+Vous devez vous y connaître, Byuu...
+Un homme et une femme qui se
+chamaillent sans arrêt...
+ 
+Et un beau jour, tout à coup...
+l'a... l'amour naît entre eux...
+Ça arrive, ce genre de choses ?
+ 
+ Ça arrive souvent !
+ C'est impossible !![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x6cd</ref>
         </refs>
-        <data>Je ne sais pas comment j'en suis venu
-à penser à ça ? Peut-être le hasard ![end]</data>
+        <data>Ah bon... Non, pour rien...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x6df</ref>
         </refs>
-        <data>J'espère que tu n'abandonnes pas la
-lutte pour celle que tu aimes !
-Je te comprends,tu sais !
-Personne n'est heureux s'il y a une
-seconde personne qui s'incruste entre
-vous.[end]</data>
+        <data>(Ah... Byuu s'est fait larguer, il paraît... Du coup, il essaie de gâcher le bonheur des autres...)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6e9</ref>
         </refs>
-        <data>BARECK:
-Il faut que tu me dises ce que tu
-penses de ma nouvelle idée !
-Crois-tu qu'une bataille entre les
-sorcières et les guerriers soit
-possible ?!
-Ainsi,lorsque le combat sera fini,
-nous pourrons signer une trêve.
+        <data>Barclay: Dites-moi...
  
- C'est splendide !
- C'est absolument inutile ![end1]</data>
+Vous devez vous y connaître, Byuu...
+Une magicienne tape-à-l'œil, au
+combat comme dans la vie, et un
+Cuirassier tout simple et effacé...
+ 
+S'ils sortaient ensemble, ça irait ?
+ 
+ Ça ne marchera jamais
+ Ça pourrait bien marcher[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x700</ref>
         </refs>
-        <data>Je crois que tu n'as pas très bien
-compris ce que j'ai voulu te dire.
-Mais je te comprends !
-Tu dois avoir la tête ailleurs depuis
-que tu as un ennemi dans tes histoires
-sentimentales.
-Il faut dire aussi que tu es souvent
-très occupé !
-N'oublie quand même pas de te
-préparer pour la prochaine bataille !
-Il faut penser à nous acheter de
-nouveaux équipements pour le combat.[end]</data>
+        <data>(Ah... Byuu, alors. Il veut vraiment gâcher le bonheur des autres...
+ 
+Mais non, mais non, Byuu est juste trop occupé...
+ 
+Réfléchir, préparer, il doit tout faire lui-même.
+ 
+Nous, les simples soldats, on ne réfléchit à rien du tout.
+ 
+Si ça peut lui enlever un peu de stress, je vais l'aider.)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x70f</ref>
         </refs>
-        <data>C'est ce que je pensais aussi !
-Je vois que nous avons les mêmes
-points de vue ![end]</data>
+        <data>C'est bien ce que je pensais. Ah, vous avez raison, Byuu !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x718</ref>
         </refs>
-        <data>Ce n'est pas original ?!
-Je pensais pourtant avoir eu une très
-bonne idée. Hahahahaha !
-Très bien,préparons-nous pour le
-prochain assaut ![end]</data>
+        <data>Vraiment ?! Moi aussi, j'avais un peu cette impression. Hé hé... je ferai comme ça... Hi hi... et puis comme ça... Je vais tenter l'assaut, la prochaine fois.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x811</ref>
         </refs>
-        <data>REEVE:
-Guh huh huh...
+        <data>Reeve: Snif...
  
-Je ne suis pas différent des autres
-puisque j'ai toujours des souhaits
-comme tout le monde !
-Guh huh huh...
-Je n'ai plus rien...[end]</data>
+C'est bizarre~... Les filles ne m'adressent plus la parole~... Snif... J'ai rien fait, moi~...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x84c</ref>
         </refs>
-        <data>FRUNZE:
-Cette fois,c'est décidé !
-Ma vengeance sera terrible !
-J'ai décidé cela tout seul et j'en ai
-même des frissons...[end]</data>
+        <data>Frunze: Je suis... minable.
+
+Le dernier des hommes... minable. Mais c'était grisant...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x7ae</ref>
         </refs>
-        <data>SERGENT:
-La Restauration de Mahal...
-``Grognement''
-La Restauration de Kana...
-``Grognement''
+        <data>Gunso: (Mais enfin... gratte gratte
  
-Ce n'est pas fini !
-``Grognement''
+Mahal a beau renaître (gratte gratte), Kana a beau renaître (gratte gratte)...
  
-Je ne vis que pour ça !
-``Grognement''
+Ce qui ne guérit pas (gratte gratte) ne guérit pas (gratte gratte)...
  
-Maintenant continuons...
-``Grognement''
+Ma vie (gratte gratte) n'aura été que grattage (gratte gratte)...
  
-Je n'abandonnerai pas !
-``Grognement''
- 
-Je ne serai pas vaincu !
-``Grognement''
- 
-Je ferai de mon mieux...[end]</data>
+Et ça continuera à gratter... Gratte gratte... Gratte gratte... Non, non, abandonner (gratte gratte), c'est perdre (gratte gratte). Courage...)[end]</data>
     </text>
 </texts>

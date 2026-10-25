@@ -18,7 +18,7 @@ the tilemap that shows them, and only once a window line changed them or the win
 map tiles the window font replaces.
 
 The panel slots are 8x8 font codes no text draws once the battle text is French: the dakuten kana below 0x33 (the
-engine draws a kana with a mark instead), around the frame tiles (0x10, 0x1A) and the colour fills (0x2D-0x2F), and
+engine draws a kana with a mark instead), around the frame tiles (0x10, 0x1A) and the colour fills (0x2C-0x2F), and
 lowercase letters and accents past 0x6B, which only the VWF draws now. The battle message VWF (battle_vwf_reloc)
 draws its lines over 0x30 on: its first line, 0x30-0x6B, shows with the panel; its others overwrite the slots while
 the dialogue hides the panel, so the panel uploads its slots again when it next draws a line. The window slots are
@@ -29,10 +29,13 @@ the window font's kana.
 .include "src/checks.i"
 .include "src/sram_work.i"
 .include "src/tile_pool.i"
+.include "src/vblank.i"
 .extern small_vwf_render
 .extern small_vwf
 .extern tile_blit
 .extern tile_pool
+.extern dma_fits_vblank
+.extern await_vblank
 
 
 LINE = 0x0620
@@ -55,19 +58,24 @@ PANEL_ATTR = 0x22
 WINDOW_ATTR = 0x23  ; a BG1 window's line
 FRAME_FIRST = 0xE0  ; a window's or the panel's corner, edge and side codes
 FRAME_LAST = 0xE2
-POOL_SLOTS = 75  ; the panel's, then the windows'
+POOL_SLOTS = 74  ; the panel's, then the windows'
 WINDOW_SLOTS = 45
 ALL_SLOTS = POOL_SLOTS + WINDOW_SLOTS
 WINDOW_VRAM = 0x3000  ; BG1 tile 0x300, 8x8 code 0x00, 4bpp
 WINDOW_TILE_BYTES = 32
 ROSTER_NAME_CELLS = 7
 ROSTER_CLASS_CELLS = 7
+DRAGON_KIND_CELLS = 9
 MIN_CHARS = 3  ; shorter copies (LV, HP) keep the font
 SLOT_STALE = 0x01  ; not drawn since its row was last drawn
 ALL_RUNS = 0x0F  ; the panel's
 WINDOW_RUNS = 0x70
 FIRST_WINDOW_RUN = 4 * 2
 UPLOAD_BUDGET = 0x400  ; bytes of runs an NMI uploads: a window's tilemap must still go up in vblank
+WINDOW_TILEMAP = 0x7E4000  ; C0AA9E's upload: a window's tilemap
+WINDOW_TILEMAP_VRAM = 0x4800
+WINDOW_TILEMAP_BYTES = 0x0800
+WINDOW_TILEMAP_WAITS = 2  ; vblanks it waits for room at most, then goes up anyway as vanilla
 
 ; line_strip, line_chars, line_cells: the line being composed (a field may render past it), its characters (BLANK past
 ; them) and where small_vwf drew. pool_owner: tilemap row + 1 holding the slot, 0 when free. pool_cell: the tilemap
@@ -109,6 +117,7 @@ UPLOAD_BUDGET = 0x400  ; bytes of runs an NMI uploads: a window's tilemap must s
 
 .reserve panel as PanelVwf in sram_work
 .reserve panel_slots_overwritten 1 in sram_work  ; set by the battle message VWF past its first line
+.reserve panel_hold 1 in sram_work  ; nonzero: the next NMI holds the panel's runs back, for a window's tilemap
 
 
 ; panel_copy_string: phb / lda $10 / pha / plb.
@@ -126,6 +135,12 @@ UPLOAD_BUDGET = 0x400  ; bytes of runs an NMI uploads: a window's tilemap must s
 ; panel_put_char: cmp #0xEF / bne.
 .alloc at 0xC0CADE {
     jml.l panel_put_char_hook
+}
+
+; A window's tilemap, sent by the main loop right after an NMI (four windows' setups): ldx #0x4000 / stx $4302 / ...
+.alloc at 0xC0AA9E {
+    jsl.l panel_window_tilemap
+    rts
 }
 
 ; Battle NMI, its transfers done: lda #0x0F / sta $2100 ends the forced blank. Its transfers use addresses the main
@@ -182,6 +197,12 @@ UPLOAD_BUDGET = 0x400  ; bytes of runs an NMI uploads: a window's tilemap must s
 .alloc at 0xC0E036 {
     .dw LINE + ROSTER_NAME_CELLS + 1  ; the class (ldx #0x0627 / lda #0x08)
     .db 0xA9, ROSTER_CLASS_CELLS
+}
+
+; A dragon's line in the unit panel (C0DC1F): its kind in parentheses took 8 cells; Guerrier d'argile needs 9 (68
+; pixels), or the closing parenthesis, set past the field's last non-blank cell, covers its last letter.
+.alloc at 0xC0DC3D {
+    .db DRAGON_KIND_CELLS  ; lda #0x08
 }
 
 ; The window font upload's last transfer (sta $420B / rts) writes over the window slots.
@@ -383,9 +404,9 @@ _kept:
 
 _fill_cells:
 """
-Fill the field's $08 cells: a placeholder where small_vwf drew or a character remains, else a blank, then a blank
-past the end as the engine leaves it; the line copy keeps each cell's character and whether small_vwf drew it. X ends
-on that blank.
+Fill the field's $08 cells: a placeholder where small_vwf drew, else a blank (the engine trims those back), then a
+blank past the end as the engine leaves it; the line copy keeps each cell's character and whether small_vwf drew it.
+X ends on that blank.
 """
     rep #0x20
     lda.w #0x0000
@@ -408,6 +429,10 @@ _fill:
     sep #0x20
     txa
     cmp.l small_vwf.chars
+    lda #BLANK
+    bcs _char
+    txa
+    cmp.l small_vwf.cells  ; past the ink, its characters already drawn: blank, so the engine trims it
     lda #BLANK
     bcs _char
     lda.l small_vwf.text, x
@@ -872,8 +897,8 @@ _clean:
 _upload_runs:
 """
 DMA the dirty runs on channel 0, keeping the channel's registers: the window runs first, whose tilemap the engine
-uploads after this NMI, then the panel's, UPLOAD_BUDGET bytes at most. A run past the budget stays dirty for the next
-NMI: past it, the engine's own uploads (a window's 2 KB tilemap) would run out of vblank.
+uploads after this NMI, then the panel's, UPLOAD_BUDGET bytes at most, none while panel_hold. A run past the budget
+stays dirty for the next NMI: past it, the engine's own uploads (a window's 2 KB tilemap) would run out of vblank.
 """
     rep #0x30
     pha
@@ -899,6 +924,10 @@ _save:
     pha  ; 1,s: the bytes left
     ldx.w #FIRST_WINDOW_RUN
     jsr.w _upload_window_run
+    sep #0x20
+    lda.l panel_hold
+    rep #0x20
+    bne _uploaded  ; a window's tilemap waits for this vblank: the panel's runs, the next one
     lda.w #panel.pool_tiles & 0xFFFF
     sta.l panel.source
     ldx.w #0x0000
@@ -1040,6 +1069,51 @@ _next_window_run:
 _window_done:
     rts
 
+panel_window_tilemap:
+"""
+C0AA9E's DMA, a window's tilemap to VRAM on channel 0 as the NMI leaves it, sent by the main loop right after an NMI:
+it ends in vblank only while that NMI was short. When the rest of the vblank cannot hold it, the next NMI holds the
+panel's runs back (panel_hold) and it goes up right after that one. Leaves A 0x01 and X the VRAM address, as C0AA9E.
+"""
+    php
+    rep #0x30
+    pea.w WINDOW_TILEMAP_WAITS
+_tilemap_try:
+    lda.w #WINDOW_TILEMAP_BYTES
+    jsl.l dma_fits_vblank
+    bcc _tilemap_send
+    lda 0x01, s
+    beq _tilemap_send  ; still no room: as vanilla
+    dec
+    sta 0x01, s
+    sep #0x20
+    lda #0x01
+    sta.l panel_hold
+    rep #0x20
+    jsl.l await_vblank
+    bra _tilemap_try
+_tilemap_send:
+    pla
+    lda.w #WINDOW_TILEMAP & 0xFFFF
+    sta.l 0x004302
+    lda.w #WINDOW_TILEMAP_BYTES
+    sta.l 0x004305
+    lda.w #WINDOW_TILEMAP_VRAM
+    sta.l 0x002116
+    sep #0x20
+    lda #WINDOW_TILEMAP >> 16
+    sta.l 0x004304
+    lda #0x01
+    sta.l 0x00420B
+    lda #0x00
+    sta.l panel_hold
+    plp
+    sep #0x20
+    rep #0x10
+    lda #0x01
+    ldx.w #WINDOW_TILEMAP_VRAM
+    rtl
+
 panel_count_chars:
 """$08: the characters of string Y in bank $10 before its FF, counted as C0AB4B did (F0-F3 switch font pages)."""
     phb
@@ -1156,7 +1230,7 @@ _pool_runs:
 ; The pool's runs of free codes, slot after slot: first code, length; 0 ends them.
     .db 0x0D, 3
     .db 0x11, 9
-    .db 0x1B, 18
+    .db 0x1B, 17  ; up to the colour fills: the move range's shadow tiles BG3 with 0x2C and 0x2E
     .db 0x6C, 45  ; past the battle message's first line (0x30-0x6B)
     .db 0x33, 15  ; the windows'
     .db 0x42, 15

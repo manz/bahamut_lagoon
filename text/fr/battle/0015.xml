@@ -2,56 +2,65 @@
 <texts base="0x133" room_id="15">
     <text>
         <refs>
+            <ref>0xfc</ref>
+        </refs>
+        <data>Entrez dans les bâtiments !
+Ils vous abriteront des
+tempêtes de sable ![end]</data>
+    </text>
+    <text>
+        <refs>
             <ref>0x2c</ref>
         </refs>
-        <data>MATELIGHT: Sauzer !![end1][end]</data>
+        <data>Matelite: Sauzer !![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x39</ref>
         </refs>
-        <data>COMMANDANT: Regardez ! C'est Palpaleos !![end1][end]</data>
+        <data>Taicho: C'est Palparos, affirmatif !![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4a</ref>
         </refs>
-        <data>MATELIGHT: Écoutez-moi tous !
-Pas d'hésitation !![end1][end]</data>
+        <data>Matelite: Tenez bon, vous autres !!
+Ne flanchez pas !![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4e</ref>
         </refs>
-        <data>Les choses ne sont plus comme avant...[end1]</data>
+        <data>Ce n'est plus comme autrefois...
+Aujourd'hui, nous pouvons vaincre
+même Sauzer !![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x59</ref>
         </refs>
-        <data>COMMANDANT: Nous allons en finir,[0xfc][0x10]
-ici même ![end1][end]</data>
+        <data>Taicho: Nous allons en finir,[0xfc][0x10]
+ici même, affirmatif ![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x64</ref>
         </refs>
-        <data>MATELIGHT: Princesse [character][0x1]...[0xfc][0x18]
+        <data>Matelite: Princesse [character][0x1]...[0xfc][0x18]
 Veillez sur nous...[end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6b</ref>
         </refs>
-        <data>SAUZER: Membres de la Résistance,[0xfc][0x10]
-cette guerre a été bien longue...[end1][end]</data>
+        <data>Sauzer: Rebelles...[0xfc][0x10]
+cette guerre aura été bien longue.[end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6f</ref>
         </refs>
-        <data>Mais elle ne durera pas davantage.
-Elle prend fin ici même ![end1][end]</data>
+        <data>Mais tout cela prend fin ici.[end1][end]</data>
     </text>
     <text>
         <refs>
@@ -63,21 +72,21 @@ Elle prend fin ici même ![end1][end]</data>
         <refs>
             <ref>0x77</ref>
         </refs>
-        <data>Je dois vous arrêter.[0xfc][0x12] Car c'est moi qui
-accomplirai la légende !![end1][end]</data>
+        <data>Je dois vous arrêter.[0xfc][0x12] La légende,
+c'est moi qui la ferai naître !![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7e</ref>
         </refs>
-        <data>PALPALEOS: ...Elle n'est pas là ?[0xfc][0x10]
+        <data>Palparos: ...Elle n'est pas là ?[0xfc][0x10]
 [character][0x1]......[end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x84</ref>
         </refs>
-        <data>SAUZER: ...Princesse [character][0x1]...[0xfc][0x10]
+        <data>Sauzer: ...Princesse [character][0x1]...[0xfc][0x10]
 Quelle ironie...[end1][end]</data>
     </text>
     <text>
@@ -91,30 +100,29 @@ du même mal...[end1][end]</data>
         <refs>
             <ref>0x8c</ref>
         </refs>
-        <data>Pourtant, je suis le seul à pouvoir vaincre
-les pensées menaçantes des Dragons
-Sacrés...[end1][end]</data>
+        <data>La guerre des Dragons Sacrés...
+Moi seul peux la gagner...[end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x97</ref>
         </refs>
-        <data>MATELIGHT: Préparez-vous à attaquer !![end1][end]</data>
+        <data>Matelite: Au combat !![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa2</ref>
         </refs>
-        <data>SENDACK: Il y aura parfois des
-tempêtes de sable,[0xfc][0x18] il faut donc
-les surveiller.[end1][end]</data>
+        <data>Sendak: Il y a parfois des
+tempêtes de sable,[0xfc][0x18] il faut
+faire attention.[end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa6</ref>
         </refs>
         <data>Et bien sûr, il faut aussi se méfier
-de Sauzer et de Palpaleos.[end1][end]</data>
+de Sauzer et de Palparos.[end1][end]</data>
     </text>
     <text>
         <refs>
@@ -127,21 +135,21 @@ de Sauzer et de Palpaleos.[end1][end]</data>
         <refs>
             <ref>0x116</ref>
         </refs>
-        <data>MATELIGHT: Nous avons vaincu Sauzer...[0xfc][0x20][end1][end]</data>
+        <data>Matelite: Nous avons vaincu Sauzer...[0xfc][0x20][end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x121</ref>
         </refs>
-        <data>COMMANDANT: Sire Matelight !![0xfc][0x18]
-Nous sommes victorieux !![end1][end]</data>
+        <data>Taicho: Messire Matelite !![0xfc][0x18]
+Nous avons gagné, affirmatif !![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x129</ref>
         </refs>
-        <data>Bien, allons vers cette ville.[0xfc][0x18]
-Il faut trouver le Dragon Sacré de
-la Princesse [character][0x1].[end1][end]</data>
+        <data>Allons dans cette ville.[0xfc][0x18]
+Pour la Princesse [character][0x1], il faut
+trouver le Dragon Sacré.[end1][end]</data>
     </text>
 </texts>

@@ -1,292 +1,236 @@
 <?xml version="1.0" standalone="yes"?>
 <texts base="0x601" room_id="50">
-    <text>
+    <text align="center">
         <refs>
             <ref>0x566</ref>
         </refs>
-        <data>         Tout est fermé[0xd8]
+        <data>Inutile d'essayer d'ouvrir !!
  
-      Gudruff,Empereur du mal,
-    Nouvel Empereur de l'Empire.[end]</data>
+Signé : Gudolf, souverain du Mal
+et nouvel empereur[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x332</ref>
         </refs>
-        <data>BIKKEBAKKE:
-Des champignons ?![end]</data>
+        <data>Bikebake: Tiens... !! Mange,mange !! Mes champignons dégoûtants !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x21f</ref>
         </refs>
-        <data>... ... ... ...[end]</data>
+        <data>...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x30c</ref>
         </refs>
-        <data>SENDACK:
-Excuse-moi... excuse-moi...
-Je feins la maladie mais...
-Je crains le Dragon Sacré...
-Je crains le combat...
-Je ne suis qu'un homme faible.[end]</data>
+        <data>Sendak: Pardon,pardon... J'ai fait semblant d'être malade... Parce que j'ai peur des Dragons Sacrés... Parce que j'ai peur de me battre... Je ne suis qu'un vieux faible,après tout...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x31d</ref>
         </refs>
-        <data>RUSH:
-Cette intense puissance serait la
-colère du Dragon Sacré ?![end]</data>
+        <data>Rush: La colère des Dragons Sacrés... Même moi,je la sens...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x327</ref>
         </refs>
-        <data>TAURUS:
-Capitaine [character][0x0],
-je me sens si lourd...
-Le Dragon Sacré est dans une telle
-furie ![end]</data>
+        <data>Truth: Je n'en peux plus,capitaine ! Le Dragon Sacré déverse sa colère sur nous...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x587</ref>
         </refs>
-        <data>PALPALEOS:
-Gudruff !
-Quel est ce lieu ?
-Et l'Empereur Sauzer ?[end]</data>
+        <data>Palparos: Gudolf... !! Où est-il ? Où est l'Empereur Sauzer... ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x59e</ref>
         </refs>
-        <data>GUDRUFF:
-L'Empereur Sauzer... ?
-Il est terriblement déçu...[end]</data>
+        <data>Gudolf: L'Empereur Sauzer... ? C'est bien regrettable...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5ad</ref>
         </refs>
-        <data>Gufufufufu[0xd8]
-En effet,il doit supporter la dure
-trahison de Palpaleos !
-Avant que je ne le contrôle,
-ses derniers mots furent...
+        <data>Gufufufu... !! La trahison de messire Palparos l'a durement touché,on dirait !! À la fin,il m'a serré la main et m'a dit ceci...
  
-[0xaa]Ne pardonne pas à Palpaleos sa
- trahison ![0xab]
-Assumez Général...
-Gufufufufu[0xd8][end]</data>
+``Quoi qu'il arrive,ne pardonne pas au traître Palparos !!''
+ 
+Voilà... Gufufufu !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5bc</ref>
         </refs>
-        <data>PALPALEOS:
-C'est ridicule[0xd8]
-Pourquoi... Sauzer... ?[end]</data>
+        <data>Palparos: Impossible... !! Pourquoi... Sauzer...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5d7</ref>
         </refs>
-        <data>GUDRUFF:
-Pourquoi... ?
-Tu devrais le lui demander...
-Je vois aussi que vous êtes tous là !
-Alors vous mourrez tous !
+        <data>Gudolf: Pourquoi... ? Demande-le-lui toi-même... Allez donc tous le lui demander !! Maintenant,mourez !!
  
-Gufufu,vous tomberez dans le ciel avec
-ce Dragon Sacré cauchemardesque !
-Adieu ![end]</data>
+Gufufufu... Sombrez dans le ciel avec le Dragon Sacré du cauchemar !! Bye bye !![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x249</ref>
         </refs>
-        <data>Valitra...
+        <data>Vritra...
  
-  
 Léviathan...
  
-  
 Garuda...
  
-  
 Jormungand...
  
-  
-Vous êtes tous là !
-Ainsi,l'heure de la revanche est
-arrivée.[end]</data>
+...Vous voilà donc tous réunis... L'heure de la vengeance est venue...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x27c</ref>
         </refs>
-        <data>Je suis le Dragon Sacré Hypérion...
-Tu dois être la fille au coeur faible...
+        <data>Je suis le Dragon Sacré Hypérion... Fille au cœur faible...
+ 
 Viens seule...
-Tu es la seule à pouvoir apaiser notre
-colère...[end]</data>
+ 
+Toi,tu pourras... apaiser notre colère...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x37a</ref>
         </refs>
-        <data>Palpaleos,
-je ne pourrais peut-être plus être
-avec toi mais tu as des personnes
-comme Matelight et Commandant à tes
-côtés.
+        <data>Palparos...
+j'aurais tant voulu rester
+à tes côtés pour toujours...
  
-Sendack,
-ne fais pas l'impossible !
-Ne va pas trop vite !
-Prends un peu de repos !
-Tout le monde t'aime.
+Matelite...
+entends-toi bien avec Taicho...
  
-[character][0x0],
-n'oublie pas de nourrir les dragons.[end]</data>
+Sendak...
+ne te surmène pas...
+repose-toi bien...
+Et vous tous...
+portez-vous bien...
+ 
+Byuu...
+n'oublie pas de nourrir les dragons...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2ce</ref>
         </refs>
-        <data>MATELIGHT:
-Qu'il revienne[0xd8]
-Il paiera[0xd8][end]</data>
+        <data>Matelite: Ça ne s'ouvre pas !! Que faire !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2e3</ref>
         </refs>
-        <data>COMMANDANT:
-Tout est fermé[0xd8][end]</data>
+        <data>Taicho: Nous sommes enfermés,affirmatif !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2ed</ref>
         </refs>
-        <data>COMMANDANT:
-Ma moustache me le dit[0xd8]
-Est-ce ça la colère des Dragons
-Sacrés ?
-C'est si pénible[0xd8][end]</data>
+        <data>Taicho: Ma moustache se hérisse !! C'est donc ça,la colère des Dragons Sacrés... J'étouffe,affirmatif... !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2d8</ref>
         </refs>
-        <data>MATELIGHT:
-[character][0x0],que se passe-t-il ?
-Toi,tu peux...
-Oh,ma tête ![end]</data>
+        <data>Matelite: Byuu... fais quelque chose... Et moi qui ai mal à la tête dans un moment pareil ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2b6</ref>
         </refs>
-        <data>PALPALEOS:
-Je ne le crois pas...
+        <data>Palparos: Tout le monde s'en va...
  
-Rien n'est vrai...
-Moi... un lâche... ?!
+Tout... se perd...
  
-Ce serait plutôt à moi de lui dire ça.[end]</data>
+Puis-je encore y changer quelque chose...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2c3</ref>
         </refs>
-        <data>PALPALEOS:
-[character][0x1]...[end]</data>
+        <data>Palparos: [character][0x1]...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x41d</ref>
         </refs>
-        <data>Je crois avoir compris.
-Je suis la fille au coeur faible.
+        <data>Je le sais... Je suis le cœur faible...
  
-Je ne parviens pas à résister aux
-sentiments et souvenirs des Dragons
-Sacrés.[end]</data>
+Je ne peux pas porter ce que vous ressentez,vous,les Dragons Sacrés...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x4d6</ref>
         </refs>
-        <data>La fille au coeur faible,
-tu connais le vrai sens de la Légende.
-  
-Amène les Dragons Sacrés vers une Ère
-de paix.
+        <data>Ô vous, cœurs fragiles...
+vous qui connaissez la vérité
+de la légende...
  
-La Dragoon...
-la personne qui contrôle les Dragons
-Sacrés...
-La Nouvelle Ère t'attend...
-Fais revivre la mémoire du ciel,
-l'Ère des Dragons Sacrés.
-Cette Ère arrivera bientôt.[end]</data>
+Guidez-nous...
+nous, les Dragons Sacrés...
+vers la terre du repos...
+ 
+Dragonnière...
+toi qui guides les Dragons Sacrés...
+ 
+La Nouvelle Ère vous y attend...
+ 
+Le souvenir du ciel renaît...
+l'ère des Dragons Sacrés...
+ 
+Une fois encore... vers ces temps-là...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x441</ref>
         </refs>
-        <data>Princesse [character][0x1]!
-Je ne peux aller plus loin.
+        <data>Princesse Yoyo !! Allons...
  
-Vous n'êtes pas la seule personne au
-coeur faible.
-J'ai le coeur craintif...[end]</data>
+Ne perdez pas courage... Vous n'êtes plus seule...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x46d</ref>
         </refs>
-        <data>SAUZER:
-Venez par ici,je vous en prie.[end]</data>
+        <data>Sauzer: Allons... Venez... par ici.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x48d</ref>
         </refs>
-        <data>SAUZER:
-Je connais la colère et la peine des
-Dragons Sacrés.
-Je vais vous donner le coeur et la
-mémoire d'Hypérion !
+        <data>Sauzer: La colère des Dragons Sacrés...
  
-Princesse [character][0x1],
-sauvez le Ciel d'Orelus.[end]</data>
+Cette colère... c'est à moi de l'endurer...
+ 
+Arrachez-moi le cœur d'Hypérion...
+ 
+Princesse Yoyo... je vous confie le ciel d'Orelus.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x537</ref>
         </refs>
-        <data>SAUZER:
-Palpaleos,j'aimerais que...
-tu m'amènes voir le ciel...[end]</data>
+        <data>Sauzer: Palparos... Emmène-moi... ainsi... vers le ciel...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x531</ref>
         </refs>
-        <data>PALPALEOS:
-Sauzer[0xd8][end]</data>
+        <data>Palparos: Sauzer !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x540</ref>
         </refs>
-        <data>PALPALEOS:
-Je vous emmène à FARENHEIT...[end]</data>
+        <data>Palparos: Sauzer... je ne te laisserai pas seul... Je t'emmène sur Fareneit...[end]</data>
     </text>
 </texts>

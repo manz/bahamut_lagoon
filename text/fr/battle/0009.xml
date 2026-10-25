@@ -4,41 +4,40 @@
         <refs>
             <ref>0x28</ref>
         </refs>
-        <data>RESTATTO: Hihihi !![0xfc][0x18]
-Alors c'est vous, la fameuse Résistance
-dont on m'a tant parlé.[end1][end]</data>
+        <data>Lestat: Hihihihihihihihihi !![0xfc][0x18]
+Alors c'est vous, les Rebelles.[end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x33</ref>
         </refs>
-        <data>COMMANDANT: Restatto ![0xfc][0x18] Enfin, nous nous rencontrons ![end1][end]</data>
+        <data>Taicho: Lestat ![0xfc][0x18] Te voilà enfin, affirmatif ![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x37</ref>
         </refs>
-        <data>La rancune de ceux que tu as tués...[0xfc][0x28]
-Tu vas y goûter à ton tour !![end1][end]</data>
+        <data>Ceux que tu as tués...[0xfc][0x28]
+Je vais les venger, affirmatif !![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3e</ref>
         </refs>
         <data>``Condition de victoire :''[0xfc][0x28]
-``Vaincre Restatto''[end]</data>
+``Vaincre Lestat''[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfb</ref>
         </refs>
-        <data>RESTATTO: Tâchez de rester à flot, la force
-de l'eau pourrait vous noyer ![end1][end]</data>
+        <data>Lestat: Ne vous laissez pas emporter,
+l'eau va vite se retirer ![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x10c</ref>
         </refs>
-        <data>SOLDAT DE GRANBELOS: À L'AIIIIIIDE.....[end][end]</data>
+        <data>Soldat de Granbelos: Au secouuuurs~[end][end]</data>
     </text>
 </texts>

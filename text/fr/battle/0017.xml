@@ -4,22 +4,22 @@
         <refs>
             <ref>0x3f</ref>
         </refs>
-        <data>COMMANDANT: Ce sont des créatures que je
-n'ai jamais vues !![end1][end]</data>
+        <data>Taicho: Je n'ai jamais vu ces créatures,
+affirmatif !![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x32</ref>
         </refs>
-        <data>MATELIGHT: Que sont ces monstres,
-bon sang ?![0xfc][0x15] Ils sont sortis d'un trou
-dans le ciel !![end1][end]</data>
+        <data>Matelite: Qu'est-ce que c'est ?![0xfc][0x15]
+Des ennemis sortis du ciel !![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x43</ref>
         </refs>
-        <data>Ce ne sont pas des monstres d'Orelus ![end1][end]</data>
+        <data>Ce ne sont pas des monstres d'Orelus,
+affirmatif ![end1][end]</data>
     </text>
     <text>
         <refs>
@@ -32,21 +32,21 @@ Les Dragons Sacrés sont troublés eux aussi...[end1][end]</data>
         <refs>
             <ref>0x57</ref>
         </refs>
-        <data>Que sont-ils ?[0xfc][0x10] Je n'ai jamais vu de
-tels monstres...[0xfc][0x20][end1][end]</data>
+        <data>Que sont ces ennemis ?[0xfc][0x10]
+...Je l'ignore.[0xfc][0x20][end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x64</ref>
         </refs>
-        <data>SENDACK: Prudence, [0xfc][0x10][character][0x0].[0xfc][0x20]
-J'ignore ce qu'ils sont...[end1][end]</data>
+        <data>Sendak: Prudence, [0xfc][0x10][character][0x0].[0xfc][0x20]
+Moi, je ne sais pas ce qu'ils sont...[end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6b</ref>
         </refs>
-        <data>Au nom de Kana, que sont-ils ?[end1][end]</data>
+        <data>Mais que sont donc ces ennemis... ?[end1][end]</data>
     </text>
     <text>
         <refs>
@@ -59,7 +59,7 @@ J'ignore ce qu'ils sont...[end1][end]</data>
         <refs>
             <ref>0xab</ref>
         </refs>
-        <data>MATELIGHT: Regardez !![end1][end]</data>
+        <data>Matelite: Regardez !![end1][end]</data>
     </text>
     <text>
         <refs>

@@ -1,5 +1,6 @@
 import os
 import re
+import xml.etree.ElementTree as ET
 from unittest.case import TestCase
 
 from utils.dialog_layout import (
@@ -8,6 +9,7 @@ from utils.dialog_layout import (
     NAME_LETTERS,
     RENAMEABLE,
     DialogLayout,
+    alignment,
     default_layout,
     script_overflows,
     typeset,
@@ -40,6 +42,9 @@ class DialogLayoutTestCase(TestCase):
     def test_every_party_name_takes_the_worst_case(self) -> None:
         widths = {self.layout.width(f"[character][{index:#x}]") for index in range(RENAMEABLE)}
         self.assertEqual(len(widths), 1)
+
+    def test_a_party_name_written_out_measures_as_its_reference(self) -> None:
+        self.assertEqual(self.layout.width("Salamand"), self.layout.width("[character][0x2]"))
 
     def test_terminators_take_no_width(self) -> None:
         self.assertEqual(self.layout.width("Salut ![end]"), self.layout.width("Salut !"))
@@ -133,6 +138,35 @@ class DialogLayoutTestCase(TestCase):
     def test_a_choice_prompt_keeps_its_lines(self) -> None:
         prompt = "Que fais-tu ?\nAttaquer\nFuir[end]"
         self.assertEqual(self.layout.reflow(prompt, keep_lines=True), prompt)
+
+    def test_a_centred_line_sits_mid_window(self) -> None:
+        line = self.layout.reflow("Prologue[0xfc][0x40][end1]", align="center").removesuffix("[0xfc][0x40][end1]")
+        left = self.layout.width(line[: len(line) - len(line.lstrip(" "))])
+        right = LINE_WIDTH - left - self.layout.width("Prologue")
+        self.assertLessEqual(abs(left - right), self.layout.width(" "))
+
+    def test_a_centred_text_keeps_its_lines(self) -> None:
+        self.assertEqual(self.layout.reflow("Un\nDeux[end]", align="center").count("\n"), 1)
+
+    def test_a_centred_line_too_wide_is_wrapped(self) -> None:
+        laid_out = self.layout.reflow(LONG_LINE, align="center")
+        self.assertTrue(all(self.layout.width(line) <= LINE_WIDTH for line in laid_out.split("\n")))
+
+    def test_a_windowless_text_is_centred(self) -> None:
+        self.assertEqual(alignment(ET.fromstring('<text window="none"/>')), "center")
+
+    def test_align_left_overrides_a_windowless_text(self) -> None:
+        self.assertEqual(alignment(ET.fromstring('<text window="none" align="left"/>')), "left")
+
+    def test_a_stepped_block_steps_each_line_in(self) -> None:
+        self.assertEqual(self.layout.reflow("Un\nDeux\nTrois[end1]", align="steps"), "Un\n  Deux\n    Trois[end1]")
+
+    def test_a_blank_line_starts_the_steps_over(self) -> None:
+        self.assertEqual(self.layout.reflow("Un\nDeux\n \nTrois[end]", align="steps"), "Un\n  Deux\n \nTrois[end]")
+
+    def test_a_choice_option_is_set_two_spaces_in(self) -> None:
+        prompt = "Que fais-tu ?\n Attaquer\n   Fuir[end]"
+        self.assertEqual(self.layout.reflow(prompt, keep_lines=True), "Que fais-tu ?\n  Attaquer\n  Fuir[end]")
 
     def test_a_wrapped_line_fills_two_thirds_of_the_window(self) -> None:
         first = self.layout.reflow("Bikkebakke: Veux-tu connaître les noms les plus populaires ?[end]").split("\n")[0]

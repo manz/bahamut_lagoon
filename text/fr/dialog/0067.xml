@@ -4,213 +4,176 @@
         <refs>
             <ref>0x144</ref>
         </refs>
-        <data>FREDERIKA:
-Je me demande si [character][0x0] arrive.[end]</data>
+        <data>Frederica: Dites, Byuu et les autres... ils n'arrivent toujours pas ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x152</ref>
         </refs>
-        <data>HORNET:
-Désolé de vous avoir fait attendre !
-Notre chef va bientôt arriver !
-Il accompagne Sendack,le Capitaine de
-ce vaisseau,qui est assez vieux ![end]</data>
+        <data>Hornet: On dirait que vous nous attendiez avec impatience !!
+ 
+Votre chef nous a bien suivis.
+ 
+Le vieux capitaine Sendak est avec nous aussi.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x15d</ref>
         </refs>
-        <data>DIANA:
-[character][0x0] arrive ![end]</data>
+        <data>Diana: Byuu est arrivé !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x315</ref>
         </refs>
-        <data>FREDERIKA:
-Bienvenue [character][0x0]![end]</data>
+        <data>Frederica: Byuu !! Je vous attendais ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x327</ref>
         </refs>
-        <data>DIANA:
-Tu es en retard !
-Nous nous inquiétions ![end]</data>
+        <data>Diana: Tu étais en retard, je me suis inquiétée.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x33d</ref>
         </refs>
-        <data>HORNET:
-Parlez un peu du passé ensemble !
+        <data>Hornet: Les récits de voyage, ce sera pour plus tard !
  
-Après cela,le voyage vers le combat
-commence ![end]</data>
+Notre vraie campagne ne fait que commencer.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x34a</ref>
         </refs>
-        <data>HORNET:
-Capitaine du vaisseau,Sendack !
-Donnez-nous le signal ![end]</data>
+        <data>Hornet: Allez, capitaine Sendak !! Donnez le signal du départ !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x363</ref>
         </refs>
-        <data>HORNET:
-En route !
-Nous n'avons rien oublié ?!
-Le nouveau nom du bateau a été
-choisi ?[end]</data>
+        <data>Hornet: Ah, c'est vrai !! J'allais oublier !! Vous avez bien choisi le nouveau nom du navire, j'espère.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3c0</ref>
         </refs>
-        <data>MATELIGHT:
-Comment osent-ils nous bloquer ?![end]</data>
+        <data>Matelite: Attendez !! Comment osez-vous m'oublier !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3f5</ref>
         </refs>
-        <data>COMMANDANT:
-Matelight !
-Arrêtez ![end]</data>
+        <data>Taicho: Matelite !! Attendez-moi, affirmatiiif !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x375</ref>
         </refs>
-        <data>SENDACK:
-Le nom du bateau est...[end]</data>
+        <data>Sendak: Le nom du navire... c'est...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x403</ref>
         </refs>
-        <data>HORNET:
-Oh !
+        <data>Hornet: Hé !!
  
-Vous êtes dans mon vaisseau,
-alors soyez calme ![end]</data>
+Sur ce navire, je vous prierai de rester tranquilles !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x41d</ref>
         </refs>
-        <data>MATELIGHT:
-Comment osent-ils ?!
-Je suis Matelight tout de même ![end]</data>
+        <data>Matelite: Pour qui me prends-tu !!
+ 
+Je suis Matelite !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4b5</ref>
         </refs>
-        <data>HORNET:
-Allez-y,Sendack !
-Annoncez le nom de ce bateau ![end]</data>
+        <data>Hornet: Allez, capitaine Sendak. Annoncez-nous le nom du navire.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4c7</ref>
         </refs>
-        <data>SENDACK:
-Hum hum !
-Soyez attentifs...[end]</data>
+        <data>Sendak: Ahem !
+ 
+Kof, kof !!
+ 
+Bon, reprenons...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4fa</ref>
         </refs>
-        <data>La fierté de Kana se nommera
-FARENHEIT ![end]</data>
+        <data>Navire amiral de Kana, le Fareneit !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x553</ref>
         </refs>
-        <data>COMMANDANT:
-La fierté de Kana ?!
-C'est cela ![end]</data>
+        <data>Taicho: Le navire amiral de Kana !? Il manque quelque chose, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x578</ref>
         </refs>
-        <data>MATELIGHT:
-Co... Commandant...
+        <data>Matelite: Ta... Taicho...
  
-Je... je te le demande...[end]</data>
+Ce... ceci, je te le confie...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x581</ref>
         </refs>
-        <data>COMMANDANT:
-Tu veux que je fasse ça,
-Matelight ![end]</data>
+        <data>Taicho: Mais... c'est... Matelite !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x587</ref>
         </refs>
-        <data>COMMANDANT:
-Matelight,c'est à toi de le faire !
-Ce sont tes souvenirs !
-D'accord,je vais le faire ![end]</data>
+        <data>Taicho: Matelite, je ne vous décevrai pas !! J'y vais, affirmatif !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6ce</ref>
         </refs>
-        <data>COMMANDANT:
-Matelight !
-Regardez ![end]</data>
+        <data>Taicho: Matelite !! Regardez, affirmatiiif !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6e5</ref>
         </refs>
-        <data>Hoho !
-Le Drapeau National de Kana ![end]</data>
+        <data>Oh !! Le drapeau de Kana !![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x717</ref>
         </refs>
-        <data>MATELIGHT:
-Notre Patrie Kana...
-La Princesse [character][0x1]...
-Sendack,ce vieux magicien !
-[character][0x0]!
+        <data>Matelite: Kana, ma patrie...
  
-Lorsque la paix sera de retour,
-de nombreux autres drapeaux pourront
-s'élever !
-COMMANDANT !
+Princesse Yoyo...
  
-  
-Ta contrée,ton lagon Mahal,va bientôt
-pouvoir brandir de nouveau son
-drapeau !
-Patiente encore le temps de quelques
-batailles !
+Maître Sendak ! Byuu !!
  
-Celle pour ta patrie arrivera bien
-assez tôt !
+Un jour... nous hisserons beaucoup, beaucoup d'autres drapeaux !!
  
-Je suis le puissant Matelight ![end]</data>
+Taicho !!
+ 
+Le jour viendra, à coup sûr, où nous hisserons aussi le drapeau sur Mahal, ta patrie !!
+ 
+C'est pour ce jour que nous combattons !!
+ 
+Le combat... ne fait que commencer !!
+ 
+Je suis Matelite !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5f9</ref>
         </refs>
-        <data>COMMANDANT:
-Allons-y ![end]</data>
+        <data>Taicho: J'y vais, affirmatif !![end]</data>
     </text>
 </texts>

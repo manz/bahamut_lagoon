@@ -27,7 +27,7 @@ from katsuji.typeset import FRENCH, Markup
 from katsuji.typeset import typeset as katsuji_typeset
 from katsuji.wrap import Controls, Wrapper
 
-from utils.name_tables import read_names
+from utils.name_tables import read_names, referenced_names
 
 KATSUJI_CONFIG = Path("katsuji.toml")
 TABLE = Path("text/table/mz.tbl")
@@ -43,6 +43,12 @@ CHARACTER = re.compile(r"\[character\]\[0x([0-9a-fA-F]+)\]")
 TERMINATORS = re.compile(r"\[end1?\]")
 SPEAKER_LABEL = re.compile(r"[^ ].*:")  # "Yoyo:" or "[character][0x1]:" alone on its line
 HEADING = re.compile(r"-[^ ].*-")  # "-Aller-": a heading the following lines explain
+OPTION = re.compile(r"^ +(?=\S)", re.MULTILINE)  # a choice's option: its line opens on a space
+OPTION_INDENT = "  "  # two spaces, 10 pixels: the options stand clear of the cursor
+TRAILING_TAGS = re.compile(r"(.*?)((?:\[[^\]]*\])*)", re.DOTALL)  # a line's words, then the tags closing it
+LEFT, CENTER, STEPS = "left", "center", "steps"  # a <text>'s align: as reflowed, centred, or stepped like stairs
+STEP = "  "  # 10 pixels: how much further in each line of a stepped block starts
+CENTRE_MARK = "  "  # katsuji centres a line set two spaces in
 LIST_ITEM = re.compile(r"(\d+|\[0x(af|b[0-8])\])+ ?[-.)]")  # "1- ", "[0xb0]- ": an item, a line of its own
 MARKUP = Markup(
     tag=r"\[character\]\[0x[0-9a-f]+\]|\[[^\]]*\]",  # a name, a glyph ([0xd8]) or a control ([end])
@@ -79,6 +85,11 @@ class DialogLayout:
         self.table = table
         self.wrapper = Wrapper([font], Controls(space=SPACE, newline=NEWLINE))
         self.names = [table.to_bytes(name.replace(" ", r"\s"))[:NAME_CODES] for name in names]
+        written = sorted(referenced_names(names).items(), key=lambda entry: -len(entry[1]))
+        self.written_names = {name: index for index, name in written}  # the build encodes these as their reference
+        self.name_pattern = re.compile(
+            "|".join([CHARACTER.pattern, *(f"(?P<w{index}>{re.escape(name)})" for index, name in written)])
+        )
         self.default_names = list(self.names)
         widest = max(NAME_LETTERS, key=lambda letter: self.wrapper.measure(table.to_bytes(letter)))
         self.names[:RENAMEABLE] = [table.to_bytes(widest * NAME_CODES)] * RENAMEABLE
@@ -93,6 +104,7 @@ class DialogLayout:
             items=LIST_ITEM.pattern,
             placed_measure=self.default_width,
             min_balanced_width=line_width * 2 // 3,
+            blank_ends_window=True,  # pages turn once a window is full (DA3E1A): a blank line ends its window
         )
 
     def encode(self, line: str, names: list[bytes] | None = None) -> bytes:
@@ -101,9 +113,10 @@ class DialogLayout:
         codes = b""
         position = 0
         line = TERMINATORS.sub("", line)
-        for match in CHARACTER.finditer(line):
+        for match in self.name_pattern.finditer(line):
             codes += self.table.to_bytes(line[position : match.start()].replace(" ", r"\s"))
-            codes += names[int(match[1], 16)]
+            index = int(match[1], 16) if match[1] else self.written_names[match[0]]
+            codes += names[index]
             position = match.end()
         return codes + self.table.to_bytes(line[position:].replace(" ", r"\s"))
 
@@ -114,16 +127,43 @@ class DialogLayout:
         """`line`'s width with every name at its default spelling: where it sits, not how wide it may grow."""
         return self.wrapper.measure(self.encode(line, self.default_names))
 
-    def reflow(self, text: str, page_lines: int | None = None, keep_lines: bool = False) -> str:
+    def reflow(self, text: str, page_lines: int | None = None, keep_lines: bool = False, align: str = LEFT) -> str:
         """`text` typeset and laid out to the window (katsuji's TextLayout: paragraphs reflowed by sentences, lines
-        placed, blocks kept within a window of `page_lines`). A text ending in [end1] (a choice follows it), or given
-        `keep_lines` (a choice's prompt, its options a line each), is typeset only."""
-        if keep_lines or text.endswith("[end1]"):
+        placed, blocks kept within a window of `page_lines`). Given `keep_lines` (a choice's prompt, its options a line
+        each, set OPTION_INDENT in), or ending in [end1] (a choice follows it), it is typeset only; aligned CENTER, each
+        line is centred, and aligned STEPS, each line of a block is set a STEP further in than the one before."""
+        if keep_lines:
+            return typeset(OPTION.sub(OPTION_INDENT, text))
+        if align == CENTER:
+            return self.centred(text)
+        if align == STEPS:
+            return stepped(text)
+        if text.endswith("[end1]"):
             return typeset(text)
         return self.layout.reflow(text, page_lines)
 
+    def centred(self, text: str) -> str:
+        """`text` typeset with its lines as written, each centred on its words (the waits and terminators closing it
+        take no room); a line that would cross the window once its names grow is wrapped first, and a piece still too wide
+        is set at the left."""
+        lines: list[str] = []
+        for line in typeset(text).split("\n"):
+            words, tags = TRAILING_TAGS.fullmatch(line).groups()  # type: ignore[union-attr]
+            words = words.strip(" ")
+            if not words:
+                lines.append(line)
+                continue
+            pieces = self.layout.reflow(words).split("\n") if not self.fits_centred(words) else [words]
+            lines += [self.centre(CENTRE_MARK + piece) if self.fits_centred(piece) else piece for piece in pieces]
+            lines[-1] += tags
+        return "\n".join(lines)
+
     def place(self, line: str) -> str:
         return self.layout.place(line)
+
+    def fits_centred(self, line: str) -> bool:
+        """Whether `line`, centred at its default width, stays in the window with its names at their widest."""
+        return 2 * self.width(line) <= self.line_width + self.default_width(line)
 
     def centre(self, line: str) -> str:
         return self.layout.centre(line)
@@ -136,12 +176,37 @@ def default_layout() -> DialogLayout:
     return DialogLayout(Table(str(TABLE)), dialog_font(), read_names(NAMES))
 
 
+def stepped(text: str) -> str:
+    """`text` typeset with its lines as written, each line of a block a STEP further in than the one before: the
+    epilogue's staircase. A blank line starts the next block at the left."""
+    lines: list[str] = []
+    step = 0
+    for line in typeset(text).split("\n"):
+        words = line.strip(" ")
+        if TERMINATORS.sub("", words):
+            lines.append(STEP * step + words)
+            step += 1
+        else:
+            lines.append(line)
+            step = 0
+    return "\n".join(lines)
+
+
+def alignment(text: ET.Element) -> str:
+    """How the build sets `text`'s lines: its align attribute, else CENTER when the script shows it without a window,
+    else LEFT."""
+    return text.get("align", CENTER if text.get("window") == "none" else LEFT)
+
+
 def script_overflows(layout: DialogLayout, dialogs: Path = DIALOGS) -> Iterator[Overflow]:
     """Lines still wider than the window once reflowed: kept lines (cards, choices) and words too long to break."""
     for path in sorted(dialogs.glob("*.xml")):
         for text in ET.parse(path).getroot():
             refs = " ".join(ref.text or "" for ref in text.iter("ref"))
-            for line, width in layout.overflows(layout.reflow(text.findtext("data") or "")):
+            data = text.findtext("data") or ""
+            align = alignment(text)
+            laid_out = layout.reflow(data, keep_lines=data.endswith("[end1]") and align == LEFT, align=align)
+            for line, width in layout.overflows(laid_out):
                 yield Overflow(path.stem, refs, line, width)
 
 

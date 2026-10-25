@@ -1,121 +1,123 @@
 <?xml version="1.0" standalone="yes"?>
 <texts base="0x3dc" room_id="247">
-    <text>
+    <text window="none" align="steps">
         <refs>
             <ref>0xa0</ref>
         </refs>
-        <data> La Légende des Dragons Sacrés
- commence ici à défier les hommes
- et les femmes...[end1]</data>
+        <data>La légende des Dragons Sacrés...
+Tout a commencé avec un homme
+qui a osé la défier...[end1]</data>
     </text>
-    <text>
+    <text window="none" align="steps">
         <refs>
             <ref>0xc0</ref>
         </refs>
-        <data> Guerres et Trahisons:
- La Légende des Dragons Sacrés...[end1]</data>
+        <data>La guerre, la trahison,
+la légende des Dragons Sacrés...[end1]</data>
     </text>
-    <text>
+    <text window="none" align="steps">
         <refs>
             <ref>0x106</ref>
         </refs>
-        <data> Maintenant,la Porte de la Nouvelle
- Ère est ouverte...[end1]</data>
+        <data>Et puis s'est ouverte la porte
+d'une ère nouvelle, si je me
+souviens bien...[end1]</data>
     </text>
-    <text>
+    <text window="none" align="steps">
         <refs>
             <ref>0x144</ref>
         </refs>
-        <data> Quelle Nouvelle Ère ?
- Celle de la liberté ?
- Ou encore celle de la paix ?[end1]</data>
+        <data>...C'est quoi, une nouvelle ère ?
+...La liberté ?
+...Ou bien la paix ?[end1]</data>
     </text>
-    <text>
+    <text window="none" align="steps">
         <refs>
             <ref>0x182</ref>
         </refs>
-        <data> Nous verrons le lendemain,
- et nous en connaissons les raisons.[end1]</data>
+        <data>Nous qui ignorons tout de demain,
+comment pourrions-nous
+le savoir... mais...[end1]</data>
     </text>
-    <text>
+    <text window="none" align="steps">
         <refs>
             <ref>0x1da</ref>
         </refs>
-        <data> De plus,grâce à elle,j'ai moi-même
- découvert mes rêves et je ne vis
- plus que pour mes seuls souhaits...[end1]</data>
+        <data>...mais...[end1]</data>
     </text>
-    <text>
+    <text window="none" align="steps">
         <refs>
             <ref>0x1fa</ref>
         </refs>
-        <data> La chance est partout et peut arriver
- à chaque instant...[end1]</data>
+        <data>Les rêves, il faut les trouver soi-même.
+L'espoir, il faut le saisir soi-même.
+Le bonheur ne vient pas tout seul.[end1]</data>
     </text>
-    <text>
+    <text window="none" align="steps">
         <refs>
             <ref>0x23e</ref>
         </refs>
-        <data> Les choses approximatives ne servent
- à rien d'être un jour chantées...[end1]</data>
+        <data>Hé hé... Il ne faut pas pleurer
+juste parce qu'on a un peu
+faim, hein...[end1]</data>
     </text>
-    <text>
+    <text window="none" align="steps">
         <refs>
             <ref>0x25e</ref>
         </refs>
-        <data> -Vivre- est la seule vérité qui
- cependant peut varier terriblement...[end1]</data>
+        <data>``Vivre'', en fait,
+c'est drôlement
+difficile.[end1]</data>
     </text>
-    <text>
+    <text window="none" align="steps">
         <refs>
             <ref>0x27e</ref>
         </refs>
-        <data> Il faut faire attention à tout les
- aléas de la vie qui peuvent tout
- changer...[end1]</data>
+        <data>...Ça, je crois que je l'ai
+compris, un tout petit peu...[end1]</data>
     </text>
-    <text>
+    <text window="none" align="steps">
         <refs>
             <ref>0x2c3</ref>
         </refs>
-        <data> Je me souviens...[end1]</data>
+        <data>...Ah oui, au fait.[end1]</data>
     </text>
-    <text>
+    <text window="none" align="steps">
         <refs>
             <ref>0x2e3</ref>
         </refs>
-        <data> Le Dragon Bahamut partit pour les
- terres d'Orelus et refusa de revenir
- à Altair...[end1]</data>
+        <data>Le Dragon Sacré Bahamut refusa
+de rentrer à Altair et resta
+sur les terres d'Orelus...[end1]</data>
     </text>
-    <text>
+    <text window="none" align="steps">
         <refs>
             <ref>0x303</ref>
         </refs>
-        <data> Des conflits éclatèrent alors au sein
- d'Orelus et nous,habitants de ce
- monde avons dû le sauver...[end1]</data>
+        <data>Pour que la guerre ne revienne
+jamais sur Orelus...
+pour être notre dragon gardien...[end1]</data>
     </text>
-    <text>
+    <text window="none" align="steps">
         <refs>
             <ref>0x341</ref>
         </refs>
-        <data> Aujourd'hui,nous avons l'honneur et
- la joie de pouvoir voir le temps
- s'écouler tel un ruisseau...[end1]</data>
+        <data>...Depuis,
+combien de temps
+s'est-il écoulé...[end1]</data>
     </text>
-    <text>
+    <text window="none" align="steps">
         <refs>
             <ref>0x37f</ref>
         </refs>
-        <data> Et inconsciemment,
- le monde entier en vint à surnommer
- ce monde...[end1]</data>
+        <data>...Et peu à peu,
+on s'est mis à appeler
+ce monde ainsi...[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x3c4</ref>
         </refs>
-        <data> -BAHAMUT LAGOON-[end1]</data>
+        <data>-BAHAMUT LAGOON-[end1]</data>
     </text>
 </texts>

@@ -1,283 +1,194 @@
 <?xml version="1.0" standalone="yes"?>
 <texts base="0x390" room_id="209">
-    <text>
+    <text window="none">
         <refs>
             <ref>0x1f7</ref>
         </refs>
-        <data>EKATERINA:
-Est-ce que quelqu'un pourrait me
-servir un Vin Doux ?
-Hihihi...
-Je vois une fille comme moi dans le
-miroir...[end]</data>
+        <data>Ekaterina: Le vin doux qu'il buvait... Hihi... Ce verre est à moi...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x20c</ref>
         </refs>
-        <data>EKATERINA:
-Hé là,quelqu'un peut me faire un
-cocktail spécial Uniuji ?
-Hihihi...
-Je vois une fille comme moi dans le
-miroir...[end]</data>
+        <data>Ekaterina: Le cocktail spécial à l'Uniasticot qu'il buvait... Hihi... Ce verre est à moi...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x210</ref>
             <ref>0x1fb</ref>
         </refs>
-        <data>Mais...
-Donne-moi mon verre...
+        <data>Mais... cette lettre...
  
-Pourquoi veux-tu... Hic...
-me le reprendre... ?[end]</data>
+Qui donc... parmi eux... ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x272</ref>
         </refs>
-        <data>FREDERIKA:
-Tout le monde sait que [character][0x1] est la
-fille au coeur faible.
-Je suis légèrement fatiguée...
-Tu pourrais me faire un petit massage,
-[character][0x0]?[end]</data>
+        <data>Frederica: Tout le monde ne s'inquiète que pour la princesse Yoyo... Vous êtes le seul à venir me voir, Byuu...
+ 
+Tant pis... moi... j'ai mes... mes m-médicaments...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2c8</ref>
         </refs>
-        <data>DIANA:
-Est-ce que tu le sais ?!
-Tu le sais ?![end]</data>
+        <data>Diana: Dis, dis... Tu sais quoi ?! Tu sais quoi ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2cc</ref>
         </refs>
         <data> Quoi ?
- Désolé... je suis occupé ![end1]</data>
+ Désolé... je suis occupé[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x2dc</ref>
         </refs>
-        <data>Dans la chambre de la princesse,j'ai
-entendu de tristes voix.
- 
-Je suis persuadé que c'étaient les
-Dragons Sacrés qui étaient en train
-de parler.[end]</data>
+        <data>Ces derniers temps... j'entends des gémissements dans la chambre de la princesse Yoyo. Qu'est-ce que ça peut bien être... Je me demande... si elle parle avec les Dragons Sacrés...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x34b</ref>
         </refs>
-        <data>OHOHOHO...
-Ils sont tous si marrants...
+        <data>Ohohoho... Bien dormir pour garder une peau de rêve.
  
-Moi et Don Juan ?!
-O-HOHOHOHOHO[0xd8]
-Je vais mourir de rire ![end]</data>
+Il me faut encore plus de fans.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x355</ref>
         </refs>
-        <data>Des Excréments !
-J'espère qu'il n'y en a plus dans ce
-bateau.
-O-HOHOHOHOHO... !
-Il faut que je me lève ![end]</data>
+        <data>Hmpf !! Sur ce bateau... il n'y a pas un seul bel homme ! Ohohohoho... !! Je n'ai même pas envie de me lever.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x221</ref>
         </refs>
-        <data>EKATERINA:
-Le ciel est un monde infini !
-Hihihihi... Hihi...
-Pas comme les gens du bateau !
-Hihihihi...[end]</data>
+        <data>Ekaterina: Le ciel se fend, c'est la fin du monde... Hihihihi... Hihi... Et moi, sur le même bateau que lui... Hihihihi.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1db</ref>
         </refs>
-        <data>ANASTASIA:
-[character][0x0],l'as-tu appris ?
+        <data>Anastasia: Byuu, tu sais quoi ?
  
-Bareck a dit que le Général Arbain
-a en sa possession une épée nommée
-Excalibur.
-Savais-tu que cette Epée était selon
-une légende celle d'un très grand
-chevalier ?
-Bareck,lui,aurait plus besoin d'une
-bonne hache.[end]</data>
+Barclay m'a dit que le Général Arbain de l'Empire possède Excalibur. C'est l'épée de légende que tout épéiste rêve de manier au moins une fois, non ?
+ 
+Barclay, lui, ne sait manier que la hache.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x318</ref>
         </refs>
-        <data>JEANNE:
-Haha... resservez-moi...
-resservez-moi...
-Do..n Ju...an !
-Ressers-moi ![end]</data>
+        <data>Jeanne: Ah~... à boire... à boire... Doooonfaaan !! Apporte-moi à boire~ !![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x323</ref>
         </refs>
-        <data>DON JUAN:
-Jeanne...
-Tu es si belle...[end]</data>
+        <data>Donfan: Jeanne~... C'est mauvais pour la santé~[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x25c</ref>
             <ref>0x2be</ref>
         </refs>
-        <data>DON JUAN:
-Qu'est-ce que ces manières ?[end]</data>
+        <data>Donfan: Laquelle choisir~ ? J'hésite~[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2b0</ref>
         </refs>
-        <data>JOY:
-Je suis certaine que Don Juan aurait
-grand besoin d'une herbe gel pour
-calmer ses ardeurs.[end]</data>
+        <data>Joy: Donfan... Tenez, voilà de l'Herbe de glace.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x24e</ref>
         </refs>
-        <data>NELBO:
-Si Don Juan ose faire un geste déplacé,
-il se mange un coup bien placé ![end]</data>
+        <data>Nerbo: Donfan... Tenez, mangez ce biscuit raté.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2e1</ref>
         </refs>
-        <data>As-tu entendu parler de l'armure
-dernier cri ?
+        <data>L'autre jour... Matelite est venu me voir...
  
-Elle se porte facilement et elle est
-très élégante.
+Il m'a demandé : ``Quelle armure est à la mode en ce moment ?''
  
-Que sera la prochaine mode ?
-Je ne le sais pas encore,
-la mode change si vite !
-J'aimerais tant la connaître à
-l'avance.
+J'ai répondu n'importe quoi. Alors il m'a demandé : ``Et quel bâton est à la mode ?'' Je lui ai dit : ``Il n'y a pas de bâtons à la mode !''
  
-Au fait,est-ce que tu connais la
-dernière mode des robes ?
- 
-D'après l'expression sur ton visage,
-ça ne t'intéresse pas !
- 
-Ce n'est pas ton passe-temps ?!
-Très bien,gentleman[0xd8][end]</data>
+Et là... il me demande, tout rouge : ``Et... et les r-robes à la mode ?'' Il a des goûts bizarres, ou quoi ? Ce vieux bonhomme !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x289</ref>
         </refs>
-        <data>FREDERIKA:
-Vas-y...
-Vas-y...
-Haha... [character][0x0]...
-J'en ai des frissons...
-Haha...
-Haha... c'est très bien[0xd8][end]</data>
+        <data>Frederica: Pourquoi... Pourquoi... Ah... Byuu... Je n'arrête pas de trembler. Ah... Ah... Mes... mes médicaments...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2ea</ref>
         </refs>
-        <data>Très bien.
-Va !
-Tu peux partir.[end]</data>
+        <data>Hmm... Je vois... C'est donc ça~[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x241</ref>
         </refs>
-        <data>DON JUAN:
-Une Sorcière ne ferait jamais cela ![end]</data>
+        <data>Donfan: Leçon du jour !! Ne jamais toucher à une magicienne ![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x2a3</ref>
         </refs>
-        <data>DON JUAN:
-Une Prêtresse ne ferait jamais cela ![end]</data>
+        <data>Donfan: Leçon du jour !! Ne jamais toucher à une prêtresse ![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x308</ref>
         </refs>
-        <data>DON JUAN:
-Je vis la vie à [0xb0][0xaf][0xaf] à l'heure ![end]</data>
+        <data>Donfan: La pire crise de ma vie~ !!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1d4</ref>
         </refs>
-        <data>ANASTASIA:
-[character][0x0],sais-tu ça ?
+        <data>Anastasia: Byuu, tu sais quoi ?
  
-Avec une bonne croissance,un dragon
-peut devenir un Dragon Maître.
+Quand un dragon grandit, il peut devenir ce qu'on appelle un Dragon Maître. Il paraît qu'il faut le faire grandir au maximum en tout.
  
-De toute manière,il semble que ce soit
-leur croissance maximum.
-Je crois que Bareck aime ça ![end]</data>
+C'est Barclay qui me l'a dit.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x236</ref>
         </refs>
-        <data>NELBO:
-On devrait faire taire ce Don Juan,
-l'ennemi des femmes !
-Ce serait si bien...[end]</data>
+        <data>Nerbo: Ah, Byuu.
+ 
+Nous avons décidé d'enfermer ici Donfan, l'ennemi des femmes. Vous êtes d'accord, n'est-ce pas ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x298</ref>
         </refs>
-        <data>JOY:
-Avec Nelbo,
-nous le surveillons constamment.
-Il est bientôt l'heure de partir au
-combat.[end]</data>
+        <data>Joy: Nerbo et moi, nous le surveillons. Il ne sort que pour les combats.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2fd</ref>
         </refs>
-        <data>JEANNE:
-Don Juan est misérable !
+        <data>Jeanne: Il fait un peu pitié, Donfan.
  
-Il y a quelque chose qui ne tourne pas
-rond chez lui.
+Il a quand même quelques bons côtés.
  
-Et,c'est un vrai malade !
-J'ai découvert qu'il était un voyeur !
-Quel pervers ![end]</data>
+Mais quand on se fait prendre à reluquer, tant pis pour lui...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x333</ref>
         </refs>
-        <data>MIST:
-J'ai rejoint vos idéaux ![end]</data>
+        <data>Mist: ...Je ne suis pas encore remise. Laisse-moi me reposer quand on ne se bat pas...[end]</data>
     </text>
 </texts>

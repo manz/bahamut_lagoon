@@ -1,10 +1,15 @@
 """
 Scenario 00's player phase on the battle map: the command window, and a unit's skill list after moving, are BG1
 windows whose strings draw through small_vwf into the window font. So is the START menu, whose strings outgrow
-their Japanese character counts but not their cells.
+their Japanese character counts but not their cells. A later map's START menu checks its tilemap's DMA timing. Bouger's shadow tiles BG3 with codes the panel keeps clear.
 """
 
-from tests.conftest import Console
+import re
+from pathlib import Path
+
+from kintsuki import CallbackKind
+
+from tests.conftest import Console, symbol
 
 
 def open_command_window(console: Console) -> None:
@@ -149,3 +154,58 @@ def test_combat_scene_spell_banner_names_the_spell_whole(console: Console) -> No
     console.emu.run_frames(31)
     # the full name, " Nv" for the level icon, the level, centred: it read "Cri striy5"
     assert console.matches_golden("combat-scene-spell-banner")
+
+
+MDMAEN = 0x00420B
+WINDOW_TILEMAP_LATEST = 257 - 13  # a 2 KB DMA takes 13 lines and must end before line 257 (src/vblank.i)
+
+
+def test_start_menu_tilemap_ends_in_vblank(console: Console) -> None:
+    """
+    The main loop sends a window's 2 KB tilemap right after the battle NMI, whose panel runs can make it start too late
+    to end in vblank: a console a hair slower than ares drops its tail, a menu line cut short (panel_window_tilemap).
+    """
+    console.load("battle-map-cave")
+    emu = console.emu
+    sender = symbol("panel_window_tilemap")
+    starts: list[int] = []
+
+    def triggered(address: int, value: int) -> None:
+        if sender <= emu.get_state().pc < sender + 0x80:
+            starts.append(emu.live_counters().v)
+
+    callback = emu.add_write_callback(MDMAEN, MDMAEN, triggered)
+    try:
+        console.tap(console.button.START)
+        emu.run_frames(60)
+    finally:
+        emu.remove_callback(CallbackKind.WRITE, callback)
+    assert starts
+    assert max(starts) <= WINDOW_TILEMAP_LATEST
+
+
+PANEL_SOURCE = Path("src/battle_panel_vwf.s")
+PANEL_FONT_TILE = 0x200  # BG3 tile of the panel font's code 0
+
+
+def panel_pool_codes() -> set[int]:
+    """The 8x8 codes the panel's slots draw over: _pool_runs up to the windows'."""
+    runs = PANEL_SOURCE.read_text().split("_pool_runs:")[1].split("; the windows'")[0]
+    return {
+        code
+        for first, length in re.findall(r"\.db (0x[0-9A-F]+), (\d+)", runs)
+        for code in range(int(first, 16), int(first, 16) + int(length))
+    }
+
+
+def test_the_move_range_shadow_keeps_its_tiles(console: Console) -> None:
+    """Bouger darkens the map out of reach with BG3 tiles of the panel font (0x2C, 0x2E): a panel slot on one
+    tiles the whole shadow with the text it last drew."""
+    open_command_window(console)
+    console.tap(console.button.A)  # Bouger
+    console.emu.run_frames(90)
+    tilemap = (console.emu.get_ppu_state().bg3sc >> 2) << 10
+    words = bytes(console.emu.vram_read_range(tilemap * 2, 0x800))
+    shadow = {(words[2 * cell] | words[2 * cell + 1] << 8) & 0x3FF for cell in range(0x400)}
+    assert shadow == {PANEL_FONT_TILE + 0x2C, PANEL_FONT_TILE + 0x2E}
+    assert not {tile - PANEL_FONT_TILE for tile in shadow} & panel_pool_codes()

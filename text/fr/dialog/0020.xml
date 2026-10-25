@@ -1,335 +1,293 @@
 <?xml version="1.0" standalone="yes"?>
 <texts base="0x1cc7" room_id="20">
-    <text>
+    <text window="none">
         <refs>
             <ref>0x91</ref>
         </refs>
-        <data>                    Chapitre [0xb1]
-           -La Légende Dont Nous Rêvons-[end]</data>
+        <data>Chapitre [0xb1]
+-La légende dont nous rêvions-[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6a0</ref>
             <ref>0x38d</ref>
         </refs>
-        <data>Haha Haha ![end]</data>
+        <data>Haa... haa...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6aa</ref>
         </refs>
-        <data>Zee Zee[end]</data>
+        <data>... Pff... pff...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xe6a</ref>
         </refs>
-        <data>Chuchuuu[0xd8][end1]</data>
+        <data>Smack smack... !![end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xef1</ref>
             <ref>0xed2</ref>
         </refs>
-        <data>Allez ! Allez ![end1]</data>
+        <data>Pouic pouic... !![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x149</ref>
         </refs>
-        <data>COMMANDANT:
-Silence,du calme !
+        <data>Taicho: Silence !!
  
-Matelight ne va pas tarder à venir
-parler,alors écoutez-le.[end]</data>
+Écoutez sans un mot le précieux discours de Matelite, affirmatif !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x20e</ref>
         </refs>
-        <data>MATELIGHT:
-L'entraînement au combat va
-commencer !
-D'accord tout le monde ?![end]</data>
+        <data>Matelite: Notre combat ne fait que commencer ! Écoutez bien, vous tous !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x226</ref>
         </refs>
-        <data>Selon l'Empire Granbelos,nous sommes
-depuis peu devenus des Rebelles.
+        <data>Nous allons nous dresser contre l'Empire de Granbelos !!
  
-Orelus,le monde des lagons,dirigé par
-l'Empire doit être libéré.
-Il doit l'être de gré ou de force ![end]</data>
+Nous sommes l'armée de libération d'Orelus, qui va délivrer les lagons de ce monde du joug de l'Empire !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x241</ref>
         </refs>
-        <data>C'est pour cette raison que nous allons
-engager de très grandes hostilités.
+        <data>Mais... au fond, on nous traitera toujours de rebelles, nous autres, gens de peu...
  
-J'invite les Rebelles à tout libérer
-militairement...
- 
-Moi et vous allons un à un récupérer
-les lagons perdus ![end]</data>
+Pour ne jamais l'oublier, nous ne nous appellerons pas l'armée de libération, mais les Rebelles !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x259</ref>
         </refs>
-        <data>D'accord tout le monde ?!
-Il est donc utile d'avoir de l'ordre et
-de la discipline dans les rangs ![end]</data>
+        <data>Écoutez bien, vous tous !! Ce qu'il nous faut maintenant, c'est de la discipline et de l'ordre dans nos rangs !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x278</ref>
         </refs>
-        <data>Il ne faut cependant pas nous
-précipiter ![end]</data>
+        <data>Pourtant...
+ 
+On dirait que certains n'ont rien compris du tout !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2c2</ref>
         </refs>
-        <data>Je vais tout d'abord commencer à
-vous inculquer l'ordre et la discipline ![end]</data>
+        <data>D'abord, je dois vous inculquer la discipline et l'ordre !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2d9</ref>
         </refs>
-        <data>De même,il nous faut un leader
-charismatique et efficace ![end]</data>
+        <data>Celui qui commandera les Rebelles, c'est...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2ea</ref>
         </refs>
-        <data>Sachant user de la force ![end]</data>
+        <data>Moi !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x365</ref>
         </refs>
-        <data>Matelight de Kana ![end]</data>
+        <data>Car après tout... je suis Matelite de Kana !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3a6</ref>
         </refs>
-        <data>En effet,tout le monde ne peut pas
-combattre comme moi ![end]</data>
+        <data>Au combat, personne ne m'arrive à la cheville !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x41d</ref>
         </refs>
-        <data>Notre armée doit être dirigée par le
-flambeau des Rebelles de Kana...
-Le Capitaine de FARENHEIT...[end]</data>
+        <data>Si c'est moi qui commande au combat...
+ 
+Alors le capitaine du vaisseau amiral de Kana... non... des Rebelles, Fareneit, ce sera...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x469</ref>
         </refs>
-        <data>À savoir,le vieux magicien,Sendack ![end]</data>
+        <data>Maître Sendak !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x48a</ref>
         </refs>
-        <data>Amiral !
-Oui,toi là-bas ![end]</data>
+        <data>Le pilote, ce sera toi !! Oui, toi, là-bas !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4a6</ref>
         </refs>
-        <data>Une réponse ?![end]</data>
+        <data>Réponds !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4bb</ref>
         </refs>
-        <data>HORNET:
-Tu ne peux pas attendre ?![end]</data>
+        <data>Hornet: La ferme !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4da</ref>
         </refs>
-        <data>HORNET:
-FARENHEIT n'attend plus que l'ordre
-de partir ![end]</data>
+        <data>Hornet: Pour le départ de Fareneit, c'est à moi qu'il faut le dire !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4e9</ref>
         </refs>
-        <data>Et le lieu de destination ![end]</data>
+        <data>Et donne-moi la destination !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc9c</ref>
         </refs>
-        <data>HORNET:
-Les soldats impériaux ont tout cassé ![end]</data>
+        <data>Hornet: Il ne marche pas mal, ce vaisseau...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xce6</ref>
         </refs>
-        <data>Il faut encore un moment avant que
-tout aille mieux ![end]</data>
+        <data>Mais il est encore un peu capricieux.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xcef</ref>
         </refs>
-        <data>HORNET:
-C'est outrageant !
-Aaah,tout ce bruit ![end]</data>
+        <data>Hornet: Tu ferais bien d'aller te mettre en rang. Le casse-pieds va arriver.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x501</ref>
         </refs>
-        <data>MATELIGHT
-Commandant,pouvez-vous leur dire qui
-vous êtes ?[end]</data>
+        <data>Matelite: Et toi, Taicho...
+qu'est-ce qui te conviendrait ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x512</ref>
         </refs>
-        <data>COMMANDANT:
-Je suis le Capitaine de l'armée de
-Mahal,Commandant ![end]</data>
+        <data>Taicho: Je suis Taicho, donc je serai
+capitaine, affirmatif !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x526</ref>
         </refs>
-        <data>MATELIGHT:
-Capitaine Commandant ![end]</data>
+        <data>Matelite: Taicho sera capitaine !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x537</ref>
         </refs>
-        <data>MATELIGHT:
-Allez tout le monde !
+        <data>Matelite: Écoutez-moi bien, tous !!
  
-Je vais vous soumettre des ordres et
-vous devrez y obéir ![end]</data>
+Désormais, vous agirez dans la
+discipline et dans l'ordre !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x54b</ref>
         </refs>
-        <data>Maintenant,
-passons à la pratique !
+        <data>Et maintenant, place à l'entraînement !!!
  
-Soyez tous prêts !
+Suivez mes ordres !!
  
-  
-Allez ![end]</data>
+Allez, on y va !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x57a</ref>
             <ref>0x6f5</ref>
         </refs>
-        <data>Droite Droite[0xd8][0xd8]
+        <data>À droite, droite[0xd8][0xd8]
  [0xfc][0x10]       
-``Direction... Droite[0xd8][0xd8]''[end1]</data>
+(Flèche droite[0xd8][0xd8])[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x736</ref>
         </refs>
-        <data>Gauche Gauche[0xd8][0xd8]
+        <data>À gauche, gauche[0xd8][0xd8]
  [0xfc][0x10]
-``Direction... Gauche[0xd8][0xd8]''[end1]</data>
+(Flèche gauche[0xd8][0xd8])[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x6b3</ref>
         </refs>
-        <data>Quelle amélioration[0xd8]
+        <data>Fixe[0xd8]
  [0xfc][0x10] 
-``Direction... Droit devant[0xd8]''[end1]</data>
+(Flèche haut[0xd8][0xd8])[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x122f</ref>
         </refs>
-        <data>Hahahahaha !
+        <data>Hmmm...
+Et ça, alors !!
  
-  
-Tourner ![end]</data>
+Demi-tour !!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1296</ref>
         </refs>
-        <data>MATELIGHT:
-GAHAHAHAHA !
+        <data>Matelite: Gwahahahaha !!
  
-[character][0x0],tu as encore beaucoup à
-apprendre sur l'ordre et la discipline.[end]</data>
+Byuu !!
+ 
+Tu n'as toujours rien compris à la discipline et à l'ordre !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x119c</ref>
         </refs>
-        <data>MATELIGHT:
-GAHAHAHAHAHA[0xd8]
+        <data>Matelite: Gwahahaha !!
  
-[character][0x0],je te donne une autre chance !
-Alors sois prêt !
+Byuu !!
  
-Faites F-A-C-E[0xd8][end]</data>
+Je te donne une dernière chance. Sinon...
+ 
+Gare à la fessée !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1975</ref>
         </refs>
-        <data> Je vais aller faire un tour.
- Je vais attendre Matelight.[end1]</data>
+        <data> Encore un petit tour.
+ Attendre Matelite sans rien dire.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xd4</ref>
         </refs>
-        <data>RUSH:
-Matelight nous a ordonné de nous
-réunir ici !
-Il va nous instruire et nous entraîner
-pour les combats.[end]</data>
+        <data>Rush: Matelite va nous apprendre les bases du combat, paraît-il. ``Mettez-vous en rang et attendez !!'', qu'il nous a dit, avec ses grands airs...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc26</ref>
         </refs>
-        <data>RUSH:
-Parfois Matelight peut être très en
-colère.
-J'ai un mauvais pressentiment ![end]</data>
+        <data>Rush: Ce Matelite... il a l'air en colère. J'ai un mauvais pressentiment...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1bb</ref>
         </refs>
-        <data>RUSH:
-Le discours de Matelight va être long.
- 
-Veux-tu l'écouter en vitesse
-accélérée ?[end]</data>
+        <data>Rush: Les discours de Matelite... c'est long. On le passe en accéléré ?[end]</data>
     </text>
     <text>
         <refs>
@@ -351,665 +309,517 @@ accélérée ?[end]</data>
         <refs>
             <ref>0x1971</ref>
         </refs>
-        <data>Matelight n'est pas encore là,
-vas-tu l'attendre ?[end]</data>
+        <data>Tu vas attendre sagement que Matelite arrive ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x198c</ref>
         </refs>
-        <data>Ne tarde pas trop,
-ça pourrait être dangereux avec lui ![end]</data>
+        <data>Traîne pas trop, ça pourrait mal finir.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc31</ref>
         </refs>
-        <data>RUSH:
-À force d'entraînement et en
-échangeant les membres de tes
-équipes,tu trouveras sûrement un
-équilibre des forces.[end]</data>
+        <data>Rush: Va pas sauter du vaisseau parce que l'entraînement a raté ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc52</ref>
         </refs>
-        <data>TAURUS:
-Matelight va arriver !
- 
-Il faudra faire tout ce qu'il dit.[end]</data>
+        <data>Truth: Nous attendons Matelite. Mettez-vous bien en rang, s'il vous plaît.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc5c</ref>
         </refs>
-        <data>TAURUS:
-L'équilibre d'une équipe est très
-important.[end]</data>
+        <data>Truth: Hmm hmm... Dans l'``Organisation'', l'équilibre est essentiel...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc75</ref>
         </refs>
-        <data>BIKKEBAKKE:
-Vite,commençons ![end]</data>
+        <data>Bikebake: Mmh... mmh... Ça commence bientôt ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc7c</ref>
         </refs>
-        <data>BIKKEBAKKE:
-Aaaaaaaaaaaaah !
-Y en a encore pour longtemps ?[end]</data>
+        <data>Bikebake: Mmh... mmh... On va rester comme ça encore longtemps ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xff1</ref>
         </refs>
-        <data>DIANA:
-Salut ![end]</data>
+        <data>Diana: C'est pas vrai !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xff8</ref>
         </refs>
-        <data>DIANA:
-As-tu déjà entendu parler du bras
-droit de l'Empereur Sauzer,
-le Général Palpaleos ?[end]</data>
+        <data>Diana: Dis, dis... Tu les connais, l'Empereur Sauzer et le général Palparos ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xffc</ref>
         </refs>
-        <data> Que sais-tu ?!
- Je suis occupé...[end1]</data>
+        <data> Raconte ?
+ Ça m'intéresse pas.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x100a</ref>
         </refs>
-        <data>Depuis qu'ils sont enfants,ils sont de
-très grands amis.
+        <data>Il paraît qu'ils sont amis depuis l'enfance...
  
-Quand il vit le ciel,il eut l'ambition et
-le rêve de le conquérir pour lui !
+Ils regardaient le ciel en parlant de leurs rêves et de leurs ambitions.
  
-Il était aussi excité que ce couple de
-lanciers.[end]</data>
+Rien à voir avec les deux Lanciers d'à côté, hein ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf8e</ref>
         </refs>
-        <data>FREDERIKA:
-Vous,les garçons,maniez les armes...
-C'est très bien !
-Mais,nous,nous lançons des sorts de
-soins qui ne sont pas inutiles.[end]</data>
+        <data>Frederica: Lui, il la fait tournoyer dans tous les sens... Vrrr, vrrr... Ah, c'est mauvais pour la santé...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf99</ref>
         </refs>
-        <data>FREDERIKA:
-J'ai toujours des prétextes pour
-tout.
-Je suis toujours si lente et je réfléchis
-si peu.
-Hihihihihihihihi ![end]</data>
+        <data>Frederica: Lui, il est raide et lent... Ah, toujours à traîner... Ah, je n'en peux plus... je vais m'évanouir...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfa7</ref>
         </refs>
-        <data>FREDERIKA:
-Je suis toujours très lasse et par
-conséquent j'ai peine à réfléchir...
-Cependant,ne t'inquiète pas,c'est tout
-à fait habituel...
-Je t'en supplie,laisse-moi faire de la
-médecine...[end]</data>
+        <data>Frederica: Je... me suis évanouie, on dirait...
+ 
+Ah... Byuu... Ne vous en faites pas... C'est tout le temps comme ça... Mais... je vous en prie... ce médicament...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfab</ref>
         </refs>
-        <data> Je ne t'en empêcherai pas...
- Chanceuse ![end1]</data>
+        <data> Le lui faire boire.
+ Veinard !! Je le prends ![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xfb5</ref>
         </refs>
-        <data>Obtenu [0xb4] [0xaa]DROGUE[0xab]
-[0xb4] [0xaa]REMEDE[0xab]
-[0xb4] [0xaa]RANIME[0xab].[end]</data>
+        <data>Obtenu [0xb4] ``Remède''
+[0xb4] ``Panacée''
+[0xb4] ``Revivifiant''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfcf</ref>
         </refs>
-        <data>Merci,ça me calme beaucoup !
-Je désire dormir maintenant.[end]</data>
+        <data>Merci, je me sens un peu mieux. Laissez-moi dormir comme ça...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf50</ref>
             <ref>0xf7c</ref>
         </refs>
-        <data>FRUNZE à REEVE:
-Nous sommes des Lanciers !
-Très loin la lance !
-Lan... Lan... Lanciers ![end]</data>
+        <data>Frunze et Reeve: Nous, on est Lanciers. Même de loin, ça pique, ça pique !! Lan, lan... Lanciers !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1032</ref>
         </refs>
-        <data>BARECK:
-À côté de moi,c'est Sergent.
-Nous avons toujours été très proches.[end]</data>
+        <data>Barclay: Eh bien... À côté de moi, c'est Gunso... et la place d'après est libre.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1039</ref>
         </refs>
-        <data>BARECK:
-Nous,les armures lourdes,donc les
-guerriers sommes lents car nous ne
-portons pas de robes comme les
-magiciennes ![end]</data>
+        <data>Barclay: Eh oui... On dit souvent que nous, les Cuirassiers, si sérieux, nous sommes un peu lents.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x107d</ref>
         </refs>
-        <data>ANASTASIA:
-J'ai un drôle de sentiment...[end]</data>
+        <data>Anastasia: On se croirait à l'école, en rang...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1084</ref>
         </refs>
-        <data>ANASTASIA:
-Veux-tu parler à ma voisine ?[end]</data>
+        <data>Anastasia: Tu veux parler aussi avec ma voisine ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x10bb</ref>
         </refs>
-        <data>EKATERINA:
-Ah...
+        <data>Ekaterina: Ah...
  
-Euuh...
-Eh bien...
+Eu... euh...
+Ah... c'est que...
  
-Bon... bonjour ![end]</data>
+... B... bonjour.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x104b</ref>
         </refs>
-        <data>SERGENT:
-``Grognement''Je suis Sergent.
-``Grognement''
-Droite face,droite,droite...
-Gauche face,gauche,gauche...
-Aucune erreur...``Grognement''
-Ce sont les bases``Grognement''
-d'un exercice d'entraînement d'une
-légion à Mahal.[end]</data>
+        <data>Gunso: (Gratte, gratte) Gunso, à vos ordres. (Gratte, gratte)
+À droite, droite : on force à droite... À gauche, gauche : on force à gauche... Fixe : vers le haut... (Gratte, gratte) C'est ce qu'on m'a appris (gratte, gratte) à l'entraînement militaire de Mahal.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf2f</ref>
         </refs>
-        <data>LUKIA:
-Bonjour [character][0x0]!
- 
-Tu ne trouves pas que c'est terrible
-cette réunion pour un premier jour ?![end]</data>
+        <data>Ruki: Byuu... aujourd'hui, ça va sûrement être une rude journée.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf36</ref>
         </refs>
-        <data>LUKIA:
-Suis-je une héroïne ?
-J'ai plutôt l'air sévère...[end]</data>
+        <data>Ruki: Et si je lui demandais de me porter, moi aussi ?
+ 
+... Non, je suis trop lourde.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe23</ref>
         </refs>
-        <data>MELODIA:
-[character][0x0],vas-y !
-Serre-moi dans tes bras ![end]</data>
+        <data>Melody: Byuu... je vois rien devant !! Prends-moi dans tes bras !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf0d</ref>
             <ref>0xe8e</ref>
         </refs>
-        <data>Merci,[character][0x0]!
-Merci beaucoup ![end]</data>
+        <data>Merci... Byuu. Je t'adore !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe3f</ref>
         </refs>
-        <data>Ingrat ![end]</data>
+        <data>Radin, radin !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe33</ref>
         </refs>
-        <data>MELODIA:
-Tu es fatigué,[character][0x0]?!
-Porte-moi sur ton dos ![end]</data>
+        <data>Melody: Byuu... je suis fatiguée !! Porte-moi sur ton dos !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x10d1</ref>
         </refs>
-        <data>Derrière moi se trouve la chambre de
-l'héritière de Kana,la Princesse [character][0x1].
-Elle est en ce moment vide.
-Voudrais-tu y jeter un coup d'oeil ?[end]</data>
+        <data>Voici la chambre de la princesse Yoyo.
+ 
+Normalement, je me ferais gronder... mais vous voulez y jeter un petit coup d'œil ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x101c</ref>
         </refs>
-        <data>ZORA:
-La cabine du Capitaine se trouve
-derrière toi.
-La plupart des discussions et des
-décisions y sont traitées.[end]</data>
+        <data>Zora: La pièce derrière, c'est la cabine du capitaine. Il y a une réunion en ce moment, défense d'entrer.[end]</data>
     </text>
-    <text>
+    <text align="center">
         <refs>
             <ref>0x19e7</ref>
         </refs>
-        <data>Se tient ici une conférence militaire !
-Personne ne doit entrer !
-                      -Matelight-[end]</data>
+        <data>Conseil de guerre en cours :
+défense d'entrer !!
+-Matelite-[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1023</ref>
         </refs>
-        <data>ZORA:
-Dans la cabine du Capitaine vit
-Sendack.
-Le Capitaine Sendack est une vieille et
-délicate personne.
-Evite de le brusquer ![end]</data>
+        <data>Zora: Dans la cabine du capitaine, personne ne viendra vous déranger, vous deux tout seuls... Le capitaine Sendak est délicat, il se blesse facilement, alors sois gentil avec lui !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x12c9</ref>
         </refs>
-        <data>Dès aujourd'hui,nous allons vous
-apprendre les meilleures [0xaa]formations[0xab].
-Donc exercice de [0xaa]formation[0xab]![end]</data>
+        <data>Tu te prends pour un chef ou je ne sais quoi, mais tu seras tout au plus de corvée !!
+ 
+Va t'entraîner à l'``Organisation'' !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x12ec</ref>
         </refs>
-        <data>MATELIGHT:
-Capitaine Commandant,je suis fatigué !
-Expliquez-leur ![end]</data>
+        <data>Matelite: Taicho !! Je suis fatigué, je te laisse la suite !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1301</ref>
         </refs>
-        <data>COMMANDANT:
-Moi ?!
-Expliquer les formations ?![end]</data>
+        <data>Taicho: !!!
+C'est à moi d'expliquer... ?[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x1313</ref>
         </refs>
-        <data>COMMANDANT:
-Tout d'abord,il faut éliminer les
-mauvaises [0xaa]formations[0xab].
-Les meilleures [0xaa]formations[0xab] seront
-favorables à l'ensemble de l'équipe.[end]</data>
+        <data>Taicho: Me voilà bien... L'``Organisation'', ce n'est pas mon fort...
+ 
+L'``Organisation'', ça consiste à former des escouades solides, affirmatif...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1338</ref>
         </refs>
-        <data>Modifier la [0xaa]formation[0xab] d'une de tes
-équipes te permet de compenser ses
-points faibles.[end]</data>
+        <data>Byuu... Dans l'``Organisation'', il vaut mieux former des escouades où chacun compense les faiblesses des autres, affirmatif !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x136a</ref>
             <ref>0x13e4</ref>
         </refs>
-        <data>Par exemple,cette équipe...[end]</data>
+        <data>Par exemple, une escouade comme celle-ci...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x137a</ref>
         </refs>
-        <data>Cette équipe est composée de
-nombreuses Armures Lourdes.
- 
-Ainsi,elle a une grande défense mais
-se déplace lentement ![end]</data>
+        <data>Cette escouade compte beaucoup de Cuirassiers. Sa défense est solide, mais elle avance lentement, affirmatif !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x13be</ref>
         </refs>
-        <data>Nous avons ajouté une Armure Lumière
-qui se déplace plus loin donc les
-guerriers peuvent aller plus loin ![end]</data>
+        <data>Dans ce cas, on fait venir Ruki, une Fantassin, et on la place à côté de soi !!
+Et voilà, l'escouade se déplace vite, affirmatif !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x13e0</ref>
         </refs>
-        <data>Si une équipe est composée de gens
-de même métier alors le niveau des
-habiletés magiques est augmenté ![end]</data>
+        <data>Avec des membres de la même classe dans l'``Organisation'', l'effet des magies et des aptitudes augmente, affirmatif !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x144b</ref>
         </refs>
-        <data>Il y a ici [0xb2] sorcières utilisant la
-magie noire donc leur magie triple
-en puissance ![end]</data>
+        <data>Avec trois Mages, le niveau de leur magie noire augmente, affirmatif !![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x146e</ref>
         </refs>
-        <data>Tout va bien,maintenant !
-Je crois enfin en avoir fini ![end]</data>
+        <data>Et voilà, tout va bien !
+Byuu a sûrement compris, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1403</ref>
         </refs>
-        <data>Disperser les métiers permet d'avoir
-plusieurs caractéristiques.[end]</data>
+        <data>Des classes toutes différentes : c'est une escouade sans rien de particulier, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1415</ref>
         </refs>
-        <data>Prenons cette équipe...[end]</data>
+        <data>Plutôt qu'une escouade comme celle-là...
+celle-ci...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x147d</ref>
         </refs>
-        <data>COMMANDANT:
-As-tu tout compris sur le système de
-[0xaa]formations[0xab]?[end]</data>
+        <data>Taicho: Byuu... l'``Organisation''... c'est c... clair ?[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x149d</ref>
         </refs>
-        <data>Jamais je n'aurais cru que j'aurais dû
-faire,un jour,de l'enseignement...[end]</data>
+        <data>Z... zut... J'ai mal expliqué... On recommence, affirmatif...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x14bc</ref>
         </refs>
-        <data>Si tu le dis !
-Tu es si intelligent !
-Mais retiens tout...[end]</data>
+        <data>Ou... ouf !! J'ai l'impression d'être devenu plus intelligent, moi aussi, affirmatif...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xc06</ref>
         </refs>
-        <data>Il est imprudent d'oublier que
-[0xaa]formation[0xab] et [0xaa]dragons[0xab] sont
-complémentaires.[end]</data>
+        <data>Aïe... L'``Organisation'', les dragons... je suis nul pour les deux, affirmatif...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc0d</ref>
         </refs>
-        <data>Souvent,Matelight s'entraîne la nuit !
-Il le fait secrètement...[end]</data>
+        <data>Matelite a passé la nuit sans dormir à répéter son discours... Laissons-le tranquille, affirmatif...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x14e2</ref>
         </refs>
-        <data>Je vais aller droit au but !
-Il y a une relation entre la
-[0xaa]formation[0xab] et les [0xaa]dragons[0xab].[end]</data>
+        <data>C'est pas fini, j'parie !!
+ 
+L'``Organisation'' et les ``dragons'', c'est indissociable, j'parie !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x15a6</ref>
         </refs>
-        <data>DOCTEUR DRAGON:
-Il faut aussi tenir compte des dragons ![end]</data>
+        <data>Père Dragon: Hop... !! Les dragons ont faim, ça m'embête, j'parie ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1156</ref>
         </refs>
-        <data>DOCTEUR DRAGON:
-Les dragons ont aussi des compétences,
-il suffit que tu les leur apprennes ![end]</data>
+        <data>Père Dragon: Il faut chouchouter les dragons ! Je vais t'apprendre à t'en occuper !! Allez ! Allez !![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xbb5</ref>
         </refs>
-        <data>Je vais très vite devenir un très beau
-chevalier.
+        <data>Byuu... deviens vite un vrai chevalier, comme moi...
+La princesse Yoyo est en âge de se marier, à présent...
  
-Mais [character][0x1] sera bientôt trop jeune
-pour moi.
- 
-J'ai peut-être déjà perdu son coeur.[end]</data>
+Ne la déçois pas...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x1ec</ref>
         </refs>
-        <data>MATELIGHT:
-Quel beau bateau de guerre pour
-s'entraîner !
-Je vous conseille à tous d'écouter
-attentivement.[end]</data>
+        <data>Matelite: Devant tout le monde, ça me rend quand même nerveux... Allons, allons... comme à la répétition...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xbc2</ref>
         </refs>
-        <data>... ... ... ...
+        <data>...
  
-  
-[character][0x1]...
-``Marmonnement''[end]</data>
+Rrr... rrr...
+ 
+Princesse Yoyo... mmh mmh...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd10</ref>
             <ref>0xbcf</ref>
         </refs>
-        <data>SENDACK:
-Je suis le Capitaine de ce bateau,
-maintenant...[end]</data>
+        <data>Sendak: Byuu... moi... j'ai quelque chose à t'avouer... Passe me voir plus tard dans la cabine du capitaine...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xcfa</ref>
         </refs>
-        <data>HORNET:
-Préviens-moi pour le départ,
-et nous nous envolerons ![end]</data>
+        <data>Hornet: Pour le départ, attends encore un peu. Et arrête de sauter du vaisseau ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x18e8</ref>
         </refs>
-        <data>HORNET:
-Hé,attention !
-
-Tu veux sauter et risquer de
-t'envoler ?![end]</data>
+        <data>Hornet: Hé !! Tu vas quand même pas sauter, si ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x18f2</ref>
         </refs>
-        <data> Sauter !
- Je ne veux pas m'envoler...[end1]</data>
+        <data> Sauter !!
+ Ne pas sauter.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xd2e</ref>
         </refs>
-        <data>HORNET:
-Allons-y !
-Tu t'es bien préparé ?!
-Que veux-tu faire ?[end]</data>
+        <data>Hornet: Bien !! Le vaisseau est prêt à partir !! Et toi, où en es-tu ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd32</ref>
         </refs>
-        <data> Je me prépare.
- Nous pouvons partir.[end1]</data>
+        <data> Pas encore !!
+ En route !![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xd42</ref>
         </refs>
-        <data>HORNET:
-Dès que tu es prêt,donne-moi le lieu
-de destination !
-Quoi ?!
-Tu ne sais pas où se trouve la
-Princesse [character][0x1]?[end]</data>
+        <data>Hornet: Au fait... tu ne m'as pas encore donné notre destination. Où est la princesse Yoyo ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd70</ref>
         </refs>
-        <data>RUSH:
-Elle est sur le Continent Verdoyant,
-Campbell !
-Allons-y,[character][0x0]![end]</data>
+        <data>Rush: Sur Campbell, le continent bleu !! Pas vrai, Byuu !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd83</ref>
         </refs>
-        <data>TAURUS:
-N'est-ce pas elle que tu as perdue ?
-Il faut secourir la Princesse.
-Elle est retenue prisonnière dans un
-fort à Campbell ![end]</data>
+        <data>Truth: Vous avez oublié ?
+ 
+La princesse Yoyo est dans la forteresse de Campbell. Il faut vite aller la secourir ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd8e</ref>
         </refs>
-        <data>HORNET:
-Allons-y !
-Tu sais tout,maintenant !
-Prêt !
-Départ de FARENHEIT ![end]</data>
+        <data>Hornet: Bien !! Les détails, ce sera pour plus tard !! C'est parti !! Fareneit, en avant !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1af7</ref>
         </refs>
-        <data>MATELIGHT:
-Je te cherche depuis tout à l'heure !
-Dépêche-toi ![end]</data>
+        <data>Matelite: Qu'est-ce que tu fais à traîner !! Mets-toi en rang, et vite !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x111e</ref>
         </refs>
-        <data>MATELOT:
-La Princesse [character][0x1] finira bien par
-revenir d'une manière ou d'une autre.[end]</data>
+        <data>Matelot: Jusqu'au retour de la princesse Yoyo, ça va faire un peu vide... Alors on vous a préparé ça.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1b87</ref>
         </refs>
-        <data>Faire manger des livres ou des notes
-à un dragon n'est pas très sain pour
-lui mais ce n'est qu'un conseil !
-Certains livres peuvent faire augmenter
-leur intelligence mais jamais leur
-attaque offensive.
-Réfléchis bien à ce que tu feras.[end]</data>
+        <data>Il paraît que faire manger des livres et des cahiers aux dragons les rend plus intelligents...
+ 
+Mais ça, il vaudrait peut-être mieux éviter.
+ 
+À force, ils deviendraient bêtes et agressifs, à ce qu'on dit. Toi aussi, Byuu, tu devrais faire attention.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1327</ref>
         </refs>
-        <data>COMMANDANT:
-As-tu déjà entendu parler des
-[0xaa]formations[0xab]?[end]</data>
+        <data>Taicho: Byuu... l'``Organisation'', tu connais, non ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x132b</ref>
         </refs>
-        <data> Parle-m'en...
- J'y ai déjà été entraîné ![end1]</data>
+        <data> Explique-moi !!
+ Je connais, affirmatif !![end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x15f3</ref>
         </refs>
-        <data>Alors,tu dois être capable de créer de
-nombreuses [0xaa]formations raisonnables[0xab].[end]</data>
+        <data>Ouf... Pour l'``Organisation'', il suffit d'utiliser ``Aptitude'', affirmatif...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x9a</ref>
         </refs>
-        <data> 
-            Chapitre [0xb1][0xaf]
-     -Le Ciel de la Tristesse-[end]</data>
+        <data>Chapitre [0xb1][0xaf]
+-Le ciel de la tristesse-[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc3c</ref>
             <ref>0xce</ref>
         </refs>
-        <data>RUSH:
-Notre nouveau combat va commencer !
-Matelight va nous faire un discours !
-Un jour,
-nous deviendrons très importants.[end]</data>
+        <data>Rush: C'est le début d'un nouveau combat !! Matelite a une grande annonce à faire ! On s'était déjà alignés comme ça, nous autres, un jour...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc43</ref>
         </refs>
-        <data>RUSH:
-Capitaine Adjoint ?!
-C'est super,[character][0x0]![end]</data>
+        <data>Rush: Capitaine par intérim, hein... Ça a de l'allure, Byuu !![end]</data>
     </text>
     <text>
         <refs>
@@ -1017,346 +827,262 @@ C'est super,[character][0x0]![end]</data>
             <ref>0xf62</ref>
             <ref>0x1004</ref>
         </refs>
-        <data>... ... ... ...[end]</data>
+        <data>...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc66</ref>
         </refs>
-        <data>TAURUS:
-C'est la dernière bataille contre
-l'Empire et sa machine de malheur:
-Trafalgar !
- 
-  
-La guerre aurait dû se finir contre
-l'Empereur Sauzer,non contre son
-usurpateur.[end]</data>
+        <data>Truth: La forteresse volante ennemie, Trafalgar, est l'arme ultime de l'Empire !!
+Depuis la dernière guerre, l'Empereur Sauzer en avait pourtant interdit l'usage...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc86</ref>
         </refs>
-        <data>Bikkebakke est en pleine extase devant
-son nouveau livre.
+        <data>(Bikebake est absorbé par un livre compliqué.)
  
-Il est écrit sur la page de couverture:
-[0xaa]Théorie sur l'Economie[0xab].[end]</data>
+(Sur la couverture, on peut lire : ``Principes d'économie''.)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1040</ref>
         </refs>
-        <data>BARECK:
-La Restauration de Kana...
-Pour... tout le monde ![end]</data>
+        <data>Barclay: Même si Kana renaît, la guerre continue... Enfin... c'est comme ça.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1060</ref>
         </refs>
-        <data>SERGENT:
-Je me suis froissé un muscle !
-``Grognement''
-Hier,Matelight était en colère contre
-tout le monde.
-Mon muscle...``Grognement''[end]</data>
+        <data>Gunso: Je me suis bloqué le dos... (Gratte, gratte...) Hier, on a dû soulever Matelite à plusieurs... (... Aïe... gratte, gratte)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1011</ref>
         </refs>
-        <data>DIANA:
-Ce à quoi je pense ?
-Oh,je ne pense à rien !
-Vendre contre de l'argent la magie
-pourrait calmer Matelight une fois
-pour toutes ![end]</data>
+        <data>Diana: Dis, dis... Tu trouves pas ? Moi, je trouve ça pas bien. Vendre le pouvoir de la magie contre de l'argent... Même si c'est Matelite qui l'a demandé, comment elles peuvent faire ça sans honte... C'est sale, hein.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x10a7</ref>
         </refs>
-        <data>ANASTASIA:
-Si la nuit dernière,le Feu d'Artifice
-avait été fait par une sorcière,
-il aurait été plus beau que du cristal !
-J'en suis certaine !
-Veux-tu parler à Ekaterina ?[end]</data>
+        <data>Anastasia: Le feu d'artifice d'hier soir, c'était le pouvoir magique des Mages, cristallisé. C'était beau, hein ?
+ 
+Tu veux parler aussi avec Ekaterina ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x10c2</ref>
         </refs>
-        <data>EKATERINA:
-Ah... euh...
-Eh bien...
-As... as-tu remarqué ?
-Ici,il n'y a pas de bave de dragon.[end]</data>
+        <data>Ekaterina: Eu... euh...
+Ah... c'est que...
+L'auriez-vous... remarqué... ?
+ 
+Ce monsieur a le dos tout gluant de bave de dragon...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfe2</ref>
         </refs>
-        <data>FREDERIKA:
-La plupart des amis intimes auront un
-avenir commun...
-Peut-être en couple,qui peut savoir ?[end]</data>
+        <data>Frederica: Les deux à côté... ne se parlent même plus. Eux qui s'entendaient si bien... Tout le monde change... Le cœur... le corps... tout tombe malade...[end]</data>
     </text>
-    <text>
+    <text align="center">
         <refs>
             <ref>0x19ec</ref>
         </refs>
-        <data>       Le Capitaine Sendack
-            se repose.
+        <data>Le capitaine Sendak
+doit garder un repos absolu.
  
-     Personne ne doit entrer !
-                          -Zora-[end]</data>
+Défense d'entrer !!
+-Zora-[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1141</ref>
         </refs>
-        <data>Cette chambre est fermée puisque [character][0x1]
-est partie soigner le Capitaine Sendack.
+        <data>Hé hé...
  
-Absolument personne ne peut entrer !
-Seuls les amis le peuvent.
+Elle n'est pas dans cette chambre. La princesse Yoyo veille sur le capitaine Sendak. Vous êtes comme nous, Byuu. Moi, j'ai dû me prendre une douzaine de ``Restons bons amis... je garderai un bon souvenir de toi''...
  
-Tu ne fais plus partie que de ce que
-l'on appelle les souvenirs.
+Et les autres sont en plein grand ménage dans cette chambre.
  
-Je pressens un nouveau mariage dans
-l'air.
+On se croirait dans une chambre de jeunes mariés.
  
-Huhuhuhuhu ![end]</data>
+Hé hé hé...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1147</ref>
         </refs>
-        <data>Est-ce que tu voudrais acheter
-quelques livres ?[end]</data>
+        <data>Quand on s'est pris un râteau, un livre, ça change les idées. Ça vous dit ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xba0</ref>
         </refs>
-        <data>PALPALEOS:
-Je suis l'un des principaux membres
-des Rebelles.
-``Mais qui ne sert très vite plus à
- rien.''[end]</data>
+        <data>Palparos: Voici donc les membres clés des Rebelles...
+ 
+(Je dois vite m'intégrer...)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc14</ref>
         </refs>
-        <data>COMMANDANT:
-Oh,j'étais dans les nuages...
-Je ne dois plus être utile.
-Matelight m'a dégradé et je ne suis
-plus que le No [0xb2].[end]</data>
+        <data>Taicho: On me met à l'écart...
+ 
+Matelite... m'a rétrogradé numéro 3, affirmatif...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xdff</ref>
         </refs>
-        <data>HORNET:
-Être père...
-``Grand sourire''[end]</data>
+        <data>Hornet: (Sourire béat) À partir d'aujourd'hui, moi aussi, je suis papa... Ça me gêne un peu...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x18ee</ref>
         </refs>
-        <data>HORNET:
-Tu veux voler ?![end]</data>
+        <data>Hornet: Sauter, hein... Bon, comme tu veux.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xe09</ref>
         </refs>
-        <data>HORNET:
-Avoir un enfant...
-``Génial''[end]</data>
+        <data>Hornet: Il est sage, j'espère... (Hmm hmm...)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe12</ref>
         </refs>
-        <data>HORNET:
-Dès que tu es prêt à aller combattre,
-appuie sur l'un des boutons ![end]</data>
+        <data>Hornet: Pour partir au combat, appuie sur n'importe quel bouton !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1740</ref>
         </refs>
-        <data>HORNET:
-Tu as perdu quelque chose ?[end]</data>
+        <data>Hornet: Tu n'oublies pas quelque chose ? C'est moi qui lui donne son nom, ça ne te dérange pas ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x158</ref>
         </refs>
-        <data>PALPALEOS:
-Matelight doit vous parler !
-Soyez tous calmes ![end]</data>
+        <data>Palparos: Matelite a quelque chose à vous dire. Écoutez-le en silence, je vous prie.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x1fc</ref>
         </refs>
-        <data>MATELIGHT:
-Je sais,
-tout le monde est plus ou moins las !
-Mais la guerre n'est pas encore finie ![end]</data>
+        <data>Matelite: Ils doivent tous être fatigués... Il faut faire court...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x214</ref>
         </refs>
-        <data>MATELIGHT:
-Écoutez-moi !
- 
-Le Capitaine Sendack se sent mieux.
-Toutefois,il ne se sent plus apte à
-nous diriger.[end]</data>
+        <data>Matelite: Comme vous le savez... le capitaine Sendak s'est effondré. Il n'a pas encore passé l'arme à gauche, mais il n'en a plus pour longtemps...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x22c</ref>
         </refs>
-        <data>J'ai,ici,un [0xaa]Testament[0xab] écrit de sa
-propre main !
+        <data>J'ai ici le ``testament'' du capitaine Sendak !!
  
-Au cas où il mourrait,ce sont ses
-dernières volontés...
-Lisons-le ![end]</data>
+Il n'est pas mort, mais bon, peu importe !! Je le lis !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x247</ref>
         </refs>
-        <data>SENDACK:
-Étant donné mon état de santé,
-[character][0x0] sera mon Capitaine Adjoint.
-Mais voici le plus important ![end]</data>
+        <data>Matelite: ``Si je tombe, Byuu sera capitaine par intérim...'' Voilà ce qui est écrit !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x25f</ref>
         </refs>
-        <data>Si je venais à mourir,j'ai décidé que
-[character][0x0] aurait les pleins pouvoirs et
-serait le seul successeur du Capitaine
-de ce vaisseau ![end]</data>
+        <data>Une fois qu'il sera mort, ce sera moins drôle...
+ 
+Respectons donc les volontés de notre capitaine Sendak, qui semble sur le point de nous quitter : Byuu est nommé capitaine par intérim ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x281</ref>
         </refs>
-        <data>[character][0x0],tu es maintenant le Capitaine
-Adjoint,alors fais de ton mieux.[end]</data>
+        <data>Byuu !! Sois à la hauteur, capitaine par intérim !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x423</ref>
         </refs>
-        <data>À présent,il se repose mais la guerre
-n'a pas cessé et nous sommes en plein
-coeur de celle-ci !
-Il vous faut aussi savoir que Sendack
-participera sûrement à la prochaine
-bataille !
-Faites en sorte qu'il puisse être fier
-de vous ![end]</data>
+        <data>Et puis, il fait peut-être semblant, et s'il y passe, eh bien, c'est la guerre !! Le capitaine Sendak participera à la prochaine bataille, soyez tranquilles !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5a1</ref>
         </refs>
-        <data>Général Palpaleos,restez ici ![end]</data>
+        <data>Bien, général Palparos !! Je vous confie la suite !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x167e</ref>
         </refs>
-        <data>Voici l'écran de pilotage !
-Quel bouton vas-tu actionner ?[end]</data>
+        <data>Il y a une rangée de boutons. Sur lequel appuyer ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1682</ref>
         </refs>
-        <data> Alarme !
- Départ !
- Spécial Hornet ![end1]</data>
+        <data> Alarme !!
+ Départ !!
+ Spécial Hornet !![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x1779</ref>
         </refs>
-        <data>MATELIGHT:
-Nous avons déjà combattu pour la
-Restauration de Kana !
-Et maintenant,nous allons nous battre
-pour Orelus ![end]</data>
+        <data>Matelite: Byuu !! Attends !! Les combats à venir ne seront plus pour la renaissance de Kana !!
+ 
+Ce sera un combat pour le monde d'Orelus tout entier !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1792</ref>
         </refs>
-        <data>COMMANDANT:
-Pas si vite,Matelight ![end]</data>
+        <data>Taicho: Matelite !! Attendez-moi, affirmatif !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x17a0</ref>
         </refs>
-        <data>MATELIGHT:
-Commandant !
- 
-L'honneur revient à une seule
-personne:
-le Général Palpaleos.[end]</data>
+        <data>Matelite: Taicho !! Tu sais, le truc... donne-le au général Palparos.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x17c3</ref>
         </refs>
-        <data>COMMANDANT:
-Matelight !
-Et moi ?![end]</data>
+        <data>Taicho: !! ... Matelite !! Laissez-moi faire, affirmatif !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x180d</ref>
         </refs>
-        <data>MATELIGHT:
-À vous,Général Palpaleos ![end]</data>
+        <data>Matelite: À vous, général Palparos !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1899</ref>
         </refs>
-        <data>Oooooooooh !
-Le Drapeau de l'Armée de Libération
-d'Orelus ![end]</data>
+        <data>Oh !!
+Le drapeau de l'Armée du salut d'Orelus !![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x18b9</ref>
         </refs>
-        <data>MATELIGHT:
-Nous devons aller sur le Fort de
-l'Empire ![end]</data>
+        <data>Matelite: La bataille décisive contre la forteresse volante de l'Empire !! En avant !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1671</ref>
         </refs>
-        <data>Obtenu [0xaa]SERGENT ???[0xab].[end][end]</data>
+        <data>Obtenu ``??? de Gunso''.[end][end]</data>
     </text>
 </texts>

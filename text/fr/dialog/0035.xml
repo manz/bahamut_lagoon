@@ -4,431 +4,328 @@
         <refs>
             <ref>0x540</ref>
         </refs>
-        <data>SAUZER:
-Je crains que ce ne soit pas la bonne
-méthode.
-Nous sommes vraiment du même monde...
-Aussi persévérants les uns que les
-autres.[end]</data>
+        <data>Sauzer: Tant pis.
+ 
+Depuis que je vous ai accueillie dans mon pays,j'ai fait preuve de beaucoup de patience.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa4</ref>
         </refs>
-        <data>MATELIGHT:
-[character][0x1]...[end]</data>
+        <data>Matelite: [character][0x1]...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb2</ref>
         </refs>
-        <data>SENDACK:
-Comme je vous l'avais dit,il y a un
-Dragon Sacré,ici...[end]</data>
+        <data>Sendak: Alors le Dragon Sacré aussi...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xce</ref>
         </refs>
-        <data>RUSH:
-L'autre type est sûrement Palpaleos ![end]</data>
+        <data>Rush: Et l'autre,c'est Palparos,j'en suis sûr ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x124</ref>
         </refs>
-        <data>LUKIA:
-Comment pourrions-nous gagner ?[end]</data>
+        <data>Ruki: On ne va peut-être pas gagner...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x148</ref>
         </refs>
-        <data>MATELIGHT:
-Quoi ! Abandonner ?![end]</data>
+        <data>Matelite: Pourquoi abandonner ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x154</ref>
         </refs>
-        <data>MATELIGHT:
-Tu peux répéter ?!
+        <data>Matelite: Faire demi-tour ?!
  
-Même si je perds la vie,[character][0x1] sera
-délivrée...[end]</data>
+Dussions-nous y laisser la vie,notre devoir est de ramener Yoyo ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6e3</ref>
         </refs>
-        <data>LUKIA:
-[character][0x0],hâte-toi ![end]</data>
+        <data>Ruki: Byuu,toi aussi,vite ![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x6a6</ref>
         </refs>
-        <data>[character][0x0],laisse-moi y aller !
-Courage,courage ![end]</data>
+        <data>Byuu... Je dois y aller.
+ 
+J'aurais tant voulu te parler encore...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x239</ref>
         </refs>
-        <data>C'est terrible...
-Pourquoi ?[end]</data>
+        <data>C'est cruel... Juste un ``À suivre !'' et c'est tout...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x397</ref>
         </refs>
-        <data>MATELIGHT:
-Humpf humpf...
+        <data>Matelite: Grrr...
  
-Notre pauvre [character][0x1]...
-Ils ne veulent que son don ![end]</data>
+Avec Yoyo en otage,nous avons les mains liées...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3bc</ref>
         </refs>
-        <data>SAUZER:
-Qui avons-nous là ?
-Seraient-ce les Rebelles ?!
-Mon dieu,vous osez me faire l'honneur
-de votre présence ?!
-J'en suis honoré ! Hahahahaha !
-Le pouvoir de votre Princesse vous
-intéresse également ?[end]</data>
+        <data>Sauzer: ...Qu'avez-vous dit ?
+ 
+Moi,retenir la Princesse en otage ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3e1</ref>
         </refs>
-        <data>SAUZER:
-La Princesse [character][0x1] est très importante
-à mes yeux...
-Surtout son pouvoir ![end]</data>
+        <data>Sauzer: La Princesse Yoyo nous est très précieuse. Et vous parlez d'otage...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3ed</ref>
         </refs>
-        <data>SAUZER:
-Reste où tu es,misérable !
- 
-C'est impoli de bouger quand une
-personne telle que moi daigne vous
-parler !
-J'ai beaucoup entendu parler de toi et
-de tes compagnons ces derniers temps.
-Vous m'exaspérez ![end]</data>
+        <data>Sauzer: Hmm... Je pardonnerai cette insolence. Je n'ai pas de temps à vous consacrer.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3f9</ref>
         </refs>
-        <data>SAUZER:
-Je vous en prie,par ici,
-Princesse [character][0x1]![end]</data>
+        <data>Sauzer: Amenez la Princesse Yoyo.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x47f</ref>
         </refs>
-        <data>SAUZER:
-Approchez !
+        <data>Sauzer: Allons,Princesse Yoyo.
  
-Votre père,le Roi de Kana,vous a
-transmis le pouvoir de votre Légende.
+Montrez-nous ce pouvoir légendaire que se transmet la famille royale de Kana.
  
-Ainsi,vous êtes l'héritière du pouvoir
-étrange permettant de contrôler les
-Dragons Sacrés ![end]</data>
+Ce pouvoir miraculeux qui plie les Dragons Sacrés à sa volonté ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x492</ref>
         </refs>
-        <data>[character][0x1]:
-Toutefois,je ne comprends pas le sens
-de la Légende !
-Elle est si ancienne...[end]</data>
+        <data>Yoyo: Je ne connais aucune légende... Je vous l'ai dit tant de fois...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x49e</ref>
         </refs>
-        <data>PALPALEOS:
-Princesse [character][0x1],n'ayez crainte !
-Je vous le promets !
-Nous connaîtrons le coeur des Dragons
-Sacrés.[end]</data>
+        <data>Palparos: Princesse Yoyo,n'ayez crainte. Vous l'avez promis,n'est-ce pas ? Révélez-nous le cœur des Dragons Sacrés.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4ad</ref>
         </refs>
-        <data>[character][0x1]:
-Général Palpaleos...[end]</data>
+        <data>[character][0x1]: Général Palparos...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4d1</ref>
         </refs>
-        <data>MATELIGHT:
-[character][0x1],fuyez !
- 
-Le Roi de Kana vous a légué un
-pouvoir trop important ![end]</data>
+        <data>Matelite: Yoyo !! N'en faites rien ! N'oubliez pas le noble cœur de la famille royale de Kana ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x510</ref>
         </refs>
-        <data>[character][0x1]:
-Matelight...[end]</data>
+        <data>[character][0x1]: Matelite...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x51c</ref>
         </refs>
-        <data>[character][0x1]:
-C'est inutile,Empereur Sauzer !
-Je n'y parviens pas...[end]</data>
+        <data>Yoyo: Empereur Sauzer... c'est inutile. Je...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x52a</ref>
         </refs>
-        <data>SAUZER:
-Je vois,en effet...
-Inutile de me le dire...[end]</data>
+        <data>Sauzer: Je vois... Vous n'y parvenez pas,dites-vous...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x54c</ref>
         </refs>
-        <data>SAUZER:
-Sachez toutefois,Princesse,que c'est
-aujourd'hui que je deviendrai l'homme
-légendaire même sans votre pouvoir ![end]</data>
+        <data>Sauzer: Mais c'en est fini aujourd'hui.
+ 
+Je peux devenir l'homme de la légende sans l'aide de votre pouvoir ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x559</ref>
         </refs>
-        <data>SAUZER:
-Soyez heureuse !
- 
-Rejoignez vos amis,cette bande de
-rebelles ![end]</data>
+        <data>Sauzer: Cela suffit. Retournez donc auprès de vos amis.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5a7</ref>
         </refs>
-        <data>SAUZER:
-J'ouvrirai moi-même la Porte de la
-Nouvelle Ère !
-C'est regrettable pour vous ![end]</data>
+        <data>Sauzer: Quel dommage que nous ne puissions voir ensemble s'ouvrir la Porte de la Nouvelle Ère ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5b5</ref>
         </refs>
-        <data>PALPALEOS:
-Arrêtez ![end]</data>
+        <data>Palparos: Attends ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7ff</ref>
         </refs>
-        <data>MATELIGHT:
-[character][0x0],tiens bon ![end][end]</data>
+        <data>Matelite: Byuu... Pour l'instant,il faut prendre sur nous...[end][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x63d</ref>
         </refs>
-        <data>SENDACK:
-La Princesse...[end]</data>
+        <data>Sendak: La Princesse...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x79f</ref>
         </refs>
-        <data>LUKIA:
-Quel machiavélisme ![end]</data>
+        <data>Ruki: Byuu,qu'est-ce qu'on fait ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xbe</ref>
         </refs>
-        <data>COMMANDANT:
-Cet Empereur Sauzer...[end]</data>
+        <data>Taicho: C'est donc lui,l'Empereur Sauzer...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x168</ref>
         </refs>
-        <data>MATELIGHT:
-Attendez une minute ![end]</data>
+        <data>Matelite: Non,attendez un peu.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x177</ref>
         </refs>
-        <data>MATELIGHT:
-Sendack,quelque chose ne va pas ?[end]</data>
+        <data>Matelite: Sendak,tu as quelque chose à dire ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x185</ref>
         </refs>
-        <data>SENDACK:
-Je n'en sais rien...[end]</data>
+        <data>Sendak: ...Ma foi,il y aurait bien quelque chose.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x196</ref>
         </refs>
-        <data>SENDACK:
-Je réfléchissais...[end]</data>
+        <data>Sendak: J'ai réfléchi...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1a7</ref>
         </refs>
-        <data>SENDACK:
-Autrefois,avant la Chute de Kana,
-Sauzer avait emmené la Princesse !
-Mais à quelle fin ?
-Il l'a maintenant emmenée devant le
-Dragon Sacré...
-Essaierait-il de le réveiller ?[end]</data>
+        <data>Sendak: Ce jour-là,le dernier jour de Kana...
+ 
+Pourquoi Sauzer a-t-il emmené la Princesse ?
+ 
+Et maintenant,il l'amène devant le Dragon Sacré... Mais dans quel but ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1b3</ref>
         </refs>
-        <data>TAURUS:
-Je comprends ce que tu veux dire...
-[character][0x1] est la fille du Roi de Kana et
-elle a donc les mêmes pouvoirs que
-père.[end]</data>
+        <data>Truth: Je crois comprendre...
+ 
+Yoyo est la fille du Roi de Kana. Elle a le même pouvoir que lui...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1c6</ref>
         </refs>
-        <data>RUSH:
-[character][0x1] est capable de parler au Dragon
-Sacré ![end]</data>
+        <data>Rush: Yoyo aussi peut parler aux Dragons Sacrés ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1d4</ref>
         </refs>
-        <data>SENDACK:
-Quel désastre ![end]</data>
+        <data>Sendak: Je le crois aussi.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1e1</ref>
         </refs>
-        <data>SENDACK:
-Et si Sauzer avait la force de parvenir
-à ses fins...[end]</data>
+        <data>Sendak: Sauzer doit convoiter ce pouvoir plus que tout...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1f3</ref>
         </refs>
-        <data>MATELIGHT:
-Ne vous inquiétez pas !
-Tout ira pour le mieux ![end]</data>
+        <data>Matelite: Tout ira bien ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x201</ref>
         </refs>
-        <data>MATELIGHT:
-Sendack,ne t'inquiète plus !
-[character][0x1] nous reviendra bientôt !
-Sauzer n'a pas tout planifié car la
-Rebellion arrive ![end]</data>
+        <data>Matelite: Sendak,ne t'en fais pas !
+ 
+Yoyo nous reviendra très bientôt ! Peu importe ce que Sauzer manigance ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x20d</ref>
         </refs>
-        <data>MATELIGHT:
-Allons combattre !
+        <data>Matelite: Bon,en avant...
  
-Maintenant,je n'écoute plus les
-inepties de Sendack.[end]</data>
+J'avais juste envie d'écouter Sendak radoter un peu...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2b5</ref>
         </refs>
-        <data>SENDACK:
-[character][0x0]...[end]</data>
+        <data>Sendak: [character][0x0]...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x25c</ref>
         </refs>
-        <data>RUSH:
-Allons droit au but ![end]</data>
+        <data>Rush: Les vieux vont nous passer devant ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x277</ref>
         </refs>
-        <data>TAURUS:
-Une personne est à délivrer,
-hâtons-nous ![end]</data>
+        <data>Truth: Attends,c'est dangereux d'y aller seul ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x64b</ref>
         </refs>
-        <data>SENDACK:
-Tout le monde a compris ![end]</data>
+        <data>Sendak: Vous n'avez rien compris...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x656</ref>
         </refs>
-        <data>SENDACK:
-Nous savons maintenant ce que veut
-l'Empereur Sauzer.
-Il essaie d'avoir la force du Dragon
-Sacré grâce au pouvoir de la Princesse.
-Mais quel est son but ?
-Sauzer... l'Empereur de Granbelos !
-Sauzer... l'Empereur qui contrôle
-Orelus !
-Jusqu'où veut-il aller ?[end]</data>
+        <data>Sendak: Moi,je parle de ce que veut Sauzer. Parler aux Dragons Sacrés grâce au pouvoir de la Princesse. Et... après ?
+ 
+Sauzer,Empereur de Granbelos. Sauzer,maître d'Orelus. Que peut-il vouloir de plus ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x66e</ref>
         </refs>
-        <data>MATELIGHT:
-Sendack,ne t'éternise pas !
- 
-Même si tu n'es plus très jeune,tu
-peux te dépêcher quand même ![end]</data>
+        <data>Matelite: Sendak ! Un Remède !! Les jeunots sont mal en point ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6b2</ref>
         </refs>
-        <data>COMMANDANT:
-Matelight !
-Frappe ![end][end]</data>
+        <data>Taicho: Matelite ! Tenez bon ![end][end]</data>
     </text>
 </texts>

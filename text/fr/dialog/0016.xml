@@ -1,290 +1,232 @@
 <?xml version="1.0" standalone="yes"?>
 <texts base="0x63e" room_id="16">
-    <text>
+    <text window="none">
         <refs>
             <ref>0x6a</ref>
             <ref>0x76</ref>
             <ref>0x5e</ref>
         </refs>
-        <data>                [character][0x1]...[end]</data>
+        <data>Yoyo...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x81</ref>
         </refs>
-        <data>           Réveille-toi...[end]</data>
+        <data>Éveille-toi...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xa6</ref>
         </refs>
-        <data>               [character][0x1]...
+        <data>Yoyo...
  
-  
-     Assume le nom de Dragoon !
-           Réveille-toi !
+Toi qui deviendras Dragonnière,
+éveille-toi...
  
-  Tu n'as pas de temps à perdre.[end]</data>
+Le temps nous est compté.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xc2</ref>
         </refs>
-        <data>      Je suis le Dragon Sacré
-            Jormungand.
-    Je t'attends dans le désert.
-   Je te dirai ce que je veux te
-          faire savoir.
+        <data>Je suis Jormungand, le Dragon Sacré.
+Je t'attends au temple du désert.
  
-   Nous,les Dragons Sacrés,avons
-      énormément besoin de toi.[end]</data>
+Là, enfin... je te révélerai tout.
+ 
+Nous, les Dragons Sacrés...
+nous avons besoin de toi.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xc8</ref>
         </refs>
-        <data>         -Ouvre cette porte-
-            et viens à moi...[end]</data>
+        <data>Viens...
+Ouvre la porte, et viens jusqu'à moi.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x219</ref>
         </refs>
-        <data>[character][0x1]:
-Hein... huuum...[end]</data>
+        <data>Yoyo: Mm... mmh...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x224</ref>
         </refs>
-        <data> 
-Que faites-vous tous ici ?![end]</data>
+        <data>Vous êtes tous là...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x268</ref>
         </refs>
-        <data>[character][0x1]:
-Le Dragon Sacré Jormungand m'a
-réveillée.
-Il est en colère,je dois aller à sa
-rencontre.[end]</data>
+        <data>Yoyo: Le Dragon Sacré... Jormungand... m'appelle. Je dois y aller...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x231</ref>
         </refs>
-        <data>ZORA:
-Tout va bien,Princesse ?[end]</data>
+        <data>Zora: Princesse... Vous allez bien ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x279</ref>
         </refs>
-        <data>ZORA:
-C'est impossible !
-Vous ne pouvez pas y aller.
-J'irai moi-même au combat pour aller
-chercher ce dragon à votre place.[end]</data>
+        <data>Zora: Ne forcez pas, voyons.
+ 
+Nous pouvons très bien combattre sans vous.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2c7</ref>
         </refs>
-        <data>MATELIGHT:
-Au fait,Princesse,nous avons de
-bonnes nouvelles.
-Nous avons vaincu l'Empereur Sauzer.
-Bientôt,notre Kana revivra ![end]</data>
+        <data>Matelite: Ah oui... Princesse Yoyo ! J'ai une bonne nouvelle ! Nous avons vaincu Sauzer ! Kana renaîtra bientôt ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2dc</ref>
         </refs>
-        <data>COMMANDANT:
-Palpaleos a aussi été vaincu !
-C'est la dure réalité de la guerre.
-Princesse [character][0x1],vous devez être
-épuisée ![end]</data>
+        <data>Taicho: Nous avons aussi vaincu le général Palparos... Au combat, il faut être impitoyable... Princesse Yoyo... je suis content de vous voir rétablie, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x302</ref>
         </refs>
-        <data>... ... ... ... ![end]</data>
+        <data>... ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x29d</ref>
         </refs>
-        <data>[character][0x1]:
-Je dois y aller par moi-même !
+        <data>Yoyo: Je dois y aller moi-même...
  
-Le Dragon Sacré Jormungand m'a dit
-qu'il avait certaines choses à me
-révéler.[end]</data>
+Le Dragon Sacré Jormungand... veut me dire quelque chose.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x31c</ref>
         </refs>
-        <data>Princesse [character][0x1]!
-Que vous arrive-t-il ?[end]</data>
+        <data>Princesse Yoyo !![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x369</ref>
         </refs>
-        <data>[character][0x1]... Je suis là...
-Ne vous inquiétez pas ![end]</data>
+        <data>Yoyo... ne t'inquiète pas. Je suis là.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x3a1</ref>
         </refs>
-        <data>PALPALEOS:
-En effet,j'ai été vaincu par les
-Rebelles mais je suis encore en vie.
-Ils ont vraiment gagné en force ![end]</data>
+        <data>Palparos: Yoyo... J'ai été vaincu... Tes compagnons... les Rebelles sont devenus forts.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x3ad</ref>
         </refs>
-        <data>[character][0x0]...
-Matelight...
-Commandant...[end]</data>
+        <data>Byuu... Matelite... Taicho...
+...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x37f</ref>
         </refs>
-        <data>Général Palpaleos...[end]</data>
+        <data>Général... Palparos...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x3b9</ref>
         </refs>
-        <data>Ma tendre [character][0x1],je ne peux même pas
-réaliser mon souhait le plus cher...
-Être avec vous ![end]</data>
+        <data>Moi... Yoyo... je ne peux même pas rester à tes côtés...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x3c5</ref>
         </refs>
-        <data>Qui avez-vous choisi,[character][0x1]?[end]</data>
+        <data>Et maintenant, qui choisirais-tu... Yoyo...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x3d1</ref>
         </refs>
-        <data>Si la Nouvelle Ère s'ouvre à nous,
-j'aimerais être à tout jamais à vos
-côtés.[end]</data>
+        <data>Une nouvelle ère... Si elle vient un jour, alors moi... j'irai vers toi...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x40d</ref>
         </refs>
-        <data>GARUDA:
-Hahahahaha !
-Fille,la dénommée Dragoon !
-Est-ce là ton ambition ?
-Ce TRÈS petit rêve ou dois-je dire ce
-MINUSCULE rêve ?![end]</data>
+        <data>Garuda: Jeune fille... toi qui deviendras Dragonnière... C'est là tout ce que tu souhaites ?
+ 
+Voilà... un bien petit rêve...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x41b</ref>
         </refs>
-        <data>[character][0x1]:
-Ce petit rêve...
-Mais je ne peux même pas le réaliser ![end]</data>
+        <data>Yoyo: Un petit rêve...
+ 
+Et pourtant, un rêve que je ne peux même pas réaliser...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x426</ref>
         </refs>
-        <data>GARUDA:
-Pourquoi penses-tu cela,
-fille au petit rêve ?
-Si notre pouvoir est entre tes mains,
-tout ce que tu désires sera contrôlé
-par ton esprit.[end]</data>
+        <data>Garuda: Toi qui rêves si petit... pourquoi penses-tu ainsi... ? Avec notre pouvoir, ce monde t'appartiendra.
+ 
+Tout ce que tu désires se pliera à ta volonté.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x433</ref>
         </refs>
-        <data>[character][0x1]:
-Si le monde est mien,il y a une chose
-que je ne pourrai changer...
-Ce sont les sentiments qui sont
-profondément ancrés dans nos coeurs.
+        <data>Yoyo: Même si le monde m'appartenait... il y a des choses qu'on ne peut changer...
  
-Indubitablement,
-ils ne pourront changer...[end]</data>
+Les sentiments de quelqu'un qui s'est éloigné... son cœur... ça... je ne pourrai sûrement pas le changer...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x43d</ref>
         </refs>
-        <data>GARUDA:
-Ne sois pas déçue,fille au petit rêve !
+        <data>Garuda: Ne te lamente pas, jeune fille...
  
-Tu connais maintenant nos sentiments
-et tu peux nous contrôler.
+Jusqu'ici, tu as su connaître le cœur des Dragons Sacrés... et tu nous as guidés.
  
-Tu es meilleure et plus apte comparée
-à l'autre personne qui connaît nos
-coeurs.[end]</data>
+Tu t'en sors mieux que l'autre qui connaît le cœur des Dragons Sacrés...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x447</ref>
         </refs>
-        <data>Tu veux parler de l'Empereur ?
-Mais il est maintenant...[end]</data>
+        <data>Yoyo: L'autre... l'Empereur Sauzer... Que devient-il... ?[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x451</ref>
         </refs>
-        <data>GARUDA:
-Non !
-Je peux sentir sa faible vie.
-Il n'est pas mort...
-L'homme de tes rêves,lui aussi se
-porte bien.
-Ne t'inquiète pas !
-N'est-ce pas cela que tu désirais
-savoir ?[end]</data>
+        <data>Garuda: Je sens en lui un faible souffle de vie... L'homme de tes rêves est sain et sauf, lui aussi...
+ 
+Ne t'inquiète pas... Mais ce n'est pas cela que tu veux vraiment savoir...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x461</ref>
         </refs>
-        <data>[character][0x1]:
-Garuda...
+        <data>Yoyo: Garuda...
  
-Si je réalise tous mes désirs,il est une
-chose que j'aimerais avoir par-dessus
-tout...[end]</data>
+Si vraiment... tous mes souhaits peuvent se réaliser... il y a une chose que je voudrais...
+...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x471</ref>
         </refs>
-        <data>La bravoure,le genre de bravoure en
-laquelle je peux avoir totalement
-confiance.[end]</data>
+        <data>Le courage de croire... Donne-le-moi...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x534</ref>
         </refs>
-        <data>           Chapitre [0xb0][0xb5]
-   -Le Dragon Sacré Jormungand-[end][end]</data>
+        <data>Chapitre [0xb0][0xb5]
+-Le Dragon Sacré Jormungand-[end][end]</data>
     </text>
 </texts>

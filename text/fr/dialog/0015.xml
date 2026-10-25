@@ -4,342 +4,259 @@
         <refs>
             <ref>0x7da</ref>
         </refs>
-        <data> Livres.
- Champignons.[end1]</data>
+        <data> Le libraire.
+ Le champignonniste.[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x9e</ref>
         </refs>
-        <data>             Chapitre [0xb0][0xb4]
--Combat décisif dans les Sables Chauds-[end]</data>
+        <data>Chapitre [0xb0][0xb4]
+-Duel dans les sables brûlants-[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xc0</ref>
         </refs>
-        <data>HORNET:
-FARENHEIT est en train de passer à
-travers l'orage et se dirige
-maintenant vers Dafira.
-C'est un lagon désert,chaud et
-sablonneux comme tous les déserts.
-C'est un lagon où règnent la chaleur
-et l'ardeur.[end]</data>
+        <data>Hornet: Fareneit passe par la route des nuages d'orage, en direction de Dafira, la terre du désert.
+Dafira, la terre du désert... Chaude... d'une chaleur à suffoquer... Un lagon de sable...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xc8</ref>
         </refs>
-        <data>C'est le lieu où autrefois j'aimais
-vivre.[end]</data>
+        <data>Nous voilà à mi-chemin de notre campagne...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xcc</ref>
         </refs>
-        <data>Nous voyageons maintenant dans ce
-ciel bleu pour combattre l'Empire et
-rechercher les Dragons Sacrés.[end]</data>
+        <data>Jusqu'ici, nous avons dérivé sur la mer du ciel, à la recherche des Dragons Sacrés...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xf5</ref>
         </refs>
-        <data>La colère,les blessures et l'amertume
-des Dragons Sacrés ont rendu la
-Princesse malade.[end]</data>
+        <data>Les Dragons Sacrés déversent leur colère, leur tristesse et leur haine sur la princesse Yoyo... Ils la font souffrir... la blessent...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xf9</ref>
         </refs>
-        <data>Elle est souffrante à cause de...
-cette colère.[end]</data>
+        <data>Ce soir, au bar de Fareneit, je vais boire jusqu'à l'aube... en priant.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x104</ref>
         </refs>
-        <data>La colère des Dragons Sacrés et la
-Princesse...
-Pour l'amour de [character][0x1]...
-Dragons Sacrés dites-moi pourquoi
-vous êtes si furieux ?
-Pourquoi vous haïssez-vous ?
-Quelle est votre souffrance ?
-Est-ce à cause du jour où la guerre
-a éclaté à Orelus ?
-J'ai l'impression que cette époque est
-lointaine...
-Je le crois même...[end]</data>
+        <data>Pour la princesse Yoyo...
+ 
+Elle s'est effondrée sous la colère des Dragons Sacrés... la princesse Yoyo...
+ 
+Dragons Sacrés... pourquoi la faire souffrir... Qu'est-ce que vous haïssez...
+ 
+Tout... ?
+ 
+Ce monde d'Orelus... ces jours de guerre... tout est détraqué...
+ 
+Vous ressentez la même chose que moi... ? La seule chose en laquelle on peut croire, c'est ce ciel...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x115</ref>
         </refs>
-        <data>Les Rebelles,je veux dire Matelight et
-les autres,m'ont sauvé de l'Empire !
-Ils sont formidables...
-Ils ne font que des actions droites et
-justifiables !
-Je les ai rejoints...
-Je suis redevenu un homme et j'ai
-retrouvé mon sens de l'humour...[end]</data>
+        <data>Mais tu sais... moi, j'ai trouvé du réconfort...
+
+Matelite et les autres... Des braves types, gentils à en être agaçants... Leur droiture me fait mal...
+
+Grâce à eux... même un type comme moi s'est remis à rire, ces derniers temps...
+Pas vrai...
+ 
+Sauzer...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x139</ref>
         </refs>
-        <data>Oui Sauzer !
-Ils ne sont pas comme toi !
-Cette lettre que tu m'as envoyée...[end]</data>
+        <data>C'est bien toi, ça... Cette lettre... signée de l'Empereur Sauzer...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x146</ref>
         </refs>
-        <data>Je l'ai conservée:
-Le Dragon Sacré Jormungand se trouve
-près de la ville de Dafira.
-Je vous y attendrai avec les Rebelles.[end]</data>
+        <data>Voici ce qu'elle dit...
+ 
+``Le Dragon Sacré Jormungand dort à Dafira, la terre du désert.
+ 
+Je vous y attends. Venez, Rebelles.''[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x157</ref>
         </refs>
-        <data>Soyez-y présents !
+        <data>Tu n'as pas changé... depuis cette époque.
  
-  
-Je vois que depuis notre rencontre à
-ce bar,tu n'as toujours pas changé.[end]</data>
+Cette fois-là aussi... c'était un bar bien triste... où le temps semblait s'être arrêté...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x198</ref>
         </refs>
-        <data>SAUZER:
-Buvons au pouvoir !
+        <data>Sauzer: Je te le demande une dernière fois...
  
-Aide-moi Hornet ![end]</data>
+Reprends l'épée pour moi...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x1a4</ref>
         </refs>
-        <data>Tu as la force d'un Chevalier Croix !
-Brandis ton épée pour moi !
+        <data>J'ai besoin de ta force, toi qui étais Croisé...
  
-J'ai besoin de toi pour conquérir le
-ciel d'Orelus.[end]</data>
+Pour conquérir le monde d'Orelus... le ciel tout entier...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x1af</ref>
         </refs>
-        <data>HORNET:
-Tu veux conquérir le...
-ciel ?[end]</data>
+        <data>Hornet: Le ciel tout entier... Et à quoi bon... ?[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x1b9</ref>
         </refs>
-        <data>Mais le ciel n'appartient à personne.
-Nous y flottons seulement,laissant de
-côté nos ennuis et nous nous en
-réjouissons !
-Par conséquent,je ne brandirai pas
-mon épée à ton service.[end]</data>
+        <data>Le ciel n'appartient à personne... Nous ne faisons qu'y flotter, sans attache, bercés par lui...
+Moi... je ne tiendrai plus jamais d'épée...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x1c4</ref>
         </refs>
-        <data>SAUZER:
-Craindrais-tu la Guerre ?[end]</data>
+        <data>Sauzer: ... Le combat te fait peur...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x1cf</ref>
         </refs>
-        <data>HORNET:
-Peur ?
-Peut-être que oui !
-Sauzer,au cours de ta vie,ne blesse
-personne pour de futiles raisons.
+        <data>Hornet: Peur... peut-être bien...
  
-Si j'étais toi,je prendrais cette brave
-et sage décision.[end]</data>
+Mais vois-tu... Sauzer. Poser l'épée... vivre sans blesser personne... pour moi, c'est une décision qui demande du courage...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x1db</ref>
         </refs>
-        <data>SAUZER:
-Ton rêve est d'être le capitaine d'un
-grand vaisseau et de voler à la
-conquête du ciel.
-Si tu veux un jour ce bateau,
-rejoins-moi !
-Je t'attendrai jusqu'à ce jour ![end]</data>
+        <data>Sauzer: ... Hornet. Ton rêve... un grand vaisseau qui parcourt le ciel... Un jour, tu m'y feras monter.
+ 
+Et alors... tu voleras doucement dans mon ciel...
+ 
+D'ici là... reste en vie...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x768</ref>
         </refs>
-        <data>MATELIGHT:
-[character][0x1],je jure qu'il ne vous arrivera
-rien avec moi.[end]</data>
+        <data>Matelite: Princesse Yoyo... Moi... je ne peux rien faire...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7cd</ref>
         </refs>
-        <data>J'aurais aimé annoncer quelque chose
-à mon chef,Hornet.
+        <data>Le patron Hornet nous a dit un jour...
  
-Homme du ciel,je crois que je vais
-bientôt mettre un terme à ma carrière
-de matelot car j'ai montré la plupart
-de mes faiblesses lorsque nous avons
-aveuglément traversé la tempête.[end]</data>
+Qu'un homme du ciel... se sent parfois tout petit... Et quand il ne veut pas montrer cette faiblesse, il passe par la route des nuages d'orage...
+ 
+Et dans ces cas-là... nous, l'équipage, on dort avec un livre pour oreiller...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7d6</ref>
         </refs>
-        <data>J'ai beaucoup de splendides choses à
-te vendre.[end]</data>
+        <data>Eh bien... euh... c'est assez bien payé, vous savez... Je vais vous en vendre plein ![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x29e</ref>
         </refs>
-        <data>ZORA:
-Réunissons-nous et attendons ![end]</data>
+        <data>Zora: Allez, tout le monde, rassemblez-vous ![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x2d0</ref>
         </refs>
-        <data>ZORA:
-Comme vous le savez déjà...
+        <data>Zora: Écoutez bien...
  
-[character][0x1] n'est plus maintenant en grande
-forme.[end]</data>
+La princesse Yoyo ne va pas bien...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x2fe</ref>
         </refs>
-        <data>Toutefois,même si l'Empereur Sauzer
-revient,tôt ou tard,nous devons
-aller nous battre à Dafira pendant
-qu'il est encore convalescent.
-J'ai maintenant une chose importante
-à vous annoncer...
-[character][0x1] va bientôt devenir une Dragoon
-mais elle souffre de maux dus aux
-Dragons Sacrés.
-Mais pour elle,je ferai tout ce qui est
-en mon pouvoir pour vaincre l'Empire.[end]</data>
+        <data>Même si l'Empereur Sauzer se montre, il faut qu'elle se repose pendant la bataille de Dafira ! C'est un moment crucial... La princesse Yoyo endure les souffrances d'une Dragonnière. C'est à nous de tenir bon.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x309</ref>
         </refs>
-        <data>Bien !
-Soyez tous prêts ![end]</data>
+        <data>Compris ?! Je compte sur vous ![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x344</ref>
         </refs>
-        <data>HORNET:
-Préparez-vous tous,nous allons bientôt
-passer les nuages !
-Et derrière eux se trouve le lagon
-désertique Dafira et son incroyable
-température.[end]</data>
+        <data>Hornet: Courage ! On va bientôt sortir des nuages d'orage ! Dafira est un lagon de désert... Ça va chauffer ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x811</ref>
         </refs>
-        <data>RUSH:
-Nous allons combattre dans les sables
-chauds !
-C'est un terrain approprié contre
-Sauzer.[end]</data>
+        <data>Rush: Une bataille dans les sables brûlants ! Digne d'un duel décisif contre Sauzer ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x81e</ref>
         </refs>
-        <data>TAURUS:
-Tu ne penses pas que [character][0x1] ne
-devrait pas combattre ?
-Si Sauzer était en ce moment même
-devant moi,je n'hésiterais pas à le
-tuer malgré sa maladie.[end]</data>
+        <data>Truth: Pourrons-nous combattre sans la princesse Yoyo... ? Tels que nous sommes, nous devrions tenir tête à Sauzer, mais...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x82c</ref>
         </refs>
-        <data>BIKKEBAKKE:
-Dans la chambre de [character][0x1],les hommes
-n'ont pas le droit d'entrer.
-Mais je crois que je vais pouvoir
-regarder par cette serrure.
+        <data>Bikebake: La chambre de la princesse Yoyo est interdite aux garçons, paraît-il... (Miam miam... psst psst...)
+
+En fait, Byuu... j'ai embauché un vendeur pour ma boutique de champignons.
  
-Au fait,frère,je vais bientôt avoir une
-file d'attente dans mon magasin de
-Champignons.
-Et plus tard,je l'agrandirai,
-puis j'aurai un gros salaire.[end]</data>
+Il faut bien agrandir le magasin... Et je lui verse même un salaire.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x783</ref>
         </refs>
-        <data>HORNET:
-Nous combattons toujours plus mais il
-faut rester ferme.
-Allons-nous atterrir ?[end]</data>
+        <data>Hornet: Ça y est, c'est la bataille décisive... Courage ! On débarque ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x787</ref>
         </refs>
-        <data> Se préparer.
- Atterrir.[end1]</data>
+        <data> Attendre.
+ Débarquer ![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x76f</ref>
         </refs>
-        <data>SENDACK:
-L'Empereur Sauzer connaît le coeur
-des Dragons Sacrés.
-Je crois qu'ils n'en sont pas fiers,
-donc nous devons nous battre pour
-éviter le pire.[end]</data>
+        <data>Sendak: L'Empereur Sauzer... connaît le cœur des Dragons Sacrés... Il sait donc où ils se trouvent... Nous... nous ne pourrons pas éviter le combat...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x779</ref>
         </refs>
-        <data>COMMANDANT:
-Nous tiendrons bon jusqu'au bout ![end]</data>
+        <data>Taicho: Je dois tenir bon, moi, affirmatif... ![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x3a0</ref>
         </refs>
-        <data>RUSH:
-Nous allons enfin sortir de ces nuages.
+        <data>Rush: On sort des nuages !!
 Compte à rebours !
 [0xb2]... ...
  

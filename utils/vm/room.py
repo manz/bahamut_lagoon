@@ -14,6 +14,9 @@ from .program import Entry, Program
 if TYPE_CHECKING:
     from .opcodes import OpcodeProtocol
 
+OPEN_WINDOW = 0x35  # its operand: 0 shows the texts after it without a frame, 1 in the framed window
+TEXT_OPCODES = (0x08, 0x09, 0x37)  # yes_no, multiple_choice, display_text: their text pointer follows the opcode
+
 text_path = os.path.join(os.path.dirname(__file__), "../../text")
 
 
@@ -106,6 +109,19 @@ class Room:
             return sorted_program_keys[0]
         return None
 
+    def windowless_refs(self) -> set[int]:
+        """The text pointers the script shows without a frame: those after an open_window 0, up to the next one."""
+        refs: set[int] = set()
+        framed = True
+        for address, (data, _comment, _size) in sorted(self.program._program.items()):
+            if data[0] != "opcode":
+                continue
+            if data[2] == OPEN_WINDOW:
+                framed = self.room[address + 1] != 0
+            elif data[2] in TEXT_OPCODES and not framed:
+                refs.add(address + 1)
+        return refs
+
     def dump_text(self, override_strings: list[str] | None = None) -> ET.Element | None:
         text_program = self.program.filter(_is_text)
         sorted_program_keys = sorted(text_program.keys())
@@ -113,8 +129,11 @@ class Room:
             root = ET.Element("texts")
             root.set("room_id", str(self.id))
             root.set("base", hex(sorted_program_keys[0]))
+            windowless = self.windowless_refs()
             for index, key in enumerate(sorted_program_keys):
                 text = ET.SubElement(root, "text")
+                if windowless & set(self.program._text_pointers[key]):
+                    text.set("window", "none")
 
                 refs = ET.SubElement(text, "refs")
 

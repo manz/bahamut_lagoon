@@ -37,7 +37,7 @@
         <refs>
             <ref>0x6</ref>
         </refs>
-        <data>Équipe[0xff]</data>
+        <data>Escouade[0xff]</data>
     </string>
     <string>
         <refs>
@@ -76,7 +76,7 @@
         <refs>
             <ref>0x11</ref>
         </refs>
-        <data>Fin du tour[0xff]</data>
+        <data>Fin de phase[0xff]</data>
     </string>
     <string>
         <refs>

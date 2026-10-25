@@ -4,692 +4,541 @@
         <refs>
             <ref>0x3ce</ref>
         </refs>
-        <data>Vous êtes les Rebelles,n'est-ce pas ?
-Personnellement,je crois que vous avez
-bonne réputation et un grand coeur.
-C'est ça que j'aime ![end][end]</data>
+        <data>Alors c'est vous, les Rebelles ?
+ 
+Se proclamer soi-même Rebelles... quel panache... J'adore... Haa, haa...[end][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x38c</ref>
         </refs>
-        <data>Il y a une personne qui dort,
-ne fais pas de bruit.[end]</data>
+        <data>Quelqu'un dort, au fond. Pas de bruit.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x764</ref>
         </refs>
-        <data>[character][0x13]: Mon dieu,cette ravissante jeune femme 
-est malade.[end]</data>
+        <data>Donfan: Oh, si j'avais su qu'une dame souffrante était alitée ici... Oh là là ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3c5</ref>
         </refs>
-        <data>Il y a,dans cette ville,de nombreux
-Petits Démons qui sont libres.
-Ils pourraient vous aider ?[end]</data>
+        <data>Bienvenue.
+ 
+Si vous emmenez les Diablotins qui ont élu domicile dans cette ville, c'est gratuit pour les Rebelles ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5f4</ref>
         </refs>
-        <data>DON JUAN:
-Grâce à votre flamme,
-j'ai le coeur chaud.
-Vous êtes pour moi une jeune personne
-venue tout droit du ciel.[end]</data>
+        <data>Donfan: Il est une chose plus brûlante que les flammes les plus ardentes. Une chose plus brûlante que le soleil qui flotte dans le ciel.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5fa</ref>
         </refs>
-        <data>Le saviez-vous ?[end]</data>
+        <data>Savez-vous laquelle ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x608</ref>
         </refs>
-        <data>Ah ?!
-Mais qui êtes-vous ?![end]</data>
+        <data>Hein... ?! Qu'est-ce que... Qui êtes-vous ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x612</ref>
         </refs>
-        <data>DON JUAN:
-Mais je suis Don Juan qui a d'énormes
-sentiments pour vous ![end]</data>
+        <data>Donfan: C'est la passion brûlante que moi, Dooonfan, éprouve pour vous ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x618</ref>
         </refs>
-        <data>Haha...[end]</data>
+        <data>Euh...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x628</ref>
         </refs>
-        <data>DON JUAN:
-Moi,Don Juan,je vous aime.
-J'ai un grand coeur.[end]</data>
+        <data>Donfan: En clair, gnagnagna... Donfan's burning heart. You, roger ? Voilà.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x634</ref>
         </refs>
-        <data>Vous avez un coeur pur mais il est si
-seul... si solitaire ![end]</data>
+        <data>I am, cœur pur, loneliness alone ! OK ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x642</ref>
         </refs>
-        <data>Vous ne le pensez pas ?[end]</data>
+        <data>Inutile de cacher votre gêne...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x650</ref>
         </refs>
-        <data>Si j'observais votre coeur dans un
-microscope,je verrais que j'y suis
-présent.[end]</data>
+        <data>Je crois pouvoir lire dans votre cœur comme si je l'observais au microscope.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x659</ref>
         </refs>
-        <data>Cependant j'y vois aussi que vous
-manquez d'audace.[end]</data>
+        <data>Beurk... ce type ferait-il du porte-à-porte pour vendre des microscopes...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x669</ref>
         </refs>
-        <data>DON JUAN:
-Etc etc etc...[end]</data>
+        <data>Donfan: En clair, gnagnagna...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x697</ref>
         </refs>
-        <data>LUKIA:
-Don Juan !
-Que fais-tu ?[end]</data>
+        <data>Ruki: Donfaaan !! ...Qu'est-ce que tu fabriques ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8ac</ref>
             <ref>0x6af</ref>
         </refs>
-        <data>DON JUAN:
-Hein ?!
-Oh,pardonne-moi Lukia ![end]</data>
+        <data>Donfan: Oups, oups, oups ?! Oh, pardonne-moi, Ruki !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x703</ref>
         </refs>
-        <data>Dans ce lit se trouve une personne
-venant de Kana.[end]</data>
+        <data>On dirait qu'elle a dérivé jusqu'ici depuis Kana.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x70d</ref>
         </refs>
-        <data>[character][0x0]...
-Est-ce que je cauchemarde ?[end]</data>
+        <data>Elle gémit sans arrêt ``Byuu, Byuu'' dans son sommeil.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x71b</ref>
         </refs>
-        <data>MIST:
-[character][0x0]?[end]</data>
+        <data>Mist: ...Byuu... ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x721</ref>
         </refs>
-        <data>Est-ce toi,[character][0x0]?![end]</data>
+        <data>C'est toi... Byuu... ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x72a</ref>
         </refs>
-        <data>C'est moi... Mist...
-Une cavalière de Kana ![end]</data>
+        <data>C'est moi... Mist... de l'ancien ordre des chevaliers de Kana.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x734</ref>
         </refs>
-        <data>Tu ne me reconnais pas ?[end]</data>
+        <data>Vous avez repris connaissance ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7b4</ref>
         </refs>
-        <data>MATELIGHT:
-Mi... Mist !
-Tu es encore en vie ?![end]</data>
+        <data>Matelite: Mi... Mist !! Tu es vivante ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7c2</ref>
         </refs>
-        <data>MIST:
-Capitaine Matelight !
- 
-Nous ne nous étions plus vus depuis
-la malheureuse chute de Kana.[end]</data>
+        <data>Mist: Capitaine Matelite... ! Oui... Depuis ce jour-là... le jour où Kana est tombée.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7e7</ref>
         </refs>
-        <data>MATELIGHT:
-Hoho !
+        <data>Matelite: Oh !
  
-Je croyais vraiment que je ne te
-reverrais plus.
+Je croyais que tu avais péri.
  
-Mais au fait,comment as-tu réussi à
-fuir Kana ?[end]</data>
+Comment diable as-tu réussi à fuir Kana ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7f5</ref>
         </refs>
-        <data>Une minute !
-Ta voix...
-C'est celle d'une malade ![end]</data>
+        <data>Dites donc, vous ! Elle est malade, alors ne criez pas comme ça !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7fe</ref>
         </refs>
-        <data>MATELIGHT:
-Est-ce que tu vas bien ?[end]</data>
+        <data>Matelite: Oh, pardon, pardon...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x80b</ref>
         </refs>
-        <data>MIST:
-Hum...
-Tout va bien...
-J'ai tout de suite repris des forces
-en voyant le visage du Capitaine
-[character][0x0]![end]</data>
+        <data>Mist: Non... ça va... De vous voir, Byuu et vous, capitaine, je me sens déjà mieux.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x819</ref>
         </refs>
-        <data>MATELIGHT:
-Si tu le dis !
- 
-[character][0x0] doit sûrement t'illuminer de
-bonheur ![end]</data>
+        <data>Matelite: Bien, bien, tant mieux ! Ça me fait rougir, hein, Byuu.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x823</ref>
         </refs>
-        <data>MIST:
-Il est temps pour moi de revenir avec
-vous.[end]</data>
+        <data>Mist: Ce jour-là... moi qui gisais à terre...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x82d</ref>
         </refs>
-        <data>J'ai été aidée par un homme et je
-dois vous aider.[end]</data>
+        <data>...j'ai été sauvée par un homme.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x83b</ref>
         </refs>
-        <data>MATELIGHT:
-Quoi ?!
-Par qui ?![end]</data>
+        <data>Matelite: Comment ?! Mais qui donc ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x841</ref>
         </refs>
-        <data>MIST:
-... ... ... ...[end]</data>
+        <data>Mist: ...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x84f</ref>
         </refs>
-        <data>MATELIGHT:
-Mist,qui t'a aidé à t'enfuir de Kana ?[end]</data>
+        <data>Matelite: Mist ! Qui t'a sauvée ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x855</ref>
         </refs>
-        <data>MIST:
-Un Général de Granbelos...
-Le Grand Palpaleos ![end]</data>
+        <data>Mist: ...Un illustre général de Granbelos... Sire Palparos...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x863</ref>
         </refs>
-        <data>MATELIGHT:
-Palpaleos ?![end]</data>
+        <data>Matelite: !? ...Palparos ?!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x86f</ref>
         </refs>
-        <data>DON JUAN:
-Un Général de l'Empire aidant une
-cavalière de Kana ?[end]</data>
+        <data>Donfan: Pourquoi diable un général de l'Empire aurait-il sauvé une chevalière de Kana ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x880</ref>
         </refs>
-        <data>MIST:
-Je n'ai toujours pas compris ce qui
-l'a poussé à m'aider.[end]</data>
+        <data>Mist: ...Je n'en ai pas la moindre idée moi-même...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x89a</ref>
         </refs>
-        <data>LUKIA:
-[character][0x0]!
-Mélodia t'attend ![end][end]</data>
+        <data>Ruki: Byuu ! Viens chez Melody !![end][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x919</ref>
         </refs>
-        <data>WAGAHAI:
-``wagahai aller sur le bateau !
- mort transporter sur bateau !
- là-bas fait sombre...''[end]</data>
+        <data>Wagahai: Nous aussi, nous montons à bord ! Le navire qui apporte la mort ! Son nom est...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2d7</ref>
         </refs>
-        <data>DON JUAN:
-Si tu regardes Lukia,tu verras qu'elle
-pense que Don Juan est un héros.[end][end]</data>
+        <data>Donfan: Non, non, le grand Donfan ne file absolument pas doux devant Ruki.[end][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x96c</ref>
         </refs>
-        <data>MELODIA:
-C'est mon grand-père ![end]</data>
+        <data>Melody: C'est mon papy !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x97d</ref>
         </refs>
-        <data>GRAND-PERE:
-Hoho !
-Ne serais-tu pas [character][0x0]?
-Mélodia m'a énormément parlé de toi
-et de tes exploits.[end]</data>
+        <data>Grand-père: Oh ! C'est donc toi, Byuu. Melody vient justement de me parler de toi.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x987</ref>
         </refs>
-        <data>Tout comme ma petite-fille,j'aime
-parler et je suis un très bon conteur.[end]</data>
+        <data>Depuis la dernière fois, Melody est devenue une grande fille, et j'en suis tout heureux.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x995</ref>
         </refs>
-        <data>MELODIA:
-Grand-père,raconte-nous une histoire !
-S'il te plaît !
-Viiite ![end]</data>
+        <data>Melody: T'as pas besoin de dire ça, papy~. C'est trop la honte~.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9a3</ref>
         </refs>
-        <data>GRAND-PERE:
-Tu es bien impatiente Mélodia !
-Bon,je vais vous en raconter une.[end]</data>
+        <data>Grand-père: Non, non... Ce n'est point ``je ne l'ai pas dit'', c'est ``je n'ai pas pu le dire''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9a9</ref>
         </refs>
-        <data>MELODIA:
-Est-ce que tu pourrais me dire le sens
-de mon prénom ?[end]</data>
+        <data>Melody: ...? Melody, elle comprend rien~.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9b3</ref>
         </refs>
-        <data>GRAND-PERE:
-Hohoho ! Cela s'est toujours transmis
-à Godrand.[end]</data>
+        <data>Grand-père: Ho ho ho... C'est un proverbe de Godland.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9f6</ref>
         </refs>
-        <data>Tu seras toujours à Godrand la
-bienvenue mais aujourd'hui je suis
-occupée.[end]</data>
+        <data>Te voilà, mon chéri. Encore rentré tard du travail, aujourd'hui.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa09</ref>
         </refs>
-        <data>Je suis aujourd'hui revenue mais ce
-n'est que pour un instant.[end]</data>
+        <data>Je suis rentré. J'ai eu un peu à faire.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa1c</ref>
         </refs>
-        <data>Je suis rapidement revenue car je
-m'inquiétais beaucoup.[end]</data>
+        <data>Tu ne rentrais pas, je me suis fait du souci.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa2f</ref>
         </refs>
-        <data>Pardonnez mon impatience mais je dois
-repartir pour ensuite revenir ![end]</data>
+        <data>Allons, allons, pardonne-moi. Ce n'est point ``je ne suis pas rentré''... c'est ``je n'ai pas pu rentrer''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa69</ref>
         </refs>
-        <data>Voici le sens de ton prénom !
-Tout le monde a compris ?[end]</data>
+        <data>Voilà ce que ça veut dire. Je me demande si les jeunes comprendront...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa6f</ref>
         </refs>
-        <data>MELODIA:
-Grand-père !
-Ce ne sont que de vieux proverbes.
-Tu n'as fait que changer le nom de
-la personne à qui ils s'appliquent !
-C'est trop facile ![end]</data>
+        <data>Melody: Papy, c'est un vieux fou de proverbes.
+ 
+On dit souvent que c'est un drôle de bonhomme, mais pardonne-lui, hein.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa7d</ref>
         </refs>
-        <data>GRAND-PERE:
-Autrefois,nombreux étaient les gens qui
-adoraient la magie des Petits Démons.[end]</data>
+        <data>Grand-père: Ma petite Melody adore les animaux et les Diablotins depuis toujours.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa83</ref>
         </refs>
-        <data>Je t'avais dit qu'il y avait des Petits
-Démons et des dragons à Kana.
+        <data>Elle avait entendu dire qu'à Kana, il y avait plein de Diablotins et de dragons.
  
-C'est pour cette raison que tu es
-montée sur un dragon pour aller en
-direction de Kana.
-J'ignorais qu'un jour,
-tu reviendrais ici.[end]</data>
+Depuis, elle me suppliait sans cesse : ``Je veux aller à Kana, je veux aller à Kana''. Je l'ai laissée dire, et un beau jour, la voilà partie sans prévenir.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xaa2</ref>
         </refs>
-        <data>MELODIA:
-Grand-père,je te félicite ![end]</data>
+        <data>Melody: Papy, tu ne parles que de moi ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xaa8</ref>
         </refs>
-        <data>Je crois que notre famille est née
-pour voyager.[end]</data>
+        <data>Toi aussi, papy, des fois, tu pars en voyage sur un coup de tête, sans rien dire.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xab6</ref>
         </refs>
-        <data>GRAND-PERE:
-Haha !
+        <data>Grand-père: Ah...
  
-À chaque fois qu'on voyage,
-j'ai le sang qui remue.
+L'envie soudaine de partir en voyage, c'est dans le sang de la famille.
  
-Et dès que nous revenons,
-je redeviens une autre personne.[end]</data>
+Et quand on revient de voyage, on a grandi d'un cran.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xace</ref>
         </refs>
-        <data>MELODIA:
-[character][0x0]![end]</data>
+        <data>Melody: Ah, oui ! Byuu ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xadc</ref>
         </refs>
-        <data>C'est grâce à ces voyages que
-grand-père dit et transmet de
-nombreux proverbes à Godrand.
-Si tu veux,il peut t'en dire encore
-beaucoup ![end]</data>
+        <data>Papy part en voyage et rapporte plein de proverbes et de légendes de Godland. Et il dit qu'il a quelque chose à vous raconter, à toi et aux autres ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb10</ref>
         </refs>
-        <data>GRAND-PERE:
-Hoho !
-N'exagère pas !
-Mais il est vrai que j'en connais un
-d'une très grande importance.[end]</data>
+        <data>Grand-père: Oh ! C'est vrai ! C'est pour vous raconter cela que je vous ai fait venir.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb23</ref>
         </refs>
-        <data>Il provient d'une très vieille légende
-de Godrand...[end]</data>
+        <data>Il est une légende transmise à Godland depuis la nuit des temps...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xb35</ref>
         </refs>
-        <data>Un Dragon à l'apparence d'un oiseau
-dort dans cette région.[end]</data>
+        <data>Ici repose un dragon
+qui prit la forme d'un oiseau.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xb39</ref>
         </refs>
-        <data>Lorsqu'il sera débordant de colère,
-le Dragon Oiseau s'éveillera.[end][end]</data>
+        <data>Nul ne doit jamais éveiller
+le dragon oiseau
+à la colère débordante.[end][end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb51</ref>
         </refs>
-        <data>SENDACK:
-Une Légende de Dragon Sacré ?[end]</data>
+        <data>Sendak: La légende d'un Dragon Sacré... ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb5a</ref>
         </refs>
-        <data>[character][0x1]:
-Le Dragon Oiseau...
-C'est Garuda !
-Il est furieux...
-Je sens sa terrible colère...[end]</data>
+        <data>Yoyo: ...Le dragon oiseau... Garuda... Il est en colère... Je sens une colère terrible...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb66</ref>
         </refs>
-        <data>SENDACK:
-Je sens aussi quelque chose...[end]</data>
+        <data>Sendak: Ah, moi aussi... moi aussi, je la sens un petit peu...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb7a</ref>
         </refs>
-        <data>[character][0x1]:
-Savez-vous où se trouve le lieu de
-repos de Garuda ?[end]</data>
+        <data>Yoyo: Savez-vous où se trouve Garuda ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb84</ref>
         </refs>
-        <data>GRAND-PERE:
-Je l'ai même déjà vu et il se trouve
-à l'Ouest d'ici.
-Pensez au bon esprit car la magie peut
-tout vaincre.[end]</data>
+        <data>Grand-père: Ah, je l'ai trouvé. Il est dans la grotte de l'ouest. Soyez prudents. Elle grouille de monstres.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3e0</ref>
         </refs>
-        <data>Tu as déjà vu un microscope ?
-Tu as déjà regardé dedans ?[end]</data>
+        <data>Vous aussi, vous faites du porte-à-porte pour vendre des microscopes ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2d0</ref>
         </refs>
-        <data>LUKIA:
-Moi et lui ? Ensemble ?!
-Jamais !
-Don Juan ne cesse d'importuner les
-femmes ![end]</data>
+        <data>Ruki: Quoi ? Donfan a encore dragué une fille ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2e2</ref>
         </refs>
-        <data>Hum...[end]</data>
+        <data>...Mmh...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x393</ref>
         </refs>
-        <data>Vous êtes l'un des amis de cette
-personne ?
-Vous pouvez aller la voir ![end]</data>
+        <data>Vous êtes des amis de la personne qui dort ? Alors allez vite la voir ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3e7</ref>
         </refs>
-        <data>Est-ce que tu es [character][0x0]?[end]</data>
+        <data>C'est vous, Byuu ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2e9</ref>
         </refs>
-        <data>MIST:
-Un jour,j'espère que mon souhait se
-réalisera...
-Je n'abandonnerai jamais...[end]</data>
+        <data>Mist: Notre espoir... peut-il encore se réaliser... Nous n'avons donc pas à abandonner...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2b7</ref>
         </refs>
-        <data>MATELIGHT:
-Maintenant,toute la cavalerie de Kana
-est restaurée ![end]</data>
+        <data>Matelite: Voilà l'ordre des chevaliers de Kana ressuscité ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x296</ref>
         </refs>
-        <data>SENDACK:
-[character][0x0]...
-Je... je...
- ``Il dit des inepties...''
- ``Et il se répète en plus...''[end]</data>
+        <data>Sendak: ...Byuu... moi... moi... bla bla bla... gna gna gna...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2ad</ref>
         </refs>
-        <data>MATELIGHT:
-Hoho [character][0x0]!
+        <data>Matelite: Ah, Byuu.
  
-Il y a longtemps,ici,
-il y avait plein de Petits Démons.
+Tout à l'heure, des Diablotins sont passés ici.
  
-Ils dansent souvent quand ils sont
-ensemble.[end]</data>
+Ils voulaient se joindre à nous, et ils sont repartis en dansant.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2c2</ref>
         </refs>
-        <data>COMMANDANT:
-J'apprécie ce que tu fais ![end]</data>
+        <data>Taicho: Beau travail, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x29f</ref>
         </refs>
-        <data>SENDACK:
-``Il dit des inepties.''
-``C'est lassant,il se répète.''[end]</data>
+        <data>Sendak: Bla bla bla bla... gna gna gna gna...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2c9</ref>
         </refs>
-        <data>COMMANDANT:
-Un chevalier ne doit pas boire d'alcool
-au bar ![end]</data>
+        <data>Taicho: Un chevalier peut boire du vin, mais le vin ne doit jamais avoir le chevalier, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2f6</ref>
         </refs>
-        <data>C'est un peu petit,ici !
-Vous ne voudriez pas quelques armes ?[end]</data>
+        <data>C'est étroit, ici... Il faut faire attention à ne pas abîmer les armes.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x326</ref>
         </refs>
-        <data>Nous sommes un peu à l'étroit.
-Vous aimeriez des armures ?[end]</data>
+        <data>Ça sent le fauve, ici... Il faut faire attention à ne pas casser les armures.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x356</ref>
         </refs>
-        <data>On étouffe ici.
-Vous aimeriez faire des affaires ?[end]</data>
+        <data>On étouffe, ici... Il faut faire attention à ce que la marchandise ne pourrisse pas.[end]</data>
     </text>
     <text>
         <refs>
@@ -697,8 +546,8 @@ Vous aimeriez faire des affaires ?[end]</data>
             <ref>0x32a</ref>
             <ref>0x35a</ref>
         </refs>
-        <data> Acheter.
- Je suis occupé.[end1]</data>
+        <data> Faire des achats
+ Rien,merci[end1]</data>
     </text>
     <text>
         <refs>
@@ -710,93 +559,80 @@ Vous aimeriez faire des affaires ?[end]</data>
         <refs>
             <ref>0x42e</ref>
         </refs>
-        <data>Il y avait beaucoup de Petits Démons
-dans cette ville.
+        <data>Des Diablotins vivent dans cette ville.
  
-Qu'est-ce que la mort sacrée ?!
- 
-  
-Cela signifie qu'ils ont choisi une
-personne et qu'ils la protègeront
-pour toujours.[end]</data>
+Ils ont beau être petits, ce sont de vraies faucheuses. J'aimerais bien que quelqu'un les emmène.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3d9</ref>
         </refs>
-        <data>Ici,Godrand est en paix mais à
-l'extérieur,c'est terrible.[end]</data>
+        <data>Ici, à Godland, c'est la paix, mais le monde extérieur traverse des moments difficiles.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb92</ref>
         </refs>
-        <data>MELODIA:
-Nous devons aller dans cette grotte !
-Je vais appeler les dragons ![end]</data>
+        <data>Melody: Alors, en route pour cette grotte ! Je vais appeler les dragons !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3be</ref>
         </refs>
-        <data>J'adore les Rebelles.
-Les combats que mène l'Empire sont
-trop terribles ![end]</data>
+        <data>C'est donc vous, les Rebelles. Le combat contre l'Empire doit être rude, mais courage !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x28b</ref>
         </refs>
-        <data>[character][0x1]:
-Sendack a encore trop bu d'alcool...[end]</data>
+        <data>Yoyo: Sendak, enfin... lui qui tient si mal l'alcool...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x49c</ref>
         </refs>
-        <data>Obtenu [0xaa]ARMURE FURTIVE[0xab].[end]</data>
+        <data>Obtenu ``Armure furtive''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4ad</ref>
         </refs>
-        <data>Obtenu [0xb6] [0xaa]POEME[0xab].[end]</data>
+        <data>Obtenu [0xb6] ``Carnet de poèmes''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4c5</ref>
         </refs>
-        <data>Obtenu [0xaa]HERBE SACRE[0xab].[end]</data>
+        <data>Obtenu ``Herbe sacrée''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4d9</ref>
         </refs>
-        <data>Obtenu [0xaa]ASSAUT[0xab].[end]</data>
+        <data>Obtenu ``Assaut''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4ea</ref>
         </refs>
-        <data>Obtenu [0xaa]BATON MAITRE[0xab].[end]</data>
+        <data>Obtenu ``Bâton maître''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4fb</ref>
         </refs>
-        <data>Obtenu [0xaa]MEMOIRE MAUVAISE[0xab].[end]</data>
+        <data>Obtenu ``Souvenir amer''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x50c</ref>
         </refs>
-        <data>Obtenu [0xaa]ELIXIR[0xab].[end]</data>
+        <data>Obtenu ``Élixir''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xbb7</ref>
         </refs>
-        <data>SENDACK:
-Allons-y...[end]</data>
+        <data>Sendak: On y va... On y va...[end]</data>
     </text>
 </texts>

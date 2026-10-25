@@ -4,171 +4,141 @@
         <refs>
             <ref>0x73</ref>
         </refs>
-        <data> Je le suis...
- Je ne le suis pas...[end1]</data>
+        <data> C'est vrai...
+ Tu crois...[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x5d</ref>
         </refs>
-        <data>[character][0xd]: Nous y sommes enfin !
-
-
-[character][0x0],n'as-tu rien vu ?
-
-
-Nous avons grandi depuis la libération de Dafira.
-
-
-Ce doit être notre ère ![end]</data>
+        <data>Rush: Bon,c'est décidé !! Byuu... ressaisis-toi ! Tu l'as senti à Dafira. Maintenant,l'avenir,c'est nous.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6f</ref>
         </refs>
-        <data>[character][0xb] ne nous traite pas assez en adultes.
-
-
-Tu es d'accord avec moi ?[end]</data>
+        <data>On ne peut plus s'en remettre aux vieux comme Matelite...
+ 
+Pas vrai ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa5</ref>
         </refs>
-        <data>Nous avons beaucoup changé et nous devrions rester unis
-face à ce qui va arriver !
-
-Estimons-nous heureux !
-
-
-C'est notre ère !
-
+        <data>On dirait que tu n'as pas encore compris... J'y ai bien réfléchi.
  
-Je suis persuadé que [character][0x1] nous comprendra.[end]</data>
+C'est la meilleure chose à faire.
+ 
+C'est notre nouvelle ère... C'est nous qui allons changer les choses.
+ 
+Yoyo comprendra...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8c</ref>
         </refs>
-        <data>Montrons notre détermination !
-C'est notre ère !
-Nous avons changé !
-[character][0x1] décidera par la suite si elle veut nous suivre...[end]</data>
+        <data>Tu comprends vraiment... ?
+ 
+C'est notre nouvelle ère... C'est à nous de changer les choses...
+ 
+Pour Yoyo aussi,c'est forcément mieux comme ça.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfd</ref>
         </refs>
-        <data>monyo[0xd8]
-``la tradition[0xd8]
- tout ressemble à un conte[0xd8]''[end]</data>
+        <data>Monyooo !!
+(On a tout transmis,mot pour mot !!)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x109</ref>
         </refs>
-        <data>manyo[0xd8]
-``nous le désirons aussi[0xd8]''[end]</data>
+        <data>Manyooo !!
+(On ne va pas réclamer de pourboire,hein !!)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x115</ref>
         </refs>
-        <data>munyo[0xd8]
-``matelight et les autres ont
- fait erreur[0xd8]''[end]</data>
+        <data>Munyooo !!
+(Matelite et les autres en sont restés bouche bée !!)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x127</ref>
         </refs>
-        <data>monyo[0xd8]
-``les petits démons font la
- révolution des Démons !''[end]</data>
+        <data>Monyo !!
+(Salut !! Les Diablotins aussi font leur révolution !)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x13d</ref>
         </refs>
-        <data>manyo[0xd8]
-``vous nous envierez !''[end]</data>
+        <data>Manyo !!
+(On ne vous imite pas parce qu'on vous envie,hein !)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x189</ref>
         </refs>
-        <data>munyo[0xd8]
-``les petits démons ont des
- intentions déterminées !''[end]</data>
+        <data>Munyo !!
+(Les Diablotins aussi ont leurs idées,tu sais !)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1b4</ref>
         </refs>
-        <data>[character][0x0],faisons route ensemble, un moment ![end]</data>
+        <data>Byuu... Pendant quelque temps,tu vas devoir nous obéir !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb8a</ref>
         </refs>
-        <data>[character][0xd]: Très bien,allons-y ![end]</data>
+        <data>Rush: Allez !! Viens par ici !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xba1</ref>
         </refs>
-        <data>Maintenant,commençons par le commencement...
-
-
-C'est moi qui vous dirigerai ![end]</data>
+        <data>Voyons... d'abord...
+ 
+J'ai toujours rêvé de faire ça,au moins une fois !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xdd3</ref>
         </refs>
-        <data>[character][0xf]: Comment avez-vous pensé à agir de
-cette manière ?
-
-Capitaine [character][0x0],je vous soutiens tout
-de même ![end]</data>
+        <data>Truth: Je n'approuve pas vraiment cette méthode... mais prenez sur vous,capitaine.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xde1</ref>
         </refs>
-        <data>[character][0xe]: Je n'arrive pas à y croire...[end]</data>
+        <data>Bikebake: J'ai d'autres soucis. Je ne peux plus faire confiance à personne...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xbba</ref>
         </refs>
-        <data>C'est grandiose !
-Enfin,nous nous rebellons contre l'autorité !
-
-[character][0x0],c'est la dernière fois que nous pourrons acheter
-des objets.
-
-Et j'ai failli oublier !
-Je serai le leader !
-   
-Vous ne devez surtout avoir aucun regret de ce que
-nous sommes en train de faire ![end]</data>
+        <data>Les courses !!
+ 
+Byuu... Choisir les articles,je te le laisse. C'est peut-être tes derniers achats ! Vu que c'est peut-être moi qui serai le chef...
+ 
+Bref,choisis bien,pour ne rien regretter !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1f3</ref>
         </refs>
-        <data>[character][0xb]: Vous là-bas !
-Que faites-vous ?!
-
-Laissez-moi entrer[0xd8][end]</data>
+        <data>Matelite: Vous autres !! Qu'est-ce que vous fabriquez !!! Ouvrez-moi ça !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x204</ref>
             <ref>0x246</ref>
         </refs>
-        <data>[character][0xd]: Il veut qu'on lui ouvre ?![end]</data>
+        <data>Rush: Tu peux toujours courir !![end]</data>
     </text>
     <text>
         <refs>
@@ -176,76 +146,51 @@ Laissez-moi entrer[0xd8][end]</data>
             <ref>0xbe2</ref>
             <ref>0x4fe</ref>
         </refs>
-        <data>Venez ![end]</data>
+        <data>Allez,on passe au suivant !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x235</ref>
         </refs>
-        <data>[character][0xb]: Vous allez m'énerver !
- 
-
-Sachez que vous êtes en train de m'insulter en agissant
-ainsi[0xd8][end]</data>
+        <data>Matelite: Vous vous rendez compte !! M'humilier ainsi... !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc37</ref>
         </refs>
-        <data>[character][0xb]: Mais,je...[0xd8]
+        <data>Matelite: Moi... moi...
  
-
-Je pense seulement à [character][0x1] sur les champs de 
-bataille et à rien d'autre !
-
-Désolé !
-
-
-De plus,elle est maintenant souffrante...[end]</data>
+J'ai toujours combattu en ne pensant qu'à Yoyo...
+ 
+Que vous m'en vouliez,soit...
+ 
+Mais... pour l'instant... Yoyo...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc64</ref>
         </refs>
-        <data>[character][0xb]: Je suis fou de la Princesse [character][0x1][0xd8]
-Je ne serai rien sans elle...
-
-Oui,[character][0x0]...
-
-
-Oui,Rush...
-
-C'est pour cette raison que je vous éloigne toujours
-d'elle ![end]</data>
+        <data>Matelite: Je ne peux rien faire pour elle... alors que Yoyo souffre... Dites,Byuu... Rush... Vous deux... restez au moins auprès d'elle...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc5b</ref>
         </refs>
-        <data>[character][0xd]: Lui ouvrir... ?! Non !
-
-
-Venez[0xd8]
-Continuons à commercer...[end]</data>
+        <data>Rush: ...Je n'ouvrirai pas... Allez... on fait les courses...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xdda</ref>
         </refs>
-        <data>[character][0xf]: La Princesse [character][0x1]...
+        <data>Truth: ...Princesse Yoyo...
  
-
-Si c'est pour l'amour de la Princesse, il dit
-peut-être la vérité.[end]</data>
+C'est aussi pour elle que nous devons...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x27e</ref>
         </refs>
-        <data>[character][0xd]: Allez,nous sommes débordés !
-
-
-À quoi penses-tu [character][0xf] ?[end]</data>
+        <data>Rush: ...Bon,on a fini les courses... On le laisse entrer... ? Hein,Truth,t'es d'accord ?[end]</data>
     </text>
     <text>
         <refs>
@@ -257,128 +202,106 @@ peut-être la vérité.[end]</data>
         <refs>
             <ref>0xc9d</ref>
         </refs>
-        <data>[character][0xd]: Ne comprenez-vous donc rien ?
+        <data>Rush: ...Non... attends...
  
-
-[character][0xb] tente d'utiliser la ruse pour nous attrister !
-
-
-C'est notre Nouvelle Ère !
-
-
-Nous avons décidé d'être forts !
-
-
-En route ![end]</data>
+C'est peut-être une ruse de Matelite pour nous attendrir...
+ 
+La nouvelle ère... !! J'ai décidé de devenir fort !!
+ 
+Il reste encore ce truc-là...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xcc7</ref>
         </refs>
-        <data>[character][0xd]: Nous allons nourrir les dragons ![end]</data>
+        <data>Rush: Enfin,nourrir les dragons... mon rêve !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x34a</ref>
         </refs>
-        <data>[character][0xd]: hola hola !
-
-
-Je vais vous nourrir !
-
-
-En rang[0xd8][end]</data>
+        <data>Rush: Allez,allez !! C'est moi qui donne à manger !! En rang,en rang !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3ba</ref>
         </refs>
-        <data>[character][0xd]: Je supervise le tout,[character][0x0] ![end]</data>
+        <data>Rush: Je compte sur tes conseils !! ...Byuu ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x574</ref>
             <ref>0x486</ref>
         </refs>
-        <data>Faites preuve de respect[0xd8][end]</data>
+        <data>Et un de servi !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4ae</ref>
             <ref>0x526</ref>
         </refs>
-        <data>Suivez tous le même exemple[0xd8][end]</data>
+        <data>Au suivant !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4d6</ref>
         </refs>
-        <data>Rompez[0xd8][end]</data>
+        <data>Oui,oui !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x580</ref>
         </refs>
-        <data>Que penses-tu de ça ?
+        <data>Comme ça,je n'ai plus aucun regret...
  
-  
-Très bien,allons parler à [character][0xb][0xd8][end]</data>
+Bien !! Allons donc parler à Matelite !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x85d</ref>
         </refs>
-        <data>[character][0x10]: Voici la Princesse [character][0x1]...[end]</data>
+        <data>Taicho: Yoyo est...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x88b</ref>
         </refs>
-        <data>[character][0x1][0xd8][end]</data>
+        <data>Princesse Yoyo... !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8a2</ref>
         </refs>
-        <data>[character][0x1]: La Porte de la Nouvelle Ère est ouverte...
-Il semblerait que les Dragons Sacrés l'aient ouverte...
-
-Mais pourquoi si tôt ?![end]</data>
+        <data>Yoyo: La Porte de la Nouvelle Ère... va s'ouvrir...
+ 
+Les Dragons Sacrés... essaient d'ouvrir la Porte...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8b8</ref>
         </refs>
-        <data>[character][0xf]: La Porte de la Nouvelle Ère ?
- 
-
-Ce serait bien si un escadron allait la voir de plus près.[end]</data>
+        <data>Truth: La Porte de la Nouvelle Ère... ?! Que va-t-il donc se passer...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8ff</ref>
         </refs>
-        <data>[character][0xb]: [character][0x1] n'en dites pas plus !
-Nous défendrons FARENHEIT ![end]</data>
+        <data>Matelite: Princesse Yoyo... nous parlerons plus tard. Pour l'instant,il faut défendre Fareneit !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x917</ref>
         </refs>
-        <data>En avant[0xd8]
+        <data>En avant !!
  
-  
-[character][0x0][0xd8]
-Rush[0xd8]
-C'est moi qui commande[0xd8][end]</data>
+Byuu !! Rush !!
+ 
+Suivez-moi !...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x92d</ref>
         </refs>
-        <data>[character][0xd]: [character][0xb]...
-
-
-Nous sommes...[end]</data>
+        <data>Rush: Matelite... Moi... je...[end]</data>
     </text>
 </texts>

@@ -4,8 +4,8 @@ Shared kintsuki harness: one emulator per process, so every test drives the same
 It runs the debug build (build/bl-debug.ips) and starts each test from a savestate in tests/savestates, as the
 ff4 goldens do: a cold boot leaves WRAM to the emulator's RNG, and the game reads some of it uninitialised (the
 title cursor, the debug scenario number). Some savestates come from older builds or other versions of the game: a
-loaded one gets the French default names (party and saves, as utils/save_names.py gives a save) and a cleared
-small_vwf, whose fields an older build laid out otherwise.
+loaded one gets the French default names (party and saves, as utils/save_names.py gives a save), a cleared
+small_vwf, whose fields an older build laid out otherwise, an empty menu_vwf ring and no panel hold.
 """
 
 import os
@@ -37,6 +37,8 @@ PARTY_NAMES = 0x7E2B00  # the names the player can change, 8 codes each
 SAVES = 0x206000  # SRAM page 0: the save slots
 SAVES_SIZE = 0x2000
 SMALL_VWF_SOURCE = REPO / "src/small_vwf.s"
+SHADOW_DIRTY_BYTES = 18  # ShadowDirty (src/shadow_dirty.s): nothing marked, no BG2 entry queued
+MENU_PRESENT_HEADER = 18  # MenuPresent's words before its ring (src/menu_vwf.s): an empty ring, nothing retired
 FIELD_SIZES = {"byte": 1, "word": 2, "long": 3}
 FIELD = re.compile(r"^\s+(byte|word|long)(?:\[(.+)\])? (\w+)$")
 CONSTANT = re.compile(r"^(\w+) = (\d+)", re.MULTILINE)
@@ -101,6 +103,9 @@ class Console:
         self.emu.write_range(PARTY_NAMES, b"".join(records))
         self.emu.write_range(SAVES, rename(bytes(self.emu.read_range(SAVES, SAVES_SIZE)), records))
         self.emu.write_range(symbol("small_vwf"), bytes(small_vwf_fields()[1]))
+        self.emu.write_range(symbol("menu_present"), bytes(MENU_PRESENT_HEADER))
+        self.emu.write_range(symbol("panel_hold"), bytes(1))
+        self.emu.write_range(symbol("shadow_dirty"), bytes(SHADOW_DIRTY_BYTES))
         self.emu.run_frames(1)
 
     def press_until(self, button: int, done: Callable[[], bool], limit: int = 60) -> None:

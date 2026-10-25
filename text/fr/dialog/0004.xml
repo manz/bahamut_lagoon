@@ -5,396 +5,331 @@
             <ref>0x436</ref>
             <ref>0x76</ref>
         </refs>
-        <data>Matelite: Mademoiselle [character][0x1]![end]</data>
+        <data>Matelite: Princesse Yoyooo ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x94</ref>
         </refs>
-        <data>Matelite: Je suis le Chevalier de votre contrée !
-Je suis enfin arrivé à vous ![end]</data>
+        <data>Matelite: Matelite, chef des chevaliers du royaume de Kana, est venu vous chercher ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xab</ref>
         </refs>
-        <data>Commandant: Je suis Commandant,Capitaine de Mahal,
-je suis venu avec Matelight ![end]</data>
+        <data>Taicho: Et Taicho, des chevaliers de Mahal, est là aussi, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x586</ref>
         </refs>
-        <data>Rush: Granbelos le paiera !
-On n'emmène pas la Princesse dans un tel lieu ![end]</data>
+        <data>Rush: Ces chiens de Granbelos ! Retenir la princesse Yoyo dans un endroit pareil ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x26a</ref>
         </refs>
-        <data>Sendack: Ouf... Ouf...
-Arrêtons-nous ici...[end]</data>
+        <data>Sendak: Pff... pff... Moi, je vous attends ici...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2b8</ref>
         </refs>
-        <data>Lukia: Ne le fais pas trop parler !
+        <data>Ruki: Moi aussi, je reste ici.
  
-
-Sendack doit se reposer un instant,et il sera bientôt de
-nouveau plein vigueur ![end]</data>
+Sendak en a un peu trop fait, on dirait.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x599</ref>
         </refs>
-        <data>Rush: Ce passage est suspect !
-Que veux-tu faire ?
-
-  Je te suis.
-  Je passe en premier ![end1]</data>
+        <data>Rush: Ça sent le piège, là-devant !
+Byuu, que fait-on ?
+  Passe devant !
+  Reste derrière moi ![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x5d8</ref>
         </refs>
-        <data>Rush: Minute ![end]</data>
+        <data>Rush: ... Ce qui veut dire...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5a7</ref>
         </refs>
-        <data>Rush: J'ai découvert ta pensée !
+        <data>Rush: ``Rush ! Tu es venu me sauver !'' Elle me dirait ça, et puis elle me serrerait fort !
  
-
-Tu veux que j'aille secourir seul la princesse puis tu 
-me rejoindras !
-
-C'est ça ton idée,n'est-ce pas ?
-Eh bien,ça ne marche pas avec moi !
-Nous entrerons l'un après l'autre ![end]</data>
+Désolé, Byuu. Prends ton temps, hein ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5b4</ref>
         </refs>
-        <data>Rush: Pas si vite ![end]</data>
+        <data>Rush: Pas question ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5cd</ref>
         </refs>
-        <data>Rush: J'entrerai en premier !
-
-
-Tu veux être le seul héros ?
-Eh bien,ça ne marche pas avec moi !
-
-Tu passeras après moi !
-
+        <data>Rush: Tu veux garder toute la gloire pour toi, hein !
  
-J'irai secourir la princesse et tu suivras au cas où
-il se passerait quelque chose.[end]</data>
+``Byuu ! Tu es venu ! Comme je suis heureuse !'' Elle te dirait ça, et puis elle te prendrait la main...
+ 
+Ce rôle-là, il est pour moi ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x76c</ref>
         </refs>
-        <data>Tu pourrais au moins me remercier !
+        <data>``Rush... merci...''
  
-  
-Tiens !
-Qu'avons-nous ici ?![end]</data>
+Tu parles ! Rien de tout ça, oui ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x60b</ref>
         </refs>
-        <data>[character][0xd]: [character][0x1] n'est pas ici...[end]</data>
+        <data>Rush: La princesse Yoyo n'est pas là...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x346</ref>
         </refs>
-        <data>Héhéhéhéhé !
-Hohihi !
-Hihihihihi ![end]</data>
+        <data>Héhéhéhé... Une princesse... Hihihi...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x359</ref>
             <ref>0x3df</ref>
         </refs>
-        <data>Légion: Aaaaaah ![end]</data>
+        <data>Légion: Hiii ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x369</ref>
         </refs>
-        <data>Légion: Chef Zomberd !
-Je n'aurais pas dû m'endormir ![end]</data>
+        <data>Légion: Pa-pardon, général Zomberd ! Je me suis assoupi ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x375</ref>
         </refs>
-        <data>Légion: Hé,vous là ?![end]</data>
+        <data>Légion: Qui êtes-vous ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3a0</ref>
         </refs>
-        <data>Légion: Vous êtes des rebelles ?!
-Lai... laissez-moi en vie ![end]</data>
+        <data>Légion: Des re-rebelles ?! Pi-pitié, laissez-moi la vie sauve ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3bf</ref>
         </refs>
-        <data>Légion: Je... je pourrais être utile !
-Quoi ?!
-Peut... peut-être la torture ?!
-Vous voulez vraiment faire cela ?!
- 
-
-  Le torturer !
-  Je le pourrais ![end1]</data>
+        <data>Légion: Qu-qu'allez-vous faire de moi ?
+C-ce ne serait pas... la torture ?!
+  Exactement, la torture !
+  Je ne ferais jamais ça ![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x3e8</ref>
         </refs>
-        <data>... ... ... ...
+        <data>Ouf...
  
-  
-C'est un plan pour me piéger ![end]</data>
+.........
+ 
+Aaah ! Vos yeux sourient ! Vous allez le faire quand même ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x213</ref>
         </refs>
-        <data>[character][0xb]: Ça avance lentement mais sûrement...
-Dépêchons-nous !
-Trouve vite un passage ![end]</data>
+        <data>Matelite: Un commandant arrive toujours en dernier, sans se presser ! Byuu, file devant ![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x239</ref>
         </refs>
-        <data>Je sens une odeur...[end]</data>
+        <data>Un léger parfum, si agréable...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4de</ref>
             <ref>0x40f</ref>
         </refs>
-        <data>Aaah !
-Nonnnnnn !
-C'est douloureux ![end]</data>
+        <data>Aaah ! Nooon ! J'veux pas avoir mal ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x454</ref>
         </refs>
-        <data>[character][0xb]: Qu'est-ce que nous avons là !
-Où est la Princesse [character][0x1] ?[end]</data>
+        <data>Matelite: Mais que se passe-t-il ici ? Où est la princesse Yoyo ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x460</ref>
         </refs>
-        <data>[character][0xd]: La Princesse n'est pas ici !
+        <data>Rush: La princesse Yoyo n'est pas là.
  
-[character][0x0] va utiliser la torture pour que
-ce soldat nous dise où elle se trouve ![end]</data>
+Byuu s'apprête à torturer ce type pour lui faire cracher où elle est.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x46d</ref>
         </refs>
-        <data>[character][0x10]: Très bonne idée ![end]</data>
+        <data>Taicho: Excellente idée, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x47d</ref>
             <ref>0x21d</ref>
         </refs>
-        <data>[character][0xb]: Vas-y [character][0x0] !
-Et ne lésine pas sur les coups ![end]</data>
+        <data>Matelite: Allez, Byuu ! Fonce, et sans retenue ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x498</ref>
         </refs>
-        <data>Légion: Arrêtez...
-Je vais parler... Je vais parler !
-
-L'Empereur Sauzer a emmené la Princesse [character][0x1]
-avec lui ![end]</data>
+        <data>Légion: A-arrêtez ! Je parle ! Je dis tout ! L'empereur Sauzer a emmené la princesse Yoyo ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4b3</ref>
         </refs>
-        <data>[character][0xb]: Où l'a-t-il EMMENÉE ?![end]</data>
+        <data>Matelite: Où... l'a-t-il... emmenée ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4bc</ref>
         </refs>
-        <data>Légion: Dans une forêt au Nord !
- 
-
-D'ici,vous pouvez apercevoir la cime des arbres.[end]</data>
+        <data>Légion: Da-dans une forêt, loin, loin au nord ! Je n'en sais pas plus ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4c8</ref>
         </refs>
-        <data>[character][0xb]: Nous pouvons apercevoir la cime des arbres ?!
-Nous devons y aller ![end]</data>
+        <data>Matelite: Tu n'en sais pas plus ? Mentir ne t'aidera pas.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4d5</ref>
         </refs>
-        <data>[character][0xb]: Très bien !
+        <data>Matelite: Très bien.
  
-
-Utilise la force et montre-lui ce qu'est
-une vraie séance de torture ![end]</data>
+Je vais te montrer moi-même ce qu'est la torture.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x53b</ref>
         </refs>
-        <data>[character][0xd]: C'est dangereux !
- 
-
-Je vais aller voir si ce type n'a pas des amis
-qui traînent ![end]</data>
+        <data>Rush: Ça sent mauvais ! Il va chercher ses copains ![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x201</ref>
         </refs>
-        <data>[character][0x1]...
-Votre coeur est empli de chagrin !
-
-Nous ferons tout ce qui est en notre pouvoir pour vous
-libérer.[end]</data>
+        <data>Princesse Yoyo... Mon cœur est rempli de regrets. Moi qui croyais enfin vous revoir...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x22f</ref>
         </refs>
-        <data>[character][0x1]...
-Aurait-elle été torturée ?
+        <data>La princesse Yoyo aurait-elle été torturée, elle aussi...
  
-Mon esprit me joue des tours ![end]</data>
+Non, interdit d'imaginer ça, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2bf</ref>
         </refs>
-        <data>Lukia: [character][0xd] est parti à la poursuite du soldat
-impérial ![end]</data>
+        <data>Ruki: Rush est parti à la poursuite du soldat de Granbelos.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x260</ref>
         </refs>
-        <data>Quoi [character][0x0] !
-Des tortures...[end]</data>
+        <data>Byuu, torturer quelqu'un...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2d2</ref>
             <ref>0x57f</ref>
         </refs>
-        <data>[character][0xd]: C'est fini !
-Il a réussi à s'enfuir pour de bon...[end]</data>
+        <data>Rush: Désolé... il m'a échappé.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2df</ref>
         </refs>
-        <data>[character][0xd]: Mais une autre personne arrive ![end]</data>
+        <data>Rush: Mais je vous ai ramené ce gars-là.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x2f1</ref>
             <ref>0x301</ref>
         </refs>
-        <data>Marchand envoyé au champ de bataille:
-Besoin de quelque chose ?![end][end]</data>
+        <data>Marchand: Salut, salut ![end][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x307</ref>
         </refs>
-        <data>  Armes.
-  Armures.
-  Objets.[end1]</data>
+        <data>  Montre-moi tes armes
+  Montre-moi tes armures
+  Montre-moi tes objets[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x27c</ref>
         </refs>
-        <data>Lukia: Es-tu prêt à aller au combat ?
- 
-
-  Attendre.
-  À l'attaque ![end1]</data>
+        <data>Ruki: Dehors, ça doit grouiller d'ennemis.
+Tu es prêt pour le combat ?
+  Attends !
+  Au combat ![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x29f</ref>
         </refs>
-        <data>[character][0xb]: Vous avez entendu ?!
-J'entends des cris qui approchent ![end]</data>
+        <data>Matelite: Hé, là ! Vous auriez pu me prévenir ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x612</ref>
         </refs>
-        <data>[character][0xd]: Tu comprends ce que dit ce type ?[end]</data>
+        <data>Rush: Ce type sait peut-être quelque chose ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x248</ref>
         </refs>
-        <data>[character][0x10]: Vite,[character][0x1] est peut-être blessée ![end]</data>
+        <data>Taicho: Vite, présente-moi à la princesse Yoyo, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x252</ref>
         </refs>
-        <data>[character][0x10]: Il y a plusieurs manières pour faire ce genre
-de choses ![end]</data>
+        <data>Taicho: Fais à ta façon, Byuu, affirmatif ![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x32</ref>
         </refs>
-        <data>                   Chapitre [0xb3]
-            -Il y a beaucoup de regrets-[end]</data>
+        <data>Chapitre [0xb3]
+-Rongés par les regrets-[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7f3</ref>
         </refs>
-        <data>[character][0xd]: [character][0x0] !
-
-
-Où vas-tu ?![end]</data>
+        <data>Rush: Byuu ! Où tu vas ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6a5</ref>
         </refs>
-        <data>[character][0xb]: Les dragons doivent tous être nourris.
-Ne l'oublie pas ![end]</data>
+        <data>Bikebake: J'ai amené les dragons, mais c'était un peu étroit.[end]</data>
     </text>
 </texts>

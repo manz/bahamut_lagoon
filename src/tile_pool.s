@@ -9,10 +9,12 @@ tile_blit writes one tile and tells whether it changed, so a caller uploads only
 .include "src/expansion.i"
 .include "src/sram_work.i"
 .include "src/tile_pool.i"
+.extern shadow_dirty_range
 
 
 TILE_ROWS = 8
 TILE_UPPER = 16  ; a 4bpp tile's planes 2 and 3, after its planes 0 and 1
+SHADOW = 0x7EC400  ; the menus' tilemap shadows (src/shadow_dirty.s)
 
 ; source: a 2bpp tile. destination: where its converted tile goes. format: TILE_*. changed: scratch.
 .struct TilePool {
@@ -92,6 +94,7 @@ _next:
     iny
     cpy.w #TILE_ROWS * 2
     bcc _row
+    jsr.w _mark_shadow
     tsc
     clc
     adc.w #LOCALS
@@ -108,6 +111,26 @@ _next:
     pla
     plp
     rtl
+
+_mark_shadow:
+"""A changed tile in the menus' tilemap shadows (bank 7E) goes to VRAM with their next uploads. 16-bit."""
+    lda.l tile_pool.changed
+    and.w #0x00FF
+    beq _unmarked
+    lda _destination + 1
+    and.w #0xFF00
+    cmp.w #0x7E00
+    bne _unmarked
+    lda _destination
+    sec
+    sbc.w #SHADOW & 0xFFFF
+    tax
+    clc
+    adc.w #TILE_UPPER * 2
+    tay
+    jsl.l shadow_dirty_range
+_unmarked:
+    rts
 
 _put:
 """Word A at [_destination], y, noting a change."""

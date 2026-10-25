@@ -4,15 +4,15 @@
         <refs>
             <ref>0x32</ref>
         </refs>
-        <data>MATELIGHT: Protégez l'Église des
+        <data>Matelite: Protégez l'Église des
 Souvenirs !![end1][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3d</ref>
         </refs>
-        <data>COMMANDANT: Regardez, un général impérial...[0xfc][0x18]
-C'est le Général Palpaleos ![end1][end]</data>
+        <data>Taicho: L'armée impériale...[0xfc][0x18]
+C'est le Général Palparos, affirmatif ![end1][end]</data>
     </text>
     <text>
         <refs>

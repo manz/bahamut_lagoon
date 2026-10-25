@@ -1,146 +1,115 @@
 <?xml version="1.0" standalone="yes"?>
 <texts base="0xc37" room_id="45">
-    <text>
+    <text window="none">
         <refs>
             <ref>0xa5</ref>
         </refs>
-        <data>             -Pays des Sables Chauds-
-                    -Dafira-[end1]</data>
+        <data>Dafira,
+la terre du désert[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x1b7</ref>
         </refs>
-        <data>MATELIGHT:
-Les troupes de Sauzer ont été
-vaincues !
-La Princesse [character][0x1] va être soulagée ![end]</data>
+        <data>Matelite: Quand elle apprendra que nous avons écrasé l'armée de Sauzer,Yoyo ira mieux ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1c4</ref>
         </refs>
-        <data>COMMANDANT:
-Palpaleos a aussi été vaincu.
-C'est la dure réalité de la guerre.[end]</data>
+        <data>Taicho: Nous avons aussi vaincu le Général Palparos... C'est ça,la guerre...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1dc</ref>
         </refs>
-        <data>MATELIGHT:
-[character][0x0],
-va te renseigner sur le Dragon Sacré !
-Nous,nous retournons à FARENHEIT ![end]</data>
+        <data>Matelite: Byuu... Trouve des infos sur le Dragon Sacré,je compte sur toi ! Nous,nous retournons sur Fareneit !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1f5</ref>
         </refs>
-        <data>[character][0x4]!
-Viens !
-Qu'est-ce que tu fais ?![end]</data>
+        <data>[character][0x4]!! Viens !! Allez,hop !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x763</ref>
         </refs>
-        <data>RUSH:
-J'espère que la Princesse [character][0x1] se
-portera mieux.
-Je crois qu'il serait mieux qu'on soit
-tous auprès d'elle plutôt que Matelight
-seul.[end]</data>
+        <data>Rush: Ils sont partis...
+ 
+Yoyo... elle va s'en remettre ?
+ 
+Ça serait sûrement mieux si c'était nous qui restions à ses côtés,plutôt que Matelite.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x791</ref>
         </refs>
-        <data>BIKKEBAKKE:
-J'aime ce désert mais j'aime aussi les
-desserts !
-Hahahahahahaha !
-Hahahahahahaha ![end]</data>
+        <data>Bikebake: Ce qu'il y a de bon dans le désert...
+ 
+C'est le dessert,pardi...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x779</ref>
         </refs>
-        <data>TAURUS:
-J'ai entendu nombre de rumeurs
-peu édifiantes sur Dafira.
-Il paraîtrait aussi qu'aucun des
-Révolutionnaires ne soit originaire
-de ces terres.[end]</data>
+        <data>Truth: Dafira... n'a pas très bonne réputation. Et aucun guerrier des Rebelles n'en est originaire...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x78a</ref>
         </refs>
-        <data>TAURUS:
-Révolution... Superstar...
-Tout cela me perturbe...[end]</data>
+        <data>Truth: Révolution... succès avec les filles... Je suis perplexe.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xbd1</ref>
         </refs>
-        <data>Ici,c'est un endroit civilisé,on ne
-rentre pas comme ça chez nous !
-``censuré'' !
-Respecte les traditions !
-Apprends les bonnes manières et tâche
-de ne plus revenir ![end]</data>
+        <data>Ne connais-tu pas nos vénérables traditions,forgées par la longue histoire de cette terre depuis l'aube de sa civilisation... (passage abrégé)... ?!
+ 
+Malotru !! Les gens de ton espèce n'entrent pas ici !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc08</ref>
         </refs>
-        <data>Si tu veux pénétrer en ces lieux,il va
-d'abord falloir que nous parlions.
-Oui... eh bien...
-Merci d'avoir libéré Dafira.
-Ah,ceci ?
-Cela n'a aucune valeur mais c'est
-pour te remercier pour ton acte de
-bravoure.[end]</data>
+        <data>Eh bien... euh... Je préfère ne pas vous faire entrer,alors parlons ici... Eh bien... euh... Merci d'avoir libéré Dafira...
+ 
+Ah,voici une babiole... Pour vous remercier d'avoir libéré Dafira...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc1a</ref>
         </refs>
-        <data>Reçu [0xaa]Chose Insignifiante[0xab].
+        <data>La ``babiole'' contenait...
  
-  
-Obtenu [0xb0][0xaf] [0xaa]LONGUE EPEE[0xab].[end]</data>
+[0xb0][0xaf] ``Épée longue'' !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc29</ref>
         </refs>
-        <data>Ah,c'est lamentable !
-Apprends les bonnes manières ![end]</data>
+        <data>Hiii... !!! Je n'en ai plus !! Pitié !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xbe2</ref>
         </refs>
-        <data>Hahahahaha,c'est affligeant ![end]</data>
+        <data>Pff... pff... Non,non... Je fais le travail de trois personnes...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x99e</ref>
         </refs>
-        <data>Partez !
-Partez ![end]</data>
+        <data>Dehors !! Dehors !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9fd</ref>
         </refs>
-        <data>Je suis satisfait Chin !
-Le palais royal est rempli de femmes !
-Haha,je vais être occupé.[end]</data>
+        <data>Nous sommes comblé,comblé !! Le palais est plein de jolies filles !
+ 
+Ceci,cela... Ah... que de travail...[end]</data>
     </text>
     <text>
         <refs>
@@ -153,359 +122,294 @@ Haha,je vais être occupé.[end]</data>
         <refs>
             <ref>0x9ca</ref>
         </refs>
-        <data>Vous voici !
-Chin ![end]</data>
+        <data>Place,place !! Nous passons !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9f3</ref>
         </refs>
-        <data>Merci !
-Venez vous reposer Chin ![end]</data>
+        <data>Merci !! Nous allons nous reposer !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7a3</ref>
         </refs>
-        <data>J'ai perdu quelque chose de très
-grande importance.
+        <data>J'ai perdu quelque chose de très précieux...
  
-Tu ne le trouverais pas même si tu
-cherchais car tu ne sais pas ce que
-c'est.[end]</data>
+Je le cherche sans le trouver... Vous ne pouvez pas comprendre...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7cd</ref>
         </refs>
-        <data>Oh,serais-tu un explorateur ?[end]</data>
+        <data>...Quelle horreur... Vous êtes d'une expédition,ou quoi ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7ec</ref>
         </refs>
-        <data>Doucement !
-Quel est le mot de passe ?[end]</data>
+        <data>Chut... !! Silence !!
+ 
+Le mot de passe ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7f0</ref>
         </refs>
-        <data> C'est la Révolution !
- Je suis une Superstar ![end1]</data>
+        <data> La Révolution,vent de la Nouvelle Ère
+ Dès aujourd'hui,je suis un tombeur !![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x7fa</ref>
         </refs>
-        <data>Tu as faux ![end]</data>
+        <data>Raté !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x81f</ref>
         </refs>
-        <data>Viens !
-Entre ![end]</data>
+        <data>Bien !! Entre !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7c0</ref>
         </refs>
-        <data>Héhé ! [character][0x0]!
-Ça y est,ça y est[0xd8]
+        <data>Hmm !! Byuu !! Pas encore au niveau !!
  
-DON JUAN:
-Bonjour,demoiselle du désert !
-Don Juan,votre très dévoué seigneur,
-est venu enfouir vos larmes dans le
-sable ![end]</data>
+Donfan: Hello,lady !! Demoiselle du désert !! Donfan,le pur et dur,va enfouir tes larmes dans le sable ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa52</ref>
         </refs>
-        <data>DON JUAN:
-Si vous avez perdu quelque chose...
-Je pourrais devenir ce quelque chose.
-Je vois que votre coeur a fini par
-s'assécher tout comme ce désert.
-Cependant,je parviendrai à voir,par
-delà ce mirage,l'oasis connue sous le
-nom de Don Juan et enfin,j'attendrai
-à vos côtés.
-Puis,moi,le leader des Révolutionnaires,
-vous promets de vous ramener chez
-vous.
-Où ça ?
-Où aimeriez-vous aller ?[end]</data>
+        <data>Donfan: Donc... c'est-à-dire,euh,euh... tu as perdu quelque chose. Et donc,euh,euh... je ne peux pas comprendre.
+ 
+Mais moi,je crois comprendre. Ton cœur s'est asséché comme ce désert... Mais regarde au-delà du mirage. Une oasis du nom de Donfan t'attend. Allons... moi,Donfan,chef des Rebelles,je vais te raccompagner chez toi. Où ça ? C'est où,chez toi ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa33</ref>
         </refs>
-        <data>DON JUAN:
-Je suis Don Juan !
-Je suis l'un des Rebelles !
-Je suis à bout de souffle et je veux
-aussi aller me reposer.[end]</data>
+        <data>Donfan: Donfan est là !! Je suis des Rebelles !! Je souhaiterais un peu de repos pour cette nuit...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa61</ref>
         </refs>
-        <data>DON JUAN:
-Que veut-il ?
-Je suis pourtant un gentleman...
-Est-ce que c'est privé ?
-Tu n'aimerais pas y entrer [character][0x0]?
-Quoi ?!
-Tu n'aurais rien à y faire ?![end]</data>
+        <data>Donfan: Alors ? J'aimerais bien en être aussi... Ça irait,comme ça ?
+ 
+C'est-à-dire,euh,euh... c'est un certain Byuu qui tient la bourse. On met ça sur sa note ?[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x9b0</ref>
         </refs>
-        <data>            Honneur au Roi ![end]</data>
+        <data>Faites place à Sa Majesté !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7d7</ref>
         </refs>
-        <data>MARCHAND ENVOYE AU CHAMP DE
-BATAILLE:
-Haha,tout juste marié,femme au foyer !
-Ça commence toujours comme ça.[end]</data>
+        <data>Marchand: Ah... à peine mariés... et ma femme m'a déjà fait ceci,et puis cela...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x5d1</ref>
             <ref>0x83b</ref>
             <ref>0x755</ref>
             <ref>0xabd</ref>
         </refs>
-        <data>Attrape le Roi !
-Nous te faisons confiance,
-c'est à toi de le faire ![end]</data>
+        <data>Attrape le Roi !! Je compte sur toi,tout repose sur toi !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x76a</ref>
         </refs>
-        <data>RUSH:
-La Révolution de la Liberté ![end]</data>
+        <data>Rush: La révolution pour la liberté !! Ça me plaît !! Ça chauffe !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x780</ref>
         </refs>
-        <data>TAURUS:
-Le Roi de Dafira avait dit qu'il était
-protégé par un Dragon Sacré.
-Il a ajouté qu'il s'appelait Jormungand
-et qu'il était au Sud du désert.
-Hahahaha !
-Allez,va attraper ce Roi ![end]</data>
+        <data>Truth: Le palais de Dafira m'a remis la carte du temple du Dragon Sacré. Le temple de Jormungand se trouverait au bout du désert,au sud.
+ 
+Ah... !! Mais d'abord,le Roi !![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xacb</ref>
         </refs>
-        <data>ZEROSHIN:
-Finis ce travail calmement et
-proprement ![end]</data>
+        <data>Zeroshin: Maman... ce travail aussi devrait bien se terminer...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xadc</ref>
         </refs>
-        <data>SAJIN:
-Vite... le Roi !
-Attrape-le ![end]</data>
+        <data>Sajin: Le Roi... qu'il est rapide !! Et si je le recrutais...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x858</ref>
         </refs>
-        <data>LIBERO:
-Altesse,résignez-vous !
+        <data>Libero: Majesté !! Préparez-vous !!
  
-Demain à Dafira sera mis en place un
-gouvernement formé de révolutionnaires
-pour la liberté !
-Notre leader est...
-le seigneur [character][0x0]!
-Nous vous l'annonçons en ces lieux:
-Dès à présent,Dafira est un pays libre !
-Une nouvelle ère commence ![end]</data>
+L'avenir de Dafira,c'est nous qui le bâtirons... le Groupe Révolutionnaire de la Liberté !!
+ 
+Notre chef est... messire Byuu !!
+ 
+Nous le proclamons ici !!
+ 
+Dès à présent,Dafira devient un pays libre !! Une nouvelle ère commence !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x834</ref>
         </refs>
-        <data>Nous avons eu pour instruction
-d'attraper le Roi !
-C'est ta responsabilité ![end]</data>
+        <data>Ta mission: capturer le Roi sur la grand-place !! C'est une lourde responsabilité !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x87e</ref>
         </refs>
-        <data>Chin... Chin...
-Chin s'est exilé...
-Nous sommes tous libres ![end]</data>
+        <data>Nous... Nous... Nous partons en exil... Peuple bien-aimé,portez-vous bien...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x94d</ref>
         </refs>
-        <data>     Cette nuit dans le désert
-          fut très longue...
-   Et c'est ainsi que tout finit.[end]</data>
+        <data>La nuit du désert s'étirait, insondable...
+et le banquet se poursuivait sans fin...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x953</ref>
         </refs>
-        <data>       Rush devint un adulte ![end]</data>
+        <data>Rush devint un homme !![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x959</ref>
         </refs>
-        <data>      Taurus devint un adulte ![end]</data>
+        <data>Truth devint un homme !![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x95f</ref>
         </refs>
-        <data>    Bikkebakke devint un adulte ![end]</data>
+        <data>Bikebake, lui, l'était déjà !![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x965</ref>
         </refs>
-        <data>             Et [character][0x0]...[end]</data>
+        <data>Et Byuu...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x737</ref>
         </refs>
-        <data>HOMME SUSPECT:
-Tu es une Superstar ?[end]</data>
+        <data>Homme louche: Toi... tu as du succès avec les filles ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x73b</ref>
         </refs>
-        <data> Je suis une Superstar.
- Je n'en sais rien...[end1]</data>
+        <data> Un succès fou
+ Ces temps-ci,bof...[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x745</ref>
         </refs>
-        <data>Ah bon,je ne te voyais pas comme ça.[end]</data>
+        <data>Ah bon... Ça ne se voit pas.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x74b</ref>
         </refs>
-        <data>Toi aussi,avec ta triste mine,tu n'as
-été qu'une Superstar d'une nuit[0xd8]
+        <data>Même un type terne comme toi peut devenir un tombeur en une seule nuit !!
  
-Tu es recruté pour faire partie des
-Libérateurs !
+Le Groupe Révolutionnaire de la Liberté recrute !
  
 Le mot de passe est...
-[0xaa]Je suis une Superstar ![0xab][end]</data>
+``Dès aujourd'hui,je suis un tombeur !!''[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa70</ref>
         </refs>
-        <data>Il fait très chaud !
-Connais-tu les rumeurs qui courent sur
-les Rebelles ?
-Je t'en dirai une pour [0xb0][0xaf][0xaf] Po ![end]</data>
+        <data>Ouf ! Il fait encore chaud aujourd'hui ! Vous lisez les nouvelles des Rebelles ? [0xb0][0xaf][0xaf] Piro l'exemplaire !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa74</ref>
         </refs>
-        <data> En apprendre une !
- Ne pas écouter.[end1]</data>
+        <data> Lire
+ Ne pas lire[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xa8f</ref>
         </refs>
-        <data>Il paraîtrait que le Capitaine de
-l'Escadron Dragon,[character][0x0],se marierait
-bientôt avec la Princesse [character][0x1]![end]</data>
+        <data>Byuu,capitaine de l'Escadron Dragon !! Épouse la Princesse Yoyo !!!
+ 
+...ou pas ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa96</ref>
         </refs>
-        <data>Il paraît que les matelots de
-FARENHEIT ont une mauvaise réputation.
-Et il paraît que Bikkebakke vole des
-champignons et qu'il les revend ![end]</data>
+        <data>Un matelot de Fareneit vole les champignons et la bourse de Bikebake et prend la fuite !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xaa1</ref>
         </refs>
-        <data>Il semblerait qu'Ekaterina ait tout
-laissé tomber dans sa vie !
-Est-ce à cause du [0xaa]UNIUJI[0xab]?![end]</data>
+        <data>Ekaterina encore éconduite !! Le mystère des ``Uniasticot'' qu'elle ne cesse d'offrir ?![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xaa8</ref>
         </refs>
-        <data>Il paraît que les grognements de
-Sergent sont une maladie !
-On dit aussi que la Princesse risque
-de l'attraper !
-Quelle horreur ![end]</data>
+        <data>La gratte de Gunso empire !! La Princesse Yoyo contaminée ?!
+ 
+On le craint !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xab1</ref>
         </refs>
-        <data>Il n'y a plus rien à savoir !
-Il n'y a rien à dire... sur le célèbre
-Commandant ![end]</data>
+        <data>Tout est vendu ! Même les romans à succès de Taicho sont épuisés ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb4e</ref>
         </refs>
-        <data>Obtenu [0xaa]VESTE MACH[0xab].[end]</data>
+        <data>Obtenu ``Gilet Mach''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb85</ref>
         </refs>
-        <data>Obtenu [0xaa]BATON MAITRE[0xab].[end]</data>
+        <data>Obtenu ``Bâton maître''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb74</ref>
         </refs>
-        <data>Obtenu [0xaa]FORCE NOIRE[0xab].[end]</data>
+        <data>Obtenu ``Force noire''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb5f</ref>
         </refs>
-        <data>Obtenu [0xb4] [0xaa]HI-GIN[0xab].[end]</data>
+        <data>Ramassé [0xb4] ``Super gin''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb39</ref>
         </refs>
-        <data>Obtenu [0xb0][0xaf] [0xaa]UNIUJI[0xab].[end][end]</data>
+        <data>Obtenu [0xb0][0xaf] ``Uniasticot''.[end][end]</data>
     </text>
 </texts>

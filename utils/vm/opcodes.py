@@ -339,20 +339,6 @@ class JumpToSubRoutine:
         return 3
 
 
-class BattleOptionalJump:
-    def apply(self, room: Room) -> int:
-        jump_addr = room.get_word(1)
-        room.program.put_opcode(room.pc, room.get_byte(), ("data", ("reference", jump_addr)), size=4)
-        room.save_pc()
-        try:
-            room.jump_to(jump_addr)
-            walk_event_chain(room)
-        except AlreadyVisitedError:
-            pass
-        room.restore_pc()
-        return 3
-
-
 class ReturnFromSubRoutine:
     def apply(self, room: Room) -> int:
         room.program.put_opcode(room.pc, room.get_byte(), None, size=1)

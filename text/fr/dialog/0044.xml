@@ -4,136 +4,110 @@
         <refs>
             <ref>0x6d</ref>
         </refs>
-        <data>[character][0x1]:
-... ... ... ...[0xd8][end]</data>
+        <data>Yoyo: ... !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x76</ref>
         </refs>
-        <data>SENDACK:
-Princesse ?
-Comment faire ?[end]</data>
+        <data>Sendak: Princesse ? Qu'avez-vous ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x82</ref>
         </refs>
-        <data>[character][0x1]:
-Valitra !
-Quelque chose ne va pas ?![end]</data>
+        <data>Yoyo: Vritra et les autres... s'agitent...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8e</ref>
         </refs>
-        <data>MATELIGHT:
-Quoi ?
-Quelle est notre faiblesse ?[end]</data>
+        <data>Matelite: Hum ? Ils sont contents d'avoir de nouveaux compagnons ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x94</ref>
         </refs>
-        <data>[character][0x1]:
-Je ne comprends pas...[end]</data>
+        <data>Yoyo: Je ne sais pas...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa1</ref>
         </refs>
-        <data>SENDACK:
-Tout va bien ?
-Princesse ?[end]</data>
+        <data>Sendak: Ça ira,Princesse ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xae</ref>
         </refs>
-        <data>[character][0x1]:
-Oui,Sendack,tout va bien ![end]</data>
+        <data>Yoyo: Oui... ça ira...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xba</ref>
         </refs>
-        <data>Je vais y aller...[end]</data>
+        <data>Je suis venue...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xf6</ref>
         </refs>
-        <data>Dragon Sacré Garuda...
-je suis ici...
-Pour toi...
-Valitra et Léviathan sont là,en moi...[end]</data>
+        <data>Dragon Sacré Garuda... Je suis venue... jusqu'à vous... Vritra et Léviathan sont là,eux aussi...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x142</ref>
         </refs>
-        <data>Kyaaa[0xd8][end]</data>
+        <data>Kyaaa !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x17e</ref>
         </refs>
-        <data>SENDACK:
-Princesse !
-Tenez bon ![end]</data>
+        <data>Sendak: Princesse !! Tenez bon !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x208</ref>
             <ref>0x1a4</ref>
         </refs>
-        <data>MATELIGHT:
-Princesse [character][0x1]![end]</data>
+        <data>Matelite: Princesse Yoyo !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1ad</ref>
         </refs>
-        <data>[character][0x1]:
-Garuda...
-Mais... que veut-il ?![end]</data>
+        <data>Yoyo: Garuda... Mais qu'est-ce qui vous met dans un tel...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1cb</ref>
         </refs>
-        <data>Pourquoi est-il si furieux... ?
-Qui hait-il ?
-Quelle haine ![end]</data>
+        <data>Vous êtes en colère... ? ...De la haine ? ...Non...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1d4</ref>
         </refs>
-        <data>[character][0x1]:
-Aaaaah ![end]</data>
+        <data>Yoyo: Aah... !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1fb</ref>
         </refs>
-        <data>SENDACK:
-Princesse !
-Tenez bon[0xd8][end]</data>
+        <data>Sendak: Princesse !! Tenez bon !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x211</ref>
         </refs>
-        <data>MATELIGHT:
-Ramenons-la immédiatement à
-FARENHEIT ![end]</data>
+        <data>Matelite: Vite,retournons sur Fareneit ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x26e</ref>
         </refs>
-        <data>manyo !
-``... ... !''[end]</data>
+        <data>Manyooo !!
+(... !!)[end]</data>
     </text>
 </texts>

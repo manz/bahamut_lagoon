@@ -1,115 +1,87 @@
 <?xml version="1.0" standalone="yes"?>
 <texts base="0x86a" room_id="215">
-    <text>
+    <text window="none">
         <refs>
             <ref>0x44b</ref>
         </refs>
-        <data>EKATERINA:
-Je me demande si cette fille voit le
-même ciel que moi.
-Son attitude ne me permet même pas
-de mieux le cerner.[end]</data>
+        <data>Ekaterina: (Lui aussi, regarde-t-il le même ciel en ce moment... Je ne vois jamais que son dos...)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x596</ref>
         </refs>
-        <data>ZORA:
-Je vais enfin revoir Campbell après de
-si longues années.
-Je n'arriverai pas à rester calme
-très longtemps tant je suis contente ![end]</data>
+        <data>Zora: Ça faisait longtemps, Campbell. Je ne tiens pas en place ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5ef</ref>
         </refs>
-        <data>FREDERIKA:
-Moi ?!
-Je suis exténuée !
-Combattre est épuisant,
-mais si tu veux... frappe-moi[0xd8]
+        <data>Frederica: Moi... je m'évanouis souvent.
  
- Le faire à contre-coeur...
- Le faire doucement...[end1]</data>
+Je me bats comme il faut, mais... je suis désolée.
+ 
+ Mais non, on compte sur toi
+ Repose-toi bien[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x6e5</ref>
         </refs>
-        <data>DIANA:
-Tu n'as rien remarqué ?
+        <data>Diana: Dis, tu es au courant ?
  
-Tu as vu de quelle manière parlent les
-lanciers depuis quelque temps ?
+L'histoire des deux lanciers, tu sais,
+ceux qu'on ne distingue jamais.
  
- Que veux-tu dire ?
- Je n'ai pas vu de différence ![end1]</data>
+ Que s'est-il passé ?
+ Pas besoin de savoir[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x764</ref>
         </refs>
-        <data>LUKIA:
-C'est bien que la Princesse [character][0x1]
-soit enfin revenue !
-Sache qu'une personne comme moi,
-une Garde Lumière,peut marcher loin.[end]</data>
+        <data>Ruki: La Princesse Yoyo est revenue, et maintenant, les choses sérieuses commencent. Être la seule Fantassin, ça va être dur...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x532</ref>
         </refs>
-        <data>MELODIA:
-[character][0x0],
-est-ce que tu aimes [character][0x1]?
- Évidemment,quelle question !
- Eh bien...[end1]</data>
+        <data>Melody: Byuu, toi aussi, tu aimes
+la Princesse Yoyo ?
+ Bien sûr !
+ Pas tant que ça[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x53f</ref>
         </refs>
-        <data>...
-...
-...
-Mélodia aime beaucoup tout ce qu'aime
-[character][0x0]...[end]</data>
+        <data>...................
+ 
+ 
+Melody, elle t'aime très fort, Byuu...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x548</ref>
         </refs>
-        <data>Héhéhéhéhé !
-Je suis soulagée !
-SOULAGÉE !
-Au fait,sache que Lukia m'a confié
-qu'elle adorait sortir avec des hommes
-bien vêtus ![end]</data>
+        <data>Hé hé. Ouf, ouf.
+ 
+Ah, mais Ruki m'a dit qu'il ne fallait pas faire confiance aux hommes... Qu'est-ce que je fais ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5ff</ref>
         </refs>
-        <data>Merci...
-[character][0x0],tu es très gentil.[end]</data>
+        <data>Merci... Vous êtes gentil, Byuu.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x6f2</ref>
         </refs>
-        <data>Depuis que [character][0x1] est revenue dans sa
-chambre,ce type va et vient,et
-s'exclame toujours:
-Lan lan lancier ! Lance Lance !
-Est-ce respectueux ?
+        <data>Pour fêter le retour de la Princesse Yoyo, ils ont fait leur numéro habituel devant sa chambre. Le fameux ``Lan-lan-lancier ! Lance lance !''
  
-Et Zora !
-Elle n'a jamais été si bruyante.
+Et Zora les a frappés parce qu'ils faisaient trop de bruit.
  
-Tu peux me considérer comme quelqu'un
-de nostalgique mais je peux t'assurer
-que c'était bien plus calme avant ![end]</data>
+L'un des deux a pensé à sa maman, et il a le mal du pays, paraît-il. Bon, au moins, c'est calme.[end]</data>
     </text>
     <text>
         <refs>
@@ -118,304 +90,219 @@ que c'était bien plus calme avant ![end]</data>
             <ref>0x744</ref>
             <ref>0x716</ref>
         </refs>
-        <data>Bien !
-Très bien !
-Quel désastre[0xd8][end][end]</data>
+        <data>Hmm... Je vois... C'est donc ça~[end][end]</data>
     </text>
     <text>
         <refs>
             <ref>0x60f</ref>
         </refs>
-        <data>FREDERIKA:
-Moi ?! Je vais bien !
-Je prépare un peu de médecine...[end]</data>
+        <data>Frederica: Je vais bien. Tant que j'ai mes m-médicaments...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x460</ref>
         </refs>
-        <data>EKATERINA:
-Ainsi,il aimerait le Uniuji ?
-Hahaha,je lui en enverrai ![end]</data>
+        <data>Ekaterina: (Ce qu'il aime, c'est l'Uniasticot... Ah, je vais lui offrir de l'Uniasticot, avec tout mon cœur...)[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x459</ref>
         </refs>
-        <data>EKATERINA:
-Ainsi,il aimerait le Vin Doux ?
-Hahaha,je lui en enverrai ![end]</data>
+        <data>Ekaterina: (Ce qu'il aime, c'est le vin doux... Ah, je vais lui offrir du vin doux, avec tout mon cœur...)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3f9</ref>
         </refs>
-        <data>ANASTASIA:
-L'argent et la nourriture sont toujours
-suffisants.
-Durant une bataille,regarde toujours
-la force que tu as gagnée.
+        <data>Anastasia: Quand on manque d'argent ou de nourriture, il paraît qu'on peut faire un ``détour'' : se battre un peu avant le vrai combat pour prendre des forces.
  
-Seul l'argent compte pour les guerriers
-lents comme Bareck.
-Ils ne sont satisfaits que par ça.[end]</data>
+C'est Barclay, ce Cuirassier tout lent, qui me l'a dit. Il en sait, des trucs bizarres.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x4cc</ref>
         </refs>
-        <data>DON JUAN:
-Leçon de Morale !
-Une sorcière ne ferait jamais ça ![end]</data>
+        <data>Donfan: Leçon du jour !! Ne jamais toucher à une magicienne ![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x668</ref>
         </refs>
-        <data>DON JUAN:
-Leçon de Morale !
-Une prêtresse ne ferait jamais ça ![end]</data>
+        <data>Donfan: Leçon du jour !! Ne jamais toucher à une prêtresse ![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x7b0</ref>
         </refs>
-        <data>DON JUAN:
-Je vis la vie au maximum ![end]</data>
+        <data>Donfan: La pire crise de toute ma vie~ !!![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x407</ref>
         </refs>
-        <data>ANASTASIA:
-Te souviens-tu de la nuit de la
-Restauration de Kana ?
-Bareck et Frederika se sont disputés !
-Il fallait s'en douter !
+        <data>Anastasia: Tu te souviens du soir de la fête pour Kana ? Il paraît que Barclay a dansé avec Frederica...
  
-Je suis restée sur ma faim lorsqu'ils
-ont parlé des distinctions entre une
-Armure Lourde et une Sorcière.[end]</data>
+Remarque, ce Cuirassier tout lent, je m'en fiche complètement. Mais ça m'agace quand même. Tiens ? Tiens donc ? Pourquoi... Pourquoi ça m'agace...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x415</ref>
         </refs>
-        <data>ANASTASIA:
-Bareck a dit quelque chose ?
+        <data>Anastasia: Barclay t'a dit quelque chose ?
  
- Félicitations !
- Rien de particulier...[end1]</data>
+ Félicitations
+ Rien de spécial...[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x421</ref>
         </refs>
-        <data>S'il en parle,c'est une bonne chose !
-Héhéhéhéhé ![end]</data>
+        <data>Eh oui, c'est comme ça. Hé hé.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x429</ref>
         </refs>
-        <data>Ah bon ?![end]</data>
+        <data>Ah, c'est tout ?[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x46d</ref>
         </refs>
-        <data>EKATERINA:
-Le visage souriant de cette fille...
-Le mien est beaucoup plus beau grâce
-au Vin Doux !
-Huhu... Huhuhu... Huhuhuhu...[end]</data>
+        <data>Ekaterina: (Ah, son sourire... un sourire rien que pour moi... C'est grâce au vin doux... Hihi... Hihihi... Hihi...)[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x477</ref>
         </refs>
-        <data>EKATERINA:
-J'aime tellement le Uniuji...
- 
-Mais où pourrais-je donc en avoir
-plus ?
- 
-Je suis une personne qui a tant de
-souvenirs !
-Huhu... Huhuhu... Huhuhuhu...[end]</data>
+        <data>Ekaterina: (Ah, on m'avait dit qu'il aimait l'Uniasticot... C'est fichu... Il me déteste... Comment est-ce arrivé... Mais tant pis... Je resterai dans sa mémoire comme la fille qui lui a offert de l'Uniasticot... Hihi... Hihihi... Hihi...)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5b9</ref>
         </refs>
-        <data> en avoir
-plus ?
- 
-Je suis une personne qui a tant de
-souvenirs !
-Huhu... Huhuhu... Huhuhuhu...[end]</data>
+        <data>[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x4a1</ref>
         </refs>
-        <data>EKATERINA:
-Je ne cesse de me regarder pour
-contempler ma beauté !
-Soyons franche,Ekaterina !
-Je veux que la guerre prenne fin une
-fois pour toutes !
-Houlala,j'ai des idées trop préconçues
-et c'est donc inutile de penser !
-Bon,on change d'optique et tout le
-monde doit perdre !
-Voilà,un point c'est tout...
-Que je suis drôle !
-Huhu... Huhuhu... Huhuhuhu...[end]</data>
+        <data>Ekaterina: (Je vais le faire...
+ 
+Quand tous les combats seront finis, je lui avouerai... mes sentiments brûlants... Et si c'est non... alors... j'emporterai tout le monde avec moi... Hihihihi... Badaboum !!)[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x4ab</ref>
         </refs>
-        <data>EKATERINA:
-Que j'ai de souvenirs !
-Que je suis intelligente !
-C'est [character][0x0] qui l'a dit !
-Il n'y a qu'une personne au monde
-qui aime le uniuji.
-Je suis cette personne dont il parle si
-souvent.
-Je suis adorée de tous !
-La guerre est bientôt finie et j'ai
-tout à y gagner !
-Huhu... Huhuhu... Huhuhuhu...[end]</data>
+        <data>Ekaterina: (Je me souviens...
+ 
+C'est Byuu qui me l'a dit... qu'il aimait l'Uniasticot...
+ 
+S'il me déteste... c'est la faute de Byuu...
+ 
+Je n'oublierai pas... Quand tous les combats seront finis... Byuu... Hihi... Hihi...)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4c1</ref>
         </refs>
-        <data>NELBO:
-Est-ce que tu as remarqué quelque
-chose,[character][0x0]?
-Nous avons enfermé Don Juan !
-C'est génial,n'est-ce pas ?![end]</data>
+        <data>Nerbo: Ah, Byuu.
+ 
+Nous avons décidé d'enfermer ici Donfan, l'ennemi des femmes. Vous êtes d'accord, n'est-ce pas ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x65d</ref>
         </refs>
-        <data>JOY:
-Moi et Nelbo sommes prêtes à être
-envoyées au combat dès qu'il sera
-temps ![end]</data>
+        <data>Joy: Nerbo et moi, nous le surveillons. Il ne sort que pour les combats.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x503</ref>
         </refs>
-        <data>NELBO:
-Lorsque la guerre sera finie,
-Don Juan m'emmènera à Mahal.
-Il m'a dit qu'on aura une grande
-sensation lorsque nos visages se
-reflèteront dans les lacs de Mahal.
-Cependant,je ne dois pas oublier mon
-amie Joy.[end]</data>
+        <data>Nerbo: (Après la guerre, Donfan m'emmènera à Mahal... Il veut voir les lacs de Mahal qui se reflètent dans mes yeux, il paraît... Mais chut, pas un mot à ma meilleure amie Joy...)[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x69f</ref>
         </refs>
-        <data>JOY:
-Dès que la guerre sera finie,
-Don Juan viendra à Campbell.
-Je crois qu'il sera subjugué par la
-beauté de la nature.
-J'en suis certaine !
-Cependant,je ne dois pas oublier mon
-amie Nelbo.[end]</data>
+        <data>Joy: (Après la guerre, Donfan viendra à Campbell... ``Qu'il existe une nature plus belle que toi, moi, Donfan, je ne peux pas le croire ! Alors je veux comparer'', qu'il m'a dit... Mais chut, pas un mot à ma meilleure amie Nerbo...)[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x6aa</ref>
             <ref>0x50e</ref>
         </refs>
-        <data>DON JUAN:
-Haha,[character][0x0]!
-Je suis Don Juan,le Méritant ![end]</data>
+        <data>Donfan: Alors, Byuu ! Voilà de quoi est capable le grand Donfa~an ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x54f</ref>
         </refs>
-        <data>MELODIA:
-Ah [character][0x0]!
-Tu sais qui aime Mélodia ?
- Tu vas encore mentir !
- Je le sais...[end1]</data>
+        <data>Melody: Dis, Byuu ! Tu aimes Melody ?
+ Je ne sais pas mentir
+ Je t'aime bien[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x563</ref>
         </refs>
-        <data>MENTEUR ![end]</data>
+        <data>Radin ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x55b</ref>
         </refs>
-        <data>Tu as un si grand coeur ![end]</data>
+        <data>Non~ ! Tu ne le penses pas~ ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x56a</ref>
         </refs>
-        <data>MELODIA:
-Est-ce bientôt la fin de la guerre ?
- 
- Je n'en sais rien...
- Je ne pense pas ![end1]</data>
+        <data>Melody: Dis, Byuu, qu'est-ce que tu
+feras quand la guerre sera finie ?
+ Je n'y ai pas pensé
+ J'ai plein de choses à faire ![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x576</ref>
         </refs>
-        <data>Tout le monde pense ça ![end]</data>
+        <data>Pas bien~ ! Tout le monde y pense, à ce qu'il va faire ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x57e</ref>
         </refs>
-        <data>C'est terrible [character][0x0]!
-C'est long ![end]</data>
+        <data>Génial, Byuu ! Viens jouer avec moi de temps en temps ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x59e</ref>
         </refs>
-        <data>ZORA:
-As-tu vu mon fils ?
+        <data>Zora: Comment s'en sort mon fils ?
  
- Non,désolé...
- Une fois de plus ![end1]</data>
+ Il fait du bon travail
+ Bof[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x5aa</ref>
         </refs>
-        <data>Essaie de le trouver ![end]</data>
+        <data>Si c'est le cas, tant mieux.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5b2</ref>
         </refs>
-        <data>Sache qu'il assume un très grand nom ![end]</data>
+        <data>Ah bon... Il n'est pas encore à la hauteur de son nom, alors...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x5c5</ref>
         </refs>
-        <data>Tout le monde...[end]</data>
+        <data>...C'est comme ça, hein.[end]</data>
     </text>
     <text>
         <refs>
@@ -423,351 +310,242 @@ As-tu vu mon fils ?
             <ref>0x61c</ref>
             <ref>0x5cd</ref>
         </refs>
-        <data>FREDERIKA:
-Non,je ne suis pas en manque !
-Je tremble... c'est... tout !
-Il me faut...
-Il me faut de la médecine...
+        <data>Frederica: Je... je tremble...
  
-Aujourd'hui les soins:
-[0xaa]Remède[0xab]...[end]</data>
+C'est l'heure... L'heure de mes m-médicaments...
+ 
+Aujourd'hui, je prendrai bien de la ``Panacée''...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x636</ref>
         </refs>
-        <data>FREDERIKA:
-Moi ma plus grande difficulté,
-c'est de penser !
-Quand la guerre sera finie,j'essaierai
-d'être un peu plus énergique.
+        <data>Frederica: Moi... je me dis depuis longtemps que je ne peux pas continuer comme ça... Quand la guerre sera finie, je ferai tout pour aller mieux. Et alors, Byuu... vous voudriez ouvrir une pharmacie avec moi ?
  
-Quand ça arrivera,tu crois que je
-pourrai ouvrir un magasin de médecine ?
-Ne t'inquiète pas !
-Je ne vendrai pas de magies illégales.[end]</data>
+Ne vous inquiétez pas. Je ne toucherai pas à la marchandise...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x738</ref>
         </refs>
-        <data>DIANA:
-Est-ce bientôt la fin de la guerre ?
- 
- Je ne sais pas...
- Eh bien...[end1]</data>
+        <data>Diana: Byuu. C'est vrai que la guerre
+est bientôt finie ?
+ Je ne sais pas
+ Peut-être bien[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x74c</ref>
         </refs>
-        <data>Je n'y crois pas...
-La rumeur était vraie.
+        <data>Alors c'est vrai... Cette rumeur, hein.
  
-Je le savais !
-Attention,je ne suis pas le genre de
-fille qui prête attention aux rumeurs.
-Moi,les choses que je dis sont des
-plus vraies.[end]</data>
+Tu sais, j'ai réfléchi. Je vais arrêter de me soucier des rumeurs et de tout ça. Je vais penser à moi et prendre la vie tranquillement.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x76b</ref>
         </refs>
-        <data>LUKIA:
-[character][0x0],tu sembles aller mieux depuis
-quelques jours !
-Fais-tu attention aux rumeurs qui
-courent ?
+        <data>Ruki: Byuu, tu es plutôt séduisant,
+ces temps-ci ! Et si on faisait
+jaser, tous les deux ?
  
- Excuse-moi ?!
- Merci,ça me réconforte ![end1]</data>
+ Désolé
+ Avec plaisir ![end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x77f</ref>
             <ref>0x777</ref>
         </refs>
-        <data>Tu as une place d'honneur ![end]</data>
+        <data>Je plaisante, je plaisante ! Il faut bien se détendre, non ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x78e</ref>
         </refs>
-        <data>LUKIA:
-Chacun commence à penser à la fin de
-la guerre.
-Tout le monde sera satisfait lorsqu'ils
-sauront qu'ils ne craignent plus rien
-pour leur vie.
-La fin du combat est proche !
-Nous en sommes tous persuadés ![end]</data>
+        <data>Ruki: Tout le monde commence à penser à l'après-guerre. Moi, je prierai de tout mon cœur pour que tout le monde soit heureux. Quand la guerre sera finie, toi aussi, Byuu, viens prier avec moi ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7a5</ref>
         </refs>
-        <data>JEANNE:
-Don Juan est l'un des détracteurs de
-couples à Campbell.
-Nous avons réussi à le calmer !
-Ce pathétique Don Juan nous laisse
-enfin en paix.[end]</data>
+        <data>Jeanne: Ces deux filles de Campbell...
+ 
+Elles ont l'air sages, mais elles en ont dans le ventre...
+ 
+Le pauvre Donfan... mais de temps en temps, c'est agréable, un peu de calme.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7c7</ref>
         </refs>
-        <data>JEANNE:
-Dès que la guerre sera finie,
-je crois que je retournerai à Mahal.
-Avec mes amis nous servirons tout
-spécialement Commandant.[end]</data>
+        <data>Jeanne: Après la guerre, on rentrera au pays, tous ensemble, les gens de Mahal. Taicho va devoir se donner à fond.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7ed</ref>
             <ref>0x7de</ref>
         </refs>
-        <data>MIST:
-J'aimerais t'accompagner au combat ![end]</data>
+        <data>Mist: ...Je ne suis pas encore remise. Laisse-moi me reposer quand on ne se bat pas...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7fc</ref>
         </refs>
-        <data>MIST:
-Frederika a des discussions bien
-étranges.
-Je suis aussi redevable envers Zora
-de Campbell pour m'avoir aidé dans
-mon combat.
-L'air du Lagon Campbell est si frais.
-C'est un vrai plaisir ![end]</data>
+        <data>Mist: J'en ai parlé avec Frederica.
+ 
+Après la guerre, nous irons vivre chez Zora, à Campbell. L'air pur du Lagon de Campbell... J'ai hâte.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3db</ref>
         </refs>
-        <data>TAURUS:
-Au moins,je ne penses à rien dans
-cette chambre !
-Ici,les femmes ne sont pas nerveuses
-et elles t'écoutent.[end]</data>
+        <data>Truth: Euh... c'est que...
+ 
+Je suis entré dans cette pièce sans réfléchir...
+ 
+Avec toutes ces femmes, je suis tout intimidé...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x7e6</ref>
         </refs>
-        <data>C'est la meilleure !
-Le Général Palpaleos et la Princesse
-[character][0x1] vont ensemble ![end]</data>
+        <data>(Quoi... Le Général Palparos... avec la Princesse Yoyo... Hmpf, cette petite pimbêche...)[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x7f5</ref>
         </refs>
-        <data>Huhu... Huhuhu... Huhuhuhu...
-Que devrais-je bien lui dire ?
+        <data>(Hihihi...
  
-[character][0x0],j'ai la sensation que tout cela
-était inévitable !
  
-Un instant ! Regarde-moi !
-Je suis très belle,non ?![end]</data>
+Byuu ne peut pas s'empêcher de penser à moi... Il est plutôt mignon...)[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x804</ref>
         </refs>
-        <data>L'air de Campbell est si doux...
-Je pourrais le respirer au moins
-[0xb0][0xaf][0xaf] fois de suite ![end]</data>
+        <data>(...L'air pur de Campbell... Ma beauté sera multipliée par cent... Les hommes ne me laisseront pas tranquille...)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x672</ref>
         </refs>
-        <data>JOY:
-Tu ne penses pas que Don Juan est
-très mignon comme ça ?[end]</data>
+        <data>Joy: Donfan... Vous ne le trouvez pas mignon ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4d6</ref>
         </refs>
-        <data>NELBO:
-Amuse-toi avec ce gentleman...
-Il est marrant,non ?
-``Il a l'air idiot !''[end]</data>
+        <data>Nerbo: Jouer avec ces messieurs... c'est fort amusant.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x4e1</ref>
             <ref>0x67d</ref>
         </refs>
-        <data>DON JUAN:
-Don Juan est très bien ici mais il
-aime la vie mais pas l'humiliation ![end]</data>
+        <data>Donfan: Qu-quelle misère ! Moi, le grand Donfa~an ! La pire humiliation de la vie de Donfan~ !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x687</ref>
         </refs>
-        <data>JOY:
-Maintenant,Don Juan est plus calme...[end]</data>
+        <data>Joy: À quoi pourrais-je bien jouer avec Donfan, la prochaine fois...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4eb</ref>
         </refs>
-        <data>NELBO:
-Maintenant,Don Juan est plus calme au
-bar...[end]</data>
+        <data>Nerbo: Et si la prochaine fois, je déshabillais Donfan...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x692</ref>
             <ref>0x4f6</ref>
         </refs>
-        <data>DON JUAN:
-Je suis toujours le même !
+        <data>Donfan: V-v-vous allez voir !
  
-Don Juan captive encore autant
-l'attention ![end]</data>
+Je vous rendrai folles de moi toutes les deux, foi de Donfa~an !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x71d</ref>
         </refs>
-        <data>DIANA:
-Est-ce que tu le sais ?
-C'est une chose importante !
- Informe-moi !
- Je suis très occupé...[end1]</data>
+        <data>Diana: Dis, dis, tu sais ? C'est une
+histoire grave !
+ Raconte
+ Je suis occupé, là...[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x729</ref>
         </refs>
-        <data>Mélodia a de nombreux slips dragons.
-Et elle les a perdus !
-Ou du moins,le croyait-elle !
-J'ai découvert qu'ils étaient TOUS
-dans les quartiers des hommes !
+        <data>Melody a une culotte dragon à laquelle elle tient beaucoup.
  
-C'est un Lancier qui les a dérobés ou
-devrais-je dire un clepto !
-Un cleptomane,hahaha !
-Et... et... cette personne est
-Reeve !
-C'est fou,non ?![end]</data>
+Eh bien, elle a disparu.
+ 
+ 
+On l'a cherchée et, devine quoi, on l'a retrouvée dans la chambre des garçons !! Attachée à la lance d'un lancier ! Et, et, le propriétaire de la lance, c'est Reeve !! Trop nul~ !![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x702</ref>
         </refs>
-        <data>DIANA:
-Veux-tu savoir ce que j'ai à dire sur
-[character][0x1]?
- Informe-moi !
- Je suis très occupé...[end1]</data>
+        <data>Diana: Dis, tu sais ? L'histoire de
+la Princesse Yoyo...
+ Raconte
+ Je suis occupé, là...[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x70e</ref>
         </refs>
-        <data>Comme d'habitude,j'écoutais ce qui se
-passait dans la chambre de [character][0x1].
- 
-Et il m'a semblé entendre les Dragons
-Sacrés.
- 
-Ils avaient l'air en colère[0xd8]
-Qu'est-ce que ça veut dire ?
-Je me pose beaucoup de questions ![end]</data>
+        <data>On entend toujours des gémissements dans la chambre de la Princesse Yoyo. Je me disais que c'était encore les Dragons Sacrés...
+
+Mais leur colère, ça ne lui fait plus rien, non ? Qu'est-ce que ça peut bien être ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x400</ref>
         </refs>
-        <data>ANASTASIA:
-Je vais t'apprendre quelque chose !
+        <data>Anastasia: Byuu, tu savais ?
  
-Les dragons peuvent utiliser la magie
-noire ou la magie de soin !
+On peut obtenir des dragons qui utilisent des techniques sacrées ou des techniques des ténèbres ! Il faut monter au maximum le feu, l'eau et la foudre, plus soit le soin, soit le poison au maximum, et aussi soit l'attaque, soit la défense au maximum ! Et là, c'est parfait, d'après Barclay.
  
-Tu peux faire augmenter leur Défense,
-leur Attaque,leur pouvoir de Poison,
-leur pouvoir de Soin,et aussi ceux de
-Feu,d'Eau,et de Foudre !
-C'est ce qui conviendrait parfaitement
-à Bareck !
-Les sorcières peuvent aussi augmenter
-leur pouvoir magique tandis que Bareck
-et les autres n'augmentent qu'en
-force !
-De toute manière,des types comme lui
-ne sont que des brutes.[end]</data>
+Comme ça, nous, les magiciennes, on deviendra encore plus fortes, et Barclay et compagnie deviendront des seconds rôles ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x40e</ref>
         </refs>
-        <data>ANASTASIA:
-Aujourd'hui je suis allée me promener
-mais je n'ai rien découvert de très
-intéressant.
-Par contre,qui tu sais marche
-lentement... lentement...[end]</data>
+        <data>Anastasia: Dis, Byuu.
+ 
+Quand on marche lentement comme ça, on découvre plein de choses.
+ 
+C'est agréable... Lentement... lentement...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x787</ref>
         </refs>
-        <data>LUKIA:
-La Porte de la Nouvelle Ère est
-ouverte...
-Qu'allons-nous bien trouver au-delà de
-cette Porte ?[end]</data>
+        <data>Ruki: ...Nous y voilà. La Porte de la Nouvelle Ère s'est ouverte... Ah, de l'autre côté de la porte, notre bonheur nous attend-il... ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x7bd</ref>
         </refs>
-        <data>JEANNE:
-J'avais demandé du Miel Doux et des
-Cookies à Don Juan mais il ne cesse
-de sauter et de me regarder ![end]</data>
+        <data>Jeanne: À force de Miel sucré et de biscuits, Donfan s'empâte. On ne reverra peut-être plus le fameux saut de Donfa~an.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x487</ref>
         </refs>
-        <data>EKATERINA:
-Que pourrait penser une fille comme
-moi en ce moment ?
-Pourquoi personne n'amène du Vin Doux
-à une fille aussi fantastique que moi ?
-Huhu... Huhuhu... Huhuhuhu...
-Je suis une femme qui a tant d'esprit !
-Je suis hypra-intelligente !
-Huhu... Huhuhu... Huhuhuhu...[end]</data>
+        <data>Ekaterina: (À quoi pense-t-il en ce moment... ? À la fille charmante qui lui a offert du vin doux ? Hihi... Hihi... Ah, dans son cœur, moi... Hihihi...)[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x491</ref>
         </refs>
-        <data>EKATERINA:
-Une fois de plus,
-je sais encore tant de choses !
-Est-ce le uniuji qui me rend si
-malicieuse ?
-Hihi... Hihihi... Hihihihi...
-Ekaterina la Malicieuse !
-Je suis la plus malicieuse !
-Hihi... Hihihi... Hihihihi...
-Personne ne peut s'empêcher de
-penser à moi ![end]</data>
+        <data>Ekaterina: (À quoi pense-t-il en ce moment... ? À la méchante fille qui lui a offert de l'Uniasticot ? Hihi... Hihihi... Ekaterina la méchante... Et si j'étais encore plus méchante... Hihihi... Comme ça, il penserait toujours à moi...)[end]</data>
     </text>
 </texts>

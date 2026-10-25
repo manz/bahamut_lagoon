@@ -4,92 +4,74 @@
         <refs>
             <ref>0x7c</ref>
         </refs>
-        <data>MATELIGHT:
-Allons à Mahal.[end]</data>
+        <data>Matelite: Hum... Nous voilà enfin à Mahal.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x90</ref>
         </refs>
-        <data>COMMANDANT:
-Atterrissons très vite à Mahal ![end]</data>
+        <data>Taicho: Débarquons vite, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb1</ref>
         </refs>
-        <data>SENDACK:
-Une minute Commandant !
- 
-Tu n'attends pas que nous soyons
-prêts ?[end]</data>
+        <data>Sendak: Dis donc... Taicho a l'air drôlement remonté, non... ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc7</ref>
         </refs>
-        <data>MATELIGHT:
-Oublie un peu Commandant !
-Mahal a été conquise par l'Empire !
-Il est le guerrier No [0xb0] de Mahal,
-il faut le comprendre.
-Moi je suis le No [0xb0] de Kana !
-Nous avons notre honneur à défendre !
-Et nous avons le même but ![end]</data>
+        <data>Matelite: Ça se comprend...
+Mahal aussi a été détruite par l'Empire... Et Taicho était, dit-on, le meilleur chevalier de Mahal...
+ 
+Le meilleur chevalier de Kana... Tout comme moi !
+ 
+Il enrage autant que nous ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xd3</ref>
         </refs>
-        <data>SENDACK:
-Vite !
+        <data>Sendak: Ah oui...
  
-L'Empire risque de fortement
-contre-attaquer Mahal.
+Il paraît que l'Empire a joué salaud quand il a attaqué Mahal...
  
-[character][0x0]?
-N'est-ce pas terrible ?[end]</data>
+Qu'est-ce qu'on fait, Byuu... ? Il faudrait peut-être jouer salaud, nous aussi...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xdc</ref>
         </refs>
-        <data>MATELIGHT:
-Qu'est-ce que tu racontes Sendack ![end]</data>
+        <data>Matelite: Que dis-tu là, Maître Sendak ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xed</ref>
         </refs>
-        <data>Notre Escadron sera des plus brillants
-sur le champ de bataille !
-Ce sont de vrais chevaliers ![end]</data>
+        <data>Quoi que fasse l'ennemi, nous combattrons loyalement !
+ 
+C'est ça, un chevalier ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfb</ref>
         </refs>
-        <data>Allez !
-Montez sur vos dragons ![end]</data>
+        <data>Moi, je monte sur mon dragon ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x10d</ref>
         </refs>
-        <data>SENDACK:
-[character][0x0],je ne suis pas content !
-Et toi ?[end]</data>
+        <data>Sendak: Byuu... T'aurais pas une idée bien vicieuse... ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x243</ref>
         </refs>
-        <data>TAURUS:
-Capitaine [character][0x0]!
+        <data>Truth: Capitaine !
  
-J'ai imaginé une tactique pour
-reprendre Mahal.
-Aimeriez-vous l'entendre ?[end]</data>
+J'ai imaginé une tactique pour Mahal. Voulez-vous l'entendre ?[end]</data>
     </text>
     <text>
         <refs>
@@ -102,33 +84,26 @@ Aimeriez-vous l'entendre ?[end]</data>
         <refs>
             <ref>0x251</ref>
         </refs>
-        <data>C'est... c'est vrai ?
-Je n'ai pas dormi de la nuit pour
-pouvoir la préparer.[end]</data>
+        <data>Ah... ah bon...
+Moi qui ai passé la nuit à y réfléchir...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x259</ref>
         </refs>
-        <data>Ainsi,tout se passera bien sur la
-carte de Mahal.[end]</data>
+        <data>Bien. Commençons par la carte de Mahal.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x270</ref>
         </refs>
-        <data>TAURUS:
-Je crois que c'est une tactique
-formidable !
-Elle nous permettra de gagner ![end]</data>
+        <data>Truth: Quelle tactique, hein ! Ce sera du gâteau ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3be</ref>
         </refs>
-        <data>Nous y sommes enfin...
-Nous pouvons voir le lagon !
-Qu'aimerais-tu acheter ?[end]</data>
+        <data>Comme vous allez bientôt débarquer, je suis venu vous saluer ! Que voulez-vous acheter ?[end]</data>
     </text>
     <text>
         <refs>
@@ -144,23 +119,19 @@ Qu'aimerais-tu acheter ?[end]</data>
             <ref>0x59c</ref>
             <ref>0x42c</ref>
         </refs>
-        <data>Je te remercie beaucoup.[end]</data>
+        <data>Merci, à la prochaine ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x545</ref>
         </refs>
-        <data>Tout le monde est déjà monté sur son
-dragon.
-Que vas-tu acheter ?[end]</data>
+        <data>On dirait que tout le monde est déjà sur son dragon. Vous achetez quelque chose ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x28e</ref>
         </refs>
-        <data>SENDACK:
-Très bien [character][0x0]!
-Es-tu prêt à aller te battre ?[end]</data>
+        <data>Sendak: Alors... Byuu. On y va ?[end]</data>
     </text>
     <text>
         <refs>

@@ -1,11 +1,11 @@
 <?xml version="1.0" standalone="yes"?>
 <texts base="0x111e" room_id="1">
-    <text>
+    <text window="none">
         <refs>
             <ref>0x132</ref>
         </refs>
-        <data>                   Chapitre [0xb0]
-               -Le Commencement-[end]</data>
+        <data>Chapitre [0xb0]
+-Les prémices-[end]</data>
     </text>
     <text>
         <refs>
@@ -15,268 +15,234 @@
         <data>  Oui
   Non[end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x9c</ref>
         </refs>
-        <data>      Plusieurs années après la terrible invasion...[0xfc][0x40][end1]</data>
+        <data>Quelques années après le cauchemar
+de la guerre...[0xfc][0x40][end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xae</ref>
         </refs>
-        <data>             Lagon de la Région Oubliée
-                   Île de Teid[0xfc][0x40][end1]</data>
+        <data>Aux confins du monde, un lagon oublié :
+Tedd, l'île solitaire.[0xfc][0x40][end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xea</ref>
         </refs>
-        <data>La Résistance s'organisa autour des survivants de la
-bataille de Kana.[0xfc][0x40][end1]</data>
+        <data>C'est là, sur cette terre...[0xfc][0x40][end1]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xee</ref>
         </refs>
-        <data>Pour faire face à l'Empire.[0xfc][0x40][end1]</data>
+        <data>qu'autour des chevaliers de Kana rescapés
+une armée rebelle prenait forme, peu à peu,
+pour se dresser contre l'Empire de Granbelos.[0xfc][0x40][end1]</data>
     </text>
     <text>
         <refs>
             <ref>0x101</ref>
         </refs>
-        <data>Zora: J'entends ce bruit de plus en plus fort !
-
-
-Il s'approche...[end]</data>
+        <data>Zora: Le grand jour est arrivé...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x111</ref>
         </refs>
-        <data>Lukia: Ils sont de retour ![end]</data>
+        <data>Ruki: Il revient, le petit...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x20a</ref>
         </refs>
-        <data>Melodia: Salamand ![end]</data>
+        <data>Melody: Salamand ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x218</ref>
         </refs>
-        <data>[character][0x0] ![end]</data>
+        <data>Byuu ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x346</ref>
         </refs>
-        <data>Bikkebakke: ............[end]</data>
+        <data>Bikebake: .........[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x373</ref>
         </refs>
-        <data>Souhaitez la bienvenue à [character][0x0] ![end]</data>
+        <data>Le grand Byuu est de retour ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3a5</ref>
         </refs>
-        <data>Zora: [character][0x0] est de retour ![end]</data>
+        <data>Zora: Byuu est rentré ![end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x3c5</ref>
         </refs>
-        <data>          Capitaine de la Cavalerie de Mahal,
-                    -[character][0x10]-[end]</data>
+        <data>Capitaine des chevaliers de Mahal
+Taicho[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x3eb</ref>
         </refs>
-        <data>              Vieux magicien de Kana,
-                    -[character][0xc]-[end]</data>
+        <data>Vieil invocateur, toujours célibataire
+Sendak[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x41f</ref>
         </refs>
-        <data>          Membre de la Cavalerie de Kana,
-                Groupe Sanguin O,
-                   -[character][0xb]-[end]</data>
+        <data>Chevalier de Kana
+Né sous le signe de la Vierge, groupe O
+Matelite[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x3db</ref>
         </refs>
-        <data>[character][0x10]: Monsieur [character][0x0] !
+        <data>Taicho: Byuu !
  
-
-Je suis un chevalier de Mahal, je me nomme
-[character][0x10] ![end]</data>
+C'est Taicho, des chevaliers de Mahal, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x401</ref>
         </refs>
-        <data>[character][0xc]: Humpf humpf...
+        <data>Sendak: Pff... pff...
  
-
-[character][0x0] est revenu ?
-Il faudrait que je lui parle ![end]</data>
+Byuu... tu es rentré ? J'ai des tonnes de choses à te demander.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x432</ref>
         </refs>
-        <data>[character][0x0b]: Hahahaha !
-Content de te revoir ![end]</data>
+        <data>Matelite: Aaah... Quel bon somme ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x46b</ref>
         </refs>
-        <data>Zora: Où est [character][0x0] ?![end]</data>
+        <data>Zora: Allez ! Toi, là ! Va vite chercher Byuu ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x533</ref>
         </refs>
-        <data>[character][0xf]: Regardez tout le monde !
-Nous avons capturé un Dragon !
-
-Il fait partie de notre plan pour délivrer la princesse.[end]</data>
+        <data>Truth: Allez, tout le monde ! En selle ! On part sauver la princesse Yoyo ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xcc2</ref>
         </refs>
-        <data>Zora: Regarde ce lagon,c'est un lieu charmant,
-n'est-ce pas ?
-
-Mon estomac est vide mais je ne peux rien avaler tant je
-suis heureuse.
+        <data>Zora: Vus de près, ils ont une bonne bouille... Ils ont l'air d'avoir faim. Donne-leur donc à manger.
  
-Je crois que ça passera lorsque nous nous serons envolés.
-
+Tiens, je te donne ça...
  
-Obtenu [0xaa]Divers Objets[0xab].[end]</data>
+Tu as obtenu ``Objets divers''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xca5</ref>
         </refs>
-        <data>Rush: Ne me dis pas que tu as oublié notre stratégie !?[end]</data>
+        <data>Rush: Tu n'as quand même pas oublié le plan ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xca9</ref>
         </refs>
-        <data>Afin de secourir la Princesse [character][0x1],
-nous allons récupérer le vaisseau qui faisait la fierté du
-Drapeau de Kana.
-Dépêchons-nous ![end]</data>
+        <data>Pour sauver la princesse Yoyo, on reprend d'abord le vaisseau amiral de Kana. Dépêchons-nous ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xbec</ref>
         </refs>
-        <data>Sendack: [character][0x0],bienvenue à la maison !
- 
-
-Nous apprécions tout ce que tu as fait pour retrouver les
-dragons.
- 
-Te souviens-tu du jour où tu es parti avec les autres ?[end]</data>
+        <data>Sendak: Byuu... bon retour. Tu dois être épuisé, après ce long voyage à chercher les dragons. Dis... le jour du départ... tu t'en souviens ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xbf0</ref>
         </refs>
-        <data>  Je ne m'en souviens plus...
-  Je m'en souviens.[end1]</data>
+        <data>  J'ai oublié... Raconte-moi.
+  Je préfère ne pas y penser.[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xc42</ref>
         </refs>
-        <data>Sendack: C'était il y a peu de temps mais tu sembles si 
-mature,maintenant...[end]</data>
+        <data>Sendak: Byuu... tu as l'air plus mûr qu'à l'époque... Je devrais prendre exemple...[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xbfc</ref>
         </refs>
-        <data>Ha,[character][0x0] !
-Vite au champ de bataille ![end]</data>
+        <data>Ah... Byuu... Tu as hâte de te battre, c'est ça...
+ 
+Allez, en route, en route ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb75</ref>
         </refs>
-        <data>Matelight: [character][0x0]...
+        <data>Matelite: ... Byuu...
  
-
-Te souviens-tu à quel point [character][0x1] avait le coeur
-troublé ?!
+Tu ne te souviens pas de la princesse Yoyo ?
  
-Tu as également de beaux souvenirs d'elle,n'est-ce pas ?[end]</data>
+Toi aussi, tu as des souvenirs d'elle, n'est-ce pas ?[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0xb69</ref>
         </refs>
-        <data>Matelight: Princesse [character][0x1]...
+        <data>Matelite: ... Princesse Yoyo...
  
-
-J'ai tant de souvenirs dans mon coeur brisé...[end]</data>
+Les souvenirs ont beau être nombreux, ils ne font que du mal...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb86</ref>
         </refs>
-        <data>Tu rougis !
-Ce sont donc de bons souvenirs ![end]</data>
+        <data>Te voilà tout rouge... Ce sont de bons souvenirs, hein...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb9a</ref>
         </refs>
-        <data>Très bien,[character][0x0] !
-Allons vite secourir la Princesse ![end]</data>
+        <data>Dis, Byuu... J'ai hâte de sauver la princesse...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb8e</ref>
         </refs>
-        <data>Je sais très bien que tu en as !
-
-
-Surtout des souvenirs lorsque tu t'envolais avec elle dans
-les cieux.[end]</data>
+        <data>Je vois... Je ne peux hélas pas te prêter les miens...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xee8</ref>
         </refs>
-        <data>Monyo: monyo !
-``petit démon combattre !''[end]</data>
+        <data>Monyo: Monyo ! (Les Diablotins se battent aussi !)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xeee</ref>
         </refs>
-        <data>Manyo: manyo !
-``mourir au combat !''[end]</data>
+        <data>Manyo: Manyo ! (Si on meurt, on meurt ensemble !)[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9b3</ref>
         </refs>
-        <data>-Veuillez nommer ce dragon-[end]</data>
+        <data>Donnez un nom au dragon.[end]</data>
     </text>
     <text>
         <refs>
@@ -285,247 +251,205 @@ les cieux.[end]</data>
             <ref>0xdec</ref>
             <ref>0xd26</ref>
         </refs>
-        <data>-Nourrir ce Dragon-[end]</data>
+        <data>Donnez à manger au dragon.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe0d</ref>
         </refs>
-        <data>Salamand est prêt à partir.
-
-
-Les préparatifs sont OK ?[end]</data>
+        <data>Monte sur Salamand pour partir. Tout est prêt ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe11</ref>
         </refs>
-        <data>  Nourrir.
-  Partir.
-  Finir les préparatifs.[end1]</data>
+        <data>  Nourrir
+  Partir
+  Finir les préparatifs[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xe89</ref>
         </refs>
-        <data>Sendack: [character][0x0],ce serait trop dur toi d'être plus
-attentif ![end]</data>
+        <data>Sendak: Byuu... je peux me cramponner bien fort... ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xe8d</ref>
         </refs>
-        <data>  Y aller doucement !
-  Je suis un peu maladroit.[end1]</data>
+        <data>  Bien sûr !
+  Arrête, c'est gênant...[end1]</data>
     </text>
     <text>
         <refs>
             <ref>0xe98</ref>
         </refs>
-        <data>[character][0x0]...[end]</data>
+        <data>Le dos de Byuu... il est tout chaud...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xea0</ref>
         </refs>
-        <data>Mais,tu ne vas pas tomber !
-
-
-Marche arrière...[end]</data>
+        <data>Mais... sinon je vais tomber... Laisse-moi me cramponner...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc6d</ref>
         </refs>
-        <data>Commandant: Essaie-t-il de mordre ?
-
-
-Il me fait peur...[end]</data>
+        <data>Taicho: Il ne mord pas, hein ? J'ai un peu peur, affirmatif...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xc89</ref>
         </refs>
-        <data>Commandant: Matelight est parti sur un dragon et il était
-heureux !
-
-Il semblait pleurer de joie...
-
-
-Moi-même,j'en ai été étonné et ma moustache n'a fait
-qu'un tour.[end]</data>
+        <data>Taicho: Seigneur Matelite, monter un dragon vous rend donc si heureux ? Vous pleuriez de joie !
+ 
+Moi, j'ai peur... Il m'a léché la moustache, affirmatif ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x1014</ref>
         </refs>
-        <data>Tu as trouvé une
-[0xaa]Chose importante de Matelight[0xab].
+        <data>Tu as obtenu ``Le trésor de Matelite''.
  
-Le coffre est fermement scellé.
-
-
-L'ouvrir tout de même ?[end]</data>
+Il est solidement scellé. L'ouvrir ?[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x102c</ref>
         </refs>
-        <data>Tu as trouvé [0xaa]Souvenir de la Princesse[0xab].[end]</data>
+        <data>Tu as obtenu ``Souvenir de la princesse Yoyo''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfc9</ref>
         </refs>
-        <data>Tu as trouvé [0xaa]CHOSE SUR L'ÉTAGÈRE[0xab].[end]</data>
+        <data>Tu as obtenu ``Truc du tiroir''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfde</ref>
         </refs>
-        <data>Tu as trouvé [0xaa]VIN DOUX[0xab].[end]</data>
+        <data>Tu as obtenu ``Vin doux''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xffa</ref>
         </refs>
-        <data>Tu as trouvé [0xaa]PORNO[0xab].[end]</data>
+        <data>Tu as obtenu ``Livre osé''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xfb4</ref>
         </refs>
-        <data>Tu as trouvé [0xaa]UNIUJI[0xab].[end]</data>
+        <data>Tu as obtenu ``Uniasticot''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf9f</ref>
         </refs>
-        <data>Tu as trouvé [0xaa]GENIE[0xab].[end]</data>
+        <data>Tu as obtenu ``Notes de génie''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xf86</ref>
         </refs>
-        <data>Tu as trouvé [0xb4] [0xaa]GIN[0xab].[end]</data>
+        <data>Tu as trouvé [0xb4] ``Gin magique''.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x6f2</ref>
         </refs>
-        <data>    Très cher [character][0x0],
-  
-   
-    Comment te portes-tu ?
-    Où es-tu en ce moment dans le ciel ?
+        <data>Mon cher Byuu,
  
-    Plusieurs hivers se sont succédé
-    depuis la guerre.[end]</data>
+Comment te portes-tu ?
+Sous quel ciel voyages-tu à présent ?
+ 
+Depuis la guerre... combien d'hivers
+avons-nous déjà vus passer ?[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x720</ref>
         </refs>
-        <data>    Kana a disparu...
-    Depuis,l'Empire Granbelos a conquis
-    le monde entier.
+        <data>Kana, notre patrie, n'est plus...
+L'Empire de Granbelos a unifié le monde.
  
-    Ces batailles appartiennent
-    désormais à l'histoire...
-  
-    Les survivants de l'Armée de Kana
-    sont maintenant considérés comme des
-    Rebelles.
-    C'est irréversible...
-    [character][0x0], revenez-nous tous très vite.[end]</data>
+Cette guerre appartient désormais au passé...
+ 
+L'armée rebelle, née pour accomplir
+les dernières volontés du feu roi de Kana,
+n'a plus de rebelle que le nom...
+Sans toi, Byuu, le cœur n'y est plus.[end]</data>
     </text>
-    <text>
+    <text window="none">
         <refs>
             <ref>0x755</ref>
         </refs>
-        <data>   Vous nous manquez tous beaucoup !
-   Ici,ce sera bientôt un autre hiver très rude.
-   Prenez soin de vous,
-                                  -SENDACK-[end]</data>
+        <data>Ah, j'allais oublier...
+Ici, la neige a déjà commencé à tomber.
+ 
+L'hiver s'annonce rude, cette année encore.
+ 
+Sur ce, prends bien soin de toi.
+Sendak[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x872</ref>
         </refs>
-        <data>Rush: Nous partons bientôt !
-Fais-leur tes adieux...
-
-Tu te dépêches [character][0x0]!
+        <data>Rush: Dis, Byuu ! Il est temps d'y aller... C'est pas comme si on ne devait plus jamais se revoir.
  
-  
-Capitaine,nous sommes prêts ![end]</data>
+C'est toi qui l'as décidé, Byuu !
+ 
+De reformer l'Escadron Dragon de Kana...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x889</ref>
         </refs>
-        <data>Taurus: Nous devons récupérer les dragons qui se sont
-enfuis lors de notre défaite !
-
-Ensuite,nous pourrons reprendre le flambeau de la Flotte
-de Kana ![end]</data>
+        <data>Truth: Pour cela, il faut d'abord rassembler les dragons qui se sont enfuis. Ensuite, nous reprendrons le vaisseau amiral de Kana ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x89e</ref>
         </refs>
-        <data>Bikkebakke: Allons chercher les dragons puis notre escadron
-sera plus puissant.
-
-Courage,courage ![end]</data>
+        <data>Bikebake: Cette fois, on va bien s'occuper des dragons et en faire les plus puissants dragons de guerre. ... Miam miam ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8aa</ref>
         </refs>
-        <data>Rush: Allons-y ![end]</data>
+        <data>Rush: ... On y va ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8e2</ref>
         </refs>
-        <data>Lukia: Nous allons nous sentir bien seules.[end]</data>
+        <data>Ruki: ... Ça va faire un vide.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8ef</ref>
         </refs>
-        <data>Zora: Faites attention à vous ![end]</data>
+        <data>Zora: Prenez bien soin de vous...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x8fd</ref>
         </refs>
-        <data>Regarde Melodia...
-
-
-Ils s'en vont !
-
-
-[character][0x0] s'en va !
-Tu ne dis rien ?![end]</data>
+        <data>Allez... Melody, toi aussi. Tu ne dis rien ?! Byuu... il s'en va ![end]</data>
     </text>
     <text>
         <refs>
             <ref>0x915</ref>
         </refs>
-        <data>Sendack: Je...[end]</data>
+        <data>Sendak: Moi... moi...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x96d</ref>
         </refs>
-        <data>Matelight: Tâche de revenir très vite,[character][0x0] !
-
-
-[character][0x1] ne doit pas rester plus longtemps entre les
-mains de l'Empire Granbelos.
-
-Nous devons la récupérer ![end][end]</data>
+        <data>Matelite: ... Byuu ! Reviens vite ! Reviens avant qu'il n'arrive malheur à la princesse ![end][end]</data>
     </text>
 </texts>

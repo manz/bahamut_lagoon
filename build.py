@@ -28,7 +28,14 @@ from utils.inline_strings import (
     insert_inline_strings,
     insert_messages_strings,
 )
-from utils.name_tables import BAKED_TILES, insert_item_names, insert_short_names, long_names_source
+from utils.name_tables import (
+    BAKED_TILES,
+    add_name_references,
+    insert_item_names,
+    insert_short_names,
+    long_names_source,
+    read_names,
+)
 from utils.naming_screen import naming_font_tiles, naming_grids_source
 from utils.small_vwf_bake import FONT as SMALL_FONT
 
@@ -232,7 +239,7 @@ def main() -> int:
         *Path("text/fr/battle").glob("*.xml"),
     ]
     if assets_need_refresh(room_sources, ROOMS_PARTIAL):
-        build_rooms_partial(Table(str(TABLE)))
+        build_rooms_partial(add_name_references(Table(str(TABLE)), read_names(Path("text/fr/names.xml"))))
 
     build_ips(DEBUG if args.debug else CHECKS if args.checks else RELEASE)
     return 0

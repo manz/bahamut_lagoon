@@ -4,13 +4,14 @@ import re
 import struct
 import xml.etree.ElementTree as ET
 from io import BufferedReader
+from typing import Protocol
 
 from a816.writers import Writer
 from katsuji.script import Table
 
 from utils.cartridge import rom_address, rom_offset
 from utils.dump_rooms import compress_room
-from utils.lz import lz_decompress_battle
+from utils.lz import lz_decompress
 from utils.vm import AlreadyVisitedError
 from utils.vm.executor import walk_event_chain
 from utils.vm.opcodes_map import battle_opcode_names, battle_opcode_table
@@ -19,12 +20,20 @@ from utils.vm.room import Room, prettify
 logger = logging.getLogger("rooms.battle")
 
 
-def decompress_block(rom: BufferedReader) -> bytearray:
+class Peekable(Protocol):
+    """A ROM stream decompress_block reads: a file or io.BufferedReader over bytes."""
+
+    def read(self, size: int | None = -1, /) -> bytes: ...
+
+    def peek(self, size: int = 0, /) -> bytes: ...
+
+
+def decompress_block(rom: Peekable) -> bytearray:
     size: int = struct.unpack("<H", rom.read(2))[0]
     logger.debug("block size %#x", size)
     data = rom.read(size)
     decompressed = bytearray()
-    decompressed = lz_decompress_battle(data, decompressed)
+    decompressed = lz_decompress(data, decompressed)
 
     def get_size(count: int, control_byte: int) -> int:
         size = 0
@@ -45,7 +54,7 @@ def decompress_block(rom: BufferedReader) -> bytearray:
             next_size = get_size(control[0], control_byte[0])
             data = rom.read(next_size)
 
-            decompressed = lz_decompress_battle(data, decompressed)
+            decompressed = lz_decompress(data, decompressed)
         else:
             break
     return decompressed
