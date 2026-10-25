@@ -6,7 +6,8 @@ from utils.cartridge import rom_offset
 from utils.lz import find_back_reference, lz_compress, lz_decompress
 
 
-def compress_asset(data: bytes) -> bytes:
+def compress_asset(data: bytes, end: int = 0x1A) -> bytes:
+    """The asset LZ (E9FB09): literals, 1A/1B back-references, 1A/1B 00 00 escapes, `end` 00 01 last."""
     compressed = bytearray()
     k = 0
     while k < len(data):
@@ -40,7 +41,7 @@ def compress_asset(data: bytes) -> bytes:
                 compressed.append(data[k])
             k += 1
 
-    compressed += b"\x1a\x00\x01"
+    compressed += bytes([end, 0x00, 0x01])
     return b"\x01" + compressed
 
 

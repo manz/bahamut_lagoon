@@ -14,6 +14,7 @@ from katsuji import build as katsuji_build
 from katsuji import config as katsuji_config
 from katsuji.script import Table
 
+from utils.banners import insert_banner
 from utils.battle_messages import insert_battle_messages
 from utils.cartridge import rom_address, rom_offset
 from utils.decompress_gfx import compress_asset, lz_compress_gfx
@@ -160,7 +161,7 @@ def insert_text(writer: Writer) -> tuple[list[InlineStringHook], list[bytes], li
     )
     # .EE:850F                 .WORD $20
     # .EE:8511                 .BYTE $EE
-    insert_compressed_asset(
+    next_insert = insert_compressed_asset(
         writer,
         naming_font_tiles(Table(str(TABLE))),  # src_assets/ee0020.bin, its grid glyphs redrawn
         insert_addr=next_insert,
@@ -168,6 +169,7 @@ def insert_text(writer: Writer) -> tuple[list[InlineStringHook], list[bytes], li
         bank_addr=0xEE8511,
         compressor=compress_asset,
     )
+    insert_banner(writer, next_insert)
 
     insert_short_names(writer, Table(str(TABLE)))
     insert_item_names(writer, Table(str(TABLE)))
