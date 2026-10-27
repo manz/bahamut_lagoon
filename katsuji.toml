@@ -11,10 +11,11 @@ output = "assets/small_font.dat"
 widths = { "0xEF" = 3 }
 
 # katsuji's sumi 8x16 font: dialog, battle messages, item descriptions and the load screen draw it (assets/vwf.bin).
-# The overrides add our « » (mz.tbl's `` '') and the ✚ ⏱ icons.
+# The overrides add our « » (mz.tbl's `` '') and the ✚ ⏱ icons. D9-DF draw nothing and advance 1 to 7 pixels: the last
+# of a centred line's indent, which spaces alone set within a space's width (utils/dialog_layout.py's FINE_SPACES).
 [fonts.dialog]
 builtin = "sumi/16"
 table = "text/table/mz.tbl"
 overrides = "fonts/dialog_overrides.png"
 output = "assets/vwf.bin"
-widths = { "0xEF" = 4, "0xD5" = 7, "0xD6" = 4, "0xD7" = 7, "0xD8" = 6 }
+widths = { "0xEF" = 4, "0xD5" = 7, "0xD6" = 4, "0xD7" = 7, "0xD8" = 6, "0xDA" = 1, "0xDB" = 2, "0xDC" = 3, "0xDD" = 4, "0xDE" = 5, "0xDF" = 6 }

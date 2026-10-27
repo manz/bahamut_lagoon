@@ -102,8 +102,8 @@ class DialogLayoutTestCase(TestCase):
         self.assertLessEqual(abs(left - right), self.layout.width(" "))
 
     def test_a_centred_name_sits_at_its_default_width(self) -> None:
-        def indent(line: str) -> int:
-            return len(line) - len(line.lstrip(" "))
+        def indent(line: str) -> str:
+            return line[: line.index("-")]
 
         self.assertEqual(indent(self.layout.centre("  -[character][0x0]-")), indent(self.layout.centre("  -Byuu-")))
 
@@ -150,11 +150,13 @@ class DialogLayoutTestCase(TestCase):
     def test_the_dump_marks_a_choice(self) -> None:
         self.assertTrue(is_choice(ET.fromstring('<text choice="yes_no"/>')))
 
-    def test_a_centred_line_sits_mid_window(self) -> None:
-        line = self.layout.reflow("Prologue[0xfc][0x40][end1]", align="center").removesuffix("[0xfc][0x40][end1]")
-        left = self.layout.width(line[: len(line) - len(line.lstrip(" "))])
+    def test_a_centred_line_sits_mid_window_to_the_pixel(self) -> None:
+        line = self.layout.reflow("Prologue[0xfc][0x40][end1]", align="center").removesuffix(
+            "Prologue[0xfc][0x40][end1]"
+        )
+        left = self.layout.width(line)
         right = LINE_WIDTH - left - self.layout.width("Prologue")
-        self.assertLessEqual(abs(left - right), self.layout.width(" "))
+        self.assertIn(right - left, (0, 1))
 
     def test_a_centred_text_keeps_its_lines(self) -> None:
         self.assertEqual(self.layout.reflow("Un\nDeux[end]", align="center").count("\n"), 1)
