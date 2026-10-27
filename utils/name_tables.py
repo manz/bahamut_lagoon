@@ -64,12 +64,12 @@ def add_name_references(table: Table, names: list[str]) -> Table:
     return table
 
 
-SMALL_FONT_FOLD = str.maketrans("ÀÂÇÈÉÊËÎÏÔÙÛ", "AACEEEEIIOUU")  # small_font has no accented capitals
+SMALL_TABLE = Path("text/table/small.tbl")  # the 8x8 text codes: accented capitals encode as their base letters
 
 
 def encode(table: Table, name: str) -> bytes:
-    """A name in the 8x8 text codes, accented capitals folded to the letters small_font draws."""
-    return table.to_bytes(name.translate(SMALL_FONT_FOLD).replace(" ", r"\s"))
+    """A name in the 8x8 text codes: on SMALL_TABLE, accented capitals write the letters small_font draws."""
+    return table.to_bytes(name.replace(" ", r"\s"))
 
 
 def width(font: bytes, codes: bytes) -> int:

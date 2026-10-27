@@ -1,3 +1,4 @@
+from pathlib import Path
 from unittest import TestCase
 
 from katsuji.script import Table
@@ -5,6 +6,7 @@ from katsuji.script import Table
 from utils.name_tables import (
     NAME_REFERENCE,
     NAME_TABLES,
+    SMALL_TABLE,
     SPELL_WIDTH,
     add_name_references,
     encode,
@@ -17,7 +19,12 @@ from utils.name_tables import (
 from utils.small_vwf_bake import FONT as SMALL_FONT
 
 TABLE = Table("text/table/mz.tbl")
+SMALL = Table(str(SMALL_TABLE))
 FONT = bytes([0xF0] * 8 + [4]) * 256  # every glyph a 4-pixel bar
+
+
+def table_lines(path: str | Path) -> set[str]:
+    return set(Path(path).read_text(encoding="utf-8").splitlines())
 
 
 class NameReferencesTestCase(TestCase):
@@ -122,4 +129,11 @@ class ItemRecordsTestCase(TestCase):
 
 class EncodeTestCase(TestCase):
     def test_accented_capitals_fold_to_their_letters(self) -> None:
-        self.assertEqual(encode(TABLE, "Épée"), TABLE.to_bytes("Epée"))
+        self.assertEqual(encode(SMALL, "Épée"), SMALL.to_bytes("Epée"))
+
+    def test_the_8x8_table_is_mz_without_what_sumi_8_lacks(self) -> None:
+        mz = table_lines("text/table/mz.tbl")
+        self.assertEqual(mz - table_lines(SMALL_TABLE), {line for line in mz if line[-1:] in set("ÀÂÇÈÉÊËÎÏÔÙÛ✚⏱")})
+
+    def test_the_8x8_table_adds_nothing(self) -> None:
+        self.assertLessEqual(table_lines(SMALL_TABLE), table_lines("text/table/mz.tbl"))

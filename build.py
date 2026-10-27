@@ -30,6 +30,7 @@ from utils.inline_strings import (
 )
 from utils.name_tables import (
     BAKED_TILES,
+    SMALL_TABLE,
     add_name_references,
     insert_item_names,
     insert_short_names,
@@ -178,8 +179,8 @@ def insert_text(writer: Writer) -> tuple[list[InlineStringHook], list[bytes], li
     )
     insert_banner(writer, next_insert)
 
-    insert_short_names(writer, Table(str(TABLE)))
-    insert_item_names(writer, Table(str(TABLE)))
+    insert_short_names(writer, Table(str(SMALL_TABLE)))
+    insert_item_names(writer, Table(str(SMALL_TABLE)))
     return hooks, segments, commands + panel_messages
 
 
@@ -196,7 +197,7 @@ def build_ips(variant: Variant) -> None:
     text = io.BytesIO()
     hooks, segments, statics = insert_text(IPSWriter(text))
     write_if_changed(INLINE_STRING_HOOKS, inline_string_hooks_source(hooks))
-    long_names, baked_tiles = long_names_source(Table(str(TABLE)), SMALL_FONT.read_bytes(), segments, statics)
+    long_names, baked_tiles = long_names_source(Table(str(SMALL_TABLE)), SMALL_FONT.read_bytes(), segments, statics)
     write_if_changed(LONG_NAMES, long_names)
     write_if_changed(BAKED_TILES, baked_tiles)
     write_if_changed(NAMING_GRIDS, naming_grids_source(ROM.read_bytes(), Table(str(TABLE))))
