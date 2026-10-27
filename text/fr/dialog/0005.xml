@@ -145,7 +145,7 @@ Il a osé traîner la princesse Yoyo dans cette forêt sinistre ?![end]</data>
         </refs>
         <data>Ce ne sont pas des humains ! Ce sont des monstres, affirmatif ![end]</data>
     </text>
-    <text>
+    <text choice="multiple">
         <refs>
             <ref>0x2af</ref>
         </refs>
@@ -153,7 +153,7 @@ Il a osé traîner la princesse Yoyo dans cette forêt sinistre ?![end]</data>
   Montre-moi tes armures
   Montre-moi tes objets[end1]</data>
     </text>
-    <text>
+    <text choice="multiple">
         <refs>
             <ref>0x2f8</ref>
         </refs>

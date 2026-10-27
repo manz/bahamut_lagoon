@@ -73,7 +73,7 @@ Je vous amène des espions de talent... qu'on peut perdre sans regret ![end]</da
         </refs>
         <data>Chers candidats espions ! Si vous devez en vouloir à quelqu'un, prenez-vous-en à Byuu...[end]</data>
     </text>
-    <text>
+    <text choice="multiple">
         <refs>
             <ref>0x208</ref>
         </refs>
@@ -81,7 +81,7 @@ Je vous amène des espions de talent... qu'on peut perdre sans regret ![end]</da
  Choisir le matelot.
  Les autres (page suivante)[end1]</data>
     </text>
-    <text>
+    <text choice="multiple">
         <refs>
             <ref>0x212</ref>
         </refs>
@@ -472,7 +472,7 @@ Il n'y a plus qu'à foncer dans son corps avec les dragons pour la combattre, j'
         </refs>
         <data>Tu veux peut-être retourner à bord ?[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x107c</ref>
         </refs>
@@ -495,7 +495,7 @@ Il n'y a plus qu'à foncer dans son corps avec les dragons pour la combattre, j'
  
 Ça risque de faire un peu mal. On y va ?[end]</data>
     </text>
-    <text>
+    <text choice="multiple">
         <refs>
             <ref>0x10bb</ref>
             <ref>0x10ae</ref>

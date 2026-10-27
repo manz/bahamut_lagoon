@@ -353,7 +353,7 @@ Mais même si nous perdons aujourd'hui... je crois qu'un jour... l'Empire tomber
  
 Quelqu'un que tu dois protéger ?[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0xa1d</ref>
         </refs>

@@ -10,7 +10,7 @@ widths = { "0xEF" = 3 }
 
 # The 8x16 dialogue font: dialog, battle messages, item descriptions and the load screen draw it (assets/vwf.bin).
 [fonts.dialog]
-png = "fonts/fft.png"
+png = "fonts/dialog.png"
 cell = [8, 16]
 table = "text/table/mz.tbl"
 output = "assets/vwf.bin"

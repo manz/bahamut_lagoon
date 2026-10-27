@@ -35,7 +35,7 @@ Tant pis... moi... j'ai mes... mes m-médicaments...[end]</data>
         </refs>
         <data>Diana: Dis, dis... Tu sais quoi ?! Tu sais quoi ?![end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x2cc</ref>
         </refs>

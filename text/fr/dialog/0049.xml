@@ -26,7 +26,7 @@ Vous permettez ? C'est moi qui entre le premier,affirmatif !![end]</data>
         </refs>
         <data>Rush: Il ne reste plus qu'à attendre Yoyo,qui va devenir reine de Kana !! Mais dis... Byuu. Tu es vraiment content ?[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0xe5e</ref>
         </refs>
@@ -69,7 +69,7 @@ Vous permettez ? C'est moi qui entre le premier,affirmatif !![end]</data>
         </refs>
         <data>Barclay: Matelite... ne serait-il pas...[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0xe40</ref>
         </refs>
@@ -108,7 +108,7 @@ Les Dragons Sacrés ont une voix effrayante... ``Ce n'est pas fini...'' ``La Nou
         </refs>
         <data>Frederica: Toutes les filles Mages ont fait une promesse à leur petit ami,paraît-il. C'est chouette... Elles ont toutes quelqu'un qui les attend... Mais vous ne trouvez pas ça bizarre ?[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0xdaa</ref>
         </refs>
@@ -135,7 +135,7 @@ Elle se fait toujours éconduire. À qui la faute,je me demande... ?[end]</data>
         </refs>
         <data>Frunze et Reeve: Snif... Lan,lan... Lanciers !! Même de loin,on pique,on pique... snif...[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0xd89</ref>
         </refs>
@@ -300,7 +300,7 @@ Les Dragons Sacrés sont avec nous. Même si c'est dur,tu pourras continuer à t
         </refs>
         <data>Yoyo: Byuu... toi aussi.[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x589</ref>
         </refs>
@@ -431,7 +431,7 @@ Et... le début d'un nouveau combat !![end]</data>
         </refs>
         <data>Yoyo: Ce soir,c'est la nuit de la Restauration de Kana !! Amusons-nous tous !! Au fait... Byuu. Que vas-tu faire ce soir ?[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x6e2</ref>
         </refs>

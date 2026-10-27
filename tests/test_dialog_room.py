@@ -19,9 +19,9 @@ NAMES = Path("text/fr/names.xml")
 TYPED = 240  # frames for the typewriter to finish a full window
 
 
-def encoded(text: str, align: str = LEFT, keep_lines: bool = False) -> bytes:
+def encoded(text: str, align: str = LEFT) -> bytes:
     """`text` as the build stores it: reflowed to a 3-line window, names as their record references."""
-    laid_out = default_layout().reflow(text, page_lines=3, keep_lines=keep_lines, align=align)
+    laid_out = default_layout().reflow(text, page_lines=3, align=align)
     table = add_name_references(Table(str(TABLE)), read_names(NAMES))
     return bytes(table.to_bytes(laid_out.replace(" ", r"\s")))
 

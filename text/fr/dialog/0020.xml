@@ -264,7 +264,7 @@ Je te donne une dernière chance. Sinon...
  
 Gare à la fessée !![end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x1975</ref>
         </refs>
@@ -289,7 +289,7 @@ Gare à la fessée !![end]</data>
         </refs>
         <data>Rush: Les discours de Matelite... c'est long. On le passe en accéléré ?[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x1481</ref>
             <ref>0x1744</ref>
@@ -359,7 +359,7 @@ Gare à la fessée !![end]</data>
         </refs>
         <data>Diana: Dis, dis... Tu les connais, l'Empereur Sauzer et le général Palparos ?[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0xffc</ref>
         </refs>
@@ -396,7 +396,7 @@ Rien à voir avec les deux Lanciers d'à côté, hein ![end]</data>
  
 Ah... Byuu... Ne vous en faites pas... C'est tout le temps comme ça... Mais... je vous en prie... ce médicament...[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0xfab</ref>
         </refs>
@@ -714,7 +714,7 @@ Princesse Yoyo... mmh mmh...[end]</data>
         </refs>
         <data>Hornet: Hé !! Tu vas quand même pas sauter, si ?![end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x18f2</ref>
         </refs>
@@ -727,7 +727,7 @@ Princesse Yoyo... mmh mmh...[end]</data>
         </refs>
         <data>Hornet: Bien !! Le vaisseau est prêt à partir !! Et toi, où en es-tu ?[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0xd32</ref>
         </refs>
@@ -788,7 +788,7 @@ Mais ça, il vaudrait peut-être mieux éviter.
         </refs>
         <data>Taicho: Byuu... l'``Organisation'', tu connais, non ?[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x132b</ref>
         </refs>
@@ -1026,7 +1026,7 @@ Respectons donc les volontés de notre capitaine Sendak, qui semble sur le point
         </refs>
         <data>Il y a une rangée de boutons. Sur lequel appuyer ?[end]</data>
     </text>
-    <text>
+    <text choice="multiple">
         <refs>
             <ref>0x1682</ref>
         </refs>

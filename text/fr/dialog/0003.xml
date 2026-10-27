@@ -31,7 +31,7 @@
         </refs>
         <data>Matelite: Allez, mes larbins ! Suivez-moi ![end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x35e</ref>
         </refs>
@@ -70,7 +70,7 @@
         </refs>
         <data>Il faut montrer de beaux dragons à la princesse ![end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x307</ref>
         </refs>
@@ -79,7 +79,7 @@
   Les préparatifs
   Au combat ![end1]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x5c2</ref>
         </refs>
@@ -136,7 +136,7 @@ Voilà pour les bases. Allez, à la prochaine ![end]</data>
         </refs>
         <data>Ruki: Laisse, laisse. Allez, on y va ![end][end]</data>
     </text>
-    <text>
+    <text choice="multiple">
         <refs>
             <ref>0x534</ref>
         </refs>

@@ -485,7 +485,7 @@ Quand nous avons pris Kana, nous avons emporté beaucoup de choses comme butin d
         </refs>
         <data>Yoyo: Tout ira bien... forcément...[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x12db</ref>
         </refs>
@@ -843,7 +843,7 @@ Si c'est possible, j'aimerais ramener les Dragons Sacrés dans leur patrie...[en
         </refs>
         <data>Taicho: Capitaine de l'Escadron Dragon d'Orelus et capitaine par intérim du Fareneit ! Bon courage, affirmatif ![end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0xd22</ref>
         </refs>
@@ -901,7 +901,7 @@ Bahamut, le dragon protecteur de Kana... maintenant, il acceptera sûrement de m
  
 Le navire ne peut pas bouger pendant un moment. Regardez par la fenêtre...[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0xd10</ref>
         </refs>
@@ -1041,7 +1041,7 @@ n'hésite pas à écraser Gudolf... et l'Empire de Granbelos.[end]</data>
  
 Même le peuple de l'Empire, qui n'a connu que la guerre, devrait enfin connaître la paix...[end]</data>
     </text>
-    <text>
+    <text choice="multiple">
         <refs>
             <ref>0x131c</ref>
         </refs>
@@ -1056,7 +1056,7 @@ Même le peuple de l'Empire, qui n'a connu que la guerre, devrait enfin connaît
         </refs>
         <data>Hornet: Byuu. On met le cap où ?[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0xe4e</ref>
         </refs>
@@ -1326,7 +1326,7 @@ Je suis membre de l'Armée du salut d'Orelus. Alors je me battrai ! Je me battra
         </refs>
         <data>Matelite: Hmph ! Byuu, prépare-toi ![end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0xe01</ref>
         </refs>
@@ -1373,7 +1373,7 @@ Pourrez-vous combattre le pays qui vous a vu naître et grandir ?[end]</data>
         </refs>
         <data>Sendak: Un jour, Matelite va forcément chercher des noises au général Palparos. J'en suis sûr...[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x6d4</ref>
         </refs>
@@ -1451,7 +1451,7 @@ qu'a appris la princesse ?
         </refs>
         <data>Hornet: C'est calme... Mais il doit y avoir des tas de monstres, non ?[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0xe9e</ref>
         </refs>

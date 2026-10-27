@@ -39,7 +39,7 @@
  
 Sendak en a un peu trop fait, on dirait.[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x599</ref>
         </refs>
@@ -123,7 +123,7 @@ Tu parles ! Rien de tout ça, oui ![end]</data>
         </refs>
         <data>Légion: Des re-rebelles ?! Pi-pitié, laissez-moi la vie sauve ![end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x3bf</ref>
         </refs>
@@ -272,7 +272,7 @@ Non, interdit d'imaginer ça, affirmatif ![end]</data>
         </refs>
         <data>Marchand: Salut, salut ![end][end]</data>
     </text>
-    <text>
+    <text choice="multiple">
         <refs>
             <ref>0x307</ref>
         </refs>
@@ -280,7 +280,7 @@ Non, interdit d'imaginer ça, affirmatif ![end]</data>
   Montre-moi tes armures
   Montre-moi tes objets[end1]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x27c</ref>
         </refs>

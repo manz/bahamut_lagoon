@@ -152,7 +152,7 @@ Je le cherche sans le trouver... Vous ne pouvez pas comprendre...[end]</data>
  
 Le mot de passe ?[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x7f0</ref>
         </refs>
@@ -311,7 +311,7 @@ et le banquet se poursuivait sans fin...[end]</data>
         </refs>
         <data>Homme louche: Toi... tu as du succès avec les filles ?[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x73b</ref>
         </refs>
@@ -341,7 +341,7 @@ Le mot de passe est...
         </refs>
         <data>Ouf ! Il fait encore chaud aujourd'hui ! Vous lisez les nouvelles des Rebelles ? [0xb0][0xaf][0xaf] Piro l'exemplaire !![end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0xa74</ref>
         </refs>

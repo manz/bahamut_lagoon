@@ -12,7 +12,7 @@
         </refs>
         <data>Zora: Ça faisait longtemps, Campbell. Je ne tiens pas en place ![end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x5ef</ref>
         </refs>
@@ -23,7 +23,7 @@ Je me bats comme il faut, mais... je suis désolée.
  Mais non, on compte sur toi
  Repose-toi bien[end1]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x6e5</ref>
         </refs>
@@ -41,7 +41,7 @@ ceux qu'on ne distingue jamais.
         </refs>
         <data>Ruki: La Princesse Yoyo est revenue, et maintenant, les choses sérieuses commencent. Être la seule Fantassin, ça va être dur...[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x532</ref>
         </refs>
@@ -144,7 +144,7 @@ C'est Barclay, ce Cuirassier tout lent, qui me l'a dit. Il en sait, des trucs bi
  
 Remarque, ce Cuirassier tout lent, je m'en fiche complètement. Mais ça m'agace quand même. Tiens ? Tiens donc ? Pourquoi... Pourquoi ça m'agace...[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x415</ref>
         </refs>
@@ -177,7 +177,7 @@ Remarque, ce Cuirassier tout lent, je m'en fiche complètement. Mais ça m'agace
         </refs>
         <data>Ekaterina: (Ah, on m'avait dit qu'il aimait l'Uniasticot... C'est fichu... Il me déteste... Comment est-ce arrivé... Mais tant pis... Je resterai dans sa mémoire comme la fille qui lui a offert de l'Uniasticot... Hihi... Hihihi... Hihi...)[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x5b9</ref>
         </refs>
@@ -236,7 +236,7 @@ Nous avons décidé d'enfermer ici Donfan, l'ennemi des femmes. Vous êtes d'acc
         </refs>
         <data>Donfan: Alors, Byuu ! Voilà de quoi est capable le grand Donfa~an ![end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x54f</ref>
         </refs>
@@ -256,7 +256,7 @@ Nous avons décidé d'enfermer ici Donfan, l'ennemi des femmes. Vous êtes d'acc
         </refs>
         <data>Non~ ! Tu ne le penses pas~ ![end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x56a</ref>
         </refs>
@@ -277,7 +277,7 @@ feras quand la guerre sera finie ?
         </refs>
         <data>Génial, Byuu ! Viens jouer avec moi de temps en temps ![end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x59e</ref>
         </refs>
@@ -324,7 +324,7 @@ Aujourd'hui, je prendrai bien de la ``Panacée''...[end]</data>
  
 Ne vous inquiétez pas. Je ne toucherai pas à la marchandise...[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x738</ref>
         </refs>
@@ -341,7 +341,7 @@ est bientôt finie ?
  
 Tu sais, j'ai réfléchi. Je vais arrêter de me soucier des rumeurs et de tout ça. Je vais penser à moi et prendre la vie tranquillement.[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x76b</ref>
         </refs>
@@ -467,7 +467,7 @@ Byuu ne peut pas s'empêcher de penser à moi... Il est plutôt mignon...)[end]<
  
 Je vous rendrai folles de moi toutes les deux, foi de Donfa~an !![end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x71d</ref>
         </refs>
@@ -487,7 +487,7 @@ Eh bien, elle a disparu.
  
 On l'a cherchée et, devine quoi, on l'a retrouvée dans la chambre des garçons !! Attachée à la lance d'un lancier ! Et, et, le propriétaire de la lance, c'est Reeve !! Trop nul~ !![end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x702</ref>
         </refs>

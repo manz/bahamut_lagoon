@@ -73,7 +73,7 @@ C'est ça, un chevalier ![end]</data>
  
 J'ai imaginé une tactique pour Mahal. Voulez-vous l'entendre ?[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x247</ref>
         </refs>
@@ -105,7 +105,7 @@ Moi qui ai passé la nuit à y réfléchir...[end]</data>
         </refs>
         <data>Comme vous allez bientôt débarquer, je suis venu vous saluer ! Que voulez-vous acheter ?[end]</data>
     </text>
-    <text>
+    <text choice="multiple">
         <refs>
             <ref>0x549</ref>
             <ref>0x3c2</ref>
@@ -133,7 +133,7 @@ Moi qui ai passé la nuit à y réfléchir...[end]</data>
         </refs>
         <data>Sendak: Alors... Byuu. On y va ?[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x292</ref>
         </refs>

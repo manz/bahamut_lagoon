@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="yes"?>
 <texts base="0x580" room_id="62">
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x562</ref>
             <ref>0x52e</ref>
@@ -82,7 +82,7 @@ Sans les filles, nous n'avons pas de lendemain !![end]</data>
         </refs>
         <data>Libero: Ah... quel souci... Quel souci...[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x28a</ref>
         </refs>
@@ -109,7 +109,7 @@ Tu ne voudrais pas être un peu notre chef aussi ?[end]</data>
  
 On pourrait la prendre au passage, pendant la révolution...[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x2a8</ref>
         </refs>
@@ -143,7 +143,7 @@ Aucune fille ne résiste à un révolutionnaire en marche vers une ère nouvelle
  
 On passe à l'action ce soir ! Ouais, cette nuit, on va renaître !![end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x2cb</ref>
         </refs>
@@ -198,7 +198,7 @@ Oh !!)[end]</data>
         </refs>
         <data>Tu nous engages ?[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x39e</ref>
         </refs>
@@ -211,7 +211,7 @@ Oh !!)[end]</data>
         </refs>
         <data>Pour l'option, choisis dans le menu ci-dessous.[end]</data>
     </text>
-    <text>
+    <text choice="multiple">
         <refs>
             <ref>0x3b0</ref>
         </refs>
@@ -299,7 +299,7 @@ Elle en contenait [0xb0][0xb0].[end]</data>
         <refs>
             <ref>0x540</ref>
         </refs>
-        <data> Cette famille va sans doute fuir en pleine nuit...[end]</data>
+        <data> Cette famille va sans doute fuir de nuit...[end]</data>
     </text>
     <text>
         <refs>

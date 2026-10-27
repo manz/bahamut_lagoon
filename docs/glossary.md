@@ -223,6 +223,9 @@ against the JP text; the reason kept is the one that decided it.
   famille: ».
 - Quotes. **Decision: ``…''** (codes 86 and 87), not the 「」 glyphs.
 - Choice options. **Decision: set two spaces (10 px) in**, by the build (utils/dialog_layout.py OPTION_INDENT).
+- Choice prompts. **Decision: the script decides, not [end1].** A text the room script asks with (yes_no 08,
+  multiple_choice 09) carries `choice="yes_no"` or `choice="multiple"`; the build reflows its prompt like any text and
+  keeps its options, the last lines opening on a space, a line each.
 - Centred text. **Decision: the script decides, not leading spaces.** A text the room script shows without a window
   (open_window 0) carries `window="none"` and the build centres each of its lines, as written; `align="left"` or
   `align="center"` on the <text> overrides. Lines carry no leading spaces for centring. `align="steps"` sets each

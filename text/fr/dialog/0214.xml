@@ -6,7 +6,7 @@
         </refs>
         <data>Matelot: Byuu, Byuu. J'ai ça, si ça t'intéresse ?[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x5d9</ref>
             <ref>0x60c</ref>
@@ -84,7 +84,7 @@ Notre amitié...[end]</data>
         </refs>
         <data>Obtenu ``??? de Gunso''.[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x763</ref>
         </refs>
@@ -112,7 +112,7 @@ Rush... Tiens ? Qu'est-ce qu'il voudrait, Rush ?
  
 Dans ma chambre... tu devines, Byuu. ...Miam miam.[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x69c</ref>
         </refs>
@@ -141,7 +141,7 @@ Et puis, une victoire au corps à corps, c'est bien mieux qu'une victoire à dis
         </refs>
         <data>Ah bon...[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x5a5</ref>
         </refs>
@@ -183,7 +183,7 @@ Ah, tiens, prends ça. C'était mon porte-bonheur, mais bon.[end]</data>
         </refs>
         <data>Barclay: Byuu, retenez bien ceci. Dans ce monde, même si on perd un combat, il ne faut pas abandonner. Les objets, l'argent et l'expérience gagnés pendant ce combat restent acquis. Si on continue sans se décourager, les dragons comme nous deviendront plus forts.[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x71f</ref>
         </refs>
@@ -228,7 +228,7 @@ Il faut à tout prix rentrer vivants à Orelus (gratte gratte) ! Il y a tant à 
  
 Mais je suis minable... Je prierai avec Ruki... Serai-je pardonné... ?[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x85b</ref>
         </refs>
@@ -259,7 +259,7 @@ Personne ne m'écoute ! Ils disent qu'ils se battront comme il faut une fois par
         </refs>
         <data>Bikebake: L'argent... ne rentre pas... Je ne suis peut-être pas fait pour ça...[end]</data>
     </text>
-    <text>
+    <text choice="multiple">
         <refs>
             <ref>0x633</ref>
         </refs>
@@ -297,7 +297,7 @@ J'ai mis du ``??? de Gunso'' et de l'``Uniasticot'' dans le repas de Reeve. Son 
  
 Mes coups deviennent de plus en plus sournois... Moi... j'ai peur de moi-même...[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x789</ref>
         </refs>
@@ -317,7 +317,7 @@ Du Pont Arc-en-ciel~ (gratte gratte), la vanne qui ne s'ouvre jamais~, quand je 
  
 Ah~, Ma, ha~al~ (gratte gratte), là où se dresse~ (gratte gratte) le palais tout moisi~ (gratte gratte)[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x6bf</ref>
         </refs>
@@ -346,7 +346,7 @@ l'a... l'amour naît entre eux...
         </refs>
         <data>(Ah... Byuu s'est fait larguer, il paraît... Du coup, il essaie de gâcher le bonheur des autres...)[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x6e9</ref>
         </refs>

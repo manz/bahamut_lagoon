@@ -312,7 +312,7 @@ Chacun d'entre nous se bat en gardant au fond du cœur des sentiments qu'il ne d
         </refs>
         <data>Matelite: Byuu ! Quand tu seras prêt, au combat ![end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x5b9</ref>
         </refs>
@@ -321,7 +321,7 @@ Tu es prêt ?
  Attends un peu
  Au combat !![end1]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x5ca</ref>
         </refs>
@@ -384,7 +384,7 @@ Voici ! [0xb0][0xaf][0xaf][0xaf] Piro ![end]</data>
         </refs>
         <data>Rush: C'est plutôt marrant, Byuu ![end]</data>
     </text>
-    <text>
+    <text choice="multiple">
         <refs>
             <ref>0x65d</ref>
             <ref>0x696</ref>
@@ -399,7 +399,7 @@ Voici ! [0xb0][0xaf][0xaf][0xaf] Piro ![end]</data>
         </refs>
         <data>Bikebake: Tu veux des champignons ? Mais attends un petit peu.[end]</data>
     </text>
-    <text>
+    <text choice="multiple">
         <refs>
             <ref>0x6e3</ref>
             <ref>0x6f4</ref>
@@ -556,7 +556,7 @@ Et alors, le succès est assuré ![end]</data>
         </refs>
         <data>Yoyo: Byuu ! Je m'inquiète pour le général Palparos ! Partons vite au combat ![end]</data>
     </text>
-    <text>
+    <text choice="multiple">
         <refs>
             <ref>0x54e</ref>
         </refs>

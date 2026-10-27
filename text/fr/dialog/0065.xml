@@ -25,7 +25,7 @@ Qu'est-ce que Campbell va devenir, maintenant ?[end]</data>
         </refs>
         <data>Messieurs de l'armée de libération... On ne sait plus trop quoi penser...[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x165</ref>
         </refs>
@@ -289,7 +289,7 @@ On n'est pas tous des lâches, ici ![end]</data>
         </refs>
         <data>Nous, si on est enfermés ici, c'est parce qu'on a tenu tête à l'Empire.[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x325</ref>
         </refs>

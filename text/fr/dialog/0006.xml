@@ -71,7 +71,7 @@ Tu es tout poisseux de bave de dragon, affirmatif.[end]</data>
         </refs>
         <data>Hornet: Byuu... Tu veux essayer de piloter ce vaisseau ?[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x4bc</ref>
             <ref>0x505</ref>
@@ -155,7 +155,7 @@ Tu es tout poisseux de bave de dragon, affirmatif.[end]</data>
         </refs>
         <data>Truth: Je le craignais : la princesse Yoyo faisait encore des cauchemars à l'instant.[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x159</ref>
         </refs>
@@ -700,7 +700,7 @@ Devenir Dragonnière, tout ça... je ne comprends pas bien...[end]</data>
         </refs>
         <data>Je pourrai continuer à te confier plein de choses ?[end]</data>
     </text>
-    <text>
+    <text choice="multiple">
         <refs>
             <ref>0xa21</ref>
         </refs>
@@ -889,7 +889,7 @@ Où avez-vous appris les bases de la stratégie ?[end]</data>
         </refs>
         <data>Yoyo: .........[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x521</ref>
         </refs>

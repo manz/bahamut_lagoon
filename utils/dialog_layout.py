@@ -43,7 +43,7 @@ CHARACTER = re.compile(r"\[character\]\[0x([0-9a-fA-F]+)\]")
 TERMINATORS = re.compile(r"\[end1?\]")
 SPEAKER_LABEL = re.compile(r"[^ ].*:")  # "Yoyo:" or "[character][0x1]:" alone on its line
 HEADING = re.compile(r"-[^ ].*-")  # "-Aller-": a heading the following lines explain
-OPTION = re.compile(r"^ +(?=\S)", re.MULTILINE)  # a choice's option: its line opens on a space
+OPTION = re.compile(r"^ +(?=\S)", re.MULTILINE)  # a choice's option: one of its last lines, opening on a space
 OPTION_INDENT = "  "  # two spaces, 10 pixels: the options stand clear of the cursor
 TRAILING_TAGS = re.compile(r"(.*?)((?:\[[^\]]*\])*)", re.DOTALL)  # a line's words, then the tags closing it
 LEFT, CENTER, STEPS = "left", "center", "steps"  # a <text>'s align: as reflowed, centred, or stepped like stairs
@@ -127,20 +127,32 @@ class DialogLayout:
         """`line`'s width with every name at its default spelling: where it sits, not how wide it may grow."""
         return self.wrapper.measure(self.encode(line, self.default_names))
 
-    def reflow(self, text: str, page_lines: int | None = None, keep_lines: bool = False, align: str = LEFT) -> str:
+    def reflow(self, text: str, page_lines: int | None = None, choice: bool = False, align: str = LEFT) -> str:
         """`text` typeset and laid out to the window (katsuji's TextLayout: paragraphs reflowed by sentences, lines
-        placed, blocks kept within a window of `page_lines`). Given `keep_lines` (a choice's prompt, its options a line
-        each, set OPTION_INDENT in), or ending in [end1] (a choice follows it), it is typeset only; aligned CENTER, each
-        line is centred, and aligned STEPS, each line of a block is set a STEP further in than the one before."""
-        if keep_lines:
-            return typeset(OPTION.sub(OPTION_INDENT, text))
+        placed, blocks kept within a window of `page_lines`). A `choice`'s prompt is reflowed so, its options kept a line
+        each; aligned CENTER, each line is centred, and aligned STEPS, each line of a block is set a STEP further in than
+        the one before."""
+        if choice:
+            return self.choice(text, page_lines)
         if align == CENTER:
             return self.centred(text)
         if align == STEPS:
             return stepped(text)
-        if text.endswith("[end1]"):
-            return typeset(text)
         return self.layout.reflow(text, page_lines)
+
+    def choice(self, text: str, page_lines: int | None = None) -> str:
+        """A choice's text: its prompt reflowed, then the blank lines before its options as written, then the options
+        (its last lines, each opening on a space) a line each, set OPTION_INDENT in."""
+        lines = text.split("\n")
+        options = len(lines)
+        while options and OPTION.match(lines[options - 1]):
+            options -= 1
+        gap = options
+        while gap and not lines[gap - 1].strip(" "):
+            gap -= 1
+        prompt = self.layout.reflow("\n".join(lines[:gap]), page_lines) if gap else None
+        rest = typeset(OPTION.sub(OPTION_INDENT, "\n".join(lines[gap:]))) if gap < len(lines) else None
+        return "\n".join(part for part in (prompt, rest) if part is not None)
 
     def centred(self, text: str) -> str:
         """`text` typeset with its lines as written, each centred on its words (the waits and terminators closing it
@@ -192,6 +204,11 @@ def stepped(text: str) -> str:
     return "\n".join(lines)
 
 
+def is_choice(text: ET.Element) -> bool:
+    """Whether `text` is a choice's prompt: the dump marks it choice="yes_no" or "multiple" from the room script."""
+    return text.get("choice") is not None
+
+
 def alignment(text: ET.Element) -> str:
     """How the build sets `text`'s lines: its align attribute, else CENTER when the script shows it without a window,
     else LEFT."""
@@ -204,8 +221,7 @@ def script_overflows(layout: DialogLayout, dialogs: Path = DIALOGS) -> Iterator[
         for text in ET.parse(path).getroot():
             refs = " ".join(ref.text or "" for ref in text.iter("ref"))
             data = text.findtext("data") or ""
-            align = alignment(text)
-            laid_out = layout.reflow(data, keep_lines=data.endswith("[end1]") and align == LEFT, align=align)
+            laid_out = layout.reflow(data, choice=is_choice(text), align=alignment(text))
             for line, width in layout.overflows(laid_out):
                 yield Overflow(path.stem, refs, line, width)
 

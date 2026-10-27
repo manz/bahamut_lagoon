@@ -321,7 +321,7 @@ Non ! Pas possible ! Pourquoi ?! ... enfin, je crois...[end]</data>
         </refs>
         <data>Secourir Donfan ?[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x94d</ref>
         </refs>
@@ -387,7 +387,7 @@ M... merci... Sauver quelqu'un comme moi... Dites-moi au moins votre nom...[end]
         </refs>
         <data>Donfan, le dur au cœur pur, voudrait lui aussi se joindre à vous. Voilà.[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x9e3</ref>
         </refs>
@@ -503,7 +503,7 @@ Car vois-tu, ton cœur... oui...[end]</data>
         </refs>
         <data>Sauver Donfan, le dur au cœur pur ?[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0xb37</ref>
         </refs>
@@ -528,7 +528,7 @@ Car vois-tu, ton cœur... oui...[end]</data>
         </refs>
         <data>Marchand: Salut, salut ![end]</data>
     </text>
-    <text>
+    <text choice="multiple">
         <refs>
             <ref>0x53e</ref>
         </refs>
@@ -579,7 +579,7 @@ Ce sont donc les fameux dragons de guerre de Kana ! Eh ben, chapeau ![end]</data
         </refs>
         <data>Sendak: J'ai froid... je crois que je m'enrhume... On y va ?[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x418</ref>
         </refs>

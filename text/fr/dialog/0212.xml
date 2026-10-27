@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="yes"?>
 <texts base="0x830" room_id="212">
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x7c6</ref>
         </refs>
@@ -13,7 +13,7 @@
         </refs>
         <data>Bienvenue !! Ne fais pas trop de détours en chemin !![end]</data>
     </text>
-    <text>
+    <text choice="multiple">
         <refs>
             <ref>0x68e</ref>
             <ref>0x69f</ref>
@@ -28,7 +28,7 @@
         </refs>
         <data>Je vous fais une vente spéciale !![end]</data>
     </text>
-    <text>
+    <text choice="multiple">
         <refs>
             <ref>0x6e6</ref>
         </refs>
@@ -54,7 +54,7 @@
         </refs>
         <data>Sendak: Byuu... Cette fois, on va y arriver !![end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x749</ref>
             <ref>0x759</ref>
