@@ -149,6 +149,20 @@ def test_scene_spell_menu_describes_the_spell(console: Console) -> None:
         assert console.matches_golden(f"battle-scene-spell-{'up' if button == console.button.UP else 'down'}")
 
 
+def test_whole_side_target_reads_tous(console: Console) -> None:
+    console.load("battle-scene-spell-menu")
+    for button in (console.button.B, console.button.DOWN, console.button.A):  # back to the commands, to Objet
+        console.tap(button)
+        console.emu.run_frames(30)
+    for _ in range(7):  # Herbe de feu, which hits every enemy
+        console.tap(console.button.DOWN)
+        console.emu.run_frames(12)
+    console.tap(console.button.A)
+    console.emu.run_frames(40)
+    # the target window read 全体, two kanji tiles
+    assert console.matches_golden("combat-scene-all-targets")
+
+
 def test_combat_scene_spell_banner_names_the_spell_whole(console: Console) -> None:
     console.load("combat-scene-spell-banner")  # a combat scene about to show the cast spell's banner
     console.emu.run_frames(31)

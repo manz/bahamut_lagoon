@@ -48,6 +48,7 @@ _MAX_CELLS = 12
 _ITEM_RECORDS = 0xEF3CA0
 _NO_RECORD = 0xFF
 _RENAMEABLE = 0x0A  ; characters below this are the party's (7E2B00), named by the player: no record
+_ALL_CELLS = 4  ; the whole-side target window's width: "Tous"
 
 ; slot_owner: the shadow cell a slot draws, plus 1, and _YELLOW; 0 when free (cells are even). type: the name type
 ; C12EC0 copied, _NO_RECORD when none; id its id. field: the cells the engine's draw covers. index: 1 when an icon
@@ -111,6 +112,21 @@ _RENAMEABLE = 0x0A  ; characters below this are the party's (7E2B00), named by t
 }
 .alloc at 0xC17519 {
     .db 0x06
+}
+
+; The combat scene's target window for a whole side (C14653: 2 cells at column 15, row 16) showed 全体, two tiles of
+; the font (C1471D: lda #0x10 / jsr C12EB4, then 0x11 a cell right), then the arrow at cell 2 or -1 (C1473B). It is
+; two cells wider and reads "Tous", a string the draw renders, the right arrow two cells further.
+.alloc at 0xC1465E {
+    .db _ALL_CELLS
+}
+.alloc at 0xC1471D {
+    jsl.l c1_all_targets
+    jsr 0x2DDA
+    jmp 0x4731
+}
+.alloc at 0xC1473C {
+    .db _ALL_CELLS
 }
 
 ; C1312A, the combat scene names' recolouring, per cell: pha / and #0x03FF.
@@ -717,4 +733,29 @@ _run_bytes:
     .assert _BLANK_SLOTS == 0x180 - 0x170, "the blank run is tiles 0x170-0x17F"
     .assert _SLOTS - _KANA_SLOTS - _BLANK_SLOTS == 0x170 - 0x100, "the struct keeps 0x100-0x16F's slots"
     .assert 0x100 + _HIDDEN_SLOTS == 0x16C, "the last run stops before 0x16C, which the combat scene shows"
+}
+
+.table "text/table/dragon_feed_table_mz.tbl"
+
+.alloc c1_all_targets_text in expansion {
+c1_all_targets:
+"""The whole-side target window's text for C12DDA: [$5E] "Tous", at the window's first cell ($61-$63)."""
+    php
+    sep #0x20
+    stz.b 0x62
+    stz.b 0x63
+    lda #0x01
+    sta.b 0x61
+    rep #0x20
+    lda.w #_all_targets & 0xFFFF
+    sta.b 0x5E
+    sep #0x20
+    lda #_all_targets >> 16
+    sta.b 0x60
+    plp
+    rtl
+
+_all_targets:
+    .text "Tous"
+    .db 0xFF
 }
