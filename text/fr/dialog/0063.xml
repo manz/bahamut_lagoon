@@ -154,7 +154,7 @@ que maintenant... tout ira bien.[end]</data>
         </refs>
         <data>Bikebake: Dis, Byuu... On part au combat ?[end]</data>
     </text>
-    <text>
+    <text choice="multiple">
         <refs>
             <ref>0x3f8</ref>
         </refs>
@@ -162,14 +162,14 @@ que maintenant... tout ira bien.[end]</data>
  Si j'achetais des champignons !!
  Au combat !![end1]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x484</ref>
         </refs>
         <data> Voir les armes
  Voir les armures[end1]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x4c6</ref>
         </refs>

@@ -14,7 +14,7 @@ from katsuji.script import Table
 from utils.cartridge import rom_address, rom_offset
 from utils.credits import CREDITS_ROOMS, ENDING_CREDITS_ROOMS, credits_script, place_credit_lines
 from utils.credits import TABLE as CREDITS_TABLE
-from utils.dialog_layout import DialogLayout, alignment, default_layout
+from utils.dialog_layout import DialogLayout, alignment, default_layout, is_choice
 from utils.disasm import live_disasm
 from utils.lz import lz_compress, lz_decompress
 from utils.vm.opcodes_map import opcode_names, opcode_table
@@ -188,11 +188,10 @@ room_patches: dict[int, list[tuple[int, int]]] = {
 class WindowHeights:
     """What the room script says about a text's window. Its height: op 34's second operand, in tile rows (two a
     line), from the closest op 34 before the text's opcode; 3 lines, the size most scenes set, when none comes before
-    it. And whether it is a choice's prompt (yes_no 08, multiple_choice 09), whose options take a line each."""
+    it."""
 
     DEFAULT_LINES = 3
     SET_WINDOW = 0x34
-    CHOICES = (0x08, 0x09)
 
     def __init__(self, room: Room) -> None:
         self.room = room.room
@@ -201,14 +200,6 @@ class WindowHeights:
             for address, (data, _comment, _size) in room.program._program.items()
             if data[0] == "opcode" and data[2] == self.SET_WINDOW
         )
-        self.prompts = {
-            address + 1
-            for address, (data, _comment, _size) in room.program._program.items()
-            if data[0] == "opcode" and data[2] in self.CHOICES
-        }
-
-    def is_choice(self, refs: list[int]) -> bool:
-        return any(ref in self.prompts for ref in refs)
 
     def lines(self, refs: list[int]) -> int:
         heights: list[int] = []
@@ -233,9 +224,8 @@ def prepare_texts(room: Room, texts: ET.Element, layout: DialogLayout) -> None:
             data.text = credits_script(data.text)
         else:
             refs = [int(ref.text, 16) for ref in text.iter("ref") if ref.text]
-            choice = windows.is_choice(refs)
             data.text = layout.reflow(
-                data.text, page_lines=windows.lines(refs), keep_lines=choice, align=alignment(text)
+                data.text, page_lines=windows.lines(refs), choice=is_choice(text), align=alignment(text)
             )
 
 

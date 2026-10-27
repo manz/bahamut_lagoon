@@ -107,7 +107,7 @@ Préparons-nous avec soin, affirmatif ![end]</data>
         </refs>
         <data>Ekaterina: Byuu... Euh... c'est que...[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x43c</ref>
         </refs>
@@ -128,7 +128,7 @@ Hornet ce qu'il aime ?
         </refs>
         <data>Je compte sur toi, Byuu ![end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x255</ref>
         </refs>
@@ -149,7 +149,7 @@ Hornet ce qu'il aime ?
         </refs>
         <data>Ce que je déteste ? Oh, l'``Uniasticot''... Rien que d'y penser, j'en ai la chair de poule.[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x45b</ref>
         </refs>
@@ -305,7 +305,7 @@ Mon... corps... est bizarre... Il ne... m'obéit plus...[end]</data>
         </refs>
         <data>Munyo: Munyo ! (Elle danse avec nous, elle est costaude, la petite !)[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x501</ref>
         </refs>

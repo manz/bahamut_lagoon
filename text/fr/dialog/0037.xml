@@ -189,7 +189,7 @@ Mais c'est un rêve impossible...[end]</data>
 
 Quand vous voudrez retourner sur Fareneit,dites-le-moi.[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x720</ref>
             <ref>0x73a</ref>

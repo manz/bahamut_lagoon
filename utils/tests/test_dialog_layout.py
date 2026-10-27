@@ -11,6 +11,7 @@ from utils.dialog_layout import (
     DialogLayout,
     alignment,
     default_layout,
+    is_choice,
     script_overflows,
     typeset,
 )
@@ -135,9 +136,19 @@ class DialogLayoutTestCase(TestCase):
         ranking = "[0xb0]- SALAMANDO\n[0xb1]- POCHI\n[0xb2]- TANAKA[end]"
         self.assertEqual(self.layout.reflow(ranking), ranking)
 
-    def test_a_choice_prompt_keeps_its_lines(self) -> None:
-        prompt = "Que fais-tu ?\nAttaquer\nFuir[end]"
-        self.assertEqual(self.layout.reflow(prompt, keep_lines=True), prompt)
+    def test_a_choice_prompt_is_reflowed(self) -> None:
+        prompt = "Que\nfais-tu ?\n Attaquer\n Fuir[end1]"
+        self.assertEqual(self.layout.reflow(prompt, choice=True), "Que fais-tu ?\n  Attaquer\n  Fuir[end1]")
+
+    def test_the_blank_line_before_the_options_is_kept(self) -> None:
+        prompt = "Que fais-tu ?\n \n Attaquer\n Fuir[end1]"
+        self.assertEqual(self.layout.reflow(prompt, choice=True), "Que fais-tu ?\n \n  Attaquer\n  Fuir[end1]")
+
+    def test_a_choice_of_options_only_keeps_them(self) -> None:
+        self.assertEqual(self.layout.reflow(" Oui\n Non[end1]", choice=True), "  Oui\n  Non[end1]")
+
+    def test_the_dump_marks_a_choice(self) -> None:
+        self.assertTrue(is_choice(ET.fromstring('<text choice="yes_no"/>')))
 
     def test_a_centred_line_sits_mid_window(self) -> None:
         line = self.layout.reflow("Prologue[0xfc][0x40][end1]", align="center").removesuffix("[0xfc][0x40][end1]")
@@ -166,7 +177,7 @@ class DialogLayoutTestCase(TestCase):
 
     def test_a_choice_option_is_set_two_spaces_in(self) -> None:
         prompt = "Que fais-tu ?\n Attaquer\n   Fuir[end]"
-        self.assertEqual(self.layout.reflow(prompt, keep_lines=True), "Que fais-tu ?\n  Attaquer\n  Fuir[end]")
+        self.assertEqual(self.layout.reflow(prompt, choice=True), "Que fais-tu ?\n  Attaquer\n  Fuir[end]")
 
     def test_a_wrapped_line_fills_two_thirds_of_the_window(self) -> None:
         first = self.layout.reflow("Bikkebakke: Veux-tu connaître les noms les plus populaires ?[end]").split("\n")[0]
@@ -183,9 +194,6 @@ class DialogLayoutTestCase(TestCase):
 
     def test_a_heading_keeps_its_own_line(self) -> None:
         self.assertEqual(self.layout.reflow("-Aller-\nTon dragon attaque.[end]"), "-Aller-\nTon dragon attaque.[end]")
-
-    def test_a_text_before_a_choice_is_kept(self) -> None:
-        self.assertEqual(self.layout.reflow("Oui\nNon[end1]"), "Oui\nNon[end1]")
 
     def test_the_reflowed_french_script_fits_the_window(self) -> None:
         cwd = os.getcwd()

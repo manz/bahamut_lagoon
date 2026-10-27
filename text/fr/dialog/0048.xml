@@ -26,7 +26,7 @@ J'y vais... Moi,j'y vais !![end]</data>
         </refs>
         <data>Sendak: Byuu... Moi... je ne te suis d'aucun secours,hein...[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x684</ref>
         </refs>
@@ -161,7 +161,7 @@ Pour toi,Byuu... comme pour moi...
  
 Tu comprends ?[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x30d</ref>
         </refs>

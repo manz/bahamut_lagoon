@@ -146,14 +146,14 @@ Le château est déjà encerclé par l'armée impériale !![end]</data>
         </refs>
         <data>Allez !! Achète donc !![end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x12bb</ref>
         </refs>
         <data> Acheter des armes.
  Acheter des armures.[end1]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x139a</ref>
         </refs>
@@ -173,7 +173,7 @@ Le château est déjà encerclé par l'armée impériale !![end]</data>
         </refs>
         <data>Matelite: Byuu... vaudrait-il mieux que je ne sois plus là ?[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0xbf6</ref>
         </refs>
@@ -212,7 +212,7 @@ C'est à toi de la trouver, Byuu, affirmatif...[end]</data>
         </refs>
         <data>Palparos: Byuu... je combattrai à tes côtés ! On y va ?[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0xcb7</ref>
         </refs>
@@ -228,7 +228,7 @@ C'est à toi de la trouver, Byuu, affirmatif...[end]</data>
  
 Tu sais comment on fait les bébés ?[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x989</ref>
             <ref>0x99a</ref>
@@ -278,7 +278,7 @@ Tu sais comment on fait les bébés ?[end]</data>
         </refs>
         <data>Au fait... et toi, Byuu, où en es-tu ?[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0xa3b</ref>
         </refs>
@@ -317,7 +317,7 @@ Tu sais comment on fait les bébés ?[end]</data>
         </refs>
         <data>Ce sont ces deux-là qui seront papa et maman ?[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0xad7</ref>
         </refs>
@@ -332,7 +332,7 @@ Tu sais comment on fait les bébés ?[end]</data>
  
 Prie toi aussi pour qu'un mignon bébé naisse, Byuu !! Bon !! Nous, on retourne sur Fareneit, alors profite bien de la nuit de la renaissance de Kana !![end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x1040</ref>
             <ref>0x11a4</ref>
@@ -344,7 +344,7 @@ Prie toi aussi pour qu'un mignon bébé naisse, Byuu !! Bon !! Nous, on retourne
         <data> Le nourrir.
  Le marier.[end1]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x104b</ref>
             <ref>0x10fb</ref>
@@ -356,7 +356,7 @@ Prie toi aussi pour qu'un mignon bébé naisse, Byuu !! Bon !! Nous, on retourne
         <data> Le nourrir.
  Ne pas le marier.[end1]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0xee6</ref>
             <ref>0x1106</ref>
@@ -374,7 +374,7 @@ Prie toi aussi pour qu'un mignon bébé naisse, Byuu !! Bon !! Nous, on retourne
         </refs>
         <data>Palparos: Ah... !![end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0xcf8</ref>
         </refs>
@@ -400,7 +400,7 @@ Tant que la vraie paix ne régnera pas dans ce ciel, nous devrons combattre ense
  
 Byuu... je voudrais escorter la princesse Yoyo jusqu'au château de Kana... Tu viens avec nous ?[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0xd3b</ref>
             <ref>0xdc5</ref>
@@ -462,7 +462,7 @@ Je n'ai jamais su résister à ça !
  
 Et puis... avant de retourner au château, repasse me voir !![end]</data>
     </text>
-    <text>
+    <text choice="multiple">
         <refs>
             <ref>0x1326</ref>
         </refs>
@@ -470,7 +470,7 @@ Et puis... avant de retourner au château, repasse me voir !![end]</data>
  Acheter des armures.
  Acheter des articles Matelite.[end1]</data>
     </text>
-    <text>
+    <text choice="multiple">
         <refs>
             <ref>0x13e8</ref>
         </refs>
@@ -597,7 +597,7 @@ C'est vrai... avec des champignons...
         </refs>
         <data>Et puis... maintenant que Palparos est des nôtres, il y a un chevalier de trop... Moi... moi... j'avais peur que tu me dises... ``On n'a pas besoin de toi''.[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x846</ref>
         </refs>

@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="yes"?>
 <texts base="0xa59" room_id="15">
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x7da</ref>
         </refs>
@@ -233,7 +233,7 @@ Il faut bien agrandir le magasin... Et je lui verse même un salaire.[end]</data
         </refs>
         <data>Hornet: Ça y est, c'est la bataille décisive... Courage ! On débarque ?[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x787</ref>
         </refs>

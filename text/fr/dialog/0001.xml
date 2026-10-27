@@ -7,7 +7,7 @@
         <data>Chapitre [0xb0]
 -Les prémices-[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x1018</ref>
             <ref>0xb79</ref>
@@ -169,7 +169,7 @@ Tu as obtenu ``Objets divers''.[end]</data>
         </refs>
         <data>Sendak: Byuu... bon retour. Tu dois être épuisé, après ce long voyage à chercher les dragons. Dis... le jour du départ... tu t'en souviens ?[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0xbf0</ref>
         </refs>
@@ -259,7 +259,7 @@ Les souvenirs ont beau être nombreux, ils ne font que du mal...[end]</data>
         </refs>
         <data>Monte sur Salamand pour partir. Tout est prêt ?[end]</data>
     </text>
-    <text>
+    <text choice="multiple">
         <refs>
             <ref>0xe11</ref>
         </refs>
@@ -273,7 +273,7 @@ Les souvenirs ont beau être nombreux, ils ne font que du mal...[end]</data>
         </refs>
         <data>Sendak: Byuu... je peux me cramponner bien fort... ?[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0xe8d</ref>
         </refs>

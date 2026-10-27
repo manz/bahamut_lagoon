@@ -291,7 +291,7 @@ Serait-ce les Dragons Sacrés qui nous guident... ?[end]</data>
         <data>Chapitre [0xb0][0xb3]
 -Le réveil du Dragon Oiseau-[end][end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x744</ref>
         </refs>

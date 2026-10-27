@@ -540,7 +540,7 @@ Ils voulaient se joindre à nous, et ils sont repartis en dansant.[end]</data>
         </refs>
         <data>On étouffe, ici... Il faut faire attention à ce que la marchandise ne pourrisse pas.[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x2fa</ref>
             <ref>0x32a</ref>

@@ -89,7 +89,7 @@ Parce que je n'arrive pas à devenir Dragonnière... Parce que mon cœur est fai
         </refs>
         <data>Bikebake: Byuu... Je me suis sali les mains... Tu me méprises ?[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x111f</ref>
         </refs>
@@ -112,7 +112,7 @@ Mais je n'ai plus d'autre choix... C'est comme ça...[end]</data>
         </refs>
         <data>Merci... Byuu.[end]</data>
     </text>
-    <text>
+    <text choice="multiple">
         <refs>
             <ref>0x1137</ref>
         </refs>
@@ -282,7 +282,7 @@ Mais qu'est-ce que c'est que ça !![end1]</data>
         </refs>
         <data>Sendak: ... Les Dragons Sacrés sont en colère... Très violemment, très profondément... Moi... je tremble, là ?[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x1065</ref>
         </refs>
@@ -618,7 +618,7 @@ Tant de moments inoubliables... tant de sentiments à ne pas perdre... Pour nous
  
 Tu t'en souviens encore... ? Notre promesse...[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x1001</ref>
         </refs>
@@ -683,7 +683,7 @@ Il prépare sûrement quelque chose... Méfiance, affirmatif...[end]</data>
         </refs>
         <data>Rush: Pas besoin de me consoler ni de te justifier... Moi aussi... la princesse Yoyo...[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x10b0</ref>
         </refs>

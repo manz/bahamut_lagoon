@@ -22,7 +22,7 @@ Matelite, lui, est parti vendre ses armures signées... La princesse est avec lu
         </refs>
         <data>Sendak: ... Atchoum ! On part pour le lac souterrain ?[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x6bd</ref>
         </refs>
@@ -35,7 +35,7 @@ Matelite, lui, est parti vendre ses armures signées... La princesse est avec lu
         </refs>
         <data>Marchand: Salut... ! Moi... je suis un marchand amoureux...[end]</data>
     </text>
-    <text>
+    <text choice="multiple">
         <refs>
             <ref>0x86c</ref>
         </refs>
@@ -150,7 +150,7 @@ Voyons, euh, comment dire... Que dirais-tu de Bikebake ? Ou de Byuu, là, à cô
         </refs>
         <data>Bikebake: Hé, Byuu ! Miam miam... Un champignon ?[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x834</ref>
         </refs>
@@ -200,7 +200,7 @@ Voyons, euh, comment dire... Que dirais-tu de Bikebake ? Ou de Byuu, là, à cô
         </refs>
         <data>Sous l'eau... ?![end1]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x809</ref>
         </refs>

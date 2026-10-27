@@ -49,7 +49,7 @@ Tu es vraiment rapide !![0xfc][0x20][end1]</data>
         </refs>
         <data>Yoyo: Dis, Byuu... je peux m'accrocher plus fort ?[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x390</ref>
         </refs>
@@ -89,7 +89,7 @@ Cette église... on l'appelle l'église des souvenirs.
  
 Tu sais pourquoi ?[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0xab1</ref>
         </refs>
@@ -122,7 +122,7 @@ seront unis un jour, c'est sûr...[end]</data>
         </refs>
         <data>On entre tous les deux ?[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0xb11</ref>
         </refs>
@@ -166,7 +166,7 @@ si à ce moment-là, Yoyo ressent toujours la même chose qu'aujourd'hui...
  
 et qu'elle t'invite à l'église des souvenirs, tu reviendras avec elle ?[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0xb7a</ref>
         </refs>

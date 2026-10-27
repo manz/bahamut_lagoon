@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="yes"?>
 <texts base="0x1bd" room_id="72">
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x104</ref>
         </refs>

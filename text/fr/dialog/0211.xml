@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="yes"?>
 <texts base="0xdc5" room_id="211">
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0xd5b</ref>
             <ref>0xb6c</ref>
@@ -21,7 +21,7 @@
         </refs>
         <data>Rush: On se faufile par la terrasse à dos de Salamand !! Alors... t'en es ?[end]</data>
     </text>
-    <text>
+    <text choice="multiple">
         <refs>
             <ref>0x685</ref>
         </refs>
@@ -59,7 +59,7 @@
         </refs>
         <data>Oui... C'est Hornet qui me l'a dit, il vient de sauter jusqu'ici. Tu pars en mission d'ici ?[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x5d2</ref>
         </refs>
@@ -72,7 +72,7 @@
         </refs>
         <data>Pour la naissance du bébé, Hornet m'a laissé aller jusqu'à la proue !! Après tout, c'est moi le papa...[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x586</ref>
         </refs>
@@ -136,7 +136,7 @@ Toi aussi, Byuu, prends bien soin de Papi.[end]</data>
         </refs>
         <data>Père Dragon: Allez... Byuu, appelle-le, pour voir !![end]</data>
     </text>
-    <text>
+    <text choice="multiple">
         <refs>
             <ref>0xa15</ref>
         </refs>
@@ -158,7 +158,7 @@ Toi aussi, Byuu, prends bien soin de Papi.[end]</data>
  
 Lequel choisis-tu ?[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0xcfa</ref>
         </refs>

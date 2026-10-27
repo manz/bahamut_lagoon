@@ -136,7 +136,7 @@ Que des sentiments qui traversent le ciel pour arriver jusqu'à quelqu'un... ça
         </refs>
         <data>Yoyo: Allez, Alexandre, roi des Dragons Sacrés ! Entrez en moi ! Je n'ai pas peur de vous ! Parce que tout le monde est avec moi ! Parce que tout le monde me donne de la force ! Alexandre !! Venez ![end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0xa7a</ref>
         </refs>
@@ -377,7 +377,7 @@ Le seul temps que tu puisses vivre, c'est l'instant présent, qui déferle sans 
  
 Avec quelle tête on va retourner devant les autres ?[end]</data>
     </text>
-    <text>
+    <text choice="multiple">
         <refs>
             <ref>0x91a</ref>
         </refs>

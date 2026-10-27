@@ -7,14 +7,14 @@
         <data>Chapitre [0xb7]
 -Combat aérien de dragons-[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x8e5</ref>
         </refs>
         <data> Oui
  Non[end1]</data>
     </text>
-    <text>
+    <text choice="multiple">
         <refs>
             <ref>0xa1f</ref>
         </refs>
@@ -31,7 +31,7 @@
         <data>Ainsi s'écoulèrent quelques heures...
 Combien, au juste ?[end]</data>
     </text>
-    <text>
+    <text choice="multiple">
         <refs>
             <ref>0x121</ref>
             <ref>0xd24</ref>
@@ -202,7 +202,7 @@ C'est une conversation d'adultes, alors ne nous dérange pas ![end]</data>
         </refs>
         <data>Hornet: L'ennemi aussi se dirige vers Mahal, on dirait. On y va ?[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x98e</ref>
         </refs>
@@ -388,7 +388,7 @@ Tu les manges ?[end]</data>
         </refs>
         <data>Service à domicile ! Qu'est-ce qu'il vous faut ?[end]</data>
     </text>
-    <text>
+    <text choice="multiple">
         <refs>
             <ref>0xc02</ref>
         </refs>
@@ -402,35 +402,35 @@ Tu les manges ?[end]</data>
         </refs>
         <data>Bonne route, soyez prudents ![end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x778</ref>
         </refs>
         <data> Merci beaucoup !
  Monseigneur est occupé ![end1]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x7d4</ref>
         </refs>
         <data> Délicieux !
  C'est assaisonné pour dragons...[end1]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x81b</ref>
         </refs>
         <data> Mais bien sûr, viens !
  La garde, c'est un travail d'homme ![end1]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x32f</ref>
         </refs>
         <data> Merci, Sendak, comme toujours
  Pas besoin... vieux schnock ![end1]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x6ee</ref>
         </refs>

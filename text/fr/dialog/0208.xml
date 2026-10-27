@@ -18,7 +18,7 @@
         </refs>
         <data>Barclay: Bienvenue au magasin d'armures ![end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x16a</ref>
         </refs>

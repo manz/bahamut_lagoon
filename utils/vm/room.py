@@ -16,6 +16,7 @@ if TYPE_CHECKING:
 
 OPEN_WINDOW = 0x35  # its operand: 0 shows the texts after it without a frame, 1 in the framed window
 TEXT_OPCODES = (0x08, 0x09, 0x37)  # yes_no, multiple_choice, display_text: their text pointer follows the opcode
+CHOICES = {0x08: "yes_no", 0x09: "multiple"}  # the opcodes whose text is a choice's prompt, its options a line each
 
 text_path = os.path.join(os.path.dirname(__file__), "../../text")
 
@@ -122,6 +123,14 @@ class Room:
                 refs.add(address + 1)
         return refs
 
+    def choice_refs(self) -> dict[int, str]:
+        """The text pointers of choice prompts, each with its choice: yes_no or multiple."""
+        return {
+            address + 1: CHOICES[data[2]]
+            for address, (data, _comment, _size) in self.program._program.items()
+            if data[0] == "opcode" and data[2] in CHOICES
+        }
+
     def dump_text(self, override_strings: list[str] | None = None) -> ET.Element | None:
         text_program = self.program.filter(_is_text)
         sorted_program_keys = sorted(text_program.keys())
@@ -130,10 +139,14 @@ class Room:
             root.set("room_id", str(self.id))
             root.set("base", hex(sorted_program_keys[0]))
             windowless = self.windowless_refs()
+            choices = self.choice_refs()
             for index, key in enumerate(sorted_program_keys):
                 text = ET.SubElement(root, "text")
                 if windowless & set(self.program._text_pointers[key]):
                     text.set("window", "none")
+                choice = next((choices[ref] for ref in self.program._text_pointers[key] if ref in choices), None)
+                if choice:
+                    text.set("choice", choice)
 
                 refs = ET.SubElement(text, "refs")
 

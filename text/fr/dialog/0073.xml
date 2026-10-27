@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="yes"?>
 <texts base="0x923" room_id="73">
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x4e0</ref>
             <ref>0x448</ref>
@@ -213,7 +213,7 @@ Voici un cadeau de ma part !! Il est timide, alors prends-en bien soin.[end]</da
         </refs>
         <data>Donnons un nom au dragon.[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x2ea</ref>
         </refs>

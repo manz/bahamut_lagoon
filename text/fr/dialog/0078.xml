@@ -21,7 +21,7 @@ Nous venons d'Orelus ! Nous sommes là pour vous libérer ! Encore un peu de pat
         </refs>
         <data>Taicho: Alexandre aussi a entendu, affirmatif ![end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x4cc</ref>
         </refs>
@@ -59,7 +59,7 @@ Attends un peu...[end]</data>
         </refs>
         <data>Matelite: C'est peut-être la dernière fois que nous nous voyons vivants. Alors... voi... là. Accepterais-tu que je te colle mon poing dans la figure ?[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x58a</ref>
         </refs>
@@ -104,7 +104,7 @@ Attends un peu...[end]</data>
         </refs>
         <data>Rush: C'est si lourd que je vais finir écrasé ![end]</data>
     </text>
-    <text>
+    <text choice="multiple">
         <refs>
             <ref>0x86d</ref>
             <ref>0x87e</ref>
@@ -119,7 +119,7 @@ Attends un peu...[end]</data>
         </refs>
         <data>Bikebake: C'est la dernière fois, Byuu ![end]</data>
     </text>
-    <text>
+    <text choice="multiple">
         <refs>
             <ref>0x8db</ref>
         </refs>
@@ -197,7 +197,7 @@ On a beau le vaincre et le revaincre, Alexandre ressuscite toujours...[end]</dat
  
 Si nous arrivons à vaincre Alexandre une dernière fois, laisse-moi faire le reste. Tout ira bien, j'en suis sûre.[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x815</ref>
         </refs>
@@ -218,7 +218,7 @@ affirmatif.
         </refs>
         <data>Vraiment... Quand on me dit ça, je sens mes forces revenir, affirmatif.[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x65c</ref>
         </refs>
@@ -273,7 +273,7 @@ Et ne donnez rien de bizarre à manger aux dragons, s'il vous plaît.[end]</data
         </refs>
         <data>Bikebake: On va bientôt pouvoir rentrer ![end]</data>
     </text>
-    <text>
+    <text choice="multiple">
         <refs>
             <ref>0x8ec</ref>
         </refs>

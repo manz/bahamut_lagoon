@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="yes"?>
 <texts base="0xc0b" room_id="0">
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x9fb</ref>
         </refs>
@@ -71,7 +71,7 @@ Avant de décoller, choisis les noms de code des dragons ![end]</data>
  
 Capitaine ! Vous ne voulez rien revoir avant le départ ?[end]</data>
     </text>
-    <text>
+    <text choice="multiple">
         <refs>
             <ref>0x998</ref>
         </refs>
@@ -93,7 +93,7 @@ Capitaine ! Vous ne voulez rien revoir avant le départ ?[end]</data>
  
 Nous ne pouvons pas perdre cette bataille...[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x9a3</ref>
         </refs>

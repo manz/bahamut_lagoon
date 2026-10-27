@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="yes"?>
 <texts base="0x17bb" room_id="210">
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x7a2</ref>
             <ref>0x7c3</ref>
@@ -39,7 +39,7 @@
         </refs>
         <data>Bienvenue !! Les armes, c'est chez nous !![end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x6cf</ref>
         </refs>
@@ -214,7 +214,7 @@ Il faudra bien le nourrir en récompense, tout à l'heure ![end]</data>
         </refs>
         <data>Euh... Que... que pensez-vous de mes armures... ?[end]</data>
     </text>
-    <text>
+    <text choice="multiple">
         <refs>
             <ref>0x875</ref>
         </refs>
@@ -353,7 +353,7 @@ Se pourrait-il... qu'il s'intéresse à moi... ? Mais... un chevalier et une ven
         </refs>
         <data>Wagahai: Depuis la révolution des Petits Démons, ces gaillards sont devenus de vrais démons. Ma foi, heureusement qu'ils m'ont botté.[end]</data>
     </text>
-    <text>
+    <text choice="yes_no">
         <refs>
             <ref>0x673</ref>
         </refs>
