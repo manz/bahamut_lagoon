@@ -17,12 +17,12 @@ glyph over the window background, colour 4) for the window font; their dirty run
 the tilemap that shows them, and only once a window line changed them or the window font came back, so never over the
 map tiles the window font replaces.
 
-The panel slots are 8x8 font codes no text draws once the battle text is French: the dakuten kana below 0x33 (the
-engine draws a kana with a mark instead), around the frame tiles (0x10, 0x1A) and the colour fills (0x2C-0x2F), and
-lowercase letters and accents past 0x6B, which only the VWF draws now. The battle message VWF (battle_vwf_reloc)
-draws its lines over 0x30 on: its first line, 0x30-0x6B, shows with the panel; its others overwrite the slots while
-the dialogue hides the panel, so the panel uploads its slots again when it next draws a line. The window slots are
-the window font's kana.
+The panel slots are 8x8 font codes no text draws once the battle text is French: dakuten kana (the engine draws a
+kana with a mark instead) from 0x24 up to the colour fills (0x2C-0x2F), and lowercase letters and accents past 0x6B,
+which only the VWF draws now. The battle message VWF (battle_vwf_reloc) draws its lines over 0x30 on: its first
+line, 0x30-0x6B, shows with the panel; its others overwrite the slots while the dialogue hides the panel, so the
+panel uploads its slots again when it next draws a line. The window slots are the window font's kana. A sky map
+loads its clouds over the font's codes 0x01-0x23 and tiles BG3 with them: no slot sits there.
 """
 
 .include "src/expansion.i"
@@ -58,7 +58,7 @@ PANEL_ATTR = 0x22
 WINDOW_ATTR = 0x23  ; a BG1 window's line
 FRAME_FIRST = 0xE0  ; a window's or the panel's corner, edge and side codes
 FRAME_LAST = 0xE2
-POOL_SLOTS = 74  ; the panel's, then the windows'
+POOL_SLOTS = 53  ; the panel's, then the windows'
 WINDOW_SLOTS = 45
 ALL_SLOTS = POOL_SLOTS + WINDOW_SLOTS
 WINDOW_VRAM = 0x3000  ; BG1 tile 0x300, 8x8 code 0x00, 4bpp
@@ -68,9 +68,9 @@ ROSTER_CLASS_CELLS = 7
 DRAGON_KIND_CELLS = 9
 MIN_CHARS = 3  ; shorter copies (LV, HP) keep the font
 SLOT_STALE = 0x01  ; not drawn since its row was last drawn
-ALL_RUNS = 0x0F  ; the panel's
-WINDOW_RUNS = 0x70
-FIRST_WINDOW_RUN = 4 * 2
+ALL_RUNS = 0x03  ; the panel's
+WINDOW_RUNS = 0x1C
+FIRST_WINDOW_RUN = 2 * 2
 UPLOAD_BUDGET = 0x400  ; bytes of runs an NMI uploads: a window's tilemap must still go up in vblank
 WINDOW_TILEMAP = 0x7E4000  ; C0AA9E's upload: a window's tilemap
 WINDOW_TILEMAP_VRAM = 0x4800
@@ -1228,9 +1228,7 @@ panel_font_reloaded:
 
 _pool_runs:
 ; The pool's runs of free codes, slot after slot: first code, length; 0 ends them.
-    .db 0x0D, 3
-    .db 0x11, 9
-    .db 0x1B, 17  ; up to the colour fills: the move range's shadow tiles BG3 with 0x2C and 0x2E
+    .db 0x24, 8  ; up to the colour fills: the move range's shadow tiles BG3 with 0x2C and 0x2E
     .db 0x6C, 45  ; past the battle message's first line (0x30-0x6B)
     .db 0x33, 15  ; the windows'
     .db 0x42, 15
@@ -1238,7 +1236,7 @@ _pool_runs:
     .db 0x00
 _run_bits:
 ; A run's bit in panel.dirty, by run * 2.
-    .db 0x01, 0x00, 0x02, 0x00, 0x04, 0x00, 0x08, 0x00, 0x10, 0x00, 0x20, 0x00, 0x40, 0x00
+    .db 0x01, 0x00, 0x02, 0x00, 0x04, 0x00, 0x08, 0x00, 0x10, 0x00
 _run_bits_end:
     .assert _run_bits - _pool_runs - 1 == _run_bits_end - _run_bits, "a dirty bit for every pool run"
 }

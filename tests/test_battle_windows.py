@@ -1,7 +1,7 @@
 """
 Scenario 00's player phase on the battle map: the command window, and a unit's skill list after moving, are BG1
 windows whose strings draw through small_vwf into the window font. So is the START menu, whose strings outgrow
-their Japanese character counts but not their cells. A later map's START menu checks its tilemap's DMA timing. Bouger's shadow tiles BG3 with codes the panel keeps clear.
+their Japanese character counts but not their cells. A later map's START menu checks its tilemap's DMA timing. Bouger's shadow tiles BG3 with codes the panel keeps clear. So are a sky map's clouds.
 """
 
 import re
@@ -200,6 +200,7 @@ def test_start_menu_tilemap_ends_in_vblank(console: Console) -> None:
 
 PANEL_SOURCE = Path("src/battle_panel_vwf.s")
 PANEL_FONT_TILE = 0x200  # BG3 tile of the panel font's code 0
+FONT_VRAM_BYTES = 0x8000  # its pixels, a byte address
 
 
 def panel_pool_codes() -> set[int]:
@@ -223,3 +224,17 @@ def test_the_move_range_shadow_keeps_its_tiles(console: Console) -> None:
     shadow = {(words[2 * cell] | words[2 * cell + 1] << 8) & 0x3FF for cell in range(0x400)}
     assert shadow == {PANEL_FONT_TILE + 0x2C, PANEL_FONT_TILE + 0x2E}
     assert not {tile - PANEL_FONT_TILE for tile in shadow} & panel_pool_codes()
+
+
+MAP_FONT_TILES = range(0x01, 0x24)  # 8x8 codes a sky map loads its clouds over, BG3 tiling the sky with them
+
+
+def test_a_sky_map_keeps_its_clouds(console: Console) -> None:
+    console.load("battle-sky-map")  # a battle over the clouds about to start, the panel yet to draw
+    vram = FONT_VRAM_BYTES + MAP_FONT_TILES.start * 16
+    clouds = bytes(console.emu.vram_read_range(vram, len(MAP_FONT_TILES) * 16))
+    lines = console.count_calls("panel_put_char_hook")
+    for _ in range(60):
+        console.tap(console.button.A)
+    assert lines
+    assert bytes(console.emu.vram_read_range(vram, len(MAP_FONT_TILES) * 16)) == clouds
