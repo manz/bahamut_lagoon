@@ -19,7 +19,6 @@ from dataclasses import dataclass
 from pathlib import Path
 
 from katsuji import config as katsuji_config
-from katsuji.atlas import Atlas
 from katsuji.formats import VwfFont
 from katsuji.layout import TextLayout
 from katsuji.script import Table
@@ -59,10 +58,8 @@ MARKUP = Markup(
 
 
 def dialog_font(config_path: Path = KATSUJI_CONFIG) -> VwfFont:
-    """The dialogue font as katsuji builds it from katsuji.toml."""
-    font = katsuji_config.load(config_path).fonts["dialog"]
-    atlas = Atlas.open(font.png, font.cell_width, font.cell_height, font.grid)
-    return VwfFont.from_atlas(atlas, font.widths)
+    """The dialogue font katsuji built from katsuji.toml (`katsuji build`, or build.py, which runs it first)."""
+    return VwfFont.decode(katsuji_config.load(config_path).fonts["dialog"].output.read_bytes())
 
 
 def typeset(text: str) -> str:

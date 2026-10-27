@@ -32,7 +32,7 @@ build: $(IPS)  ## Assemble the IPS patch
 # secret passphrase.
 # Both patches take every input: chained on bl.ips, the debug one stayed stale when the two landed in the same
 # second (make 3.81 compares whole seconds).
-PATCH_INPUTS = $(SOURCES) $(TEXTS) fonts/fft.png fonts/8x8vwf.png katsuji.toml build.py $(wildcard utils/*.py utils/vm/*.py)
+PATCH_INPUTS = $(SOURCES) $(TEXTS) fonts/fft.png fonts/small_overrides.png fonts/dialog_overrides.png katsuji.toml build.py $(wildcard utils/*.py utils/vm/*.py)
 
 $(IPS): $(PATCH_INPUTS)
 	$(Q) test -s $(ROM) || { \
