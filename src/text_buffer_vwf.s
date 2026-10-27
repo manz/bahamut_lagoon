@@ -10,6 +10,7 @@ shadow.
 
 .include "src/expansion.i"
 
+.import "core/vanilla"
 .import "vwf_font"
 
 TEXT_BUFFER = 0x7800  ; bank 7E: top tile row, bottom row 0x200 after it, columns 16-31 0x400 after that
@@ -20,11 +21,15 @@ WRMPYB = 0x4203
 RDMPY = 0x4216
 DMA_QUEUE_TAIL = 0x001A00  ; next free 8-byte entry of the game's DMA queue, drained in NMI (EE41DB)
 MESSAGE_TILES = 0x7C00  ; VRAM word of the message window tiles
-TASK_YIELD = 0xEE440B  ; the game's cooperative task switch
 MESSAGE_SPRITES = 0x7E6E20  ; OAM shadow of the message sprites: x, y, tile, attribute
 MESSAGE_AT_ONCE = 0x275  ; drawn without a frame between glyphs: the Dragon screen's stat labels
 MESSAGE_PEN = 0xF5  ; then the pen's pixel: lays a message out in columns
 MESSAGE_SPRITES_MAX = 15  ; 16px each from x 0x18, so the last stays left of x 256
+TITLE_COLUMNS = 23  ; the load screen's chapter titles: the widest, 179 pixels, and its shadow
+WIDE_TITLE_VRAM = 0x3000  ; the load screen queues its titles from here up (load_screen.s), the other screens below
+WIDE_ROW_BYTES = ( TITLE_COLUMNS - 16 ) * 32  ; a row's tiles past column 15
+SHADOW = 0x7EC400  ; the engine's tilemap shadow, two bytes a cell from the text cursor (001860)
+TILE_ATTRIBUTE = 0x001862  ; the palette and priority bits the engine sets its cells with
 
 ; Direct-page scratch: the words both vanilla 12px loops use as scratch themselves. $12-$16 (index and string
 ; pointer) are the caller's and stay untouched.
@@ -169,7 +174,7 @@ wait_for_uploads:
 _busy:
     lda.l 0x00182E
     beq _drained
-    jsr.l TASK_YIELD
+    jsr.l task_yield
     bra _busy
 _drained:
     rts
@@ -179,7 +184,7 @@ yield:
     lda 0x32
     cmp.w #MESSAGE_AT_ONCE
     beq _no_yield
-    jsr.l TASK_YIELD
+    jsr.l task_yield
 _no_yield:
     rts
 
@@ -197,16 +202,20 @@ queue_tile:
 """Queue one tile at text buffer offset A for VRAM word MESSAGE_TILES + A / 2."""
     ldx.w #0x0020
 queue_upload:
-"""
-Queue X bytes from text buffer offset A for VRAM word MESSAGE_TILES + A / 2, through the game's DMA queue, building
-the entry as EE515C does.
-"""
-    phx
+"""Queue X bytes from text buffer offset A for VRAM word MESSAGE_TILES + A / 2."""
     pha
     lsr
     clc
     adc.w #MESSAGE_TILES
     tay
+    pla
+queue_to:
+"""
+Queue X bytes from text buffer offset A for VRAM word Y, through the game's DMA queue, building the entry as EE515C
+does.
+"""
+    phx
+    pha
     lda.l DMA_QUEUE_TAIL
     tax
     lda.w #0x8000
@@ -423,15 +432,90 @@ column_offset:
 
 vwf_shift_multipliers:
     .db 0x80, 0x40, 0x20, 0x10, 0x08, 0x04, 0x02, 0x01
+
+queue_wide_title:
+"""
+Queue a load screen chapter title, TITLE_COLUMNS wide, to VRAM word $34 on: both rows' first 16 columns, then the top
+row's next ones, then the bottom row's, the order wide_title_map numbers their tiles in.
+"""
+    php
+    rep #0x30
+    ldy 0x34
+    lda.w #0x0000
+    ldx.w #0x0400
+    jsr.w queue_to
+    lda 0x34
+    clc
+    adc.w #0x0200
+    tay
+    lda.w #0x0400
+    ldx.w #WIDE_ROW_BYTES
+    jsr.w queue_to
+    lda 0x34
+    clc
+    adc.w #0x0200 + WIDE_ROW_BYTES / 2
+    tay
+    lda.w #0x0600
+    ldx.w #WIDE_ROW_BYTES
+    jsr.w queue_to
+    plp
+    rtl
+
+wide_title_map:
+"""
+The cells of a load screen chapter title, as EE54D7 lays out the others: TITLE_COLUMNS from the text cursor
+(001860) on two rows, tile A on (queue_wide_title's order): the top row's first 16 A + column, the bottom row's
+A + 16 + column, then past column 15 the top row's A + 16 + column and the bottom row's A + TITLE_COLUMNS + column.
+"""
+    php
+    rep #0x30
+    ora.l TILE_ATTRIBUTE
+    pha
+    lda.l 0x001860
+    tax
+    ldy.w #0x0000
+_column:
+    tya
+    cpy.w #16
+    bcc _top
+    adc.w #16 - 1  ; carry set
+_top:
+    clc
+    adc 0x01, s
+    sta.l SHADOW, x
+    tya
+    cpy.w #16
+    bcc _bottom
+    adc.w #TITLE_COLUMNS - 16 - 1  ; carry set
+_bottom:
+    clc
+    adc.w #16
+    clc
+    adc 0x01, s
+    sta.l SHADOW + 0x40, x
+    inx
+    inx
+    iny
+    cpy.w #TITLE_COLUMNS
+    bne _column
+    pla
+    plp
+    rtl
 }
 
-; The load screen chapter title loop (EE554B) and the messages loop (EE5409): draw the whole string, then rejoin
-; the vanilla code after the loop.
+; The chapter title loop (EE554B) and the messages loop (EE5409): draw the whole string, then rejoin the vanilla
+; code after the loop. A title bound for WIDE_TITLE_VRAM on is the load screen's, queued TITLE_COLUMNS wide.
 .alloc at 0xEE554B {
     jsr.l draw_string
-    jmp 0x55BB
+    lda 0x34
+    cmp.w #WIDE_TITLE_VRAM
+    bcs _wide
+    jmp.w queue_title
+_wide:
+    jsr.l queue_wide_title
+    jmp.w title_queued
 }
 .alloc at 0xEE5409 {
     jsr.l draw_message
-    jmp 0x5484
+    jmp.w message_drawn
 }
