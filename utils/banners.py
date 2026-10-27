@@ -17,7 +17,7 @@ from pathlib import Path
 import numpy as np
 import numpy.typing as npt
 from a816.writers import Writer
-from PIL import Image
+from katsuji import png
 
 from utils.banner_gfx import Banner
 from utils.cartridge import rom_offset
@@ -71,13 +71,13 @@ FRENCH = (
 
 
 def read_font(path: Path = FONT) -> dict[str, Pixels]:
-    sheet = np.array(Image.open(path))
+    sheet = png.read(path)[0]
     return {char: sheet[:, k * TILE : (k + 1) * TILE] for k, char in enumerate(FONT_CHARS)}
 
 
 def read_small_font(path: Path = SMALL_FONT) -> dict[str, Ink]:
     """The credits font's capitals: A-O on its first row of cells from the second cell, P-Z on its third row."""
-    ink = np.array(Image.open(path).convert("L")) > 0
+    ink: Ink = np.any(png.read(path)[0], axis=-1)
     font = {}
     for k, char in enumerate("ABCDEFGHIJKLMNO"):
         font[char] = ink[:TILE, (k + 1) * TILE : (k + 2) * TILE]

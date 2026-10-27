@@ -1,9 +1,9 @@
 from collections.abc import Callable
-from io import BytesIO
+from pathlib import Path
 from typing import BinaryIO
 
 import numpy as np
-from PIL import Image
+from katsuji import png
 
 
 def byte_to_bit_array(c: int) -> list[int]:
@@ -35,7 +35,7 @@ def bytes_to_char(char_data: bytes) -> list[list[int]]:
     return data
 
 
-def dump_vwf(data: bytes) -> bytes:
+def dump_vwf(data: bytes, output_file: str) -> None:
     lines = []
     for i in range(64):
         chars = []
@@ -47,24 +47,19 @@ def dump_vwf(data: bytes) -> bytes:
         lines.append(np.concatenate(chars, 1))
     font = np.concatenate(lines, 0)
 
-    im = Image.fromarray(np.uint8(font * 255))
-    bio = BytesIO()
-
-    im.save(bio, "PNG")
-    return bio.getvalue()
+    png.write(Path(output_file), (font * 255).astype(np.uint8))
 
 
-asset_processor: dict[str, Callable[[bytes], bytes]] = {"vwf": dump_vwf, "raw": lambda data: data}
+def dump_raw(data: bytes, output_file: str) -> None:
+    Path(output_file).write_bytes(data)
+
+
+asset_processor: dict[str, Callable[[bytes, str], None]] = {"vwf": dump_vwf, "raw": dump_raw}
 
 
 def dump_asset(asset_type: str, rom: BinaryIO, address: int, size: int, output_file: str) -> None:
-    with open(output_file, "wb") as output:
-        rom.seek(address)
-        data = rom.read(size)
-        # extract_font(data)
-        # print(extract_font(data))
-        image_data = asset_processor[asset_type](data)
-        output.write(image_data)
+    rom.seek(address)
+    asset_processor[asset_type](rom.read(size), output_file)
 
 
 def process_asset_list(rom: BinaryIO, assets: list[tuple[str, int, int, str]]) -> None:
