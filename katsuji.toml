@@ -1,17 +1,20 @@
 # Fonts katsuji builds for the patch: `katsuji build`, or `build.py`, which calls it first.
 
-# ff4's 8x8 menu font, its cells moved to the 8x8 text codes (text/table/mz.tbl shares them with battle.tbl).
+# katsuji's sumi 8x8 font on the 8x8 text codes: text/table/small.tbl is mz.tbl without the accented capitals and
+# the icons it doesn't draw, so the 8x8 strings encoded on it write their base letters. The overrides add the narrow
+# colon at battle.tbl's 0x30 and our Œ ligature.
 [fonts.small]
-png = "fonts/8x8vwf.png"
-cell = [8, 8]
-table = "text/table/mz.tbl"
+builtin = "sumi/8"
+table = "text/table/small.tbl"
+overrides = "fonts/small_overrides.png"
 output = "assets/small_font.dat"
 widths = { "0xEF" = 3 }
 
-# The 8x16 dialogue font: dialog, battle messages, item descriptions and the load screen draw it (assets/vwf.bin).
+# katsuji's sumi 8x16 font: dialog, battle messages, item descriptions and the load screen draw it (assets/vwf.bin).
+# The overrides add our « » (mz.tbl's `` '') and the ✚ ⏱ icons.
 [fonts.dialog]
-png = "fonts/dialog.png"
-cell = [8, 16]
+builtin = "sumi/16"
 table = "text/table/mz.tbl"
+overrides = "fonts/dialog_overrides.png"
 output = "assets/vwf.bin"
 widths = { "0xEF" = 4, "0xD5" = 7, "0xD6" = 4, "0xD7" = 7, "0xD8" = 6 }

@@ -10,7 +10,7 @@ from a816.writers import Writer
 from katsuji.script import Table
 
 from utils.cartridge import rom_address, rom_offset
-from utils.name_tables import SMALL_FONT_FOLD, encode
+from utils.name_tables import SMALL_TABLE, encode
 from utils.vm.room import child, element_text, prettify
 
 draw_inline_string_xrefs = [
@@ -363,7 +363,7 @@ def insert_inline_strings(writer: Writer, address: int) -> tuple[int, list[Inlin
     Write the inline strings at ROM offset address, identical records once (menu_vwf shares a record's tiles);
     return their end bus address, the call hooks to emit and the segments' codes by baked id.
     """
-    table = Table("./text/table/mz.tbl")
+    table = Table(str(SMALL_TABLE))
     root = ET.parse("./text/inline.xml").getroot()
 
     text_data = b""
@@ -565,7 +565,7 @@ def insert_battle_commands_strings(writer: Writer, address: int) -> tuple[int, l
         for ref in refs:
             pointer_id = int(element_text(ref), 16)
             pointer_table[pointer_id] = text_addr & 0xFFFF
-        codes = jp_fixed_table.to_bytes(element_text(data).translate(SMALL_FONT_FOLD))
+        codes = jp_fixed_table.to_bytes(element_text(data))
         strings.append((text_addr, codes.split(bytes([INLINE_END]))[0]))
         text_data += codes
 

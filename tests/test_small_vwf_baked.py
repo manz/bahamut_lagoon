@@ -13,7 +13,7 @@ from katsuji.script import Table
 from tests.conftest import Console, small_vwf_fields, symbol
 from utils.cartridge import rom_offset
 from utils.inline_strings import insert_inline_strings
-from utils.name_tables import ITEM_TABLE, NAME_TABLES, encode, read_names
+from utils.name_tables import ITEM_TABLE, NAME_TABLES, SMALL_TABLE, encode, read_names
 from utils.small_vwf_bake import FONT, MAX_CELLS, MAX_CHARS, TILE, kerning, render
 
 if TYPE_CHECKING:
@@ -58,7 +58,7 @@ def segments() -> list[bytes]:
 
 
 def names() -> list[tuple[str, int, bytes]]:
-    table = Table("text/table/mz.tbl")
+    table = Table(str(SMALL_TABLE))
     return [
         (f"{name_table.label}[{index}]", name_table.address + index * name_table.record, encode(table, name))
         for name_table in (*NAME_TABLES, ITEM_TABLE)
