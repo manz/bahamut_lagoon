@@ -137,3 +137,8 @@ class EncodeTestCase(TestCase):
 
     def test_the_8x8_table_adds_nothing(self) -> None:
         self.assertLessEqual(table_lines(SMALL_TABLE), table_lines("text/table/mz.tbl"))
+
+    def test_battle_tbl_has_no_accented_capitals(self) -> None:
+        # its inline strings draw in the 8x8 font too: katsuji folds what it lacks
+        accented = {line for line in table_lines("text/table/battle.tbl") if set(line) & set("ÀÂÇÈÉÊËÎÏÔÙÛ")}
+        self.assertEqual(accented, set())
