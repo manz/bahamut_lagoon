@@ -11,7 +11,7 @@
         <refs>
             <ref>0x9e</ref>
         </refs>
-        <data>Chapitre [0xb0][0xb4]
+        <data>Chapitre 15
 -Duel dans les sables brûlants-[end]</data>
     </text>
     <text window="none">
@@ -258,16 +258,16 @@ Il faut bien agrandir le magasin... Et je lui verse même un salaire.[end]</data
         </refs>
         <data>Rush: On sort des nuages !!
 Compte à rebours !
-[0xb2]... ...
+3... ...
  
   
-[0xb1]... ...
+2... ...
  
   
-[0xb0]... ...
+1... ...
  
   
-[0xaf]... ...
+0... ...
  
   
 [0xd8][0xd8][0xd8][0xd8][end]</data>

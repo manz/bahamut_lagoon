@@ -4,7 +4,7 @@
         <refs>
             <ref>0xac</ref>
         </refs>
-        <data>Chapitre [0xb7]
+        <data>Chapitre 8
 -Combat aérien de dragons-[end]</data>
     </text>
     <text choice="yes_no">
@@ -39,9 +39,9 @@ Combien, au juste ?[end]</data>
             <ref>0xd3c</ref>
             <ref>0x17e</ref>
         </refs>
-        <data> [0xb0] heure plus tard
- [0xb1] heures plus tard
- [0xb2] heures plus tard[end1]</data>
+        <data> 1 heure plus tard
+ 2 heures plus tard
+ 3 heures plus tard[end1]</data>
     </text>
     <text>
         <refs>

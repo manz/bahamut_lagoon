@@ -161,7 +161,7 @@ Voyons, euh, comment dire... Que dirais-tu de Bikebake ? Ou de Byuu, là, à cô
         <refs>
             <ref>0x54</ref>
         </refs>
-        <data>Chapitre [0xb0][0xb0]
+        <data>Chapitre 11
 -Le Dragon Sacré Léviathan-[end]</data>
     </text>
     <text window="none">
@@ -271,7 +271,7 @@ Voyons, euh, comment dire... Que dirais-tu de Bikebake ? Ou de Byuu, là, à cô
         <refs>
             <ref>0xae9</ref>
         </refs>
-        <data>Obtenu [0xb5] ``Herbe de terre''.[end]</data>
+        <data>Obtenu 6 ``Herbe de terre''.[end]</data>
     </text>
     <text>
         <refs>
@@ -285,36 +285,36 @@ et ``Aurore''.[end]</data>
         <refs>
             <ref>0xafe</ref>
         </refs>
-        <data>Obtenu [0xb4] ``Vin doux''.[end]</data>
+        <data>Obtenu 5 ``Vin doux''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa2c</ref>
         </refs>
         <data>Obtenu de Ruki:
-[0xb2] ``Truc du tiroir''.[end]</data>
+3 ``Truc du tiroir''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa41</ref>
         </refs>
         <data>Obtenu de Gunso:
-[0xb5] ``Truc du tiroir''.[end]</data>
+6 ``Truc du tiroir''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xa11</ref>
         </refs>
         <data>Obtenu, entamés par Ruki:
-[0xb2] ``Vin amer''
-[0xb1] ``Super vodka''.[end]</data>
+3 ``Vin amer''
+2 ``Super vodka''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x9fa</ref>
         </refs>
         <data>Obtenu de Gunso:
-[0xb1] ``Traité tactique''
-[0xb0] ``Notes d'élève''.[end]</data>
+2 ``Traité tactique''
+1 ``Notes d'élève''.[end]</data>
     </text>
 </texts>

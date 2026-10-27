@@ -140,10 +140,10 @@ Capitaine, montez sur votre dragon.[end]</data>
         <refs>
             <ref>0xa11</ref>
         </refs>
-        <data>[0xb0]- Salamand
-[0xb1]- Médor
-[0xb2]- Dupont
-[0xb3]- Le nom de ta bien-aimée[end]</data>
+        <data>1- Salamand
+2- Médor
+3- Dupont
+4- Le nom de ta bien-aimée[end]</data>
     </text>
     <text>
         <refs>
