@@ -4,7 +4,7 @@
         <refs>
             <ref>0x91</ref>
         </refs>
-        <data>Chapitre [0xb1]
+        <data>Chapitre 2
 -La légende dont nous rêvions-[end]</data>
     </text>
     <text>
@@ -407,9 +407,9 @@ Ah... Byuu... Ne vous en faites pas... C'est tout le temps comme ça... Mais... 
         <refs>
             <ref>0xfb5</ref>
         </refs>
-        <data>Obtenu [0xb4] ``Remède''
-[0xb4] ``Panacée''
-[0xb4] ``Revivifiant''.[end]</data>
+        <data>Obtenu 5 ``Remède''
+5 ``Panacée''
+5 ``Revivifiant''.[end]</data>
     </text>
     <text>
         <refs>
@@ -805,7 +805,7 @@ Mais ça, il vaudrait peut-être mieux éviter.
         <refs>
             <ref>0x9a</ref>
         </refs>
-        <data>Chapitre [0xb1][0xaf]
+        <data>Chapitre 20
 -Le ciel de la tristesse-[end]</data>
     </text>
     <text>

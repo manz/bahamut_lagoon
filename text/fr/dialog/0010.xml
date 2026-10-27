@@ -4,7 +4,7 @@
         <refs>
             <ref>0x70</ref>
         </refs>
-        <data>Chapitre [0xb0][0xaf]
+        <data>Chapitre 10
 -Le pont arc-en-ciel-[end1]</data>
     </text>
     <text window="none">
@@ -406,7 +406,7 @@ Alors Donfan se fera un plaisir de vous prêter main-forte ![end]</data>
         <refs>
             <ref>0x6fa</ref>
         </refs>
-        <data>Obtenu [0xb4] ``Vin doux''.[end]</data>
+        <data>Obtenu 5 ``Vin doux''.[end]</data>
     </text>
     <text>
         <refs>
@@ -571,7 +571,7 @@ Ce sont donc les fameux dragons de guerre de Kana ! Eh ben, chapeau ![end]</data
         <refs>
             <ref>0x6df</ref>
         </refs>
-        <data>Obtenu [0xb5] ``Herbe de terre''.[end]</data>
+        <data>Obtenu 6 ``Herbe de terre''.[end]</data>
     </text>
     <text>
         <refs>

@@ -106,13 +106,13 @@ Mais une fille de son âge... comment on s'y prend pour la réconforter...[end]<
             <ref>0x299</ref>
             <ref>0x28c</ref>
         </refs>
-        <data>Mmh... encore [0xb4] minutes...[end]</data>
+        <data>Mmh... encore 5 minutes...[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x26a</ref>
         </refs>
-        <data>Mmh... encore [0xb2] minutes...[end]</data>
+        <data>Mmh... encore 3 minutes...[end]</data>
     </text>
     <text choice="multiple">
         <refs>
@@ -335,7 +335,7 @@ Ma classe, c'est Lancier. Ma spécialité, c'est le ménage. Enchanté de vous c
         </refs>
         <data>Bikebake: Hé, Byuu !
  
-Il paraît que si on confie son argent au vieux monsieur d'ici, il le rend multiplié par [0xb0][0xaf][0xaf][0xaf] ![end]</data>
+Il paraît que si on confie son argent au vieux monsieur d'ici, il le rend multiplié par 1000 ![end]</data>
     </text>
     <text>
         <refs>

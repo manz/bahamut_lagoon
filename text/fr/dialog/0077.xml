@@ -354,11 +354,11 @@ Bikebake, à Campbell, vous aviez confié de l'argent à un vieux monsieur, non 
         <refs>
             <ref>0x149</ref>
         </refs>
-        <data>Eh bien, cet argent a été multiplié par [0xb0][0xaf][0xaf][0xaf] !! Quelle chance, hein !
+        <data>Eh bien, cet argent a été multiplié par 1000 !! Quelle chance, hein !
  
 Je vous l'ai apporté !
  
-Voici ! [0xb0][0xaf][0xaf][0xaf] Piro ![end]</data>
+Voici ! 1000 Piro ![end]</data>
     </text>
     <text>
         <refs>
@@ -455,7 +455,7 @@ Voici ! [0xb0][0xaf][0xaf][0xaf] Piro ![end]</data>
             <ref>0x42</ref>
         </refs>
         <data> 
-Chapitre [0xb1][0xb2]
+Chapitre 23
 -L'effondrement-[end]</data>
     </text>
     <text>
@@ -617,7 +617,7 @@ Et alors, le succès est assuré ![end]</data>
             <ref>0x293</ref>
         </refs>
         <data> 
-Chapitre [0xb1][0xb4]
+Chapitre 25
 -Voyageurs éternels-[end]</data>
     </text>
     <text window="none">

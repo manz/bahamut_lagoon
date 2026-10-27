@@ -4,7 +4,7 @@
         <refs>
             <ref>0x132</ref>
         </refs>
-        <data>Chapitre [0xb0]
+        <data>Chapitre 1
 -Les prémices-[end]</data>
     </text>
     <text choice="yes_no">
@@ -354,7 +354,7 @@ Il est solidement scellé. L'ouvrir ?[end]</data>
         <refs>
             <ref>0xf86</ref>
         </refs>
-        <data>Tu as trouvé [0xb4] ``Gin magique''.[end]</data>
+        <data>Tu as trouvé 5 ``Gin magique''.[end]</data>
     </text>
     <text window="none">
         <refs>

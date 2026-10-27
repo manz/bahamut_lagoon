@@ -83,7 +83,7 @@ Ah,voici une babiole... Pour vous remercier d'avoir libéré Dafira...[end]</dat
         </refs>
         <data>La ``babiole'' contenait...
  
-[0xb0][0xaf] ``Épée longue'' !![end]</data>
+10 ``Épée longue'' !![end]</data>
     </text>
     <text>
         <refs>
@@ -339,7 +339,7 @@ Le mot de passe est...
         <refs>
             <ref>0xa70</ref>
         </refs>
-        <data>Ouf ! Il fait encore chaud aujourd'hui ! Vous lisez les nouvelles des Rebelles ? [0xb0][0xaf][0xaf] Piro l'exemplaire !![end]</data>
+        <data>Ouf ! Il fait encore chaud aujourd'hui ! Vous lisez les nouvelles des Rebelles ? 100 Piro l'exemplaire !![end]</data>
     </text>
     <text choice="yes_no">
         <refs>
@@ -404,12 +404,12 @@ On le craint !![end]</data>
         <refs>
             <ref>0xb5f</ref>
         </refs>
-        <data>Ramassé [0xb4] ``Super gin''.[end]</data>
+        <data>Ramassé 5 ``Super gin''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0xb39</ref>
         </refs>
-        <data>Obtenu [0xb0][0xaf] ``Uniasticot''.[end][end]</data>
+        <data>Obtenu 10 ``Uniasticot''.[end][end]</data>
     </text>
 </texts>

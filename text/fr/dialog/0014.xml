@@ -288,7 +288,7 @@ Serait-ce les Dragons Sacrés qui nous guident... ?[end]</data>
         <refs>
             <ref>0x52</ref>
         </refs>
-        <data>Chapitre [0xb0][0xb3]
+        <data>Chapitre 14
 -Le réveil du Dragon Oiseau-[end][end]</data>
     </text>
     <text choice="yes_no">
@@ -314,7 +314,7 @@ Serait-ce les Dragons Sacrés qui nous guident... ?[end]</data>
         <refs>
             <ref>0x84c</ref>
         </refs>
-        <data>Obtenu [0xb5] ``Miel sucré''.[end]</data>
+        <data>Obtenu 6 ``Miel sucré''.[end]</data>
     </text>
     <text>
         <refs>

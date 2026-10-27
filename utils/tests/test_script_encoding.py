@@ -47,3 +47,15 @@ class ScriptEncodingTestCase(TestCase):
             if (codes := bytes(self.table.to_bytes(c))) and len(codes) == 1 and not has_ink(font, codes[0])
         }
         self.assertEqual(blank, {})
+
+    def test_digits_are_written_as_digits(self) -> None:
+        # a [0x..] reads as a closing tag to the centring, which drops the space before it ("Chapitre[0xb6]")
+        codes = {f"[{code:#04x}]" for code in self.table.to_bytes("0123456789")}
+        written = re.compile(r"(?<!\[0xf[0-9a-f]\])(\[0x[0-9a-f]{2}\])")
+        found = {
+            f"{path.name}: {code}"
+            for path in SCRIPTS.glob("*/*.xml")
+            for code in written.findall(path.read_text(encoding="utf-8"))
+            if code in codes
+        }
+        self.assertEqual(found, set())

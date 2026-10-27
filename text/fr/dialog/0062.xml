@@ -95,7 +95,7 @@ Sans les filles, nous n'avons pas de lendemain !![end]</data>
         </refs>
         <data>Maintenant que l'armée impériale est partie, c'est le moment ou jamais de faire la révolution...
  
-Mais voilà... On s'est trouvé un nom, le Front révolutionnaire pour la liberté... mais on n'a pas de chef... Moi, je suis tout au plus le numéro [0xb1]...
+Mais voilà... On s'est trouvé un nom, le Front révolutionnaire pour la liberté... mais on n'a pas de chef... Moi, je suis tout au plus le numéro 2...
  
 Alors, qu'en dis-tu... toi ? Tu es le chef des Rebelles, non ?
  
@@ -168,7 +168,7 @@ Hein... !! Où sont passés ces deux-là ?[end]</data>
         <refs>
             <ref>0x382</ref>
         </refs>
-        <data>Zeroshin: Digne du chef des Rebelles ! Au fait, tu ne voudrais pas nous engager ? Tu paies après... voyons... jusqu'en [0xb0][0xb4] fois, c'est d'accord.[end]</data>
+        <data>Zeroshin: Digne du chef des Rebelles ! Au fait, tu ne voudrais pas nous engager ? Tu paies après... voyons... jusqu'en 15 fois, c'est d'accord.[end]</data>
     </text>
     <text window="none">
         <refs>
@@ -190,7 +190,7 @@ Oh !!)[end]</data>
         <refs>
             <ref>0x391</ref>
         </refs>
-        <data>Sajin: Des assassins redoutables qui font n'importe quel travail sans bavure, c'est nous !! En ce moment, au tarif de base, on t'offre le ninjutsu niveau [0xb1]. Pour l'option, il faut un acompte.[end]</data>
+        <data>Sajin: Des assassins redoutables qui font n'importe quel travail sans bavure, c'est nous !! En ce moment, au tarif de base, on t'offre le ninjutsu niveau 2. Pour l'option, il faut un acompte.[end]</data>
     </text>
     <text>
         <refs>
@@ -203,7 +203,7 @@ Oh !!)[end]</data>
             <ref>0x39e</ref>
         </refs>
         <data> Tarif de base (paiement différé)
- Option (acompte de [0xb2][0xaf][0xaf][0xaf] Piro)[end1]</data>
+ Option (acompte de 3000 Piro)[end1]</data>
     </text>
     <text>
         <refs>
@@ -286,14 +286,14 @@ Terrine... Je suis triste, affirmatiiiiiif !![end]</data>
         </refs>
         <data>Obtenu une caisse de ``Truc du tiroir''.
  
-Elle en contenait [0xb0][0xb0].[end]</data>
+Elle en contenait 11.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x52a</ref>
             <ref>0x55e</ref>
         </refs>
-        <data>Il y a [0xb2][0xaf][0xaf][0xaf] Piro au fond du pot. Les voler ?[end]</data>
+        <data>Il y a 3000 Piro au fond du pot. Les voler ?[end]</data>
     </text>
     <text>
         <refs>
@@ -317,13 +317,13 @@ Elle en contenait [0xb0][0xb0].[end]</data>
         <refs>
             <ref>0x4ca</ref>
         </refs>
-        <data>Obtenu [0xb4] ``Super remède''.[end]</data>
+        <data>Obtenu 5 ``Super remède''.[end]</data>
     </text>
     <text>
         <refs>
             <ref>0x4e5</ref>
         </refs>
-        <data>Obtenu [0xb4] ``Super vodka''.[end]</data>
+        <data>Obtenu 5 ``Super vodka''.[end]</data>
     </text>
     <text>
         <refs>
