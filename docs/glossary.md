@@ -15,8 +15,6 @@ a change to a rule changes every name it covers.
 Battle messages spell words out whenever they fit their line (`utils/battle_messages.py` checks the 30 bytes).
 The status and equipment screens still abbreviate stats (Att., Déf., Vit., Mag., Intel., Mutat., Affin.).
 
-Still English on the dragon screen (`text/inline.xml`): STR, VIT, DEX, MIND, EXP:, NEXT:, BONUS, NO ITEM.
-
 ## Elements
 
 Each element has one word in descriptions and one qualifier in names. A spell's name uses its effect's element,
