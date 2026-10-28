@@ -9,7 +9,7 @@ it.
 
 The combat scene's spell banner goes through it too (template C1DB21: F6 the spell, F3 78 the level icon, F9 the
 level): F6 draws the spell's full name from long_name_tables, not its 8-code record, the icon (glyph 0x78 of page 3)
-draws " Nv", and a line is centred at the width those take.
+draws " Nv.", and a line is centred at the width those take.
 """
 
 
@@ -47,6 +47,7 @@ DIGIT_ZERO = 0xAF
 BLANK = 0xEF
 LETTER_N = 0xC6
 LETTER_V = 0x75
+PERIOD = 0xA4
 SPELL_RECORDS = 0xEF5920  ; the spells' 8-code names: long_name_tables has their full names
 END = 0xFF
 
@@ -62,7 +63,7 @@ _column_word = 7  ; (word)
 .alloc description_vwf in expansion {
 description_char:
 """
-Draw char A (8-bit) at the description pen and advance it, page 3's level icon as " Nv". Called by the interpreter
+Draw char A (8-bit) at the description pen and advance it, page 3's level icon as " Nv.". Called by the interpreter
 instead of C1336D.
 """
     php
@@ -83,6 +84,8 @@ instead of C1336D.
     lda #LETTER_N
     jsr.w _glyph
     lda #LETTER_V
+    jsr.w _glyph
+    lda #PERIOD
     jsr.w _glyph
     bra _drawn
 _plain:
@@ -305,6 +308,8 @@ _control:
     lda.w #LETTER_N
     jsr.w _add_advance
     lda.w #LETTER_V
+    jsr.w _add_advance
+    lda.w #PERIOD
     bra _paged_char
 _paged:
     txa

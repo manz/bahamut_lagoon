@@ -166,7 +166,7 @@ def test_whole_side_target_reads_tous(console: Console) -> None:
 def test_combat_scene_spell_banner_names_the_spell_whole(console: Console) -> None:
     console.load("combat-scene-spell-banner")  # a combat scene about to show the cast spell's banner
     console.emu.run_frames(31)
-    # the full name, " Nv" for the level icon, the level, centred: it read "Cri striy5"
+    # the full name, " Nv." for the level icon, the level, centred: it read "Cri striy5"
     assert console.matches_golden("combat-scene-spell-banner")
 
 
