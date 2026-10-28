@@ -293,3 +293,36 @@ def test_a_full_spell_list_draws_every_row_whole(console: Console) -> None:
     finally:
         emu.remove_callback(CallbackKind.EXEC, callback)
     assert console.matches_golden("battle-terrain-spells-full")
+
+
+PANEL_TILEMAP = 0x7EC000  # C0E38D's DMA source: the panel's BG3 tilemap
+PANEL_RUNS = 0x07  # panel.dirty: the panel's runs and the spell list's
+
+
+def test_the_panel_tilemap_goes_up_after_its_slots(console: Console) -> None:
+    """
+    The main loop draws the panel's lines over lag frames, whose NMIs leave the slots behind: the tilemap sent first
+    showed the roster's names in the list's rows, and back (panel_bg3_tilemap).
+    """
+    console.load("battle-map-cave")
+    for button in (console.button.R, console.button.R, console.button.A, console.button.DOWN, console.button.A):
+        console.tap(button)
+        console.emu.run_frames(40)
+    emu = console.emu
+    dirty = symbol("panel.dirty")
+    pending: list[int] = []
+
+    def sent(address: int, value: int) -> None:
+        source = emu.read(0x004302) | emu.read(0x004303) << 8 | emu.read(0x004304) << 16
+        if value & 1 and source == PANEL_TILEMAP:
+            pending.append(emu.read(dirty) & PANEL_RUNS)
+
+    callback = emu.add_write_callback(MDMAEN, MDMAEN, sent)
+    try:
+        for button in (console.button.A, console.button.B):  # the spell list, then the roster again
+            console.tap(button)
+            emu.run_frames(60)
+    finally:
+        emu.remove_callback(CallbackKind.WRITE, callback)
+    assert pending
+    assert not any(pending)

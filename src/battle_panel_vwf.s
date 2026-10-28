@@ -97,6 +97,10 @@ WINDOW_TILEMAP = 0x7E4000  ; C0AA9E's upload: a window's tilemap
 WINDOW_TILEMAP_VRAM = 0x4800
 WINDOW_TILEMAP_BYTES = 0x0800
 WINDOW_TILEMAP_WAITS = 2  ; vblanks it waits for room at most, then goes up anyway as vanilla
+PANEL_TILEMAP = 0x7EC000  ; C0E38D's upload: the panel's BG3 tilemap, after the main loop draws its lines
+PANEL_TILEMAP_VRAM = 0x5C00
+PANEL_TILEMAP_BYTES = 0x0800
+PANEL_TILEMAP_WAITS = 4  ; vblanks it waits for its slots to fit with it at most, then goes up alone as vanilla
 
 ; line_strip, line_chars, line_cells: the line being composed (a field may render past it), its characters (BLANK past
 ; them) and where small_vwf drew. pool_owner: tilemap row + 1 holding the slot, 0 when free. pool_cell: the tilemap
@@ -109,7 +113,7 @@ WINDOW_TILEMAP_WAITS = 2  ; vblanks it waits for room at most, then goes up anyw
 ; the screen's left edge, is being built. list_name: the copy is a spell list row's name. row_text, row_end: that
 ; row's string, the name's end in it. list_row: the next line drawn is a spell list row; line_list: the one being
 ; drawn is, and takes the list's slots too; list_slots: nonzero while a list may hold them. number, place, started:
-; _put_number's scratch.
+; _put_number's scratch. budget: the bytes of runs an upload may send.
 .struct PanelVwf {
     byte[( LINE_CELLS + COPY_CELLS ) * TILE_BYTES] line_strip
     byte[LINE_CELLS] line_chars
@@ -148,6 +152,7 @@ WINDOW_TILEMAP_WAITS = 2  ; vblanks it waits for room at most, then goes up anyw
     byte number
     byte place
     byte started
+    word budget
 }
 
 .reserve panel as PanelVwf in sram_work
@@ -260,6 +265,11 @@ WINDOW_TILEMAP_WAITS = 2  ; vblanks it waits for room at most, then goes up anyw
 ; pixels), or the closing parenthesis, set past the field's last non-blank cell, covers its last letter.
 .alloc at 0xC0DC3D {
     .db DRAGON_KIND_CELLS  ; lda #0x08
+}
+
+; The panel's tilemap upload (C0E38D: jsr 06D7, its DMA, rts): its slots first, in the same vblank.
+.alloc at 0xC0E38D {
+    jml.l panel_bg3_tilemap
 }
 
 ; The window font upload's last transfer (sta $420B / rts) writes over the window slots.
@@ -1017,6 +1027,10 @@ DMA the dirty runs on channel 0, keeping the channel's registers: the window run
 uploads after this NMI, then the panel's, UPLOAD_BUDGET bytes at most, none while panel_hold. A run past the budget
 stays dirty for the next NMI: past it, the engine's own uploads (a window's 2 KB tilemap) would run out of vblank.
 """
+    rep #0x20
+    lda.w #UPLOAD_BUDGET
+    sta.l panel.budget
+_upload_dirty:
     rep #0x30
     pha
     phx
@@ -1037,7 +1051,7 @@ _save:
     lda #panel.pool_tiles >> 16
     sta.l 0x004304
     rep #0x20
-    lda.w #UPLOAD_BUDGET
+    lda.l panel.budget
     pha  ; 1,s: the bytes left
     ldx.w #FIRST_WINDOW_RUN
     jsr.w _upload_window_run
@@ -1184,6 +1198,87 @@ _next_window_run:
     inx
     bra _window_upload
 _window_done:
+    rts
+
+panel_bg3_tilemap:
+"""
+C0E38D's DMA of the panel's tilemap, in a vblank: the dirty runs first, in the same one. The main loop draws the lines
+over lag frames, whose NMIs leave the runs behind: sent alone, the tilemap would show other text in its slots for
+frames. When the runs and the tilemap cannot both end in this vblank, the next one, PANEL_TILEMAP_WAITS at most; then
+the tilemap alone, as vanilla. Returns through C0E38D's rts.
+"""
+    php
+    rep #0x30
+    pea.w PANEL_TILEMAP_WAITS
+_panel_tilemap_try:
+    jsl.l await_vblank
+    jsr.w _dirty_bytes
+    beq _panel_tilemap_send
+    clc
+    adc.w #PANEL_TILEMAP_BYTES
+    jsl.l dma_fits_vblank
+    bcc _panel_runs_send
+    lda 0x01, s
+    beq _panel_tilemap_send  ; still no room: the tilemap alone
+    dec
+    sta 0x01, s
+    bra _panel_tilemap_try
+_panel_runs_send:
+    lda.w #0xFFFF
+    sta.l panel.budget
+    jsr.w _upload_dirty
+_panel_tilemap_send:
+    pla
+    lda.w #PANEL_TILEMAP & 0xFFFF
+    sta.l 0x004302
+    lda.w #PANEL_TILEMAP_BYTES
+    sta.l 0x004305
+    lda.w #PANEL_TILEMAP_VRAM
+    sta.l 0x002116
+    sep #0x20
+    lda #PANEL_TILEMAP >> 16
+    sta.l 0x004304
+    lda #0x01
+    sta.l 0x00420B
+    plp
+    jml 0xC0E3AC  ; C0E38D's rts
+
+_dirty_bytes:
+"""A (16-bit, flags set): the bytes of the dirty runs, the windows' in 4bpp. Keeps X."""
+    phx
+    lda.w #0x0000
+    pha  ; 1,s: the bytes
+    ldx.w #0x0000
+_dirty_run:
+    lda.l _pool_runs, x
+    and.w #0x00FF
+    beq _dirty_counted
+    sep #0x20
+    lda.l _run_bits, x
+    and.l panel.dirty
+    rep #0x20
+    beq _next_dirty_run
+    lda.l _pool_runs + 1, x
+    and.w #0x00FF
+    asl
+    asl
+    asl
+    asl
+    cpx.w #FIRST_WINDOW_RUN
+    bcc _run_bytes
+    asl
+_run_bytes:
+    clc
+    adc 0x01, s
+    sta 0x01, s
+_next_dirty_run:
+    inx
+    inx
+    bra _dirty_run
+_dirty_counted:
+    pla
+    plx
+    ora.w #0x0000
     rts
 
 panel_window_tilemap:
