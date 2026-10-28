@@ -6,8 +6,9 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 from unittest import TestCase
 
+from katsuji import png
+from katsuji.png import Pixels
 from katsuji.script import Table
-from PIL import Image
 
 ROOT = Path(__file__).parents[2]
 SCRIPTS = ROOT / "text/fr"
@@ -27,9 +28,9 @@ def script_characters() -> dict[str, str]:
     return characters
 
 
-def has_ink(font: Image.Image, code: int) -> bool:
+def has_ink(font: Pixels, code: int) -> bool:
     x, y = code % 16 * 8, code // 16 * 16
-    return any(font.getpixel((x + i, y + j)) for i in range(8) for j in range(16))
+    return bool(font[y : y + 16, x : x + 8].any())
 
 
 class ScriptEncodingTestCase(TestCase):
@@ -40,7 +41,7 @@ class ScriptEncodingTestCase(TestCase):
         self.assertEqual({c: where for c, where in self.characters.items() if not self.table.to_bytes(c)}, {})
 
     def test_every_character_has_a_glyph(self) -> None:
-        font = Image.open(DIALOG_FONT)
+        font = png.read(DIALOG_FONT)[0]
         blank = {
             c: where
             for c, where in self.characters.items()

@@ -16,6 +16,7 @@ from pathlib import Path
 from typing import TYPE_CHECKING
 
 import pytest
+from katsuji import png
 from katsuji.script import Table
 
 from utils.ips import apply_ips
@@ -72,10 +73,7 @@ def small_vwf_fields() -> tuple[dict[str, int], int]:
 
 
 def _pixels(path: Path) -> bytes:
-    from PIL import Image
-
-    with Image.open(path) as image:
-        return image.convert("RGB").tobytes()
+    return bytes(png.read(path)[0][..., :3].tobytes())
 
 
 class Console:
