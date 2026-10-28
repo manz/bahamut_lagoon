@@ -48,6 +48,7 @@ TRAILING_TAGS = re.compile(r"(.*?)((?:\[[^\]]*\])*)", re.DOTALL)  # a line's wor
 LEFT, CENTER, STEPS = "left", "center", "steps"  # a <text>'s align: as reflowed, centred, or stepped like stairs
 STEP = "  "  # 10 pixels: how much further in each line of a stepped block starts
 CENTRE_MARK = "  "  # katsuji centres a line set two spaces in
+FINE_SPACES = 0xD9  # blank glyphs advancing 1 to 7 pixels (katsuji.toml): an indent's last pixels, finer than a space
 LIST_ITEM = re.compile(r"(\d+|\[0x(af|b[0-8])\])+ ?[-.)]")  # "1- ", "[0xb0]- ": an item, a line of its own
 MARKUP = Markup(
     tag=r"\[character\]\[0x[0-9a-f]+\]|\[[^\]]*\]",  # a name, a glyph ([0xd8]) or a control ([end])
@@ -91,6 +92,7 @@ class DialogLayout:
         widest = max(NAME_LETTERS, key=lambda letter: self.wrapper.measure(table.to_bytes(letter)))
         self.names[:RENAMEABLE] = [table.to_bytes(widest * NAME_CODES)] * RENAMEABLE
         self.line_width = line_width
+        self.space_width = self.wrapper.measure(bytes([SPACE]))
         self.layout = TextLayout(
             self.width,
             line_width,
@@ -175,7 +177,13 @@ class DialogLayout:
         return 2 * self.width(line) <= self.line_width + self.default_width(line)
 
     def centre(self, line: str) -> str:
-        return self.layout.centre(line)
+        """`line` centred to the pixel whatever its indentation (two spaces or more): spaces, then one FINE_SPACES
+        glyph for what's left of the indent."""
+        if not line.startswith(CENTRE_MARK):
+            return line
+        text = line.lstrip(" ")
+        spaces, rest = divmod(max(0, self.line_width - self.default_width(text)) // 2, self.space_width)
+        return " " * spaces + (f"[{FINE_SPACES + rest - 1:#04x}]" if rest else "") + text
 
     def overflows(self, text: str) -> Iterator[tuple[str, int]]:
         return self.layout.overflows(text)
