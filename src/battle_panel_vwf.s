@@ -1179,7 +1179,7 @@ _box_end:
     rtl
 
 panel_message_icon:
-"""Past the name the last message copy wrote: a blank, then Nv for a level ($10 = F3) or the range icon (D5)."""
+"""Past the name the last message copy wrote: a blank, then Nv. for a level ($10 = F3) or the range icon (D5)."""
     rep #0x20
     lda.l panel.message_end
     tax
@@ -1194,6 +1194,9 @@ panel_message_icon:
     sta.b 0x00, x
     inx
     lda #0x75  ; v
+    sta.b 0x00, x
+    inx
+    lda #0xA4  ; .
     bra _icon_end
 _range:
     sta.b 0x00, x  ; the icon's two halves, D5 D6
