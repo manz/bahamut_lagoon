@@ -21,7 +21,9 @@ The panel slots are 8x8 font codes no text draws once the battle text is French:
 kana with a mark instead) from 0x24 up to the colour fills (0x2C-0x2F), and lowercase letters and accents past 0x6B,
 which only the VWF draws now. The battle message VWF (battle_vwf_reloc) draws its lines over 0x30 on: its first
 line, 0x30-0x6B, shows with the panel; its others overwrite the slots while the dialogue hides the panel, so the
-panel uploads its slots again when it next draws a line. The window slots are the window font's kana. A sky map
+panel uploads its slots again when it next draws a line. A spell list's rows, a name, its level and its MP each, take
+that first line's codes too while no battle message draws: one that does frees them. The window slots are the window
+font's kana. A sky map
 loads its clouds over the font's codes 0x01-0x23 and tiles BG3 with them: no slot sits there.
 """
 
@@ -51,9 +53,17 @@ SKILL_LIST_COPY = 0xD6AF  ; the Coup fatal list's call to the spell copy's helpe
 MESSAGE_RANGE = 0xD5  ; the range icon's first half: a spell message's $10 for its range
 SPELL_LIST_ICON = 0xD6B2  ; the spell list row's call for its level icon (jsr C0D6EB), less one: a panel line
 NAME_CELLS = 9  ; a list row's name field, the engine's 8 and the cell before the level icon: 72 pixels
-MP_CELL = 0x0B  ; where C0D774 writes a list row's MP (ldx #0x062B)
-LIST_CURSOR_LEFT = 0xFC  ; a spell list's cursor X a tile left of vanilla's (0x04, 0x7C): -4, its sign in the high table
-LIST_CURSOR_RIGHT = 0x74
+ROW_CELLS = 14  ; a spell list row, drawn a tile left of vanilla's: its name, level and MP, up to where its MP ended
+ROW_INDENT = 2  ; pixels before the name: room for the cursor
+ROW_EDGE = ROW_CELLS * 8 - 2  ; the pixel column its MP ends at: room for the right column's cursor
+ROW_CHARS = 28  ; small_vwf's
+ROW_NAME_CHARS = 17  ; a row's name, then its level and MP: Lancer de lancier, the widest spell name, whole
+ROW_TAB = 0xFB  ; small_vwf's: the rest right-aligned against the column that follows
+LETTER_L = 0xC4
+LETTER_V = 0x75
+DIGIT_ZERO = 0xAF  ; then 1 to 9
+LIST_CURSOR_LEFT = 0xFF  ; a spell list's cursor X, 5 pixels left of vanilla's (0x04, 0x7C), 3 pixels before the
+LIST_CURSOR_RIGHT = 0x77  ; text: -1, its sign in the high table
 CURSOR_LARGE = 0x80  ; a sprite's high table bits as C0:5300 takes them: large, then large with X's sign
 CURSOR_LARGE_X9 = 0xC0
 OAM_LAST = 0x01FC  ; C0:5300: no sprite past it
@@ -66,9 +76,11 @@ PANEL_ATTR = 0x22
 WINDOW_ATTR = 0x23  ; a BG1 window's line
 FRAME_FIRST = 0xE0  ; a window's or the panel's corner, edge and side codes
 FRAME_LAST = 0xE2
-POOL_SLOTS = 53  ; the panel's, then the windows'
+POOL_SLOTS = 53  ; the panel's, then a spell list's, then the windows'
+LIST_SLOTS = 60
+WINDOW_FIRST = POOL_SLOTS + LIST_SLOTS
 WINDOW_SLOTS = 45
-ALL_SLOTS = POOL_SLOTS + WINDOW_SLOTS
+ALL_SLOTS = WINDOW_FIRST + WINDOW_SLOTS
 WINDOW_VRAM = 0x3000  ; BG1 tile 0x300, 8x8 code 0x00, 4bpp
 WINDOW_TILE_BYTES = 32
 ROSTER_NAME_CELLS = 7
@@ -77,8 +89,9 @@ DRAGON_KIND_CELLS = 9
 MIN_CHARS = 3  ; shorter copies (LV, HP) keep the font
 SLOT_STALE = 0x01  ; not drawn since its row was last drawn
 ALL_RUNS = 0x03  ; the panel's
-WINDOW_RUNS = 0x1C
-FIRST_WINDOW_RUN = 2 * 2
+LIST_RUN = 0x04
+WINDOW_RUNS = 0x38
+FIRST_WINDOW_RUN = 3 * 2
 UPLOAD_BUDGET = 0x400  ; bytes of runs an NMI uploads: a window's tilemap must still go up in vblank
 WINDOW_TILEMAP = 0x7E4000  ; C0AA9E's upload: a window's tilemap
 WINDOW_TILEMAP_VRAM = 0x4800
@@ -93,7 +106,10 @@ WINDOW_TILEMAP_WAITS = 2  ; vblanks it waits for room at most, then goes up anyw
 ; copy leaves it. message_end: the line position past the last battle message's name. hint: slot * 2 _find_slot tries
 ; first. first_index, last_index: first and last as slot * 2. line_row, kept: the row whose line is being drawn and the
 ; slots it kept. column: the placeholder's tilemap column. cursor_x9: nonzero while a spell list's left cursor, past
-; the screen's left edge, is being built.
+; the screen's left edge, is being built. list_name: the copy is a spell list row's name. row_text, row_end: that
+; row's string, the name's end in it. list_row: the next line drawn is a spell list row; line_list: the one being
+; drawn is, and takes the list's slots too; list_slots: nonzero while a list may hold them. number, place, started:
+; _put_number's scratch.
 .struct PanelVwf {
     byte[( LINE_CELLS + COPY_CELLS ) * TILE_BYTES] line_strip
     byte[LINE_CELLS] line_chars
@@ -123,6 +139,15 @@ WINDOW_TILEMAP_WAITS = 2  ; vblanks it waits for room at most, then goes up anyw
     word kept
     byte column
     byte cursor_x9
+    byte list_name
+    byte[ROW_CHARS + 1] row_text
+    word row_end
+    byte list_row
+    byte line_list
+    byte list_slots
+    byte number
+    byte place
+    byte started
 }
 
 .reserve panel as PanelVwf in sram_work
@@ -280,6 +305,7 @@ _cells:
     sta.l small_vwf.source
     sep #0x20
     jsl.l small_vwf_render
+    jsr.w _keep_list_name
     jsr.w _for_a_message
     bcc _for_a_line
     jmp.w _message_copy
@@ -314,8 +340,35 @@ _widen_a_list_row:
     sep #0x20
     lda #NAME_CELLS
     sta.b 0x08
+    lda #0x01
+    sta.l panel.list_name
 _not_a_list_row:
     sep #0x20
+    rts
+
+_keep_list_name:
+"""A spell list row's name, which small_vwf just resolved: its codes to panel.row_text, ROW_NAME_CHARS at most."""
+    lda.l panel.list_name
+    beq _list_name_kept
+    lda #0x00
+    sta.l panel.list_name
+    phx
+    ldx.w #0x0000
+_name_char:
+    lda.l small_vwf.text, x
+    cmp #0xFF
+    beq _name_end
+    sta.l panel.row_text, x
+    inx
+    cpx.w #ROW_NAME_CHARS
+    bcc _name_char
+_name_end:
+    rep #0x20
+    txa
+    sta.l panel.row_end
+    sep #0x20
+    plx
+_list_name_kept:
     rts
 
 _for_a_message:
@@ -521,10 +574,18 @@ The row about to be drawn ($16): free its slots the last drawing left stale, mar
 (panel.line_row, panel.kept); after a battle message's later lines wrote over the slots, upload them all again.
 """
     sta.b 0x10
+    lda.l panel.list_row
+    sta.l panel.line_list
+    beq _not_a_list_line
+    sta.l panel.list_slots
+    lda #0x00
+    sta.l panel.list_row
+_not_a_list_line:
     lda.l panel_slots_overwritten
     beq _slots_kept
     lda #0x00
     sta.l panel_slots_overwritten
+    jsl.l panel_list_slots_lost
     lda.l panel.dirty
     ora #ALL_RUNS
     sta.l panel.dirty
@@ -622,11 +683,18 @@ _placeholder:
     lda.w #POOL_SLOTS
     sta.l panel.last
     sep #0x20
+    lda.l panel.line_list
+    beq _not_list
+    rep #0x20
+    lda.w #WINDOW_FIRST  ; a spell list's row: the list's slots too
+    sta.l panel.last
+    sep #0x20
+_not_list:
     lda.b 0x10
     cmp #PANEL_ATTR
     beq _panel_cell
     rep #0x20
-    lda.w #POOL_SLOTS  ; a window: its own slots
+    lda.w #WINDOW_FIRST  ; a window: its own slots
     sta.l panel.first
     lda.w #ALL_SLOTS
     sta.l panel.last
@@ -653,7 +721,7 @@ _drawn:
     plx
     sep #0x20
     lda #BLANK
-    bra _draw_blank  ; the pool is full
+    jml 0xC0CAE2  ; the pool is full: a blank
 _slot_found:
     sta.l panel.slot
     jsr.w _slot_code
@@ -878,7 +946,7 @@ _window_copy:
     rep #0x30
     lda.l panel.slot
     sec
-    sbc.w #POOL_SLOTS
+    sbc.w #WINDOW_FIRST
     bcc _not_window
     asl
     asl
@@ -1277,25 +1345,53 @@ _icon_end_list:
 
 panel_list_row:
 """
-A spell list row's line, its MP written: the MP a cell further along, then the line drawn a tile left of the row ($16,
-and Y, as vanilla left them). An empty row (FF first) has no MP.
+A spell list row, its name kept (panel.row_text), its level ($19, FF: none) and MP ($1B, 0: none) known: one string
+through small_vwf, the name, Lv and the level packed, the MP right-aligned against ROW_EDGE, drawn a tile left of the
+row ($16, and Y, as vanilla left them) and from the list's slots too. An empty row (FF first) has neither.
 """
     ldx.w #LINE
     lda.b 0x00, x
     cmp #0xFF
     beq _row_placed
-    ldx.w #LINE + MP_CELL
-    lda #BLANK  ; carried into the cell, each cell's character carried into the next
-_mp_cell:
-    xba
-    lda.b 0x00, x
-    xba
-    sta.b 0x00, x
-    xba
-    inx
+    lda.b 0x08
+    pha
+    rep #0x20
+    lda.l panel.row_end
+    tax
+    sep #0x20
+    lda.b 0x19
     cmp #0xFF
-    bne _mp_cell
-    sta.b 0x00, x
+    beq _no_level
+    lda #BLANK
+    sta.l panel.row_text, x
+    inx
+    lda #LETTER_L
+    sta.l panel.row_text, x
+    inx
+    lda #LETTER_V
+    sta.l panel.row_text, x
+    inx
+    lda.b 0x19
+    jsr.w _put_number
+_no_level:
+    lda.b 0x1B
+    beq _no_mp
+    lda #ROW_TAB
+    sta.l panel.row_text, x
+    inx
+    lda #ROW_EDGE
+    sta.l panel.row_text, x
+    inx
+    lda.b 0x1B
+    jsr.w _put_number
+_no_mp:
+    lda #0xFF
+    sta.l panel.row_text, x
+    jsr.w _render_row
+    pla
+    sta.b 0x08
+    lda #0x01
+    sta.l panel.list_row
 _row_placed:
     rep #0x20
     lda.b 0x1C
@@ -1304,6 +1400,138 @@ _row_placed:
     sta.b 0x16
     tay
     sep #0x20
+    rtl
+
+_render_row:
+"""panel.row_text into the line's first ROW_CELLS cells, FF past them; a cell with no ink stays blank, slotless."""
+    lda #panel.row_text >> 16
+    sta.l small_vwf.source + 2
+    rep #0x20
+    lda.w #panel.row_text & 0xFFFF
+    sta.l small_vwf.source
+    sep #0x20
+    lda #ROW_CHARS
+    sta.l small_vwf.max_chars
+    lda #ROW_CELLS
+    sta.l small_vwf.max_cells
+    lda #ROW_INDENT
+    sta.l small_vwf.indent
+    jsl.l small_vwf_render
+    ldx.w #LINE
+    lda #ROW_CELLS
+    sta.b 0x08
+    jsr.w _keep_cells
+    jsr.w _fill_cells
+    lda #0xFF
+    sta.b 0x00, x
+    ldx.w #0x0000
+_ink_cell:
+    lda.l panel.line_cells, x
+    beq _next_ink_cell
+    phx
+    rep #0x20
+    txa
+    asl
+    asl
+    asl
+    asl
+    tax
+    lda.l panel.line_strip, x
+    ora.l panel.line_strip + 2, x
+    ora.l panel.line_strip + 4, x
+    ora.l panel.line_strip + 6, x
+    ora.l panel.line_strip + 8, x
+    ora.l panel.line_strip + 10, x
+    ora.l panel.line_strip + 12, x
+    ora.l panel.line_strip + 14, x
+    plx
+    cmp.w #0x0000  ; the ink, not X
+    sep #0x20
+    bne _next_ink_cell
+    sta.l panel.line_cells, x  ; A: 0
+    phx
+    rep #0x20
+    txa
+    clc
+    adc.w #LINE
+    tax
+    sep #0x20
+    lda #BLANK
+    sta.b 0x00, x
+    plx
+_next_ink_cell:
+    inx
+    cpx.w #ROW_CELLS
+    bcc _ink_cell
+    rts
+
+_put_number:
+"""A (8-bit): its decimal digits at panel.row_text, X on; X past them."""
+    sta.l panel.number
+    lda #0x00
+    sta.l panel.started
+    lda #100
+    jsr.w _put_digit
+    lda #10
+    jsr.w _put_digit
+    lda #0x01
+    sta.l panel.started  ; the units, even 0
+_put_digit:
+    sta.l panel.place
+    ldy.w #0x0000
+    lda.l panel.number
+_count_place:
+    cmp.l panel.place
+    bcc _place_counted
+    sbc.l panel.place
+    iny
+    bra _count_place
+_place_counted:
+    sta.l panel.number
+    tya
+    ora.l panel.started
+    beq _digit_skipped  ; a leading zero
+    tya
+    clc
+    adc #DIGIT_ZERO
+    sta.l panel.row_text, x
+    inx
+    lda #0x01
+    sta.l panel.started
+_digit_skipped:
+    rts
+
+panel_list_slots_lost:
+"""
+A battle message draws over the list's slots (0x30-0x6B): they are free again, their pixels gone, nothing to upload.
+Any register sizes; all registers and P are kept.
+"""
+    php
+    rep #0x30
+    pha
+    phx
+    sep #0x20
+    lda.l panel.list_slots
+    beq _list_slots_kept
+    lda #0x00
+    sta.l panel.list_slots
+    lda.l panel.dirty
+    and #LIST_RUN ^ 0xFF
+    sta.l panel.dirty
+    rep #0x20
+    ldx.w #( WINDOW_FIRST - 1 ) * 2
+_free_list_slot:
+    lda.w #0x0000
+    sta.l panel.pool_owner, x
+    dex
+    dex
+    cpx.w #POOL_SLOTS * 2
+    bcs _free_list_slot
+_list_slots_kept:
+    rep #0x30
+    plx
+    pla
+    plp
     rtl
 
 panel_list_cursor:
@@ -1370,7 +1598,11 @@ panel_font_reloaded:
 """The font upload overwrites the slots: upload them all again at the next NMI."""
     php
     sep #0x20
-    lda #ALL_RUNS
+    lda.l panel.list_slots
+    beq _list_free
+    lda #LIST_RUN
+_list_free:
+    ora #ALL_RUNS
     sta.l panel.dirty
     plp
     rep #0x21
@@ -1381,13 +1613,14 @@ _pool_runs:
 ; The pool's runs of free codes, slot after slot: first code, length; 0 ends them.
     .db 0x24, 8  ; up to the colour fills: the move range's shadow tiles BG3 with 0x2C and 0x2E
     .db 0x6C, 45  ; past the battle message's first line (0x30-0x6B)
+    .db 0x30, 60  ; that line: a spell list's rows take it while no battle message draws
     .db 0x33, 15  ; the windows'
     .db 0x42, 15
     .db 0x51, 15
     .db 0x00
 _run_bits:
 ; A run's bit in panel.dirty, by run * 2.
-    .db 0x01, 0x00, 0x02, 0x00, 0x04, 0x00, 0x08, 0x00, 0x10, 0x00
+    .db 0x01, 0x00, 0x02, 0x00, 0x04, 0x00, 0x08, 0x00, 0x10, 0x00, 0x20, 0x00
 _run_bits_end:
     .assert _run_bits - _pool_runs - 1 == _run_bits_end - _run_bits, "a dirty bit for every pool run"
 }

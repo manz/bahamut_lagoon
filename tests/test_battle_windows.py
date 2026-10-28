@@ -261,3 +261,35 @@ def test_spell_description_draws_at_once(console: Console) -> None:
     console.tap(console.button.RIGHT)  # Regard de feu: its description, drawn as the cursor moves
     assert not transfers  # a char a time took a vblank each: half a second a move
     assert console.matches_golden("battle-terrain-spell-description")
+
+
+LIST_START = 0xC0D640  # C0D640: a spell list's rows, $C2 the first entry, $C3 how many
+LIST_COUNT = 0x7E01C3
+LIST_FIRST = 0x7E01C2
+LIST_ENTRIES = 0x7E0010  # 2 bytes an entry: the spell, its level
+WIDEST_SPELLS = (0xB4, 0xD4, 0x44, 0xE4, 0x9E, 0xEB, 0x23, 0x82)  # Lancer de lancier, Jugement céleste...
+LEVELS = (40, 7, 99, 1)
+
+
+def test_a_full_spell_list_draws_every_row_whole(console: Console) -> None:
+    """Eight of the widest names, two-digit levels: their rows outgrow the panel's slots, the list borrows the battle
+    message's first line."""
+    console.load("battle-map-cave")
+    for button in (console.button.R, console.button.R, console.button.A, console.button.DOWN, console.button.A):
+        console.tap(button)
+        console.emu.run_frames(40)
+    emu = console.emu
+
+    def fill(address: int, value: int = 0) -> None:
+        emu.write(LIST_COUNT, len(WIDEST_SPELLS))
+        entries = LIST_ENTRIES + emu.read(LIST_FIRST) * 4
+        for index, spell in enumerate(WIDEST_SPELLS):
+            emu.write_range(entries + 2 * index, bytes([spell, LEVELS[index % len(LEVELS)]]))
+
+    callback = emu.add_exec_callback(LIST_START, LIST_START, fill)
+    try:
+        console.tap(console.button.A)
+        emu.run_frames(60)
+    finally:
+        emu.remove_callback(CallbackKind.EXEC, callback)
+    assert console.matches_golden("battle-terrain-spells-full")

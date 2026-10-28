@@ -10,6 +10,7 @@
 .extern battle_vwf_new_line_return
 .extern return_from_battle_vwf_char
 .extern panel_slots_overwritten
+.extern panel_list_slots_lost
 
 
 .reserve battle_vwf_position 2 at 0x7EBE00 in wram  ; battle text pixel position
@@ -23,8 +24,11 @@ _DESCRIPTION_LINE = 0xD745  ; C00959's return address, less one, from the spell 
 
 .alloc battle_vwf_reloc in ed_reloc {
 battle_dma_transfer:
-"""Wait for vblank, then DMA the battle text buffer ($7E:D000) to VRAM at the current line."""
+"""
+Wait for vblank, then DMA the battle text buffer ($7E:D000) to VRAM at the current line, over a spell list's slots.
+"""
     {
+        jsl.l panel_list_slots_lost
         phb
         lda.b #0x00
         pha
