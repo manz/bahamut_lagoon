@@ -5,7 +5,8 @@ It runs the debug build (build/bl-debug.ips) and starts each test from a savesta
 ff4 goldens do: a cold boot leaves WRAM to the emulator's RNG, and the game reads some of it uninitialised (the
 title cursor, the debug scenario number). Some savestates come from older builds or other versions of the game: a
 loaded one gets the French default names (party and saves, as utils/save_names.py gives a save), a cleared
-small_vwf, whose fields an older build laid out otherwise, an empty menu_vwf ring and no panel hold.
+small_vwf, whose fields an older build laid out otherwise, an empty menu_vwf ring, no panel hold and every panel slot
+free, as an older build's slot count would misplace their owners.
 """
 
 import os
@@ -105,6 +106,8 @@ class Console:
         self.emu.write_range(symbol("small_vwf"), bytes(small_vwf_fields()[1]))
         self.emu.write_range(symbol("menu_present"), bytes(MENU_PRESENT_HEADER))
         self.emu.write_range(symbol("panel_hold"), bytes(1))
+        slots = symbol("panel.pool_owner")
+        self.emu.write_range(slots, bytes(symbol("panel.window_tiles") - slots))  # owners, cells, flags
         self.emu.write_range(symbol("shadow_dirty"), bytes(SHADOW_DIRTY_BYTES))
         self.emu.run_frames(1)
 
