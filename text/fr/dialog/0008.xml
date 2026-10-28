@@ -407,7 +407,7 @@ Tu les manges ?[end]</data>
             <ref>0x778</ref>
         </refs>
         <data> Merci beaucoup !
- Monseigneur est occupé ![end1]</data>
+ Le grand Byuu est occupé !![end1]</data>
     </text>
     <text choice="yes_no">
         <refs>
