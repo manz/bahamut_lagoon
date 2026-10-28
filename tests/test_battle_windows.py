@@ -249,6 +249,12 @@ def open_terrain_spells(console: Console) -> None:
     console.emu.run_frames(60)
 
 
+def test_spell_list_rows_show_the_level(console: Console) -> None:
+    open_terrain_spells(console)
+    # Lv and the level at the first blank past the name, as vanilla: the battle message's icon hook had dropped them
+    assert console.matches_golden("battle-terrain-spells")
+
+
 def test_spell_description_draws_at_once(console: Console) -> None:
     open_terrain_spells(console)
     transfers = console.count_calls("battle_dma_transfer")

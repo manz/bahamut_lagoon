@@ -49,6 +49,8 @@ MESSAGE_SPELL_COPY = 0xD6E5  ; the return addresses, less one, of the copies tha
 MESSAGE_DRAGON_COPY = 0xA7A4  ; name: a spell's, a dragon's
 SKILL_LIST_COPY = 0xD6AF  ; the Coup fatal list's call to the spell copy's helper (C0D6D0), less one: a panel line
 MESSAGE_RANGE = 0xD5  ; the range icon's first half: a spell message's $10 for its range
+SPELL_LIST_ICON = 0xD6B2  ; the spell list row's call for its level icon (jsr C0D6EB), less one: a panel line
+NAME_CELLS = 9  ; a list row's name field, the engine's 8 and the cell before the level icon: 72 pixels
 BOX_MARGIN = 2  ; cells a map message box adds past its text: a blank and the prompt arrow
 PLACEHOLDER = 0x01
 BLANK = 0xEF
@@ -159,7 +161,9 @@ WINDOW_TILEMAP_WAITS = 2  ; vblanks it waits for room at most, then goes up anyw
 
 ; A spell in a battle message (C0D6D0: its name; then, from C0D6E7 or C0D6EB, its level or range at the first blank
 ; of the line's first eight cells: F3 78 F0, Lv in the 12px font, or D5, its range icon, then the number). The name
-; is whole and may hold spaces, so the icon goes past it, as the dialogue font spells it.
+; is whole and may hold spaces, so the icon goes past it, as the dialogue font spells it. A spell list's row (C0D680)
+; is a panel line: D5 is the 8x8 font's Lv, at the first blank past the name's cells, as vanilla; the name takes
+; NAME_CELLS there.
 .alloc at 0xC0D6F5 {
     jsl.l panel_message_icon
     jml 0xC0D717
@@ -233,6 +237,7 @@ engine wrote it.
     lda #PARTY_NAME_CODES  ; an 8-letter name has no FF: the next name follows
     sta.l small_vwf.max_chars
 _not_a_party_name:
+    jsr.w _widen_a_list_row
     lda.b 0x08
     beq _vanilla_copy
     cmp #COPY_CELLS
@@ -268,6 +273,22 @@ _vanilla_copy:
     pha
     plb
     jml 0xC0E08E
+
+_widen_a_list_row:
+"""A list row's name (the copy helper called from C0D6AD) takes NAME_CELLS, not the engine's 8."""
+    rep #0x20
+    lda 0x03, s  ; past this jsr: the engine caller's return address, less one
+    cmp.w #MESSAGE_SPELL_COPY
+    bne _not_a_list_row
+    lda 0x05, s
+    cmp.w #SKILL_LIST_COPY
+    bne _not_a_list_row
+    sep #0x20
+    lda #NAME_CELLS
+    sta.b 0x08
+_not_a_list_row:
+    sep #0x20
+    rts
 
 _for_a_message:
 """Carry set when the copy's caller writes a battle message, which the dialogue font draws, not a panel line."""
@@ -1179,8 +1200,14 @@ _box_end:
     rtl
 
 panel_message_icon:
-"""Past the name the last message copy wrote: a blank, then Nv. for a level ($10 = F3) or the range icon (D5)."""
+"""
+Past the name the last message copy wrote: a blank, then Nv. for a level ($10 = F3) or the range icon (D5). A spell
+list's row takes its level icon at the first blank of its name field, or past it.
+"""
     rep #0x20
+    lda 0x04, s  ; past this call: the engine's call for the icon, less one
+    cmp.w #SPELL_LIST_ICON
+    beq _list_icon
     lda.l panel.message_end
     tax
     sep #0x20
@@ -1206,6 +1233,19 @@ _icon_end:
     sta.b 0x00, x
     inx
     rtl
+_list_icon:
+    sep #0x20
+    ldx.w #LINE
+_name_cell:
+    lda.b 0x00, x
+    cmp #BLANK
+    beq _icon_end_list
+    inx
+    cpx.w #LINE + NAME_CELLS
+    bne _name_cell
+_icon_end_list:
+    lda.b 0x10
+    bra _icon_end
 
 panel_window_font_reloaded:
 """The window font upload overwrites the window slots: upload them again at the next NMI."""
