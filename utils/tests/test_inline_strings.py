@@ -3,7 +3,7 @@ import os
 from unittest import mock
 from unittest.case import TestCase
 
-from a816.program import Program
+from a816.snippet import assemble_source
 from katsuji.script import Table
 
 from utils.cartridge import rom_address
@@ -20,52 +20,26 @@ from utils.inline_strings import (
 TABLE = Table("text/table/mz.tbl")
 
 
-class StubWriter:
-    def __init__(self) -> None:
-        self.data: list[bytes] = []
-
-    def begin(self) -> None:
-        pass
-
-    def write_block_header(self, block: bytes, block_address: int) -> None:
-        pass
-
-    def write_block(self, block: bytes, block_address: int) -> None:
-        self.data.append(block)
-
-    def end(self) -> None:
-        pass
-
-
 class InlineStringTestCase(TestCase):
     def _build_program(self, input_program: str) -> tuple[int, io.BytesIO]:
-        writer = StubWriter()
-        program = Program()
-
-        error, nodes = program.parser.parse(input_program)
-        self.assertIsNone(error)
-        program.resolve_labels(nodes)
-        program.emit(nodes, writer)
+        assembled = assemble_source(input_program)
         # the block assembled at 0x8000 stands for ROM offset 0
-        xref_label = program.resolver.current_scope["xref"]
-        if not isinstance(xref_label, int):
-            self.fail(f"xref resolved to {xref_label!r}")
-        xref = rom_address(xref_label - 0x8000)
-        bytes_io = io.BytesIO(writer.data[0])
-        return xref, bytes_io
+        xref = rom_address(int(assembled.symbols["xref"]) - 0x8000)
+        return xref, io.BytesIO(assembled.blocks[0][1])
 
     def test_dragon_find_address(self) -> None:
         xref, bytes_io = self._build_program(
             """
-        *=0x8000
+        .alloc at 0x8000 {
         lda #0x1d
         sta 0x5e
-        lda #0xdb 
+        lda #0xdb
         sta 0x5f
-        lda #0xc1 
+        lda #0xc1
         sta 0x60
         xref:
         jsr.w 0x0000
+        }
         """
         )
         address, _byte_addr = dragon_find_address(bytes_io, xref)
@@ -75,16 +49,17 @@ class InlineStringTestCase(TestCase):
     def test_dragon_find_address_with_phx(self) -> None:
         xref, bytes_io = self._build_program(
             """
-        *=0x8000
+        .alloc at 0x8000 {
         lda #0x1d
         sta 0x5e
-        lda #0xdb 
+        lda #0xdb
         sta 0x5f
-        lda #0xc1 
+        lda #0xc1
         sta 0x60
         phx
         xref:
         jsr.w 0x0000
+        }
         """
         )
         address, _byte_addr = dragon_find_address(bytes_io, xref)
