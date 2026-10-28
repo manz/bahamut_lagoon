@@ -159,7 +159,7 @@ Tu es tout poisseux de bave de dragon, affirmatif.[end]</data>
         <refs>
             <ref>0x159</ref>
         </refs>
-        <data> Tu parles, que oui !
+        <data> Bien sûr que oui !
  Ça ne te regarde pas[end1]</data>
     </text>
     <text>
@@ -704,7 +704,7 @@ Devenir Dragonnière, tout ça... je ne comprends pas bien...[end]</data>
         <refs>
             <ref>0xa21</ref>
         </refs>
-        <data> Bien sûr, voyons !
+        <data> Bien sûr, princesse !
  Bien sûr, affirmatif !
  Monyo ! (Jamais !)[end1]</data>
     </text>

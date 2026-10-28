@@ -283,7 +283,7 @@ Tu sais comment on fait les bébés ?[end]</data>
             <ref>0xa3b</ref>
         </refs>
         <data> Père Dragon... la ferme !!
- Pas ça... Père Dragon ![end1]</data>
+ Pitié, pas ça, Père Dragon ![end1]</data>
     </text>
     <text>
         <refs>
@@ -450,7 +450,7 @@ La princesse Yoyo va mettre une robe...[end]</data>
         <refs>
             <ref>0x131b</ref>
         </refs>
-        <data>Il s'est passé quelque chose ? Il m'a donné ses articles Matelite en disant ``Je n'en ai plus besoin''...[end]</data>
+        <data>Il s'est passé quelque chose ? Il m'a donné ses produits Matelite en disant ``Je n'en ai plus besoin''...[end]</data>
     </text>
     <text>
         <refs>
@@ -468,7 +468,7 @@ Et puis... avant de retourner au château, repasse me voir !![end]</data>
         </refs>
         <data> Acheter des armes.
  Acheter des armures.
- Acheter des articles Matelite.[end1]</data>
+ Acheter des produits Matelite.[end1]</data>
     </text>
     <text choice="multiple">
         <refs>

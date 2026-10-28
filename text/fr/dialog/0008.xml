@@ -206,7 +206,7 @@ C'est une conversation d'adultes, alors ne nous dérange pas ![end]</data>
         <refs>
             <ref>0x98e</ref>
         </refs>
-        <data> En attente !
+        <data> Pas encore !
  Au combat ![end1]</data>
     </text>
     <text>
@@ -407,7 +407,7 @@ Tu les manges ?[end]</data>
             <ref>0x778</ref>
         </refs>
         <data> Merci beaucoup !
- Monseigneur est occupé ![end1]</data>
+ Le grand Byuu est occupé !![end1]</data>
     </text>
     <text choice="yes_no">
         <refs>
