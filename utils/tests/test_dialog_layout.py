@@ -144,6 +144,14 @@ class DialogLayoutTestCase(TestCase):
         prompt = "Que fais-tu ?\n \n Attaquer\n Fuir[end1]"
         self.assertEqual(self.layout.reflow(prompt, choice=True), "Que fais-tu ?\n \n  Attaquer\n  Fuir[end1]")
 
+    def test_a_choice_s_options_open_a_window_page(self) -> None:
+        prompt = "Que fais-tu ?\n \n Attaquer\n Fuir[end1]"
+        self.assertEqual(self.layout.reflow(prompt, 3, choice=True), "Que fais-tu ?\n\n\n  Attaquer\n  Fuir[end1]")
+
+    def test_a_prompt_over_pages_pads_its_last_one(self) -> None:
+        prompt = "Un.\n\nDeux.\n\nTrois.\n Oui\n Non[end1]"
+        self.assertEqual(self.layout.reflow(prompt, 3, choice=True).split("\n").index("  Oui"), 9)
+
     def test_a_choice_of_options_only_keeps_them(self) -> None:
         self.assertEqual(self.layout.reflow(" Oui\n Non[end1]", choice=True), "  Oui\n  Non[end1]")
 

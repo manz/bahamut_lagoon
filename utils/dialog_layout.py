@@ -150,6 +150,10 @@ class DialogLayout:
         while gap and not lines[gap - 1].strip(" "):
             gap -= 1
         prompt = self.layout.reflow("\n".join(lines[:gap]), page_lines) if gap else None
+        if prompt is not None and page_lines:
+            # the cursor walks the window's lines from the top: the options open a page, as in the Japanese
+            gap = options
+            prompt += "\n" * (-len(prompt.split("\n")) % page_lines)
         rest = typeset(OPTION.sub(OPTION_INDENT, "\n".join(lines[gap:]))) if gap < len(lines) else None
         return "\n".join(part for part in (prompt, rest) if part is not None)
 
