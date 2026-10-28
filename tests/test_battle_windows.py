@@ -326,3 +326,12 @@ def test_the_panel_tilemap_goes_up_after_its_slots(console: Console) -> None:
         emu.remove_callback(CallbackKind.WRITE, callback)
     assert pending
     assert not any(pending)
+
+
+def test_the_skill_window_fits_magie_blanche(console: Console) -> None:
+    console.load("battle-map-cave")
+    for button in (console.button.R, console.button.A, console.button.DOWN, console.button.A):
+        console.tap(button)  # Sendak's squad, Terrain
+        console.emu.run_frames(40)
+    # Magie blanche (59 pixels) took 6 cells: the window grows a tile left, the names take the cursor's blank
+    assert console.matches_golden("battle-terrain-kinds")

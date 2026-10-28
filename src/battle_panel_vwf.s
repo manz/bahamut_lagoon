@@ -83,6 +83,12 @@ WINDOW_SLOTS = 45
 ALL_SLOTS = WINDOW_FIRST + WINDOW_SLOTS
 WINDOW_VRAM = 0x3000  ; BG1 tile 0x300, 8x8 code 0x00, 4bpp
 WINDOW_TILE_BYTES = 32
+SKILL_MENU = 0x64  ; $B0 for a unit's skill window (Terrain's spell kinds, Coup fatal...)
+SKILL_CELLS = 8  ; its names' field: Magie blanche, 59 pixels, took 6 cells
+SKILL_FRAME_CELLS = 9  ; its frame's inner cells, the engine's 8 and one left of them
+FRAME_ROW_BYTES = 0x40  ; a window tilemap row
+SKILL_CURSOR_SHIFT = 15  ; pixels its cursor moves left with the names, clear of the frame
+SKILL_TEXT = 0x44  ; the first name from the frame's corner: a row down, two cells in (the engine's three)
 ROSTER_NAME_CELLS = 7
 ROSTER_CLASS_CELLS = 7
 DRAGON_KIND_CELLS = 9
@@ -270,6 +276,27 @@ PANEL_TILEMAP_WAITS = 4  ; vblanks it waits for its slots to fit with it at most
 ; The panel's tilemap upload (C0E38D: jsr 06D7, its DMA, rts): its slots first, in the same vblank.
 .alloc at 0xC0E38D {
     jml.l panel_bg3_tilemap
+}
+
+; A unit's skill window (C0E1CC, its frame; C0E0B2, its names): a tile wider on the left, the names a tile further
+; left in the blank the cursor left them, 8 cells where they took 6. Its right edge is the screen's.
+.alloc at 0xC0E1CC {
+    jml.l panel_skill_frame  ; was phy / phb / lda #0x7E
+}
+
+.alloc at 0xC0E0B4 {
+    jsl.l panel_skill_text  ; was tya / adc #0x0046 / sta $16
+    nop
+    nop
+}
+
+.alloc at 0xC0E0D1 {
+    .db SKILL_CELLS  ; lda #0x06, a skill's name
+}
+
+.alloc at 0xC0EACC {
+    jsl.l panel_skill_cursor  ; was lda $B7 / sta $0800, y
+    nop
 }
 
 ; The window font upload's last transfer (sta $420B / rts) writes over the window slots.
@@ -1280,6 +1307,78 @@ _dirty_counted:
     plx
     ora.w #0x0000
     rts
+
+panel_skill_frame:
+"""
+C0E1CC's window frame at Y, $B6 rows, $0A cells wide ($14: the tilemap bytes from a row's right corner to the next
+row's left one): a skill window's starts a tile left, SKILL_FRAME_CELLS wide, and its Y stays so for its names. Goes
+on at C0E1E1.
+"""
+    lda.b 0xB0
+    cmp #SKILL_MENU
+    bne _engine_frame
+    dey
+    dey
+    jsr.w _frame_start
+    lda #SKILL_FRAME_CELLS
+    ldx.w #FRAME_ROW_BYTES - ( SKILL_FRAME_CELLS + 2 ) * 2
+    bra _frame_width
+_engine_frame:
+    jsr.w _frame_start
+    lda #0x08
+    ldx.w #0x002C
+_frame_width:
+    sta.b 0x0A
+    stx.b 0x14
+    jml 0xC0E1E1
+
+_frame_start:
+"""C0E1CC's start but its width: phy (under this call's return), phb, DB 7E, $14 Y, $10 the window attribute."""
+    rep #0x20
+    pla
+    phy
+    phb
+    pha
+    sep #0x20
+    lda #0x7E
+    pha
+    plb
+    sty.b 0x14
+    lda #WINDOW_ATTR
+    sta.b 0x10
+    rts
+
+panel_skill_cursor:
+"""A window's cursor X ($B7) into its sprite (0x0800, Y): a skill window's SKILL_CURSOR_SHIFT left, with its names."""
+    lda.b 0xB0
+    cmp #SKILL_MENU
+    bne _engine_cursor
+    lda.b 0xB7
+    sec
+    sbc #SKILL_CURSOR_SHIFT
+    bra _cursor_placed
+_engine_cursor:
+    lda.b 0xB7
+_cursor_placed:
+    sta 0x0800, y
+    rtl
+
+panel_skill_text:
+"""C0E0B4's first name ($16): the frame's corner Y, a row down and three cells in, or SKILL_TEXT in a skill window."""
+    sep #0x20
+    lda.b 0xB0
+    cmp #SKILL_MENU
+    rep #0x21
+    bne _engine_text
+    tya
+    adc.w #SKILL_TEXT
+    bra _text_placed
+_engine_text:
+    tya
+    adc.w #0x0046
+_text_placed:
+    sta.b 0x16
+    rtl
 
 panel_window_tilemap:
 """
