@@ -238,3 +238,20 @@ def test_a_sky_map_keeps_its_clouds(console: Console) -> None:
         console.tap(console.button.A)
     assert lines
     assert bytes(console.emu.vram_read_range(vram, len(MAP_FONT_TILES) * 16)) == clouds
+
+
+def open_terrain_spells(console: Console) -> None:
+    console.load("battle-map-cave")
+    for button in (console.button.R, console.button.R, console.button.A, console.button.DOWN, console.button.A):
+        console.tap(button)  # Yoyo's squad, Terrain
+        console.emu.run_frames(40)
+    console.tap(console.button.A)  # Magie mixte: a spell list, each row a name, its level and its MP
+    console.emu.run_frames(60)
+
+
+def test_spell_description_draws_at_once(console: Console) -> None:
+    open_terrain_spells(console)
+    transfers = console.count_calls("battle_dma_transfer")
+    console.tap(console.button.RIGHT)  # Regard de feu: its description, drawn as the cursor moves
+    assert not transfers  # a char a time took a vblank each: half a second a move
+    assert console.matches_golden("battle-terrain-spell-description")

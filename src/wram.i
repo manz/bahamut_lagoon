@@ -2,10 +2,10 @@
 Console WRAM, as a bss pool: every variable the patch keeps in RAM is reserved here, so the linker checks them
 against each other.
 
-Reservations are pinned where the patch has always kept them. battle_vwf_position (7EBE00) shares its word with
-the field room-event table at 7EB800-7EC3FF (bank DA). The battle owns it: going into a battle the game zeroes
-7EA000-7EBFFF (C04A44), and in kintsuki traces of scenario 00's battle, vanilla and patched, nothing else writes it
-while battle text draws.
+Reservations are pinned where the patch has always kept them. battle_vwf_position and battle_vwf_instant
+(7EBE00-7EBE02) share their bytes with the field room-event table at 7EB800-7EC3FF (bank DA). The battle owns them:
+going into a battle the game zeroes 7EA000-7EBFFF (C04A44), and in kintsuki traces of scenario 00's battle, vanilla
+and patched, nothing else writes them while battle text draws.
 """
 
 

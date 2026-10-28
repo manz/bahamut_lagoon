@@ -13,11 +13,13 @@
 
 
 .reserve battle_vwf_position 2 at 0x7EBE00 in wram  ; battle text pixel position
+.reserve battle_vwf_instant 1 at 0x7EBE02 in wram  ; nonzero: the line goes up whole once drawn, not a char at a time
 
 _BUFFER = 0x7ED000  ; the engine's 2bpp text buffer, three lines of 0x1E 8x16 columns
 _VRAM = 0x4180  ; word address of the buffer's first column
 _LINE_BYTES = 0x1E * 0x20
 _LINES = 3
+_DESCRIPTION_LINE = 0xD745  ; C00959's return address, less one, from the spell list's description (C0D743)
 
 .alloc battle_vwf_reloc in ed_reloc {
 battle_dma_transfer:
@@ -71,10 +73,43 @@ battle_vwf_init:
     stx 0x18
     stx 0x1c
     stz 0x1f
+    sep #0x20
+    sta.l battle_vwf_instant
 
     plp
     plx
     pla
+    rtl
+
+battle_vwf_init_line:
+"""
+battle_vwf_init for a whole line (C00959). The spell list's description is drawn at once: the engine sends its window up
+in one transfer once it is drawn (C0D7CA), where a char at a time took a vblank each and lagged the cursor. Its line is
+blanked first: the blanks padding a shorter description stop short of the last one's end.
+"""
+    jsr.l battle_vwf_init
+    php
+    rep #0x20
+    pha
+    lda 0x07, s  ; past A, P and this call: where C00959 returns to, less one
+    cmp.w #_DESCRIPTION_LINE
+    bne _typed
+    phx
+    lda.w #0x0000
+    ldx.w #_LINE_BYTES - 2
+_blank:
+    sta.l _BUFFER, x
+    dex
+    dex
+    bpl _blank
+    plx
+    sep #0x20
+    lda.b #0x01
+    sta.l battle_vwf_instant
+_typed:
+    rep #0x20
+    pla
+    plp
     rtl
 
 battle_vwf_new_line:
@@ -196,8 +231,11 @@ raw_copy_loop:
 add_letter_length:
         pha
         phx
+        lda.l battle_vwf_instant
+        bne drawn
 ; do the dma transfer before incrementing battle_dma_transfer
         jsr.l battle_dma_transfer
+drawn:
         plx
         pla
         lda.l vwf_font + 16, x
