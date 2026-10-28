@@ -51,6 +51,12 @@ SKILL_LIST_COPY = 0xD6AF  ; the Coup fatal list's call to the spell copy's helpe
 MESSAGE_RANGE = 0xD5  ; the range icon's first half: a spell message's $10 for its range
 SPELL_LIST_ICON = 0xD6B2  ; the spell list row's call for its level icon (jsr C0D6EB), less one: a panel line
 NAME_CELLS = 9  ; a list row's name field, the engine's 8 and the cell before the level icon: 72 pixels
+MP_CELL = 0x0B  ; where C0D774 writes a list row's MP (ldx #0x062B)
+LIST_CURSOR_LEFT = 0xFC  ; a spell list's cursor X a tile left of vanilla's (0x04, 0x7C): -4, its sign in the high table
+LIST_CURSOR_RIGHT = 0x74
+CURSOR_LARGE = 0x80  ; a sprite's high table bits as C0:5300 takes them: large, then large with X's sign
+CURSOR_LARGE_X9 = 0xC0
+OAM_LAST = 0x01FC  ; C0:5300: no sprite past it
 BOX_MARGIN = 2  ; cells a map message box adds past its text: a blank and the prompt arrow
 PLACEHOLDER = 0x01
 BLANK = 0xEF
@@ -86,7 +92,8 @@ WINDOW_TILEMAP_WAITS = 2  ; vblanks it waits for room at most, then goes up anyw
 ; placeholder takes from. slot_run: run * 2. source, window_source: the upload's sources. copy_end: Y as the engine's
 ; copy leaves it. message_end: the line position past the last battle message's name. hint: slot * 2 _find_slot tries
 ; first. first_index, last_index: first and last as slot * 2. line_row, kept: the row whose line is being drawn and the
-; slots it kept. column: the placeholder's tilemap column.
+; slots it kept. column: the placeholder's tilemap column. cursor_x9: nonzero while a spell list's left cursor, past
+; the screen's left edge, is being built.
 .struct PanelVwf {
     byte[( LINE_CELLS + COPY_CELLS ) * TILE_BYTES] line_strip
     byte[LINE_CELLS] line_chars
@@ -115,6 +122,7 @@ WINDOW_TILEMAP_WAITS = 2  ; vblanks it waits for room at most, then goes up anyw
     word line_row
     word kept
     byte column
+    byte cursor_x9
 }
 
 .reserve panel as PanelVwf in sram_work
@@ -167,6 +175,26 @@ WINDOW_TILEMAP_WAITS = 2  ; vblanks it waits for room at most, then goes up anyw
 .alloc at 0xC0D6F5 {
     jsl.l panel_message_icon
     jml 0xC0D717
+}
+
+; A spell list's rows (C0D680) start a tile left, over the blank before each column's cursor, which moves there too
+; (C0EA94): the MP goes a cell further along the line, where it was on screen, and the name and level take the cell.
+.alloc at 0xC0D6B6 {
+    jsl.l panel_list_row  ; was ldy $1C / sty $16
+}
+
+.alloc at 0xC0EA96 {
+    jsl.l panel_list_cursor  ; was lda #0x04 / sta $0800, y
+    nop
+}
+
+.alloc at 0xC0EAA1 {
+    lda.b #LIST_CURSOR_RIGHT
+}
+
+.alloc at 0xC0EB0E {
+    jsl.l panel_cursor_bits  ; was lda #0x80 / jsr C0:5300
+    nop
 }
 
 ; The map's message box copy (C0AB4B: bank A, string Y into the line, its characters in $08, which size the box):
@@ -1246,6 +1274,86 @@ _name_cell:
 _icon_end_list:
     lda.b 0x10
     bra _icon_end
+
+panel_list_row:
+"""
+A spell list row's line, its MP written: the MP a cell further along, then the line drawn a tile left of the row ($16,
+and Y, as vanilla left them). An empty row (FF first) has no MP.
+"""
+    ldx.w #LINE
+    lda.b 0x00, x
+    cmp #0xFF
+    beq _row_placed
+    ldx.w #LINE + MP_CELL
+    lda #BLANK  ; carried into the cell, each cell's character carried into the next
+_mp_cell:
+    xba
+    lda.b 0x00, x
+    xba
+    sta.b 0x00, x
+    xba
+    inx
+    cmp #0xFF
+    bne _mp_cell
+    sta.b 0x00, x
+_row_placed:
+    rep #0x20
+    lda.b 0x1C
+    dec
+    dec
+    sta.b 0x16
+    tay
+    sep #0x20
+    rtl
+
+panel_list_cursor:
+"""A spell list's cursor X: a tile left of vanilla's, the left column's past the screen edge (X's sign set)."""
+    lda #LIST_CURSOR_LEFT
+    sta 0x0800, y
+    lda.b 0xC1
+    and #0x01
+    eor #0x01
+    sta.l panel.cursor_x9
+    rtl
+
+panel_cursor_bits:
+"""
+A cursor's high table bits (C0:5300, which a jsl cannot reach): large, with X's sign for a spell list's left cursor.
+"""
+    lda #CURSOR_LARGE
+    xba
+    lda.l panel.cursor_x9
+    beq _cursor_bits
+    lda #0x00
+    sta.l panel.cursor_x9
+    lda #CURSOR_LARGE_X9
+    xba
+_cursor_bits:
+    xba
+    cpy.w #OAM_LAST
+    bcc _cursor_room
+    dey
+    dey
+    dey
+    dey
+    rtl
+_cursor_room:
+    sty.b 0x12
+    sta.b 0x10
+    ldy.b 0xE6
+    lda 0x0A00, y
+    lsr
+    lsr
+    ora.b 0x10
+    sta 0x0A00, y
+    dec.b 0xFE
+    bne _cursor_counted
+    lda #0x04
+    sta.b 0xFE
+    inc.b 0xE6
+_cursor_counted:
+    ldy.b 0x12
+    rtl
 
 panel_window_font_reloaded:
 """The window font upload overwrites the window slots: upload them again at the next NMI."""
