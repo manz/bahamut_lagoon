@@ -33,6 +33,8 @@ SHADOW_GAP = 1  ; the shadow takes the gap katsuji leaves after a glyph: one mor
 ; in it;
 ; never closer than SMALL_VWF_TAB_GAP to what is drawn.
 ; count, glyph, shift and rows are scratch.
+; resolved: the baked entry the last render copied, 0 if composed. base: a baked entry the next composed string draws
+; over, for one render: the string starts at its pen and its tiles show under the string's.
 ; text: the string, FF-terminated. ink: 1bpp, cell after cell, with a spill cell. tiles: the 2bpp output.
 .struct SmallVwf {
     long source
@@ -51,6 +53,8 @@ SHADOW_GAP = 1  ; the shadow takes the gap katsuji leaves after a glyph: one mor
     byte[SMALL_VWF_MAX_CELLS * 16] tiles
     word rom_tiles
     byte rom
+    word resolved
+    word base
 }
 
 .reserve small_vwf as SmallVwf in sram_c1  ; sram_work holds the panel's slots
@@ -86,7 +90,7 @@ _compose:
     stz.w small_vwf.rom
     rep #0x20
     jsr.w _clear_ink
-    stz.w small_vwf.pen
+    jsr.w _base_pen
     ldx.w #0x0000
 _next_char:
     sep #0x20
@@ -108,9 +112,13 @@ _tab:
 _shade:
     jsr.w _measure
     jsr.w _shade_tiles
+    jsr.w _overlay_base
 _rendered:
     rep #0x30
+    lda.w small_vwf.baked
+    sta.w small_vwf.resolved
     stz.w small_vwf.baked  ; the next string's own
+    stz.w small_vwf.base
     ply
     plx
     pla
@@ -439,6 +447,59 @@ _baked_cells:
     pla
     mvn small_vwf_baked_tiles >> 16, small_vwf >> 16
 _baked:
+    rts
+
+_base_pen:
+"""The pen's first column: the base's pen, else 0."""
+    rep #0x30
+    ldx.w small_vwf.base
+    beq _no_base_pen
+    lda.l ( long_name_tables & 0xFF0000 ) + BakedEntry.pen, x
+    and.w #0x00FF
+    tax
+_no_base_pen:
+    stx.w small_vwf.pen
+    rts
+
+_overlay_base:
+"""The base's tiles ORed into the composed ones, over its cells (max_cells at most); cells reach them at least."""
+    rep #0x30
+    ldx.w small_vwf.base
+    beq _no_base
+    sep #0x20
+    lda.l ( long_name_tables & 0xFF0000 ) + BakedEntry.cells, x
+    cmp.w small_vwf.max_cells
+    bcc _base_cells
+    lda.w small_vwf.max_cells
+_base_cells:
+    cmp.w small_vwf.cells
+    bcc _cells_reached
+    sta.w small_vwf.cells
+_cells_reached:
+    rep #0x20
+    and.w #0x00FF
+    asl
+    asl
+    asl
+    asl
+    sta.w small_vwf.shift  ; the bytes to OR
+    beq _no_base
+    lda.l ( long_name_tables & 0xFF0000 ) + BakedEntry.offset, x
+    clc
+    adc.w #small_vwf_baked_tiles & 0xFFFF
+    tax
+    ldy.w #0x0000
+_overlay:
+    lda.l small_vwf_baked_tiles & 0xFF0000, x
+    ora.w small_vwf.tiles, y
+    sta.w small_vwf.tiles, y
+    inx
+    inx
+    iny
+    iny
+    cpy.w small_vwf.shift
+    bne _overlay
+_no_base:
     rts
 
 _shade_tiles:

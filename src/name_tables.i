@@ -15,7 +15,7 @@ The layout of build.py's generated long_names.s (utils/name_tables.py), which sm
     """A string's baked tiles in small_vwf_baked_tiles."""
     word offset
     byte cells
-    byte unused
+    byte pen  ; the pixel column the string's pen ends at
 }
 
 .struct StaticBaked {

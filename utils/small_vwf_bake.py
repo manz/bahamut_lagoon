@@ -54,6 +54,32 @@ def render(
 ) -> tuple[bytes, int]:
     """The 2bpp tiles of `codes` (MAX_CELLS cells, clear past the last it reaches) and how many cells it reaches,
     kerned with `pairs` when given."""
+    ink, pen = _ink(font, codes, max_cells, pairs)
+    cells = min((pen + 8) >> 3, max_cells)
+    tiles = bytearray(MAX_CELLS * TILE)
+    for byte in range(cells * 8):
+        shadow = ink[byte] >> 1
+        if byte >= 8:
+            shadow |= (ink[byte - 8] & 1) << 7  # the left cell's last column
+        if byte & 7:
+            shadow |= ink[byte - 1]  # the row above
+        shadow &= ~ink[byte] & 0xFF
+        tiles[byte * 2] = ink[byte] | shadow
+        tiles[byte * 2 + 1] = shadow
+    return bytes(tiles), cells
+
+
+def pen(
+    font: bytes, codes: bytes, max_cells: int = MAX_CELLS, pairs: Mapping[tuple[int, int], int] | None = None
+) -> int:
+    """The pixel column render() leaves its pen at: where the game draws what follows the string."""
+    return _ink(font, codes, max_cells, pairs)[1]
+
+
+def _ink(
+    font: bytes, codes: bytes, max_cells: int, pairs: Mapping[tuple[int, int], int] | None
+) -> tuple[bytearray, int]:
+    """The 1bpp ink of `codes`, cell after cell with a spill cell, and the pen past it."""
     ink = bytearray((MAX_CELLS + 1) * 8)
     pen = 0
     previous = None
@@ -72,24 +98,14 @@ def render(
             ink[cell * 8 + row] |= shifted >> 8
             ink[cell * 8 + 8 + row] |= shifted & 0xFF
         pen += glyph[8] + SHADOW_GAP
-    cells = min((pen + 8) >> 3, max_cells)
-    tiles = bytearray(MAX_CELLS * TILE)
-    for byte in range(cells * 8):
-        shadow = ink[byte] >> 1
-        if byte >= 8:
-            shadow |= (ink[byte - 8] & 1) << 7  # the left cell's last column
-        if byte & 7:
-            shadow |= ink[byte - 1]  # the row above
-        shadow &= ~ink[byte] & 0xFF
-        tiles[byte * 2] = ink[byte] | shadow
-        tiles[byte * 2 + 1] = shadow
-    return bytes(tiles), cells
+    return ink, pen
 
 
 @dataclass(frozen=True)
 class Baked:
     offset: int  # into the blob
     cells: int
+    pen: int  # where the pen ends: small_vwf draws a spell list row's level and MP on from there
 
 
 def bake(font: bytes, names: list[bytes], blob: bytearray, offsets: dict[bytes, int]) -> list[Baked]:
@@ -104,7 +120,7 @@ def bake(font: bytes, names: list[bytes], blob: bytearray, offsets: dict[bytes, 
         if tiles not in offsets:
             offsets[tiles] = len(blob)
             blob.extend(tiles)
-        entries.append(Baked(offsets[tiles], cells))
+        entries.append(Baked(offsets[tiles], cells, pen(font, codes, pairs=pairs)))
     if len(blob) > BANK:
         raise ValueError(f"baked names take {len(blob)} bytes, more than a bank")
     return entries
