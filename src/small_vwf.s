@@ -31,7 +31,7 @@ SHADOW_GAP = 1  ; the shadow takes the gap katsuji leaves after a glyph: one mor
 ; shadow reach; callers read no tile past them. chars: the characters drawn. pen: the pixel column of the next glyph.
 ; A SMALL_VWF_TAB and its column move the pen so what follows, up to the next tab, ends at that column, its last shadow
 ; in it;
-; never closer than SMALL_VWF_TAB_GAP to what is drawn. indent: the pen's first column, for one render.
+; never closer than SMALL_VWF_TAB_GAP to what is drawn.
 ; count, glyph, shift and rows are scratch.
 ; text: the string, FF-terminated. ink: 1bpp, cell after cell, with a spill cell. tiles: the 2bpp output.
 .struct SmallVwf {
@@ -51,7 +51,6 @@ SHADOW_GAP = 1  ; the shadow takes the gap katsuji leaves after a glyph: one mor
     byte[SMALL_VWF_MAX_CELLS * 16] tiles
     word rom_tiles
     byte rom
-    byte indent
 }
 
 .reserve small_vwf as SmallVwf in sram_c1  ; sram_work holds the panel's slots
@@ -87,9 +86,7 @@ _compose:
     stz.w small_vwf.rom
     rep #0x20
     jsr.w _clear_ink
-    lda.w small_vwf.indent
-    and.w #0x00FF
-    sta.w small_vwf.pen
+    stz.w small_vwf.pen
     ldx.w #0x0000
 _next_char:
     sep #0x20
@@ -114,9 +111,6 @@ _shade:
 _rendered:
     rep #0x30
     stz.w small_vwf.baked  ; the next string's own
-    sep #0x20
-    stz.w small_vwf.indent
-    rep #0x20
     ply
     plx
     pla

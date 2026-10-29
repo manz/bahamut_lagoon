@@ -54,17 +54,16 @@ MESSAGE_RANGE = 0xD5  ; the range icon's first half: a spell message's $10 for i
 SPELL_LIST_ICON = 0xD6B2  ; the spell list row's call for its level icon (jsr C0D6EB), less one: a panel line
 NAME_CELLS = 9  ; a list row's name field, the engine's 8 and the cell before the level icon: 72 pixels
 ROW_CELLS = 14  ; a spell list row, drawn a tile left of vanilla's: its name, level and MP, up to where its MP ended
-ROW_INDENT = 2  ; pixels before the name: room for the cursor
 ROW_EDGE = ROW_CELLS * 8 - 2  ; the pixel column its MP ends at: room for the right column's cursor
-LEVEL_EDGE = ROW_EDGE - 16  ; the column its level ends at: a two-digit MP (10 pixels) and 6 before it
+LEVEL_EDGE = ROW_EDGE - 13  ; its level's: a two-digit MP (10 pixels, its shadow's column among them) and 3 before it
 ROW_CHARS = 28  ; small_vwf's
 ROW_NAME_CHARS = 17  ; a row's name, then its level and MP: Lancer de lancier, the widest spell name, whole
 ROW_TAB = 0xFB  ; small_vwf's: the rest right-aligned against the column that follows
-LETTER_N = 0xC6
-LETTER_V = 0x75
+LEVEL_NV = 0x9B  ; small_font's Nv, its two letters a pixel closer than as letters (fonts/small_overrides.png)
+DIGIT_BLANK = 0x9C  ; small_font's blank a digit wide: a one-digit level's tens, Nv kept in its column
 DIGIT_ZERO = 0xAF  ; then 1 to 9
-LIST_CURSOR_LEFT = 0xFF  ; a spell list's cursor X, 5 pixels left of vanilla's (0x04, 0x7C), 3 pixels before the
-LIST_CURSOR_RIGHT = 0x77  ; text: -1, its sign in the high table
+LIST_CURSOR_LEFT = 0xFE  ; a spell list's cursor X, 6 pixels left of vanilla's (0x04, 0x7C), 2 pixels before the
+LIST_CURSOR_RIGHT = 0x76  ; text: -2, its sign in the high table
 CURSOR_LARGE = 0x80  ; a sprite's high table bits as C0:5300 takes them: large, then large with X's sign
 CURSOR_LARGE_X9 = 0xC0
 OAM_LAST = 0x01FC  ; C0:5300: no sprite past it
@@ -1596,8 +1595,9 @@ _icon_end_list:
 panel_list_row:
 """
 A spell list row, its name kept (panel.row_text), its level ($19, FF: none) and MP ($1B, 0: none) known: one string
-through small_vwf, the name, then Nv and the level right-aligned against LEVEL_EDGE, the MP against ROW_EDGE, drawn a
-tile left of the row ($16, and Y, as vanilla left them), from the list's slots too. An empty row (FF first) has none.
+through small_vwf, the name, then Nv and the level, two digits wide, right-aligned against LEVEL_EDGE and the MP
+against ROW_EDGE, drawn a tile left of the row ($16, and Y, as vanilla left them), from the list's slots too. An empty
+row (FF first) has none.
 """
     ldx.w #LINE
     lda.b 0x00, x
@@ -1618,12 +1618,16 @@ tile left of the row ($16, and Y, as vanilla left them), from the list's slots t
     lda #LEVEL_EDGE
     sta.l panel.row_text, x
     inx
-    lda #LETTER_N
+    lda #LEVEL_NV
     sta.l panel.row_text, x
     inx
-    lda #LETTER_V
+    lda.b 0x19
+    cmp #10
+    bcs _tens
+    lda #DIGIT_BLANK
     sta.l panel.row_text, x
     inx
+_tens:
     lda.b 0x19
     jsr.w _put_number
 _no_level:
@@ -1667,8 +1671,6 @@ _render_row:
     sta.l small_vwf.max_chars
     lda #ROW_CELLS
     sta.l small_vwf.max_cells
-    lda #ROW_INDENT
-    sta.l small_vwf.indent
     jsl.l small_vwf_render
     ldx.w #LINE
     lda #ROW_CELLS
