@@ -251,7 +251,7 @@ def open_terrain_spells(console: Console) -> None:
 
 def test_spell_list_rows_show_the_level(console: Console) -> None:
     open_terrain_spells(console)
-    # Lv and the level at the first blank past the name, as vanilla: the battle message's icon hook had dropped them
+    # Nv and the level past the name: the battle message's icon hook had dropped them
     assert console.matches_golden("battle-terrain-spells")
 
 

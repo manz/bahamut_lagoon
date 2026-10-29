@@ -59,7 +59,7 @@ ROW_EDGE = ROW_CELLS * 8 - 2  ; the pixel column its MP ends at: room for the ri
 ROW_CHARS = 28  ; small_vwf's
 ROW_NAME_CHARS = 17  ; a row's name, then its level and MP: Lancer de lancier, the widest spell name, whole
 ROW_TAB = 0xFB  ; small_vwf's: the rest right-aligned against the column that follows
-LETTER_L = 0xC4
+LETTER_N = 0xC6
 LETTER_V = 0x75
 DIGIT_ZERO = 0xAF  ; then 1 to 9
 LIST_CURSOR_LEFT = 0xFF  ; a spell list's cursor X, 5 pixels left of vanilla's (0x04, 0x7C), 3 pixels before the
@@ -1595,7 +1595,7 @@ _icon_end_list:
 panel_list_row:
 """
 A spell list row, its name kept (panel.row_text), its level ($19, FF: none) and MP ($1B, 0: none) known: one string
-through small_vwf, the name, Lv and the level packed, the MP right-aligned against ROW_EDGE, drawn a tile left of the
+through small_vwf, the name, Nv and the level packed, the MP right-aligned against ROW_EDGE, drawn a tile left of the
 row ($16, and Y, as vanilla left them) and from the list's slots too. An empty row (FF first) has neither.
 """
     ldx.w #LINE
@@ -1614,7 +1614,7 @@ row ($16, and Y, as vanilla left them) and from the list's slots too. An empty r
     lda #BLANK
     sta.l panel.row_text, x
     inx
-    lda #LETTER_L
+    lda #LETTER_N
     sta.l panel.row_text, x
     inx
     lda #LETTER_V
