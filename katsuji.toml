@@ -2,13 +2,14 @@
 
 # katsuji's sumi 8x8 font on the 8x8 text codes: text/table/small.tbl is mz.tbl without the accented capitals and
 # the icons it doesn't draw, so the 8x8 strings encoded on it write their base letters. The overrides add the narrow
-# colon at battle.tbl's 0x30 and our Œ ligature.
+# colon at battle.tbl's 0x30, our Œ ligature and the spell lists' Nv at 0x9B; 0x9C draws nothing and advances a digit's
+# width, a level's tens when it has none.
 [fonts.small]
 builtin = "sumi/8"
 table = "text/table/small.tbl"
 overrides = "fonts/small_overrides.png"
 output = "assets/small_font.dat"
-widths = { "0xEF" = 3 }
+widths = { "0xEF" = 3, "0x9C" = 4 }
 
 # katsuji's sumi 8x16 font: dialog, battle messages, item descriptions and the load screen draw it (assets/vwf.bin).
 # The overrides add our « » (mz.tbl's `` '') and the ✚ ⏱ icons. D9-DF draw nothing and advance 1 to 7 pixels: the last

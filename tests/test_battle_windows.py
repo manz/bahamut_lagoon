@@ -238,3 +238,113 @@ def test_a_sky_map_keeps_its_clouds(console: Console) -> None:
         console.tap(console.button.A)
     assert lines
     assert bytes(console.emu.vram_read_range(vram, len(MAP_FONT_TILES) * 16)) == clouds
+
+
+def open_terrain_spells(console: Console) -> None:
+    console.load("battle-map-cave")
+    for button in (console.button.R, console.button.R, console.button.A, console.button.DOWN, console.button.A):
+        console.tap(button)  # Yoyo's squad, Terrain
+        console.emu.run_frames(40)
+    console.tap(console.button.A)  # Magie mixte: a spell list, each row a name, its level and its MP
+    console.emu.run_frames(60)
+
+
+def test_spell_list_rows_show_the_level(console: Console) -> None:
+    open_terrain_spells(console)
+    # Nv and the level past the name: the battle message's icon hook had dropped them
+    assert console.matches_golden("battle-terrain-spells")
+
+
+def test_spell_description_draws_at_once(console: Console) -> None:
+    open_terrain_spells(console)
+    transfers = console.count_calls("battle_dma_transfer")
+    console.tap(console.button.RIGHT)  # Regard de feu: its description, drawn as the cursor moves
+    assert not transfers  # a char a time took a vblank each: half a second a move
+    assert console.matches_golden("battle-terrain-spell-description")
+
+
+LIST_START = 0xC0D640  # C0D640: a spell list's rows, $C2 the first entry, $C3 how many
+LIST_COUNT = 0x7E01C3
+LIST_FIRST = 0x7E01C2
+LIST_ENTRIES = 0x7E0010  # 2 bytes an entry: the spell, its level
+WIDEST_SPELLS = (0xB4, 0xD4, 0x44, 0xE4, 0x9E, 0xEB, 0x23, 0x82)  # Lancer de lancier, Jugement céleste...
+LEVELS = (40, 7, 99, 1)
+
+
+def test_a_full_spell_list_draws_every_row_whole(console: Console) -> None:
+    """Eight of the widest names, two-digit levels: their rows outgrow the panel's slots, the list borrows the battle
+    message's first line."""
+    console.load("battle-map-cave")
+    for button in (console.button.R, console.button.R, console.button.A, console.button.DOWN, console.button.A):
+        console.tap(button)
+        console.emu.run_frames(40)
+    emu = console.emu
+
+    def fill(address: int, value: int = 0) -> None:
+        emu.write(LIST_COUNT, len(WIDEST_SPELLS))
+        entries = LIST_ENTRIES + emu.read(LIST_FIRST) * 4
+        for index, spell in enumerate(WIDEST_SPELLS):
+            emu.write_range(entries + 2 * index, bytes([spell, LEVELS[index % len(LEVELS)]]))
+
+    callback = emu.add_exec_callback(LIST_START, LIST_START, fill)
+    try:
+        console.tap(console.button.A)
+        emu.run_frames(60)
+    finally:
+        emu.remove_callback(CallbackKind.EXEC, callback)
+    assert console.matches_golden("battle-terrain-spells-full")
+
+
+PANEL_TILEMAP = 0x7EC000  # C0E38D's DMA source: the panel's BG3 tilemap
+PANEL_RUNS = 0x07  # panel.dirty: the panel's runs and the spell list's
+
+
+def test_the_panel_tilemap_goes_up_after_its_slots(console: Console) -> None:
+    """
+    The main loop draws the panel's lines over lag frames, whose NMIs leave the slots behind: the tilemap sent first
+    showed the roster's names in the list's rows, and back (panel_bg3_tilemap).
+    """
+    console.load("battle-map-cave")
+    for button in (console.button.R, console.button.R, console.button.A, console.button.DOWN, console.button.A):
+        console.tap(button)
+        console.emu.run_frames(40)
+    emu = console.emu
+    dirty = symbol("panel.dirty")
+    pending: list[int] = []
+
+    def sent(address: int, value: int) -> None:
+        source = emu.read(0x004302) | emu.read(0x004303) << 8 | emu.read(0x004304) << 16
+        if value & 1 and source == PANEL_TILEMAP:
+            pending.append(emu.read(dirty) & PANEL_RUNS)
+
+    callback = emu.add_write_callback(MDMAEN, MDMAEN, sent)
+    try:
+        for button in (console.button.A, console.button.B):  # the spell list, then the roster again
+            console.tap(button)
+            emu.run_frames(60)
+    finally:
+        emu.remove_callback(CallbackKind.WRITE, callback)
+    assert pending
+    assert not any(pending)
+
+
+def test_the_skill_window_fits_magie_blanche(console: Console) -> None:
+    console.load("battle-map-cave")
+    for button in (console.button.R, console.button.A, console.button.DOWN, console.button.A):
+        console.tap(button)  # Sendak's squad, Terrain
+        console.emu.run_frames(40)
+    # Magie blanche (59 pixels) took 6 cells: the window grows a tile left, the names take the cursor's blank
+    assert console.matches_golden("battle-terrain-kinds")
+
+
+def test_a_closed_window_gives_its_slots_back(console: Console) -> None:
+    """Sendak's Terrain window, then back to the map: its rows kept their slots, never drawn again, and the START menu
+    after it ran out, Mode audio blank."""
+    console.load("battle-map-cave")
+    for button in (console.button.R, console.button.A, console.button.DOWN, console.button.A, console.button.B):
+        console.tap(button)
+        console.emu.run_frames(40)
+    for button in (console.button.B, console.button.START):
+        console.tap(button)
+        console.emu.run_frames(60)
+    assert console.matches_golden("battle-start-menu-after-commands")

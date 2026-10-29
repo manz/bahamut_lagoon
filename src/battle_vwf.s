@@ -1,6 +1,7 @@
 """Battle message variable-width font: hooks into the battle text renderer."""
 
 .extern battle_vwf_init
+.extern battle_vwf_init_line
 .extern battle_vwf_char
 .extern battle_vwf_new_line
 .extern battle_vwf_clear_window
@@ -43,8 +44,9 @@ return_from_battle_vwf_char:
 .alloc at 0xC07BDE {
     rts
 }
+; A whole line (C00959) draws a char at a time too, unless battle_vwf_init_line finds it's the spell list's description.
 .alloc at 0xC00961 {
-    jsr.l battle_vwf_init
+    jsr.l battle_vwf_init_line
 }
 .alloc at 0xC07B46 {
     jmp.l battle_vwf_new_line

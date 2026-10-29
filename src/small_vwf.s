@@ -19,14 +19,19 @@ panel's static strings at build time (utils/small_vwf_bake.py): their tiles are 
 .extern small_vwf_baked_tiles
 
 
-SMALL_VWF_MAX_CELLS = 12
-SMALL_VWF_MAX_CHARS = 24
+SMALL_VWF_MAX_CELLS = 14  ; a spell list's row, its name, level and MP
+SMALL_VWF_MAX_CHARS = 28
+SMALL_VWF_TAB = 0xFB  ; then a pixel column: what follows ends there, right-aligned (no code draws 0xFB)
+SMALL_VWF_TAB_GAP = 3  ; pixels a tab leaves at least after what is drawn, its shadow's column among them
 STATIC_BANK = 0xFD  ; build.py's battle commands and messages: small_vwf_static_baked has their entries
 SHADOW_GAP = 1  ; the shadow takes the gap katsuji leaves after a glyph: one more pixel keeps letters apart
 
 ; source: the string, FF or FE ends it. baked: the string's baked entry, for one render: a caller's, or a
 ; long_name_tables record's; 0 composes it. max_cells: out of SMALL_VWF_MAX_CELLS. cells: the cells the ink and its
 ; shadow reach; callers read no tile past them. chars: the characters drawn. pen: the pixel column of the next glyph.
+; A SMALL_VWF_TAB and its column move the pen so what follows, up to the next tab, ends at that column, its last shadow
+; in it;
+; never closer than SMALL_VWF_TAB_GAP to what is drawn.
 ; count, glyph, shift and rows are scratch.
 ; text: the string, FF-terminated. ink: 1bpp, cell after cell, with a spill cell. tiles: the 2bpp output.
 .struct SmallVwf {
@@ -48,7 +53,7 @@ SHADOW_GAP = 1  ; the shadow takes the gap katsuji leaves after a glyph: one mor
     byte rom
 }
 
-.reserve small_vwf as SmallVwf in sram_work
+.reserve small_vwf as SmallVwf in sram_c1  ; sram_work holds the panel's slots
 
 
 .alloc small_vwf_code in expansion {
@@ -64,7 +69,7 @@ how many cells it reaches. Any register sizes; all registers, DB and P are kept.
     phx
     phy
     jsr.w _copy_text
-    pea.w ( SRAM_WORK_START >> 16 ) * 0x0101
+    pea.w ( small_vwf >> 16 ) * 0x0101
     plb
     plb
     rep #0x20
@@ -88,9 +93,16 @@ _next_char:
     lda.w small_vwf.text, x
     cmp #0xFF
     beq _shade
+    cmp #SMALL_VWF_TAB
+    beq _tab
     phx
     jsr.w _draw_glyph
     plx
+    inx
+    bra _next_char
+_tab:
+    inx
+    jsr.w _tab_pen
     inx
     bra _next_char
 _shade:
@@ -285,6 +297,59 @@ _shifted:
     adc.w small_vwf.pen
     sta.w small_vwf.pen
 _no_room:
+    rts
+
+_tab_pen:
+"""
+The pen at column small_vwf.text[X], less the advances of the characters past it up to the next tab or the end, or
+SMALL_VWF_TAB_GAP past where it is if that is further. Keeps X.
+"""
+    rep #0x20
+    phx
+    lda.w small_vwf.text, x
+    and.w #0x00FF
+    sta.w small_vwf.shift  ; the column, less each advance
+    txy
+_rest:
+    iny
+    lda.w small_vwf.text, y
+    and.w #0x00FF
+    cmp.w #0x00FF
+    beq _rest_measured
+    cmp.w #SMALL_VWF_TAB
+    beq _rest_measured  ; the next tab places what follows it
+    sta.w small_vwf.glyph
+    asl
+    asl
+    asl
+    clc
+    adc.w small_vwf.glyph
+    tax  ; X: glyph record, code * 9
+    lda.l small_font + 8, x  ; its advance width
+    and.w #0x00FF
+    clc
+    adc.w #SHADOW_GAP
+    sta.w small_vwf.glyph
+    lda.w small_vwf.shift
+    sec
+    sbc.w small_vwf.glyph
+    sta.w small_vwf.shift
+    bra _rest
+_rest_measured:
+    plx
+    lda.w small_vwf.pen
+    clc
+    adc.w #SMALL_VWF_TAB_GAP
+    sta.w small_vwf.glyph  ; the nearest the rest may start
+    lda.w small_vwf.shift
+    bmi _tab_gap
+    cmp.w small_vwf.glyph
+    bcs _tab_set
+_tab_gap:
+    lda.w small_vwf.glyph
+_tab_set:
+    sta.w small_vwf.pen
+    sep #0x20
     rts
 
 _measure:
