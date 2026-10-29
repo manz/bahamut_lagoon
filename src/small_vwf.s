@@ -22,14 +22,15 @@ panel's static strings at build time (utils/small_vwf_bake.py): their tiles are 
 SMALL_VWF_MAX_CELLS = 14  ; a spell list's row, its name, level and MP
 SMALL_VWF_MAX_CHARS = 28
 SMALL_VWF_TAB = 0xFB  ; then a pixel column: what follows ends there, right-aligned (no code draws 0xFB)
-SMALL_VWF_TAB_GAP = 2  ; pixels a tab leaves at least after what is drawn
+SMALL_VWF_TAB_GAP = 3  ; pixels a tab leaves at least after what is drawn, its shadow's column among them
 STATIC_BANK = 0xFD  ; build.py's battle commands and messages: small_vwf_static_baked has their entries
 SHADOW_GAP = 1  ; the shadow takes the gap katsuji leaves after a glyph: one more pixel keeps letters apart
 
 ; source: the string, FF or FE ends it. baked: the string's baked entry, for one render: a caller's, or a
 ; long_name_tables record's; 0 composes it. max_cells: out of SMALL_VWF_MAX_CELLS. cells: the cells the ink and its
 ; shadow reach; callers read no tile past them. chars: the characters drawn. pen: the pixel column of the next glyph.
-; A SMALL_VWF_TAB and its column move the pen so the rest of the string ends at that column, its last shadow in it;
+; A SMALL_VWF_TAB and its column move the pen so what follows, up to the next tab, ends at that column, its last shadow
+; in it;
 ; never closer than SMALL_VWF_TAB_GAP to what is drawn. indent: the pen's first column, for one render.
 ; count, glyph, shift and rows are scratch.
 ; text: the string, FF-terminated. ink: 1bpp, cell after cell, with a spill cell. tiles: the 2bpp output.
@@ -306,8 +307,8 @@ _no_room:
 
 _tab_pen:
 """
-The pen at column small_vwf.text[X], less the advances of the characters past it, or SMALL_VWF_TAB_GAP past where it
-is if that is further. Keeps X.
+The pen at column small_vwf.text[X], less the advances of the characters past it up to the next tab or the end, or
+SMALL_VWF_TAB_GAP past where it is if that is further. Keeps X.
 """
     rep #0x20
     phx
@@ -321,6 +322,8 @@ _rest:
     and.w #0x00FF
     cmp.w #0x00FF
     beq _rest_measured
+    cmp.w #SMALL_VWF_TAB
+    beq _rest_measured  ; the next tab places what follows it
     sta.w small_vwf.glyph
     asl
     asl

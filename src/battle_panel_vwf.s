@@ -56,6 +56,7 @@ NAME_CELLS = 9  ; a list row's name field, the engine's 8 and the cell before th
 ROW_CELLS = 14  ; a spell list row, drawn a tile left of vanilla's: its name, level and MP, up to where its MP ended
 ROW_INDENT = 2  ; pixels before the name: room for the cursor
 ROW_EDGE = ROW_CELLS * 8 - 2  ; the pixel column its MP ends at: room for the right column's cursor
+LEVEL_EDGE = ROW_EDGE - 16  ; the column its level ends at: a two-digit MP (10 pixels) and 6 before it
 ROW_CHARS = 28  ; small_vwf's
 ROW_NAME_CHARS = 17  ; a row's name, then its level and MP: Lancer de lancier, the widest spell name, whole
 ROW_TAB = 0xFB  ; small_vwf's: the rest right-aligned against the column that follows
@@ -1595,8 +1596,8 @@ _icon_end_list:
 panel_list_row:
 """
 A spell list row, its name kept (panel.row_text), its level ($19, FF: none) and MP ($1B, 0: none) known: one string
-through small_vwf, the name, Nv and the level packed, the MP right-aligned against ROW_EDGE, drawn a tile left of the
-row ($16, and Y, as vanilla left them) and from the list's slots too. An empty row (FF first) has neither.
+through small_vwf, the name, then Nv and the level right-aligned against LEVEL_EDGE, the MP against ROW_EDGE, drawn a
+tile left of the row ($16, and Y, as vanilla left them), from the list's slots too. An empty row (FF first) has none.
 """
     ldx.w #LINE
     lda.b 0x00, x
@@ -1611,7 +1612,10 @@ row ($16, and Y, as vanilla left them) and from the list's slots too. An empty r
     lda.b 0x19
     cmp #0xFF
     beq _no_level
-    lda #BLANK
+    lda #ROW_TAB
+    sta.l panel.row_text, x
+    inx
+    lda #LEVEL_EDGE
     sta.l panel.row_text, x
     inx
     lda #LETTER_N
