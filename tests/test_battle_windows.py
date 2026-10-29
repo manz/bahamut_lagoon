@@ -296,6 +296,8 @@ def test_a_full_spell_list_draws_every_row_whole(console: Console) -> None:
 
 
 PANEL_TILEMAP = 0x7EC000  # C0E38D's DMA source: the panel's BG3 tilemap
+WINDOW_TILEMAP = 0x7E4000  # C0AA9E's DMA source: a window's tilemap
+WINDOW_RUNS = 0x38  # the windows' runs in panel.dirty
 PANEL_RUNS = 0x07  # panel.dirty: the panel's runs and the spell list's
 
 
@@ -322,6 +324,34 @@ def test_the_panel_tilemap_goes_up_after_its_slots(console: Console) -> None:
         for button in (console.button.A, console.button.B):  # the spell list, then the roster again
             console.tap(button)
             emu.run_frames(60)
+    finally:
+        emu.remove_callback(CallbackKind.WRITE, callback)
+    assert pending
+    assert not any(pending)
+
+
+def test_a_window_tilemap_goes_up_after_its_slots(console: Console) -> None:
+    """
+    An enemy unit's notice: its text is drawn in the window's slots before C0AA9E sends the tilemap, which went up
+    first and showed what the slots held before for a few frames (panel_window_tilemap).
+    """
+    console.load("battle-map-cave")
+    for button in (console.button.UP,) * 4 + (console.button.LEFT,):
+        console.tap(button)
+        console.emu.run_frames(12)
+    emu = console.emu
+    dirty = symbol("panel.dirty")
+    pending: list[int] = []
+
+    def sent(address: int, value: int) -> None:
+        source = emu.read(0x004302) | emu.read(0x004303) << 8 | emu.read(0x004304) << 16
+        if value & 1 and source == WINDOW_TILEMAP:
+            pending.append(emu.read(dirty) & WINDOW_RUNS)
+
+    callback = emu.add_write_callback(MDMAEN, MDMAEN, sent)
+    try:
+        console.tap(console.button.A)  # Unité ennemie.
+        emu.run_frames(30)
     finally:
         emu.remove_callback(CallbackKind.WRITE, callback)
     assert pending

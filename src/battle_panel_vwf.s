@@ -1438,16 +1438,20 @@ _text_placed:
 panel_window_tilemap:
 """
 C0AA9E's DMA, a window's tilemap to VRAM on channel 0 as the NMI leaves it, sent by the main loop right after an NMI:
-it ends in vblank only while that NMI was short. When the rest of the vblank cannot hold it, the next NMI holds the
-panel's runs back (panel_hold) and it goes up right after that one. Leaves A 0x01 and X the VRAM address, as C0AA9E.
+it ends in vblank only while that NMI was short. The dirty runs go first, in the same vblank: the window's text is
+drawn before its tilemap goes up, and sent alone the tilemap would show other text in its slots for frames. When the
+rest of the vblank cannot hold them, the next NMI holds the panel's runs back (panel_hold) and they go up right after
+that one. Leaves A 0x01 and X the VRAM address, as C0AA9E.
 """
     php
     rep #0x30
     pea.w WINDOW_TILEMAP_WAITS
 _tilemap_try:
-    lda.w #WINDOW_TILEMAP_BYTES
+    jsr.w _dirty_bytes
+    clc
+    adc.w #WINDOW_TILEMAP_BYTES
     jsl.l dma_fits_vblank
-    bcc _tilemap_send
+    bcc _window_runs_send
     lda 0x01, s
     beq _tilemap_send  ; still no room: as vanilla
     dec
@@ -1458,6 +1462,10 @@ _tilemap_try:
     rep #0x20
     jsl.l await_vblank
     bra _tilemap_try
+_window_runs_send:
+    lda.w #0xFFFF
+    sta.l panel.budget
+    jsr.w _upload_dirty
 _tilemap_send:
     pla
     lda.w #WINDOW_TILEMAP & 0xFFFF
