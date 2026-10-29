@@ -755,6 +755,9 @@ _drawn:
     sta.l panel.row
     jsr.w _find_slot
     bcs _slot_found
+    jsr.w _reclaim_slots
+    jsr.w _find_slot
+    bcs _slot_found
     plx
     sep #0x20
     lda #BLANK
@@ -887,6 +890,58 @@ _have:
     txa
     lsr
     sec
+    rts
+
+_reclaim_slots:
+"""
+Free the slots of panel.first..last whose cell no longer shows them, held by rows other than panel.row: a window closes
+without its rows being drawn again, and its slots stayed theirs. 16-bit A and X on return.
+"""
+    rep #0x30
+    lda.l panel.last
+    sta.l panel.slot
+_reclaim:
+    lda.l panel.slot
+    dec
+    bmi _reclaimed
+    cmp.l panel.first
+    bcc _reclaimed
+    sta.l panel.slot
+    asl
+    tax
+    lda.l panel.pool_owner, x
+    beq _reclaim
+    cmp.l panel.row
+    beq _reclaim
+    dec  ; the row's tilemap address in bank 7E: (row + 1 - 1) * 64
+    asl
+    asl
+    asl
+    asl
+    asl
+    asl
+    pha
+    lda.l panel.slot
+    tax
+    lda.l panel.pool_cell, x
+    and.w #0x00FF
+    asl
+    clc
+    adc 0x01, s
+    sta 0x01, s  ; the cell's
+    lda.l panel.slot
+    jsr.w _slot_code
+    plx
+    cmp 0x7E0000, x
+    rep #0x20
+    beq _reclaim  ; still shown
+    lda.l panel.slot
+    asl
+    tax
+    lda.w #0x0000
+    sta.l panel.pool_owner, x
+    bra _reclaim
+_reclaimed:
     rts
 
 _free_below:

@@ -335,3 +335,16 @@ def test_the_skill_window_fits_magie_blanche(console: Console) -> None:
         console.emu.run_frames(40)
     # Magie blanche (59 pixels) took 6 cells: the window grows a tile left, the names take the cursor's blank
     assert console.matches_golden("battle-terrain-kinds")
+
+
+def test_a_closed_window_gives_its_slots_back(console: Console) -> None:
+    """Sendak's Terrain window, then back to the map: its rows kept their slots, never drawn again, and the START menu
+    after it ran out, Mode audio blank."""
+    console.load("battle-map-cave")
+    for button in (console.button.R, console.button.A, console.button.DOWN, console.button.A, console.button.B):
+        console.tap(button)
+        console.emu.run_frames(40)
+    for button in (console.button.B, console.button.START):
+        console.tap(button)
+        console.emu.run_frames(60)
+    assert console.matches_golden("battle-start-menu-after-commands")
