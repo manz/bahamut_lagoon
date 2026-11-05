@@ -159,6 +159,7 @@ PANEL_TILEMAP_WAITS = 4  ; vblanks it waits for its slots to fit with it at most
     byte place
     byte started
     word budget
+    word list_baked
 }
 
 .reserve panel as PanelVwf in sram_work
@@ -384,7 +385,10 @@ _not_a_list_row:
     rts
 
 _keep_list_name:
-"""A spell list row's name, which small_vwf just resolved: its codes to panel.row_text, ROW_NAME_CHARS at most."""
+"""
+A spell list row's name, which small_vwf just resolved: its codes to panel.row_text, ROW_NAME_CHARS at most, and its
+baked entry to panel.list_baked.
+"""
     lda.l panel.list_name
     beq _list_name_kept
     lda #0x00
@@ -403,6 +407,8 @@ _name_end:
     rep #0x20
     txa
     sta.l panel.row_end
+    lda.l small_vwf.resolved
+    sta.l panel.list_baked
     sep #0x20
     plx
 _list_name_kept:
@@ -1668,12 +1674,25 @@ _row_placed:
     rtl
 
 _render_row:
-"""panel.row_text into the line's first ROW_CELLS cells, FF past them; a cell with no ink stays blank, slotless."""
+"""
+panel.row_text into the line's first ROW_CELLS cells, FF past them; a cell with no ink stays blank, slotless. A baked
+name (panel.list_baked) is copied, kerned, and only what follows it drawn, over it.
+"""
     lda #panel.row_text >> 16
     sta.l small_vwf.source + 2
     rep #0x20
     lda.w #panel.row_text & 0xFFFF
     sta.l small_vwf.source
+    lda.l panel.list_baked
+    beq _row_composed
+    sta.l small_vwf.base
+    lda.w #panel.row_text & 0xFFFF
+    clc
+    adc.l panel.row_end
+    sta.l small_vwf.source
+    lda.w #0x0000
+    sta.l panel.list_baked
+_row_composed:
     sep #0x20
     lda #ROW_CHARS
     sta.l small_vwf.max_chars

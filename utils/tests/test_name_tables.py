@@ -101,7 +101,7 @@ class LongNamesSourceTestCase(TestCase):
     def test_every_name_has_a_baked_entry(self) -> None:
         source = long_names_source(TABLE, FONT, [TABLE.to_bytes("NV")])[0]
         entries = source.split("_class_names_baked:\n")[1].splitlines()
-        self.assertRegex(entries[0], r"^    \.istruct BakedEntry \{ offset = 0x[0-9A-F]{4}, cells = \d+ \}$")
+        self.assertRegex(entries[0], r"^    \.istruct BakedEntry \{ offset = 0x[0-9A-F]{4}, cells = \d+, pen = \d+ \}$")
 
     def test_identical_names_share_their_tiles(self) -> None:
         source, blob = long_names_source(TABLE, FONT, [TABLE.to_bytes("NV")])
@@ -113,7 +113,7 @@ class LongNamesSourceTestCase(TestCase):
         source = long_names_source(TABLE, FONT, [TABLE.to_bytes("NV")])[0]
         self.assertRegex(
             source.split("small_vwf_inline_baked:\n")[1],
-            r"^    \.istruct BakedEntry \{ offset = 0x[0-9A-F]{4}, cells = 2 \}\n",
+            r"^    \.istruct BakedEntry \{ offset = 0x[0-9A-F]{4}, cells = 2, pen = 10 \}\n",
         )  # two 4-pixel glyphs and their gaps
 
 

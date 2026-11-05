@@ -112,7 +112,7 @@ def insert_item_names(writer: Writer, table: Table) -> None:
 
 
 def baked_fields(baked: Baked) -> str:
-    return f"offset = 0x{baked.offset:04X}, cells = {baked.cells}"
+    return f"offset = 0x{baked.offset:04X}, cells = {baked.cells}, pen = {baked.pen}"
 
 
 def baked_entry(baked: Baked) -> list[str]:
